@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "notion_zotero"
+version = "0.1.0"
+description = "Notion ↔ Zotero extraction and canonicalization toolkit"
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [ {name = "Ricardo Santos"} ]
+dependencies = [
+  "notion-client",
+  "python-dotenv",
+  "pydantic>=2",
+  "pytest; extra == 'test'"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+export-reading-list = "src.scripts.export_reading_list:main"
+import-reading-list = "src.services.reading_list_importer:main"
