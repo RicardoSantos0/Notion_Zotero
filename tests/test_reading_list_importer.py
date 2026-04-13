@@ -1,5 +1,6 @@
 from pathlib import Path
 from src.services.reading_list_importer import parse_fixture
+import json
 
 
 def test_parse_single_fixture():
@@ -12,13 +13,18 @@ def test_parse_single_fixture():
     assert isinstance(out, dict)
     assert "references" in out and isinstance(out["references"], list)
     assert out["references"][0]["id"] == page_id
- import json
- from pathlib import Path
 
- def test_models_importable():
-     # smoke test: create a simple reference dict and ensure serialization works
-     sample = {"references": [{"id": "page_1", "title": "Sample"}], "tasks": [], "reference_tasks": [], "task_extractions": [], "annotations": [], "workflow_states": []}
-     p = Path("fixtures/canonical/test_sample.canonical.json")
-     p.parent.mkdir(parents=True, exist_ok=True)
-     p.write_text(json.dumps(sample, ensure_ascii=False, indent=2), encoding="utf-8")
-     assert p.exists()
+
+def test_models_importable(tmp_path):
+    # smoke test: create a simple canonical file and ensure it can be written
+    sample = {
+        "references": [{"id": "page_1", "title": "Sample"}],
+        "tasks": [],
+        "reference_tasks": [],
+        "task_extractions": [],
+        "annotations": [],
+        "workflow_states": [],
+    }
+    p = tmp_path / "test_sample.canonical.json"
+    p.write_text(json.dumps(sample, ensure_ascii=False, indent=2), encoding="utf-8")
+    assert p.exists()
