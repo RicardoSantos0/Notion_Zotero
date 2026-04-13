@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b5887547",
+      "id": "ex_8ad20f00",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_763fe4ab",
+      "id": "an_29e9fc47",
       "reference_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
       "text": "MOOCs have plenty of flexibility when it comes to the learning paths they wish to pursue. This great flexibility gives plenty of options to students and current course recommenders tend to rely on previous courses to suggest good next steps. However, these recommenders do not account for student knowledge.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_d58c65b5",
+      "id": "an_37549a71",
       "reference_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
       "text": "Authors propose a knowledge-aware recommendation that uses historical enrollments and learning feedback. The model uses a Knowledge graph to represent a learning sequence. The Learning sequence was combined with learning feedback to extract the students’ knowledge. Finally, an Attention module is used to predict the probability of enrolling in a course. Comparison with other baselines show that method can recommend MOOCs.",
       "provenance": {

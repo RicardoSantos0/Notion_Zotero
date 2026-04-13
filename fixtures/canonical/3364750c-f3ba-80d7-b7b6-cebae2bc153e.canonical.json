@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_316827dc",
+      "id": "ex_d67760e6",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_9482f269",
+      "id": "an_d7575100",
       "reference_id": "3364750c-f3ba-80d7-b7b6-cebae2bc153e",
       "text": "DKT is a common way of solving the Knowledge Modeling problem. However, DKT is not good at identifying learning from questions that include multiple knowledge components (since the gains on the different KCs may be different) - which in large questions banks may even be worse due to the lack of sufficient QA pairs. \nA second problem is interpretability - the predictions should be interpretable at least. \n\nAuthors propoe Q-MCKT, a framework that intends to address both of these drawbacks by using experts technique to find a better representation of knowledge for both question and concept-level prediction. \n\nTests on different benchmark datasets show that Q-MCKT outperforms other Deep Learning-based models in multiple tasks. ",
       "provenance": {

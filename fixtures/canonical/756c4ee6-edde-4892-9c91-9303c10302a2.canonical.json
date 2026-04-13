@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_09ab13b2",
+      "id": "ex_2d8c7538",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_33f211f0",
+      "id": "an_dc0900ce",
       "reference_id": "756c4ee6-edde-4892-9c91-9303c10302a2",
       "text": "Creating a representation of a learner’s knowledge state is important (more than just on KT) in the design of educational recommender systems. However, current recommenders have problems with transparency in the learner model and how it relates with the learning materials. The paper proposes an approach using Personal Knowledge Graphs. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_a8345122",
+      "id": "an_2b7c7272",
       "reference_id": "756c4ee6-edde-4892-9c91-9303c10302a2",
       "text": "The knowledge graph is created from users labelling contents as “did not understand” as they interact with the materials. This labelling is a precursor for the construction of the learner model and uses this representation to suggest external learning resources. The approach is tested on a sample of 31 students and shows promising results on user-centred metrics such as accuracy, novelty, diversity, usefulness, satisfaction and intentions. ",
       "provenance": {

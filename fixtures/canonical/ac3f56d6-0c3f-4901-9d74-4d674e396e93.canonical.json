@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_97092133",
+      "id": "an_e065bb29",
       "reference_id": "ac3f56d6-0c3f-4901-9d74-4d674e396e93",
       "text": "The current forms of addressing cold-start and data sparsity issues in recommender systems are not vvery effective when there is a shortage of labebled data. The authors addess this by introducing an approach that treats recommendations as two-substeps:",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_ce200a2e",
+      "id": "an_5e076f44",
       "reference_id": "ac3f56d6-0c3f-4901-9d74-4d674e396e93",
       "text": "Authors test the effectiveness of their approach in Movielens and Bookcrossing with simulated sparsity and cold-start scenarios. Results show model outperforms other hybrid recommenders on these datasets.",
       "provenance": {

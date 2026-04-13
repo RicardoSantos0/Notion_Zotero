@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_e8325a42",
+      "id": "ex_a06ef0f2",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_caacf376",
+      "id": "an_5bf2270d",
       "reference_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
       "text": "KT is about tracing a student’s knowledge at any given moment with the rationale that knowing what a student knows and where the knowledge is lacking allows for more effective and efficient pedagogical activities. Most methods assess the correctness of the knowledge model by checking how well the model predicts CFA. However, it does not account for whether the students’ learning process maps into the inferred knowledge state.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_c2d8494b",
+      "id": "an_1157a005",
       "reference_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
       "text": "The paper explores Learning Process-consistent KT (LPKT), a model that monitors the learning process. The model incorporates parameters to account for learning gains and forgetting. They add a new constraint to their model to account for student-specific learning rates. Results on 3 public datasets show hat PLKT and LPKT-S outperformed State-of-the-art models.",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_24a3a035",
+      "id": "ex_d485b4e3",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b9a4ada5",
+      "id": "an_67a7d2ba",
       "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
       "text": "KT looks at past responses from students and uses them to create a model of the students’ knowledge. This model can later be used to predict the probability of getting a new question right. Good KT models can help students identify where a student is lacking in terms of knowledge, which can also be used by professors to better prepare new materials. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_26ea6093",
+      "id": "an_4e7ef4ec",
       "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
       "text": "Deep learning models in KT seem to be the state-of-the-art but seem to underestimate the contribution of the most recent answers for the current knowledge state, which is counterintuitive. To address this, the authors propose a Convolutional KT model, that uses 3D convolutions. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_842727c4",
+      "id": "an_6ce68ada",
       "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
       "text": "CKT is argued to achieve the new State-of-te-art performance in predicting performance on ASSISTments2009 and ASSISTments 2015 datasets.\n",
       "provenance": {

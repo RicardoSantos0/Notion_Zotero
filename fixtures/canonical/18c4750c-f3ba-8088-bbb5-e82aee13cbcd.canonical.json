@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_74c01ce7",
+      "id": "ex_92bf3277",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -70,7 +70,7 @@
   ],
   "annotations": [
     {
-      "id": "an_a8b4740e",
+      "id": "an_dbeb533a",
       "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
       "text": "Some of the most well known methods for KT are BKT and LSTMs. The problem with these approaches is that sub-divide time into discrete time-steps and not continuous. However, time between events  varies significantly and, fot that reason, authors decide to use Time-Aware LSTM for KT. ",
       "provenance": {
@@ -78,7 +78,7 @@
       }
     },
     {
-      "id": "an_a254ea60",
+      "id": "an_04a09348",
       "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
       "text": "Authors explore T-LSTM in 2 domains. First, self-paced learning, wherein authors compare T-LSTM vs other standard classifiers to predict success. On a second-approach, they follow an instructor-paced setting and try to predict learning gains. ",
       "provenance": {
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "an_51ad90d2",
+      "id": "an_3e07c437",
       "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
       "text": "Results show LSTM beats all others in the self-paced setting and perform on par with LSTMs on instructor-paced learning. ",
       "provenance": {

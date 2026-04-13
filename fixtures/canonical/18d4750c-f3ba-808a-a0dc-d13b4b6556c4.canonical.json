@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_c4871030",
+      "id": "ex_cfde4a72",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_966c481b",
+      "id": "an_7af27776",
       "reference_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
       "text": "Dropout prediction is a very popular learning analytics activity - after all, detecting students who are less likely to complete their programs is essential to prevent churn. The work uses data from first-year students attending a European University at two different moments of prediction: the beginning of the course or the end of the first semester.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_78cdbb62",
+      "id": "an_7eb802f1",
       "reference_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
       "text": "Different classifiers were used, and predictions at the end of the first semester outperformed the beginning of the course. Moreover, Logistic Regression was good enough as a baseline, but was outperformed by other ML techniques.",
       "provenance": {

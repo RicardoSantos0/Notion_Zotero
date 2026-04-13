@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_23be197c",
+      "id": "ex_4659b1b0",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_cda5ea43",
+      "id": "ex_996e01d6",
       "reference_task_id": null,
       "schema_name": "Summary Table DESC",
       "extracted": [
@@ -80,7 +80,7 @@
   ],
   "annotations": [
     {
-      "id": "an_3b547c29",
+      "id": "an_b3d144ff",
       "reference_id": "4baeb41f-fef0-4b73-b399-e59633f82524",
       "text": "This work compares 8 distinct predictive algorithms to predict student performance (grade) in a statistics course. Authors also identify weeks 5-6 (pretty much halfway point) as the optimal time to make a prediction. Best model (BART) achieves 6.5% of MAE. Also, authors publish their code in a github repository.",
       "provenance": {

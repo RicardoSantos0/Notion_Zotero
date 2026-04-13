@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d603aa0d",
+      "id": "ex_4ab500d7",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -48,7 +48,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_21effc3d",
+      "id": "ex_dbac131c",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -80,7 +80,7 @@
   ],
   "annotations": [
     {
-      "id": "an_ad03b8a2",
+      "id": "an_68728c6e",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Author attempts to identify which LMS features are relevant for course achievement. For that, some SRL-derived features are included. ",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_230bd041",
+      "id": "an_5965084f",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Experiment uses 530 students of an online course and attributes such as regular study were found to significantly predict course achievement. Authors argue for the use of more variables informed by SRL-behaviors in predictive models as they provide a more accurate picture of the student’s overall learning process.",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_7218829e",
+      "id": "an_8fc014bf",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "In addition, authors also show that measures collected by the course halfway point were already predictive of performance, suggesting more potential for an early warning system.",
       "provenance": {
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "an_c905c522",
+      "id": "an_2fff408e",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Higher education is adopting online learning as a legitimate way of delivering education and demand is continuously increasing. However, not all students are able to take advantage of online learning, as it requires substantially developed self-regulated learning skills - as showcased by the fact that regular study correlates heavily with success while procrastination correlates negatively with it.",
       "provenance": {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "an_81f8902c",
+      "id": "an_748893a9",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Most studies focus oin identifying SRL traits via self-reporting, which is not the most reliable indicator. LMS data can be used for this purpose. Learning analytics has already been employed to try and assist students. The most common predictors extracted from LMS logs are frequency measures such as the number of logins or the time spent reading specific pages → with more engagement being associated with success online.",
       "provenance": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "an_f708c33f",
+      "id": "an_ac474b67",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "However, there is also the notion that this frequentist approach is minimally relevant to the prediction of success (often from education science theorists such as Hadwin) and, simultaneously, provide little insights into what can be done to intervene with students. Thus, there is an argument for the extraction of different types of variables congruent with learning theory. ",
       "provenance": {
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "an_0584a73a",
+      "id": "an_418c94d5",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "SRL in this paper is defined as the ability to set goals and manage their own learning and performance. Online learning requires these skills as success in it requires the commitment to complete work or tasks. Successful students are dilligent and have a good ability to manage their time and effort. Not having these skills often leads to procrastination and, in online settings, this procrastination often leads to dropout. ",
       "provenance": {
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "an_6219042f",
+      "id": "an_550bf55c",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Among the SRL strategies, time management has been shown to especially relevant for online settings, followed by self-efficacy and positive attitude. This urges the importance of these constructs and intend to give them more attention.",
       "provenance": {
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "an_e218923c",
+      "id": "an_257631f8",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "A common drawback of SRL models is the limited number of instruments to capture student self-regulation (often surveys). LMS can assist in this. Logs are the most common source of data from LMS environments as they are relatively easy to process, despite still requiring some work. An example of a learning analytics application in universities is Purdue’s Course Signals - a system that intends to track student performance in terms of their risk of failing. ",
       "provenance": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "an_5910c9a7",
+      "id": "an_b007d3c2",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Despite their promise, there are also issues with learning analytics approaches. One of such issues is the grounding of the warning systems in learning theory. Another is the unusefulness of theses systems in identifying what areas of the student’s process require improvement (actionable recommendations).",
       "provenance": {
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "an_5b9c3846",
+      "id": "an_026758f4",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "The literature shows that students who are more participative tend to perform better. Engagement with the LMS is one such measure. While the positive relationship is almost ubiquitous (pointing to effort as a better predictor of success than talent), which activities lead to better performance vary from author to author. ",
       "provenance": {
@@ -168,7 +168,7 @@
       }
     },
     {
-      "id": "an_92a78296",
+      "id": "an_44b11585",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Other types of variables can also be found in the literature despite being less explored. Asarta and Schmidt focused on effects of timingg, volume, intensity and consistency of accesses. Under this perspective quality of interactions is much more meaningful than quantity of interactions. Findings show that keeping pace is a very significant determinant of student success. The notion of regular accesses is also observed in other studies. ",
       "provenance": {
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": "an_476aee53",
+      "id": "an_92cd37c8",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "The data was collected from an e-learning course taught at a South Korean university, comprising 575 students, 530 of which were considered. The course Introduction to Color had 13 units and 2 offline tests. All interactions, except the offline exams, were online. ",
       "provenance": {
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": "an_ad9d794d",
+      "id": "an_4f543524",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "The course had a duration of 15 weeks, with the midterm occurring at week 8. Thus, 2 different timepoints were considered: course halfway point and end of course. Moreover, the authors consider two distinct targets: Course Exam Score and Final Course Score. There were also many variables related with LMS features and, finally, the Year of Study was used as a control variable.",
       "provenance": {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "id": "an_7b908a7a",
+      "id": "an_34db5026",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "The results from the hierarchical multiple regression analysis show that the model with 4 predictors is the best performing one both in terms of predicting Final Course Score and Course exam Score.",
       "provenance": {
@@ -200,7 +200,7 @@
       }
     },
     {
-      "id": "an_14564569",
+      "id": "an_a6cf26e8",
       "reference_id": "878710f5-84e1-460b-9f08-1256482a7f5a",
       "text": "Authors also add an early prediction model that considers the constructs collected at the course’s halfway point AND the grade on the Midterm Exam. Surprisingly, the early prediction is better than the end of course prediction. A likely cause is the fact the early prediction model considers the midterm exam score.",
       "provenance": {

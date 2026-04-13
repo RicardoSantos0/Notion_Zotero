@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_2830f8e4",
+      "id": "an_a2a2bb04",
       "reference_id": "15232c7b-7d9a-4574-bb5f-9d11b60ac5fb",
       "text": "The authors propose CoBERT, a fine-tuned BERT implemetation used in an item-based filtering Recommender System that is meant to provide employment recommendations to students and graduates. The model uses information that is demographic, relationship between employer and graduate and overall competency of the graduate in IT.",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_3d34b297",
+      "id": "an_e3680599",
       "reference_id": "15232c7b-7d9a-4574-bb5f-9d11b60ac5fb",
       "text": "The authors evaluate their model using 4 metrics: Normalized Discount Cumulative Gain & Maean Average Precision (Offline evaluation) and Novelty & Diversity (online evaluation). ",
       "provenance": {

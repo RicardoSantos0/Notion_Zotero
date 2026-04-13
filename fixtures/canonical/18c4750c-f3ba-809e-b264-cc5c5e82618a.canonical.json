@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_cb3d0f73",
+      "id": "an_ea747179",
       "reference_id": "18c4750c-f3ba-809e-b264-cc5c5e82618a",
       "text": "Tracking student attentiveness in e-learning scenarios is a big challenge. The work tries to use webcam footage as a means to perform attentiveness prediction. Using a sample of 7 learners, the authors use EAR, YAR, head pose and emotional states to extract features from video. Then, they use these features as part of an ML pipeline meant to predict attentiveness. ",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_ad2e988a",
+      "id": "an_0a3efc32",
       "reference_id": "18c4750c-f3ba-809e-b264-cc5c5e82618a",
       "text": "XGBoost outperforms the other algorithms, achieving and OVR AUC of 92%. ",
       "provenance": {

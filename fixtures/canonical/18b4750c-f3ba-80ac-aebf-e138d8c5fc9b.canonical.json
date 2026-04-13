@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_48350622",
+      "id": "ex_f5179947",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_7a29ed62",
+      "id": "an_e80e33cb",
       "reference_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
       "text": "BKT has limitations related with temporal differences in data. The authors propose an improved version of BKT that incorporates temporal difference information. In other words, this model detects moments in time where there is a shift in the cognitive level of a student and incorporates that information. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_8bfb3a86",
+      "id": "an_31a4555e",
       "reference_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
       "text": "Empyrical tests show TD-BKT outperforms BKT on the Junyi academy dataset.",
       "provenance": {

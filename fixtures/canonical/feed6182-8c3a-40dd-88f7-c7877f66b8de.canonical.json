@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_459a75fc",
+      "id": "ex_d44504f4",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_0a029b23",
+      "id": "an_c56dc320",
       "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
       "text": "Paper presents 2 new models for knowledge tracing - predict answer in next exam question. Authors present 2 models - TDNN and RNN.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_862810eb",
+      "id": "an_e5f598f8",
       "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
       "text": "Modelling is performed under 2 distinct tasks:",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_f18f2c88",
+      "id": "an_1b62bcf2",
       "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
       "text": "Results show that both models outperformed other state of the art models in 4 out of the 5 datasets used in this benchmark. Moreover, the RNN was found to be the superior option.",
       "provenance": {

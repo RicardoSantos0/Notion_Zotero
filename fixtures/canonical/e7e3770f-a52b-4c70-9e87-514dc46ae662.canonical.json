@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_93bd961c",
+      "id": "ex_12f61638",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_81c832b2",
+      "id": "an_7031e27e",
       "reference_id": "e7e3770f-a52b-4c70-9e87-514dc46ae662",
       "text": "Knowledge tracing is a core component of any intelligent educational system. The way knowledge tracing is modelled involves mapping the learner’s knowledge state against the knwoledge requirements of an exercise.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_5451f0f3",
+      "id": "an_e8ad0693",
       "reference_id": "e7e3770f-a52b-4c70-9e87-514dc46ae662",
       "text": "However, the current ways to model exercise traits struggle with cross-modal exercises. To mitifgate this gap, the authors propose a Deep Cross-Modal Neural Cognitive Diagnosis Framework that first, builds on current models but also exlores cross-modal contents of exercises for better modelling of student performance. The model also seems to be effective at understanding pre-requisite relationships between concepts. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_11e4f150",
+      "id": "an_e7f5c21a",
       "reference_id": "e7e3770f-a52b-4c70-9e87-514dc46ae662",
       "text": "Results on 7 real-world datasets show that this model outperforms current state of the art.\n\n",
       "provenance": {

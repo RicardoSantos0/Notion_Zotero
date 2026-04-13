@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_7f456b3e",
+      "id": "ex_7baae41e",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_315990d7",
+      "id": "an_a6d40d05",
       "reference_id": "dc2637cf-3344-4904-9b65-3a683264c7e0",
       "text": "Authors propose an early warning system that identifies academic success to first-year higher education students. Dataset includes close to 12000 students and 69 features that predict academic success at the end of the first year.  Authors use NB, RF and DT, with RF reaching 90% accuracy. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_9db581a8",
+      "id": "an_368a87e2",
       "reference_id": "dc2637cf-3344-4904-9b65-3a683264c7e0",
       "text": "Findings show that including grade of the first semester severely increases performance of the model. Program name and university placement score also contribute to the system. Model is meant to be used as early as the second week of the spring semester.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_747a28be",
+      "id": "an_9e299f14",
       "reference_id": "dc2637cf-3344-4904-9b65-3a683264c7e0",
       "text": " ",
       "provenance": {

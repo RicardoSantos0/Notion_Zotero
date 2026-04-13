@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_29db89be",
+      "id": "ex_8d8198f6",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_6ba8f691",
+      "id": "an_4ab5545c",
       "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
       "text": "Bayesian Knowledge Tracing, while useful and well-established, is known to have some convergence problems that lead it to converge in undesirable local minima (parameter degeneracy). Deep Knowledge Tracing achieves better performance but is often not interpretable - a significant issue in student response correctedness scenarios.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_4f972d35",
+      "id": "an_65254cd8",
       "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
       "text": "To address the problems with BKT convergence, authors propose a new form of optimizing BKT OptimNN which is meant to use a NN to train BKT parameters. This is later extended into BKTransformer, which generates parameters for BKT that evolve with time. ",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_ee4f43a2",
+      "id": "an_1c686058",
       "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
       "text": "Authors show this approach to outperform both BKT and DKT with minimal parameter tuning, with the advantage of mantaining the BKT interpretability that comes with probability estimates of skill, student mastery and question correctedness. \n\n\n",
       "provenance": {

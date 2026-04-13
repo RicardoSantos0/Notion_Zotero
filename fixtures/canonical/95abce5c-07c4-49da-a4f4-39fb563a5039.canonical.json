@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d606f3ad",
+      "id": "ex_7bb8b4a4",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_e7d44294",
+      "id": "an_95cfc379",
       "reference_id": "95abce5c-07c4-49da-a4f4-39fb563a5039",
       "text": "Problems with generalization of student models due to under representation of some student groups. Authors make use of federaed learning to create group specific models derived from a global student model. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_571b2678",
+      "id": "an_f1154abb",
       "reference_id": "95abce5c-07c4-49da-a4f4-39fb563a5039",
       "text": "Authors also use an attention mechanism to obtain better representations of student behavior. Results on 3 datasets show that approach is better at predicting student outcomes for all student subgroups.",
       "provenance": {

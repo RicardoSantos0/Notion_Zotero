@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_fd55926c",
+      "id": "ex_34d86d79",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_6df11592",
+      "id": "an_0b81a722",
       "reference_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
       "text": "In order to work, ITS require good representations of students and their knowledge, with BKT being among the most popular representations. However, BKT does not account for hierarchical relationships between skills, something that Dynamic Bayesian networks (DBN) address. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_79461d44",
+      "id": "an_281aa04b",
       "reference_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
       "text": "The authors introduce DBN for student modelling and test the performance of their algorithm on 5 distinct datasets, outperforming previous approaches.",
       "provenance": {

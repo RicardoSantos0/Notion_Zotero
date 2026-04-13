@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_941d7783",
+      "id": "ex_0510f446",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_53e28056",
+      "id": "an_68ccb1c3",
       "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
       "text": "The main aim of the study is to predict the success of first-year undergraduate students. Authors extract multiple features from both the SIS and LMS as well: socio-demographics, origin, previous qualifications and educational path. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_86528034",
+      "id": "an_eb95cff9",
       "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
       "text": "Authors use 3 distinct moments of prediction: before start of year, end of first semester and after second semester, with SVM achieving the best overall performance.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_a2e3b61a",
+      "id": "an_8094bb08",
       "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
       "text": " Important features include previous evaluations, study gaps and age-related features when entering college. For later stages, the predictive power is stored on current evaluation features. ",
       "provenance": {

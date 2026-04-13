@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_a67ff809",
+      "id": "ex_bf609dc5",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -46,7 +46,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_e9b0d507",
+      "id": "ex_6368e00e",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -78,7 +78,7 @@
   ],
   "annotations": [
     {
-      "id": "an_49148108",
+      "id": "an_968fd0cc",
       "reference_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
       "text": "The authors propose an architecture that includes 4 key components: Knowledge Gap Identification, Adaptive Question Generation, Personalized Evaluation and Remedial Recommendation. EKT continuously monitors the learners’ knowledge states while RAG is used to create MCQ for the learners to practice. \n\nRecommender is tested.",
       "provenance": {

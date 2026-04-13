@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b44cacdb",
+      "id": "ex_13b7fb0f",
       "reference_task_id": null,
       "schema_name": "Summary Table",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_9cd8b9d4",
+      "id": "an_f3f63d70",
       "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
       "text": "Authors use AutoML to extract features in context of the NAEP data mining competition. In particular, 2 different packages are tested: FeatureTools and TSFRESH. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_d8cd7b19",
+      "id": "an_fb5f2d51",
       "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
       "text": "Thus, Bosch creates predictive models using the features extracted via the AutoML packages and compare how they perform against the features extracted from expert knowledge. The approach got 3rd on final kaggle scores and first in the public data.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_5f4e5532",
+      "id": "an_ab7441ce",
       "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
       "text": "More specifically, TSFRESH revealed to be the package that got the best features, even if at the expense of interpretability. ",
       "provenance": {

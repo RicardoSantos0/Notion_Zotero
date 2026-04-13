@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b7bd5531",
+      "id": "ex_1b94d79f",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_317832d5",
+      "id": "an_b34689b0",
       "reference_id": "3364750c-f3ba-8084-9d73-eff7384610c4",
       "text": "Most KT models struggle with different types of signals that are generated during learning. Authors present Gated-full features Transformer Cognitive Knowledge Tracing which promises to be able to integrate these heterogenous signals via a fusion gate (instead of the general concatenation or weighting used in other architectures). \n\nThe model embeds topics and concepts which is later concatenated with with exercise, time, correctedness before passing through this fusion-gate which generates weights that hopefully provide a better representation of the knowledge State. Tests on multiple Public Datasets show that CGKT beats other KT models. ",
       "provenance": {

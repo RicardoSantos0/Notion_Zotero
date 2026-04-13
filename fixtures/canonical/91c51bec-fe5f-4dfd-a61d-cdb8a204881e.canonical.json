@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_e2413b45",
+      "id": "ex_1ddcbbd5",
       "reference_task_id": null,
       "schema_name": "Summary Table",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_515d0b9d",
+      "id": "an_93bc2599",
       "reference_id": "91c51bec-fe5f-4dfd-a61d-cdb8a204881e",
       "text": "A common way of performing semi-supervised learning is co-training. However, co-training requires redundant and conditionally independent dual views, something that does not seem to exist with enough abundance for this application. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_0955a4f5",
+      "id": "an_d7dd9e6a",
       "reference_id": "91c51bec-fe5f-4dfd-a61d-cdb8a204881e",
       "text": "The authors propose a co-training method that semi-decouples features from a single known view. With this, using the edX dataset, the authors were able to create models that predict learner behavior that were better than other alternatives. ",
       "provenance": {

@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_8c8087e9",
+      "id": "an_3425927f",
       "reference_id": "30acd208-9d40-4766-bf2b-8272dd565546",
       "text": "Prediction of student performance is one the most relevant tasks in LA. However, traditional methods are designed for balanced datasets which is somewhat difficult in datasets intended to detect students at-risk. To address the imabalance, the authors propose a framework that combines an auto-encoder with a Deep NN. ",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_565680c6",
+      "id": "an_ae8e27b1",
       "reference_id": "30acd208-9d40-4766-bf2b-8272dd565546",
       "text": "The auto-encoder is intended to generate new instances of students at-risk first, the neural network is meant to make predictions. Experiments of performed on benchmark dataset show that the model actually is a possible alternative to generate samples that make the datasets more balanced. Confirmation tests validate effectiveness and robustness of the designed approach.  ",
       "provenance": {

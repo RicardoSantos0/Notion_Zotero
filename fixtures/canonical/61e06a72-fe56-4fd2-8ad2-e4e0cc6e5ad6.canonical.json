@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_49b63a29",
+      "id": "ex_7d5aa859",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fb6622c8",
+      "id": "an_db034cee",
       "reference_id": "61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6",
       "text": "The authors propose a model whose intention is to predict how well a student will perform in an high-stakes exam. Authors make a comparison between classical ML models and Ensemble-based models.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_070507a9",
+      "id": "an_490d7b30",
       "reference_id": "61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6",
       "text": "Models are assessed on a dataset of medical students collected over a period of 5 years (1005 students). Ensemble models obtain better results at predicting the status on CMBSE exam (Regression Task). Moreover, the GPA on different important disciplines taken throughout the course exhibit high correlations with the outcomes. ",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_f1834cf0",
+      "id": "an_40ba58a8",
       "reference_id": "61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6",
       "text": "The authors conclude that their approach is a good predictor of success in an important medical licencing examination AND, for that reason, the employment of these models may be considered as a viable alternative to taking the outright. ",
       "provenance": {

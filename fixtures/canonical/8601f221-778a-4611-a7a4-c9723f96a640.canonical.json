@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_241a0d0c",
+      "id": "ex_31a3f6c3",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_74ef50c0",
+      "id": "an_3c34508e",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "The authors adddress the course selection in an online scenario problem by using Reinforcement Learning to create a dynamic representation of learners. However RL approaches often come short due to the exploration-exploitation tradeoff. Hierarchical Reinforcement Learning with Dynamic Recurrent mechanism (HELAR) includes a novel policy gradient method → a recurrent scheme that exploits current knowledge while also exploring learning preferences.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_8c3669f8",
+      "id": "an_0b50d5d7",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Results from Backtests on 2 datasets with positive results. ",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_f1c7507f",
+      "id": "an_3183abfb",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "What the paper does:",
       "provenance": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "an_6cfa0947",
+      "id": "an_844c94e4",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Instead of recommending a single next course, this system builds a two-level decision process:",
       "provenance": {
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "an_07a4c1ec",
+      "id": "an_0ef50db4",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "It learns from historical behavior and continuously updates its strategy as learners engage (or disengage) with the platform.",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_231e7799",
+      "id": "an_26f0310f",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Why it matters:",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_d3b35557",
+      "id": "an_46051444",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Traditional recommenders (like CF or GRU4Rec) only look at short-term clicks. Here, reinforcement learning (RL) focuses on long-term learning success—whether a student completes and benefits from a sequence of courses. The “dynamic reward adjustment” gives higher feedback when engagement increases and penalizes the agent when students drop out or rate courses poorly.",
       "provenance": {
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "an_c47d8dc0",
+      "id": "an_cddd1918",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Main findings:",
       "provenance": {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "an_81110144",
+      "id": "an_6996b9e3",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "Bottom line:",
       "provenance": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "an_a73e6bba",
+      "id": "an_b73535d9",
       "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
       "text": "The system learns to recommend whole learning pathways instead of isolated courses, balancing exploration (new topics) and exploitation (familiar domains). It’s powerful but computationally demanding, requiring careful reward tuning and large-scale behavioral data.",
       "provenance": {

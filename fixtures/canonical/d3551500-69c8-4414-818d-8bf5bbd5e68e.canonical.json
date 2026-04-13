@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_a618f4a8",
+      "id": "ex_359724fe",
       "reference_task_id": null,
       "schema_name": "Summary Table DESC",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_4b5fb93b",
+      "id": "an_b63c0a84",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Most research of SRL focuses on the frequency of activities that hint at the existence of SRL behavior. Authors hypothesize that not only do effective SR learners engage more frequently in these activities but they also execute them in different orders. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_98aa52c9",
+      "id": "an_6050c1b4",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Authors focus on implementing process mining to identify SR processes on a sample of 38 students. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_24ba4550",
+      "id": "an_dca5d2fb",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "There is a trend in SRL that says that focus of tracing these attributes should be events and not necessarily skills or aptitutes. This change in paradigm is observable, at least partly, in the way that behavioral research based on e.g. activity logs is surpassing questionnaire-based research.  ",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_2edb4328",
+      "id": "an_df771d89",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The authors intend to follow on this perspective to introduce Process Mining as a potencial avenue for SRL research on a type of data that is usually seen in this field - think aloud data.",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_375b2913",
+      "id": "an_aa3d7320",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Learning requires regulatory activities such as orientation, planning and controlling. Effective learners exhibit all of these traits. SRL is often represented by theoretical models that intrinsically have all of these activities being executed in some sequence. ",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_129bd818",
+      "id": "an_82bd1c18",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Authors draw from SRL research that looks at it as a sequence of different activities. Most models make reference to the existance of a sequence but often do not explicitly mention an appropriate order. Most of the research shows that the sequence of the activities may change depending on the student, the task. However, from SRL theory, the authors assume that more metacognitive behavior usually translates into better learning outcomes.",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_f89c15c0",
+      "id": "an_36fb9dbf",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "There are some commonalities between SRL works that support that there is indeed a relationship between activities and better learning outcomes but generalization is dangerous for multiple reasons. Different data sources, learning settings, tasks put a dent into the comparison of different studies. Process Mining can, thus, not only be interesting to compare differences in frequency of learning activities but to develop theory on SRL or CSCL.",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_c991e94a",
+      "id": "an_9c2df220",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "One interesting observation is that the authors argue that different students have different patterns of organization and, for that reason, analysis should be done to student subgroups. The expectation of the authors using this Process Mining approach is that the process patterns of students match the patterns described in the SRL literature. ",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_9c5f620c",
+      "id": "an_b37cbc34",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "These methods are generally used for sequential and temporal analysis. When it comes to education, the methods employed tend to treat time as an event ontology rather than a continuous variable. However, the granularity level of process models tends to be overlooked.",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_3be9fc9b",
+      "id": "an_437f6a3b",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In SRL research, sequences of events describe a process of self-regulation. Process mining, despite not being born in psychology, is viable because behavioral SRL measures can be conceptualized as measurable by event logs.",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_aafa0ea9",
+      "id": "an_33c501d8",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Models generally used in PM include Petri Nets or Finite State Machines. Petri Nets describe a directed graph with Places (events), Transitions. \n",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_9bccefd0",
+      "id": "an_cab4baec",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In the figure, Places (events) are described by the circles and transitions by the squares. Starting at the black dot, the transition A is fired. A transition can only be fired (triggered) if all preceding nodes are tokenized. In this case, transitions B and C need to occur before transition D can be initiated. The parallelization means that both B or C need to occur after A and before D, but the order between B and C is irrelevant. ",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_94ba487e",
+      "id": "an_9e6dca9b",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Petri Net representations can be used to determine if a sequence of activities matches a theoretical model or not. Another interesting application is to simulate behavior. Process mining should not be confounded with sequence mining, sequential pattern analysis or lag-sequential analysis. The events and processes in PM exist formally. → Meaning that there is an implicit assumption that the sequence of events is governed by a process and thus describes a process model. In the context of SRL this process can be understood as a learning strategy.",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_c619ca5a",
+      "id": "an_baed6286",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In other words, a learning strategy involves a sequential set of steps that need to be followed. The actions undertaken by a student following a strategy can be understood as a sequence of events undertaken to fulfill the strategy. The strategy is, thus, a process model.",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_426d2353",
+      "id": "an_4578f41d",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Since educational process models are characterized by discrete events, they are deterministic (not stochastic). This means that, for theses models, there is no statistical testing → Transitions between states occur or do not occur → there is no probability. ",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_b6df1e58",
+      "id": "an_15adcdb9",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The approach of Process Mining will test theoretical assumptions of SRL using Process Mining. The study will follow 2 stages:",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_0f017df7",
+      "id": "an_efdf022e",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Participants",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_f0e63aaa",
+      "id": "an_c1b90578",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "38 undergraduate students in psychology participated in individual learning sessions of 1h30 mins. The sessions encouraged the use of think aloud methods and to employ it during 3 to 5 search tasks. Total time dedicated to learning was 30 minutes. All actions on screen, mouse and keyboard and think aloud recordings were used. ",
       "provenance": {
@@ -194,7 +194,7 @@
       }
     },
     {
-      "id": "an_6431e1e6",
+      "id": "an_40410a73",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The students were tested afterward using paper-pencil-tests.",
       "provenance": {
@@ -202,7 +202,7 @@
       }
     },
     {
-      "id": "an_f317d7a8",
+      "id": "an_40ed6f98",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Learning Materials",
       "provenance": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "an_11ddfc58",
+      "id": "an_4e62a4bc",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Students had a controlled hypermedia space where students were allowed to search for information. The learning outcomes were measured as part of Bloom’s Taxonomy. The verbal protocols were categorized under a theoretical framework developed by the authors. Each part of think aloud mentions was associated with a category of SRL: metacognition, congnition, motivation, goal orientation, etc…",
       "provenance": {
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": "an_f5c67f80",
+      "id": "an_16c8207d",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "All transcripts were assessed by 2 trained raters (with first rater having preference in case of tie) - rating for each student took roughly 6h. ",
       "provenance": {
@@ -226,7 +226,7 @@
       }
     },
     {
-      "id": "an_b2d9bc7f",
+      "id": "an_8b713fcc",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "A statistical analysis of the utterances made by the students during their learning time was performed. On average, there were 143 events, with 65 being metacognitive, 57 cognitive, 1.4 motivational and 20 off-topic utterances. ",
       "provenance": {
@@ -234,7 +234,7 @@
       }
     },
     {
-      "id": "an_8dda92f6",
+      "id": "an_5bbba50f",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "As previously mentioned, the authors decided to not make a fully aggregate analysis on all 38 participants and, instead, opted to create sub-groups between successful and unsuccessful students based on post-test scores. ",
       "provenance": {
@@ -242,7 +242,7 @@
       }
     },
     {
-      "id": "an_4f431a95",
+      "id": "an_63e11e20",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In truth, the most successful students did in fact show, on the test that they had much better scores on knowledge of basic terms, comprehension of basic concepts and ability to transfer knowledge to new problems. ",
       "provenance": {
@@ -250,7 +250,7 @@
       }
     },
     {
-      "id": "an_152c05f0",
+      "id": "an_b1688210",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In general, when it comes to the activities themselves, the authors identified that the most successful students engaged more often in metacognitive processes than the least successful ones (even though, to some extent, all students engaged on the processes here and there. More surprisingly, the authors found that motivation was the field with the largest relative difference between the 2 groups. ",
       "provenance": {
@@ -258,7 +258,7 @@
       }
     },
     {
-      "id": "an_6023aa4a",
+      "id": "an_749776f0",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Process mining of events",
       "provenance": {
@@ -266,7 +266,7 @@
       }
     },
     {
-      "id": "an_39ccd141",
+      "id": "an_175ca758",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "While the statistical results already showed some differences in usage of SRL processes (with the more successful students engaging more often). The authors use the Fuzzy Miner algorithm to create a transition diagram for each of the groups. ",
       "provenance": {
@@ -274,7 +274,7 @@
       }
     },
     {
-      "id": "an_1dee6992",
+      "id": "an_1ecf42d7",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Fuzzy Miner allows to cluster events into larger units based on the needs of the analyst.  The models for the most successful and the least successful students are presented below:",
       "provenance": {
@@ -282,7 +282,7 @@
       }
     },
     {
-      "id": "an_e3658f29",
+      "id": "an_06b648bd",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The algorithm has nodes (events) and edges (transitions). The scores are computed according the relative importance and order of all events in the sequences. Fuzzy Miner uses 2 metrics: ",
       "provenance": {
@@ -290,7 +290,7 @@
       }
     },
     {
-      "id": "an_ea0bdd75",
+      "id": "an_22758f83",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Aanalysis was conducted by using the following parameter settings: edge filtering was set with the edge cutoff=0.2 and the utility ratio=0.75; the significance cutoff of node filter was set to 0.25. Some processes were not considered for the model due to not reaching the 0.25 significance cutoff point (meaning that process model was simplified for interpretability purposes). ",
       "provenance": {
@@ -298,7 +298,7 @@
       }
     },
     {
-      "id": "an_6d2f5964",
+      "id": "an_fccf1ce5",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The more successful students had 8 event categories and the less successful ones had 5 events with 2 clusters. Successful students had a clear relationship between READING with MONITOR and ELABORATE. Unsucessful students had READ into REPEAT or MONITOR as the most common sequences. ",
       "provenance": {
@@ -306,7 +306,7 @@
       }
     },
     {
-      "id": "an_1dfc646e",
+      "id": "an_21e1c8b8",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Thus, the authors conclude that successful students engage in high frequency of preparing activities that are subsequently monitored. The model is something akin to Zimmerman’s SRL model.",
       "provenance": {
@@ -314,7 +314,7 @@
       }
     },
     {
-      "id": "an_a0e8e210",
+      "id": "an_675f6105",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "For less successful students, however, there is less preparation that is often connected to reading activities which are followed by repeats. Less successful students do not engage in deep learning approaches and often engage in surface level activities (repetition). ",
       "provenance": {
@@ -322,7 +322,7 @@
       }
     },
     {
-      "id": "an_bda81908",
+      "id": "an_0179502a",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "While these differences exist, at this stage, there is no statistical analysis done. To do that the authors follow-up with model testing in 2 paradigms:",
       "provenance": {
@@ -330,7 +330,7 @@
       }
     },
     {
-      "id": "an_5be51a84",
+      "id": "an_15ee325b",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "The theoretical model assumes the ideal sequence of SRL learning activities: Analyze task, Search, Read, Process or Repeat, Monitor progress, evaluate and either stop or repeat the cycle.",
       "provenance": {
@@ -338,7 +338,7 @@
       }
     },
     {
-      "id": "an_f3498afd",
+      "id": "an_2bb77e30",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "In the partial way of monitoring, the authors looked at the created groups and identified how often did specific sequences of events occur. Unsurprisingly, the types of sequences expected of SRL behavior were more present in successful students.\n",
       "provenance": {
@@ -346,7 +346,7 @@
       }
     },
     {
-      "id": "an_39f2b1b3",
+      "id": "an_7eb2f67f",
       "reference_id": "d3551500-69c8-4414-818d-8bf5bbd5e68e",
       "text": "Successful student sequences of events decently map into existing theoretical frameworks of ideal SRL models. Unsuccessful students often miss the engagement with deep learning approaches. \n\nThe authors also identify some important limitations that warrant future work:",
       "provenance": {

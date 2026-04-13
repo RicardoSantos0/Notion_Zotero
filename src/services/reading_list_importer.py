@@ -112,12 +112,12 @@ def parse_fixture(path: Path):
     if status:
         workflow_states.append(WorkflowState(id=f"ws_{uuid.uuid4().hex[:8]}", reference_id=ref.id, state=status))
     out = {
-        "references": [ref.dict()],
-        "tasks": [t.dict() for t in tasks],
-        "reference_tasks": [rt.dict() for rt in reference_tasks],
-        "task_extractions": [e.dict() if hasattr(e, "dict") else e for e in extractions],
-        "annotations": [a.dict() for a in annotations],
-        "workflow_states": [w.dict() for w in workflow_states]
+        "references": [ref.model_dump()],
+        "tasks": [t.model_dump() for t in tasks],
+        "reference_tasks": [rt.model_dump() for rt in reference_tasks],
+        "task_extractions": [e.model_dump() if hasattr(e, "model_dump") else e for e in extractions],
+        "annotations": [a.model_dump() for a in annotations],
+        "workflow_states": [w.model_dump() for w in workflow_states]
     }
     return page_id, out
 

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_5f076f5e",
+      "id": "ex_4d355fb8",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_032d9946",
+      "id": "an_76ddc82b",
       "reference_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8",
       "text": "KT has a cold-start problem. If we use the past to predict student performance,not having it may be problematic. Thus, KT models, while impressive, tend to not generate stable predictions when there still are small numbers of interactions. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_dfc0dfe4",
+      "id": "an_78b8d7bd",
       "reference_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8",
       "text": "Authors propose csKT, which is meant to be able to be trained on small sequences and then expand in a smoother way to longer sequences. This is done via a kernel bias and cone attention.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_a3c9d183",
+      "id": "an_40908888",
       "reference_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8",
       "text": "Results on 4 known KT datasets show that csKT outperforms other KT models in cold-start scenarios. ",
       "provenance": {

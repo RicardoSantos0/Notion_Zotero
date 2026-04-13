@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_aa5d1f92",
+      "id": "ex_0c68c9a5",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fbaa0f5a",
+      "id": "an_3584392b",
       "reference_id": "18c4750c-f3ba-8060-b86b-cd8f95c569df",
       "text": "DKT is a state-of-the-art technique that predicts a learner’s performance based on observed learning history. However, learning history does not account for the whole picture: guessing, partial understanding, etc… To include a measurement of these elemente, the authors propose Variational Deep Knowledge Tracing (VDKT), which uses latent variables to incorporate their stochasticity.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_71b9b7fd",
+      "id": "an_14d1fcbd",
       "reference_id": "18c4750c-f3ba-8060-b86b-cd8f95c569df",
       "text": "OL a KT task, VDKT beats seq-to-seq DKT baselines and other KT models on different language learning datasets across different metrics. ",
       "provenance": {

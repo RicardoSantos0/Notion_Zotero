@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_b6acbe49",
+      "id": "an_99754705",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Collaborative learning intends to maximize learning performance for all students. Understanding levels and interests of students are two grouping criteria usually used. However, as the number of students increases this problem becomes larger and larger. ",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_98385f9c",
+      "id": "an_35d2f175",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The works starts with formulating a group formulation problem and using Particle Swarm Optimization to address it. Results show potential in the adopted approach.",
       "provenance": {
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "an_37245d33",
+      "id": "an_10ed16ef",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Computer Supported Collaborative Learning has become increasingly popular due to being a more convenient experience for both instructors and students. Well structured groups tend to work better than poorly structured groups. ",
       "provenance": {
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "an_682e82ba",
+      "id": "an_d21425b0",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Grouping criteria are multi-faceted as they involve multiple factors such as learning achievement, learning style and/or interpersonal relationships. The former 2 are understood to be real-world classroom problems by instructors. Grouping based on knowledge can encourage better discussions and interactions. Also, different interests also have been shown to enhance learning.",
       "provenance": {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "an_60455ddf",
+      "id": "an_107f32c2",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Group formation is a NP-hard problem which means that finding an optimal solution scales with the data. Since, in practice, finding optimal groups is not possible, the general options are random assignment OR letting students choose which group to belong to. This of course has consequences has groups may never be enough to learn OR have all members not learn anything themselves.",
       "provenance": {
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "an_9caa18d6",
+      "id": "an_81097329",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "This brings us to PSO, an algorithm that, in 2010 was considered recent and being used to address these NP-Hard problems.",
       "provenance": {
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "an_2e3a2934",
+      "id": "an_d3323a8c",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Based on the promising signs shown by Swarm Intelligence, the authors propose EPSO to use student interests and levels of understanding to form groups. The approach is compared against other competing methods of group formation.",
       "provenance": {
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "an_b30f40a7",
+      "id": "an_eef60466",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "PSO is derived from social behavior. Animals such as birds or fish seem to behave intelligently when in a complex system such as being part of a group. Thus, the main idea of Eberhart and Kennedy was to propose an algorithm where an individual’s behavior is not only determined by itself, but also based on the behavior of the remainder of the group. ",
       "provenance": {
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "an_b7e666fe",
+      "id": "an_eaca3c6e",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Thus, PSO does not use individuals but, instead, uses the notion of a swarm of particles that are distributed throughout the problem space. Each particle is an hypothetical solution. PSO optimization uses a fitness function that uses the particle’s location and then applies a velocity and direction.",
       "provenance": {
@@ -91,7 +91,7 @@
       }
     },
     {
-      "id": "an_5bccfdfc",
+      "id": "an_3378fdc3",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "In short parlance: ",
       "provenance": {
@@ -99,7 +99,7 @@
       }
     },
     {
-      "id": "an_f89bfcef",
+      "id": "an_df48097b",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Thus, training a PSO involves, for each particle, computing the direction and velocity that it should take towards the best solution. This is repeated iteratively.",
       "provenance": {
@@ -107,7 +107,7 @@
       }
     },
     {
-      "id": "an_6d93d2f6",
+      "id": "an_75127a18",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Grouping students can be formulated as a problem addressable accoring to 2 distinct criteria:",
       "provenance": {
@@ -115,7 +115,7 @@
       }
     },
     {
-      "id": "an_9ccca544",
+      "id": "an_d46c523c",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Working under the assumption that a course teaches k topics and there are n students.",
       "provenance": {
@@ -123,7 +123,7 @@
       }
     },
     {
-      "id": "an_d9e3aec5",
+      "id": "an_cb6d14ff",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "2 constraints: ",
       "provenance": {
@@ -131,7 +131,7 @@
       }
     },
     {
-      "id": "an_a71719c3",
+      "id": "an_3b2eb5dc",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "This required some encoding in EPSO: ",
       "provenance": {
@@ -139,7 +139,7 @@
       }
     },
     {
-      "id": "an_65a84368",
+      "id": "an_32cc04aa",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Essencially, each particle will feature a list of all students and each student will be assigned to a group and a specific position on that group: example:",
       "provenance": {
@@ -147,7 +147,7 @@
       }
     },
     {
-      "id": "an_a44a80a3",
+      "id": "an_40114d11",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The fitness function is defined as a minimization problem. The goal is to minimize:",
       "provenance": {
@@ -155,7 +155,7 @@
       }
     },
     {
-      "id": "an_a40d561d",
+      "id": "an_74c1e212",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "This PSO uses elitism to ensure that the best particle survives.",
       "provenance": {
@@ -163,7 +163,7 @@
       }
     },
     {
-      "id": "an_0cdf160d",
+      "id": "an_a9de5ee4",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Authors create the groups on a LMS called ANTS. The authors created an automatic group composition system. The study proposes a 4-step approach to creating groups in a copllaborative learning environment:",
       "provenance": {
@@ -171,7 +171,7 @@
       }
     },
     {
-      "id": "an_13c45a5a",
+      "id": "an_e71e96a8",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The authors proceeded to analyze the effectiveness of their EPSO approach. The experiment starts with a set of 9 simulated datasets comprising 15 to 2000 students. ",
       "provenance": {
@@ -179,7 +179,7 @@
       }
     },
     {
-      "id": "an_054b8e0e",
+      "id": "an_e683d31a",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The level of understanding and interest in each topic were randomly initialized for the purposes of the experiment - in a real world, there would be a diagnostic test to set the prior knowledge in each of the topics.",
       "provenance": {
@@ -187,7 +187,7 @@
       }
     },
     {
-      "id": "an_deed1411",
+      "id": "an_001eebc9",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The authors decided to run EPSO with 5-20 particles and iterations. Optimal value of fitness function was computed by averaging 10 runs on the 9 datasets - best results found with 10 particles.",
       "provenance": {
@@ -195,7 +195,7 @@
       }
     },
     {
-      "id": "an_49276b7a",
+      "id": "an_1457d5b0",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Comparison against exhaustive method on 2 dimensions: value of the fitness function and computation time. Exhaustive method finds better fitness but becomes computationally unfeasable.",
       "provenance": {
@@ -203,7 +203,7 @@
       }
     },
     {
-      "id": "an_712f28fe",
+      "id": "an_2622dd52",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Random Search vs EPSO. In this method, EPSO clearly outperforms in terms of fitness even if it becomes computationally molre expensive than the random method very early on. ",
       "provenance": {
@@ -211,7 +211,7 @@
       }
     },
     {
-      "id": "an_5ec43b3d",
+      "id": "an_121fe76d",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Authors look at the standard deviation of the fitness function in order to measure the dispersion of the optima found for each run of the EPSO. This was compared against that obtained by the random method:",
       "provenance": {
@@ -219,7 +219,7 @@
       }
     },
     {
-      "id": "an_6bdfc083",
+      "id": "an_43152779",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "The tests were run on different numbers of students. EPSO tended to remain robust (i.e. with a small standard deviation) for all numbers of students considered (excepting at 15 iterations).",
       "provenance": {
@@ -227,7 +227,7 @@
       }
     },
     {
-      "id": "an_d6c31219",
+      "id": "an_6ab3b471",
       "reference_id": "3e1bfdb2-5b3c-483e-a118-517004747aec",
       "text": "Experiment was repeated by setting the number of students as fixed and ewqual to 500 while the number of topics changed. Results tended to be similar, with EPSO showing very small standard deviations when it comes to the values of the best soilution for the fitness function.",
       "provenance": {

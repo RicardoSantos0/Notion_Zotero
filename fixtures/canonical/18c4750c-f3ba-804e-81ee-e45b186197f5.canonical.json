@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_282cdfdf",
+      "id": "ex_c0fa8be3",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_338184a8",
+      "id": "an_8f6e4860",
       "reference_id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
       "text": "LSTM is commonly used in DKT to analyze sequences of exercises done by students and predict whether the next exercise will be done right or not. However, LSTMs tend to give too much importance to short-term dependencies and often overlook longer-term dependencies. Authors look to create a Graph-Based Knowledge Model (SGKT). This model creates a representation for each exercise session and attempts to model the relationship between exercises and skills.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_6cfac9a5",
+      "id": "an_035f5614",
       "reference_id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
       "text": "The knowledge state is obtained via a gated graph NN and uses CNN to obtain embedding representations of exercises and skills. Moreover, there is a second mechanism to obtain embeddings of knowledge states. Finally, an Attention mechanism is used to make predictions.",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_0ed97c3d",
+      "id": "ex_2556e1d2",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_5dacc6e9",
+      "id": "an_c22f0e14",
       "reference_id": "18c4750c-f3ba-80ed-ab50-ddb033db9f04",
       "text": "CFA is an important reearch interest, especially in the context of ITS, generating models such as BKT, PFA and DKT (which uses RNN). The problem with the DKT apporach is that it considers only a subset of features related with the knowledge components of a problem.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_39d3fe2b",
+      "id": "an_5c777e8a",
       "reference_id": "18c4750c-f3ba-80ed-ab50-ddb033db9f04",
       "text": "Thus, the authors’ proposition is 2-fold. First they want to add more features to the problem level. Second, they introduce an Auto-Encoder to reduce training time and resource requirements. Results show that new model obtains higher accuracies than the regular DKT approach.",
       "provenance": {

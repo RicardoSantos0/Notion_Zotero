@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_3f62da4d",
+      "id": "ex_d7e6cbc6",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_bd60c608",
+      "id": "an_46488827",
       "reference_id": "6c5c4ff1-f860-4106-af40-7e42703132c4",
       "text": "Co-training is one form of semi-supervised classification that has historically exhibited good predictive results that has, to the author’s best knowledge not been implemented in education. Moreover, the literature lacks solutions in regression. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_92c3cae4",
+      "id": "an_5c05a568",
       "reference_id": "6c5c4ff1-f860-4106-af40-7e42703132c4",
       "text": "Authors use semi-supervised learning to predict final exam grades at the end of the academic year in undergraduate students using data from 3 different sources. Authors use a dataset provided by Hellenic Open University comparing approach against well-established ML algorithms. Results show good performance on early detection with small amounts of data.",
       "provenance": {

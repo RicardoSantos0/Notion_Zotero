@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_4825c717",
+      "id": "ex_40c7736e",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_f51ebf4d",
+      "id": "an_b1ab364e",
       "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
       "text": "Elearning allows learners to access educational content whenever and wherever they desire. This new power also comes with the great responsability of enabling personalized learning, something that traditional Recommender systems often fail at due to making incorrect recommendations and, oftentimes, taking to long to properly reach the recommendation. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_e39823e0",
+      "id": "an_bb62f7c7",
       "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
       "text": "The authors look to address these issues by proposing and Enhanced vector recommender that automatically adjusts the learner’s interests, requirements and knowledge level. The improved preprocessing is subject to Content Based Filtering recommenders in order to deliver the actual recommendations. These recommendations are sub-sequently ranked using a collaborative filtering approach. ",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_b3f02fef",
+      "id": "an_0dd77745",
       "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
       "text": "The method was tested on multiple datasets (including OULAD). The simulated outcomes outperform other existing strategies.",
       "provenance": {

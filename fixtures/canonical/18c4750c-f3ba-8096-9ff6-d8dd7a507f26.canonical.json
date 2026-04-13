@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_4876b656",
+      "id": "ex_528888e6",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_0599763c",
+      "id": "an_4f329d23",
       "reference_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26",
       "text": "Most of the KT work that exists is based on predicting whether a student will get a question right or wrong, often disregarding relevant indicators such as answering speed or number of attempts. Authors propose LBKT which is meant to explore these constructs. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_3f3334ce",
+      "id": "an_c8fb11b7",
       "reference_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26",
       "text": "Authors start with explanation of the constructs and proceed with their quantification. Benchmarking on public datasets shows that the model outperforms other approaches in the literature. Code is also publicly available.",
       "provenance": {

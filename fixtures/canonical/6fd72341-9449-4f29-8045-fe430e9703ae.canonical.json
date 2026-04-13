@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_6095cbc8",
+      "id": "ex_03889c69",
       "reference_task_id": null,
       "schema_name": "Discussion",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_737c0c0f",
+      "id": "an_1cba0696",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Few works have compared the SRL variables extracted from logs with the SRL variables extracted from questionnaires. This work explores exactly that by lloking at a sample of 144 students attending a course that follows a flipped classroom approach. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_30938709",
+      "id": "an_32341758",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Authors found that the logs allow for the distinction between deep learning approaches and surface learning approaches. The results also show that there were some associations between deep learning strategies identified in LMS vs the other methods. The same, however, cannot be said in regards to surface learning or motivation. The authors also found that students following deep approaches performed better.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_262ac402",
+      "id": "an_4ad09fd6",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "While the early days of LA often involved the predictive modeling of student success, the use of advanced machine learning techniques to model students has gained significant traction.",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_d7a10c58",
+      "id": "an_13ad78ab",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Multiple authors have argued that proper modelling of students, their learning processes and behaviors requires backing by educational theory. The reason for this is two-fold: First, it allows for better interpretation of the models while, simultaneously, allowing for their validation and updating. This opens opportunities for the creation of new predictors and facilitate interpretation of results. ",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_a0ce7089",
+      "id": "an_953d4eaa",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "There still is some tension on theory-driven techniques used in learning analytics, with the reliance in self reports being a considerable point. Moreover, a problem comes from the fact that trace data and self-reports often cannot be overlapped → learners to over-estimate their tactics. Trace data has shown to be less biased. This brings forward the notion of combining both self-reports and trace data.",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_908535b2",
+      "id": "an_8e9750ef",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "The apper explores learning strategies measurable from self-reporting and trace data and their effect on student performance. Existing research shows that learners often engage in unproductive learning strategies and inneficieient use of the tools available. Unsupervised learning techniques have generaaly identified between 3 and 6 learning strategies. Results often showed that it is possible to discern differences in behavior and that it is possible to identify relationships with performance → more engagement tends to lead to better performance. ",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_f255bc36",
+      "id": "an_08936856",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "When it comes to historical readings from students, the literature often shows that deep learning approaches often tend to lead to better student outcomes than more surface-level approaches to learning. Obsevation shows that surface approaches are more common in knowledge transmission classes while deep learning approaches were often more common in conceptual change classes.",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_b05390d6",
+      "id": "an_900578ba",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Thue authors use a self-report instrument that tracks different approaches to learning on 4 sub-scales: Deep Motive, Deep Strategy, Surface Motive and Surface Strategy. The research questions for this study can be written as follows:",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_d3865bed",
+      "id": "an_b25f6992",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "The course includes a fllipped classroom first-year course that lasted for 13 weeks and enrolled 290 students. The preparatory lessons included videos, MCQ, reading materials and problem sequences (the latter being used as summative assessment). Students also had access to a LA dashboard.  ",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_839db2dc",
+      "id": "an_3e539adc",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "3 sources were used. Study Process Questionnaire which was answered by 144 students. The second source were the LMS logs created during the whole duration of the course: weeks  2 to 13. The highlights the preparation for the flipped classroom lectures by the students who answered the SPQ. Exam scores were also extracted: both mid-term and final exam scores.",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_fb069f70",
+      "id": "an_e0928bfb",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "As far as the data goes, the learning sequences were clustered and used subsequently to cluster students. In both cases, the authors used agglomerative clustering with ward distance. Clustering of learning sequences used Levenshtein distance (edit distance).",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_5ba633e9",
+      "id": "an_b5a0ac0f",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "The learning sequence clustering gets 4 clusters, and the clustering of students is based on the number learning sequences that belong to each of these clusters seq.cluster_i. The fifth feature is the total number of learning sequencves by the student.",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_485fff23",
+      "id": "an_21ac7fb7",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Comparisoin of student along the 6 constructs of relied on the Man Whitney U test. ",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_7b2fb69b",
+      "id": "an_bf98d6ff",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "From the clustering of learning sequences (6196), the authors found 4 clusters:",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_18c75f21",
+      "id": "an_9c7f8f94",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "As far as student clustering goes, the results also show 4 clusters:",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_8992e2f4",
+      "id": "an_ce12caa5",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "There is a distinction between approaches to learning: deep approaches come from intrinsic motivation and is characterized by critical evaluation and synthetization. Students in C1 and C2 are more engaged in general, especially on Seq1 - Formative assessment and Seq3. Reading materials. Thus, these clusters seem to follow more of a deep approach (with C1 even having advantage here). Both these clusters also perform better than their peers.",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_fe02c9a6",
+      "id": "an_9f63d4a8",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Cluster 3 and follow a surface aproach, with C4 being a more innactive set of students relative to C3. C3 is interpreted as trying to get good results with minimal engagement.",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_1ef0d249",
+      "id": "an_dd43f3f3",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Cluisters 1 and 2 were grouped into students who followed a deep approach and 3 and 4 grouped into students who follow a surface approach. These 2 new clusters were compared against one another and we see that Deep Learning approaches had considerably higher scores on the Deep Approach scale than students identified as having a Surface approach.",
       "provenance": {
@@ -194,7 +194,7 @@
       }
     },
     {
-      "id": "an_444e12b9",
+      "id": "an_f85a276d",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Finally, the authors compare the mid-term and final exam scores of both groups, with the Deep Approach Group outperforming the Surface Approach Group on both. ",
       "provenance": {
@@ -202,7 +202,7 @@
       }
     },
     {
-      "id": "an_b63891d2",
+      "id": "an_a9e33e09",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "Students in the deep approach followed a variety of possible ways to engage to with the contents provided to them. This is due to the fact that deep approaches often require the exploration of both deep and surface level strategies, whereas surface level approaches often are performance oriented (not learning). ",
       "provenance": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "an_a7ca0a71",
+      "id": "an_abae2cc0",
       "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
       "text": "There are some other factors that may account for the differences in results: prior knowledge. ",
       "provenance": {

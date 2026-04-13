@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_07074f51",
+      "id": "ex_d1bb40fe",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_9dbef2b5",
+      "id": "an_1fb94718",
       "reference_id": "18d4750c-f3ba-80a0-830c-f221c0724943",
       "text": "The work uses multiple ML models on 2 Chilean universities with the goal of predicting the probability of first-year engineering students dropping out. Reulsts show that doing university-specific models would lead to better results, with Gradfient-Boosting approaches being among the top-performing. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_d60a8ec9",
+      "id": "an_01db9397",
       "reference_id": "18d4750c-f3ba-80a0-830c-f221c0724943",
       "text": "In terms of interpretability, authors identify that students who achieve higher test scores are more likely to continue with their studies and not dropout. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_c6e1028d",
+      "id": "an_b66ae05a",
       "reference_id": "18d4750c-f3ba-80a0-830c-f221c0724943",
       "text": " ",
       "provenance": {

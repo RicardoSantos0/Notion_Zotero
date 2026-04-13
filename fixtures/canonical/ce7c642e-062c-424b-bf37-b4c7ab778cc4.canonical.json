@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_3e197735",
+      "id": "ex_28fc3678",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_3f0294fa",
+      "id": "an_cf222eaf",
       "reference_id": "ce7c642e-062c-424b-bf37-b4c7ab778cc4",
       "text": "There is a problem with current classifiers of performance as they often are done in a course or a small subset of courses at the end of the course. Moreover, binary classification seems to be the preferred task. Thses limitations hinder the ability to provide meaningful feedback and student support. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_cc9840db",
+      "id": "an_28666e03",
       "reference_id": "ce7c642e-062c-424b-bf37-b4c7ab778cc4",
       "text": "To address this gap, authors propose a day-wise model to predict performance called ANN-LSTM. Model was compared against a baseline RNN and baseline GRU model. Moreover, results were compared against other state-of-the-art methods. During model testing, it was found that, by the 3rd month of a course, ANN-LSTM obliterated the baselines, achieving 70% accuracy in comparison with the 53% and 56% of RNN and GRU.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_21c68533",
+      "id": "an_5c96a1bb",
       "reference_id": "ce7c642e-062c-424b-bf37-b4c7ab778cc4",
       "text": "In addition, the model also outperformed the state-of-the art models between 6% and 14%, showing LSTM as an effective way to model temporal relationships in the data.",
       "provenance": {

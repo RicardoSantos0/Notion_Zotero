@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_23a55dcc",
+      "id": "ex_a6dfb0a6",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b6f508dc",
+      "id": "an_5808efe7",
       "reference_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b",
       "text": "Current models to predict academic performance focus on attributes of the students but not the relationships between the students themselves. Authors propose a multi-view Hypergraph neural network to address this issue:",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_b2842207",
+      "id": "an_e834fb09",
       "reference_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b",
       "text": "Comparison of this model against other models ion the task of predicting student performance shows that the model outperforms baseline. ",
       "provenance": {

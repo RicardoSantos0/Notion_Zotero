@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_2c84a530",
+      "id": "ex_67b71a82",
       "reference_task_id": null,
       "schema_name": "Future work",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_3020ee9a",
+      "id": "an_1d360b72",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Heuristic recommender systems have shown some effectiveness in the educational context but often lack the ability to generalize. Thus, the authors use a 2-tiered approach:",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_4f9765d7",
+      "id": "an_034afaaf",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors conclude that their approach presents high adaptability and efficiency in e-learning recommendations.",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_f74cf1b1",
+      "id": "an_45616dd5",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "In an unstructured scenario of learning such as MOOCs, it often becomes challenging to enhance the learning experience which results in high dropout and low acquisition of knowledge. Personalized learning can assist in the creation of proper learning objectives that are suited to the learners.",
       "provenance": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "an_8f904dcd",
+      "id": "an_c66a04a0",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors cite that recommender systems can be grouped into 4 categories:",
       "provenance": {
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "an_95449973",
+      "id": "an_16504b97",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors focus heavily on content-based filtering and discuss that these systems can be effective in the generation of learning paths that match the learner’s goals. However, this involves creeating an adequate Constraint Satisfaction Problem that matches competency, Learning objectives and other constraints - a very complex task.",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_b7effaa6",
+      "id": "an_6b736597",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Previous work has focused on identifying learner needs and making recommendations that would address those difficulties - sometimes making adaptations along the way. However, there are also other factors that influence learning that have not been accounted for. ",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_e16e808a",
+      "id": "an_370014a0",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "In this work, the authors start with the application of concept mapping to get a sense of the learner and the Learning Objectives. The novelty comes from the fact that it is a mixed concept mapping that take the learner’s attributes and learning goals to combine them into a LO concept map. Genetic Algorithms have also been used for this task, but the authors argue that it is vulnerable to parameter setting.",
       "provenance": {
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "an_e6f49c96",
+      "id": "an_0e8182c9",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Other evolutionary options exist but the authors argue that Immune System approach is probably the best for this type of setting - and there is already some research in the area. One such case is the use of Immune Algorithms to create a nearly optimal test sheet in order to meet multiple assessment criteria. ",
       "provenance": {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "an_9ae06402",
+      "id": "an_47c8dba3",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Adapting the IA approach to recommendations is challenging. The author’s approach uses learner preference carachteristics into immune mechanisms and vaccine inoculation.",
       "provenance": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "an_3ccbbb02",
+      "id": "an_dd765659",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Modelling learners and their style is a complex problem, with many possible categorizations. There are a lot, and I mean A LOT of approaches that allow for the representation of learners: heuristic-based, clustering, Bayesian… ",
       "provenance": {
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "an_97cf5162",
+      "id": "an_5c381470",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Thus, the authors developed their own questionnaire to identify learning styles based on the following constituents. Some of the constituents are straighforward - Look at the past and see how the student behaves to get a better sense of what the learner’s preferences are:",
       "provenance": {
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "an_4a10e484",
+      "id": "an_60deb5c9",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": " Point 4 - Learner attitude evaluation is more of a pickle for me. At least for now it is unclear how this is measured. ",
       "provenance": {
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "an_f87fbbb9",
+      "id": "an_22841bdc",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The latent subjective attributes are obtained from a 69 question questionnaire that combines other sources. ",
       "provenance": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "an_919e9b37",
+      "id": "an_3f2e4475",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Learner representation - Formally:",
       "provenance": {
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "an_37f4b4a2",
+      "id": "an_8011d7a5",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors put a clear emphasis on matching learning objectives with the learning style. The reason for this is straightforward: if a learner’s learning goals are not mappable to a learning objective then there is more incentive for the learner to not learn - and possibly fail the course.",
       "provenance": {
@@ -168,7 +168,7 @@
       }
     },
     {
-      "id": "an_77dd037b",
+      "id": "an_cc219c4b",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Learning objective modelling also considers two other carachteristics:",
       "provenance": {
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": "an_c75c8c9c",
+      "id": "an_2ff65d51",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Mixed concept mapping is used to establish the relationship between learners and the learning objectives:",
       "provenance": {
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": "an_cbd95138",
+      "id": "an_39d48034",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Following the rules mined often leads to a better learning experience and, consequently, a better learning outcome. Straying away from it is argued to lead to tiredness or depression. This form of association rule mining allows the identification of a pathway of a student based on his/her attributes. However, it may be considered very inneficient computationally.",
       "provenance": {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "id": "an_f82df8fc",
+      "id": "an_34bb091a",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "To address the inefficiency, the authors also created a dynamic k-means approach that takes as input the learner attributes as centroids to cluster the learning resources. So… you take information about the students and use them as centroids - Then, try to find which learning resources are “more similar” to the current centroids (this part is somewhat unclear to me, may need to revise it if important).",
       "provenance": {
@@ -200,7 +200,7 @@
       }
     },
     {
-      "id": "an_2758bffb",
+      "id": "an_ca9f52bb",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The problem of scalability identified previously is addressed via what the authors call a Constraint Satisfaction Problem (CSP) that is meant to serve as a fitness function. This function should, essencially, be interpreted as:",
       "provenance": {
@@ -208,7 +208,7 @@
       }
     },
     {
-      "id": "an_c517fbeb",
+      "id": "an_14d68f21",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Minimize weighted sum of penalties across multiple dimensions:",
       "provenance": {
@@ -216,7 +216,7 @@
       }
     },
     {
-      "id": "an_0077ac2b",
+      "id": "an_46d54461",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P1 - mismatch between the recommended LO difficulty and the learner’s attitude while taking into consideration the importance of the LO’s). ",
       "provenance": {
@@ -224,7 +224,7 @@
       }
     },
     {
-      "id": "an_6474b266",
+      "id": "an_30010bb4",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P2 - Difference between competency of student and the LO’s importance and difficulty",
       "provenance": {
@@ -232,7 +232,7 @@
       }
     },
     {
-      "id": "an_1e3f723c",
+      "id": "an_b8eed72c",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P3 - Difference between time available (planned time) and the time required to complete the LO",
       "provenance": {
@@ -240,7 +240,7 @@
       }
     },
     {
-      "id": "an_b3583406",
+      "id": "an_65dd7ae5",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P4 - Difference between media type of the resource and the learner’s preferred media type",
       "provenance": {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "id": "an_33f22f8d",
+      "id": "an_5917a7b3",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P5 - Intended to measure situations where the content of recommended LO DOES NOT match the learner’s preferences - when students are required to make the chores essencially,",
       "provenance": {
@@ -256,7 +256,7 @@
       }
     },
     {
-      "id": "an_4b7182f5",
+      "id": "an_e50bbcfa",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P6 - Exists when the recommended LO cannot satisfy previous or post-sequence constraints",
       "provenance": {
@@ -264,7 +264,7 @@
       }
     },
     {
-      "id": "an_56a8678d",
+      "id": "an_8b2609fb",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "P7 - Penalty for when highly correlated resources are not recommended jointly",
       "provenance": {
@@ -272,7 +272,7 @@
       }
     },
     {
-      "id": "an_3d534bc9",
+      "id": "an_e486d175",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": " The authors consider LO recommendation can be treated as a problem of partition and permutation of all possible LOs. All possible permutations are represented using IA and integer coding.",
       "provenance": {
@@ -280,7 +280,7 @@
       }
     },
     {
-      "id": "an_0b2d299c",
+      "id": "an_88726c1f",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors use two antibody evaluation mechanisms - antibody fitness and antibody concentration. ",
       "provenance": {
@@ -288,7 +288,7 @@
       }
     },
     {
-      "id": "an_d8cbae5c",
+      "id": "an_9572978b",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "REcommendations are based on the materials of modules 4-6 (out of 10). The course starts with traditional method of delivery (1 to 3) and also ends in traditional method (7 to 10).",
       "provenance": {
@@ -296,7 +296,7 @@
       }
     },
     {
-      "id": "an_95a27736",
+      "id": "an_00b0eb7d",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The modules under review can be subdivided into 11 different subjects and 235 Learning Outcomes. There are also some sequential constraints into play that make the problem a little harder.",
       "provenance": {
@@ -304,7 +304,7 @@
       }
     },
     {
-      "id": "an_f5162e0d",
+      "id": "an_de4aa049",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The evaluation of the results was done in a two-fold manner:",
       "provenance": {
@@ -312,7 +312,7 @@
       }
     },
     {
-      "id": "an_ad66b676",
+      "id": "an_f3c18258",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "IA seems to generate pretty satisfactory results from the author's POV.",
       "provenance": {
@@ -320,7 +320,7 @@
       }
     },
     {
-      "id": "an_68ab9ec5",
+      "id": "an_faf35aa9",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Students who had recommendations done from this method had more free time, checked less resources and were still among the top performing members at the end of the semester. Overall, IA also was the option that was more positively received by the student population.",
       "provenance": {
@@ -328,7 +328,7 @@
       }
     },
     {
-      "id": "an_939460b5",
+      "id": "an_3fd3ad6b",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "\nThe experimental approach of using the Mixed Concept Mapping and the Vaccine innoculation also showed promising results as the algorithm seemed to not only converge fast, but to also converge closer to optimal solutions.\n\nIn general, the study is a good showcase about the buzz around personalized learning. When leaving students unattended on what to study or how to study it they tend to follow what can be considered a lot of inneficient and/or redundant paths which may lead to a low feeling of progress on a larger amount of time dedicated and, consequently, higher degrees of frustration and demotivation.\n",
       "provenance": {
@@ -336,7 +336,7 @@
       }
     },
     {
-      "id": "an_9e3a4c1a",
+      "id": "an_07ace969",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "The authors propose a different way of representing students that considers their knowledge but also their motivations and preferences. The relationship between learners and resources was uncovered using a mixed concept mapping that, among other things, uses Association Rules.\n\nMaking, for every student, a recommendation based on the association rules uncovered is a computationally impossible task, which brings us to the use of Optimization Algorithms to make those recommendations. The authors design a special Immune Algorithm and compare how well it performs against other optimization algorithms such as PSO and GA. ",
       "provenance": {
@@ -344,7 +344,7 @@
       }
     },
     {
-      "id": "an_4c8fc0b6",
+      "id": "an_9a14dcaa",
       "reference_id": "46df7d32-6e7d-424c-a8fb-e7a727f30020",
       "text": "Future work will consider improvements to the performance of the algorithm and the way student knowledge is represented.",
       "provenance": {

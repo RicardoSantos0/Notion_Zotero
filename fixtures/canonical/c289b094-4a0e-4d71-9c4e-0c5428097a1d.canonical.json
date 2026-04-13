@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_fb16af6b",
+      "id": "ex_0764377b",
       "reference_task_id": null,
       "schema_name": "Summary Table",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_be077b15",
+      "id": "an_da2c8445",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Paper presents Course Signals. The system is implemented on Blackboard Vista. The system analyzes logs, past academic history and previous grades. Paper shares structure of the system and preliminary results and reception.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_9b8f8c99",
+      "id": "an_8091919f",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Students receive feedback over a personalized e-mail followed with traffic-light color coding. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_4c8f7cc9",
+      "id": "an_4a3bb36b",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "There are 3 necessary conditions for student persistence:",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_ff120de5",
+      "id": "an_aa604aa7",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Thus, the authors look at Course Signals and present the way it promotes academic integration:",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_bf387854",
+      "id": "an_0392d58f",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "The system has been under employment at Purdue University since 2007. The system uses predictive models to identify, in real time, potential students at risk. For that, there is a Predictive Student Success algorithm that is run on-demand by the instructors. ",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_df25b74a",
+      "id": "an_9eea0c65",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "The SSA is a proprietary algorithm that weights 4 components that encompass:",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_40632001",
+      "id": "an_3be36032",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Course Signals allows for identification of students at risk by combining all dimensions into a single score that represents the likelihood of failing on the course.",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_8d7d374c",
+      "id": "an_f7a8e232",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Thse system was initially intended to help identify students at risk and was built from the ground up. The system currently (in 2012) had been used by 145 instructors, impacting 24000 students. In the courses where CS has been used, the authors have noted a general increase in the numbers of As and Bs received by the students, accompanied by a relateive decrease in the number of Cs. \n\nMoreover, the relative proportion of really low grades (Ds, Fs, and even Dropout) has substantially decreased in courses using the system.",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_78d10ffb",
+      "id": "an_e8ed3570",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "To showcase the effects, the authors display results obtained using cohorts of 2007, 2008 and 2009. For these cohorts, the authors specified conditions of students of belonging to a co-hort and then computed the retention rate for each co-hort (inside the co-hort the students were split by the number of courses using Course signals undertaken). ",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_181f81cf",
+      "id": "an_b367d7b4",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Students undertaking CS courses are much more likely to continue studying and not dropout relative to their peers. Morever, this relationship seemed to hold. ",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_a0cfc390",
+      "id": "an_e714d8b3",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "The second analysis is a comparison of students who had CS courses in a period vs the students who did not have any CS course. Results show that the system is benefical for students. The survey data collected to measure student satisfaction also suggests that.",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_d6dc99d3",
+      "id": "an_2cd8835f",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Positive experiences with CS by 89% of respondents and 58% would like to have CS in all courses. Students feel validated as individuals by the e-mail, describing the experience as motivating- with 2 out of 1500 respondents being the only instances of the feedback being demoralizing.",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_e7e4822c",
+      "id": "an_9ed79f30",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "Faculty claim that their life towards the design of more personalized interventions is definitely asier thanks to CS. The multi-modal nature of the data is also appreciated. Also, from the professor’’s perspective, the fact that the system automatically warns students about their progress contributes to having the students start other tasks (e.g. projects) earlier than before. \n\nIn addition, the students demonstrate more interest in the prokects as they make more questions about it and other assignments. ",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_de6337f0",
+      "id": "an_e3bc67ca",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "The main concern of professors is the flow of e-mails that they receive from students who were flagged. ",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_5861a3b0",
+      "id": "an_113904ed",
       "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
       "text": "\n\n",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_a4c20ec6",
+      "id": "ex_5eef25e0",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_cd75920c",
+      "id": "an_dd0dea03",
       "reference_id": "44babb05-7b60-47e1-a7d6-cbc8ddd0f71a",
       "text": "Analysis of logs requires the transformation of the time-series-esque set of data into meaningful SRL constructs. The authors explore a different way of mapping interactions to SRL construct: Trace Parsing Methodology. They attempt to use 4 different forms of trace parsing and conclude that the choice of parsing method clearly affects process identification and sequencing. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_483f8fcc",
+      "id": "an_3b8e1cf0",
       "reference_id": "44babb05-7b60-47e1-a7d6-cbc8ddd0f71a",
       "text": " ",
       "provenance": {

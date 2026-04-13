@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_16defcdd",
+      "id": "ex_46c0c213",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_6a543777",
+      "id": "an_8ad86a45",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "Need for new methods of predicting achievement that are cheaper and generalizable to increasingly large courses (e.g. MOOCs). Paper presents a novel approach of feature extraction from logs → Features extracted using proposed methodology are built from interactions between learners and resources.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_a30054d3",
+      "id": "an_ca529b0d",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "Current models for rpediction of student performance often depend on domain knowledge and pedagogical constraints which makes these models only effective in situations where the technologie or pedagogical strategies being measured are used. Thus, there is a need for more generalizability. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_4ddede9a",
+      "id": "an_3bc25150",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "The authors intend to build a model from interactions that is generalizable and not course-specific. A factor motivating this approach is the increasing availability of LMS systems that collecte clickstream data. Altough there are many approaches for this, trhe authors specifically focus on time series interaction analysis with the goal of predicting summative evaluations on MOOCs.",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_3c5631ec",
+      "id": "an_6a78b044",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "Historically, prior performance data is more predictive of student performance than clickstream data. However, due to their availability, clickstream summaries have been more and more popular. For example, in MOOC, institutions often have very little knowledge on a student’s performance in previous courses. Thus behavioral data is the primary dsata source to form a predictive model until the end of examinations (at least in MOOC). ",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_bfc7b9b4",
+      "id": "an_9288962b",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "There are multiple perspectives when it comes to modelling cognitive skills or learning. The basis for many ITS is the ACT-R model that postulates that cognitive skilsl can be described as if they were mere production rules. Another theory argues that learning comes from making mistakes. Moreover, there is contact with materials or communication with peers.",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_238c064d",
+      "id": "an_7e2b7603",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "This work intends to model learners based on their interactions with a LMS - specifically resources available in the LMS.",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_33cfabcd",
+      "id": "an_506db5b7",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "There are 5 main intervenients: ",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_29f7df8d",
+      "id": "an_e57cf2e4",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "How to create TS Features:",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_23ef15fd",
+      "id": "an_d322e4f4",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": " The creation of Time-Series Features involves first defining specific time-frames and then creating boolean flags that reflect whether a specific resource was interacted with in a given dataframe.",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_4b2ae5a1",
+      "id": "an_399fdd28",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "In total, each student enrollment had 1221 features: 480 boolean features, 21 summative counts of accesses in distinct days of the week and 717 n-gram related features. ",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_0ba591bf",
+      "id": "an_f93fe78b",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "Tests were done over 3 RQ, with only the third one focusing on early warning systems per se:",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_497445b3",
+      "id": "an_5af58cb0",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "To test the feasibility, the authors opted to use a J48 DT. on 4 different MOOCs from Michigan University on Coursera. The models will be evaluated across the numbers of correct and incorrect predictions and Fleiss’s kappa. This metric has some constraints related with its interpretation that will be addressed later by the authors. ",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_de655eab",
+      "id": "an_a08ca90b",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "RQ1: The first decision tree for post-hoc analysis shows 3 viable paths of classification:",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_15205fba",
+      "id": "an_ca11a842",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "RQ2: The model trained on the balanced datasets of course editions 1 and 2 and tested on third offering. Multiple predictions are made over time. It stands clear that the models clearly overfit:",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_4e1f9fb1",
+      "id": "an_a6d72471",
       "reference_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
       "text": "Predictive performance measured by kappa clearly increases as the number of days increases. Optimal tradeoff for classification seems to be after 21 days, when there is a significant drropoff in the FPR.",
       "provenance": {

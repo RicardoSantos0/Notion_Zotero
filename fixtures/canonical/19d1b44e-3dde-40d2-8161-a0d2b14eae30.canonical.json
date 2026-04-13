@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b807ecd8",
+      "id": "ex_2e81f50f",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_9c599c32",
+      "id": "an_67405ca0",
       "reference_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30",
       "text": "Paper uses NLP to predict the performance of students at the end of a course. The model uses historical enrollment data and course descriptions to predict the potential grade of a student in a course. The authors use BERT to analyse the text and create course description embeddings. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_45eefba6",
+      "id": "an_d03e314c",
       "reference_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30",
       "text": "Moreover, the author creates a student knowledge profile that is based on the descriptions of the courses the student has already attended AND the student’s respective performance on that course. The approach had soime promise but still has plenty of room for improvement according to the authors. ",
       "provenance": {

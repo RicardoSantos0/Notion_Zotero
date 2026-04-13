@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_800aac2b",
+      "id": "ex_fb4b8d90",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_d82ef930",
+      "id": "an_ed2992f5",
       "reference_id": "18c4750c-f3ba-8081-92c4-c26fee99d47c",
       "text": "More availability of data has contributed to a proliferation of research on predicting next course. The paper provides a comprehensive revieww of data sources and models for different prediction tasks. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_fa918b67",
+      "id": "an_25dbd077",
       "reference_id": "18c4750c-f3ba-8081-92c4-c26fee99d47c",
       "text": "Authors evaluate different sources and models to predict:",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_51402c61",
+      "id": "an_aff8a04f",
       "reference_id": "18c4750c-f3ba-8081-92c4-c26fee99d47c",
       "text": "Results show that enrollment-based graph embeddings perform better at predicting course pre-requisites. In addition, descriptions, syllabi and course2vec combined achieve the best predictive capabilities for course similarity.",
       "provenance": {

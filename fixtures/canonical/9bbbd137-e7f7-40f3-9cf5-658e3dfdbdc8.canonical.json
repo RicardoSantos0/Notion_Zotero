@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_71ea22f4",
+      "id": "ex_a07a8641",
       "reference_task_id": null,
       "schema_name": "Limitations",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_20f66de5",
+      "id": "an_ce9aea4b",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "A big challenge in learning analytics is understanding whether an interaction is meaningful for learning or not. Authors focus on understanding which interactions are meaningful and which aren’t. For that, they develop a nomenclature distinguishing between Online Learning contexts and F2F supported by VLE contexts.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_c7be1bd3",
+      "id": "an_1ed56d49",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Authors found that, indeed, there are pedagogically meaningful interactions in Online Learning but failed to obtain similar results for F2F supported by VLE contexts. \n",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_f598cc11",
+      "id": "an_3f2c0934",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "It is difficult to identify what are the contributions of different types of interaction to student learning. In traditional learning paradigms, the teacher is often the guide by which learning occurs as the professor is the mediator between student and content. ",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_8490ddfe",
+      "id": "an_cc27c319",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "To that effect, there are 3 types of noteworthy interactions to consider:",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_4cd11801",
+      "id": "an_c76bad0f",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The authors argue that the latter 2 are more easily enhanced in e-learning scenarios. Moreover, these types of interactions on face-to-face scenarios are often informal which makes it really difficult to quantify their impact towards learning. LMS sort of facilitate this as they record interactions.",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_e04ebbc3",
+      "id": "an_1f420a7b",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The authors view LA as a field focused on the study on VLE logs. It emerged from the adoption of VLE in educational institutions and the proliferation of DM techniques. Since the goal of learning analytics is, at the end of the day, to understand and improve learning processes it is essential to understand and contextualize the types of interactions that exist between student and the VLE. The authors identify main types of approaches in LA:",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_7d6525b8",
+      "id": "an_6f199f47",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Over time, researchers have acknowledged that the interactions of learners with LMS or VLEs have some form of pedagogical meaning. However, researchers do not agree on what types of interactions have pedagogical meaning, what are the criteria for selection of relevant types of interactions. Thus, the proposed RQs are :",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_f72a90a1",
+      "id": "an_649af7fd",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": " Ultimately, the goal is to identify what are the correct types of interaction that it becomes easier to design early warning systems. But the goal is not to design an early warning system itself. The authors start the process of categorization of system independent interactions in two perspectives:",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_60780015",
+      "id": "an_ed65996e",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Agent - who/what is the student interacting with → content, teacher or peers.",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_c0925cd6",
+      "id": "an_1dfb688c",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Frequency of use - How often is this interaction present in a typical VLE (not how often it is used) - Most used, Moderately used, Rarely used.",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_db65df1a",
+      "id": "an_c40412ed",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Participation Mode - Based on how student interacts with VLE.",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_37ebef3b",
+      "id": "an_bf20af2d",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The first part of the paper stems from validating the 3 previously identified frameworks for classification of interactions and see whether these map to differences in student performance. The authors use data from 6 online courses (138 students) and 2 face-to-face courses (218 students). ",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_006a88ed",
+      "id": "an_604b0cfd",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Authors use Moodle for all the courses. Traditionally, the materials gradually become available as the semester advances but remain available afterward. ",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_849b44aa",
+      "id": "an_6d436855",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Data Extraction",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_17e15c7e",
+      "id": "an_156f3fdf",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Moodle records the logs of interactions between students and content. The authors resorted to extracting the logs. Filtering out of interactions according to the designated taxonomies is, at this stage not possible and requires additional pre-processing. ",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_6eefb4ad",
+      "id": "an_11bb95bd",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Each possible interaction has been manually labelled by 2 experts. These classifications were subsequently assessed by 3 additional domain experts. The resulting categorizations are integrated in a Moodle Plugin in order to return the classified interactions. In essence, the work starts with manually labelling all of the interactions.  ",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_5afc47cc",
+      "id": "an_8ae092a2",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Data Analysis",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_85b2c984",
+      "id": "an_ee0cb7d6",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Data analysis was conducted in 2 distinct ways:",
       "provenance": {
@@ -194,7 +194,7 @@
       }
     },
     {
-      "id": "an_b872b85d",
+      "id": "an_771b88f5",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "From figure 2 - despite it being possible to see some differences in absolute number of interactions, most of the behaviors are similar between contexts - difference being Evaluating Students for the reason that F2F did not submit evaluations in the VLE. ",
       "provenance": {
@@ -202,7 +202,7 @@
       }
     },
     {
-      "id": "an_b13c49e7",
+      "id": "an_3a1a6694",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The authors look at the categorizations under the 3 perspectives. Most of the interactions in F2F contexts have very little correlation with the final grade and, in fact, none have statistically significant results. ",
       "provenance": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "an_5f6c1742",
+      "id": "an_24b5a1aa",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "However, for an online context, the types of interactions do seem to be linearly correlated with the final grade, with all correlations being moderate.  ",
       "provenance": {
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": "an_8fac0bda",
+      "id": "an_8178c69a",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "When it comes to the regression, no predictive power was found in any of the types of interactions. In essence, the authors attempted 3 forms of categorization of the logs and attempted to see which led to the best predictions of the final grade via a Multiple Linear Regression. ",
       "provenance": {
@@ -226,7 +226,7 @@
       }
     },
     {
-      "id": "an_b665433f",
+      "id": "an_31262ccc",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Results show that best performance is achieved when logs are classified according to the type of agent the learner is interacting with. ",
       "provenance": {
@@ -234,7 +234,7 @@
       }
     },
     {
-      "id": "an_f08dd825",
+      "id": "an_232f1edd",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The authors' goal was to establish a course-independent nomenclature for labeling VLE interactions, which could indicate the importance of specific interactions. Despite the difficulty, they consider that they have been successful. ",
       "provenance": {
@@ -242,7 +242,7 @@
       }
     },
     {
-      "id": "an_fe8efce0",
+      "id": "an_0d1a0f14",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "This comes from the fact that they identify 3 types of interaction types that exhibit predictive potential of a student’s final grade. In more detail, they even find that Agent interaction type classification to be an effective way of labelling interactions of students for ONLINE contexts.",
       "provenance": {
@@ -250,7 +250,7 @@
       }
     },
     {
-      "id": "an_af0abbdf",
+      "id": "an_3c4d051e",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "The authors also discuss some of the reasons for why their approach did not reveal any insights for F2F contexts: the tools used may not have the necessary resolution to be helpful for these contexts.",
       "provenance": {
@@ -258,7 +258,7 @@
       }
     },
     {
-      "id": "an_daec8fd5",
+      "id": "an_efd8abe3",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Results do not always mirror the literature → in this study student-student interactions were found to be less important than in other works. ",
       "provenance": {
@@ -266,7 +266,7 @@
       }
     },
     {
-      "id": "an_82a1322c",
+      "id": "an_4453ac2a",
       "reference_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
       "text": "Study has a high focus on interaction types and their ability to predict student performance. It is very exploratory in nature. ",
       "provenance": {

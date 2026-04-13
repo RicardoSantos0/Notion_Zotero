@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_aefefbbd",
+      "id": "ex_da302be0",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_be08b132",
+      "id": "an_6fe13de0",
       "reference_id": "e9713e42-06ca-414a-b5e8-a023387fd923",
       "text": "Paper proposes 2 approaches of recommender systems aimed at recommending resources that maximize score while taking into account the user’s time constraints. The approach is based on a two-layered course graph (lesson and LO).",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_74177dc6",
+      "id": "an_5601db32",
       "reference_id": "e9713e42-06ca-414a-b5e8-a023387fd923",
       "text": "The method uses a Depth First Search (DFS) to find sequences that start with a less and assings each learning pathway with the LO it fulfills. REcommendation is a learning path that suggests resources whose LOs will contribute to maximing score (again, constrained by time).  Authors validate their approach first via estimation and secondly in a real setting. In estimation, algorithm outperforms other recommenders. In real setting, it shows that learners advance more in the course than in other e-learning systems.",
       "provenance": {

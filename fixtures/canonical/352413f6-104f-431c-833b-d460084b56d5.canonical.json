@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_bd0ac94b",
+      "id": "ex_d5063538",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b8adf8fa",
+      "id": "an_89631f50",
       "reference_id": "352413f6-104f-431c-833b-d460084b56d5",
       "text": "Educational recommender systems have problems with cold-start but also require learners to have pre-requisite knowledge to fully comprehend the received recommendation. The approach starts with creating pairs between concepts and pre-requisites and making this form of labelling using ML. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_cb264df9",
+      "id": "an_e99e3a9b",
       "reference_id": "352413f6-104f-431c-833b-d460084b56d5",
       "text": "The similarity between pre-requisites and course metadata are the mechanism used to determine the recommendations. Results of experimental tests reveal promising Accuracy scores.",
       "provenance": {

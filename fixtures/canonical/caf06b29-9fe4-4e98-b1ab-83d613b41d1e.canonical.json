@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_9bdf703a",
+      "id": "ex_69c73355",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_8ace254e",
+      "id": "an_561ac845",
       "reference_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
       "text": "This work focuses on benchmarking deep learning frameworks on 2 distinct educational datasets. The authors find that the Optimizer and the hyper-parameters used in different models do, in fact, reveal differences in Model Performance. More surprisingly though, the authors found that the model performances obtained using Deep Learning packages is comparable to other traditional methos. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_1e568393",
+      "id": "an_152d67dd",
       "reference_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
       "text": "Authors finish by arguing that statistical techniques should be preferred for this domain due to their interpretability: EDM and LA should aim for explanation and not prediction.",
       "provenance": {

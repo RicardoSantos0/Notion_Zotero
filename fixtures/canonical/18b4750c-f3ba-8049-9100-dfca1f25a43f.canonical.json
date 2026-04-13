@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_010a01dd",
+      "id": "ex_99663171",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_ec40c964",
+      "id": "an_e8efadae",
       "reference_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
       "text": "KT analyzes historical records to infer students’ knowledge states, and deep learning methods are the current state-of-the-art. However, the current techniques tend to treat records as a single time-series AND they don’t account for possible correlations. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_b6b1ed9e",
+      "id": "an_d0951f10",
       "reference_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
       "text": "Authors propose Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing which is meant to address the two constraints. Analysis on four datasets show that the model outperforms other approaches.",
       "provenance": {

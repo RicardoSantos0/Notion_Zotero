@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_8dad6f39",
+      "id": "ex_7e742d32",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_d3c4f659",
+      "id": "an_c6075948",
       "reference_id": "ddcc5c9f-cc0d-4961-aa8d-148b5c169f97",
       "text": "Most attempts that look to use time-series representations to predict student performance seem to underwhelm. Thus, the authors propose a method to use daily-click counts to train a LSTM model to predict end-of-course performance. Comparison shows that the approach outperforms traditional approaches. ",
       "provenance": {

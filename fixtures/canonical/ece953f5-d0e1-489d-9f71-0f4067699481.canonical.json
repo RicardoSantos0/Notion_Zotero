@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_0bab46f0",
+      "id": "ex_0b22a3a2",
       "reference_task_id": null,
       "schema_name": "Association Rule Mining",
       "extracted": [
@@ -66,7 +66,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_59365b6d",
+      "id": "ex_2f200f1f",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -98,7 +98,7 @@
   ],
   "annotations": [
     {
-      "id": "an_365c1f25",
+      "id": "an_e5e8c85d",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "Work focuses on predicting retention at OU. Features used include VLE logs and “other unspecified data sources” on 3 distinct modules of the OU. It is possible to predict failure when comparing changes in current behavior vs previous behavior or the expected behavior of students with similar behaviors. ",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_e9d40cb2",
+      "id": "an_57f18dab",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The authors also use General Unary Hypothesis Automation to generate hypothesis about students who fail.",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_88a87374",
+      "id": "an_ae3a27e9",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "Aim of the work is to make identification of students at risk in modules of the Open University. To do that, the authors use data from the VLE and combine it with data from other sources. The authors intend to use a rules-based approach to create rules that may hopefully generalize to other contexts. ",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_d3f08057",
+      "id": "an_5d9b3101",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "Some of the exising body of work shows that online dropout is significiantly higher than the one experienced in face-to-face contexts. Demographics, Technological and Social factors and the major contributors to this difference. ",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_441fb613",
+      "id": "an_b2adbcc6",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The creation of tracking systems could be an helpful alternative that could allow institutions to identify and provide support to students form an early stage of their courses. The most effective way is to combine data from multiple sources in a way that also integrates behavioral data. Even moreso, predictive models (the course specific kind) could be very helpful tools. ",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_13737b9d",
+      "id": "an_28451aec",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The authors use data from the Open University, an Online Higher Education Institution. The goal, again, is to combine institutional data with behavioral data. For that, the authors use data from 3 modules: behavioral, institucional information about the students and any marked assessments that may exist in the modules.\n",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_c6b185b1",
+      "id": "an_1af671be",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The modules are anonymized but, according to the authors, mirror the typical workings of courses at the OU. Given the differences between courses, the authors opted to create course-specific models.",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_13845ac0",
+      "id": "an_a3ecf740",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "Analysis of student behavior was done in 2-stages: aalysis of all clicks and analysis of click patterns broken down into separate categories. The authors found that activity increases when there is a test coming.",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_48ee6930",
+      "id": "an_5352c8ab",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The author claims that there is no such thing as an average student → some students barely click and pass while others click a lot and fail and these observations were true for all models.",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_9536bf34",
+      "id": "an_b397054b",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "The authors create course-specific models for 2 distinct classification problems: ",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_c77f4531",
+      "id": "an_b361878c",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "Decision Trees were the best models and combining different sources seems to result in best performance. Authors also attempt to do some form of transfer learning and end up finding that the models perform better when they are used on the course they were trained on (obviously).",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_d8db25af",
+      "id": "an_efc28036",
       "reference_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
       "text": "In order to provide some explainability to the predictive model results, the authors also resorted to Association Rule Mining to identify specific patterns of bahavior that lead to unsuccessful outcomes.  for that, the authors to an algorithm called GUHA. ",
       "provenance": {

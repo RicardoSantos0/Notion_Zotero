@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_f72bd39c",
+      "id": "ex_4b86db54",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_193a05ed",
+      "id": "an_58ee9ebb",
       "reference_id": "18c4750c-f3ba-80d9-b19c-fa43615c73bd",
       "text": "KT in online settings has some differences to other contexts, as online questions are often associated with a smaller set of skills but tend to be more and more common. Thus, KT works in online settings could explore problems that sparse dataset cannot - such as question-skill correlations.  ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_2af99945",
+      "id": "an_866dce14",
       "reference_id": "18c4750c-f3ba-80d9-b19c-fa43615c73bd",
       "text": "To solve this limitation, authors propose a Graph-based Interaction model for KT. The model uses Graph Convolutional NNs to include question-skill correlations. Essencially, the model can identify the key questions for skill mastery and consider how it evolves from the moment the key questions were done to new questions related with this skill. Results show that GIKT achieves new State-of-the-art performance. ",
       "provenance": {

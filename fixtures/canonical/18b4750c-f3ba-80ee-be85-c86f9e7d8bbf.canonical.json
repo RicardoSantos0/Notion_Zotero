@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_858a5f34",
+      "id": "ex_1664aeee",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_24a8da88",
+      "id": "an_43ec8dec",
       "reference_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
       "text": "The current KT approaches either model knowledge for different concepts separately or fail at capturing longer-term dependencies in an historical sequence of questions. To address this issue, the authors propose Bayesian Cognitive-Aware Key-Value Memory Networks, a model that combines multiple popular KT architectures (DKVMN, LSTM and Bayesian theory). ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_7ec9bb16",
+      "id": "an_c9371abe",
       "reference_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
       "text": "In essence, longer-term dependencies are captured by introducing an LSTM layer to DKVMN. In addition, an embedding layer is used top infer question difficulty on final predictions and Bayesian theory for better parameter interpretation. Testing on different 3-real world datasets shows that the approach achieve SotA performance. ",
       "provenance": {

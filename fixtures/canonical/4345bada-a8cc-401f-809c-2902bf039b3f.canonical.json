@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d0bcdb6f",
+      "id": "ex_ba6a384e",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_8ab894fd",
+      "id": "an_ba41f8fa",
       "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
       "text": "Online features a very high dropout rate and, for that reason, tools for proper recommendations and tutoring are welcomed. Authors explore how item-response theory can be integrated into a recommender. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_6d03c75e",
+      "id": "an_db5364ef",
       "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
       "text": "Authors use mutidimensional IRT and KT techniques to be able to diagnose a learner’s skills (so, first step is the creation of a knowledge model). Then, this model based on MIRT is used as input to a collaborative filtering algorithm for course recommendations. ",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_94562f6f",
+      "id": "an_cb60f527",
       "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
       "text": "Experiments on a real dataset show that approach not only improves effectiveness of MOOCs, but its explainability as well.",
       "provenance": {

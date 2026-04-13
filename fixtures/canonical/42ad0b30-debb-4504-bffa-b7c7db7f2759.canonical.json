@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_0761101e",
+      "id": "ex_dadf9c87",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1919fdc1",
+      "id": "an_fbd0613d",
       "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
       "text": "Authors use RNNs to predict whether a student will succeed or not. Experiment is performed on all students of a university, regardless of the course. Authors claim to achieve good performance even though performance is unspecified.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_078a399a",
+      "id": "an_3c98cc77",
       "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
       "text": "The purpose of the work is to use logs to do early prediction on the final exam at an institution-wide level. The reason for this approach is the small sample size of the individual courses, even considering that the data includes 5 years. The initial sample considers 255659 exam sittings. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_b3bddb17",
+      "id": "an_0cdeffdb",
       "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
       "text": "The reason for a course -agnostic approach comes from the fact that going course-specific would require cutting courses and any new course would not be able to start with a model already available. The paper, thus, proposes a RNN-based course-agnostic model to perform the task.",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_46a5d2b0",
+      "id": "an_4e607569",
       "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
       "text": "The work is inspired by Course Signals, a system that identifies students in need and then informs faculty to help students. The advantage of using an architecture that works with sequences is that it does not require extraction of meta-features from the logs. ",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_9809ae40",
+      "id": "an_0b3d72e1",
       "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
       "text": "The authors decide to use RNN-based models to make the prediction. They also decide to make a comparison with other models, specifically a regressor that predicts the average grade on exams and a Random Forest. Results show that the LSTM models are the ones who achieve the lowest MSE.",
       "provenance": {

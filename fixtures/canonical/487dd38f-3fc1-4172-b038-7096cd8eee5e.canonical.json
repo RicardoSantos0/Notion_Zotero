@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_91016c31",
+      "id": "ex_66b8831d",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_c55f468d",
+      "id": "an_49e520bc",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Paper uses data from interactions with an e-learning system to predict the final exam grade of a couse. Work involves a specific minng tool from Moodle. Models use the Plugin to extract logs, preprocess them and compare different predictive models.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_8b432c13",
+      "id": "an_388517e9",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Authors also look at the effects of discretization and rebalancing of the data and its impact on Model performance. This is followed by some examples and a discussion of the importance of accuracy and interpretability of these models for decision making.",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_1c32956b",
+      "id": "an_db4bfe88",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Learning Management System are becoming more and more important in higher education. These systems bring multiple advantages such as fostering communication and sharing between participants. Moreover, the LMS collect A LOT of educational data which is good → more data allows for more analysis.",
       "provenance": {
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "an_584b2f35",
+      "id": "an_41ccef36",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "However, these large amounts of data also become close unmanageable as the systems themselves do not have intuitive means of extracting and analyzing this data. Data mining may be useful and, at the time of writing, was starting to gain popularity for multiple educational applications → most of them involving the prediction/classification of student performance. ",
       "provenance": {
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "an_7315706a",
+      "id": "an_d0c074d9",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "The authors make a discussion of targets and models used:",
       "provenance": {
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "an_77c82fcf",
+      "id": "an_d9513c21",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "\nThus, goal of work is to compare different algorithms to see which one is the best at classifying students (predict final grade) using Data Mining techniques. In total, the authors will try and compare the performance of 21 distinct algorithms.",
       "provenance": {
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "an_4c1e2a21",
+      "id": "an_f5a696b4",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "The authors developed a Data Mining tool that would be oriented to 2 distinct types of users:",
       "provenance": {
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "an_67886858",
+      "id": "an_e0581324",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "The Moodle used by these authors is made out of 145 tables. The pipeline is divided into 3 steps:\n",
       "provenance": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "an_cfa27b49",
+      "id": "an_21be027c",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "The authors make 2 distinct experiments to validate the performance and usefulness of their classification algorithms. For that, the authors use data from 438 students attending 7 Online Engineering Courses - Universitylevel but unspecified whether Graduate or Undergrads.",
       "provenance": {
@@ -140,7 +140,7 @@
       }
     },
     {
-      "id": "an_e7a3955e",
+      "id": "an_0504220e",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "The authors then make a comparison of the performance of their different algorithms to predict the final grade of a student. Authors select the moment of prediction as the likely end of the courses because that is the moment when there is more data. ",
       "provenance": {
@@ -148,7 +148,7 @@
       }
     },
     {
-      "id": "an_f3794c12",
+      "id": "an_df7b0e6b",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Results show that using the entire dataset seems to generate the best overall accuracy, with the results being much poorer when cutting rows and slightly poorer when removing some features. 14 algorithms (out of 21) have better performance on all features and data.",
       "provenance": {
@@ -156,7 +156,7 @@
       }
     },
     {
-      "id": "an_f89fee99",
+      "id": "an_cb96edb1",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "On a second experiment, the authors introduced new changes to the data: Discretization of the features (using equal-width rules to split the features into 3 distinct categories) and Resampling (using Random Oversampling). ",
       "provenance": {
@@ -164,7 +164,7 @@
       }
     },
     {
-      "id": "an_0a6a4599",
+      "id": "an_69ba5cf9",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Essencially, the best overall accuracies are obtained using either the numerical or categorical features and not rebalancing the data. However, to achieve, on average, better results on the Geometric Mean of Accuracies, then training the models on Rebalanced Data seem to achieve better results. ",
       "provenance": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "an_d2297086",
+      "id": "an_80214a13",
       "reference_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
       "text": "Due to the sensitive nature of educational data, the authors discuss the importance of interpretable models with Decision Tree based models being at the forefront of this interpretability. These are followed by Rule Induction Algorithms and Fuzzy Rule Algorithms. Finally, Statistical and NN methods are considered the less interpretable.",
       "provenance": {

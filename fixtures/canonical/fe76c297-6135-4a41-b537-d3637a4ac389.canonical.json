@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_db18933f",
+      "id": "ex_aa4b2b70",
       "reference_task_id": null,
       "schema_name": "Guidelines",
       "extracted": [
@@ -86,7 +86,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1b1302d0",
+      "id": "an_d3701113",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "The paper focuses on the identification of help-seeking behavior on a sample of 203 CS students. Authors analyze which of 8 potential factors are the best towards determining the behavior, with problem difficulty being the most important. Depending on the type of help-seeking (online or professor-assisted) other predictors were also found to be relevant.",
       "provenance": {
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "an_0ac8591e",
+      "id": "an_14a178e6",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Higher education is becoming more and more sought after by young adults who look at it as an opportunity to better employment and economic stability. However, this increase also increases pressure to develop new ways of teaching that are necessary to provide support to students in need.",
       "provenance": {
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "an_e657e5d7",
+      "id": "an_2d3a37c4",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Help-seeking is a kill that is very important in these new teaching methodologies. Specifically, online help-seeking is easier for students who may be unconfortable in face to face contexts even though, sometimes, they may struggle in finding the information they need online. ",
       "provenance": {
@@ -110,7 +110,7 @@
       }
     },
     {
-      "id": "an_a6e68538",
+      "id": "an_335aecd1",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Thus, the paper aims to provide guidelines on online help-seeking. To do that, the authors first determine what are the factors that predict online help-seeking.",
       "provenance": {
@@ -118,7 +118,7 @@
       }
     },
     {
-      "id": "an_21b15527",
+      "id": "an_6c999cf4",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Help-seeking is a sequence of actions: realizing you need help, identifying problems and making questions. Literature identifies 3 types of online help-seeking:",
       "provenance": {
@@ -126,7 +126,7 @@
       }
     },
     {
-      "id": "an_28c2beba",
+      "id": "an_2a0cd2b4",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Online settings offer a wealth of information that is more unstructured than regular tutor-led help-seeking. While still in its infancy, the authors found that students with smaller prior knowledge of the discipline under study are more likely to not know when to seek help or even to formulate what to ask. Similarly, experienced learners are also more likely to prefer online help-seeking. Novices tend to require structure and someone to tell them what to look for.",
       "provenance": {
@@ -134,7 +134,7 @@
       }
     },
     {
-      "id": "an_fdc55012",
+      "id": "an_703e1084",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Another predictor of help-seeking (especially in face-to-face contexts) is academic performance. Better students tend to be more confident and are more likely to engage in help-seeking.",
       "provenance": {
@@ -142,7 +142,7 @@
       }
     },
     {
-      "id": "an_6f334791",
+      "id": "an_8c927c40",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "There are other potential factors such as problem difficulty, age, gender that have the potential to predict help-seeking. However, most of these require validation for online contexts.",
       "provenance": {
@@ -150,7 +150,7 @@
       }
     },
     {
-      "id": "an_ce49ca12",
+      "id": "an_306de08a",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "What are the most important predictors of student online help-seeking behavior?",
       "provenance": {
@@ -158,7 +158,7 @@
       }
     },
     {
-      "id": "an_6588e94b",
+      "id": "an_987d0543",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "The sample uses 203 students attending CS courses, out of whom 162 were novice learners and 41 were advanced learners. The courses used an LMS that allows for communication and help-seeking. Data collection for identification of online help-seeking behavior was done via survey with the exception of dimensions Academic Performance (grade averages) and Learning Proficiency (course being undertaken). These variables were used as input to a Multiple Linear Regression model in order to ascertain what were the most significant predictors of different online help-seeking behaviors (online search and asking peers). Results were evaluated using 1000 repetitions of 10-Fold CV.",
       "provenance": {
@@ -166,7 +166,7 @@
       }
     },
     {
-      "id": "an_fe9e71a5",
+      "id": "an_6c2b4b5b",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "For Online help-seeking, the model that resulted in the lowest error was the 4-factors regression comprising the constructs: Academic Performance, LEarning Proficiency, Epistemological Belief and Problem Difficulty. ",
       "provenance": {
@@ -174,7 +174,7 @@
       }
     },
     {
-      "id": "an_036ee761",
+      "id": "an_c74f942f",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "On the end of seeking Teachers, the 5-factor model (Gender, Academic Performance, Learning Proficiency, Epistemological Beliefs and Problem Difficulty) was the best one, even though it only achieves na R-Squared of 0.08. Finally, on the searching for Peer assistance model, the results show that the 2-factor model (Interest and Problem Difficulty) were the best ones.",
       "provenance": {
@@ -182,7 +182,7 @@
       }
     },
     {
-      "id": "an_09014827",
+      "id": "an_ec3e19f9",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "Problem difficulty was the most important predictor on all tasks, with 3 others being important in both Online Search and interactions with Professors. The discussion of the negative and positive effects of these constructs are justified under the perspective of learning theory.",
       "provenance": {
@@ -190,7 +190,7 @@
       }
     },
     {
-      "id": "an_5d32667b",
+      "id": "an_28571c41",
       "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
       "text": "It is important to assist students develop online search skills: Students who are novices or academically challenged feel less confortable with having to learn on their own and often tend to avoid reaching out for help due to self-confidence issues. Another important factor is to encourage students to be more active in their learning → maybe even needing to be convinced that independent learning is a viable alternative for them. ",
       "provenance": {

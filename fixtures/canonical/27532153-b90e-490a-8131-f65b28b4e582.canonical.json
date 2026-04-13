@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_a598078b",
+      "id": "ex_546f1f6b",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_c1ce49d8",
+      "id": "an_ca29264c",
       "reference_id": "27532153-b90e-490a-8131-f65b28b4e582",
       "text": "Current KT approaches faulter in actually representing knowledge states, often due to a lack of ability to semantically interpret text and concepts. The authors use pre-trained Language Models to give a semantyc meaning to text, making this now possible to use in KT modelling. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_701c9871",
+      "id": "an_cd486bb1",
       "reference_id": "27532153-b90e-490a-8131-f65b28b4e582",
       "text": "The authors validate their hypothesis that integrating semantic meaning to knowledge tracing improves the current state of the art for these methods, as indicated by the fact that LKT outperforms other KT models on the benchmark datasets. Also, this semantic knowledge seems to be a viable solution to address the cold-start problem often found in KT tasks. Also, the model is argued to be more interpretable due to its use of rich text data. ",
       "provenance": {

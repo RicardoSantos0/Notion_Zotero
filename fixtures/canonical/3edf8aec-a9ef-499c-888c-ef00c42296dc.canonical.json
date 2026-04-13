@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d53d0102",
+      "id": "ex_3921397a",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_409148f8",
+      "id": "an_f6485f03",
       "reference_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
       "text": "The authors compare 2 embedding models combined with standard ML algorithms in terms of indicators of automated diagram assessmet reliability. The goal is to estimate the correct position of a student diagram in a causal chain.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_fcc0e526",
+      "id": "an_b31d0086",
       "reference_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
       "text": "Thus, the authors want to use the fact that students create causal diagrams for studying to create automatic assessments on that causal diagram. This is a specific case of learning where students use causal relation diagrams to consolidate their knowledge.",
       "provenance": {

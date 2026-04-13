@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_30617623",
+      "id": "ex_95a30d79",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_371b0edc",
+      "id": "an_14339731",
       "reference_id": "392864c0-b363-4e06-84d6-8f1df0182036",
       "text": "The authors analyse the drift in features (covariate drift) and drift of the target. The results show that the features are the most responsible for unfairness of the models in the dynamic context. Moreover, there is also a proportional relationship between drift and model unfairness. Finally, there is no guarantee that a fair model will remain fair → requiring models to be robust before deployment. ",
       "provenance": {

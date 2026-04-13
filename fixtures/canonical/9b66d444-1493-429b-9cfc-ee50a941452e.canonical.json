@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_412a3419",
+      "id": "ex_87c8d49f",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_bcc732c0",
+      "id": "an_a8f59d60",
       "reference_id": "9b66d444-1493-429b-9cfc-ee50a941452e",
       "text": "Video lectures are a pivotal component of MOOC and a source of interesting data for analytical purposes. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_c121591c",
+      "id": "an_48bd2a19",
       "reference_id": "9b66d444-1493-429b-9cfc-ee50a941452e",
       "text": "Thus, the authors use Deep Learning from video clickstream data to understand how a student will perform on a given week of the MOOC. Authors use LSTM for this purpose and find that the approach outperforms all other baseline models used - with accuracies ranging between 82% and 93%. ",
       "provenance": {

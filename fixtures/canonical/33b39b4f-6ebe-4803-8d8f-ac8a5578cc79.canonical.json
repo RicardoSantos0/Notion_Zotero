@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_da1cbfd1",
+      "id": "ex_0adc2a7e",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_168d3190",
+      "id": "an_ab2e0f4b",
       "reference_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
       "text": "MOOCs have very high dropout rates. It is possible to use Analytics to create models that predict whether a student is likely to dropout or not. However, the models available do not have the finesse to enable personalized interventions. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_582ef4e0",
+      "id": "an_9c254083",
       "reference_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
       "text": "In order to address this, the authors propose a temporal DL model that predicts the probability of a student dropping out or not. The model outperforms other baseline algorithms tested while also returning a probability → meaning that educators can start by trying to help students flagged as more likely to drop out relative to other colleagues.",
       "provenance": {

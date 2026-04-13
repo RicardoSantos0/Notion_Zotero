@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b056f7a0",
+      "id": "ex_a62f492c",
       "reference_task_id": null,
       "schema_name": "Conclusion",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b8cda569",
+      "id": "an_6d1052e3",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Most content-based recommender systems are not effective at modelling student, which hinders their ability to make an approappriate dynamic mapping between student to Learning Object. In this paper, the authors now model Learning Objects (LO) as “intelligent” entities with the capacity to self-organize. The idea is that this recommender is an improvement over previous recommenders as it now better adapts to the user’s updated knowledge after reviewing the remaining content.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_67b12c75",
+      "id": "an_069874a9",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "E-learning recommender systems attempt to provide a learning pathway towards the acquisition of a new skill. However, these systems often lead to overspecialization and information overload which hinders learner’s abilities to actually develop (the so-called Tutorial Hell). Also, the systems fail to account for changes in learners. Authors propose improvements to the current landscape of CB-Recommender systems.",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_366d4e00",
+      "id": "an_9e1b19e1",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The authors distinguish between content-Based Filtering, Collaborative Filtering and Hybrid Filtering. CF has many problems related with sparsity of reviews: students have no incentive to rate the materials and, often, limited time to study. CB recommenders are seen as preferred by the authors as they do not suffer from the cold-start problem AND seem adequate to recommend materials that are relevant to the user’s preferences and objectives.",
       "provenance": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "an_3707da01",
+      "id": "an_12d320a5",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "In standard adaptive CB recommender systems, the approach involves the creation of a Learner Model and a Learning Object Model. Then it looks to recommend LO that better match the learner based on a set of constraints or rules. Still, CB recommenders have problems:",
       "provenance": {
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "an_e67b9788",
+      "id": "an_ce6a6f20",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The authors propose improvements to adaptability and diversity by incorporating self-organization into the mix. In this case, the self-organization of LO. ",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_8d2e3c6e",
+      "id": "an_7982a16f",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "In this schema:",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_79dc74df",
+      "id": "an_91741d36",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "When learners begin, their recommendations are based on the information that exists - learning style and preferences. Interactions with LO’s stimmulate self-organization of the LOs, thus adapting the LOs to now better match the student’s needs and learning goals - new recommendations are made once the self-organization process stabilizes.",
       "provenance": {
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "an_a4e57afb",
+      "id": "an_7473a4da",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": " ",
       "provenance": {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "an_1b50d44f",
+      "id": "an_516c79cd",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Modelling users involves data that is deterministic - demographics and other carachteristics, but there is also some place for situations where there is uncertainty. Historically, these models consider attributes such as age, gender, educational level and others such as learning styles. ",
       "provenance": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "an_3b131490",
+      "id": "an_a35144c3",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Some techniques that have previously been used are Bayesian Belief Networks, Fuzzy-Logic Techniques to model the complexity of human bahaviors. Collaborative Filtering is another popular approach.",
       "provenance": {
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "an_7316cbe2",
+      "id": "an_071a1ff7",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "On the end of LO modelling, the authors refer to ideas such as concept maps or ontology as initial LO models. Most of the previous research was based on similarity with, to the author’s knowledge, no previous attempt to treat LO as intelligent self-organizing objects.",
       "provenance": {
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "an_94bf742a",
+      "id": "an_f1c7396b",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Most approaches using Content-based Filtering have a Learner Model and a LO model. Recommendations are based on similarity learner and LO. After learner consults the recommended materials, then the learner is updated and, from that, new recommendations may arise. The problem is that this system first: ",
       "provenance": {
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "an_d0ec0c87",
+      "id": "an_12ee4a76",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The consequence becomes that the learner profile will, with time, become an incorrect representation of the learner which will, with time, make recommendations that are ill-adapted to the needs of the learner. In addition, it needs to be taken into account that learner curiosity also dwindles with the lack of diversity in recommendation.",
       "provenance": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "an_4204cdc5",
+      "id": "an_ffbf1fc3",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "One option to increase diversity is to make space  probability-based recommendation mechanisms. Influenced-based learning has also been attempted to update learners but, again, to the author’s knowledge there is no previous attempt to use influence-based learning on the LO themselves. ",
       "provenance": {
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "an_33fb3cde",
+      "id": "an_705038e2",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "In essence, the authors incorporate self-organization of the LO into a CB learner-oriented recommender system of LO. The idea is to address the known limitations of CB recommenders such as lack of diversity and unresponsivess to changes in the learner.",
       "provenance": {
@@ -168,7 +168,7 @@
       }
     },
     {
-      "id": "an_d3110a0a",
+      "id": "an_fb1b3547",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Each learner is represented as a tupple that features Learner Goals, Learning Styles, Learner Behavior. Each of these dimensions is a multivariate in itself - for example, learning style uses that survey (http://www.sojump.com/jq/7090233.aspx) to determine Competency, Media Preference, Content Preference, Purpose and etc…",
       "provenance": {
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": "an_c048836c",
+      "id": "an_44cfbf91",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Each LO is represented by 2 types of variables: Basic Variables and Extended Variables. Basic attributes are initialized using expert suggestions and feedback from previous learners and includes elements such as importance and difficulty. Updates will be based on time and frequency of visits during the learning process. EL is extended metadata.",
       "provenance": {
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": "an_95ba66e7",
+      "id": "an_36edd83a",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Different LOs may share carachteristics: knowledge point, media type and content type. If they share these elements they are considered as Same LOs (this is a big difference from previous formulation where highly correlated LOs were suggested together). They weight updates considers Same LOs - the amount of time and frequency of accesses to Same LOs.",
       "provenance": {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "id": "an_22b68cc6",
+      "id": "an_299ea8fe",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The recommender environment is a SOM module and referred to as E. This module refers to explicit preferences of the learners, the quality of the clusters and their current state. The authors also define what they call a predictive environment PE.",
       "provenance": {
@@ -200,7 +200,7 @@
       }
     },
     {
-      "id": "an_e15fdbed",
+      "id": "an_2cc09e46",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The PE takes the states of E and looks to obtain predictions on what LOs should be the most adequate for the next iteration - in plain english the PE takes the current preferences and looks to rank the LOs according to what would be the next preference (something to review more in depth later if I work on this).",
       "provenance": {
@@ -208,7 +208,7 @@
       }
     },
     {
-      "id": "an_306bf730",
+      "id": "an_2a474d2a",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The learner is surrounded by possible LOs he/she may consult next - Priority is set clockwise (unspecified reasons for why this is the case).",
       "provenance": {
@@ -216,7 +216,7 @@
       }
     },
     {
-      "id": "an_01321d01",
+      "id": "an_109c12c3",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Learners start by being recommended LOs that are more compatible - so the LO is the Processing Unit and the first part is finding the BMU for the learner. Then, the active LO (BMU) is updated and influences the neighborhood - when a stale LO appears then a recommendation is made.",
       "provenance": {
@@ -224,7 +224,7 @@
       }
     },
     {
-      "id": "an_50fac263",
+      "id": "an_d3078d1e",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": " Input comes in and initializes recommendations based on closest LO. The interactions of the learner with LO will result in updates to the LO and the environment. These updates will trigger Self-Organization - rearrangement of the LOs in the enviroment space. Upon convergence, recommendations are made. Stop when learner goals are achieved, otherwise repeat the process and make new recommendations.",
       "provenance": {
@@ -232,7 +232,7 @@
       }
     },
     {
-      "id": "an_9a9c52f4",
+      "id": "an_c7cf8ba2",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "To simplify the process, authors organize the dynamic preferences of the learner into 2 distinct types:",
       "provenance": {
@@ -240,7 +240,7 @@
       }
     },
     {
-      "id": "an_bc8b0a67",
+      "id": "an_99860e05",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Active LOs will be attracted towards the learner, Inactive will be sent away from the learner - criteria for weight update. Thus, self-organization considers: similarity between LOs and the ranking of candidate LOs in terms of desirability for the learner.",
       "provenance": {
@@ -248,7 +248,7 @@
       }
     },
     {
-      "id": "an_6cce7b94",
+      "id": "an_c8442b02",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "As we start, the LOs that are recommended are the ones more similar to the learner. The pseudo code for the algorithms is presented below",
       "provenance": {
@@ -256,7 +256,7 @@
       }
     },
     {
-      "id": "an_90d443df",
+      "id": "an_fbbebb6f",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The overall algorithm is described below as algorithm 3:",
       "provenance": {
@@ -264,7 +264,7 @@
       }
     },
     {
-      "id": "an_b6f95155",
+      "id": "an_7e3eb578",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The authors will use different optimization strategies. The new algorithm will be compared against Traditional Method (recommendations based on expert opinion without consideration for learner interactions), GA and Markov Chains.",
       "provenance": {
@@ -272,7 +272,7 @@
       }
     },
     {
-      "id": "an_71d39027",
+      "id": "an_aeb165ae",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The authors use data from 2 courses - a visual basic course and another based on C-Programming. VB course is chapters long, subdivided into 3 modules. The authors use 2 of these modules for testing, with the modules having 175 and 482 LO respectively.",
       "provenance": {
@@ -280,7 +280,7 @@
       }
     },
     {
-      "id": "an_06e67202",
+      "id": "an_3ff8d38a",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The class of VB is divided into 4 distinct classes. Each class has its own recommendation strategy - Self, GA, MC and Tra. The classes were assembled in order to make them as homogenous as possible based on prior performance and demographic carachteristics.",
       "provenance": {
@@ -288,7 +288,7 @@
       }
     },
     {
-      "id": "an_380efdbd",
+      "id": "an_22d88fbe",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The C class has 623 students and the students are divided into 3 classes - Self, GA and MC.",
       "provenance": {
@@ -296,7 +296,7 @@
       }
     },
     {
-      "id": "an_4d778e78",
+      "id": "an_14fd5460",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Learners are recommended contents based on survey results first and self-organization afterwards. There is also an option to request for additional adjustments in case the students feel that the recommended materials are unsuited for them.",
       "provenance": {
@@ -304,7 +304,7 @@
       }
     },
     {
-      "id": "an_0fed4478",
+      "id": "an_3833f208",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "The authors evaluate the results across multiple dimensions - similar to what had been done in their previous work. ",
       "provenance": {
@@ -312,7 +312,7 @@
       }
     },
     {
-      "id": "an_03bbcb3a",
+      "id": "an_52a2430f",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "As for Diversity, the authors focus their evaluation on two main aspects:",
       "provenance": {
@@ -320,7 +320,7 @@
       }
     },
     {
-      "id": "an_85de2e9d",
+      "id": "an_ed602787",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "This, again, suggests that the Self approach ability to adapt the LOs to changes in the student is higher than the remaining options. Other options such as GA and MC seem to reduce diversity in order to obtain better accuracy - pointing to the previously identified problem of overspecialization.",
       "provenance": {
@@ -328,7 +328,7 @@
       }
     },
     {
-      "id": "an_aa43d49a",
+      "id": "an_607a603d",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Finally, the authors also make what they call a subjective evaluation based on a satisfaction survey done at the end of the semester. Students on the Self Class are happier than their peers whjen it comes to the content they received AND the time required.",
       "provenance": {
@@ -336,7 +336,7 @@
       }
     },
     {
-      "id": "an_153ebe34",
+      "id": "an_6c4f69eb",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Moreover, Self users were generally more happy when evaluating their experience with the system, as they felt more in control and, consequently, were more curious, interested and eager to learn. Finally, the recommender Self was the one that achieved the highest level of satisfaction of the users.",
       "provenance": {
@@ -344,7 +344,7 @@
       }
     },
     {
-      "id": "an_69cce353",
+      "id": "an_501a0103",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Finally, the authors measured the entropy of the recommendations to see whether the recommendations outputted by the system are “stable”. Self achieves stable solutions faster than their counterparts while also not suffering from scalability issues shown by other algorithms.",
       "provenance": {
@@ -352,7 +352,7 @@
       }
     },
     {
-      "id": "an_eb04155f",
+      "id": "an_abeb682b",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "A look at the U-MAtrix also shows that the most suitable items are more likely to be recommended to the user.",
       "provenance": {
@@ -360,7 +360,7 @@
       }
     },
     {
-      "id": "an_da374185",
+      "id": "an_67fa4204",
       "reference_id": "e651233f-838a-4106-a58b-b0ad04078b7a",
       "text": "Paper hints at using the self-organization approach to learners instead of LO. Paper also hints at the possibility of combining self-organization of learners AND LOs in the future.",
       "provenance": {

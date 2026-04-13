@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_9c57172a",
+      "id": "ex_9edeacc2",
       "reference_task_id": null,
       "schema_name": "Summary Table",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_e757d7ca",
+      "id": "an_17edccb4",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Personalized recommendations should be aligned with learner goals while also being perceived as adequate by educators and learners. The paper focuses on presenting practical guidelines into how to develop a recommender system in Online Learning. To illustrate, there is evidence from an experiment conducted with 125 educators and 595 learners.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_d97d9d08",
+      "id": "an_031f9ee4",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "MOOCs are online courses for an amount of students that greatly supersedes the traditional classroom. Providing timely and useful feedback and guidance in this context requires a hefty amount of resources that, more often than not, do not exist. Recommender systems can reduce the tutor workload.",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_55514bf6",
+      "id": "an_e360923e",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "As a matter of fact, there is too much information and resources available, which can hinder a student’s learning. Recommenders can provide some structure on this regard. However, in education, the task is more complex than simply recommending resources that the student will like. They need to promote student learning as well.",
       "provenance": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "id": "an_094c44cd",
+      "id": "an_ea148724",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Most of the research of recommenders focuses on measuring the performance of different algorithms in tasks sucjh as information retrieval, with little emphasis on the design of the recommendations. Previous work on this exists but is scarce: there is is history of recommender systems whose recommendations are proposed by educational experts (not an algorithm). Authors argue that information retrieval cannot be the only form a recommender system works and it should take into account the educator.",
       "provenance": {
@@ -80,7 +80,7 @@
       }
     },
     {
-      "id": "an_6c9eda91",
+      "id": "an_180a5155",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Thus, the work presents a set of practical guidelines into how to create an educational recommender system. The authors showcase their guidelines on 2 distinct educational scenarios involving 125 educators and 595 students.",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_9cb169b2",
+      "id": "an_aabb78e3",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Educational recommenders have constraints that are not found in traditional scenarios and their design should take these restrictions into account. One such examples is preferences - an educational recommender should not take only learner preferences into account as they should, at least, be also made in a way that fosters and promotes learning.",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_f9356aa6",
+      "id": "an_4365025d",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Upon review of the recommender system literature, the authors found that most recommenders focused on only making recommendations of specific types of content, not specifically recommending a future action. This is interesting because LMS and MOOCs are often thought as capable of promoting active learning, which runs counter-intuitive to the recommendations.",
       "provenance": {
@@ -104,7 +104,7 @@
       }
     },
     {
-      "id": "an_29860c5a",
+      "id": "an_576a4d8a",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "When it comes to design, most of the recommender systems do not consider the users needs in the design process. Moreover, few works measure learning gains from the recommendations. In addition, the authors are proponents of including the educator in the design process, finding their experience invaluable towards the design of better educational recommendations → and more acceptance of the technology. ",
       "provenance": {
@@ -112,7 +112,7 @@
       }
     },
     {
-      "id": "an_05894d47",
+      "id": "an_17a0dccd",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Due to their view on the importance of human-centered design for adaptive learning systems, the authors focus their discussion on ISO 9241-210 ‘Ergonomics of human-system interaction e Part 210: Human-centred design for interactive systems’ which provides an international standard for human-centered design.",
       "provenance": {
@@ -120,7 +120,7 @@
       }
     },
     {
-      "id": "an_a6aa34ac",
+      "id": "an_1e16ede6",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Thus, the paper intends to provide guidelines into how to create recommendations that take into account the context, needs and preferences.",
       "provenance": {
@@ -128,7 +128,7 @@
       }
     },
     {
-      "id": "an_969842a2",
+      "id": "an_25233ab5",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "The authors identify their previously proposed TORMES methodology, which aims to identify recommendation opportunities in learning environments. TORMES combines Data Mining and User Centred Design. It designs recommendations in 3 steps:",
       "provenance": {
@@ -136,7 +136,7 @@
       }
     },
     {
-      "id": "an_dff5c163",
+      "id": "an_3e801b13",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": " The design process involves multiple phases present in ISO ISO 9241-210 which, at this stage are not particularly relevant to discuss. The authors proceed to discuss how this methodology was used for 2 distinct educational contexts:",
       "provenance": {
@@ -144,7 +144,7 @@
       }
     },
     {
-      "id": "an_e03bf853",
+      "id": "an_0b500e5a",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "The authors do an A/B test of the recommendations derived from a recommender developed using this methodology.",
       "provenance": {
@@ -152,7 +152,7 @@
       }
     },
     {
-      "id": "an_3f42cb12",
+      "id": "an_758c2ccf",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "There were two rounds for implementation. The first was proof of concept and the second was the Elicitation of Recommendations. The proof of concept involved meetings with educators, students and ICT managers that use dotLRN. Learning style adaptation was recommended to follow the Felder and Silverman Learning Style Questionnaire.",
       "provenance": {
@@ -160,7 +160,7 @@
       }
     },
     {
-      "id": "an_85296c3b",
+      "id": "an_7884a46f",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "In the Elicitation of Recommendations stage, the authors focused on deriving an educational context by surveying and interviewing educators. Moreover, the Data Mining analysis shows that stuudents who do not participate tend to not be successful, while participating in activities such as filling the profile, do self-assessments or fill the learning style questionnaire have been found to successful.",
       "provenance": {
@@ -168,7 +168,7 @@
       }
     },
     {
-      "id": "an_b9bbce2a",
+      "id": "an_7fc6f03e",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "Similar to Context 1, the first was the Elicitation of Recommendations and the second was the Delivery of Recommendations. Elicitation followed a process similar to context 1. Educators, with the assistance of a Decision Tree, identified which conditions could lead to student success andmade suggestions (validated) on recommendations to make. ",
       "provenance": {
@@ -176,7 +176,7 @@
       }
     },
     {
-      "id": "an_096e98dd",
+      "id": "an_4e039818",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "In the Delivery of Recommendations, the system provided recommendations as soon as the specific conditions for them were met. Then, students and educators were asked to provide feedback on the usefulness of the recommendations.",
       "provenance": {
@@ -184,7 +184,7 @@
       }
     },
     {
-      "id": "an_ec951d00",
+      "id": "an_739c7fef",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "In the context of human centered design of educational recommender systems, it is essencial to have guidelines for the discovery and delivery of recommendations that focus on learning needs and foster active learning. Using TORMES methodology, the authors were able to empirically showcase 2 examples of systems whose recommendations go beyond merely recommending content to read but also recommend specific actions to be undertaken in the platform. ",
       "provenance": {
@@ -192,7 +192,7 @@
       }
     },
     {
-      "id": "an_a1fddf37",
+      "id": "an_861c779c",
       "reference_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
       "text": "The recommendations done in the experiments were obtained via 2 main ways:",
       "provenance": {

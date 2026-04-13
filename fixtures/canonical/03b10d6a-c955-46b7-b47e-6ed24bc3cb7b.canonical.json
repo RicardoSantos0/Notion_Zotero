@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_c72fa8c0",
+      "id": "an_1eb0c0d5",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Problem is student retention in self-paced educational programs. Authors use LSTM to predict student success and achieve remarkable results on OULAD - both when using the entire dataset (84.6% accuracy) and even when only using the first 5 weeks (71% accuracy). Authors also use Shapely to identify what are the most important predictors of student retention.",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_aae397f5",
+      "id": "an_b337a3d0",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "There is smaller and smaller funding, so universities need inventive solutions to address the challenges they commonly face. Among such problems is student retention - failing and, in the most extreme cases, not concluding the cycle of studes at all. Early prediction is something that is attempted by institutions for multiple reasons: both pedagogical and administrative.",
       "provenance": {
@@ -35,7 +35,7 @@
       }
     },
     {
-      "id": "an_2ee949b6",
+      "id": "an_1ae4bc9a",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Most work in prediction of performance is done on MOOCs and blended courses, but vcery few is done on self-paced courses. Moreover, the techniques employed are general traditional machine learning approaches without great expansions into deep learning - with explainability being pointed as one ofd the main factors behind this.",
       "provenance": {
@@ -43,7 +43,7 @@
       }
     },
     {
-      "id": "an_81b029e1",
+      "id": "an_eac4f3d1",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Thus, the aim of the paper is two-fold: ",
       "provenance": {
@@ -51,7 +51,7 @@
       }
     },
     {
-      "id": "an_d22238f3",
+      "id": "an_963c7ef5",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "The literature review section is divided into 2 main subcomponents:",
       "provenance": {
@@ -59,7 +59,7 @@
       }
     },
     {
-      "id": "an_65120ed1",
+      "id": "an_5bf7a75e",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Self-paced learning allows students to be more flexible in their study. However, this often comes at the expense of decreased success, especially among those students who lack the proper self-regulated learning abilities. There is some work on self-paced learning published but not a lot in terms of self-paced.",
       "provenance": {
@@ -67,7 +67,7 @@
       }
     },
     {
-      "id": "an_e00f0e0d",
+      "id": "an_70c0c84a",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Usually there are two ways in which prediction is performed:",
       "provenance": {
@@ -75,7 +75,7 @@
       }
     },
     {
-      "id": "an_18ac6f8c",
+      "id": "an_035a3221",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Typical inputs: ",
       "provenance": {
@@ -83,7 +83,7 @@
       }
     },
     {
-      "id": "an_df3c7eef",
+      "id": "an_30a6a470",
       "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
       "text": "Modeling approaches:",
       "provenance": {

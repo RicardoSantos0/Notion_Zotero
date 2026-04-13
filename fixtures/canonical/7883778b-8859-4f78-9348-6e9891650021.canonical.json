@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_8a398c42",
+      "id": "ex_fe1e8bde",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_ae109a35",
+      "id": "an_d149b76c",
       "reference_id": "7883778b-8859-4f78-9348-6e9891650021",
       "text": "The authors explore the effectiveness of LSTM to predict end of course performance in an online University. Results obtained on OULAD dataset show that this approach greatly outperforms the baseline Logistic Regression model, achieving 95.2% accuracy, 93% precision and 76% Recall. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_283346b1",
+      "id": "an_6c7ff1da",
       "reference_id": "7883778b-8859-4f78-9348-6e9891650021",
       "text": "Moreover, the authors show that it is possible to use a week-wise granularity to make such predictions, with the model being abel to achieve 90% accuracy whithin the first 10 weeks (out of 38). ",
       "provenance": {

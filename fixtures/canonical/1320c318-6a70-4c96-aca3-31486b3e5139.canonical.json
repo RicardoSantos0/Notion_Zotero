@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_9e87b765",
+      "id": "ex_adf95822",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1471c612",
+      "id": "an_5e61e75b",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors analyze 17 courses with 4898 students. To do that, they create a set of course-specific and course-agnostic models predictive models. Results show a lot of variability from course to course but, generally speaking, the course-specific models outperform the course-agnostic model, suggesting low portability of models between diferent courses and instructional conditions.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_a4ae6d59",
+      "id": "an_6c0e55dd",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "A second interesting conclusion is derived from early prediction using logs and in-between assessment grades. Authors argue that the introduction of these intermediate grades pretty much takes out any additional value logs might have as predictors of performance.",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_5fc7b973",
+      "id": "an_0359e1d7",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Over the yearas, institutions have started to bet more and more in LMS and VLE to deliver online or blended courses . LMS store interactions, which means that this data can be used to analyze and improve learning and teaching. One of the main applications is the identification of students at risk of failing.",
       "provenance": {
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "an_9e1340e6",
+      "id": "an_16dbada4",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Previous studies have attempted this. However, data from the LMS is far from being something that is theoretically sound. Instead, it is merely a sequence of clicks. Moreover, most works work on sample samples, thus limiting the ability to draw general conclusions. In addition, the creation of a general would also be harmed by individual differences between courses and/or institutions. ",
       "provenance": {
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "an_7f1dcc2f",
+      "id": "an_07017349",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "This work analyzes an early warning system that is meant to be portable between different courses. To dop that, the authors only consider predictors that are available for all courses. ",
       "provenance": {
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "an_e76fb352",
+      "id": "an_6ade7d32",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Most previous works follow a frequentist approach without much consideration for theory. Other studies have focused on analysis under the frameworks of SRL. Under constructivism, learning is an active process → learners seek and acquire information. Instruction is a process that supports learning. Under this view, LMS are a tool that allows students to access all of the materials and resources they need to learn, streamlining the process.",
       "provenance": {
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "an_252c651b",
+      "id": "an_ddb0b65e",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Under SRL, learners plan their actions, execute them and then evaluate their progress. This is affected by task conditions (resources) and cognitive conditions (beliefs, motivations, etc…). Other theories exist and should also be explored such as connectivism or situated learning.",
       "provenance": {
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "an_7ed7e49d",
+      "id": "an_5cd3be36",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Data used in predictive modelling of student performance may measure different constructs such as student characteristics, dispositions and demographics. Recently LMS have also grown in popularity. Howver, due to a generally small sample size, the generalizability of any potential conclusions is harmed.",
       "provenance": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "an_33c76d90",
+      "id": "an_ae1b2c1b",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Pages read, content pages viewed, etc… have been reported to« be significant predictors of student performance in some previous studies. Moreover, students who dropout tend to be substantially less engaged with the LMS than students who complete the course. Depending on the authors, different predictors are found to be significant: forums messages for example. Even moreso, there are differences in the way certain variables could be accounted for (e.g. whether the data is analyzed dichotomously or as a fully-fledged count). Common variables include:",
       "provenance": {
@@ -140,7 +140,7 @@
       }
     },
     {
-      "id": "an_1a11eed2",
+      "id": "an_c3bf2a72",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The variability in the results obtained can be explained by differences in the instructional conditions between different courses and contexts. This leads to inconsistencies when it comes to predictors, importance and even effect. Thus, the authors raise questions relative to the generalizability of course-agnostic predictive models.",
       "provenance": {
@@ -148,7 +148,7 @@
       }
     },
     {
-      "id": "an_90dab4ce",
+      "id": "an_899efaa3",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The issue of portability stems from the OAAI, which aims to scale current predictive modeling solutions for a greater context. A previous work that combined Purdue and Marist universities found some success in identifying similar predictors and relationships between variables. However, works by other authors do not find the same relationships (with Gasevic 2016 being a good example). The analysis of 9 courses on different contexts did not reveal this fabled ability to generalize as the course-specific models tended to underperform the general model.  The current study expands on Gasevic work by working on 17 b-learning courses with similar contexts.",
       "provenance": {
@@ -156,7 +156,7 @@
       }
     },
     {
-      "id": "an_6cb320e3",
+      "id": "an_f22aa0bb",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Observations on early prediction also returned interesting results: one work found that users who used the LMS on the first week tended to outperform students who have not used it. Other works have argued that predictions at later stages tended to be better than predictions done earlier. Moreover, adding predictors such as grades on midterms greatly increased the predictive power of the models used. This performance data has been shown to be a significant predictor on multiple studies which ahs caused researchers to argue for the ideal moment of prediction to be done as soon as possible but after the first assessment.",
       "provenance": {
@@ -164,7 +164,7 @@
       }
     },
     {
-      "id": "an_b391d821",
+      "id": "an_2ad78a45",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Thus, the authors also attempt early prediction an look to analyze the impact of intermediate grades.",
       "provenance": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "an_5053bb14",
+      "id": "an_219dceb8",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors collected data from Moodle of Technologyu Ubiversity of Eindhoven throughout 2014-2015. During this time, 42 courses were using the LMS, out of which 17 fulfilled the condition of having more than 75 students. The final sample included 2,913 unique students, totalling 4,989 student-course pairings. ",
       "provenance": {
@@ -180,7 +180,7 @@
       }
     },
     {
-      "id": "an_926748e6",
+      "id": "an_035c5158",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "All courses ran throughout 8 weeks. Courses in Quarter 2 were formally considered 13 weeks as there was a 2-week Christmas Break followed by 2-weeks of exams. All courses were delivered in b-learning format having between 3 to 6 hours of face-to-face followed by a significant amount of resources being available on Moodle. ",
       "provenance": {
@@ -188,7 +188,7 @@
       }
     },
     {
-      "id": "an_0287a9f1",
+      "id": "an_4b6f1eb6",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Data collected included data available on the LMS AND the grades on assessments → intermediate and final. A notable difference is that, in this context, the final exam grade was the target variable.",
       "provenance": {
@@ -196,7 +196,7 @@
       }
     },
     {
-      "id": "an_06dca18c",
+      "id": "an_7f30654d",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "As far as features go, most of the features used were previously used in the literature. However, the authors also introduce new variables:",
       "provenance": {
@@ -204,7 +204,7 @@
       }
     },
     {
-      "id": "an_cbbc8bd8",
+      "id": "an_d15a954a",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The analysis involved the extraction of logs from Moodle and their transformation into different features. In between assessments were considered: available on 16 out of the 17 courses used. All assessments were considered to be available by the end of week 5. ",
       "provenance": {
@@ -212,7 +212,7 @@
       }
     },
     {
-      "id": "an_6ead0f6b",
+      "id": "an_209ac4be",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "There were 4 predictors based on total online participation. Reasoning comes from the obsevation that engagement tends to be positively correlated with success and higher grades. In addition, the authors also extracted variables associated with motivation and attendance. ",
       "provenance": {
@@ -220,7 +220,7 @@
       }
     },
     {
-      "id": "an_a5705e2c",
+      "id": "an_23fdacf8",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Some assumptions had to be made for this to work. For example, a session was defined as having the length between first click in a while and all following clicks that do not have a gap between clicks greater than 40 minutes (definition of session end). Moreover the authors also included predictors measuring the regularity of study.",
       "provenance": {
@@ -228,7 +228,7 @@
       }
     },
     {
-      "id": "an_bb7d1fe1",
+      "id": "an_61450d44",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors conducted a correlation analysis - both at a general level but also in a course-specific manner. Then, they created multiple linear regressions using OLS estimation. Moreover, the selection of features was performed considering Backward Feature Elimination. Results for both regression and classification were assessed using 10-Fold Cross-Validation.",
       "provenance": {
@@ -236,7 +236,7 @@
       }
     },
     {
-      "id": "an_fbd44fc8",
+      "id": "an_3467e4de",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Most variables, 21 out of the 23 to be specific, were found to be correlated with the final exam grade (exceptions were irregularity of study time and discussion posts). Between assessment grades were the only feature found to have a significant effect on all courses. Other more general measures of effort suych as resources, sessions, quizzes were fgound to be significant on 75% of the courses with the remaining ones only being found to be important in between 30% to 60% of the courses.",
       "provenance": {
@@ -244,7 +244,7 @@
       }
     },
     {
-      "id": "an_40c265ce",
+      "id": "an_40a131dc",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "In short, the authors observed the same issues that their review reported on → different predictors have different effects in different courses: ",
       "provenance": {
@@ -252,7 +252,7 @@
       }
     },
     {
-      "id": "an_76694cb4",
+      "id": "an_4fa33f1e",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The regression analysis using Hierarchical Multiple Linear Regression (in a way that accounts for the fact that the data is clearly clustered by course) shows that most of the effects are present at the student level (48% of the variance) and very little (8%) at the course-level. This means that, while the results thus far are not great when it comes to portability → the fact that most of the variance comes from the student actually is a point for possibility of course-agnostic models.",
       "provenance": {
@@ -260,7 +260,7 @@
       }
     },
     {
-      "id": "an_777c0145",
+      "id": "an_a6121c48",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The representation also allows for an analysis across 2 points of view:",
       "provenance": {
@@ -268,7 +268,7 @@
       }
     },
     {
-      "id": "an_fcad3912",
+      "id": "an_e34e3169",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Variables such as total number of clicks, online sessions, views, grades and irregularity of study time all had a significant positive effect on the final exam grade according to both points of view. This suggests that it may not only be important to compare students with others, but also with themselves on other courses. ",
       "provenance": {
@@ -276,7 +276,7 @@
       }
     },
     {
-      "id": "an_ca1ea6f2",
+      "id": "an_2bfe195d",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors argue that, combined, these results suggest low portability: only a very small subset of variables has consistent effects across different contexts → a very big oversimplification. However, the importance of individual measurements suggest that including performance in other courses may be interesting → not in a sense to design a course-agnostic model but to include performance in other courses as a predictor for new courses.",
       "provenance": {
@@ -284,7 +284,7 @@
       }
     },
     {
-      "id": "an_ef4ceffe",
+      "id": "an_ab07b6af",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors do away with the regression that uses courses as dummies and instead try to perform a linear regression for each course. Explained variance for these models varies greatly from 0.08 (no significant predictors) to 0.37, which had 4 predictors at the 0.05 significance level. The results show that a general interpretation of conclusions about specific predictors should be limited to a very small subset of variables: more online sessions, lower standard deviation of the time between the sessions, and less time until the first session (i.e., starting early) all go with a higher grade.",
       "provenance": {
@@ -292,7 +292,7 @@
       }
     },
     {
-      "id": "an_b346157d",
+      "id": "an_ef539253",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The previous reults refer to end-of-course, which does nothing to assist on early prediction. Thus, the authors extract data to make a prediction at the end of every week only using the most basic variables. It was found that some of the more complex variables were neither not able to be computed, or not meaningful yet.  The authors report on a regression per week (using separate courses as dummies).",
       "provenance": {
@@ -300,7 +300,7 @@
       }
     },
     {
-      "id": "an_bb246aa8",
+      "id": "an_0d642cfd",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Exam Grade Predition",
       "provenance": {
@@ -308,7 +308,7 @@
       }
     },
     {
-      "id": "an_5af3951b",
+      "id": "an_c86c3e70",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Predictive performance of the Regression increases with the advancement of time. In week 0 (before course starts), none of the variables are found to be significant. AS time advances, performance increases: without considering the between-assessment grades, the Adjusted R-Squared increases from 0.14 on the first week to 0.22 on the last week. Including the between assessment grades greatly increases model performance (adjusted R-Squared) to 0.43 by the end of Week 5. In essence, all predictors are pretty much worthless when compared with in between assessment grades.",
       "provenance": {
@@ -316,7 +316,7 @@
       }
     },
     {
-      "id": "an_e2881764",
+      "id": "an_b0640e9a",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "Pass-Fail Probability Prediction",
       "provenance": {
@@ -324,7 +324,7 @@
       }
     },
     {
-      "id": "an_7022cee9",
+      "id": "an_c2c0c388",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "When converting the problem into a classification one, the authors found similar success (or in this case, lack thereof). Accuracy of the logistic regression over time went from 60% at Week 0 to 69% at the end of the course, even after accounting for all predictors such as in-between assessment grades. Week 3, where the model achieved 67% accuracy, seems to represent the best moment of prediction when it comes to the tradeoff between performance and actionability.",
       "provenance": {
@@ -332,7 +332,7 @@
       }
     },
     {
-      "id": "an_c81377d9",
+      "id": "an_f3c6f782",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "\nFor intervention, the authors argue that getting more students at risk is more important than intervening on students who do not need it. To intervene on 95% of the students at risk, the auithors would need to make an intervention on 85% of all students in the sample, which is clearly impractical.",
       "provenance": {
@@ -340,7 +340,7 @@
       }
     },
     {
-      "id": "an_423220ef",
+      "id": "an_5ea93dc6",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "In conclusion, LMS data does not seem to be an very accurate measure of student performance on the exam.",
       "provenance": {
@@ -348,7 +348,7 @@
       }
     },
     {
-      "id": "an_9f017cbc",
+      "id": "an_6499ae79",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "The authors conclude that there does not seem to exist a general set of predictors of student performance, aside from the most basic ones. Moreover, the existing predictors also vary between courses/contexts substantially both in terms of scale or direction of effect. In fact, only the inbetween assessment data showed to be correlated with the exam performance on all courses.",
       "provenance": {
@@ -356,7 +356,7 @@
       }
     },
     {
-      "id": "an_db24f003",
+      "id": "an_4324b183",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "\nThus, portability seems to be low, even if it is only on data from the same institution and LMS. Other preprocessing decision such as only using variables that exist on all courses also did not seem to improve generalizability. ",
       "provenance": {
@@ -364,7 +364,7 @@
       }
     },
     {
-      "id": "an_45a31d3e",
+      "id": "an_c4947f60",
       "reference_id": "1320c318-6a70-4c96-aca3-31486b3e5139",
       "text": "As future work, the authors propose exploring more data sources and, eventually, diving deeper into course specific activities in order to extract variables that could better explain the learning phenomenom.",
       "provenance": {

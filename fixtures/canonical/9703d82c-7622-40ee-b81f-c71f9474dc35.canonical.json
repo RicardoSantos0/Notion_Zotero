@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_542f7fa4",
+      "id": "ex_16498b2d",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_e1b3b92b",
+      "id": "an_a681e2af",
       "reference_id": "9703d82c-7622-40ee-b81f-c71f9474dc35",
       "text": "Increased digitalization of learning environments has allowed for the use of Log data to predict performance. However, these models requiure a larger-scale system that continuously collects and updates the model with new data. In order to have an easier system for data collection, the authors extract lecture questions from a Japanese University and use them to classify student grades.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_a0e5ab05",
+      "id": "an_278407d2",
       "reference_id": "9703d82c-7622-40ee-b81f-c71f9474dc35",
       "text": "The authors also attempt to improve the performance of the model by utilizing a TF-IDF representation of the text answers. The goal here is to identify words that are indicative to the student’s grade. The resultts show that proposed methodoly represents a slight improvement over the baseline models tested. ",
       "provenance": {

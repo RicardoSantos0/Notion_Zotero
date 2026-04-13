@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_75480aa8",
+      "id": "ex_488c60bf",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_d15fcb4c",
+      "id": "an_a48e1c5a",
       "reference_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
       "text": "Knowledge Tracing involves estimating the knowledge state of a student and using that knowledge state to understand whether they wil get a question right or wrong. However, an underlooked aspect of KT is temporal aspects and forgetting behavior. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_609e580d",
+      "id": "an_0b9b6ca5",
       "reference_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
       "text": "To address this limitation, authors propse a new-transformer based KT model that incorporates the aspects of time and forgetting behavior in order to create a more accurate estimation of a learner’s knowledge state. When benchmarking the results using the EdNet KT3 dataset, the authors find their proposed architecture outperforms all baseline models significantly both in terms of accuracy and AUC.",
       "provenance": {

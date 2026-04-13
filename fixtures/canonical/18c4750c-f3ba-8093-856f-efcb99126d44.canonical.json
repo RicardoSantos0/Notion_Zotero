@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_df3088bf",
+      "id": "ex_7c3fb75a",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fbf51d9d",
+      "id": "an_34e8b156",
       "reference_id": "18c4750c-f3ba-8093-856f-efcb99126d44",
       "text": "Dropout prediction is a common Learning Analytics task and, in may scenarios, institutions have models put into place to predict it, raising questions on whether sensitive attributes should be used or not. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_71d2c051",
+      "id": "an_acd5c8ca",
       "reference_id": "18c4750c-f3ba-8093-856f-efcb99126d44",
       "text": "Authors create models using data from an Australian university and realize that sensitive attributes brought marginal gains to model performance and, when there is an increase in model effectiveness, it comes more of as a function of how the attribute is related to the target. ",
       "provenance": {

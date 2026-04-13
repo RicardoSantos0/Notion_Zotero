@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_de2d295e",
+      "id": "ex_8743ccb9",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_054155ef",
+      "id": "an_464d9f0f",
       "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
       "text": "Authors propose the introduction of temporal data in models meant to predict student performance. Authors show that within- and between-semester features could be utilized to predict success.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_8564b062",
+      "id": "an_cbe3976b",
       "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
       "text": "Authors show effectiveness of approach by using a sample of 10 years of data collected from UNC Charlotte for between-semester interactions. Within-semester activities were measured using an introductory course in Computer Science. ",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_e95e5eb4",
+      "id": "an_ed10528c",
       "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
       "text": "Results show that temporal model outperforms models who do not use these temporal features.",
       "provenance": {

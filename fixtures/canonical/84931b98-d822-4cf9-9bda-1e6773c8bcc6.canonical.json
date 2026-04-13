@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d37e8b33",
+      "id": "ex_dfcb576e",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_501236ae",
+      "id": "an_9822ac0d",
       "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
       "text": "Knowledge tracing is an important in student modelling as it is an application that infers knowledge states and allows the prediction of sucess in future questions based on past questions. A limitation of the current knowledge tracing methods is the way question-response pairings are reporesented. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_d1c07f5e",
+      "id": "an_242be9e7",
       "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
       "text": "The authors start with an analysis that identifies cross effects between question-respponse pairs within a sequence of anwers. Then, the authors create a multi-relational transformer for knowledge tracing that better encodes question-reponse pairings. Results show that the new Transformer model outperforms state-of-the-art is four widely-used datasets for knowledge tracing. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_9e0fe912",
+      "id": "an_62c82ede",
       "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
       "text": "\n",
       "provenance": {

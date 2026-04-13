@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_969c1f9a",
+      "id": "ex_0126c76b",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_3c774ae3",
+      "id": "an_3ac62356",
       "reference_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d",
       "text": "Collaborative Filtering algorithms tend to over-optimize for past behaviour, often leading to what is called a filter bubble. Authors try to address the issue in a course recommendation system at a HEI. This is done by using catalog descriptions (BOW) and enrollment histories (course2vec) to recommend novel and different courses.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_9d1deab8",
+      "id": "an_6c155af0",
       "reference_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d",
       "text": "Comparison is done with offline validation sets against a RNN-based recommender, with the bag-of-words based recommendations being the more serendipitous.",
       "provenance": {

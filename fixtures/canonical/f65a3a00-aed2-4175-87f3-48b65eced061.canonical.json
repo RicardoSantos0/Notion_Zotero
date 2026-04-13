@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_bd7d34b9",
+      "id": "ex_d2b51cdf",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_9a08c279",
+      "id": "an_47209674",
       "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
       "text": "Game-based learning has demonstrated pedagogical effectiveness and recent advancements in sensors and nlp made data acquisiton a whole new ball-game. Due to the requirements of intertaction with a game, GBL is a prime candidate for effectiveness of LA-based early warning systems. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_67c272ba",
+      "id": "an_fe9ac333",
       "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
       "text": "Thus authors explore a multi-task and multi-modal learning analytics framework for Game-Based LEarning Environments. Framework is evaluated on 2 distinct student populations (n = 61 and n = 118). The models are tasked with predicting post-test performance and interest. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_18a46ec6",
+      "id": "an_c54157e0",
       "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
       "text": "Moreover, the authors make a comparison between training paradigms. On the first, each dataset is trained independently and performance is assessed on the data the models were trained on. On the second paradigm, the authors pre-train a model in one dataset to then fine-tune with the other. Resutlts show that multi-task models were able to improve performance for one the tasks, but not for both. Moreover, transfer learning also seems to contribute to improvements in model performance. ",
       "provenance": {

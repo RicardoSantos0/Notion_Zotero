@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_9b35c15b",
+      "id": "ex_e09c2074",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_e237ee54",
+      "id": "an_ed38655e",
       "reference_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
       "text": "In online teaching, KT is meant to inform whether a teaching strategy should be changed according to the changes in learners knowledge states. Most KT models assume a binary target, without additional adjustments. For example, MCQ options introduce confounding concepts and, depending on the learner’s answer, it may be possible to understand the current knowledge state. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_f5216b14",
+      "id": "an_35bba17e",
       "reference_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
       "text": "To take advantage of this phenomenon, the authors introduce an option-weighted enhanced mixture-of-experts knowledge tracing (WEKT) method. Each answer receives a specific weight and can be used to update the learners’ knowledge states. The structure combines cognitive theory and deep learning. Experiments on multiple datasets show that the model achieves its aims. ",
       "provenance": {

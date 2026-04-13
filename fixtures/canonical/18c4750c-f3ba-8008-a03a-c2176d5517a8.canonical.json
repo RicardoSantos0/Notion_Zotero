@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_cbbafc99",
+      "id": "ex_34728f32",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_86be3220",
+      "id": "an_8d899247",
       "reference_id": "18c4750c-f3ba-8008-a03a-c2176d5517a8",
       "text": "Bayesian Knowledge Tracing is popular method in Intelligent-Tutoring Systems that uses skill-specific parameters, but often fails to account for student variability. Thus, the authors propose an improvement to BKT which hinges on the introduction of student-specifc parameters. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_dd4d5194",
+      "id": "an_ac3ea527",
       "reference_id": "18c4750c-f3ba-8008-a03a-c2176d5517a8",
       "text": "Results show that the introduction of these parameters greatly improves the prediction capabilities of BKT on new students. In addition, they also show that parameterizing speed of learning also beats parameterizing a-priori knowledge.",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_deeea483",
+      "id": "ex_d657b6ed",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_caa243ee",
+      "id": "an_703ac3bc",
       "reference_id": "34a194da-1571-477b-8ee1-448d8e7f00ab",
       "text": "A limitation of the current embedding based representations of KT models is the fact that the number of questions is often fixed. Thus, when EdTech platforms add new questions, the current models cannot follow this update. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_3100490b",
+      "id": "an_59e1a037",
       "reference_id": "34a194da-1571-477b-8ee1-448d8e7f00ab",
       "text": "Authors propose a model that adapts to growing pools of concepts and/or questions. The model, called ARAIKT rpeserves previous representations while being able to adapt to increasing concepts and question banks. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_200bd269",
+      "id": "an_c3040a4a",
       "reference_id": "34a194da-1571-477b-8ee1-448d8e7f00ab",
       "text": "Testing of the model on portions of the ASSISTment dataset showcase effectiveness of the approach.",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_0919c95b",
+      "id": "ex_4813c3ea",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_c72befeb",
+      "id": "an_79e9a27e",
       "reference_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
       "text": "The work uses video clickstream records on a MOOC to identify 7 types of cognitive participation models. This feature extraction is followed by the creation of a predictive model that predicts student performance, with ANN taking the take as the one achieving the highest accuracy. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_f3d5c177",
+      "id": "an_0eb225d5",
       "reference_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
       "text": "Authors follow-up by attempting to improve the original model by pre-classifying the different videos according to the content - theoretical, experimental and/or analytical. The creation of different models shows that by model performance is relatively unaffected if the models only consider theoretical and experimental videos. ",
       "provenance": {

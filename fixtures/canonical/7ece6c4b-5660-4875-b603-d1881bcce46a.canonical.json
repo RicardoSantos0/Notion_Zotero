@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_0c512162",
+      "id": "ex_27e21824",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_3a696f6d",
+      "id": "an_08679c83",
       "reference_id": "7ece6c4b-5660-4875-b603-d1881bcce46a",
       "text": "Knowledge Tracing is intended to provide a representation of a student’s knowledge state: what knowledge does the learn possess. However, recent applications o KT modelling focus on understanding if next question will be answered correctly, which may result in the model’s only ktracing learning activities undertaken and not knowledge states.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_32ae4266",
+      "id": "an_25c3ef0b",
       "reference_id": "7ece6c4b-5660-4875-b603-d1881bcce46a",
       "text": "To address the limitation, authors propose Diagnostic Transformer, a new arquitecture that goes from question-level to knowledge level. In other works, the model diagnoses the learner’s knowledge from question mastery states. Th new training paradigm also focuses on stability of knowledge state diagnosis. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_d0f25e39",
+      "id": "an_70607441",
       "reference_id": "7ece6c4b-5660-4875-b603-d1881bcce46a",
       "text": "Empyrical results demonstrate that Dtransformer outperforms other models both in terms of Knowledge Tracing Tasks but in obtaining stabler knowledge state representations as well.",
       "provenance": {

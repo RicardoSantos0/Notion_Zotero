@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_42ecf068",
+      "id": "ex_b07f0728",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_c25376c9",
+      "id": "an_365d51d9",
       "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
       "text": "The paper attempts to perform prediction for 2 distinct targets:",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_76e0d5c7",
+      "id": "an_36b2e353",
       "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
       "text": "Contribution starts with the introduction of a novel way of representing behavioral features from campus card data. Second, the authors use a multi-head attention mechanism to automatically select the most important high-order combination features. Third, the authors propose a new predictive model that retains accuracy and robustness. ",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_0aaa69d9",
+      "id": "an_79a4459d",
       "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
       "text": "Empyrical experiment is performed on data collected from a system in a chinese university. Model outpertms baseline models for both tasks. ",
       "provenance": {

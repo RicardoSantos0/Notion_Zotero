@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_dbfe8751",
+      "id": "ex_a3c0be93",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -48,7 +48,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_a5a96f7e",
+      "id": "ex_227a48a8",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -80,7 +80,7 @@
   ],
   "annotations": [
     {
-      "id": "an_a6ff1f99",
+      "id": "an_1d704386",
       "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
       "text": "Procrastination behavior is a negatively affects student performance. Work intends to measure procrastination behavior based on Moodle submission Logs. ",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_e821c8ef",
+      "id": "an_50a22feb",
       "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
       "text": "Authors start by creating vectors of student procrastination tendencies. Students are then grouped using clustering and classification techniques in order to be assigned to different categories of course achievement. Results show that their model achieves 87% precision and 84% accuracy on a sample of 242 students. ",
       "provenance": {
@@ -96,7 +96,7 @@
       }
     },
     {
-      "id": "an_1629e843",
+      "id": "an_b0d14df4",
       "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
       "text": "Students who procrastinate more are more likely to do badly in the course.\n",
       "provenance": {

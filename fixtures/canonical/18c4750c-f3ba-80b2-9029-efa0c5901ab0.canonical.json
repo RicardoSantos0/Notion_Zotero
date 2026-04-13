@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_c61431e2",
+      "id": "ex_b384dc05",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_0cae69d1",
+      "id": "an_3688a21a",
       "reference_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
       "text": "LMS and Learning Analytics have made it possible to pinpoint and identify potentially dilatory behavior from learners such as procrastination. Authors attempt to use ML to predict procrastinatory behavior by comparing 2 different feature sets:",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_0753d217",
+      "id": "an_1c47d09b",
       "reference_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
       "text": "Models using Logs consistently outperform models self-reported measures, with a combination of both actually achieving marginally better results (Accuracy around 70%). Depending on feature set, the best alorithm also differed, putting emphasis into performing model selection when using these machine learning approaches. ",
       "provenance": {

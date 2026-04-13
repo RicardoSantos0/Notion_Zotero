@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_56e65b0a",
+      "id": "ex_adf091e4",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_75670eb6",
+      "id": "an_848d2f3f",
       "reference_id": "36ea3b09-b94e-4f7a-9111-88e5f537a16a",
       "text": "CNN models are the most common models used for prediction of learning outcomes (?). Authors argue that RNN based models are more adequate for the task of identifying students at risk. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_a30157e6",
+      "id": "an_dea3356c",
       "reference_id": "36ea3b09-b94e-4f7a-9111-88e5f537a16a",
       "text": "Authors use data from an Online course in a Taiwanese university. Authors extract multiple features and train their RNN models and benchmark it against other alternatives: SVM, LR, DT, RF, CNN based model and a standard MLP. ",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_33bb637d",
+      "id": "an_ec96adb6",
       "reference_id": "36ea3b09-b94e-4f7a-9111-88e5f537a16a",
       "text": "Results show that RNN surpasses conventional classifiers and achieves similar performance to the CNN model. Moreover, identification is passive after a third of the semester has passed.",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_86fe9a2d",
+      "id": "an_0f30a967",
       "reference_id": "36ea3b09-b94e-4f7a-9111-88e5f537a16a",
       "text": " ",
       "provenance": {

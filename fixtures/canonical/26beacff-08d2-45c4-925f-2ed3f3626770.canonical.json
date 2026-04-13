@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_94240064",
+      "id": "ex_fed47e9a",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_20698754",
+      "id": "an_a74ceaff",
       "reference_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
       "text": "Authors perform prediction of exam performance by hybridizing an SVM and an ANN with a teaching-learning-based optimizer. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_e91f514f",
+      "id": "an_28cc4622",
       "reference_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
       "text": "TLBO is an algorithm that, in this experiment, performs feature selection and selects the optimal ANN arquitecture. The contributions of the paper are the hydridization of ML models for the task of predicting at risk students and the introduction of TBLO. There is no mention about moment of prediction or whether the models are any good. ",
       "provenance": {

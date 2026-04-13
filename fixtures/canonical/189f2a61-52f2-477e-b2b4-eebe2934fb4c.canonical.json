@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_431280b4",
+      "id": "ex_7a25b6f3",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -48,7 +48,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_ab6774f3",
+      "id": "ex_bde4b41a",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -78,7 +78,7 @@
   ],
   "annotations": [
     {
-      "id": "an_5de1a870",
+      "id": "an_45befec2",
       "reference_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c",
       "text": "The paper presents a platform called PredictCS that identifies struggling students AND makes personalized recommendations to them. The system contains a dashboard.",
       "provenance": {
@@ -86,7 +86,7 @@
       }
     },
     {
-      "id": "an_36bef612",
+      "id": "an_89b7768e",
       "reference_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c",
       "text": "For the predictive modeling part, the system uses historical data, demographics, logged interactions and progress in Labs to predict end of course achievement every week. By the second part of the semester, students were given an opt-in option to receive how well they are expected to do in the course AND recommendations to tackle their difficulties. ",
       "provenance": {
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "an_1b8b14fd",
+      "id": "an_6a841421",
       "reference_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c",
       "text": "The performance of students that received feedback vs the ones who haven’t is compared and the difference between one group and the other has been reduced.",
       "provenance": {

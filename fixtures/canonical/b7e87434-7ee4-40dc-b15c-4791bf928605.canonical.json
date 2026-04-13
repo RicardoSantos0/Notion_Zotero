@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_6663ac7b",
+      "id": "ex_b697ffd7",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_876a3a9a",
+      "id": "an_8931d579",
       "reference_id": "b7e87434-7ee4-40dc-b15c-4791bf928605",
       "text": "Forecasting student success can help develop specific interventions that address student needs. Authors identify the 3 types of features normally used in predictive modelling: demographics, academic background and behavioral data. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_a1cebd43",
+      "id": "an_9a87ba31",
       "reference_id": "b7e87434-7ee4-40dc-b15c-4791bf928605",
       "text": "Authors procceed to compare the performance of multipe ML algorithms on the task of predicting student performance - score on final examinations. Logistic Regression achieved the best scores at predicting the exact final grade - 69% for students who passed and 89% for students who failed.",
       "provenance": {

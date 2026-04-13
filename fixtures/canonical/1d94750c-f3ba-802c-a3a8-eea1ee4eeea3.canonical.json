@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_743044d9",
+      "id": "ex_b39ec41e",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_692811e4",
+      "id": "an_fcd2a13d",
       "reference_id": "1d94750c-f3ba-802c-a3a8-eea1ee4eeea3",
       "text": "Authors propose DKVMN, a framework that models learner’s knowledge by mining a large amount of exercise records. This approach addresses problems from previous models by creating 2 separate matrices:\n\na static matrix: the Key that stores information about different knowledge concepts\na dynamic matrix: the Value that encodes the learners’ mastery level of different concepts.\n\nDKVMN outperms DKT on multiple datasets.\n\n",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_8707dfc9",
+      "id": "ex_62860760",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_35ec340b",
+      "id": "an_33ea61f6",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The paper introduces Data Mining of forum-related data at a specific course of Computer Science. Authors focus on comparing multiple variations:",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_8b732234",
+      "id": "an_ab6e2fc3",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Classifiers are compared against other classifiers, some unsupervised techniques are also tested. Authors find that it is possible to use Clustering and Association Rule Mining to extract specific learning pathways. Moreover, making a selection of features also seems to contribute to greater predictive accuracy.",
       "provenance": {
@@ -84,7 +84,7 @@
       }
     },
     {
-      "id": "an_d90419d8",
+      "id": "an_ae903ec5",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Discussion forums arte among the most widely used web-based tools to promote collaboration and learning among students. Educators could hopefully analyze the forum behaviors and contributions to make an assessment of a learner’s behavior and/or learning. Data Mining techniques may be useful in assisting make sense of this data →  something which is naturally very difficult to do manually.  ",
       "provenance": {
@@ -92,7 +92,7 @@
       }
     },
     {
-      "id": "an_2dd37a2d",
+      "id": "an_1d68d177",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The paper uses data from a first-year course in Computer Science, more specifically discussion forum usage patterns to predict success. The goal is to find:",
       "provenance": {
@@ -100,7 +100,7 @@
       }
     },
     {
-      "id": "an_e6b24f71",
+      "id": "an_81e0805b",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The task of predicting student performance is extremely complex and multi-faceted. Nowadays there are many possible targets to use and a multitude of possible predictors from many sources. The rise of EDM has been, in great part, fostered by the proliferation of LMS which themselves are a great source of educational data. One of the most important LMS activities is online discussion forums.",
       "provenance": {
@@ -108,7 +108,7 @@
       }
     },
     {
-      "id": "an_2b98466a",
+      "id": "an_5da90270",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The literature features some distinct approaches when it comes to analyzing the relationship between online forums and student performance. Specifically, there are approaches that merely focus on usage patterns → the amount of times or frequency in which the resource is used. There are also approaches that focus on the content itself. Finally, there are approachs that are based on Social Networks formed in the forum.",
       "provenance": {
@@ -116,7 +116,7 @@
       }
     },
     {
-      "id": "an_275e1a8e",
+      "id": "an_4eaf6bd9",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The authors start with collection of data from the forums at 2 distinct moments: End of the Course and Halfway Point of the course. This is followed by a standard Data Mining Framework that involves instance and attribute selection. Finally, the authors use the processed data to create models to predict student performance with both Supervised and Unsupervised methods. ",
       "provenance": {
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "an_3e912d8a",
+      "id": "an_86ac8bd2",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The data removed belongs to 3 perspectives: Quantitative (for usage patterns), Qualitative (a score of content messages), and Social (Social Network Analysis) data. Data passes through an instance/attribute selection process .",
       "provenance": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "an_145e2bc4",
+      "id": "an_18705549",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Instance Selection - Use all messages or exclude the invalid messages",
       "provenance": {
@@ -140,7 +140,7 @@
       }
     },
     {
-      "id": "an_3669b0ec",
+      "id": "an_e7d147e3",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Attribute Selection - Ranking approach based on different variable selection algorithms - these start with a Pearson correlation index to measure redundancy of attributes. They are followed by a voting process of multiple feature selection algorithms provided by WeKa. ",
       "provenance": {
@@ -148,7 +148,7 @@
       }
     },
     {
-      "id": "an_459d9b32",
+      "id": "an_1a4b6b20",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "When it comes to the algorithms, the authors make reference to the fact that interpretability is an important element of predictive algorithms. This interpretability is something shared by decision trees, rules-based classifiers and centroid-based unsupervised techniques such as k-means. Association rule mining also has potential.",
       "provenance": {
@@ -156,7 +156,7 @@
       }
     },
     {
-      "id": "an_0e65e360",
+      "id": "an_a5c7627c",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Datasets used:",
       "provenance": {
@@ -164,7 +164,7 @@
       }
     },
     {
-      "id": "an_d65dd996",
+      "id": "an_be11e9f0",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Among the Unsupervised methods, EM was the best algorithm. Also unsupervised methods seem to perform on par with supervised methods when using data for the entire course. Interestingly the authors make 1 to 1 comparisons between EM and Some of the supervised algorithms SMO and Naive Bayes. ",
       "provenance": {
@@ -172,7 +172,7 @@
       }
     },
     {
-      "id": "an_4d26e632",
+      "id": "an_71b42ef0",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "The second question involves knowing the predictors. The authors use a Wilcoxon Signed Rank test to compare the models running all features vs running a subset of the features. The results show that, in some circumstances, running models with Messages, Words, AvgScoreMsg, centrality and Prestige, outperforms all features in a statistically significant way. For others, these differences were not substantial enough.",
       "provenance": {
@@ -180,7 +180,7 @@
       }
     },
     {
-      "id": "an_69b16815",
+      "id": "an_1c0c92ca",
       "reference_id": "1d4b4f65-6b34-4d3d-a362-377939a5de69",
       "text": "Finally, early prediction at the halfway point of the course seems possible as the models used outperform other attempts at early prediction in the literature.",
       "provenance": {

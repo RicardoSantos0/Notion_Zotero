@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_81efdfde",
+      "id": "ex_9603240d",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -48,7 +48,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_21ba7709",
+      "id": "ex_42d6cc9a",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -80,7 +80,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fd14e9a6",
+      "id": "an_8bbc7860",
       "reference_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
       "text": "Nowadays, there is more and more data available from VLE. This data has been used already to create early warning systems that intend to identify students at risk. ",
       "provenance": {
@@ -88,7 +88,7 @@
       }
     },
     {
-      "id": "an_b8e09455",
+      "id": "an_d8585d49",
       "reference_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
       "text": "The authors use an Hidden Markov Model to mine sequential behaviors and create an EWS. Authors use OULAD as validation and achieve 90%´accuracy and AUC. In addition the authors also find that the optimal moment for early prediction is either the first or second quarter of a course.",
       "provenance": {

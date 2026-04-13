@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_4e1539bd",
+      "id": "ex_b967a5aa",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_65112383",
+      "id": "an_37f94701",
       "reference_id": "d4dbe55d-5d93-4ed6-b8b4-1c318d6b003a",
       "text": "Recent years have seen the proliferation of Deep Learning to address Knowledge Tracing problems. However, these tend to oversimplify exercise records into knowledge sequences which leaves behind the importance of individual questions. Moreover, the models focus on question-right vs question wrong and don’t tend to worry whether the learner actually knows the concepts involved in the question. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_8d72b455",
+      "id": "an_ce6d7bd5",
       "reference_id": "d4dbe55d-5d93-4ed6-b8b4-1c318d6b003a",
       "text": "To address the issue, authors propose a new method FCIKT that attempts to make a more complete representation of these phenomena. The main idea is to use a fusion module to cross features and organize them with graph convolutional networks. The model also incorporates attention mechanisms and GRU to dinamically capture and update student knowledge state before the final prediction.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_815254da",
+      "id": "an_501de3ce",
       "reference_id": "d4dbe55d-5d93-4ed6-b8b4-1c318d6b003a",
       "text": "Experiments demonstrate that the approach “works” and is interpretable.",
       "provenance": {

@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_23fa6889",
+      "id": "an_4e66c2f3",
       "reference_id": "1bd6c6f8-2f1a-442e-8841-6c79f8811aba",
       "text": "The paper proposes a density-based algorithm for group formation. The algorithm starts with random assignment to cluster centers and iteratively adjusts centroids. (this seems awfully similar to k-means lol). The authors also argue against the general goal in group formation: maximize intra-group homogeneity and inter-group heterogeneity. ",
       "provenance": {

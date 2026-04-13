@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_c4f77960",
+      "id": "ex_8fde96af",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_ac1ba3a8",
+      "id": "an_5eda5016",
       "reference_id": "943a4cb5-e384-4754-941a-34aa240224ef",
       "text": "Some common problems with educational data are the lack of labelled data and the use of nominal class labels (not ordinal). ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_e6246fc3",
+      "id": "an_1e76f119",
       "reference_id": "943a4cb5-e384-4754-941a-34aa240224ef",
       "text": "Authors propose SSOC method that combines semi supervised learning and ordinal classification. This approach led to substantial improvements in  accuracy. Task still unspecified. However, the approach considers that classes have an intrinsic order, thus allowing this method to be adequate for contexts of predicting performance.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_26b195ab",
+      "id": "an_e41aa21a",
       "reference_id": "943a4cb5-e384-4754-941a-34aa240224ef",
       "text": "Tests on 3 distinct educational datasets validate this hypothesis.",
       "provenance": {

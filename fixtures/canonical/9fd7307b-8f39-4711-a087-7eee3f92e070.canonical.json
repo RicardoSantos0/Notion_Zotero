@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_65461fdf",
+      "id": "ex_2f0df128",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_48448d56",
+      "id": "an_54728414",
       "reference_id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
       "text": "Most methods for the prediction of student performance tend to focus on attributes of the students and not as much in the relationships between the students themselves. The paper introduces a framelet-nased dual hypergraph neeural network  that decomposes student features in order to obtain model student relatinships.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_f4c7d809",
+      "id": "an_4206ac68",
       "reference_id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
       "text": "By integrating a more robust model of student relationships, the feature space now includes dimensions that were not observable before, which results into the creation of better and more accurate predictive models. Validation of the new model against traditional classifiers AND Graph neural networks on 4 real-world datasets demonstrates the superiority of the designed approach. ",
       "provenance": {

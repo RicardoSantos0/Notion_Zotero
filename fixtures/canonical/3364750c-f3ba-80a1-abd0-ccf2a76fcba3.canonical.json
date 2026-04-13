@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_501e12f2",
+      "id": "ex_9af8bb5c",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -46,7 +46,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_6e7fe501",
+      "id": "ex_62a264be",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -78,7 +78,7 @@
   ],
   "annotations": [
     {
-      "id": "an_434ce1ad",
+      "id": "an_ee68ee85",
       "reference_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3",
       "text": "Most approaches at learning path recommendations struggle with properly incorporating knowledge modeling and temporal dynamics. Authors propose a new framework that uses CRNNs, Transformers and Reinforcement Learning for dynamic learning path optimization. \n\nTests show that the model is effective at promoting learning gains and completion rates. Authors also finish with an Ablation study.",
       "provenance": {

@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b548038c",
+      "id": "ex_210f84ff",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_13326283",
+      "id": "an_c572fe1c",
       "reference_id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
       "text": "KT is described as a sequence prediction problem, where the goal is predicting performance on question (usually in the form of CFA). The authors propose the use of Factorization Machines to address the KT problem (that traditionally uses latent variables or factor analysis). ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_2feb5907",
+      "id": "an_a26332ce",
       "reference_id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
       "text": "Results on seven datasets show that FM performs well even in situations with sparse data, recomming it to be a good testbed to improve existing models.",
       "provenance": {

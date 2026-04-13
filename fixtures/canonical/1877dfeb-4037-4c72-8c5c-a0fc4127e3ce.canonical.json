@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_d9359e27",
+      "id": "ex_5a8ce779",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1e67167a",
+      "id": "an_0c6de254",
       "reference_id": "1877dfeb-4037-4c72-8c5c-a0fc4127e3ce",
       "text": "Student performance prediction is an important task in Learning Analytics. A significant issue with the current student performance prediction models relates with the fact that most models treat students as independent (no relationship between learners). ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_c42eac97",
+      "id": "an_211db46c",
       "reference_id": "1877dfeb-4037-4c72-8c5c-a0fc4127e3ce",
       "text": "To circumvent this limitation, the authors propose a Graph Neural Network model that tries to reflect relationships between students. They end up treating the problem as a semi-supervised classification problem where each node represents a student and the node’s label a performance status and an attention mechanism is used to create a single graph representation.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_f02a783e",
+      "id": "an_533a5092",
       "reference_id": "1877dfeb-4037-4c72-8c5c-a0fc4127e3ce",
       "text": "Benchmarking results show that the approach outperforms other “traditional methods” at the task.",
       "provenance": {

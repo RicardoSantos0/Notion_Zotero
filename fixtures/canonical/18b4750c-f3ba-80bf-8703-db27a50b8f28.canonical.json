@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_1294c41b",
+      "id": "ex_1d1a440a",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_df38dfef",
+      "id": "an_c40fbe82",
       "reference_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
       "text": "Deep Knowledge Tracing has been able to achieve state-of-the-art performances in the representation of students’ knowledge states. One disadvantage of this technique is the lack of interpretability of the model (especially when compared against BKT). ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_20a6d6bd",
+      "id": "an_876699cc",
       "reference_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
       "text": "To address this, the authors propose dynamic cognitive diagnosis, a model that is somewhat inspired by psychometrics and combines educational priors with DKT. The authors show that their model is not only more interpretable but proper selection of biases also boosts the performance of DKT models. ",
       "provenance": {

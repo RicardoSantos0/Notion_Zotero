@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_1db38432",
+      "id": "ex_d63dabf6",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b30f429f",
+      "id": "an_4efb06c3",
       "reference_id": "733c47cf-06d8-4c42-a69e-307851501b00",
       "text": "There are few works that attempt to use interactions between elements in a context of collaborative learning to predict student performance. Authors use data from a PBL-course with a final group project. Authors build an interaction graph based on the activities of students in their teams.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_0164b9a2",
+      "id": "an_6cc5b9a6",
       "reference_id": "733c47cf-06d8-4c42-a69e-307851501b00",
       "text": "Then, the authors present a Graph Transformer Network for Collaborative Learning for the prediction of student performance. Authors claim that their approach outperforms the baseline models used for the task of predicting student performance when in a collaborative environment. Moreover, the authors also claim that there is an important degree of interpretability in the knowledge graphs, which allows educators to better identify students who are struglling and provide personalized support. ",
       "provenance": {

@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_8c83544f",
+      "id": "an_46edcb4f",
       "reference_id": "c96967b3-90ed-4467-ae24-a0a38a476d06",
       "text": "ITS have evolved greatly over the years. ML has definitely played an important role here as it allows for the generation of automatic teaching styles from student characteristics and learning styles. However, a big barrier for the training of ML models is the scarcity of datasets containing student-ITS interactions.",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_2fcaa56e",
+      "id": "an_df915ea9",
       "reference_id": "c96967b3-90ed-4467-ae24-a0a38a476d06",
       "text": "Authors propose SimStu, built on a Decision Transformer. SimStu is a data simulator that generaties learning behavioral data that is essencial to train ITS models. Results show that SimStu is effective at mimicking real students when it comes to action frequency distribution, thus allowing for the generation of data that could improve the efficiency of ITS training. ",
       "provenance": {

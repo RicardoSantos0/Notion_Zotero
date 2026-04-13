@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_12719b7a",
+      "id": "ex_7c5b2968",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_73b74c1a",
+      "id": "an_36a509fc",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Authors start by mentioning that other LA works thus far do indeed use logs to predict success but neglect the practical aspects of an early warning system: predicting early in order to support student success. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_5a17c216",
+      "id": "an_0cf6abb0",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Thus, the authors extract log data and use it to create an early warning system. Time-dependent variables have shown to be especially useful in this endeavor. Moreover, a CART supplemented by an AdaBoost showed to be the best model out of the ones attempted.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_da9aaa0d",
+      "id": "an_b3949179",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "LMS are, nowadays, a useful tool to identify learners who may be at risk. Prior work has shown that using activity logs AND learner data that is stored on the LMS may be enough to create effective systems for this. ",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_68368925",
+      "id": "an_d98f0be9",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "A bigger challenge, however, is creating a model that integrates the wealth of online data that is now generated and, more importantly, actually having an LMS with built-in capacity to leverage the data and make predictions. This study attempts to make prediction using learning portfolio datasets while a fully online course is still in progress. In other words, early prediction that considers time-dependent variables and other activities undertaken by the students.",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_aee53ee7",
+      "id": "an_dd4bebc0",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "The Research Questions are as follows:",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_04ae00fe",
+      "id": "an_fb6064bc",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "To answer the questions, authors use data from 330 learning portfolios of students attending a fully online course. The data was collected as the course was taking place. This data was then used to compare different candidate ML algorithms for identification of learner’s at risk. ",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_d8bef4a6",
+      "id": "an_598ff4de",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "For this paper, learning portfolios are understood as collections of events and activities undertaken by the student. Now that it is possible to make online creation of portfolios by looking at the history of learning activities, these portfolios are more and more popular tools in the prediction of student performance. However, there are still few studies looking at the effectiveness of early warning systems created in this way.",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_228c3ae2",
+      "id": "an_ee780bf4",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "By the time of writing there were already some studies exploring the potential of creating EWS. These are divided into 2 categories: ",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_e613c3bb",
+      "id": "an_a6149c0d",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Very few studies actually use time-dependent representations. This means that most of the models use whole-semester information that hinders the ability of a model to be used as an early warning system → little to no time to help student.",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_f75852f8",
+      "id": "an_15f83b15",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Course has 2 editions and takes the whole semester. Students are required to attend online classes and watch specific videos during specific intervals. The LMS stores the interactions as logs, meaning that, to be usable, the data must undergo some transformations that resulted into 14 distinct features.\n\nUsers are described by 4 types of feature: Logins, Online material usage, assignments status and discussion forum status. The authors claim to have 330 portfolios but they only recruited 300 students. Moreover, problem is extremely imbalanced (284: pass vs 16 fail). In order to include temporal components into the models, the authors create 3 distinct datasets → one for each moment of prediction (W4, W8 or W13).",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_cfa251ee",
+      "id": "an_b5e6aec9",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "These datasets are then used to train and compare different classifiers on WeKa → 3 baseline models in C4.5, CART and Logistic Regression and one ensemble model in AdaBoost. Dataset imbalance was addressed by mixing undersampling and oversampling. This process was repeated 30 times on different seeds. So, in essence, the authors do 30 repetitions of 10-Fold Cross-Validation. Average performances are stored and compared using:",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_4c784259",
+      "id": "an_65b432ca",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Differences between models are also assessed using a cross-validated t-test.",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_86b898eb",
+      "id": "an_9e2a1126",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "As far as results go, they can briefly be summarized as follows:",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_5bd89d63",
+      "id": "an_06809844",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "\nIn general, results show that early prediction is possible at the 4th week and that predictive performance does not seem to improve that much with the passing of the weeks. ",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_1d0e22e1",
+      "id": "an_41b9e77b",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "The authors also develop a prototype for a course-level early warning system. The model is composed of 3 components:",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_88cb4021",
+      "id": "an_544db6f3",
       "reference_id": "fbabc039-d7a3-4330-88f4-1038cbba4145",
       "text": "Final sections of the paper discusses the how do I warn the student part of the problem with EWS - something that may be useful later on, but is not for now. Short-version, the school establishes an early warning agent that warns both professor and student.\n\nThere is also a flowchart for learning improvement. You can see it here for the lulz.\n",
       "provenance": {

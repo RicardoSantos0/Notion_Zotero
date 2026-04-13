@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_3f32349d",
+      "id": "ex_6ea1d4d2",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_a4eca5f6",
+      "id": "an_c10cb134",
       "reference_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
       "text": "Despite its effectiveness in math education, self-explanations seem to be an underused source of data about student learning processes. However, with new advancements in NLP it may now be possible to use them. Thus, the authors propose the use of an LLM to automatically grade mathematical self-explanations and provide personalzied feedback based on them. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_87eaea14",
+      "id": "an_4008b883",
       "reference_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
       "text": "Authors use 5 distinct datasets for validation. Results show that combining LLM explanations with amthematical material improves the accuracy of such an auto-grader model. Authors also find that there is a cap in synthetic self-explanations before the model starts to overfit.",
       "provenance": {

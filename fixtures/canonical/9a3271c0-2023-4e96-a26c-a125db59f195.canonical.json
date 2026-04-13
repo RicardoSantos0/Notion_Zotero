@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_e94ec0ed",
+      "id": "ex_8f9e21d4",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b089b6d2",
+      "id": "an_39a2342e",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Semi-supervised learning may be an interesting approach to identify students who are more likely to dropout of an online course. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_515b7d14",
+      "id": "an_adb1e44f",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Labeled data is often hard to obtain, thus the authors propose a framework that allows the existence of some labeled instances and multiple unlabeled instances. Authors use a semi-supervised approach and argue to have achieved good predictive accuracy. Authors also propose a web-based tool to estimate if a student is likely to dropout.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_dbe1cdcd",
+      "id": "an_f94258f1",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "For multiple different reasons, dropout is a concern in distance learning higher education and we need to develop strategies to help them. Many of the current approaches for detection of students at risk are innefective and/or take too long: previous grades, tutor evaluation etc… ",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_065d45e1",
+      "id": "an_c7b0df47",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The authors attempt a semi-supervised approach to the problem of identify learner’s at risk. They compare the performance of SSL vs Supervised classifiers suchg as C4.5. Then, the authors present a prototype web-tool that computes the probability of a student dropping out. ",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_0af743fb",
+      "id": "an_08048eba",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "ML for Dropout prediction often revolves around data that is static (e.g. characteristics) or dynamic (e.g. LMS behavior) and the use of one or both sets of data to predict whether a student will give up or not. ",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_95a2da88",
+      "id": "an_6c9303aa",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Different ML classifiers have been used with some success in the early prediction of dropout. The reviewed works use standard supervised ML techniques to achieve decent results. Moreover, predictive performance tends to improve as time advances. In some cases, as is the case of Atwell that the model can make predictions even before the start of the course. ",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_7a572f68",
+      "id": "an_f96bb2a0",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The research, as it stands merely focuses on Supervised methods but the authors argue that SS Learning can be helpful. ",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_eec6ea28",
+      "id": "an_c5ce5dae",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "SSL is a mixture of supervised and unsupervised learning. SSL algorithms use small subsets of labelled data and large subsets of unlabelled data (much cheaper) to generate predictions for the unlabelled data. It can be categorized into 2 settings:",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_ae4bd0f5",
+      "id": "an_d3145709",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Popular Semi-Supervised Learning Algorithms include:",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_5969c44b",
+      "id": "an_ce7df374",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Goal is to use SSL to create accurate predictions of dropout and to compare the performance of these algorithms against standard Supervised Approaches. ",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_a72f7cab",
+      "id": "an_5bb6dac4",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The authors use data from a Computer Science Course at Hellenic Open University. The course is divided into 12 modules and each has 4 written assignments and a final examination. Students can take the exam as soon as they finish the written assignments. There are also optional sessions.\n\nData comprises 344 students and prediction uses data collected before the 3rd assignment (meaning that we can assume prediction to be done at course’s halfway point maybe…). The authors select 10-Fold Cv as model assessment strategy.",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_1d70848d",
+      "id": "an_20e01f9d",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The 2 experiments are divided into 3 sequential parts:",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_abe29f96",
+      "id": "an_b1033ba6",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The first experiment is to run the different SSL algorithms (with C4.5 or NB as base learners) and see which ones obtain the highest accuracy.  The second experiment is to compare the best SSL approaches with a Supervised C4.5 algorithm.",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_9ec9df5c",
+      "id": "an_d4cd82aa",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "As far as the first experiment goes, it becomes obvious that using the semi-supervised approach mirrors observations that are also seen in standard supervised works: The predictive ability of the models increases with the advancement of the course. The analysis of performance for this work is based on the Friedman Test → a ranking of models based on their accuracy on labelled data for the different tasks. ",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_9e01297c",
+      "id": "an_f29b3ce0",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Depending on the classifier used as base, there are some interesting observations: ",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_d3ad02a8",
+      "id": "an_583c3a0b",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The ranking results, show that Tri-Training C4.5 is the best overall model as, based on the different experiments and steps is the model that has the highest average ranking based on the different accuracy scores obtained.",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_38964eb2",
+      "id": "an_64d75afb",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "The best model selected under these circumstances was sub-sequently tested in comparison with C4.5 over Accuracy and Specificity - Recall. The model of Tri-Training with C4.5 clearly outperformed the classifier on both metrics → suggesting that the semi-supervised approach outperformed the standard supervised method. ",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_9039dae0",
+      "id": "an_45a2a386",
       "reference_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
       "text": "Work also includes the exposition of a web-platform that returns the probability of dropping out based on the features. This prototype may, in the future, be used to predict dropout of students.",
       "provenance": {

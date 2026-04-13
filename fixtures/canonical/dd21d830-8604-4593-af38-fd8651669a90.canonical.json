@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_62c0b92c",
+      "id": "ex_c9e8d034",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_f8b916a1",
+      "id": "an_f1e00492",
       "reference_id": "dd21d830-8604-4593-af38-fd8651669a90",
       "text": "Exercise recommendations can make or break learning. To be effective, an exercise needs to be challenging enough to foster interest while, simultaneously, being accessible. Collaborative Filtering is not effective at this since it recommends exercises based on past behavior of similar students. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_1bd13fb1",
+      "id": "an_fe13f50e",
       "reference_id": "dd21d830-8604-4593-af38-fd8651669a90",
       "text": "Authors propose a model that uses DKT to predict a learner’s mastery level and uses this prediction as a form to filter exercises eligible for recommendation. Results show that model does better than baseline approaches both in terms of difficulty of exercises but also diversity and novelty. ",
       "provenance": {

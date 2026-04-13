@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_dd132ea1",
+      "id": "ex_319b3626",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_8cb6b27a",
+      "id": "an_e039bee1",
       "reference_id": "e83d83a2-cefa-4131-8c6d-565ad6afa613",
       "text": "Online learning has become increasingly popular even though it lacks formal communication channels for feedback. Authorsd propose a multi-dimensional time-series model that is able to consider multiple features of students: behavior, characteristics and even prior performance.",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_bb57cb4a",
+      "id": "an_a26e1ad1",
       "reference_id": "e83d83a2-cefa-4131-8c6d-565ad6afa613",
       "text": "Results show that the model achieved close to 100% accuracy (?) on OULAD in the task of early detection of students at risk. Moreover, the model achieves 74% and 74% F1 score in the multiclass problem of OULAD. As usual in these papers, model beats all other models it is being benchmarked against.",
       "provenance": {

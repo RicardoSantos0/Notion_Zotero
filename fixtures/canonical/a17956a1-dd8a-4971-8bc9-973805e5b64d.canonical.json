@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_77e5d00c",
+      "id": "ex_73657375",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_93120125",
+      "id": "an_2d2fa931",
       "reference_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d",
       "text": "Courses such as algorithms and programming have very high rates of dropout. Authors create multiple early detection algorithms with different pre-processing techniques to identify which combinations generate the best predictions. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_efcaa1ad",
+      "id": "an_712a00ae",
       "reference_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d",
       "text": "Authors find that, indeed, different features/algorithm combinations did not lead to statistically significant differences in predictive performance, ultimately finding that activity counts and some derived attributes are sufficient for the task. However, the authors did find that predictions in the second semester were much better → 0.7 AUC to 0.9 AUC. SMOTE did not improve performance of the models. ",
       "provenance": {

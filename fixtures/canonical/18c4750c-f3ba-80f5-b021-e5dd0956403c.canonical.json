@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_fc6f8039",
+      "id": "ex_ea312355",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_6a079098",
+      "id": "an_2189e87b",
       "reference_id": "18c4750c-f3ba-80f5-b021-e5dd0956403c",
       "text": "DKT, while effective, is a much more data-driven approach than a knowledge-driven approach. However, its results tend to fluctuate due to not requiring elaborate representations of student knowledge. The authors find that DKT cannot properly establish long-term relationships and, to circumvent this issue, introduce a set of attention-based models. Benchmarking on 5 datasets shows that both models achieve state-of-the-art performance on KT tasks. ",
       "provenance": {

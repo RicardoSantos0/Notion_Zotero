@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_387e1a46",
+      "id": "ex_62cb0c07",
       "reference_task_id": null,
       "schema_name": "Summary Table",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_f97cc284",
+      "id": "an_ab97a77e",
       "reference_id": "85bf2622-3a8d-4f2f-b8a7-8424025c9add",
       "text": "Digitaslization of learning has brought many opportunities to improve learning practices. However, the proliferation also massively increased the amount of materials and content which makes it difficult for learners to navigate without guidance.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_337a8347",
+      "id": "an_0836d636",
       "reference_id": "85bf2622-3a8d-4f2f-b8a7-8424025c9add",
       "text": "Recommender systems can address this issue, but need to deal with:",
       "provenance": {
@@ -64,7 +64,7 @@
       }
     },
     {
-      "id": "an_0b5cc6c3",
+      "id": "an_61550593",
       "reference_id": "85bf2622-3a8d-4f2f-b8a7-8424025c9add",
       "text": "The authors employ a fuzzy approach to create a learner model and a learning activity model. The use of the fuzzy-tree architecture is used to infer relationshios between activities and requirements. Moreover, the authors create a hybrid recommender system using this approach that recommends content. Performance of the algorithm is compared against knowledge-based filtering and collaborative filtering approaches using the MovieLens dataset.",
       "provenance": {

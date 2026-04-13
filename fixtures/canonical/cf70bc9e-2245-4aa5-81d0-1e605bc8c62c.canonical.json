@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_c0c7ef55",
+      "id": "ex_d01d7fad",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fd8af336",
+      "id": "an_72cf2661",
       "reference_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
       "text": "Recommender Systems can be used to help students select courses who are better suited for them. Paper suggests a hybrid RS that combines both Content-Based Filtering and Collaborative Filtering.  Optimization of the parameters of the Recommender System is done via a Genetic Algorithm.",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_91d7415d",
+      "id": "an_12635cb9",
       "reference_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
       "text": "An experiemntal sewtup on the university of Cordoba, a dataset with 2500 entries with 95 students and 63 courses. Results show excellent performance of recommendations in comparison to previous models. Moreover, the authors also delve into the interpretation of the most relevant criteria for course recommendation.",
       "provenance": {

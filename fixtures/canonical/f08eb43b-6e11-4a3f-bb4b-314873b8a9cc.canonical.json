@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_4e989238",
+      "id": "ex_95fc4b1f",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_cbd7ad83",
+      "id": "an_6486e0f4",
       "reference_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
       "text": "Authors present a new model of student behavior and an adaptive Recommender System that uses clickstream data. Their pilot intervention on edX provided adaptive learning pathways shown as a navigational suggestion. The model predicts next page where they would be likely to spend more time - based on behavior (without any ontology or assumptions). ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_5207ddc1",
+      "id": "an_9d1e2c93",
       "reference_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
       "text": "The prediction of time is done via different Recurrent Neural Network approaches. The paper also discusses multiple implications for real-time deployment.  ",
       "provenance": {

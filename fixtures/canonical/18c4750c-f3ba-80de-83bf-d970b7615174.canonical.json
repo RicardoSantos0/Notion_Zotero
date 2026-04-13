@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_a9576f16",
+      "id": "ex_e7b67c6c",
       "reference_task_id": null,
       "schema_name": "Summary Table KT",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_fcfdfe5c",
+      "id": "an_fc2c00a8",
       "reference_id": "18c4750c-f3ba-80de-83bf-d970b7615174",
       "text": "One of the problems with KT is that they treat answers as correct/incorrect. While valuable, this information is somewhat incomplete and likely could be complemented if questions were “open-ended,” - especially when the goal is to create a model of learner’s knowledge. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_c616976a",
+      "id": "an_72f3f1d9",
       "reference_id": "18c4750c-f3ba-80de-83bf-d970b7615174",
       "text": "The paper presents open-ended Knowledge Tracing. They lay out the specifications and evaluation metrics and conduct experiments to test the open-ended knowledge tracing on a real world dataset. ",
       "provenance": {

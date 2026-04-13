@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_03dffb5b",
+      "id": "ex_40222b51",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -86,7 +86,7 @@
   ],
   "annotations": [
     {
-      "id": "an_7657a4e5",
+      "id": "an_a36392d2",
       "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
       "text": "The authors propose a new deep learning model to predict student performance using the sequential aspect of interaction logs between a student and an LMS in the hopes of providing support as early as possible. ",
       "provenance": {
@@ -94,7 +94,7 @@
       }
     },
     {
-      "id": "an_bcfd1c88",
+      "id": "an_d072b18a",
       "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
       "text": "The authors use OULAD to perform multiple early classification tasks and their proposed model achieves, at the very least, 76% when performing early prediction. When comparing the performance of the Transformer-Encoder model, the authors found that their proposed method outperformed the baselkine LSTM models by 3% to 7% on F1-Score.",
       "provenance": {
@@ -102,7 +102,7 @@
       }
     },
     {
-      "id": "an_ad86074a",
+      "id": "an_e4e9c746",
       "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
       "text": "Authors also test the effect of different pre-processing options such as positional encoding. In OULAD, the best options had no positional encoding and, in some cases, worked better with weeky feature aggragation and weighted loss functions.",
       "provenance": {

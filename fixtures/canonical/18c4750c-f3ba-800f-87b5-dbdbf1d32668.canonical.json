@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_47c9e75a",
+      "id": "ex_1fbee709",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1fe15227",
+      "id": "an_65bcd32a",
       "reference_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
       "text": "Knowledge Tracing estimates the performance of a student in different learning activities, allowing it to model the student’s mastery of different knowledge concepts. The current state-of-the-art methods are BKT, DKT and Dynamic Key-value Mmory Networks and all have the issue of poor generalization in the rpesence of sparse data.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_18cddc0b",
+      "id": "an_2c760582",
       "reference_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
       "text": "The authors propose an approach that estimates Knowledge Components from past activities (sort of using preceding knowledge components to estimate current ones?).  This approach is Self-Attention Based (SAKT). Results on multiple datasets show that SAKT beats other alternatives by an average 4.43% on the AUC score.",
       "provenance": {

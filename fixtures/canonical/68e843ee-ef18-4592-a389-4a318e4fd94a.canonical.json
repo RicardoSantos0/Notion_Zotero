@@ -19,7 +19,7 @@
   "task_extractions": [],
   "annotations": [
     {
-      "id": "an_8f278049",
+      "id": "an_02bd34f4",
       "reference_id": "68e843ee-ef18-4592-a389-4a318e4fd94a",
       "text": "Collaborative learning benefits from clustering students into appropriate learner groups. However, most group optimization is performed via single-objective optimization, not accounting for multiple constraints. To address this, authors propose a multi-objective Genetic algorithm, NSGA-II. ",
       "provenance": {
@@ -27,7 +27,7 @@
       }
     },
     {
-      "id": "an_07623307",
+      "id": "an_edb4f62a",
       "reference_id": "68e843ee-ef18-4592-a389-4a318e4fd94a",
       "text": "This method successfully satisfies multiple criteria that are important for group formation, especially the intra-heterogeneity and inter-heterogeneity. Results show that single-objective optimization often leads to sub-optimal groupings since it does not account for all criteria. Another variation is that this model is able to check the fitness of each group distinctively. Quality of results also suggests potential for generalizability to other domains. ",
       "provenance": {

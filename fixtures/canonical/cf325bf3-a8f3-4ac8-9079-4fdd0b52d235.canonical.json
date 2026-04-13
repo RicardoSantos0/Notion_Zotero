@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_7875b439",
+      "id": "ex_fa5ec181",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_13d45143",
+      "id": "an_9cb86591",
       "reference_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
       "text": "Authors start by identifying that most works of Dropout prediction suffer from data leakage - Performance of predictive models is measured on the same dataset used for training. To test the effects, authors create a model using 4 different training paradigms. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_8ec6a5ef",
+      "id": "an_b1861787",
       "reference_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
       "text": "Main results:",
       "provenance": {

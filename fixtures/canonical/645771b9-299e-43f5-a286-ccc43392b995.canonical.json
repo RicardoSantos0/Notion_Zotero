@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_00507adc",
+      "id": "ex_10628fd9",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_1545e03e",
+      "id": "an_47c62c1a",
       "reference_id": "645771b9-299e-43f5-a286-ccc43392b995",
       "text": "LA serve multiple purposes in modern educational contexts and many of the predictive models for dropout usually work better on a smaller subset of courses or a single course, with few works actually working with large numbers of courses.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_ca397f2e",
+      "id": "an_ceddf3a5",
       "reference_id": "645771b9-299e-43f5-a286-ccc43392b995",
       "text": "In this work, the authors use an automated system to predict student dropout. First, they start with clustering courses together based on their design and similarity. Secondly, a predictive model of dropout is specifically created for each cluster. ",
       "provenance": {

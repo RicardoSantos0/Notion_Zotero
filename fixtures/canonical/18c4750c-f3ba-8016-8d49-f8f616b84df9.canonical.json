@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_fd8eb3ed",
+      "id": "ex_d8178c54",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_0160ace2",
+      "id": "an_92b0b680",
       "reference_id": "18c4750c-f3ba-8016-8d49-f8f616b84df9",
       "text": "The authors use a 2-layer LSTM network on 2 forms of educational data:",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_8fb6b872",
+      "id": "an_8dba03b1",
       "reference_id": "18c4750c-f3ba-8016-8d49-f8f616b84df9",
       "text": "The network learns from the data and them is argued to possibly be used generatively to create new sequences (?).",
       "provenance": {

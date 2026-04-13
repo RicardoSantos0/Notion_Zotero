@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_b0b44dbf",
+      "id": "ex_53abb023",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -84,7 +84,7 @@
       "revision_status": null
     },
     {
-      "id": "ex_fcee8910",
+      "id": "ex_5aee097a",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -116,7 +116,7 @@
   ],
   "annotations": [
     {
-      "id": "an_580af817",
+      "id": "an_df4bb6be",
       "reference_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3",
       "text": "Early detection could allow students at risk to receive timely feedback. Likewise, early identification of excellent students could allow for the delivery of more personalized content. ",
       "provenance": {
@@ -124,7 +124,7 @@
       }
     },
     {
-      "id": "an_eef2a4f3",
+      "id": "an_7c95fa7f",
       "reference_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3",
       "text": "Many works either make models using data from the whole course or, in many cases, make early prediction on a single course. For those reasons, the authors use LMS logs to create a set of course agnostic models that predict student success at different thresholds of course duration: 10%, 25%, 33% and 50%.",
       "provenance": {
@@ -132,7 +132,7 @@
       }
     },
     {
-      "id": "an_91e8b0c2",
+      "id": "an_7b47d06f",
       "reference_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3",
       "text": "Models are trained using the full logs of the Univeristy of Oviedo in the years 2013 to 2014. Different Classifiers are tested and MLP emerged as the best model throughout, achieving 80% accuracy at 10% course duration and 90% at the end of the course. ",
       "provenance": {
@@ -140,7 +140,7 @@
       }
     },
     {
-      "id": "an_455b097f",
+      "id": "an_c8bc3f88",
       "reference_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3",
       "text": "On a second analysis, the authors performed clustering and found 6 groups and, in 4 of the 6, there is a strong correlation between interaction patterns and student performance.",
       "provenance": {

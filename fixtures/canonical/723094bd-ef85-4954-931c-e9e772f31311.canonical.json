@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_03592896",
+      "id": "ex_993e5922",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_b1cc7932",
+      "id": "an_b187da55",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Need for improvement in current early warning systems. The authors use behavioural data to anayze whether they can create an early warning system with data collected up to the first exam and follow up with the development of actual measures to improve academic achievement. Authors found that the warning system identified 75% of students who were “at-risk” and, on a subsequent sample, followed up with the development of actions meant to support students in need. Students who were give the intervention achieved better outcomes than those who did not receive the intervention.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_2163a25e",
+      "id": "an_0824204c",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "There are disciplines in STEM that aim to “weed out” a large portion of aspiring students so that only the best students stay.  This phenomenom has led to substantial effort by researchers to try and mitigate this weeding out as, ultimately, failing around 50% of students guarantees, at best, that they will be delayed in entering the workforce.",
       "provenance": {
@@ -66,7 +66,7 @@
       }
     },
     {
-      "id": "an_bc9d27fd",
+      "id": "an_1e30571e",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Different teaching methods have been employed to address this: active learning, developmet of student skills and early warning systems. In the topic of early warning systems, while there is plenty of literature available, there is a limited number of studies focusing on large lecture courses. The authors have focused on adapting LMS incoporation into their course work to: i) promote active learning, 2) to actually gather meaningful data from the LMS.",
       "provenance": {
@@ -74,7 +74,7 @@
       }
     },
     {
-      "id": "an_e0df9d01",
+      "id": "an_710f2288",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Still, the literature is somewhat scarce in a couple of specific aspects: 1) interpretability of insights as most models use black box to obtain predictions and 2) even in the cases where white box approaches are followed, a very limited number of studies actually goes beyond the prediction stage and tries to address the student difficulties.",
       "provenance": {
@@ -82,7 +82,7 @@
       }
     },
     {
-      "id": "an_a4d20ba3",
+      "id": "an_d3e6d02c",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Goals:",
       "provenance": {
@@ -90,7 +90,7 @@
       }
     },
     {
-      "id": "an_5ba25870",
+      "id": "an_2b477508",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Throughout time, different universities have made efforts to develop their own early warning system (e.g. Purdue’s Course Signals) to monitor student performance throughout the semester and warn students and instructors in an effort to give the time to perform some form of intervention. Common sources for student data use a combination of behaviour, prior performance and, to some extent, demographics. Due to its more unobtrusive nature, LMS provide an interesting opprtunity for early prediction of student performance.",
       "provenance": {
@@ -98,7 +98,7 @@
       }
     },
     {
-      "id": "an_d8630ada",
+      "id": "an_e96c441f",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "There have been multiple studies employing ML to predict whether students will pass or fail a course, usually ranging between the 50% to 80% accuracy ranges. These models, of course, outperform other models based on naive predictions of everyone passing or everyone failing. As far as predictors go, theere are also plenty: demographics, finantial aid data or high-school grades. While certainly effective, these datapoints have the issue of being static and, more specifically for the demographics case, potentially stigmatizing. ",
       "provenance": {
@@ -106,7 +106,7 @@
       }
     },
     {
-      "id": "an_cb900b83",
+      "id": "an_46ab479a",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Moreover, prior performance in the course is also taking into account, leading to situations where the models simply spew what they know thus far (if performance is low up to the midpoint, it will continue being poor), especially in the absence of a strategy to change student behavior. Thus, the authors argue that prediction should aslso take into acount variables that allow effective early prediction when outcomes are not foregone conclusions.",
       "provenance": {
@@ -114,7 +114,7 @@
       }
     },
     {
-      "id": "an_aa19c939",
+      "id": "an_e0a63ebf",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The authors identify feww studioes that are exclusively relying on data from the LMS. Baker outperformed chance by 34% (cohen kappa) and MAcfadyen & Dawson found that the logs contained 31% of the explained variance when determining whether a student should be at-risk or not, pointing towards predictive power of LMS behavioral data. ",
       "provenance": {
@@ -122,7 +122,7 @@
       }
     },
     {
-      "id": "an_2970508c",
+      "id": "an_6992ce69",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The authors will pursue the association of behavior with specific learning events as informed by learning theoretical constructs. This allow the aggregation of “similar objects” into more generalizable categories which facilitate classification. In other words, the authors claim that 2 students may engage in the same learning behavior while engaging with different resources. In addition, the models claim to value accuracy metrics as the main criteria for model selection as that reflects the identification of students in need of additional support. ",
       "provenance": {
@@ -130,7 +130,7 @@
       }
     },
     {
-      "id": "an_33222091",
+      "id": "an_f1c227dc",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "In here, it is important to make a clear distinction between what allows better performances vs what is actionable. Performance in previous courses, financial situation of demographics have been shown to have positive effects on predictive performance but tell us nothing on how to assist a student in a specific course. ",
       "provenance": {
@@ -138,7 +138,7 @@
       }
     },
     {
-      "id": "an_71efc1b2",
+      "id": "an_a40c85e1",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Using intermediate grades also poses considerable challenges. If the purpose is early intervention, these models rely on studfents failing in assessments a-priori before making the identification, which reduces the window for meaningful intervention towards course-correcting behavior, which is, at the very least, counter-productive to the aim of the model itself (you need to fail before I can help you).",
       "provenance": {
@@ -146,7 +146,7 @@
       }
     },
     {
-      "id": "an_1e0583e9",
+      "id": "an_cd3f0655",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The authors wish to focus their efforts tod evelop a predictive model that uses what the students can actually control (their behavior on the LMS). The authors assess the performance of their models based on whether their manipulation of data consists of dichotomous occurrences or frequency counts. Then, the authors use multiple ML allgorithms in order to figure out which one of them is the best performing one (while also giving some emphasys on interpretability. ",
       "provenance": {
@@ -154,7 +154,7 @@
       }
     },
     {
-      "id": "an_58e9bf25",
+      "id": "an_dc94dda7",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "How should the access to different contents be modelled? There is plenty of evidence that suggest that multiple types of content should be treated dichotomously (accessing vs not accessing). For example, powerpoint slides can be downloaded once and then used repeatedly throughout the semester.",
       "provenance": {
@@ -162,7 +162,7 @@
       }
     },
     {
-      "id": "an_70961a27",
+      "id": "an_c54676bf",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Using these materials depends on how the students will actually engage with content: some students will downloead once and never access a material again. Others, will access the same materials multiple times without creating a personal collection. For this paper, the authors explored both dichotomous use and frequency counts in order to verify which is the most relevant for predictive purposes.",
       "provenance": {
@@ -170,7 +170,7 @@
       }
     },
     {
-      "id": "an_55172757",
+      "id": "an_ba1f1e16",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "More than just foruns or downloadeable content, there are other events that require repeated access. There are resources that require automatic feedback methods and repeated engagement make perfect sense in the context of frequency counts. In order to better account for what each event refers to, the authors believed that it would be important to consider what they call a principled approach.",
       "provenance": {
@@ -178,7 +178,7 @@
       }
     },
     {
-      "id": "an_d80f06a5",
+      "id": "an_c913f2e0",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The authors take into consideration multiple facets of the learning process: dichotomous-use of learning materials, frequency counts when accessing different learning materials and, more importantly, using a principled approach to identify whether models using a data preprocessing that follows instructional design and learning theory outperform models that do not have this level of granularity.",
       "provenance": {
@@ -186,7 +186,7 @@
       }
     },
     {
-      "id": "an_5952f6b0",
+      "id": "an_708e954f",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The models sused in this work should fulfill a couple of conditions: the first is the conversion into some form of model that is able to predict in real time - which means that the envents need to be observable immediatly. A second consideration will be the interpretability of the models (so if a complex model achieves the same performance as a simpler one, the authors show preference for the simpler). To that effect, the authors present each feature set to 4 candidate models to assess performance.",
       "provenance": {
@@ -194,7 +194,7 @@
       }
     },
     {
-      "id": "an_86306c22",
+      "id": "an_361d107a",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "1. What methods of representing learning events (i.e., features) and which statistical models (i.e., algorithms) produce the most accurate prediction of student learning?",
       "provenance": {
@@ -202,7 +202,7 @@
       }
     },
     {
-      "id": "an_7ccad362",
+      "id": "an_6626eba8",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "337 from Anatomy and Physiology at an US unversity to train their models. The models were then assessed on additional samples of 298 and 349. ",
       "provenance": {
@@ -210,7 +210,7 @@
       }
     },
     {
-      "id": "an_1c5929db",
+      "id": "an_ca3bacb4",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "After selecting the best model, the authors used it to identify students that are struggling and, after that, messaged some of the students to focus them on more effective study practices. Learning support was provided on day 27 of the semester (1 week before the first exam of the course). The students who were given access to personalized messages were assigned randomly (as long as they were identified as struggling). The impact of these messages was assessed only on subsequent exams (not the first one).",
       "provenance": {
@@ -218,7 +218,7 @@
       }
     },
     {
-      "id": "an_6fc2228b",
+      "id": "an_a4463d03",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Large lecture course witth support on Blackboard. All materials were provided at the start and every single resource was optional. The models only consider the first 4 weeks of the semester. Moreover, all content accesses were converted to a weekly basis, which still captures relevant patterns such as when is a student dopwnloading the contents for a specific week. Students use these logs and a binary target of success vs fail at 80% (minimum to be admitted to the next course in the major).",
       "provenance": {
@@ -226,7 +226,7 @@
       }
     },
     {
-      "id": "an_0e56a579",
+      "id": "an_286032f9",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The models under consideration were WEKA implementations of Logistic Regression, C4.5 (J48) and J-Rip, and the Naive Bayes algorithm. Each item was aggregated into a type of resource that reflects the activity that the content is meant to support. The best models were selected using Cohen’s Kappa, supported by accuracy, recall and precision.",
       "provenance": {
@@ -234,7 +234,7 @@
       }
     },
     {
-      "id": "an_7219955f",
+      "id": "an_f4d6ef7e",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Authors attempted both K-Fold CV and Leave-One-Out. On the test data, the authors make use of Kappa and Recall to measure the eprformance on the test data (new sets of students that are going to receive the intervention). Students flagged as more likely to achieve worse than B were separated and randomly assigned into either control group or gorup who receives the personalized e-mail for additional support. The final step of the work is the comparison of the grades obtained by students who received the e-mail vs the students who had not received the e-mail nor accessed the supporting materials.",
       "provenance": {
@@ -242,7 +242,7 @@
       }
     },
     {
-      "id": "an_70f1f42e",
+      "id": "an_765fdfef",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The analysis starts with measuring correlations and standard descriptive statistics.",
       "provenance": {
@@ -250,7 +250,7 @@
       }
     },
     {
-      "id": "an_1bbf68ac",
+      "id": "an_fc1df346",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "General patterns involve heavy activity at the start and in the week preceding the exam. ",
       "provenance": {
@@ -258,7 +258,7 @@
       }
     },
     {
-      "id": "an_75b664d2",
+      "id": "an_128aa3eb",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Again, heavy emphasys on recall as one of the key indicators for model performance.",
       "provenance": {
@@ -266,7 +266,7 @@
       }
     },
     {
-      "id": "an_cf2495a9",
+      "id": "an_ab2e3a18",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "In the subsequent semesters, the authors managed to correctly identify more than 80% of students who ended up failing the course.",
       "provenance": {
@@ -274,7 +274,7 @@
       }
     },
     {
-      "id": "an_5da1e9ab",
+      "id": "an_ba1ec8ad",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "The authors make a split between all students flagged as struggling and measured the differences in performance between those that accessed the extra content vs those who had not accessed the content. The assignment was made in order to ensure that there would be no confounds relating to demographics or other potentially predictive aspects.",
       "provenance": {
@@ -282,7 +282,7 @@
       }
     },
     {
-      "id": "an_8211c01d",
+      "id": "an_d32bcd87",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "On the 4 exams following the delivery of the content, the authors collected the exam scores and used an ANOVA test to check the performance of one group against the other. Students who received support were found to out-perform and be more likely to succeed than their peers who had accessed the different materials.",
       "provenance": {
@@ -290,7 +290,7 @@
       }
     },
     {
-      "id": "an_1e166343",
+      "id": "an_5c739177",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": "Moreover, the authors also checked whether there would be a meaningful impact on the performance of students who did not need the support and dound no meaningful relationship.",
       "provenance": {
@@ -298,7 +298,7 @@
       }
     },
     {
-      "id": "an_055e26f0",
+      "id": "an_cd73b70e",
       "reference_id": "723094bd-ef85-4954-931c-e9e772f31311",
       "text": " ",
       "provenance": {

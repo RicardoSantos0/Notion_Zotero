@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_8fe1b22f",
+      "id": "ex_e9f0ddc8",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_330c6fbc",
+      "id": "an_85842db1",
       "reference_id": "18c4750c-f3ba-80ac-9703-c831706583f0",
       "text": "KT often revolves around using previous questions to predict whether the next question will be correctly answered. One of the main drawbacks of the traditional KT approaches is that it only considers correctedness of previous questions, but not the rationale that led to a specific answer. ",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_8414e0c8",
+      "id": "an_60595933",
       "reference_id": "18c4750c-f3ba-80ac-9703-c831706583f0",
       "text": "Authors use unsupervised learning on clickstream data to identify different patterns of question-answering behavior. This is followed by Clickstream KT, a model that is standard KT that also considers clickstream data within its parameters. Results show that inserting clickstream leads to better performance of the KT models.",
       "provenance": {

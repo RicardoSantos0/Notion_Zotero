@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_eccc9697",
+      "id": "ex_70c670a4",
       "reference_task_id": null,
       "schema_name": "Summary Table REC",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_2a79f917",
+      "id": "an_513a4136",
       "reference_id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
       "text": "Personalized recommendation of exewrcises often comes short in practice due to a couple of relevant factors:",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_921175da",
+      "id": "an_9a5524c9",
       "reference_id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
       "text": "The authors introduce RCL4ER, which makes recommendations by mixing self-supervised learning and reinformecement learning in the model’s output layer. Authors also explore a trained KT model while testing 3 distinct data augmentation techniques. Testing on 4 distinct public datasets shows promisisng results.",
       "provenance": {

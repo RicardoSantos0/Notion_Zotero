@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_3144dc6b",
+      "id": "ex_a4115b0e",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -48,7 +48,7 @@
   ],
   "annotations": [
     {
-      "id": "an_6487a1bc",
+      "id": "an_83f7c2eb",
       "reference_id": "d096f16e-0812-41fd-94af-511aec2df0a9",
       "text": "Authors test effectiveness of recommender systems in educational platforms, bringing forward the example of music platforms - TomPlay - which suffer from the problem of having sparser interactions than other recommender system scenarios. ",
       "provenance": {
@@ -56,7 +56,7 @@
       }
     },
     {
-      "id": "an_7c9eb8a2",
+      "id": "an_c5142894",
       "reference_id": "d096f16e-0812-41fd-94af-511aec2df0a9",
       "text": "To deal with the sparsity problem, the authors propose a Deep LEarning based recommender that uses Graph Neural Networks and show that it outperforms standard NNs. Moreover, the authors  try to assert the amount of interactions required for the recommender to properly model the user interactions, concluding 50 to be the optimal number. ",
       "provenance": {

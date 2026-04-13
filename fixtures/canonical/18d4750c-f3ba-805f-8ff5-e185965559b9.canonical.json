@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_7f76a4e5",
+      "id": "ex_ee6b6544",
       "reference_task_id": null,
       "schema_name": "Abstract",
       "extracted": [
@@ -68,7 +68,7 @@
   ],
   "annotations": [
     {
-      "id": "an_dbabc61a",
+      "id": "an_aa3bf8c8",
       "reference_id": "18d4750c-f3ba-805f-8ff5-e185965559b9",
       "text": "ML pipelines are essential to predict students in need and make necessary recommendations often using behavioral logs or demographic data stored in the SIS. This strategy is vulnerable to concept drift or spuriousness. ",
       "provenance": {
@@ -76,7 +76,7 @@
       }
     },
     {
-      "id": "an_8d6da882",
+      "id": "an_1340056a",
       "reference_id": "18d4750c-f3ba-805f-8ff5-e185965559b9",
       "text": "Authors show that Lasso outperforms multiple models in both scenarios. Moreover, a linear regression with 2 new features (handcrafted) outperforms multiple more complex ML models. Authors propose their results as an interesting benchmark for future studies.",
       "provenance": {

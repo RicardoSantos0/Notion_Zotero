@@ -18,7 +18,7 @@
   "reference_tasks": [],
   "task_extractions": [
     {
-      "id": "ex_533b2558",
+      "id": "ex_354903f5",
       "reference_task_id": null,
       "schema_name": "Summary Table PRED",
       "extracted": [
@@ -50,7 +50,7 @@
   ],
   "annotations": [
     {
-      "id": "an_2c6f56dc",
+      "id": "an_3341c798",
       "reference_id": "f43c2627-49d3-4784-8447-f8b2ea71c418",
       "text": "Most predictive models of student performance consider either student attributes or learning activities. However, few consider external factors such as course-duration. The authors propose an attention-based method to incorporate data for these external factors. The attention module is intended to give weights to different factors, thuis allowing the distinguishing between time dimensions and learning activity dimensions.",
       "provenance": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "id": "an_f340877d",
+      "id": "an_475ccf89",
       "reference_id": "f43c2627-49d3-4784-8447-f8b2ea71c418",
       "text": "The model, Attn-ANN combines weightings on time and feature dimensions to identify significance of lectures and learning activities. The model seems to outperform convencional algorithms at the task of early prediction of student performance. Moreover, an analysis of the netwroks decisions shows potential for synergy between model and educational experts. ",
       "provenance": {
