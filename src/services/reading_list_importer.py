@@ -126,6 +126,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--input", default="fixtures/reading_list")
     p.add_argument("--out", default="fixtures/canonical")
+    p.add_argument("--force", action="store_true", help="overwrite existing canonical files even if content unchanged")
     args = p.parse_args()
     input_dir = Path(args.input)
     out_dir = Path(args.out)
@@ -133,8 +134,18 @@ def main():
     for f in sorted(input_dir.glob("*.json")):
         page_id, canon = parse_fixture(f)
         out_path = out_dir / f"{page_id}.canonical.json"
-        out_path.write_text(json.dumps(canon, ensure_ascii=False, indent=2), encoding="utf-8")
-        print("WROTE:", out_path)
+        new_text = json.dumps(canon, ensure_ascii=False, indent=2)
+        if out_path.exists() and not args.force:
+            old_text = out_path.read_text(encoding="utf-8")
+            if old_text == new_text:
+                print("UNCHANGED:", out_path)
+                continue
+            else:
+                out_path.write_text(new_text, encoding="utf-8")
+                print("UPDATED:", out_path)
+        else:
+            out_path.write_text(new_text, encoding="utf-8")
+            print("WROTE:", out_path)
 
 
 if __name__ == '__main__':
