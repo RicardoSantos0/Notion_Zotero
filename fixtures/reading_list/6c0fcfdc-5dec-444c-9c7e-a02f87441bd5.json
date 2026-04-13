@@ -1,0 +1,640 @@
+{
+  "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5",
+  "title": "Using clickstream data to measure, understand, and support self-regulated learning in online courses",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "5c7fac28-18ef-4dcb-a922-22325db984b3",
+          "name": "Clickstream Data",
+          "color": "orange"
+        },
+        {
+          "id": "2ffdfa3d-97e8-4b08-abfb-745cd8c56173",
+          "name": "Self-Report Questionnaire",
+          "color": "yellow"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Self-Regulated Learning” AND “LMS”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Self-Regulated Learning” AND “LMS”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T20:35:00.000+00:00",
+        "end": "2026-03-13T18:58:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Li et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Li et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Using clickstream data to measure, understand, and support self-regulated learning in online courses",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Using clickstream data to measure, understand, and support self-regulated learning in online courses",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3224750c-f3ba-807f-8f93-c9a2354f3b8f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "238 students",
+          "1 Chemistry Course ",
+          "Student Demographics, LMS logs, Pre-Course Survey, Post-Course Survey, Performance Data",
+          "Pintrich’s SRL Model",
+          "[Female, Age, Hispanic, Asian/Pacific Islander, White, African American, First Generation, Low Income, SAT Score, High School GPA, Keep Record of Assignments_PRE, Plan in Advance_PRE, Quit Before Finishing_PRE, Work Hard To Do Well_PRE, Keep Working Until Finish_PRE, Catch Up When Falling Behind_PRE, Keep Record of Assignments_POST, Plan in Advance_POST, Quit Before Finishing_POST, Work Hard To Do Well_POST, Keep Working Until Finish_POST, Catch Up When Falling Behind_POST, Study in Time_CL, Study in Advance_CL, Space_CL, Change in time on task_CL, Current Course final Exam, Current Course Grade, Subsequent Course Grade]",
+          "The adapted version of the MSLQ was given both before and after the course to extract the Self-Reports on 2 distinct moments. Different variables were also extracted from the logs.",
+          "5 Linear Regressions",
+          "Course Grade\n{RSquared: 0.503 - Model 5}\n\nFinal Exam Score\n{RSquared: 0.459 - Model 5}",
+          "-",
+          "Adding data from multiple sources seems to improve explanatory performance of the linear models.\n\nCuriously, RSquared does not chance significantly when we use Pre-Course surveys + Clickstream vs Post-Course surveys + Clickstream.\n\nAlso… clickstream behaviour is clearly different from the behavior mentioned that students expected to have in the pre-course survey.",
+          "Students overestimante their capacity at the start of the course. \n\nOne idfea would be administer surveys during the course, not before it, so that students can… hipothetically… be familiar with the online system before answering.\n\nAppropriate extraction of clickstream data can improve predictive performance.",
+          "Linear Regression descriptive analysis of of different tasks.",
+          "Survey data validity\n\nSingle institution \n\nNo analysis of contextual factor, only clickstream"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-80f3-a513-fc19c828df8e",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80f3-a513-fc19c828df8e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+        },
+        "created_time": "2025-02-06T19:49:00.000Z",
+        "last_edited_time": "2025-02-06T19:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80a8-9afa-c2bcc63c2420",
+      "type": "paragraph",
+      "text": "There is plenty of research using clickstream data to measure SRL in online courses. However, little research is dedicated to mapping SRL variables from LMS to actual SRL constructs in the literature. Thus, paper explores time management and effort regulation. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80a8-9afa-c2bcc63c2420",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+        },
+        "created_time": "2025-02-06T19:49:00.000Z",
+        "last_edited_time": "2025-02-06T20:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is plenty of research using clickstream data to measure SRL in online courses. However, little research is dedicated to mapping SRL variables from LMS to actual SRL constructs in the literature. Thus, paper explores ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is plenty of research using clickstream data to measure SRL in online courses. However, little research is dedicated to mapping SRL variables from LMS to actual SRL constructs in the literature. Thus, paper explores ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "time management",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "time management",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " and ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " and ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "effort regulation. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "effort regulation. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80f1-ace1-ca0eeaf784bf",
+      "type": "paragraph",
+      "text": "Results show that clickstream maps pretty well to the self-reported measures. Also, incorporating these in a predictive model improved the model’s ability to detect student performance over self-reports alone. \n",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80f1-ace1-ca0eeaf784bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+        },
+        "created_time": "2025-02-06T20:33:00.000Z",
+        "last_edited_time": "2026-03-13T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that clickstream maps pretty well to the self-reported measures. Also, incorporating these in a predictive model improved the model’s ability to detect student performance over self-reports alone. \n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that clickstream maps pretty well to the self-reported measures. Also, incorporating these in a predictive model improved the model’s ability to detect student performance over self-reports alone. \n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3224750c-f3ba-80ce-b324-cd2fdbfc3753",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3224750c-f3ba-80ce-b324-cd2fdbfc3753",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+        },
+        "created_time": "2026-03-13T17:27:00.000Z",
+        "last_edited_time": "2026-03-13T17:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3224750c-f3ba-807f-8f93-c9a2354f3b8f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3224750c-f3ba-807f-8f93-c9a2354f3b8f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+        },
+        "created_time": "2026-03-13T17:27:00.000Z",
+        "last_edited_time": "2026-03-13T17:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

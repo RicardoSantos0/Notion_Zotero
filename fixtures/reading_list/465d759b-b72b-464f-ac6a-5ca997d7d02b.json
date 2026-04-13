@@ -1,0 +1,666 @@
+{
+  "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b",
+  "title": "Student’s performance prediction based on an improved multi-view hypergraph neural network",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        },
+        {
+          "id": "d91f4da9-9b65-4b24-b7eb-a97144a8c69d",
+          "name": "Multi-view Hypergraph",
+          "color": "purple"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "15512aea-03be-4000-8c31-36b34c744207",
+          "name": "Behavioral Patterns",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance Prediction\" AND \"Multi-modal”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance Prediction\" AND \"Multi-modal”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Journal of Experimental & Theoretical Artificial Intelligence",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Journal of Experimental & Theoretical Artificial Intelligence",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-08-31T00:51:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lin & Guo",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lin & Guo",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Student’s performance prediction based on an improved multi-view hypergraph neural network",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Student’s performance prediction based on an improved multi-view hypergraph neural network",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "25f4750c-f3ba-8054-aee0-eaf23051e842",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Grade Point Average",
+          "Good (≥85), Average (≥75), Poor (<75)",
+          "3563 students from an University in Zhejiang ",
+          "Not Specified",
+          "Course Performance History, Once-Card Consumption, Library Usage, Cellphone Use Time, Vacation Information ",
+          "[Student Information, Breakfast Behavior, Lunch Behavior, Dinner Behavior, Shopping Behavior, Library Behavior, No-Cellphone Behavior, Vacation Behavior]",
+          "Every month (month 1 to 5)",
+          "Authors combine data from multiple sources to create a dataset. For each one of hte features, the authors extract multiple features: Frequency, Shannon entropy, Average Time, Standard Deviation, Mode, Min, Max, Q1, Q3, Median, Latest, Location, etc…\n\nAuthors select eatures using ANOVA and Pearson Correlation. Additionally, the class imbalance is addressed using oversampling: SMOTE, Borderline-SMOTE and class_weights.\n\nThe data is combined to create a multiview hypergraph meant to find similarities (differences) between learners - using an adjacency matirx.\n\n",
+          "SVM, kNN, Decision Tree, MLP, GCN, GTN, HGNN, IMHNN",
+          "10-Fold Cross-Validation",
+          "1 Month\n{Accuracy: 0.64 - IMHNN, Precision: 0.66 - IMHNN, Recall: 0.60 - IMHNN, F1-Score: 0.61 - IMHNN}\n\n2 Months\n{Accuracy: 0.72 - IMHNN, Precision: 0.75 - IMHNN, Recall: 0.73 - IMHNN, F1-Score: 0.74 - IMHNN}\n\n3 Months\n{Accuracy: 0.80- IMHNN, Precision: 0.83 - IMHNN, Recall: 0.85 - IMHNN, F1-Score: 0.85 - IMHNN}\n\n4 Months\n{Accuracy: 0.87 - IMHNN, Precision: 0.89 - IMHNN, Recall: 0.87 - IMHNN, F1-Score: 0.87 - IMHNN}\n\n5 Months\n{Accuracy: 0.91 - IMHNN, Precision: 0.93 - IMHNN, Recall: 0.93 - IMHNN, F1-Score: 0.93 - IMHNN}",
+          "Authors create a predictive model of GPA prediction that involves the creation of hypergraphs.\n\nAuthors collect data from the first 5 months and create multiple datasets for multiple moments of prediction. The model, which uses the hypergraph as input to a neural network outperforms all other baselines used on all datasets.\n\nThe authors perform an ablation study on the different elements of the network. Accuracy is higher (but not that much) in comparison with ResNet and Egat_Conv.",
+          "- No temporal representation\n\n- Does not account for important predictors related with learner characteristics.\n\n- Data used refers to a very specific context\n\n- Very specific to a university that has the means to extract (and use) a lot of sensitive information."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "310a352c-c648-489e-8d67-201d6b827bd7",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "310a352c-c648-489e-8d67-201d6b827bd7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2024-08-06T18:48:00.000Z",
+        "last_edited_time": "2024-08-06T18:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "03d13a9c-bd12-4dfe-ba51-049ec3d9645d",
+      "type": "paragraph",
+      "text": "Current models to predict academic performance focus on attributes of the students but not the relationships between the students themselves. Authors propose a multi-view Hypergraph neural network to address this issue:",
+      "raw": {
+        "object": "block",
+        "id": "03d13a9c-bd12-4dfe-ba51-049ec3d9645d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2024-08-06T18:49:00.000Z",
+        "last_edited_time": "2024-08-06T18:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Current models to predict academic performance focus on attributes of the students but not the relationships between the students themselves. Authors propose a multi-view Hypergraph neural network to address this issue:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Current models to predict academic performance focus on attributes of the students but not the relationships between the students themselves. Authors propose a multi-view Hypergraph neural network to address this issue:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7f7a6356-dc9e-4089-9653-1c89cc5acd76",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7f7a6356-dc9e-4089-9653-1c89cc5acd76",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2024-08-06T18:51:00.000Z",
+        "last_edited_time": "2024-08-06T18:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b8739668-b19d-4520-a441-9b7113290e9e",
+      "type": "paragraph",
+      "text": "Comparison of this model against other models ion the task of predicting student performance shows that the model outperforms baseline. ",
+      "raw": {
+        "object": "block",
+        "id": "b8739668-b19d-4520-a441-9b7113290e9e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2024-08-06T18:51:00.000Z",
+        "last_edited_time": "2025-08-30T17:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comparison of this model against other models ion the task of predicting student performance shows that the model outperforms baseline. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comparison of this model against other models ion the task of predicting student performance shows that the model outperforms baseline. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-80e7-ad3b-f7d7c5cd790c",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-80e7-ad3b-f7d7c5cd790c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2025-08-30T17:43:00.000Z",
+        "last_edited_time": "2025-08-30T17:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/eeeae403-bd1f-484a-b099-e8fb16d06448/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RDES6BSY%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153222Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIAxazTbz33Vl9EzyuRH3jXWR6tFg0kt41qCWVT6WqgjNAiEAoaNBZCkXZiY0uNMVoeho3IScdM2QGAvCdWkDqjiQZGoq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDAp%2Fi1a5YeBHPpfGbyrcA%2BpH1oFyDETKQvaq1XtwjH2JvOseneYJAeE1nv%2BEMvRS%2BbsE0k0AnsaOTjqttUnj9BcBRWae5tidpsj0CdJQ6nsceyXGcrbH3WsnQf94rIroj0OL7F3WTLrhrD5p%2BZhskuT1q9jMoCGjre8OCxteoMvXsjMo8QMZBqnZpaPfwSRCXebLa4AeX0NBmxOQ8yFawPElb5fJPaPJazIKbQhse0HPy%2Bi9MGOxV%2BpQxEEfBgdLzkSQl0QCI0bipKLWwam3mJb88il8HJip1YMPAph3ChYxWU1yrQ6WHtURMd4mRJyQo5eyCmcgPNgbshJiagBdt7TVcbC3jSlOm5NJj1B9%2F8c98N9Psdmjfgp2%2BDg8zjT8%2FCX%2Bc9b%2BcsE0CtiNY27HmbsrpaFzpByBwvV1I1Z1dxbC6oxKzmCMNfj%2BxlFTnli6paLqmB8VnLNctE81plGqbSCcYx9NPrWSai9NWRsEWb%2BsbGW26jP3dOCF%2BYhKSIJq0FlVzNzvGATmHPEP2JS3%2B%2F2uaNxzfDk%2BXoYV3OkvPeU0njm9fs8oqLfppHmRjOn7Y63rxGzBuRNqSqH02YQJQENvmZL4AeKKsulMFAwdppWZGvVdUjH9QfhvhPBcEBWDN00BG1vU77T%2Ff8xKMJby884GOqUB9AhqP4Y4Zw6JSvDboZHx%2FF43UEKd7GOqDWNbi9DUNqsILOtVPS2qsZdi6egPSLQral7HYjQ0iCxqP7q8TrGyH16zSyBBJJyo%2BBqxzYCkF6V5ITP5CEEtY3u%2BMs7LN%2BDjH1Ez8ZL7n26PtVdcF3ydSJqBO4HyWIyJVQ0g3KtmgQ6BtkxO%2FO1gUgxLyjamy5gGmAfG0xhoLJEPf8ELsfzP96nX5lLE&X-Amz-Signature=0e38c83568f82fd34afe7edc13d650067e324dbe8347440485cfadb00a713430&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:22.310Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-80ad-a8b1-eea2c0901eec",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-80ad-a8b1-eea2c0901eec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2025-08-30T17:35:00.000Z",
+        "last_edited_time": "2025-08-30T17:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-8054-aee0-eaf23051e842",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-8054-aee0-eaf23051e842",
+        "parent": {
+          "type": "page_id",
+          "page_id": "465d759b-b72b-464f-ac6a-5ca997d7d02b"
+        },
+        "created_time": "2025-08-30T17:35:00.000Z",
+        "last_edited_time": "2025-08-30T17:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

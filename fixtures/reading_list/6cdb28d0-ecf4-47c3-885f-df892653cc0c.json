@@ -1,0 +1,465 @@
+{
+  "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c",
+  "title": "Supporting College Choice Among International Students through Collaborative Filtering",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "06ded4c0-c592-4d03-9262-5d7500524df6",
+          "name": "Collaborative Filtering",
+          "color": "red"
+        },
+        {
+          "id": "1aee1fdf-e054-4a69-b773-02b8b7997ffa",
+          "name": "International Education",
+          "color": "blue"
+        },
+        {
+          "id": "5095fbeb-edf4-419c-847d-bbadd103ee85",
+          "name": "Undergraduate Education",
+          "color": "gray"
+        },
+        {
+          "id": "5c587cde-5116-4995-b90a-1079abf28fdc",
+          "name": "Structural Topic Modeling",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "XOA;",
+        "name": "K-12",
+        "color": "purple"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "International Journal of Artificial Intelligence in Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "International Journal of Artificial Intelligence in Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-11T13:21:00.000+00:00",
+        "end": "2025-03-11T13:27:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Tenison et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Tenison et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Supporting College Choice Among International Students through Collaborative Filtering",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Supporting College Choice Among International Students through Collaborative Filtering",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1b34750c-f3ba-8000-9a2d-eea0d35712f9",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-8000-9a2d-eea0d35712f9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c"
+        },
+        "created_time": "2025-03-11T13:24:00.000Z",
+        "last_edited_time": "2025-03-11T13:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b34750c-f3ba-80f0-9304-cf2fb869d444",
+      "type": "paragraph",
+      "text": "Authors propose a recommender system to facilitate college selection to international students. The RS uses Structural Topic Modelling to model the answers into latent variables that explain college preferences.",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-80f0-9304-cf2fb869d444",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c"
+        },
+        "created_time": "2025-03-11T13:24:00.000Z",
+        "last_edited_time": "2025-03-11T13:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose a recommender system to facilitate college selection to international students. The RS uses Structural Topic Modelling to model the answers into latent variables that explain college preferences.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose a recommender system to facilitate college selection to international students. The RS uses Structural Topic Modelling to model the answers into latent variables that explain college preferences.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b34750c-f3ba-804d-8101-f52804bd3d28",
+      "type": "paragraph",
+      "text": "The model uses TOEFL scores as inputs to recommend any additional college the learner may be interested into. Introducing the year in which the candidate took the TOEFL test brings marginal contributions to the recommender. ",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-804d-8101-f52804bd3d28",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c"
+        },
+        "created_time": "2025-03-11T13:25:00.000Z",
+        "last_edited_time": "2025-03-11T13:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The model uses TOEFL scores as inputs to recommend any additional college the learner may be interested into. Introducing the year in which the candidate took the TOEFL test brings marginal contributions to the recommender. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The model uses TOEFL scores as inputs to recommend any additional college the learner may be interested into. Introducing the year in which the candidate took the TOEFL test brings marginal contributions to the recommender. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

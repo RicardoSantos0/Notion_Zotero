@@ -1,0 +1,626 @@
+{
+  "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
+  "title": "Predicting Learning Outcomes with MOOC Clickstreams",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "fbc452f0-9b58-430a-9d00-2937b7789360",
+          "name": "Learning and Teaching",
+          "color": "yellow"
+        },
+        {
+          "id": "6b27426d-9ba0-436b-81f9-241cac222119",
+          "name": "MOOC",
+          "color": "pink"
+        },
+        {
+          "id": "f7caf38c-bb37-405b-8e91-01ee53c9bc7c",
+          "name": "Clickstream",
+          "color": "gray"
+        },
+        {
+          "id": "6c4386eb-643c-4af4-8220-a0d379dfe036",
+          "name": "Behavior Pattern",
+          "color": "red"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "ead3ae49-7cd6-404a-90bc-890e888cd528",
+          "name": "N-Gram",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Education Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Education Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-04-01T17:44:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting Learning Outcomes with MOOC Clickstreams",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting Learning Outcomes with MOOC Clickstreams",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3354750c-f3ba-8089-8260-c9ba4b8c2848",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "E-Learning",
+          "Course Completion",
+          "Certificate (1) vs No Certificate (0)",
+          "Main course: 590 students in semester 1, 346 in semester 2, 427 in semester 3",
+          "1 MOOC foundation course (6 weeks, 55 videos); additional validation on a second MOOC course (9 weeks, 95 videos)",
+          "LMS logs, SQL course data, course scores",
+          "[umber of course units entered, number of videos viewed, number of viewing sessions, 7 behavioral sequence types (Rewatch, Skipping, Fast Watching, Slow Watching, Clear Concept, Checkback Reference, Playrate Transition), number of available tests, number of answered tests, number of attempts, unit test score]",
+          "Weekly prediction during the course; authors also generated weekly tutoring lists for at-risk students",
+          "Raw OpenEdu logs were processed into video-event sequences. Twelve low-level click events were defined (e.g., play, pause, seek forward/backward, rate change, stop). N-gram analysis was performed on clickstream sequences and 4-grams were selected empirically. These sequences were then grouped into 7 higher-level behavioral actions using a “don’t care” matching scheme. The resulting course-unit features were merged with test performance data, yielding 85 features initially, from which 14 were selected for model building. Separate analyses were also conducted by video type: theoretical, experimental, and analytic.",
+          "kNN, SVM, MLP",
+          "Holdout Method",
+          "1st 2 course Offerings: \n{Accuracy: 0.9553 – MLP}\n\n3rd course Offering:\n{Accuracy: 0.9865 – MLP}\n\n2nd Course\n{Accuracy: 0.9432 – MLP}\n\n",
+          "The paper’s main contribution is transforming raw video clickstream into interpretable behavioral sequence features using 4-grams and grouping them into 7 cognitive participation behaviors. ANN performed best among the three methods. A further analysis showed that using only theoretical + experimental video data could yield prediction accuracy close to using all video types, which may help teachers evaluate which videos matter most. The system also produced weekly tutoring lists for students needing support.",
+          "Based on only one main MOOC course plus one additional course for generalization. Evaluation relies on holdout splits rather than cross-validation. The prediction framework combines clickstream with unit-test behavior, so the effect of clickstream alone is less isolated. Some methodological choices, such as selecting 4-grams and the behavior-grouping rules, are partly empirical and domain-specific.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "c706d1b2-7fb4-4333-8b77-016e7e8201bb",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "c706d1b2-7fb4-4333-8b77-016e7e8201bb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2024-07-31T20:20:00.000Z",
+        "last_edited_time": "2024-07-31T20:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cd4c0740-5d37-4a12-a38f-35678b901aec",
+      "type": "paragraph",
+      "text": "The work uses video clickstream records on a MOOC to identify 7 types of cognitive participation models. This feature extraction is followed by the creation of a predictive model that predicts student performance, with ANN taking the take as the one achieving the highest accuracy. ",
+      "raw": {
+        "object": "block",
+        "id": "cd4c0740-5d37-4a12-a38f-35678b901aec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2024-07-31T20:20:00.000Z",
+        "last_edited_time": "2024-07-31T20:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work uses video clickstream records on a MOOC to identify 7 types of cognitive participation models. This feature extraction is followed by the creation of a predictive model that predicts student performance, with ANN taking the take as the one achieving the highest accuracy. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work uses video clickstream records on a MOOC to identify 7 types of cognitive participation models. This feature extraction is followed by the creation of a predictive model that predicts student performance, with ANN taking the take as the one achieving the highest accuracy. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6f4c5911-d724-459d-bcfe-74e71ef2148c",
+      "type": "paragraph",
+      "text": "Authors follow-up by attempting to improve the original model by pre-classifying the different videos according to the content - theoretical, experimental and/or analytical. The creation of different models shows that by model performance is relatively unaffected if the models only consider theoretical and experimental videos. ",
+      "raw": {
+        "object": "block",
+        "id": "6f4c5911-d724-459d-bcfe-74e71ef2148c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2024-07-31T20:22:00.000Z",
+        "last_edited_time": "2024-07-31T20:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors follow-up by attempting to improve the original model by pre-classifying the different videos according to the content - theoretical, experimental and/or analytical. The creation of different models shows that by model performance is relatively unaffected if the models only consider theoretical and experimental videos. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors follow-up by attempting to improve the original model by pre-classifying the different videos according to the content - theoretical, experimental and/or analytical. The creation of different models shows that by model performance is relatively unaffected if the models only consider theoretical and experimental videos. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-805d-98a1-dc3aa7cc05c0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-805d-98a1-dc3aa7cc05c0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2026-04-01T16:38:00.000Z",
+        "last_edited_time": "2026-04-01T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8014-9db4-deefde361fb7",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8014-9db4-deefde361fb7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2026-04-01T16:38:00.000Z",
+        "last_edited_time": "2026-04-01T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8089-8260-c9ba4b8c2848",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8089-8260-c9ba4b8c2848",
+        "parent": {
+          "type": "page_id",
+          "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+        },
+        "created_time": "2026-04-01T16:38:00.000Z",
+        "last_edited_time": "2026-04-01T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

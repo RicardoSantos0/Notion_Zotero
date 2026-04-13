@@ -1,0 +1,678 @@
+{
+  "page_id": "27532153-b90e-490a-8131-f65b28b4e582",
+  "title": "Language Model Can Do Knowledge Tracing: Simple but Effective Method to Integrate Language Model and Knowledge Tracing Task",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance Prediction\" AND \"Multi-modal”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance Prediction\" AND \"Multi-modal”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "T`Bn",
+          "name": "ArXiv",
+          "color": "pink"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ArXiv",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ArXiv",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-08-30T18:02:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lee et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lee et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Language Model Can Do Knowledge Tracing: Simple but Effective Method to Integrate Language Model and Knowledge Tracing Task",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Language Model Can Do Knowledge Tracing: Simple but Effective Method to Integrate Language Model and Knowledge Tracing Task",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "25f4750c-f3ba-804e-b49f-c6d6f813afca",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "Probability of Answering the Next Question Correctly",
+          "Correct (1) v Incorrect (0)",
+          "1361 DBE-KT22 undergraduate learners, 18066 XES3G5M-T learners",
+          "1 Relational Databases course and a 3rd grade maths course ",
+          "Question Sequences, Knowledge Concepts, Question Text",
+          "[Knowledge Concepts, Questions, Responses]",
+          "Most KT models tend to ignore textual data, images and interactions. \n\nIn addition, these moels usually struggle with the cold-start problem. Finally, the authors claim that KT models struggle with interpretability.\n\n",
+          "The proposed model integrates a language model in the KT task - using the text of questions and answers.\n\n",
+          "The authors use a MLM (masked language model). This model takes as input the sequences of questions, answers and knowledge component text. These are encoded to create the LKT - the embeddings.\n\nThe embeddings are subsequently used as input to the prediction of probability of correctedness.",
+          "BERT, ALBERT, DistilBERT, RoBERTa, ELECTRA, ERNIE-2.0, DeBERTa-v3, DKT, DKVMN, SAKT, GKT, AKT ",
+          "5-Fold Cross-Validation",
+          "DBE-KT22\n{AUC: 0.7984 - AKT, Accuracy: 0.7983 - AKT}\n\nXES3G5M-T\n{AUC: 0.8513 - DeBERTa-v3 Accuracy: 0.8421 - DeBERTa-v3 }",
+          "Authors propose an LKT approach on 2 Datasets and show that, for one of them, their LKT approach (using a language model to include the text of the questions, answers and knowledge components.\n\nMoreover, when addressing the cold-start problem, the authors show that the model outperforms DKT on when the sequence is small.",
+          "- No Ablation Study of different components of the PLS\n\n- Small set of datasets tested\n\nDoes not include other forms of multimodal data (logs, images, etc…)"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "e370d4f9-df1e-4796-b271-6ae81df59e19",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "e370d4f9-df1e-4796-b271-6ae81df59e19",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2024-08-06T18:07:00.000Z",
+        "last_edited_time": "2024-08-06T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ac46aeab-e180-40ec-a96d-4b6a00f5342e",
+      "type": "paragraph",
+      "text": "Current KT approaches faulter in actually representing knowledge states, often due to a lack of ability to semantically interpret text and concepts. The authors use pre-trained Language Models to give a semantyc meaning to text, making this now possible to use in KT modelling. ",
+      "raw": {
+        "object": "block",
+        "id": "ac46aeab-e180-40ec-a96d-4b6a00f5342e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2024-08-06T18:07:00.000Z",
+        "last_edited_time": "2024-08-06T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Current KT approaches faulter in actually representing knowledge states, often due to a lack of ability to semantically interpret text and concepts. The authors use pre-trained Language Models to give a semantyc meaning to text, making this now possible to use in KT modelling. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Current KT approaches faulter in actually representing knowledge states, often due to a lack of ability to semantically interpret text and concepts. The authors use pre-trained Language Models to give a semantyc meaning to text, making this now possible to use in KT modelling. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4d453519-2783-40e2-b933-67d69bf753c7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "4d453519-2783-40e2-b933-67d69bf753c7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2024-08-06T18:10:00.000Z",
+        "last_edited_time": "2024-08-06T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5e1c8a32-8a62-41fb-bfa6-049993db0bc2",
+      "type": "paragraph",
+      "text": "The authors validate their hypothesis that integrating semantic meaning to knowledge tracing improves the current state of the art for these methods, as indicated by the fact that LKT outperforms other KT models on the benchmark datasets. Also, this semantic knowledge seems to be a viable solution to address the cold-start problem often found in KT tasks. Also, the model is argued to be more interpretable due to its use of rich text data. ",
+      "raw": {
+        "object": "block",
+        "id": "5e1c8a32-8a62-41fb-bfa6-049993db0bc2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2024-08-06T18:10:00.000Z",
+        "last_edited_time": "2024-08-06T18:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors validate their hypothesis that integrating semantic meaning to knowledge tracing improves the current state of the art for these methods, as indicated by the fact that LKT outperforms other KT models on the benchmark datasets. Also, this semantic knowledge seems to be a viable solution to address the cold-start problem often found in KT tasks. Also, the model is argued to be more interpretable due to its use of rich text data. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors validate their hypothesis that integrating semantic meaning to knowledge tracing improves the current state of the art for these methods, as indicated by the fact that LKT outperforms other KT models on the benchmark datasets. Also, this semantic knowledge seems to be a viable solution to address the cold-start problem often found in KT tasks. Also, the model is argued to be more interpretable due to its use of rich text data. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-80dc-9afb-d04167bce4d0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-80dc-9afb-d04167bce4d0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2025-08-30T15:16:00.000Z",
+        "last_edited_time": "2025-08-30T15:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-80d4-9089-f6fb6293596a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-80d4-9089-f6fb6293596a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2025-08-30T15:16:00.000Z",
+        "last_edited_time": "2025-08-30T15:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/bedb4468-7d99-451b-87b1-9d79953e834b/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TZCJW57O%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153219Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCICt%2FQXTLIfHKOvDoib5vXV%2BFsU%2FxnoZ%2B2w4JxCXLHjH4AiA5v7Xks2TjYIMCxgSQAp3fpG3ez%2BqSkK54DhC3VDx0yyr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMeI8H7iH9%2FyOxAV3QKtwDoA%2B3QYsICp84VZPWd6HRC71gbCLIcoI4pSgZ7yEbTzTokphICFDCrNjPDpDukBNi3kIoge3HUlDz%2FitX7PoIiduxZP6N8%2BjLKcG9gGS7FyenEE6cvFaZOYI9k6UOEYSzZeRUNJysZiwBBlXjqn1awEkBb%2Bt3740XgU6ZmnB5YTFIa1y2gUOTUf884VDM8bVhAQkZXrLNLUKAz%2BrvNN2rbGlvg9isVddhW1YrHYQHZJj2Oi0mZrFxuuDI1anf%2BESsYYU6Izh0fYh8W9RPB5yCe71n8jMati%2BVY16TKt%2FL%2FN6DlcmamK%2BP8SYD2jt%2FjboHWlDuL6BsbKipklhSDn3TTaQ1jkHGFaFpQP%2Fg3MZHPcdyp%2FWbKqZoBuS5qSMXML9oDdz6GRsqAlPtG45y0oJk%2FLBwS8%2FyyoEX%2BrnN%2Bwu6Dtb1DvVMy81OXSSuXIxfcb6pDcO83K3tn1LzozlslwvR8ZV8vOnxo%2B9hWUQOHZvL3fSkX2REDPzgYHwIBlDOWrqQWZvjz0hhkQRU49WXK5pt1CtxXdiRSkETXdzKXMXwOx%2FnNAV439P0kkF5uHQgGD%2BW%2FA%2BMgA6qwrcLxoBVkw4AwXpYNrmNCltk6Kew8x9oPjoszldNC24dgNCRv8Uw%2BfDzzgY6pgGXZsr3kiNrG8i6eAq1fkKDD7NaiCY6R0c9NTiy%2BEkQ338ssGWfP0i95VNU5onOMsz3NCW1HnWzJ4YZ1sP34D6tZjouzairvjs20%2BAKmmImypGyWbZV5G2hGkxUuSy%2Bru9dkMMzP7FUB3jp%2FxokmErr9XYI5MW8klu6VVKXCdmvLPh8Uw9eqgGACfRfuICDy3wpityBLvtVGhT87sdsjQE6fpl0tDJ1&X-Amz-Signature=574e38e6a8ef3af1b44acf4f84d0025e24804385407ea46c801827826c776c0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:19.578Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-8058-8b62-cfb7db53038c",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-8058-8b62-cfb7db53038c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2025-08-30T14:40:00.000Z",
+        "last_edited_time": "2025-08-30T14:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-804e-b49f-c6d6f813afca",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-804e-b49f-c6d6f813afca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "27532153-b90e-490a-8131-f65b28b4e582"
+        },
+        "created_time": "2025-08-30T14:40:00.000Z",
+        "last_edited_time": "2025-08-30T14:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

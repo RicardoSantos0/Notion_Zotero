@@ -1,0 +1,806 @@
+{
+  "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48",
+  "title": "Do Not Trust a Model Because It is Confident: Uncovering and Characterizing Unknown Unknowns to Student Success Predictors in Online-Based Learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "554533d4-e87e-4852-afc8-2dec2c53b543",
+          "name": "Trust",
+          "color": "blue"
+        },
+        {
+          "id": "45497416-2853-491f-9ce9-f16ce400ada4",
+          "name": "Fairness",
+          "color": "brown"
+        },
+        {
+          "id": "ffdb0979-fb0c-4a15-a06f-9ae81fee6d37",
+          "name": "Uncertainty",
+          "color": "brown"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "92aa60d3-8552-49d9-b5b4-a7269ad72a50",
+          "name": "Student Success",
+          "color": "red"
+        },
+        {
+          "id": "2f220679-7cfd-4af3-a5e1-9ac8f9ca2bf0",
+          "name": "Unknown Unknowns",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2026-02-10T21:21:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Galici et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Galici et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Do Not Trust a Model Because It is Confident: Uncovering and Characterizing Unknown Unknowns to Student Success Predictors in Online-Based Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Do Not Trust a Model Because It is Confident: Uncovering and Characterizing Unknown Unknowns to Student Success Predictors in Online-Based Learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3034750c-f3ba-8042-afc9-d1376105f55b",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Grade in Final Exam",
+          "Pass vs Fail",
+          "292 Algebra, 216 Functional Programming and 147 Parallelism and Concurrency Students",
+          "3 Courses of a Computer Science and Communication Systems BSc degree",
+          "LMS logs, Exam Grade",
+          "[22 Control Variables, 13 Effort variables, 7 Proactivity variables, 3 Regularity variables]",
+          "Every Week",
+          "Indicators were extracted per week. Normalization was then applied. \n\nNested CV was used and models are course-specific\n",
+          "Random Forest, BiLSTMs,",
+          "10-Fold Cross-Validation",
+          "{Balanced Accuracy: 0.60 - RF across the 3 courses}",
+          "Authors use a multi-tiered system to identify what information may be missing from student performance prediction models. \n\nEssentially, the prediction modules output a probability of passing or failing. These will sub-sequently be used as inputs for a clustering model to map differences in model perception vs reality (identify potential unknown unknowns.)",
+          "Course-Sepcifc Models. \n\nSmall number of algorithms tested."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "MOOC",
+          "Grade in Final Exam",
+          "Pass vs Fail",
+          " 15394 DSP,  2423 HWTS amnd 18702 GP students",
+          "3 MOOCs",
+          "LMS logs, Exam Grade, ",
+          "[22 Control Variables, 13 Effort variables, 7 Proactivity variables, 3 Regularity variables]",
+          "Every Week",
+          "Indicators were extracted per week. Normalization was then applied. \n\nNested CV was used and models are course-specific\n",
+          "Random Forest, BiLSTMs,",
+          "10-Fold Cross-Validation",
+          "{Balanced Accuracy: 0.95 - RF across the 3 courses}",
+          "Authors use a multi-tiered system to identify what information may be missing from student performance prediction models. \n\nEssentially, the prediction modules output a probability of passing or failing. These will sub-sequently be used as inputs for a clustering model to map differences in model perception vs reality (identify potential unknown unknowns.)\n\nPerformance on MOOCs is much better than performance of Flipped Classroom settings.",
+          "Course-Sepcifc Models. \n\nSmall number of algorithms tested."
+        ]
+      ],
+      "index": 6
+    },
+    {
+      "block_id": "3034750c-f3ba-802c-817d-d9d03f219430",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning and MOOC",
+          "292 Algebra, 216 Functional Programming and 147 Parallelism and Concurrency Students,  15394 DSP,  2423 HWTS amnd 18702 GP students",
+          "3 Flipped Classroom Courses and 3 ",
+          "Student Performance Model Predictions, LMS logs, Exam Grade ",
+          "None Specified",
+          "[45 Behavioral Features, Gender and Provenience]",
+          "Authors created a nomenclature for different types of students based on the difference between confidence in prediction and actual label: \n\nKnown knowns: Model is very confident and prediction matches label.\n\nKnown unknowns: Low condfidence prediction.\n\nUnknown Unknowns: High confidence prediction of incorrect label. \n\nBased on this observation, the authors create different prediction models and try to characterize the different groups.",
+          "BiLSTM, Random Forest",
+          "-",
+          "-",
+          "Flipped Classroom models have a higher percentage of Unknowns that MOOC models. With RF being better at identifying them.\n\nHowever, MMOOCs also exhibit the existence of Unknowns. \n\nWhen characterizing Unknowns Unknowns in a Flipped Classroom setting… the authors identify multiple variables associated with frequency and engagement as relevant for the prediction.",
+          "Scientific: \n\nData is partial in nature and does not capture all student behavior. So, having a model only assess performance based on accuracy may lead to misleading results.\n\nTechniological: \n\nNeed for better ways of identifying unknown unknowns since the current models struggle with them.\n\nSocial:\n\nNeed to introduce interpretability for trust in implementation. ",
+          "Authors create multiple classifiers for the types of mistakes of their models.\n",
+          "Course-Sepcifc Models. \n\nSmall number of algorithms tested.\n\nFlipped Classroom Lessons data not used."
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "76ae2dbb-90f1-4051-8218-4ae86e63ea37",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "76ae2dbb-90f1-4051-8218-4ae86e63ea37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2024-08-06T12:00:00.000Z",
+        "last_edited_time": "2024-08-06T12:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8a5c9685-2a3a-4565-9f2a-698121244fc4",
+      "type": "paragraph",
+      "text": "Insufficient representation is a common cause of weak spots in predictive models. The paper intends to provide explanatory potential for areas where a predictive model may fail - called unknown unknowns (situations where a model is very confident but gets the prediction wrong).",
+      "raw": {
+        "object": "block",
+        "id": "8a5c9685-2a3a-4565-9f2a-698121244fc4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2024-08-06T12:01:00.000Z",
+        "last_edited_time": "2024-08-06T12:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Insufficient representation is a common cause of weak spots in predictive models. The paper intends to provide explanatory potential for areas where a predictive model may fail - called unknown unknowns (situations where a model is very confident but gets the prediction wrong).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Insufficient representation is a common cause of weak spots in predictive models. The paper intends to provide explanatory potential for areas where a predictive model may fail - called unknown unknowns (situations where a model is very confident but gets the prediction wrong).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3bd03449-dcfc-46e3-a1c0-b6ec5de2f81b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3bd03449-dcfc-46e3-a1c0-b6ec5de2f81b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2024-08-06T12:03:00.000Z",
+        "last_edited_time": "2024-08-06T12:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "08b05a58-78f6-4529-9970-2dccff3cd473",
+      "type": "paragraph",
+      "text": "Thus, the paper starts with the introduction of a framework that intends to identify what are the unknown unknowns - reasons for why a student failed and that the model was blind to. The mdeol is verified using data from flipped and online courses. It also combines quantitative analysis with instructor interviews. ",
+      "raw": {
+        "object": "block",
+        "id": "08b05a58-78f6-4529-9970-2dccff3cd473",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2024-08-06T12:03:00.000Z",
+        "last_edited_time": "2026-02-10T20:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the paper starts with the introduction of a framework that intends to identify what are the unknown unknowns - reasons for why a student failed and that the model was blind to. The mdeol is verified using data from flipped and online courses. It also combines quantitative analysis with instructor interviews. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the paper starts with the introduction of a framework that intends to identify what are the unknown unknowns - reasons for why a student failed and that the model was blind to. The mdeol is verified using data from flipped and online courses. It also combines quantitative analysis with instructor interviews. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3034750c-f3ba-809b-8833-de2b217c0a52",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3034750c-f3ba-809b-8833-de2b217c0a52",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2026-02-10T20:09:00.000Z",
+        "last_edited_time": "2026-02-10T20:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3034750c-f3ba-80f5-8a76-d50b041d764d",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3034750c-f3ba-80f5-8a76-d50b041d764d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2026-02-10T16:15:00.000Z",
+        "last_edited_time": "2026-02-10T20:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3034750c-f3ba-8042-afc9-d1376105f55b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3034750c-f3ba-8042-afc9-d1376105f55b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2026-02-10T16:15:00.000Z",
+        "last_edited_time": "2026-02-10T20:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3034750c-f3ba-8022-b6f4-ca58b01d04c1",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3034750c-f3ba-8022-b6f4-ca58b01d04c1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2026-02-10T20:08:00.000Z",
+        "last_edited_time": "2026-02-10T20:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3034750c-f3ba-802c-817d-d9d03f219430",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3034750c-f3ba-802c-817d-d9d03f219430",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18473a97-c64c-40ee-9e2d-f28b7ec74c48"
+        },
+        "created_time": "2026-02-10T20:08:00.000Z",
+        "last_edited_time": "2026-02-10T20:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

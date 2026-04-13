@@ -1,0 +1,720 @@
+{
+  "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5",
+  "title": "Design and analysis of an efficient machine learning based hybrid recommendation system with enhanced density‑based spatial clustering for digital e‑learning applications",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "dd9f3b8d-8594-4477-89f4-c1cb823a2e30",
+          "name": "Anarchic Society Optimization",
+          "color": "pink"
+        },
+        {
+          "id": "0613c248-a036-4754-9495-f16628254133",
+          "name": "E-Learning",
+          "color": "green"
+        },
+        {
+          "id": "11684ca4-c905-45ad-a194-c1ceaac03162",
+          "name": "Hybrid Recommendations",
+          "color": "gray"
+        },
+        {
+          "id": "3a11d75a-21b5-4ec6-9744-24bdf2b91d60",
+          "name": "Support Vector Machines",
+          "color": "green"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Complex & Intelligent Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Complex & Intelligent Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-09T22:15:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Bhaskaran & Marappan",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Bhaskaran & Marappan",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Design and analysis of an efficient machine learning based hybrid recommendation system with enhanced density‑based spatial clustering for digital e‑learning applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Design and analysis of an efficient machine learning based hybrid recommendation system with enhanced density‑based spatial clustering for digital e‑learning applications",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-800c-bfe6-f531fb159055",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Hybrid",
+          "Suggest functional and motivational materials",
+          "OULAD (among other Datasets)",
+          "Not Applicable",
+          "LMS logs,\n",
+          "– MOSD: initialize non‑rated items to 0, denoise repeated trials– EC/DBSCAN: initial ε, minPts chosen randomly– MASO: tune ε & minPts via anarchic society optimization– EGSP: seed candidate sequences from denoised data\n– ETSVM: initial hyperplane via Lagrange multipliers",
+          "Requires retraining to obtain new recommendations per learner:\n\n1. MOSD cleans logs\n2. EC clusters users\n3. MASO tunes clustering\n4. EGSP mines seq. patterns\n5. ETSVM trains and predicts\n6. Trust‑weighted mean ranks items",
+          "Modified One Source Denoising is used: this is meant to eliminate “steps” that are in disagreement with the general behavior of the users →> remove the “noise”.\n\nDBSCAN is used to cluster users, which will later.\n\nEGSP stage‑wise candidate gen, pruning, hash‑tree search to be used for Support Vector Reggression\n\n",
+          "Top-N recommended items",
+          "MAE (5–19.2%)\nAccuracy (82–98%)\nRanking Score\nRecall\nPrecision\nQuery processing time (ms/sec)",
+          "Authors propose an improvement to an Hybrid DBSCAN into SVM recommender system via the addition of steps specifically meant to reduce noise.\n\n \n\nOutperforms CF, MDHS, UPOD, HR, TBHR, MCIF, SPFR, CIHR, DSHR on all major metrics across 16 datasets. OULAD is one of the used datasets.",
+          "– Expert‑set initial ratings (MOSD) may bias results\n– Offline static evaluation (no live deployment)\n– Many hyperparameters tuned on simulated logs\n– Assumes sufficient repeated trials per user\n– No user‑study or real‑time adaptation beyond batch runs"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b14750c-f3ba-800f-9e04-eda89cd50922",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b14750c-f3ba-800f-9e04-eda89cd50922",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-03-09T22:09:00.000Z",
+        "last_edited_time": "2025-03-09T22:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b14750c-f3ba-8016-87c8-e500616494bb",
+      "type": "paragraph",
+      "text": "E-learning has made it possible to democratize education across multiple learners with different knowledge, goals and abilities. However, adopting one-size fits all solutions to learners in this context is also challenging, which is an argument for Recommender Systems. The goal of the work is to propose a transductive support vector regression hybrid recommender system.",
+      "raw": {
+        "object": "block",
+        "id": "1b14750c-f3ba-8016-87c8-e500616494bb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-03-09T22:09:00.000Z",
+        "last_edited_time": "2025-03-09T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "E-learning has made it possible to democratize education across multiple learners with different knowledge, goals and abilities. However, adopting one-size fits all solutions to learners in this context is also challenging, which is an argument for Recommender Systems. The goal of the work is to propose a transductive support vector regression hybrid recommender system.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "E-learning has made it possible to democratize education across multiple learners with different knowledge, goals and abilities. However, adopting one-size fits all solutions to learners in this context is also challenging, which is an argument for Recommender Systems. The goal of the work is to propose a transductive support vector regression hybrid recommender system.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b14750c-f3ba-8031-abf9-dbec79a214e8",
+      "type": "paragraph",
+      "text": "The paper introduces a set of optimization techniques at multiple stages of the RS: one-source denoising, modified anarchy society optimization, sequential pattern strategy. All in all, the data leads habits and interest, later used to make recomnnedations to learners. Authors eprform extensive validation on public datasets (including OULAD). Overall, system achieves 82 to 98% accuracy and 5% to 19.2% MAE.",
+      "raw": {
+        "object": "block",
+        "id": "1b14750c-f3ba-8031-abf9-dbec79a214e8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-03-09T22:13:00.000Z",
+        "last_edited_time": "2025-03-09T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper introduces a set of optimization techniques at multiple stages of the RS: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper introduces a set of optimization techniques at multiple stages of the RS: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "one-source denoising",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "one-source denoising",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "modified anarchy society optimization, sequential pattern strategy. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "modified anarchy society optimization, sequential pattern strategy. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "All in all, the data leads habits and interest, later used to make recomnnedations to learners. Authors eprform extensive validation on public datasets (including OULAD). Overall, system achieves 82 to 98% accuracy and 5% to 19.2% MAE.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "All in all, the data leads habits and interest, later used to make recomnnedations to learners. Authors eprform extensive validation on public datasets (including OULAD). Overall, system achieves 82 to 98% accuracy and 5% to 19.2% MAE.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-8059-9891-f3cf52b67bde",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-8059-9891-f3cf52b67bde",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-07-28T00:29:00.000Z",
+        "last_edited_time": "2025-07-28T00:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-80ce-b7e8-fa3250987c89",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-80ce-b7e8-fa3250987c89",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-07-28T00:29:00.000Z",
+        "last_edited_time": "2025-07-28T00:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/4bd6b3d4-b36b-4825-ba53-11d4ee557717/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663WU3FZZO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153045Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCSjGnfyjW8w54wKfE4fHnLaRBm5vr3zzxXw%2BLqIEoMZgIhAOefelndYpqA1alIdUgGO03nx7vBj8lD9IbUFOiZ0OIxKv8DCHcQABoMNjM3NDIzMTgzODA1Igz0CZChwBSQmy383XEq3AP0d8aRDbpxE9UI8qSeK%2BlaCXZiZyUAndga8zDYEhPgzTBN1Jsu2XfERWnU2GFSQ1NtPrVPQSXC2V%2FH4EZ0necjqy8VYUORyWkaQfN0chdcvBrdKHOifpxMGdA90DZB9wwTTeSkPGx5hd1vqbYQ8fXYrhfoXwrwyO%2Bj8uPQVoUImCPAAZ%2BHHPekkrH3mVHDKz8lEUIEvkCLjdeawUAcPHFHD0ePNCjkTjb9JzwEBi0vwq2VguJaWRUQSZCEW6DYSd9VoIw4dL7uDQnCgF%2FU62Tn2464B1be1vFRHIQ6L35YOr9Py5R6z1MoZxyURr4t1Qav79Qzyz7jH5hnJka62e5mU%2FOlm528Lbru5ETdkbkjiT2O2eQjzvIgbpeslAwC63FYxsBLCl3BpNt13ih8FGd7tU6gepTUOOdq%2BE5%2BRhApyqarZWd%2FFyYhr1XT21lS6FrnCPtvj5Dn5DPLgwwQvtXlf8xh2azUdKXJjYNq7fGQzKBNl6sDdwGaknTH9sGQL25%2Fu%2BHrCgijEONim7RJBwA4%2F9M5ig6M3cFWKg221glPzMsqaU42rCwu9JpNUpWNo4i5Vs4sf%2BDMrviGKtxpLrANqzUX2sV3oy1wrNC9SkvSKMjr8X7p4lR4CWdvRzCJ8PPOBjqkARpdJKSPwMA3zygjCxqqgqb%2BufIqSA3Zh8vegvboRGfkVfzC6DWPfjiL6ZHiTYDZWtdo%2BDB5GUyAtqrtF17pamI9oOsOMzcbvaG7NLVv1pAu%2Fl6vo7dzsQAT%2FXNuvD8gLtkhJvOWFKJa7qg2SION%2FhYeD%2FHzJ8%2B5daBgb%2BvHd%2BQ1t6S2%2B9yDpR1D6uTZ29UOm1r9tJJ2KWvt8VkKKFyE2lJg9YdR&X-Amz-Signature=f22578bb8d82b6a18fcd09c9b780bc0100c139aae8818b5f8bd77810bf9499bf&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:30:45.969Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-806c-b5b0-e60fceba6b08",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-806c-b5b0-e60fceba6b08",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-26T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-800c-bfe6-f531fb159055",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-800c-bfe6-f531fb159055",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d4fc3dcb-cf31-4fbb-a7fa-2153edb543e5"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-28T00:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

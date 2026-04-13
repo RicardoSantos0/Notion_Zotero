@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "0fa04787-ce26-44e3-b823-fb9a424144f9",
+      "title": "Utilizing early engagement and machine learning to predict student outcomes",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0ebbe42e",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "At-risk of Failing in the Program",
+          "Target": "Pass, Fail, Conditional Fail, Repeat the Year, Repeat Semester",
+          "Students": "Train: 4970 undergraduate students\n\nTest: 4877",
+          "Courses": "Train: All Undergraduate Programs at Bangor University in 2016/2017\n\nTest: All Undergraduate Programs at Bangor University in 2015/2016",
+          "Data sources": "Attendance Records, Academic Records",
+          "Features": "[Engagement Ratio, Bangor Engagement Metric, Exam Attendance, 3 Biological Variables, Program Information]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "Authors define a metric for attendance called Engagement Ratio and a second called Bangor Engagement Metric which are collected every week - using the attendance data from each of the 12 weeks of the semester. Also, there are 6 Exam Attendance BEMs.\n\nFeature Selection is done using SFS with a 1-NN algorithm first, followed by a LOOCV usage of C4.5 to get a better feature set. \n\nExperiments are conducted fro every week but authors find that by the 3rd week of the Fall Semester there is enough predictive accuracy for the model.",
+          "Models": "Random Tree,\nRandom Forest, \nRotation Forest, MLP, SOM, Naive Bayes, Decision Table, C4.5",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.9733 - Random Forest - Pass vs Others Classes Setting}",
+          "Comments": "Well… Predictive modelling work that trains on a dataset from 2016/2017.\n\nMultiple combinations of preprocessings/algorithms are tested, but these involve different model assessment strategies (some use LOO, others use 10-Fold CV). \n\n",
+          "Limitations": "Test dataset is the year before.\n\nNo consistent model assessment strategy seems to have been used - authors mention LOO, 10-Fold CV and a completely separate test dataset.\n\nData from a single institution.\n\nPoor choice of metrics for reporting.\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_fd036c9e",
+      "reference_id": "0fa04787-ce26-44e3-b823-fb9a424144f9",
+      "text": "Most educators and managers often rely on domain knowledge and intuition to predict students at risk. The paper reviews current methods used in LA and concludse that few approaches actually delve into early prediction. Authors subsequently re-define student attendance AND create a model that, by Week 3 of the Fall Semester achieved an Accuracy of 97%. No specific additional details are provided in the current moment.",
+      "provenance": {
+        "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

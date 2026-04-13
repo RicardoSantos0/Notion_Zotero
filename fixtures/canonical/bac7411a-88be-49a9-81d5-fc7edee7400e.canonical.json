@@ -1,0 +1,76 @@
+{
+  "references": [
+    {
+      "id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
+      "title": "Enhanced personalized recommendation system for machine learning public datasets: generalized modeling, simulation, significant results and analysis",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Information Technology",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4825c717",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Learning Resources",
+          "Students": "32590 OULAD students",
+          "Courses": "All courses in OULAD",
+          "Data sources": "LMS Logs, Learner Questionnaires",
+          "Initialization Method": "Users are initialized via a questionnaire. The questionnaire returns the learner’s interests and capacity. \n\nThis amtrix is normalized using L1-loss.\n\n",
+          "Updates to Recommendations": "-",
+          "Preprocessing Details": "Users are initialized via a questionnaire to assess their interests.\n\nThe learners’ learning style is inferred using clustering and, subsequently, the recommendations are applied on top of the clustering results. \n\nCosine similarity is used to recommend items based on the ratings of other users. ",
+          "Recommendation types": "Best-Matching Item",
+          "Evaluation": "{MAE: 0.10, Accuracy: 0.84, Computational Time: 90 seconds, Ranking Score: 0.06, Recall: 0.55, Precision: 0.54}",
+          "Comments": "Authors create a recommender system that is meant to use tests to assess the users’ knowledge interests and knowledge and, from there, identify groups of similar students. \n\nStudents are clustered together to identify learning styles and cosine similarity is used to compute the ideal recommendation. \n\nAuthors test their results using multiple different datasets, among them OULAD. ",
+          "Limitations": "- Simulated Experiment\n\n- Attempt different clustering techniques\n\nHigh computational time\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_f51ebf4d",
+      "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
+      "text": "Elearning allows learners to access educational content whenever and wherever they desire. This new power also comes with the great responsability of enabling personalized learning, something that traditional Recommender systems often fail at due to making incorrect recommendations and, oftentimes, taking to long to properly reach the recommendation. ",
+      "provenance": {
+        "page_id": "bac7411a-88be-49a9-81d5-fc7edee7400e"
+      }
+    },
+    {
+      "id": "an_e39823e0",
+      "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
+      "text": "The authors look to address these issues by proposing and Enhanced vector recommender that automatically adjusts the learner’s interests, requirements and knowledge level. The improved preprocessing is subject to Content Based Filtering recommenders in order to deliver the actual recommendations. These recommendations are sub-sequently ranked using a collaborative filtering approach. ",
+      "provenance": {
+        "page_id": "bac7411a-88be-49a9-81d5-fc7edee7400e"
+      }
+    },
+    {
+      "id": "an_b3f02fef",
+      "reference_id": "bac7411a-88be-49a9-81d5-fc7edee7400e",
+      "text": "The method was tested on multiple datasets (including OULAD). The simulated outcomes outperform other existing strategies.",
+      "provenance": {
+        "page_id": "bac7411a-88be-49a9-81d5-fc7edee7400e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

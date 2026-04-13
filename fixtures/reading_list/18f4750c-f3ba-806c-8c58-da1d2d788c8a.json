@@ -1,0 +1,556 @@
+{
+  "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a",
+  "title": "Deep Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "NeurIPS",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "NeurIPS",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        },
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-03T21:55:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Piech et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Piech et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deep Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deep Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1b94750c-f3ba-8001-a5da-e08fdf1a3bcd",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "Correct Answer in Next Question",
+          "Correct (1) vs Incorrect (0)",
+          "4000 simulated\n47495 Khan Math\n15931 Assistments",
+          "Khan Academy Dataset\nAssistments",
+          "ITS answers",
+          "Sequence of Answers",
+          "BKT is based on Hiden Markov Models, where the observations are the answers to previous questions (correct or incorrect).  \n\nThis not only assumes that, once learned, a skill is not forgotten, but the binary representation is also flawed.\n\nMost exercises do not require knowledge of a single concept, something BKT assumes. ",
+          "RNNs use a continuous latent space, which (as in the case of LSTM) allows the proper modelling of longer sequences. \n\nDKT allows the modelling of relationships between exercises",
+          "Every pair of exercises is assigned an influence factor which shows the probability of getting exercise j correct if they alkso got exercise i as correct.\n\nIn small feature spaces, a learner is represented by the OHE sequence of Correct/incorrect answers.\n\nIn larger feature sets, the authors assign a random vector to each input tuple. This creates a lower dimensional projection that mantains the representation in a lower dimensionality space.",
+          "Marginal\nBKT\nOptimized BKT\nDeep Knowledge Tracing",
+          "5-Fold Cross-Validation",
+          "Simulated: {AUC: 0.75 - DKT}\n\nKhan: {AUC: 0.85 - DKT}\n\nAssitments: {AUC: 0.86 - DKT}",
+          "Authors attempt the deploymnt of DKT as Agnostic on knowledge components or “siloed” - sequences of answers on same topic.\n\nRNNs hav been shown to outperform other aprproaches in many application, so authors adapt LSTM to KT under the name BKT. \n\nTests on multiple Benchmark datasets show that DKT outperforms other popular KT models.",
+          "RNNs require a lot more data than an Hidden Markov Model (such as BKT). Thus DKT should be more suitable for online environments and not as much classroom environments.\n\n"
+        ]
+      ],
+      "index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18f4750c-f3ba-8036-8dd2-d9a889b40aaf",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-8036-8dd2-d9a889b40aaf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a"
+        },
+        "created_time": "2025-02-03T21:55:00.000Z",
+        "last_edited_time": "2025-02-03T21:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80ac-9ec0-dd7994be92ce",
+      "type": "paragraph",
+      "text": "KT is meant to model student knowledge as the student interacts with a computer environment. The paper uses RNN to perform the task, as they do not require so much feature extraction. Usage of these models greatly improved performance on multiple datasets.",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80ac-9ec0-dd7994be92ce",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a"
+        },
+        "created_time": "2025-02-03T21:55:00.000Z",
+        "last_edited_time": "2025-02-03T21:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT is meant to model student knowledge as the student interacts with a computer environment. The paper uses RNN to perform the task, as they do not require so much feature extraction. Usage of these models greatly improved performance on multiple datasets.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT is meant to model student knowledge as the student interacts with a computer environment. The paper uses RNN to perform the task, as they do not require so much feature extraction. Usage of these models greatly improved performance on multiple datasets.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-801c-8de0-d562625e86f7",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-801c-8de0-d562625e86f7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a"
+        },
+        "created_time": "2025-03-17T23:07:00.000Z",
+        "last_edited_time": "2026-04-07T12:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-8001-a5da-e08fdf1a3bcd",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-8001-a5da-e08fdf1a3bcd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a"
+        },
+        "created_time": "2025-03-17T23:07:00.000Z",
+        "last_edited_time": "2025-03-19T23:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-8011-9d15-eb7dba1a3326",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-8011-9d15-eb7dba1a3326",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18f4750c-f3ba-806c-8c58-da1d2d788c8a"
+        },
+        "created_time": "2025-03-17T23:07:00.000Z",
+        "last_edited_time": "2025-03-17T23:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

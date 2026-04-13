@@ -1,0 +1,631 @@
+{
+  "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0",
+  "title": "PERKC: Personalized kNN With CPT for Course Recommendations in Higher Education",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "0613c248-a036-4754-9495-f16628254133",
+          "name": "E-Learning",
+          "color": "green"
+        },
+        {
+          "id": "34ce0550-39d5-464b-a38a-b0567fa413fb",
+          "name": "Personalization",
+          "color": "default"
+        },
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "adc31c7c-2cbd-434c-b60c-584cdb07acae",
+          "name": "Sequence Prediction",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T21:30:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "George & Lal",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "George & Lal",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PERKC: Personalized kNN With CPT for Course Recommendations in Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "PERKC: Personalized kNN With CPT for Course Recommendations in Higher Education",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-80cc-8ce4-d945d0eebdce",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Hybrid ",
+          "Next Course to Take",
+          "40 undergraduate students",
+          "Computer Science Program",
+          "Questionnaire,\nEnrollment History\n",
+          "Learners are represented by the Quuestionnaire and Academic History.",
+          "Requires retraining to change results.  ",
+          "Learners are represented as personality (from questionnaire) and profile (from the remaning data). Both attributes are normalized and fed into a kNN algorithm (after normalization). Distance uses Hamming (sequences) and Cosine similarity (personality).",
+          "Top-N Courses",
+          "{Accuracy: 0.91 - PERKC}",
+          "Authors look to do some form of Collaborative Filtering to compute similarity between users (without the need for rating). \n\nThe goal is to perform sequence prediction rather than perform Sequential Pattern Mining.",
+          "- Small set of students in test\n\n- Only Accuracy is used to evaluate the results.\n\n- Learners are required to answer the questionnaire to be initialized.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8039-a029-c0cd82f9a766",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8039-a029-c0cd82f9a766",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-03-12T21:31:00.000Z",
+        "last_edited_time": "2025-03-12T21:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80d4-bef8-caf415f44cf8",
+      "type": "paragraph",
+      "text": "Students often select e-learning options to gain extra credits and and enhance their skills. The authors propose a personalizer recommender system that use Compact Prediction Tree to recommend courses for students to take. Algorithm is tested against other baseline approaches and is shown to outperform the alternatives. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80d4-bef8-caf415f44cf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-03-12T21:31:00.000Z",
+        "last_edited_time": "2025-03-12T21:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students often select e-learning options to gain extra credits and and enhance their skills. The authors propose a personalizer recommender system that use ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students often select e-learning options to gain extra credits and and enhance their skills. The authors propose a personalizer recommender system that use ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Compact Prediction Tree",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Compact Prediction Tree",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " to recommend courses for students to take. Algorithm is tested against other baseline approaches and is shown to outperform the alternatives. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " to recommend courses for students to take. Algorithm is tested against other baseline approaches and is shown to outperform the alternatives. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-805f-9b3b-fc20ee823015",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-805f-9b3b-fc20ee823015",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-07-28T19:40:00.000Z",
+        "last_edited_time": "2025-07-28T19:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-8036-80b2-f99a72c5ba36",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-8036-80b2-f99a72c5ba36",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-07-28T19:40:00.000Z",
+        "last_edited_time": "2025-07-28T19:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/103e8bac-1406-428f-8b4c-c7dbbd523329/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666X3JDW7R%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153309Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDOUZJsjqfD3%2B7OSvWGYmObF7OuwdJoW2bK4HHzpl%2BFJgIgZyd%2Bk97gibszs8cP9F%2BJE3Gn6nwlZXtAiB57p4Po5Ekq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDP3uPqwq%2BuRYly7e5ircAwm3L5W5EKJizu4qyKag05ZB3Gr3iSoEgPpFs6vrr8%2Fo%2BG5TUOlfQWqG7Iyj7Xt8qflGk3j1nOgMteVyqRPaP0VFt8yM5UThmQEhRi2IctXrfbz0uEr3EqAz6R90p5guKEksT3RrfAwe5%2FeTlqTg%2FdGqv0oKn3Oee9R2Ng%2FCvphgFEHYgMrZYyauFHbPi%2BrBPtAFO47bVkMw7fty%2BnWv%2BfcLDv6ETqT3kW6UvsicpYq0buOget5nwTq9Bux8uEA5JE45t5DOy%2FVrtGvnKudQ7XP%2Ft6xpyhiWgJ0ZtTLCoPcm14JPwwy%2Bh0ZlHDuBIqWOtqdN79Ymm9z%2BbpKgXW3YW71b2etRIlbhHK2VQQmB6goOiZStIF3tNeqDv0d2BK%2B%2F48oN39BqkE4gqvaaXh3R71VdnrR7M1fbqw0eWwOBDCVjK6f3Dy1I2hxCg%2BzNkF%2FUtWwQ%2B7N6xfwRSnjgrfFbAMYEAUHK6uXhm0ziR8EFLx21OoqqnPmPwPumIcaL2xa8EvSzqgya7f00Q%2Bdx3C%2Fv8T%2FtOE%2FVCdsnAkiHtMPGqmX8dr9pYMpM1kqTrzuodziOr9qjANvfB4JTQ8wu74d2f%2F8R8SuD8XtHB7TJhX9z8l3eX%2BPXZCbgtwZKIV7SMOPv884GOqUBcRNLXu6PZJulZ6Fb3YAqvdINvEaAObCbnbi1dOxCYlD1z16e0hpWuUWvFbHB1k0U%2Fnr%2B7kWraCgKWhPzLOGCQXq%2Bp93n1Bz%2BLCrOg5ks6zY2B41Uqbrk5VizBoapuIglmmHsBgSWbPEnhWouqKQCh9z%2BjKX1d4pSh7fK2KeHuwr0%2FVsle%2BZFbCzQDIT5QtCg4%2Bq0XDuGMsAduBiwiHIa%2FCxY3yp%2F&X-Amz-Signature=517e953dff51eb17fe7919209ed9813929175bcdb3b8ca65924b4df0de8d16e4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:33:09.184Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-809c-8020-d0c48016b646",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-809c-8020-d0c48016b646",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-26T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-80cc-8ce4-d945d0eebdce",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-80cc-8ce4-d945d0eebdce",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-26T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

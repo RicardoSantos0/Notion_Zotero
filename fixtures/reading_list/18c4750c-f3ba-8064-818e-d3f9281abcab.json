@@ -1,0 +1,674 @@
+{
+  "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+  "title": "Deep Knowledge Tracing with Convolutions",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "430b8f07-1410-478d-9821-b3e3ed05ad5c",
+          "name": "Deep Knowledge Tracing",
+          "color": "default"
+        },
+        {
+          "id": "461cb3cf-ff65-47cf-9886-7c0b2ff0a5ae",
+          "name": "Convolutional Neural Network",
+          "color": "pink"
+        },
+        {
+          "id": "f4b51758-4919-422b-93bf-eee377fa52fc",
+          "name": "Sequence Modelling",
+          "color": "purple"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing” AND “Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing” AND “Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Conference",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Conference",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T22:05:00.000+00:00",
+        "end": "2025-04-07T16:14:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deep Knowledge Tracing with Convolutions",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deep Knowledge Tracing with Convolutions",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-8022-92ff-ec9b0fda3e54",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Inteligent Tutoring System",
+          "Answering next question correctly",
+          "Correct (1) vs Incorrect (0)",
+          "4151 learners in ASSISTments2009, 19840 learners in ASSISTments2015, 333 learners in Statics2011 and 4000 synthetic learners",
+          "Each dataset refers to its own context",
+          "Questions, \nLMS logs",
+          "[Sequences of Answers]",
+          "Current KT models consider the whole sequence of answers and not specifically the most recent answers. \n\nAll methods used the embedding of answers directly into the model.",
+          "Authors introduce convolution to identify local interactions and patterns in the sequence of answers:\n\nThe vector is converted into a matrix.\n\nCNNs are used to reduce dimensionality and locally encode potential patterns.",
+          "Sequence vectors are reshaped into a Matrix, which is given as argument to a Convolutional Layer, followed by an average pooling layer.\n\nThese are then given as iput to a LSTM.\n\n",
+          "DKT, DKVMN, SKVMN, SAKT, CKT",
+          "Holdout Method",
+          "ASSISTments2009: {AUC: 0.8254 - CKT (k=4, b=80)}\n\nASSISTments2015: {AUC: 0.7291 - CKT (k=4, b=80)}\n\nStatics2011: {AUC: 0.8279 - DKT}\n\nSynthetic-5: {AUC: 0.8253 - MKVMN}",
+          "Authors develop a new apporach at knowledge tracing. Models are followed by a set of optimization attempts. \n\nAuthors argue that this KT approach can help professors and learners track the learning progress of learners and check exercise realtionships.",
+          "Model evaluation should use ranking instead of only showing performance results.\n\nMore metrics of evaluation should be considered. "
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-8082-a44b-eec8ea94525c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8082-a44b-eec8ea94525c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-02-05T22:06:00.000Z",
+        "last_edited_time": "2025-02-05T22:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80b9-a106-cbf069fa0053",
+      "type": "paragraph",
+      "text": "KT looks at past responses from students and uses them to create a model of the students’ knowledge. This model can later be used to predict the probability of getting a new question right. Good KT models can help students identify where a student is lacking in terms of knowledge, which can also be used by professors to better prepare new materials. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80b9-a106-cbf069fa0053",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-02-05T22:06:00.000Z",
+        "last_edited_time": "2025-02-05T22:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT looks at past responses from students and uses them to create a model of the students’ knowledge. This model can later be used to predict the probability of getting a new question right. Good KT models can help students identify where a student is lacking in terms of knowledge, which can also be used by professors to better prepare new materials. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT looks at past responses from students and uses them to create a model of the students’ knowledge. This model can later be used to predict the probability of getting a new question right. Good KT models can help students identify where a student is lacking in terms of knowledge, which can also be used by professors to better prepare new materials. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8049-bf63-f6039329d314",
+      "type": "paragraph",
+      "text": "Deep learning models in KT seem to be the state-of-the-art but seem to underestimate the contribution of the most recent answers for the current knowledge state, which is counterintuitive. To address this, the authors propose a Convolutional KT model, that uses 3D convolutions. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8049-bf63-f6039329d314",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-02-05T22:09:00.000Z",
+        "last_edited_time": "2025-02-05T22:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Deep learning models in KT seem to be the state-of-the-art but seem to underestimate the contribution of the most recent answers for the current knowledge state, which is counterintuitive. To address this, the authors propose a Convolutional KT model, that uses 3D convolutions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Deep learning models in KT seem to be the state-of-the-art but seem to underestimate the contribution of the most recent answers for the current knowledge state, which is counterintuitive. To address this, the authors propose a Convolutional KT model, that uses 3D convolutions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80fb-8fcd-dec46483470c",
+      "type": "paragraph",
+      "text": "CKT is argued to achieve the new State-of-te-art performance in predicting performance on ASSISTments2009 and ASSISTments 2015 datasets.\n",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80fb-8fcd-dec46483470c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-02-05T22:11:00.000Z",
+        "last_edited_time": "2025-04-07T14:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "CKT is argued to achieve the new State-of-te-art performance in predicting performance on ASSISTments2009 and ASSISTments 2015 datasets.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "CKT is argued to achieve the new State-of-te-art performance in predicting performance on ASSISTments2009 and ASSISTments 2015 datasets.\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-808f-81d4-d47a9d8be49b",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-808f-81d4-d47a9d8be49b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-04-07T14:47:00.000Z",
+        "last_edited_time": "2025-04-07T14:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/cd92063c-6e6f-42e2-99c9-d4c86b7aed92/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RGEH4FAF%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152408Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDCAKOeGbDFYuCYG9ON9ojcqRDXPzPz%2Bh0W2CTBhdBlXgIgT%2FRKeP0dWrrfzzLQMmh2w2QKluB0yLIejY33fpX5Ay8q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDBCKiwekhGJZqR%2F%2FKSrcA8INhcrq4OZPW146%2BCfgxo%2BCWDv4L7%2BWtVhlZnVPugeU439e%2F9Qnkqg%2F9uQ1dNpTbn8qSELao8FtDjPJTB%2FOAkBDcOpZhN9qImB%2BY4A8qo6HP%2FQrxYQa58XfEyaU2uWl5g8yCxhp3B6ttFYkMiSA2cSHqfYZEFL1qnV%2B8geJtv6o%2BPkTIgKGeq2a978HvOvcZLnwcbz5Btg5tG5mnUPcMoUHKbED79r7AwZTaF%2FuDp6bEGakmt9g%2FQGVTgVOkVHixtKRutl%2B%2Fk6%2BktMXMCyp%2FBOr7C%2Fcf5E4XRJEFhWgWe0gjr3Vsb5zsPKcQoyqpKXIGiWWBVxE1Nf5ASr6%2BKxW%2B8zDSROlhxakNM8DhG7m4xDjbiX1EMJFAfMZk2oY%2FIIXOs1i58wstcS2hMD5audiovQwN78yQr9Fld%2Fjc8om23WUxHYnsTDMT1katDHpmGuxj4sfauSEdTLX7EWJBCAy2Rk7RwZhJ%2FB5yDz6lme6IY7ehkHvEDrqJxpuUAUltTzjL9F6NfN9VagAdkwBSp2MuKH5%2BTb4myiBsG1cfkbd8kFDyZQmQafv1FByj5ZsI3UwcNTjutq9LW4d5WYbdgGhAIpHs0SLCr9iVgWxVjGY7dZfPSNUio2IbCcJxR9YMNfv884GOqUBcHwQmLDlljxdf1rqubJKxHthNCeAgxJLbzkxTgncnzgMYkhXzTCakDgQ1VNq%2FkWCtCdR62IQWG3BLP8HD0Oma8iDe3sgyFR3%2B%2FwoSFHyqp97DeDxiCKpLkDyjVDH5U1r%2BlBOLiULWMN6%2FshwBIzQmy5fZNiXYcFKplgzWUAm%2FKFAv9NVIjohgiPEwXebb4K6LM0Oo%2FO56ZIBIuJwof8KFjyFMenj&X-Amz-Signature=a648e054336a770c183154825c9a5af7d29b2b4f49ea12980c3dc6977c43200f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:24:08.291Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-801f-93f8-c1ddd77cacd8",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-801f-93f8-c1ddd77cacd8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-04-07T14:08:00.000Z",
+        "last_edited_time": "2025-04-07T14:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8022-92ff-ec9b0fda3e54",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8022-92ff-ec9b0fda3e54",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+        },
+        "created_time": "2025-04-07T14:08:00.000Z",
+        "last_edited_time": "2025-04-07T14:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

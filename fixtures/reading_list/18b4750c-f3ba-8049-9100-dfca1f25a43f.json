@@ -1,0 +1,651 @@
+{
+  "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
+  "title": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "63e1eb83-a5c7-4a66-913b-25b495f9447a",
+          "name": "Intelligent Education",
+          "color": "default"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "b9657f2c-4553-4c73-85fb-9643edbb52c8",
+          "name": "Correctness Prediction",
+          "color": "purple"
+        },
+        {
+          "id": "183df43f-a2b4-42b0-a8a0-6836a048bed4",
+          "name": "Hypergraph Neural Networks",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\n”Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\n”Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01T00:00:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80f1-a275-c775c0ce76d6",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring Systems",
+          "Probability of answering next exercise correctly.",
+          "Correct (1) vs Incorrect (0)",
+          "4217 ASSISTments2009 learners, 1709 ASSISTments 2017 learners, 5000 EdNet learners, 118971 Eedi learners ",
+          "ASSISTments, Santa, Eedi",
+          "Sequences of Answers, Question Sentences, LMS logs",
+          "[Interaction Sequences, Question Sentences, Answers]",
+          "KT approaches often consider different knowledge concepts as independent from one another, which is unrealistic. \n\nGraph-based KT methods have started to introduce relationships between concepts to update learner knowledge.\n\nHowever, the way the graph is built does not really consider changes in knowledge state for either dynamic or static perspectives.\n\nMoreover, learning encompasses different temporal resolutions, something that current models do not seem to completely grasp",
+          "Model uses a Transformer Knowledge State encoder to represent learning at different temporal resolutions - days, weeks, months, semesters.\n\nMoreover, the authors introduce an Interaction Graph Dependency Module which that builds 2 knowledge graphs and uses them to build a more stable mapping of correlations between concepts.\n\n",
+          "Model starts with the construction of 3 embeddings - Questions, Knowledge Concepts, and Answers\n\nThe transformer for Knowledge States does a separate normalization of rows and columns to expedite training time.\n\nGraph modules are built by measuring dissimarity between nodes of the graphs. A connection is etablished if similarity is above a specified threshold. One of the graphs is passed through a low-pass (smoothes the edges) filter while the other is passed by a high-pass filter (sharpens the edges). \n\nThe results are concated.\n\n",
+          "DKT, DKVMN, SAKT, MRTKT, DTransformer, GKT, DGEKT, MGIGKT",
+          "Holdout Method",
+          "AST09\n{Accuracy: 0.834 - MGIGKT, AUC: 0.798 - MGIGKT}\n\nAST17\n{Accuracy: 0.828- MGIGKT, AUC: 0.797 - MGIGKT}\n\nEdNet\n{Accuracy: 0.805 - MGIGKT, AUC: 0.769 - MGIGKT}\n\nEedi\n{Accuracy: 0.843 - MGIGKT, AUC: 0.801 - MGIGKT}\n",
+          "Authors introduce a new model meant solve 2 problems:\n\n1 - Consider different temporal resolutions of the learning process\n\n2 - Encode relationships between different knowledge concepts to provide a better estimate of learners.\n\nSome of the preprocessing decisions are made in order to reduce the training time of the model.\n\nIn addition, authors perform an ablation study and notice to check the impact of presence/absence of each of the proposed modules proposed.",
+          "No cross-Valdiation.\n\n"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18d4750c-f3ba-80ef-bb45-cd7f433ec13e",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-80ef-bb45-cd7f433ec13e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-02-01T19:39:00.000Z",
+        "last_edited_time": "2025-02-01T19:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-808f-9421-dcc833616c8e",
+      "type": "paragraph",
+      "text": "KT analyzes historical records to infer students’ knowledge states, and deep learning methods are the current state-of-the-art. However, the current techniques tend to treat records as a single time-series AND they don’t account for possible correlations. ",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-808f-9421-dcc833616c8e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-02-01T19:39:00.000Z",
+        "last_edited_time": "2025-02-01T19:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT analyzes historical records to infer students’ knowledge states, and deep learning methods are the current state-of-the-art. However, the current techniques tend to treat records as a single time-series AND they don’t account for possible correlations. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT analyzes historical records to infer students’ knowledge states, and deep learning methods are the current state-of-the-art. However, the current techniques tend to treat records as a single time-series AND they don’t account for possible correlations. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-80fb-93bf-f23edab9e140",
+      "type": "paragraph",
+      "text": "Authors propose Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing which is meant to address the two constraints. Analysis on four datasets show that the model outperforms other approaches.",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-80fb-93bf-f23edab9e140",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-02-01T19:42:00.000Z",
+        "last_edited_time": "2025-02-01T19:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing which is meant to address the two constraints. Analysis on four datasets show that the model outperforms other approaches.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing which is meant to address the two constraints. Analysis on four datasets show that the model outperforms other approaches.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1de4750c-f3ba-807d-baf2-c7d0e050df3a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1de4750c-f3ba-807d-baf2-c7d0e050df3a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-04-23T11:37:00.000Z",
+        "last_edited_time": "2025-04-23T11:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1de4750c-f3ba-803f-9222-fd6b5c987fb6",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1de4750c-f3ba-803f-9222-fd6b5c987fb6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-04-23T11:37:00.000Z",
+        "last_edited_time": "2025-04-23T11:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/ec7ff6be-b140-4630-afd4-81c020b2ac3a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TPE3QN42%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153338Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG1KXRsyVtvSac63EHLrtL6bNDgsTfU%2BXRGVPNdSbnGaAiEA6tB5d1k98vz5rl66P92UjDAaYyps5CSvqOOBzWCX22wq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDJjHHTAIFxMvGRrYPCrcA5ZwbqFWQ7zTA3pkjNHwRGryTDp7kvn%2FDcTkakZ%2FJCzuu8vrWuv4xlDVibJ7PmUHWyzVHgDhLxvO1FePl7tD678lzJXOVhM3F9ALn%2F9pf62WPikP4zRLPCnPdNRKrITFYZJpeMNz3od7wqG%2BArpXXpDfROrbbK0S3w5mX1ZHNjL4astqCeXLbG2PRIGjsapVMh5SqgL%2BUetQtNoYz1f%2FdpAL0FBchpYY5PaEbGc%2BxDx1ViYTOk4LeAOrlsu2vJTndan165VfbDKfjbaVlBg2Ca8bHRbhzsapHN07WdPH8SH6kmR3n8HKQc7eBOfreGEo%2FcJf%2F9IgLM4c3LTNAX6xzAqe%2FwXflh%2BFe9p81O7Ghn%2F4paejNHXMgY1cEHsgsP2RAfwoJGdA7devwT5gAken15ecJbuSwMk2rbQ4APXc1th%2BY8NYJoBQ7aoPZn2ghvuYpLcM3IV45lUzl8karbfGBC9b%2F9%2F0rIrkOuFNQCs17RWZHts6l4o41DJFstCAyrjdT90lBXndz0CxfmrZ5n%2B5gld8iGpyALeWSIWNm3zPtxtUOxal%2BZji2jgPagme2bPxGWunr45Sgy6o6w46tZa5xd%2F4oLuZ%2FUKfCRrSxKbATHivFI2RcmAnLFXnF0ivMNnv884GOqUBnnburE1ALEbrWWPP3Ie9%2FjamufgXCHE%2FlN3rkCuPdrZfufu7fjlDZVOsb9MhrwAy5pN2D9ZuxczOMTbu5KgHBVuWnUSLremW5RZFop27rKGQGw3w97gb7wv2rePbmBJEIcoRbp2XJIXehKaJ18%2Bjc%2BoRwf68xr2%2FmifCYXhhkbUkshRTb8W1%2Fy8TJwfgqooCGDqTH1UCnIayHcHmddijMdR%2FZXOZ&X-Amz-Signature=b5c3bcf57473661b93ab67eb3088d78f3c90313d94c11aef6d977d507180da16&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:33:38.311Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8029-a469-fade8adad12a",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8029-a469-fade8adad12a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80f1-a275-c775c0ce76d6",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80f1-a275-c775c0ce76d6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-23T14:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f",
+      "title": "GritNet: Student performance prediction with deep learning",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4545795c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Graduating the MOOC Degree",
+          "Target": "Graduate vs Dropout",
+          "Students": "1853 students in ND-A and 8301 ND-B students",
+          "Courses": "ND-A and ND-B from Udacity",
+          "Data sources": "LMS logs",
+          "Features": "Weekly Event embeddings",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "As a Deep Learning Model that uses a Bidirectional LSTM.\n\nTuning was done via GridSearch.",
+          "Models": "GritNet, Logistic Regression",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "ND-A\n{AUC: 0.82 - GritNet Week-4}\n\nND-B\n{AUC: 0.94 - GritNet Week-3}",
+          "Comments": "Authors present their architecture called GritNet.\n\nThis embedding was compared against Logistic regressions.",
+          "Limitations": "Only compares GritNet againt baseline."
+        }
+      ],
+      "provenance": {
+        "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_878387e8",
+      "reference_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f",
+      "text": "The authors start from the perspective that there are very few attempts at using Deep Learning to address the student performance prediction problem. The authors, thus, propose a Bi-Directional LSTM based model that treats the problem of student performance prediction as a sequential event prediction problem.",
+      "provenance": {
+        "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+      }
+    },
+    {
+      "id": "an_d5e4f218",
+      "reference_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f",
+      "text": "While working with real Udacity data, authors show that GritNet outperforms Logistic Regression in the overall task of predicting student success. Moreover, the differences are more pronounced in the first few weeks of the course.",
+      "provenance": {
+        "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

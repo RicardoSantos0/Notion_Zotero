@@ -1,0 +1,688 @@
+{
+  "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
+  "title": "Dynamic Cognitive Diagnosis: An Educational  Priors-Enhanced Deep Knowledge  Tracing Perspective",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "bfc4aaf6-c0cb-495c-8fa9-585cc8824b89",
+          "name": "Cognitive Diagnosis",
+          "color": "red"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "5c672682-65e2-4e6b-b73e-312e6d8e8d46",
+          "name": "Intelligent Tutoring Systems",
+          "color": "brown"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "dfc0402a-69e0-446e-8a49-d5cd097dccc3",
+          "name": "Personalized E-Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-05T18:05:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dynamic Cognitive Diagnosis: An Educational  Priors-Enhanced Deep Knowledge  Tracing Perspective",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dynamic Cognitive Diagnosis: An Educational  Priors-Enhanced Deep Knowledge  Tracing Perspective",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80e2-87ab-e09a5bab4b11",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Correctectly answering the input question",
+          "Correct (1) vs Incorrect (0)",
+          "3079 ASSISTments2009 learners, 24768 ASSISTments 2012 learners, 9471 KDDCup learners",
+          "ASSISTments",
+          "Question Attribtutes, Sequence of Answers",
+          "[Question ID, Question/KC Difficulty, KC, Question Discrimination, Input Question Attributes]",
+          "Cognitive diagnosis is a form of student modelling in a static setting (i.e. a student’s knowledge state does not change, or is not meant to, during a test).\n\nTest theory methods are interpretable and often evaluate 2 perspectives: ability level or cognition level. \n\nThese features can be valuable additions to DKT model in order to increase its interpretability.\n\n",
+          "DCDKT looks to include the cognitive level features into a DKT model.\n\nThis is done in order to incorporate items such as: Difficulty and/or discrimination.",
+          "Questions without a Knowledge Component were not considered. Similarly, learners with fewer than 15 answers were disregarded.\n\nStudents wth more than 200 answers were divided into multiple dummy students.\n\n\n\n\n\n",
+          "BKT, DKT_Q, DKT_KC, DKT_MLP, DKVMN, DIRT_1, DIRT_2, DIRT_3, DIRT_4, DNeuralCDM_1, DNeuralCDM_2, DNeuralCDM_3, DNeural_CDM_4",
+          "Holdout Method",
+          "ASSIST09\n{Accuracy: 0.7838 - DNeuralCDM_4, AUC: 0.7471 - DNeuralCDM_4}\n\nASSIST12\n{Accuracy:  0.7780 - DNeuralCDM_3, AUC: 0.7597 - DNeuralCDM_4}\n\nKDDCup\n{Accuracy: 0.8114 - DNeuralCDM_4, AUC: 0.8525 - DNeuralCDM_4}",
+          "Predictions were attempted using different possible models: \n\nDKT_Q → only using question features.\n\nDKT_KC: Each question is represented by the KC ID\n\nDKT_MLP: Same input as DKT_KC, but output was produced by 2 feed-forward layers.\n\nThe congnitive diagnosis section is presented using DIRT or DNeuralCDM.\n\nNumber at the end of DIRT or DNeuralCDM represents the type of features being considered for each.\n\n\n1: Question ID, \n2:QID and KC ID, \n3: QID, KC ID, Difficulty, \n4: QID, KC ID, Difficulty, Discrimination ",
+          "No cross-validation.\n\nAdd additional educational priors. \n\nModels considered only use GRU.\n\n"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ad4750c-f3ba-80f9-b974-fcade73c573e",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80f9-b974-fcade73c573e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-03-05T18:00:00.000Z",
+        "last_edited_time": "2025-03-05T18:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-800a-b8b1-e63b5ed1e3b5",
+      "type": "paragraph",
+      "text": "Deep Knowledge Tracing has been able to achieve state-of-the-art performances in the representation of students’ knowledge states. One disadvantage of this technique is the lack of interpretability of the model (especially when compared against BKT). ",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-800a-b8b1-e63b5ed1e3b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-03-05T18:00:00.000Z",
+        "last_edited_time": "2025-03-05T18:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Deep Knowledge Tracing has been able to achieve state-of-the-art performances in the representation of students’ knowledge states. One disadvantage of this technique is the lack of interpretability of the model (especially when compared against BKT). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Deep Knowledge Tracing has been able to achieve state-of-the-art performances in the representation of students’ knowledge states. One disadvantage of this technique is the lack of interpretability of the model (especially when compared against BKT). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-803a-ae5a-ce0c32afe918",
+      "type": "paragraph",
+      "text": "To address this, the authors propose dynamic cognitive diagnosis, a model that is somewhat inspired by psychometrics and combines educational priors with DKT. The authors show that their model is not only more interpretable but proper selection of biases also boosts the performance of DKT models. ",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-803a-ae5a-ce0c32afe918",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-03-05T18:05:00.000Z",
+        "last_edited_time": "2025-03-05T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To address this, the authors propose dynamic cognitive diagnosis, a model that is somewhat inspired by psychometrics and combines educational priors with DKT. The authors show that their model is not only more interpretable but proper selection of biases also boosts the performance of DKT models. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To address this, the authors propose dynamic cognitive diagnosis, a model that is somewhat inspired by psychometrics and combines educational priors with DKT. The authors show that their model is not only more interpretable but proper selection of biases also boosts the performance of DKT models. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-8001-b78d-e073e6678297",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-8001-b78d-e073e6678297",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-04-18T19:09:00.000Z",
+        "last_edited_time": "2025-04-18T19:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-80c6-bcc1-e680d4ac6891",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-80c6-bcc1-e680d4ac6891",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-04-18T19:09:00.000Z",
+        "last_edited_time": "2025-04-18T19:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/cdef4b7e-7a3c-4cd4-9383-597b33011d64/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SIVZR5DN%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152901Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCLMD0ZfpowAuGRYFIq%2BldEz6DP6wgq1Ado%2BY643yel9QIhANW1SrF5l0LZOxBl8s4wfub40OOanQpUex0GoY3btSrIKv8DCHcQABoMNjM3NDIzMTgzODA1IgxN2lqZNWkbZgZf4wAq3ANounj1rm9xPvivL6%2BC12VJNINB0imyRMl4RZuCGs8Jxx2XNKyAm7IfC2mKZGq%2F4UYsJpnsTusxcAvndvDXaDqXBE3N%2By2u3SDw6jzLaw77I2bJGNuGnRHIxO8dvdOEGh2uC5HAcK9226izRucpDASdOtQENT5%2FCvMWrA9fcVVLhAfVa0VlymX4xmA6Ihmhz9ixFEbCQ3teGM37rlsge4W1pBsNFtBIsFGYmfYPvstb%2BnFQMx0SMlVzSwBzJlC82etB%2BwHgvZfnWkxmvZgK43ASUFHQ5kWWt3rZqnlqahaiuHkFa2SSjwsHWd8skBx24b7W19tscPo3vpsk2RZeeJco%2FB9Bm9%2FTaR%2FJ4laR%2FK6sECCBsjXGU%2FtATaQHaceziTUPtDltQkLzrK377DXRUxj6xs2o2A5PjVijWX8DR8ngasuJW4cUATT1mw28S1AvUXRYSthHnonWOxkNeC8paEL56G%2BANQiK2mLlc1kh1hLlGDFni6iMMLWgeMswxsudv%2B%2BNB1b49u5RAdFh60y%2FoFDT1aMg%2BKGi4Im1b8WWGN%2B7%2Bt5ANb9ptZsxZ86v%2BgDSd2Qbq9NHncuGsLTBPSbDQITz708EjlXRwKLg2P%2Bo%2FsM5zpkrWKRSqDN9X6hSXDCJ8PPOBjqkAVQqYfr6k86XXPW8whLCVPUFDzGxluf3Twvok4AYaldq3neRlJxIHwypfJU6fAPNNebwp4G2DoB4Cy%2FtWhKiLik%2FGG3r2E8tFbNrQoD3nhiXFB9d75b0dPg1g2j0a3lTgyijfWeuroky4mkz1MAfR7QgGl6DaqXjU8Wt1%2BCLNF8iwg1Sz%2FJUvDnhcW3lte3J2ecYQXmDQk5saUTJVczgHv4JdllS&X-Amz-Signature=88969340a4da77a7135f5f3b5923e596bfba368f3d0fcb385a6391237010775a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:01.702Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8024-bd39-e2caa4768655",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8024-bd39-e2caa4768655",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80e2-87ab-e09a5bab4b11",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80e2-87ab-e09a5bab4b11",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-8041-be99-f36f7631c930",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-8041-be99-f36f7631c930",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+        },
+        "created_time": "2025-04-18T18:43:00.000Z",
+        "last_edited_time": "2025-04-18T18:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,653 @@
+{
+  "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491",
+  "title": "Heterogenous Network Analytics of Small Group Teamwork: Using Multimodal Data to Uncover Individual Behavioral Engagement Strategies",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "b557fc1c-f89d-494d-af3a-3e2fc5a376c2",
+          "name": "Individual Engagement",
+          "color": "pink"
+        },
+        {
+          "id": "db6ffb8c-a949-4bf2-bf1e-bb93482ff098",
+          "name": "Heterogenous Networks",
+          "color": "brown"
+        },
+        {
+          "id": "25636e43-d868-4dfe-bf16-996e74267a57",
+          "name": "Multi-Modal Learning Analytics",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T21:15:00.000+00:00",
+        "end": "2026-02-19T17:51:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Feng et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Feng et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Heterogenous Network Analytics of Small Group Teamwork: Using Multimodal Data to Uncover Individual Behavioral Engagement Strategies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Heterogenous Network Analytics of Small Group Teamwork: Using Multimodal Data to Uncover Individual Behavioral Engagement Strategies",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "30c4750c-f3ba-80a4-9f0a-c7f44077a683",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Collaborative Learning",
+          "60 nursing students",
+          "BSc Program in Nursing",
+          "Headset, Positioning Sensor, Video, Evaluation of Team Performance, Post-Activity Survey",
+          "None Specified",
+          "[Frequency of interaction with environment, Frequency of Communication, Number of times student in a specific communication type]",
+          "The problem is framed as tripartite network that for each student and each area of the learning environment characterizes the student relative to the different features. \n\nDifference between groups is assessed using the Mann-Whittney U test ",
+          "Stochastic Blockmodel",
+          "-",
+          "2",
+          "Cluster 1 (n=31): Students who exhibited higher satisfaction with the learning activity - as well as containing the largest proportion of high performing students.  \n\nThere 6 patterns that were considered above random - focus on the primary working area and communication focused on exchanging information.\n\nCluster 2 (n=27): Transitioned between more working areas - primary and secondary.\n\n\n",
+          "Less movement and more stable patterns of communication behavior contribute to more satisfaction of nursing students.\n\nPotential of multimodal experiments to provide insights on more complex learning tasks.\n\n",
+          "Work proposes a tropartite network model to uncover realtionships in collaborative learning. \n\nThe serusts are subsequently clustered and authors find 2 clusters of behavior with distinctions in terms of satisfaction and performance.",
+          "Limited context (Healthcare)\n\nSmall sample size."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-806c-8927-e97833f0dc04",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-806c-8927-e97833f0dc04",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2025-03-12T21:42:00.000Z",
+        "last_edited_time": "2025-03-12T21:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8039-85ad-f78b450161f3",
+      "type": "paragraph",
+      "text": "Engagement is an important measure to track in collaborative learning, but little research is dedicated towards exploring multi-modal sources of data to understand behavior in face-to-face settings. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8039-85ad-f78b450161f3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2025-03-12T21:42:00.000Z",
+        "last_edited_time": "2025-03-12T21:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Engagement is an important measure to track in collaborative learning, but little research is dedicated towards exploring multi-modal sources of data to understand behavior in face-to-face settings. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Engagement is an important measure to track in collaborative learning, but little research is dedicated towards exploring multi-modal sources of data to understand behavior in face-to-face settings. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80da-8331-d923acb20ed2",
+      "type": "paragraph",
+      "text": "The authors explore this issue by forming 15 teams of 4 students and analyze their spacial and vocal engagements to find 2 distinct clusters who exhibited significant differences relative to a multinomial null model. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80da-8331-d923acb20ed2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2025-03-12T21:43:00.000Z",
+        "last_edited_time": "2025-03-12T21:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors explore this issue by forming 15 teams of 4 students and analyze their spacial and vocal engagements to find 2 distinct clusters who exhibited significant differences relative to a multinomial null model. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors explore this issue by forming 15 teams of 4 students and analyze their spacial and vocal engagements to find 2 distinct clusters who exhibited significant differences relative to a multinomial null model. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30c4750c-f3ba-80ee-9708-c0f882a5a063",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "30c4750c-f3ba-80ee-9708-c0f882a5a063",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2026-02-19T16:10:00.000Z",
+        "last_edited_time": "2026-02-19T16:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30c4750c-f3ba-8069-aa41-dc2cbfb36894",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "30c4750c-f3ba-8069-aa41-dc2cbfb36894",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2026-02-19T16:10:00.000Z",
+        "last_edited_time": "2026-02-19T16:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30c4750c-f3ba-80a4-9f0a-c7f44077a683",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "30c4750c-f3ba-80a4-9f0a-c7f44077a683",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2026-02-19T16:10:00.000Z",
+        "last_edited_time": "2026-02-19T16:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30c4750c-f3ba-80fe-8a7f-c8380d065ab5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "30c4750c-f3ba-80fe-8a7f-c8380d065ab5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57933ebe-dffa-4bdd-bd00-54a7a8bbe491"
+        },
+        "created_time": "2026-02-19T16:57:00.000Z",
+        "last_edited_time": "2026-02-19T16:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,645 @@
+{
+  "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74",
+  "title": "Students matter the most in learning analytics: The effects of internal and instructional conditions in predicting academic success",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "55602dbf-3edf-453f-a776-78f4bc794f6b",
+          "name": "Data Science Applications in Education",
+          "color": "pink"
+        },
+        {
+          "id": "012dd8f3-cfaa-4606-9241-8bf73ef98392",
+          "name": "Distance Education and Online Learning",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T13:05:00.000+00:00",
+        "end": "2025-03-22T17:38:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Jovanovic et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jovanovic et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Students matter the most in learning analytics: The effects of internal and instructional conditions in predicting academic success",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Students matter the most in learning analytics: The effects of internal and instructional conditions in predicting academic success",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1be4750c-f3ba-8055-8bfb-f53eea08c1be",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Problem-Based Learning",
+          "344 students\n2472 enrollments",
+          "Multiple courses in a Medical School (2014/2015 to 2017/2018)",
+          "LMS logs\nCourse Grades",
+          "Winne’s SRL Model",
+          "[OLA_1, OLA_2, OLA_3, OLA_4, OLA_5, OLA_6, OLA_7, OLA_8, LALA_1, LALA_2, LALA_3, LALA_4, ORS_1, ORS_2, ORS_3, ORS_3, ORS_4, LARS_1, LARS_2, LARS_3, LARS_4, LARS_5, LARS_6, LARS_7, LARS_8]",
+          "Each activity on Moodle was mapped into a learning-related activity:\n\nOLA: Overall LEvel of Activity, \n\nLALA: Learning action Specific Level of Activity\n\nORS: Overall Regularity of Study\n\nLARS: Learning Action Specific Regularity of Study.\n\nEach row refers to an enrollment",
+          "Mixed Effect Linear Model (USing OLA),\nMLALA, MORS, MLARS, MFinal",
+          "{Conditional RSquared: 0.726 - MLALA}",
+          "NA",
+          "NA",
+          "Model results showcase that using Logs does not fully capture all learning activities, as learning activity and regularity explain very little differences in final grade. \n\nSame pedagogical model (PBL in this case) may not be portable across different couses. \n\nLearner characteristics (Internal conditions) explain most of the variance in performance rather the external conditions being considered (couyrse random effect and logs). ",
+          "A lot of the curriculum relies on Problem-Based Learning Approaches.\n\nThere is a conscious effort to only include rpedictors obtainable from the LMS.\n\nAuthors create multiple mixed effect linear models on differente feature sets to select the most important predictors for a final model. User and Course were random effect.\n\nLALA features marginally get better results on Considtional RSquared but, overall, the feature sets seem relatively equivalent as performance does not vary significantly.\n\n\nOnly a very small portion of the variance (3% to 5%) in the final grade could be explained by the model.\n\n\n",
+          "Homogenous set of courses (PBL).\n\nWould benefit from additional data sources than just LMS alone.\n\nData only captures a portion of the PBL learning process.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-8087-a512-cb40c2fd34bf",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8087-a512-cb40c2fd34bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-02-06T11:44:00.000Z",
+        "last_edited_time": "2025-02-06T11:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-809f-b014-f40a07743b0b",
+      "type": "paragraph",
+      "text": "Early work on early warning systems focused on course-agnostic and portable models. However, with time, the flaws in this approach have surfaced more and more. This work attempts to do early prediction on a subset of similar courses while simultaneously considering differences between the courses considered. This iis done using mixed effect linear regression models.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-809f-b014-f40a07743b0b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-02-06T11:44:00.000Z",
+        "last_edited_time": "2025-02-06T13:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Early work on early warning systems focused on course-agnostic and portable models. However, with time, the flaws in this approach have surfaced more and more. This work attempts to do early prediction on a subset of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Early work on early warning systems focused on course-agnostic and portable models. However, with time, the flaws in this approach have surfaced more and more. This work attempts to do early prediction on a subset of ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "similar courses",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "similar courses",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " while simultaneously considering differences between the courses considered. This iis done using mixed effect linear regression models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " while simultaneously considering differences between the courses considered. This iis done using mixed effect linear regression models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8074-a3a1-f1e6f115d945",
+      "type": "paragraph",
+      "text": "Authors look to explore how different predictors explain differences in final grades and, more specifically, what is the role of the courses internal and external conditions. Results show that behaviour on the LMS explains a small portion of of variance and learner’s internal conditions account for the most part.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8074-a3a1-f1e6f115d945",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-02-06T13:09:00.000Z",
+        "last_edited_time": "2025-02-06T13:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors look to explore how different predictors explain differences in final grades and, more specifically, what is the role of the courses internal and external conditions. Results show that behaviour on the LMS explains a small portion of of variance and learner’s internal conditions account for the most part.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors look to explore how different predictors explain differences in final grades and, more specifically, what is the role of the courses internal and external conditions. Results show that behaviour on the LMS explains a small portion of of variance and learner’s internal conditions account for the most part.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-8049-b26e-f014558a699e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-8049-b26e-f014558a699e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-03-22T15:44:00.000Z",
+        "last_edited_time": "2026-03-16T11:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-80db-9564-e11e17f6c5f7",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-80db-9564-e11e17f6c5f7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-03-22T15:44:00.000Z",
+        "last_edited_time": "2026-03-16T11:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-8055-8bfb-f53eea08c1be",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-8055-8bfb-f53eea08c1be",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80cd-8afb-c1b0ad7e9a74"
+        },
+        "created_time": "2025-03-22T15:44:00.000Z",
+        "last_edited_time": "2025-03-22T17:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

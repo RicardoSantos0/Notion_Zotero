@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
+      "title": "Enabling real-time adaptivity in MOOCs with a personalized next-step recommendation framework",
+      "authors": [],
+      "year": null,
+      "journal": "ACM Conference on Learning @ Scale",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4e989238",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Next Page/ Learning Resource",
+          "Students": "27,024 edX learners ",
+          "Courses": "DelftX “Intro to Aeronautical Engineering” (2015–2016)",
+          "Data sources": "LMS logs, Page Visit Duration",
+          "Initialization Method": "The model is trained on navigational logs from a previous course offering. URLs are tokenized as indices combining chapter, section, and vertical hashes to represent each learning page. Learners’ paths are modeled as sequences of visited URLs and associated dwell times.",
+          "Updates to Recommendations": "Real-time adaptation per learner session. Recommendations are updated dynamically via client-side logging and immediate model queries after each navigational event.",
+          "Preprocessing Details": "Logs filtered to navigation events only (excluding video pauses, quizzes, etc.). Duplicated contiguous page visits removed; dwell times bucketed (0–10s, 11–60s, 61–1799s, ≥1800s). Data split into 70/30 train–test; early stopping applied on validation loss.",
+          "Recommendation types": "Next Most Likely Page",
+          "Evaluation": "{Accuracy: 0.64 - Bucket/Non-Concat.}",
+          "Comments": "Framework integrates real-time JavaScript logging + Node/Flask servers for low-latency recommendations.\n\nUses an LSTM behavioral model predicting next likely page and expected dwell time, enabling “forward-stepping” recommendations to skip trivial resources.\n\nFirst proof-of-concept of real-time adaptive navigation in MOOCs without changing the platform codebase.",
+          "Limitations": "- Model assumes stable course structure; reordering of lessons reduces accuracy. \n- No pedagogical optimization (focuses on behavioral efficiency, not learning gain). \n- Cold-start issue for new course versions. \n- Evaluation based on prediction accuracy, not direct learning outcomes. \n- Requires heavy preprocessing and server–client integration setup."
+        }
+      ],
+      "provenance": {
+        "page_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_cbd7ad83",
+      "reference_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
+      "text": "Authors present a new model of student behavior and an adaptive Recommender System that uses clickstream data. Their pilot intervention on edX provided adaptive learning pathways shown as a navigational suggestion. The model predicts next page where they would be likely to spend more time - based on behavior (without any ontology or assumptions). ",
+      "provenance": {
+        "page_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc"
+      }
+    },
+    {
+      "id": "an_5207ddc1",
+      "reference_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc",
+      "text": "The prediction of time is done via different Recurrent Neural Network approaches. The paper also discusses multiple implications for real-time deployment.  ",
+      "provenance": {
+        "page_id": "f08eb43b-6e11-4a3f-bb4b-314873b8a9cc"
+      }
+    }
+  ],
+  "workflow_states": []
+}

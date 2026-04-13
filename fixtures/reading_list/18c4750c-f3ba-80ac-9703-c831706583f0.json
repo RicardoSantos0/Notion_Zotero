@@ -1,0 +1,631 @@
+{
+  "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0",
+  "title": "Clickstream Knowledge Tracing: Modeling How Students Answer Interactive Online Questions",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "4ff5e03e-5fc7-4302-b7e1-ec0cc32b5e92",
+          "name": "Clickstream Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "d5135a02-5d42-488e-80bb-1d59affc52b0",
+          "name": "Interactive Questions",
+          "color": "blue"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "e70d12e5-71ad-45b3-beea-67d6467970c8",
+          "name": "Student Behavior Clustering",
+          "color": "purple"
+        },
+        {
+          "id": "f8ea22b1-0410-4bb2-b637-19c881d8880f",
+          "name": "Learner Modeling",
+          "color": "default"
+        },
+        {
+          "id": "80f8ec63-ec53-447b-82f8-36b98bc97960",
+          "name": "Knowledge Modeling",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "XOA;",
+        "name": "K-12",
+        "color": "purple"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T15:35:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Chan & Yeung",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Chan & Yeung",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Clickstream Knowledge Tracing: Modeling How Students Answer Interactive Online Questions",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Clickstream Knowledge Tracing: Modeling How Students Answer Interactive Online Questions",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ca4750c-f3ba-8080-b6d3-d0ac5497dffc",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "K-12",
+          "Performance on Next Question",
+          "Correct (1) vs Incorrect ( 0)",
+          "3275 students",
+          "Mathematics-related topics in an ITS",
+          "In-Question activities, \nQuestion scores",
+          "[In-Question Activities]",
+          "Most KT approaches only consider answers to model learner knowledge without considering how they got to the answer, which provides a naive and incomplete picture of a learner’s knowledge.  ",
+          "Model proposed is an expansion of DKT that considers the clickstream of the in-question activities as an integral part of the knowledge model. ",
+          "Answer states are stored in JSON.\n\nAll data is normalized and, if necessary, One-Hot Encoded. \n\nTimestamps are converted to time intervals (in logathmic form) and each partial score is considered as categorical. \n\nData is used tp build an embedding representation using an Autoencoder.",
+          "Clickstream Knowledge Tracing-PT, CKT-FT, CKT-E2E, DKT",
+          "3 Repeated-Holdout Method",
+          "Math Unit:\n\n{AUC: 0.8313 - CKT-FT, }\n\nQuestion ID:\n\nMath Dimension:",
+          "CKT is presented under 3 paradigms:\n\nFrozen Pre-trained weights - CKT-PT\n\nFine-tuned rpe-trained weights - CKT-FT\n\nTrained from Scratch - CKT-E2E\n\nAuthors experiment their results based on 3 forms of indexing for knowledge components:\n\n1. At the Question ID level, \n\n2. At the Math Unit, \n\n3. At the Math Dimension\n\nAuthors also identify what is the minimum number of questions a learner needs to answer to address the cold-start problem and find that CKT-PT reequires between 5-8% less questions than DKT.",
+          "Comparison to DKT only, discarding other potential approaches."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-80d5-942a-e5214e95c134",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80d5-942a-e5214e95c134",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-02-06T15:34:00.000Z",
+        "last_edited_time": "2025-02-06T15:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8010-b5a5-f80283b0cccc",
+      "type": "paragraph",
+      "text": "KT often revolves around using previous questions to predict whether the next question will be correctly answered. One of the main drawbacks of the traditional KT approaches is that it only considers correctedness of previous questions, but not the rationale that led to a specific answer. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8010-b5a5-f80283b0cccc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-02-06T15:34:00.000Z",
+        "last_edited_time": "2025-02-06T15:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT often revolves around using previous questions to predict whether the next question will be correctly answered. One of the main drawbacks of the traditional KT approaches is that it only considers correctedness of previous questions, but not the rationale that led to a specific answer. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT often revolves around using previous questions to predict whether the next question will be correctly answered. One of the main drawbacks of the traditional KT approaches is that it only considers correctedness of previous questions, but not the rationale that led to a specific answer. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8078-b8d0-cf5c15f813b8",
+      "type": "paragraph",
+      "text": "Authors use unsupervised learning on clickstream data to identify different patterns of question-answering behavior. This is followed by Clickstream KT, a model that is standard KT that also considers clickstream data within its parameters. Results show that inserting clickstream leads to better performance of the KT models.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8078-b8d0-cf5c15f813b8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-02-06T15:36:00.000Z",
+        "last_edited_time": "2025-02-06T15:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use unsupervised learning on clickstream data to identify different patterns of question-answering behavior. This is followed by Clickstream KT, a model that is standard KT that also considers clickstream data within its parameters. Results show that inserting clickstream leads to better performance of the KT models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use unsupervised learning on clickstream data to identify different patterns of question-answering behavior. This is followed by Clickstream KT, a model that is standard KT that also considers clickstream data within its parameters. Results show that inserting clickstream leads to better performance of the KT models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ca4750c-f3ba-8033-b9b9-dbbe5a9fc947",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ca4750c-f3ba-8033-b9b9-dbbe5a9fc947",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-04-03T20:49:00.000Z",
+        "last_edited_time": "2025-04-03T20:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ca4750c-f3ba-8028-89b7-ffc3471a281e",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ca4750c-f3ba-8028-89b7-ffc3471a281e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-04-03T20:49:00.000Z",
+        "last_edited_time": "2025-04-03T20:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ca4750c-f3ba-8080-b6d3-d0ac5497dffc",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ca4750c-f3ba-8080-b6d3-d0ac5497dffc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80ac-9703-c831706583f0"
+        },
+        "created_time": "2025-04-03T20:49:00.000Z",
+        "last_edited_time": "2025-04-03T20:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

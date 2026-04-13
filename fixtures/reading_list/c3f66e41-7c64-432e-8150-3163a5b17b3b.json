@@ -1,0 +1,518 @@
+{
+  "page_id": "c3f66e41-7c64-432e-8150-3163a5b17b3b",
+  "title": "Developing and Evaluating a University Recommender System",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "f0d10ff7-7f3b-4c61-8e76-ff3f2d30b92c",
+          "name": "Education",
+          "color": "purple"
+        },
+        {
+          "id": "442c3c36-fb0b-4885-a929-010ac5a9f70a",
+          "name": "Offline Evaluation",
+          "color": "orange"
+        },
+        {
+          "id": "1f2eb64d-6295-4637-b058-5472c48d2597",
+          "name": "User Study",
+          "color": "pink"
+        },
+        {
+          "id": "e7f21384-73fc-4cd6-ae66-191862a9447b",
+          "name": "Usability",
+          "color": "gray"
+        },
+        {
+          "id": "21a19194-c60b-44f7-9461-e64170655381",
+          "name": "University",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "XOA;",
+        "name": "K-12",
+        "color": "purple"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Frontiers in Artificial Intelligence",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Frontiers in Artificial Intelligence",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population & Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population & Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-03T23:50:00.000+00:00",
+        "end": "2025-03-03T23:55:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Elahi et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Elahi et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Developing and Evaluating a University Recommender System",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Developing and Evaluating a University Recommender System",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-80c7-90a3-cca56e86f7fd",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80c7-90a3-cca56e86f7fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c3f66e41-7c64-432e-8150-3163a5b17b3b"
+        },
+        "created_time": "2025-03-03T23:45:00.000Z",
+        "last_edited_time": "2025-03-03T23:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80e6-848b-f3558dcb1a60",
+      "type": "paragraph",
+      "text": "The authors proposes a recommender system that suggests a university to recent highschool graduates. The paper performs 2 distinct studies:",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80e6-848b-f3558dcb1a60",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c3f66e41-7c64-432e-8150-3163a5b17b3b"
+        },
+        "created_time": "2025-03-03T23:45:00.000Z",
+        "last_edited_time": "2025-03-03T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors proposes a recommender system that suggests a university to recent highschool graduates. The paper performs 2 distinct studies:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors proposes a recommender system that suggests a university to recent highschool graduates. The paper performs 2 distinct studies:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80ca-9fc4-fa70d947ae9b",
+      "type": "numbered_list_item",
+      "text": "Offline evaluation to identify “best” recommender,",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80ca-9fc4-fa70d947ae9b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c3f66e41-7c64-432e-8150-3163a5b17b3b"
+        },
+        "created_time": "2025-03-03T23:51:00.000Z",
+        "last_edited_time": "2025-03-03T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Offline evaluation to identify “best” recommender,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Offline evaluation to identify “best” recommender,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80fd-a18c-fb57e94936b4",
+      "type": "numbered_list_item",
+      "text": "3 algorithms are evaluated in what concerns different metrics. SVD is most accurate system and personalization, KNN is best at novelty.",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80fd-a18c-fb57e94936b4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c3f66e41-7c64-432e-8150-3163a5b17b3b"
+        },
+        "created_time": "2025-03-03T23:51:00.000Z",
+        "last_edited_time": "2025-03-03T23:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3 algorithms are evaluated in what concerns different metrics. SVD is most accurate system and personalization, KNN is best at novelty.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3 algorithms are evaluated in what concerns different metrics. SVD is most accurate system and personalization, KNN is best at novelty.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

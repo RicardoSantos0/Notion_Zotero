@@ -1,0 +1,735 @@
+{
+  "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+  "title": "Multimodal Predictive Student Modeling with Multi-Task Transfer Learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "25636e43-d868-4dfe-bf16-996e74267a57",
+          "name": "Multi-Modal Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "4b164e32-f9de-4c45-8be6-19fb1e440a1d",
+          "name": "Game-Based Learning",
+          "color": "default"
+        },
+        {
+          "id": "abf1da00-acad-45d0-832a-7b6e33de9a65",
+          "name": "Predictive Student Modeling",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2026-02-09T17:00:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Emerson et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Emerson et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "9a075cee-a697-42fa-a280-4b75c1f6a318",
+          "name": "Transfer Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multimodal Predictive Student Modeling with Multi-Task Transfer Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multimodal Predictive Student Modeling with Multi-Task Transfer Learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3024750c-f3ba-802b-aa6b-df3f0673bd5f",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Game-Based Learning",
+          "Post-Test Scores",
+          "High (1) vs Low(0)",
+          "66 undergraduate students",
+          "1 Microbiology Game",
+          "Pre-Test,  Post-Test, Eye-Tracker and Facial Expression, IMI survey",
+          "460 multimodal features per student",
+          "Every 2 minutes during Game\nBefore Post-Test",
+          "Student’s knowledge was encoded from the answers to the pre-test.\n\nThen, data was collected and the data was subsequently treated using PCA to reduce dimensionality.\n\n3 forms of PCA usage were tested (No PCA, 1 PCA per modality and PCA on the entire space). \n\nParameter-tuning uses nested-CV with 3-folds\n\n",
+          "Random Forest",
+          "5-Fold Cross-Validation",
+          "{Standardized Conversion Point: 0.428 - RF-Gameplay&ReflexionTest, F1-Score: 0.749 - RF-Gameplay&ReflexionTest}",
+          "Only the first experiment was conducted on College Students. The second experiment was conducted on 8th-grader…\n\nAuthors train different models for post-test scores and interest (in here we consider only the ones for test-scores). \n\nDifferent sources of data are compared separately ahnd then comined into a single RF model.",
+          "Data is not sequential\n\nOnly considers Random Forest\n\nSmall Sample Size\n\n"
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "eb6db68a-8492-4b57-9d04-88688e0a6eab",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "eb6db68a-8492-4b57-9d04-88688e0a6eab",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:47:00.000Z",
+        "last_edited_time": "2024-08-06T13:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ea88a990-7333-4d06-9471-a2fc47b757f0",
+      "type": "paragraph",
+      "text": "Game-based learning has demonstrated pedagogical effectiveness and recent advancements in sensors and nlp made data acquisiton a whole new ball-game. Due to the requirements of intertaction with a game, GBL is a prime candidate for effectiveness of LA-based early warning systems. ",
+      "raw": {
+        "object": "block",
+        "id": "ea88a990-7333-4d06-9471-a2fc47b757f0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:47:00.000Z",
+        "last_edited_time": "2024-08-06T13:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Game-based learning has demonstrated pedagogical effectiveness and recent advancements in sensors and nlp made data acquisiton a whole new ball-game. Due to the requirements of intertaction with a game, GBL is a prime candidate for effectiveness of LA-based early warning systems. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Game-based learning has demonstrated pedagogical effectiveness and recent advancements in sensors and nlp made data acquisiton a whole new ball-game. Due to the requirements of intertaction with a game, GBL is a prime candidate for effectiveness of LA-based early warning systems. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "43c59b0b-f21d-4463-aaed-afe5dd687e41",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "43c59b0b-f21d-4463-aaed-afe5dd687e41",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:50:00.000Z",
+        "last_edited_time": "2024-08-06T13:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b1a5f045-5922-4e9c-a548-12e23db7bcbe",
+      "type": "paragraph",
+      "text": "Thus authors explore a multi-task and multi-modal learning analytics framework for Game-Based LEarning Environments. Framework is evaluated on 2 distinct student populations (n = 61 and n = 118). The models are tasked with predicting post-test performance and interest. ",
+      "raw": {
+        "object": "block",
+        "id": "b1a5f045-5922-4e9c-a548-12e23db7bcbe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:50:00.000Z",
+        "last_edited_time": "2024-08-06T13:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus authors explore a multi-task and multi-modal learning analytics framework for Game-Based LEarning Environments. Framework is evaluated on 2 distinct student populations (n = 61 and n = 118). The models are tasked with predicting post-test performance and interest. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus authors explore a multi-task and multi-modal learning analytics framework for Game-Based LEarning Environments. Framework is evaluated on 2 distinct student populations (n = 61 and n = 118). The models are tasked with predicting post-test performance and interest. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "00172e5a-12b2-41c3-865f-9fd826f93276",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "00172e5a-12b2-41c3-865f-9fd826f93276",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:52:00.000Z",
+        "last_edited_time": "2024-08-06T13:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3e97e125-ec4c-4c0f-8ca6-d4c4b9fbe7b3",
+      "type": "paragraph",
+      "text": "Moreover, the authors make a comparison between training paradigms. On the first, each dataset is trained independently and performance is assessed on the data the models were trained on. On the second paradigm, the authors pre-train a model in one dataset to then fine-tune with the other. Resutlts show that multi-task models were able to improve performance for one the tasks, but not for both. Moreover, transfer learning also seems to contribute to improvements in model performance. ",
+      "raw": {
+        "object": "block",
+        "id": "3e97e125-ec4c-4c0f-8ca6-d4c4b9fbe7b3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2024-08-06T13:52:00.000Z",
+        "last_edited_time": "2024-08-06T13:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, the authors make a comparison between training paradigms. On the first, each dataset is trained independently and performance is assessed on the data the models were trained on. On the second paradigm, the authors pre-train a model in one dataset to then fine-tune with the other. Resutlts show that multi-task models were able to improve performance for one the tasks, but not for both. Moreover, transfer learning also seems to contribute to improvements in model performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, the authors make a comparison between training paradigms. On the first, each dataset is trained independently and performance is assessed on the data the models were trained on. On the second paradigm, the authors pre-train a model in one dataset to then fine-tune with the other. Resutlts show that multi-task models were able to improve performance for one the tasks, but not for both. Moreover, transfer learning also seems to contribute to improvements in model performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3024750c-f3ba-806a-bc83-d1db98e9f5b1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3024750c-f3ba-806a-bc83-d1db98e9f5b1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2026-02-09T14:30:00.000Z",
+        "last_edited_time": "2026-02-09T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3024750c-f3ba-80c5-9c62-edfa5333de53",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3024750c-f3ba-80c5-9c62-edfa5333de53",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2026-02-09T14:30:00.000Z",
+        "last_edited_time": "2026-02-09T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3024750c-f3ba-802b-aa6b-df3f0673bd5f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3024750c-f3ba-802b-aa6b-df3f0673bd5f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+        },
+        "created_time": "2026-02-09T14:30:00.000Z",
+        "last_edited_time": "2026-02-09T18:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

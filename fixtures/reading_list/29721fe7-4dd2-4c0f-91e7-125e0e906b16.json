@@ -1,0 +1,3935 @@
+{
+  "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16",
+  "title": "Analyzing undergraduate students' performance using educational data mining",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "27f671ba-eb9f-4b2c-a90b-de2eb4ec5419",
+          "name": "Data Mining",
+          "color": "blue"
+        },
+        {
+          "id": "886ec185-d855-4701-9ca3-5cf447002216",
+          "name": "Decision Tree",
+          "color": "default"
+        },
+        {
+          "id": "5cd02067-8ba4-47de-a3f0-ecc92f6b4226",
+          "name": "Clustering",
+          "color": "purple"
+        },
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        },
+        {
+          "id": "be389133-6d36-4334-9d5c-346a14059909",
+          "name": "Performance Progression",
+          "color": "blue"
+        },
+        {
+          "id": "7fd03500-b592-4604-9a00-9c90bf7048df",
+          "name": "Quality of Educational Processes",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Higher Education” AND “Education Data Mining”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Higher Education” AND “Education Data Mining”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Asif et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Asif et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Analyzing undergraduate students' performance using educational data mining",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Analyzing undergraduate students' performance using educational data mining",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1244750c-f3ba-8083-b84d-f09778f74039",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not applicable",
+          "End of Program Mark",
+          "End of Program Passing Mark (A to E)",
+          "106 students for training data\n104 students for test data",
+          "1 Information Technology Program",
+          "Pre-Admission Marks\nCourse Final Grades",
+          "[Adj_Marks, Maths_Marks, MPC, CT-153, CT-157,  CT-158, CT-161,  EE-115, EL-134, HS-102, HS-105/127, MS-171, HS-205/206, MS-121, MS-172, CS-251, CS-252,  CT-251, CT-254, CT-255, CT-257,  EL-238, HS-208,  MS-271,  MS-272, HS-207]",
+          "End of Year 2 (out of 4)",
+          "Students who have not completed the program in the 4 years are not considered.\n\nDT feature importances in order to identinfy which courses aer the most important towards student success.\n\nUnspecified rebalancing techniques are implemented.\n\nOnly courses taught in the first 2 years of the program are considered for the predictive model.",
+          "DT-GI\nDT-IG\nDT-Acc\nRI-IG\n1-NN\nNaive Bayes\nANN\nRF-GI\nRF-IG\nRF-Acc",
+          "Holdout Method",
+          "{Accuracy: 0.8365 - Naive Bayes, Kappa: 0.727 - Naive Bayes}",
+          "While the authors attempt to use multilpe classifiers, they are pretty dead set on using decision trees due to their interpretability.\n\nPrecision and recall are shown for the purposes of explaining confusion matrix results. However, these metrics are not factored in the decision for a model. \n\nModels struggle with identification of low represented classes.\n\nDT feature selection highlights 5 courses as the most important: HS205/206, MS-121, CS-251, HS-207 and CT-255.\n\nWhen it comes to pathways, the authors identify 2 rules conducive for bad performance and 1 rule for good performance.  ",
+          "Small sample size. \n\nUnclear motives for attempting to use algorithms outside simple DT based models. \n\n"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "index": 71
+    },
+    {
+      "block_id": "1b84750c-f3ba-80d0-9e93-f632ffdfd66b",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not applicable",
+          "106 students for training data\n104 students for test data",
+          "1 Information Technology Program",
+          "Pre-Admission Marks\nCourse Final Grades",
+          "None Specified",
+          "[CT-153, CT-157,  CT-158, CT-161,  EE-115, EL-134, HS-102, HS-105/127, MS-171, HS-205/206, MS-121, MS-172, CS-251, CS-252,  CT-251, CT-254, CT-255, CT-257,  EL-238, HS-208,  MS-271,  MS-272, HS-207, CT-352, CT-353, CT-354, CT-360,  CT-361, CT-362,  CS-351, CS-352,  CS-353, MS-331,  CT-452, CT-455, CT-456,  CT-460, MS-471, CS-451, CT-454, CT-461, CT-481, CT-483]",
+          "For clustering, each each student is represented by 4 vectors, each vector containing the grades for each academic year.",
+          "x-Means",
+          "Based on separation:",
+          "3",
+          "Each of the clusters refers to a progression sequence throughout their program.\n\nYearly Clusters are foer cohort 1 show the same patterns emerging: \n\nStudents with Low performance tend to continue having low performance, students with Intermediate Performance tend to cotinue having intermediate performance and finally students with high performance tend to continue having high performance.",
+          "The results allowed for the development of a set of Pragmatic Policies usable to indentifyy students who may be at risk.\n\nThe non-inclusion of admission marks hinders the ability of putting into motion corrective measures right from the get go. ",
+          "Pathway is defined by a element tuple comprising the cluster labels for each academic year. \n\n2 main groups emerge: good students on first year who continue being good throughout and bad students who continue to be bad throughout.",
+          "Clustering of progression does not consider pre admission data.\n\nSome clusters have Sample Size of 1."
+        ]
+      ],
+      "index": 73
+    }
+  ],
+  "blocks": [
+    {
+      "id": "49bee084-618b-4409-96ae-f11fd4c01545",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "49bee084-618b-4409-96ae-f11fd4c01545",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-07-31T13:51:00.000Z",
+        "last_edited_time": "2024-07-31T13:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "69436279-4dea-420b-90c0-95c84926b466",
+      "type": "paragraph",
+      "text": "This work is divided into 2 different parts. The first is the prediction of undergraduate student performance at the end of a 4-year program. The second is the grouping of students, out of which 2 groups emerge: low and high achieving students.",
+      "raw": {
+        "object": "block",
+        "id": "69436279-4dea-420b-90c0-95c84926b466",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-07-31T13:51:00.000Z",
+        "last_edited_time": "2024-07-31T14:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This work is divided into 2 different parts. The first is the prediction of undergraduate student performance at the end of a 4-year program. The second is the grouping of students, out of which 2 groups emerge: low and high achieving students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This work is divided into 2 different parts. The first is the prediction of undergraduate student performance at the end of a 4-year program. The second is the grouping of students, out of which 2 groups emerge: low and high achieving students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6b914b96-5a2d-427a-aa9b-54d49b3bf9ec",
+      "type": "paragraph",
+      "text": "Authors also found that focusing the prediction on a smaller subset of courses may be a good early indicator of student performance. Student performance to be understood, in this context, as success at the end of a program.",
+      "raw": {
+        "object": "block",
+        "id": "6b914b96-5a2d-427a-aa9b-54d49b3bf9ec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-07-31T14:12:00.000Z",
+        "last_edited_time": "2024-07-31T14:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors also found that focusing the prediction on a smaller subset of courses may be a good early indicator of student performance. Student performance to be understood, in this context, as success at the end of a program.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors also found that focusing the prediction on a smaller subset of courses may be a good early indicator of student performance. Student performance to be understood, in this context, as success at the end of a program.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-808a-83e6-f1cd9a40e5aa",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-808a-83e6-f1cd9a40e5aa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T21:48:00.000Z",
+        "last_edited_time": "2024-10-19T21:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8080-8250-d261130dd5aa",
+      "type": "paragraph",
+      "text": "Educational Data Mining seeks to make use of the enormous amounts of data that exist nowadays in universities and classification is among the most common tasks in EDM. Moreover, these models can work at different levels:",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8080-8250-d261130dd5aa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T21:49:00.000Z",
+        "last_edited_time": "2024-10-19T22:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Educational Data Mining seeks to make use of the enormous amounts of data that exist nowadays in universities and classification is among the most common tasks in EDM. Moreover, these models can work at different levels:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Educational Data Mining seeks to make use of the enormous amounts of data that exist nowadays in universities and classification is among the most common tasks in EDM. Moreover, these models can work at different levels:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-802e-935c-f84b2a4604bf",
+      "type": "numbered_list_item",
+      "text": "An ITS level: e.g. predict test scores based on exercise data,",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-802e-935c-f84b2a4604bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:02:00.000Z",
+        "last_edited_time": "2024-10-19T22:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "An ITS level: e.g. predict test scores based on exercise data,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "An ITS level: e.g. predict test scores based on exercise data,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8084-9acd-fe13658f7759",
+      "type": "numbered_list_item",
+      "text": "At the course-level: e.g. to predict passing or failing a course based on demographics, previous performances or behavior.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8084-9acd-fe13658f7759",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:03:00.000Z",
+        "last_edited_time": "2024-10-19T22:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "At the course-level: e.g. to predict passing or failing a course based on demographics, previous performances or behavior.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "At the course-level: e.g. to predict passing or failing a course based on demographics, previous performances or behavior.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8011-984e-e6287827a97b",
+      "type": "numbered_list_item",
+      "text": "At the program/degree level: Predict success on the degree like whether the student will complete it within the expected duration of the program. ",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8011-984e-e6287827a97b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:04:00.000Z",
+        "last_edited_time": "2024-10-19T22:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "At the program/degree level: Predict success on the degree like whether the student will complete it within the expected duration of the program. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "At the program/degree level: Predict success on the degree like whether the student will complete it within the expected duration of the program. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-804b-bcdb-e433bfb8963a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-804b-bcdb-e433bfb8963a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:05:00.000Z",
+        "last_edited_time": "2024-10-19T22:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80d4-a88e-cdf0cf1f4c80",
+      "type": "paragraph",
+      "text": "Another common EDM task is clustering, with special emphasys on grouping students with similar behaviors together. A third application refers to the distillation of data for human interpretation (e.g. educational dashboards).",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80d4-a88e-cdf0cf1f4c80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:05:00.000Z",
+        "last_edited_time": "2024-10-19T22:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another common EDM task is clustering, with special emphasys on grouping students with similar behaviors together. A third application refers to the distillation of data for human interpretation (e.g. educational dashboards).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another common EDM task is clustering, with special emphasys on grouping students with similar behaviors together. A third application refers to the distillation of data for human interpretation (e.g. educational dashboards).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8038-bf15-d4d9f3e12a8a",
+      "type": "heading_3",
+      "text": "Research Questions",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8038-bf15-d4d9f3e12a8a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:08:00.000Z",
+        "last_edited_time": "2024-10-19T22:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Research Questions",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Research Questions",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8054-97d4-e1e5acabc626",
+      "type": "paragraph",
+      "text": "The work intends to answer the following 3 research questions on a set of students pursuing a 4-year program in Information Technology:",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8054-97d4-e1e5acabc626",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:09:00.000Z",
+        "last_edited_time": "2024-10-19T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work intends to answer the following 3 research questions on a set of students pursuing a 4-year program in Information Technology:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work intends to answer the following 3 research questions on a set of students pursuing a 4-year program in Information Technology:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-805d-a960-e6f43dee5722",
+      "type": "numbered_list_item",
+      "text": "Capacity to predict degree performance based on marks.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-805d-a960-e6f43dee5722",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:09:00.000Z",
+        "last_edited_time": "2024-10-19T22:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Capacity to predict degree performance based on marks.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Capacity to predict degree performance based on marks.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8019-8bfb-dc0ad32a7504",
+      "type": "numbered_list_item",
+      "text": "Identification of courses that are predictive of high/low performance.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8019-8bfb-dc0ad32a7504",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:10:00.000Z",
+        "last_edited_time": "2024-10-19T22:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Identification of courses that are predictive of high/low performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Identification of courses that are predictive of high/low performance.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80a6-97d2-dc5ede966b84",
+      "type": "numbered_list_item",
+      "text": "Identify typical progression patterns and relate them with indicator courses.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80a6-97d2-dc5ede966b84",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:10:00.000Z",
+        "last_edited_time": "2024-10-19T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Identify typical progression patterns and relate them with indicator courses.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Identify typical progression patterns and relate them with indicator courses.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80ad-831c-f4259419b846",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80ad-831c-f4259419b846",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:11:00.000Z",
+        "last_edited_time": "2024-10-19T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8000-bffe-f47db39dec37",
+      "type": "paragraph",
+      "text": "To do this, the authors will perform 3 main tasks:",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8000-bffe-f47db39dec37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:11:00.000Z",
+        "last_edited_time": "2024-10-19T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To do this, the authors will perform 3 main tasks:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To do this, the authors will perform 3 main tasks:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80f8-8fe0-e7839a83e28c",
+      "type": "numbered_list_item",
+      "text": "Create classifiers of student performance at the end of the degree using admission marks and course marks for first and second year courses.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80f8-8fe0-e7839a83e28c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:11:00.000Z",
+        "last_edited_time": "2024-10-19T22:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Create classifiers of student performance at the end of the degree using admission marks and course marks for first and second year courses.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Create classifiers of student performance at the end of the degree using admission marks and course marks for first and second year courses.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80ec-9eda-c516e5431671",
+      "type": "numbered_list_item",
+      "text": "From the models, find what courses contribute the most to the end-of-course performance. This requires the use of algorithms that are interpretable… in this case Decision Trees.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80ec-9eda-c516e5431671",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:12:00.000Z",
+        "last_edited_time": "2024-10-19T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "From the models, find what courses contribute the most to the end-of-course performance. This requires the use of algorithms that are interpretable… in this case Decision Trees.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "From the models, find what courses contribute the most to the end-of-course performance. This requires the use of algorithms that are interpretable… in this case Decision Trees.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8006-b8e6-cca75f6fc0f5",
+      "type": "numbered_list_item",
+      "text": "Use clustering to find the typical progression pathways. This may be helpful in identifying places where to place a pragmatic policy for intervention.",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8006-b8e6-cca75f6fc0f5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:13:00.000Z",
+        "last_edited_time": "2024-10-19T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Use clustering to find the typical progression pathways. This may be helpful in identifying places where to place a pragmatic policy for intervention.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Use clustering to find the typical progression pathways. This may be helpful in identifying places where to place a pragmatic policy for intervention.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8088-a7d3-ed695cf129c8",
+      "type": "heading_2",
+      "text": "Literature Review",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8088-a7d3-ed695cf129c8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:17:00.000Z",
+        "last_edited_time": "2024-10-19T22:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Literature Review",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Literature Review",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-800c-894e-c4a84f725b30",
+      "type": "paragraph",
+      "text": "The literature review is divided into 3 main components:",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-800c-894e-c4a84f725b30",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T22:18:00.000Z",
+        "last_edited_time": "2024-10-20T13:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The literature review is divided into 3 main components:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The literature review is divided into 3 main components:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80fb-b920-d33d44cf67fb",
+      "type": "heading_3",
+      "text": "1. Prediction of Success at Degree Level",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80fb-b920-d33d44cf67fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T13:26:00.000Z",
+        "last_edited_time": "2024-10-20T13:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. Prediction of Success at Degree Level",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. Prediction of Success at Degree Level",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8040-b1f6-ef72cb3e7ef4",
+      "type": "paragraph",
+      "text": "Prediction of success at the degree level uses multiple predictors also found in prediction at the course-level such as demographics. However, these models tend to also include other predictors that often not seen in course-level models. The include:",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8040-b1f6-ef72cb3e7ef4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T13:32:00.000Z",
+        "last_edited_time": "2024-10-20T13:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Prediction of success at the degree level uses multiple predictors also found in prediction at the course-level such as demographics. However, these models tend to also include other predictors that often not seen in course-level models. The include:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Prediction of success at the degree level uses multiple predictors also found in prediction at the course-level such as demographics. However, these models tend to also include other predictors that often not seen in course-level models. The include:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8060-8e6e-faab1d5db894",
+      "type": "paragraph",
+      "text": "These models have been applied in the context of either one or more than one educational institutions. Different algorithms have been used: Decision Trees, Bayesian Networks, kNN. General targets for prediction are GPA or binary (Fail/Pass) or multiclass constructs extracted from GPA (Fail, Fair, Good, Very Good). ",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8060-8e6e-faab1d5db894",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T13:46:00.000Z",
+        "last_edited_time": "2024-10-20T14:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "These models have been applied in the context of either one or more than one educational institutions. Different algorithms have been used: Decision Trees, Bayesian Networks, kNN. General targets for prediction are GPA or binary (Fail/Pass) or multiclass constructs extracted from GPA (Fail, Fair, Good, Very Good). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "These models have been applied in the context of either one or more than one educational institutions. Different algorithms have been used: Decision Trees, Bayesian Networks, kNN. General targets for prediction are GPA or binary (Fail/Pass) or multiclass constructs extracted from GPA (Fail, Fair, Good, Very Good). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80d4-a67c-d4e092c26bb8",
+      "type": "paragraph",
+      "text": "General metrics used is accuracy, which tends achieve better results in the binary classification case. Still, the use of early grades is essencial in order to be able to obtain what can be considered good predictions. A second consideration is that many works use cross-validation to assess the performance of their models. The authors will train the model on one co-hort and evaluate the performance of the model on another cohort.",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80d4-a67c-d4e092c26bb8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T14:01:00.000Z",
+        "last_edited_time": "2024-10-20T14:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "General metrics used is accuracy, which tends achieve better results in the binary classification case. Still, the use of early grades is essencial in order to be able to obtain what can be considered good predictions. A second consideration is that many works use cross-validation to assess the performance of their models. The authors will train the model on one co-hort and evaluate the performance of the model on another cohort.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "General metrics used is accuracy, which tends achieve better results in the binary classification case. Still, the use of early grades is essencial in order to be able to obtain what can be considered good predictions. A second consideration is that many works use cross-validation to assess the performance of their models. The authors will train the model on one co-hort and evaluate the performance of the model on another cohort.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8059-9aa0-d0c91b8ca024",
+      "type": "heading_3",
+      "text": "2.  Clustering and Distillation",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8059-9aa0-d0c91b8ca024",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T14:35:00.000Z",
+        "last_edited_time": "2024-10-20T14:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2.  Clustering and Distillation",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2.  Clustering and Distillation",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-801f-9d48-f96ea49f6b90",
+      "type": "paragraph",
+      "text": "A preivous study has identified typical learning progressions on K-12 education, something the authors adapt in their work for undergraduate education. The authors will use hierarchical histograms to show the resulting clusters.",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-801f-9d48-f96ea49f6b90",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T14:50:00.000Z",
+        "last_edited_time": "2024-10-20T15:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A preivous study has identified typical learning progressions on K-12 education, something the authors adapt in their work for undergraduate education. The authors will use hierarchical histograms to show the resulting clusters.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A preivous study has identified typical learning progressions on K-12 education, something the authors adapt in their work for undergraduate education. The authors will use hierarchical histograms to show the resulting clusters.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8004-a16a-e9eb4847fb60",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8004-a16a-e9eb4847fb60",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:09:00.000Z",
+        "last_edited_time": "2024-10-20T15:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8089-bdd7-f211ea0571ef",
+      "type": "heading_3",
+      "text": "3. Data Mining Methods",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8089-bdd7-f211ea0571ef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:09:00.000Z",
+        "last_edited_time": "2024-10-20T15:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3. Data Mining Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3. Data Mining Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-802a-b89a-dda66f13de9c",
+      "type": "paragraph",
+      "text": "The authors review some of the data mining methods they intend to emply in this work: classification and clustering. The metrics they identify as relevant for classification are Accuracy and the kappa coefficient (an indicator that takes into account that correct predictions could occur by chance). There is also an important distinction between models that are black box: ANN, NB, RF from the ones that are more interpretable such as Decision Trees.",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-802a-b89a-dda66f13de9c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:10:00.000Z",
+        "last_edited_time": "2024-10-20T15:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors review some of the data mining methods they intend to emply in this work: classification and clustering. The metrics they identify as relevant for classification are Accuracy and the kappa coefficient (an indicator that takes into account that correct predictions could occur by chance). There is also an important distinction between models that are black box: ANN, NB, RF from the ones that are more interpretable such as Decision Trees.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors review some of the data mining methods they intend to emply in this work: classification and clustering. The metrics they identify as relevant for classification are Accuracy and the kappa coefficient (an indicator that takes into account that correct predictions could occur by chance). There is also an important distinction between models that are black box: ANN, NB, RF from the ones that are more interpretable such as Decision Trees.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-8032-9c7a-c82d08fe61b9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-8032-9c7a-c82d08fe61b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:22:00.000Z",
+        "last_edited_time": "2024-10-20T15:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80cc-952f-febe93535d8e",
+      "type": "paragraph",
+      "text": "Clustering in this paper is defines as a process of grouping similar objects. Similar objects are usually defined as being closest using a certain metric, which in many situations is the euclidean distance. Common algorithms include k-means and the one used in the wok, which is going to be x-means. Both are centroid-based algorithms with a key distinction being that x-means attempts to find the optimal number of clusters using a Bayesian Information Criterion.",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80cc-952f-febe93535d8e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:22:00.000Z",
+        "last_edited_time": "2024-10-20T15:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Clustering in this paper is defines as a process of grouping similar objects. Similar objects are usually defined as being closest using a certain metric, which in many situations is the euclidean distance. Common algorithms include k-means and the one used in the wok, which is going to be x-means. Both are centroid-based algorithms with a key distinction being that x-means attempts to find the optimal number of clusters using a Bayesian Information Criterion.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Clustering in this paper is defines as a process of grouping similar objects. Similar objects are usually defined as being closest using a certain metric, which in many situations is the euclidean distance. Common algorithms include k-means and the one used in the wok, which is going to be x-means. Both are centroid-based algorithms with a key distinction being that x-means attempts to find the optimal number of clusters using a Bayesian Information Criterion.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80a0-ae01-c8f22e1d9003",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80a0-ae01-c8f22e1d9003",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:38:00.000Z",
+        "last_edited_time": "2024-10-20T15:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80e8-9819-f78c62260615",
+      "type": "paragraph",
+      "text": "The data uses 4-year information technology BSc degree in Pakistan, more specifically data 210 undergraduate students in the years 2007-2008 and 2008-2009. These wil go through a process of feature selection to select the most important marks to use. \n\nTarget variable is the marks at the end of the program: 10% of first year average exams, 20% for second year, 30% for 3rd year and 40% of 4th year. Student who failed after the 4 years are not considered in the study, with the remaining 5 grade classes (A, B, C, D and E) being the relevant classification targets.",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80e8-9819-f78c62260615",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T15:48:00.000Z",
+        "last_edited_time": "2024-10-20T16:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The data uses 4-year information technology BSc degree in Pakistan, more specifically data 210 undergraduate students in the years 2007-2008 and 2008-2009. These wil go through a process of feature selection to select the most important marks to use. \n\nTarget variable is the marks at the end of the program: 10% of first year average exams, 20% for second year, 30% for 3rd year and 40% of 4th year. Student who failed after the 4 years are not considered in the study, with the remaining 5 grade classes (A, B, C, D and E) being the relevant classification targets.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The data uses 4-year information technology BSc degree in Pakistan, more specifically data 210 undergraduate students in the years 2007-2008 and 2008-2009. These wil go through a process of feature selection to select the most important marks to use. \n\nTarget variable is the marks at the end of the program: 10% of first year average exams, 20% for second year, 30% for 3rd year and 40% of 4th year. Student who failed after the 4 years are not considered in the study, with the remaining 5 grade classes (A, B, C, D and E) being the relevant classification targets.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1254750c-f3ba-80f0-bc6f-f7042a1a8fc0",
+      "type": "heading_3",
+      "text": "1. Research Question 1",
+      "raw": {
+        "object": "block",
+        "id": "1254750c-f3ba-80f0-bc6f-f7042a1a8fc0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-20T16:06:00.000Z",
+        "last_edited_time": "2024-10-20T16:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. Research Question 1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. Research Question 1",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-8035-8bc3-fe4dc327babd",
+      "type": "paragraph",
+      "text": "The authors employed multiple classification algorithms. From the analysis osf the sample, there are barely any A students while C is the most popular class. Majority class predictions would achieve 51% accuracy. More specifically, the authors look at the grade distribution to identify ideal intervals for prediction: ending up being grades B to E. Features considered end up being pre-admission marks and marks on years 1 and 2.",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-8035-8bc3-fe4dc327babd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T11:16:00.000Z",
+        "last_edited_time": "2024-10-21T21:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors employed multiple classification algorithms. From the analysis osf the sample, there are barely any A students while C is the most popular class. Majority class predictions would achieve 51% accuracy. More specifically, the authors look at the grade distribution to identify ideal intervals for prediction: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors employed multiple classification algorithms. From the analysis osf the sample, there are barely any A students while C is the most popular class. Majority class predictions would achieve 51% accuracy. More specifically, the authors look at the grade distribution to identify ideal intervals for prediction: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "ending up being grades B to E. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "ending up being grades B to E. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Features considered end up being pre-admission marks and marks on years 1 and 2.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Features considered end up being pre-admission marks and marks on years 1 and 2.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-806c-aa4f-fb3907d765d0",
+      "type": "heading_3",
+      "text": "2. Research Question 2",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-806c-aa4f-fb3907d765d0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T21:58:00.000Z",
+        "last_edited_time": "2024-10-21T21:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. Research Question 2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. Research Question 2",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-8090-bb82-d242e80378fa",
+      "type": "paragraph",
+      "text": "To address RQ2, the authors look into identifying which factors between courses from the first and second year that are predictive of student success. For that they explore the different feature selection techniques that are available in RapidMiner. Most did not improve performance of DTs (because DTs make it themselves). So, the authors turn to looking at the feature importances of the DT. ",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-8090-bb82-d242e80378fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T21:59:00.000Z",
+        "last_edited_time": "2024-10-22T08:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To address RQ2, the authors look into identifying which factors between courses from the first and second year that are predictive of student success. For that they explore the different feature selection techniques that are available in RapidMiner. Most did not improve performance of DTs (because DTs make it themselves). So, the authors turn to looking at the feature importances of the DT. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To address RQ2, the authors look into identifying which factors between courses from the first and second year that are predictive of student success. For that they explore the different feature selection techniques that are available in RapidMiner. Most did not improve performance of DTs (because DTs make it themselves). So, the authors turn to looking at the feature importances of the DT. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-8063-a8e6-f62ef412dd0d",
+      "type": "paragraph",
+      "text": "\nVariables that appear in at least 50% of the created decision trees are considered important. Then, the authors focus on decision paths that lead to successful outcomes (A and B) or unsuccessful outcomes (D and E). ",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-8063-a8e6-f62ef412dd0d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T21:58:00.000Z",
+        "last_edited_time": "2024-10-22T08:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\nVariables that appear in at least 50% of the created decision trees are considered important. Then, the authors focus on decision paths that lead to successful outcomes (A and B) or unsuccessful outcomes (D and E). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\nVariables that appear in at least 50% of the created decision trees are considered important. Then, the authors focus on decision paths that lead to successful outcomes (A and B) or unsuccessful outcomes (D and E). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-808f-a09f-d8d7286df345",
+      "type": "heading_3",
+      "text": "Research Question 3",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-808f-a09f-d8d7286df345",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T08:54:00.000Z",
+        "last_edited_time": "2024-10-22T08:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Research Question 3",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Research Question 3",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80df-9943-f322acd8a3ba",
+      "type": "paragraph",
+      "text": "To study the progression paths, the authors employ clustering on multiple levels. For each year, they create vectors containing the marks obtained in each year. For each year, students are clustered using the Xmeans algorithm. Progression is then defined as a 4 element tuple containing the cluster labels for each year.",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80df-9943-f322acd8a3ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T08:54:00.000Z",
+        "last_edited_time": "2024-10-22T08:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To study the progression paths, the authors employ clustering on multiple levels. For each year, they create vectors containing the marks obtained in each year. For each year, students are clustered using the Xmeans algorithm. Progression is then defined as a 4 element tuple containing the cluster labels for each year.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To study the progression paths, the authors employ clustering on multiple levels. For each year, they create vectors containing the marks obtained in each year. For each year, students are clustered using the Xmeans algorithm. Progression is then defined as a 4 element tuple containing the cluster labels for each year.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80ce-811d-f9350971dc85",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80ce-811d-f9350971dc85",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T09:16:00.000Z",
+        "last_edited_time": "2024-10-22T09:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80f6-9d79-f07d7b45eeee",
+      "type": "heading_3",
+      "text": "1. Prediction of student performance",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80f6-9d79-f07d7b45eeee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T09:16:00.000Z",
+        "last_edited_time": "2024-10-22T09:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "1. Prediction of student performance",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "1. Prediction of student performance",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80ff-97ca-d8155fb0a688",
+      "type": "paragraph",
+      "text": "The results on 10 different classifiers show that it is possible to predict student performance by training the models on one cohort of students and applying it to a second cohort. Interestingly, the model that achieves the best score is a Naive Bayes classification algorithm (84% accuracy and 0.73 kappa coefficient. By looking the confusion matrices, it is possible to see that only Decision Tree based algorithms are able to predict students who achieved an E. ",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80ff-97ca-d8155fb0a688",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T09:16:00.000Z",
+        "last_edited_time": "2024-10-22T09:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The results on 10 different classifiers show that it is possible to predict student performance by training the models on one cohort of students and applying it to a second cohort. Interestingly, the model that achieves the best score is a Naive Bayes classification algorithm (84% accuracy and 0.73 kappa coefficient. By looking the confusion matrices, it is possible to see that only Decision Tree based algorithms are able to predict students who achieved an E. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The results on 10 different classifiers show that it is possible to predict student performance by training the models on one cohort of students and applying it to a second cohort. Interestingly, the model that achieves the best score is a Naive Bayes classification algorithm (84% accuracy and 0.73 kappa coefficient. By looking the confusion matrices, it is possible to see that only Decision Tree based algorithms are able to predict students who achieved an E. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-8065-96cb-f7d6f454854d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-8065-96cb-f7d6f454854d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T09:21:00.000Z",
+        "last_edited_time": "2024-10-22T09:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/f61594e9-f69d-4aae-b62e-b1b686093a5d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663QS4F7UL%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152033Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIElaQXgFhNkKcY0jLu6OfoTgYsV5EO4AAMD0gPyEmTuYAiA49rRmt4aJRs25cCMP75yTN21EJ2SwlQ0FbZGV4ZFj8yr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMNpf5dD5o3j57U1TOKtwDxXRbp4hdgHXp93BUrUEdqYqAy73YVMDagNszy3COtRv%2BrzB8SxnmdZicSaH9GZQqQBqDWZdQBvbfVR5KSepy2ErCaSxI3XlBqBbkq7wuq0bp9Gh79r6CI0Va8EZR9v%2F%2FpfL0PYfBYvWiE8YoxQIs9x%2BN%2BtyeZ8HVRNMQeQ%2BWEQ9NP5y9IPLZw7Fq0zS%2FPiZSMJSCrdiRg03e4Rnm%2BA8YOuI33dibSDlqIPTIf0FEPEgby23u2BgoYGiHMGd7vYQYWl8kS0%2FK7AqdiJwSzRkk9Piezqew9Dq%2Brk2G04Jcd%2Bf6Ci4Jymv2crkBImzWQy6iu%2BzImmrIM0LpwZwj7RdGSqiQmwvDCMnuOGR70ewEs209k6ws%2FMzFWRVAps7MnqSwPHXRi2EfqTdrchaBwxOHE5blI%2BeSTD%2FgK8tAKv24OQxmIPG2xcR8zyWGhmk65CL%2Br5nADu4Assjcc9YPULnAQCQ9NmnVbYEVMCRMQ%2FXBpc1NTFcO6aRbshzMlyBcb0mnaVMMZYifvyZxxSxhpqHilPgPiePBuKEELMlSpXN0OAx8k8TSOyf5hYWqI8GIxdMLCj6T0RisLrKL5KfE5yKLG1SeTj8Mv9yA9JZySwVNL4sDZtvsui1HwpwxCJ4w1u%2FzzgY6pgFIgrvB%2FLaWPKehz%2BBwdR7VzFgJh4NYH7bgqZKc9ahCR3qEx8Bvuhi8LVcoZJgsRzRTyTmS3RUDufDMA%2FieVjltyN2jJQ3iBGH4KnQ%2FV0pqTdLtz3BdUX87RkdeEceIZzgh%2FIdxD2xUC4ODMSDmJEDJVCSue9vJfn1dTwmL8hDAepB04q%2FuktNfneloQIFnRs0ZqOjv1Ya47BXduzu3O6xHZzPcmNsU&X-Amz-Signature=747f8cc45393df62785817e1f60508abb5c1880488cb6458afa151688d9bf56d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:33.926Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-8053-8c20-f9b76abaa050",
+      "type": "heading_3",
+      "text": "2. Feature Importances",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-8053-8c20-f9b76abaa050",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T11:50:00.000Z",
+        "last_edited_time": "2024-10-22T09:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "2. Feature Importances",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "2. Feature Importances",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-800b-87c7-eac342aa77de",
+      "type": "paragraph",
+      "text": "The authors rely on Decision Tree interpretability to determine which courses are the most important towards determining the final grade of the program. More particularly, they found 2 courses from first year and 3 courses from the second year to be the ones with the best predictive potential (HS205/206, MS-121, CS-251, HS-207 and CT-255). ",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-800b-87c7-eac342aa77de",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T09:59:00.000Z",
+        "last_edited_time": "2024-10-22T10:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors rely on Decision Tree interpretability to determine which courses are the most important towards determining the final grade of the program. More particularly, they found 2 courses from first year and 3 courses from the second year to be the ones with the best predictive potential (HS205/206, MS-121, CS-251, HS-207 and CT-255). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors rely on Decision Tree interpretability to determine which courses are the most important towards determining the final grade of the program. More particularly, they found 2 courses from first year and 3 courses from the second year to be the ones with the best predictive potential (HS205/206, MS-121, CS-251, HS-207 and CT-255). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80b2-a17f-c1bcac7ebbf2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80b2-a17f-c1bcac7ebbf2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T10:05:00.000Z",
+        "last_edited_time": "2024-10-22T10:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-80dd-9824-db835e7d1af2",
+      "type": "paragraph",
+      "text": "On the second level of selection (pathways), the authors identified 3 pathways:",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-80dd-9824-db835e7d1af2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T10:05:00.000Z",
+        "last_edited_time": "2024-10-22T10:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "On the second level of selection (pathways), the authors identified 3 pathways:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "On the second level of selection (pathways), the authors identified 3 pathways:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-8072-89a7-d6d95f4350fb",
+      "type": "numbered_list_item",
+      "text": "Doing badly at physics (MS-121) leads to bad performance at the end of the degree.",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-8072-89a7-d6d95f4350fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T10:07:00.000Z",
+        "last_edited_time": "2024-10-22T10:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Doing badly at physics (MS-121) leads to bad performance at the end of the degree.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Doing badly at physics (MS-121) leads to bad performance at the end of the degree.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-8005-8b49-ddb5ce892ab5",
+      "type": "numbered_list_item",
+      "text": "Doing poorly in Financial Accounting and Management (HS-207) OR Logic Design and Switching Theory (CS-251) leads to bad performance.",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-8005-8b49-ddb5ce892ab5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T10:08:00.000Z",
+        "last_edited_time": "2024-10-22T10:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Doing poorly in Financial Accounting and Management (HS-207) OR Logic Design and Switching Theory (CS-251) leads to bad performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Doing poorly in Financial Accounting and Management (HS-207) OR Logic Design and Switching Theory (CS-251) leads to bad performance.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1274750c-f3ba-8017-80d2-ea35b91c916c",
+      "type": "numbered_list_item",
+      "text": "Doing very well on  Financial Accounting and Management (HS-207) or Assembly Language Programming (CT-255) leads to good end of program performance.",
+      "raw": {
+        "object": "block",
+        "id": "1274750c-f3ba-8017-80d2-ea35b91c916c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-22T10:09:00.000Z",
+        "last_edited_time": "2024-10-22T10:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Doing very well on  Financial Accounting and Management (HS-207) or Assembly Language Programming (CT-255) leads to good end of program performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Doing very well on  Financial Accounting and Management (HS-207) or Assembly Language Programming (CT-255) leads to good end of program performance.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-8044-a4af-c380e2373900",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-8044-a4af-c380e2373900",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:09:00.000Z",
+        "last_edited_time": "2024-10-23T17:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80f0-a274-ea0397f5a792",
+      "type": "heading_3",
+      "text": "3. Student Progressions",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80f0-a274-ea0397f5a792",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:09:00.000Z",
+        "last_edited_time": "2024-10-23T17:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "3. Student Progressions",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "3. Student Progressions",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-800b-8403-fbeb4a4f450b",
+      "type": "paragraph",
+      "text": "The final marks for each student in each year were used to determine progression. Clustering of cohort 1 on the first year shows that 3 clusters were found in the first year: Low, Intermediate and High.",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-800b-8403-fbeb4a4f450b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:10:00.000Z",
+        "last_edited_time": "2024-10-23T17:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The final marks for each student in each year were used to determine progression. Clustering of cohort 1 on the first year shows that 3 clusters were found in the first year: Low, Intermediate and High.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The final marks for each student in each year were used to determine progression. Clustering of cohort 1 on the first year shows that 3 clusters were found in the first year: Low, Intermediate and High.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80d7-ba7a-ce4032c310a2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80d7-ba7a-ce4032c310a2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:16:00.000Z",
+        "last_edited_time": "2024-10-23T17:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-8068-b68e-cccf47b5b3df",
+      "type": "paragraph",
+      "text": "When considering all four years, the same pattern emerges… some students have generally low grades, others keep in the intermediate and a final subset is on the high end of the grades. Most students in cohort 1 are intermediate throughout the coure excepting year 2 which has an abnormal amount of high marks. ",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-8068-b68e-cccf47b5b3df",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:16:00.000Z",
+        "last_edited_time": "2024-10-23T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When considering all four years, the same pattern emerges… some students have generally low grades, others keep in the intermediate and a final subset is on the high end of the grades. Most students in cohort 1 are intermediate throughout the coure excepting year 2 which has an abnormal amount of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When considering all four years, the same pattern emerges… some students have generally low grades, others keep in the intermediate and a final subset is on the high end of the grades. Most students in cohort 1 are intermediate throughout the coure excepting year 2 which has an abnormal amount of ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "high",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "high",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " marks. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " marks. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80e9-908f-f22aca530b46",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80e9-908f-f22aca530b46",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:22:00.000Z",
+        "last_edited_time": "2024-10-23T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/2ddb84da-381a-46d0-b176-57cfb8739785/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663QS4F7UL%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIElaQXgFhNkKcY0jLu6OfoTgYsV5EO4AAMD0gPyEmTuYAiA49rRmt4aJRs25cCMP75yTN21EJ2SwlQ0FbZGV4ZFj8yr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMNpf5dD5o3j57U1TOKtwDxXRbp4hdgHXp93BUrUEdqYqAy73YVMDagNszy3COtRv%2BrzB8SxnmdZicSaH9GZQqQBqDWZdQBvbfVR5KSepy2ErCaSxI3XlBqBbkq7wuq0bp9Gh79r6CI0Va8EZR9v%2F%2FpfL0PYfBYvWiE8YoxQIs9x%2BN%2BtyeZ8HVRNMQeQ%2BWEQ9NP5y9IPLZw7Fq0zS%2FPiZSMJSCrdiRg03e4Rnm%2BA8YOuI33dibSDlqIPTIf0FEPEgby23u2BgoYGiHMGd7vYQYWl8kS0%2FK7AqdiJwSzRkk9Piezqew9Dq%2Brk2G04Jcd%2Bf6Ci4Jymv2crkBImzWQy6iu%2BzImmrIM0LpwZwj7RdGSqiQmwvDCMnuOGR70ewEs209k6ws%2FMzFWRVAps7MnqSwPHXRi2EfqTdrchaBwxOHE5blI%2BeSTD%2FgK8tAKv24OQxmIPG2xcR8zyWGhmk65CL%2Br5nADu4Assjcc9YPULnAQCQ9NmnVbYEVMCRMQ%2FXBpc1NTFcO6aRbshzMlyBcb0mnaVMMZYifvyZxxSxhpqHilPgPiePBuKEELMlSpXN0OAx8k8TSOyf5hYWqI8GIxdMLCj6T0RisLrKL5KfE5yKLG1SeTj8Mv9yA9JZySwVNL4sDZtvsui1HwpwxCJ4w1u%2FzzgY6pgFIgrvB%2FLaWPKehz%2BBwdR7VzFgJh4NYH7bgqZKc9ahCR3qEx8Bvuhi8LVcoZJgsRzRTyTmS3RUDufDMA%2FieVjltyN2jJQ3iBGH4KnQ%2FV0pqTdLtz3BdUX87RkdeEceIZzgh%2FIdxD2xUC4ODMSDmJEDJVCSue9vJfn1dTwmL8hDAepB04q%2FuktNfneloQIFnRs0ZqOjv1Ya47BXduzu3O6xHZzPcmNsU&X-Amz-Signature=9c3a24f3d3d83bd9e5a30821935d7f0f32b5f4ccf10660adb01d3d45f9885119&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:34.225Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80d1-bafa-c1ddfc79b970",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80d1-bafa-c1ddfc79b970",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:22:00.000Z",
+        "last_edited_time": "2024-10-23T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-8071-9648-f27b8d4f9644",
+      "type": "paragraph",
+      "text": "Observations highlight that cohort 1 tends to include better performers than cohort 2, as noted by the clustering results in years 2, 3 and 4. Another observation is visible, which is that good students tend to remain good while bad students tend to stay bad.",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-8071-9648-f27b8d4f9644",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:22:00.000Z",
+        "last_edited_time": "2024-10-23T17:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Observations highlight that cohort 1 tends to include better performers than cohort 2, as noted by the clustering results in years 2, 3 and 4. Another observation is visible, which is that good students tend to remain good while bad students tend to stay bad.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Observations highlight that cohort 1 tends to include better performers than cohort 2, as noted by the clustering results in years 2, 3 and 4. Another observation is visible, which is that good students tend to remain good while bad students tend to stay bad.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80f4-ae48-fee13711248e",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80f4-ae48-fee13711248e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:26:00.000Z",
+        "last_edited_time": "2024-10-23T17:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/83a7945f-7d0e-46e8-a5ed-7f66985d0efd/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663QS4F7UL%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIElaQXgFhNkKcY0jLu6OfoTgYsV5EO4AAMD0gPyEmTuYAiA49rRmt4aJRs25cCMP75yTN21EJ2SwlQ0FbZGV4ZFj8yr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMNpf5dD5o3j57U1TOKtwDxXRbp4hdgHXp93BUrUEdqYqAy73YVMDagNszy3COtRv%2BrzB8SxnmdZicSaH9GZQqQBqDWZdQBvbfVR5KSepy2ErCaSxI3XlBqBbkq7wuq0bp9Gh79r6CI0Va8EZR9v%2F%2FpfL0PYfBYvWiE8YoxQIs9x%2BN%2BtyeZ8HVRNMQeQ%2BWEQ9NP5y9IPLZw7Fq0zS%2FPiZSMJSCrdiRg03e4Rnm%2BA8YOuI33dibSDlqIPTIf0FEPEgby23u2BgoYGiHMGd7vYQYWl8kS0%2FK7AqdiJwSzRkk9Piezqew9Dq%2Brk2G04Jcd%2Bf6Ci4Jymv2crkBImzWQy6iu%2BzImmrIM0LpwZwj7RdGSqiQmwvDCMnuOGR70ewEs209k6ws%2FMzFWRVAps7MnqSwPHXRi2EfqTdrchaBwxOHE5blI%2BeSTD%2FgK8tAKv24OQxmIPG2xcR8zyWGhmk65CL%2Br5nADu4Assjcc9YPULnAQCQ9NmnVbYEVMCRMQ%2FXBpc1NTFcO6aRbshzMlyBcb0mnaVMMZYifvyZxxSxhpqHilPgPiePBuKEELMlSpXN0OAx8k8TSOyf5hYWqI8GIxdMLCj6T0RisLrKL5KfE5yKLG1SeTj8Mv9yA9JZySwVNL4sDZtvsui1HwpwxCJ4w1u%2FzzgY6pgFIgrvB%2FLaWPKehz%2BBwdR7VzFgJh4NYH7bgqZKc9ahCR3qEx8Bvuhi8LVcoZJgsRzRTyTmS3RUDufDMA%2FieVjltyN2jJQ3iBGH4KnQ%2FV0pqTdLtz3BdUX87RkdeEceIZzgh%2FIdxD2xUC4ODMSDmJEDJVCSue9vJfn1dTwmL8hDAepB04q%2FuktNfneloQIFnRs0ZqOjv1Ya47BXduzu3O6xHZzPcmNsU&X-Amz-Signature=9f357ed0ff33ffbd0b021788a2dd63f8ac31d6c9c70c5a558400d686c646730e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:34.223Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-805f-9469-e7761ffcf86c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-805f-9469-e7761ffcf86c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:27:00.000Z",
+        "last_edited_time": "2024-10-23T17:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80f7-8d29-f7b98569a813",
+      "type": "paragraph",
+      "text": "The green bars shows that students that are performing betters in the first year, also tend to perform well as they advance in the course. Similarly, the red bars, also highloght the opposite in that most of the students who start performing worse tend to continue to be performing worse. ",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80f7-8d29-f7b98569a813",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:27:00.000Z",
+        "last_edited_time": "2024-10-23T17:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The green bars shows that students that are performing betters in the first year, also tend to perform well as they advance in the course. Similarly, the red bars, also highloght the opposite in that most of the students who start performing worse tend to continue to be performing worse. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The green bars shows that students that are performing betters in the first year, also tend to perform well as they advance in the course. Similarly, the red bars, also highloght the opposite in that most of the students who start performing worse tend to continue to be performing worse. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80a6-848e-c6300bf65196",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80a6-848e-c6300bf65196",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:39:00.000Z",
+        "last_edited_time": "2024-10-23T17:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-80a6-ac35-c73f09c838ec",
+      "type": "paragraph",
+      "text": "Some students do not follow these trends, but they are quite few. These students can only be detected from using the progression as it is what allows these measurements: clustering on all courses together does not highlight these students.",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-80a6-ac35-c73f09c838ec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:39:00.000Z",
+        "last_edited_time": "2024-10-23T17:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Some students do not follow these trends, but they are quite few. These students can only be detected from using the progression as it is what allows these measurements: clustering on all courses together does not highlight these students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Some students do not follow these trends, but they are quite few. These students can only be detected from using the progression as it is what allows these measurements: clustering on all courses together does not highlight these students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-8087-b91e-c116c1155755",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-8087-b91e-c116c1155755",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:45:00.000Z",
+        "last_edited_time": "2024-10-23T17:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-804e-bc30-d4f1d6ac7624",
+      "type": "paragraph",
+      "text": "The paper proceeds with a discussion of a would be pragmatic policy of using the pragmatic policy of using the marks of the first 2 years to identify students as “likely to have A or B” or “likely to be D and E” which intends to catch, as early as possible, both high performing students and students who are struggling. For that, they analyze the progressions of the students. Results show that applying this pragmatic policy would is cautious: when in doubt, flag students in need.",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-804e-bc30-d4f1d6ac7624",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:45:00.000Z",
+        "last_edited_time": "2024-10-23T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper proceeds with a discussion of a would be pragmatic policy of using the pragmatic policy of using the marks of the first 2 years to identify students as “likely to have A or B” or “likely to be D and E” which intends to catch, as early as possible, both high performing students and students who are struggling. For that, they analyze the progressions of the students. Results show that applying this pragmatic policy would is ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper proceeds with a discussion of a would be pragmatic policy of using the pragmatic policy of using the marks of the first 2 years to identify students as “likely to have A or B” or “likely to be D and E” which intends to catch, as early as possible, both high performing students and students who are struggling. For that, they analyze the progressions of the students. Results show that applying this pragmatic policy would is ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "cautious",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "cautious",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": when in doubt, flag students in need.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": when in doubt, flag students in need.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1284750c-f3ba-809e-a8d3-e6e643fb4f33",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1284750c-f3ba-809e-a8d3-e6e643fb4f33",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-23T17:44:00.000Z",
+        "last_edited_time": "2024-10-23T17:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-80dc-ad0d-f4aa69fafe8a",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-80dc-ad0d-f4aa69fafe8a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T21:49:00.000Z",
+        "last_edited_time": "2025-03-16T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1264750c-f3ba-80ed-88b5-e204d8af15a0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1264750c-f3ba-80ed-88b5-e204d8af15a0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-21T11:15:00.000Z",
+        "last_edited_time": "2024-10-21T11:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1244750c-f3ba-8083-b84d-f09778f74039",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1244750c-f3ba-8083-b84d-f09778f74039",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2024-10-19T21:49:00.000Z",
+        "last_edited_time": "2024-10-23T17:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-80cb-9057-f705b8e30b92",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-80cb-9057-f705b8e30b92",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2025-03-16T17:56:00.000Z",
+        "last_edited_time": "2025-03-16T17:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-80d0-9e93-f632ffdfd66b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-80d0-9e93-f632ffdfd66b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2025-03-16T17:56:00.000Z",
+        "last_edited_time": "2025-03-22T16:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1894750c-f3ba-8008-a8a4-c76e6e3f5be8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1894750c-f3ba-8008-a8a4-c76e6e3f5be8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "29721fe7-4dd2-4c0f-91e7-125e0e906b16"
+        },
+        "created_time": "2025-01-28T18:19:00.000Z",
+        "last_edited_time": "2025-01-28T18:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

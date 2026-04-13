@@ -1,0 +1,849 @@
+{
+  "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+  "title": "A Reinforcement Learning Based Recommendation System to Improve Performance of Students in Outcome Based Education Model",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "922540db-eee1-4544-8981-00d2976ba2b0",
+          "name": "Outcome Based Education",
+          "color": "purple"
+        },
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "90b663b5-639c-47fb-b453-572084f7685b",
+          "name": "Reinforcement Learning",
+          "color": "green"
+        },
+        {
+          "id": "aa3052ad-8432-4188-a0db-9a9aed75c9e0",
+          "name": "Q-Learning",
+          "color": "purple"
+        },
+        {
+          "id": "45821c40-fb33-4f1c-9f6c-af5738af629b",
+          "name": "Course Learning Outcome",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Access",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Access",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T21:34:00.000+00:00",
+        "end": "2025-08-04T22:26:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Tariq & Habib",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Tariq & Habib",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Reinforcement Learning Based Recommendation System to Improve Performance of Students in Outcome Based Education Model",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Reinforcement Learning Based Recommendation System to Improve Performance of Students in Outcome Based Education Model",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-8071-bb74-f0874bf2afe4",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "Blended Learning",
+          "Collaborative Filtering",
+          "Optimal Learning Policy",
+          "198 undergraduate students",
+          "Multiple Courses in a Software Engineering Program",
+          "Course Learning Outcomes, CLO marks, PLO Description, Course Information",
+          "The start state is based on Cosine similarity → which measures the degree of similarity between the learner’s CLOs and each Bi-Cluster.",
+          "Recommendations are designed in a way that maximizes what the author’s call return.\n",
+          "Dataset preparation involves the mapping of courses to CLOs (which are themselves mapped to PLOs and OBEs)- Students are assigned a score on CLO based on their marks - leading to the creation of a student CLO matrix.\n\nStudents are bi-clustered (in a way that a student can be assigned to different CLO sets - using Bibit - which requires converting CLO scores to 1/0 form. \n\nAfter forming the bi-clustersm the authors attempted to merge them absed on Jaccard similarity.\n\n",
+          "Recommendation for current defficient CLO",
+          "{Precision: 0.4241 - 500 episodes, Recall: 0.5389 - 500 episodes. F1-Score: 0.47420 - 500 episodes, CLO Coverage: 0.8045 - 450 episodes, Student Coverage: 0.9827 - 350 episodes onward}",
+          "Authors use Reinforcement Learning to create “optimal learning paths”. \n\nAuthors start with the creation of bi-clusters, and  these bi-clusters will be used as reference for trainining along a Square Grid. \n\nFrom here, Q-Learning is used to learn the optimal policy for the student in question. \n\nAuthors do a set of tests comparing the optimal policy against other randomly generated policies. Evaluation is done via comparison of prediction of a deficient CLO for a student vs actual deficient CLOs. Performance is tested on multiple episodes and the model is shown to be better at later iterations.\n\nAuthros also perform different optimizations of parameters.",
+          "- Training requires labels for deficient CLOs. \n\n- Only uses Q-Learn to solve the Reinforcement Learning problem. \n\n- Only Bibit is explored as a clustering approach.\n\n- Does not use student information beyibd the CLO scores for each student. \n\nCan only use used retrospectively: can only identify CLOs and make suggestions for CLOs taken in previous semesters.\n\n\n"
+        ]
+      ],
+      "index": 10
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8074-a888-fbdb2825c8b0",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8074-a888-fbdb2825c8b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:34:00.000Z",
+        "last_edited_time": "2025-03-12T21:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-802a-a899-d84cd0a6556b",
+      "type": "paragraph",
+      "text": "Outcome Based Education is an educational model with 3 main objectives: ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-802a-a899-d84cd0a6556b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:34:00.000Z",
+        "last_edited_time": "2025-03-12T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Outcome Based Education is an educational model with 3 main objectives: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Outcome Based Education is an educational model with 3 main objectives: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8014-a0da-f55625917bf3",
+      "type": "numbered_list_item",
+      "text": "Program Educational Objectives, ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8014-a0da-f55625917bf3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:35:00.000Z",
+        "last_edited_time": "2025-03-12T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Program Educational Objectives, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Program Educational Objectives, ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80e1-a4f6-f9b820a3b450",
+      "type": "numbered_list_item",
+      "text": "Program LEarning Outcomes",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80e1-a4f6-f9b820a3b450",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:35:00.000Z",
+        "last_edited_time": "2025-03-12T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Program LEarning Outcomes",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Program LEarning Outcomes",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8066-8c60-d86855540046",
+      "type": "numbered_list_item",
+      "text": "Course Learning Outcomes.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8066-8c60-d86855540046",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:35:00.000Z",
+        "last_edited_time": "2025-03-12T21:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Course Learning Outcomes.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Course Learning Outcomes.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8000-8438-eaeeca143f71",
+      "type": "paragraph",
+      "text": "The objective of the work is to recommend online resources so that students can develop their course Learning Outcomes. The authors create their own dataset and use it to create a student to CLO matrix using a bi-clustering approach.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8000-8438-eaeeca143f71",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:36:00.000Z",
+        "last_edited_time": "2025-03-12T21:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The objective of the work is to recommend online resources so that students can develop their course Learning Outcomes. The authors create their own dataset and use it to create a student to CLO matrix using a bi-clustering approach.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The objective of the work is to recommend online resources so that students can develop their course Learning Outcomes. The authors create their own dataset and use it to create a student to CLO matrix using a bi-clustering approach.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-809a-a4ea-e4d965decec9",
+      "type": "paragraph",
+      "text": "The Student student bi-cluster are then used as input for Reinforcement Learning environment that generates learning path sequences. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-809a-a4ea-e4d965decec9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-03-12T21:37:00.000Z",
+        "last_edited_time": "2025-03-12T21:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Student student bi-cluster are then used as input for Reinforcement Learning environment that generates learning path sequences. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Student student bi-cluster are then used as input for Reinforcement Learning environment that generates learning path sequences. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2454750c-f3ba-803d-b32c-c7ae5e91d362",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2454750c-f3ba-803d-b32c-c7ae5e91d362",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-08-04T17:49:00.000Z",
+        "last_edited_time": "2025-08-04T17:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2454750c-f3ba-80fe-9449-f1a2fa25606f",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2454750c-f3ba-80fe-9449-f1a2fa25606f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-08-04T17:49:00.000Z",
+        "last_edited_time": "2025-08-04T17:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/547aa9ce-62ee-46d9-b748-2d6305e7a550/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662LI47Z6A%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153314Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDq5wexCQykLShmTg6bWYw7HP1spZloPtwsWQouVJgmVgIhAIDIpny9JTexgCmF7cBNZxqc9eX0tt9HTpfVkeLWRtn3Kv8DCHcQABoMNjM3NDIzMTgzODA1IgyFjqoemoK73BzjFM4q3AOJPu4JIs%2FAg9tn9pjNDlHBJpQlKbQB0Uz5%2Bhl%2FpG%2B%2FvmPj%2B6jocJhotALnLaQ13eOEX08SNV0qkvFS5tZ%2Bzmss4HkFU9aECmcin7OU0p9Gd6eZoGsSEATr0iObNdLyXWBttQjMjUp4djueeSz5RazmPVQPX0kxZ3mrgm56wYkbtyWpb%2B1hWK0gZKL7BH3Fh0ZFFsxI%2BPk7zlyLxD8CTCdHAQGxI8y7egWCfLqBpXva%2BihXG1GdzhD3ZWWFZv2hYqqImSsct%2FLRRA%2Fl1pygRiErg87KntxFHXSR8bx04Os3SnrRXWF1dRdDETZ5Go30EvtIy8TQrmYwW9yUSmBKrgewp9jdKxkVs98X%2BKzQG4F1fzAQz7dHi%2Bc7EtdY5WLNVzLOunbIkexe%2Bo4CnvYUrtcLUiafmAXwNg%2F9BuevcLTrEi%2Bjvk2pjNFcFJWDqAHkXvFS7AiUyTNcSDx%2B0hAHyjaC7BqlDE%2FS%2Fc3sgt8RA90Po96JuwBs9TE1n%2FpSrzI0OH1QeFkbD7776Ren2B6gfVshaNj9GKcO5Gura8KiOjuG%2BfqrXihYh8mwRrWetoMBUIg97ZL0IJwLNkhx7ug8gvUh1k0OMkoEK5p6c41utuNUPVIFgXtvPCcmdGEKqDCD8vPOBjqkAQuV7SAq4bvWz41CvR%2BKRQr7%2FwWDGE1hkzPF4RzJPn%2BoR4Y88IIPH7in%2FmAR9IuxzLHi9enkkeAu1lGfbaYGea5Ch%2F2vAEmVHy8gLrc%2BuGJoXLRbZ3DeVoP6yIYb31%2BC0F4mlwQiwiZH5naHksvj8wicVSMIDJ5A%2BFNVd8fe%2BXeXkdDPziP8pkzVWGcIHiGCQxRxFEIawNJZpcf46xEZxN0V2xlP&X-Amz-Signature=43d3d8803ee52f1922c4591363d7925a6cc292e65048a8250ecaa16c1da07870&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:33:14.337Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-801b-8b1f-fda94937cd4f",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-801b-8b1f-fda94937cd4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-07-26T15:28:00.000Z",
+        "last_edited_time": "2025-07-26T15:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-8071-bb74-f0874bf2afe4",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-8071-bb74-f0874bf2afe4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+        },
+        "created_time": "2025-07-26T15:28:00.000Z",
+        "last_edited_time": "2025-07-26T15:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

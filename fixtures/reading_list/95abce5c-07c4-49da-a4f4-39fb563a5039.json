@@ -1,0 +1,666 @@
+{
+  "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039",
+  "title": "Mitigating Biases in Student Performance Prediction via Attention-Based Personalized Federated Learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "5325cc66-8a2e-4b63-b73b-8ebf34d86062",
+          "name": "Federated Learning",
+          "color": "pink"
+        },
+        {
+          "id": "e0a08013-0c12-4a18-8a2f-220fae7cb5f2",
+          "name": "Student Modeling",
+          "color": "gray"
+        },
+        {
+          "id": "34ce0550-39d5-464b-a38a-b0567fa413fb",
+          "name": "Personalization",
+          "color": "default"
+        },
+        {
+          "id": "6f7a93fb-1094-4048-b81d-a2e738e80807",
+          "name": "De-Biasing",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance Prediction\" AND \"Multi-modal”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance Prediction\" AND \"Multi-modal”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "CIKM",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "CIKM",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-04T09:00:00.000+01:00",
+        "end": "2025-08-31T23:56:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Chu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Chu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "17e08319-7ae5-4324-a3a5-99e460cc0353",
+          "name": "Federated Learning",
+          "color": "pink"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mitigating Biases in Student Performance Prediction via Attention-Based Personalized Federated Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mitigating Biases in Student Performance Prediction via Attention-Based Personalized Federated Learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2604750c-f3ba-800c-8d94-d95aa2e26b9a",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Completion of the Online Course",
+          "Pass (1) vs Fail (0)",
+          "1265 FOC learners, 2304 QDS learners, MOSFETs learners",
+          "Fiber Optic Communications, Quantum Detectors and Sensors and Essentials of MOSFETs graduate courses in Purdue University",
+          "Student characteristics, LMS logs",
+          "[watch_noquiz, watch_correct, watch_incorrect, watch_noanswer, forum_post, forum_reply, forum_view, gender, country, year of birth]",
+          "End of Course",
+          "Different activity types are represented with One-hot encoding. The nature of the data is being sequential -Activities are recorded for each timestep.\n\nIn addition, the students are separated bby different student subgroups.\n\nTraining is done with recourse to Self-Supervised learning: local-global that customizes predictions for each subgroup.\n\nWeight updates are done with recourse to attention mechanisms.\n",
+          "GRU, LSTM, AttnGRU-L, AttnGRU-G, FedAvg, FedAttn, FedIRT, Ourts-AtttnAgg, ",
+          "5-Fold Cross-Validation",
+          "FOC\n{AUC: [0.62,  0.83] - Ours}\n\nQDS\n{AUC: [0.656,  0.789] - Ours}\n\nMOSFETS\n{AUC: [0.613,  0.748] - Ours}",
+          "Authors train models for different subbgroups -Gender, Continent and Year of Birth. \n\nThe experiments includee testing the training of models speficic for subgroups vs more “global models”. Results show that the Personalized Models (Local with Self-Supervised Learning) consistently outperform the Global altrernatives.\n\nImprovements of separability are also noticeable via t-SNE visualizations",
+          "- Student subgroups weer defined by human criteria\n\nNo general results (irrespective of subgroup) are shown, which hinders interpretability of results."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "2a67e88f-1a2d-4bab-82e7-b3a6acb9760a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "2a67e88f-1a2d-4bab-82e7-b3a6acb9760a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2024-08-04T11:41:00.000Z",
+        "last_edited_time": "2024-08-04T11:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dc5abac7-b34c-48f9-a7eb-8c0350c9502f",
+      "type": "paragraph",
+      "text": "Problems with generalization of student models due to under representation of some student groups. Authors make use of federaed learning to create group specific models derived from a global student model. ",
+      "raw": {
+        "object": "block",
+        "id": "dc5abac7-b34c-48f9-a7eb-8c0350c9502f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2024-08-04T11:42:00.000Z",
+        "last_edited_time": "2024-08-04T11:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Problems with generalization of student models due to under representation of some student groups. Authors make use of federaed learning to create group specific models derived from a global student model. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Problems with generalization of student models due to under representation of some student groups. Authors make use of federaed learning to create group specific models derived from a global student model. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3c48dd29-0b3d-4d16-8dcf-8854297235a2",
+      "type": "paragraph",
+      "text": "Authors also use an attention mechanism to obtain better representations of student behavior. Results on 3 datasets show that approach is better at predicting student outcomes for all student subgroups.",
+      "raw": {
+        "object": "block",
+        "id": "3c48dd29-0b3d-4d16-8dcf-8854297235a2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2024-08-04T11:42:00.000Z",
+        "last_edited_time": "2024-08-04T11:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors also use an attention mechanism to obtain better representations of student behavior. Results on 3 datasets show that approach is better at predicting student outcomes for all student subgroups.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors also use an attention mechanism to obtain better representations of student behavior. Results on 3 datasets show that approach is better at predicting student outcomes for all student subgroups.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2604750c-f3ba-8097-a605-cce806508718",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2604750c-f3ba-8097-a605-cce806508718",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2025-08-31T22:21:00.000Z",
+        "last_edited_time": "2025-08-31T22:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2604750c-f3ba-8060-93b6-efea41da80f8",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2604750c-f3ba-8060-93b6-efea41da80f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2025-08-31T22:21:00.000Z",
+        "last_edited_time": "2025-08-31T22:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/738bd5c6-ec6f-4fea-9bb2-43c34429869c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZB7EWXV5%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152744Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIB8AI4xLc83xxiItAmFybmbeX7n1zPmiQ1Lg64Tm6UPXAiBeeXcAhoSLzujw2mNjusBJly59YymFdKpSesGXCTKG6Cr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMtWnq91VjSfDnZrCnKtwDhOO51PUogoX6durMR9UQmDwLnFD%2BQchIRrwQTHAmreEPJ03HUdgyBwYsFXTbHPj%2FiaNn2%2B3VjCHFqM5L3NskusRXDpe8mJnAeuf4oU9fhJxlpNY6X1unz9sqsYBz%2FtZYQrgYs1c2h8Z7Fc3Y7jwSAEgwumAnqPENg%2FvU1A1bfh6cG%2FvTrGZdRN16%2FDbtI4LPG8vDTqGuqInedgiQU7lZEP4ezbdo2nZFidFI0qCtQHCtrkdhtugf7NUmK8emCbCgQIUCB5j2rv0hCIaqg7Jc%2FuAhkbRSNG%2B4iz9tOFkrAsAIvihCIwwCVCDXUmCaaw2FfL4bSMPrIgFak%2FAcS3G9JZi%2BBUX7nedfrcOhnvLxmoXI8AHrxg1EBLogxdhtjfK6%2F6sz8c%2BYMcB26MDRN6BY7w%2BhhoDhGlXuZntfsSjNYa1VSVXMiCQowapbtzfMWddknrdzwp6YqtCk82oEmq6p3UT6R0LkavfYUQfUGsMgPnqke%2BR%2BAJ4kwnEJeQ9Jr1fEOn%2BxtC46suZEe2iv7DSvTJ0qjIHQum0AZ81YxImarWieQkwEAijWcZyEfY8iRSqrjLt4%2FqzZFtSi%2F0PJ%2BVUGERwndlmrmdSreZG7lmetv6kw8P3aU2AT%2BZTl8sowzu7zzgY6pgGMxuOHwZgolhTGACPHmZ9uGjXwMNAUozKpgW3oszsp15GuXIWgJwAAPvv6ZNhgRfR8BUuuqllfkHFAMBTyCH2bRetFy5uV7VddRXB4%2Favw73MtwRy0If%2BJehgGRRRGzN1te9nV4WmSK14foNH%2FmMQb2uzvIgEMFH8Wtmld7GX58tU2UIq7baoElthodTR%2B6hdRMb93FUdYx8IlqHlu2ZQc4c7gs%2BsL&X-Amz-Signature=bcf9dafd8581df0c6eeaef8eaf8ad67ad25a1288bcc48f8b7fc98a24bbca5300&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:27:44.358Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2604750c-f3ba-802d-9c23-fa9baae12b42",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2604750c-f3ba-802d-9c23-fa9baae12b42",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2025-08-31T21:41:00.000Z",
+        "last_edited_time": "2025-08-31T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2604750c-f3ba-800c-8d94-d95aa2e26b9a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2604750c-f3ba-800c-8d94-d95aa2e26b9a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "95abce5c-07c4-49da-a4f4-39fb563a5039"
+        },
+        "created_time": "2025-08-31T21:41:00.000Z",
+        "last_edited_time": "2025-08-31T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

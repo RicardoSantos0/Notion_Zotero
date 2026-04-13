@@ -1,0 +1,866 @@
+{
+  "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c",
+  "title": "Personalizing Computer Science Education by Leveraging Multimodal Learning Analytics",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "87b32258-e49f-4208-b4f2-0360ba35bae0",
+          "name": "Computer Science Education",
+          "color": "purple"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "48f48730-d0f7-45df-9b0d-8c22aa60b3b2",
+          "name": "Predictive Modeling",
+          "color": "gray"
+        },
+        {
+          "id": "ead80d6f-460e-4bfd-a80a-ec23995c6809",
+          "name": "Peer Learning",
+          "color": "brown"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"At-risk students\" AND \"Learning Strategies”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"At-risk students\" AND \"Learning Strategies”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Frontiers in Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Frontiers in Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "h:oF",
+        "name": "Integrated in LMS",
+        "color": "brown"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T15:00:00.000+01:00",
+        "end": "2025-04-27T23:29:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Azcona et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Azcona et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Personalizing Computer Science Education by Leveraging Multimodal Learning Analytics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Personalizing Computer Science Education by Leveraging Multimodal Learning Analytics",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1e24750c-f3ba-8085-a6cf-f8d1e5654179",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Success in Lab Assessments",
+          "Pass (1) vs Fail (0)",
+          "282 students",
+          "3 Programming Courses: CS2, SH1, PF2",
+          "Student Characteristics, Academic History, Programming Submissions, LMS logs",
+          "[Distance, CAO Points, MAth LC, Avg. Grade, Exam Course Year, Results Wx, Cumulative Wx, Lab Attendance Wx, Time Wx, Lab Access Wx, Hour Access Wx, Checking Wx, On/of Campus Wx, Week(end) Wx]",
+          "Every Week (Before Assignment Submission)",
+          "The different features were extracted on a course-specific perspective.\n\nContent of exercises or assignments specifically was not considererd because the specifics differ signifcantly from year to year.\n\nDuring Cross-Validation, the authors selected their top 10 features for every week.\n\n",
+          "Linear SVM, Gaussian SVM, Random Forest, Decision Tree, kNN, Logistic Regression",
+          "10-Fold Cross-Validation",
+          "CS2-Fail\n{F1-Score: 0.7450 - kNN, Precision: 0.7141 - kNN, Recall: 0.8103 - kNN}\n\nCS2-Pass\n{F1-Score: 0.5981 - kNN, Precision: 0.6880 - kNN, Recall: 0.5874 - kNN}\n\nSH1-Fail\n{F1-Score: 0.6777 - Linear SVM, Precision: 0.7141  - Linear SVM, Recall: 06954 - Linear SVM}\n\nSH1-Pass\n{F1-Score: 0.4161 - Linear SVM, Precision: 0.4553 - Linear SVM, Recall: 0.4282 - Linear SVM}\n\nPF2-Fail\n{F1-Score: 0.6673 - Decision Tree, Precision: 0.6858 - Decision Tree, Recall: 0.6954 - Decision Tree}\n\nPF2-Pass\n{F1-Score: 0.5500 - Decision Tree, Precision: 0.5862 - Decision Tree, Recall: 0.5964 - Decision Tree}",
+          "Author create a set of models that predicts succes in programming assignment for every week.\n\nThis was an opt-in system. Students who participated were not only part of the early warning system but also participated in a sub-sequent recommender prototype.\n\n",
+          "Specific to programming content and submissions.\n\nRelatively small sample size."
+        ]
+      ],
+      "index": 7
+    },
+    {
+      "block_id": "1e24750c-f3ba-809d-ba9b-ef6b783a9707",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "Blended Learning",
+          "Content-Based Filtering",
+          "Computer Programming Recommendations",
+          "133 CS2 students, 81 SH1 students, 60 PF3 students",
+          "Programming Courses: CS2, SH1, PF3",
+          "Programming submissions",
+          "Recommendations are constructed based on a knowledge graph based on professor’s notion of important concepts.",
+          "-",
+          "The recommendations are a part of intervention.\n\nAt the end of each week, the system sends an e-mail notification to students with their progress and, if learner failed at submission.",
+          "Most similar successful submission from top student.",
+          "CS2: \n{% of Corrected Suggestions: 0.1160, Differential improvement for Opting-in: 0.0585}\n\nSH1 \n{% of Corrected Suggestions: 0.1866, Differential improvement for Opting-in: 0.0896}\n\nPF3: \n{% of Corrected Suggestions: 0.1000, Differential improvement for Opting-in: 0.0374}",
+          "Participation in the intervention work was considered optional - After taking first exam, learners were offered the chance of receiving interventions vs not receiving them.\n\nAuthors measured “improvement” between students who opted in vs students who opted out:  All students performed badly on second exam but the decrease for students who opted-in was, at least, smaller.\n\nPositive feedback for interventions.",
+          "Interventions are aimed for students flagged as likely to fail → Vulnerable to Misclassifications.\n\nRequires more data for better recommendations.\n\nDoers not test other equally valid recommender sstem approachs such as Collaborative Filtering."
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "9127c236-c621-40bf-8a6b-e4c9ef321495",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "9127c236-c621-40bf-8a6b-e4c9ef321495",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2024-07-31T17:51:00.000Z",
+        "last_edited_time": "2025-04-27T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ff996be6-f856-487a-a652-2b15f28aa7dd",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ff996be6-f856-487a-a652-2b15f28aa7dd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2024-07-31T17:51:00.000Z",
+        "last_edited_time": "2024-07-31T17:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0d5117d9-cbc9-4e2e-80bf-444ede329a69",
+      "type": "paragraph",
+      "text": "The paper presents a platform called PredictCS that identifies struggling students AND makes personalized recommendations to them. The system contains a dashboard.",
+      "raw": {
+        "object": "block",
+        "id": "0d5117d9-cbc9-4e2e-80bf-444ede329a69",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2024-07-31T17:51:00.000Z",
+        "last_edited_time": "2024-07-31T17:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper presents a platform called PredictCS that identifies struggling students AND makes personalized recommendations to them. The system contains a dashboard.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper presents a platform called PredictCS that identifies struggling students AND makes personalized recommendations to them. The system contains a dashboard.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d7f524f5-f73d-4200-bc25-3a7cea539057",
+      "type": "paragraph",
+      "text": "For the predictive modeling part, the system uses historical data, demographics, logged interactions and progress in Labs to predict end of course achievement every week. By the second part of the semester, students were given an opt-in option to receive how well they are expected to do in the course AND recommendations to tackle their difficulties. ",
+      "raw": {
+        "object": "block",
+        "id": "d7f524f5-f73d-4200-bc25-3a7cea539057",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2024-07-31T17:53:00.000Z",
+        "last_edited_time": "2024-07-31T17:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "For the predictive modeling part, the system uses historical data, demographics, logged interactions and progress in Labs to predict end of course achievement every week. By the second part of the semester, students were given an opt-in option to receive how well they are expected to do in the course AND recommendations to tackle their difficulties. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For the predictive modeling part, the system uses historical data, demographics, logged interactions and progress in Labs to predict end of course achievement every week. By the second part of the semester, students were given an opt-in option to receive how well they are expected to do in the course AND recommendations to tackle their difficulties. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e6427ec8-201c-4d6a-b34f-207c18475781",
+      "type": "paragraph",
+      "text": "The performance of students that received feedback vs the ones who haven’t is compared and the difference between one group and the other has been reduced.",
+      "raw": {
+        "object": "block",
+        "id": "e6427ec8-201c-4d6a-b34f-207c18475781",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2024-07-31T17:55:00.000Z",
+        "last_edited_time": "2024-07-31T17:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The performance of students that received feedback vs the ones who haven’t is compared and the difference between one group and the other has been reduced.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The performance of students that received feedback vs the ones who haven’t is compared and the difference between one group and the other has been reduced.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-8066-9137-ebdd6fb628cf",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-8066-9137-ebdd6fb628cf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T22:14:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-80da-823c-e4c2c647d15c",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-80da-823c-e4c2c647d15c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T16:52:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-8085-a6cf-f8d1e5654179",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-8085-a6cf-f8d1e5654179",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T16:52:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-809a-b407-d1ff2e3d1fd1",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-809a-b407-d1ff2e3d1fd1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T22:14:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-809d-ba9b-ef6b783a9707",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-809d-ba9b-ef6b783a9707",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T22:14:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e24750c-f3ba-8025-9a3f-da670fbd9a46",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e24750c-f3ba-8025-9a3f-da670fbd9a46",
+        "parent": {
+          "type": "page_id",
+          "page_id": "189f2a61-52f2-477e-b2b4-eebe2934fb4c"
+        },
+        "created_time": "2025-04-27T22:14:00.000Z",
+        "last_edited_time": "2025-04-27T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

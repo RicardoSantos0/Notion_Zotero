@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818",
+      "title": "A Semi-Supervised Learning Approach for Predicting Student's Performance: First-Year Students Case Study",
+      "authors": [],
+      "year": null,
+      "journal": "ICTS",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_8fdf476f",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "End of First Year Success (divided by Clustering Labels)",
+          "Target": "Medium vs High Performance",
+          "Students": "140 first-year students",
+          "Courses": "Mathematics programs",
+          "Data sources": "Questionnaire",
+          "Features": "[Gender, Traveltime, Age, Cost, City, Activities, School, Part-time Job, Fedu, Sports, Fjob, Paidclass, Medu, Study Method, Mjob, Study time, Income, Motivation, Famsize, Free time, Siblings, Health, Location, Major, Distance, CGPA, Transport]",
+          "Moment of Prediction": "End of first semester",
+          "Preprocessing Details": "Data is collected from questionnaires, with 27 variables. \n\nThe data is given to a k-means algorithm with each cluster label representing one possible value of target.",
+          "Models": "Naibe Bayes",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.96 - NB, Sensitivity: 0.9286 - NB, Specificity: 1 - NB}",
+          "Comments": "From description, it seems that clusters are created using entire dataset.\n\nTarget variable is obtained as result of clustering. \n\n",
+          "Limitations": "Small sample size\n\nHoldout method\n\nOnly uses NB\n\nLikely has implementation errors\n\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_47f21686",
+      "reference_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818",
+      "text": "Academic achievements is a hall-mark of a high quality academic institution and the performance of students in the firsat year is usally a good indicator of student success later down the line. ",
+      "provenance": {
+        "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+      }
+    },
+    {
+      "id": "an_db3550b1",
+      "reference_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818",
+      "text": "The authors use Semi-Supervised learning to classify students in an Indonesian University based on their performance - Medium/High. Authors use sample of 140 students and 27 features. The approach starts with the use of clustering (k-Means) followed by classification (Naive Bayes).  Model performance published indicate very high performances.",
+      "provenance": {
+        "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+      }
+    }
+  ],
+  "workflow_states": []
+}

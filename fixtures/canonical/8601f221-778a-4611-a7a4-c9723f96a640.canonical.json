@@ -1,0 +1,132 @@
+{
+  "references": [
+    {
+      "id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "title": "Hierarchical reinforcement learning with dynamic recurrent mechanism for course recommendation",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge-Based Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_241a0d0c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Course Recommendations",
+          "Students": "82505 MOOCCourse learners\n\n55203 MOOCCube learners",
+          "Courses": "1302 + 706 courses",
+          "Data sources": "LMS logs, \nEnrollment History\n",
+          "Initialization Method": "- User initial states are computed from learner profile vectors (historical learning behavior, interests and knowledge coverage).\n\n- Reward scaling is initialized as 1\n\nQ-network weights are randomly initialized for both agents",
+          "Updates to Recommendations": "- High-level agent selects a learning goal.\n\n- Low-level agent recommends a course sequence to achieve the goal.\n\n- Rewards are dynamically adjusted on learner’s engagement, completion and satiscfction after each interaction.\n\n- Policies are updated using a Dynamic Recurrent Mechanism",
+          "Preprocessing Details": "- Inactive users were removed, leaving in total 32000 students.\n\nCourse vectors were created using Word2Vec\n\nLearner features are normalized and concatenated with engagement metrics\n\nAuthors use Holdout Method, making the separation by Learner ID.",
+          "Recommendation types": "Top-N courses ",
+          "Evaluation": "MOOCCourse\n{HR@10: 0.7797 - HELAR_W, HR@20: 0.8786 - HELAR_W, NDCG@10: 0.5414 - HELAR_W, NDCG@20: 0.5671 - HELAR_W}\n\nMOOCCube\n{HR@10: 0.8419 - HELAR_A, HR@20: 0.9426 - HELAR_A, NDCG@10: 0.585 - HELAR_W, NDCG@20: 0.6136 - HELAR_W}",
+          "Comments": "Authors use Hierarchical Reinforcement Learning to develop a dual-based recommender system:\n\nHigher-level Agent: Decides the students’ learning goal, \n\nLower-level Agent: Recommends Specific Courses\n\nThis system outperforms multiple baselines\n\nAuthors create 2 alternative HELARs:\n\nHELAR_W → brings the Attention Coefficient into the objective function\n\nHELAR_A → Brings Attention Weight Matrix into Objective Function\n",
+          "Limitations": "- Model training requires enough data for 2 Q-matrices\n\n- Reward design depends on platform-specific metrics\n\n- No specific handling of cold-start scenario"
+        }
+      ],
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+        "block_index": 19
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_74ef50c0",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "The authors adddress the course selection in an online scenario problem by using Reinforcement Learning to create a dynamic representation of learners. However RL approaches often come short due to the exploration-exploitation tradeoff. Hierarchical Reinforcement Learning with Dynamic Recurrent mechanism (HELAR) includes a novel policy gradient method → a recurrent scheme that exploits current knowledge while also exploring learning preferences.",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_8c3669f8",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Results from Backtests on 2 datasets with positive results. ",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_f1c7507f",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "What the paper does:",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_6cfa0947",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Instead of recommending a single next course, this system builds a two-level decision process:",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_07a4c1ec",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "It learns from historical behavior and continuously updates its strategy as learners engage (or disengage) with the platform.",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_231e7799",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Why it matters:",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_d3b35557",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Traditional recommenders (like CF or GRU4Rec) only look at short-term clicks. Here, reinforcement learning (RL) focuses on long-term learning success—whether a student completes and benefits from a sequence of courses. The “dynamic reward adjustment” gives higher feedback when engagement increases and penalizes the agent when students drop out or rate courses poorly.",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_c47d8dc0",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Main findings:",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_81110144",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "Bottom line:",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    },
+    {
+      "id": "an_a73e6bba",
+      "reference_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+      "text": "The system learns to recommend whole learning pathways instead of isolated courses, balancing exploration (new topics) and exploitation (familiar domains). It’s powerful but computationally demanding, requiring careful reward tuning and large-scale behavioral data.",
+      "provenance": {
+        "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+      }
+    }
+  ],
+  "workflow_states": []
+}

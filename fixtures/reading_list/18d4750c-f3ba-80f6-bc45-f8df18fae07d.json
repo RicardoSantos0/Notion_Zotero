@@ -1,0 +1,574 @@
+{
+  "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d",
+  "title": "University student retention: Best time and data to identify undergraduate students at risk of dropout",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "87d17d2e-89c3-4e16-9a76-df4cba371253",
+          "name": "Higher Education",
+          "color": "gray"
+        },
+        {
+          "id": "800c980f-6a26-498f-80fd-4a349b46b527",
+          "name": "Student Withdrawal",
+          "color": "orange"
+        },
+        {
+          "id": "5f22cae6-4dd2-42f4-a1a3-079ec1651d3f",
+          "name": "Student Dropout",
+          "color": "blue"
+        },
+        {
+          "id": "e0ace098-09b8-4676-b919-70c42e634c41",
+          "name": "Classification Trees",
+          "color": "brown"
+        },
+        {
+          "id": "94c62c12-5c86-4d1b-8ea0-8fead28524d9",
+          "name": "Retention Strategies",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Innovations in Education and Teaching International",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Innovations in Education and Teaching International",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "387caf66-e381-4bfa-bddc-ef3c33b1670e",
+        "name": "Not started",
+        "color": "red"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Comparison",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Comparison",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T13:07:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ortiz-Lozano",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ortiz-Lozano",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "University student retention: Best time and data to identify undergraduate students at risk of dropout",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "University student retention: Best time and data to identify undergraduate students at risk of dropout",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c14750c-f3ba-8045-8a82-f8c58780f580",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Being at Risk of Dropping out of School",
+          "Dropout vs No Dropout",
+          "935 First-Year Engineering Students",
+          "1 Electromechanical Engineering Degree over 4 Academic Years",
+          "Student Demographics,\nAcademic Performance\n",
+          "[Gender, InterItinerary, AccessUniv, SubAccessUniv, EorkExpPrevYear, MarkUnivAccess, PassInterChemistry, PassInterPhysiscs, PassInterCalculusI, PassInterGE, PaassInterIT, AsInterAlg_Geom, PassPhysics, PassCalculusI, PassIT, PasGE, *assIT_GE]",
+          "During First Semester",
+          "The create 3 models, one per moment of prediction:\n\n1 - Induction Week\n\n2 - Semester Halfway Point - Variables PassInter are added\n\n3- End of First Semester - Variables Pass are added.",
+          "CART\nQUEST",
+          "None",
+          "{Accuracy: 0.76 - Full 1st Semester Data}",
+          "Authors explore 3 distinct moments of prediction dduring the first semester to identify Dropout.",
+          "No Separate Validation or Test Dataset → Results published refer to training Data Only.\n\nSmall Sample Size\n\nEvaluates Model Performance using Accuracy.\n\n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-8038-90ad-c3be98bfc5c4",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8038-90ad-c3be98bfc5c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d"
+        },
+        "created_time": "2025-02-05T13:05:00.000Z",
+        "last_edited_time": "2025-02-05T13:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8058-aa45-ebdfdde4a8cf",
+      "type": "paragraph",
+      "text": "There don’t seem be many studies actually looking into identifying the optimal time to identify dropout. Authors use demographics and academic data from 935 students from an engineering school and use DT predict dropout (withdrawal). To identify the optimal time, authors choose 3 distinct moments of prediction during the first-year’s first semester. Authors find academic is a good early predictor of dropout. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8058-aa45-ebdfdde4a8cf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d"
+        },
+        "created_time": "2025-02-05T13:06:00.000Z",
+        "last_edited_time": "2025-02-05T13:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There don’t seem be many studies actually looking into identifying the optimal time to identify dropout. Authors use demographics and academic data from 935 students from an engineering school and use DT predict dropout (withdrawal). To identify the optimal time, authors choose 3 distinct moments of prediction during the first-year’s first semester. Authors find academic is a good early predictor of dropout. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There don’t seem be many studies actually looking into identifying the optimal time to identify dropout. Authors use demographics and academic data from 935 students from an engineering school and use DT predict dropout (withdrawal). To identify the optimal time, authors choose 3 distinct moments of prediction during the first-year’s first semester. Authors find academic is a good early predictor of dropout. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-8082-8a48-ce806c4406fc",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-8082-8a48-ce806c4406fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d"
+        },
+        "created_time": "2025-03-25T23:17:00.000Z",
+        "last_edited_time": "2025-03-25T23:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-80fa-8ee1-ded3dab43dec",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-80fa-8ee1-ded3dab43dec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d"
+        },
+        "created_time": "2025-03-25T23:17:00.000Z",
+        "last_edited_time": "2025-03-25T23:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-8045-8a82-f8c58780f580",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-8045-8a82-f8c58780f580",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80f6-bc45-f8df18fae07d"
+        },
+        "created_time": "2025-03-25T23:17:00.000Z",
+        "last_edited_time": "2025-03-25T23:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

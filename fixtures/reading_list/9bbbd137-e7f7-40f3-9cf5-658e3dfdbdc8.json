@@ -1,0 +1,3242 @@
+{
+  "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8",
+  "title": "Can we predict success from log data in VLEs? Classification of interactions for learning analytics and their relation with performance in VLE-supported F2F and online learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "00105ebb-3a04-4735-8869-7ceb49307cd6",
+          "name": "Interactions",
+          "color": "red"
+        },
+        {
+          "id": "76d125d8-d9af-49a2-9a29-0734aa00797f",
+          "name": "Educational Data",
+          "color": "gray"
+        },
+        {
+          "id": "0613c248-a036-4754-9495-f16628254133",
+          "name": "E-Learning",
+          "color": "green"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "ff5bfcac-22f1-4583-8487-4bf6a4aad273",
+          "name": "Academic Performance",
+          "color": "blue"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Clickstream Data”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Clickstream Data”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2014
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers in Human Behavior",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers in Human Behavior",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-27T10:00:00.000+01:00",
+        "end": "2024-08-27T12:49:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Agudo-Peregrina et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Agudo-Peregrina et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Can we predict success from log data in VLEs? Classification of interactions for learning analytics and their relation with performance in VLE-supported F2F and online learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Can we predict success from log data in VLEs? Classification of interactions for learning analytics and their relation with performance in VLE-supported F2F and online learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1b84750c-f3ba-808e-b41d-dc1a8b593e80",
+      "heading": "Limitations",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning or\nTraditional Setting",
+          "138 Online students\n218 Face-to-face students",
+          "6 online courses\n2 VLE-supported F2F courses",
+          "LMS",
+          "Moore’s Typology of Interaction Types",
+          "[Student–student, Student–content, Student–teacher, Student-system, Transmission of content, Creating class interactions,  Evaluating students, Evaluation of teachers and courses, Computer-based instruction, Active, Passive]",
+          "Categorization of the logs. Logs were categorized in 3 perspectives:\n\nAgent; Frequency; Mode",
+          "Multiple Linear Regression",
+          "{RSquared: 0.356 - Agent Classification, Adjusted-R2: 0.346, Agent Classification}",
+          "Not clustering, but authors distinguish between F2F courses and Online Courses.",
+          "Performance in F2F courses is not predicted by any of the variables extracted from the LMS.\n\nOn Online Courses, all variables related to Agent, Mode and Frequency were found to be significant at alpha=0.05, with Transmission of content being the only variable not significant at 0.01. ",
+          "It is necessary to study moderating effects of interactions in Online courses and additional data sources are needed to predict performance in F2F settings.\n\nIdentifying the most effective types of interactioins with the system may help course creators to re-design their courses to correct undesired behaviors.\n\nThere is potential is proceeding with better eploration of variables that explain performance, but also create recommender systems that benefit students. ",
+          "Features extracted refer to types of interactions. \n\nNo relationship could be found between any of the features and student final score in Face-to-Face Contexts.\n\nAuthors make a comparison between different forms of Log classification and try to find what are ones that best predict performance.\n\nAuthors argue that promoting the types of interactions that correlate with performance would be helpful.",
+          "Approach only reveals to be effective for online contexts, not VLE-Supported F2F.\n\nValidation in other educational settings. \n\nLimited data sources.\n\nInteractions are only evaluated by their type, with no specifics about the content of the interaction.\n\n"
+        ]
+      ],
+      "index": 58
+    }
+  ],
+  "blocks": [
+    {
+      "id": "2fb773af-c62f-4ef4-8a80-30f7e672aecf",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "2fb773af-c62f-4ef4-8a80-30f7e672aecf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-07-30T15:40:00.000Z",
+        "last_edited_time": "2024-07-30T15:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "85bdd457-634b-4d8e-b394-78580ca6dc9a",
+      "type": "paragraph",
+      "text": "A big challenge in learning analytics is understanding whether an interaction is meaningful for learning or not. Authors focus on understanding which interactions are meaningful and which aren’t. For that, they develop a nomenclature distinguishing between Online Learning contexts and F2F supported by VLE contexts.",
+      "raw": {
+        "object": "block",
+        "id": "85bdd457-634b-4d8e-b394-78580ca6dc9a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-07-30T15:40:00.000Z",
+        "last_edited_time": "2024-07-30T15:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A big challenge in learning analytics is understanding whether an interaction is meaningful for learning or not. Authors focus on understanding which interactions are meaningful and which aren’t. For that, they develop a nomenclature distinguishing between Online Learning contexts and F2F supported by VLE contexts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A big challenge in learning analytics is understanding whether an interaction is meaningful for learning or not. Authors focus on understanding which interactions are meaningful and which aren’t. For that, they develop a nomenclature distinguishing between Online Learning contexts and F2F supported by VLE contexts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b0442781-64a1-4c85-96d5-0174c269507a",
+      "type": "paragraph",
+      "text": "Authors found that, indeed, there are pedagogically meaningful interactions in Online Learning but failed to obtain similar results for F2F supported by VLE contexts. \n",
+      "raw": {
+        "object": "block",
+        "id": "b0442781-64a1-4c85-96d5-0174c269507a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-07-30T15:45:00.000Z",
+        "last_edited_time": "2024-08-27T09:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors found that, indeed, there are pedagogically meaningful interactions in Online Learning but failed to obtain similar results for F2F supported by VLE contexts. \n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors found that, indeed, there are pedagogically meaningful interactions in Online Learning but failed to obtain similar results for F2F supported by VLE contexts. \n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "251933d2-a6f6-40d0-8ba3-2beee1c1a60a",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "251933d2-a6f6-40d0-8ba3-2beee1c1a60a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:14:00.000Z",
+        "last_edited_time": "2024-08-27T09:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "20de5c7f-6e97-4535-a658-9f29430846e9",
+      "type": "paragraph",
+      "text": "It is difficult to identify what are the contributions of different types of interaction to student learning. In traditional learning paradigms, the teacher is often the guide by which learning occurs as the professor is the mediator between student and content. ",
+      "raw": {
+        "object": "block",
+        "id": "20de5c7f-6e97-4535-a658-9f29430846e9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:14:00.000Z",
+        "last_edited_time": "2024-08-27T09:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It is difficult to identify what are the contributions of different types of interaction to student learning. In traditional learning paradigms, the teacher is often the guide by which learning occurs as the professor is the mediator between student and content. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It is difficult to identify what are the contributions of different types of interaction to student learning. In traditional learning paradigms, the teacher is often the guide by which learning occurs as the professor is the mediator between student and content. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11d54a58-d797-43d9-8586-eae0f2f12319",
+      "type": "paragraph",
+      "text": "To that effect, there are 3 types of noteworthy interactions to consider:",
+      "raw": {
+        "object": "block",
+        "id": "11d54a58-d797-43d9-8586-eae0f2f12319",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:19:00.000Z",
+        "last_edited_time": "2024-08-27T09:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To that effect, there are 3 types of noteworthy interactions to consider:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To that effect, there are 3 types of noteworthy interactions to consider:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ec50966b-ca89-49fa-a711-5e8bf70a2aaf",
+      "type": "paragraph",
+      "text": "The authors argue that the latter 2 are more easily enhanced in e-learning scenarios. Moreover, these types of interactions on face-to-face scenarios are often informal which makes it really difficult to quantify their impact towards learning. LMS sort of facilitate this as they record interactions.",
+      "raw": {
+        "object": "block",
+        "id": "ec50966b-ca89-49fa-a711-5e8bf70a2aaf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:20:00.000Z",
+        "last_edited_time": "2024-08-27T09:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors argue that the latter 2 are more easily enhanced in e-learning scenarios. Moreover, these types of interactions on face-to-face scenarios are often informal which makes it really difficult to quantify their impact towards learning. LMS sort of facilitate this as they record interactions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors argue that the latter 2 are more easily enhanced in e-learning scenarios. Moreover, these types of interactions on face-to-face scenarios are often informal which makes it really difficult to quantify their impact towards learning. LMS sort of facilitate this as they record interactions.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "101b5c4e-207d-4088-8e9e-ac338fe4b9e5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "101b5c4e-207d-4088-8e9e-ac338fe4b9e5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:26:00.000Z",
+        "last_edited_time": "2024-08-27T09:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a08231bc-edee-429f-82ae-91ff6dd39f83",
+      "type": "paragraph",
+      "text": "The authors view LA as a field focused on the study on VLE logs. It emerged from the adoption of VLE in educational institutions and the proliferation of DM techniques. Since the goal of learning analytics is, at the end of the day, to understand and improve learning processes it is essential to understand and contextualize the types of interactions that exist between student and the VLE. The authors identify main types of approaches in LA:",
+      "raw": {
+        "object": "block",
+        "id": "a08231bc-edee-429f-82ae-91ff6dd39f83",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:26:00.000Z",
+        "last_edited_time": "2024-08-27T09:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors view LA as a field focused on the study on VLE logs. It emerged from the adoption of VLE in educational institutions and the proliferation of DM techniques. Since the goal of learning analytics is, at the end of the day, to understand and improve learning processes it is ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors view LA as a field focused on the study on VLE logs. It emerged from the adoption of VLE in educational institutions and the proliferation of DM techniques. Since the goal of learning analytics is, at the end of the day, to understand and improve learning processes it is ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "essential to understand and contextualize the types of interactions that exist between student and the VLE",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "essential to understand and contextualize the types of interactions that exist between student and the VLE",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". The authors identify main types of approaches in LA:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". The authors identify main types of approaches in LA:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cb2f82c2-875d-477a-8cd2-80c805d75199",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "cb2f82c2-875d-477a-8cd2-80c805d75199",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:40:00.000Z",
+        "last_edited_time": "2024-08-27T09:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8ab970da-187c-4838-a0e5-6eb864210c9f",
+      "type": "paragraph",
+      "text": "Over time, researchers have acknowledged that the interactions of learners with LMS or VLEs have some form of pedagogical meaning. However, researchers do not agree on what types of interactions have pedagogical meaning, what are the criteria for selection of relevant types of interactions. Thus, the proposed RQs are :",
+      "raw": {
+        "object": "block",
+        "id": "8ab970da-187c-4838-a0e5-6eb864210c9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:35:00.000Z",
+        "last_edited_time": "2024-08-27T09:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Over time, researchers have acknowledged that the interactions of learners with LMS or VLEs have some form of pedagogical meaning. However, researchers do not agree on what types of interactions have pedagogical meaning, what are the criteria for selection of relevant types of interactions. Thus, the proposed RQs are :",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Over time, researchers have acknowledged that the interactions of learners with LMS or VLEs have some form of pedagogical meaning. However, researchers do not agree on what types of interactions have pedagogical meaning, what are the criteria for selection of relevant types of interactions. Thus, the proposed RQs are :",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f410dc9e-be85-41d6-a5db-57c0553f1218",
+      "type": "numbered_list_item",
+      "text": "How to have system-independent framework for characterization of data in LA.",
+      "raw": {
+        "object": "block",
+        "id": "f410dc9e-be85-41d6-a5db-57c0553f1218",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:43:00.000Z",
+        "last_edited_time": "2024-08-27T09:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to have system-independent framework for characterization of data in LA.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to have system-independent framework for characterization of data in LA.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5585a737-e6ea-4186-912d-4cd1abd81319",
+      "type": "numbered_list_item",
+      "text": "Relationship between interactions and Learning Performance",
+      "raw": {
+        "object": "block",
+        "id": "5585a737-e6ea-4186-912d-4cd1abd81319",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:43:00.000Z",
+        "last_edited_time": "2024-08-27T09:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Relationship between interactions and Learning Performance",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Relationship between interactions and Learning Performance",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8e91f688-bafa-499d-bfce-9069eabbd23a",
+      "type": "numbered_list_item",
+      "text": "Effect of instruction mode on learning performance.",
+      "raw": {
+        "object": "block",
+        "id": "8e91f688-bafa-499d-bfce-9069eabbd23a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:44:00.000Z",
+        "last_edited_time": "2024-08-27T09:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Effect of instruction mode on learning performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Effect of instruction mode on learning performance.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9272d9c4-cceb-4566-918d-3402a719c619",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9272d9c4-cceb-4566-918d-3402a719c619",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:44:00.000Z",
+        "last_edited_time": "2024-08-27T09:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "342a871c-732e-414f-887b-8c2604823b9e",
+      "type": "paragraph",
+      "text": " Ultimately, the goal is to identify what are the correct types of interaction that it becomes easier to design early warning systems. But the goal is not to design an early warning system itself. The authors start the process of categorization of system independent interactions in two perspectives:",
+      "raw": {
+        "object": "block",
+        "id": "342a871c-732e-414f-887b-8c2604823b9e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:44:00.000Z",
+        "last_edited_time": "2024-08-27T10:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " Ultimately, the goal is to identify what are the correct types of interaction that it becomes easier to design early warning systems. But the goal is not to design an early warning system itself. The authors start the process of categorization of system independent interactions in two perspectives:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Ultimately, the goal is to identify what are the correct types of interaction that it becomes easier to design early warning systems. But the goal is not to design an early warning system itself. The authors start the process of categorization of system independent interactions in two perspectives:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b1dee569-661a-428f-85bb-a53725767c2a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b1dee569-661a-428f-85bb-a53725767c2a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:38:00.000Z",
+        "last_edited_time": "2024-08-27T10:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c8bcfee6-bbe4-4212-b6ea-293c85e0cd9d",
+      "type": "paragraph",
+      "text": "Agent - who/what is the student interacting with → content, teacher or peers.",
+      "raw": {
+        "object": "block",
+        "id": "c8bcfee6-bbe4-4212-b6ea-293c85e0cd9d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:38:00.000Z",
+        "last_edited_time": "2024-08-27T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Agent",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " - who/what is the student interacting with → content, teacher or peers.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " - who/what is the student interacting with → content, teacher or peers.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3cffe237-8cc3-410c-9a7a-8138a5f166dc",
+      "type": "paragraph",
+      "text": "Frequency of use - How often is this interaction present in a typical VLE (not how often it is used) - Most used, Moderately used, Rarely used.",
+      "raw": {
+        "object": "block",
+        "id": "3cffe237-8cc3-410c-9a7a-8138a5f166dc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:39:00.000Z",
+        "last_edited_time": "2024-08-27T10:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Frequency of use",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Frequency of use",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " - How often is this interaction present in a typical VLE (not how often it is used) - Most used, Moderately used, Rarely used.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " - How often is this interaction present in a typical VLE (not how often it is used) - Most used, Moderately used, Rarely used.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f33b23dd-7edb-4c4f-b3d1-53834641bdb4",
+      "type": "paragraph",
+      "text": "Participation Mode - Based on how student interacts with VLE.",
+      "raw": {
+        "object": "block",
+        "id": "f33b23dd-7edb-4c4f-b3d1-53834641bdb4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:41:00.000Z",
+        "last_edited_time": "2024-08-27T10:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Participation Mode",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Participation Mode",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " - Based on how student interacts with VLE.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " - Based on how student interacts with VLE.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bb9e6433-72be-4821-bb3d-e4e00716d5a9",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "bb9e6433-72be-4821-bb3d-e4e00716d5a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:40:00.000Z",
+        "last_edited_time": "2024-08-27T10:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fe74f642-0e3c-40a7-b0cf-5ffc2d700d68",
+      "type": "paragraph",
+      "text": "The first part of the paper stems from validating the 3 previously identified frameworks for classification of interactions and see whether these map to differences in student performance. The authors use data from 6 online courses (138 students) and 2 face-to-face courses (218 students). ",
+      "raw": {
+        "object": "block",
+        "id": "fe74f642-0e3c-40a7-b0cf-5ffc2d700d68",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:40:00.000Z",
+        "last_edited_time": "2024-08-27T10:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The first part of the paper stems from validating the 3 previously identified frameworks for classification of interactions and see whether these map to differences in student performance. The authors use data from 6 online courses (138 students) and 2 face-to-face courses (218 students). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The first part of the paper stems from validating the 3 previously identified frameworks for classification of interactions and see whether these map to differences in student performance. The authors use data from 6 online courses (138 students) and 2 face-to-face courses (218 students). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0648247c-80f6-4f43-bdeb-b2805322f9da",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "0648247c-80f6-4f43-bdeb-b2805322f9da",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:46:00.000Z",
+        "last_edited_time": "2024-08-27T10:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3d6a3ce7-fda2-4c6f-824b-0af58a34b93b",
+      "type": "paragraph",
+      "text": "Authors use Moodle for all the courses. Traditionally, the materials gradually become available as the semester advances but remain available afterward. ",
+      "raw": {
+        "object": "block",
+        "id": "3d6a3ce7-fda2-4c6f-824b-0af58a34b93b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:37:00.000Z",
+        "last_edited_time": "2024-08-27T10:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use Moodle for all the courses. Traditionally, the materials gradually become available as the semester advances but remain available afterward. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use Moodle for all the courses. Traditionally, the materials gradually become available as the semester advances but remain available afterward. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e4b4a7cb-3ac0-4071-ba08-5c50dbc4200d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e4b4a7cb-3ac0-4071-ba08-5c50dbc4200d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:55:00.000Z",
+        "last_edited_time": "2024-08-27T10:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1187c2dd-2ab3-44ed-b26f-4815c4a1f966",
+      "type": "paragraph",
+      "text": "Data Extraction",
+      "raw": {
+        "object": "block",
+        "id": "1187c2dd-2ab3-44ed-b26f-4815c4a1f966",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:55:00.000Z",
+        "last_edited_time": "2024-08-27T10:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data Extraction",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data Extraction",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a03024b8-40d6-4121-bb2a-92e6f1faa654",
+      "type": "paragraph",
+      "text": "Moodle records the logs of interactions between students and content. The authors resorted to extracting the logs. Filtering out of interactions according to the designated taxonomies is, at this stage not possible and requires additional pre-processing. ",
+      "raw": {
+        "object": "block",
+        "id": "a03024b8-40d6-4121-bb2a-92e6f1faa654",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:55:00.000Z",
+        "last_edited_time": "2024-08-27T10:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moodle records the logs of interactions between students and content. The authors resorted to extracting the logs. Filtering out of interactions according to the designated taxonomies is, at this stage not possible and requires additional pre-processing. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moodle records the logs of interactions between students and content. The authors resorted to extracting the logs. Filtering out of interactions according to the designated taxonomies is, at this stage not possible and requires additional pre-processing. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f0d46c5f-b7fe-4f84-ad60-ab76ec2b8bc0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f0d46c5f-b7fe-4f84-ad60-ab76ec2b8bc0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T10:57:00.000Z",
+        "last_edited_time": "2024-08-27T11:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "67855ecd-3cf0-4939-b541-0826be74c079",
+      "type": "paragraph",
+      "text": "Each possible interaction has been manually labelled by 2 experts. These classifications were subsequently assessed by 3 additional domain experts. The resulting categorizations are integrated in a Moodle Plugin in order to return the classified interactions. In essence, the work starts with manually labelling all of the interactions.  ",
+      "raw": {
+        "object": "block",
+        "id": "67855ecd-3cf0-4939-b541-0826be74c079",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T09:31:00.000Z",
+        "last_edited_time": "2024-08-27T11:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Each possible interaction has been manually labelled by 2 experts. These classifications were subsequently assessed by 3 additional domain experts. The resulting categorizations are integrated in a Moodle Plugin in order to return the classified interactions. In essence, the work starts with manually labelling all of the interactions.  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Each possible interaction has been manually labelled by 2 experts. These classifications were subsequently assessed by 3 additional domain experts. The resulting categorizations are integrated in a Moodle Plugin in order to return the classified interactions. In essence, the work starts with manually labelling all of the interactions.  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "09938dc5-4024-41df-bbb6-4f85d2787ded",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "09938dc5-4024-41df-bbb6-4f85d2787ded",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:00:00.000Z",
+        "last_edited_time": "2024-08-27T11:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d9bcd22f-86e6-4321-865d-27967f9f38eb",
+      "type": "paragraph",
+      "text": "Data Analysis",
+      "raw": {
+        "object": "block",
+        "id": "d9bcd22f-86e6-4321-865d-27967f9f38eb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:00:00.000Z",
+        "last_edited_time": "2024-08-27T11:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data Analysis",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data Analysis",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ab329f5d-682d-416d-a0e9-ec545d226337",
+      "type": "paragraph",
+      "text": "Data analysis was conducted in 2 distinct ways:",
+      "raw": {
+        "object": "block",
+        "id": "ab329f5d-682d-416d-a0e9-ec545d226337",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:03:00.000Z",
+        "last_edited_time": "2024-08-27T11:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data analysis was conducted in 2 distinct ways:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data analysis was conducted in 2 distinct ways:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "22486d19-1047-4b3b-b634-9273cee1d742",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "22486d19-1047-4b3b-b634-9273cee1d742",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:05:00.000Z",
+        "last_edited_time": "2024-08-27T11:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4a3702de-72d4-43fb-8b1a-6bef83910371",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "4a3702de-72d4-43fb-8b1a-6bef83910371",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:05:00.000Z",
+        "last_edited_time": "2024-08-27T11:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a1300a67-1768-4828-9817-bfb1741e77b4",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a1300a67-1768-4828-9817-bfb1741e77b4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:07:00.000Z",
+        "last_edited_time": "2025-03-16T16:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/33db5c51-d0fa-4809-b35b-2e438ada04e4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662SVPPMFP%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151842Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDlzxjAeHBc6nmWgaS9j3%2B3sGqc6y7XtdW6Q40LpXsMCAIhAL0ReipcOuPV80vu%2FHvTB1uQVu2ljtYtV3nxHuuMR4TUKv8DCHcQABoMNjM3NDIzMTgzODA1Igz%2BnOYoW6FqGNRqthsq3APlfNPlqeTL%2F1Znr72NHFwiD5Dotf1QQsZuxWZc5wcMVflh7908aBNfd2V0tuogh89kXwe0BCB2qTs0LhqJGgpC8%2BjITLufxyNcvF3Vh%2Bu3qztN0bLnPMQxksHrIbA61YUV9mmeECWEDtUX9e1aDn83glCTpKWXdXb1HEu6ps2fkFGvCej3Fu8SNAytQtwNjUvBgcua8vGXf%2FMPj9T1UnDwV56CpjVoBDzZyAB4MH%2Bc4KLyLCQSdO4mEwktDpqpMobnWW%2BUIEj5lLddMXArwNeGayJFSp4iRrQ9YZT44L6SVc7xYDkAG4cxvJnCNsyk2uVakBegGNjhzhQiaofIQSSrOK5EVwtIOZwNWbw1Hilvc6h6frdl9F7LRygBWCXi4%2Bg87g%2BERy%2Frkcbfh2aO4xMZZHMAN9RUysQ1Kfi4GoL4r%2FJ7j47hSNpz0liRbyGyLWkP34DiNDy4QLUu095idOjYLdickhlsoozqNtW4fqXmpD0MyxflCe4SCtoK85X9llQaKRtw8EHzoHB8ssGNpzgjqQ7NyAPMp4m4Chjycv%2BCi69BqeJ0I1h%2BTjBd3SukfBYSuz%2BHsvUypVmpfqsQkQEQkH9XcveY7mmizjxUSBL8sLJnQ3KcXuR31fqEbzC77vPOBjqkAUxNYceluL542nv8DhVoEOl1iKWT2wtsKiZuj0YVL5Rl896Zt7gW%2B%2FeFVzIHp08l5ObMRqMgnL6JtboEjyeQb6DHXZrOjhqt0uqBHiTgFXm%2BIis9ClmsPsvPEb2OJVghYnzh%2B4TR5QyX1HbzQeEWPTP0fiBZLqQsXql6Ziicggblo6Q6oNXkU4fitUOY78X0PNntmwjKJ9E1EzGHSOBeW6xWwlSV&X-Amz-Signature=d9ed55d3ded5d5185555f942fb74477e76d796b2867e4ce6658960e8877f1fed&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:18:42.563Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b7ce4e37-9e01-4c06-aab2-a4bbe8493d22",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b7ce4e37-9e01-4c06-aab2-a4bbe8493d22",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:07:00.000Z",
+        "last_edited_time": "2024-08-27T11:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3a8548db-951f-4f88-adb6-060c92304694",
+      "type": "paragraph",
+      "text": "From figure 2 - despite it being possible to see some differences in absolute number of interactions, most of the behaviors are similar between contexts - difference being Evaluating Students for the reason that F2F did not submit evaluations in the VLE. ",
+      "raw": {
+        "object": "block",
+        "id": "3a8548db-951f-4f88-adb6-060c92304694",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:14:00.000Z",
+        "last_edited_time": "2024-08-27T11:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "From figure 2 - despite it being possible to see some differences in absolute number of interactions, most of the behaviors are similar between contexts - difference being ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "From figure 2 - despite it being possible to see some differences in absolute number of interactions, most of the behaviors are similar between contexts - difference being ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Evaluating Students",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Evaluating Students",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " for the reason that F2F did not submit evaluations in the VLE. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " for the reason that F2F did not submit evaluations in the VLE. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c9ee5da0-03d3-4283-b043-57f66679fe8b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c9ee5da0-03d3-4283-b043-57f66679fe8b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:14:00.000Z",
+        "last_edited_time": "2024-08-27T11:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fe498833-3745-4fbe-b89f-d4e77370f309",
+      "type": "paragraph",
+      "text": "The authors look at the categorizations under the 3 perspectives. Most of the interactions in F2F contexts have very little correlation with the final grade and, in fact, none have statistically significant results. ",
+      "raw": {
+        "object": "block",
+        "id": "fe498833-3745-4fbe-b89f-d4e77370f309",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:07:00.000Z",
+        "last_edited_time": "2024-08-27T11:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors look at the categorizations under the 3 perspectives. Most of the interactions in F2F contexts have very little correlation with the final grade and, in fact, none have statistically significant results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors look at the categorizations under the 3 perspectives. Most of the interactions in F2F contexts have very little correlation with the final grade and, in fact, none have statistically significant results. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0b51619a-7fb6-43b5-a744-7899982866db",
+      "type": "paragraph",
+      "text": "However, for an online context, the types of interactions do seem to be linearly correlated with the final grade, with all correlations being moderate.  ",
+      "raw": {
+        "object": "block",
+        "id": "0b51619a-7fb6-43b5-a744-7899982866db",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:11:00.000Z",
+        "last_edited_time": "2024-08-27T11:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "However, for an online context, the types of interactions do seem to be linearly correlated with the final grade, with all correlations being moderate.  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However, for an online context, the types of interactions do seem to be linearly correlated with the final grade, with all correlations being moderate.  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c64737b7-be48-4688-8fac-eeeb3e5eb794",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c64737b7-be48-4688-8fac-eeeb3e5eb794",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:16:00.000Z",
+        "last_edited_time": "2024-08-27T11:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a9267b8e-7b8f-47ab-a79a-522f0cce2f1a",
+      "type": "paragraph",
+      "text": "When it comes to the regression, no predictive power was found in any of the types of interactions. In essence, the authors attempted 3 forms of categorization of the logs and attempted to see which led to the best predictions of the final grade via a Multiple Linear Regression. ",
+      "raw": {
+        "object": "block",
+        "id": "a9267b8e-7b8f-47ab-a79a-522f0cce2f1a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:16:00.000Z",
+        "last_edited_time": "2024-08-27T11:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to the regression, no predictive power was found in ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to the regression, no predictive power was found in ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "any of the types of interactions. In essence, the authors attempted 3 forms of categorization of the logs and attempted to see which led to the best predictions of the final grade via a Multiple Linear Regression. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "any of the types of interactions. In essence, the authors attempted 3 forms of categorization of the logs and attempted to see which led to the best predictions of the final grade via a Multiple Linear Regression. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9131aabe-8912-42c9-92f3-1c5463277e40",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9131aabe-8912-42c9-92f3-1c5463277e40",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:23:00.000Z",
+        "last_edited_time": "2025-01-23T19:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/c668d4bc-f52b-4b05-bbab-979ab32b3256/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662SVPPMFP%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151842Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDlzxjAeHBc6nmWgaS9j3%2B3sGqc6y7XtdW6Q40LpXsMCAIhAL0ReipcOuPV80vu%2FHvTB1uQVu2ljtYtV3nxHuuMR4TUKv8DCHcQABoMNjM3NDIzMTgzODA1Igz%2BnOYoW6FqGNRqthsq3APlfNPlqeTL%2F1Znr72NHFwiD5Dotf1QQsZuxWZc5wcMVflh7908aBNfd2V0tuogh89kXwe0BCB2qTs0LhqJGgpC8%2BjITLufxyNcvF3Vh%2Bu3qztN0bLnPMQxksHrIbA61YUV9mmeECWEDtUX9e1aDn83glCTpKWXdXb1HEu6ps2fkFGvCej3Fu8SNAytQtwNjUvBgcua8vGXf%2FMPj9T1UnDwV56CpjVoBDzZyAB4MH%2Bc4KLyLCQSdO4mEwktDpqpMobnWW%2BUIEj5lLddMXArwNeGayJFSp4iRrQ9YZT44L6SVc7xYDkAG4cxvJnCNsyk2uVakBegGNjhzhQiaofIQSSrOK5EVwtIOZwNWbw1Hilvc6h6frdl9F7LRygBWCXi4%2Bg87g%2BERy%2Frkcbfh2aO4xMZZHMAN9RUysQ1Kfi4GoL4r%2FJ7j47hSNpz0liRbyGyLWkP34DiNDy4QLUu095idOjYLdickhlsoozqNtW4fqXmpD0MyxflCe4SCtoK85X9llQaKRtw8EHzoHB8ssGNpzgjqQ7NyAPMp4m4Chjycv%2BCi69BqeJ0I1h%2BTjBd3SukfBYSuz%2BHsvUypVmpfqsQkQEQkH9XcveY7mmizjxUSBL8sLJnQ3KcXuR31fqEbzC77vPOBjqkAUxNYceluL542nv8DhVoEOl1iKWT2wtsKiZuj0YVL5Rl896Zt7gW%2B%2FeFVzIHp08l5ObMRqMgnL6JtboEjyeQb6DHXZrOjhqt0uqBHiTgFXm%2BIis9ClmsPsvPEb2OJVghYnzh%2B4TR5QyX1HbzQeEWPTP0fiBZLqQsXql6Ziicggblo6Q6oNXkU4fitUOY78X0PNntmwjKJ9E1EzGHSOBeW6xWwlSV&X-Amz-Signature=7f7b4a4c46198aa4a4131d1e9a12c57dfa6ca0adfd846547f8196ba897910cfd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:18:42.557Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "97c05df8-c69e-4bbb-b0fc-28a69f9c5d4f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "97c05df8-c69e-4bbb-b0fc-28a69f9c5d4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:23:00.000Z",
+        "last_edited_time": "2024-08-27T11:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f05c1d46-46df-42f3-8639-a6af0e50933b",
+      "type": "paragraph",
+      "text": "Results show that best performance is achieved when logs are classified according to the type of agent the learner is interacting with. ",
+      "raw": {
+        "object": "block",
+        "id": "f05c1d46-46df-42f3-8639-a6af0e50933b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:21:00.000Z",
+        "last_edited_time": "2024-08-27T11:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that best performance is achieved when logs are classified according to the type of agent the learner is interacting with. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that best performance is achieved when logs are classified according to the type of agent the learner is interacting with. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "46b26b95-03e8-436e-8c35-5f55a1179cf8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "46b26b95-03e8-436e-8c35-5f55a1179cf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:25:00.000Z",
+        "last_edited_time": "2024-08-27T11:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fcb7d865-6ef6-4302-9164-99093e890c6c",
+      "type": "heading_2",
+      "text": "Discussion",
+      "raw": {
+        "object": "block",
+        "id": "fcb7d865-6ef6-4302-9164-99093e890c6c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:25:00.000Z",
+        "last_edited_time": "2024-08-27T11:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "742e8566-7cff-4bd1-b9a6-29790ccd125a",
+      "type": "paragraph",
+      "text": "The authors' goal was to establish a course-independent nomenclature for labeling VLE interactions, which could indicate the importance of specific interactions. Despite the difficulty, they consider that they have been successful. ",
+      "raw": {
+        "object": "block",
+        "id": "742e8566-7cff-4bd1-b9a6-29790ccd125a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:25:00.000Z",
+        "last_edited_time": "2024-08-27T11:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors' goal was to establish a course-independent nomenclature for labeling VLE interactions, which could indicate the importance of specific interactions. Despite the difficulty, they consider that they have been successful. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors' goal was to establish a course-independent nomenclature for labeling VLE interactions, which could indicate the importance of specific interactions. Despite the difficulty, they consider that they have been successful. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "50b0ec5f-1250-4ead-aab4-50546aedb0f5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "50b0ec5f-1250-4ead-aab4-50546aedb0f5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:27:00.000Z",
+        "last_edited_time": "2024-08-27T11:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "978336ae-06da-4ee0-988f-dada65ea9e91",
+      "type": "paragraph",
+      "text": "This comes from the fact that they identify 3 types of interaction types that exhibit predictive potential of a student’s final grade. In more detail, they even find that Agent interaction type classification to be an effective way of labelling interactions of students for ONLINE contexts.",
+      "raw": {
+        "object": "block",
+        "id": "978336ae-06da-4ee0-988f-dada65ea9e91",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:27:00.000Z",
+        "last_edited_time": "2024-08-27T11:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This comes from the fact that they identify 3 types of interaction types that exhibit predictive potential of a student’s final grade. In more detail, they even find that ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This comes from the fact that they identify 3 types of interaction types that exhibit predictive potential of a student’s final grade. In more detail, they even find that ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Agent",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " interaction type classification to be an effective way of labelling interactions of students for ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " interaction type classification to be an effective way of labelling interactions of students for ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "ONLINE",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "ONLINE",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " contexts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " contexts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a1e9f13a-e30e-44d0-95b1-332962d25b55",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a1e9f13a-e30e-44d0-95b1-332962d25b55",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:30:00.000Z",
+        "last_edited_time": "2024-08-27T11:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2f37c338-07f9-4c52-a90c-f59e1884d7bd",
+      "type": "paragraph",
+      "text": "The authors also discuss some of the reasons for why their approach did not reveal any insights for F2F contexts: the tools used may not have the necessary resolution to be helpful for these contexts.",
+      "raw": {
+        "object": "block",
+        "id": "2f37c338-07f9-4c52-a90c-f59e1884d7bd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:30:00.000Z",
+        "last_edited_time": "2024-08-27T11:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors also discuss some of the reasons for why their approach did not reveal any insights for F2F contexts: the tools used may not have the necessary resolution to be helpful for these contexts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors also discuss some of the reasons for why their approach did not reveal any insights for F2F contexts: the tools used may not have the necessary resolution to be helpful for these contexts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7ce20465-35c2-4289-9c49-c0a910adaba8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7ce20465-35c2-4289-9c49-c0a910adaba8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:43:00.000Z",
+        "last_edited_time": "2024-08-27T11:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7f3169e3-017b-4771-89e3-4cfd7980c061",
+      "type": "paragraph",
+      "text": "Results do not always mirror the literature → in this study student-student interactions were found to be less important than in other works. ",
+      "raw": {
+        "object": "block",
+        "id": "7f3169e3-017b-4771-89e3-4cfd7980c061",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:30:00.000Z",
+        "last_edited_time": "2024-08-27T11:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results do not always mirror the literature → in this study student-student interactions were found to be less important than in other works. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results do not always mirror the literature → in this study student-student interactions were found to be less important than in other works. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "07b39f17-4603-4d9f-bf7a-4a62a8f2bf82",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "07b39f17-4603-4d9f-bf7a-4a62a8f2bf82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:44:00.000Z",
+        "last_edited_time": "2024-08-27T11:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25b93169-1cb5-4ba6-b9b8-11b5876a6cec",
+      "type": "heading_2",
+      "text": "Limitations",
+      "raw": {
+        "object": "block",
+        "id": "25b93169-1cb5-4ba6-b9b8-11b5876a6cec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:44:00.000Z",
+        "last_edited_time": "2024-08-27T11:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Limitations",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Limitations",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a2c34e83-ed00-4248-b72b-ce2dfb17b88b",
+      "type": "paragraph",
+      "text": "Study has a high focus on interaction types and their ability to predict student performance. It is very exploratory in nature. ",
+      "raw": {
+        "object": "block",
+        "id": "a2c34e83-ed00-4248-b72b-ce2dfb17b88b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-27T11:44:00.000Z",
+        "last_edited_time": "2024-08-27T11:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Study has a high focus on interaction types and their ability to predict student performance. It is very exploratory in nature. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Study has a high focus on interaction types and their ability to predict student performance. It is very exploratory in nature. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4118590c-1d4c-43f4-a9cb-d85b35881b72",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "4118590c-1d4c-43f4-a9cb-d85b35881b72",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2024-08-26T22:50:00.000Z",
+        "last_edited_time": "2025-03-16T16:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-808e-b41d-dc1a8b593e80",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-808e-b41d-dc1a8b593e80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2025-03-16T16:44:00.000Z",
+        "last_edited_time": "2025-03-22T16:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-804d-a592-d2637ecfb584",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-804d-a592-d2637ecfb584",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2025-03-16T16:44:00.000Z",
+        "last_edited_time": "2025-03-16T16:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-80af-8b24-d257f45d17ff",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-80af-8b24-d257f45d17ff",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2025-03-16T16:44:00.000Z",
+        "last_edited_time": "2025-03-16T16:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-80a8-815a-e8e62ebe057b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-80a8-815a-e8e62ebe057b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9bbbd137-e7f7-40f3-9cf5-658e3dfdbdc8"
+        },
+        "created_time": "2025-03-16T16:44:00.000Z",
+        "last_edited_time": "2025-03-16T16:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

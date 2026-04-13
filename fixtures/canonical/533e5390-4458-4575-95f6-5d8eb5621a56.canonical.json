@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "533e5390-4458-4575-95f6-5d8eb5621a56",
+      "title": "Accurate, timely, and portable: Course-agnostic early prediction of student performance from LMS logs",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education: Artificial Intelligence",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_538d7451",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Being at Risk of Failing in a Course ",
+          "Target": "At-Risk (1) vs Not At-Risk (0) ",
+          "Students": "1606 students from a Information Management School in Western Europe",
+          "Courses": "138 courses",
+          "Data sources": "LMS logs, Final Course Grades",
+          "Features": "[Total Clicks, Clicks (%), Online Sessions, Clicks/Session, Clicks/day, Forum Clicks, Discussions Viewed, Forum Posts, Folder Clicks, Resources Viewed, URLs Viewed, Course Clicks, Assessments Started, Assignments Viewed, Assignments Submitted, Submissions (%), Total Time Online, Average duration of session, Largest Period of Inactivity, Days with 0 clicks, Days with no clicks (%), PercCourse_NLogin (N= 1, …, 10)]",
+          "Moment of Prediction": "10%, 25%, 33% and 50% course duration",
+          "Preprocessing Details": "All data is obtained from LMS logs. Each row represents a student-course pairing. For each pairing, the authors first decide what date would represent specific course curation thresholds and create a model for each dataset. \n\nAll features were normalized to range [0,1], authors also perform Feature Selection.Hyper-Parameters used were selected from literature.\n\nClass imbalance is addressed via SMOTE, without generating better results.\n\nLSTM uses a sequential representation of a single feature instead of the whole feature set.\n\n",
+          "Models": "ZeroR, Naive Bayes, CART, Logistic Regression, MLP, SVM, kNN, Random Forest, AdaBoost, GBoost, ExtraTrees, LSTM",
+          "Assessment Strategy": "30-Repeated 10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "10% Course Duration:\n\n{AUC: 0.678 -RF, Accuracy: 0.800 - RF, Recall: 0.633 - RF-SMOTE, Precision: 0.602 - RF}\n\n25% Course Duration:\n\n{AUC: 0.713 -RF, Accuracy: 0.803 - RF, Recall: 0.563 - LSTM-SMOTE, Precision: 0.623 - RF}\n\n33% Course Duration:\n\n{AUC: 0.718 -RF, Accuracy: 0.808 - RF, Recall: 0.559 - LSTM-SMOTE, Precision: 0.643 - RF}\n\n50% Course Duration:\n\n{AUC: 0.730 -RF, Accuracy: 0.810 - RF, Recall: 0.542 - LSTM-SMOTE, Precision: 0.660 - RF}\n\n100% Course Duration:\n\n{AUC: 0.756 -RF, Accuracy: 0.817 - RF, Recall: 0.576 - LSTM-SMOTE, Precision: 0.727 - RF}",
+          "Comments": "Authors do a model for each course duration threshold. Selection of best algorithm is done by comparison of The AUC score.\n\nThen, the classifier is evaluated in terms of comparison against a ZeroR and vs a version of the model trained using oversampling via SMOTE.\n\nFinally, these models are also compared against a different model trained on a different feature set - a sequence of numbers of clicks. While the LSTM does not outright beat the traditional classifiers, it does achieve remarkably competitive performances despite being trained on a single feature.\n\nApproach is also tested by training the same models on a second dataset. Results do not beat original author’s approach.",
+          "Limitations": "Exclusive use of LMS logs. \n\nLSTM approach does not consider additional features.\n\nLSTM approach was not shown to generalize well to different datasets.\n\nDataset was collected during a Covid-Era so warrants generalization to the back to school context.\n\nUnder-explored Feature Extraction Strategies.\n\nNo Model Hyper-Parameter Tuning asidde from LSTM.\n\nSelection of 25 equal-length timesteps for LSTM warrants justification.\n\n\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Being a High-Performing Student in a Course",
+          "Target": "High-Performer (1) vs Not High-Performer (0) ",
+          "Students": "1606 students from a Information Management School in Western Europe",
+          "Courses": "138 courses",
+          "Data sources": "LMS logs, Final Course Grades",
+          "Features": "[Total Clicks, Clicks (%), Online Sessions, Clicks/Session, Clicks/day, Forum Clicks, Discussions Viewed, Forum Posts, Folder Clicks, Resources Viewed, URLs Viewed, Course Clicks, Assessments Started, Assignments Viewed, Assignments Submitted, Submissions (%), Total Time Online, Average duration of session, Largest Period of Inactivity, Days with 0 clicks, Days with no clicks (%), PercCourse_NLogin (N= 1, …, 10)]",
+          "Moment of Prediction": "10%, 25%, 33% and 50% course duration",
+          "Preprocessing Details": "All data is obtained from LMS logs. Each row represents a student-course pairing. For each pairing, the authors first decide what date would represent specific course curation thresholds and create a model for each dataset. \n\nAll features were normalized to range [0,1], authors also perform Feature Selection.Hyper-Parameters used were selected from literature.\n\nClass imbalance is addressed via SMOTE, without generating better results.\n\nLSTM uses a sequential representation of a single feature instead of the whole feature set.\n\n",
+          "Models": "ZeroR, Naive Bayes, CART, Logistic Regression, MLP, SVM, kNN, Random Forest, AdaBoost, GBoost, ExtraTrees, LSTM",
+          "Assessment Strategy": "30-Repeated 10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "10% Course Duration:\n\n{AUC: 0.593 - LR, Accuracy: 0.723 - LR, Recall: 0.647 - LSTM-SMOTE, Precision: 0.533 - RLR}\n\n25% Course Duration:\n\n{AUC: 0.622 - LR-SMOTE, Accuracy: 0.725 - RF, Recall: 0.631 - LSTM-SMOTE, Precision: 0.558 - RF}\n\n33% Course Duration:\n\n{AUC: 0.606 - RF, Accuracy: 0.727 - RF, Recall: 0.608 - LSTM-SMOTE, Precision: 0.591 - RF}\n\n50% Course Duration:\n\n{AUC: 0.611 - RF, Accuracy: 0.729 - RF, Recall: 0.621 - LSTM-SMOTE, Precision: 0.602 - RF}\n\n100% Course Duration:\n\n{AUC: 0.634 -RF, Accuracy: 0.728 - RF, Recall: 0.694 - LSTM-SMOTE, Precision: 0.584 - RF}",
+          "Comments": "Authors do a model for each course duration threshold. Selection of best algorithm is done by comparison of The AUC score.\n\nThen, the classifier is evaluated in terms of comparison against a ZeroR and vs a version of the model trained using oversampling via SMOTE.\n\nFinally, these models are also compared against a different model trained on a different feature set - a sequence of numbers of clicks.\n\nApproach is also tested by training the same models on a second dataset. Results do not beat original author’s approach.",
+          "Limitations": "Exclusive use of LMS logs. \n\nLSTM approach does not consider additional features.\n\nLSTM approach was not shown to generalize well to different datasets.\n\nDataset was collected during a Covid-Era so warrants generalization to the back to school context.\n\nUnder-explored Feature Extraction Strategies.\n\nNo Model Hyper-Parameter Tuning asidde from LSTM.\n\nSelection of 25 equal-length timesteps for LSTM warrants justification."
+        }
+      ],
+      "provenance": {
+        "page_id": "533e5390-4458-4575-95f6-5d8eb5621a56",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_854d5d84",
+      "reference_id": "533e5390-4458-4575-95f6-5d8eb5621a56",
+      "text": "EWS can identify both students at risk and excellent students. Study uses a year-long dataset and tests 2 types of representation in a course-agnostic manner using various stages of course completion:",
+      "provenance": {
+        "page_id": "533e5390-4458-4575-95f6-5d8eb5621a56"
+      }
+    },
+    {
+      "id": "an_4740f4a5",
+      "reference_id": "533e5390-4458-4575-95f6-5d8eb5621a56",
+      "text": "Findings show that it is possible to obtain somewhat reliable models at 25% course completion. LSTM got worsde performances but its use may be benefical since the difference is smaller at earlier stages and, given that it only uses a single feature, may be more practical to obtain. ",
+      "provenance": {
+        "page_id": "533e5390-4458-4575-95f6-5d8eb5621a56"
+      }
+    }
+  ],
+  "workflow_states": []
+}

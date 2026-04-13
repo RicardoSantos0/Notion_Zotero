@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "59bdd304-77f5-4d11-bb6d-94359984d0bb",
+      "title": "Impact of teachers’ grading policy on the identification of at-risk students in learning analytics",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_7b40072c",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "59bdd304-77f5-4d11-bb6d-94359984d0bb",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1472d654",
+      "reference_id": "59bdd304-77f5-4d11-bb6d-94359984d0bb",
+      "text": "The paper starts with a discussion of the potential of Learning Analytics for the early identification of students at risk. However there are important challenges that warrant addressing with Data imbalance being among the most important ones.",
+      "provenance": {
+        "page_id": "59bdd304-77f5-4d11-bb6d-94359984d0bb"
+      }
+    },
+    {
+      "id": "an_7edf64ab",
+      "reference_id": "59bdd304-77f5-4d11-bb6d-94359984d0bb",
+      "text": "The authors collect data from 12 BLearning courses and summarized 3 grading policies. Courses where the grading policy was lenient were more likely to cause the illusion of highly accurate predictive models. Authors also discuss the effectiveness of a lenient grading policy altogether.",
+      "provenance": {
+        "page_id": "59bdd304-77f5-4d11-bb6d-94359984d0bb"
+      }
+    }
+  ],
+  "workflow_states": []
+}

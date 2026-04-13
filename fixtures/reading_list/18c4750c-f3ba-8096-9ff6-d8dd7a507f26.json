@@ -1,0 +1,624 @@
+{
+  "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26",
+  "title": "Learning Behavior-oriented Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "1c4000cd-57f8-4d53-aca8-7fe2f470ac91",
+          "name": "Online Learning Behavioral Patterns",
+          "color": "purple"
+        },
+        {
+          "id": "283ef986-87c2-42f7-9f62-3c1a49e91651",
+          "name": "User Modeling",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing” AND “Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing” AND “Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        },
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Conference on Knowledge Discovery and Data Mining",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Conference on Knowledge Discovery and Data Mining",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-06T13:35:00.000+00:00",
+        "end": "2025-04-08T22:39:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Xu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Xu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learning Behavior-oriented Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learning Behavior-oriented Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-8085-a628-de1bfd2882d8",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Answering question at Step t+1 correctly",
+          "Correct (1) vs Incorrect (0)",
+          "3006 ASSISTments 2009 learners, 22397 ASSISTments 2012 learners, 1000 Juniy learners",
+          "ASSISTments, Junyi",
+          "Sequence of Answers, LMS logs",
+          "[Sequences of Answers, Spped, Attempts, Hints]",
+          "Previous models tend to look at KT as sequences of answers, leaving behind the different types of learner behavior that are relevant to model a learner’s knowledge state.",
+          "LBKT has 2 modules: \n\nDifferentiated Behavior Effect Quantifying: it looks at 3 specific learning behaviors (Speed, Attempts and Hints). \n\nFused Behavior Effect Measuring (FBEM): Behaviors are not independent from one another. For that reason, the authors use a separate module to measure dependencies between behavioral features. ",
+          "Learners are represented as matrix that is updated with more and more exercises. The update of knowledge states includes a forget gate and a knowledge acquisition vector. ",
+          "DKT, DKT_concat, AT-DKT, DFVMN, DDMKT, SAKT, AKT, LPKT, LBKT-DB, LBKT-FB, LBKT-Forget",
+          "Holdout Method",
+          "AST09\n{RMSE: 0.4203 - LBKT, AUC: 0.7863 - LBKT, Accuracy: 0.7380 - LBKT}\n\nAST12\n{RMSE: 0.4043 - LBKT, AUC: 0.7823 - LBKT, Accuracy: 0.7613 - LBKT}\n\nJunyi\n{RMSE: 0.3494 - LBKT, AUC: 0.7723 - LBKT, Accuracy: 0.8362 - LBKT}",
+          "Authors create a new methodd that looks to introduce Learner Behavior. Model is validated on 3 public datasets. Multiple Ablation Studies are also performed to measure sensitiviy of the model to different parameters.",
+          "No Cross-Validation,\n\nLimited number of learner behaviors considered in approach.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-8077-b763-f1a001835878",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8077-b763-f1a001835878",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-03-06T13:49:00.000Z",
+        "last_edited_time": "2025-03-06T13:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8043-ad21-fe0b9d18c366",
+      "type": "paragraph",
+      "text": "Most of the KT work that exists is based on predicting whether a student will get a question right or wrong, often disregarding relevant indicators such as answering speed or number of attempts. Authors propose LBKT which is meant to explore these constructs. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8043-ad21-fe0b9d18c366",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-03-06T13:49:00.000Z",
+        "last_edited_time": "2025-03-06T14:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most of the KT work that exists is based on predicting whether a student will get a question right or wrong, often disregarding relevant indicators such as answering speed or number of attempts. Authors propose LBKT which is meant to explore these constructs. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most of the KT work that exists is based on predicting whether a student will get a question right or wrong, often disregarding relevant indicators such as answering speed or number of attempts. Authors propose LBKT which is meant to explore these constructs. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-80ca-974a-ffd0f45384fe",
+      "type": "paragraph",
+      "text": "Authors start with explanation of the constructs and proceed with their quantification. Benchmarking on public datasets shows that the model outperforms other approaches in the literature. Code is also publicly available.",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-80ca-974a-ffd0f45384fe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-03-06T14:18:00.000Z",
+        "last_edited_time": "2025-03-06T14:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors start with explanation of the constructs and proceed with their quantification. Benchmarking on public datasets shows that the model outperforms other approaches in the literature. Code is also publicly available.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors start with explanation of the constructs and proceed with their quantification. Benchmarking on public datasets shows that the model outperforms other approaches in the literature. Code is also publicly available.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cf4750c-f3ba-8043-8326-f5c361fbd493",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cf4750c-f3ba-8043-8326-f5c361fbd493",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-04-08T21:45:00.000Z",
+        "last_edited_time": "2025-04-08T21:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/4cc82757-40f7-4331-8fd3-d5c8af832761/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TPE3QN42%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152907Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIG1KXRsyVtvSac63EHLrtL6bNDgsTfU%2BXRGVPNdSbnGaAiEA6tB5d1k98vz5rl66P92UjDAaYyps5CSvqOOBzWCX22wq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDJjHHTAIFxMvGRrYPCrcA5ZwbqFWQ7zTA3pkjNHwRGryTDp7kvn%2FDcTkakZ%2FJCzuu8vrWuv4xlDVibJ7PmUHWyzVHgDhLxvO1FePl7tD678lzJXOVhM3F9ALn%2F9pf62WPikP4zRLPCnPdNRKrITFYZJpeMNz3od7wqG%2BArpXXpDfROrbbK0S3w5mX1ZHNjL4astqCeXLbG2PRIGjsapVMh5SqgL%2BUetQtNoYz1f%2FdpAL0FBchpYY5PaEbGc%2BxDx1ViYTOk4LeAOrlsu2vJTndan165VfbDKfjbaVlBg2Ca8bHRbhzsapHN07WdPH8SH6kmR3n8HKQc7eBOfreGEo%2FcJf%2F9IgLM4c3LTNAX6xzAqe%2FwXflh%2BFe9p81O7Ghn%2F4paejNHXMgY1cEHsgsP2RAfwoJGdA7devwT5gAken15ecJbuSwMk2rbQ4APXc1th%2BY8NYJoBQ7aoPZn2ghvuYpLcM3IV45lUzl8karbfGBC9b%2F9%2F0rIrkOuFNQCs17RWZHts6l4o41DJFstCAyrjdT90lBXndz0CxfmrZ5n%2B5gld8iGpyALeWSIWNm3zPtxtUOxal%2BZji2jgPagme2bPxGWunr45Sgy6o6w46tZa5xd%2F4oLuZ%2FUKfCRrSxKbATHivFI2RcmAnLFXnF0ivMNnv884GOqUBnnburE1ALEbrWWPP3Ie9%2FjamufgXCHE%2FlN3rkCuPdrZfufu7fjlDZVOsb9MhrwAy5pN2D9ZuxczOMTbu5KgHBVuWnUSLremW5RZFop27rKGQGw3w97gb7wv2rePbmBJEIcoRbp2XJIXehKaJ18%2Bjc%2BoRwf68xr2%2FmifCYXhhkbUkshRTb8W1%2Fy8TJwfgqooCGDqTH1UCnIayHcHmddijMdR%2FZXOZ&X-Amz-Signature=9516acd03b7ef901afd9342cdb80b505df6b006be5835a288102cbf7e206e5e6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:07.080Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8005-a2eb-ea866abc4be3",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8005-a2eb-ea866abc4be3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-04-07T15:16:00.000Z",
+        "last_edited_time": "2025-04-07T15:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8085-a628-de1bfd2882d8",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8085-a628-de1bfd2882d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8096-9ff6-d8dd7a507f26"
+        },
+        "created_time": "2025-04-07T15:16:00.000Z",
+        "last_edited_time": "2025-04-08T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

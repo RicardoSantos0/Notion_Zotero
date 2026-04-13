@@ -1,0 +1,684 @@
+{
+  "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb",
+  "title": "An AI-based open recommender system for personalized labor market driven education",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "0a12f996-28a4-4a83-97c6-430fc37e1419",
+          "name": "Open Educational Resources",
+          "color": "green"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d0750ef2-8bac-4d82-a6cb-30501f1c88f5",
+        "name": "Recruited from Online Platform",
+        "color": "red"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Advanced Engineering Informatics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Advanced Engineering Informatics",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-03T22:55:00.000+00:00",
+        "end": "2025-03-03T23:00:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Tavakoli et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Tavakoli et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An AI-based open recommender system for personalized labor market driven education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An AI-based open recommender system for personalized labor market driven education",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-80bc-997d-cb28e14dabba",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80bc-997d-cb28e14dabba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:41:00.000Z",
+        "last_edited_time": "2025-03-03T22:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80af-99e6-e4becbe182fb",
+      "type": "paragraph",
+      "text": "Education in the 21st century needs to rapidly adapt to everchanging demands from the job market. Data, as always, can help due to its unprecedented availability. Authors propose eDoer, a new educational recommender system that is labor market oriented. ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80af-99e6-e4becbe182fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:41:00.000Z",
+        "last_edited_time": "2025-03-03T22:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Education in the 21st century needs to rapidly adapt to everchanging demands from the job market. Data, as always, can help due to its unprecedented availability. Authors propose eDoer, a new educational recommender system that is labor market oriented. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Education in the 21st century needs to rapidly adapt to everchanging demands from the job market. Data, as always, can help due to its unprecedented availability. Authors propose eDoer, a new educational recommender system that is labor market oriented. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-808f-8365-d329d14c99fe",
+      "type": "paragraph",
+      "text": "The system:",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-808f-8365-d329d14c99fe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:52:00.000Z",
+        "last_edited_time": "2025-03-03T22:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The system:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The system:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80d5-a6ef-f3421a5c0d55",
+      "type": "numbered_list_item",
+      "text": " extracts skills from announcements of job vacancies and collects resources that aim to address the requirements of those job requirements,",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80d5-a6ef-f3421a5c0d55",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:54:00.000Z",
+        "last_edited_time": "2025-03-03T22:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " extracts skills from announcements of job vacancies and collects resources that aim to address the requirements of those job requirements,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " extracts skills from announcements of job vacancies and collects resources that aim to address the requirements of those job requirements,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8001-9566-d5d1aa9560f0",
+      "type": "numbered_list_item",
+      "text": "Uses a predictive model to evaluate the quality of the resources",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8001-9566-d5d1aa9560f0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:54:00.000Z",
+        "last_edited_time": "2025-03-03T22:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Uses a predictive model to evaluate the quality of the resources",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Uses a predictive model to evaluate the quality of the resources",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80e6-a6f6-c66f928836fc",
+      "type": "numbered_list_item",
+      "text": "Proposes resources according to a learner’s learning goals ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80e6-a6f6-c66f928836fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:54:00.000Z",
+        "last_edited_time": "2025-03-03T22:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Proposes resources according to a learner’s learning goals ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Proposes resources according to a learner’s learning goals ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8010-81de-cf343cab95d7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8010-81de-cf343cab95d7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:55:00.000Z",
+        "last_edited_time": "2025-03-03T22:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8047-b6c5-e90c62859c89",
+      "type": "paragraph",
+      "text": "Experiments using a randomized experiment test whether learners who engaged with eDoer acquired more knowledge than those who did not. While interacting with the system seems to lead to better scores, there is not significant different between students who received personalized recommendations vs those who did not.",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8047-b6c5-e90c62859c89",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c8d0e5fe-ac63-47fc-9486-867e4d5803bb"
+        },
+        "created_time": "2025-03-03T22:55:00.000Z",
+        "last_edited_time": "2025-03-03T22:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Experiments using a randomized experiment test whether learners who engaged with eDoer acquired more knowledge than those who did not. While interacting with the system seems to lead to better scores, there is not significant different between students who received personalized recommendations vs those who did not.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Experiments using a randomized experiment test whether learners who engaged with eDoer acquired more knowledge than those who did not. While interacting with the system seems to lead to better scores, there is not significant different between students who received personalized recommendations vs those who did not.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

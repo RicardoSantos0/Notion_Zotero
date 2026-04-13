@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0",
+      "title": "Accessing online learning material: Quantitative behavior patterns and their effects on motivation and learning performance",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_6b054aa8",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "59 students",
+          "Courses": "1 Mobile Phone Programming Course",
+          "Data sources": "LMS logs, MSLQ, Scores on Final Exam and Homework Assignments",
+          "Theoretical Grounding": "Pintrich’s SRL Model",
+          "Features": "[Total Seconds on Learning Materials, Time on Lecture Slides, Lecture Slides Accessed, Time Spent of Each Access to Lecture Slides, Time Spent of Video Lectures, Video Lectures Accessedm Avg Time on Video Lectures, Time on Shared Assignments, Shared Assignments Accessed, Avg. Time on Shared Assignments, Time on Posted Messages, Number of Posted Messages, Avg. time on each access of posted messages, Messages Posted]",
+          "Preprocessing Details": "Authors collect data from 4 different sources. ",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "3",
+          "Cluster Description": "Cluster 1 (n=21): \n\nMore time on videos, shared assignments, posted messages - Consistent use Students\n\nCluster 2 (n=19): \n\nSmallest amount of time intertacting with the different kinds of learning resources. These students achieved, on average, a worse overal final examinatioon score relative to their peers. \n\nCluster 3 (n=19): \n\nSlide intensive students. These pass consistenly more time consulting slides thant heir peers while still checking other learning materials. \n\nBoth cluster 1 and 3 consistently outperform the students in Cluster 2.",
+          "Implications": "Stuydents who were more engaged and willing to interact with course materials tended to outperform their peers - and these differences in interaction are often associated with motivational factors. ",
+          "Comments": "Standard clustering work on data from LMS and mapping into different SRL constructs of MSLQ and the learner’s final performance.",
+          "Limitations": "Small sample size.\n\nA third of the students was in the less use students. \n\nWhile Clusters 1 and 3 had different strategies, these often translated into a similar exam performance - meaning that there are factors not being accounted for in the available data. \n\nNot transferrable to courses that contain e.g. a textbook,. \n\nLMS data is noisy. "
+        }
+      ],
+      "provenance": {
+        "page_id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_d86071b0",
+      "reference_id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0",
+      "text": "Work uses data from 59 students on the LMS to cluster students according to their interactions with the environment. Authors identify some interesting common patterns related to usage: e.g. students spend more time on lecture related materials. Clustering of the students revealed 3 main groups: “consistent use”, “Slide intensive use” and “less use”. ",
+      "provenance": {
+        "page_id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0"
+      }
+    },
+    {
+      "id": "an_e9d75ae3",
+      "reference_id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0",
+      "text": "Authors then make an association between these 3 groups and their motivation and academic performance.",
+      "provenance": {
+        "page_id": "f9e2b800-cbc9-45e8-a70a-e8f38b1f4eb0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

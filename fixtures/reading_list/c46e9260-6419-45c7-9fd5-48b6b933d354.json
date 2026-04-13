@@ -1,0 +1,581 @@
+{
+  "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354",
+  "title": "Using Learner Trace Data to Understand Metacognitive Processes in Writing from Multiple Sources",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "23bd0049-c828-43f6-93f0-839cc8784a29",
+          "name": "Writing From Multiple Sources",
+          "color": "blue"
+        },
+        {
+          "id": "af49649e-f335-49c2-bcda-906cd15393ec",
+          "name": "Semantic Similarity",
+          "color": "red"
+        },
+        {
+          "id": "9f70a8a0-664c-4791-ae94-ab7a59f36b49",
+          "name": "Reading",
+          "color": "orange"
+        },
+        {
+          "id": "ed578646-bb06-4104-816a-55088b00cb5a",
+          "name": "Monitoring",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-03T15:43:00.000+00:00",
+        "end": "2025-12-15T14:01:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Raković et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Raković et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "1d11734a-154e-4f32-8d5c-38a6a656b6be",
+          "name": "Assessment",
+          "color": "gray"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Using Learner Trace Data to Understand Metacognitive Processes in Writing from Multiple Sources",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Using Learner Trace Data to Understand Metacognitive Processes in Writing from Multiple Sources",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-8045-bc9c-d0c2110d6459",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "46 students fo a Dutch University",
+          "-",
+          "Pre-Test, Multi-Source Writiing Session, Post-Test",
+          "None Specifiied",
+          "[Prior Knowledge Knowledge, Time on instructions and rubric page, Planning, Studying, Monitoring and Revising Behaviors, Essay Score]",
+          "Initial reading time in each page was counted as total duration of gaze to the reading zone. \n\nThe automated essay score is computed as the sum of 3 indices: overall topic coverage, integration of topics and word count.\n\n2 observations were removed due to having a large overlap with source texts. \n\nNormality was assessed using the Shapiro-Wilk test and the estimation was done with the Santorra-Bentler corrections.",
+          "SEM",
+          "{Chi_Quared: 1.55, p: 0.96, CFI: 1, RMSEA: 0.00, SRMR: 0.02}",
+          "-",
+          "Authors  find that engagement in metacognitive monitoring and control benefits the quality of the written product. The essay scoring algorithm is comparable to the analysis of human assessors. ",
+          "High-performing writers self-regulate their writing by mantaining their own awareness of requirements and purposes.\n\nProductive multi-source writers judge what they have already written.\n\nPrior knowledge is a precondition for good performance.\n\nLack of prioor knowledge hinders their ability to use multiple sources effectively.\n\nNegative relatiionship between time spent reading specifications and scoring requirements vs essay score.\n\nNo relationship between automatic scoring, time spent planning and time spent on source documents.\n\n",
+          "he authors examine how metacognitive monitoring and metacognitive control (revisions) unfold during multi-source writing tasks and how these processes relate to essay quality. They use fine-grained learner trace data (eye-tracking, keystrokes, navigation logs) within a custom digital learning environment. They also introduce a new automated essay scoring algorithm based on semantic similarity (word2vec).",
+          "- Sample size\n- Metacognition is measured only using duration\n- Automated scooring still leaves unexplained variance\n- Limited training corpus\n- Only considers native speakers,\nEye-Tracking tool limitations\n- Experimental study (not necessarily translateable to real behavior)"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-80ef-9e58-e6bc00d9f48c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80ef-9e58-e6bc00d9f48c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354"
+        },
+        "created_time": "2025-03-03T14:57:00.000Z",
+        "last_edited_time": "2025-03-03T14:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8017-903a-fdcc402822b0",
+      "type": "paragraph",
+      "text": "Students often struggle with writing tasks due to having underdeveloped SRL skills. Authors do an experiment on 44 undergraduate students. They collect trace data from multiple channels and investigate how behavior influences essay score.  Findings show that  metacognitive monitoring benefits writing quality. ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8017-903a-fdcc402822b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354"
+        },
+        "created_time": "2025-03-03T14:57:00.000Z",
+        "last_edited_time": "2025-03-03T15:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students often struggle with writing tasks due to having underdeveloped SRL skills. Authors do an experiment on 44 undergraduate students. They collect trace data from multiple channels and investigate how behavior influences essay score.  Findings show that  metacognitive monitoring benefits writing quality. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students often struggle with writing tasks due to having underdeveloped SRL skills. Authors do an experiment on 44 undergraduate students. They collect trace data from multiple channels and investigate how behavior influences essay score.  Findings show that  metacognitive monitoring benefits writing quality. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80a3-a1bf-e4032438711a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80a3-a1bf-e4032438711a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80e1-a855-c43637a3ebcd",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80e1-a855-c43637a3ebcd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8045-bc9c-d0c2110d6459",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8045-bc9c-d0c2110d6459",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c46e9260-6419-45c7-9fd5-48b6b933d354"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T22:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

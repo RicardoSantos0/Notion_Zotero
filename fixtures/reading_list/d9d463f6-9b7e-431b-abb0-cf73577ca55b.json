@@ -1,0 +1,703 @@
+{
+  "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b",
+  "title": "Advanced Deep Learning Model for Predicting the Academic Performances of Students in Educational Institutions",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "92e066e2-7ec4-4c9f-b1a3-fdeb3c523d46",
+          "name": "GRU",
+          "color": "red"
+        },
+        {
+          "id": "6bb8f180-9b9f-4999-8c0e-cd0670b354a8",
+          "name": "Max Pooling",
+          "color": "brown"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "2a24d956-ff91-4a63-93c2-8d091273c726",
+          "name": "Student's Performance",
+          "color": "orange"
+        },
+        {
+          "id": "d10c622d-7224-4643-bd2e-a1c8314875e4",
+          "name": "Classification",
+          "color": "yellow"
+        },
+        {
+          "id": "166f12ab-0435-43fb-87f4-eca1b5b38f55",
+          "name": "ADAM Optimization Algorithm",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Applied Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Applied Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-08-30T01:37:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Baniata et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Baniata et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Advanced Deep Learning Model for Predicting the Academic Performances of Students in Educational Institutions",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Advanced Deep Learning Model for Predicting the Academic Performances of Students in Educational Institutions",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "25f4750c-f3ba-8004-ad86-cb301637df2d",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "End of Program Performance",
+          "Pass (1) vs Fail (0)",
+          "15165 students from 3 Indian Universities",
+          "Undergrduate Programs in 3 Indian Universities",
+          "Performance Across Program",
+          "[Exam, IN_Sem1, IN_Sem2, IN_Sem3, IN_Sem4, IN_Sem5, IN_Sem6, IN_Sem6, InPc]",
+          "Before Final Exam",
+          "Authors use a model based on GRU. The data is modeled as a having multiple features.\n\nAs a start, the authors start with the creation of a fully connected layer which is then given as argument to the GRU, whose outputs are subsequently given to a MaxPooling layer followed by a Dense Layer which does the predictions. ",
+          "RNN, ARD V.2, AdaBoost, GRU_Based",
+          "Holdout Method",
+          "{Accuracy: 0.997 - GRU_Based, Precision: 0.986 - GRU_Based, Recall: 0.963 - GRU_Based, F1-Score: 0.974- GRU_Based}",
+          "This paper is not very good. IT presents multiple imprecisions when it comes to techniques (AdaBoost is presented as standard Bagging) and descriptions (k-Fold of 1). \n\nAuthors create a GRU-based model and do benchmarking.\n\n",
+          "- Technical errors on description of some of the models (e.g. AdaBoost)\n\n- K-Fold of 1?\n\n- No Ablation study\n\n- Limited exploration of models found in the literature.\n\n"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "48df4a97-6500-4b34-b622-3e4c8118f964",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "48df4a97-6500-4b34-b622-3e4c8118f964",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2024-08-06T18:03:00.000Z",
+        "last_edited_time": "2024-08-06T18:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b55fd517-c399-4180-8593-174017c3900b",
+      "type": "paragraph",
+      "text": "Paper focuses on Deep Learning to develop recommender systems of new content. The paper introduces a new model to detect students at risk using GRU. Model was assessed on dataset featuring 16000 records of student assessments from various institutions.",
+      "raw": {
+        "object": "block",
+        "id": "b55fd517-c399-4180-8593-174017c3900b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2024-08-06T18:03:00.000Z",
+        "last_edited_time": "2024-08-06T18:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper focuses on Deep Learning to develop recommender systems of new content. The paper introduces a new model to detect students at risk using GRU. Model was assessed on dataset featuring 16000 records of student assessments from various institutions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper focuses on Deep Learning to develop recommender systems of new content. The paper introduces a new model to detect students at risk using GRU. Model was assessed on dataset featuring 16000 records of student assessments from various institutions.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4a63ea5a-dae8-4c44-ba7c-52b62257b433",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "4a63ea5a-dae8-4c44-ba7c-52b62257b433",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2024-08-06T18:05:00.000Z",
+        "last_edited_time": "2024-08-06T18:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f7e4be25-c9e7-4bf2-9b64-6bb9408b0f0d",
+      "type": "paragraph",
+      "text": "The system was compared against other deep learning based recomender systems. Its unclear to me what is being recommmended though. High accuracy of the model signals the importance of these models in addressing underachievement and potential dropout.",
+      "raw": {
+        "object": "block",
+        "id": "f7e4be25-c9e7-4bf2-9b64-6bb9408b0f0d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2024-08-06T18:05:00.000Z",
+        "last_edited_time": "2024-08-06T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The system was compared against other deep learning based recomender systems. Its unclear to me what is being recommmended though. High accuracy of the model signals the importance of these models in addressing underachievement and potential dropout.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The system was compared against other deep learning based recomender systems. Its unclear to me what is being recommmended though. High accuracy of the model signals the importance of these models in addressing underachievement and potential dropout.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-8019-8035-f5f131070c20",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-8019-8035-f5f131070c20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2025-08-30T00:08:00.000Z",
+        "last_edited_time": "2025-08-30T00:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-8042-9e30-c8a215281503",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-8042-9e30-c8a215281503",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2025-08-30T00:08:00.000Z",
+        "last_edited_time": "2025-08-30T00:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/9bb77c5b-5196-4c64-8450-81f5af1160f1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZB3Q7X6J%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153217Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCVhMNI6gcd1P0aaRN7ojHTlF%2BuqVH1AAWjbzCBAsqzhAIgfscMeKeccF9ZUSSKDzJa1ovegzb5fA1D8Xy%2F4n7DYcYq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDJxLboCyiGvBTZ4P0CrcAx02oPO3iPG0ADAnpVw5tEjmeKPFtKRmy3fwQ8SZ9U15mxvFltwATlM3QtViN2RM9%2BxEwZBXRkq2ByHTf9eFa%2BHSdfpwjgdB9F53n8s%2BJ4p6CJrGBzxJa1p81MzBg1fnwhHUmQWBG1BpOnL7qtDxlsHlplLTF%2Bc%2FV%2FYELtVSM7a1gmdPCqwB1yxIGgBo2BbTjIOrxybL6X1PUOv3j8aqFG7JwapfU3jfepGDlFaH0UiosvpRyapO9vUaBO%2FgQQx9YlsWKe1QDpgR%2BO3xVEJqPrsLL6LYSx6L7BCVmZZbVSbHcrMFtzO0fEE2l474o%2FTgBWJYkLb3%2B8oe8Xpgaul2i4ERsyHVSA5iSMzdnkw6JoxupMCL%2FdA6eTspvnCZayiev2bWSDkc%2F9VEXkteKTMgU8vv0%2FyhIvt%2BaD0CM82azxFSNqR%2BeQOGfH5wXQLtN0JWIbScH7C0F%2FfdPWjUSi45%2FmUb8VK7BxZq0mRjYz5s2pg51%2B6p33IQ2ivMEgHoQblseSBpvGrpIUX2vJC6fMMzoLh%2F%2FoR0GR%2FmuwNx79Z9bjsSubyXlHThR7uzHLJGuKU%2FYnIAjtuppGaldkIjj32HFmb1I%2BSyKor3lmF%2BFoQ76p87gfCuXtXTw6Xe%2FSH9MLPv884GOqUBi9dQSvevS0t%2BrSuklw41K8iMFyGLYJRofM38u14eZALu%2FVF30Y7pAbv%2BszCQfmvta7Ly7XRvzg0PKLTLQv7ETAqFrQ4feWyoCF2twveXtJllnEsN%2BpO319LJ7PhRvJXyxYOReWUT5JMBF%2B2AtfgpR6zQuf6EYXf3pvZw6MG2U7xXvTOP4YSK2d4l%2F5O0S9H6kmtfJZf6xkwXLfl6wxFmps%2FF0lC4&X-Amz-Signature=d9504a4ef119ca0c7c2a8ab8700d1317a478020d0aa87532a912436c0db8a5e9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:17.952Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-80ab-8fc3-c78eef2edcbc",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-80ab-8fc3-c78eef2edcbc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2025-08-30T00:05:00.000Z",
+        "last_edited_time": "2025-08-30T00:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25f4750c-f3ba-8004-ad86-cb301637df2d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25f4750c-f3ba-8004-ad86-cb301637df2d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d9d463f6-9b7e-431b-abb0-cf73577ca55b"
+        },
+        "created_time": "2025-08-30T00:05:00.000Z",
+        "last_edited_time": "2025-08-30T00:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

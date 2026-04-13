@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "id": "3364750c-f3ba-8069-88c7-e4185a604368",
+      "title": "An Outcome-Based Educational Recommender  System",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3ba3c382",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "Mobile E-Learning",
+          "Recommender System Type": "Outcome-Based Educational Recommender System (OBER); method-agnostic framework with Fixed trajectory, Collaborative Filtering (CF), and Knowledge-Based (KB) filtering",
+          "Target of Recommendation": "Learning items / next items in a learning trajectory to maximize mastery of outcomes",
+          "Students": "Over 5,700 learners total; experiment groups: CF 1856, Fixed 1963, KB 1932",
+          "Courses": "NamazApp learning content",
+          "Data sources": "Learner profiles, learning items, interaction logs, outcome tree, item–outcome alignment mappings, mastery scores",
+          "Initialization Method": "Learning outcomes first established with domain experts; outcomes aligned to items; in NamazApp, an LLM produced initial item–outcome alignments, later checked and edited by the team; mastery computed from best result on verifying items",
+          "Updates to Recommendations": "Recommendations delivered during normal app usage; framework supports swapping recommendation methods without changing logging or mastery calculation",
+          "Preprocessing Details": "Minimal entity-relation schema with Learner–Item–Outcome entities; item-outcome alignments labeled as promotes or verifies; mastery formula uses learner’s best result on items verifying each outcome; total mastery is sum over outcomes",
+          "Recommendation types": "Personalized next-item recommendations / learning trajectories",
+          "Evaluation": "Two-week randomized split test comparing Fixed, CF, and KB. Metrics: Retention, Relevance (CTR), and Mastery. Results: CF had highest retention (6.16) and relevance (0.3033), but Fixed achieved highest mastery (0.4641), followed by KB (0.4212) and CF (0.3899)",
+          "Comments": "Links recommendation directly to learning outcomes rather than only engagement. Contribution is mainly methodological: adding outcomes and assessment into the RS schema so different methods can be compared on pedagogical impact. The page-3 schema and page-6 evaluation flow make the framework especially clear",
+          "Limitations": "Findings are specific to NamazApp and non-formal learning; larger/longer experiments needed for stronger significance claims; generalizability to other educational contexts remains open"
+        }
+      ],
+      "provenance": {
+        "page_id": "3364750c-f3ba-8069-88c7-e4185a604368",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_178dfdb2",
+      "reference_id": "3364750c-f3ba-8069-88c7-e4185a604368",
+      "text": "Most ERS suffer from the problem of being evaluated with pedagogically unmeaningful metrics. Authors introduce OBER which introduces outcomes and assessments into the schema → allowing the evaluation of learning gains. \n\nAuthors A/B/C tested their framework on a set of 5700 students over 2 weeks using 3 methods - Fixed, CF and KB. Fixed path maximized mastery, while CF maximized retention. ",
+      "provenance": {
+        "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+      }
+    }
+  ],
+  "workflow_states": []
+}

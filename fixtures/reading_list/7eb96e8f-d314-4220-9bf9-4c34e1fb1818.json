@@ -1,0 +1,624 @@
+{
+  "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818",
+  "title": "A Semi-Supervised Learning Approach for Predicting Student's Performance: First-Year Students Case Study",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "74194ca3-b5b7-4e37-8144-674e3e578f74",
+          "name": "Student Performance",
+          "color": "yellow"
+        },
+        {
+          "id": "3a30a9c2-d08e-4c44-b1c2-5614e2a3cc3a",
+          "name": "Semi-Supervised Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "b6aa29c5-276a-49c1-bd50-88f033c72dab",
+          "name": "K-Means Clustering",
+          "color": "orange"
+        },
+        {
+          "id": "eb67e6e1-9a80-47f1-ba9b-bc3833521a03",
+          "name": "Naive Bayes Classifier",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ICTS",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ICTS",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Quality",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Quality",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Widyaningsih et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Widyaningsih et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Semi-Supervised Learning Approach for Predicting Student's Performance: First-Year Students Case Study",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Semi-Supervised Learning Approach for Predicting Student's Performance: First-Year Students Case Study",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2344750c-f3ba-80ef-ab0a-d4b0b8d0c134",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "End of First Year Success (divided by Clustering Labels)",
+          "Medium vs High Performance",
+          "140 first-year students",
+          "Mathematics programs",
+          "Questionnaire",
+          "[Gender, Traveltime, Age, Cost, City, Activities, School, Part-time Job, Fedu, Sports, Fjob, Paidclass, Medu, Study Method, Mjob, Study time, Income, Motivation, Famsize, Free time, Siblings, Health, Location, Major, Distance, CGPA, Transport]",
+          "End of first semester",
+          "Data is collected from questionnaires, with 27 variables. \n\nThe data is given to a k-means algorithm with each cluster label representing one possible value of target.",
+          "Naibe Bayes",
+          "Holdout Method",
+          "{Accuracy: 0.96 - NB, Sensitivity: 0.9286 - NB, Specificity: 1 - NB}",
+          "From description, it seems that clusters are created using entire dataset.\n\nTarget variable is obtained as result of clustering. \n\n",
+          "Small sample size\n\nHoldout method\n\nOnly uses NB\n\nLikely has implementation errors\n\n\n\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "48180f44-cd89-4f27-a4f1-0524f2ef7b0a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "48180f44-cd89-4f27-a4f1-0524f2ef7b0a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2024-07-31T21:40:00.000Z",
+        "last_edited_time": "2024-07-31T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0124278b-674f-4758-b9d5-13d701b621cf",
+      "type": "paragraph",
+      "text": "Academic achievements is a hall-mark of a high quality academic institution and the performance of students in the firsat year is usally a good indicator of student success later down the line. ",
+      "raw": {
+        "object": "block",
+        "id": "0124278b-674f-4758-b9d5-13d701b621cf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2024-07-31T21:41:00.000Z",
+        "last_edited_time": "2024-07-31T21:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Academic achievements is a hall-mark of a high quality academic institution and the performance of students in the firsat year is usally a good indicator of student success later down the line. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Academic achievements is a hall-mark of a high quality academic institution and the performance of students in the firsat year is usally a good indicator of student success later down the line. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "129650a2-5031-491f-a107-a23776d1c97e",
+      "type": "paragraph",
+      "text": "The authors use Semi-Supervised learning to classify students in an Indonesian University based on their performance - Medium/High. Authors use sample of 140 students and 27 features. The approach starts with the use of clustering (k-Means) followed by classification (Naive Bayes).  Model performance published indicate very high performances.",
+      "raw": {
+        "object": "block",
+        "id": "129650a2-5031-491f-a107-a23776d1c97e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2024-07-31T21:43:00.000Z",
+        "last_edited_time": "2024-07-31T21:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use Semi-Supervised learning to classify students in an Indonesian University based on their performance - Medium/High. Authors use sample of 140 students and 27 features. The approach starts with the use of clustering (k-Means) followed by classification (Naive Bayes).  Model performance published indicate very high performances.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use Semi-Supervised learning to classify students in an Indonesian University based on their performance - Medium/High. Authors use sample of 140 students and 27 features. The approach starts with the use of clustering (k-Means) followed by classification (Naive Bayes).  Model performance published indicate very high performances.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2344750c-f3ba-8022-9a43-fc39c3d2aaf8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2344750c-f3ba-8022-9a43-fc39c3d2aaf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2025-07-18T23:02:00.000Z",
+        "last_edited_time": "2025-07-18T23:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2344750c-f3ba-8030-a27b-ddac44b93cf4",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2344750c-f3ba-8030-a27b-ddac44b93cf4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2025-07-18T23:02:00.000Z",
+        "last_edited_time": "2025-07-18T23:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2344750c-f3ba-80ef-ab0a-d4b0b8d0c134",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2344750c-f3ba-80ef-ab0a-d4b0b8d0c134",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7eb96e8f-d314-4220-9bf9-4c34e1fb1818"
+        },
+        "created_time": "2025-07-18T23:02:00.000Z",
+        "last_edited_time": "2025-07-18T23:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "page_id": "3364750c-f3ba-8069-88c7-e4185a604368",
+  "title": "An Outcome-Based Educational Recommender  System",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a1980991-55e0-48c2-8d16-184421e6b21d",
+          "name": "Recommendation Systems",
+          "color": "brown"
+        },
+        {
+          "id": "0613c248-a036-4754-9495-f16628254133",
+          "name": "E-Learning",
+          "color": "green"
+        },
+        {
+          "id": "bb5aa748-a798-4348-848c-bb840ce9f78a",
+          "name": "Evaluation",
+          "color": "brown"
+        },
+        {
+          "id": "a91b569b-9190-4e51-bdd9-cb8d0ac1bb5e",
+          "name": "Assessment",
+          "color": "default"
+        },
+        {
+          "id": "c9006daf-1fe1-442e-81da-c165f8cf876f",
+          "name": "Intended Learning Outcomes",
+          "color": "pink"
+        },
+        {
+          "id": "ddb33d32-1932-48c9-874d-3d80ce57996b",
+          "name": "Constructive Alignment",
+          "color": "default"
+        },
+        {
+          "id": "348bc2ac-0f2a-41ea-a522-9d62b6ca317d",
+          "name": "Empirical Software Engineering",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Educational Recommender Systems\" AND \"Higher Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Educational Recommender Systems\" AND \"Higher Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "T`Bn",
+          "name": "ArXiv",
+          "color": "pink"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ArXiv",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ArXiv",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar\n",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02T15:53:00.000+01:00",
+        "end": "2026-04-02T17:50:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Askarbekuly et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Askarbekuly et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An Outcome-Based Educational Recommender  System",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An Outcome-Based Educational Recommender  System",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3364750c-f3ba-80aa-b32d-e43f3fbb27c4",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "MOOC",
+          "Mobile E-Learning",
+          "Outcome-Based Educational Recommender System (OBER); method-agnostic framework with Fixed trajectory, Collaborative Filtering (CF), and Knowledge-Based (KB) filtering",
+          "Learning items / next items in a learning trajectory to maximize mastery of outcomes",
+          "Over 5,700 learners total; experiment groups: CF 1856, Fixed 1963, KB 1932",
+          "NamazApp learning content",
+          "Learner profiles, learning items, interaction logs, outcome tree, item–outcome alignment mappings, mastery scores",
+          "Learning outcomes first established with domain experts; outcomes aligned to items; in NamazApp, an LLM produced initial item–outcome alignments, later checked and edited by the team; mastery computed from best result on verifying items",
+          "Recommendations delivered during normal app usage; framework supports swapping recommendation methods without changing logging or mastery calculation",
+          "Minimal entity-relation schema with Learner–Item–Outcome entities; item-outcome alignments labeled as promotes or verifies; mastery formula uses learner’s best result on items verifying each outcome; total mastery is sum over outcomes",
+          "Personalized next-item recommendations / learning trajectories",
+          "Two-week randomized split test comparing Fixed, CF, and KB. Metrics: Retention, Relevance (CTR), and Mastery. Results: CF had highest retention (6.16) and relevance (0.3033), but Fixed achieved highest mastery (0.4641), followed by KB (0.4212) and CF (0.3899)",
+          "Links recommendation directly to learning outcomes rather than only engagement. Contribution is mainly methodological: adding outcomes and assessment into the RS schema so different methods can be compared on pedagogical impact. The page-3 schema and page-6 evaluation flow make the framework especially clear",
+          "Findings are specific to NamazApp and non-formal learning; larger/longer experiments needed for stronger significance claims; generalizability to other educational contexts remains open"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-80d7-848e-efd7aeec8321",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80d7-848e-efd7aeec8321",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+        },
+        "created_time": "2026-04-02T14:50:00.000Z",
+        "last_edited_time": "2026-04-02T14:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-804f-8c2f-fe14ef3d6dd5",
+      "type": "paragraph",
+      "text": "Most ERS suffer from the problem of being evaluated with pedagogically unmeaningful metrics. Authors introduce OBER which introduces outcomes and assessments into the schema → allowing the evaluation of learning gains. \n\nAuthors A/B/C tested their framework on a set of 5700 students over 2 weeks using 3 methods - Fixed, CF and KB. Fixed path maximized mastery, while CF maximized retention. ",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-804f-8c2f-fe14ef3d6dd5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+        },
+        "created_time": "2026-04-02T14:50:00.000Z",
+        "last_edited_time": "2026-04-02T14:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most ERS suffer from the problem of being evaluated with pedagogically unmeaningful metrics. Authors introduce OBER which introduces outcomes and assessments into the schema → allowing the evaluation of learning gains. \n\nAuthors A/B/C tested their framework on a set of 5700 students over 2 weeks using 3 methods - Fixed, CF and KB. Fixed path maximized mastery, while CF maximized retention. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most ERS suffer from the problem of being evaluated with pedagogically unmeaningful metrics. Authors introduce OBER which introduces outcomes and assessments into the schema → allowing the evaluation of learning gains. \n\nAuthors A/B/C tested their framework on a set of 5700 students over 2 weeks using 3 methods - Fixed, CF and KB. Fixed path maximized mastery, while CF maximized retention. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80ea-bf0f-e163aefdcc3d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80ea-bf0f-e163aefdcc3d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+        },
+        "created_time": "2026-04-02T16:46:00.000Z",
+        "last_edited_time": "2026-04-02T16:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/ede96aaf-c53b-4ed1-8120-3eb186300f96/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QYBFHRNG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151752Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCIC%2FEivEGkPBP%2BS3KtXUS2Pf5JylWlIhS8d9%2BuJFanGQIhAO8nck3uPMcV82REeUatnMZaM2pa9%2BE7xjFMom8SU9waKv8DCHcQABoMNjM3NDIzMTgzODA1IgzfxaLRI8%2FIx6Uxcmcq3ANs0uksmEX1a%2B3s3vyS543V7Ys4J7f6oNadN1bm%2FupiwbQdLExc1iASEsz4PVB2LfpFLUtbjaNMd9fbp7ouu73KxOzh4I95vRCeMZssnVNl7MH1eT6TJB7hNUJFqcwxoRv%2BOkhK1FQ3i7OeFVhjyywPSa%2B4UTwz%2FdTX8ZzolZZuc1PyUQtQGgcxb02JVZ2X3nO4FkSsblTgjvYpvEC%2BFJ4vbmS9lCuhlVFHufB0uwzuc6Xcd79VyRbJmyrwsOTYHOWXK7K5bDjlD2XuLlppF3YnpFKlx6qcI2rqqV6RuIN%2FrMuLxWXzJMc0n2RD8eObZ%2BDuHVz4S%2Bnip7mZVVzXn40%2BVSmVt7yQx9flxJg6hocnMgWMSzMS1LTBQXSpErdAdmb2br3OsidrXOiZBq%2BjUpqs6PJ8%2BRcX11N0%2B1j6Dt1geb0vEFxlf0rNO694dh%2FcTBbt8XJkxj2H3ZsZpouI6qHFkzycfqO43C6Wi6fa2m2tfqa40hkhHy9GhDov%2BSEr2b%2Fdy8WTzdQIxaDfPNyvbNV7RJGySWfStqUuLsKqMd%2FZyVXEdXB4RPrwUMppxGWqW1v9dXMHTqXeLcikbZOJ14AU8ltQqj9uhbSdF8bMqoolOR%2FElmPum9YbZ9D7tzDP7vPOBjqkATSJXkxcciPkRls8IUjxVM73dNqLYWIoMryybVQ%2B8%2BQ6C4HZBK%2BMXs0mFcoloQGqFLYZYFr252OgrmctbusTaywO7BrktF2IURg%2FMhqPcdrx1fYPOo0N7xmyiIAYjqk1w%2FMrqHxPTZYrnt2ui9ivIV8JWDTSYWt0vHmlZARo1GvxZ6wWPfKiRE3XEmXDvW%2BJCqAzAC74gnbnCW%2BRhtsVCJCTWJu%2B&X-Amz-Signature=fb8053784cd452f798f5e16121a29fd3ec119a59e54f5d54989fefcaac338d58&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:17:52.499Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80d4-9bc3-d53a1bb5e8d3",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80d4-9bc3-d53a1bb5e8d3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+        },
+        "created_time": "2026-04-02T16:47:00.000Z",
+        "last_edited_time": "2026-04-02T16:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80aa-b32d-e43f3fbb27c4",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80aa-b32d-e43f3fbb27c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8069-88c7-e4185a604368"
+        },
+        "created_time": "2026-04-02T16:47:00.000Z",
+        "last_edited_time": "2026-04-02T16:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

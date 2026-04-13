@@ -1,0 +1,620 @@
+{
+  "page_id": "dd21d830-8604-4593-af38-fd8651669a90",
+  "title": "Exercise recommendation based on knowledge concept prediction",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        },
+        {
+          "id": "288047d6-eb72-4faf-bd0b-d17127c3fe52",
+          "name": "Recurrent Neural Network",
+          "color": "purple"
+        },
+        {
+          "id": "430b8f07-1410-478d-9821-b3e3ed05ad5c",
+          "name": "Deep Knowledge Tracing",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T22:45:00.000+00:00",
+        "end": "2025-10-26T01:45:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Exercise recommendation based on knowledge concept prediction",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Exercise recommendation based on knowledge concept prediction",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2974750c-f3ba-80ac-a326-da1d12586ec6",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Intelligent Tutoring System",
+          "E-Learning",
+          "Hybrid",
+          "Next Exercise",
+          "4217 ASSISTments09 learners, 574 Algebra 2005 learners, 335 OLIES students",
+          "ASSISTments, Algebra and OLIES",
+          "Sequence of Answers, Knowledge Components",
+          "Learner knowledge is initialized via weighted-average of first-attempt scores on each concept.\n\nExercise profiles are created from difficulty and concept coverage",
+          "Learner Mastery is updated after each attempt.",
+          "Authors create a concept-exercise matrix that highlights the concepts covered by each exercise.\n\nStudent scores on each exercise are normalized",
+          "Top-N exercises",
+          "AST09\n{Accuracy: 0.866 - KCP-ER, Diversity: 0.772 - KCP-ER, Novelty: 0.963 - KCP-ER}\n\nAlgebra05\n{Accuracy: 0.899 - KCP-ER, Diversity: 0.751 - KCP-ER, Novelty: 0.839 - KCP-ER}\n\nOLIES\n{Accuracy: 0.894 - KCP-ER, Diversity: 0.948 - KCP-ER, Novelty: 0.883 - KCP-ER}",
+          "Authors use Knowledge Tracing - and more specifically DKT to understand a learners’ mastery level of different concepts.\n\nThen, the authors compute similarity between exercises the suggest exercises that are in an approppriate difficulty for the knowledge concept.",
+          "- Cognitive-level estimation estimation depends on manual tagging of exercises.\n\n- Does not use text of exercise to estimate difficulty (or correctedness)."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-80ff-b8ce-c8661ee22ebe",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80ff-b8ce-c8661ee22ebe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-02-05T22:45:00.000Z",
+        "last_edited_time": "2025-02-05T22:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8025-b068-d906f5898cb3",
+      "type": "paragraph",
+      "text": "Exercise recommendations can make or break learning. To be effective, an exercise needs to be challenging enough to foster interest while, simultaneously, being accessible. Collaborative Filtering is not effective at this since it recommends exercises based on past behavior of similar students. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8025-b068-d906f5898cb3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-02-05T22:45:00.000Z",
+        "last_edited_time": "2025-02-05T22:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Exercise recommendations can make or break learning. To be effective, an exercise needs to be challenging enough to foster interest while, simultaneously, being accessible. Collaborative Filtering is not effective at this since it recommends exercises based on past behavior of similar students. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Exercise recommendations can make or break learning. To be effective, an exercise needs to be challenging enough to foster interest while, simultaneously, being accessible. Collaborative Filtering is not effective at this since it recommends exercises based on past behavior of similar students. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80ae-96c8-c497e0a4e54a",
+      "type": "paragraph",
+      "text": "Authors propose a model that uses DKT to predict a learner’s mastery level and uses this prediction as a form to filter exercises eligible for recommendation. Results show that model does better than baseline approaches both in terms of difficulty of exercises but also diversity and novelty. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80ae-96c8-c497e0a4e54a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-02-05T22:49:00.000Z",
+        "last_edited_time": "2025-02-05T22:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose a model that uses DKT to predict a learner’s mastery level and uses this prediction as a form to filter exercises eligible for recommendation. Results show that model does better than baseline approaches both in terms of difficulty of exercises but also diversity and novelty. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose a model that uses DKT to predict a learner’s mastery level and uses this prediction as a form to filter exercises eligible for recommendation. Results show that model does better than baseline approaches both in terms of difficulty of exercises but also diversity and novelty. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80e3-9bc4-ca84d7162ee0",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80e3-9bc4-ca84d7162ee0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-10-25T23:42:00.000Z",
+        "last_edited_time": "2025-10-25T23:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/17a12366-de63-46dc-bbbf-2c4d12bdb950/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TWR5WRA4%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152500Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGJL%2BdCzs0Bjano3V4a8L76lnm9PFsBER9rf2bvfCT1lAiBToV9KJp3nbcpY78zrAfQ1a7rxwtexS02%2BFwMunkuFeCr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMLbkUQaizlE1%2BIc2CKtwDD%2FQrqimBvocnJfGIZN2%2BQnKp3P%2FQJ6IzVBNSobYLRw177oUKG%2Bmq%2FaOku7qsp5l5JQ5mldYRhG1NVnfRkcKvYGTkDSP56s%2F8TSekQEhaWJykgsxGKPhvR7adHnLWdnlaPSEA30nsgzEgylE75rc8vLNokdN6X5K%2FufsjGn5sx2Kvh9X7Q6wiQcwL%2BFWyRKrCP5YU226rJeeexxvRkAjSiA4BftS%2Frh9AEFAb7Jcunn5cOTq1EoYS7MX01gDCddoqU7Z1AmpSuqrz1CErRk%2FD7QXts3W0M7O1X6f1EmbFkBkleHIx0B5HkkUKxbhUkU0AzlCCnFurRDE35yU9Mm7pc3Ufy7OaFbYX6Z1yx7HgLg%2FnTHOLd3ZOQOYlH3nW0mqhFY7uDpWRcND0yB8gbwfqfDAE1BbSImS5FyGqoOArFczLOGFmNhvjmpU6OLlyo%2Fv1KgEBLPS5UWHU38FjNsHcHzmLQgWmVTUAfwc7%2FQEZ%2F0TJCmVSkVqydwZkqNitbjjqjUZ%2FMo1cHKJJu1DUqNobYqsOZWnVQFMzXHVT8rLPGZdFpeWyA%2FMeGboNQk2zYkiSQbPVnY3yvvVxVVHqKKLsjofYxgnpN5uECfvavnKTTqlLXPACRcrdSwgFFU0wwfDzzgY6pgGD64lLB3w1TGousreEEGuqdwF6LgccrOyh2rx1DgtFnjgoE%2FkVx9oFfmgc8WhIIEfpCieln7VvCClob7%2FZWEqkm1oMxWaCHdB6N2UPgUEcV6pbOlNP%2BAXXCcpcPdPj5JGnAgnHAhkld%2FKvhg9tAkfERX65W8UN%2FiYQLS1V6ONblFrlweJR5Z2dK4RKvYW%2BXtOEaFTqvQypbhkGaHtDYkcBw9U6LyZ2&X-Amz-Signature=22f884eaf7f489bff37ff63df0edf6a378fe06bcfc0e0145dc88f95f8f04f267&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:25:00.540Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-809b-96e3-ecaadaab9342",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-809b-96e3-ecaadaab9342",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-10-25T23:33:00.000Z",
+        "last_edited_time": "2025-10-25T23:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80ac-a326-da1d12586ec6",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80ac-a326-da1d12586ec6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+        },
+        "created_time": "2025-10-25T23:33:00.000Z",
+        "last_edited_time": "2025-10-26T00:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

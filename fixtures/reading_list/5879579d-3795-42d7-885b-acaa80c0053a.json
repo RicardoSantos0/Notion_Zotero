@@ -1,0 +1,964 @@
+{
+  "page_id": "5879579d-3795-42d7-885b-acaa80c0053a",
+  "title": "A prediction model of student performance based on self-attention mechanism",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        },
+        {
+          "id": "28fb287e-16ed-44b7-96d3-222e3786a1fb",
+          "name": "Self-Attention Mechanism",
+          "color": "blue"
+        },
+        {
+          "id": "66b31879-4980-49b6-8caf-2f25c70a8ec8",
+          "name": "Mode Difference",
+          "color": "gray"
+        },
+        {
+          "id": "da1bc290-cb4d-457a-8e8c-713618834a10",
+          "name": "Failing Prediction",
+          "color": "default"
+        },
+        {
+          "id": "fbe6f1f4-0157-405f-a810-4ed6a8f5eb61",
+          "name": "Learning Performance Prediction",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge and Information Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge and Information Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T00:00:00.000+01:00",
+        "end": "2025-08-22T17:38:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Chen et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Chen et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A prediction model of student performance based on self-attention mechanism",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A prediction model of student performance based on self-attention mechanism",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "24e4750c-f3ba-8075-b168-d96e20a2fa0d",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Failing in a Program",
+          "Pass (1) vs Fail ( 0)",
+          "20000 undergraduate students of Xi’an Jiaotong University",
+          "Not Applicable",
+          "Library Access Control, Transaction Data, Attendance Data, Enollment Data, Student Characteristics, Academic History",
+          "[Student Number, Province, Entry Type, Gender, College, Graduate High School, Year of Enrollment, Course Category, Class number, Schedule Week, Credits, School Year Term, Grades, Credits, Dynamic Data Sequences from Campus Card]",
+          "Start of Term",
+          "The model includes a set of different modules: \n\n- Behavior Feature Extraction module. This module does 3 forms of aggregation in an hierarchical manner: daily, to weekly, to term - the highest resolution level.\n\nThe outputs of this module are fed as input to a mode difference module, which checks the similarity of between the current time step and the next time step for a specific feature. \n\nFinally, the ouptputs of these are given to a module that is meant to make the correction. ",
+          "Logistic Regression, Random Forest,\nGBoost, SVM, MSH-MD LSTM, MSH-LSTM",
+          "Holdout Method (80/20)",
+          "{Precision: 0.54 - RF, Recall: 0.7413 - MSH-MD-LSTM , F1-Score: 0.5831 - MSH-MD LSTM}",
+          "Authors propose a new model for the prediction of student performance based on 2 tasks: Classification and Regression.\n\nTo do that, the authors propose a deep learning architecture with multiple new modules: \n\n1. ! Module meant to extract the temporal features from the data source (card usages). These are attempted at diufferent levels of temporal granularity (day, week, term).\n\n2. One module meant to deal with sparsity of information that measures the difference in mode between one feature on the previous period and the current period (called the day-before feature extraction module.\n\nThese results are concatenated before being given as input to the prediction module. \n\nThe work compares the introduction of the 2 new models and compares their performance against that of other representations - MSH-MD LSTM outperforms all baselines.\n\nAblation study shgows that the mode difference module is relevant.",
+          "- Single Dataset\n\n- Unhelpful for early prediction since requires data from the term to be fully taken\n\n- Holdout Method\n\n- Difficult to generalize to different institutions - card data is extremely specific."
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Not Applicable",
+          "GPA",
+          "GPA grade",
+          "20000 undergraduate students of Xi’an Jiaotong University",
+          "Not Applicable",
+          "Library Access Control, Transaction Data, Attendance Data, Enollment Data, Student Characteristics, Academic History",
+          "[Student Number, Province, Entry Type, Gender, College, Graduate High School, Year of Enrollment, Course Category, Class number, Schedule Week, Credits, School Year Term, Grades, Credits, Dynamic Data Sequences from Campus Card]",
+          "Start of Term",
+          "The model includes a set of different modules: \n\n- Behavior Feature Extraction module. This module does 3 forms of aggregation in an hierarchical manner: daily, to weekly, to term - the highest resolution level.\n\nThe outputs of this module are fed as input to a mode difference module, which checks the similarity of between the current time step and the next time step for a specific feature. \n\nFinally, the ouptputs of these are given to a module that is meant to make the correction. ",
+          "LinearRegression, Random Forest,\nGBoost, SVM, MSH-MD LSTM, MSH-LSTM",
+          "Holdout Method (80/20)",
+          "{MSE 0.0070- MSH-MD LSTM, RMSE: 0.0836 - MSH-MD LSTM , MAE: 0.0526 - MSH-MD LSTM, RSquared: 0.4805}",
+          "Authors propose a new model for the prediction of student performance based on 2 tasks: Classification and Regression.\n\nTo do that, the authors propose a deep learning architecture with multiple new modules: \n\n1. ! Module meant to extract the temporal features from the data source (card usages). These are attempted at diufferent levels of temporal granularity (day, week, term).\n\n2. One module meant to deal with sparsity of information that measures the difference in mode between one feature on the previous period and the current period (called the day-before feature extraction module.\n\nThese results are concatenated before being given as input to the prediction module. \n\nThe work compares the introduction of the 2 new models and compares their performance against that of other representations - MSH-MD LSTM outperforms all baselines.\n\nAblation study shgows that the mode difference module is relevant.",
+          "- Single Dataset\n\n- Unhelpful for early prediction since requires data from the term to be fully taken\n\n- Holdout Method\n\n- Difficult to generalize to different institutions - card data is extremely specific."
+        ]
+      ],
+      "index": 13
+    }
+  ],
+  "blocks": [
+    {
+      "id": "c1949d49-f9ed-4088-8193-a37085c1eb76",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "c1949d49-f9ed-4088-8193-a37085c1eb76",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:17:00.000Z",
+        "last_edited_time": "2024-08-06T10:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "03b09df2-5c5f-4f4e-9463-1c88e7d0ce04",
+      "type": "paragraph",
+      "text": "The paper attempts to perform prediction for 2 distinct targets:",
+      "raw": {
+        "object": "block",
+        "id": "03b09df2-5c5f-4f4e-9463-1c88e7d0ce04",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:17:00.000Z",
+        "last_edited_time": "2024-08-06T10:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper attempts to perform prediction for 2 distinct targets:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper attempts to perform prediction for 2 distinct targets:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3f8a13e6-63df-4405-ab3e-094ef672db39",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3f8a13e6-63df-4405-ab3e-094ef672db39",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:19:00.000Z",
+        "last_edited_time": "2024-08-06T10:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "65521cad-c851-492d-aefd-ca0ddd7c5c4f",
+      "type": "paragraph",
+      "text": "Contribution starts with the introduction of a novel way of representing behavioral features from campus card data. Second, the authors use a multi-head attention mechanism to automatically select the most important high-order combination features. Third, the authors propose a new predictive model that retains accuracy and robustness. ",
+      "raw": {
+        "object": "block",
+        "id": "65521cad-c851-492d-aefd-ca0ddd7c5c4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:19:00.000Z",
+        "last_edited_time": "2024-08-06T10:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Contribution starts with the introduction of a novel way of representing behavioral features from campus card data. Second, the authors use a multi-head attention mechanism to automatically select the most important high-order combination features. Third, the authors propose a new predictive model that retains accuracy and robustness. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Contribution starts with the introduction of a novel way of representing behavioral features from campus card data. Second, the authors use a multi-head attention mechanism to automatically select the most important high-order combination features. Third, the authors propose a new predictive model that retains accuracy and robustness. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ffac009-8ea4-4e97-82fa-62e4e5b9851b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ffac009-8ea4-4e97-82fa-62e4e5b9851b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:22:00.000Z",
+        "last_edited_time": "2024-08-06T10:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8fe90971-631b-49bd-bffe-04610f735f50",
+      "type": "paragraph",
+      "text": "Empyrical experiment is performed on data collected from a system in a chinese university. Model outpertms baseline models for both tasks. ",
+      "raw": {
+        "object": "block",
+        "id": "8fe90971-631b-49bd-bffe-04610f735f50",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2024-08-06T10:22:00.000Z",
+        "last_edited_time": "2024-08-06T10:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Empyrical experiment is performed on data collected from a system in a chinese university. Model outpertms baseline models for both tasks. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Empyrical experiment is performed on data collected from a system in a chinese university. Model outpertms baseline models for both tasks. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-8021-a192-dd066b0767ea",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-8021-a192-dd066b0767ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:17:00.000Z",
+        "last_edited_time": "2025-08-13T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-8043-895f-e3c618d4141a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-8043-895f-e3c618d4141a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:17:00.000Z",
+        "last_edited_time": "2025-08-13T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a1357907-4d66-4f6e-b25c-d648167adef0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664GKRM6PB%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDbg1VnYiQYXbYkmr7dR5hlSoyavGEqjEXgDcHhFLaiYAiASBw24o3TPp2ZSpnOk9%2F%2F2Ffpnrf1e5bIlnvXJ2kywyir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMd607SwdNg7gSvOeiKtwDXHNEgwBYTM68ufs40rYIebXTXz0ebI2Dxjq8tblD0EerVv5V8o2PxoVjGvSABsaAnbGZS%2BBk1HvcuNlbAVfsvZwjhT9GmlQQW35QksVcXNaUeGQ9lu1IAEgRKBfrQGFm9rzGaUzwI%2Fc%2BAUm0vZnUJl21HSjfIfpfW%2Ba8iteont7ljRk9R%2BsWkHUqmrlAKql4N4%2BuMaxNwJl8I3cjdJA0U8bAv2ka%2BUXpAzi9ZB%2F5c5Sn0nn6CJ9ZuKM11TX3Pn0lh1bgP2w8HpTXRnPbfnoSNWJx9Rwk9aHsA84Q02oJNtnbqJKQo0xFUo%2FzStgm4v7Jmvp6nE22aWu59fcsTx82zIx78l57v49ejTMEIkabajbL8aNxBPOVjgZdMYAkTDT7Rxe4QqIqnkRuQtttqneOOZshTXm%2BFrEBtZxrR2HAjXbq0MxtAqXtfpQu0oS2sK7skFrxv%2BCROqZcp0HyI0ivI8ofFkP%2FHaWiX%2FVq%2BxoPWsDpDlO6fCmyXsOlu9JhqKfbXGy4Ckg%2BbpSRAQouua8MkY84LVolQEGIzZwRFcpsbTjaK1eMdO52uoAYsZvivxBvmBpPpetHGZGRgG6YEr0qqHDXoKX0N0PhACf7JaVWphx9ZOAuKxRl%2BCParOEw%2BfDzzgY6pgFt6B%2BUIs7WwgzBE2hs8vSqSLCYfshOufMROOjITL26oSnyLmiX53pRrex%2BbfSebvBK00SmjdoLzu6k0x7yLMTB3JfrU6W5jvGL4HtlSJCEvKmAyH%2FGJP40cCiBoDxegLIcino3aKLptBwpMJz8UdgQF2iCd1q7YUl0oIPR%2FEsj4Yb6TFjmfp9dd4Q01HVlXGDB1BY1B0M0rmC2DEU3UfH8UnsPrGdW&X-Amz-Signature=b21436c0993a371e299312adedfb5de1467a2d1fd0739319d1800cd02fe36fe0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:37.521Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-805e-9cbf-c28fe6d1e5ba",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-805e-9cbf-c28fe6d1e5ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:17:00.000Z",
+        "last_edited_time": "2025-08-13T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-805a-822b-c786e1fbeb6d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-805a-822b-c786e1fbeb6d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:17:00.000Z",
+        "last_edited_time": "2025-08-13T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/371ed6cd-03e7-440f-90d9-515bc7d588e3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664GKRM6PB%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDbg1VnYiQYXbYkmr7dR5hlSoyavGEqjEXgDcHhFLaiYAiASBw24o3TPp2ZSpnOk9%2F%2F2Ffpnrf1e5bIlnvXJ2kywyir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMd607SwdNg7gSvOeiKtwDXHNEgwBYTM68ufs40rYIebXTXz0ebI2Dxjq8tblD0EerVv5V8o2PxoVjGvSABsaAnbGZS%2BBk1HvcuNlbAVfsvZwjhT9GmlQQW35QksVcXNaUeGQ9lu1IAEgRKBfrQGFm9rzGaUzwI%2Fc%2BAUm0vZnUJl21HSjfIfpfW%2Ba8iteont7ljRk9R%2BsWkHUqmrlAKql4N4%2BuMaxNwJl8I3cjdJA0U8bAv2ka%2BUXpAzi9ZB%2F5c5Sn0nn6CJ9ZuKM11TX3Pn0lh1bgP2w8HpTXRnPbfnoSNWJx9Rwk9aHsA84Q02oJNtnbqJKQo0xFUo%2FzStgm4v7Jmvp6nE22aWu59fcsTx82zIx78l57v49ejTMEIkabajbL8aNxBPOVjgZdMYAkTDT7Rxe4QqIqnkRuQtttqneOOZshTXm%2BFrEBtZxrR2HAjXbq0MxtAqXtfpQu0oS2sK7skFrxv%2BCROqZcp0HyI0ivI8ofFkP%2FHaWiX%2FVq%2BxoPWsDpDlO6fCmyXsOlu9JhqKfbXGy4Ckg%2BbpSRAQouua8MkY84LVolQEGIzZwRFcpsbTjaK1eMdO52uoAYsZvivxBvmBpPpetHGZGRgG6YEr0qqHDXoKX0N0PhACf7JaVWphx9ZOAuKxRl%2BCParOEw%2BfDzzgY6pgFt6B%2BUIs7WwgzBE2hs8vSqSLCYfshOufMROOjITL26oSnyLmiX53pRrex%2BbfSebvBK00SmjdoLzu6k0x7yLMTB3JfrU6W5jvGL4HtlSJCEvKmAyH%2FGJP40cCiBoDxegLIcino3aKLptBwpMJz8UdgQF2iCd1q7YUl0oIPR%2FEsj4Yb6TFjmfp9dd4Q01HVlXGDB1BY1B0M0rmC2DEU3UfH8UnsPrGdW&X-Amz-Signature=a9497d18e1d18f80943008ca663ff1fdf88a597fdb3f6ecade630255135576e5&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:37.517Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-80ab-aac4-ed21a37b4772",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-80ab-aac4-ed21a37b4772",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:18:00.000Z",
+        "last_edited_time": "2025-08-13T17:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-80ba-a076-c36cb0ec521f",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-80ba-a076-c36cb0ec521f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:18:00.000Z",
+        "last_edited_time": "2025-08-13T17:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/1caa835b-0d9e-4132-a0f9-cb2895afcaf3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664GKRM6PB%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152937Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDbg1VnYiQYXbYkmr7dR5hlSoyavGEqjEXgDcHhFLaiYAiASBw24o3TPp2ZSpnOk9%2F%2F2Ffpnrf1e5bIlnvXJ2kywyir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMd607SwdNg7gSvOeiKtwDXHNEgwBYTM68ufs40rYIebXTXz0ebI2Dxjq8tblD0EerVv5V8o2PxoVjGvSABsaAnbGZS%2BBk1HvcuNlbAVfsvZwjhT9GmlQQW35QksVcXNaUeGQ9lu1IAEgRKBfrQGFm9rzGaUzwI%2Fc%2BAUm0vZnUJl21HSjfIfpfW%2Ba8iteont7ljRk9R%2BsWkHUqmrlAKql4N4%2BuMaxNwJl8I3cjdJA0U8bAv2ka%2BUXpAzi9ZB%2F5c5Sn0nn6CJ9ZuKM11TX3Pn0lh1bgP2w8HpTXRnPbfnoSNWJx9Rwk9aHsA84Q02oJNtnbqJKQo0xFUo%2FzStgm4v7Jmvp6nE22aWu59fcsTx82zIx78l57v49ejTMEIkabajbL8aNxBPOVjgZdMYAkTDT7Rxe4QqIqnkRuQtttqneOOZshTXm%2BFrEBtZxrR2HAjXbq0MxtAqXtfpQu0oS2sK7skFrxv%2BCROqZcp0HyI0ivI8ofFkP%2FHaWiX%2FVq%2BxoPWsDpDlO6fCmyXsOlu9JhqKfbXGy4Ckg%2BbpSRAQouua8MkY84LVolQEGIzZwRFcpsbTjaK1eMdO52uoAYsZvivxBvmBpPpetHGZGRgG6YEr0qqHDXoKX0N0PhACf7JaVWphx9ZOAuKxRl%2BCParOEw%2BfDzzgY6pgFt6B%2BUIs7WwgzBE2hs8vSqSLCYfshOufMROOjITL26oSnyLmiX53pRrex%2BbfSebvBK00SmjdoLzu6k0x7yLMTB3JfrU6W5jvGL4HtlSJCEvKmAyH%2FGJP40cCiBoDxegLIcino3aKLptBwpMJz8UdgQF2iCd1q7YUl0oIPR%2FEsj4Yb6TFjmfp9dd4Q01HVlXGDB1BY1B0M0rmC2DEU3UfH8UnsPrGdW&X-Amz-Signature=93136e436a22a4eb126db329fa60c2c375a63a8cf5eff225398f871713d703ac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:37.518Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-80b2-80c3-dbf70b7a7954",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-80b2-80c3-dbf70b7a7954",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:11:00.000Z",
+        "last_edited_time": "2025-08-13T17:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24e4750c-f3ba-8075-b168-d96e20a2fa0d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24e4750c-f3ba-8075-b168-d96e20a2fa0d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-13T17:11:00.000Z",
+        "last_edited_time": "2025-08-22T11:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2574750c-f3ba-8060-aa26-defd1ecb0af6",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2574750c-f3ba-8060-aa26-defd1ecb0af6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+        },
+        "created_time": "2025-08-22T00:31:00.000Z",
+        "last_edited_time": "2025-08-22T00:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

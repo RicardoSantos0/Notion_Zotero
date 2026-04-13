@@ -1,0 +1,2781 @@
+{
+  "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195",
+  "title": "Estimating student dropout in distance higher education using semi-supervised techniques",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "03112ecd-a12c-4a74-b2f6-a99d20de9634",
+          "name": "Distance Higher Education",
+          "color": "brown"
+        },
+        {
+          "id": "ded3181f-b9b5-49de-94bd-36a83e64ca3c",
+          "name": "Dropout",
+          "color": "default"
+        },
+        {
+          "id": "3a30a9c2-d08e-4c44-b1c2-5614e2a3cc3a",
+          "name": "Semi-Supervised Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "ac114993-6f93-4bec-9753-26513f92523c",
+          "name": "Tri-Training Algorithms",
+          "color": "blue"
+        },
+        {
+          "id": "9fe30267-d177-46dd-9192-21bb286ed4cc",
+          "name": "C4.5 Decision Tree",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PCI",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "PCI",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-30T11:00:00.000+01:00",
+        "end": "2024-08-30T13:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kostopoulos et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kostopoulos et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Estimating student dropout in distance higher education using semi-supervised techniques",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Estimating student dropout in distance higher education using semi-supervised techniques",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "8306041d-2571-48ac-8f26-1b51d3c4226f",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Dropout",
+          "Dropout (0) vs No Dropout (1)",
+          "344",
+          "1 Computer Science Course",
+          "Student Characteristics\nAttendance Records\nAssessment Grades",
+          "[Gender, Age, MaritalStatus, Children, Work, ComputerKnowledge, ComputerJob, OCS1, TEST1, OCS2, TEST2]",
+          "Course Start\n\n25%\n\nCourse Halfway Point",
+          "Grades in assignments were discretized into NO SUBMISSION, FAIL, GOOD, EXCELLENT.\n\nCross-Validation Split made kept each fold with 10% labelled data and 90% unlabelled data.",
+          "Self-Training\nCo-Training\nDemocratic Co-Training\nTri-Training\nRASCO\nRel-RASCO\nC4.5",
+          "10-Fold Corss-Validation",
+          "{Accuracy: 0.7673 - NB Tri-Training at 3rd step, Friedman Ranking: 3.3 - Tri-Training C4.5, Recall: 0.8443 - Tri-Training C4.5 at 3rd step}",
+          "Authors compare performance of different algorithms at 3 different stages of course completion. \n\nBase learners are C4.5 and NB algorithms. Comparison benchmark is a C4.5 DT. Authors measure accuracy on the labelled data:\n\nBest model is based on a ranking of the accuracies on the different experiments - the Friedman Test. \n\nTri-Training on C4.5 was the best model and compared with C4.5 on its own.\n\n",
+          "Classifiers used are fairly basic: C4.5 and NB.\n\nSingle course and small sample size. \n\nNo use of behavioral attributes."
+        ]
+      ],
+      "index": 46
+    }
+  ],
+  "blocks": [
+    {
+      "id": "8174f2e3-7d77-4f02-a552-faeb4546de9f",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "8174f2e3-7d77-4f02-a552-faeb4546de9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-07-30T17:17:00.000Z",
+        "last_edited_time": "2024-07-30T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b03b8926-2dca-4d46-8801-5afb663cd943",
+      "type": "paragraph",
+      "text": "Semi-supervised learning may be an interesting approach to identify students who are more likely to dropout of an online course. ",
+      "raw": {
+        "object": "block",
+        "id": "b03b8926-2dca-4d46-8801-5afb663cd943",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-07-30T17:17:00.000Z",
+        "last_edited_time": "2024-07-30T17:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Semi-supervised learning may be an interesting approach to identify students who are more likely to dropout of an online course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Semi-supervised learning may be an interesting approach to identify students who are more likely to dropout of an online course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ce4c7a0f-1358-4396-b753-b6e0e275f3c4",
+      "type": "paragraph",
+      "text": "Labeled data is often hard to obtain, thus the authors propose a framework that allows the existence of some labeled instances and multiple unlabeled instances. Authors use a semi-supervised approach and argue to have achieved good predictive accuracy. Authors also propose a web-based tool to estimate if a student is likely to dropout.",
+      "raw": {
+        "object": "block",
+        "id": "ce4c7a0f-1358-4396-b753-b6e0e275f3c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-07-30T17:19:00.000Z",
+        "last_edited_time": "2024-07-30T17:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Labeled data is often hard to obtain, thus the authors propose a framework that allows the existence of some labeled instances and multiple unlabeled instances. Authors use a semi-supervised approach and argue to have achieved good predictive accuracy. Authors also propose a web-based tool to estimate if a student is likely to dropout.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Labeled data is often hard to obtain, thus the authors propose a framework that allows the existence of some labeled instances and multiple unlabeled instances. Authors use a semi-supervised approach and argue to have achieved good predictive accuracy. Authors also propose a web-based tool to estimate if a student is likely to dropout.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "33132d9c-f135-483b-9a64-bae5eaaa719b",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "33132d9c-f135-483b-9a64-bae5eaaa719b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:33:00.000Z",
+        "last_edited_time": "2024-08-30T10:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6e4382e0-bf4f-49bf-acc1-00d924c9401d",
+      "type": "paragraph",
+      "text": "For multiple different reasons, dropout is a concern in distance learning higher education and we need to develop strategies to help them. Many of the current approaches for detection of students at risk are innefective and/or take too long: previous grades, tutor evaluation etc… ",
+      "raw": {
+        "object": "block",
+        "id": "6e4382e0-bf4f-49bf-acc1-00d924c9401d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:33:00.000Z",
+        "last_edited_time": "2024-08-30T10:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "For multiple different reasons, dropout is a concern in distance learning higher education and we need to develop strategies to help them. Many of the current approaches for detection of students at risk are innefective and/or take too long: previous grades, tutor evaluation etc… ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For multiple different reasons, dropout is a concern in distance learning higher education and we need to develop strategies to help them. Many of the current approaches for detection of students at risk are innefective and/or take too long: previous grades, tutor evaluation etc… ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "de28070a-a933-40b2-9a8d-9588833e1c3e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "de28070a-a933-40b2-9a8d-9588833e1c3e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:38:00.000Z",
+        "last_edited_time": "2024-08-30T10:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "49183fb6-9d78-4ff3-8a98-fe15364b1d0e",
+      "type": "paragraph",
+      "text": "The authors attempt a semi-supervised approach to the problem of identify learner’s at risk. They compare the performance of SSL vs Supervised classifiers suchg as C4.5. Then, the authors present a prototype web-tool that computes the probability of a student dropping out. ",
+      "raw": {
+        "object": "block",
+        "id": "49183fb6-9d78-4ff3-8a98-fe15364b1d0e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:38:00.000Z",
+        "last_edited_time": "2024-08-30T10:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors attempt a semi-supervised approach to the problem of identify learner’s at risk. They compare the performance of SSL vs Supervised classifiers suchg as C4.5. Then, the authors present a prototype web-tool that computes the probability of a student dropping out. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors attempt a semi-supervised approach to the problem of identify learner’s at risk. They compare the performance of SSL vs Supervised classifiers suchg as C4.5. Then, the authors present a prototype web-tool that computes the probability of a student dropping out. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f137cfbc-64c4-4c37-bfbf-59d9aa09bc3e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f137cfbc-64c4-4c37-bfbf-59d9aa09bc3e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:41:00.000Z",
+        "last_edited_time": "2024-08-30T10:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "85f0d57f-56aa-438d-8a3e-dd17871aec9d",
+      "type": "heading_2",
+      "text": "ML in Dropout Prediction",
+      "raw": {
+        "object": "block",
+        "id": "85f0d57f-56aa-438d-8a3e-dd17871aec9d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:41:00.000Z",
+        "last_edited_time": "2024-08-30T10:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "ML in Dropout Prediction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "ML in Dropout Prediction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "64e55c60-8784-4fb0-8b20-a8555af1226c",
+      "type": "paragraph",
+      "text": "ML for Dropout prediction often revolves around data that is static (e.g. characteristics) or dynamic (e.g. LMS behavior) and the use of one or both sets of data to predict whether a student will give up or not. ",
+      "raw": {
+        "object": "block",
+        "id": "64e55c60-8784-4fb0-8b20-a8555af1226c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:42:00.000Z",
+        "last_edited_time": "2024-08-30T10:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "ML for Dropout prediction often revolves around data that is static (e.g. characteristics) or dynamic (e.g. LMS behavior) and the use of one or both sets of data to predict whether a student will give up or not. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "ML for Dropout prediction often revolves around data that is static (e.g. characteristics) or dynamic (e.g. LMS behavior) and the use of one or both sets of data to predict whether a student will give up or not. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "afc98aaa-2ee4-4d1d-869b-002f811be3d4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "afc98aaa-2ee4-4d1d-869b-002f811be3d4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:47:00.000Z",
+        "last_edited_time": "2024-08-30T10:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "139957f9-da64-43bd-8200-057d1052c4f8",
+      "type": "paragraph",
+      "text": "Different ML classifiers have been used with some success in the early prediction of dropout. The reviewed works use standard supervised ML techniques to achieve decent results. Moreover, predictive performance tends to improve as time advances. In some cases, as is the case of Atwell that the model can make predictions even before the start of the course. ",
+      "raw": {
+        "object": "block",
+        "id": "139957f9-da64-43bd-8200-057d1052c4f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:44:00.000Z",
+        "last_edited_time": "2024-08-30T10:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Different ML classifiers have been used with some success in the early prediction of dropout. The reviewed works use standard supervised ML techniques to achieve decent results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Different ML classifiers have been used with some success in the early prediction of dropout. The reviewed works use standard supervised ML techniques to achieve decent results. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, predictive performance tends to improve as time advances",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, predictive performance tends to improve as time advances",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". In some cases, as is the case of Atwell that the model can make predictions even before the start of the course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". In some cases, as is the case of Atwell that the model can make predictions even before the start of the course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c506b823-e53a-4e42-b3d1-b4544786bab8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c506b823-e53a-4e42-b3d1-b4544786bab8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:51:00.000Z",
+        "last_edited_time": "2024-08-30T10:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0aa937a5-5b45-4bf3-9ba0-e289fe0fc1c3",
+      "type": "paragraph",
+      "text": "The research, as it stands merely focuses on Supervised methods but the authors argue that SS Learning can be helpful. ",
+      "raw": {
+        "object": "block",
+        "id": "0aa937a5-5b45-4bf3-9ba0-e289fe0fc1c3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:51:00.000Z",
+        "last_edited_time": "2024-08-30T10:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The research, as it stands merely focuses on Supervised methods but the authors argue that SS Learning can be helpful. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The research, as it stands merely focuses on Supervised methods but the authors argue that SS Learning can be helpful. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "caff7851-da39-49ed-a679-d9d861c6b77f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "caff7851-da39-49ed-a679-d9d861c6b77f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:52:00.000Z",
+        "last_edited_time": "2024-08-30T10:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dc7cf5e1-a989-4c10-9b95-9e8111895a1d",
+      "type": "heading_2",
+      "text": "Semi-Supervised Learning",
+      "raw": {
+        "object": "block",
+        "id": "dc7cf5e1-a989-4c10-9b95-9e8111895a1d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:45:00.000Z",
+        "last_edited_time": "2024-08-30T10:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Semi-Supervised Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Semi-Supervised Learning",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8c5d9979-b526-4e6d-932f-7c95cb1545d8",
+      "type": "paragraph",
+      "text": "SSL is a mixture of supervised and unsupervised learning. SSL algorithms use small subsets of labelled data and large subsets of unlabelled data (much cheaper) to generate predictions for the unlabelled data. It can be categorized into 2 settings:",
+      "raw": {
+        "object": "block",
+        "id": "8c5d9979-b526-4e6d-932f-7c95cb1545d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:52:00.000Z",
+        "last_edited_time": "2024-08-30T10:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "SSL is a mixture of supervised and unsupervised learning. SSL algorithms use small subsets of labelled data and large subsets of unlabelled data (much cheaper) to generate predictions for the unlabelled data. It can be categorized into 2 settings:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "SSL is a mixture of supervised and unsupervised learning. SSL algorithms use small subsets of labelled data and large subsets of unlabelled data (much cheaper) to generate predictions for the unlabelled data. It can be categorized into 2 settings:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "50d11420-2a70-4015-bf7a-77e8fe90bd6e",
+      "type": "numbered_list_item",
+      "text": "Inductive: Given a training set, SSL uses a training dataset featuring data that is labeled and data that is unlabeled. The purpose of an inductive model is to be able to generalize to new data.\n",
+      "raw": {
+        "object": "block",
+        "id": "50d11420-2a70-4015-bf7a-77e8fe90bd6e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:55:00.000Z",
+        "last_edited_time": "2024-08-30T11:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Inductive: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Inductive: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Given a training set, SSL uses a training dataset featuring data that is labeled and data that is unlabeled. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Given a training set, SSL uses a training dataset featuring data that is labeled and data that is unlabeled. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "The purpose of an inductive model is to be able to generalize to new data",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The purpose of an inductive model is to be able to generalize to new data",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ".",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ".",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2120c2ab-c5be-4f4b-9549-be7bc08a964a",
+      "type": "numbered_list_item",
+      "text": "Transductive: Given a training dataset with labelled and unlabelled data, the algorithm needs to make predictions for the training data. This model is not explicitly meant to generalize to new data → used for labelling purposes.",
+      "raw": {
+        "object": "block",
+        "id": "2120c2ab-c5be-4f4b-9549-be7bc08a964a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:55:00.000Z",
+        "last_edited_time": "2024-08-30T11:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Transductive: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Transductive: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Given a training dataset with labelled and unlabelled data, the algorithm needs to make predictions for the training data. This model is not explicitly meant to generalize to new data → used for labelling purposes.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Given a training dataset with labelled and unlabelled data, the algorithm needs to make predictions for the training data. This model is not explicitly meant to generalize to new data → used for labelling purposes.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "14d1cea8-1705-42e4-ac8f-b99b96c70616",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "14d1cea8-1705-42e4-ac8f-b99b96c70616",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:59:00.000Z",
+        "last_edited_time": "2024-08-30T10:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "da03ac0e-f92b-474f-9aa1-c5c1c1e4b4b5",
+      "type": "paragraph",
+      "text": "Popular Semi-Supervised Learning Algorithms include:",
+      "raw": {
+        "object": "block",
+        "id": "da03ac0e-f92b-474f-9aa1-c5c1c1e4b4b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:59:00.000Z",
+        "last_edited_time": "2024-08-30T11:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Popular Semi-Supervised Learning Algorithms include:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Popular Semi-Supervised Learning Algorithms include:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d066f01f-d755-4566-8905-2cdcadc8cadb",
+      "type": "numbered_list_item",
+      "text": "Self-Training: Iterative process. Start with training a classifier (or regressor) with the labeled data. Then, use the trained classifier to generate predictions for the unlabeled data. After all the training data is labeled, retrain the model with the augmented dataset. \n\nDrawback: If the initial model sucks, it will generate incorrect labels. \n",
+      "raw": {
+        "object": "block",
+        "id": "d066f01f-d755-4566-8905-2cdcadc8cadb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:04:00.000Z",
+        "last_edited_time": "2024-08-30T11:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Self-Training:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Self-Training:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " Iterative process. Start with training a classifier (or regressor) with the labeled data. Then, use the trained classifier to generate predictions for the unlabeled data. After all the training data is labeled, retrain the model with the ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Iterative process. Start with training a classifier (or regressor) with the labeled data. Then, use the trained classifier to generate predictions for the unlabeled data. After all the training data is labeled, retrain the model with the ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "augmented",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "augmented",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " dataset. \n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " dataset. \n\n",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Drawback",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Drawback",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": If the initial model sucks, it will generate incorrect labels. \n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": If the initial model sucks, it will generate incorrect labels. \n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3357c18d-2f55-42ef-a426-55d61e38da51",
+      "type": "numbered_list_item",
+      "text": "Co-Training: Create two distinct feature sets for each instance and train separate classifiers on each set. Both classifiers predict labels for unlabeled data. The classifier with more confident predictions labels the unlabeled observations. These newly labeled instances are then added to the labeled pool of the other classifier.\n",
+      "raw": {
+        "object": "block",
+        "id": "3357c18d-2f55-42ef-a426-55d61e38da51",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:04:00.000Z",
+        "last_edited_time": "2024-08-30T11:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Co-Training:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Co-Training:",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " Create two distinct feature sets for each instance and train separate classifiers on each set. Both classifiers predict labels for unlabeled data. The classifier with more confident predictions labels the unlabeled observations. These newly labeled instances are then added to the labeled pool of the other classifier.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Create two distinct feature sets for each instance and train separate classifiers on each set. Both classifiers predict labels for unlabeled data. The classifier with more confident predictions labels the unlabeled observations. These newly labeled instances are then added to the labeled pool of the other classifier.\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9ac8a11b-98cb-41cd-9725-a9e538c8643e",
+      "type": "numbered_list_item",
+      "text": "Democratic Co-Training: Train different algorithms on the labelled data. Then, use the voted predictions on the unlabelled as the observation’s label. \n",
+      "raw": {
+        "object": "block",
+        "id": "9ac8a11b-98cb-41cd-9725-a9e538c8643e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:04:00.000Z",
+        "last_edited_time": "2024-08-30T11:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Democratic Co-Training: Train",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Democratic Co-Training: Train",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " different algorithms on the labelled data. Then, use the voted predictions on the unlabelled as the observation’s label. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " different algorithms on the labelled data. Then, use the voted predictions on the unlabelled as the observation’s label. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1a970b96-ce16-4b4f-bd36-3222d2676114",
+      "type": "numbered_list_item",
+      "text": "Tri-Training: Starts with the training of 3 different models (that may or may not use different sets of features for each instance). These models are trained on the labeled data and generate a vote for each instance of the unlabeled data. \n ",
+      "raw": {
+        "object": "block",
+        "id": "1a970b96-ce16-4b4f-bd36-3222d2676114",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:04:00.000Z",
+        "last_edited_time": "2024-08-30T11:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Tri-Training: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Tri-Training: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Starts with the training of 3 different models (that may or may not use different sets of features for each instance). These models are trained on the labeled data and generate a vote for each instance of the unlabeled data. \n ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Starts with the training of 3 different models (that may or may not use different sets of features for each instance). These models are trained on the labeled data and generate a vote for each instance of the unlabeled data. \n ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b57c66cd-6f03-4dd7-a431-4c8bae9bd1d5",
+      "type": "numbered_list_item",
+      "text": "Random Sub-space Co-Training (RASCO): This is an ensemble model that creates different classifiers whose feature space is sampled from the original feature space (the notion of creating different views). The predictions of each classifier are compared and the most confident predictions enlarge the training data of the other classifiers. \n",
+      "raw": {
+        "object": "block",
+        "id": "b57c66cd-6f03-4dd7-a431-4c8bae9bd1d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:05:00.000Z",
+        "last_edited_time": "2024-08-30T11:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Random Sub-space Co-Training (RASCO): ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Random Sub-space Co-Training (RASCO): ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "This is an ensemble model that creates different classifiers whose feature space is sampled from the original feature space (the notion of creating different views). The predictions of each classifier are compared and the most confident predictions enlarge the training data of the other classifiers. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This is an ensemble model that creates different classifiers whose feature space is sampled from the original feature space (the notion of creating different views). The predictions of each classifier are compared and the most confident predictions enlarge the training data of the other classifiers. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2041d56b-78d8-467b-8463-22de66f98857",
+      "type": "numbered_list_item",
+      "text": "Rel-RASCO: Similar to RASCO in many regards. Main difference is that the feature sampling is not fully random. Instead, the probabilities of each feature become proportional towards the importance of the feature.",
+      "raw": {
+        "object": "block",
+        "id": "2041d56b-78d8-467b-8463-22de66f98857",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:05:00.000Z",
+        "last_edited_time": "2024-08-30T11:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Rel-RASCO: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Rel-RASCO: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Similar to RASCO in many regards. Main difference is that the feature sampling is not fully random. Instead, the probabilities of each feature become proportional towards the importance of the feature.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Similar to RASCO in many regards. Main difference is that the feature sampling is not fully random. Instead, the probabilities of each feature become proportional towards the importance of the feature.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b2a43f4-b36e-4de9-a1f6-b14a20a07d1d",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "1b2a43f4-b36e-4de9-a1f6-b14a20a07d1d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:26:00.000Z",
+        "last_edited_time": "2024-08-30T11:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "33630b9d-be8c-4300-8728-a8ec59206ac0",
+      "type": "paragraph",
+      "text": "Goal is to use SSL to create accurate predictions of dropout and to compare the performance of these algorithms against standard Supervised Approaches. ",
+      "raw": {
+        "object": "block",
+        "id": "33630b9d-be8c-4300-8728-a8ec59206ac0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:26:00.000Z",
+        "last_edited_time": "2024-08-30T11:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Goal is to use SSL to create accurate predictions of dropout and to compare the performance of these algorithms against standard Supervised Approaches. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Goal is to use SSL to create accurate predictions of dropout and to compare the performance of these algorithms against standard Supervised Approaches. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f8e72ca8-2179-4fd0-98c1-d592cd6a9f18",
+      "type": "paragraph",
+      "text": "The authors use data from a Computer Science Course at Hellenic Open University. The course is divided into 12 modules and each has 4 written assignments and a final examination. Students can take the exam as soon as they finish the written assignments. There are also optional sessions.\n\nData comprises 344 students and prediction uses data collected before the 3rd assignment (meaning that we can assume prediction to be done at course’s halfway point maybe…). The authors select 10-Fold Cv as model assessment strategy.",
+      "raw": {
+        "object": "block",
+        "id": "f8e72ca8-2179-4fd0-98c1-d592cd6a9f18",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:31:00.000Z",
+        "last_edited_time": "2024-08-30T11:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use data from a Computer Science Course at Hellenic Open University. The course is divided into 12 modules and each has 4 written assignments and a final examination. Students can take the exam as soon as they finish the written assignments. There are also optional sessions.\n\nData comprises 344 students and prediction uses data collected before the 3rd assignment (meaning that we can assume prediction to be done at course’s halfway point maybe…). The authors select 10-Fold Cv as model assessment strategy.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use data from a Computer Science Course at Hellenic Open University. The course is divided into 12 modules and each has 4 written assignments and a final examination. Students can take the exam as soon as they finish the written assignments. There are also optional sessions.\n\nData comprises 344 students and prediction uses data collected before the 3rd assignment (meaning that we can assume prediction to be done at course’s halfway point maybe…). The authors select 10-Fold Cv as model assessment strategy.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3d4fea06-fbca-4a6e-9141-4270015e763c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3d4fea06-fbca-4a6e-9141-4270015e763c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:41:00.000Z",
+        "last_edited_time": "2024-08-30T11:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "85ef4d4f-8d5b-49f0-a222-470497c6a037",
+      "type": "paragraph",
+      "text": "The 2 experiments are divided into 3 sequential parts:",
+      "raw": {
+        "object": "block",
+        "id": "85ef4d4f-8d5b-49f0-a222-470497c6a037",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:31:00.000Z",
+        "last_edited_time": "2024-08-30T11:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The 2 experiments are divided into 3 sequential parts:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The 2 experiments are divided into 3 sequential parts:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4c4d63c3-0b90-40a9-9c25-af7328eeb610",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "4c4d63c3-0b90-40a9-9c25-af7328eeb610",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:45:00.000Z",
+        "last_edited_time": "2024-08-30T11:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7e0383b4-7370-4648-9174-838e390c733e",
+      "type": "paragraph",
+      "text": "The first experiment is to run the different SSL algorithms (with C4.5 or NB as base learners) and see which ones obtain the highest accuracy.  The second experiment is to compare the best SSL approaches with a Supervised C4.5 algorithm.",
+      "raw": {
+        "object": "block",
+        "id": "7e0383b4-7370-4648-9174-838e390c733e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:45:00.000Z",
+        "last_edited_time": "2024-08-30T11:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The first experiment is to run the different SSL algorithms (with C4.5 or NB as base learners) and see which ones obtain the highest accuracy.  The second experiment is to compare the best SSL approaches with a Supervised C4.5 algorithm.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The first experiment is to run the different SSL algorithms (with C4.5 or NB as base learners) and see which ones obtain the highest accuracy.  The second experiment is to compare the best SSL approaches with a Supervised C4.5 algorithm.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "19280358-47d3-492b-988d-03907487417a",
+      "type": "heading_2",
+      "text": "Results ",
+      "raw": {
+        "object": "block",
+        "id": "19280358-47d3-492b-988d-03907487417a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:51:00.000Z",
+        "last_edited_time": "2024-08-30T11:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results ",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ccc33cce-c66c-4e3e-b6d2-1188f544fea3",
+      "type": "paragraph",
+      "text": "As far as the first experiment goes, it becomes obvious that using the semi-supervised approach mirrors observations that are also seen in standard supervised works: The predictive ability of the models increases with the advancement of the course. The analysis of performance for this work is based on the Friedman Test → a ranking of models based on their accuracy on labelled data for the different tasks. ",
+      "raw": {
+        "object": "block",
+        "id": "ccc33cce-c66c-4e3e-b6d2-1188f544fea3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:52:00.000Z",
+        "last_edited_time": "2024-08-30T12:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "As far as the first experiment goes, it becomes obvious that using the semi-supervised approach mirrors observations that are also seen in standard supervised works: The predictive ability of the models increases with the advancement of the course. The analysis of performance for this work is based on the Friedman Test → a ranking of models based on their accuracy on labelled data for the different tasks. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "As far as the first experiment goes, it becomes obvious that using the semi-supervised approach mirrors observations that are also seen in standard supervised works: The predictive ability of the models increases with the advancement of the course. The analysis of performance for this work is based on the Friedman Test → a ranking of models based on their accuracy on labelled data for the different tasks. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c5b04c66-852e-40ad-82ed-13de14cf6909",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c5b04c66-852e-40ad-82ed-13de14cf6909",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:53:00.000Z",
+        "last_edited_time": "2024-08-30T11:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a86e361d-7255-4606-a7f9-4f582bfd527e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666CTJBWXZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151912Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC7bYlkIX4om6FhwuRzv6WIEVHDxW62ObITd7UbR8MT%2BAIgN3qcEAc3krpp1gsmJGemMHVJ7gbX%2Fa848rzdz5%2FsKxAq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDEtl20N8bIab7TRMtCrcAxODKI6M3nnE2B42xYQeSH6WMlLwrTDjZOawi%2BmhcuEX1TUZrW3MUCsoyEamHBTWsaf%2Blot1l0rurrxgM5oetuTFylgX286bchmQAyfYcxa%2B49%2B0vjS67l5XhfBqTifHjcEfay18jw%2BX26kKldJdQOEPHNFyMHIeflAOg4g%2FWGRD8IS7ufBYyfcKjveK6qZ67YluQGRaG1Pzb0iEeJEbZX3r2tcS%2B7b%2F2h9MV%2BfO7sCR5TzCzPSNaBDt1NDafQ2UbqnxH4QI2L597CMRsB5S8mbSeDckhVc0CnSk9qm5g8KKtdwXLSOYDVLUzN3ZtCf3w7j1TUPs%2BTX7GuYbMvFUI048qBDBswNmpkaO%2FcfZKhEN0lT2Y66sVeq50di4aT2i%2Fo6Z15qChR%2FXYzIlkYmePlDOxW6pxACm9LviFMFyDWpBE5w1NuxsxasABYiq%2BqIf2aXlNQ6TAHFUywQeG0%2FpqHtKUGhy%2BwyPlPdRIcjW%2BGp4RE7sUadgZK8z6YtlB8YFOU6P4kRAIyoGvXmdKchs8Sy6%2FQNyLGscqgbZ8qg0HaIRdwJj1B7zDJcHGG13crCt5zq0%2FUBjCQKJwTVOcGhZdyLZSeunk08x1qEJ%2BVSLsh3kXy9lIvpPAgibdU59MJzx884GOqUBSlAaTi9f04Gs6gspfr0npwDgW2DJtmbqm6KUU2yRTZX50mSuvHvSPAMe1U%2B7SC8KC56YlZEsIp4Ml8A0j%2BMF1uyKK81xjW3i74ZRh7RQt%2F5we0ZWG35lgfEbn5VA609QlMFQ%2BXsMfWUdKeNA8njfOHLZ4Hk8uajWA5zOIRuVmMQaImHJLqF3g16962yuOAqLkxhv93sjrw1gExekkPNMaUo449eQ&X-Amz-Signature=9bf82235e9b8f7deae485ab6047d14c2292228cbaf6673d19c3a2e957cb4b38d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:12.096Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5ed35b00-5629-4eb9-99a1-cd5fb589f834",
+      "type": "paragraph",
+      "text": "Depending on the classifier used as base, there are some interesting observations: ",
+      "raw": {
+        "object": "block",
+        "id": "5ed35b00-5629-4eb9-99a1-cd5fb589f834",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T11:27:00.000Z",
+        "last_edited_time": "2024-08-30T12:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Depending on the classifier used as base, there are some interesting observations: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Depending on the classifier used as base, there are some interesting observations: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7a6c6328-cefb-4592-8c0f-2dbc03371f86",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7a6c6328-cefb-4592-8c0f-2dbc03371f86",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:04:00.000Z",
+        "last_edited_time": "2024-08-30T12:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e33dfe1b-ed6e-47dc-9805-69aca2150786",
+      "type": "paragraph",
+      "text": "The ranking results, show that Tri-Training C4.5 is the best overall model as, based on the different experiments and steps is the model that has the highest average ranking based on the different accuracy scores obtained.",
+      "raw": {
+        "object": "block",
+        "id": "e33dfe1b-ed6e-47dc-9805-69aca2150786",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:04:00.000Z",
+        "last_edited_time": "2024-08-30T12:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The ranking results, show that Tri-Training C4.5 is the best overall model as, based on the different experiments and steps is the model that has the highest average ranking based on the different accuracy scores obtained.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The ranking results, show that Tri-Training C4.5 is the best overall model as, based on the different experiments and steps is the model that has the highest average ranking based on the different accuracy scores obtained.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7fe8f598-6135-43ce-b2c8-3989542d87d0",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7fe8f598-6135-43ce-b2c8-3989542d87d0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:08:00.000Z",
+        "last_edited_time": "2024-08-30T12:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/dcbeb555-ba1e-47dc-be85-9b94785b0169/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666CTJBWXZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151912Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC7bYlkIX4om6FhwuRzv6WIEVHDxW62ObITd7UbR8MT%2BAIgN3qcEAc3krpp1gsmJGemMHVJ7gbX%2Fa848rzdz5%2FsKxAq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDEtl20N8bIab7TRMtCrcAxODKI6M3nnE2B42xYQeSH6WMlLwrTDjZOawi%2BmhcuEX1TUZrW3MUCsoyEamHBTWsaf%2Blot1l0rurrxgM5oetuTFylgX286bchmQAyfYcxa%2B49%2B0vjS67l5XhfBqTifHjcEfay18jw%2BX26kKldJdQOEPHNFyMHIeflAOg4g%2FWGRD8IS7ufBYyfcKjveK6qZ67YluQGRaG1Pzb0iEeJEbZX3r2tcS%2B7b%2F2h9MV%2BfO7sCR5TzCzPSNaBDt1NDafQ2UbqnxH4QI2L597CMRsB5S8mbSeDckhVc0CnSk9qm5g8KKtdwXLSOYDVLUzN3ZtCf3w7j1TUPs%2BTX7GuYbMvFUI048qBDBswNmpkaO%2FcfZKhEN0lT2Y66sVeq50di4aT2i%2Fo6Z15qChR%2FXYzIlkYmePlDOxW6pxACm9LviFMFyDWpBE5w1NuxsxasABYiq%2BqIf2aXlNQ6TAHFUywQeG0%2FpqHtKUGhy%2BwyPlPdRIcjW%2BGp4RE7sUadgZK8z6YtlB8YFOU6P4kRAIyoGvXmdKchs8Sy6%2FQNyLGscqgbZ8qg0HaIRdwJj1B7zDJcHGG13crCt5zq0%2FUBjCQKJwTVOcGhZdyLZSeunk08x1qEJ%2BVSLsh3kXy9lIvpPAgibdU59MJzx884GOqUBSlAaTi9f04Gs6gspfr0npwDgW2DJtmbqm6KUU2yRTZX50mSuvHvSPAMe1U%2B7SC8KC56YlZEsIp4Ml8A0j%2BMF1uyKK81xjW3i74ZRh7RQt%2F5we0ZWG35lgfEbn5VA609QlMFQ%2BXsMfWUdKeNA8njfOHLZ4Hk8uajWA5zOIRuVmMQaImHJLqF3g16962yuOAqLkxhv93sjrw1gExekkPNMaUo449eQ&X-Amz-Signature=4165bd1c00fdf90ae08d410c44f02060c757b9a38059e505f7fbaa9f635b2eb6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:12.099Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "362fd926-66d8-47f7-a96d-96f88be2aad3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "362fd926-66d8-47f7-a96d-96f88be2aad3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:08:00.000Z",
+        "last_edited_time": "2024-08-30T12:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5562a450-8cc7-411e-a580-15072472ae97",
+      "type": "paragraph",
+      "text": "The best model selected under these circumstances was sub-sequently tested in comparison with C4.5 over Accuracy and Specificity - Recall. The model of Tri-Training with C4.5 clearly outperformed the classifier on both metrics → suggesting that the semi-supervised approach outperformed the standard supervised method. ",
+      "raw": {
+        "object": "block",
+        "id": "5562a450-8cc7-411e-a580-15072472ae97",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:08:00.000Z",
+        "last_edited_time": "2024-08-30T12:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The best model selected under these circumstances was sub-sequently tested in comparison with C4.5 over Accuracy and Specificity - Recall. The model of Tri-Training with C4.5 clearly outperformed the classifier on both metrics → suggesting that the semi-supervised approach outperformed the standard supervised method. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The best model selected under these circumstances was sub-sequently tested in comparison with C4.5 over Accuracy and Specificity - Recall. The model of Tri-Training with C4.5 clearly outperformed the classifier on both metrics → suggesting that the semi-supervised approach outperformed the standard supervised method. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5f1712e3-cb07-47ef-8e46-3d2b0478f6a7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5f1712e3-cb07-47ef-8e46-3d2b0478f6a7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:59:00.000Z",
+        "last_edited_time": "2024-08-30T12:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3cec6e40-0709-42be-803e-2d148780e8a7",
+      "type": "paragraph",
+      "text": "Work also includes the exposition of a web-platform that returns the probability of dropping out based on the features. This prototype may, in the future, be used to predict dropout of students.",
+      "raw": {
+        "object": "block",
+        "id": "3cec6e40-0709-42be-803e-2d148780e8a7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T12:59:00.000Z",
+        "last_edited_time": "2024-08-30T13:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Work also includes the exposition of a web-platform that returns the probability of dropping out based on the features. This prototype may, in the future, be used to predict dropout of students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Work also includes the exposition of a web-platform that returns the probability of dropping out based on the features. This prototype may, in the future, be used to predict dropout of students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "aae56d21-0b3c-438e-9aea-c8ace994fe3c",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "aae56d21-0b3c-438e-9aea-c8ace994fe3c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:33:00.000Z",
+        "last_edited_time": "2025-03-16T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8306041d-2571-48ac-8f26-1b51d3c4226f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8306041d-2571-48ac-8f26-1b51d3c4226f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a3271c0-2023-4e96-a26c-a125db59f195"
+        },
+        "created_time": "2024-08-30T10:33:00.000Z",
+        "last_edited_time": "2024-08-30T10:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

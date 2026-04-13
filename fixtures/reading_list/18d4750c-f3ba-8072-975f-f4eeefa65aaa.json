@@ -1,0 +1,644 @@
+{
+  "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa",
+  "title": "Dynamics of self-regulated learning: The effectiveness of students’ strategies across course periods",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "f59cbb6b-e63b-49a6-b4d1-2e35b6cdaac9",
+          "name": "Tactics and Strategies",
+          "color": "orange"
+        },
+        {
+          "id": "c8fc5592-d1e6-4de8-9270-e48e7ea8ffe4",
+          "name": "Pattern Analysis",
+          "color": "green"
+        },
+        {
+          "id": "fe3d7a30-109e-4076-bcc0-e8982c47cf45",
+          "name": "Strategy Transition",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01T17:35:00.000+00:00",
+        "end": "2025-03-22T15:43:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cristea et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cristea et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dynamics of self-regulated learning: The effectiveness of students’ strategies across course periods",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dynamics of self-regulated learning: The effectiveness of students’ strategies across course periods",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1be4750c-f3ba-80a4-989f-de11ea936a7c",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not Applicable",
+          "5870 students",
+          "41 courses at a Dutch STEM university",
+          "LMS logs\nEnd-of-course Grades ",
+          "Wynne’s SRL Model",
+          "[Announcement, Discussions, Assignment, Submission, Learning Materials, Mandatory Quiz, Optional Quiz, Metacognition andd Course Browsing]",
+          "Authors aggregated different types of activities in the 9 categories described as the features.\n\nMoreover, the authors defined learning sessions, considering that two clicks were in the same session if they were within 12.1 minutes and cannot have more than 111 clicks/learning events.\n\nData was filtered to remove outliers,  leading to 5110 students in 34 sessions. ",
+          "Expectation-Maximization",
+          "Log-lokelihood,\nBayesian Information Criterion,\nAkaike Information Criterion",
+          "4",
+          "Assignment-Focused tactic: Most common tactic. Dominated by Assignment Pages and Mandatory Quizzes\n\nMaterial-Focused tactic:  More than half of the clicks are on materials. Second most common tactic as well.\n\nMixed Tactic: More diverse set of actions with no clear dominant action.\n\nQuizz-Focused Tactic: Least common tactic in which students opt to do mandatory quizzes or optional quizzes.  ",
+          "The different learning tactics are the backbone of the learning strategies covered layer. More than just characterization of the clusters over the features, authors also describe clusters in terms of most likely transitions in actions.\n\nFor example, the Mixed Tactic revels itself to be the most common way of a student starting a course. ",
+          "Selection of Groups number was done via the Expectation-Maximization Algorithm.\n\nThe first level of clustering was for learning tactics, the second for learning strategies.\n\n",
+          "Survivorship bias (only learners who were present over the 2 years were considered).\n\nLMS are a partial and incomplete picture of learner behavior.\n\nNo specifics on the internal conditions of each course."
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not Applicable",
+          "5870 students",
+          "41 courses at a Dutch STEM university",
+          "LMS logs\nEnd-of-course Grades ",
+          "Wynne’s SRL Model",
+          "[Quizz-Focused Tactic, Mixed Tactic, Material-Focused Tactic, Assignment-Focused Tactic]",
+          "Authors obtain the clusters of learning tactics from the Logs using EM and then use the model outputs as the features for the second clustering algorithm of learning strategies. ",
+          "Multiple Markov Models",
+          "“Best fit”",
+          "4",
+          "Balanced Strategy: No dominant tactic, as all are employed relatively often. \n\nResource-Oriented: Most of the actions are accessing resources. This learning strategy is the second largest and is ranked thrid in terms of number of sessions.\n\nGrade-Oriented: Most of the time is spent on grade menus (largest cluster). \n\nFlexible: Adaptation to different courses, buyt not equal “balanced” engagement in all learning tactics.",
+          "Different strategies suggest different levels of engagement with Surfave vs Deep approaches to learning. \n\nTemporal level of granularity of analysis also impacts the analysis of transitions between strategies.\n\nAll strategies are found to have a significantly different impact on grade as showcased by a Kruskall-Wallis test. \n\nResults also show that being consistent in terms of learning strategy ois more effective than changing strategy midway.\n\n",
+          "Authors also look at how learners change their behavior (strategy) during a course - often considering both at a half or at a quarter.\n\nEnd-result: Adopting a consistent deep-level approach to learning is the best option to succeed. However, transitioning between strategies is better than consistently adopting a surface-level approach to learning. ",
+          "Survivorship bias (only learners who were present over the 2 years were considered).\n\nLMS are a partial and incomplete picture of learner behavior.\n\nNo specifics on the internal conditions of each course."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18d4750c-f3ba-804d-bb73-df514adfba46",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-804d-bb73-df514adfba46",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-02-01T17:29:00.000Z",
+        "last_edited_time": "2025-02-01T17:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-8052-a068-d430e8f9b003",
+      "type": "paragraph",
+      "text": "Logs are a good form of detecting Learning Strategies, but not only that, transitions between log behaviors are also helpful. Thus, the authors use a dataset of 41 courses to see how in-course behavior changes affect performance. Authors use Markov Models to examine behavioral shifts (changes in strategy).",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-8052-a068-d430e8f9b003",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-02-01T17:29:00.000Z",
+        "last_edited_time": "2025-02-01T17:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Logs are a good form of detecting Learning Strategies, but not only that, transitions between log behaviors are also helpful. Thus, the authors use a dataset of 41 courses to see how in-course behavior changes affect performance. Authors use Markov Models to examine behavioral shifts (changes in strategy).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Logs are a good form of detecting Learning Strategies, but not only that, transitions between log behaviors are also helpful. Thus, the authors use a dataset of 41 courses to see how in-course behavior changes affect performance. Authors use Markov Models to examine behavioral shifts (changes in strategy).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-8035-9d5a-f15d031c39a7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-8035-9d5a-f15d031c39a7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-02-01T17:32:00.000Z",
+        "last_edited_time": "2025-02-01T17:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-8097-a01a-d6cd403622a2",
+      "type": "paragraph",
+      "text": "Results show that it is possible to identify clear clusters with measurable impacts on student performance. Surface approaches tend to underperform deep approaches over time. Secondly, more interestingly, being consistent with one approach is better than being irregular. ",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-8097-a01a-d6cd403622a2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-02-01T17:32:00.000Z",
+        "last_edited_time": "2025-02-01T17:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that it is possible to identify clear clusters with measurable impacts on student performance. Surface approaches tend to underperform deep approaches over time. Secondly, more interestingly, being consistent with one approach is better than being irregular. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that it is possible to identify clear clusters with measurable impacts on student performance. Surface approaches tend to underperform deep approaches over time. Secondly, more interestingly, being consistent with one approach is better than being irregular. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-80c7-899f-c3710bb98c35",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-80c7-899f-c3710bb98c35",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-03-22T14:08:00.000Z",
+        "last_edited_time": "2025-03-22T14:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-80a4-989f-de11ea936a7c",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-80a4-989f-de11ea936a7c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8072-975f-f4eeefa65aaa"
+        },
+        "created_time": "2025-03-22T14:08:00.000Z",
+        "last_edited_time": "2025-03-22T16:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

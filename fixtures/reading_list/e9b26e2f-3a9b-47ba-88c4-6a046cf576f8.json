@@ -1,0 +1,864 @@
+{
+  "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8",
+  "title": "An artificial intelligence tool for heterogeneous team formation in the classroom",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "5f9361f5-e71b-4bb1-b7eb-9f35e2480e0a",
+          "name": "Team Formation",
+          "color": "pink"
+        },
+        {
+          "id": "3b824418-ebcf-4ce4-9c56-c0df5ca210b2",
+          "name": "Artificial Intelligence in Education",
+          "color": "red"
+        },
+        {
+          "id": "c6a794c3-cff0-439f-a9dc-85b5788482c2",
+          "name": "Belbin Roles",
+          "color": "red"
+        },
+        {
+          "id": "87bddaba-3db9-4998-915a-553d39746d0e",
+          "name": "Computational Intelligence",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Group Formation” AND “Machine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Group Formation” AND “Machine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2016
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-03T15:00:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Alberola et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Alberola et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-04-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c9b2501b-8b9c-4006-8f15-62f4fc00b325",
+          "name": "Group Formation",
+          "color": "pink"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An artificial intelligence tool for heterogeneous team formation in the classroom",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An artificial intelligence tool for heterogeneous team formation in the classroom",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "18f4750c-f3ba-80f3-bcc5-e6f729487ac6",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80f3-bcc5-e6f729487ac6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:48:00.000Z",
+        "last_edited_time": "2025-02-03T14:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80af-8525-c2a4b3f5dcd0",
+      "type": "paragraph",
+      "text": "Teamwork is becoming an increasingly relevant skill to develop in the modern world. In an educational setting, not only do teams often lack support, but often fall short of forming optimal groups. The authors propose a new algorithm to form groups that uses uses a mix of AI and ontology:",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80af-8525-c2a4b3f5dcd0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:48:00.000Z",
+        "last_edited_time": "2025-02-03T14:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Teamwork is becoming an increasingly relevant skill to develop in the modern world. In an educational setting, not only do teams often lack support, but often fall short of forming optimal groups. The authors propose a new algorithm to form groups that uses uses a mix of AI and ontology:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Teamwork is becoming an increasingly relevant skill to develop in the modern world. In an educational setting, not only do teams often lack support, but often fall short of forming optimal groups. The authors propose a new algorithm to form groups that uses uses a mix of AI and ontology:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-8005-ac23-c1b2894e629a",
+      "type": "numbered_list_item",
+      "text": "Coalition Structure Generation",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-8005-ac23-c1b2894e629a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:50:00.000Z",
+        "last_edited_time": "2025-02-03T14:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Coalition Structure Generation",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Coalition Structure Generation",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80ea-b5a2-f8b2cea6070c",
+      "type": "numbered_list_item",
+      "text": "Bayesian Learning",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80ea-b5a2-f8b2cea6070c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:50:00.000Z",
+        "last_edited_time": "2025-02-03T14:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Bayesian Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Bayesian Learning",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80ec-ae55-e0aa439d1315",
+      "type": "numbered_list_item",
+      "text": "Belbin’s role theory",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80ec-ae55-e0aa439d1315",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:50:00.000Z",
+        "last_edited_time": "2025-02-03T14:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Belbin’s role theory",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Belbin’s role theory",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80c9-9f74-f0f499abaeda",
+      "type": "paragraph",
+      "text": " The algorithm beats other alternatives in: ",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80c9-9f74-f0f499abaeda",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:50:00.000Z",
+        "last_edited_time": "2025-02-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " The algorithm beats other alternatives in: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " The algorithm beats other alternatives in: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80df-ad1f-fbd4ead2ef65",
+      "type": "numbered_list_item",
+      "text": "Uses teammate feedback instead of self-perception",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80df-ad1f-fbd4ead2ef65",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:51:00.000Z",
+        "last_edited_time": "2025-02-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Uses teammate feedback instead of self-perception",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Uses teammate feedback instead of self-perception",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80c6-abed-d3a3dd4e5dac",
+      "type": "numbered_list_item",
+      "text": "Uses a probabilistic approach to identifying the role of each member",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80c6-abed-d3a3dd4e5dac",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:51:00.000Z",
+        "last_edited_time": "2025-02-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Uses a probabilistic approach to identifying the role of each member",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Uses a probabilistic approach to identifying the role of each member",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-801e-9a80-ca2469ba4d80",
+      "type": "numbered_list_item",
+      "text": "Is iterative.",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-801e-9a80-ca2469ba4d80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:52:00.000Z",
+        "last_edited_time": "2025-02-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Is iterative.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Is iterative.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80f3-8ce0-df03ebd77c13",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80f3-8ce0-df03ebd77c13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:52:00.000Z",
+        "last_edited_time": "2025-02-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80d1-a032-cc635eeae931",
+      "type": "paragraph",
+      "text": "Authors test their algorithm on a real sample of students and point out that it has potential.",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80d1-a032-cc635eeae931",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:52:00.000Z",
+        "last_edited_time": "2025-02-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors test their algorithm on a real sample of students and point out that it has potential.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors test their algorithm on a real sample of students and point out that it has potential.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-807e-a733-ff82df7933ad",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-807e-a733-ff82df7933ad",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e9b26e2f-3a9b-47ba-88c4-6a046cf576f8"
+        },
+        "created_time": "2025-02-03T14:52:00.000Z",
+        "last_edited_time": "2025-02-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

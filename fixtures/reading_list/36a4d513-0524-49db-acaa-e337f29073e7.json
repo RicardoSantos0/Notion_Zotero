@@ -1,0 +1,678 @@
+{
+  "page_id": "36a4d513-0524-49db-acaa-e337f29073e7",
+  "title": "Constructing a personalized learning path using genetic algorithms approach",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "73ec7c06-73eb-4396-a09d-221088feeaab",
+          "name": "Personalized Learning Path",
+          "color": "yellow"
+        },
+        {
+          "id": "2168b2b9-2d31-49f9-abe1-17d3d3841f96",
+          "name": "Personalized Trajectory",
+          "color": "pink"
+        },
+        {
+          "id": "faa5abe9-b1d9-45c9-9784-5d00649a87e1",
+          "name": "Genetic Algorithms",
+          "color": "brown"
+        },
+        {
+          "id": "1bfd3170-1f25-4aed-9697-e4dc464c7740",
+          "name": "Artificial Intelligence",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "T`Bn",
+          "name": "ArXiv",
+          "color": "pink"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ArXiv",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ArXiv",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-08T21:53:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Elshani & Nuçi",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Elshani & Nuçi",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Constructing a personalized learning path using genetic algorithms approach",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Constructing a personalized learning path using genetic algorithms approach",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2974750c-f3ba-8036-a7f8-f9081a02b82b",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Content-Based Filtering",
+          "University courses to take next",
+          "164,196 students in offline data; 70 undergrads in user study",
+          "9,478 lecture courses → 7,487 after ≥20-enrollment filter",
+          "Enrollment histories + catalog descriptions + course meta-info",
+          "User gives one favorite course; models use learned embeddings (no special cold-start beyond that)",
+          "Models/versioned on GitHub and refreshed 3× per semester after data refresh",
+          "Remove generic sentences, stop words & punctuation; lemmatize/stem; tokenize; build TF, binary, tf-idf vectors",
+          "Top-10 Recommendations (Max 1 per department)",
+          "Offline: mean/median rank & recall@10 (equivalency); recall@1/@10 (analogies). User study: serendipity = mean(unexpectedness, successfulness); 6 dimensions rated",
+          "BOW (div) scored highest in serendipity/novelty; course2vec best on analogies; RNN lacked novelty and often repeated requirement/major courses",
+          "Students rely on catalog text; neural concepts may be hidden; hard to see commonality when descriptions are distal; real-time enrollment lag; future work: add latent semantics/syllabi"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1944750c-f3ba-8072-a7ee-c5131e6c2a02",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-8072-a7ee-c5131e6c2a02",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-02-08T21:52:00.000Z",
+        "last_edited_time": "2025-02-08T21:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-80ec-963e-c45c19af9678",
+      "type": "paragraph",
+      "text": "Traditional learning has the drawback of being a one-size fits all solution where, despite their differences, all learners follow the same path → and the materials usually recommended follow this linear approach to learning, which may hamper a student’s performance. And, while there is literature on personalizing learning, most of it ignores relationship between concepts or difficulty (focusing on preferences).",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-80ec-963e-c45c19af9678",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-02-08T21:52:00.000Z",
+        "last_edited_time": "2025-02-08T21:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Traditional learning has the drawback of being a one-size fits all solution where, despite their differences, all learners follow the same path → and the materials usually recommended follow this ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Traditional learning has the drawback of being a one-size fits all solution where, despite their differences, all learners follow the same path → and the materials usually recommended follow this ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "linear approach to learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "linear approach to learning",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", which may hamper a student’s performance. And, while there is literature on personalizing learning, most of it ignores relationship between concepts or difficulty (focusing on preferences).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", which may hamper a student’s performance. And, while there is literature on personalizing learning, most of it ignores relationship between concepts or difficulty (focusing on preferences).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-807e-8de8-e0b27b978cc7",
+      "type": "paragraph",
+      "text": "The paper uses a Genetic-Algorithm based model that aims to generate optimized learning pathways that account for these constraints. Results show that the quality of the GA approach is higher than traditional learning paths.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-807e-8de8-e0b27b978cc7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-02-08T21:55:00.000Z",
+        "last_edited_time": "2025-02-08T21:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper uses a Genetic-Algorithm based model that aims to generate optimized learning pathways that account for these constraints. Results show that the ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper uses a Genetic-Algorithm based model that aims to generate optimized learning pathways that account for these constraints. Results show that the ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "quality",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "quality",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " of the GA approach is higher than traditional learning paths.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " of the GA approach is higher than traditional learning paths.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8016-9aeb-eb9cbe80dc73",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8016-9aeb-eb9cbe80dc73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-10-25T22:47:00.000Z",
+        "last_edited_time": "2025-10-25T22:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8060-b7aa-f592755e3879",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8060-b7aa-f592755e3879",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-10-25T22:47:00.000Z",
+        "last_edited_time": "2025-10-25T22:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8036-a7f8-f9081a02b82b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8036-a7f8-f9081a02b82b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "36a4d513-0524-49db-acaa-e337f29073e7"
+        },
+        "created_time": "2025-10-25T22:47:00.000Z",
+        "last_edited_time": "2025-10-25T22:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

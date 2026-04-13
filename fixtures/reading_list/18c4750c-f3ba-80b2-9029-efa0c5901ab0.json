@@ -1,0 +1,742 @@
+{
+  "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
+  "title": "Prediction of Dilatory Behavior in eLearning: A Comparison of Multiple Machine Learning Models",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "625d58a5-a4d7-4468-9a26-4950f509bbf7",
+          "name": "Dilatory Behavior",
+          "color": "blue"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "d3cca84b-37d9-4554-8c18-47aa44d1f982",
+          "name": "Predictive Performance",
+          "color": "pink"
+        },
+        {
+          "id": "d2459237-e901-40e5-ade7-2d39d49b1651",
+          "name": "Procrastination",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Behavior”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Behavior”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-05T16:50:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Imhof et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Imhof et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-27",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Prediction of Dilatory Behavior in eLearning: A Comparison of Multiple Machine Learning Models",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Prediction of Dilatory Behavior in eLearning: A Comparison of Multiple Machine Learning Models",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d54750c-f3ba-8031-951a-df6a8d86d648",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Delay in Submission",
+          "Delay vs Timely Submission",
+          "134 from a Central European University",
+          "126 online courses",
+          "Questionnaires, LMS logs",
+          "[General Academic Self-Efficacy Scale, Self-Directed Learning Scale, Academic Procrastination Scale, Active Procrastination Scale, Clicks on Assignment, Days between start of block and first click, Number of clicks on relevant activities]",
+          "Before assignment submission.",
+          "In total, there were 1107 student-assignment pairs. All missing values were removed and data was normalized.\n\nThe authors made a separation between types of predictiors:\n\n1. A model built using only subjective predictors,\n2. A model built only using objective predictors, \n3. Both predictor types\n\n ",
+          "NB, kNN, RBFN, FFNN, RT, Random Forest, GBoost, SVM, BA",
+          "10-Repeated Holdout",
+          "{G-Score: 0.7626 - RF comb, Accuracy: 0.705 - SVM - RBF comb, Mathews Correlation Coefficient: 0.3486 - RF comb, Precision: 0.5383 - SVM-RBF comb, Recall: 0.6222 - BRF comb, F1-Score (positive): 0.5705 - RF comb, F1-Score (negative) - 0.7824 - SMB-VS Subj}",
+          "Authors perform parameter tuning using CV but they also do a Repeated Holdout experiment. \n\nModels trained on subjective predictors are surpassed by models uising objective predictors which are subsequentely outperformed by models trained uising both types of data.",
+          "Small sample size without any addressing of class imabalances.\n\nDoes not account for facts such as stringent deadlines of submission which may artificially increase the number of learners submitting on time. \n\nExclusion of covariates."
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "Delay in Submission",
+          "Number of Days of Delay",
+          "134 from a Central European University",
+          "126 online courses",
+          "Questionnaires, LMS logs",
+          "[General Academic Self-Efficacy Scale, Self-Directed Learning Scale, Academic Procrastination Scale, Active Procrastination Scale, Clicks on Assignment, Days between start of block and first click, Number of clicks on relevant activities]",
+          "Before assignment submission.",
+          "In total, there were 1107 student-assignment pairs. All missing values were removed and data was normalized.\n\nThe authors made a separation between types of predictiors:\n\n1. A model built using only subjective predictors,\n2. A model built only using objective predictors, \n3. Both predictor types\n\n ",
+          "NB, kNN, RBFN, FFNN, RT, Random Forest, GBoost, SVM, BA",
+          "10-Repeated Holdout",
+          "{MAE: 7.05 - GBoost comb}",
+          "Authors perform parameter tuning using CV but they also do a Repeated Holdout experiment. \n\nModels trained on subjective predictors are surpassed by models uising objective predictors which are subsequentely outperformed by models trained uising both types of data.",
+          "Small sample size without any addressing of class imabalances.\n\nDoes not account for facts such as stringent deadlines of submission which may artificially increase the number of learners submitting on time. \n\nExclusion of covariates."
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ad4750c-f3ba-8053-90ce-cc3551ca1098",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-8053-90ce-cc3551ca1098",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-03-05T16:51:00.000Z",
+        "last_edited_time": "2025-03-05T16:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-8075-a163-ee592ce7748e",
+      "type": "paragraph",
+      "text": "LMS and Learning Analytics have made it possible to pinpoint and identify potentially dilatory behavior from learners such as procrastination. Authors attempt to use ML to predict procrastinatory behavior by comparing 2 different feature sets:",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-8075-a163-ee592ce7748e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-03-05T16:51:00.000Z",
+        "last_edited_time": "2025-03-05T16:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LMS and Learning Analytics have made it possible to pinpoint and identify potentially dilatory behavior from learners such as procrastination. Authors attempt to use ML to predict procrastinatory behavior by comparing 2 different feature sets:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LMS and Learning Analytics have made it possible to pinpoint and identify potentially dilatory behavior from learners such as procrastination. Authors attempt to use ML to predict procrastinatory behavior by comparing 2 different feature sets:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-80b7-8cb1-f07d4d5ba2bb",
+      "type": "numbered_list_item",
+      "text": "Self-Reports",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80b7-8cb1-f07d4d5ba2bb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-03-05T16:52:00.000Z",
+        "last_edited_time": "2025-03-05T16:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Self-Reports",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Self-Reports",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-80c7-9130-cf638a2f41a8",
+      "type": "numbered_list_item",
+      "text": "Log data",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80c7-9130-cf638a2f41a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-03-05T16:52:00.000Z",
+        "last_edited_time": "2025-03-05T16:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Log data",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Log data",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-80cd-bb0d-e6f425ec1c1d",
+      "type": "paragraph",
+      "text": "Models using Logs consistently outperform models self-reported measures, with a combination of both actually achieving marginally better results (Accuracy around 70%). Depending on feature set, the best alorithm also differed, putting emphasis into performing model selection when using these machine learning approaches. ",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80cd-bb0d-e6f425ec1c1d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-03-05T16:52:00.000Z",
+        "last_edited_time": "2025-03-05T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Models using Logs consistently outperform models self-reported measures, with a combination of both actually achieving marginally better results (Accuracy around 70%). Depending on feature set, the best alorithm also differed, putting emphasis into performing model selection when using these machine learning approaches. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Models using Logs consistently outperform models self-reported measures, with a combination of both actually achieving marginally better results (Accuracy around 70%). Depending on feature set, the best alorithm also differed, putting emphasis into performing model selection when using these machine learning approaches. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d54750c-f3ba-80da-a407-e22dd81d328c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d54750c-f3ba-80da-a407-e22dd81d328c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-04-14T16:38:00.000Z",
+        "last_edited_time": "2025-04-14T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d54750c-f3ba-80b5-9dac-d5dd01f2f732",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1d54750c-f3ba-80b5-9dac-d5dd01f2f732",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-04-14T16:38:00.000Z",
+        "last_edited_time": "2025-04-14T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d54750c-f3ba-8031-951a-df6a8d86d648",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d54750c-f3ba-8031-951a-df6a8d86d648",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+        },
+        "created_time": "2025-04-14T16:38:00.000Z",
+        "last_edited_time": "2025-04-14T21:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

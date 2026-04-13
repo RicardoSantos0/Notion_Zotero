@@ -1,0 +1,813 @@
+{
+  "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+  "title": "Student Profiles of Change in a University Course: A Complex Dynamical Systems Perspective",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "45239f65-0a68-479b-8c25-561d27f4cc4b",
+          "name": "Complex Dynamical Systems",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-06T17:19:00.000+00:00",
+        "end": "2026-02-12T17:32:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Poquet et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Poquet et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Student Profiles of Change in a University Course: A Complex Dynamical Systems Perspective",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Student Profiles of Change in a University Course: A Complex Dynamical Systems Perspective",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3054750c-f3ba-807f-b280-cbe5e4d0e949",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "",
+          "E-Learning",
+          "288 students",
+          "1 First-Year Engeering Course",
+          "LMS logs",
+          "Complex Dynamic Systems Theory",
+          "[Planning, Observing, Practicing, Performing]",
+          "The LMS logs were categorized into different types of SRL constructs. \n\nData is collected every week, so essencially we have a sequence of different behaviors as the input. ",
+          "Latent Class Growth Curve Modelling",
+          "BIC: 875.4376",
+          "3",
+          "Students with Stable Weekly Study Patterns (n=158) - entropy of recurrence in weekly activities remained stable and high throughout the course.\n\nStudents with Steep Chances in Weekly Study Patterns (n=40) - highest entropy of recurrence at the start of the course.  These students were the ones with the lowest performance on the course.\n\nStudents with Moderate Changes in Study Patterns (n=90): Slight decrease in recurrence over time.  ",
+          "All groups of students modified behavior when closer to the exam.\n\nHighly disordered behaviour of students in early weeks could be used as a warning sign for students who may struggle. \n\n",
+          "This study groups sequences of behaviors and identifies the performance of different segments of students. \n\nAuthors find that students who display a more erratic behavior at the start of the course tend to perform worse than their peers. ",
+          "Based exclusively on one course.\n\nMeasure is sensible to window size. ptimizing for window size may be an interesting approach,\n\n"
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-8002-8f7c-c8660612a8d8",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8002-8f7c-c8660612a8d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:19:00.000Z",
+        "last_edited_time": "2025-03-06T17:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8056-bb41-ea6041864068",
+      "type": "paragraph",
+      "text": "Integrating temporal patterns into descriptive analytics profiling works is often underexplored. The authors address this issue by evaluating how study profiles evolve in a blended-learning undergraduate course. Adjustments to the student profile were done using clickstream data. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8056-bb41-ea6041864068",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:19:00.000Z",
+        "last_edited_time": "2025-03-06T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Integrating temporal patterns into descriptive analytics profiling works is often underexplored. The authors address this issue by evaluating how study profiles evolve in a blended-learning undergraduate course. Adjustments to the student profile were done using clickstream data. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Integrating temporal patterns into descriptive analytics profiling works is often underexplored. The authors address this issue by evaluating how study profiles evolve in a blended-learning undergraduate course. Adjustments to the student profile were done using clickstream data. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-800a-9677-ed96b1d9de3b",
+      "type": "paragraph",
+      "text": "Authors collect student trajectories and cluster them. 3 patterns were identified: ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-800a-9677-ed96b1d9de3b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:22:00.000Z",
+        "last_edited_time": "2025-03-06T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors collect student trajectories and cluster them. 3 patterns were identified: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors collect student trajectories and cluster them. 3 patterns were identified: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-804f-af5e-e0aa52869247",
+      "type": "numbered_list_item",
+      "text": "Stable weekly study",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-804f-af5e-e0aa52869247",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:22:00.000Z",
+        "last_edited_time": "2025-03-06T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Stable weekly study",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Stable weekly study",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8014-ba19-edb948ca4dc4",
+      "type": "numbered_list_item",
+      "text": "Steep changes in weekly study",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8014-ba19-edb948ca4dc4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:22:00.000Z",
+        "last_edited_time": "2025-03-06T17:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Steep changes in weekly study",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Steep changes in weekly study",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-809f-a166-dc4b9b4bff59",
+      "type": "numbered_list_item",
+      "text": "Moderate changes in weekly study",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-809f-a166-dc4b9b4bff59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:23:00.000Z",
+        "last_edited_time": "2025-03-06T17:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moderate changes in weekly study",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moderate changes in weekly study",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8041-9ca5-c4b4d01dab90",
+      "type": "paragraph",
+      "text": "Learners with steep changes achieved lower performances on exam. The authors also tie back their results to existing SRL theory.",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8041-9ca5-c4b4d01dab90",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2025-03-06T17:23:00.000Z",
+        "last_edited_time": "2025-03-06T17:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learners with steep changes achieved lower performances on exam. The authors also tie back their results to existing SRL theory.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learners with steep changes achieved lower performances on exam. The authors also tie back their results to existing SRL theory.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-80f3-8ce4-f604b267a32f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-80f3-8ce4-f604b267a32f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2026-02-12T17:07:00.000Z",
+        "last_edited_time": "2026-02-12T17:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-8032-9808-f3c2afa66132",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-8032-9808-f3c2afa66132",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2026-02-12T17:07:00.000Z",
+        "last_edited_time": "2026-02-12T17:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-807f-b280-cbe5e4d0e949",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-807f-b280-cbe5e4d0e949",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+        },
+        "created_time": "2026-02-12T17:07:00.000Z",
+        "last_edited_time": "2026-02-12T17:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,1806 @@
+{
+  "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481",
+  "title": "Improving retention: predicting at-risk students by analysing clicking behaviour in a virtual learning environment",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "48f48730-d0f7-45df-9b0d-8c22aa60b3b2",
+          "name": "Predictive Modeling",
+          "color": "gray"
+        },
+        {
+          "id": "b41b454f-988b-4513-8853-cd5b1f6d7ac5",
+          "name": "Student Retention",
+          "color": "default"
+        },
+        {
+          "id": "44f04949-48a0-4203-b8f2-13ba3e8784d8",
+          "name": "Student Data",
+          "color": "red"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        },
+        {
+          "id": "4c9c2b3e-db6c-47a7-a408-efb7085255cb",
+          "name": "Distance Education and Telelearning",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Clickstream Data”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Clickstream Data”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2013
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-26T10:00:00.000+01:00",
+        "end": "2024-08-26T13:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wolff et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wolff et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Improving retention: predicting at-risk students by analysing clicking behaviour in a virtual learning environment",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Improving retention: predicting at-risk students by analysing clicking behaviour in a virtual learning environment",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "df3c68c1-4d97-4617-8b6b-3fa03fdb0721",
+      "heading": "Association Rule Mining",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Being successful and, for some reason, achieving a grade below passing threshold in next graded activity",
+          "Performance Drop (1) vs non performance drop (0)",
+          "4397 - Module A\n1292 - Module B\n2012 - Module C",
+          "3 OU modules (anonymized)",
+          "LMS\nAssessment grades\nInstitutional Data",
+          "[Assessment scores, Number of VLE clicks in time-window k]",
+          "Period before marked assessment (unspecified)",
+          "Removal of VLE categories that were found to not represent learning but could have impact on prediction: Home-Page and Others. For the models, these categories were not excluded.\n\nStudents who did not interact with LMS were filtered out. ",
+          "C4.5\nSVM",
+          "10-Fold Cross-Validation",
+          "{Precision: [0.77, 0.98] - C4.5, Recall: [0.5, 0.90] - C4.5, F1-Score: [0.61, 0.94] - C4.5}",
+          "Models created were course-specific:\n\nOne model for Module A, Another for B and another for C.\n\nMultiple experiments:\n1. VLE data only, \n2. TMA data only\n3. Combined TMA and VLE\n\nReported scores for Performance drop model use window size = 3\n\nReported performances use VLE and TMA data combined",
+          "Limited number of algorithms to use. \n\nFeatures used seem to too simple."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Passing or Failing the Module",
+          "Fail (0) vs Pass (1)",
+          "4397 - Module A\n1292 - Module B\n2012 - Module C",
+          "3 OU modules (anonymized)",
+          "LMS\nAssessment grades\nInstitutional Data",
+          "[Indivifual TMA scores, Average TMA scores, Number of VLE clicks in periods between submission dates of TMAs, Demographics]",
+          "Prediction is made at different stages of the module (after specific TMA)",
+          "Module A is evaluated with demographic data and non demographic data.",
+          "C4.5\nSVM",
+          "10-Fold Cross-Validation",
+          "{Precision: 0.74 - C4.5 with 4 TMA and no Demographics, Recall: 0.33 - C4.5 with 3 TMA with and without demographics, F1-Score: 0.49- C4.5 at 3 TMA and with Demographics}",
+          "Moment of prediction is not fully specified, but data used indicates to be end-of-course. \n\nAuthors seem to discuss having done early prediction and that precision decreases as time advances (which is counter to what I know from this domain). \n\nExperiment on Module A shows that addidng demographics did increase model performance - shown results.\n\n",
+          "Limited number of algorithms to use. \n\nFeatures used seem to too simple."
+        ]
+      ],
+      "index": 27
+    },
+    {
+      "block_id": "1b84750c-f3ba-8014-b847-c9a3b1807455",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Association Rule Mining",
+          "Higher Education",
+          "E-Learning",
+          "4397 - Module A\n1292 - Module B\n2012 - Module C",
+          "3 OU modules (anonymized)",
+          "LMS\nAssessment grades\nInstitutional Data",
+          "None Specified",
+          "[% change in user VLE activity]",
+          "Setting of maximum number of antecedent to 5 and setting confidence threshold to 70%. ",
+          "GUHA (70% Confidence and 0.001 Support)",
+          "NA",
+          "NA",
+          "GUHA was able to identify, with high degree of confidence, students who failed TMA 4, TMA 6 and TMA 7. \n\nAuthors do not go too in-depth on the description of rules obtained.",
+          "Difficulty in drawing conclusions about learner engagement exclusively from clicks on the VLE. \n\nNeed to take into account how a module is structured and how the VLE is intended to be used within the context of the course.",
+          "Model trained to predict module failure. ",
+          "Limited number of algorithms to use. \n\nFeatures used seem to too simple."
+        ]
+      ],
+      "index": 29
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18b32a86-3454-464e-986c-06bbdce0a78e",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18b32a86-3454-464e-986c-06bbdce0a78e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-07-29T16:52:00.000Z",
+        "last_edited_time": "2024-07-29T16:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "661bbbce-6a48-4000-8dc2-8cede939a5ad",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "661bbbce-6a48-4000-8dc2-8cede939a5ad",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-07-29T16:52:00.000Z",
+        "last_edited_time": "2024-07-29T16:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "26d2b2c8-0bca-4ae0-9957-e675f2e65986",
+      "type": "paragraph",
+      "text": "Work focuses on predicting retention at OU. Features used include VLE logs and “other unspecified data sources” on 3 distinct modules of the OU. It is possible to predict failure when comparing changes in current behavior vs previous behavior or the expected behavior of students with similar behaviors. ",
+      "raw": {
+        "object": "block",
+        "id": "26d2b2c8-0bca-4ae0-9957-e675f2e65986",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-07-29T16:52:00.000Z",
+        "last_edited_time": "2024-07-29T16:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Work focuses on predicting retention at OU. Features used include VLE logs and “other unspecified data sources” on 3 distinct modules of the OU. It is possible to predict failure when comparing changes in current behavior vs previous behavior or the expected behavior of students with similar behaviors. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Work focuses on predicting retention at OU. Features used include VLE logs and “other unspecified data sources” on 3 distinct modules of the OU. It is possible to predict failure when comparing changes in current behavior vs previous behavior or the expected behavior of students with similar behaviors. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b8cbbe71-1112-4d9b-83a6-f1778722c30c",
+      "type": "paragraph",
+      "text": "The authors also use General Unary Hypothesis Automation to generate hypothesis about students who fail.",
+      "raw": {
+        "object": "block",
+        "id": "b8cbbe71-1112-4d9b-83a6-f1778722c30c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-07-29T16:56:00.000Z",
+        "last_edited_time": "2024-08-26T09:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors also use General Unary Hypothesis Automation to generate hypothesis about students who fail.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors also use General Unary Hypothesis Automation to generate hypothesis about students who fail.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6837ef63-537a-485b-b1bd-483926f0d23a",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "6837ef63-537a-485b-b1bd-483926f0d23a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:19:00.000Z",
+        "last_edited_time": "2024-08-26T10:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c863fe26-3b6c-44af-9a6b-f1637176991b",
+      "type": "paragraph",
+      "text": "Aim of the work is to make identification of students at risk in modules of the Open University. To do that, the authors use data from the VLE and combine it with data from other sources. The authors intend to use a rules-based approach to create rules that may hopefully generalize to other contexts. ",
+      "raw": {
+        "object": "block",
+        "id": "c863fe26-3b6c-44af-9a6b-f1637176991b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:19:00.000Z",
+        "last_edited_time": "2024-08-26T10:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Aim of the work is to make identification of students at risk in modules of the Open University. To do that, the authors use data from the VLE and combine it with data from other sources. The authors intend to use a rules-based approach to create rules that may hopefully generalize to other contexts. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Aim of the work is to make identification of students at risk in modules of the Open University. To do that, the authors use data from the VLE and combine it with data from other sources. The authors intend to use a rules-based approach to create rules that may hopefully generalize to other contexts. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ab0d898e-23bd-4f04-9cf9-366af8564ce4",
+      "type": "heading_2",
+      "text": "Related Work",
+      "raw": {
+        "object": "block",
+        "id": "ab0d898e-23bd-4f04-9cf9-366af8564ce4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:23:00.000Z",
+        "last_edited_time": "2024-08-26T10:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Related Work",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Related Work",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d1d6b848-269d-4b2f-90c7-5ebb166f16ba",
+      "type": "paragraph",
+      "text": "Some of the exising body of work shows that online dropout is significiantly higher than the one experienced in face-to-face contexts. Demographics, Technological and Social factors and the major contributors to this difference. ",
+      "raw": {
+        "object": "block",
+        "id": "d1d6b848-269d-4b2f-90c7-5ebb166f16ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-26T10:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Some of the exising body of work shows that online dropout is significiantly higher than the one experienced in face-to-face contexts. Demographics, Technological and Social factors and the major contributors to this difference. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Some of the exising body of work shows that online dropout is significiantly higher than the one experienced in face-to-face contexts. Demographics, Technological and Social factors and the major contributors to this difference. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8a25b7ad-803a-4f9d-b4d6-faa3ba2efa3d",
+      "type": "paragraph",
+      "text": "The creation of tracking systems could be an helpful alternative that could allow institutions to identify and provide support to students form an early stage of their courses. The most effective way is to combine data from multiple sources in a way that also integrates behavioral data. Even moreso, predictive models (the course specific kind) could be very helpful tools. ",
+      "raw": {
+        "object": "block",
+        "id": "8a25b7ad-803a-4f9d-b4d6-faa3ba2efa3d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:27:00.000Z",
+        "last_edited_time": "2024-08-26T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The creation of tracking systems could be an helpful alternative that could allow institutions to identify and provide support to students form an early stage of their courses. The most effective way is to combine data from multiple sources in a way that also integrates behavioral data. Even moreso, predictive models (the course specific kind) could be very helpful tools. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The creation of tracking systems could be an helpful alternative that could allow institutions to identify and provide support to students form an early stage of their courses. The most effective way is to combine data from multiple sources in a way that also integrates behavioral data. Even moreso, predictive models (the course specific kind) could be very helpful tools. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8ad75c19-0853-45fc-801f-52264a502df9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8ad75c19-0853-45fc-801f-52264a502df9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:39:00.000Z",
+        "last_edited_time": "2024-08-26T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "466ded23-d288-44c0-b31f-5409b8107b77",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "466ded23-d288-44c0-b31f-5409b8107b77",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:39:00.000Z",
+        "last_edited_time": "2024-08-26T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a2c0ab01-2064-44bf-89ea-3c38bf456847",
+      "type": "paragraph",
+      "text": "The authors use data from the Open University, an Online Higher Education Institution. The goal, again, is to combine institutional data with behavioral data. For that, the authors use data from 3 modules: behavioral, institucional information about the students and any marked assessments that may exist in the modules.\n",
+      "raw": {
+        "object": "block",
+        "id": "a2c0ab01-2064-44bf-89ea-3c38bf456847",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:39:00.000Z",
+        "last_edited_time": "2024-08-26T10:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use data from the Open University, an Online Higher Education Institution. The goal, again, is to combine institutional data with behavioral data. For that, the authors use data from 3 modules: behavioral, institucional information about the students and any marked assessments that may exist in the modules.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use data from the Open University, an Online Higher Education Institution. The goal, again, is to combine institutional data with behavioral data. For that, the authors use data from 3 modules: behavioral, institucional information about the students and any marked assessments that may exist in the modules.\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7848b24a-f1b4-4446-ba14-6af49aca9006",
+      "type": "heading_3",
+      "text": "Modules",
+      "raw": {
+        "object": "block",
+        "id": "7848b24a-f1b4-4446-ba14-6af49aca9006",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:43:00.000Z",
+        "last_edited_time": "2024-08-26T10:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Modules",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Modules",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7b54edea-b9f3-47b9-b9ac-f76ede660038",
+      "type": "paragraph",
+      "text": "The modules are anonymized but, according to the authors, mirror the typical workings of courses at the OU. Given the differences between courses, the authors opted to create course-specific models.",
+      "raw": {
+        "object": "block",
+        "id": "7b54edea-b9f3-47b9-b9ac-f76ede660038",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:43:00.000Z",
+        "last_edited_time": "2024-08-26T10:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The modules are anonymized but, according to the authors, mirror the typical workings of courses at the OU. Given the differences between courses, the authors opted to create course-specific models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The modules are anonymized but, according to the authors, mirror the typical workings of courses at the OU. Given the differences between courses, the authors opted to create course-specific models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "50dd2780-e417-4e28-826f-3aeed28f6b6d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "50dd2780-e417-4e28-826f-3aeed28f6b6d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:49:00.000Z",
+        "last_edited_time": "2024-08-26T10:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bface573-c669-447e-8417-62478ab31643",
+      "type": "heading_3",
+      "text": "Students",
+      "raw": {
+        "object": "block",
+        "id": "bface573-c669-447e-8417-62478ab31643",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:49:00.000Z",
+        "last_edited_time": "2024-08-26T10:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4640a5d8-f64a-4dcc-bb87-c9b10ad4592c",
+      "type": "paragraph",
+      "text": "Analysis of student behavior was done in 2-stages: aalysis of all clicks and analysis of click patterns broken down into separate categories. The authors found that activity increases when there is a test coming.",
+      "raw": {
+        "object": "block",
+        "id": "4640a5d8-f64a-4dcc-bb87-c9b10ad4592c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:49:00.000Z",
+        "last_edited_time": "2024-08-26T10:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Analysis of student behavior was done in 2-stages: aalysis of all clicks and analysis of click patterns broken down into separate categories. The authors found that activity increases when there is a test coming.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Analysis of student behavior was done in 2-stages: aalysis of all clicks and analysis of click patterns broken down into separate categories. The authors found that activity increases when there is a test coming.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b353c44d-ab83-40be-afe5-d9605cc9a037",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b353c44d-ab83-40be-afe5-d9605cc9a037",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:53:00.000Z",
+        "last_edited_time": "2024-08-26T10:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e2c07b82-fbbe-4eb5-93f8-b15d3f35da99",
+      "type": "paragraph",
+      "text": "The author claims that there is no such thing as an average student → some students barely click and pass while others click a lot and fail and these observations were true for all models.",
+      "raw": {
+        "object": "block",
+        "id": "e2c07b82-fbbe-4eb5-93f8-b15d3f35da99",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:53:00.000Z",
+        "last_edited_time": "2024-08-26T10:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The author claims that there is no such thing as an average student → some students barely click and pass while others click a lot and fail and these observations were true for all models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The author claims that there is no such thing as an average student → some students barely click and pass while others click a lot and fail and these observations were true for all models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9cd809b9-a85a-4599-beaa-64de81ddcf17",
+      "type": "heading_3",
+      "text": "Predictive Models",
+      "raw": {
+        "object": "block",
+        "id": "9cd809b9-a85a-4599-beaa-64de81ddcf17",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:54:00.000Z",
+        "last_edited_time": "2024-08-26T10:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Predictive Models",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Predictive Models",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8b7c07ba-8d9f-4090-a669-c1222a4c2542",
+      "type": "paragraph",
+      "text": "The authors create course-specific models for 2 distinct classification problems: ",
+      "raw": {
+        "object": "block",
+        "id": "8b7c07ba-8d9f-4090-a669-c1222a4c2542",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:38:00.000Z",
+        "last_edited_time": "2024-08-26T11:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors create course-specific models for 2 distinct classification problems: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors create course-specific models for 2 distinct classification problems: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "181f2480-a32f-4f03-9ea9-c64b4731febb",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "181f2480-a32f-4f03-9ea9-c64b4731febb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T11:18:00.000Z",
+        "last_edited_time": "2024-08-26T11:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "38b384f2-7b71-482b-97e8-da9521fbcfa1",
+      "type": "paragraph",
+      "text": "Decision Trees were the best models and combining different sources seems to result in best performance. Authors also attempt to do some form of transfer learning and end up finding that the models perform better when they are used on the course they were trained on (obviously).",
+      "raw": {
+        "object": "block",
+        "id": "38b384f2-7b71-482b-97e8-da9521fbcfa1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T11:18:00.000Z",
+        "last_edited_time": "2024-08-26T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Decision Trees were the best models and combining different sources seems to result in best performance. Authors also attempt to do some form of transfer learning and end up finding that the models perform better when they are used on the course they were trained on (obviously).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Decision Trees were the best models and combining different sources seems to result in best performance. Authors also attempt to do some form of transfer learning and end up finding that the models perform better when they are used on the course they were trained on (obviously).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f722eb5f-06fb-4137-880a-a874211362e8",
+      "type": "heading_3",
+      "text": "Association Rule Mining",
+      "raw": {
+        "object": "block",
+        "id": "f722eb5f-06fb-4137-880a-a874211362e8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T11:20:00.000Z",
+        "last_edited_time": "2024-08-26T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Association Rule Mining",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Association Rule Mining",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f00e6167-ac8d-43c6-b63a-7285938419eb",
+      "type": "paragraph",
+      "text": "In order to provide some explainability to the predictive model results, the authors also resorted to Association Rule Mining to identify specific patterns of bahavior that lead to unsuccessful outcomes.  for that, the authors to an algorithm called GUHA. ",
+      "raw": {
+        "object": "block",
+        "id": "f00e6167-ac8d-43c6-b63a-7285938419eb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T10:38:00.000Z",
+        "last_edited_time": "2024-08-26T12:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In order to provide some explainability to the predictive model results, the authors also resorted to Association Rule Mining to identify specific patterns of bahavior that lead to unsuccessful outcomes.  for that, the authors to an algorithm called GUHA. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In order to provide some explainability to the predictive model results, the authors also resorted to Association Rule Mining to identify specific patterns of bahavior that lead to unsuccessful outcomes.  for that, the authors to an algorithm called GUHA. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9ac3ea36-40b3-4c42-a69e-2680f1342f90",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9ac3ea36-40b3-4c42-a69e-2680f1342f90",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-26T12:38:00.000Z",
+        "last_edited_time": "2024-08-26T12:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "65c6eeb9-5607-4b07-8c4d-5e6dc64780bc",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "65c6eeb9-5607-4b07-8c4d-5e6dc64780bc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2025-03-16T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "df3c68c1-4d97-4617-8b6b-3fa03fdb0721",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "df3c68c1-4d97-4617-8b6b-3fa03fdb0721",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2025-03-16T17:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-8085-8ae1-f3e6be10caac",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-8085-8ae1-f3e6be10caac",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2025-03-16T17:48:00.000Z",
+        "last_edited_time": "2025-03-16T17:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-8014-b847-c9a3b1807455",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-8014-b847-c9a3b1807455",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2025-03-16T17:48:00.000Z",
+        "last_edited_time": "2025-03-22T16:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-8069-a0cc-d36820c02da8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-8069-a0cc-d36820c02da8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ece953f5-d0e1-489d-9f71-0f4067699481"
+        },
+        "created_time": "2025-03-22T16:53:00.000Z",
+        "last_edited_time": "2025-03-22T16:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

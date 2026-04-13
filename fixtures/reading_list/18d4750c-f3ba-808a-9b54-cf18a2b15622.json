@@ -1,0 +1,631 @@
+{
+  "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622",
+  "title": "The impact of social capital on self-efficacy and study success among first-year university students",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "0bf62cc8-0a1c-47d1-81bb-64e1d5ce7f22",
+          "name": "Social Capital",
+          "color": "brown"
+        },
+        {
+          "id": "4cec23f2-3b14-417a-bafd-74a21831c5f1",
+          "name": "Internet Self-Efficacy",
+          "color": "purple"
+        },
+        {
+          "id": "3e41db4c-a57d-4880-aece-88d1c433ef9c",
+          "name": "Study Success",
+          "color": "purple"
+        },
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "8dc66625-2ae4-4079-be44-86305d430d0a",
+          "name": "Small Groups",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2016
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learning and Individual Differences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learning and Individual Differences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "22a34904-9e74-4421-8f00-9e7b58f31dc2",
+        "name": "Out of Scope",
+        "color": "default"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-02T00:00:00.000+00:00",
+        "end": "2025-03-25T22:46:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Brouwer et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Brouwer et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The impact of social capital on self-efficacy and study success among first-year university students",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The impact of social capital on self-efficacy and study success among first-year university students",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c14750c-f3ba-802d-ab91-d3494e12868c",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Peer Learning",
+          "364 first-year students",
+          "All courses in the Behavioral and Social Sciences Department of the University of Groningen",
+          "Survey for Socio-Economic Details,\nSurvey for Social Behavior,\nPre-University Academic Records",
+          "Pintrich’s SRL Framework",
+          "[First-Year Student, Moving Out, Financial Support, Mentor Support, , Peer Support, Friends, Help/Advice Seeking, Collaboration, Self-Efficacy, Weighted Average Mark for Fall Semester,  Weighted Average Mark for Spring Semester, Weighted Average Mark for First Year}",
+          "Authors employed Path Analysis to explore the best way in which to fill missing values. \n\nIn addition, the authors measure correlation between the different predictors. ",
+          "Multi-Level Regression Analysis",
+          "Model was found to be statistically significant to describe student performance.",
+          "3",
+          "Low Achievers\n\nAverage Achievers\n\nHigh achievers: Having friends shows a positive relationship with success.\n",
+          "Peer and Faculty capital contribute to explaining student success.\n\nFamily support was not shown to be relevant at this level, likely because students without family support often fail at reaching the undergraduate level. \n\nBeing in a small group with similar peers does not seem to be benefical for either loiw or average attainment students.\n\nFirst semester success is highly indicative of later success, which means that using this as an early-warning system may be relevant.\n\nAuthors argue for the buiding of fostering development of social connections between different levels of achievers in a way that helps low achievers find the social capital that helps them perform.\n\n ",
+          "Authors do the separation at the level of the dependent variablein 3 categories.\n\nEffect of social circles and having friends was remarkably higher for high-achieving students → suggesting that social interactions are more benefical in this context than they are for lower achieving students. ",
+          "Study focuses only on access to social capital via number of friends and not social networks themselves.\n\nUse of self-reports to measure support without any direct behavioral data.\n\nHomogenous sample of Behavioral and Social Sciences students.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18e4750c-f3ba-80e9-814b-f269f81fff82",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-80e9-814b-f269f81fff82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-02-02T23:20:00.000Z",
+        "last_edited_time": "2025-02-02T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18e4750c-f3ba-8068-a78b-e25324f82648",
+      "type": "paragraph",
+      "text": "Authors touch on the concept of Social Capital as a driver that fosters academic performance. They explore how social capital influences performance in first-year undergraduates. Authors use path analysis to evaluate how different forms of social capital influence performance. ",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-8068-a78b-e25324f82648",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-02-02T23:20:00.000Z",
+        "last_edited_time": "2025-03-25T22:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors touch on the concept of Social Capital as a driver that fosters academic performance. They explore how social capital influences performance in first-year undergraduates. Authors use path analysis to evaluate how different forms of social capital influence performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors touch on the concept of Social Capital as a driver that fosters academic performance. They explore how social capital influences performance in first-year undergraduates. Authors use path analysis to evaluate how different forms of social capital influence performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18e4750c-f3ba-8094-9022-ec5375a7f3ae",
+      "type": "paragraph",
+      "text": "Results show that peer capital and faculty capital contribute positively to study success. Moreover, high-achievers have a positive influence in low-achievers if they are friends.",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-8094-9022-ec5375a7f3ae",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-02-02T23:28:00.000Z",
+        "last_edited_time": "2025-02-02T23:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that peer capital and faculty capital contribute positively to study success. Moreover, high-achievers have a positive influence in low-achievers if they are friends.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that peer capital and faculty capital contribute positively to study success. Moreover, high-achievers have a positive influence in low-achievers if they are friends.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-8010-b26e-f601bab3f81e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-8010-b26e-f601bab3f81e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-03-25T22:12:00.000Z",
+        "last_edited_time": "2025-03-25T22:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-80ab-9e0e-c8f29267af82",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-80ab-9e0e-c8f29267af82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-03-25T22:12:00.000Z",
+        "last_edited_time": "2025-03-25T22:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-802d-ab91-d3494e12868c",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-802d-ab91-d3494e12868c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+        },
+        "created_time": "2025-03-25T22:12:00.000Z",
+        "last_edited_time": "2025-03-25T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

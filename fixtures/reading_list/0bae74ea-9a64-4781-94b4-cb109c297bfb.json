@@ -1,0 +1,819 @@
+{
+  "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+  "title": "Predicting course achievement of university students based on their procrastination behaviour on Moodle",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4c6180c7-2bae-4392-90b1-b17228a0c323",
+          "name": "Prediction of Course Achievement",
+          "color": "gray"
+        },
+        {
+          "id": "d9b32e63-9880-4e73-be1d-17aafe991055",
+          "name": "Prediction of Grade",
+          "color": "yellow"
+        },
+        {
+          "id": "87d17d2e-89c3-4e16-9a76-df4cba371253",
+          "name": "Higher Education",
+          "color": "gray"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "938946ee-838c-4947-ab98-869aa0e414f7",
+          "name": "Procrastination Behavior",
+          "color": "green"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        },
+        {
+          "id": "70f9a661-ac82-4152-98e4-8ad25c002381",
+          "name": "Moodle",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Soft Computing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Soft Computing",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-01T09:00:00.000+01:00",
+        "end": "2026-04-01T14:04:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting course achievement of university students based on their procrastination behaviour on Moodle",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting course achievement of university students based on their procrastination behaviour on Moodle",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3334750c-f3ba-80ea-ae8e-cda9980030de",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "End of Course Grade - Inferred from Clustering",
+          " to F",
+          "242 university students from University of Tartu",
+          "1 Teaching and Reflect course",
+          "LMS logs, Homework grades",
+          "[For each Homework, OpenD, FirstviewD, SubmissionD, Deadline, S]",
+          "End of Course",
+          "For each Homework, the authors extract: when it is open, viewed and submitte. This allows the creation of the feature vector X which includes measurements of time. \n\nThese feature vectors are subsequently given to a clustering algorithm to obtain a label. The authors use different methods depending on the fact that the input feature vectors are categorical or continuous. ",
+          "L-SVM, R-SVM, Gaussian Process, Decision Tree, Random Forest, MLP, AdaBoost, Naive Bayes",
+          "k-Fold Cross-Validation (k=5, 10, 15)",
+          "{Precision: 0.870 - L-SVM_10folds_Cat, Accuracy: 0.846 - L-SVM_5folds_Cat, F1-Score: 0.857 - L-SVM_15folds_Cont, Cohen’s Kappa: 0.771 - L_SVM_15folds_Cat}",
+          "Authors create 2 distinct feature sets: one continuous and one categorical and check the performance of both.\n\nAll variables are indicative of procrastination behavior. \n\nDifferent k are tested for Cross-Validation. ",
+          "Single institution, \n\nOnly considers homework submission data\n\nNo “early prediction”\n\nTarget is not actual ground truth… it is inferred from Clustering"
+        ]
+      ],
+      "index": 6
+    },
+    {
+      "block_id": "3334750c-f3ba-802c-ad97-dc41942ba0c2",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Blended Learning",
+          "242 university students from University of Tartu",
+          "1 Teaching and Reflect course",
+          "LMS logs, Homework grades",
+          "None Specified",
+          "[For each Homework, OpenD, FirstviewD, SubmissionD, Deadline, S, H]",
+          "For each Homework, the authors extract: when it is open, viewed and submitte. This allows the creation of the feature vector X which includes measurements of time. \n\nThe authors use different methods depending on the fact that the input feature vectors are categorical or continuous. ",
+          "k-Means",
+          "-",
+          "6",
+          "C1: A, C2: B, C3: C, C4: D, C5: E, C6: F\n",
+          "There is a noticeable correlation between procrastinating behaviors and the performance on the course. \n\nStudents who procrastinate more tend to do worse in the course. ",
+          "Authors use clustering to identify students based on their grade. Clustering, in this instance is made to estimate what the final course grade would be based on the homework submissions.",
+          "Single institution, \n\nOnly considers homework submission data"
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "8a0ed6c6-41d4-4af3-bebb-b946315be2c1",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "8a0ed6c6-41d4-4af3-bebb-b946315be2c1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2024-08-01T11:48:00.000Z",
+        "last_edited_time": "2024-08-01T11:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10df77fc-98ca-48b1-8798-105ee89900b0",
+      "type": "paragraph",
+      "text": "Procrastination behavior is a negatively affects student performance. Work intends to measure procrastination behavior based on Moodle submission Logs. ",
+      "raw": {
+        "object": "block",
+        "id": "10df77fc-98ca-48b1-8798-105ee89900b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2024-08-01T11:48:00.000Z",
+        "last_edited_time": "2024-08-01T11:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Procrastination behavior is a negatively affects student performance. Work intends to measure procrastination behavior based on Moodle submission Logs. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Procrastination behavior is a negatively affects student performance. Work intends to measure procrastination behavior based on Moodle submission Logs. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6ff9ee9e-f91a-4fa6-847f-a47830c1a545",
+      "type": "paragraph",
+      "text": "Authors start by creating vectors of student procrastination tendencies. Students are then grouped using clustering and classification techniques in order to be assigned to different categories of course achievement. Results show that their model achieves 87% precision and 84% accuracy on a sample of 242 students. ",
+      "raw": {
+        "object": "block",
+        "id": "6ff9ee9e-f91a-4fa6-847f-a47830c1a545",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2024-08-01T11:49:00.000Z",
+        "last_edited_time": "2024-08-01T11:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors start by creating vectors of student procrastination tendencies. Students are then grouped using clustering and classification techniques in order to be assigned to different categories of course achievement. Results show that their model achieves 87% precision and 84% accuracy on a sample of 242 students. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors start by creating vectors of student procrastination tendencies. Students are then grouped using clustering and classification techniques in order to be assigned to different categories of course achievement. Results show that their model achieves 87% precision and 84% accuracy on a sample of 242 students. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9b527061-0b7d-4e6c-bf1d-dcc308e141b4",
+      "type": "paragraph",
+      "text": "Students who procrastinate more are more likely to do badly in the course.\n",
+      "raw": {
+        "object": "block",
+        "id": "9b527061-0b7d-4e6c-bf1d-dcc308e141b4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2024-08-01T11:51:00.000Z",
+        "last_edited_time": "2026-03-30T11:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students who procrastinate more are more likely to do badly in the course.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students who procrastinate more are more likely to do badly in the course.\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-80e2-84c9-fb76351a907b",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-80e2-84c9-fb76351a907b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2026-04-01T11:16:00.000Z",
+        "last_edited_time": "2026-04-01T11:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/dab0c2ac-a6d3-47d3-b30c-cbc6f22f7822/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466R6XGMW2J%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152445Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHFFPWhj1QPHwA%2BnommXY4Bb%2Bh4rcdo7kSdzU%2BYCN14WAiBaLyM7M3w2hyyiIjLViJpPIScgM1MN3SGKBawYUmqpASr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMAIKgJV8pKmYQGa07KtwDahkXO8pJw1c%2B9WX8xejqrpS0ju8FFBDxsTHZhwKM0FYsM%2BdharDXf1y39oVMMTE4EWntYiSTlE%2B7emO7qZ9EQNpSZi4hiz1VOJNVo5Eng0dVFlrV6THt4YS6FLkp9Kgyo4jhO9EfDRNipGlnPykE2MRFTWFe5wxSTdu1iq6XnH8RrqRsZ5mgCk4smGcSGytmVzMsKEU9l5dz62firAb0er5MChIJHI9OBBMv5xPvhxoZDtaWlrNuNnBAAoMakDzdqqixVVsAf3Rs4x40H5cdXzPpZvSTvPYJPORpbyPVxeYVBt1SLOX%2BgdBb0k1d%2FJeXISrG0RT9esbW6t3%2BkgaDhwGf5qFfB4ooqO%2BycK3Duv3u380v4INMjmDcYbbiotXOV6NxtU%2BWODBjxdAO91UL%2FAst8h8EScyU77f3MtOxwk%2BHOliyZCXjCjQvgCAUBCYnnbjAzA8Y9qraX%2FU2IlqdAZzmIk74JO1FTHubLcY%2F8N1yvFEyeiD1GqcmA051ivIB01ShV6%2BmY3O41nX730KKYC5dj1fOGCkaOLEwYYc86mNCg6kGD54LXOBNGIFNiVm4oCxdH2Fod4MKv%2Be09v%2B0VMrgqal4mbartB46Ex3jqRKrlFRHZb3WUHjMgdUwwu7zzgY6pgETOSmQVKvszyXr%2F8liu6D4fWBcj0ylH2wpG39UrMUsSaMpMXdx7h%2BDV8kUjjiCN6NdrH%2FoEK%2FOXj77etoo8XfouYIWfmCSifVDmKklZGqmFMzojY1LPs0U9nPxbzjsoIhYbnqamgVfrGyjocs6xdEJROGD0Zaa4z28BPVQ1OdNeY%2F7dQEGNedO991fIw%2FlAddJnUqmbJsMzs%2BvpZahCOZ8NtXeM5lU&X-Amz-Signature=d66f99c2bcb530f4b67b36dc14afdc7faf9e76a8af97a54075be1c9417c47f8e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:24:45.870Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3334750c-f3ba-800d-b40f-fa937ba711fb",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3334750c-f3ba-800d-b40f-fa937ba711fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2026-03-30T11:01:00.000Z",
+        "last_edited_time": "2026-03-30T11:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3334750c-f3ba-80ea-ae8e-cda9980030de",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3334750c-f3ba-80ea-ae8e-cda9980030de",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2026-03-30T11:01:00.000Z",
+        "last_edited_time": "2026-03-30T11:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3334750c-f3ba-8069-9702-f541ce12e200",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3334750c-f3ba-8069-9702-f541ce12e200",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2026-03-30T10:44:00.000Z",
+        "last_edited_time": "2026-03-30T10:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3334750c-f3ba-802c-ad97-dc41942ba0c2",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3334750c-f3ba-802c-ad97-dc41942ba0c2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+        },
+        "created_time": "2026-03-30T10:44:00.000Z",
+        "last_edited_time": "2026-03-30T10:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

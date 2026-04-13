@@ -1,0 +1,2548 @@
+{
+  "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec",
+  "title": "Practical guidelines for designing and evaluating educationally oriented recommendations",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "5c672682-65e2-4e6b-b73e-312e6d8e8d46",
+          "name": "Intelligent Tutoring Systems",
+          "color": "brown"
+        },
+        {
+          "id": "3a0cdb79-1387-4646-9449-44cb25cde313",
+          "name": "Interactive Learning Environment",
+          "color": "gray"
+        },
+        {
+          "id": "cfde72ba-b425-47a5-8af6-7a6e1e6bd406",
+          "name": "Lifelong Learning",
+          "color": "gray"
+        },
+        {
+          "id": "faa90247-b02c-431f-bde5-e6ccbf1e30c7",
+          "name": "Teaching/Learning Strategies",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "ea2c9fd6-a83f-498e-9b7b-2959e0011c46",
+          "name": "Not Applicable",
+          "color": "orange"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "22a34904-9e74-4421-8f00-9e7b58f31dc2",
+        "name": "Out of Scope",
+        "color": "default"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-10-04T00:46:00.000+01:00",
+        "end": "2024-10-04T22:42:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Santos & Boticario",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Santos & Boticario",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Practical guidelines for designing and evaluating educationally oriented recommendations",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Practical guidelines for designing and evaluating educationally oriented recommendations",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1144750c-f3ba-8038-b743-ca5dd4abd38d",
+      "heading": "Summary Table",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Guidelines for Educational Recommender Systems",
+          "E-Learning",
+          "Ontology-Based",
+          "Actions to take in platform.",
+          "125 educators\n595 students",
+          "- 1 Introduction to dotLRN course\n- 1 EBIFE",
+          "Learning Style Questionnaire",
+          "Learning Style Questionnaire\nProfile data",
+          "- No clear way of updating userbase automatically.\n",
+          "Decision Trees and Association Rules were used to identify indicators of course success.",
+          "Next Action to take on the LMS platform.",
+          "Validated by Educators and Learners.\n\nLearning gains also measured (albeit in a different paper).",
+          "The work provides interesting insights into the design of an Ontology-Based Recommender System. \n\nPractical experiments were conducted into distinct two learning scenarios.",
+          "Paper merely describes practical guidelines. No results on effectiveness of the systems is provided.\n\nOntology-based recommender, with recommendations and user characterization defined before-hand.\n\nNo discernable method of updating users based on behavior."
+        ]
+      ],
+      "index": 45
+    }
+  ],
+  "blocks": [
+    {
+      "id": "10b4750c-f3ba-8041-ac9c-d7e767c72eda",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-8041-ac9c-d7e767c72eda",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-09-24T10:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10b4750c-f3ba-807e-8af1-e90619c6852b",
+      "type": "paragraph",
+      "text": "Personalized recommendations should be aligned with learner goals while also being perceived as adequate by educators and learners. The paper focuses on presenting practical guidelines into how to develop a recommender system in Online Learning. To illustrate, there is evidence from an experiment conducted with 125 educators and 595 learners.",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-807e-8af1-e90619c6852b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-10-03T23:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Personalized recommendations should be aligned with learner goals while also being perceived as adequate by educators and learners. The paper focuses on presenting practical guidelines into how to develop a recommender system in Online Learning. To illustrate, there is evidence from an experiment conducted with 125 educators and 595 learners.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Personalized recommendations should be aligned with learner goals while also being perceived as adequate by educators and learners. The paper focuses on presenting practical guidelines into how to develop a recommender system in Online Learning. To illustrate, there is evidence from an experiment conducted with 125 educators and 595 learners.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80fe-8360-e74d41595546",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80fe-8360-e74d41595546",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-03T23:45:00.000Z",
+        "last_edited_time": "2024-10-03T23:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-805f-b139-cf4d73f5c896",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-805f-b139-cf4d73f5c896",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-03T23:45:00.000Z",
+        "last_edited_time": "2024-10-03T23:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "efd377ca-81ea-4265-8709-3fc7adda67df",
+      "type": "paragraph",
+      "text": "MOOCs are online courses for an amount of students that greatly supersedes the traditional classroom. Providing timely and useful feedback and guidance in this context requires a hefty amount of resources that, more often than not, do not exist. Recommender systems can reduce the tutor workload.",
+      "raw": {
+        "object": "block",
+        "id": "efd377ca-81ea-4265-8709-3fc7adda67df",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-10-04T10:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "MOOCs are online courses for an amount of students that greatly supersedes the traditional classroom. Providing timely and useful feedback and guidance in this context requires a hefty amount of resources that, more often than not, do not exist. Recommender systems can reduce the tutor workload.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "MOOCs are online courses for an amount of students that greatly supersedes the traditional classroom. Providing timely and useful feedback and guidance in this context requires a hefty amount of resources that, more often than not, do not exist. Recommender systems can reduce the tutor workload.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80dd-be54-cb18e93fd15d",
+      "type": "paragraph",
+      "text": "As a matter of fact, there is too much information and resources available, which can hinder a student’s learning. Recommenders can provide some structure on this regard. However, in education, the task is more complex than simply recommending resources that the student will like. They need to promote student learning as well.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80dd-be54-cb18e93fd15d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:31:00.000Z",
+        "last_edited_time": "2024-10-04T10:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "As a matter of fact, there is too much information and resources available, which can hinder a student’s learning. Recommenders can provide some structure on this regard. However, in education, the task is more complex than simply recommending resources that the student ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "As a matter of fact, there is too much information and resources available, which can hinder a student’s learning. Recommenders can provide some structure on this regard. However, in education, the task is more complex than simply recommending resources that the student ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "will like",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "will like",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". They need to promote student learning as well.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". They need to promote student learning as well.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10b4750c-f3ba-80be-a7cc-daf289bec35f",
+      "type": "paragraph",
+      "text": "Most of the research of recommenders focuses on measuring the performance of different algorithms in tasks sucjh as information retrieval, with little emphasis on the design of the recommendations. Previous work on this exists but is scarce: there is is history of recommender systems whose recommendations are proposed by educational experts (not an algorithm). Authors argue that information retrieval cannot be the only form a recommender system works and it should take into account the educator.",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-80be-a7cc-daf289bec35f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-10-04T10:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most of the research of recommenders focuses on measuring the performance of different algorithms in tasks sucjh as information retrieval, with little emphasis on the design of the recommendations. Previous work on this exists but is scarce: there is is history of recommender systems whose recommendations are proposed by educational experts (not an algorithm). Authors argue that information retrieval cannot be the only form a recommender system works and it should take into account the educator.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most of the research of recommenders focuses on measuring the performance of different algorithms in tasks sucjh as information retrieval, with little emphasis on the design of the recommendations. Previous work on this exists but is scarce: there is is history of recommender systems whose recommendations are proposed by educational experts (not an algorithm). Authors argue that information retrieval cannot be the only form a recommender system works and it should take into account the educator.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-804e-a27c-d04d5e09d083",
+      "type": "paragraph",
+      "text": "Thus, the work presents a set of practical guidelines into how to create an educational recommender system. The authors showcase their guidelines on 2 distinct educational scenarios involving 125 educators and 595 students.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-804e-a27c-d04d5e09d083",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:40:00.000Z",
+        "last_edited_time": "2024-10-04T10:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the work presents a set of practical guidelines into how to create an educational recommender system. The authors showcase their guidelines on 2 distinct educational scenarios involving 125 educators and 595 students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the work presents a set of practical guidelines into how to create an educational recommender system. The authors showcase their guidelines on 2 distinct educational scenarios involving 125 educators and 595 students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80f9-a593-e6270f2fd023",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80f9-a593-e6270f2fd023",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:43:00.000Z",
+        "last_edited_time": "2024-10-04T10:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8010-a5b5-d7d2f0280f11",
+      "type": "heading_2",
+      "text": "Related Work",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8010-a5b5-d7d2f0280f11",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:43:00.000Z",
+        "last_edited_time": "2024-10-04T10:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Related Work",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Related Work",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80b4-85e0-dae6347b3f70",
+      "type": "paragraph",
+      "text": "Educational recommenders have constraints that are not found in traditional scenarios and their design should take these restrictions into account. One such examples is preferences - an educational recommender should not take only learner preferences into account as they should, at least, be also made in a way that fosters and promotes learning.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80b4-85e0-dae6347b3f70",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:43:00.000Z",
+        "last_edited_time": "2024-10-04T10:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Educational recommenders have constraints that are not found in traditional scenarios and their design should take these restrictions into account. One such examples is preferences - an educational recommender should not take only learner preferences into account as they should, at least, be also made in a way that fosters and promotes learning.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Educational recommenders have constraints that are not found in traditional scenarios and their design should take these restrictions into account. One such examples is preferences - an educational recommender should not take only learner preferences into account as they should, at least, be also made in a way that fosters and promotes learning.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8045-9374-c355ed185eeb",
+      "type": "paragraph",
+      "text": "Upon review of the recommender system literature, the authors found that most recommenders focused on only making recommendations of specific types of content, not specifically recommending a future action. This is interesting because LMS and MOOCs are often thought as capable of promoting active learning, which runs counter-intuitive to the recommendations.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8045-9374-c355ed185eeb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:46:00.000Z",
+        "last_edited_time": "2024-10-04T11:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Upon review of the recommender system literature, the authors found that most recommenders focused on only making recommendations of specific types of content, not specifically recommending a future action. This is interesting because LMS and MOOCs are often thought as capable of promoting active learning, which runs counter-intuitive to the recommendations.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Upon review of the recommender system literature, the authors found that most recommenders focused on only making recommendations of specific types of content, not specifically recommending a future action. This is interesting because LMS and MOOCs are often thought as capable of promoting active learning, which runs counter-intuitive to the recommendations.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8012-b0c5-ffe4f6ef596e",
+      "type": "paragraph",
+      "text": "When it comes to design, most of the recommender systems do not consider the users needs in the design process. Moreover, few works measure learning gains from the recommendations. In addition, the authors are proponents of including the educator in the design process, finding their experience invaluable towards the design of better educational recommendations → and more acceptance of the technology. ",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8012-b0c5-ffe4f6ef596e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T10:46:00.000Z",
+        "last_edited_time": "2024-10-04T11:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to design, most of the recommender systems do not consider the users needs in the design process. Moreover, few works measure learning gains from the recommendations. In addition, the authors are proponents of including the educator in the design process, finding their experience invaluable towards the design of better educational recommendations → and more acceptance of the technology. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to design, most of the recommender systems do not consider the users needs in the design process. Moreover, few works measure learning gains from the recommendations. In addition, the authors are proponents of including the educator in the design process, finding their experience invaluable towards the design of better educational recommendations → and more acceptance of the technology. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80f0-80a4-f10b71d7fcc7",
+      "type": "paragraph",
+      "text": "Due to their view on the importance of human-centered design for adaptive learning systems, the authors focus their discussion on ISO 9241-210 ‘Ergonomics of human-system interaction e Part 210: Human-centred design for interactive systems’ which provides an international standard for human-centered design.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80f0-80a4-f10b71d7fcc7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T11:53:00.000Z",
+        "last_edited_time": "2024-10-04T11:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Due to their view on the importance of human-centered design for adaptive learning systems, the authors focus their discussion on ISO 9241-210 ‘Ergonomics of human-system interaction e Part 210: Human-centred design for interactive systems’ which provides an international standard for human-centered design.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Due to their view on the importance of human-centered design for adaptive learning systems, the authors focus their discussion on ISO 9241-210 ‘Ergonomics of human-system interaction e Part 210: Human-centred design for interactive systems’ which provides an international standard for human-centered design.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8048-bc05-c7098cca1ad6",
+      "type": "paragraph",
+      "text": "Thus, the paper intends to provide guidelines into how to create recommendations that take into account the context, needs and preferences.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8048-bc05-c7098cca1ad6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T11:56:00.000Z",
+        "last_edited_time": "2024-10-04T11:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the paper intends to provide guidelines into how to create recommendations that take into account the context, needs and preferences.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the paper intends to provide guidelines into how to create recommendations that take into account the context, needs and preferences.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-806f-8676-f438c82c2961",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-806f-8676-f438c82c2961",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T11:57:00.000Z",
+        "last_edited_time": "2024-10-04T11:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80cf-823c-c3033dbf6966",
+      "type": "heading_2",
+      "text": "The guidelines",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80cf-823c-c3033dbf6966",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T11:57:00.000Z",
+        "last_edited_time": "2024-10-04T11:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The guidelines",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The guidelines",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8020-b291-d72673d4effa",
+      "type": "paragraph",
+      "text": "The authors identify their previously proposed TORMES methodology, which aims to identify recommendation opportunities in learning environments. TORMES combines Data Mining and User Centred Design. It designs recommendations in 3 steps:",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8020-b291-d72673d4effa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T11:55:00.000Z",
+        "last_edited_time": "2024-10-04T12:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identify their previously proposed TORMES methodology, which aims to identify recommendation opportunities in learning environments. TORMES combines Data Mining and User Centred Design. It designs recommendations in 3 steps:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identify their previously proposed TORMES methodology, which aims to identify recommendation opportunities in learning environments. TORMES combines Data Mining and User Centred Design. It designs recommendations in 3 steps:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8035-b981-fef63a3f5768",
+      "type": "numbered_list_item",
+      "text": "Elicit to users which recommendations would be educationally sound,",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8035-b981-fef63a3f5768",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:05:00.000Z",
+        "last_edited_time": "2024-10-04T12:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Elicit to users which recommendations would be educationally sound,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Elicit to users which recommendations would be educationally sound,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80d5-b0f0-dea7789a7dd6",
+      "type": "numbered_list_item",
+      "text": "Data Mining of learner features to identify current educational context,",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80d5-b0f0-dea7789a7dd6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:06:00.000Z",
+        "last_edited_time": "2024-10-04T12:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data Mining of learner features to identify current educational context,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data Mining of learner features to identify current educational context,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80cd-9980-d4ee1c54430d",
+      "type": "numbered_list_item",
+      "text": "Analyse the recommendations made and their pertinence towards improving learning.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80cd-9980-d4ee1c54430d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:06:00.000Z",
+        "last_edited_time": "2024-10-04T12:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Analyse the recommendations made and their pertinence towards improving learning.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Analyse the recommendations made and their pertinence towards improving learning.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-809a-b9e5-dcb5924eb8f7",
+      "type": "heading_2",
+      "text": "Evaluation of Applicability",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-809a-b9e5-dcb5924eb8f7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T17:46:00.000Z",
+        "last_edited_time": "2024-10-04T17:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Evaluation of Applicability",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Evaluation of Applicability",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80a2-9fed-c2978bfa9c2a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80a2-9fed-c2978bfa9c2a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:06:00.000Z",
+        "last_edited_time": "2024-10-04T12:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80d4-944d-cfb44e084ec5",
+      "type": "paragraph",
+      "text": " The design process involves multiple phases present in ISO ISO 9241-210 which, at this stage are not particularly relevant to discuss. The authors proceed to discuss how this methodology was used for 2 distinct educational contexts:",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80d4-944d-cfb44e084ec5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:06:00.000Z",
+        "last_edited_time": "2024-10-04T12:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " The design process involves multiple phases present in ISO ISO 9241-210 which, at this stage are not particularly relevant to discuss. The authors proceed to discuss how this methodology was used for 2 distinct educational contexts:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " The design process involves multiple phases present in ISO ISO 9241-210 which, at this stage are not particularly relevant to discuss. The authors proceed to discuss how this methodology was used for 2 distinct educational contexts:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8006-9359-e81c6fca67bf",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8006-9359-e81c6fca67bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:12:00.000Z",
+        "last_edited_time": "2024-10-04T12:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8051-84a1-ef3ed005174c",
+      "type": "numbered_list_item",
+      "text": "DtP-dotLRN: An open source collaboration LMS developed by MIT. The course serves an introduction into how to use the LMS.\n",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8051-84a1-ef3ed005174c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:12:00.000Z",
+        "last_edited_time": "2024-10-04T17:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "DtP-dotLRN",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "DtP-dotLRN",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": An open source collaboration LMS developed by MIT. The course serves an introduction into how to use the LMS.\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": An open source collaboration LMS developed by MIT. The course serves an introduction into how to use the LMS.\n",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-801e-aeda-c339eb6cfbd1",
+      "type": "numbered_list_item",
+      "text": "EBIFE-Willow: Offering a full e-learning course on a platform initially intended for b-learning. The course is called ‘Search strategies in the Web with Educational Goals’. Recommendations from this system should be able to guide learners throughout the navigational issues that educators solve in face-to-face education.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-801e-aeda-c339eb6cfbd1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:13:00.000Z",
+        "last_edited_time": "2024-10-04T17:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "EBIFE-Willow",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "EBIFE-Willow",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": Offering a full e-learning course on a platform initially intended for b-learning. The course is called ‘Search strategies in the Web with Educational Goals’. Recommendations from this system should be able to guide learners throughout the navigational issues that educators solve in face-to-face education.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": Offering a full e-learning course on a platform initially intended for b-learning. The course is called ‘Search strategies in the Web with Educational Goals’. Recommendations from this system should be able to guide learners throughout the navigational issues that educators solve in face-to-face education.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-802a-9688-e84dfa0aaf5c",
+      "type": "paragraph",
+      "text": "The authors do an A/B test of the recommendations derived from a recommender developed using this methodology.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-802a-9688-e84dfa0aaf5c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T17:56:00.000Z",
+        "last_edited_time": "2024-10-04T17:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors do an A/B test of the recommendations derived from a recommender developed using this methodology.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors do an A/B test of the recommendations derived from a recommender developed using this methodology.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80a9-9f5a-d6bbaa338e7f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80a9-9f5a-d6bbaa338e7f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T17:57:00.000Z",
+        "last_edited_time": "2024-10-04T17:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8035-afc7-de7678809a29",
+      "type": "heading_3",
+      "text": "Application for Context 1",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8035-afc7-de7678809a29",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T17:57:00.000Z",
+        "last_edited_time": "2024-10-04T17:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Application for Context 1",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Application for Context 1",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8000-a74d-c55c4ce6c6de",
+      "type": "paragraph",
+      "text": "There were two rounds for implementation. The first was proof of concept and the second was the Elicitation of Recommendations. The proof of concept involved meetings with educators, students and ICT managers that use dotLRN. Learning style adaptation was recommended to follow the Felder and Silverman Learning Style Questionnaire.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8000-a74d-c55c4ce6c6de",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T17:54:00.000Z",
+        "last_edited_time": "2024-10-04T18:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There were two rounds for implementation. The first was proof of concept and the second was the Elicitation of Recommendations. The proof of concept involved meetings with educators, students and ICT managers that use dotLRN. Learning style adaptation was recommended to follow the Felder and Silverman Learning Style Questionnaire.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There were two rounds for implementation. The first was proof of concept and the second was the Elicitation of Recommendations. The proof of concept involved meetings with educators, students and ICT managers that use dotLRN. Learning style adaptation was recommended to follow the Felder and Silverman Learning Style Questionnaire.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8061-8e11-e34b5e2dc4b5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8061-8e11-e34b5e2dc4b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:46:00.000Z",
+        "last_edited_time": "2024-10-04T18:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-806b-8ecb-c7d3b994f9e3",
+      "type": "paragraph",
+      "text": "In the Elicitation of Recommendations stage, the authors focused on deriving an educational context by surveying and interviewing educators. Moreover, the Data Mining analysis shows that stuudents who do not participate tend to not be successful, while participating in activities such as filling the profile, do self-assessments or fill the learning style questionnaire have been found to successful.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-806b-8ecb-c7d3b994f9e3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:46:00.000Z",
+        "last_edited_time": "2024-10-04T18:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In the Elicitation of Recommendations stage, the authors focused on deriving an educational context by surveying and interviewing educators. Moreover, the Data Mining analysis shows that stuudents who do not participate tend to not be successful, while participating in activities such as filling the profile, do self-assessments or fill the learning style questionnaire have been found to successful.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In the Elicitation of Recommendations stage, the authors focused on deriving an educational context by surveying and interviewing educators. Moreover, the Data Mining analysis shows that stuudents who do not participate tend to not be successful, while participating in activities such as filling the profile, do self-assessments or fill the learning style questionnaire have been found to successful.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-808a-b6f6-f23055fa63b7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-808a-b6f6-f23055fa63b7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:56:00.000Z",
+        "last_edited_time": "2024-10-04T18:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80a3-b4c4-c91b6531b5cd",
+      "type": "heading_3",
+      "text": "Application for Context 2",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80a3-b4c4-c91b6531b5cd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:56:00.000Z",
+        "last_edited_time": "2024-10-04T18:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Application for Context 2",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Application for Context 2",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80de-899f-c87c88e75366",
+      "type": "paragraph",
+      "text": "Similar to Context 1, the first was the Elicitation of Recommendations and the second was the Delivery of Recommendations. Elicitation followed a process similar to context 1. Educators, with the assistance of a Decision Tree, identified which conditions could lead to student success andmade suggestions (validated) on recommendations to make. ",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80de-899f-c87c88e75366",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:56:00.000Z",
+        "last_edited_time": "2024-10-04T18:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Similar to Context 1, the first was the Elicitation of Recommendations and the second was the Delivery of Recommendations. Elicitation followed a process similar to context 1. Educators, with the assistance of a Decision Tree, identified which conditions could lead to student success andmade suggestions (validated) on recommendations to make. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Similar to Context 1, the first was the Elicitation of Recommendations and the second was the Delivery of Recommendations. Elicitation followed a process similar to context 1. Educators, with the assistance of a Decision Tree, identified which conditions could lead to student success andmade suggestions (validated) on recommendations to make. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80e1-8120-e08176b0d246",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80e1-8120-e08176b0d246",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:58:00.000Z",
+        "last_edited_time": "2024-10-04T18:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8000-835c-da7eb26f5528",
+      "type": "paragraph",
+      "text": "In the Delivery of Recommendations, the system provided recommendations as soon as the specific conditions for them were met. Then, students and educators were asked to provide feedback on the usefulness of the recommendations.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8000-835c-da7eb26f5528",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T18:58:00.000Z",
+        "last_edited_time": "2024-10-04T19:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In the Delivery of Recommendations, the system provided recommendations as soon as the specific conditions for them were met. Then, students and educators were asked to provide feedback on the usefulness of the recommendations.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In the Delivery of Recommendations, the system provided recommendations as soon as the specific conditions for them were met. Then, students and educators were asked to provide feedback on the usefulness of the recommendations.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8076-ac38-d3efae9fcdcb",
+      "type": "heading_2",
+      "text": "Discussion",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8076-ac38-d3efae9fcdcb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T19:01:00.000Z",
+        "last_edited_time": "2024-10-04T19:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80f1-85ca-edafd3310af2",
+      "type": "paragraph",
+      "text": "In the context of human centered design of educational recommender systems, it is essencial to have guidelines for the discovery and delivery of recommendations that focus on learning needs and foster active learning. Using TORMES methodology, the authors were able to empirically showcase 2 examples of systems whose recommendations go beyond merely recommending content to read but also recommend specific actions to be undertaken in the platform. ",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80f1-85ca-edafd3310af2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:13:00.000Z",
+        "last_edited_time": "2024-10-04T21:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In the context of human centered design of educational recommender systems, it is essencial to have guidelines for the discovery and delivery of recommendations that focus on learning needs and foster active learning. Using TORMES methodology, the authors were able to empirically showcase 2 examples of systems whose recommendations go beyond merely recommending content to read but also recommend specific actions to be undertaken in the platform. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In the context of human centered design of educational recommender systems, it is essencial to have guidelines for the discovery and delivery of recommendations that focus on learning needs and foster active learning. Using TORMES methodology, the authors were able to empirically showcase 2 examples of systems whose recommendations go beyond merely recommending content to read but also recommend specific actions to be undertaken in the platform. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-800b-ac63-e646d4fa1c08",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-800b-ac63-e646d4fa1c08",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T21:04:00.000Z",
+        "last_edited_time": "2024-10-04T21:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80f0-b453-c17cd0295478",
+      "type": "paragraph",
+      "text": "The recommendations done in the experiments were obtained via 2 main ways:",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80f0-b453-c17cd0295478",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T21:04:00.000Z",
+        "last_edited_time": "2024-10-04T21:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The recommendations done in the experiments were obtained via 2 main ways:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The recommendations done in the experiments were obtained via 2 main ways:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-809d-adec-e8f36df3cc17",
+      "type": "numbered_list_item",
+      "text": "user centered design based on interviews and questionnaires",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-809d-adec-e8f36df3cc17",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T21:04:00.000Z",
+        "last_edited_time": "2024-10-04T21:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "user centered design based on interviews and questionnaires",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "user centered design based on interviews and questionnaires",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80d9-881d-f10281961c70",
+      "type": "numbered_list_item",
+      "text": "Data mining derived recommendations → either from classification efforts or association rule mining",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80d9-881d-f10281961c70",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T21:26:00.000Z",
+        "last_edited_time": "2024-10-04T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data mining derived recommendations → either from classification efforts or association rule mining",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data mining derived recommendations → either from classification efforts or association rule mining",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8009-8a7a-fadd15e8a43d",
+      "type": "heading_2",
+      "text": "Summary Table",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8009-8a7a-fadd15e8a43d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-03T23:39:00.000Z",
+        "last_edited_time": "2024-10-03T23:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8038-b743-ca5dd4abd38d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8038-b743-ca5dd4abd38d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-03T23:39:00.000Z",
+        "last_edited_time": "2024-10-04T21:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-806d-ae4d-ccbccf5d3244",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-806d-ae4d-ccbccf5d3244",
+        "parent": {
+          "type": "page_id",
+          "page_id": "b754f576-1ec5-46b9-ba21-b34febde24ec"
+        },
+        "created_time": "2024-10-04T12:11:00.000Z",
+        "last_edited_time": "2024-10-04T12:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

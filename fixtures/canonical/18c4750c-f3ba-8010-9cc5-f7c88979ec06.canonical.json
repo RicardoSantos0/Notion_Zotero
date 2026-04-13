@@ -1,0 +1,78 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06",
+      "title": "Analyzing Student Procrastination in MOOCs: A Multivariate Hawkes Approach",
+      "authors": [],
+      "year": null,
+      "journal": "EDM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4e082ad5",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Students": "731 students in Canvas",
+          "Courses": "1 Computer Science Course",
+          "Data sources": "LMS logs",
+          "Theoretical Grounding": "Not Applicable",
+          "Features": "[L, D, A]",
+          "Preprocessing Details": "Students labelled as dropouts were not considered for this course.\n\nEach row represents a student-module pairing. Multiple feature sets are created:\n\nL → activities associated with video lectures, \n\nA - Activities associated with assignments\n\nD - Discussion-Related Activities",
+          "Models": "Poisson, \nHawkes (Single), Hawkes (Multi)",
+          "Performance Metric: Best Model": "L Features\n{RMSE: 0.56 - Hawkes (Multi)}\n\nA Features\n{RMSE: 2.34 - Hawkes (Multi)}\n\nD Features\n{RMSE: 1.37 - Hawkes (Multi)}",
+          "Groups Created": "2",
+          "Cluster Description": "Group 1: Assignment to Video Leacture and Assignment to Discussion activities is much lower for this group than the other - Non-dealy group.\n\nGroup 2 - Delay Group → participation in activities is much more dictated by assignments. \n\n",
+          "Implications": "Dealines are big motivating factors for assignment-related activities. \n\nNon-delay learners have more frequent and less dense activities → suggesting a relationship between performance and being able to to tasks more frequently. \n\n",
+          "Comments": "Authors create a set of attempts at modelling procrastination. The authors use k-means clustering to identify 2 groups…. Non-delay vs delay.\n\nAnalysis of the results based on performance shows that there is a negative correlation between delay and performance. ",
+          "Limitations": "Disregarding of Dropout students, as procratination is a decent predictor of dropout.\n\nOnly a single metric being evaluated.\n\nlimited number of predictors in a single context/dataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_fd18ac91",
+      "reference_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06",
+      "text": "Procrastination is harmful effects to student well-being and ability to learn and its effects are even more pronounced in online settings (MOOCs). Modelling procrastination has been attempted before and the most relevant representations are either static or as parameters of constant-rate temporal models (usually discrete events). ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06"
+      }
+    },
+    {
+      "id": "an_7a174302",
+      "reference_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06",
+      "text": "Authors attempt to model procrastination as part of a continuum by using a Multi-dimensional Hawkes approach. Essentially, the authors use this approach to model exogenous events (deadlines) and endogenous events (responses within and between types of learning materials). ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06"
+      }
+    },
+    {
+      "id": "an_51127d95",
+      "reference_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06",
+      "text": "Results show the existence of relationships between past and future, meaning that this representation of procrastination can improve the explainability of student models.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8010-9cc5-f7c88979ec06"
+      }
+    }
+  ],
+  "workflow_states": []
+}

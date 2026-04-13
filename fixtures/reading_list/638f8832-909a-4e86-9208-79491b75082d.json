@@ -1,0 +1,621 @@
+{
+  "page_id": "638f8832-909a-4e86-9208-79491b75082d",
+  "title": "Student’s performance prediction model and affecting factors using classification techniques",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "e589a0a5-8cf2-4125-838e-ccde3562b2a0",
+          "name": "Student Performance Prediction Model",
+          "color": "pink"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "886ec185-d855-4701-9ca3-5cf447002216",
+          "name": "Decision Tree",
+          "color": "default"
+        },
+        {
+          "id": "3a11d75a-21b5-4ec6-9744-24bdf2b91d60",
+          "name": "Support Vector Machines",
+          "color": "green"
+        },
+        {
+          "id": "a9e744c4-5ac0-4aa7-a0eb-9f4f74bcd81f",
+          "name": "Students' Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Education and Information Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Education and Information Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-05",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hussain et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hussain et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Student’s performance prediction model and affecting factors using classification techniques",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Student’s performance prediction model and affecting factors using classification techniques",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2344750c-f3ba-80fd-bd37-c7f0eb380cea",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "None Applicable",
+          "Trend of GPA from Previous Semester",
+          "High (1) vs Low (0)",
+          "Dataset 1 - 260 BS students\nDataset 2 - 512 students",
+          "7 University Programs ",
+          "Questionnaires, - Student characteristics and Academic History.",
+          "[Gender, Living Location, Stay, SSC Perrcentage, HSSC Percentage, Interest in Higher Study, Preferred TEaching Medium, Mobile Type, University Transport, Previous Semesters’ GPAs, Study Program, Family Status, Family Income, Father Qualification,  Mother Qualification, Father Occupation, Mother Occupation, Friend Behavior, Preferred Teaching Aids, Departments Support, Computer Lab Facilities, Tools Availability in Labs, Internet Facility at home, Preferred Teaching Method, Time Spent on Special Network, Time for Mobile Games, Time for Physical Games, Type of Physiscal Games]",
+          "Before Start of Next Semester",
+          "Missing values were filled using kNN imputation… \n\nClass labels were also generated from the Linear Fitting of the learning of the student. \n\n ",
+          "Decision Tree, \nSVM",
+          "Holdout Method",
+          "Dataset 1\n{Accuracy: 0.6203 - SVM (70-30), Precision: 0.6471 - SVM  (70-30), Recall: 0.55 - SVM (70-30), F-Score: 0.5946 - SVM (70-30)}\n\nDataset 2\n{Accuracy: 0.7885 - DT (90-10), Precision: 0.8462 - DT (90-10), Recall: 0.8636 - SVM (70-30), F-Score: 0.80 - DT (90-10)}",
+          "The authors test 3 distinct separations when it comes to the holdout method - 70-30, 80-20, 90-10. Published results refer to resuults on the test data.\n\nThe authors compare 2 distinct algorithms with 3 distinct separations. \n\nWork finishes with interpretation of the features and discussed how these could/would lead to a specific level of performance.",
+          "Holdout Method\n\nSmall sample size\n\nLimited Number of Algorithms\n\nData collection comes from Self-Reports\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3a6e2abd-18a6-4a80-be04-f6ef577fa360",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3a6e2abd-18a6-4a80-be04-f6ef577fa360",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2024-08-05T13:35:00.000Z",
+        "last_edited_time": "2024-08-05T13:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1364a3fd-7793-49a3-9a4e-135905c3b94c",
+      "type": "paragraph",
+      "text": "Students are one of the primary sources of data for educational contexts and it is in the benefit of theses institutions to use this data to identify students who may require special attention. The paper presents an hybrid of DT with SVM model for student performance. ",
+      "raw": {
+        "object": "block",
+        "id": "1364a3fd-7793-49a3-9a4e-135905c3b94c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2024-08-05T13:35:00.000Z",
+        "last_edited_time": "2024-08-05T13:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students are one of the primary sources of data for educational contexts and it is in the benefit of theses institutions to use this data to identify students who may require special attention. The paper presents an hybrid of DT with SVM model for student performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students are one of the primary sources of data for educational contexts and it is in the benefit of theses institutions to use this data to identify students who may require special attention. The paper presents an hybrid of DT with SVM model for student performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "00990f07-8f08-4fd6-a226-f95014f94b58",
+      "type": "paragraph",
+      "text": "Abstract does not explicitly mention the metrics used for evaluation but it does seem that DT was better (possible typo). Moreover, the authors have also identified 7 possible factors that affect student performance. ",
+      "raw": {
+        "object": "block",
+        "id": "00990f07-8f08-4fd6-a226-f95014f94b58",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2024-08-05T13:39:00.000Z",
+        "last_edited_time": "2024-08-05T13:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract does not explicitly mention the metrics used for evaluation but it does seem that DT was better (possible typo). Moreover, the authors have also identified 7 possible factors that affect student performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract does not explicitly mention the metrics used for evaluation but it does seem that DT was better (possible typo). Moreover, the authors have also identified 7 possible factors that affect student performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7d2e3217-957b-487a-9d7f-c1c776a6384d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7d2e3217-957b-487a-9d7f-c1c776a6384d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2024-08-05T13:38:00.000Z",
+        "last_edited_time": "2024-08-05T13:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2344750c-f3ba-808b-8788-de0e546d9d31",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2344750c-f3ba-808b-8788-de0e546d9d31",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2025-07-18T20:13:00.000Z",
+        "last_edited_time": "2025-07-18T20:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2344750c-f3ba-80fd-bd37-c7f0eb380cea",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2344750c-f3ba-80fd-bd37-c7f0eb380cea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "638f8832-909a-4e86-9208-79491b75082d"
+        },
+        "created_time": "2025-07-18T20:13:00.000Z",
+        "last_edited_time": "2025-07-18T20:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

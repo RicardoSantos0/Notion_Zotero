@@ -1,0 +1,3751 @@
+{
+  "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460",
+  "title": "Predicting Academic Performance via Semi-supervised Learning with Constructed Campus Social Network",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rxk{",
+          "name": "Book Chapter",
+          "color": "default"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Database Systems for Advanced Applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Database Systems for Advanced Applications",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T00:00:00.000+01:00",
+        "end": "2024-10-19T00:27:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yao et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yao et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting Academic Performance via Semi-supervised Learning with Constructed Campus Social Network",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting Academic Performance via Semi-supervised Learning with Constructed Campus Social Network",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1224750c-f3ba-8070-a9aa-c76922483d22",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Social Networks in Higher Education",
+          "Not Applicable",
+          "Ranking of GPA",
+          "4 quartiles of GPA performance (I, II, III, IV)",
+          "5388 students",
+          "Not Applicable",
+          "Digital Card interactions with Campus Infrastructure",
+          "[Social influence Matrix on each Location]",
+          "Not Applicable",
+          "The weight of each location is assumed to be similar from the start. \n\nGPA was converted into a rank of all grades inside the same program. Moreover, the ranks were normalized to account for differences in number of students in the course.",
+          "LP-Teaching Building\nLP-ALL\nLabel Propagation on Multiple Networks",
+          "Holdout Method",
+          "Single Network\n{Precision: 0.380 - LP-Teaching building → 100% labeled}\n\nAll networks\n{Precision: 0.401 - LPMN → 100% labeled}",
+          "Semi-Supervised Learning work. The training dat a includes a random percentage of labeled and unlabeled data (20%, 40%, 60%, 80%, 100%). Experiment is repeated 20 times.\n\nPerformance increases with more labelled data, but the increases in performance are not very big compared with, for example, the 40% sample - meaning that the semi-supervised approach works rather well-",
+          "Limited use of evaluation metrics.\n\nEthical issues with student monitoring.\n\nUnsatisfactory definition of student performance."
+        ]
+      ],
+      "index": 65
+    }
+  ],
+  "blocks": [
+    {
+      "id": "8d8453e5-7a4a-402b-942d-a35b5aabb3fd",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "8d8453e5-7a4a-402b-942d-a35b5aabb3fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-07-31T14:31:00.000Z",
+        "last_edited_time": "2024-07-31T14:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "eb4b5007-f888-498a-bd04-dbd472b38455",
+      "type": "paragraph",
+      "text": "The authors identify a gap in the study of performance prediction that relates to social influence. To address this, the authors construct a model of student social relationships that is based on their behavior while on campus (what campus bahavior means is somewhat unclear). By using an experiment on close to 5000 students and 14M behavior records, the authors verify that this approach does indeed contribute to better predictive models. Some details on the models themselves are unspecified. ",
+      "raw": {
+        "object": "block",
+        "id": "eb4b5007-f888-498a-bd04-dbd472b38455",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-07-31T14:31:00.000Z",
+        "last_edited_time": "2024-07-31T14:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identify a gap in the study of performance prediction that relates to social influence. To address this, the authors construct a model of student social relationships that is based on their behavior while on campus (what campus bahavior means is somewhat unclear). By using an experiment on close to 5000 students and 14M behavior records, the authors verify that this approach does indeed contribute to better predictive models. Some details on the models themselves are unspecified. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identify a gap in the study of performance prediction that relates to social influence. To address this, the authors construct a model of student social relationships that is based on their behavior while on campus (what campus bahavior means is somewhat unclear). By using an experiment on close to 5000 students and 14M behavior records, the authors verify that this approach does indeed contribute to better predictive models. Some details on the models themselves are unspecified. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80e5-b536-fa8e3dd84f5c",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80e5-b536-fa8e3dd84f5c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-17T23:59:00.000Z",
+        "last_edited_time": "2024-10-18T16:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80a7-99da-daa8618a6f77",
+      "type": "paragraph",
+      "text": "Early prediction of academic performance can assist educators in inverning near students and providing them with the necessary guidance for them to succeed. Few studies consider social influence as a predictor of academic performance. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80a7-99da-daa8618a6f77",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:03:00.000Z",
+        "last_edited_time": "2024-10-18T17:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Early prediction of academic performance can assist educators in inverning near students and providing them with the necessary guidance for them to succeed. Few studies consider social influence as a predictor of academic performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Early prediction of academic performance can assist educators in inverning near students and providing them with the necessary guidance for them to succeed. Few studies consider social influence as a predictor of academic performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8008-a27b-df900bcea8cf",
+      "type": "paragraph",
+      "text": "The growth in computer-based systems in campus life makes it possible to track activities in and outside campus, which makes it possible to create social relationships from this behavioral data. Since there is no way to actually measure whether students are friends or companions, tracking whether there are  co-occurrences of location may point towards the existence of a relationship. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8008-a27b-df900bcea8cf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:31:00.000Z",
+        "last_edited_time": "2024-10-18T17:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The growth in computer-based systems in campus life makes it possible to track activities in and outside campus, which makes it possible to create social relationships from this behavioral data. Since there is no way to actually measure whether students are friends or companions, tracking whether there are  co-occurrences of location may point towards the existence of a relationship. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The growth in computer-based systems in campus life makes it possible to track activities in and outside campus, which makes it possible to create social relationships from this behavioral data. Since there is no way to actually measure whether students are friends or companions, tracking whether there are  co-occurrences of location may point towards the existence of a relationship. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8094-b453-cf079536171d",
+      "type": "paragraph",
+      "text": "To do that, the authors compute the number of co-occurrences in physical spaces, followed by building what is a null model → allowing for a comparison between the expected number of co-occurrences in the wild vs being friends. It could be possible to identify social ties in this manner if the training data was labelled (meaning we knew if 2 students were friends based on the relationship).",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8094-b453-cf079536171d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:34:00.000Z",
+        "last_edited_time": "2024-10-18T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To do that, the authors compute the number of co-occurrences in physical spaces, followed by building what is a null model → allowing for a comparison between the expected number of co-occurrences in the wild vs being friends. It could be possible to identify social ties in this manner if the training data was labelled (meaning we knew if 2 students were friends based on the relationship).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To do that, the authors compute the number of co-occurrences in physical spaces, followed by building what is a null model → allowing for a comparison between the expected number of co-occurrences in the wild vs being friends. It could be possible to identify social ties in this manner if the training data was labelled (meaning we knew if 2 students were friends based on the relationship).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80cf-9f46-cf0350c4bd95",
+      "type": "paragraph",
+      "text": "However, that is not the case, which makes trewating this as a supervised learning problem unfeasable. Thus, the authors use a semi-supervised approach to predict academic performance based on social influence. The work starts with looking if students with high co-occurrences tend to have similar performance → the model used is called Label Propagation algorithm on Multiple Networks. Under this model, different lcoations are meant to have different weights.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80cf-9f46-cf0350c4bd95",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:36:00.000Z",
+        "last_edited_time": "2024-10-18T17:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "However, that is not the case, which makes trewating this as a supervised learning problem unfeasable. Thus, the authors use a semi-supervised approach to predict academic performance based on social influence. The work starts with looking if students with high co-occurrences tend to have similar performance → the model used is called ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However, that is not the case, which makes trewating this as a supervised learning problem unfeasable. Thus, the authors use a semi-supervised approach to predict academic performance based on social influence. The work starts with looking if students with high co-occurrences tend to have similar performance → the model used is called ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Label Propagation algorithm on Multiple Networks",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Label Propagation algorithm on Multiple Networks",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". Under this model, different lcoations are meant to have different ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". Under this model, different lcoations are meant to have different ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "weights.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "weights.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8032-b830-dfb313ac8bc1",
+      "type": "paragraph",
+      "text": "Model is tested on 5000 students with 14 Million records. The performance of the students is not the GPA, but instead a 4 level multiclass problem based of which quartile the performance is. 20% of the sample is considered the test data. In addition, training is done with a random percentage of training observations labeled (so it can be, 20, 40, 60, 80 or 100% of the training data being labelled).",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8032-b830-dfb313ac8bc1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:49:00.000Z",
+        "last_edited_time": "2024-10-18T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model is tested on 5000 students with 14 Million records. The performance of the students is not the GPA, but instead a 4 level multiclass problem based of which quartile the performance is. 20% of the sample is considered the ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model is tested on 5000 students with 14 Million records. The performance of the students is not the GPA, but instead a 4 level multiclass problem based of which quartile the performance is. 20% of the sample is considered the ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "test data",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "test data",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". In addition, training is done with a random percentage of training observations labeled (so it can be, 20, 40, 60, 80 or 100% of the training data being labelled).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". In addition, training is done with a random percentage of training observations labeled (so it can be, 20, 40, 60, 80 or 100% of the training data being labelled).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8018-aa0c-f7ba9cbda071",
+      "type": "heading_2",
+      "text": "Related Work",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8018-aa0c-f7ba9cbda071",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:52:00.000Z",
+        "last_edited_time": "2024-10-18T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Related Work",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Related Work",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80e0-9baf-f66d45075630",
+      "type": "paragraph",
+      "text": "Co-occurrences in a geographical spaces are a common form of identifying social ties. However, this type of application of predicting social ties on-campus is still under-explored. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80e0-9baf-f66d45075630",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:52:00.000Z",
+        "last_edited_time": "2024-10-18T17:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Co-occurrences in a geographical spaces are a common form of identifying social ties. However, this type of application of predicting social ties ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Co-occurrences in a geographical spaces are a common form of identifying social ties. However, this type of application of predicting social ties ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "on-campus",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "on-campus",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " is still under-explored. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " is still under-explored. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80b4-8f76-c192a44eea4e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80b4-8f76-c192a44eea4e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:03:00.000Z",
+        "last_edited_time": "2024-10-18T18:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80e3-b083-f4a8ae410214",
+      "type": "paragraph",
+      "text": "However, when it comes to the prediction of performance, multiple models exist. Usually these models use either longitudinal data or tensor-based data collected from an e-learning environment to predict whether a student will be succesful or not (difference being the way the data is preprocessed from the extraction of the activity logs). While popular as a task, the literature does not seem to have works predicting student performance using, as predictors, the social connections between students.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80e3-b083-f4a8ae410214",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:03:00.000Z",
+        "last_edited_time": "2024-10-18T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "However, when it comes to the prediction of performance, multiple models exist. Usually these models use either longitudinal data or tensor-based data collected from an e-learning environment to predict whether a student will be succesful or not (difference being the way the data is preprocessed from the extraction of the activity logs). While popular as a task, the literature does not seem to have works predicting student performance using, as predictors, the social connections between students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However, when it comes to the prediction of performance, multiple models exist. Usually these models use either longitudinal data or tensor-based data collected from an e-learning environment to predict whether a student will be succesful or not (difference being the way the data is preprocessed from the extraction of the activity logs). While popular as a task, the literature does not seem to have works predicting student performance using, as predictors, the social connections between students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80d6-8321-ca8067bba454",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80d6-8321-ca8067bba454",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:06:00.000Z",
+        "last_edited_time": "2024-10-18T18:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80ad-ba81-f7cfe509a85c",
+      "type": "heading_2",
+      "text": "Campus Social Network",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80ad-ba81-f7cfe509a85c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:06:00.000Z",
+        "last_edited_time": "2024-10-18T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Campus Social Network",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Campus Social Network",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8003-bcef-fe0c9b5e54d9",
+      "type": "paragraph",
+      "text": "The authors start with the building of a campus social network model that is based on the millions of interactions between students and campus (e.g. using the smartcards). Under this context, co-occurrence is identified as being recorded on the same location within a short interval of time. The authors build a model that considers 7 possible distinct locations where students can be:",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8003-bcef-fe0c9b5e54d9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:04:00.000Z",
+        "last_edited_time": "2024-10-18T18:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors start with the building of a campus social network model that is based on the millions of interactions between students and campus (e.g. using the smartcards). Under this context, co-occurrence is identified as being recorded on the same location within a short interval of time. The authors build a model that considers 7 possible distinct locations where students can be:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors start with the building of a campus social network model that is based on the millions of interactions between students and campus (e.g. using the smartcards). Under this context, co-occurrence is identified as being recorded on the same location within a short interval of time. The authors build a model that considers 7 possible distinct locations where students can be:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80b3-acc1-da48c2da4310",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80b3-acc1-da48c2da4310",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:10:00.000Z",
+        "last_edited_time": "2024-10-18T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a9c26087-edf5-4ac4-aedf-f49f4f25727a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VAHKLA7Z%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCOMnQYR54GSnkVENqXtsT9O4xMOxPmhFSSx4gowDat0AIhAJk1cDXppMuDThjTHJpmv1L5h4b0L8qcsniydWNqJtaEKv8DCHcQABoMNjM3NDIzMTgzODA1IgzjzLmV%2BiiserpNHtwq3AMLUehazcjXkBrqIVQT5Q55u3ODSp7GSJRDALv6GJgwm20qbm%2FIfQ%2BELtu71lumlRag%2B%2BJFbyjH1RSnWX2%2FvQlUnTj2%2FAvMe9HQZsttS2I8rqMCvJZx0aS9tgflrhmnSoioGzPHmU8Sj4%2FGTtu%2BHC56YVfuvURB5sIYW3hiOnByip1eeg%2B4AMFl63vRmmuS4%2FVJmYMm2d%2FCGEoUZA7qJwytm9PJeHddPP%2BODFuzedIhsjFYcdNM4quvsffUa%2BJ6kE5h6Sin6wljG%2FxVgnsHTopSelH2wosJ3T%2FHyK%2Fm8NlBfxHtKlT4mRes0WTNsp7%2Fxplh5jTey40%2BH78u2S22jimsjOOu2uiSYVPHHdrVKN%2FJAeout%2FFL1joBTUeJtkzr1sCtElpoD61rnaGH4lBeQ3Y6dlcSZg7ciGq2mZ1PM2U6X4JpsxKe1qzpxy%2FdSMMBhX00FswMuJcCpi13s4krGo3DSkqvlVLG7Y2jkaeOqgRugO6OQKxXaDNQ9dVitkgXNcct1mUiJWgIouM0IncWb%2BAFau3MaDxW9Hwv3eKUw0d6ETvo94DzsDJVU0NPpL6UyJHiXCJDFmibKEtzAe2WTMlqoSPl3o6tPRCKHo1VJD%2FhvYh%2BBhJ3lJI8YWuORzDU7vPOBjqkAX67WDwi87Rk5nchL1afXDo%2F1H%2BEOHgjIzGM1BrttZR8xhPuMh3ruIrsJnv0S1Mam2feiUBhx0qdE3ZIZlNQjXM6Do97iqp3n145C0vUBJwAx%2F1%2BKNXRvmGNLIi3NOD4JFgahXBv3pHb4rMDI2kboSlHG7mVGXzRDGq4D1SuwZ3v8K4toOmG6XBNBqhk4y7N2B0hG1VQ%2FdArF0NNTrwtI8AGPlDb&X-Amz-Signature=8d8bb504a1133f66feb25db6501833f4e131656eb996a815342eee5c44fd0269&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:31.247Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80ef-ba4c-fb1990a4c680",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80ef-ba4c-fb1990a4c680",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:15:00.000Z",
+        "last_edited_time": "2024-10-18T18:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-808a-9a81-cecb103a9952",
+      "type": "numbered_list_item",
+      "text": "canteen, ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-808a-9a81-cecb103a9952",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T17:52:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "canteen, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "canteen, ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80fa-b539-d91052173352",
+      "type": "numbered_list_item",
+      "text": "library, ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80fa-b539-d91052173352",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "library, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "library, ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-801c-abca-f4e87d0406de",
+      "type": "numbered_list_item",
+      "text": "classroom, ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-801c-abca-f4e87d0406de",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "classroom, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "classroom, ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80a7-8793-e5eff1186db8",
+      "type": "numbered_list_item",
+      "text": "campus shuttle",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80a7-8793-e5eff1186db8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "campus shuttle",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "campus shuttle",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80fe-8de7-eac1ff8de47e",
+      "type": "numbered_list_item",
+      "text": "campus-to-campus bus",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80fe-8de7-eac1ff8de47e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "campus-to-campus bus",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "campus-to-campus bus",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8084-bdb1-e47e1dfe196e",
+      "type": "numbered_list_item",
+      "text": "supermarket ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8084-bdb1-e47e1dfe196e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "supermarket ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "supermarket ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8048-9c98-c8b3e2f4d414",
+      "type": "numbered_list_item",
+      "text": "bathroom (creepyyy)",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8048-9c98-c8b3e2f4d414",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "bathroom (creepyyy)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "bathroom (creepyyy)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80e0-8d66-eb6859f4d2f8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80e0-8d66-eb6859f4d2f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:17:00.000Z",
+        "last_edited_time": "2024-10-18T18:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80ba-82a7-d074c22ff2b0",
+      "type": "paragraph",
+      "text": "Overwhelming amounts of co-occurrences are very likely a sign of 2 students being close friends (as highlighted in other work). In this work, however, there is no actual label to determine whether they are friends or not. Determination of frienship is constructed by using a null matrix:",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80ba-82a7-d074c22ff2b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:16:00.000Z",
+        "last_edited_time": "2024-10-18T18:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Overwhelming amounts of co-occurrences are very likely a sign of 2 students being close friends (as highlighted in other work). In this work, however, there is no actual label to determine whether they are friends or not. Determination of frienship is constructed by using a null matrix:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Overwhelming amounts of co-occurrences are very likely a sign of 2 students being close friends (as highlighted in other work). In this work, however, there is no actual label to determine whether they are friends or not. Determination of frienship is constructed by using a null matrix:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-800c-9189-deb465909963",
+      "type": "numbered_list_item",
+      "text": "In essence, the authors create what could be considered a random case and measure what is the number of co-occurrences that would be detected in this manner.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-800c-9189-deb465909963",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:21:00.000Z",
+        "last_edited_time": "2024-10-18T18:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In essence, the authors create what could be considered a random case and measure what is the number of co-occurrences that would be detected in this manner.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In essence, the authors create what could be considered a random case and measure what is the number of co-occurrences that would be detected in this manner.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8039-bf04-f37b00655a80",
+      "type": "numbered_list_item",
+      "text": "Then, the authors create an actual co-occurrence matrix and see whether the number of co-occurrences is higher than what would be expected at random. This is done by using, as threshold the mean co-occurrence plus 2 Standard deviations value.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8039-bf04-f37b00655a80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:22:00.000Z",
+        "last_edited_time": "2024-10-18T18:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Then, the authors create an actual co-occurrence matrix and see whether the number of co-occurrences is higher than what would be expected at random. This is done by using, as threshold the mean co-occurrence plus 2 Standard deviations value.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Then, the authors create an actual co-occurrence matrix and see whether the number of co-occurrences is higher than what would be expected at random. This is done by using, as threshold the mean co-occurrence plus 2 Standard deviations value.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80dd-96f0-dc005a09adc7",
+      "type": "numbered_list_item",
+      "text": "Co-occurrences below the threshold are disregarded as the authors determine that the number of co-occurrences could be understood as random. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80dd-96f0-dc005a09adc7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:25:00.000Z",
+        "last_edited_time": "2024-10-18T18:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Co-occurrences below the threshold are disregarded as the authors determine that the number of co-occurrences could be understood as random. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Co-occurrences below the threshold are disregarded as the authors determine that the number of co-occurrences could be understood as random. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80f6-a61a-e67ffbeba6b1",
+      "type": "paragraph",
+      "text": "The social ties are determined by comparing the co-occurrences in different locations. To combine them, the authors use a weighted sum of the co-occurrences in each location (weight being the strength of the social ties - determined via an algorithm). This is important to acknowledge because relationships are often not fully symmetrical. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80f6-a61a-e67ffbeba6b1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:26:00.000Z",
+        "last_edited_time": "2024-10-18T18:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The social ties are determined by comparing the co-occurrences in different locations. To combine them, the authors use a weighted sum of the co-occurrences in each location (weight being the strength of the social ties - determined via an algorithm). This is important to acknowledge because relationships are often not fully symmetrical. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The social ties are determined by comparing the co-occurrences in different locations. To combine them, the authors use a weighted sum of the co-occurrences in each location (weight being the strength of the social ties - determined via an algorithm). This is important to acknowledge because relationships are often not fully symmetrical. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8038-89ac-f4ddecd25a3b",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8038-89ac-f4ddecd25a3b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:31:00.000Z",
+        "last_edited_time": "2024-10-18T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/948d8c45-00dd-4faa-a0e8-6342cd6a32e5/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VAHKLA7Z%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCOMnQYR54GSnkVENqXtsT9O4xMOxPmhFSSx4gowDat0AIhAJk1cDXppMuDThjTHJpmv1L5h4b0L8qcsniydWNqJtaEKv8DCHcQABoMNjM3NDIzMTgzODA1IgzjzLmV%2BiiserpNHtwq3AMLUehazcjXkBrqIVQT5Q55u3ODSp7GSJRDALv6GJgwm20qbm%2FIfQ%2BELtu71lumlRag%2B%2BJFbyjH1RSnWX2%2FvQlUnTj2%2FAvMe9HQZsttS2I8rqMCvJZx0aS9tgflrhmnSoioGzPHmU8Sj4%2FGTtu%2BHC56YVfuvURB5sIYW3hiOnByip1eeg%2B4AMFl63vRmmuS4%2FVJmYMm2d%2FCGEoUZA7qJwytm9PJeHddPP%2BODFuzedIhsjFYcdNM4quvsffUa%2BJ6kE5h6Sin6wljG%2FxVgnsHTopSelH2wosJ3T%2FHyK%2Fm8NlBfxHtKlT4mRes0WTNsp7%2Fxplh5jTey40%2BH78u2S22jimsjOOu2uiSYVPHHdrVKN%2FJAeout%2FFL1joBTUeJtkzr1sCtElpoD61rnaGH4lBeQ3Y6dlcSZg7ciGq2mZ1PM2U6X4JpsxKe1qzpxy%2FdSMMBhX00FswMuJcCpi13s4krGo3DSkqvlVLG7Y2jkaeOqgRugO6OQKxXaDNQ9dVitkgXNcct1mUiJWgIouM0IncWb%2BAFau3MaDxW9Hwv3eKUw0d6ETvo94DzsDJVU0NPpL6UyJHiXCJDFmibKEtzAe2WTMlqoSPl3o6tPRCKHo1VJD%2FhvYh%2BBhJ3lJI8YWuORzDU7vPOBjqkAX67WDwi87Rk5nchL1afXDo%2F1H%2BEOHgjIzGM1BrttZR8xhPuMh3ruIrsJnv0S1Mam2feiUBhx0qdE3ZIZlNQjXM6Do97iqp3n145C0vUBJwAx%2F1%2BKNXRvmGNLIi3NOD4JFgahXBv3pHb4rMDI2kboSlHG7mVGXzRDGq4D1SuwZ3v8K4toOmG6XBNBqhk4y7N2B0hG1VQ%2FdArF0NNTrwtI8AGPlDb&X-Amz-Signature=00deaf0b7628025cd2c7788a9a7bb405b6aeba20a3a02fa5343e6d9eb82599b4&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:31.435Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8041-9281-c9d3392bb7db",
+      "type": "heading_2",
+      "text": "Determining Social Influence",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8041-9281-c9d3392bb7db",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:32:00.000Z",
+        "last_edited_time": "2024-10-18T20:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Determining Social Influence",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Determining Social Influence",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80b7-a1f9-ea22f60d3ad0",
+      "type": "paragraph",
+      "text": "It is hypothesized that students being friends has an impact on the performance→ friends should have similar performance. The GPA of all students was ranked within the students in the same major, followed by a normalization by the number of students attending that specific major. Then, the authors test whether the performance of friends is similar using paired-samples t-test:",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80b7-a1f9-ea22f60d3ad0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T18:32:00.000Z",
+        "last_edited_time": "2024-10-18T20:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It is hypothesized that students being friends has an impact on the performance→ friends should have similar performance. The GPA of all students was ranked within the students in the same major, followed by a normalization by the number of students attending that specific major. Then, the authors test whether the performance of friends is similar using paired-samples t-test:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It is hypothesized that students being friends has an impact on the performance→ friends should have similar performance. The GPA of all students was ranked within the students in the same major, followed by a normalization by the number of students attending that specific major. Then, the authors test whether the performance of friends is similar using paired-samples t-test:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8048-ba9f-cada6a07462d",
+      "type": "numbered_list_item",
+      "text": "Check similarity of academic performance of student i with friends.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8048-ba9f-cada6a07462d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:44:00.000Z",
+        "last_edited_time": "2024-10-18T20:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Check similarity of academic performance of student i with friends.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Check similarity of academic performance of student i with friends.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80a7-9d15-eb4e47097a8b",
+      "type": "numbered_list_item",
+      "text": "Check similarity of academic performance of student i with bootstrapped sample of non-friends.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80a7-9d15-eb4e47097a8b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:45:00.000Z",
+        "last_edited_time": "2024-10-18T20:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Check similarity of academic performance of student i with bootstrapped sample of non-friends.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Check similarity of academic performance of student i with bootstrapped sample of non-friends.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-802e-a4ea-fb29483bc62c",
+      "type": "numbered_list_item",
+      "text": "Check if the similarities with friends are different from the ones with no friends.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-802e-a4ea-fb29483bc62c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:48:00.000Z",
+        "last_edited_time": "2024-10-18T20:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Check if the similarities with friends are different from the ones with no friends.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Check if the similarities with friends are different from the ones with no friends.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80e6-8012-db99fcc27084",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80e6-8012-db99fcc27084",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:48:00.000Z",
+        "last_edited_time": "2024-10-18T20:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-802c-a146-d2a10cbba97f",
+      "type": "paragraph",
+      "text": "The results show that there is a correlation between strength of social ties and similarity in academic performance. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-802c-a146-d2a10cbba97f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:48:00.000Z",
+        "last_edited_time": "2024-10-18T20:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The results show that there is a correlation between strength of social ties and similarity in academic performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The results show that there is a correlation between strength of social ties and similarity in academic performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80f1-a2ca-e050cdfdee2c",
+      "type": "heading_2",
+      "text": "Prediction of Academic Performance",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80f1-a2ca-e050cdfdee2c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:51:00.000Z",
+        "last_edited_time": "2024-10-18T20:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Prediction of Academic Performance",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Prediction of Academic Performance",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8090-b15a-cde51681e045",
+      "type": "paragraph",
+      "text": "The model uses the constructed campus social network to predict academic performance.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8090-b15a-cde51681e045",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:51:00.000Z",
+        "last_edited_time": "2024-10-18T20:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The model uses the constructed campus social network to predict academic performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The model uses the constructed campus social network to predict academic performance.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-804e-927e-f383c38d53d8",
+      "type": "heading_3",
+      "text": "Label Propagation",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-804e-927e-f383c38d53d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:56:00.000Z",
+        "last_edited_time": "2024-10-18T20:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Label Propagation",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Label Propagation",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80f4-8ae6-c1e7ce36d57d",
+      "type": "paragraph",
+      "text": "The social network W is an N*N affinity matrix and the performance matrix T is a N * 4 featuring the level of the students. Unlabeled observations were full 0. The output of the model is prediction matrix F which has the same shape as T.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80f4-8ae6-c1e7ce36d57d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T20:56:00.000Z",
+        "last_edited_time": "2024-10-18T21:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The social network ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The social network ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "W"
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "W",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " is an ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " is an ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "N*N"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "N*N",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " affinity matrix and the performance matrix ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " affinity matrix and the performance matrix ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "T"
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "T",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " is a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " is a ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "N * 4"
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "N * 4",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " featuring the level of the students. Unlabeled observations were full 0. The output of the model is prediction matrix ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " featuring the level of the students. Unlabeled observations were full 0. The output of the model is prediction matrix ",
+              "href": null
+            },
+            {
+              "type": "equation",
+              "equation": {
+                "expression": "F"
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "F",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " which has the same shape as ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " which has the same shape as ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "T",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "T",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ".",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ".",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-805f-9453-caced7c0f80a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-805f-9453-caced7c0f80a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:09:00.000Z",
+        "last_edited_time": "2024-10-18T21:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/9328aa28-6754-4319-8c0d-837a57969164/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VAHKLA7Z%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCOMnQYR54GSnkVENqXtsT9O4xMOxPmhFSSx4gowDat0AIhAJk1cDXppMuDThjTHJpmv1L5h4b0L8qcsniydWNqJtaEKv8DCHcQABoMNjM3NDIzMTgzODA1IgzjzLmV%2BiiserpNHtwq3AMLUehazcjXkBrqIVQT5Q55u3ODSp7GSJRDALv6GJgwm20qbm%2FIfQ%2BELtu71lumlRag%2B%2BJFbyjH1RSnWX2%2FvQlUnTj2%2FAvMe9HQZsttS2I8rqMCvJZx0aS9tgflrhmnSoioGzPHmU8Sj4%2FGTtu%2BHC56YVfuvURB5sIYW3hiOnByip1eeg%2B4AMFl63vRmmuS4%2FVJmYMm2d%2FCGEoUZA7qJwytm9PJeHddPP%2BODFuzedIhsjFYcdNM4quvsffUa%2BJ6kE5h6Sin6wljG%2FxVgnsHTopSelH2wosJ3T%2FHyK%2Fm8NlBfxHtKlT4mRes0WTNsp7%2Fxplh5jTey40%2BH78u2S22jimsjOOu2uiSYVPHHdrVKN%2FJAeout%2FFL1joBTUeJtkzr1sCtElpoD61rnaGH4lBeQ3Y6dlcSZg7ciGq2mZ1PM2U6X4JpsxKe1qzpxy%2FdSMMBhX00FswMuJcCpi13s4krGo3DSkqvlVLG7Y2jkaeOqgRugO6OQKxXaDNQ9dVitkgXNcct1mUiJWgIouM0IncWb%2BAFau3MaDxW9Hwv3eKUw0d6ETvo94DzsDJVU0NPpL6UyJHiXCJDFmibKEtzAe2WTMlqoSPl3o6tPRCKHo1VJD%2FhvYh%2BBhJ3lJI8YWuORzDU7vPOBjqkAX67WDwi87Rk5nchL1afXDo%2F1H%2BEOHgjIzGM1BrttZR8xhPuMh3ruIrsJnv0S1Mam2feiUBhx0qdE3ZIZlNQjXM6Do97iqp3n145C0vUBJwAx%2F1%2BKNXRvmGNLIi3NOD4JFgahXBv3pHb4rMDI2kboSlHG7mVGXzRDGq4D1SuwZ3v8K4toOmG6XBNBqhk4y7N2B0hG1VQ%2FdArF0NNTrwtI8AGPlDb&X-Amz-Signature=9ddc8b43f18f52377fefe76887178ed4f217ade1db4b6233035cad0cdd3d7c8e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:31.448Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8030-b9d1-cd172da7c92b",
+      "type": "paragraph",
+      "text": "The loss function for Label Propagation are divided into 2 different terms:",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8030-b9d1-cd172da7c92b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:09:00.000Z",
+        "last_edited_time": "2024-10-18T21:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The loss function for Label Propagation are divided into 2 different terms:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The loss function for Label Propagation are divided into 2 different terms:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80a5-96b5-f3b7e2e51252",
+      "type": "numbered_list_item",
+      "text": "Difference between predictions and the actual labels.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80a5-96b5-f3b7e2e51252",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:10:00.000Z",
+        "last_edited_time": "2024-10-18T21:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Difference between predictions and the actual labels.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Difference between predictions and the actual labels.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8065-a113-eb6aab1234ea",
+      "type": "numbered_list_item",
+      "text": "The social influence.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8065-a113-eb6aab1234ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:11:00.000Z",
+        "last_edited_time": "2024-10-18T21:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The social influence.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The social influence.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8080-b636-f4f77f25592b",
+      "type": "heading_3",
+      "text": "Multi-Level Label Propagation",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8080-b636-f4f77f25592b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:13:00.000Z",
+        "last_edited_time": "2024-10-18T21:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Multi-Level Label Propagation",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Multi-Level Label Propagation",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-800e-8e74-c942533a04d6",
+      "type": "paragraph",
+      "text": "The Label Propagation algorithm is meant to provide contribution of each one of the 7 locations. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-800e-8e74-c942533a04d6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:13:00.000Z",
+        "last_edited_time": "2024-10-18T21:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Label Propagation algorithm is meant to provide contribution of each one of the 7 ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Label Propagation algorithm is meant to provide contribution of each one of the 7 ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "locations. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "locations. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-800a-b05d-c61182d410f6",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-800a-b05d-c61182d410f6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:26:00.000Z",
+        "last_edited_time": "2024-10-18T21:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80d0-a4c6-f901b9452103",
+      "type": "paragraph",
+      "text": "The data includes 5388 students daily routines on 7 different locations. The model is evaluated using precision. The training data includes a random percentage of data that need to be labeled (I, II, III or IV). The experiment is repeated 20 times.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80d0-a4c6-f901b9452103",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:26:00.000Z",
+        "last_edited_time": "2024-10-18T21:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The data includes 5388 students daily routines on 7 different locations. The model is evaluated using precision. The training data includes a random percentage of data that need to be labeled (I, II, III or IV). The experiment is repeated 20 times.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The data includes 5388 students daily routines on 7 different locations. The model is evaluated using precision. The training data includes a random percentage of data that need to be labeled (I, II, III or IV). The experiment is repeated 20 times.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8041-af80-c49cdd047429",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8041-af80-c49cdd047429",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:16:00.000Z",
+        "last_edited_time": "2024-10-18T23:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80b2-bf5a-e064141e3567",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80b2-bf5a-e064141e3567",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:16:00.000Z",
+        "last_edited_time": "2024-10-18T23:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8034-b6b7-d4abae5a1b12",
+      "type": "paragraph",
+      "text": "The first results highlight that the social ties created in different locations do indeed have a a different weight when determining performance. As it can be seen from the figure, regardless of the the percentage of unlabeled samples, the LP-Teaching Building are the social ties that at predicting the success position of each student. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8034-b6b7-d4abae5a1b12",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:16:00.000Z",
+        "last_edited_time": "2024-10-18T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The first results highlight that the social ties created in different locations do indeed have a a different weight when determining performance. As it can be seen from the figure, regardless of the the percentage of unlabeled samples, the",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The first results highlight that the social ties created in different locations do indeed have a a different weight when determining performance. As it can be seen from the figure, regardless of the the percentage of unlabeled samples, the",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " LP-Teaching Building ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " LP-Teaching Building ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "are the social ties that at predicting the success position of each student. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "are the social ties that at predicting the success position of each student. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-801b-872b-d77380fe1706",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-801b-872b-d77380fe1706",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:19:00.000Z",
+        "last_edited_time": "2024-10-18T23:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/be22f7cb-a691-40a1-a5b7-6ec540135a11/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VAHKLA7Z%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCOMnQYR54GSnkVENqXtsT9O4xMOxPmhFSSx4gowDat0AIhAJk1cDXppMuDThjTHJpmv1L5h4b0L8qcsniydWNqJtaEKv8DCHcQABoMNjM3NDIzMTgzODA1IgzjzLmV%2BiiserpNHtwq3AMLUehazcjXkBrqIVQT5Q55u3ODSp7GSJRDALv6GJgwm20qbm%2FIfQ%2BELtu71lumlRag%2B%2BJFbyjH1RSnWX2%2FvQlUnTj2%2FAvMe9HQZsttS2I8rqMCvJZx0aS9tgflrhmnSoioGzPHmU8Sj4%2FGTtu%2BHC56YVfuvURB5sIYW3hiOnByip1eeg%2B4AMFl63vRmmuS4%2FVJmYMm2d%2FCGEoUZA7qJwytm9PJeHddPP%2BODFuzedIhsjFYcdNM4quvsffUa%2BJ6kE5h6Sin6wljG%2FxVgnsHTopSelH2wosJ3T%2FHyK%2Fm8NlBfxHtKlT4mRes0WTNsp7%2Fxplh5jTey40%2BH78u2S22jimsjOOu2uiSYVPHHdrVKN%2FJAeout%2FFL1joBTUeJtkzr1sCtElpoD61rnaGH4lBeQ3Y6dlcSZg7ciGq2mZ1PM2U6X4JpsxKe1qzpxy%2FdSMMBhX00FswMuJcCpi13s4krGo3DSkqvlVLG7Y2jkaeOqgRugO6OQKxXaDNQ9dVitkgXNcct1mUiJWgIouM0IncWb%2BAFau3MaDxW9Hwv3eKUw0d6ETvo94DzsDJVU0NPpL6UyJHiXCJDFmibKEtzAe2WTMlqoSPl3o6tPRCKHo1VJD%2FhvYh%2BBhJ3lJI8YWuORzDU7vPOBjqkAX67WDwi87Rk5nchL1afXDo%2F1H%2BEOHgjIzGM1BrttZR8xhPuMh3ruIrsJnv0S1Mam2feiUBhx0qdE3ZIZlNQjXM6Do97iqp3n145C0vUBJwAx%2F1%2BKNXRvmGNLIi3NOD4JFgahXBv3pHb4rMDI2kboSlHG7mVGXzRDGq4D1SuwZ3v8K4toOmG6XBNBqhk4y7N2B0hG1VQ%2FdArF0NNTrwtI8AGPlDb&X-Amz-Signature=5ecd3ec301e5a687a86ce18797bbc274505504a9aed1745516b5753e2e75561b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:31.608Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8035-9fa6-ff064442a7dc",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8035-9fa6-ff064442a7dc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:20:00.000Z",
+        "last_edited_time": "2024-10-18T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8088-891e-db6f4367ff8e",
+      "type": "paragraph",
+      "text": "Another interesting observation comes from the fact that the semi-supervised approach makes it possible to obtain relatively good performances while working with a subset of labeled data. ",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8088-891e-db6f4367ff8e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T21:52:00.000Z",
+        "last_edited_time": "2024-10-18T23:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another interesting observation comes from the fact that the semi-supervised approach makes it possible to obtain relatively good performances while working with a subset of labeled data. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another interesting observation comes from the fact that the semi-supervised approach makes it possible to obtain relatively good performances while working with a subset of labeled data. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8027-9754-cf2b6939f13a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8027-9754-cf2b6939f13a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:22:00.000Z",
+        "last_edited_time": "2024-10-18T23:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80b6-8b70-e39140f76f4c",
+      "type": "heading_3",
+      "text": "Comparison on Multiple Networks",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80b6-8b70-e39140f76f4c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:22:00.000Z",
+        "last_edited_time": "2024-10-18T23:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comparison on Multiple Networks",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comparison on Multiple Networks",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-807a-960c-df0cf35078af",
+      "type": "paragraph",
+      "text": "To check how the proposed algorithm works, the authors make a comparison of 3 distinct models:",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-807a-960c-df0cf35078af",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:22:00.000Z",
+        "last_edited_time": "2024-10-18T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To check how the proposed algorithm works, the authors make a comparison of 3 distinct models:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To check how the proposed algorithm works, the authors make a comparison of 3 distinct models:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-80fb-971c-ca11fbba0c79",
+      "type": "numbered_list_item",
+      "text": "Label-Propagation on the Teaching Building → using exclusively the social ties extracted in the teaching building.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-80fb-971c-ca11fbba0c79",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:23:00.000Z",
+        "last_edited_time": "2024-10-18T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Label-Propagation on the Teaching Building → using exclusively the social ties extracted in the teaching building.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Label-Propagation on the Teaching Building → using exclusively the social ties extracted in the teaching building.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8077-92eb-ff61437f8f80",
+      "type": "numbered_list_item",
+      "text": "Label-Propagation on all Locations assuming equal location importance",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8077-92eb-ff61437f8f80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:23:00.000Z",
+        "last_edited_time": "2024-10-18T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Label-Propagation on all Locations assuming equal location importance",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Label-Propagation on all Locations assuming equal location importance",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-806e-aced-f62675f8fc76",
+      "type": "numbered_list_item",
+      "text": "LPMN where each location has its own weight.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-806e-aced-f62675f8fc76",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:24:00.000Z",
+        "last_edited_time": "2024-10-18T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LPMN where each location has its own weight.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LPMN where each location has its own weight.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-8080-a6cb-de963b61c491",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-8080-a6cb-de963b61c491",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:24:00.000Z",
+        "last_edited_time": "2024-10-18T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/58bcf141-97e6-4ea2-8e22-ee5067ed6737/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VAHKLA7Z%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152031Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCOMnQYR54GSnkVENqXtsT9O4xMOxPmhFSSx4gowDat0AIhAJk1cDXppMuDThjTHJpmv1L5h4b0L8qcsniydWNqJtaEKv8DCHcQABoMNjM3NDIzMTgzODA1IgzjzLmV%2BiiserpNHtwq3AMLUehazcjXkBrqIVQT5Q55u3ODSp7GSJRDALv6GJgwm20qbm%2FIfQ%2BELtu71lumlRag%2B%2BJFbyjH1RSnWX2%2FvQlUnTj2%2FAvMe9HQZsttS2I8rqMCvJZx0aS9tgflrhmnSoioGzPHmU8Sj4%2FGTtu%2BHC56YVfuvURB5sIYW3hiOnByip1eeg%2B4AMFl63vRmmuS4%2FVJmYMm2d%2FCGEoUZA7qJwytm9PJeHddPP%2BODFuzedIhsjFYcdNM4quvsffUa%2BJ6kE5h6Sin6wljG%2FxVgnsHTopSelH2wosJ3T%2FHyK%2Fm8NlBfxHtKlT4mRes0WTNsp7%2Fxplh5jTey40%2BH78u2S22jimsjOOu2uiSYVPHHdrVKN%2FJAeout%2FFL1joBTUeJtkzr1sCtElpoD61rnaGH4lBeQ3Y6dlcSZg7ciGq2mZ1PM2U6X4JpsxKe1qzpxy%2FdSMMBhX00FswMuJcCpi13s4krGo3DSkqvlVLG7Y2jkaeOqgRugO6OQKxXaDNQ9dVitkgXNcct1mUiJWgIouM0IncWb%2BAFau3MaDxW9Hwv3eKUw0d6ETvo94DzsDJVU0NPpL6UyJHiXCJDFmibKEtzAe2WTMlqoSPl3o6tPRCKHo1VJD%2FhvYh%2BBhJ3lJI8YWuORzDU7vPOBjqkAX67WDwi87Rk5nchL1afXDo%2F1H%2BEOHgjIzGM1BrttZR8xhPuMh3ruIrsJnv0S1Mam2feiUBhx0qdE3ZIZlNQjXM6Do97iqp3n145C0vUBJwAx%2F1%2BKNXRvmGNLIi3NOD4JFgahXBv3pHb4rMDI2kboSlHG7mVGXzRDGq4D1SuwZ3v8K4toOmG6XBNBqhk4y7N2B0hG1VQ%2FdArF0NNTrwtI8AGPlDb&X-Amz-Signature=cdcea6802e062ee7d3260681d0ac245217feaf76942ec363e271b5e5ba5875c6&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:31.606Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1234750c-f3ba-808c-af64-e7d361336525",
+      "type": "paragraph",
+      "text": "Again, results increase with more labeled samples, and the LPMN giving weights for different locations outperform the other options. Surprisingly, LP-Teaching Building outperforms the model considering all locations with equal weight.",
+      "raw": {
+        "object": "block",
+        "id": "1234750c-f3ba-808c-af64-e7d361336525",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-18T23:24:00.000Z",
+        "last_edited_time": "2024-10-18T23:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Again, results increase with more labeled samples, and the LPMN giving weights for different locations outperform the other options. Surprisingly, LP-Teaching Building outperforms the model considering all locations with equal weight.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Again, results increase with more labeled samples, and the LPMN giving weights for different locations outperform the other options. Surprisingly, LP-Teaching Building outperforms the model considering all locations with equal weight.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80fa-9006-cb5d8e45c356",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80fa-9006-cb5d8e45c356",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-17T23:59:00.000Z",
+        "last_edited_time": "2025-03-16T17:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8070-a9aa-c76922483d22",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8070-a9aa-c76922483d22",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+        },
+        "created_time": "2024-10-17T23:59:00.000Z",
+        "last_edited_time": "2025-03-16T17:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

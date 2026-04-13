@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "ee02d517-31b2-462f-9792-de63e51be12b",
+      "title": "Towards Portability of Models for Predicting Students’ Final Performance in University Courses Starting from Moodle Logs",
+      "authors": [],
+      "year": null,
+      "journal": "Applied Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_58e818bd",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass (0) vs Fail (1)",
+          "Students": "3235 students",
+          "Courses": "24 university courses from 4 degrees (Computer, Education, Engineering, Physics) at the University of Córdoba",
+          "Data sources": "LMS logs, Final Course Grades",
+          "Features": "[assign submit, assign submit for grading, assign view, assign view all, assignment upload, assignment view, assignment view all, choice choose, choice choose again, choice report, choice view, choice view all, course enroll, course user report, course view, course view section, folder view, folder view all, forum add discussion, forum add post, forum mark read, forum search, forum subscribe, forum subscribe all, forum unsubscribe, forum view discussion, forum view forum, forum view forums, page view, page view all, questionnaire submit, questionnaire view, questionnaire view all, quiz attempt, quiz close attempt, quiz continue attempt, quiz review, quiz view, quiz view all, quiz view summary, resource view, resource view all, url view, url view all, wiki edit, wiki info, wiki links, wiki update, wiki view, wiki view all]",
+          "Moment of Prediction": "End of course",
+          "Preprocessing Details": "Moodle logs and grade files were integrated with a specific preprocessing tool. Student identities were anonymized. Only student events were retained, and 50 Moodle event attributes were selected. Two datasets were created per course: numerical and discretized. Moodle event attributes were discretized with equal-width binning into HIGH/LOW. Final grade was manually discretized into FAIL (<5) and PASS (≥5). Courses were grouped in two ways for portability experiments: by degree and by Moodle usage level (Low, Medium, High).\n\n\n\n",
+          "Models": "J48",
+          "Assessment Strategy": "Leave-KGroups-Out Cross-Validation",
+          "Performance Metric: Best Model": "Best portability result at group level: Physics group, discretized data with {Average AUC: 0.60, Average AUC loss: 0.09}. Best single transfer examples include PM → RE with:\n {AUC loss: 0.006} \nand MM → MA1 with {AUC loss: 0.009}.",
+          "Comments": "Main contribution is studying when course-to-course portability of performance prediction models is feasible. In general, numerical datasets yielded slightly higher AUC, but discretized datasets yielded much better portability (lower AUC loss). Portability was more feasible between courses of the same degree than between courses only grouped by similar Moodle usage. The most portable models used Moodle events related mainly to forums, assignments, choices, resources, and pages.\n\n\n",
+          "Limitations": "Most transferred models had only modest predictive performance, often just above chance. \n\nDirect portability was feasible only under some circumstances, mainly with discretized datasets and especially in some same-degree groups. \n\nModels may include activities absent from target courses, which can reduce transfer quality. \n\nThe study used only one algorithm (J48) and one institution. \n\nThe approach tests direct portability, not tuned transfer learning or domain adaptation."
+        }
+      ],
+      "provenance": {
+        "page_id": "ee02d517-31b2-462f-9792-de63e51be12b",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_2fe159e0",
+      "reference_id": "ee02d517-31b2-462f-9792-de63e51be12b",
+      "text": "The literature features a lack of course-agnostic models and mostly focuses on models that aim to achieve the best predictive performance in a single course. Thus, the aim of the paper is to study portability of models across multiple courses.",
+      "provenance": {
+        "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+      }
+    },
+    {
+      "id": "an_e9675157",
+      "reference_id": "ee02d517-31b2-462f-9792-de63e51be12b",
+      "text": "The work groups courses according to similarity in student behaviors or by degree and how different feature engineering strategies affect model performance. Authors find that, while portability is possible, it is only achievable under certain constraints.",
+      "provenance": {
+        "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

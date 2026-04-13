@@ -1,0 +1,626 @@
+{
+  "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c",
+  "title": "user2code2vec: Embeddings for Profiling Students Based on Distributional Representations of Source Code",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "987dbbda-b24a-4ea8-b06b-77a4550bd36f",
+          "name": "user2code2vec",
+          "color": "pink"
+        },
+        {
+          "id": "ca340a7e-fad7-46a7-a278-e106a0a603cd",
+          "name": "Code2vec",
+          "color": "orange"
+        },
+        {
+          "id": "3a799790-e5e9-4908-af57-e4ea77f299c0",
+          "name": "Code Embeddings",
+          "color": "blue"
+        },
+        {
+          "id": "dfe612bc-6674-45c0-a245-183b0351fd51",
+          "name": "Distributed Representations",
+          "color": "pink"
+        },
+        {
+          "id": "93b1a2a6-ff90-41a0-90c4-bb4792062515",
+          "name": "Representation Learning for Source Code",
+          "color": "green"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "87b32258-e49f-4208-b4f2-0360ba35bae0",
+          "name": "Computer Science Education",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"At-risk students\" AND \"Learning Strategies”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"At-risk students\" AND \"Learning Strategies”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Comparison",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Comparison",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Azcona et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Azcona et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "b48966cd-0dad-4e4e-95f9-3006619c4856",
+          "name": "AI in Education",
+          "color": "gray"
+        },
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "user2code2vec: Embeddings for Profiling Students Based on Distributional Representations of Source Code",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "user2code2vec: Embeddings for Profiling Students Based on Distributional Representations of Source Code",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1e04750c-f3ba-807a-8022-e39bdeecade2",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Next Code Submission is Correct",
+          "Correct (1) vs Incorrect (0)",
+          "666 Python Programming Learners",
+          "5 Python Programming News",
+          "LMS logs, Code Submission",
+          "[Code2Vec embeddings from Code Submissions]",
+          "Representations based on logs have been popular… However, doing richer representations is still seen as a challenging problem.",
+          "The creation of user embeddings based on embeddings of their code submissions.",
+          "Code2vec embeddings are padded to 50 sentences and contain 100 dimensions (Words, Python Categories, Python Token Words and AST Nodes).\n\nCode submissions of learners are used to build a User Submission Matrix. These are flattened and a user embedding is created with 100 dimensions.\n\nVisualization is done using Principal Components of the 2 variables.\n\n",
+          "Naive Bayes, MLP",
+          "5-Fold Crosss-Validation",
+          "",
+          "Authors create an embedding structure called code2vec that is meant to represent code submissions.\n\nAfter identifying the best form of code embeddings, they use these as inputs for the user representation: user2code2vec\n\n",
+          ""
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "ea9bcabd-763d-4f5c-a0b0-f922febee70c",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "ea9bcabd-763d-4f5c-a0b0-f922febee70c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2024-07-31T21:46:00.000Z",
+        "last_edited_time": "2024-07-31T21:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "379fe3b3-f552-4c3e-ba3c-e3c5d905faf9",
+      "type": "paragraph",
+      "text": "Authors propose a new method to profile computer science students through embeddings. The idea is not only to predict whether a code submission is correct but also to create a student profile that allows for better and more adequate recommendations to the learner’s knowledge level. Authors identify the extraction of relevant student features as a limitation since, in LA, there is no such thing as an infinite amount of students to build embeddings from.",
+      "raw": {
+        "object": "block",
+        "id": "379fe3b3-f552-4c3e-ba3c-e3c5d905faf9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2024-07-31T21:46:00.000Z",
+        "last_edited_time": "2024-07-31T21:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose a new method to profile computer science students through embeddings. The idea is not only to predict whether a code submission is correct but also to create a student profile that allows for better and more adequate recommendations to the learner’s knowledge level. Authors identify the extraction of relevant student features as a limitation since, in LA, there is no such thing as an infinite amount of students to build embeddings from.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose a new method to profile computer science students through embeddings. The idea is not only to predict whether a code submission is correct but also to create a student profile that allows for better and more adequate recommendations to the learner’s knowledge level. Authors identify the extraction of relevant student features as a limitation since, in LA, there is no such thing as an infinite amount of students to build embeddings from.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-8064-9469-ffcb6e7bc5a5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-8064-9469-ffcb6e7bc5a5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2025-04-25T21:37:00.000Z",
+        "last_edited_time": "2025-04-25T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-8030-9ba5-c9df3fa3efb7",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-8030-9ba5-c9df3fa3efb7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2025-04-25T21:37:00.000Z",
+        "last_edited_time": "2025-04-25T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-807a-8022-e39bdeecade2",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-807a-8022-e39bdeecade2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2025-04-25T21:37:00.000Z",
+        "last_edited_time": "2025-04-25T21:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "851ef31f-f802-470d-a3b9-7ad6c029b7ea",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "851ef31f-f802-470d-a3b9-7ad6c029b7ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+        },
+        "created_time": "2024-07-31T21:52:00.000Z",
+        "last_edited_time": "2024-07-31T21:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

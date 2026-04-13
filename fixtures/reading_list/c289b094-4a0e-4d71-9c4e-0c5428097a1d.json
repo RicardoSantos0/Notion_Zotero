@@ -1,0 +1,1935 @@
+{
+  "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+  "title": "Course signals at Purdue: using learning analytics to increase student success",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6be1eefa-2488-4d5d-af0d-34f04574e83f",
+          "name": "Early Intervention",
+          "color": "purple"
+        },
+        {
+          "id": "b41b454f-988b-4513-8853-cd5b1f6d7ac5",
+          "name": "Student Retention",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "cb494d01-23e8-4ada-9f4d-3b3b2f9b85ad",
+          "name": "College Student Success",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2012
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "h:oF",
+        "name": "Integrated in LMS",
+        "color": "brown"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Comparison",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Comparison",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-23T10:00:00.000+01:00",
+        "end": "2024-08-23T19:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Arnold & Pistilli",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Arnold & Pistilli",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Course signals at Purdue: using learning analytics to increase student success",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Course signals at Purdue: using learning analytics to increase student success",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "043354b4-4642-4c53-9127-efeb2cd6c33b",
+      "heading": "Summary Table",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "First Year Undergraduate Students",
+          "B-Learning",
+          "Likelihood of failing",
+          "High rrisk of failing (Red), Potential problem succeding (Yellow), High likelihood of success (Green).",
+          "2007 Cohort: 8170;\n2008 Cohort: 9601;\n2009 Cohort: 9088\n",
+          "Unspecified",
+          "LMS,\nStudent characteristics,\nPrior academic performance,\nPerformance in course to date.",
+          "",
+          "On-demand",
+          "Data is divided into 4 distinct main categories. No specific pre-processing steps are discussed. ",
+          "Proprietary SSA",
+          "None",
+          "None",
+          "This paper presents an actual system that, at least, was implemented at Purdue. \n\nThe system leverged data from multiple sources and returned a flag about success of a student. \n\nThe system also allows for multiple ways to reach out and help the students. \n\nRisk indicators are course-specific.\n\nAs far as analysis, the authors perform an analysis of co-horts across different dimensions:\n\n1. Retention rate, \n2. Analysis of Retention \n\nThe earlier the student encounters CS, the better. Also, CS seems to be an useful system even for those students who are going for Standardized TEsts-",
+          "Does not show results of predictive model assessmentr.\n\nProprietary secret algorithm."
+        ]
+      ],
+      "index": 34
+    }
+  ],
+  "blocks": [
+    {
+      "id": "fe159f03-8ffd-4b15-b401-2c49811cd51f",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "fe159f03-8ffd-4b15-b401-2c49811cd51f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-07-29T16:33:00.000Z",
+        "last_edited_time": "2024-07-29T16:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f97bb062-1864-4f72-b872-d0ac4e4d422b",
+      "type": "paragraph",
+      "text": "Paper presents Course Signals. The system is implemented on Blackboard Vista. The system analyzes logs, past academic history and previous grades. Paper shares structure of the system and preliminary results and reception.",
+      "raw": {
+        "object": "block",
+        "id": "f97bb062-1864-4f72-b872-d0ac4e4d422b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-07-29T16:33:00.000Z",
+        "last_edited_time": "2024-07-29T16:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper presents Course Signals. The system is implemented on Blackboard Vista. The system analyzes logs, past academic history and previous grades. Paper shares structure of the system and preliminary results and reception.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper presents Course Signals. The system is implemented on Blackboard Vista. The system analyzes logs, past academic history and previous grades. Paper shares structure of the system and preliminary results and reception.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cf08de8-d5b2-47bc-849d-87a949c5c7db",
+      "type": "paragraph",
+      "text": "Students receive feedback over a personalized e-mail followed with traffic-light color coding. ",
+      "raw": {
+        "object": "block",
+        "id": "1cf08de8-d5b2-47bc-849d-87a949c5c7db",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-07-29T16:36:00.000Z",
+        "last_edited_time": "2024-07-29T16:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students receive feedback over a personalized e-mail followed with traffic-light color coding. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students receive feedback over a personalized e-mail followed with traffic-light color coding. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f1819702-a6de-4f26-b2b8-e5c7c6e519bf",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f1819702-a6de-4f26-b2b8-e5c7c6e519bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T22:27:00.000Z",
+        "last_edited_time": "2024-08-23T22:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ddd93a58-3a33-4a4d-bb82-0c85f01341b5",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "ddd93a58-3a33-4a4d-bb82-0c85f01341b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T22:27:00.000Z",
+        "last_edited_time": "2024-08-23T22:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "024506f7-ab05-4487-abe9-9f0258cd2204",
+      "type": "paragraph",
+      "text": "There are 3 necessary conditions for student persistence:",
+      "raw": {
+        "object": "block",
+        "id": "024506f7-ab05-4487-abe9-9f0258cd2204",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T22:27:00.000Z",
+        "last_edited_time": "2024-08-23T23:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are 3 necessary conditions for student persistence:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are 3 necessary conditions for student persistence:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9d4ccb24-9614-48af-bd43-9170e7d38231",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9d4ccb24-9614-48af-bd43-9170e7d38231",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:49:00.000Z",
+        "last_edited_time": "2024-08-23T23:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f6d8c0f9-4483-429a-8529-7cebc2a58679",
+      "type": "paragraph",
+      "text": "Thus, the authors look at Course Signals and present the way it promotes academic integration:",
+      "raw": {
+        "object": "block",
+        "id": "f6d8c0f9-4483-429a-8529-7cebc2a58679",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:49:00.000Z",
+        "last_edited_time": "2024-08-23T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the authors look at Course Signals and present the way it promotes academic integration:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the authors look at Course Signals and present the way it promotes academic integration:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1f13c39c-55db-4331-8919-038a500f7b96",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1f13c39c-55db-4331-8919-038a500f7b96",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:51:00.000Z",
+        "last_edited_time": "2024-08-23T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6be0bfea-4ffb-4480-af54-f42944c5a7d3",
+      "type": "heading_2",
+      "text": "Course Signals",
+      "raw": {
+        "object": "block",
+        "id": "6be0bfea-4ffb-4480-af54-f42944c5a7d3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:51:00.000Z",
+        "last_edited_time": "2024-08-23T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Course Signals",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Course Signals",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e0d95feb-362d-4f9d-8033-956187169733",
+      "type": "paragraph",
+      "text": "The system has been under employment at Purdue University since 2007. The system uses predictive models to identify, in real time, potential students at risk. For that, there is a Predictive Student Success algorithm that is run on-demand by the instructors. ",
+      "raw": {
+        "object": "block",
+        "id": "e0d95feb-362d-4f9d-8033-956187169733",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-23T23:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The system has been under employment at Purdue University since 2007. The system uses predictive models to identify, in real time, potential students at risk. For that, there is a Predictive Student Success algorithm that is run on-demand by the instructors. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The system has been under employment at Purdue University since 2007. The system uses predictive models to identify, in real time, potential students at risk. For that, there is a Predictive Student Success algorithm that is run on-demand by the instructors. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fe936fa9-2239-4c45-8aa4-e116539c31b8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "fe936fa9-2239-4c45-8aa4-e116539c31b8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:56:00.000Z",
+        "last_edited_time": "2024-08-23T23:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6e7fea6b-1710-4ef0-9c47-0fcf5fe9cbe4",
+      "type": "paragraph",
+      "text": "The SSA is a proprietary algorithm that weights 4 components that encompass:",
+      "raw": {
+        "object": "block",
+        "id": "6e7fea6b-1710-4ef0-9c47-0fcf5fe9cbe4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-23T23:54:00.000Z",
+        "last_edited_time": "2024-08-24T00:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The SSA is a proprietary algorithm that weights 4 components that encompass:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The SSA is a proprietary algorithm that weights 4 components that encompass:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3c7a3b9b-7987-44f1-9d0e-02396d337620",
+      "type": "paragraph",
+      "text": "Course Signals allows for identification of students at risk by combining all dimensions into a single score that represents the likelihood of failing on the course.",
+      "raw": {
+        "object": "block",
+        "id": "3c7a3b9b-7987-44f1-9d0e-02396d337620",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:01:00.000Z",
+        "last_edited_time": "2024-08-24T00:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Course Signals allows for identification of students at risk by combining all dimensions into a single score that represents the likelihood of failing on the course.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Course Signals allows for identification of students at risk by combining all dimensions into a single score that represents the likelihood of failing on the course.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7cd22d46-b082-47a4-95c0-be7131fc73c4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "7cd22d46-b082-47a4-95c0-be7131fc73c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:03:00.000Z",
+        "last_edited_time": "2024-08-24T00:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3113117b-fd25-4480-bbf3-f19281fb7a67",
+      "type": "paragraph",
+      "text": "Thse system was initially intended to help identify students at risk and was built from the ground up. The system currently (in 2012) had been used by 145 instructors, impacting 24000 students. In the courses where CS has been used, the authors have noted a general increase in the numbers of As and Bs received by the students, accompanied by a relateive decrease in the number of Cs. \n\nMoreover, the relative proportion of really low grades (Ds, Fs, and even Dropout) has substantially decreased in courses using the system.",
+      "raw": {
+        "object": "block",
+        "id": "3113117b-fd25-4480-bbf3-f19281fb7a67",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:03:00.000Z",
+        "last_edited_time": "2024-08-24T00:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thse system was initially intended to help identify students at risk and was built from the ground up. The system currently (in 2012) had been used by 145 instructors, impacting 24000 students. In the courses where CS has been used, the authors have noted a general increase in the numbers of As and Bs received by the students, accompanied by a relateive decrease in the number of Cs. \n\nMoreover, the relative proportion of really low grades (Ds, Fs, and even Dropout) has substantially decreased in courses using the system.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thse system was initially intended to help identify students at risk and was built from the ground up. The system currently (in 2012) had been used by 145 instructors, impacting 24000 students. In the courses where CS has been used, the authors have noted a general increase in the numbers of As and Bs received by the students, accompanied by a relateive decrease in the number of Cs. \n\nMoreover, the relative proportion of really low grades (Ds, Fs, and even Dropout) has substantially decreased in courses using the system.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "55f6e86a-c9c5-45c1-9c19-17fd1c395309",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "55f6e86a-c9c5-45c1-9c19-17fd1c395309",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:07:00.000Z",
+        "last_edited_time": "2024-08-24T00:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7a4821a4-5a3c-43b1-8c2e-99995b5418a6",
+      "type": "paragraph",
+      "text": "To showcase the effects, the authors display results obtained using cohorts of 2007, 2008 and 2009. For these cohorts, the authors specified conditions of students of belonging to a co-hort and then computed the retention rate for each co-hort (inside the co-hort the students were split by the number of courses using Course signals undertaken). ",
+      "raw": {
+        "object": "block",
+        "id": "7a4821a4-5a3c-43b1-8c2e-99995b5418a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:07:00.000Z",
+        "last_edited_time": "2024-08-24T00:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To showcase the effects, the authors display results obtained using cohorts of 2007, 2008 and 2009. For these cohorts, the authors specified conditions of students of belonging to a co-hort and then computed the retention rate for each co-hort (inside the co-hort the students were split by the number of courses using Course signals undertaken). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To showcase the effects, the authors display results obtained using cohorts of 2007, 2008 and 2009. For these cohorts, the authors specified conditions of students of belonging to a co-hort and then computed the retention rate for each co-hort (inside the co-hort the students were split by the number of courses using Course signals undertaken). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a44ab5aa-d217-4a35-a8bd-88212b07613b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a44ab5aa-d217-4a35-a8bd-88212b07613b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:11:00.000Z",
+        "last_edited_time": "2024-08-24T00:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1a03fab4-2955-44d0-8b6c-1186a241b5c4",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1a03fab4-2955-44d0-8b6c-1186a241b5c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:11:00.000Z",
+        "last_edited_time": "2024-08-24T00:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "322aebc9-3ee3-4a4f-9289-73aa7f18aca7",
+      "type": "paragraph",
+      "text": "Students undertaking CS courses are much more likely to continue studying and not dropout relative to their peers. Morever, this relationship seemed to hold. ",
+      "raw": {
+        "object": "block",
+        "id": "322aebc9-3ee3-4a4f-9289-73aa7f18aca7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:12:00.000Z",
+        "last_edited_time": "2024-08-24T00:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Students undertaking CS courses are much more likely to continue studying and not dropout relative to their peers. Morever, this relationship seemed to hold. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Students undertaking CS courses are much more likely to continue studying and not dropout relative to their peers. Morever, this relationship seemed to hold. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a17c3a0e-bd35-45c4-b89e-c42a255c35c1",
+      "type": "paragraph",
+      "text": "The second analysis is a comparison of students who had CS courses in a period vs the students who did not have any CS course. Results show that the system is benefical for students. The survey data collected to measure student satisfaction also suggests that.",
+      "raw": {
+        "object": "block",
+        "id": "a17c3a0e-bd35-45c4-b89e-c42a255c35c1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:18:00.000Z",
+        "last_edited_time": "2024-08-24T00:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The second analysis is a comparison of students who had CS courses in a period vs the students who did not have any CS course. Results show that the system is benefical for students. The survey data collected to measure student satisfaction also suggests that.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The second analysis is a comparison of students who had CS courses in a period vs the students who did not have any CS course. Results show that the system is benefical for students. The survey data collected to measure student satisfaction also suggests that.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f742f1f2-e6ac-4ff6-85c6-a0b110c22719",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f742f1f2-e6ac-4ff6-85c6-a0b110c22719",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:25:00.000Z",
+        "last_edited_time": "2024-08-24T00:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c6e86c68-5832-4d25-8e2c-fd6f9cd68c69",
+      "type": "heading_2",
+      "text": "Feedback from Students and Instructors\n",
+      "raw": {
+        "object": "block",
+        "id": "c6e86c68-5832-4d25-8e2c-fd6f9cd68c69",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:25:00.000Z",
+        "last_edited_time": "2024-08-24T00:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Feedback from Students and Instructors\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Feedback from Students and Instructors\n",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4029cc4f-d1f8-4f95-bad2-e7d2700fe47b",
+      "type": "heading_3",
+      "text": "Student Feedback",
+      "raw": {
+        "object": "block",
+        "id": "4029cc4f-d1f8-4f95-bad2-e7d2700fe47b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:26:00.000Z",
+        "last_edited_time": "2024-08-24T00:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Student Feedback",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Student Feedback",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "274895b0-f1f4-42ca-b2a6-6106fa6acfdb",
+      "type": "paragraph",
+      "text": "Positive experiences with CS by 89% of respondents and 58% would like to have CS in all courses. Students feel validated as individuals by the e-mail, describing the experience as motivating- with 2 out of 1500 respondents being the only instances of the feedback being demoralizing.",
+      "raw": {
+        "object": "block",
+        "id": "274895b0-f1f4-42ca-b2a6-6106fa6acfdb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:26:00.000Z",
+        "last_edited_time": "2024-08-24T00:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Positive experiences with CS by 89% of respondents and 58% would like to have CS in all courses. Students feel validated as individuals by the e-mail, describing the experience as motivating- with 2 out of 1500 respondents being the only instances of the feedback being demoralizing.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Positive experiences with CS by 89% of respondents and 58% would like to have CS in all courses. Students feel validated as individuals by the e-mail, describing the experience as motivating- with 2 out of 1500 respondents being the only instances of the feedback being demoralizing.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5fe4fa7d-b3bc-4de2-8c48-d4b210c63d0d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5fe4fa7d-b3bc-4de2-8c48-d4b210c63d0d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:29:00.000Z",
+        "last_edited_time": "2024-08-24T00:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e02b9ec2-d2f7-48cf-88ad-d961c7298e1a",
+      "type": "heading_3",
+      "text": "Instructor Feedback\n",
+      "raw": {
+        "object": "block",
+        "id": "e02b9ec2-d2f7-48cf-88ad-d961c7298e1a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:29:00.000Z",
+        "last_edited_time": "2024-08-24T00:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Instructor Feedback\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Instructor Feedback\n",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "57892db5-a247-4a3c-8f15-966c35291fbe",
+      "type": "paragraph",
+      "text": "Faculty claim that their life towards the design of more personalized interventions is definitely asier thanks to CS. The multi-modal nature of the data is also appreciated. Also, from the professor’’s perspective, the fact that the system automatically warns students about their progress contributes to having the students start other tasks (e.g. projects) earlier than before. \n\nIn addition, the students demonstrate more interest in the prokects as they make more questions about it and other assignments. ",
+      "raw": {
+        "object": "block",
+        "id": "57892db5-a247-4a3c-8f15-966c35291fbe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:28:00.000Z",
+        "last_edited_time": "2024-08-24T00:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Faculty claim that their life towards the design of more personalized interventions is definitely asier thanks to CS. The multi-modal nature of the data is also appreciated. Also, from the professor’’s perspective, the fact that the system automatically warns students about their progress contributes to having the students start other tasks (e.g. projects) earlier than before. \n\nIn addition, the students demonstrate more interest in the prokects as they make more questions about it and other assignments. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Faculty claim that their life towards the design of more personalized interventions is definitely asier thanks to CS. The multi-modal nature of the data is also appreciated. Also, from the professor’’s perspective, the fact that the system automatically warns students about their progress contributes to having the students start other tasks (e.g. projects) earlier than before. \n\nIn addition, the students demonstrate more interest in the prokects as they make more questions about it and other assignments. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5d21b0f5-1917-471e-9e56-a95ca152ecf8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5d21b0f5-1917-471e-9e56-a95ca152ecf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:32:00.000Z",
+        "last_edited_time": "2024-08-24T00:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4510b420-c179-47d4-80cf-41bf89165f94",
+      "type": "paragraph",
+      "text": "The main concern of professors is the flow of e-mails that they receive from students who were flagged. ",
+      "raw": {
+        "object": "block",
+        "id": "4510b420-c179-47d4-80cf-41bf89165f94",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:32:00.000Z",
+        "last_edited_time": "2024-08-24T00:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The main concern of professors is the flow of e-mails that they receive from students who were flagged. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The main concern of professors is the flow of e-mails that they receive from students who were flagged. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ec6fe117-d8a7-4f2d-91ab-7c04a65345ac",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ec6fe117-d8a7-4f2d-91ab-7c04a65345ac",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:27:00.000Z",
+        "last_edited_time": "2024-08-24T00:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cf21a20d-c674-4ed5-b876-8141f03f25f5",
+      "type": "paragraph",
+      "text": "\n\n",
+      "raw": {
+        "object": "block",
+        "id": "cf21a20d-c674-4ed5-b876-8141f03f25f5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-24T00:27:00.000Z",
+        "last_edited_time": "2024-08-24T00:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\n\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\n\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "90c99e2d-c14c-452b-afa7-39775ec5a4fd",
+      "type": "heading_2",
+      "text": "Summary Table",
+      "raw": {
+        "object": "block",
+        "id": "90c99e2d-c14c-452b-afa7-39775ec5a4fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-01T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "043354b4-4642-4c53-9127-efeb2cd6c33b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "043354b4-4642-4c53-9127-efeb2cd6c33b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-01T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "04294aca-34d0-4047-9561-3d5ec7f42f6b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "04294aca-34d0-4047-9561-3d5ec7f42f6b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-01T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

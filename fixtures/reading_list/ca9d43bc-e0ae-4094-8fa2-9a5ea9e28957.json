@@ -1,0 +1,845 @@
+{
+  "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+  "title": "Knowledge modeling via contextualized representations for LSTM-based personalized exercise recommendation",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "faca7a6d-43b9-43cc-b904-63550eee2fa1",
+          "name": "Personalized Learning",
+          "color": "green"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "e59f81bc-9603-444f-9bd0-c48620f905fa",
+          "name": "LSTM",
+          "color": "red"
+        },
+        {
+          "id": "a26d448f-e261-404a-bf30-873e5a2a7e70",
+          "name": "Context Representation",
+          "color": "brown"
+        },
+        {
+          "id": "7af93c5f-bc0a-43fd-a1d4-563b797819e6",
+          "name": "Exercise Recommendation",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Information Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Information Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T23:48:00.000+00:00",
+        "end": "2025-10-26T22:05:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Huo et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Huo et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge modeling via contextualized representations for LSTM-based personalized exercise recommendation",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge modeling via contextualized representations for LSTM-based personalized exercise recommendation",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2984750c-f3ba-808e-969b-fff1de475be2",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Intelligent Tutoring System",
+          "E-Learning",
+          "Content-Based Filtering",
+          "Exercises",
+          "4163 ASSIST09 learners, 1452 Intelligence18 learners",
+          "Mathematics and English language courses",
+          "Exercise Sequence, Knowledge Components",
+          "The contextualized Q-Matrix (CQ-Matrix) is initialized by a combination of learner historical performance and expert opinions. ",
+          "Each student as a set of knowledge vectors that are updated after each interaction.\n\nCold-start is handled by a “global” Knowledge Vector.",
+          "Logs are cleaned for missing or invalid KC mappings. \n\nThe weighted Q-Matrix is converted into a contextualized CQ-Matrix.",
+          "Top-N Exercises",
+          "{Top-N Precision: 0.40 - LSTMCQP - up to 80 items}",
+          "Authors use a Knowledge Tracing Model which serves as a foundation for a Recommender System.\n\nThe main idea is that, by identifying areas where the student is “having difficulties” and make recommendations to address that.",
+          "- No pre-requisite relationships between KCs. \n\n- Context is limited to performance-derived factors.\n\n- Offline validation on 2 datasets.\n"
+        ]
+      ],
+      "index": 7
+    },
+    {
+      "block_id": "1ce4750c-f3ba-8049-a47c-c3c65a113e20",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Next Exercise Correctedness",
+          "Probability of Answering Correctly",
+          "4163 ASSIST09 learners, 1452 Intelligence18 learners",
+          "Mathematics and English language courses",
+          "Exercise Sequence, Knowledge Components",
+          "[Sequence of Exercises taken, Expert Derived Q-Matrices] ",
+          "Most DKT approaches are unable to fulfiil the promise of personalization without the need of adding new features - which defeats the purpose of “simpler models*.",
+          "Authors propose the introduction of CQ-Matrix that is not derived from experts but instead from data. \n\nThis CQ-Matrix is integrated into a DKT framework with LSTM (and a personalization layer) to ensure better personalization of exercises and content.  ",
+          "Logs are cleaned for missing or invalid KC mappings. \n\nThe weighted Q-Matrix is converted into a contextualized CQ-Matrix.",
+          "BKT, DKT, CBQM, CBQC, LSTMCQ, LSTMCQP",
+          "5-Fold Cross-Validation",
+          "AST09\n{AUC: 0.7388 - LSTMCQP, RMSE: 0.4189 - LSTMCQP}\n\nIntellilence18\n{AUC: 0.6896 - LSTMCQP, RMSE: 0.3173 - LSTMCQP}",
+          "The authors propose 2 distinct algorithms for the task of KT. \n\nCBCQ is a content-based algorithm while LSTMCQP is a deep-learning based approach. \n\nAuthors test both of these models against other common baselines and find that LSTMCQP tends perform better both in terrms of RMSE and AUC. \n\nThe study does not feature an ablation study to check the influence of each component.",
+          "- No ablation study\n\n- Only tests against BKT and DKT as baselines (missing other relevant architectures) \n\n- No consideration of relationships between Knowledge Components\n\n-  Only 2 datasets are used. \n\n- KC mastery is determined by performance without considering the text of the exercises. "
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-800e-8a1e-d66618192e5d",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-800e-8a1e-d66618192e5d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-02-05T23:44:00.000Z",
+        "last_edited_time": "2025-02-05T23:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80a7-a2bc-e095b4591549",
+      "type": "paragraph",
+      "text": "ITS require good KT in order to effectively estimate students’ needs and recommend approapriate content. BKT and DKT are popular KT techniques. One of the main problems with these approaches is that KC are treated as independent entities (which is an unreasonable assumption). Authors present two approaches that contextualize KC:",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80a7-a2bc-e095b4591549",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-02-05T23:45:00.000Z",
+        "last_edited_time": "2025-02-05T23:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "ITS require good KT in order to effectively estimate students’ needs and recommend approapriate content. BKT and DKT are popular KT techniques. One of the main problems with these approaches is that KC are treated as independent entities (which is an unreasonable assumption). Authors present two approaches that contextualize KC:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "ITS require good KT in order to effectively estimate students’ needs and recommend approapriate content. BKT and DKT are popular KT techniques. One of the main problems with these approaches is that KC are treated as independent entities (which is an unreasonable assumption). Authors present two approaches that contextualize KC:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8061-9588-dcdf55cb283e",
+      "type": "numbered_list_item",
+      "text": "A content-based approach",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8061-9588-dcdf55cb283e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-02-05T23:49:00.000Z",
+        "last_edited_time": "2025-02-05T23:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A content-based approach",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A content-based approach",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80f1-a87e-dfa4a72ef34a",
+      "type": "numbered_list_item",
+      "text": "a LSTM-based model with a personalization mechanism",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80f1-a87e-dfa4a72ef34a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-02-05T23:49:00.000Z",
+        "last_edited_time": "2025-02-05T23:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "a LSTM-based model with a personalization mechanism",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "a LSTM-based model with a personalization mechanism",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80db-a570-e06671a12268",
+      "type": "paragraph",
+      "text": "Experiments on 2 datasets show a tangible improvement in both KT and Recommendation results. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80db-a570-e06671a12268",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-02-05T23:50:00.000Z",
+        "last_edited_time": "2025-04-07T15:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Experiments on 2 datasets show a tangible improvement in both KT and Recommendation results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Experiments on 2 datasets show a tangible improvement in both KT and Recommendation results. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2984750c-f3ba-8004-ac47-d74a9687f487",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2984750c-f3ba-8004-ac47-d74a9687f487",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-10-26T16:26:00.000Z",
+        "last_edited_time": "2025-10-26T16:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2984750c-f3ba-8089-94a6-cb8e3ff94704",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "2984750c-f3ba-8089-94a6-cb8e3ff94704",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-10-26T16:26:00.000Z",
+        "last_edited_time": "2025-10-26T16:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2984750c-f3ba-808e-969b-fff1de475be2",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2984750c-f3ba-808e-969b-fff1de475be2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-10-26T16:26:00.000Z",
+        "last_edited_time": "2025-10-26T16:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8063-9376-e8bcb5369f13",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8063-9376-e8bcb5369f13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-04-07T15:23:00.000Z",
+        "last_edited_time": "2025-04-07T15:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8049-a47c-c3c65a113e20",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8049-a47c-c3c65a113e20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+        },
+        "created_time": "2025-04-07T15:23:00.000Z",
+        "last_edited_time": "2025-04-07T15:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

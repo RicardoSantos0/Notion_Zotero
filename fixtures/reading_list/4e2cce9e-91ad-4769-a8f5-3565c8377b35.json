@@ -1,0 +1,698 @@
+{
+  "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+  "title": "An improved adaptive learning path recommendation model driven by real-time learning analytics",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "faca7a6d-43b9-43cc-b904-63550eee2fa1",
+          "name": "Personalized Learning",
+          "color": "green"
+        },
+        {
+          "id": "534651fb-6d89-4321-8432-cafb790b5f3d",
+          "name": "Learning Pathways",
+          "color": "blue"
+        },
+        {
+          "id": "efeeea86-c32d-4682-a7ad-3aed1cb2fe6a",
+          "name": "Learning Environments",
+          "color": "red"
+        },
+        {
+          "id": "0613c248-a036-4754-9495-f16628254133",
+          "name": "E-Learning",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Journal of Computers in Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Journal of Computers in Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": null
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Raj & Renumol",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Raj & Renumol",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An improved adaptive learning path recommendation model driven by real-time learning analytics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An improved adaptive learning path recommendation model driven by real-time learning analytics",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-805c-a373-fdddec51c232",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Hybrid ontology‑based + collaborative filtering",
+          "Next Learning Object to take",
+          "96 undergraduate students from 2 Indian Universities",
+          "1 Programming and Data Structure course\n\n1 Data Mining Course",
+          "LMS logs\nLearner Characteristics\nLearning Objects",
+          "StaticParameters are charged into the system \n\nThe learning path is initialized from the students choosing an LU and SU → these become the first node of the graph.\n\nNew learners are assigned to a natural learner group via clustering based on similarity with existing learners-",
+          "- Real‑time: after each LO interaction update: • Learner ability Aᵢⱼ (Eq.1) • LO difficulty Dⱼ (Eq.2) • Recompute optimal path via DFS + LO ranking (Algorithms 1–3)",
+          "- Build two‑layer KG (topics → LOs)Extract static vs. dynamic learner/LO parametersNo offline train/test split (online setting)No negative sampling",
+          "Single “best‑fit” path per query",
+          "- Accuracy: RMSE & R² on predicted vs. actual time/score (first 8 iterations)\n- Adaptivity: mean Euclidean similarity (Eq.6)\n- Diversity: path dissimilarity (Eq.7)\n- Satisfaction: learner rating share (Figs. 6–9)",
+          "- Compares four methods: SeqSt, SeqDyn, PathSt, PathDyn (proposed)Leverages both ontology and analytics\n\nSatisfaction of users is used for evaluation",
+          "- Initial LO metadata set by experts (not personalized)\n- Limited topic/LO coverage\n- Assumes learners know all prerequisites\n- Some records discarded due to data errors\n-Initial training was performed on simulated data."
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8076-9920-e5d2ce61da3b",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8076-9920-e5d2ce61da3b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-03-12T21:25:00.000Z",
+        "last_edited_time": "2025-03-12T21:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8037-bda4-e3236ece982d",
+      "type": "paragraph",
+      "text": "Dealing with content overload is prolematic for e-learners, which suggests that a recommender system an effective measure to mitigate this issue. Authors propose a new recommender system based on knowledge building and performance analysis. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8037-bda4-e3236ece982d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-03-12T21:25:00.000Z",
+        "last_edited_time": "2025-03-12T21:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dealing with content overload is prolematic for e-learners, which suggests that a recommender system an effective measure to mitigate this issue. Authors propose a new recommender system based on knowledge building and performance analysis. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dealing with content overload is prolematic for e-learners, which suggests that a recommender system an effective measure to mitigate this issue. Authors propose a new recommender system based on knowledge building and performance analysis. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-800f-a05b-c9338e7a79bc",
+      "type": "paragraph",
+      "text": "The recommender estimates the knowledge level of the learner and makes recommendations based on learner preferences and knowledge level and predicts the time it will take the learner to learn and how he/she will perform. Performance of the model is assessed using R-Squared. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-800f-a05b-c9338e7a79bc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-03-12T21:26:00.000Z",
+        "last_edited_time": "2025-03-12T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The recommender estimates the knowledge level of the learner and makes recommendations based on learner preferences and knowledge level and predicts the time it will take the learner to learn and how he/she will perform. Performance of the model is assessed using R-Squared. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The recommender estimates the knowledge level of the learner and makes recommendations based on learner preferences and knowledge level and predicts the time it will take the learner to learn and how he/she will perform. Performance of the model is assessed using R-Squared. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8022-a68e-d100e4af0682",
+      "type": "paragraph",
+      "text": "Model is tested with MOOC data from 530 LO and 96 undergraduate students and is shown to outperform other alternative methods.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8022-a68e-d100e4af0682",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-03-12T21:27:00.000Z",
+        "last_edited_time": "2025-03-12T21:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model is tested with MOOC data from 530 LO and 96 undergraduate students and is shown to outperform other alternative methods.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model is tested with MOOC data from 530 LO and 96 undergraduate students and is shown to outperform other alternative methods.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-8013-870e-c72e28ca275a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-8013-870e-c72e28ca275a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-07-28T00:00:00.000Z",
+        "last_edited_time": "2025-07-28T00:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23e4750c-f3ba-8079-992d-d67d6a865c39",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23e4750c-f3ba-8079-992d-d67d6a865c39",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-07-28T00:00:00.000Z",
+        "last_edited_time": "2025-07-28T00:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a58b13dc-3a21-439a-9def-207dd7d74448/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664SIDEE57%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153305Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCYu0caAOGRQbh0AzH8VIx5EDeI7hX0SWaYJ1NADJGh6AIgVEU1iq46T53RqEyu0YODui4%2FvkrY7gVe6huRYQRUg6Uq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDMpKfSn3zayg0d1THircAyjgrRX2x%2BqJ4qGSVDrztjM6NeNni2lXHIHQYTsOW492Wl5v%2FycBf13q9U7TwgoGxhFfjixQ66FeubBEA5F%2BYTZBFDN2hHbh1GaYK2FFORop34JWUY94klVUmzeBPdbrlzj5%2BadBHSTUJHF79lhHdO1UMSwv3dH7SVKucmWAghFYCCdGDBUZCvvjD8IGVjcr2chV970Z%2BBYciYbeQ6Ou%2BhlXyCiEPGokRBFT9n6y2GDV5De6YCkvJL%2FpxbAUb8zj3jmHFQWKvcgkiK5JUe1wf55Ms%2BnY630m5TqOIIXeUeRDIU7bbzKvr%2Bjb4yhVu4nbeMymXm%2BiVK7yZ2iV1r8YpKNlcCgrE6M8yekzQWXa8T8EHhpqKc5%2FjyukzbGrMh66BrXvDxciMAzKdxUg91k2CMX%2FAVHI%2FJcbZJtYCs0HusjJneS5qQAWGFGwWqteZAgCrcMmnm93PVDhipnLz07Ey9XAO8Sv0xZQnjInsM6Lk80PIW4K2RGHXO4GEkW8JsQAOw6TO8zrxOKA756F5QMLXPQBXRN25kmoa3B189RgdyrwtjP0P9hj%2Bdzj9ah6j71fAukKiePk6C5VacG%2FjOtCwns20DMsLhHdX21E6%2FEwXPU3AACqHOE6FVepu%2B7%2FMObx884GOqUBHeVfKIdTF95dws%2BGKl%2FEWt6Oz5ICxWtWs8E0jKcg8NGnU5HpeBF9J39b0%2FeOCSHhxnUhwqQmQjGeoFjmdcATCQ7sUDg9rToEoJaaIcGauu0Eq%2Fl3x8mi3GLF7pDo4KMhyY34MEtCbVhQpQXXhHsU8jb00eoivyfbSZg2s16x6Hw51djJt0286ZI7mFlW7xagGAA93JyRka1PtciWMdcocBMKqWzs&X-Amz-Signature=6175028635da1f1cf968803c52dc39560153988cd906327d626ca638c1452a93&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:33:05.737Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-80be-8075-f14fcef1e9df",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-80be-8075-f14fcef1e9df",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-26T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-805c-a373-fdddec51c232",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-805c-a373-fdddec51c232",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+        },
+        "created_time": "2025-07-26T15:27:00.000Z",
+        "last_edited_time": "2025-07-27T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

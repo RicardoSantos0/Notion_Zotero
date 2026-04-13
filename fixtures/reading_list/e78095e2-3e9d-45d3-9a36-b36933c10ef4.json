@@ -1,0 +1,596 @@
+{
+  "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4",
+  "title": "A hybrid approach for composing groups in collaborative learning contexts",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "7c8f203f-d8ba-4aba-acc1-2f76875baea9",
+          "name": "Group Formation",
+          "color": "brown"
+        },
+        {
+          "id": "a35a7ca8-dedb-41c4-9a3f-26ef7cefee7c",
+          "name": "Combinatorial Optimization",
+          "color": "red"
+        },
+        {
+          "id": "dbca06ff-207f-4388-8b47-2befba44f0c6",
+          "name": "Exhaustive Search",
+          "color": "default"
+        },
+        {
+          "id": "ad6aefbd-bca8-4a98-bbd2-8245b3bf2d47",
+          "name": "Heuristic Methods",
+          "color": "default"
+        },
+        {
+          "id": "1137ba08-53c4-4973-9c34-e3a1d39438a8",
+          "name": "Time Complexity",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Group Formation” AND “Collaborative Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Group Formation” AND “Collaborative Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Heliyon",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Heliyon",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intevention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intevention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T22:50:00.000+00:00",
+        "end": "2025-02-06T23:00:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Moreno et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Moreno et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c9b2501b-8b9c-4006-8f15-62f4fc00b325",
+          "name": "Group Formation",
+          "color": "pink"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A hybrid approach for composing groups in collaborative learning contexts",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A hybrid approach for composing groups in collaborative learning contexts",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-804b-8336-d7f841441e80",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-804b-8336-d7f841441e80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T22:58:00.000Z",
+        "last_edited_time": "2025-02-06T22:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-806a-820e-f341aebd8490",
+      "type": "paragraph",
+      "text": "Paper proposes a strategy to form groups that:",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-806a-820e-f341aebd8490",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T22:58:00.000Z",
+        "last_edited_time": "2025-02-06T22:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper proposes a strategy to form groups that:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper proposes a strategy to form groups that:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80dc-9cc3-ce7cd518c0ef",
+      "type": "numbered_list_item",
+      "text": "Allows for different group sizes and multiple attributes to be used,",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80dc-9cc3-ce7cd518c0ef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T22:59:00.000Z",
+        "last_edited_time": "2025-02-06T22:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Allows for different group sizes and multiple attributes to be used,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Allows for different group sizes and multiple attributes to be used,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80df-aa00-cee12d2816fa",
+      "type": "numbered_list_item",
+      "text": "Adaptable for homogeneity/heterogeneity criteria",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80df-aa00-cee12d2816fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T22:59:00.000Z",
+        "last_edited_time": "2025-02-06T22:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Adaptable for homogeneity/heterogeneity criteria",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Adaptable for homogeneity/heterogeneity criteria",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8063-99c2-e610a2a5255a",
+      "type": "paragraph",
+      "text": "The proposed algorithm uses a local brute-force approach that is still scaleable as it is NP in group sizes, but P in student numbers. Multiple experiemnts with different numbers of students show decent performance and running times. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8063-99c2-e610a2a5255a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T23:00:00.000Z",
+        "last_edited_time": "2025-02-06T23:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The proposed algorithm uses a local brute-force approach that is still scaleable as it is NP in group sizes, but P in student numbers. Multiple experiemnts with different numbers of students show decent performance and running times. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The proposed algorithm uses a local brute-force approach that is still scaleable as it is NP in group sizes, but P in student numbers. Multiple experiemnts with different numbers of students show decent performance and running times. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80ca-af85-cfab9347da08",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80ca-af85-cfab9347da08",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e78095e2-3e9d-45d3-9a36-b36933c10ef4"
+        },
+        "created_time": "2025-02-06T23:01:00.000Z",
+        "last_edited_time": "2025-02-06T23:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

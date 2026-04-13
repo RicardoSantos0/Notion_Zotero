@@ -1,0 +1,571 @@
+{
+  "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f",
+  "title": "A Cluster-Based Approach to Understanding Students’ Resource-Usage Patterns in an Active, Blended, and Collaborative Learning Environment",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "ef2adb0f-7b91-42ce-89d0-f33a322b1656",
+          "name": "Cluster Analysis",
+          "color": "red"
+        },
+        {
+          "id": "1c8c5e23-f3d5-4386-bb03-4913f70028fd",
+          "name": "Help-Seeking Behavior",
+          "color": "yellow"
+        },
+        {
+          "id": "d7a5da41-ee3c-4921-9045-992d329d444c",
+          "name": "Resource Usage",
+          "color": "brown"
+        },
+        {
+          "id": "914d70ea-3f10-45ad-befc-c98137aa28a2",
+          "name": "Engineering Education",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Strategies” AND “LMS”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Strategies” AND “LMS”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "International Journal of Engineering Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "International Journal of Engineering Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-04T23:46:00.000+00:00",
+        "end": "2026-03-13T15:34:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Stites et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Stites et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Cluster-Based Approach to Understanding Students’ Resource-Usage Patterns in an Active, Blended, and Collaborative Learning Environment",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Cluster-Based Approach to Understanding Students’ Resource-Usage Patterns in an Active, Blended, and Collaborative Learning Environment",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3224750c-f3ba-80e4-a69b-d4d325c63489",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Blended Learning",
+          "581 students",
+          "1 Dynamics course in a US University",
+          "Student Demographics, Survey, Interviews",
+          "Expectancy-Value Model",
+          "[Peers in Class, Course LectureBook, Examples and Solutions, Course Blog, Questions in Class, Office Hours, Online Resources, Outside Students, TAs]",
+          "Authors conduct interviews to assess the median time of interactions of students with the different resources. \n\nAfter cluster formation, the analysis is complemented with interviews to understand the reasons behind the decisions reported on the surveys. ",
+          " k-Means",
+          "{BIC: –16,490 - 8 clusters}",
+          "9",
+          "C1: Multiple resource uses and heavy use of tutorial room. Receptive to help.\n\nC2: Primary reliance on core resources.\n\nC3: Use of core resources and tutorial room.\n\nC4: Seek help from external students.\n\nC5: Did not use blog, but use non-course online resources more.\n\nC6: Similar to C2\n\nC7: Least utilization of lecturebook. Moderate use of other resources.\n\nC8: Peers and lecturebook usage.\n\nC9: Infrequent use of peers. ",
+          "Due to the variablility in usage of materials… lecturers should spend less time advising on which materials to use. \n\nIt becomes apparent that students look for help in mulitple sources.",
+          "Authors select the number ok k that achieved the 2nd lowest BIC because, in the author’s eyes -  the 9 cluster solution was more meaningful than the 8-cluster solution interpretation-wise.",
+          "- Innapropriate metric for selection of ideal k.\n\n- No use of LMS data.\n\n- Small dataset\n\n - Reliance on self-reported data"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1904750c-f3ba-8051-be8c-c1270e7e0df7",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8051-be8c-c1270e7e0df7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+        },
+        "created_time": "2025-02-04T23:48:00.000Z",
+        "last_edited_time": "2025-02-04T23:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-8050-b3f3-ebca92506a91",
+      "type": "paragraph",
+      "text": "The goal of the work how and why students engaged with different learning resources. Work creates clusters from the interactions of 581 engineering students and, for 44 of them use survey data to understand the motivation behind the usage of those resources. Authors argue that their results may be useful to coach students and design better curricula/resources.",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8050-b3f3-ebca92506a91",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+        },
+        "created_time": "2025-02-04T23:48:00.000Z",
+        "last_edited_time": "2025-02-04T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The goal of the work how and why students engaged with different learning resources. Work creates clusters from the interactions of 581 engineering students and, for 44 of them use survey data to understand the motivation behind the usage of those resources. Authors argue that their results may be useful to coach students and design better curricula/resources.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The goal of the work how and why students engaged with different learning resources. Work creates clusters from the interactions of 581 engineering students and, for 44 of them use survey data to understand the motivation behind the usage of those resources. Authors argue that their results may be useful to coach students and design better curricula/resources.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3224750c-f3ba-8080-b403-f71a048e7fe5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3224750c-f3ba-8080-b403-f71a048e7fe5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+        },
+        "created_time": "2026-03-13T11:51:00.000Z",
+        "last_edited_time": "2026-03-13T11:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3224750c-f3ba-80cf-b1b6-c4ecd2095354",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3224750c-f3ba-80cf-b1b6-c4ecd2095354",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+        },
+        "created_time": "2026-03-13T11:51:00.000Z",
+        "last_edited_time": "2026-03-13T11:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3224750c-f3ba-80e4-a69b-d4d325c63489",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3224750c-f3ba-80e4-a69b-d4d325c63489",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+        },
+        "created_time": "2026-03-13T11:51:00.000Z",
+        "last_edited_time": "2026-03-13T11:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
+      "title": "Contrastive Personalized Exercise Recommendation With Reinforcement Learning",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_eccc9697",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Exercise Recommendations",
+          "Students": "3879 ASSIST09 learners, 2119 EdNet learners, 17886 ASSIST12 learners, 19113 ASSIST13 learners, 821 BePKT learners, 120 learners for User Study",
+          "Courses": "Assistments, EdNet and BePKT",
+          "Data sources": "Student-Exerrcise Interactions, Exercise Metadata",
+          "Initialization Method": "Base recommenders’ weights randomly/init default; add two heads: RL head and contrastive head; a pre-trained DKT supplies the reward signal (dynamic reward)",
+          "Updates to Recommendations": "After each interaction, the state is updated and the RL head optimizes cumulative reward (long-term needs). The contrastive head updates representations using augmented positives/negatives; DKT-based reward tracks changes in knowledge mastery (dynamic reward).",
+          "Preprocessing Details": "Three data augmentations (mask, permute, replace) used for contrastive pairs; ablation varies augmentation ratios (0.1–0.9). Assist09 & EdNet_small used in these tests; excluded from user study due to insufficient content info.",
+          "Recommendation types": "Top-K exercises",
+          "Evaluation": "AST09\n{Hit-Rate@10: 0.19844 - RCL4ER SASRec, NDCG@10: 0.13070 - RCL4ER SASRec, Hit-Rate@20: 0.30901 - RCL4ER SASRec, NDCG@20: 0.15177 - RCL4ER Bert4Rec, Hit-Rate@50: 0.51787 - RCL4ER NltNet, NDCG@50: 0.19212 - RCL4ER Bert4Rec, L_G: 0.548 - RCL4ER SASRec}\n\nEdNet\n{Hit-Rate@10: 0.19844 - RCL4ER Bert4Rec, NDCG@10: 0.16330 - RCL4ER Bert4Rec, Hit-Rate@20: 0.22596 - RCL4ER Bert4Rec, NDCG@20: 0.16476 - RCL4ER Bert4Rec, Hit-Rate@50: 0.27193 - RCL4ER Bert4Rec, NDCG@50: 0.17379 - RCL4ER Bert4Rec, L_G: 0.539 - RCL4ER GRU}\n\nAST12\n{Hit-Rate@10: 0.36043- RCL4ER SASRec, NDCG@10: 0.29793 - RCL4ER SASRec, Hit-Rate@20: 0.43080 - RCL4ER NltNet, NDCG@20: 0.31528 - RCL4ER Bert4Rec, Hit-Rate@50: 0.57294 - RCL4ER Bert4Rec, NDCG@50: 0.34314 - RCL4ER Bert4Rec, L_G: 0.518 - RCL4ER NltNet}\n\nAST13\n{Hit-Rate@10: 0.227458 - RCL4ER SASRec, NDCG@10: 0.21507 - RCL4ER SASRec, Hit-Rate@20: 0.34640 - RCL4ER SASRec, NDCG@20: 0.23306 - RCL4ER SASRec, Hit-Rate@50: 0.51785 - RCL4ER NltNet, NDCG@50: 0.26296 - RCL4ER NltNet, L_G: 0.521 - RCL4ER NltNet}\n\nUser Study\n{Str_weak_T1: 3.242 vs 2.683, Str_weak_T2: 3.016 vs 2.658, Re_his_T1: 3.316 vs 2.825, Re_his_T2: 3.125 vs 2.850, Exer_diff_T1: 3.192 vs 3.0, Exer_diff_T2: 3.183 vs 3.041, Abi_impro_T1: 3.233 vs 2.883 vs Abi_immpro_T2: 3.042 vs 2.758}",
+          "Comments": "Architecture: model-agnostic RL+CL wrapper; DKT-guided reward aligns recs with knowledge change. Results: improves ranking (HR@10) and learning gain vs. base sequential recommenders; supports classroom/OJ use and teacher oversight.",
+          "Limitations": "Data needs: relies on rich exercise metadata; some public datasets lack content detail (not used for expert judgment). \n\nCompute: RL+CL training adds cost. \n\nScope: focuses on sequential recommenders; not a KG method; no explicit classical KT baseline comparison (BKT/DKT etc. are not benchmarked as recommenders).\n\nUser study evaluated essencially by 2 programmers only - small n."
+        }
+      ],
+      "provenance": {
+        "page_id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_2a79f917",
+      "reference_id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
+      "text": "Personalized recommendation of exewrcises often comes short in practice due to a couple of relevant factors:",
+      "provenance": {
+        "page_id": "003e69cb-f908-470d-bab2-c26eed3c63d3"
+      }
+    },
+    {
+      "id": "an_921175da",
+      "reference_id": "003e69cb-f908-470d-bab2-c26eed3c63d3",
+      "text": "The authors introduce RCL4ER, which makes recommendations by mixing self-supervised learning and reinformecement learning in the model’s output layer. Authors also explore a trained KT model while testing 3 distinct data augmentation techniques. Testing on 4 distinct public datasets shows promisisng results.",
+      "provenance": {
+        "page_id": "003e69cb-f908-470d-bab2-c26eed3c63d3"
+      }
+    }
+  ],
+  "workflow_states": []
+}

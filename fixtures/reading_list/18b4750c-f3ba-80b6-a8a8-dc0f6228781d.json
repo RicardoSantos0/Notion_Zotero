@@ -1,0 +1,688 @@
+{
+  "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d",
+  "title": "Dynamic Key-Value Memory Networks With Rich  Features for Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6f598f85-58da-42b7-9eae-184f181d5061",
+          "name": "Dynamic Key-Value Memory Network",
+          "color": "blue"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "50d2fd2a-46c7-4218-bb3f-6b2b36c30a4b",
+          "name": "Student Clustering",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        },
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Cybernetics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Cybernetics",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-08T23:38:00.000+00:00",
+        "end": "2025-04-19T00:14:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Sun et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Sun et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dynamic Key-Value Memory Networks With Rich  Features for Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dynamic Key-Value Memory Networks With Rich  Features for Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-8019-a886-eb48d103642e",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Correct Ansewr in Next Question",
+          "Correct (1) vs Incorrect (0)",
+          "4151 ASSISTments2009 learners",
+          "ASSISTments",
+          "Answer Sequences, LMS logs",
+          "[user_id, problem_id, correct, attempt_count, first_response, first_action]",
+          "DKVMN, while interesting as an approach, has the issue of not considering additional features relative to sequences of answers - the knowledge status.",
+          "The authors propose a small change to DKVMN that not only includes sequences of answersa to create both matrices, but also considers additional behavioral information in order to obtain a better value matrix.",
+          "The model starts with the prediction section of whether a question will be correct or not.\n\nThis is followed by a Clustering module that is meant to calculate learning ability and group students into one of 3 groups.\n\n",
+          "BKT, DKT, DKVMN, DKT-F, DKT-DSC, DKVMN-LA",
+          "5-Fold Cross-Validation",
+          "{AUC: 0.919 - DKVMN-LA}",
+          "Authors perform 4 distinct experiments:\n\n1. Comparison od DKVMN-LA with other models in the literature.\n\n2. Comparison of DKVMN-LA with DKT-LA.\n\n3. Analysis of the model suing different segment lengths.\n\n4. Changes with different feature splicings.\n\nDKVMN-LA wiuth all features and segment length 5 outperforms all others.",
+          "Limited number of Benchmark Datasets.\n\nRoom for improvement in behavioral features being considered. \n\nOpportunity for refinement both at the stage of correctedness prediction AND LEarning Ability clustering."
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1944750c-f3ba-801c-a5e7-c4d59bb4edd6",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-801c-a5e7-c4d59bb4edd6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-02-08T23:37:00.000Z",
+        "last_edited_time": "2025-02-08T23:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-801e-bc5f-c2c7eee159e0",
+      "type": "paragraph",
+      "text": "Out of all models in KT that existed in 2022, Dynamic Key-Value Memory Networks (DKVMN) have been argued to be state-of-the-art. A drawback of these models is that they seem to not consider learning abilities or behavioral features collected by ITS. ",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-801e-bc5f-c2c7eee159e0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-02-08T23:37:00.000Z",
+        "last_edited_time": "2025-02-08T23:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Out of all models in KT that existed in 2022, Dynamic Key-Value Memory Networks (DKVMN) have been argued to be state-of-the-art. A drawback of these models is that they seem to not consider learning abilities or behavioral features collected by ITS. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Out of all models in KT that existed in 2022, Dynamic Key-Value Memory Networks (DKVMN) have been argued to be state-of-the-art. A drawback of these models is that they seem to not consider learning abilities or behavioral features collected by ITS. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-806b-a25b-ef755bddeb44",
+      "type": "paragraph",
+      "text": "Thus, to include these theoretically important constructs, the authors propose a new form of representation that improves the performance of KT using DKVMN.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-806b-a25b-ef755bddeb44",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-02-08T23:41:00.000Z",
+        "last_edited_time": "2025-02-08T23:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, to include these theoretically important constructs, the authors propose a new form of representation that improves the performance of KT using DKVMN.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, to include these theoretically important constructs, the authors propose a new form of representation that improves the performance of KT using DKVMN.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-8024-8782-f61999391ac4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-8024-8782-f61999391ac4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-04-18T23:05:00.000Z",
+        "last_edited_time": "2025-04-18T23:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-80eb-a421-c2b70d68289c",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-80eb-a421-c2b70d68289c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-04-18T23:05:00.000Z",
+        "last_edited_time": "2025-04-18T23:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a13103cb-f2d7-4b57-95da-9b58d7dc11c8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VQZ6GIAC%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152722Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQC6DzaOtvNsz7UQT6piEFf11ODnciVjvKe%2BS8Y5MardgQIgci95uE8x8NC4zPHywEI7Q5TT9VUEYP6n%2B9N7p0lqhf4q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDI0PAqXmhj7P5aM9iCrcA4Vb%2BFSeuBIyEYV2j9nA8Rl%2FFn4%2Fm5wW7FAiS0cMKaMShG6gywWq0gkNYPzCZbJ%2BrKBpdjYh4SHyLU%2F7oIqbz2sl4IrNxf3tHGCFDETkqjkfSiHveJaRP3NiRHfawTiYrgVbJIXBM9RDLqqcdZ%2B3jl3SrWSTxsg40XaUQyLz4FtBRzp8a99X0AIHLo%2BNit8zkeEMa2irMwCCshyCiYMbc5VgPUjERd%2FYyi1ETetLGzQVFREw0ngT1utZS%2BVL%2FL1W%2FfAfNY9KSNTEjFz6nq%2BcNwHqmow4ixnF8JqSu2qzwS7b3ez%2B4%2BrcbGpIBOA1vGA9UwU5p0eOzf4ifKLwreFEvi6pRz%2B7Tua28V7fpFQ0%2B58ZiF%2Frcm9%2BLWxETMykJ4O9%2F2VB98WSw%2BxIBh5jZpuGkbZqoh0MLj5WE%2BG0I3sRY4vGeVAU4vay8cEgancAMe9kTSjV7mWVI8ga%2FltMHPsFQZ2wtjlZvuO1%2BKUPq58vo5R2FS4vD6%2ByL3xPQSOtjxXvXdutEToc2o4IkunPULgoIFcihRYhHpQ%2B%2FRTtzw%2FT%2FpqONeL8jXIhdtUQ0BnXZqwsKB9HGJrxXnZbDbz%2Fwxwdi30l03ov%2BE%2FPS2e79yuq3NL2WS8SLNM2l50Mj39DMOnv884GOqUB9IEeQdZ5XPzoEvqV1pTpSSRW0K1QIfidOTSpbW9yk%2BC%2BF7dX7lBDtUUydw9Ak%2BMr%2F83mAnNAmuhsx6NUlotd1oVXbTKTAQ4I7NDGoYVUB4ZsPliO5EO9Xt4zMtJHH6VUockcHRczEVZmlU0MKV8N%2BQmBVWCgYG6uo3jmpl7ce1N7Sxuf8oUJGgOfMzNWiFbAiaxfqcqC%2FqxzgnsXoiHZRsUma78M&X-Amz-Signature=2db170b85b0ce1e0cac25b085f88ac5c16fc0107eb24b5651e7f95ac3fe0632a&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:27:22.450Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-807b-9968-c56c581ae618",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-807b-9968-c56c581ae618",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-802d-9e55-e326d20e018b",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-802d-9e55-e326d20e018b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8019-a886-eb48d103642e",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8019-a886-eb48d103642e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80b6-a8a8-dc0f6228781d"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
+      "title": "Knowledge Tracing Machines: Factorization Machines for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "AAAI",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b548038c",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intellingent Tutoring System & MOOC",
+          "Student Performance Definition": "Next Question Being Correct",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "536 Fraction Learners, \n757 TIMSS learners, 2922 ECPE learners, 4217 learners, 1730 Berkeley learners, 58939 Castor learners",
+          "Courses": "Fraction, TIMSS, ECPE, ASSISTments, Castor",
+          "Data sources": "Answer Sequences",
+          "Features": "[Users, Items, Skills, Attempts, Wins and Fails, Extra Side Information - all One Hot Encoded]",
+          "Flaw of Previous Models": "Most approaches precedding this model students or questions using unidimensional parameters. Moreover, most approaches are unable to model side information per question (such as multiple skills). ",
+          "Novelty of Model": "The Factorization machines approach not only allows a higher dimensionality representation of students/questions but also shows side information is more effective to improve model performance than increasing the latent dimensions. ",
+          "Preprocessing Details": "The first difference stems from how data is represented: ASSISTments and Berkeley have a temporal representation while the remaining datasets are not. \n\nFeature Encoding requires the consideration of the following dimensions: \n\nUsers, Items, Skills, Attempts, Wins and Fails, Extra Side Information - all One Hot Encoded.\n\nSequences are represented as triplets.",
+          "Models": "AFM, PFA, IRT, MIRTb10, MIRTb20, KTM(iswf0), KTM(iswf20), KTM(iswfe5)",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "ASSISTments\n{AUC: 0.8186 - KTM(iswfe5)}\n\nBerkeley\n{AUC: 0.7780 - KTM(iswfe20)}\n\nECPE\n{AUC: 0.6811 - IRT}\n\nFraction\n{AUC: 0.6672 - MIRTb20}\n\nTIMSS\n{AUC: 0.6946 - IRT}\n\nCastor\n{AUC: 0.7603 - IRT}",
+          "Comments": "The introduction of side information seems to increase the performace of the model. This is increase is more noticeable than augmenting the number of latent dimensions being considered for the knowledge model.\n\nUltimately, KTMs are presented as testbeds for the introduction of additional features.",
+          "Limitations": "Encoding (OHE) may need refinement.\n\nNot all models are considered for all datasets."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_13326283",
+      "reference_id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
+      "text": "KT is described as a sequence prediction problem, where the goal is predicting performance on question (usually in the form of CFA). The authors propose the use of Factorization Machines to address the KT problem (that traditionally uses latent variables or factor analysis). ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-806e-b25a-ceba832aed36"
+      }
+    },
+    {
+      "id": "an_2feb5907",
+      "reference_id": "18c4750c-f3ba-806e-b25a-ceba832aed36",
+      "text": "Results on seven datasets show that FM performs well even in situations with sparse data, recomming it to be a good testbed to improve existing models.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-806e-b25a-ceba832aed36"
+      }
+    }
+  ],
+  "workflow_states": []
+}

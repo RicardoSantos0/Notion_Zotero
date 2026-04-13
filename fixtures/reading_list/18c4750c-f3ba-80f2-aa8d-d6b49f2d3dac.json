@@ -1,0 +1,581 @@
+{
+  "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac",
+  "title": "Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f18d5ad7-d7a6-4cce-8c41-7a0d6c774d0a",
+          "name": "Classification Algorithms",
+          "color": "yellow"
+        },
+        {
+          "id": "0350bb6f-6b8a-4508-a2df-7ff241b0d092",
+          "name": "Data Pre-Processing",
+          "color": "orange"
+        },
+        {
+          "id": "27f671ba-eb9f-4b2c-a90b-de2eb4ec5419",
+          "name": "Data Mining",
+          "color": "blue"
+        },
+        {
+          "id": "940fdc19-43c3-4fd3-93cd-fcf8c8b09d6f",
+          "name": "Data Transformation",
+          "color": "gray"
+        },
+        {
+          "id": "b34aeb5b-9e4a-4c46-a019-f31d618d70f7",
+          "name": "Student Academic Performance",
+          "color": "default"
+        },
+        {
+          "id": "6421b50e-2209-4425-ae54-0be18d226aee",
+          "name": "Video Learning Analytics",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Applied Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Applied Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T14:45:00.000+00:00",
+        "end": "2025-04-06T17:30:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hasan et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hasan et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "88c30adb-35a0-4446-98d5-09c736f31263",
+          "name": "Multi-Modal",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1cd4750c-f3ba-80fb-8841-f7011904b226",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Passing or Failing the Course",
+          "Pass ( 0) vs Fail (1)",
+          "772 Omani students",
+          "1 e-Commerce and a 1 e-Commerce Technologies courses",
+          "Academic History, \nLMS logs, \nVideo-Interactions, \nGrades in Course",
+          "[CGPA, Attempt Count, High Risk, Term Exceed at Risk, At Risk, Student Success Centre, Other Modules, Plagiarism Count, CW1, CW2, End Semester Examination, Activity on Campus, Activity off Campus, Played, Paused, Likes/Dislikes, Segment]",
+          "End of Course",
+          "Target is numerical but dsiscretized in order to be usable in classfication.\n\nMost numerical variables, such as GPA were also discretized. Authors used Genetic Algorithms and/or PCA to do feature selection.\n\nComparison is done in terms of binning strategies and feature selection strategies. ",
+          "CN2 Rule Inducer, Random Forest, Logistic Regression, Decision Tree, kNN, Naive Bayes, MLP, SVM",
+          "10-Fold Cross-Validation",
+          "{Accuracy: 0.883 - RF with equal-width binning and IG Feature Selection, Sensitivity: 1: MLPs and RF with GA , Specificity: 1: RF with GA, F1-Score:  0.933 - RF with equal-width binning and IG Feature Selection}",
+          "Authors create multiple forms of preprocessing and look to compare how they perform. \n\nEssencially, the gfoal is to use video-watching behavior (eDify) to Predict student performance.",
+          "No early prediction - since prediction is done after all materials have been consulted.\n\nAccuracy as primary metric is not ideal in this sort of scenarios,\n\nLMS logs are underexplored as a feature,\n\nSmall sample size.\n\nPreprocessing strategies: the binning, is not a widely explored."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-80b9-a7d5-d852d6bf661f",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80b9-a7d5-d852d6bf661f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+        },
+        "created_time": "2025-02-05T14:34:00.000Z",
+        "last_edited_time": "2025-02-05T14:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8014-b47b-c314f71727ef",
+      "type": "paragraph",
+      "text": "The paper looks at data from 772 students and tries to predict student performance at the end of the semester using video learning analytics and ML. The authors use data from SIS, LMS and mobile applications, use PCA and Genetic Search for feature selection and compare 8 distinct algorithms. RF achieved 88.3% accuracy and outperformed all other algorithms. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8014-b47b-c314f71727ef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+        },
+        "created_time": "2025-02-05T14:34:00.000Z",
+        "last_edited_time": "2025-02-05T14:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper looks at data from 772 students and tries to predict student performance at the end of the semester using video learning analytics and ML. The authors use data from SIS, LMS and mobile applications, use PCA and Genetic Search for feature selection and compare 8 distinct algorithms. RF achieved 88.3% accuracy and outperformed all other algorithms. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper looks at data from 772 students and tries to predict student performance at the end of the semester using video learning analytics and ML. The authors use data from SIS, LMS and mobile applications, use PCA and Genetic Search for feature selection and compare 8 distinct algorithms. RF achieved 88.3% accuracy and outperformed all other algorithms. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cd4750c-f3ba-80e7-9d1b-db11dccad6ae",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cd4750c-f3ba-80e7-9d1b-db11dccad6ae",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+        },
+        "created_time": "2025-04-06T15:14:00.000Z",
+        "last_edited_time": "2025-04-06T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cd4750c-f3ba-80df-9d5d-dfc0f75df9f2",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1cd4750c-f3ba-80df-9d5d-dfc0f75df9f2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+        },
+        "created_time": "2025-04-06T15:14:00.000Z",
+        "last_edited_time": "2025-04-06T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cd4750c-f3ba-80fb-8841-f7011904b226",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cd4750c-f3ba-80fb-8841-f7011904b226",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+        },
+        "created_time": "2025-04-06T15:14:00.000Z",
+        "last_edited_time": "2025-04-06T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02",
+  "title": "How can valid and reliable automatic formative assessment predict the acquisition of learning outcomes?",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a91b569b-9190-4e51-bdd9-cb8d0ac1bb5e",
+          "name": "Assessment",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "78520e5f-ac8b-4760-bd0e-7df7f6e9161a",
+          "name": "Learning Outcomes",
+          "color": "brown"
+        },
+        {
+          "id": "6e1f6035-06d0-4d99-a1d8-c999797c8fcf",
+          "name": "Predictive Models",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “MAchine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “MAchine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Journal of Computer Assisted Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Journal of Computer Assisted Learning",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-12-14T17:56:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Divjac et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Divjac et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "1d11734a-154e-4f32-8d5c-38a6a656b6be",
+          "name": "Assessment",
+          "color": "gray"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How can valid and reliable automatic formative assessment predict the acquisition of learning outcomes?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How can valid and reliable automatic formative assessment predict the acquisition of learning outcomes?",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-809b-8baf-e1197fb9d89f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Summative Assessment Results",
+          "Below 50% (0)  vs Above (1)",
+          "614 Mathematics I Students, and 199 Discrete Mathematics with Graph Theory Students",
+          "M1 and DMGT",
+          "LMS logs, Assessment Results",
+          "[Quizzes, Homeworks, Exams, Video, E-Textbbook Consumption, Class Attendance]",
+          "Before each Exam",
+          "Authors use Random Search for hyper-parameter tuning.",
+          "Random Forest",
+          "Holdout Method (75/25)",
+          "Exam 1 - DMGT:\n{AUC: 0.623}\n\nExam 2 - DMGT:\n{AUC: 0.643 - including Exam 1}\n\nExam 1 - M1:\n{AUC: 0.730}\n\nExam 2 - M1:\n{AUC: 0.752 - excluding Exam 1}\n\nExam 3 - M1:\n{AUC: 0.670 - including Exam 1 and 2}\n\n",
+          "The authors create an ML algorithm to predict the exam performance of the learners. \n\nThe work uses Random Forest and is meant to compare the effectiveness of different feature sets. Usage of previous exam  increases predicting capacity on both courses.",
+          "- Only one model.\n\n- Small number of courses in a specific area (Mathematics)\n\n- Does not consider activity outside the LMS as a predictor.\n\n\n"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Summative Assessment Results",
+          "25% (0), 50%(1), 75% (2), 100% (3)",
+          "614 Mathematics I Students, and 199 Discrete Mathematics with Graph Theory Students",
+          "M1 and DMGT",
+          "LMS logs, Assessment Results",
+          "[Quizzes, Homeworks, Exams, Video, E-Textbbook Consumption, Class Attendance]",
+          "Before each Exam",
+          "Authors use Random Search for hyper-parameter tuning.",
+          "Random Forest",
+          "Holdout Method (75/25)",
+          "Exam 1 - DMGT:\n{AUC: 0.652}\n\nExam 2 - DMGT:\n{AUC: 0.694 - including Exam 1}\n\nExam 1 - M1:\n{AUC: 0.710}\n\nExam 2 - M1:\n{AUC: 0.821 - including Exam 1}\n\nExam 3 - M1:\n{AUC: 0.753 - excluding Exam 1 and 2}\n",
+          "The authors create an ML algorithm to predict the exam performance of the learners. \n\nThe work uses Random Forest and is meant to compare the effectiveness of different feature sets. Usage of previous exam grade greatly increases predicting capacity.\n\nAnalysis of the quaternary confusion matrices highlights that the model is better at predicting the second and third quartiles rather than the first and 4th. Essencially, the model is good at making predictions at the margin but struggles a little more at identifying more extreme cases.",
+          "- Only one model.\n\n- Small number of courses in a specific area (Mathematics)\n\n- Does not consider activity outside the LMS as a predictor."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3b6e46a2-692b-47c8-8495-99e40bcbd590",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3b6e46a2-692b-47c8-8495-99e40bcbd590",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2024-08-06T21:02:00.000Z",
+        "last_edited_time": "2024-08-06T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3f0a1d58-faae-435e-a11d-7f2ab879e024",
+      "type": "paragraph",
+      "text": "The validity of assessments heavily relies on alignment between the assessment and the intended Learning Outcomes. The aim of the paper is to identify what is the predictive power of formative assessment for summative assessment (and consequently acquisition of LOs).",
+      "raw": {
+        "object": "block",
+        "id": "3f0a1d58-faae-435e-a11d-7f2ab879e024",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2024-08-06T21:02:00.000Z",
+        "last_edited_time": "2024-08-06T21:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The validity of assessments heavily relies on alignment between the assessment and the intended Learning Outcomes. The aim of the paper is to identify what is the predictive power of formative assessment for summative assessment (and consequently acquisition of LOs).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The validity of assessments heavily relies on alignment between the assessment and the intended Learning Outcomes. The aim of the paper is to identify what is the predictive power of formative assessment for summative assessment (and consequently acquisition of LOs).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "589d1d22-5fb4-4249-8ae8-1facaafca181",
+      "type": "paragraph",
+      "text": "Authors look at formative assessment results and log data and use them as inputs for a RF model. REsults on data from 2 math courses shows that formative assessments, combined with previous summative assessments are good predictors of summative assessment and, moreover, better predictors than any form of student engagement. ",
+      "raw": {
+        "object": "block",
+        "id": "589d1d22-5fb4-4249-8ae8-1facaafca181",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2024-08-06T21:04:00.000Z",
+        "last_edited_time": "2024-08-06T21:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors look at formative assessment results and log data and use them as inputs for a RF model. REsults on data from 2 math courses shows that formative assessments, combined with previous summative assessments are good predictors of summative assessment and, moreover, better predictors than any form of student engagement. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors look at formative assessment results and log data and use them as inputs for a RF model. REsults on data from 2 math courses shows that formative assessments, combined with previous summative assessments are good predictors of summative assessment and, moreover, better predictors than any form of student engagement. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b7fae93f-f22a-43b6-9306-129b9de61bc5",
+      "type": "paragraph",
+      "text": "Findings also suggest that predictions are less reliable for highest performing and lowest performing students.  ",
+      "raw": {
+        "object": "block",
+        "id": "b7fae93f-f22a-43b6-9306-129b9de61bc5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2024-08-06T21:06:00.000Z",
+        "last_edited_time": "2024-08-06T21:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Findings also suggest that predictions are less reliable for highest performing and lowest performing students.  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Findings also suggest that predictions are less reliable for highest performing and lowest performing students.  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8046-a6ad-dec73173d77e",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8046-a6ad-dec73173d77e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2025-12-14T15:17:00.000Z",
+        "last_edited_time": "2025-12-14T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-809b-8baf-e1197fb9d89f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-809b-8baf-e1197fb9d89f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "88c914bd-0f71-409e-8ec4-5ede58830c02"
+        },
+        "created_time": "2025-12-14T15:17:00.000Z",
+        "last_edited_time": "2025-12-14T17:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

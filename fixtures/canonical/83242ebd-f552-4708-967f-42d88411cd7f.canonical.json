@@ -1,0 +1,78 @@
+{
+  "references": [
+    {
+      "id": "83242ebd-f552-4708-967f-42d88411cd7f",
+      "title": "Portability of Predictive Academic Performance Models: An Empirical Sensitivity Analysis",
+      "authors": [],
+      "year": null,
+      "journal": "Mathematics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_9ff86825",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "6 Potential Forms of Academic Performance are Tested",
+          "Target": "Pass vs Fail",
+          "Students": "170 students",
+          "Courses": "4 Different Classes of the same Business Management across 2 years",
+          "Data sources": "Academic History",
+          "Features": "[EvAU score, 1st course grade, math. 1 grade, math. 2 grade, early assessment, late assessment]",
+          "Moment of Prediction": "Previous Academic Performance",
+          "Preprocessing Details": "Authors test more than 60 alternative models - all possible combinations of the six variables (up to 3 simultaneous variables)\n\nThis is done by separating the students into different categories.\n\nVariables ewre standardized.\n\nAuthors compare performance of group specific models vs general models and find that portability is different because the groups themselves are different,",
+          "Models": "60 Logistic Regressions",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{AUC: 0.951 - Model 2}",
+          "Comments": "What was done: The authors built logistic regression models to predict whether university students would pass or fail, using simple inputs like prior grades and early assessment scores. Models were developed on a base group of 39 business students, then tested on five other groups varying by subject, teacher, and language of instruction (170 students total across two years).Main findings: The models performed well on the group they were built for (AUC above 0.9), but their ability to correctly identify at-risk students (specificity) dropped consistently as the target group shared fewer characteristics with the original group. Notably, the student group itself mattered more for portability than the subject, teacher, or language. The authors conclude that universal predictive models are very difficult to achieve, even under tightly controlled conditions — echoing findings from the learning platform literature.",
+          "Limitations": "Small sample size\n\nOnly 4 groups could be used\n\nAll logit models had, at most, 3 variables\n\nSingle institution and Degree\n\nBase model is trained on 39 students\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "83242ebd-f552-4708-967f-42d88411cd7f",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_20a59986",
+      "reference_id": "83242ebd-f552-4708-967f-42d88411cd7f",
+      "text": "Few studies in LA use previous evaluations as features. This work intends to see effect of portability when preceding performance is key factor.  ",
+      "provenance": {
+        "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+      }
+    },
+    {
+      "id": "an_aa2b7512",
+      "reference_id": "83242ebd-f552-4708-967f-42d88411cd7f",
+      "text": "Authors use data from 170 students collected across 2 academic years. They create a set of models using data from 39 and select the best 4. Then, they test the model on the remaining groups. ",
+      "provenance": {
+        "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+      }
+    },
+    {
+      "id": "an_b64a023c",
+      "reference_id": "83242ebd-f552-4708-967f-42d88411cd7f",
+      "text": "Authors find that, the more different the students are from the base group, the specificity of the four models tends to decrease.",
+      "provenance": {
+        "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

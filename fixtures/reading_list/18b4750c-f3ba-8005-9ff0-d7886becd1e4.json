@@ -1,0 +1,690 @@
+{
+  "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4",
+  "title": "Knowledge Tracing Within Single Programming  Practice Using Problem-Solving Process Data",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        },
+        {
+          "id": "e91faf50-97b3-4e3b-b5e7-0bed57ed8239",
+          "name": "Programming Learning",
+          "color": "brown"
+        },
+        {
+          "id": "288047d6-eb72-4faf-bd0b-d17127c3fe52",
+          "name": "Recurrent Neural Network",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        },
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T22:00:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Jiang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jiang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge Tracing Within Single Programming  Practice Using Problem-Solving Process Data",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge Tracing Within Single Programming  Practice Using Problem-Solving Process Data",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80fe-aed9-fbcfb4125d13",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "Succeeding in Subsequent Programming Task",
+          "Succeed (1) vs Fail (0)",
+          "328128 HOC4 learners, 152869 HOC18 learners",
+          "HOC4, HOC8",
+          "Perfect Solution for each task, Intermediate learner solutions in the poroblem-solving process",
+          "[pathLength, currentPerf, AIScore]",
+          "BKT, DKT or Additive Factor Model (AFM) struggle in contexts of data sparsity as is the case of informa programming contexts.\n\nMore specifically, if the dataset contains a small number of activities completed by each student.",
+          "Authors present an Approaching Index - a measurement of similarity between current solution and ideal programming solution.\n\nThe proposed approach - Process Knowledge Tracing looks to model knowledge from the sequences of Approaching Indices when solving a question. In essence, the closer an intermediate solution\n\n",
+          "Paths that do not lead to a solution have been disregarded. Same goes with duplicate solutions.\n\nAuthors create the approaching index (AI) as a measure of simialrity between learner’s current solution AND a pre-defined optimal solution. Similarity was computed using Tree-Edit Distance (TED)\n\nData was undersampled for Class rebalancing",
+          "LR+pathLength, LR+currentPerf, PoissonPath, DKT-P, PKT-Variables, PKT-Sequences",
+          "Holdout Method",
+          "HOC4 to HOC5\n{Accuracy: 0.95958 - LR+currentPerf, Specificity: 0.6347 - PKT-Variables, Cohen’s Kappa: 0.064 - PoissonPath, AUC: 0.9807 - DKT-P}\n\nHOC18 to HOC19\n{Accuracy: 0.91296 - LR+currentPerf, Specificity: 0.69201 - DKT-P, Cohen’s Kappa: 0.317 - LR+currentPer, AUC: 0.9859 - PKT-Sequences}",
+          "In programming tasks, reaching a solution can be thought of as following an Abstract Syntax tree (AST). From a root solution, there are multiple possible pathways a student can follow. The actual process a student follows is called a programming path. \n\n\n2 different models are attempted: \n\nPKT-Variables, which uses 3 features for a logistic regression.\n\nPKT-sequences, which uses the AI sequences along with path length and current performance.\n\nPKT-Sequences and PKT-variables achieved performances close to best-performing models, especially on the harder problems (HOC18 to HOC19).",
+          "Limited number of tasks for evaluation.\n\nProblems tested had one and only one optimal solution. Model as designed REQ_UIRES an optimal solution.\n\nTED-Based similarity may not be ideal form of similarity ibetween programming tasks.\n\nNo Cross-Validation.\n\n\n\n"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-80a5-b710-e753abe257fc",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80a5-b710-e753abe257fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-02-05T21:57:00.000Z",
+        "last_edited_time": "2025-02-05T21:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-802b-b89f-e34e5b81a5dc",
+      "type": "paragraph",
+      "text": "KT is difficult to do in scenarios where the opportunities for practice are small, such as big-block coding exercises. The authors propose 2 knowledge tracing models and a novel metric (Approaching Index Sequence). The programming path is represented by AISeq or AIScore (average of AISeq):",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-802b-b89f-e34e5b81a5dc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-02-05T21:57:00.000Z",
+        "last_edited_time": "2025-02-05T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT is difficult to do in scenarios where the opportunities for practice are small, such as big-block coding exercises. The authors propose 2 knowledge tracing models and a novel metric (Approaching Index Sequence). The programming path is represented by AISeq or AIScore (average of AISeq):",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT is difficult to do in scenarios where the opportunities for practice are small, such as big-block coding exercises. The authors propose 2 knowledge tracing models and a novel metric (Approaching Index Sequence). The programming path is represented by AISeq or AIScore (average of AISeq):",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80c0-b97e-f683e1631b3e",
+      "type": "paragraph",
+      "text": "Both models are tested on two programming datasets, and the models were competitive with four state-of-the-art models on Precision-Recall, Accuracy, Specificity and Cohen’s Kappa. On a more fine-grained level, the models exhibited robustness in identifying students who fail to complete tasks.",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80c0-b97e-f683e1631b3e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-02-05T22:00:00.000Z",
+        "last_edited_time": "2025-02-05T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Both models are tested on two programming datasets, and the models were ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Both models are tested on two programming datasets, and the models were ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "competitive",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "competitive",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " with four state-of-the-art models on Precision-Recall, Accuracy, Specificity and Cohen’s Kappa. On a more fine-grained level, the models exhibited robustness in identifying students who fail to complete tasks.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " with four state-of-the-art models on Precision-Recall, Accuracy, Specificity and Cohen’s Kappa. On a more fine-grained level, the models exhibited robustness in identifying students who fail to complete tasks.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-8039-9b42-fba9d4a51569",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-8039-9b42-fba9d4a51569",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-04-18T17:35:00.000Z",
+        "last_edited_time": "2025-04-18T17:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d94750c-f3ba-804d-aecc-de7e6ecee2e4",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d94750c-f3ba-804d-aecc-de7e6ecee2e4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-04-18T17:35:00.000Z",
+        "last_edited_time": "2025-04-18T17:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/e4519205-7772-4acc-883c-a5dd03c26803/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UPFNWUIO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152406Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGBandANLPY09PJMGPQIHquY5Fwx6dStlORrh8y0qzNjAiEApC0BbrzLhfhdZhQ4IOoe5aVTScKyUbS%2F%2BgO17ISHp0Iq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDEkcFkSsMEPLJsRRAyrcA5l%2FxSRAJQ1q3iGrj35AE9LhTK5hldZ13j3ZcIbA%2F%2FWLEPDscKCU%2BUfeHbB%2FgCxiIr%2FPQqsNv%2BUR2cgD3Ujs8LahHYixNHKIu%2FPmLmHTuX4CVzHVDEZqs1t72FnvcjYhdsoAQDAd95PlJlZTf6L8FhDDDRR01Wz9Iz70%2FsZhkj3o%2BHHMPOt3e8HxfeNehDy6g9Cwycf11c2Q1X3cAGsbFtQyjq%2BIpzMxGSjyAJrUrhsJ%2BMtllMWVbMfFPKWwMrWczYfcOUA3gMCGJgdc9wXMw9w1kPBhMjyRhzqBw87zg8mfV2lT9p0oiuIte7f6hNl%2BgjWfha38%2F9GNZ3nW%2FIx8a0S9RcYcf1PitXu2s%2B72bnnjPCFkZOhzQRzu%2Bdy38YDQcWhhSyla2Bvl7HdNma0kdVNGylKw7QD%2FPlfg7%2F7RBBRBFWKIF4cNwm%2Fle9s2DppRAgTKP%2FQNdOQ3MCUStAc2Be8wgTwj7Zw77ZRdVjJYOtFQcLfpwR3xsfnO5i2WvaW78Qt%2FGMoz7mPc7QbxOR6EGuviCQPVqRQ%2Bdh9XnOhZvJx2ZlDTONONJCEc3PxO3aUJDNePfrHKx54sGk%2Brii4o49rKwBei134ezfcBKoR0TmDiWHSXgvs%2Bq5iUWm%2BWMLfw884GOqUBURZS9YSRXSRH0qlTdPzJkcp6GSJxB7zCYD96eClVQ5Lko%2BLsotFgrFWUg91eXpX6QxIKb7rVXY2JiDTFvXJ7diApSaiwcFR%2BvaIGXG4ixK1c%2BGiL7Wwtkrm9MpGcLKL0R57fes84dujCVxRUm136ztVeim8eWbIIQUGz04pAFvSfv8grYqgn3nzkDVuTUW2%2F87xD8z2FuAUcTmYEtZDZBzKWyOCO&X-Amz-Signature=e7d969301323efee59dbfd3087191a6860122a3945c07a3a0918aab1e0505fe3&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:24:06.927Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-808c-8305-d092b9daa96c",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-808c-8305-d092b9daa96c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80fe-aed9-fbcfb4125d13",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80fe-aed9-fbcfb4125d13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8005-9ff0-d7886becd1e4"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

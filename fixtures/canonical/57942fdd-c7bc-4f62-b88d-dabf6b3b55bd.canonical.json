@@ -1,0 +1,100 @@
+{
+  "references": [
+    {
+      "id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+      "title": "Mining Code Submissions to Elucidate Disengagement in a Computer Science MOOC",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2cab7dc9",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Student Attrition",
+          "Target": "Submitting at Least 70% of Graded Assignments (-1) vs Attrition (1)",
+          "Students": "4064 learners",
+          "Courses": "1 1SCS course from Telavive University",
+          "Data sources": "Code submissions",
+          "Features": "[Ak, Bk, Ck, Dkm, Ek, Fk, Gk, Hk, Ik, Jk, Kk, Lk, Mk, N, Oq, P, Q, R, S, T]",
+          "Moment of Prediction": "Assignments 1 to 8 (out of 27)",
+          "Preprocessing Details": "The 20 extracted features are aggregated into into 5 distinct categories:  Performance, Participation, Persistence, Interaction, Timing\n\nHyper-Parameter Tuning is done using 5-fold CV",
+          "Models": "Soft-SVM, Logistic Regression, Decision Tree",
+          "Assessment Strategy": "Holdout Method (80/20)",
+          "Performance Metric: Best Model": "{Accuracy: 0.76 - Logistic Regression, Precision: 0.91 - Logistic Regression, Recall: 0.77 - DT, F1-Score: 0.82 - DT}",
+          "Comments": "Authors in study 2 try to predict attrition of a MOOC at the end the of the 3rd out of 8 modules of an introductory programming course. \n\nThe first study involves tracking the submission history while the second involves the creation of a supervised model to predict attrition. ",
+          "Limitations": "Only considers submissions and no additional data sources. \n\nOnly considers one course. \n\nSmall number of algorithms. "
+        }
+      ],
+      "provenance": {
+        "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+        "block_index": 6
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_f45ab0d7",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Sequence Mining",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning ",
+          "Students": "4064 learners",
+          "Courses": "1 1SCS course from Telavive University",
+          "Data sources": "Code submissions",
+          "Theoretical Grounding": "None Specified",
+          "Features": "",
+          "Preprocessing Details": "Authors use features from mulitple assignments. In essence, they monitor the submission, grade, etc… for each assigment k in a total of 27 assignments. ",
+          "Models": "Unspecified",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "-",
+          "Cluster Description": "Assignments 21 and 22 were found to be assignments where students tended to fail the most and this was, in fact, later confirmed by the teaching staff.  \n\nThe sequence also allows the visibility of specific attrition points: 33% quit after Assignment 2, and only 35% participate in the final assignment.",
+          "Implications": "Identification of points of hurt can be used by educators to improve the curriculum.",
+          "Comments": "The work is divided into multiple Studies. The first study involves the creation of a set of submission trajectories and creating a graph network. ",
+          "Limitations": "The algorithm used to create the trajectory graph was not specified. Likely a Markov Model."
+        }
+      ],
+      "provenance": {
+        "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_501ad1c8",
+      "reference_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+      "text": "MOOCs in programming are carachterized by a high rate of attrition of students. The authors of the study use data from MOOCs (logs and code submissions) to predict student disengagement. For that purpose, the authors use multiple classic ML algorithms.",
+      "provenance": {
+        "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+      }
+    },
+    {
+      "id": "an_4948bddd",
+      "reference_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+      "text": "Results show that further research should be devoted to understanding and developing betters hand on experiences in online learning systems. ",
+      "provenance": {
+        "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+      }
+    }
+  ],
+  "workflow_states": []
+}

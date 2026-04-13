@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "aefc7625-390f-443d-afeb-8549e311f8ed",
+      "title": "Decoding student success in higher education: A comparative study on learning strategies of undergraduate and graduate students",
+      "authors": [],
+      "year": null,
+      "journal": "Studia Paedagogica",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4d3b6345",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "1564 graduate students",
+          "Courses": "124 courses",
+          "Data sources": "LMS logs,\nFinal Grades",
+          "Theoretical Grounding": "Pintrich’s SRL Model",
+          "Features": "[Total Clicks, Clicks (%), Online Sessions, Clicks/Session, Clicks/day, Forum Clicks, Discussions Viewed, Forum Posts, Folder Clicks, Resources Viewed, URLs Viewed, Course Clicks, Assessments Started, Assignments Viewed, Assignments Submitted, Submissions (%), Total Time Online, Average duration of session, Largest Period of Inactivity, Days with 0 clicks, Days with no clicks (%), PercCourse_NLogin (N= 1, …, 10)]",
+          "Preprocessing Details": "Data was separated into different programs. Preprocessing pipeline went as follows:\n\n1. Gaussianity was tested using the Jarque-Bera test, \n\n2. Features that did not follow this were subjected to the Yeo-Johnson transformation and subsequently standardized.\n\nFeature selection was done per perspective: First via relevance and secondly by creating an instance of k-Means just with the data from one perspective and measuring the explained variancxe by each of the variables.\n",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "{SSD: selection of k, t-tests were used to measure differences between clusters}",
+          "Groups Created": "5",
+          "Cluster Description": "Mildly Frequent, mild activity in short sessions:\n\nLikely Procrastinators: Students who do not access Moodle frequently but, when they do, they tend to do it late in the course AND have long sessions. Performance is the second lowest.\n\nMildly Frequent and Task-Focused: Second most frequent access to Moodle, usually in short bursts and directed towards folders and assessments\n\nActive, Prolonged and Frequent: Learners who have the most frequent accesses to the Platform and the students who achieve the highest grade.\n\nInactive: Close to no interactions with the LMS and have the lowest grade on average. High standard deviation, however, shows that this group also includes successful students who likely use other means to learn. ",
+          "Implications": "Potential for generalizable ML descriptive models for characterization of graduate and undergradaute behaviors since hierarchy of relationships generalizes.\n\nLMS only provide a partial picture of learner performance (see Inactive behavior and grades).\n\nPotential of identifying personalized interventions to different profiles. In addition, course designers could take into account the most successful behaviors and design pedagogical strategies that promote them.\n\n",
+          "Comments": "The learning strategies were evaluated in terms of the average performance of students taking them.\n\nIn the case of graduate learners, Inactive and Likely Procrastinators achieve the same average grade. \n\nComparison between graduates and undergraduates show relatively the same patterns of profile. Graduate students are, however, more efficient with their time and resource usage.",
+          "Limitations": "Each enrollment is treated as independent: same student in 2 courses are considered 2 different observations.\n\nExclusive use of LMS data.\n\nUnderexplored Feature set.\n\nHomogenous sample of courses in a Covid-scenario."
+        },
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "409 undergraduate students",
+          "Courses": "57 courses",
+          "Data sources": "LMS logs,\nFinal Grades",
+          "Theoretical Grounding": "Pintrich’s SRL Model",
+          "Features": "[Total Clicks, Clicks (%), Online Sessions, Clicks/Session, Clicks/day, Forum Clicks, Discussions Viewed, Forum Posts, Folder Clicks, Resources Viewed, URLs Viewed, Course Clicks, Assessments Started, Assignments Viewed, Assignments Submitted, Submissions (%), Total Time Online, Average duration of session, Largest Period of Inactivity, Days with 0 clicks, Days with no clicks (%), PercCourse_NLogin (N= 1, …, 10)]",
+          "Preprocessing Details": "Data was separated into different programs. Preprocessing pipeline went as follows:\n\n1. Gaussianity was tested using the Jarque-Bera test, \n\n2. Features that did not follow this were subjected to the Yeo-Johnson transformation and subsequently standardized.\n\nFeature selection was done per perspective: First via relevance and secondly by creating an instance of k-Means just with the data from one perspective and measuring the explained variancxe by each of the variables.\n",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "{SSD: selection of k, t-tests were used to measure differences between clusters}",
+          "Groups Created": "5",
+          "Cluster Description": "Mildly Frequent, mild activity in short sessions:\n\nLikely Procrastinators: Students who do not access Moodle frequently but, when they do, they tend to do it late in the course AND have long sessions. Performance is the second lowest.\n\nMildly Frequent and Task-Focused: Second most frequent access to Moodle, usually in short bursts and directed towards folders and assessments\n\nActive, Prolonged and Frequent: Learners who have the most frequent accesses to the Platform and the students who achieve the highest grade.\n\nInactive: Close to no interactions with the LMS and have the lowest grade on average. High standard deviation, however, shows that this group also includes successful students who likely use other means to learn. ",
+          "Implications": "Potential for generalizable ML descriptive models for characterization of graduate and undergradaute behaviors since hierarchy of relationships generalizes.\n\nLMS only provide a partial picture of learner performance (see Inactive behavior and grades).\n\nPotential of identifying personalized interventions to different profiles. In addition, course designers could take into account the most successful behaviors and design pedagogical strategies that promote them.\n\n",
+          "Comments": "The learning strategies were evaluated in terms of the average performance of students taking them.\n\nIn the case of graduate learners, Inactive and Likely Procrastinators achieve the same average grade. \n\nComparison between graduates and undergraduates show relatively the same patterns of profile. Graduate students are, however, more efficient with their time and resource usage.",
+          "Limitations": "Each enrollment is treated as independent: same student in 2 courses are considered 2 different observations.\n\nExclusive use of LMS data.\n\nUnderexplored Feature set.\n\nHomogenous sample of courses in a Covid-scenario."
+        }
+      ],
+      "provenance": {
+        "page_id": "aefc7625-390f-443d-afeb-8549e311f8ed",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1658fe1a",
+      "reference_id": "aefc7625-390f-443d-afeb-8549e311f8ed",
+      "text": "The work uses the k-means clustering algorithm to identify learning strategies on two sets of higher education students. The first set aims to make predictions BSc level students while the second focuses on making predictions for MSc-level students. ",
+      "provenance": {
+        "page_id": "aefc7625-390f-443d-afeb-8549e311f8ed"
+      }
+    },
+    {
+      "id": "an_30df304d",
+      "reference_id": "aefc7625-390f-443d-afeb-8549e311f8ed",
+      "text": "Results show that it is possible to identify 5 different learning strategies in both sets that are similar in both sets. Moreover, the authors identify that the relative effectinevess of these strategies is consistent in different instruction levels. ",
+      "provenance": {
+        "page_id": "aefc7625-390f-443d-afeb-8549e311f8ed"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,1870 @@
+{
+  "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e",
+  "title": "Web usage mining for predicting final marks of students that use Moodle courses",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "7ef97648-0402-4bdd-85c1-9d51ec833666",
+          "name": "Classifying Students",
+          "color": "blue"
+        },
+        {
+          "id": "f2da82be-f93c-4061-bb55-9c5cfb34b896",
+          "name": "Predicting Marks",
+          "color": "gray"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2013
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computer Applications in Engineering Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computer Applications in Engineering Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-24T10:00:00.000+01:00",
+        "end": "2024-08-24T13:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Romero et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Romero et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Web usage mining for predicting final marks of students that use Moodle courses",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Web usage mining for predicting final marks of students that use Moodle courses",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "a54a1fb3-7716-49d5-860e-66f42f03f759",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark",
+          "Final Mark Class (0, 1,…, 10)",
+          "438",
+          "7 Engineering Courses",
+          "LMS",
+          "[Course, n_assignment, n_quizz_a, n_quizz_s, n_pos, n_read, total_time_assignment, total_time_quiz, total_time_forum]",
+          "End of Course",
+          "Moodle logs are initially converted into Keel Files.\n\nFirst Experiment - Comparison of 3 paradigms. All features, subset of rows and subset of features. \n\n",
+          "ADLinear\nPolQuadraticLMS\nKernel\nKNN\nC4.5\nCART\nAprioriC\nCN2\nCorcoran\nXCS\nGGP\nSIA\nMaxLogitBoost\nSAP\nGAP\nGP\nChi\nNNEP\nRBFN\nGANN\nMLPerceptrion",
+          "10-Fold Stratified Cross-Validation",
+          "{Accuracy: 0.6599 - GAP}\n",
+          "Dterministic algorithms were run once. Probabilistic algorithms were run 5 times.\n\nAll algorithms were compared across 3 different paradigms:\n\n1. All data\n2. Only use students who completed all activities\n3. Use only 4 attributes\n\nUsage of all data generates the best overall performance.\n",
+          "Limited pre-processing techniques used. \n\nNo tests of model hyper-parameters seems to be executed.\n\nFinal Mark is treated as a Nominal Variable.\n\nOnly uses data from LMS.\n\nSmall sample and limited number of attributes.\n\n"
+        ],
+        [
+          "Classification",
+          "Higher Education Students",
+          "E-Learning",
+          "Final Mark",
+          "Discretized Final Mark (Fail, Pass, Good, Excellent)",
+          "438",
+          "7 Engineering Courses",
+          "LMS",
+          "[Course, n_assignment, n_quizz_a, n_quizz_s, n_pos, n_read, total_time_assignment, total_time_quiz, total_time_forum]",
+          "End of Course",
+          "For second experiment, the authors applied a manual discretization strategy to the target variable. Features had an equal-width discretization strategy in 3 categories. \n\n",
+          "ADLinear\nPolQuadraticLMS\nKernel\nKNN\nC4.5\nCART\nAprioriC\nCN2\nCorcoran\nXCS\nGGP\nSIA\nMaxLogitBoost\nSAP\nGAP\nGP\nChi\nNNEP\nRBFN\nGANN\nMLPerceptrion",
+          "10-Fold Stratified Cross-Validation",
+          "{Accuracy: 0.6586 - CART on Discretized Data\n, Geometric Mean of Accuracies per Class: 0.3925 - CART on Numerical Data}",
+          "\nSecond Experiment - Comparison of performance of models on data as is vs Rebalancing vs Discretization\n\nDiscretization involves using equal-width separation of the variables into 3 categories.\n\nMoreover, the authors use Random-Oversampling to deal with class imbalance.",
+          "Limited pre-processing techniques used. \n\nNo tests of model hyper-parameters seems to be executed.\n\nFinal Mark is treated as a Nominal Variable.\n\nOnly uses data from LMS.\n\nSmall sample and limited number of attributes."
+        ]
+      ],
+      "index": 35
+    }
+  ],
+  "blocks": [
+    {
+      "id": "df13041a-6456-4b7d-a4d7-7ae580d518d7",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "df13041a-6456-4b7d-a4d7-7ae580d518d7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-07-29T16:40:00.000Z",
+        "last_edited_time": "2024-07-29T16:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d18977ec-e978-4d89-9a70-778806b4a285",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "d18977ec-e978-4d89-9a70-778806b4a285",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-07-29T16:40:00.000Z",
+        "last_edited_time": "2024-07-29T16:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fbebc1e3-ed23-4cc1-9a21-a51d3516d726",
+      "type": "paragraph",
+      "text": "Paper uses data from interactions with an e-learning system to predict the final exam grade of a couse. Work involves a specific minng tool from Moodle. Models use the Plugin to extract logs, preprocess them and compare different predictive models.",
+      "raw": {
+        "object": "block",
+        "id": "fbebc1e3-ed23-4cc1-9a21-a51d3516d726",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-07-29T16:40:00.000Z",
+        "last_edited_time": "2024-07-29T16:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper uses data from interactions with an e-learning system to predict the final exam grade of a couse. Work involves a specific minng tool from Moodle. Models use the Plugin to extract logs, preprocess them and compare different predictive models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper uses data from interactions with an e-learning system to predict the final exam grade of a couse. Work involves a specific minng tool from Moodle. Models use the Plugin to extract logs, preprocess them and compare different predictive models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e9393dbe-bd9f-4234-aa5a-0b9503bd8803",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e9393dbe-bd9f-4234-aa5a-0b9503bd8803",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-07-29T16:41:00.000Z",
+        "last_edited_time": "2024-07-29T16:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "00240e22-7805-4878-8ddb-c3bc2a0bcb77",
+      "type": "paragraph",
+      "text": "Authors also look at the effects of discretization and rebalancing of the data and its impact on Model performance. This is followed by some examples and a discussion of the importance of accuracy and interpretability of these models for decision making.",
+      "raw": {
+        "object": "block",
+        "id": "00240e22-7805-4878-8ddb-c3bc2a0bcb77",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-07-29T16:41:00.000Z",
+        "last_edited_time": "2024-07-29T16:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors also look at the effects of discretization and rebalancing of the data and its impact on Model performance. This is followed by some examples and a discussion of the importance of accuracy and interpretability of these models for decision making.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors also look at the effects of discretization and rebalancing of the data and its impact on Model performance. This is followed by some examples and a discussion of the importance of accuracy and interpretability of these models for decision making.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "54eaed11-4507-447b-aee6-af824a8d556c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "54eaed11-4507-447b-aee6-af824a8d556c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:35:00.000Z",
+        "last_edited_time": "2024-08-24T10:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7210ac2f-9426-4b5c-a063-723aa742bb4a",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "7210ac2f-9426-4b5c-a063-723aa742bb4a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:35:00.000Z",
+        "last_edited_time": "2024-08-24T10:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0cd1cbb9-f928-4dc0-abbc-78c73c500d23",
+      "type": "paragraph",
+      "text": "Learning Management System are becoming more and more important in higher education. These systems bring multiple advantages such as fostering communication and sharing between participants. Moreover, the LMS collect A LOT of educational data which is good → more data allows for more analysis.",
+      "raw": {
+        "object": "block",
+        "id": "0cd1cbb9-f928-4dc0-abbc-78c73c500d23",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:35:00.000Z",
+        "last_edited_time": "2024-08-24T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning Management System are becoming more and more important in higher education. These systems bring multiple advantages such as fostering communication and sharing between participants. Moreover, the LMS collect A LOT of educational data which is good → more data allows for more analysis.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning Management System are becoming more and more important in higher education. These systems bring multiple advantages such as fostering communication and sharing between participants. Moreover, the LMS collect A LOT of educational data which is good → more data allows for more analysis.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cff17241-7299-457d-932a-3771adc62fb3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "cff17241-7299-457d-932a-3771adc62fb3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:39:00.000Z",
+        "last_edited_time": "2024-08-24T10:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d367a165-48a9-424a-a79c-f88c259e27f6",
+      "type": "paragraph",
+      "text": "However, these large amounts of data also become close unmanageable as the systems themselves do not have intuitive means of extracting and analyzing this data. Data mining may be useful and, at the time of writing, was starting to gain popularity for multiple educational applications → most of them involving the prediction/classification of student performance. ",
+      "raw": {
+        "object": "block",
+        "id": "d367a165-48a9-424a-a79c-f88c259e27f6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:39:00.000Z",
+        "last_edited_time": "2024-08-24T10:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "However, these large amounts of data also become close unmanageable as the systems themselves do not have intuitive means of extracting and analyzing this data. Data mining may be useful and, at the time of writing, was starting to gain popularity for multiple educational applications → most of them involving the prediction/classification of student performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However, these large amounts of data also become close unmanageable as the systems themselves do not have intuitive means of extracting and analyzing this data. Data mining may be useful and, at the time of writing, was starting to gain popularity for multiple educational applications → most of them involving the prediction/classification of student performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0b57eb98-4b07-41d3-9beb-7eafacd08dd3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "0b57eb98-4b07-41d3-9beb-7eafacd08dd3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:45:00.000Z",
+        "last_edited_time": "2024-08-24T10:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "61df153d-2d9e-48ab-a8fc-c617199440a3",
+      "type": "paragraph",
+      "text": "The authors make a discussion of targets and models used:",
+      "raw": {
+        "object": "block",
+        "id": "61df153d-2d9e-48ab-a8fc-c617199440a3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:45:00.000Z",
+        "last_edited_time": "2024-08-24T10:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors make a discussion of targets and models used:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors make a discussion of targets and models used:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fcfb955b-bee7-4af2-a956-20cc9b88b957",
+      "type": "paragraph",
+      "text": "\nThus, goal of work is to compare different algorithms to see which one is the best at classifying students (predict final grade) using Data Mining techniques. In total, the authors will try and compare the performance of 21 distinct algorithms.",
+      "raw": {
+        "object": "block",
+        "id": "fcfb955b-bee7-4af2-a956-20cc9b88b957",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-24T10:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "\nThus, goal of work is to compare different algorithms to see which one is the best at classifying students (predict final grade) using Data Mining techniques. In total, the authors will try and compare the performance of 21 distinct algorithms.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "\nThus, goal of work is to compare different algorithms to see which one is the best at classifying students (predict final grade) using Data Mining techniques. In total, the authors will try and compare the performance of 21 distinct algorithms.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a3a568c-c0aa-4c10-b2c5-440da3bcd737",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2a3a568c-c0aa-4c10-b2c5-440da3bcd737",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:53:00.000Z",
+        "last_edited_time": "2024-08-24T10:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "712d8a50-2dad-4c23-bce1-4a3fb14b3beb",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "712d8a50-2dad-4c23-bce1-4a3fb14b3beb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:53:00.000Z",
+        "last_edited_time": "2024-08-24T10:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d106f485-d6f1-42e8-a2e3-140f50529f59",
+      "type": "paragraph",
+      "text": "The authors developed a Data Mining tool that would be oriented to 2 distinct types of users:",
+      "raw": {
+        "object": "block",
+        "id": "d106f485-d6f1-42e8-a2e3-140f50529f59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:51:00.000Z",
+        "last_edited_time": "2024-08-24T10:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors developed a Data Mining tool that would be oriented to 2 distinct types of users:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors developed a Data Mining tool that would be oriented to 2 distinct types of users:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "272c7786-a456-43a9-a0ae-416f8a4633b9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "272c7786-a456-43a9-a0ae-416f8a4633b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:58:00.000Z",
+        "last_edited_time": "2024-08-24T11:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f16d8e4e-802b-4972-9ae8-8262da27675d",
+      "type": "paragraph",
+      "text": "The Moodle used by these authors is made out of 145 tables. The pipeline is divided into 3 steps:\n",
+      "raw": {
+        "object": "block",
+        "id": "f16d8e4e-802b-4972-9ae8-8262da27675d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:58:00.000Z",
+        "last_edited_time": "2024-08-24T11:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Moodle used by these authors is made out of 145 tables. The pipeline is divided into 3 steps:\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Moodle used by these authors is made out of 145 tables. The pipeline is divided into 3 steps:\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c0f1e654-0f21-4540-86b2-fa988825273f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c0f1e654-0f21-4540-86b2-fa988825273f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:06:00.000Z",
+        "last_edited_time": "2024-08-24T11:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "caed084c-22fa-48d7-8a4e-47e4c872f8af",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "caed084c-22fa-48d7-8a4e-47e4c872f8af",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:06:00.000Z",
+        "last_edited_time": "2024-08-24T11:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "02bc6be1-e6f8-411f-a7f9-0be93a50532a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "02bc6be1-e6f8-411f-a7f9-0be93a50532a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:07:00.000Z",
+        "last_edited_time": "2024-08-24T11:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "120fcb2d-ed86-4966-9e9f-f8feb0bff11a",
+      "type": "paragraph",
+      "text": "The authors make 2 distinct experiments to validate the performance and usefulness of their classification algorithms. For that, the authors use data from 438 students attending 7 Online Engineering Courses - Universitylevel but unspecified whether Graduate or Undergrads.",
+      "raw": {
+        "object": "block",
+        "id": "120fcb2d-ed86-4966-9e9f-f8feb0bff11a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:07:00.000Z",
+        "last_edited_time": "2024-08-24T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors make 2 distinct experiments to validate the performance and usefulness of their classification algorithms. For that, the authors use data from 438 students attending 7 Online Engineering Courses - Universitylevel but unspecified whether Graduate or Undergrads.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors make 2 distinct experiments to validate the performance and usefulness of their classification algorithms. For that, the authors use data from 438 students attending 7 Online Engineering Courses - Universitylevel but unspecified whether Graduate or Undergrads.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ded6b272-3137-4fb6-8342-290df1f21dde",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ded6b272-3137-4fb6-8342-290df1f21dde",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:13:00.000Z",
+        "last_edited_time": "2024-08-24T11:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "09ead948-75d7-4708-b111-91d3c68acbc8",
+      "type": "paragraph",
+      "text": "The authors then make a comparison of the performance of their different algorithms to predict the final grade of a student. Authors select the moment of prediction as the likely end of the courses because that is the moment when there is more data. ",
+      "raw": {
+        "object": "block",
+        "id": "09ead948-75d7-4708-b111-91d3c68acbc8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:13:00.000Z",
+        "last_edited_time": "2024-08-24T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors then make a comparison of the performance of their different algorithms to predict the final grade of a student. Authors select the moment of prediction as the likely end of the courses because that is the moment when there is more data. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors then make a comparison of the performance of their different algorithms to predict the final grade of a student. Authors select the moment of prediction as the likely end of the courses because that is the moment when there is more data. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "138cff04-903f-47e6-be12-54c4299b9be4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "138cff04-903f-47e6-be12-54c4299b9be4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:20:00.000Z",
+        "last_edited_time": "2024-08-24T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c37e11a2-4f70-4707-a5dc-fe13570daef7",
+      "type": "paragraph",
+      "text": "Results show that using the entire dataset seems to generate the best overall accuracy, with the results being much poorer when cutting rows and slightly poorer when removing some features. 14 algorithms (out of 21) have better performance on all features and data.",
+      "raw": {
+        "object": "block",
+        "id": "c37e11a2-4f70-4707-a5dc-fe13570daef7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:12:00.000Z",
+        "last_edited_time": "2024-08-24T11:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that using the entire dataset seems to generate the best overall accuracy, with the results being much poorer when cutting rows and slightly poorer when removing some features. 14 algorithms (out of 21) have better performance on all features and data.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that using the entire dataset seems to generate the best overall accuracy, with the results being much poorer when cutting rows and slightly poorer when removing some features. 14 algorithms (out of 21) have better performance on all features and data.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ad4546cf-07c0-4ebc-b240-65d371922ef6",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ad4546cf-07c0-4ebc-b240-65d371922ef6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:27:00.000Z",
+        "last_edited_time": "2025-01-23T10:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/5958a9e1-213d-4e07-bc26-1f34434fba01/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664HPOU6SZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151833Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCyTKc0pxu5RzaJoDedU%2Bj%2FQD2H93QwfzgyzXmurI2%2BdQIgWLp7E%2BNpx6uoxyKPB4OmK5YQqpym7qJN5Ckry2Exuf0q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDJyDc2bynH%2BKYqJNkCrcA2lksV%2FNQxEkyXnMdE588uOJV%2FvGqMNqYGEiHCoy2tM3vQpzfCQRy3hQ7Xz70jIxoXa2d0H%2B6S69933jO1ZbGNvrFtTshxrsPduB4fWQqVISnF6g48rQ1Si9ad2FMT1%2FIOZRt%2Fz7%2FU28Vw2Nj%2BU40B7tbIJrU5M4LbbcTQZh3Xm9OdxzyIarAvHVfQeNLzj8K%2Fu8BRWh9InfuYXh3zSG1giwmiK%2FGq7t%2BwkttMkEU2zhMKn2SpqCHY5AvaBd4OdiqzqjrYZ%2BW%2BiKMBTeU6ini%2BupenegYTX4ZI%2B87rEodw5oIYv3ttlRfturGf26Kpb%2B%2BIR5tKH5NXnvine0o%2B4e4DV%2Fy6QL2GL2MTMLqp4CbYaRsKysMKGJJK%2BjhP8NzTKLDbpKdSJW1G%2FyYi3JVbk349DT%2FaxYaXvoMCITwC%2BARBAKVJittEXPUoskGXEgCIIHOuRGQbzH%2B3lYy7iHQ3FPXwJfQ9KG8IMwvrufoDEJI8vMs4ZCdD9oHJYqsbqEVkkmuTbHH9gcWP6MI2wdha4VNr%2FwuCjegHUAAPr%2B25pGVYIcC3XiI9uhgpa2hTZatmaOfhOQoonawArnx84ke7aSI1XzAJ4FmacdD7VJcKv0IyDpvxzB5V4lWjHLuniJMMfv884GOqUBdyp%2BaCmsBgrD0hB75y6nMmbwRUQewBGYEVwrMFTRpmxbbZnfQtnk3pTboZcr0tV%2B4swmWWaXiK3Q3%2FmNfTC1hQ0uzsHg91qEdZFg76FYAvACCoDCRBRGZRQxdQijr2Kx8IQ1lRqs7cciHlWZlJAnQ%2FWLSj80iPWRkEWQm9ZUWVDESkJeAySNmkFEJCy%2FNeXM8eQTWMSx1vX6%2FbQ0BI1OtHpoPHST&X-Amz-Signature=26726afd89a42e0123a32a0b1175af1a090efc9e8047f811c88ad48d5714cdd9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:18:33.634Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3ebff848-6e33-4115-878a-fd2923091aa2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3ebff848-6e33-4115-878a-fd2923091aa2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:41:00.000Z",
+        "last_edited_time": "2024-08-24T11:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2ac50e39-b17c-455f-82df-a0de36601220",
+      "type": "paragraph",
+      "text": "On a second experiment, the authors introduced new changes to the data: Discretization of the features (using equal-width rules to split the features into 3 distinct categories) and Resampling (using Random Oversampling). ",
+      "raw": {
+        "object": "block",
+        "id": "2ac50e39-b17c-455f-82df-a0de36601220",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T10:51:00.000Z",
+        "last_edited_time": "2024-08-24T11:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "On a second experiment, the authors introduced new changes to the data: Discretization of the features (using equal-width rules to split the features into 3 distinct categories) and Resampling (using Random Oversampling). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "On a second experiment, the authors introduced new changes to the data: Discretization of the features (using equal-width rules to split the features into 3 distinct categories) and Resampling (using Random Oversampling). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c170ceaf-9b1c-4b62-86b4-f13442c06402",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c170ceaf-9b1c-4b62-86b4-f13442c06402",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:46:00.000Z",
+        "last_edited_time": "2025-01-23T10:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/0d21183f-4a18-416a-9674-15e0ba37cd20/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664HPOU6SZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151833Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCyTKc0pxu5RzaJoDedU%2Bj%2FQD2H93QwfzgyzXmurI2%2BdQIgWLp7E%2BNpx6uoxyKPB4OmK5YQqpym7qJN5Ckry2Exuf0q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDJyDc2bynH%2BKYqJNkCrcA2lksV%2FNQxEkyXnMdE588uOJV%2FvGqMNqYGEiHCoy2tM3vQpzfCQRy3hQ7Xz70jIxoXa2d0H%2B6S69933jO1ZbGNvrFtTshxrsPduB4fWQqVISnF6g48rQ1Si9ad2FMT1%2FIOZRt%2Fz7%2FU28Vw2Nj%2BU40B7tbIJrU5M4LbbcTQZh3Xm9OdxzyIarAvHVfQeNLzj8K%2Fu8BRWh9InfuYXh3zSG1giwmiK%2FGq7t%2BwkttMkEU2zhMKn2SpqCHY5AvaBd4OdiqzqjrYZ%2BW%2BiKMBTeU6ini%2BupenegYTX4ZI%2B87rEodw5oIYv3ttlRfturGf26Kpb%2B%2BIR5tKH5NXnvine0o%2B4e4DV%2Fy6QL2GL2MTMLqp4CbYaRsKysMKGJJK%2BjhP8NzTKLDbpKdSJW1G%2FyYi3JVbk349DT%2FaxYaXvoMCITwC%2BARBAKVJittEXPUoskGXEgCIIHOuRGQbzH%2B3lYy7iHQ3FPXwJfQ9KG8IMwvrufoDEJI8vMs4ZCdD9oHJYqsbqEVkkmuTbHH9gcWP6MI2wdha4VNr%2FwuCjegHUAAPr%2B25pGVYIcC3XiI9uhgpa2hTZatmaOfhOQoonawArnx84ke7aSI1XzAJ4FmacdD7VJcKv0IyDpvxzB5V4lWjHLuniJMMfv884GOqUBdyp%2BaCmsBgrD0hB75y6nMmbwRUQewBGYEVwrMFTRpmxbbZnfQtnk3pTboZcr0tV%2B4swmWWaXiK3Q3%2FmNfTC1hQ0uzsHg91qEdZFg76FYAvACCoDCRBRGZRQxdQijr2Kx8IQ1lRqs7cciHlWZlJAnQ%2FWLSj80iPWRkEWQm9ZUWVDESkJeAySNmkFEJCy%2FNeXM8eQTWMSx1vX6%2FbQ0BI1OtHpoPHST&X-Amz-Signature=27ec26ceac68db660626b790629b450e90fb26076c126acd1c4e143ea3181cd2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:18:33.643Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a4099f64-6618-4e80-87ed-8456abd2ef20",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a4099f64-6618-4e80-87ed-8456abd2ef20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:46:00.000Z",
+        "last_edited_time": "2024-08-24T11:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "edc63919-82a5-4993-9e97-7ad082301fc9",
+      "type": "paragraph",
+      "text": "Essencially, the best overall accuracies are obtained using either the numerical or categorical features and not rebalancing the data. However, to achieve, on average, better results on the Geometric Mean of Accuracies, then training the models on Rebalanced Data seem to achieve better results. ",
+      "raw": {
+        "object": "block",
+        "id": "edc63919-82a5-4993-9e97-7ad082301fc9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:43:00.000Z",
+        "last_edited_time": "2024-08-24T11:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Essencially, the best overall accuracies are obtained using either the numerical or categorical features and not rebalancing the data. However, to achieve, on average, better results on the Geometric Mean of Accuracies, then training the models on Rebalanced Data seem to achieve better results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Essencially, the best overall accuracies are obtained using either the numerical or categorical features and not rebalancing the data. However, to achieve, on average, better results on the Geometric Mean of Accuracies, then training the models on Rebalanced Data seem to achieve better results. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d83a60e-7cb2-4c06-86c5-fbc24e6fa9a1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d83a60e-7cb2-4c06-86c5-fbc24e6fa9a1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:49:00.000Z",
+        "last_edited_time": "2024-08-24T11:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "057b59c6-de8c-4905-89c0-dbbd6e9a8ec4",
+      "type": "paragraph",
+      "text": "Due to the sensitive nature of educational data, the authors discuss the importance of interpretable models with Decision Tree based models being at the forefront of this interpretability. These are followed by Rule Induction Algorithms and Fuzzy Rule Algorithms. Finally, Statistical and NN methods are considered the less interpretable.",
+      "raw": {
+        "object": "block",
+        "id": "057b59c6-de8c-4905-89c0-dbbd6e9a8ec4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-24T11:49:00.000Z",
+        "last_edited_time": "2025-03-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Due to the sensitive nature of educational data, the authors discuss the importance of interpretable models with Decision Tree based models being at the forefront of this interpretability. These are followed by Rule Induction Algorithms and Fuzzy Rule Algorithms. Finally, Statistical and NN methods are considered the less interpretable.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Due to the sensitive nature of educational data, the authors discuss the importance of interpretable models with Decision Tree based models being at the forefront of this interpretability. These are followed by Rule Induction Algorithms and Fuzzy Rule Algorithms. Finally, Statistical and NN methods are considered the less interpretable.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a93d10da-b061-4b95-9ea5-e6fe5c811fa5",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "a93d10da-b061-4b95-9ea5-e6fe5c811fa5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2025-03-16T18:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a54a1fb3-7716-49d5-860e-66f42f03f759",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a54a1fb3-7716-49d5-860e-66f42f03f759",
+        "parent": {
+          "type": "page_id",
+          "page_id": "487dd38f-3fc1-4172-b038-7096cd8eee5e"
+        },
+        "created_time": "2024-08-01T15:24:00.000Z",
+        "last_edited_time": "2024-08-24T11:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

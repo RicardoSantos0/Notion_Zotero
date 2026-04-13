@@ -1,0 +1,94 @@
+{
+  "references": [
+    {
+      "id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "title": "A Course Agnostic Approach to Predicting Student Success from VLE Log Data Using Recurrent Neural Networks",
+      "authors": [],
+      "year": null,
+      "journal": "Data Driven Approaches in Digital Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0761101e",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Exam Performance",
+          "Target": "Exam Grade ",
+          "Students": "255659 students",
+          "Courses": "All courses in a HEI",
+          "Data sources": "LMS",
+          "Features": "[Moodle Accesses in each week]",
+          "Moment of Prediction": "Course Halfway Point",
+          "Preprocessing Details": "Extraction of the weekly number of logins on Moodle from the logs. Data comprises exam sittings across 5 years.",
+          "Models": "Dummy “Average”\nLSTM\nRandom Forest\nLSTM - 0.2 D\nLSTM - 0.5 D",
+          "Assessment Strategy": "Unspecified",
+          "Performance Metric: Best Model": "{MSE: 200.133 - LSTM - 0.5 Dropout, R-Squared: 0.13547 : L STM - 0.2 Dropout}",
+          "Comments": "Work uses RNNs to predict final exam grade at each course’s halfway point. Specific criteria on target interpretation are not present.\n\nModel Assessment Strategy is not specified, but assumed to be Holdout given that this is a Deep Learning approach.\n\nDropout on LSTM models does not result in a significant difference to other LSTM models.",
+          "Limitations": "Interpretation of Target Variable is not clearly defined.\n\nModel assessment strategy is not specified.\n\nAmbiguous rules for determination of best model.\n\nObtained R-Squared is verly low despite outperforming baseline model.\n\nExclusively uses LMS, not considering other data sources. "
+        }
+      ],
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+        "block_index": 15
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1919fdc1",
+      "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "text": "Authors use RNNs to predict whether a student will succeed or not. Experiment is performed on all students of a university, regardless of the course. Authors claim to achieve good performance even though performance is unspecified.",
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759"
+      }
+    },
+    {
+      "id": "an_078a399a",
+      "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "text": "The purpose of the work is to use logs to do early prediction on the final exam at an institution-wide level. The reason for this approach is the small sample size of the individual courses, even considering that the data includes 5 years. The initial sample considers 255659 exam sittings. ",
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759"
+      }
+    },
+    {
+      "id": "an_b3bddb17",
+      "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "text": "The reason for a course -agnostic approach comes from the fact that going course-specific would require cutting courses and any new course would not be able to start with a model already available. The paper, thus, proposes a RNN-based course-agnostic model to perform the task.",
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759"
+      }
+    },
+    {
+      "id": "an_46a5d2b0",
+      "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "text": "The work is inspired by Course Signals, a system that identifies students in need and then informs faculty to help students. The advantage of using an architecture that works with sequences is that it does not require extraction of meta-features from the logs. ",
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759"
+      }
+    },
+    {
+      "id": "an_9809ae40",
+      "reference_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759",
+      "text": "The authors decide to use RNN-based models to make the prediction. They also decide to make a comparison with other models, specifically a regressor that predicts the average grade on exams and a Random Forest. Results show that the LSTM models are the ones who achieve the lowest MSE.",
+      "provenance": {
+        "page_id": "42ad0b30-debb-4504-bffa-b7c7db7f2759"
+      }
+    }
+  ],
+  "workflow_states": []
+}

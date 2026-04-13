@@ -1,0 +1,616 @@
+{
+  "page_id": "3f51854c-9789-406f-b81b-47220fd2049e",
+  "title": "Leveraging LMS Logs to Analyze Self-Regulated Learning Behaviors in a Maker-based Course",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "d6f63cc9-2631-496c-86ea-8e865493adbf",
+          "name": "Maker Education",
+          "color": "pink"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-02-12T09:00:00.000+00:00",
+        "end": "2026-02-12T16:36:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ng et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ng et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Leveraging LMS Logs to Analyze Self-Regulated Learning Behaviors in a Maker-based Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Leveraging LMS Logs to Analyze Self-Regulated Learning Behaviors in a Maker-based Course",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3054750c-f3ba-8063-9eee-f489832f8442",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Sequential Pattern Mining",
+          "Higher Education",
+          "Blended Learning",
+          "104 students",
+          "1 Digitizing Cultural Heritage course",
+          "LMS logs, Student Reflection",
+          "Adaption of 3 Common SRL Models",
+          "[Goal Setting, Making Personal Plans, Working on a Task, Reformulation, Evaluation, Reflection]",
+          "Authors take logs and associate different activities as part of wider SRL constructs. In total, there were 63716 logged events, out of which 48602 were labelled. \n\n ",
+          "cSPADE",
+          "Mininum support of 0.40 and minimum confidence of 0.6.",
+          "2",
+          "High PErforming Students:\n\nStudents tended to reflect more on their SRL behaviors. Specifically, these students have a higher proneness of Reformulation→ Reflection than their peers. \n\nLow-Performing Students\n\nLess prone to reflect on their SRL behaviours. \n\n",
+          "High performance students are often better at planning and reflecting their peers.\n\nLow performing students often focus on fulfilling academic obligations rather than promoting their work and development.\n\nInstructors can provide specific prompts to “force” their students to reflect more on their SRL behaviors. \n\n",
+          "Authors use Sequential Pattern mining to identify different transitions of learning behavior. \n\n",
+          "Only uses one very general course. "
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-804d-981c-f8d310a6f6a3",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-804d-981c-f8d310a6f6a3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2025-03-06T16:10:00.000Z",
+        "last_edited_time": "2025-03-06T16:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-801a-a942-c9042463ed6c",
+      "type": "paragraph",
+      "text": "The work explores the usage of Logs in maker-based pedagogy to generate evidence of SRL. The authors use frequencies and sequential patterns for that using a mixed-method approach. They developed a log-based analytic framework for development of SRL phases for maker activities. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-801a-a942-c9042463ed6c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2025-03-06T16:10:00.000Z",
+        "last_edited_time": "2025-03-06T17:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work explores the usage of Logs in maker-based pedagogy to generate evidence of SRL. The authors use frequencies and sequential patterns for that using a mixed-method approach. They developed a log-based analytic framework for development of SRL phases for maker activities. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work explores the usage of Logs in maker-based pedagogy to generate evidence of SRL. The authors use frequencies and sequential patterns for that using a mixed-method approach. They developed a log-based analytic framework for development of SRL phases for maker activities. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-80dd-84b1-ce7471144a37",
+      "type": "paragraph",
+      "text": "Dataset uses 48602 logged events and 131 excerpts from student reflections. Segmentation is done on High-Performance vs Low-Performing students. High-Performing students exhibited SRL behaviours more frequently. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-80dd-84b1-ce7471144a37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2025-03-06T17:16:00.000Z",
+        "last_edited_time": "2025-03-06T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dataset uses 48602 logged events and 131 excerpts from student reflections. Segmentation is done on High-Performance vs Low-Performing students. High-Performing students exhibited SRL behaviours more frequently. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dataset uses 48602 logged events and 131 excerpts from student reflections. Segmentation is done on High-Performance vs Low-Performing students. High-Performing students exhibited SRL behaviours more frequently. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-8094-9d1d-f356280e98da",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-8094-9d1d-f356280e98da",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2026-02-12T16:01:00.000Z",
+        "last_edited_time": "2026-02-12T16:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-80e5-aa2f-f5e28943bc12",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-80e5-aa2f-f5e28943bc12",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2026-02-12T16:01:00.000Z",
+        "last_edited_time": "2026-02-12T16:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3054750c-f3ba-8063-9eee-f489832f8442",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3054750c-f3ba-8063-9eee-f489832f8442",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+        },
+        "created_time": "2026-02-12T16:01:00.000Z",
+        "last_edited_time": "2026-02-12T16:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

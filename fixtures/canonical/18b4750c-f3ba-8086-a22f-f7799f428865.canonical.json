@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-8086-a22f-f7799f428865",
+      "title": "Deep Knowledge Tracing and Dynamic Student  Classification for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE International Conference on Data Mining",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1c3c2198",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Correctedness of next exercise",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4163 ASSISTments 2009 learners, 28834 ASSISTments, 19840 ASSISTments 2014, 574 KDDCup learners",
+          "Courses": "ASSISTments, Cognitive Tutor, LMS logs",
+          "Data sources": "Sequence of Answers",
+          "Features": "[Student Ability, Sequences of Answers, Sequence of Attempts]",
+          "Flaw of Previous Models": "DKT, and similar models, while decent at modelling student knowledge from sequences of answers, it does not consider attributes such as learning ability.",
+          "Novelty of Model": "DKT-Dynamic Student Classification looks to incorporate this missing piece by incorporating a clustering module meant to encode the learning ability on each timestep. \n\nThe cluster is used as an additional parameter to the model for each timestep.\n\n",
+          "Preprocessing Details": "Data is extracted from the sequence of answers and used. Sequence of attempts is used to clustert learne rs according to their learning ability.\n\nSequence and Cluster are used as inputs for the model on each time-step. All results published are done on sequences of 20 attempts and 8 clusters.",
+          "Models": "BKT, IRT, PFA, DKT, DKT-DSC",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "AST09\n{RMSE: 0.33 - DKT-DSC, AUC: 0.91 - DKT-DSC}\n\nAST12\n{RMSE: 0.35 - DKT-DSC, AUC: 0.87 - DKT-DSC}\n\nAST14\n{RMSE: 0.35 - DKT-DSC, AUC: 0.87 - DKT-DSC}\n\nKDDCup\n{RMSE: 0.36 - DKT-DSC, AUC: 0.81 - DKT-DSC & IRT}",
+          "Comments": "Authors propose a method that incorporates the learner’s learning rate via clustering at each timestep.\n\nAblation study by varying Time interval and number of clusters to use are attempted. ",
+          "Limitations": "Simlar to DKT, each question is associated to a single KC.\n\nOnly includes improvement to DKT, not considering effects on other KT approaches."
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8086-a22f-f7799f428865",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_8ec2dd74",
+      "reference_id": "18b4750c-f3ba-8086-a22f-f7799f428865",
+      "text": "KT is a key task in ITS and DKT is one of the state-of-the-art architectures. In this work, the authors expand on DKT by previously assigning learners to different teams with an unsupervised learning technique according to their ability on regular time intervals. Model becomes better at predicting performance in comparison to other State-of-the-art techniques.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8086-a22f-f7799f428865"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,1052 @@
+{
+  "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3",
+  "title": "Massive LMS log data analysis for the early prediction of course agnostic student performance",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "8e784f04-4096-4276-92af-bdbd09c6207f",
+          "name": "Early Prediction",
+          "color": "red"
+        },
+        {
+          "id": "74194ca3-b5b7-4e37-8144-674e3e578f74",
+          "name": "Student Performance",
+          "color": "yellow"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "e1f3f330-dec1-4fe5-b116-3cbd2c64b2d2",
+          "name": "Interaction Patterns",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-02T00:00:00.000+01:00",
+        "end": "2025-03-27T23:42:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Riestra Gonzalez et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Riestra Gonzalez et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Massive LMS log data analysis for the early prediction of course agnostic student performance",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Massive LMS log data analysis for the early prediction of course agnostic student performance",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c34750c-f3ba-8032-99f5-ea08fa89e6ca",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning",
+          "Being at Risk of Failing in a Course - Grade in Course Calculated by Authors",
+          "At-Risk (1) vs Not At-Risk (0) ",
+          "15944 students from the University of Oviedo",
+          "699 courses",
+          "LMS logs",
+          "[UrlViewTime1, AccomplishMandatory, QuizViewTime1, CourseViewtime1, UrlViewTime2, AccomplishMandatoryGrade, QuizViewTime2, CourseViewtime2, UrlViewTime3, AccomplishMandatoryPctGraded, QuizViewTime3, CourseViewtime3, UrlViewTime4, AccomplishMandatoryPercentileGrade, QuizViewTimePct, CourseViewtime4, UrlViewTime5, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, UrlViewTimePct, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, AssignViewTime1, AccomplishOptionalGrade, QuizAttemptTime2, CourseViewtimePct, AssignViewTime2, AccomplishOptionalPctGraded, QuizAttemptTime3, ResourceViewTime1, AssignViewTime3, AccomplishOptionalPercentileGrade, QuizAttemptTimePct, ResourceViewTime2, AssignViewTimePct, CourseViewPct, QuizCloseAttemptTime1, ResourceViewTime3, AssignSubmitTime1, ResourceViewPct, QuizCloseAttemptTime2, ResourceViewTime4, AssignSubmitTime2, ResourceViewUniquePct, QuizCloseAttemptTime3, ResourceViewTime5, AssignSubmitTime3, UrlViewPct, QuizCloseAttemptTimePct, ResourceViewTimePct, AssignSubmitTimePct, UrlViewUniquePct, AssignViewPct, AssignViewUniquePct, QuizViewPct, QuizViewUniquePct, AssignSubmitPct, AssignSubmitUniquePct, QuizAttemptPct, QuizAttemptUniquePct, QuizCloseUniquePct, QuizCloseAttemptUniquePct, ForumViewForumPct, ForumViewDiscussionPct]",
+          "10%, 25%, 33% and 50% course duration",
+          "All data is obtained from LMS logs. Each row represents a student-course pairing. For each pairing, the authors first decide what date would represent specific course curation thresholds and create a model for each dataset. \n\nThe features extracted are calculated in relative terms (since different courses have different durations.\n\nAll features were normalized to range [0,1], authors also perform Feature Selection and Hyper-Parameter Tuning.\n\nClass imbalance is addressed using multiple Resampling Techniques.\n\n",
+          "ZeroR, NB, CART, LR, MLP, SVM",
+          "Holdout Method",
+          "10% Course Duration:\n\n{AUC: 0.76016 -MLP, Accuracy: 0.7738 - MLP, F1-Score: 0.8634 - MLP, F0.5-Score: 0.8130 - MLP}\n\n25% Course Duration:\n\n{AUC: 0.87717 -MLP, Accuracy: 0.8349 - MLP, F1-Score: 0.8944 - MLP, F0.5-Score: 0.8681 - MLP}\n\n33% Course Duration:\n\n{AUC: 0.91724 -MLP, Accuracy: 0.8650 - MLP, F1-Score: 0.9121-MLP, F0.5-Score: 0.8970 - CART}\n\n50% Course Duration:\n\n{AUC: 0.95834 -MLP, Accuracy: 0.9002 - MLP, F1-Score: 0.9382 - CART, F0.5-Score: 0.9300 - CART}",
+          "Authors do a model for each course duration threshold. Selection of best algorithm is done by comparison of The AUC score.\n\nThen, the classifier is evaluated in terms of comparison against a ZeroR and over the F1 and F0.5 scores.\n\nAll models are meant to perform early prediction and for that reason, the authors never look at the performance at 100% course duration.",
+          "Exclusive use of LMS logs. \n\nLimited interpretability of features due to potential differences in instructional conditions.\n\nIt is very likely that the model implementation suffers from data leakage (RFECV in a Holdout-Method).\n\nAuthors do not have access to Final Grades and compute a proxy based on Assignment marks available on Moodle for each course."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning",
+          "Obtaining a Passing Grade in a Course - Grade in Course Calculated by Authors",
+          "Passing Grade (1) vs Not Passing Grade (0) ",
+          "15944 students from the University of Oviedo",
+          "699 courses",
+          "LMS logs",
+          "[UrlViewTime1, AccomplishMandatory, QuizViewTime1, CourseViewtime1, UrlViewTime2, AccomplishMandatoryGrade, QuizViewTime2, CourseViewtime2, UrlViewTime3, AccomplishMandatoryPctGraded, QuizViewTime3, CourseViewtime3, UrlViewTime4, AccomplishMandatoryPercentileGrade, QuizViewTimePct, CourseViewtime4, UrlViewTime5, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, UrlViewTimePct, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, AssignViewTime1, AccomplishOptionalGrade, QuizAttemptTime2, CourseViewtimePct, AssignViewTime2, AccomplishOptionalPctGraded, QuizAttemptTime3, ResourceViewTime1, AssignViewTime3, AccomplishOptionalPercentileGrade, QuizAttemptTimePct, ResourceViewTime2, AssignViewTimePct, CourseViewPct, QuizCloseAttemptTime1, ResourceViewTime3, AssignSubmitTime1, ResourceViewPct, QuizCloseAttemptTime2, ResourceViewTime4, AssignSubmitTime2, ResourceViewUniquePct, QuizCloseAttemptTime3, ResourceViewTime5, AssignSubmitTime3, UrlViewPct, QuizCloseAttemptTimePct, ResourceViewTimePct, AssignSubmitTimePct, UrlViewUniquePct, AssignViewPct, AssignViewUniquePct, QuizViewPct, QuizViewUniquePct, AssignSubmitPct, AssignSubmitUniquePct, QuizAttemptPct, QuizAttemptUniquePct, QuizCloseUniquePct, QuizCloseAttemptUniquePct, ForumViewForumPct, ForumViewDiscussionPct]",
+          "10%, 25%, 33% and 50% course duration",
+          "All data is obtained from LMS logs. Each row represents a student-course pairing. For each pairing, the authors first decide what date would represent specific course curation thresholds and create a model for each dataset. \n\nThe features extracted are calculated in relative terms (since different courses have different durations.\n\nAll features were normalized to range [0,1], authors also perform Feature Selection and Hyper-Parameter Tuning.\n\nClass imbalance is addressed using multiple Resampling Techniques.\n",
+          "ZeroR, NB, CART, LR, MLP, SVM",
+          "Holdout Method",
+          "10% Course Duration:\n\n{AUC: 0.72783 -MLP, Accuracy: 0.6799 - MLP, F1-Score: 0.7527 - MLP, F0.5-Score: 0.7133 - MLP}\n\n25% Course Duration:\n\n{AUC: 0.84596 -MLP, Accuracy: 0.7637 - MLP, F1-Score: 0.8129 - MLP, F0.5-Score: 0.7948 - CART}\n\n33% Course Duration:\n\n{AUC: 0.89223 -MLP, Accuracy: 0.8161 - MLP, F1-Score: 0.8525 -MLP, F0.5-Score: 0.8382 - CART}\n\n50% Course Duration:\n\n{AUC: 0.94669 -MLP, Accuracy: 0.8717 - MLP, F1-Score: 0.8941 - MLP, F0.5-Score: 0.8781 - MLP}",
+          "Authors do a model for each course duration threshold. Selection of best algorithm is done by comparison of The AUC score.\n\nThen, the classifier is evaluated in terms of comparison against a ZeroR and over the F1 and F0.5 scores.\n\nAll models are meant to perform early prediction and for that reason, the authors never look at the performance at 100% course duration.",
+          "Exclusive use of LMS logs. \n\nLimited interpretability of features due to potential differences in instructional conditions.\n\nIt is very likely that the model implementation suffers from data leakage (RFECV in a Holdout-Method).\n\nAuthors do not have access to Final Grades and compute a proxy based on Assignment marks available on Moodle for each course."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning",
+          "Being a High-Perfroming Student in a Course - Grade in Course Calculated by Authors",
+          "High-Performer (1) vs Not High-Performer (0) ",
+          "15944 students from the University of Oviedo",
+          "699 courses",
+          "LMS logs",
+          "[UrlViewTime1, AccomplishMandatory, QuizViewTime1, CourseViewtime1, UrlViewTime2, AccomplishMandatoryGrade, QuizViewTime2, CourseViewtime2, UrlViewTime3, AccomplishMandatoryPctGraded, QuizViewTime3, CourseViewtime3, UrlViewTime4, AccomplishMandatoryPercentileGrade, QuizViewTimePct, CourseViewtime4, UrlViewTime5, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, UrlViewTimePct, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, AssignViewTime1, AccomplishOptionalGrade, QuizAttemptTime2, CourseViewtimePct, AssignViewTime2, AccomplishOptionalPctGraded, QuizAttemptTime3, ResourceViewTime1, AssignViewTime3, AccomplishOptionalPercentileGrade, QuizAttemptTimePct, ResourceViewTime2, AssignViewTimePct, CourseViewPct, QuizCloseAttemptTime1, ResourceViewTime3, AssignSubmitTime1, ResourceViewPct, QuizCloseAttemptTime2, ResourceViewTime4, AssignSubmitTime2, ResourceViewUniquePct, QuizCloseAttemptTime3, ResourceViewTime5, AssignSubmitTime3, UrlViewPct, QuizCloseAttemptTimePct, ResourceViewTimePct, AssignSubmitTimePct, UrlViewUniquePct, AssignViewPct, AssignViewUniquePct, QuizViewPct, QuizViewUniquePct, AssignSubmitPct, AssignSubmitUniquePct, QuizAttemptPct, QuizAttemptUniquePct, QuizCloseUniquePct, QuizCloseAttemptUniquePct, ForumViewForumPct, ForumViewDiscussionPct]",
+          "10%, 25%, 33% and 50% course duration",
+          "All data is obtained from LMS logs. Each row represents a student-course pairing. For each pairing, the authors first decide what date would represent specific course curation thresholds and create a model for each dataset. \n\nThe features extracted are calculated in relative terms (since different courses have different durations.\n\nAll features were normalized to range [0,1], authors also perform Feature Selection and Hyper-Parameter Tuning.\n\nClass imbalance is addressed using multiple Resampling Techniques.\n\n",
+          "ZeroR, NB, CART, LR, MLP, SVM",
+          "Holdout Method",
+          "10% Course Duration:\n\n{AUC: 0.68783 -MLP, Accuracy: 0.8008 - MLP, F1-Score: 0.8909 - CART, F2-Score: 0.9370 - CART}\n\n25% Course Duration:\n\n{AUC: 0.82014 -MLP, Accuracy: 0.8375 - MLP, F1-Score: 0.9074 - CART, F2-Score: 0.7457 - CART}\n\n33% Course Duration:\n\n{AUC: 0.88024 -CART, Accuracy: 0.8624 - MLP, F1-Score: 0.9217 - CART, F2-Score: 0.9464 - CART}\n\n50% Course Duration:\n\n{AUC: 0.93515 -CART, Accuracy: 0.9006 - MLP, F1-Score: 0.9419 - CART, F2-Score: 0.9540 - CART}",
+          "Authors do a model for each course duration threshold. Selection of best algorithm is done by comparison of The AUC score.\n\nThen, the classifier is evaluated in terms of comparison against a ZeroR and over the F1 and F0.5 scores.\n\nAll models are meant to perform early prediction and for that reason, the authors never look at the performance at 100% course duration.",
+          "Exclusive use of LMS logs. \n\nLimited interpretability of features due to potential differences in instructional conditions.\n\nIt is very likely that the model implementation suffers from data leakage (RFECV in a Holdout-Method).\n\nAuthors do not have access to Final Grades and compute a proxy based on Assignment marks available on Moodle for each course."
+        ]
+      ],
+      "index": 9
+    },
+    {
+      "block_id": "1c34750c-f3ba-80b3-92eb-c1e4384b0c07",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "B-Learning",
+          "15944 students from the University of Oviedo",
+          "699 courses",
+          "LMS logs",
+          "None",
+          "[UrlViewTime1, AccomplishMandatory, QuizViewTime1, CourseViewtime1, UrlViewTime2, AccomplishMandatoryGrade, QuizViewTime2, CourseViewtime2, UrlViewTime3, AccomplishMandatoryPctGraded, QuizViewTime3, CourseViewtime3, UrlViewTime4, AccomplishMandatoryPercentileGrade, QuizViewTimePct, CourseViewtime4, UrlViewTime5, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, UrlViewTimePct, AccomplishOptional, QuizAttemptTime1, CourseViewtime5, AssignViewTime1, AccomplishOptionalGrade, QuizAttemptTime2, CourseViewtimePct, AssignViewTime2, AccomplishOptionalPctGraded, QuizAttemptTime3, ResourceViewTime1, AssignViewTime3, AccomplishOptionalPercentileGrade, QuizAttemptTimePct, ResourceViewTime2, AssignViewTimePct, CourseViewPct, QuizCloseAttemptTime1, ResourceViewTime3, AssignSubmitTime1, ResourceViewPct, QuizCloseAttemptTime2, ResourceViewTime4, AssignSubmitTime2, ResourceViewUniquePct, QuizCloseAttemptTime3, ResourceViewTime5, AssignSubmitTime3, UrlViewPct, QuizCloseAttemptTimePct, ResourceViewTimePct, AssignSubmitTimePct, UrlViewUniquePct, AssignViewPct, AssignViewUniquePct, QuizViewPct, QuizViewUniquePct, AssignSubmitPct, AssignSubmitUniquePct, QuizAttemptPct, QuizAttemptUniquePct, QuizCloseUniquePct, QuizCloseAttemptUniquePct, ForumViewForumPct, ForumViewDiscussionPct]",
+          "All variables were standardized and, subsequently, authors used PCA and Feature Agglomeration Techniques - deciding on FA.\n\nFeatures usedd became: [URL and Assignment Access (UAA), MAndatory and Optional Assignment Evaluation (MOA), Quizz Access Time (QAT), Course and Resourve View (CIR)]",
+          "k-Means",
+          "{Gap Statistic - Selection of k, ANOVA - comparison between clusters, Tukey’s Honest Significant Difference}",
+          "6",
+          "One clustering solution was obtained for each moment of prediction (10%, 25%, 33% and 50%). While the number of clusters remains the same, there are differences:\n\nQAT - - : Cluster oif students who answe quizzes a lot faster.\n\nQAT ++: Opposite of previous previous\n\nUAA- : Students who check external resources earlier than their peers.\n\nCIR++: Students who consistently procrastinate in course contents and resources.\n\nMOA-CIR+: Assignment ew valuations below average while having above average views of resources.\n\nAverage: Average for all aggregate variables.",
+          "Students who answer quizzes the fastest have higher average performance while  the lowest performing student are learners who procrastinate.\n\nThe largest CIR++ (real procrastinator) achieve the second lowest average performance.",
+          "One clustering solution was obtained for each moment of prediction. The statistical tests identify at least 4 out of the 6 clusters created to have a correlation with performance.",
+          "Inferred Grade.\n\nLack of Additional Data sources.\n\nLoss oif interpretability satemming from the Aggregate variables without a proper use of the remaining variables.\n\n\nClustering using a different approach would have been awesome.\n"
+        ]
+      ],
+      "index": 12
+    }
+  ],
+  "blocks": [
+    {
+      "id": "0d2a8c3c-cc59-4f01-a687-51e0d7ec4506",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "0d2a8c3c-cc59-4f01-a687-51e0d7ec4506",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T18:38:00.000Z",
+        "last_edited_time": "2024-08-02T19:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "16a222d2-25da-4362-b304-96c601b9592b",
+      "type": "paragraph",
+      "text": "Early detection could allow students at risk to receive timely feedback. Likewise, early identification of excellent students could allow for the delivery of more personalized content. ",
+      "raw": {
+        "object": "block",
+        "id": "16a222d2-25da-4362-b304-96c601b9592b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:06:00.000Z",
+        "last_edited_time": "2024-08-02T19:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Early detection could allow students at risk to receive timely feedback. Likewise, early identification of excellent students could allow for the delivery of more personalized content. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Early detection could allow students at risk to receive timely feedback. Likewise, early identification of excellent students could allow for the delivery of more personalized content. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "eac95986-93fb-4b60-a55f-c56dd104afe4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "eac95986-93fb-4b60-a55f-c56dd104afe4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:11:00.000Z",
+        "last_edited_time": "2024-08-02T19:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b74d6c92-e453-4d7d-858d-38c1ffc44d0a",
+      "type": "paragraph",
+      "text": "Many works either make models using data from the whole course or, in many cases, make early prediction on a single course. For those reasons, the authors use LMS logs to create a set of course agnostic models that predict student success at different thresholds of course duration: 10%, 25%, 33% and 50%.",
+      "raw": {
+        "object": "block",
+        "id": "b74d6c92-e453-4d7d-858d-38c1ffc44d0a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:11:00.000Z",
+        "last_edited_time": "2024-08-02T19:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Many works either make models using data from the whole course or, in many cases, make early prediction on a single course. For those reasons, the authors use LMS logs to create a set of course agnostic models that predict student success at different thresholds of course duration: 10%, 25%, 33% and 50%.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Many works either make models using data from the whole course or, in many cases, make early prediction on a single course. For those reasons, the authors use LMS logs to create a set of course agnostic models that predict student success at different thresholds of course duration: 10%, 25%, 33% and 50%.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "69ba50d8-3d0f-49b5-89cd-93304007c734",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "69ba50d8-3d0f-49b5-89cd-93304007c734",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:18:00.000Z",
+        "last_edited_time": "2024-08-02T19:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "844f4659-6b8e-43e6-b09b-ba7a5ff91ee2",
+      "type": "paragraph",
+      "text": "Models are trained using the full logs of the Univeristy of Oviedo in the years 2013 to 2014. Different Classifiers are tested and MLP emerged as the best model throughout, achieving 80% accuracy at 10% course duration and 90% at the end of the course. ",
+      "raw": {
+        "object": "block",
+        "id": "844f4659-6b8e-43e6-b09b-ba7a5ff91ee2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:18:00.000Z",
+        "last_edited_time": "2024-08-02T19:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Models are trained using the full logs of the Univeristy of Oviedo in the years 2013 to 2014. Different Classifiers are tested and MLP emerged as the best model throughout, achieving 80% accuracy at 10% course duration and 90% at the end of the course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Models are trained using the full logs of the Univeristy of Oviedo in the years 2013 to 2014. Different Classifiers are tested and MLP emerged as the best model throughout, achieving 80% accuracy at 10% course duration and 90% at the end of the course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b0a6bcd7-769b-4d02-9175-aa111d1b22c0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b0a6bcd7-769b-4d02-9175-aa111d1b22c0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:21:00.000Z",
+        "last_edited_time": "2024-08-02T19:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "751f75d0-68d9-41c9-b7a2-d7b7365fd212",
+      "type": "paragraph",
+      "text": "On a second analysis, the authors performed clustering and found 6 groups and, in 4 of the 6, there is a strong correlation between interaction patterns and student performance.",
+      "raw": {
+        "object": "block",
+        "id": "751f75d0-68d9-41c9-b7a2-d7b7365fd212",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:21:00.000Z",
+        "last_edited_time": "2024-08-02T19:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "On a second analysis, the authors performed clustering and found 6 groups and, in 4 of the 6, there is a strong correlation between interaction patterns and student performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "On a second analysis, the authors performed clustering and found 6 groups and, in 4 of the 6, there is a strong correlation between interaction patterns and student performance.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-803e-bd30-f5e304e9821b",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-803e-bd30-f5e304e9821b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2025-03-27T22:17:00.000Z",
+        "last_edited_time": "2025-03-27T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-8032-99f5-ea08fa89e6ca",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-8032-99f5-ea08fa89e6ca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2025-03-27T22:17:00.000Z",
+        "last_edited_time": "2025-03-27T23:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-808d-9539-fa9be61397a1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-808d-9539-fa9be61397a1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2025-03-27T22:17:00.000Z",
+        "last_edited_time": "2025-03-27T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-806c-b2e9-e894cae06724",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-806c-b2e9-e894cae06724",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2025-03-27T22:17:00.000Z",
+        "last_edited_time": "2025-03-27T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-80b3-92eb-c1e4384b0c07",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-80b3-92eb-c1e4384b0c07",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2025-03-27T22:17:00.000Z",
+        "last_edited_time": "2025-03-27T22:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "76a2be8c-6f1a-4099-8d75-ee01a08e4bf9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "76a2be8c-6f1a-4099-8d75-ee01a08e4bf9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:22:00.000Z",
+        "last_edited_time": "2025-03-27T22:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "43bf5c32-ae91-48e4-818d-327eb92e0116",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "43bf5c32-ae91-48e4-818d-327eb92e0116",
+        "parent": {
+          "type": "page_id",
+          "page_id": "662255d3-9dd6-4ba3-a40c-17466b6e33f3"
+        },
+        "created_time": "2024-08-02T19:14:00.000Z",
+        "last_edited_time": "2024-08-02T19:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

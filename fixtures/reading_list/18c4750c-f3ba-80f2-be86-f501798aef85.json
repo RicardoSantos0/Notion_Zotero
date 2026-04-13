@@ -1,0 +1,644 @@
+{
+  "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85",
+  "title": "Complexity-based attentive interactive student performance prediction for personalized course study planning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        },
+        {
+          "id": "fd8f8d9d-48b6-4991-ba30-5969c8add96f",
+          "name": "Factorization Machines",
+          "color": "blue"
+        },
+        {
+          "id": "68333d36-27ea-4e78-9de8-544fe70da8ea",
+          "name": "Interaction Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "fcb48c60-1920-4eee-8c96-1c11c9d572aa",
+          "name": "Attention Networks",
+          "color": "purple"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Self-Regulation”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Self-Regulation”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "XOA;",
+        "name": "K-12",
+        "color": "purple"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Education and Information Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Education and Information Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-08T22:50:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Complexity-based attentive interactive student performance prediction for personalized course study planning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Complexity-based attentive interactive student performance prediction for personalized course study planning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c24750c-f3ba-807a-a795-cb7404a383aa",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "K-12 & Adult Education",
+          "Face-to-Face",
+          "Final Grade",
+          "Score (0 to 100)",
+          "43 highschool students in Dataset 1,\n\n501 students of undisclosed level for Dataset 2",
+          "5 different courses in dataset 1 \n\n8 Courses in dataset 2",
+          "Student Grades in Different Tests\n\nStudent Information",
+          "[Factorization Machines Features, DNN Features, ANN Features]",
+          "Before Next Test",
+          "Authors use two datasets with different feature sets. \n\nDataset 2 includes information about the concept of complexity, something not observable in the K-12 dataset. ",
+          "Factorization Machines,\nNeural Factorization Machines,\nAttentional Factorization Machines, \nDeep Factorization Machines,\nCAISP",
+          "10 Repeated-Holdout",
+          "{MSE: 13.0303 - Optimized CAISP, MAE: 2.2639 - Optimized CAISP}",
+          "CAISP is a model that works in 3 stages:\n\n1. Feature Learning - The creation of features using 3 approaches: DNN Features, Factorization Machines Features and Attention Features\n\n2. Feature Fusion\n\n3. Prediction - The feature set fused in this way is given as input to a logistic regression",
+          "Undisclosed Information about second Dataset. \n\nBehavioral Features are not Considered, only prior performance.\n\n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1944750c-f3ba-80c7-b014-ed01f987b154",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-80c7-b014-ed01f987b154",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-02-08T22:46:00.000Z",
+        "last_edited_time": "2025-02-08T22:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-802f-87c6-ef412d8ac746",
+      "type": "paragraph",
+      "text": "Student performance prediction is used to leverage existing information about students to predict future learning performance. Authors follow a predictive approach to predict course grades. Most studies look into different aspects of learning but fail to account for how different factors (features) affect different learners.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-802f-87c6-ef412d8ac746",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-02-08T22:46:00.000Z",
+        "last_edited_time": "2025-02-08T22:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Student performance prediction is used to leverage existing information about students to predict future learning performance. Authors follow a predictive approach to predict course grades. Most studies look into different aspects of learning but fail to account for how different factors (features) affect different learners.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Student performance prediction is used to leverage existing information about students to predict future learning performance. Authors follow a predictive approach to predict course grades. Most studies look into different aspects of learning but fail to account for how different factors (features) affect different learners.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-8043-a3bc-de4c083dc58c",
+      "type": "paragraph",
+      "text": "Authors propose Complexity-based Attentive Interactive Student Performance (CAISP). The model uses attention networks. When tested on 2 real-word, datasets, CAISP outperformed two state-of-the-art solutions.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-8043-a3bc-de4c083dc58c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-02-08T22:52:00.000Z",
+        "last_edited_time": "2025-02-08T22:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose Complexity-based Attentive Interactive Student Performance (CAISP). The model uses attention networks. When tested on 2 real-word, datasets, CAISP outperformed two state-of-the-art solutions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose Complexity-based Attentive Interactive Student Performance (CAISP). The model uses attention networks. When tested on 2 real-word, datasets, CAISP outperformed two state-of-the-art solutions.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-8078-81b9-ffa1f91373bb",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-8078-81b9-ffa1f91373bb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-03-26T22:45:00.000Z",
+        "last_edited_time": "2025-03-26T22:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-807a-a795-cb7404a383aa",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-807a-a795-cb7404a383aa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-03-26T22:45:00.000Z",
+        "last_edited_time": "2025-03-26T22:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-8058-9e01-ea1222aa7861",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-8058-9e01-ea1222aa7861",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80f2-be86-f501798aef85"
+        },
+        "created_time": "2025-03-26T23:19:00.000Z",
+        "last_edited_time": "2025-03-26T23:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

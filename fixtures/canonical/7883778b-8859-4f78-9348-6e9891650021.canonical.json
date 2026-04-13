@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "7883778b-8859-4f78-9348-6e9891650021",
+      "title": "Predicting At-Risk Students Using Clickstream Data in the Virtual Learning Environment",
+      "authors": [],
+      "year": null,
+      "journal": "Sustainability",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_8a398c42",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course PErformance",
+          "Target": "Pass vs Fail",
+          "Students": "22437 OULAD students",
+          "Courses": "All 7 OULAD Course",
+          "Data sources": "LMS logs, Assessments, Student/course records",
+          "Features": "[Weekly collection of 20 attributes]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "Raw OULAD tables were processed into a week-wise sequential format. Students were identified uniquely per course presentation. Repeated students and repeated course attempts were excluded. Distinction and pass were merged into a single pass class; fail remained the other class. Withdrawal cases do not appear to be part of the final binary dataset. Final analytic dataset contained 22,437 instances. Weekly vectors were padded to equal sequence length, and padded values were masked before input to the LSTM.",
+          "Models": "LSTM, Logistic Regression, MLP, SVM",
+          "Assessment Strategy": "Temporal Validation",
+          "Performance Metric: Best Model": "Week 10:\n{Accuracy: 0.90 - LSTM}\n\nEnd of Course:\n{Accuracy: 0.9523 – LSTM, Precision: 0.9346 – LSTM, Recall: 0.7579 – LSTM}",
+          "Comments": "Main contribution is showing that week-wise sequential clickstream modeling with LSTM improves early prediction of at-risk students compared with non-sequential baselines using aggregated data. The paper argues that the sequential format captures learning behaviour better than flat aggregated vectors. The pass group consistently showed more VLE interaction than the fail group, as illustrated in the week-wise average-click chart on page 4.",
+          "Limitations": "The study does not analyze repeated students or course-repeat behaviour. It also does not perform course-level analysis in depth, despite using multiple courses. \n\nThe dataset transformation excludes some potentially relevant complexity, and future work is suggested to add assessment scores and textual feedback data. \n\nWithdrawal is not retained as a prediction class in the final setup, which simplifies the problem."
+        }
+      ],
+      "provenance": {
+        "page_id": "7883778b-8859-4f78-9348-6e9891650021",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_ae109a35",
+      "reference_id": "7883778b-8859-4f78-9348-6e9891650021",
+      "text": "The authors explore the effectiveness of LSTM to predict end of course performance in an online University. Results obtained on OULAD dataset show that this approach greatly outperforms the baseline Logistic Regression model, achieving 95.2% accuracy, 93% precision and 76% Recall. ",
+      "provenance": {
+        "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+      }
+    },
+    {
+      "id": "an_283346b1",
+      "reference_id": "7883778b-8859-4f78-9348-6e9891650021",
+      "text": "Moreover, the authors show that it is possible to use a week-wise granularity to make such predictions, with the model being abel to achieve 90% accuracy whithin the first 10 weeks (out of 38). ",
+      "provenance": {
+        "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+      }
+    }
+  ],
+  "workflow_states": []
+}

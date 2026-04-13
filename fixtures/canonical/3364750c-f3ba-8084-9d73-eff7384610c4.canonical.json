@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "3364750c-f3ba-8084-9d73-eff7384610c4",
+      "title": "GCKT: Context-Aware Gating of Heterogeneous Learning\nFeatures With Transformer for Cognitive Knowledge\nTracing in Intelligent Tutoring Systems",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Intelligent Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b7bd5531",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Predicting future cognitive performance from historical interactions",
+          "Target": "Cognitive level class (0–6); also binary correctness in auxiliary evaluation",
+          "Students": "14,224 (MoocRadar), 467 (Math)",
+          "Courses": "MOOC + high-school math contexts",
+          "Data sources": "MoocRadar, Math",
+          "Features": "Exercise, response, response time, interval time, topic, concept, cognitive level",
+          "Flaw of Previous Models": "Prior KT models use simple concatenation or fixed weighting of heterogeneous signals",
+          "Novelty of Model": "Transformer KT with context-aware gated fusion of heterogeneous features",
+          "Preprocessing Details": "Student-wise 7:3 split; temporal order preserved; 5-fold CV; padded/truncated to length 500; QQQ-matrix smoothing γ=0.03",
+          "Models": "DKT, AKT, SAINT+, LPKT, GCKT",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "MOOCRadar: \n{AUC: 0.8602 - GCKT}\n\nMath: \n{AUC: 0.8615 - GGCKT}\n\n\n",
+          "Comments": "Main contribution is better fusion of temporal + hierarchical knowledge features; also somewhat interpretable via gate-weight analysis",
+          "Limitations": "Needs rich cognitive annotations; cold start and very long sequences remain issues\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_317832d5",
+      "reference_id": "3364750c-f3ba-8084-9d73-eff7384610c4",
+      "text": "Most KT models struggle with different types of signals that are generated during learning. Authors present Gated-full features Transformer Cognitive Knowledge Tracing which promises to be able to integrate these heterogenous signals via a fusion gate (instead of the general concatenation or weighting used in other architectures). \n\nThe model embeds topics and concepts which is later concatenated with with exercise, time, correctedness before passing through this fusion-gate which generates weights that hopefully provide a better representation of the knowledge State. Tests on multiple Public Datasets show that CGKT beats other KT models. ",
+      "provenance": {
+        "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+      }
+    }
+  ],
+  "workflow_states": []
+}

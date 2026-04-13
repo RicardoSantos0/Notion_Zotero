@@ -1,0 +1,556 @@
+{
+  "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84",
+  "title": "Predicting Student Dropout in Higher Education",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "T`Bn",
+          "name": "ArXiv",
+          "color": "pink"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ArXiv",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ArXiv",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-03T22:05:00.000+00:00",
+        "end": "2025-03-25T23:14:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Aulck et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Aulck et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting Student Dropout in Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting Student Dropout in Higher Education",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c14750c-f3ba-80c3-8e5b-ea3ddfff5c44",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Student Will Complete His/Her Graduation",
+          "Graduation (1) vs Non-Completion (0)",
+          "32538 students",
+          "All Students who Entered in 1998.",
+          "Student Demographics\nPre-College Academic Performance, Complete Transcript Records with First-Term Academic Performance\n",
+          "[Close to 1000 Features divided into 4 Categories: Demographics, SAT and ACT, Top 150 majors on Campus and Finally Department-Based Features - credits enrolled, classes taken and GPA for all classes taken in that department.]",
+          "End of First Quarter",
+          "Initial dataset coimprised 69116 students from the University of Washington, but majority class was undersampled in order to ensure that the dataset was balanced. \n\nNon-Completion was defined as did not complete program within 6 years after registering for the first-year. \n\nIn total, the model contained close to 1000 features",
+          "Logistic Regression\nkNN\nRandom Forest\n",
+          "10-Fold Cross-Validation",
+          "{Accuracy: 0.6659 Logistic Regression, AUC: 0.729 - Logistic Regression}",
+          "Authors also perform single-variable Logistic Regression to assess the predictive power of multiple features.\n\nWork also shows a following-level attempting to predict when a Dropout will happen.",
+          "Curse of Dimensionality.\n\nLack of model optimization efforts.\n\nVery simple set of estimators used. "
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18f4750c-f3ba-80da-8feb-ddad4fc0ca6c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80da-8feb-ddad4fc0ca6c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+        },
+        "created_time": "2025-02-03T22:05:00.000Z",
+        "last_edited_time": "2025-02-03T22:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-8013-bbd6-ef04dc07d3f8",
+      "type": "paragraph",
+      "text": "Around 30% of students that are registered in the first year do not return for the second. The authors take a step to understand why by analyzing data from the University of Washington. Authors find that it is possible to identify early predictors and, not only that, that it is also possible to predict dropout when a single term of academic data (end of first-semester equivalent). ",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-8013-bbd6-ef04dc07d3f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+        },
+        "created_time": "2025-02-03T22:05:00.000Z",
+        "last_edited_time": "2025-02-03T22:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Around 30% of students that are registered in the first year do not return for the second. The authors take a step to understand why by analyzing data from the University of Washington. Authors find that it is possible to identify early predictors and, not only that, that it is also possible to predict dropout when a single term of academic data (end of first-semester equivalent). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Around 30% of students that are registered in the first year do not return for the second. The authors take a step to understand why by analyzing data from the University of Washington. Authors find that it is possible to identify early predictors and, not only that, that it is also possible to predict dropout when a single term of academic data (end of first-semester equivalent). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-808a-9521-d1787c2e525e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-808a-9521-d1787c2e525e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+        },
+        "created_time": "2025-03-25T22:47:00.000Z",
+        "last_edited_time": "2025-03-25T22:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-80ff-82d2-d51bbd07ef47",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-80ff-82d2-d51bbd07ef47",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+        },
+        "created_time": "2025-03-25T22:47:00.000Z",
+        "last_edited_time": "2025-03-25T22:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-80c3-8e5b-ea3ddfff5c44",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-80c3-8e5b-ea3ddfff5c44",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+        },
+        "created_time": "2025-03-25T22:47:00.000Z",
+        "last_edited_time": "2025-03-25T23:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

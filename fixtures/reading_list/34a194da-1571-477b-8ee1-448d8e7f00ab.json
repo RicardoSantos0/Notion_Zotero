@@ -1,0 +1,770 @@
+{
+  "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab",
+  "title": "Architectural Adaptation and Regularization of Attention Networks for Incremental Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "709a2e43-ef52-41fa-a5b1-40b6fbc38237",
+          "name": "Incremental",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        },
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wong & Ramasamy",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wong & Ramasamy",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-08-03",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Architectural Adaptation and Regularization of Attention Networks for Incremental Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Architectural Adaptation and Regularization of Attention Networks for Incremental Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80d1-a319-f356a8831c23",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Next Question is Correct",
+          "Correct (1) vs Incorrect (0)",
+          "1709 ASSISTments17 learners, 3852 ASSISTments09 learners\n\n",
+          "ASSISTments",
+          "Sequence of Answers, Question Test",
+          "[Sequence of Answers, Questions and Concepts]",
+          "Attention-based KT models are the curent state-of-the-art on multiple datasets. However, most of them assume that the pool of questions does not change after the training of the model. \n\nAdding questions in online settings would lead to an increase of the input dimension.\n\nMoreover, the changes in behavior of the learners introduce distributional drift. \n",
+          "The proposed model uses an attention mechanism for questions and concepts that increases dynamically while preserving the information provided by the pre-existing pool of questions. \n\nIn addition, the model weights are regularized.",
+          "This model is based on AKT with a change in the question-concept mapping. \n\nThis approach involves the ability to increase the dimensionality of the attention module whether it is because of the introduction of new concepts or the introduction of new questions.\n\nThis is done by copying the weights of the previous question while initializing the new weights for the new question using Rasch embedding.",
+          "J-AKT, D-AKT, ARAIKT, ARAIKT without reg",
+          "5-Fold Cross-Validation",
+          "AST17- 04/05\n{AUC: 0.7331 - ARAIKT, Accuracy: 0.6972 - ARAIKT}\n\nAST09\n{AUC: 0.6750 - ARAIKT, Accuracy: 0.6838 - ARAIKT}\n\n",
+          "Authors propose a change to the attention representation of AKT and show that it outperforms AKT on the tested dataset. \n\nAuthors also perform an ablation study to showcase the improtance of having regularization or not.",
+          "Needs valdiation on additional datasets. "
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "5440ef68-f10c-4479-a456-0ed2a497188a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "5440ef68-f10c-4479-a456-0ed2a497188a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:41:00.000Z",
+        "last_edited_time": "2024-08-06T18:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5b727d32-6a8e-48dd-a133-358f4af762f0",
+      "type": "paragraph",
+      "text": "A limitation of the current embedding based representations of KT models is the fact that the number of questions is often fixed. Thus, when EdTech platforms add new questions, the current models cannot follow this update. ",
+      "raw": {
+        "object": "block",
+        "id": "5b727d32-6a8e-48dd-a133-358f4af762f0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:41:00.000Z",
+        "last_edited_time": "2024-08-06T18:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A limitation of the current embedding based representations of KT models is the fact that the number of questions is often fixed. Thus, when EdTech platforms add new questions, the current models cannot follow this update. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A limitation of the current embedding based representations of KT models is the fact that the number of questions is often fixed. Thus, when EdTech platforms add new questions, the current models cannot follow this update. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a41b135a-0f54-4dfc-a4ea-c9b5a7b82c96",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a41b135a-0f54-4dfc-a4ea-c9b5a7b82c96",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:43:00.000Z",
+        "last_edited_time": "2024-08-06T18:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1909e267-a4dc-43a5-8307-69a1eafad770",
+      "type": "paragraph",
+      "text": "Authors propose a model that adapts to growing pools of concepts and/or questions. The model, called ARAIKT rpeserves previous representations while being able to adapt to increasing concepts and question banks. ",
+      "raw": {
+        "object": "block",
+        "id": "1909e267-a4dc-43a5-8307-69a1eafad770",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:43:00.000Z",
+        "last_edited_time": "2024-08-06T18:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose a model that adapts to growing pools of concepts and/or questions. The model, called ARAIKT rpeserves previous representations while being able to adapt to increasing concepts and question banks. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose a model that adapts to growing pools of concepts and/or questions. The model, called ARAIKT rpeserves previous representations while being able to adapt to increasing concepts and question banks. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "116616ba-9f22-4ea1-b39d-08a83711b14f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "116616ba-9f22-4ea1-b39d-08a83711b14f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:46:00.000Z",
+        "last_edited_time": "2024-08-06T18:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b7e4200c-3e19-4fe9-b7e2-5999aaf68527",
+      "type": "paragraph",
+      "text": "Testing of the model on portions of the ASSISTment dataset showcase effectiveness of the approach.",
+      "raw": {
+        "object": "block",
+        "id": "b7e4200c-3e19-4fe9-b7e2-5999aaf68527",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2024-08-06T18:46:00.000Z",
+        "last_edited_time": "2024-08-06T18:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Testing of the model on portions of the ASSISTment dataset showcase effectiveness of the approach.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Testing of the model on portions of the ASSISTment dataset showcase effectiveness of the approach.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-80c1-a722-c80f964ab688",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-80c1-a722-c80f964ab688",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2025-04-24T11:33:00.000Z",
+        "last_edited_time": "2025-04-24T11:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-80e9-b171-e2a220b2539a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-80e9-b171-e2a220b2539a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2025-04-24T11:33:00.000Z",
+        "last_edited_time": "2025-04-24T11:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/8a6ac58a-cca0-47b0-87f6-d80542df72b2/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662GJ2GBFO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153117Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCw%2FV8E4fp92hnxMv90SuW6XWD8md9M0JZ500XcI7f3mgIgV%2FCGlhnsgR%2BDM93d0wC9CJqABfxhvC5tZgBENRlxM48q%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDMoSGBGMFPUIVIvXkCrcA9s%2FcH7sPuTD6U9HwgyMjKTFC0sRYNIH0HjbfEQgJslHAkzt8zU2dG2HHHOSZnP%2Bju5vVL3dlve5B%2FOxELU16nywWb%2FHg3%2Fw2eFDCXNkl4nVEuFJ%2Ft4sWvOgNYEU2WuMiVa%2Fn5XTsiZl4Z6f42HS9Jh7kvftl4397Eyql8uK8zovYh0Fc0IOaIbYtaNv9yja5ZNk%2F51lQcf5%2FXlC4c%2BMDFY2lXZDw%2FdwJSF%2FBK4zlx4Mpep2s%2FzrFICI3iTrwuqv0cWbzSoQawVdRgeV2cw4d3hBoeH0zFIcUAy%2BzR8DU6575xMrRwH4i%2FYZJZ2kpDRD1DNmSX59R60QtST8LahTxsggUjxoXIwdEU5%2BYs%2FBkWi1xsWXe3VwWEam006c9tZpJ5EU9CzadvOE0vnsC2Q1XKUFcEzS3QWT8q4BXz6fU8J0Cc3nPZ7lgxuLyCXwsLhaKK7lFQBohYm0DLYjFbybJv%2BDC5UYx5%2Fyu48lsT0eLnBCkYJg5TMBlkaLgbNZemAPVVlFldAM%2FB5b47TBb8e2UBLZEXOsJM7riG8HyG%2FlVMhw%2B%2Fb9FGJOOh4IB3ihlZhYACUgdOgw6U5PIeof%2FQSyH9auh08EwAcZydrTWzPeC5e3bGoM7dmby6xsyUs%2FMNvu884GOqUBBW%2BxiJ65lpv46nxCn63M7EmRf8GZi048KCS0jiD8Z2nOAflJRwhTA6MtNEiAsX2sVydNISS0dTA507xAcIJ9VMbZqQKiRXjWtbKORV5sZsooIYQvTWXC3FWf34kqLiaVzhvXljMFocvuhFrRiJHQ7CEW3EasKtwO2yZnglQOWyk6b9sDXt%2Bh6i1qMH3iLEz40FqHs353frCNfsE1%2By7cVLYtngKV&X-Amz-Signature=769964bd6af20ba501267f05d641acad8cac7f6baeade308b5cbd2896216401f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:31:17.400Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8091-a6fa-f0dfd0e0d278",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8091-a6fa-f0dfd0e0d278",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80d1-a319-f356a8831c23",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80d1-a319-f356a8831c23",
+        "parent": {
+          "type": "page_id",
+          "page_id": "34a194da-1571-477b-8ee1-448d8e7f00ab"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "references": [
+    {
+      "id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "title": "Course signals at Purdue: using learning analytics to increase student success",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_fb16af6b",
+      "reference_task_id": null,
+      "schema_name": "Summary Table",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "First Year Undergraduate Students",
+          "Teaching Method": "B-Learning",
+          "Student Performance Definition": "Likelihood of failing",
+          "Target": "High rrisk of failing (Red), Potential problem succeding (Yellow), High likelihood of success (Green).",
+          "Students": "2007 Cohort: 8170;\n2008 Cohort: 9601;\n2009 Cohort: 9088\n",
+          "Courses": "Unspecified",
+          "Data sources": "LMS,\nStudent characteristics,\nPrior academic performance,\nPerformance in course to date.",
+          "Features": "",
+          "Moment of Prediction": "On-demand",
+          "Preprocessing Details": "Data is divided into 4 distinct main categories. No specific pre-processing steps are discussed. ",
+          "Models": "Proprietary SSA",
+          "Assessment Strategy": "None",
+          "Performance Metric: Best Model": "None",
+          "Comments": "This paper presents an actual system that, at least, was implemented at Purdue. \n\nThe system leverged data from multiple sources and returned a flag about success of a student. \n\nThe system also allows for multiple ways to reach out and help the students. \n\nRisk indicators are course-specific.\n\nAs far as analysis, the authors perform an analysis of co-horts across different dimensions:\n\n1. Retention rate, \n2. Analysis of Retention \n\nThe earlier the student encounters CS, the better. Also, CS seems to be an useful system even for those students who are going for Standardized TEsts-",
+          "Limitations": "Does not show results of predictive model assessmentr.\n\nProprietary secret algorithm."
+        }
+      ],
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+        "block_index": 34
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_be077b15",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Paper presents Course Signals. The system is implemented on Blackboard Vista. The system analyzes logs, past academic history and previous grades. Paper shares structure of the system and preliminary results and reception.",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_9b8f8c99",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Students receive feedback over a personalized e-mail followed with traffic-light color coding. ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_4c8f7cc9",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "There are 3 necessary conditions for student persistence:",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_ff120de5",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Thus, the authors look at Course Signals and present the way it promotes academic integration:",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_bf387854",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "The system has been under employment at Purdue University since 2007. The system uses predictive models to identify, in real time, potential students at risk. For that, there is a Predictive Student Success algorithm that is run on-demand by the instructors. ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_df25b74a",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "The SSA is a proprietary algorithm that weights 4 components that encompass:",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_40632001",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Course Signals allows for identification of students at risk by combining all dimensions into a single score that represents the likelihood of failing on the course.",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_8d7d374c",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Thse system was initially intended to help identify students at risk and was built from the ground up. The system currently (in 2012) had been used by 145 instructors, impacting 24000 students. In the courses where CS has been used, the authors have noted a general increase in the numbers of As and Bs received by the students, accompanied by a relateive decrease in the number of Cs. \n\nMoreover, the relative proportion of really low grades (Ds, Fs, and even Dropout) has substantially decreased in courses using the system.",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_78d10ffb",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "To showcase the effects, the authors display results obtained using cohorts of 2007, 2008 and 2009. For these cohorts, the authors specified conditions of students of belonging to a co-hort and then computed the retention rate for each co-hort (inside the co-hort the students were split by the number of courses using Course signals undertaken). ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_181f81cf",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Students undertaking CS courses are much more likely to continue studying and not dropout relative to their peers. Morever, this relationship seemed to hold. ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_a0cfc390",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "The second analysis is a comparison of students who had CS courses in a period vs the students who did not have any CS course. Results show that the system is benefical for students. The survey data collected to measure student satisfaction also suggests that.",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_d6dc99d3",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Positive experiences with CS by 89% of respondents and 58% would like to have CS in all courses. Students feel validated as individuals by the e-mail, describing the experience as motivating- with 2 out of 1500 respondents being the only instances of the feedback being demoralizing.",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_e7e4822c",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "Faculty claim that their life towards the design of more personalized interventions is definitely asier thanks to CS. The multi-modal nature of the data is also appreciated. Also, from the professor’’s perspective, the fact that the system automatically warns students about their progress contributes to having the students start other tasks (e.g. projects) earlier than before. \n\nIn addition, the students demonstrate more interest in the prokects as they make more questions about it and other assignments. ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_de6337f0",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "The main concern of professors is the flow of e-mails that they receive from students who were flagged. ",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    },
+    {
+      "id": "an_5861a3b0",
+      "reference_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d",
+      "text": "\n\n",
+      "provenance": {
+        "page_id": "c289b094-4a0e-4d71-9c4e-0c5428097a1d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

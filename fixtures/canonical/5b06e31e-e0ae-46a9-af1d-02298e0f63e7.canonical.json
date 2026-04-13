@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "5b06e31e-e0ae-46a9-af1d-02298e0f63e7",
+      "title": "Predicting Students’ Algebra I Performance using Reinforcement Learning with Multi-Group Fairness",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2c0447a4",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Exam Performance",
+          "Target": "1-5",
+          "Students": "14252 Algebra Nation Learners",
+          "Courses": "1 Algebra Course",
+          "Data sources": "LMS logs, Exam Grade, Learner Demographics",
+          "Features": "[StudentNumber, FRL_Status, Hispanic_Indicator, Rade_Indicator, SchoolNumber, Video watching, learning resource reading, leaderboard checking, etc…, number of homework questions, number of correct questions]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Authors do a different approach as they intend to explore the idea of fairness. \n\nAnalysis of results takes into account multi-group fairness - how distributions of certain attributes may affect the “predictions” and performance of a model. \n\nThis fairness evoluations is conducted by the selection of an approppriate metric, ",
+          "Models": "kNN, SVM, Gaussian Naive Bayes, Logistic Regression, MLP ",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Macro-BPSN AUC: 0.9359}",
+          "Comments": "Authors do a standard ML pipeline where not only do they solve a regular classification problem but afterward try to do an analysis of Bias using BPSN. \n\nThis analysis is subsequently confirmed with a Reinforcement Learning approach.",
+          "Limitations": "Specific to an Algebra Context.\n\nNO XAI analysis."
+        }
+      ],
+      "provenance": {
+        "page_id": "5b06e31e-e0ae-46a9-af1d-02298e0f63e7",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_91c971d2",
+      "reference_id": "5b06e31e-e0ae-46a9-af1d-02298e0f63e7",
+      "text": "Algorithmic bias in LA is an underexplored topic. Study proposes an algorithmic strategy meant to reduce algorithmic bias in a multi-group context. Results show promise ",
+      "provenance": {
+        "page_id": "5b06e31e-e0ae-46a9-af1d-02298e0f63e7"
+      }
+    }
+  ],
+  "workflow_states": []
+}

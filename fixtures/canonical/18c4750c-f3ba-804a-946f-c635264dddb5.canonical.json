@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-804a-946f-c635264dddb5",
+      "title": "Analytics of Learning Strategies: the Association with the Personality Traits",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_76526825",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Students": "1397 Coursera users",
+          "Courses": "1 Sit Less, Get Active Online Course",
+          "Data sources": "LMS logs, \nQuestionnaires for Personality Traits",
+          "Theoretical Grounding": "The Big 5 Personality Traits",
+          "Features": "[Transition Matrix]",
+          "Preprocessing Details": "Learning actions were grouped in learning sessions and these were given to a first-order Markov Model, which subsequently were sued as inputs to an EM model.\n\nAuthors define 30 minutes as the threshold that separates 2 learning sessions. ",
+          "Models": "Expectation-Maximization",
+          "Performance Metric: Best Model": "{Sum of Squared Errors}",
+          "Groups Created": "4",
+          "Cluster Description": "Long Diverse: most common, focus on information and video.\n\nVideo Oriented: Course videos.\n\nInformation Oriented: Main focus on is with supplementary learning materials → this tactic contains the smaller od actions per session.\n\nAssessment Oriented: Moderate long sessions.",
+          "Implications": "Personality traits are predictive of choice of learning strategy.\n\nHowever, providing assistance based on personality traits should only be a starting point. \n\n",
+          "Comments": "Each cluster refers to the clustering of Learning Sessions into learning tactics.",
+          "Limitations": "Sampling Bias → most participants were female.\n\nUse of self-reports nad limitations of the self-reports used. "
+        },
+        {
+          "Task": "Clustering",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Students": "1397 Coursera users",
+          "Courses": "1 Sit Less, Get Active Online Course",
+          "Data sources": "LMS logs, \nQuestionnaires for Personality Traits",
+          "Theoretical Grounding": "The Big 5 Personality Traits",
+          "Features": "[Number of tactics used]",
+          "Preprocessing Details": "",
+          "Models": "Hierarchical Clustering",
+          "Performance Metric: Best Model": "Kruskall-Wallis for association with performance.",
+          "Groups Created": "4",
+          "Cluster Description": "Disengaged: Largest group and lowest level of activity. students exhibit the lowest course performance.\n\nSurface: Moderate levels of activity, often especially focused on either assessments. In general they have relatively low marks in the course.\n\nActive: 30%  of learners follow this approach. For the final course topic learners increased Information Oriented tactic.\n\nHighly Active: High levels of activity starts using the Long _Diverse Oriented tactic but the tactic use decreases with time, wherein learners in this group also use Video Oriented Tactic. Learners in this strategy have the highet approval rate. ",
+          "Implications": "Personality traits are predictive of choice of learning strategy.\n\nHowever, providing assistance based on personality traits should only be a starting point. \n\n",
+          "Comments": "Each cluster refers to learning tactics adopted by students throughout their learning sessions.",
+          "Limitations": "Sampling Bias → most participants were female.\n\nUse of self-reports nad limitations of the self-reports used. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804a-946f-c635264dddb5",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_bbf94e44",
+      "reference_id": "18c4750c-f3ba-804a-946f-c635264dddb5",
+      "text": "There is a research stream focusing on extracting learning strategies from multiple sources and multiple learning settings and checking how these different learning strategies map into overall performance. However, tow gaps are apparent: doing this for MOOCs is still relatively under-explored AND connections between uncovered strategies and psychological constructs is usually not performed.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804a-946f-c635264dddb5"
+      }
+    },
+    {
+      "id": "an_60a48ab6",
+      "reference_id": "18c4750c-f3ba-804a-946f-c635264dddb5",
+      "text": "The paper uses process and sequence-mining techniques to detect learning strategies from MOOC logs and tries to map them to the Big Five personality traits. Results show 4 distinct learning strategies that were predicted by conscientiousness, emotional instability and agreeableness.  ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804a-946f-c635264dddb5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

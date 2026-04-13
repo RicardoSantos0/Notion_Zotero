@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11",
+      "title": "Explainable artificial intelligence-machine learning models to estimate overall scores in tertiary preparatory general science course",
+      "authors": [],
+      "year": null,
+      "journal": "Computers and Education: Artificial Intelligence",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_09c7d17d",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Self-Paced",
+          "Student Performance Definition": "Mark on The Exam",
+          "Target": "Overall Mark (0 to 100)",
+          "Students": "492 students",
+          "Courses": "1 General Science Course",
+          "Data sources": "Marks in Assignments and Exam",
+          "Features": "[Assignment 1 Mark, Assignment 2 Mark, Assignment 3 Mark,\nAssignment 4 Mark, Assigment 5 mark, Exam mark] ",
+          "Moment of Prediction": "After every moment of evaluation",
+          "Preprocessing Details": "Authors perform a correlation analysis and identify Exam Grade to have a 0.72 correlation with the target variable.",
+          "Models": "SVR\nELM\nXGBoost\nMLP\nExtraTrees\nGBoost\nDeep Neural Networks\nAdaBoost\nBagging\nLightGBM\nRandom Forest\nDT\n",
+          "Assessment Strategy": "Holdout Method (64% train,  16% val and 20% test)",
+          "Performance Metric: Best Model": "{RRMSE: 0.37% - SVR Model 6 - includes all predictors, MAE: 0.268 - SVR Model 6 - includes all predictors, RMAE: 0.33% - SVR Model 6 - includes all predictors}",
+          "Comments": "Authors create 6 SVR models (one after eaxh moment of evaluation).\n\nAuthors examine two modelling frameworks. The first is sequencial: M1 refers to Assignment 1 and all subsequent models have the addition of the next assignment.\n\nIn framework 2, the authors start with Exam grade and start adding each assignment grade).\n\nAuthors do feature interpretation using LIME and SHAP and find that Exam is, unsurprisingly, the most important predictor of the final grade.\n\nEarly prediction is possible as early as Week 2.\n ",
+          "Limitations": "Any model past Model 6 cannot be used for eacly prediction since it uses all elements of evaluation that are factored in to compute the final grade.\n\nModel optimization strategy and computyational cost of the techniques selected.\n\nNeeds additional predictors from other sources and generalization across institutions.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_ac04625c",
+      "reference_id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11",
+      "text": "Authors use 5 assignments and one exam mark as predictors to overall scores of students. The novelty factors from their combination of Tree-Structured Parzen Estimation and SVR. Authors evaluate their approach against other models on a sample of 492 students taking a general science course. Models are also interpreted using LIME and SHapley. ",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11"
+      }
+    },
+    {
+      "id": "an_1bd1160e",
+      "reference_id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11",
+      "text": "Results show that their model outperforms all others used, achieving the lowest RMSE, RRMSE, highest Wilmott’s index, Legates-McGabe index (LM) and Nash-Sutcliffe Efficiency. LIME also shows that exam grade is the most important factor.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-809d-8d59-d39a13bc5a11"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "645771b9-299e-43f5-a286-ccc43392b995",
+      "title": "Cluster-Based Performance of Student Dropout Prediction as a Solution for Large Scale Models in a Moodle LMS",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_00507adc",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Abandoning a Course",
+          "Target": "Dropout (1) vs No Dropout (0)",
+          "Students": "60000 university students",
+          "Courses": "920 courses at Université of Montreal",
+          "Data sources": "LMS logs",
+          "Features": "[Flag Evaluations, Speed Coefficient, Consultation Coefficient, Count Events]",
+          "Moment of Prediction": "Week 12 of 15",
+          "Preprocessing Details": "The authors consider 2 distinct datasets → one for student behaviour containing the Student logs and a second for clustering that contains information about the different courses.\n\nCourses are clustered by different characteristics of behavior…\n\nEach cluster will have its own classifier of dropout. This approach makes sense because different courses have very different ways of working.\n\nLog events were aggreagated into different constructs and were subsequently scaled using RobustScaler. ",
+          "Models": "Logistic Regression, Random Forest, GBoost, xGBoost, AdaBoost",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Precision: 0.567 - 25 clusters, Recall: 0.289 - 5 clusters, F1-Score: 0.416 - 5 Clusters, Accuracy: 0.95 - 12 Clusters, AUC: 0.642 - 5 clusters, Log-Loss: 0.653 - 12 clusters}",
+          "Comments": "In total, the authors obtained 25 clusters, 12 clusters and 5 clusters and for each cluster there were 5 candidate algorithms → 210 models being trained. \n\nIn total, the authors created and deployed 42 models → one per cluster.\n\nMetrics show that performances do not vary significantly regardless of the number of clusters considered, but 5 clusters is the winner on most metrics. ",
+          "Limitations": "No hyper-paramenter tuning is done.\n\nVery specific online context (Covid-Era)\n\nDoes not consider all resources available. \n\nDoes not consider information outside of Moodle.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "645771b9-299e-43f5-a286-ccc43392b995",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1545e03e",
+      "reference_id": "645771b9-299e-43f5-a286-ccc43392b995",
+      "text": "LA serve multiple purposes in modern educational contexts and many of the predictive models for dropout usually work better on a smaller subset of courses or a single course, with few works actually working with large numbers of courses.",
+      "provenance": {
+        "page_id": "645771b9-299e-43f5-a286-ccc43392b995"
+      }
+    },
+    {
+      "id": "an_ca397f2e",
+      "reference_id": "645771b9-299e-43f5-a286-ccc43392b995",
+      "text": "In this work, the authors use an automated system to predict student dropout. First, they start with clustering courses together based on their design and similarity. Secondly, a predictive model of dropout is specifically created for each cluster. ",
+      "provenance": {
+        "page_id": "645771b9-299e-43f5-a286-ccc43392b995"
+      }
+    }
+  ],
+  "workflow_states": []
+}

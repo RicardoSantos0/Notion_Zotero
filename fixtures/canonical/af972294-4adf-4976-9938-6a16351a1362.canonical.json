@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "af972294-4adf-4976-9938-6a16351a1362",
+      "title": "Predicting students’ performance in e‑learning using learning process and behaviour data",
+      "authors": [],
+      "year": null,
+      "journal": "Scientific Reports",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2064f5c0",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Qualified (1) vs Unqualified (0)",
+          "Students": "6272 students",
+          "Courses": "DDD Course Module in OULAD",
+          "Data sources": "LMS logs",
+          "Features": "[Learner Reparation Behaviour, Knowledge Acquisiton Behaviour, Interactive Learning Behaviour, Learning Consolidation Behaviour]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "All dimensions of extracted features are Standardized.\n\nFor feature selection, authors use Variance Threshold. \n\nFeatures are “fused” by clustering - one feature represents the entire group. ",
+          "Models": "SVM-R, SVM-L, Naive Bayesm kNN-U, kNN-D, Softmax",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "{Accuracy: 0.97 - Naive Bayes-PBC, F1-Score: 0.98 - Naive Bayes-PBC, Cohen’s Kappa: 0.94 - Naive Bayes-PBC}",
+          "Comments": "Authors present a framework of different learning behaviours call PBMC.\n\nThe work takes 12 learning behaviorsfrom one course and uses them build feature aggregations. Authors compare this representation against representations created by previous authors in the literature.\n\nAuthors show that their representation is better when compared against that of other algorithms…",
+          "Limitations": "- Holdout Method\n\n- Only tested in a single course of OULAD\n\n- Only considers e-learning scenarios.\n\n- Limited number of extracted behaviors.\n\n- No early prediction"
+        }
+      ],
+      "provenance": {
+        "page_id": "af972294-4adf-4976-9938-6a16351a1362",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_abc8a670",
+      "reference_id": "af972294-4adf-4976-9938-6a16351a1362",
+      "text": "Assessing elearning quality is often contingent on using early warning systems to predict learning outcomes. To improve on current state fo the art, the authors propose 2 new methods: BCEP and BCP that perform feature extraction on behavioral attributes. ",
+      "provenance": {
+        "page_id": "af972294-4adf-4976-9938-6a16351a1362"
+      }
+    },
+    {
+      "id": "an_377c0f17",
+      "reference_id": "af972294-4adf-4976-9938-6a16351a1362",
+      "text": "Results on OULAD show that there is some merit in the approach even though the authors are not explicit on whether they have an early warning system or not. ",
+      "provenance": {
+        "page_id": "af972294-4adf-4976-9938-6a16351a1362"
+      }
+    }
+  ],
+  "workflow_states": []
+}

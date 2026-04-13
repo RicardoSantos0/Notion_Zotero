@@ -1,0 +1,39 @@
+{
+  "references": [
+    {
+      "id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c",
+      "title": "Supporting College Choice Among International Students through Collaborative Filtering",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Artificial Intelligence in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_a3129fe5",
+      "reference_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c",
+      "text": "Authors propose a recommender system to facilitate college selection to international students. The RS uses Structural Topic Modelling to model the answers into latent variables that explain college preferences.",
+      "provenance": {
+        "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c"
+      }
+    },
+    {
+      "id": "an_42e9ab3e",
+      "reference_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c",
+      "text": "The model uses TOEFL scores as inputs to recommend any additional college the learner may be interested into. Introducing the year in which the candidate took the TOEFL test brings marginal contributions to the recommender. ",
+      "provenance": {
+        "page_id": "6cdb28d0-ecf4-47c3-885f-df892653cc0c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

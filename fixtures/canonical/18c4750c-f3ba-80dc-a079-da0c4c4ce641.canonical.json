@@ -1,0 +1,96 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+      "title": "How learning analytics can early predict under-achieving students in a blended medical education course",
+      "authors": [],
+      "year": null,
+      "journal": "Medical Teacher",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_506b3d87",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "B-Learning",
+          "Student Performance Definition": "Being at risk of Failing a Course",
+          "Target": "Grade above 65% (Safe) vs Grade Below 65% (At-risk)",
+          "Students": "133 undergraduate students",
+          "Courses": "1 Man and Environment course at Qassim University",
+          "Data sources": "Attendance Records, \nLMS logs",
+          "Features": "[Total posts initiated by a student, Total posts and replies by a student, Number of posts in first half of the course, Number of posts in second half of the course, Total times forum was read, Total hits on recourses, Total hits on course information, Total course hits, Total views before course started, Number of hits in first half of course, Number of hits in second half of course, Number of resources accessed, Total logins, Logins in first half of course, Logins in second half of course, Formative assessment grade, Mid-course formative assessment grade, Number attempts formative quizz, End of Course Assessment Grade, Response to Communication, Total views of news forum]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Data is taken and aggregated into a dataset. \n\nThe authors identify 64 potential features but ultimately decide keeping smaller subset. These are aggregated into:\n\n1. Interaction and Content Creation, \n2. Hits and Views, \n3. Logins and Course Access, \n4. Time, \n5. Formative Assessment, \n6. Communications\n\n",
+          "Models": "Automatic Linear Regression, \nLogistic Regression",
+          "Assessment Strategy": "None",
+          "Performance Metric: Best Model": "{Sensitivity: 0.81 - Logistic Regression, AUC: 0.90 - Logistic Regression, Recall: 0.808 - Logistic Regression, Accuracy: 0.947 - Logistic Regression}",
+          "Comments": "Authors attempt to apply a Predictive Modeling pipeline to a dataset of Health Students. \n\nThey look at the Pearson correlation between features and final score on the course to select most relevant predictors. \n\nEngagement indicators have consistent and significantly higher correlations with student performance. \n\n",
+          "Limitations": "No model assessment strategy for generalizability.\n\nSmall sample.\n\nSmall number of algorithms for comparison. \n\nParameters used are self-described as generic.\n\nNeed for additional sources of data.\n\nVery imbalanced ddataset.\n\n\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "B-Learning",
+          "Student Performance Definition": "Being at risk of Failing a Course",
+          "Target": "Grade above 65% (Safe) vs Grade Below 65% (At-risk)",
+          "Students": "133 undergraduate students",
+          "Courses": "1 Man and Environment course at Qassim University",
+          "Data sources": "Attendance Records, \nLMS logs",
+          "Features": "[Total posts initiated by a student, Total posts and replies by a student, Number of posts in first half of the course, Total times forum was read, Total hits on recourses, Total hits on course information, Total course hits, Total views before course started, Number of hits in first half of course,  Number of resources accessed, Total logins, Logins in first half of course, Formative assessment grade, Mid-course formative assessment grade, Number attempts formative quizz, End of Course Assessment Grade, Response to Communication, Total views of news forum]",
+          "Moment of Prediction": "Course Half-way Point",
+          "Preprocessing Details": "Data is taken and aggregated into a dataset. The authors identify 64 potential features but ultimately decide keeping smaller subset. These are aggregated into:1. Interaction and Content Creation, 2. Hits and Views, 3. Logins and Course Access, 4. Time, 5. Formative Assessment, 6. Communications",
+          "Models": "Logistic Regression",
+          "Assessment Strategy": "None",
+          "Performance Metric: Best Model": "{Sensitivity: 0.42 - Logistic Regression, AUC: 0.69 - Logistic Regression, Recall: 0.423 - Logistic Regression, Accuracy: 0.857 - Logistic Regression}",
+          "Comments": "Same as previous exercise, but it only considers data collected up to the course’s halfway point. ",
+          "Limitations": "No model assessment strategy for generalizability.\n\nSmall sample.\n\nSmall number of algorithms for comparison. \n\nParameters used are self-described as generic.\n\nNeed for additional sources of data.\n\nNo comparison of Logistic Regression against other algorithmic possibilities.\n\nVery imbalanced ddataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9717b763",
+      "reference_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+      "text": "Learning analytics to perform early identification of students in need is underexplored in medicine. The study looks at online activites from mediical students and checks whether they correlate with performance.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+      }
+    },
+    {
+      "id": "an_0069811f",
+      "reference_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+      "text": "The authors extracted logs from 133 students and extract general counts of activities and 5 indicators. The authors were able to predict the final grade with 65% accuracy and a recall of 54%. Predicting at the course’s halfway point, accuracy was actually 42%. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+      }
+    },
+    {
+      "id": "an_b9005aeb",
+      "reference_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+      "text": " ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
+      "title": "Dropout Prediction in MOOCs: Using Deep Learning for Personalized Intervention",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Educational Computing Research",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_da1cbfd1",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Dropout",
+          "Target": "Dropout vs Active in the following week",
+          "Students": "3617 registered students",
+          "Courses": "1 Project Management MOOC on Canvas (about 8 weeks; 11 modules, 14 discussion forums, 12 quizzes)",
+          "Data sources": "LMS logs, Quiz Scores, Discussion Forums",
+          "Features": "[Number of announcements, Number of assignments, Number of calendar, Number of module pages, Number of courses, Number of discussion, Number of files, Number of gradebooks, Number of quizzes, Number of submissions, Number of wikis, Number of active days]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "Data came from Canvas trace logs plus JSON data retrieved through the Canvas API. A flat feature structure was used. Features from each week were cumulatively added to the previous weeks’ features, so the model at week t used all information up to week t. Data were split into 70% training / 30% testing, and 10-fold cross-validation was used to reduce overfitting. Deep learning models were customized for each week and trained with forward/backward propagation and batch gradient descent.",
+          "Models": "KNN, SVM, Decision Tree, MLP",
+          "Assessment Strategy": "Temporal Validation",
+          "Performance Metric: Best Model": "{AUC: 0.968 average – Deep Learning; Testing Accuracy: 0.930 average – Deep Learning}",
+          "Comments": "Main contribution is combining weekly temporal dropout prediction with individual dropout probabilities to support personalized and prioritized intervention. Deep learning outperformed KNN, SVM, and Decision Tree in both predictive performance and stability. Regression tests showed that the dropout probabilities produced by deep learning aligned best with actual dropout timing (p = .000, adjusted R² = 0.0687), supporting its use for personalization.",
+          "Limitations": "Based on a single MOOC course, so generalizability is limited. \n\nThe intervention mechanism is still hypothetical and was not validated in a live intervention study. \n\nFeature engineering is relatively simple and uses a flat cumulative structure. \n\nPersonalization is statistically supported, but not tested for actual impact on dropout reduction."
+        }
+      ],
+      "provenance": {
+        "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_168d3190",
+      "reference_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
+      "text": "MOOCs have very high dropout rates. It is possible to use Analytics to create models that predict whether a student is likely to dropout or not. However, the models available do not have the finesse to enable personalized interventions. ",
+      "provenance": {
+        "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+      }
+    },
+    {
+      "id": "an_582ef4e0",
+      "reference_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
+      "text": "In order to address this, the authors propose a temporal DL model that predicts the probability of a student dropping out or not. The model outperforms other baseline algorithms tested while also returning a probability → meaning that educators can start by trying to help students flagged as more likely to drop out relative to other colleagues.",
+      "provenance": {
+        "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+      }
+    }
+  ],
+  "workflow_states": []
+}

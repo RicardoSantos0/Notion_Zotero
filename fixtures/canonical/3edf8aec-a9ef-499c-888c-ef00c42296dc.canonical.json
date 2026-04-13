@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
+      "title": "Evaluating Sentence‐BERT‐powered learning analytics for automated assessment of students' causal diagrams",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Computer Assisted Learning",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d53d0102",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_409148f8",
+      "reference_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
+      "text": "The authors compare 2 embedding models combined with standard ML algorithms in terms of indicators of automated diagram assessmet reliability. The goal is to estimate the correct position of a student diagram in a causal chain.",
+      "provenance": {
+        "page_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc"
+      }
+    },
+    {
+      "id": "an_fcc0e526",
+      "reference_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc",
+      "text": "Thus, the authors want to use the fact that students create causal diagrams for studying to create automatic assessments on that causal diagram. This is a specific case of learning where students use causal relation diagrams to consolidate their knowledge.",
+      "provenance": {
+        "page_id": "3edf8aec-a9ef-499c-888c-ef00c42296dc"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,768 @@
+{
+  "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b",
+  "title": "Learner-centred Analytics of Feedback Content in Higher Education",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "d338412d-5776-4792-8549-3be12d18fcd1",
+          "name": "Feedback",
+          "color": "pink"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "462e5731-9221-4400-bc69-05306e14cb58",
+          "name": "Content Analysis",
+          "color": "yellow"
+        },
+        {
+          "id": "5c1f24c1-a374-4f33-b9dd-099b943f2b3b",
+          "name": "Interpretability",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-06T15:32:00.000+00:00",
+        "end": "2026-02-12T16:01:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lin et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lin et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1d11734a-154e-4f32-8d5c-38a6a656b6be",
+          "name": "Assessment",
+          "color": "gray"
+        },
+        {
+          "id": "b48966cd-0dad-4e4e-95f9-3006619c4856",
+          "name": "AI in Education",
+          "color": "gray"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learner-centred Analytics of Feedback Content in Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learner-centred Analytics of Feedback Content in Higher Education",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3044750c-f3ba-8063-bc2f-f2e71522ec46",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Grade Changes Between Assignments",
+          "Increased vs Not Increased",
+          "272 Monash University Students",
+          "1 Introductory Data Science Course",
+          "Feedback from Instructors",
+          "[Strenghten teacher and learner relationships, Encourage Learner Agency, Encourage Positive Learner Affect, Highlight strenghten of performance, Provide critiques about performance, Provide actionable information for future performance, Promote Learner Independence, Usable for Learners]",
+          "Between Assignments",
+          "The grade differences were computed between grades on assignment I to assignment II. \n\nAuthors worked on providing feedback to assignments and this is what is used by the authors to achieve get an improvement. These are mapped according to 8 of  the 9 attributes in the LEarner-Centered feedback.",
+          "Logistic Regression, Random Forest, Gradient Boosting",
+          "Holdout Method (70/10/20)",
+          "{Accuracy: 0.84 - GBoost, F1-Score: 0.80 - GBosst, AUC: 0.80 - GBoost, Cohen’s Kappa: 0.61 -  GBoost}",
+          "Authors do a work that takes feedback from instructors in the first assignment and uses it to predict whether the feedback led, or not, to an improvement in the assignment grade. \n\nAuthors also do an analysis on how these 2 groups differ. \n\nSHAP analysis also highlights that the grade on the first assignment was the most important determinant feature…followed by interrogratives and positive emotion. ",
+          "  • Single course analysis, with limited number of models being tested\n\n  • Holdout Method\n\n  • Does not fully account for other factors than feedback.\n"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-806a-ba02-f576eb6ab9a9",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-806a-ba02-f576eb6ab9a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:32:00.000Z",
+        "last_edited_time": "2025-03-06T15:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-80f9-842a-e4cf5028dafe",
+      "type": "paragraph",
+      "text": "Over the years, feedback has evolved to be lerner-centered process, in the sense that feedback provided is useful for students to address future tasks. The study collects instructor feedback on 2-consecutive assignments from a data science course. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-80f9-842a-e4cf5028dafe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:32:00.000Z",
+        "last_edited_time": "2026-02-11T16:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Over the years, feedback has evolved to be lerner-centered process, in the sense that feedback provided is useful for students to address future tasks. The study collects instructor feedback on 2-consecutive assignments from a data science course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Over the years, feedback has evolved to be lerner-centered process, in the sense that feedback provided is useful for students to address future tasks. The study collects instructor feedback on 2-consecutive assignments from a data science course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8052-b521-ed679380ea50",
+      "type": "paragraph",
+      "text": "The authors use changes in performance as a proxy of learning outcomes. Segmentation analysis is performed and the features extracted from the data were used to subsequently predict learning outcomes → with interpretation being provided by SHAP. Authors find that:",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8052-b521-ed679380ea50",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:34:00.000Z",
+        "last_edited_time": "2025-03-06T15:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use changes in performance as a proxy of learning outcomes. Segmentation analysis is performed and the features extracted from the data were used to subsequently predict learning outcomes → with interpretation being provided by SHAP. Authors find that:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use changes in performance as a proxy of learning outcomes. Segmentation analysis is performed and the features extracted from the data were used to subsequently predict learning outcomes → with interpretation being provided by SHAP. Authors find that:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-80d2-b5d7-e4eb066490d2",
+      "type": "numbered_list_item",
+      "text": "Feedback has different measurable effects between groups of learning outcomes",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-80d2-b5d7-e4eb066490d2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:36:00.000Z",
+        "last_edited_time": "2025-03-06T15:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Feedback has different measurable effects between groups of learning outcomes",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Feedback has different measurable effects between groups of learning outcomes",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-809d-9257-e41d71393bef",
+      "type": "numbered_list_item",
+      "text": "GBoost is best model",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-809d-9257-e41d71393bef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:36:00.000Z",
+        "last_edited_time": "2025-03-06T15:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "GBoost is best model",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "GBoost is best model",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8080-a307-f44440b2acf3",
+      "type": "numbered_list_item",
+      "text": "Interpretation is possible using SHAP ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8080-a307-f44440b2acf3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2025-03-06T15:37:00.000Z",
+        "last_edited_time": "2025-03-06T15:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Interpretation is possible using SHAP ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Interpretation is possible using SHAP ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3044750c-f3ba-8052-b7b7-df6c3e20e948",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3044750c-f3ba-8052-b7b7-df6c3e20e948",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2026-02-11T16:46:00.000Z",
+        "last_edited_time": "2026-02-11T16:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3044750c-f3ba-8063-bc2f-f2e71522ec46",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3044750c-f3ba-8063-bc2f-f2e71522ec46",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2026-02-11T16:46:00.000Z",
+        "last_edited_time": "2026-02-11T16:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3044750c-f3ba-80b6-b6f2-f873c31711d7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3044750c-f3ba-80b6-b6f2-f873c31711d7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+        },
+        "created_time": "2026-02-11T16:47:00.000Z",
+        "last_edited_time": "2026-02-11T16:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

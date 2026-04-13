@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-8013-9a0f-c751a75b5143",
+      "title": "EKT: Exercise-Aware Knowledge Tracing  for Student Performance Prediction",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ebd22fcd",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Predict the response score on next candidate exercise",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "84909 Zhixue.com learners",
+          "Courses": "1 Mathematics Course",
+          "Data sources": "LMS logs, Answer Sequences, Question Attributes",
+          "Features": "[Exercise Embeddings, Student Embeddings]",
+          "Flaw of Previous Models": "Most previous models strictly consider sequences of previous exercises and whether they were right or wrong. xercise contents or the intervention of the learners on the process is not considered.\n\nIn addition, the models consider that next performance depends on current knowledge, not considering the possibility of possibly updating knowledge between current state and next exercise.\n\nModels also usually struggle with the cold-start problem.",
+          "Novelty of Model": "Authors propose full representation of the data in 2 main components:\n\n- Exercise Embeddings - a representation of the exercise from its content\n\nStudent Embedding: A representation of the learner’s knwoeldge state at each specific moment in time. ",
+          "Preprocessing Details": "Authors filter the dataset to a fraction of the initial sample of students. Authors experiment 2 alternative ways of performing the prediction:\n\nEERNNM which uses the Markov property, oor EERNNA which uses an Attention Mechanism.\n\nThis, og course requires, among other things, the creation of word embeddings from the text.\n",
+          "Models": "IRT, BKT, PMF, FKT, DKVMN, LLSTM, LSTMA, EKTM, EKTA",
+          "Assessment Strategy": "5-Repeated Holdout Method",
+          "Performance Metric: Best Model": "Regular Scenario\n{MAE: 0.32 -EERNNA 90% train size, RMSE: 0.385 - EKTA 90% train size, Accuracy: 0.795 - EKTA 90% train size, AUC: 0.835 - EKTA 90% train size}\n\nCold-Start Scenario\n{MAE: 0.31 -\nEKTA 80% train size, RMSE: 0.385 - EKTA 90% train size, Accuracy: 0.785 - EKTA 90% train size, AUC: 0.835 - EKTA 90% train size}",
+          "Comments": "Authors perform a sequential holdout implementation while looking to optimize for % lerngth of training size (60 to 90% of each learners records).\n\nAuthors test their models in two paradigms: general scenario and cold-start scenario - new exercises.\n\nAttention seems to outperform the Markov Rule approach.\n\n\n",
+          "Limitations": "Only considers a single dataset.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-9a0f-c751a75b5143",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_7bf902d2",
+      "reference_id": "18b4750c-f3ba-8013-9a0f-c751a75b5143",
+      "text": "For personalized education services to work, it is often necessary that the systems are able to accurately predict the score a student will get on a given exercise. This is done via latent variables extractable from materials (e.g. knowledge concepts or exercise content). Thus, the paper makes multiple proposals:",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-9a0f-c751a75b5143"
+      }
+    },
+    {
+      "id": "an_a25afd8d",
+      "reference_id": "18b4750c-f3ba-8013-9a0f-c751a75b5143",
+      "text": "Both EERNN and EKT are tested on large-scale data and tests on general and cold-start scenarios are effective.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-9a0f-c751a75b5143"
+      }
+    }
+  ],
+  "workflow_states": []
+}

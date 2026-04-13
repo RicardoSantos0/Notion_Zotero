@@ -1,0 +1,622 @@
+{
+  "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6",
+  "title": "The power of Deep Learning techniques for predicting student performance in Virtual Learning Environments: A systematic literature review",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "153e5bac-5ddf-4d0a-9b69-381a81a90f17",
+          "name": "Ensemble Model",
+          "color": "gray"
+        },
+        {
+          "id": "31628000-f359-414a-9f76-fb14add99884",
+          "name": "Hybrid Model",
+          "color": "pink"
+        },
+        {
+          "id": "d4044c9c-b1f5-441e-b3da-105f17fe0fbf",
+          "name": "Prediction",
+          "color": "purple"
+        },
+        {
+          "id": "a0478ae2-978f-4cbd-a4b1-bc29f05a0164",
+          "name": "Learner Performance",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education: Artificial Intelligence",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education: Artificial Intelligence",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "c|bm",
+        "name": "Rejected Before Reading",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Review",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Review",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Alnasyan et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Alnasyan et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "WlQ:",
+          "name": "Review",
+          "color": "blue"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The power of Deep Learning techniques for predicting student performance in Virtual Learning Environments: A systematic literature review",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The power of Deep Learning techniques for predicting student performance in Virtual Learning Environments: A systematic literature review",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "5c973c23-5326-444b-bf33-7d805c4ed7c4",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "5c973c23-5326-444b-bf33-7d805c4ed7c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:03:00.000Z",
+        "last_edited_time": "2024-08-06T16:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a81cd75b-178a-49bf-a26c-b14dafc599c4",
+      "type": "paragraph",
+      "text": "Deep Learning has grown in popularity in educational research and prediction of student performance is no exception. Review uses 46 papers using Deep Learning for the prediction of student performance. ",
+      "raw": {
+        "object": "block",
+        "id": "a81cd75b-178a-49bf-a26c-b14dafc599c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:03:00.000Z",
+        "last_edited_time": "2024-08-06T16:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Deep Learning has grown in popularity in educational research and prediction of student performance is no exception. Review uses 46 papers using Deep Learning for the prediction of student performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Deep Learning has grown in popularity in educational research and prediction of student performance is no exception. Review uses 46 papers using Deep Learning for the prediction of student performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "eba1fb5b-5745-4da3-b3fc-4f8afb5024f2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "eba1fb5b-5745-4da3-b3fc-4f8afb5024f2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:04:00.000Z",
+        "last_edited_time": "2024-08-06T16:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6cbb7f4d-ce0f-4ded-8c8a-a4149484f152",
+      "type": "paragraph",
+      "text": "Authors grouped features used by DL algorithms into 4 categories: demographic, previous performance, current performance and learning behavior. ",
+      "raw": {
+        "object": "block",
+        "id": "6cbb7f4d-ce0f-4ded-8c8a-a4149484f152",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:04:00.000Z",
+        "last_edited_time": "2024-08-06T16:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors grouped features used by DL algorithms into 4 categories: demographic, previous performance, current performance and learning behavior. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors grouped features used by DL algorithms into 4 categories: demographic, previous performance, current performance and learning behavior. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c8faa73c-e4fa-4e1f-9a21-0b3d1a65c80e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c8faa73c-e4fa-4e1f-9a21-0b3d1a65c80e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:05:00.000Z",
+        "last_edited_time": "2024-08-06T16:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cbbfd290-2ceb-48e3-b499-c06d52cc3ff1",
+      "type": "paragraph",
+      "text": "Most common models are DNN and CNN-LSTM and, for the most part, these models have been shown to outperform other alternative methods in predictive performance (specifically accuracy). Along the datasets used, OULAD is the most popular one. ",
+      "raw": {
+        "object": "block",
+        "id": "cbbfd290-2ceb-48e3-b499-c06d52cc3ff1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:05:00.000Z",
+        "last_edited_time": "2024-08-06T16:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most common models are DNN and CNN-LSTM and, for the most part, these models have been shown to outperform other alternative methods in predictive performance (specifically accuracy). Along the datasets used, OULAD is the most popular one. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most common models are DNN and CNN-LSTM and, for the most part, these models have been shown to outperform other alternative methods in predictive performance (specifically accuracy). Along the datasets used, OULAD is the most popular one. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fb1c9fdf-e245-413a-9a55-42e03ff758b8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "fb1c9fdf-e245-413a-9a55-42e03ff758b8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4d526a4b-4c5a-49d2-bc9d-7faf5143f3a6"
+        },
+        "created_time": "2024-08-06T16:03:00.000Z",
+        "last_edited_time": "2024-08-06T16:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

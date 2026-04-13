@@ -1,0 +1,718 @@
+{
+  "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+  "title": "Goal-based Course Recommendation",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Learning Analytics”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Learning Analytics”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-04T23:20:00.000+00:00",
+        "end": "2025-04-17T00:58:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Jiang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jiang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Goal-based Course Recommendation",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Goal-based Course Recommendation",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d74750c-f3ba-8039-9d53-fc0d24cbf7e5",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Student Grade",
+          "Above specific threshold (A or B) vs Below Threshold",
+          "164196 university students",
+          "10430 courses at University of California Berkeley",
+          "Course Enrollment Data, Course Information",
+          "[Semester, Course NAme, Course Number, Department, Instructor, Subject, Enrollment Count, Capacity]",
+          "Start of Semester",
+          "Each row represents an enrollment. \n\nCourse data was collected across a 10 year period. Authors only consider courses of lecture type.\n\nData between 2008 and 2015 was used for training, 2016 for validation and 2017 for testing purposes. \n\nWeight decay and Dropout layers have been used.",
+          "LSTM",
+          "Holdout Method",
+          "{Accuracy: 0.8805 - Model 2 on B Threshold, F1-Score: 0.6024 - Model 2 on A Threshold}",
+          "The paper is relatively complex as it uses an LSTM model to predict a learner’s grade on a course. ",
+          "Only LSTMs are considered.\n\nRequires additional validation (other than backtesting) before deployment.  \n\nResults are somewhat biased because of Grade Letter Aggregation."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Student Grade",
+          "Pass (1) vs Fail (0)",
+          "164196 university students",
+          "10430 courses at University of California Berkeley",
+          "Course Enrollment Data, Course Information",
+          "[Semester, Course Name, Course Number, Department, Instructor, Subject, Enrollment Count, Capacity]",
+          "Start of Semester",
+          "Each row represents an enrollment. \n\nCourse data was collected across a 10 year period. Authors only consider courses of lecture type.\n\nData between 2008 and 2015 was used for training, 2016 for validation and 2017 for testing purposes. \n\nWeight decay and Dropout layers have been used.",
+          "LSTM",
+          "Holdout Method",
+          "{Accuracy:  0.9178 - Model 2 on Threshold B}",
+          "The paper is relatively complex as it uses an LSTM model to predict whether a learner will pass or fail in a course.\n\n",
+          "Only LSTMs are considered.\n\nRequires additional validation (other than backtesting) before deployment.  \n\nImbalanced dataset."
+        ]
+      ],
+      "index": 4
+    },
+    {
+      "block_id": "1d74750c-f3ba-80f1-8f45-f5992b3ee8d6",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "Blended Learning",
+          "Collaborative Filtering",
+          "Courses to Register in based on the learner’s goal",
+          "164196 university students",
+          "10430 courses at University of California Berkeley",
+          "Student’s personal course history,\nCourse Pre-Requisites embeddings\n",
+          "0/random initialization since there is no history when student registers.",
+          "Updates are done via update to the LSTM weights based on how the learner evolves throughout the courses.",
+          "Authors filtered the dataset to e exclusively account for records from Fall 2016 to recommend courses for Spring 2016.\n\nCourse history is encoded in the form of embeddings.\n\n ",
+          "Top-10 Course Recommendations - computed and sorted in descending order  by the probability of achieving an A.",
+          "{Accuracy: 0.5765 - Model 2 on B Treshold}",
+          "Authors do a complete work that follows a sequence of different steps: \n\n1. There is a prediction of course performance, which is enhanced by a prediction of performance in a using information from pre-requisite courses.\n\n2. The LMSTM predicts the probability of achieving an A for every available course in the following semester and recommends the 10 in which the poorobability is highest.\n\nSince this is a backtest, authors consider a successful reccomendation if the student took a course that is listed in the top-10 recommendations list.",
+          "Recommender only takes into account courses taken in previous semester. May benefit from working with a longer sequence.\n\nImbalanced dataset."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1904750c-f3ba-8001-b2f5-e0ef7f07a340",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8001-b2f5-e0ef7f07a340",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-02-04T23:21:00.000Z",
+        "last_edited_time": "2025-02-04T23:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-809d-8f71-d91d53d82b5e",
+      "type": "paragraph",
+      "text": "Supporting student decision making is becoming increasingly important when more and more information is becoming available. This work builds on the literature of Deep Learning-Based Recommender systems meant to recommend courses meant to prepare them for target courses of interest. ",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-809d-8f71-d91d53d82b5e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-02-04T23:21:00.000Z",
+        "last_edited_time": "2025-02-04T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Supporting student decision making is becoming increasingly important when more and more information is becoming available. This work builds on the literature of Deep Learning-Based Recommender systems meant to recommend courses meant to prepare them for target courses of interest. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Supporting student decision making is becoming increasingly important when more and more information is becoming available. This work builds on the literature of Deep Learning-Based Recommender systems meant to recommend courses meant to prepare them for target courses of interest. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-8005-a69d-d7913c7f3a78",
+      "type": "paragraph",
+      "text": "Authors test their model by using tests of grade prediction and the recovery of pre-requisites as articulated by the university. On a third step, authors compare behavior of students in the semester preceding a course versus a simulated version where students would have taken the recommended courses. ",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8005-a69d-d7913c7f3a78",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-02-04T23:24:00.000Z",
+        "last_edited_time": "2025-04-16T22:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors test their model by using tests of grade prediction and the recovery of pre-requisites as articulated by the university. On a third step, authors compare behavior of students in the semester preceding a course versus a simulated version where students would have taken the recommended courses. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors test their model by using tests of grade prediction and the recovery of pre-requisites as articulated by the university. On a third step, authors compare behavior of students in the semester preceding a course versus a simulated version where students would have taken the recommended courses. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d74750c-f3ba-80f7-9148-e7f0be7482e1",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1d74750c-f3ba-80f7-9148-e7f0be7482e1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-04-16T22:26:00.000Z",
+        "last_edited_time": "2025-04-16T22:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d74750c-f3ba-8039-9d53-fc0d24cbf7e5",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d74750c-f3ba-8039-9d53-fc0d24cbf7e5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-04-16T22:26:00.000Z",
+        "last_edited_time": "2025-04-16T23:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d74750c-f3ba-80b8-8e78-e6c046db16e7",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "1d74750c-f3ba-80b8-8e78-e6c046db16e7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-04-16T22:24:00.000Z",
+        "last_edited_time": "2025-04-16T22:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d74750c-f3ba-80f1-8f45-f5992b3ee8d6",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d74750c-f3ba-80f1-8f45-f5992b3ee8d6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+        },
+        "created_time": "2025-04-16T22:24:00.000Z",
+        "last_edited_time": "2025-04-16T22:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

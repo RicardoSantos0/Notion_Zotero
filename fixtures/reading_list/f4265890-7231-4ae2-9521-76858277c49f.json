@@ -1,0 +1,644 @@
+{
+  "page_id": "f4265890-7231-4ae2-9521-76858277c49f",
+  "title": "Performance Prediction of Students in Higher Education Using Multi-Model Ensemble Approach",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "817f2854-4082-457f-920e-b5f83670f166",
+          "name": "Ensemble Learning",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "177d95f6-eacb-450e-9afc-5423d87ff0df",
+          "name": "Predicting Student Performance",
+          "color": "brown"
+        },
+        {
+          "id": "adf9fb61-438a-47a8-a766-4cb9ca31f9b6",
+          "name": "Student Education",
+          "color": "orange"
+        },
+        {
+          "id": "e98f3f44-411f-4f75-9472-634bcc3f4443",
+          "name": "Risk Analysis",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance Prediction\" AND \"Multi-modal”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance Prediction\" AND \"Multi-modal”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Access",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Access",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-09-01T23:49:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Butt et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Butt et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Performance Prediction of Students in Higher Education Using Multi-Model Ensemble Approach",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Performance Prediction of Students in Higher Education Using Multi-Model Ensemble Approach",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2614750c-f3ba-80e9-a5f8-ec431c1cb5a0",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Degree Completion",
+          "Dropout vs Promoted",
+          "1201 BSc and MSc students from a Pakistani University",
+          "Courses in 1 Pakistani University",
+          "Average Grade in Different Grading Elements",
+          "[Assignment, Quizz, Presentation, Mid Term, Subjective, Objective, Previous Academics]",
+          "Start of Programs’ Final Year",
+          "For this research question, the authors start with selecting students from RQ1 from the departments that exhibit the highest dropout rates.\n\n",
+          "Naive Bayes, J48, MLP, Bagging, Boosting, Stacking, Voting",
+          "10-Fold Cross-Validation",
+          "Promoted\n{Precision:  0.96 - Voting, Recall: 0.975 -Stacking, F1-Score: 0.964 - Stacking, TPR: 0.975 - Stacking, FPRate: 0.106 - NB}\n\nDropped\n{Precision:  0.90 - Stacking, Recall: 0.891 -Stacking, F1-Score: 0.864 - Stacking, TPR: 0.894 - NB, FPRate: 0.025 - Stacking}\n\nWeighted_Avg\n{Precision:  0.9265 - Stacking, Recall: 0.933 -Stacking, F1-Score: 0.914 - Stacking, TPR: 0.905 - Stacking, FPRate: 0.103 - Voting, Accuracy: 0.952 - Stacking, MAE: 0.0658 - Stacking, RMSE: 0.2148 - Stacking}",
+          "Authors do multiple Research, with the first being the prediction of dropout.",
+          "- Small sample size\n\n- Single institution Data\n\n- No additional sources of data"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "End  of Course Performance",
+          "LowGrade vs HighGrade",
+          "1201 BSc and MSc students from a Pakistani University",
+          "Courses in 1 Pakistani University",
+          "Average Grade in Different Grading Elements",
+          "[Assignment, Quizz, Presentation, Mid Term, Subjective, Objective, Previous Academics]",
+          "Before Exam",
+          "Grades C to F were considered Low Grades, while A and B were considered High Grades.",
+          "Naive Bayes, J48, MLP, Bagging, Boosting, Stacking, Voting",
+          "10-Fold Cross-Validation",
+          "High Grade\n{Precision:  0.99 - Stacking, Recall: 0.99 -Stacking, F1-Score: 0.964 - Stacking, TPR: 0.99 - Stacking, FPRate: 0.013 - Stacking & MLP}\n\nLow Grade\n{Precision:  0.987 - Stacking, Recall: 0.987 -Stacking, F1-Score: 0.844 - Stacking, TPR: 0.987 - Stacking, FPRate: 0.008 - MLP}\n\nWeighted_Avg\n{Precision:  0.981 - Stacking, Recall: 0.989 -Stacking, F1-Score: 0.04 - Stacking, TPR: 0.981 - Stacking, FPRate: 0.00115 - Voting, Accuracy: 0.99 - MLP, MAE: 0.0119 - MLP, RMSE: 0.0897 - Stacking}",
+          "The second question does a separation on Grade lines: A and B are High Grades and C to F is considered a Low Grade.",
+          "- Small sample size\n\n- Single institution Data\n\n- No additional sources of data"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f77e22ee-9967-4871-946d-655d5bfb0825",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "f77e22ee-9967-4871-946d-655d5bfb0825",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2024-08-06T10:42:00.000Z",
+        "last_edited_time": "2024-08-06T10:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5f9787e5-9ab3-431d-a609-e32bc21e1c6a",
+      "type": "paragraph",
+      "text": "It is equally important and challenging to create early warning systems that are accurate and understandable. The paper look to use ML to create models for multiple different relevant tasks in LA:",
+      "raw": {
+        "object": "block",
+        "id": "5f9787e5-9ab3-431d-a609-e32bc21e1c6a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2024-08-06T10:42:00.000Z",
+        "last_edited_time": "2024-08-06T10:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It is equally important and challenging to create early warning systems that are accurate and understandable. The paper look to use ML to create models for multiple different relevant tasks in LA:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It is equally important and challenging to create early warning systems that are accurate and understandable. The paper look to use ML to create models for multiple different relevant tasks in LA:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5edaa69f-210f-4227-8373-7f4908e3ba60",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5edaa69f-210f-4227-8373-7f4908e3ba60",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2024-08-06T10:45:00.000Z",
+        "last_edited_time": "2024-08-06T10:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a7320b3b-3a74-4fe9-8150-8649866db8fa",
+      "type": "paragraph",
+      "text": "The study focuses on comparing performance and efficiency of different ensemble classifiers for the aforementioned tasks. The auhtors rely on data extracted from a Pakistani university. Boosted Trees outperforms bagging when dataset is larger, while stacking is better for smaller datasets. ",
+      "raw": {
+        "object": "block",
+        "id": "a7320b3b-3a74-4fe9-8150-8649866db8fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2024-08-06T10:45:00.000Z",
+        "last_edited_time": "2024-08-06T10:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The study focuses on comparing performance and efficiency of different ensemble classifiers for the aforementioned tasks. The auhtors rely on data extracted from a Pakistani university. Boosted Trees outperforms bagging when dataset is larger, while stacking is better for smaller datasets. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The study focuses on comparing performance and efficiency of different ensemble classifiers for the aforementioned tasks. The auhtors rely on data extracted from a Pakistani university. Boosted Trees outperforms bagging when dataset is larger, while stacking is better for smaller datasets. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2614750c-f3ba-8094-8525-d6f7cc18a56b",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2614750c-f3ba-8094-8525-d6f7cc18a56b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2025-09-01T21:17:00.000Z",
+        "last_edited_time": "2025-09-01T21:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2614750c-f3ba-80e9-a5f8-ec431c1cb5a0",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2614750c-f3ba-80e9-a5f8-ec431c1cb5a0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f4265890-7231-4ae2-9521-76858277c49f"
+        },
+        "created_time": "2025-09-01T21:17:00.000Z",
+        "last_edited_time": "2025-09-01T22:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

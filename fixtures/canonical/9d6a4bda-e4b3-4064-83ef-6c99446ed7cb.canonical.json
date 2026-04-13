@@ -1,0 +1,158 @@
+{
+  "references": [
+    {
+      "id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "title": "Targeting At-risk Students Using Engagement and Effort Predictors in an Introductory Computer Programming Course",
+      "authors": [],
+      "year": null,
+      "journal": "Data Driven Approaches in Digital Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_f0e2e5b5",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Success in Next Computer-Based Lab Exam",
+          "Target": "Fail (0) vs Pass (1)",
+          "Students": "138 Year 1 students → Train Data\n128 Year 2 students → Test Data",
+          "Courses": "1 Computer Programming Course",
+          "Data sources": "LMS\nSubmissions",
+          "Features": "[Unspecified Log related features]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "There was a model trained for every week… Every new week, the features of the previous week’s classifiers were concatenated and the new data was appended.",
+          "Models": "Logistic Regression\nSVM-Linear\nSVM-Gaussian\nkNN\nRandom Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Misclassification Error: 0.2984 - Logistic Regression}",
+          "Comments": "This work is a short paper on the development and implementation of an early warning system to predict success in next test based on interactions and submissions. \n\nThe authors train on a sample of Year 1, select the best model and then deploy it on the second year - identifying students at-risk and providing additional mentoring to the students who were flagged this way. \n\nPerformance on the test data on the end of the course reveals 64.38%  accuracy.",
+          "Limitations": "The way this differential is computed is extremely sus. \n\nVague in terms of preprocessing and modelling.\n\nOnly metric for whom results are mentioned is Misclassification Error.\n\nSmall sample size."
+        }
+      ],
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+        "block_index": 31
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_ae08cad4",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "Paper presents an approach to identifyind at-risk students in a programming course. Predictions use clickstream and progression on programming labs and are made at every week. Students labeled as at-risk were provided with additional support. Results show that the progression of students who received assistance was 4 time higher in students who received the intervention relative to the students who attended the course of the first training data.",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_0c6ed0f1",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "Programming is a difficult task and many researchers have been looking for ways to improve the learning experience of programming students. Behavioral data is, hopefully, a reflection of a student’s effort and learning progress. This notion is similar to the use of LMS logs to predict performance. Sin programming courses tend to generate even more data (due to more interactions)  the authors expect that leveraging this data for predictive modelling is viable in their programming course. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_d46c29ab",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "Thus, the authors present a retrospective study that simulates real time predictions via an early warning system from LMS logs. The questions to answer are:",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_ee76beb9",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "Data is From Computer Programming, a 12-week long course I taught at Dublin University. The course combines 4 hours of lecture with 4 hours of practical lab materials. Students are assessed 2 to 3 times over the semester on lab-based exams. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_7bbab709",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "As far as students go, there were 138 registered in year 1 and 128 in year 2. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_0af7f83b",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "The goal of the models designed here is to use interaction logs on programming work to predict success in a computer-based programming lab exam. To do that, the authors use data from:",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_98f73b03",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "The authors take data from the first year → the 138 students in 2015/2016 to train a predictive model. Task being passing or failing on the next lab exam. In Year 1, there were 2 labs (Week 7 and End-of-Semester). Data from Week 1 to 6 was used to predict success in midterm.",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_6cc7f49d",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "When it comes to representation, this not a full aggregation performed every week. Instead, it seems to have a concatenation of the features of the classifiers of the previous weeks and appending data for that specific week. Multiple different classifiers are compared against one another, with selection being determined by the smallest error rate using 10-Fold Cross-Validation. For interpretation purposes, results reflect the average of the weekly analyses done across the entire semester. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_494e6fe7",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "Model assessment results on Year 1 data shos that Logistic Regression achieved the lowest average misclassification error across the 12 weeks (29.84%).",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_07005b4a",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "This model was sub-sequently pseudo-deployed on the 2016/2017 cohort. Students flagged as at-risk were offered assitance and personalized mentoring opportunities during the lab session. The overall model achieved an F1-Score of 0.6438.",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_b2d83541",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "To answer the second question (does assistance improve performance), the authors focused on utilizing an approach where the differences in performance between Test 1 and Test 2 for both co-horts. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_e3beb1d9",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "  ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    },
+    {
+      "id": "an_6b92ab17",
+      "reference_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+      "text": "In year 1, there was no intervention. However, both groups of students improved their performance from Exam 1 to Exam 2 (with the improvements on students who failed being 23.64%). In essence, students who failed improved more “percentage-wise” than students who had passed. In this work, the difference is given by a construct called differential (positive 11.52%).\n\nIn Year 2, students who succeeded on Exam 1 actually saw their performance significantly drop, while the performance of students who were predicted to fail improved. The differential was, again positive, but into the range of 50%. ",
+      "provenance": {
+        "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+      }
+    }
+  ],
+  "workflow_states": []
+}

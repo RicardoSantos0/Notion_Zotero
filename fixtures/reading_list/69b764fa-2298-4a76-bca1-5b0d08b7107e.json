@@ -1,0 +1,676 @@
+{
+  "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e",
+  "title": "Early prediction of undergraduate Student's academic performance in completely online learning: A five-year study",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "74b4f2c1-915a-4da5-839c-e48b8cd856d9",
+          "name": "Predictive Analytics",
+          "color": "blue"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        },
+        {
+          "id": "cf41ca2f-1f6e-4835-aed5-5b0e6e9c483a",
+          "name": "Prediction Modeling",
+          "color": "brown"
+        },
+        {
+          "id": "8e784f04-4096-4276-92af-bdbd09c6207f",
+          "name": "Early Prediction",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “Higher Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “Higher Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-02T09:00:00.000+01:00",
+        "end": "2026-03-16T11:38:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Bravo-Agapito et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Bravo-Agapito et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Early prediction of undergraduate Student's academic performance in completely online learning: A five-year study",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Early prediction of undergraduate Student's academic performance in completely online learning: A five-year study",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3254750c-f3ba-80d7-b680-e17adac5307e",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "802 students",
+          "4 Programs in UDIMA",
+          "LMS logs\nLearner Demographics, GPA   ",
+          "Not Specified",
+          "[Total_logins, N_access_forum, N_addedd_messages_forum, N_access_didactic_units, N_access_glossaries, Total_assignments, N_assignments_consulted, N_assignments_submited, N_access_questionnaires, N_attempts_questionnaires, N_answered_questions, N_questionnaire_views, N_questionnaires_submitted, N_reviews_questionnaire, Days_first_access, N_entries_course, Age, Sex, Degree, Grade Course, GPA_12_13, GPA_13_14, GPA 14_15, GPA_15_16, GPA_16_17]",
+          "All courses in UDIMA share a similar structure, which makes it easier to preprocess the data. All variables were measured at the end of the Academic Semester. GPA was computed (not provided by the system).\n\nVariables were subjected to PCA to perform Exploratory Factor Analysis, which lead to the selection of 3 Factors.\n\n",
+          "Multiple Linear Regression",
+          "{RSquared: 0.456 - 4 Variables - Course, Adjusted RSquared: 0.455 - 4 Variables - Course, RMSE: 0.126 - 4 Variables - Course}",
+          "-",
+          "-",
+          "Short-term success is often determined by Task, Access, Questionnaire and Age. \n\nFactors that influence long-term sucess, however are the same (but without task). \n\n ",
+          "Authors perform regression both for success at the end of the course but also do it to predict the . Model performs much better at the end of program prediction.\n\nAuthors find that predicting success at the end of the course is significantly easier than  using the data from that course to predict success at the end of academic year. Moreover, the fits become gradually worse as the years pass. \n\nModels are course-agnostic because all courses considered share a similar structure.",
+          "Only use Linear Regression\n\nNo validation\n\nNo personal data was used - no prior knowledge was considered\n\nSmall sample size"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "802 students",
+          "4 courses in UDIMA",
+          "LMS logs\nLearner Demographics, GPA   ",
+          "Not Specified",
+          "[Total_logins, N_access_forum, N_addedd_messages_forum, N_access_didactic_units, N_access_glossaries, Total_assignments, N_assignments_consulted, N_assignments_submited, N_access_questionnaires, N_attempts_questionnaires, N_answered_questions, N_questionnaire_views, N_questionnaires_submitted, N_reviews_questionnaire, Days_first_access, N_entries_course, Age, Sex, Degree, Grade Course, GPA_12_13, GPA_13_14, GPA 14_15, GPA_15_16, GPA_16_17]",
+          "All courses in UDIMA share a similar structure, which makes it easier to preprocess the data. All variables were measured at the end of the Academic Semester. GPA was computed (not provided by the system).\n\nVariables were subjected to PCA to perform Exploratory Factor Analysis.",
+          "Hierarchical Clustering",
+          "-",
+          "5",
+          "Group 1: Mainly CS, Journalism and Psychology - Younger and overall less engaged, which also translates in poorer performance.\n\nGroup 2: CS, Criminology and Psychology students. High proneness to questionnaires and assignments but still infrequent accesses. Course performance is high, but GPA is smaller than mean.\n\nGroup 3: Civil Engineering - Older students who tend to be more active in the course and achieve good short and long term results.\n\nGroup 4: Criminology, Journalism and Business Administration - Low participation in assignments but high participation in the remaining course materials.\n\nGroup 5: Law and Criminology - High levels of overall engagement,",
+          "Older students seem to be more prone to have higher frequency of access to the different materials, suggesting a higher mastery of SRL behaviors.\n\nSome students, who focus on practical tasks may get a good grade on the course but that performance does not seem to generalize as well to other courses → suggesting a more compartimentalized learning profile. \n\n\nOnline institutions should focus on early intervention to help their students. \n\n\n",
+          "Clustering analysis using hierarchical clustering suggests groups that share multiple similarities with the Cerezo work → and, by extension… mine as well.",
+          "Not generalizable to other populations."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "041ec88e-1f34-4a5b-a3b1-2dbc90699a41",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "041ec88e-1f34-4a5b-a3b1-2dbc90699a41",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2024-08-02T18:23:00.000Z",
+        "last_edited_time": "2024-08-02T18:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "45707540-1e9c-4a2d-9e07-b231c760ff6c",
+      "type": "paragraph",
+      "text": "It is difficult to predict whether a specific student that is completely online is engaged or not. So, the study aims to use multiple methods to predict student performance. ",
+      "raw": {
+        "object": "block",
+        "id": "45707540-1e9c-4a2d-9e07-b231c760ff6c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2024-08-02T18:23:00.000Z",
+        "last_edited_time": "2024-08-02T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It is difficult to predict whether a specific student that is completely online is engaged or not. So, the study aims to use multiple methods to predict student performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It is difficult to predict whether a specific student that is completely online is engaged or not. So, the study aims to use multiple methods to predict student performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "43431999-1955-49fe-a1a9-fb68c95f71fd",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "43431999-1955-49fe-a1a9-fb68c95f71fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2024-08-02T18:30:00.000Z",
+        "last_edited_time": "2024-08-02T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f50984f1-93db-4b61-8ff5-cb0e5dd942f8",
+      "type": "paragraph",
+      "text": "Data used encompasses student carachteristics, Moodle interactions and grades. Results highlight that the main contributors to performance are: Access, Questionnaire, Task and Age. Clustering results also show that interactions are correlated with performance. ",
+      "raw": {
+        "object": "block",
+        "id": "f50984f1-93db-4b61-8ff5-cb0e5dd942f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2024-08-02T18:30:00.000Z",
+        "last_edited_time": "2024-08-02T18:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data used encompasses student carachteristics, Moodle interactions and grades. Results highlight that the main contributors to performance are: Access, Questionnaire, Task and Age. Clustering results also show that interactions are correlated with performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data used encompasses student carachteristics, Moodle interactions and grades. Results highlight that the main contributors to performance are: Access, Questionnaire, Task and Age. Clustering results also show that interactions are correlated with performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-8031-9109-d0d7bc7f2a20",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-8031-9109-d0d7bc7f2a20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2026-03-16T10:57:00.000Z",
+        "last_edited_time": "2026-03-16T10:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-80f6-aae9-e18324da137a",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-80f6-aae9-e18324da137a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2026-03-16T10:57:00.000Z",
+        "last_edited_time": "2026-03-16T10:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-80d7-b680-e17adac5307e",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-80d7-b680-e17adac5307e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "69b764fa-2298-4a76-bca1-5b0d08b7107e"
+        },
+        "created_time": "2026-03-16T10:57:00.000Z",
+        "last_edited_time": "2026-03-16T10:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

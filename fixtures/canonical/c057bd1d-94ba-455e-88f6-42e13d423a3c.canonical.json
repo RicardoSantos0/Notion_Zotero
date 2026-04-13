@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "c057bd1d-94ba-455e-88f6-42e13d423a3c",
+      "title": "Shapley Explainable Deep Learning based\nKnowledge Distillation Framework for Student’s\nPerformance Prediction ",
+      "authors": [],
+      "year": null,
+      "journal": "ICDSIS",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0179e40f",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Mark in a Course",
+          "Target": "Distinction vs Pass vs Fail vs Withdraw",
+          "Students": "32593",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "VLE logs",
+          "Features": "[id_student, code_module_student_presentation, sum_click, date_unregistration, final_score, studied_credits, Module_presentation_length, date_registration, imd_band, code_module_presentation, region, num_of_prev_attempts, code_module, highest_education, cohort, disability, code_presentation, age_band, count_click]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Filling of missing values takes advantage of the sequential nature of the data. If a point is missing at moment V, it is filled using an “average” of V at t-1 and V at t+1. \n\nAdditionally, the authors address the class imbalance by using ISMOTE - which tests generated samples and decides on whether the generated sample should be accepted or not. \n\nThe sequences are given as input to 2 distinct modules simultaneously: a teacher model which uses Attention Layers into a Bi-Directional LSTM Network (which is pre-trained). There is also a Student Model that uses a CNN-based ResNet-101.",
+          "Models": "CNN, Bi-LSTM, LSTM, ResNet, EDL_KDF",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.996 - EDF_KDF, Precision: 0.9921 - EDF_KDF, Recall: 0.9921 - EDF_KDF, AUC: 0.99 - EDF_KDF}",
+          "Comments": "Authors propose a new DL model for the prediction of student performance. \n\nThe model uses 2 distinct Deep Learning modules for the prediction of student performance. Results are very high in comparison with other alternative models in the literature.",
+          "Limitations": "- Holdout Method\n\n- Unspecified Train/Test separation\n\n- It seems, from description, that final score is used as an input to the model."
+        }
+      ],
+      "provenance": {
+        "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_711fbd26",
+      "reference_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c",
+      "text": "Universities are constantly look into ways to improve the academic performance of their students and the introduiction of VLEs represents a significant step toward that direction. Authors use VLE data to create an early warning system that makes recommendations for intervention. ",
+      "provenance": {
+        "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+      }
+    },
+    {
+      "id": "an_daf47e98",
+      "reference_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c",
+      "text": "Authors perform pre-processing on the data and use ISMOTE to deal with data imbalance. Authors feed the preprocessed data as input to a EDL_KDL mode, a deep learning explainable model to predict performance and that can be explained using SHAP values. This model achieves 99.6% accuracy and 99.21% precision on OULAD. ",
+      "provenance": {
+        "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,714 @@
+{
+  "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97",
+  "title": "Stable Knowledge Tracing Using Causal Inference",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "103a6553-d44b-4976-8b3d-0e7116c824de",
+          "name": "Causal Inference",
+          "color": "default"
+        },
+        {
+          "id": "430b8f07-1410-478d-9821-b3e3ed05ad5c",
+          "name": "Deep Knowledge Tracing",
+          "color": "default"
+        },
+        {
+          "id": "7be82211-db63-4a95-840d-a5109ec7bcd1",
+          "name": "Learning Sciences",
+          "color": "gray"
+        },
+        {
+          "id": "1207299f-9a24-4dc9-9a3c-0be3efe1a34d",
+          "name": "Stable Knowledge Tracing",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T15:31:00.000+00:00",
+        "end": "2025-04-20T02:09:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zhu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zhu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Stable Knowledge Tracing Using Causal Inference",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Stable Knowledge Tracing Using Causal Inference",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1db4750c-f3ba-80d0-868f-d63a83990f07",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Correctedness of next question",
+          "Correct (1) vs Incorrect (0)",
+          "4417 ASSISTments2009 learners, 19917 ASSISTments2012 learners, 333 Statics Learners, 2000 Simulated Learners",
+          "ASSISTments, Statics",
+          "Sequence of Answers",
+          "[Confounding Variables Matrix, Sequence of Answers]",
+          "Current KT models have wayu too oversimplistic assumptions, which makes them suffer from volatility:  Among thosse assumptions we have:",
+          "Authors introduce a method that uses causal inference to predict outcome via knowledge graphs.\n\nThis is achieved by the additon of an autoencoder model.",
+          "The proposed model relies on a set of assumptions:\n\n1- Stable Knowledge Concept Value - Ther is a stable influence that one knowledge concept can have in another.\n\n2. Unconfoundedness - Knowledge concept layout and outcomes are conditionally independent on the data.\n\n3. Separateness: there are 3 sets of variables: Confounding variables (X), Adjustment Variables (Z) and Irrelevant Variables (I) ",
+          "BKT, PFA, BKT+FSA, DKVMN, DKT, DKT+, Causal Inference KT",
+          "5-Fold Cross-Validation",
+          "ASSIST09\n{AUC: 0.833 -  Causal Inference KT, F1-Score: 0.841 - Causal Inference KT}\n\nASSIST15\n{AUC: 0.778 -  Causal Inference KT, F1-Score: 0.840 - Causal Inference KT}\n\nStatics\n{AUC: 0.841 -  Causal Inference KT, F1-Score: 0.909 - Causal Inference KT}\n\nSimulated\n{AUC: 0.826 -  DKT+, F1-Score: 0.796 - DKT+}\n",
+          "The main distinction between this model and traditional DKT is the inclusion of restrictions of causal inference that enrich the feature set. \n\nResults show that, indeed, the inclusion of these restrictions make predictions a lot more stable than standard approaches in real datasets.",
+          "Does not seem to be effective in smaller sequences of answers - highlighted by the performance on the Synthetic dataset.\n\nNo measurement of additional data sources."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8095-91d3-de73eeccffab",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8095-91d3-de73eeccffab",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-03-12T12:41:00.000Z",
+        "last_edited_time": "2025-03-12T12:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80e8-b18b-d5f56e7e0de2",
+      "type": "paragraph",
+      "text": "KT is a popular application of LA research and, nowadays, there are increasingly more student representations who are becoming increasingly complex. However, most approaches are inneficient at updating the learner’s knowledge state, often leading to poor predictions. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80e8-b18b-d5f56e7e0de2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-03-12T12:41:00.000Z",
+        "last_edited_time": "2025-03-12T13:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT is a popular application of LA research and, nowadays, there are increasingly more student representations who are becoming increasingly complex. However, most approaches are inneficient at updating the learner’s knowledge state, often leading to poor predictions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT is a popular application of LA research and, nowadays, there are increasingly more student representations who are becoming increasingly complex. However, most approaches are inneficient at updating the learner’s knowledge state, often leading to poor predictions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8044-a99f-c70d34166d14",
+      "type": "paragraph",
+      "text": "The authors employ a causal inference model to explain KT. The idea stems from the construcion of balanced weights for the different features. Experimentation on different datasets shows that model is accurate and interpretable (2 hallmarks for good KT models.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8044-a99f-c70d34166d14",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-03-12T13:32:00.000Z",
+        "last_edited_time": "2025-04-20T00:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors employ a causal inference model to explain KT. The idea stems from the construcion of ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors employ a causal inference model to explain KT. The idea stems from the construcion of ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "balanced weights",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "balanced weights",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " for the different features. Experimentation on different datasets shows that model is accurate and interpretable (2 hallmarks for good KT models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " for the different features. Experimentation on different datasets shows that model is accurate and interpretable (2 hallmarks for good KT models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1db4750c-f3ba-80ef-b8a3-d85240dac290",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1db4750c-f3ba-80ef-b8a3-d85240dac290",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-04-20T00:44:00.000Z",
+        "last_edited_time": "2025-04-20T00:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1db4750c-f3ba-80b1-806c-e725e4104719",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1db4750c-f3ba-80b1-806c-e725e4104719",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-04-20T00:44:00.000Z",
+        "last_edited_time": "2025-04-20T00:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1db4750c-f3ba-80d4-8bdd-cea473fc4563",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1db4750c-f3ba-80d4-8bdd-cea473fc4563",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-04-20T00:44:00.000Z",
+        "last_edited_time": "2025-04-20T00:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1db4750c-f3ba-80d0-868f-d63a83990f07",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1db4750c-f3ba-80d0-868f-d63a83990f07",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-04-20T00:11:00.000Z",
+        "last_edited_time": "2025-04-20T00:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8062-9435-f33d4c178fcc",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8062-9435-f33d4c178fcc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-805b-9338-f8d147477c97"
+        },
+        "created_time": "2025-03-12T15:31:00.000Z",
+        "last_edited_time": "2025-03-12T15:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

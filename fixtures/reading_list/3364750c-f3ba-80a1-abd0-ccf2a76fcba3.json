@@ -1,0 +1,712 @@
+{
+  "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3",
+  "title": "Analysis and optimization of student learning paths based on CRNN and sequential data",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Learning Strategies\" AND \"Higher Education\" AND \"Knowledge Tracing\" AND \"Clustering”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Learning Strategies\" AND \"Higher Education\" AND \"Knowledge Tracing\" AND \"Clustering”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PLOS One",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "PLOS One",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "h:oF",
+        "name": "Integrated in LMS",
+        "color": "brown"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-05T11:00:00.000+01:00",
+        "end": "2026-04-05T12:20:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deng et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deng et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Analysis and optimization of student learning paths based on CRNN and sequential data",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Analysis and optimization of student learning paths based on CRNN and sequential data",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3394750c-f3ba-8036-af46-cd4f2d5cc23a",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Learning-path recommender / path optimization framework using CRNN + Transformer + Reinforcement Learning (PPO)",
+          "Personalized learning paths / tailored learning routes / intervention suggestions",
+          "Empirical deployment reports 1,200 participants across 3 institutions; benchmark datasets also include large public educational datasets",
+          "OULAD university courses, OLI Engineering Statics, ASSISTments math, EdNet online learning",
+          "Student learning history data, timestamps, course progress, learning duration, interaction records, question/problem logs, skill labels, knowledge-point graph, student outcomes",
+          "CRNN first extracts temporal embeddings from student behavior data; Transformer models knowledge-point associations using predefined graph; RL/PPO then optimizes path recommendations using predicted paths and reward signals",
+          "Yes — recommendations are iteratively updated through PPO based on real learning data and reward signals such as completion rate and test score improvement; hourly recommendation updates are mentioned in deployment description",
+          "temporal feature extraction from sequential logs; predefined knowledge graph; nightly batch feature extraction and hourly recommendation updates in empirical deployment; incremental learning setup mentioned",
+          "Personalized learning routes, recommended paths, predicted knowledge gaps, intervention suggestions, dashboard-based path recommendations",
+          "15% increase in completion rate and 12% improvement in average test score over baseline methods; empirical comparison also reports baseline vs CRNN framework on completion rate (68% to 83%) and test score (75.3 to 87.6)",
+          "RL makes the recommendation layer explicit. The LMS plugin description on page 20 reinforces practical recommender deployment.",
+          "Some reported empirical results are described in a broad framework-level way and are not always tightly tied to a clearly separated recommendation baseline; reliance on predefined knowledge graphs; possible demographic bias in training data; public-dataset experiments and empirical deployment are somewhat mixed in presentation"
+        ]
+      ],
+      "index": 5
+    },
+    {
+      "block_id": "3394750c-f3ba-8007-a913-e31810827c0a",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "ITS",
+          "Modeling student knowledge states and predicting learning-path related future behaviors from sequential interactions",
+          "Implicitly successful future learning path / interaction relevance;",
+          "EdNet: platform scale 784,309 students\n\nASSISTments 2017",
+          "TOEIC prep platform (EdNet/Santa), math problem solving (ASSISTments)",
+          "EdNet (KT1), ASSISTments 2017",
+          "Timestamps, question/problem IDs, answers/correctness, skill labels, elapsed time, course progress, learning duration, interaction records; sequential temporal features extracted by CRNN",
+          "Existing approaches struggle to model temporal dynamics and knowledge-point relationships effectively; prior methods use isolated CNN/RNN-style modeling and weaker knowledge association / reward design",
+          "Hybrid framework combining CRNN for sequential feature extraction, Transformer for knowledge-point association, and RL for path optimizationHybrid framework combining CRNN for sequential feature extraction, Transformer for knowledge-point association, and RL for path optimization",
+          "Adam optimizer; batch size 32; early stopping; CRNN with 3x3 filters + LSTM (128 hidden units); Transformer with 4 heads and 256-d embeddings",
+          "Proposed model, DKT, SAKT, BKT",
+          "Holdout Method (70/15/15)",
+          "EdNet\n\n{F1-Score: 0.912 - Proposed Model, HITS@K: 0.876 - Proposed Model}\n\nAST17\n{F1-Score: 0.898 - Proposed Model}",
+          "Experiment 1 is explicitly knowledge tracing. Stronger than baselines on both EdNet and ASSISTments.",
+          "Not a pure KT model; target is less cleanly defined than “next answer correctness”; metrics used for KT experiment are F1/HITS@K, not the more usual AUC/RMSE despite the text mentioning them elsewhere; student counts for experimental subsets are not clearly specified"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-80ca-928b-dd3a35943a5f",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80ca-928b-dd3a35943a5f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-02T15:30:00.000Z",
+        "last_edited_time": "2026-04-02T15:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80a0-abb7-cb1c037d1f81",
+      "type": "paragraph",
+      "text": "Most approaches at learning path recommendations struggle with properly incorporating knowledge modeling and temporal dynamics. Authors propose a new framework that uses CRNNs, Transformers and Reinforcement Learning for dynamic learning path optimization. \n\nTests show that the model is effective at promoting learning gains and completion rates. Authors also finish with an Ablation study.",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80a0-abb7-cb1c037d1f81",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-02T15:30:00.000Z",
+        "last_edited_time": "2026-04-02T15:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most approaches at learning path recommendations struggle with properly incorporating knowledge modeling and temporal dynamics. Authors propose a new framework that uses CRNNs, Transformers and Reinforcement Learning for dynamic learning path optimization. \n\nTests show that the model is effective at promoting learning gains and completion rates. Authors also finish with an Ablation study.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most approaches at learning path recommendations struggle with properly incorporating knowledge modeling and temporal dynamics. Authors propose a new framework that uses CRNNs, Transformers and Reinforcement Learning for dynamic learning path optimization. \n\nTests show that the model is effective at promoting learning gains and completion rates. Authors also finish with an Ablation study.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80e1-8187-d8a9b1d0175d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80e1-8187-d8a9b1d0175d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-02T15:32:00.000Z",
+        "last_edited_time": "2026-04-02T15:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/5597a34a-8895-473a-a64c-0f29615e148c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4666MNWJB4A%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151803Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGSrv%2FFT%2BImsTlfN7QXyBsCzThPmHfTfkVu%2BuoJ8w2XKAiATxfZ9q2eXPNaXqwMjd3w%2B3HSlvi8%2BbsfAUXw%2F4LRy%2Bir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMSk2fnSFlko8pMLiGKtwD62sQMrPKgIo3dXEvTvPELDdj1%2B2XN7cwnIqk8uZ8UxmP8KUDpxZiuV4PLJ1LQj2Upr7LfQ3jcMm5CNOKt5AbnCyPVhypYkm3vAPGog5I%2Bx3hjBizVcNnx5HbfaB6rwTw18JZ3D9cbWOPIyDRjC9fuFExVlReH3G0KG86h%2FMJu9YpSQ%2F%2FyJlk40OBxTn7VOnBq4Dh1mtNqNcwJu07hboDPFfyLvO0tVKGHnWTm3%2F5FwaJmoed1LaC0dnyh%2F%2BdrOnmXPOhLZ7E%2FbiPIGo47iyw7KlGe8qyt8qzKg%2BVvTwrX0KWtN5RtpUzQisMZ4OrW%2BHA0%2FFlQApw%2FDV5GA1k2yDsRKxNGn6jEjD%2FnzWa3qKrz6WMy8qSQaUI5YcduqABeE17fQlw0JVHUHXV4xZWvXioLiRkbZ4DzHi7YNDqwXUD10%2FDyumAPFmmDTjhAlCs5P9SjE2BrCyDqbgOEZ97V9b2cPWUyvy5EGNRc1etNk9aADs5k0AMnSS89%2Fatph7nR886CWhH%2Bh2LVaELJBidERuunjy91UBZjssBBb2hpX8PCkQkE2luago6JJpSqkZ9X56OcSwLwILy4S4BUlQNyJ3fqQeuY%2B85GUPDmO7kYjZgvm4U6kBkbb1oG3PQQjAwi%2FDzzgY6pgHhvglcaZmw8YW4rtKSw8QiW4mE8PfEaLIJmDL%2FL%2BFZK6O3NnxVrwyRMHCjyNaFB4dwE5MRDP2sswCR0HonPFnHRCiglaB1mjVp11K8eF6y8HMNB8p4gqDH6Frk00XRT9WfC2azyqjSgIgxKYP3p27erfHKoBV5cIvqrl08lR%2B3zycuDb5EK1E9Y0XREOoKrXDWlrx6I7Lic0hnmeM7gi4zZaCFwKch&X-Amz-Signature=e6dac9ce29bc7c4d8811432d64f8f957c842170afd21a4559fcb552906e70f9f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:18:03.395Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-8008-a0fd-c540a73cc415",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-8008-a0fd-c540a73cc415",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-05T11:12:00.000Z",
+        "last_edited_time": "2026-04-05T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-805c-815c-e84f7df98271",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-805c-815c-e84f7df98271",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-05T11:12:00.000Z",
+        "last_edited_time": "2026-04-05T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-8036-af46-cd4f2d5cc23a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-8036-af46-cd4f2d5cc23a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-05T11:12:00.000Z",
+        "last_edited_time": "2026-04-05T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-80c4-8ad3-f38f30e7ce82",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-80c4-8ad3-f38f30e7ce82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-05T11:12:00.000Z",
+        "last_edited_time": "2026-04-05T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-8007-a913-e31810827c0a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-8007-a913-e31810827c0a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80a1-abd0-ccf2a76fcba3"
+        },
+        "created_time": "2026-04-05T11:12:00.000Z",
+        "last_edited_time": "2026-04-05T11:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

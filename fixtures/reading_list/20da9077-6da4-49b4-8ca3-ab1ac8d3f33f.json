@@ -1,0 +1,650 @@
+{
+  "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f",
+  "title": "GritNet: Student performance prediction with deep learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "7bfcb327-dee6-4ed1-a1fa-0de95be0dc27",
+          "name": "Student Performance Prediction",
+          "color": "blue"
+        },
+        {
+          "id": "d877209c-e4fa-4fe0-9e57-0964da7fe665",
+          "name": "Deep Learning for Education",
+          "color": "purple"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Deep Learning” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Deep Learning” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "T`Bn",
+          "name": "ArXiv",
+          "color": "pink"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ArXiv",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ArXiv",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kim et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kim et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GritNet: Student performance prediction with deep learning",
+            "link": {
+              "url": "https://arxiv.org/abs/1804.07405"
+            }
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GritNet: Student performance prediction with deep learning",
+          "href": "https://arxiv.org/abs/1804.07405"
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3174750c-f3ba-8032-8420-d8843b8e5059",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "E-Learning",
+          "Graduating the MOOC Degree",
+          "Graduate vs Dropout",
+          "1853 students in ND-A and 8301 ND-B students",
+          "ND-A and ND-B from Udacity",
+          "LMS logs",
+          "Weekly Event embeddings",
+          "Every Week",
+          "As a Deep Learning Model that uses a Bidirectional LSTM.\n\nTuning was done via GridSearch.",
+          "GritNet, Logistic Regression",
+          "5-Fold Cross-Validation",
+          "ND-A\n{AUC: 0.82 - GritNet Week-4}\n\nND-B\n{AUC: 0.94 - GritNet Week-3}",
+          "Authors present their architecture called GritNet.\n\nThis embedding was compared against Logistic regressions.",
+          "Only compares GritNet againt baseline."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "67d7c507-e5ca-43fb-ab67-3363edb8b464",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "67d7c507-e5ca-43fb-ab67-3363edb8b464",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2024-07-31T15:45:00.000Z",
+        "last_edited_time": "2024-07-31T15:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0d05a1a4-9065-4b90-9d14-5892c45142c6",
+      "type": "paragraph",
+      "text": "The authors start from the perspective that there are very few attempts at using Deep Learning to address the student performance prediction problem. The authors, thus, propose a Bi-Directional LSTM based model that treats the problem of student performance prediction as a sequential event prediction problem.",
+      "raw": {
+        "object": "block",
+        "id": "0d05a1a4-9065-4b90-9d14-5892c45142c6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2024-07-31T15:45:00.000Z",
+        "last_edited_time": "2024-07-31T15:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors start from the perspective that there are very few attempts at using Deep Learning to address the student performance prediction problem. The authors, thus, propose a Bi-Directional LSTM based model that treats the problem of student performance prediction as a sequential event prediction problem.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors start from the perspective that there are very few attempts at using Deep Learning to address the student performance prediction problem. The authors, thus, propose a Bi-Directional LSTM based model that treats the problem of student performance prediction as a sequential event prediction problem.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8d259e80-0894-46ce-aed1-9b2ad8652b11",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8d259e80-0894-46ce-aed1-9b2ad8652b11",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2024-07-31T15:47:00.000Z",
+        "last_edited_time": "2024-07-31T15:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f307c993-5976-4eea-be85-433c0b772d7e",
+      "type": "paragraph",
+      "text": "While working with real Udacity data, authors show that GritNet outperforms Logistic Regression in the overall task of predicting student success. Moreover, the differences are more pronounced in the first few weeks of the course.",
+      "raw": {
+        "object": "block",
+        "id": "f307c993-5976-4eea-be85-433c0b772d7e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2024-07-31T15:46:00.000Z",
+        "last_edited_time": "2024-07-31T15:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "While working with real Udacity data, authors show that GritNet outperforms Logistic Regression in the overall task of predicting student success. Moreover, the differences are more pronounced in the first few weeks of the course.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "While working with real Udacity data, authors show that GritNet outperforms Logistic Regression in the overall task of predicting student success. Moreover, the differences are more pronounced in the first few weeks of the course.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3174750c-f3ba-80f7-bd27-d0ff3199a9e2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3174750c-f3ba-80f7-bd27-d0ff3199a9e2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2026-03-02T18:30:00.000Z",
+        "last_edited_time": "2026-03-02T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3174750c-f3ba-800e-8da3-c297a25cce88",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3174750c-f3ba-800e-8da3-c297a25cce88",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2026-03-02T18:30:00.000Z",
+        "last_edited_time": "2026-03-02T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3174750c-f3ba-8032-8420-d8843b8e5059",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3174750c-f3ba-8032-8420-d8843b8e5059",
+        "parent": {
+          "type": "page_id",
+          "page_id": "20da9077-6da4-49b4-8ca3-ab1ac8d3f33f"
+        },
+        "created_time": "2026-03-02T18:30:00.000Z",
+        "last_edited_time": "2026-03-02T19:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "references": [
+    {
+      "id": "8f7d969d-291b-464a-88a3-184f8fdcf53d",
+      "title": "Application of Educational Data Mining Approach for Student Academic Performance Prediction Using Progressive Temporal Data",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Educational Computing Research",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_7ca6c31a",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "At-Risk vs Safe",
+          "Students": "1708 students from a Faculty of Science",
+          "Courses": "7 units from a Thai University",
+          "Data sources": "LMS logs, Learner Demographics",
+          "Features": "[Weekly Clickstream for 10 weeks, Demographic Data]",
+          "Moment of Prediction": "Every Week for the First 10 Weeks of a Semester",
+          "Preprocessing Details": "LMS data were synchronized with other sources over the first 10 weeks. Weekly clickstream of LMS content was aggregated so each record contained Week1...Week10 access values plus the class label. Students were de-identified. Authors also compare LMS vs LMS+DMG, showing that adding demographics improves prediction accuracy.",
+          "Models": "Random Forest, Logistic Regression, J48, GBoost, SVM, kNN, MLP",
+          "Assessment Strategy": "10-Fold Cross-Validation for 6 models, 5-Repeated Holdout for MLP",
+          "Performance Metric: Best Model": "LMS+DMG outperforms LMS alone in average accuracy",
+          "Comments": "This is the Level 1 model in the paper: it predicts performance for a specific unit based on LMS clickstream. The authors argue that demographics help both predictive performance and interpretability for educators.",
+          "Limitations": "LMS use was inconsistent across the university; only a small subset of units used ATutor for a whole semester, so LMS data were incomplete. Also, the model is unit-specific, limiting transferability across courses."
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "End of Semester GPA",
+          "Target": "At-Risk (<60% GPA, i.e., <2.4/4) vs Safe",
+          "Students": "1708 students from a Faculty of Science",
+          "Courses": "Not unit-specific; general academic performance across students in the faculty",
+          "Data sources": "Internet usage log files from the university firewall; demographic data in enhanced versions; previous CGPA in the best-performing dataset",
+          "Features": "[Browsing-category features and Internet-usage-application features, aggregated by time and frequency of use; top 26 browsing-category features and top 26 application features selected by Pearson correlation; enhanced datasets also include gender, academic major, year of study, and previous CGPA]",
+          "Moment of Prediction": "Every Week for the First 10 Weeks of a Semester",
+          "Preprocessing Details": "Raw firewall logs were transformed into Internet-usage datasets. Features were aggregated according to how long and how often students accessed the Internet. Because the data were sparse, the authors applied correlation-based feature ranking and selected top features. They tested 9 Category–Application weight combinations (90–10 to 10–90), plus comparisons among LOG, LOG+DMG, and LOG+DMG+CGPA datasets.",
+          "Models": "Random Forest, Logistic Regression, J48, GBoost, SVM, kNN, MLP",
+          "Assessment Strategy": "10-Fold Cross-Validation for 6 models, 5-Repeated Holdout for MLP",
+          "Performance Metric: Best Model": "{Accuracy: 0.943 – Decision Tree (80% APP / 20% CAT), Precision: 0.943 – Decision Tree (80% APP / 20% CAT), F-Measure: 0.943 – Decision Tree (80% APP / 20% CAT), ROC Area: 0.968 – Random Forest (10% APP / 90% CAT)} on the Week 9 CAT-APP-DMG-CGPA-FREQUENCY dataset",
+          "Comments": "This is the Level 2 model in the paper. The authors show that Internet usage logs can complement LMS data and that adding demographics improves performance from about week 4 onward; the best results come from LOG+DMG+CGPA. They also argue that mixed model performance depends on the weighting between browsing categories and application features. Prediction becomes notably stronger from weeks 3–4 onward.",
+          "Limitations": "Data come from only one university, so generalizability is limited. Early-semester behavior is noisy because even successful students may show relaxed Internet-use patterns in the first weeks. Also, Internet-use data are not purely study-related, though the authors frame this as part of students’ broader behavioral footprint"
+        }
+      ],
+      "provenance": {
+        "page_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e7984999",
+      "reference_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d",
+      "text": "LMS are a limited option to evaluate student performance and the authors propose a new model that not only uses LMS data but uses Internet usage patterns as well. ",
+      "provenance": {
+        "page_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d"
+      }
+    },
+    {
+      "id": "an_ea8a21a4",
+      "reference_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d",
+      "text": "The authors had access to Internet usage data and used it in conjuntion with demographics and LMS to build predictive models that identify students at-risk. The internet usage data required some for of categorization.",
+      "provenance": {
+        "page_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d"
+      }
+    },
+    {
+      "id": "an_66d4504e",
+      "reference_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d",
+      "text": "\n",
+      "provenance": {
+        "page_id": "8f7d969d-291b-464a-88a3-184f8fdcf53d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,642 @@
+{
+  "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641",
+  "title": "How learning analytics can early predict under-achieving students in a blended medical education course",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Medical Teacher",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Medical Teacher",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-03T18:15:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Saqr et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Saqr et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How learning analytics can early predict under-achieving students in a blended medical education course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How learning analytics can early predict under-achieving students in a blended medical education course",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1cd4750c-f3ba-80d1-ba54-d0cfb8c70838",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning",
+          "Being at risk of Failing a Course",
+          "Grade above 65% (Safe) vs Grade Below 65% (At-risk)",
+          "133 undergraduate students",
+          "1 Man and Environment course at Qassim University",
+          "Attendance Records, \nLMS logs",
+          "[Total posts initiated by a student, Total posts and replies by a student, Number of posts in first half of the course, Number of posts in second half of the course, Total times forum was read, Total hits on recourses, Total hits on course information, Total course hits, Total views before course started, Number of hits in first half of course, Number of hits in second half of course, Number of resources accessed, Total logins, Logins in first half of course, Logins in second half of course, Formative assessment grade, Mid-course formative assessment grade, Number attempts formative quizz, End of Course Assessment Grade, Response to Communication, Total views of news forum]",
+          "End of Course",
+          "Data is taken and aggregated into a dataset. \n\nThe authors identify 64 potential features but ultimately decide keeping smaller subset. These are aggregated into:\n\n1. Interaction and Content Creation, \n2. Hits and Views, \n3. Logins and Course Access, \n4. Time, \n5. Formative Assessment, \n6. Communications\n\n",
+          "Automatic Linear Regression, \nLogistic Regression",
+          "None",
+          "{Sensitivity: 0.81 - Logistic Regression, AUC: 0.90 - Logistic Regression, Recall: 0.808 - Logistic Regression, Accuracy: 0.947 - Logistic Regression}",
+          "Authors attempt to apply a Predictive Modeling pipeline to a dataset of Health Students. \n\nThey look at the Pearson correlation between features and final score on the course to select most relevant predictors. \n\nEngagement indicators have consistent and significantly higher correlations with student performance. \n\n",
+          "No model assessment strategy for generalizability.\n\nSmall sample.\n\nSmall number of algorithms for comparison. \n\nParameters used are self-described as generic.\n\nNeed for additional sources of data.\n\nVery imbalanced ddataset.\n\n\n"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "B-Learning",
+          "Being at risk of Failing a Course",
+          "Grade above 65% (Safe) vs Grade Below 65% (At-risk)",
+          "133 undergraduate students",
+          "1 Man and Environment course at Qassim University",
+          "Attendance Records, \nLMS logs",
+          "[Total posts initiated by a student, Total posts and replies by a student, Number of posts in first half of the course, Total times forum was read, Total hits on recourses, Total hits on course information, Total course hits, Total views before course started, Number of hits in first half of course,  Number of resources accessed, Total logins, Logins in first half of course, Formative assessment grade, Mid-course formative assessment grade, Number attempts formative quizz, End of Course Assessment Grade, Response to Communication, Total views of news forum]",
+          "Course Half-way Point",
+          "Data is taken and aggregated into a dataset. The authors identify 64 potential features but ultimately decide keeping smaller subset. These are aggregated into:1. Interaction and Content Creation, 2. Hits and Views, 3. Logins and Course Access, 4. Time, 5. Formative Assessment, 6. Communications",
+          "Logistic Regression",
+          "None",
+          "{Sensitivity: 0.42 - Logistic Regression, AUC: 0.69 - Logistic Regression, Recall: 0.423 - Logistic Regression, Accuracy: 0.857 - Logistic Regression}",
+          "Same as previous exercise, but it only considers data collected up to the course’s halfway point. ",
+          "No model assessment strategy for generalizability.\n\nSmall sample.\n\nSmall number of algorithms for comparison. \n\nParameters used are self-described as generic.\n\nNeed for additional sources of data.\n\nNo comparison of Logistic Regression against other algorithmic possibilities.\n\nVery imbalanced ddataset."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18f4750c-f3ba-8053-8c59-c8a25d978756",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-8053-8c59-c8a25d978756",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-02-03T18:07:00.000Z",
+        "last_edited_time": "2025-02-03T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-809a-a17d-e3f7c646138c",
+      "type": "paragraph",
+      "text": "Learning analytics to perform early identification of students in need is underexplored in medicine. The study looks at online activites from mediical students and checks whether they correlate with performance.",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-809a-a17d-e3f7c646138c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-02-03T18:07:00.000Z",
+        "last_edited_time": "2025-02-03T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning analytics to perform early identification of students in need is underexplored in medicine. The study looks at online activites from mediical students and checks whether they correlate with performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning analytics to perform early identification of students in need is underexplored in medicine. The study looks at online activites from mediical students and checks whether they correlate with performance.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80f1-9094-dc42b86b93ea",
+      "type": "paragraph",
+      "text": "The authors extracted logs from 133 students and extract general counts of activities and 5 indicators. The authors were able to predict the final grade with 65% accuracy and a recall of 54%. Predicting at the course’s halfway point, accuracy was actually 42%. ",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80f1-9094-dc42b86b93ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-02-03T18:10:00.000Z",
+        "last_edited_time": "2025-02-03T18:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors extracted logs from 133 students and extract general counts of activities and 5 indicators. The authors were able to predict the final grade with 65% accuracy and a recall of 54%. Predicting at the course’s halfway point, accuracy was actually 42%. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors extracted logs from 133 students and extract general counts of activities and 5 indicators. The authors were able to predict the final grade with 65% accuracy and a recall of 54%. Predicting at the course’s halfway point, accuracy was actually 42%. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-80f0-a762-c64ace7b3114",
+      "type": "paragraph",
+      "text": " ",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-80f0-a762-c64ace7b3114",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-02-03T18:18:00.000Z",
+        "last_edited_time": "2026-04-01T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cd4750c-f3ba-809d-aaf9-e03222ecdebc",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1cd4750c-f3ba-809d-aaf9-e03222ecdebc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-04-06T17:50:00.000Z",
+        "last_edited_time": "2026-04-01T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cd4750c-f3ba-80d1-ba54-d0cfb8c70838",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cd4750c-f3ba-80d1-ba54-d0cfb8c70838",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80dc-a079-da0c4c4ce641"
+        },
+        "created_time": "2025-04-06T17:50:00.000Z",
+        "last_edited_time": "2025-04-06T18:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

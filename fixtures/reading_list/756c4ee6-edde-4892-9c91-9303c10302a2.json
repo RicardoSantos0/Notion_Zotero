@@ -1,0 +1,684 @@
+{
+  "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2",
+  "title": "Learner Modeling and Recommendation of Learning Resources using Personal Knowledge Graphs",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "a906e860-f0e0-4a12-aad9-65316adeb697",
+          "name": "Educational recommender systems",
+          "color": "pink"
+        },
+        {
+          "id": "6b27426d-9ba0-436b-81f9-241cac222119",
+          "name": "MOOC",
+          "color": "pink"
+        },
+        {
+          "id": "15e759da-7a68-47d0-b6c8-923065eed75e",
+          "name": "Personal Knowledge Graph",
+          "color": "default"
+        },
+        {
+          "id": "f8ea22b1-0410-4bb2-b637-19c881d8880f",
+          "name": "Learner Modeling",
+          "color": "default"
+        },
+        {
+          "id": "ae325673-e4ab-4e06-bfe8-c92e06059cdd",
+          "name": "Open Learner Model",
+          "color": "green"
+        },
+        {
+          "id": "5cf56e8c-c0dd-493c-9448-d025f9294052",
+          "name": "Sentence Encoder",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "h:oF",
+        "name": "Integrated in LMS",
+        "color": "brown"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-11T17:47:00.000+00:00",
+        "end": "2025-10-31T00:23:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Ul Ain et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Ul Ain et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learner Modeling and Recommendation of Learning Resources using Personal Knowledge Graphs",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learner Modeling and Recommendation of Learning Resources using Personal Knowledge Graphs",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "29c4750c-f3ba-8077-8f7e-eb1f618bbf47",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "MOOC",
+          "E-Learning",
+          "Hybrid",
+          "Exterrnal Learning Resources",
+          "31 post-graduate students",
+          "1 Computer Science Course",
+          "– Lecture slides (concept text, extracted keyphrases)\n\n– Student DNU feedback logs \n\n– External APIs (Wikipedia + YouTube)",
+          "– Personal Knowledge Graph (PKG) nodes initialized from lecture concepts\n\n – Concept & resource embeddings via SBERT (all-MiniLM-L6-v2) \n\n– Relation weights set using cosine similarity",
+          "– PKG updated each time a learner flags new DNU concepts \n\n– Concept and neighbor embeddings re-propagated through LightGCN layers \n\n– Re-ranking by similarity between learner-PKG and resource graph",
+          "– Keyphrase extraction: SingleRank + DBpedia Spotlight – Entity linking: Wikipedia/DBpedia URIs \n\n– Text normalized, stop-word removed \n\n– SBERT embeddings generated for slides & external texts \n\n– Graph edges built: {relatedTo, subcategoryOf, hasCategory}",
+          "Top-N external resources",
+          "Online\n{Precision@5: 0.68 - PKG-Keyphrase, MAP: 0.78 - PKG-Keyphrase, MRR: 0.81:  - PKG-Keyphrase}",
+          "– Introduces Personal Knowledge Graphs (PKGs) that learners build themselves by marking DNU concepts. \n\n– Combines semantic embeddings (SBERT) with graph propagation (LightGCN) for richer contextual recommendations. \n\n– Transparent & scrutable learner model: students can see and edit their PKG. \n\n– Demonstrates significant improvements in accuracy and user trust compared to content-only approaches.",
+          "– Small sample size (N = 31, 1 course). \n\n– Concept extraction errors (e.g., non-academic or ambiguous terms). \n\n– YouTube API limit restricts query length (≤ 5 concepts). \n\n– No direct measurement of learning gain. \n\n– Manual DNU entry burden on learners; automation needed for scale."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b34750c-f3ba-80fe-99b8-fdd8f913d500",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-80fe-99b8-fdd8f913d500",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-03-11T17:47:00.000Z",
+        "last_edited_time": "2025-03-11T17:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b34750c-f3ba-8083-adc1-c2d38b22eeec",
+      "type": "paragraph",
+      "text": "Creating a representation of a learner’s knowledge state is important (more than just on KT) in the design of educational recommender systems. However, current recommenders have problems with transparency in the learner model and how it relates with the learning materials. The paper proposes an approach using Personal Knowledge Graphs. ",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-8083-adc1-c2d38b22eeec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-03-11T17:47:00.000Z",
+        "last_edited_time": "2025-03-11T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Creating a representation of a learner’s knowledge state is important (more than just on KT) in the design of educational recommender systems. However, current recommenders have problems with transparency in the learner model and how it relates with the learning materials. The paper proposes an approach using ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Creating a representation of a learner’s knowledge state is important (more than just on KT) in the design of educational recommender systems. However, current recommenders have problems with transparency in the learner model and how it relates with the learning materials. The paper proposes an approach using ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Personal Knowledge Graphs. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Personal Knowledge Graphs. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b34750c-f3ba-801a-adce-f09bc4ad1b8d",
+      "type": "paragraph",
+      "text": "The knowledge graph is created from users labelling contents as “did not understand” as they interact with the materials. This labelling is a precursor for the construction of the learner model and uses this representation to suggest external learning resources. The approach is tested on a sample of 31 students and shows promising results on user-centred metrics such as accuracy, novelty, diversity, usefulness, satisfaction and intentions. ",
+      "raw": {
+        "object": "block",
+        "id": "1b34750c-f3ba-801a-adce-f09bc4ad1b8d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-03-11T17:52:00.000Z",
+        "last_edited_time": "2025-03-11T17:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The knowledge graph is created from users labelling contents as “did not understand” as they interact with the materials. This labelling is a precursor for the construction of the learner model and uses this representation to suggest external learning resources. The approach is tested on a sample of 31 students and shows promising results on user-centred metrics such as accuracy, novelty, diversity, usefulness, satisfaction and intentions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The knowledge graph is created from users labelling contents as “did not understand” as they interact with the materials. This labelling is a precursor for the construction of the learner model and uses this representation to suggest external learning resources. The approach is tested on a sample of 31 students and shows promising results on user-centred metrics such as accuracy, novelty, diversity, usefulness, satisfaction and intentions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29c4750c-f3ba-80ad-a0d2-ddeec44db119",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29c4750c-f3ba-80ad-a0d2-ddeec44db119",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-10-30T23:02:00.000Z",
+        "last_edited_time": "2025-10-30T23:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/66bc6118-3515-4763-9b41-792cd0534ba6/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4665WF4VP22%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153244Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDADp%2F0CKwoBDk3EDXk6uoi4EHKLhY9Ow0EaxxPtlSLgAIgI9WstWdRFstyAeab7%2FMtVDKJDktZWpZNYwDUUlt%2FHgQq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDH8Tu2J6rAacCBpRlCrcA0HeW78zGsu9TTtX0PAMRTavRz4Zanh26mhbP4bO78x2claoFnvgT4QcqVbIpYd9vnxPVJfk4YLiS9DlD%2F2jedZ5OroawJCRR6tF%2Bc8PNmP%2FZE3vpXpjtORnCF4Ndo3VZLFChBtXwT%2FBev0myGAEOO5rAwGxu6w2RlGuEbYq2MTkxHsC%2ByX87EjckICeL3rqKuM4DXeF6by3iLyhbnKEF0yV3Nvv5O9MtC0LA0Ra15DcnI8N%2FJvCH8OTHktCrJE5BMJMqytyjs6T3gc0by2JTOgxmcDIlVf7dEurzsRx6H7%2FhxtINAaZaqQ2An%2Ba1r5Ep8lQrBQ2Uj2sItYvV1nX3ACDIhTqbw9kus3rMA8XmpJ8OOsfcmawpU9g0P16NXcq7a0Ie%2BBXnm%2B2Vc6aFZc3vLiZR8cSWZrJgSN%2BcB5Q7OLBvGmGG0ZKRe9B1Cck%2BESw0%2FfLhsl7I0%2FBHursPbXX6pwtk2dO7m3Ze9lk%2BUZQCOg%2FZp9XsrtwRUSpxciwnYBLDzRQZCqKJM%2F%2FMmmreMUIikI%2Bq7L11UUAUyf7s0034JBHq1HaI%2FSah5OnSk7cZfYmUsFxTOsS7VRCSN3DWEifpJjn40JktYpw11HfJVhbDvEQnqgoemTF1HBY14V%2BMJby884GOqUBP7U4vDwc2%2FqpcCTThArysL%2FGGjH0WdSrq1%2BnJ2lK%2B4%2Bpm4rGGkNro2%2BPHvhdAlVbCkivSINMbcYybdgwV4j53OcL6%2Ba%2F9%2FyV3PtUvxUlLxDYNGY8PKpHCnlkxFEWUkNfurWcMz78QN0nT1ORLf%2BPg5yf10O2SAS83pPOKuE1gJHHOOVvQgBu7pPp%2B%2FbX9OmYFCEeh5F63eZw0avtAfs2MxE%2Fch8n&X-Amz-Signature=f0730793fe3f55d72deb0c31e7cde4122bb469194ae306a764762ccf6950b274&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:44.674Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29c4750c-f3ba-8007-a17e-e4d594b7c035",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29c4750c-f3ba-8007-a17e-e4d594b7c035",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-10-30T23:03:00.000Z",
+        "last_edited_time": "2025-10-30T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29c4750c-f3ba-8059-9ede-cba04bcbe1a5",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "29c4750c-f3ba-8059-9ede-cba04bcbe1a5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-10-30T23:03:00.000Z",
+        "last_edited_time": "2025-10-30T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29c4750c-f3ba-8077-8f7e-eb1f618bbf47",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29c4750c-f3ba-8077-8f7e-eb1f618bbf47",
+        "parent": {
+          "type": "page_id",
+          "page_id": "756c4ee6-edde-4892-9c91-9303c10302a2"
+        },
+        "created_time": "2025-10-30T23:03:00.000Z",
+        "last_edited_time": "2025-10-30T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

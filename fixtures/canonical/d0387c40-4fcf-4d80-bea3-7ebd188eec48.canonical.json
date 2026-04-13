@@ -1,0 +1,178 @@
+{
+  "references": [
+    {
+      "id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48",
+      "title": "Predicting students’ academic performance by using educational big data and learning analytics: evaluation of classification methods and learning logs",
+      "authors": [],
+      "year": null,
+      "journal": "Interactive Learning Environments",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2578faa8",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=60) vs Low (<60)",
+          "Students": "59",
+          "Courses": "Freshman calculus",
+          "Data sources": "LMS logs",
+          "Features": "20 features on online self-learning, practice, video viewing, and quiz engagement",
+          "Moment of Prediction": "During course, based on accumulated learning logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.65 - RF, Precision: 0.64 - RF, Recall: 0.65 - RF, F1-Score: 0.64 - RF, AUC: 0.60 - RF}",
+          "Comments": "Low predictive ability; only 7 significant features and few significant categories",
+          "Limitations": "Different course/context from other cases; imbalanced learning actions; limited sample size"
+        },
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=60) vs Low (<60)",
+          "Students": "152",
+          "Courses": "College preparatory calculus",
+          "Data sources": "LMS logs",
+          "Features": "18 features on self-learning, discussion, practice, and video viewing",
+          "Moment of Prediction": "During course, based on accumulated learning logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.79 - RF, Precision: 0.75 - RF, Recall: 0.79 - RF, F1-Score: 0.77 - RF, AUC: 0.56 - RF}",
+          "Comments": "More significant features than case 1.1, but still low predictive ability because coefficient values were weak and categories insufficient",
+          "Limitations": "No Maple T.A. self-evaluation data; different course design; class imbalance and dataset comparability issues"
+        },
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=60) vs Low (<60)",
+          "Students": "183",
+          "Courses": "Calculus for high school",
+          "Data sources": "LMS logs",
+          "Features": "22 features on self-learning, discussion, practice, video viewing, and quiz engagement",
+          "Moment of Prediction": "During course, based on accumulated learning logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.86 - NB, Precision: 0.90 - NB, Recall: 0.86 - NB, F1-Score: 0.87 - NB, AUC: 0.86 - NB}",
+          "Comments": "Best overall case; all feature categories were significant and strongly related to performance",
+          "Limitations": "Still from a specific course/institution; results may depend on richer engagement patterns and larger sample"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Book Supported Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=70) vs Low (<70)",
+          "Students": "61",
+          "Courses": "Software engineering",
+          "Data sources": "LMS logs",
+          "Features": "15 ebook reading features (11 available in practice) on open/close, bookmarks, markers, memos, page actions",
+          "Moment of Prediction": "During course, based on accumulated ebook reading logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.62 - XGBoost, Precision: 0.60 - XGBoost, Recall: 0.62 - XGBoost, F1-Score: 0.60 - XGBoost, AUC: 0.54 - XGBoost}",
+          "Comments": "Low predictive ability; only 1 significant feature",
+          "Limitations": "Very few low-scoring students under 60, requiring threshold change; weak behavioral differentiation"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Book Supported Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=70) vs Low (<70)",
+          "Students": "32",
+          "Courses": "Biology",
+          "Data sources": "LMS logs",
+          "Features": "15 ebook reading features on open/close, bookmarks, markers, memos, and page actions",
+          "Moment of Prediction": "During course, based on accumulated ebook reading logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.75 - LR, Precision: 0.77 - LR, Recall: 0.75 - LR, F1-Score: 0.75 -LR, AUC: 0.73 - LR}",
+          "Comments": "Best ebook-reading case; 12 significant features covering all behavior categories",
+          "Limitations": "Small sample; grading imbalance remains an issue; performance still only moderate"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Book Supported Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=70) vs Low (<70)",
+          "Students": "53",
+          "Courses": "n.a.",
+          "Data sources": "LMS logs",
+          "Features": "15 ebook reading features (14 available in practice) on open/close, bookmarks, markers, memos, and page actions",
+          "Moment of Prediction": "During course, based on accumulated ebook reading logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.71 - SVM, Precision: 0.66 - SVM, Recall: 0.71 - SVM, F1-Score: 0.65 - SVM, AUC: 0.54 - SVM}",
+          "Comments": "Low predictive ability; no significant features were found",
+          "Limitations": "Course not specified; weak separation between high/low performers; grading imbalance"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Book Supported Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "High (>=70) vs Low (<70)",
+          "Students": "55",
+          "Courses": "n.a.",
+          "Data sources": "LMS logs",
+          "Features": "15 ebook reading features (14 available in practice) on open/close, bookmarks, markers, memos, and page actions",
+          "Moment of Prediction": "During course, based on accumulated ebook reading logs",
+          "Preprocessing Details": "Data integration; z-score normalization",
+          "Models": "Naive Bayes, SVM, Linear-SVM, Decision Tree, Random Forest, MLP, XGBoost, Logistic Regression",
+          "Assessment Strategy": "10-Repeated 3-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.61 - NB, Precision: 0.73 - NB, Recall: 0.61 - NB, F1-Score: 0.60 - NB, AUC: 0.66 - NB}",
+          "Comments": "Better than U2.1/U3.1, but still low predictive ability; 8 significant features with moderate coefficient range",
+          "Limitations": "Course not specified; too few strong/significant categories; grading imbalance"
+        }
+      ],
+      "provenance": {
+        "page_id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_ff3e4565",
+      "reference_id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48",
+      "text": "Predictive models for early identification of struggling students often overlook the reason for why a model may perform or not. To identify possible factors that influence model performance, the authors used 7 datasets from 3 institutions.",
+      "provenance": {
+        "page_id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48"
+      }
+    },
+    {
+      "id": "an_c3626779",
+      "reference_id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48",
+      "text": "Results show that the performance of a predictive model is related with the number of significant features, the number of categories of the significant features and, more particularly, the Spearman Correlation Coefficients for the significant features. ",
+      "provenance": {
+        "page_id": "d0387c40-4fcf-4d80-bea3-7ebd188eec48"
+      }
+    }
+  ],
+  "workflow_states": []
+}

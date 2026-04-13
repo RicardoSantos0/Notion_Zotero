@@ -1,0 +1,3215 @@
+{
+  "page_id": "99601ef7-2f18-4396-b864-88fda9d63542",
+  "title": "A systematic literature review on educational recommender systems for teaching and learning: research trends, limitations and opportunities",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a906e860-f0e0-4a12-aad9-65316adeb697",
+          "name": "Educational recommender systems",
+          "color": "pink"
+        },
+        {
+          "id": "762c68dc-7053-4ec9-bf5c-ee59d6b18bfc",
+          "name": "E-learning recommendation",
+          "color": "blue"
+        },
+        {
+          "id": "420b8efd-2bea-4d4c-9d65-e0be3b3e6ea0",
+          "name": "Systematic literature review",
+          "color": "red"
+        },
+        {
+          "id": "538d799c-c6ec-413e-b736-22f2411a9043",
+          "name": "Computer-mediated teaching and learning",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education” AND “Review”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education” AND “Review”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Education and Information Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Education and Information Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "c|bm",
+        "name": "Rejected Before Reading",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Review",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Review",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10T12:00:00.000+01:00",
+        "end": "2024-07-12T20:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Leite da Silva et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Leite da Silva et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "WlQ:",
+          "name": "Review",
+          "color": "blue"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A systematic literature review on educational recommender systems for teaching and learning: research trends, limitations and opportunities",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A systematic literature review on educational recommender systems for teaching and learning: research trends, limitations and opportunities",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "c61fc83e-03b1-4969-83d2-6ca0d17edcc7",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "c61fc83e-03b1-4969-83d2-6ca0d17edcc7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:11:00.000Z",
+        "last_edited_time": "2024-07-10T16:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "41192e5d-64a1-4bc8-a03c-b6b645222a09",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "41192e5d-64a1-4bc8-a03c-b6b645222a09",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:12:00.000Z",
+        "last_edited_time": "2024-07-10T16:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9e4ae02f-ecc4-426f-b92b-1a73042ec61f",
+      "type": "paragraph",
+      "text": "There is a gap in the way recommender systems are used and evaluated in the educational context even though these types of systems have, over the years, been  becoming more and more popular. This review uses 16 (?) papers.",
+      "raw": {
+        "object": "block",
+        "id": "9e4ae02f-ecc4-426f-b92b-1a73042ec61f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:11:00.000Z",
+        "last_edited_time": "2024-07-10T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is a gap in the way recommender systems are used and evaluated in the educational context even though these types of systems have, over the years, been  becoming more and more popular. This review uses 16 (?) papers.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is a gap in the way recommender systems are used and evaluated in the educational context even though these types of systems have, over the years, been  becoming more and more popular. This review uses 16 (?) papers.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "301bc7da-1d1f-4f4a-851a-0c0e9f1c5e2a",
+      "type": "paragraph",
+      "text": "Most studies follow an would-be-called hybrid approach and their evaluation tends to mostly be focused on evaluation of accuracy and not pedagogic effectiveness which brings to the front a need for better ways of measuring the effectiveness of recommender systems in educational contexts.",
+      "raw": {
+        "object": "block",
+        "id": "301bc7da-1d1f-4f4a-851a-0c0e9f1c5e2a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:15:00.000Z",
+        "last_edited_time": "2024-07-10T16:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most studies follow an would-be-called hybrid approach and their evaluation tends to mostly be focused on evaluation of accuracy and not pedagogic effectiveness which brings to the front a need for better ways of measuring the effectiveness of recommender systems in educational contexts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most studies follow an would-be-called hybrid approach and their evaluation tends to mostly be focused on evaluation of accuracy and not pedagogic effectiveness which brings to the front a need for better ways of measuring the effectiveness of recommender systems in educational contexts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dfbcf6e9-d595-4a1f-a5cf-9be69b8e3773",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "dfbcf6e9-d595-4a1f-a5cf-9be69b8e3773",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:19:00.000Z",
+        "last_edited_time": "2024-07-10T16:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9b84e86d-4c0e-4f6b-9dc8-e9f201b62149",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "9b84e86d-4c0e-4f6b-9dc8-e9f201b62149",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:19:00.000Z",
+        "last_edited_time": "2024-07-10T16:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a6e97d3c-896c-4428-b7ec-090142c4a4b9",
+      "type": "paragraph",
+      "text": "Digital Technologies are part of a decision support system. Reccomender systems can assist educators make better plans and have students receive recommendations for better content.",
+      "raw": {
+        "object": "block",
+        "id": "a6e97d3c-896c-4428-b7ec-090142c4a4b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:19:00.000Z",
+        "last_edited_time": "2024-07-10T16:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Digital Technologies are part of a decision support system. Reccomender systems can assist educators make better plans and have students receive recommendations for better content.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Digital Technologies are part of a decision support system. Reccomender systems can assist educators make better plans and have students receive recommendations for better content.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6e098986-2529-4d09-9272-60932b7176db",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "6e098986-2529-4d09-9272-60932b7176db",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:25:00.000Z",
+        "last_edited_time": "2024-07-10T16:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f5185122-cac6-4d5b-b43e-113ebcbf4e21",
+      "type": "paragraph",
+      "text": "However, implementing in educational settings has been challenging. Variability between student needs and preferences is a big hurdle. Also, these systems also suffer from: cold-start and data sparsity. Also, there is an issue with the fact that there is a need vs preference dichotomy in education:",
+      "raw": {
+        "object": "block",
+        "id": "f5185122-cac6-4d5b-b43e-113ebcbf4e21",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:25:00.000Z",
+        "last_edited_time": "2024-07-10T16:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "However, implementing in educational settings has been challenging. Variability between student needs and preferences is a big hurdle. Also, these systems also suffer from: cold-start and data sparsity. Also, there is an issue with the fact that there is a need vs preference dichotomy in education:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However, implementing in educational settings has been challenging. Variability between student needs and preferences is a big hurdle. Also, these systems also suffer from: cold-start and data sparsity. Also, there is an issue with the fact that there is a need vs preference dichotomy in education:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ce10ef60-9bea-4023-80b6-232d2aafecc2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ce10ef60-9bea-4023-80b6-232d2aafecc2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:34:00.000Z",
+        "last_edited_time": "2024-07-10T16:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c528308a-8d7e-41f6-8570-c4f9ca0b0ece",
+      "type": "paragraph",
+      "text": "The authors identify research whose main purpose is to address the previously identified issues but there does not seem to exist a standardized approach to it and each author does what they sort of want to. Thus, the research aims to be a SLR on ERS.",
+      "raw": {
+        "object": "block",
+        "id": "c528308a-8d7e-41f6-8570-c4f9ca0b0ece",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:34:00.000Z",
+        "last_edited_time": "2024-07-10T16:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identify research whose main purpose is to address the previously identified issues but there does not seem to exist a standardized approach to it and each author does what they sort of want to. Thus, the research aims to be a SLR on ERS.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identify research whose main purpose is to address the previously identified issues but there does not seem to exist a standardized approach to it and each author does what they sort of want to. Thus, the research aims to be a SLR on ERS.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5b5bfa97-ced0-4014-9879-8b49a9728b48",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5b5bfa97-ced0-4014-9879-8b49a9728b48",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:37:00.000Z",
+        "last_edited_time": "2024-07-10T16:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5f019ae2-3c5e-4692-8cf4-297d973f9faf",
+      "type": "heading_2",
+      "text": "Related Work",
+      "raw": {
+        "object": "block",
+        "id": "5f019ae2-3c5e-4692-8cf4-297d973f9faf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:37:00.000Z",
+        "last_edited_time": "2024-07-10T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Related Work",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Related Work",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8994c970-d32f-4469-a65e-46b278fb9629",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8994c970-d32f-4469-a65e-46b278fb9629",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:38:00.000Z",
+        "last_edited_time": "2024-07-10T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6aadc869-07f0-4a4a-a38f-b99757e6dbf8",
+      "type": "paragraph",
+      "text": "There have been some SLR on the topic:",
+      "raw": {
+        "object": "block",
+        "id": "6aadc869-07f0-4a4a-a38f-b99757e6dbf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:38:00.000Z",
+        "last_edited_time": "2024-07-10T16:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There have been some SLR on the topic:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There have been some SLR on the topic:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9c8b15be-df72-4178-88f7-4dd4aa2242a8",
+      "type": "heading_3",
+      "text": "Gaps in Previous Lit. Reviews and contribution",
+      "raw": {
+        "object": "block",
+        "id": "9c8b15be-df72-4178-88f7-4dd4aa2242a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:48:00.000Z",
+        "last_edited_time": "2024-07-10T16:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Gaps in Previous Lit. Reviews and contribution",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Gaps in Previous Lit. Reviews and contribution",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b364999-87c7-4232-ab79-28844bcc286d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b364999-87c7-4232-ab79-28844bcc286d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:30:00.000Z",
+        "last_edited_time": "2024-07-10T16:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6e8d4a09-5aef-42d8-bf3e-dd74d12776f4",
+      "type": "paragraph",
+      "text": "The authors grouped the previous essays in 2 main areas: thw first being specific ERS subjects such as recommender methods (content-based vs user-based, etc…) and similar recommendable resources. Most of the works also put little emphasys on the evaluation part of the recommender.",
+      "raw": {
+        "object": "block",
+        "id": "6e8d4a09-5aef-42d8-bf3e-dd74d12776f4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:29:00.000Z",
+        "last_edited_time": "2024-07-11T15:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors grouped the previous essays in 2 main areas: thw first being specific ERS subjects such as recommender methods (content-based vs user-based, etc…) and similar recommendable resources. Most of the works also put little emphasys on the evaluation part of the recommender.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors grouped the previous essays in 2 main areas: thw first being specific ERS subjects such as recommender methods (content-based vs user-based, etc…) and similar recommendable resources. Most of the works also put little emphasys on the evaluation part of the recommender.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1a69f23a-79a4-4a49-a99a-c15e6a2e3f59",
+      "type": "paragraph",
+      "text": "The second group focuses on providing a broader overview of the research landscape on the area.",
+      "raw": {
+        "object": "block",
+        "id": "1a69f23a-79a4-4a49-a99a-c15e6a2e3f59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:07:00.000Z",
+        "last_edited_time": "2024-07-11T15:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The second group focuses on providing a broader overview of the research landscape on the area.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The second group focuses on providing a broader overview of the research landscape on the area.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1693822c-ab6b-4cdd-93d6-5675ade99e84",
+      "type": "paragraph",
+      "text": "The work is important because it aims to provide a detailed analysis of: how recommendations are created and presented and how to evaluater recommendations. The work uses a SLR for that.",
+      "raw": {
+        "object": "block",
+        "id": "1693822c-ab6b-4cdd-93d6-5675ade99e84",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:28:00.000Z",
+        "last_edited_time": "2024-07-11T15:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work is important because it aims to provide a detailed analysis of: how recommendations are created and presented and how to evaluater recommendations. The work uses a SLR for that.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work is important because it aims to provide a detailed analysis of: how recommendations are created and presented and how to evaluater recommendations. The work uses a SLR for that.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "405db06b-e8e6-4759-af7d-5cafff1a3595",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "405db06b-e8e6-4759-af7d-5cafff1a3595",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:11:00.000Z",
+        "last_edited_time": "2024-07-11T15:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bddbbd97-513f-4019-90e1-f5209652dc08",
+      "type": "heading_2",
+      "text": "Methodology",
+      "raw": {
+        "object": "block",
+        "id": "bddbbd97-513f-4019-90e1-f5209652dc08",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:11:00.000Z",
+        "last_edited_time": "2024-07-11T15:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methodology",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methodology",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7a25a557-ff95-403c-b5e2-d15443312c37",
+      "type": "paragraph",
+      "text": "The work is a SLR based on Kitchenham and Charters. The review considers 4 different research questions that may warrant an answer:",
+      "raw": {
+        "object": "block",
+        "id": "7a25a557-ff95-403c-b5e2-d15443312c37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:11:00.000Z",
+        "last_edited_time": "2024-07-11T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work is a SLR based on Kitchenham and Charters. The review considers 4 different research questions that may warrant an answer:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work is a SLR based on Kitchenham and Charters. The review considers 4 different research questions that may warrant an answer:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "57437083-7506-4a3c-b95a-ff3db2162675",
+      "type": "numbered_list_item",
+      "text": "How does an recommender system make recommendations?",
+      "raw": {
+        "object": "block",
+        "id": "57437083-7506-4a3c-b95a-ff3db2162675",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:17:00.000Z",
+        "last_edited_time": "2024-07-11T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How does an recommender system make recommendations?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How does an recommender system make recommendations?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3ea485e7-9c21-4d1f-a018-66cebd3cac26",
+      "type": "numbered_list_item",
+      "text": "How do they present recommendations?",
+      "raw": {
+        "object": "block",
+        "id": "3ea485e7-9c21-4d1f-a018-66cebd3cac26",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:18:00.000Z",
+        "last_edited_time": "2024-07-11T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How do they present recommendations?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How do they present recommendations?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "078dbf68-d70c-4d3a-8a8d-3e39d52dd9b7",
+      "type": "numbered_list_item",
+      "text": "How are they evaluated?",
+      "raw": {
+        "object": "block",
+        "id": "078dbf68-d70c-4d3a-8a8d-3e39d52dd9b7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:18:00.000Z",
+        "last_edited_time": "2024-07-11T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How are they evaluated?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How are they evaluated?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8706dc23-6b1a-41e1-aff1-9fcde9e09176",
+      "type": "numbered_list_item",
+      "text": "Limitations and Research Gaps related to the area.",
+      "raw": {
+        "object": "block",
+        "id": "8706dc23-6b1a-41e1-aff1-9fcde9e09176",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:18:00.000Z",
+        "last_edited_time": "2024-07-11T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Limitations and Research Gaps related to the area.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Limitations and Research Gaps related to the area.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3ac8cfbd-655d-4157-a79c-70ce002761fa",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3ac8cfbd-655d-4157-a79c-70ce002761fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:18:00.000Z",
+        "last_edited_time": "2024-07-11T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25331e17-71aa-4900-b4b1-199b867ed745",
+      "type": "paragraph",
+      "text": "An interesting approach is that athe athor evaluates the quality of the papers by using a weighted sum of different determinants of success. Each paper would receive a score from 0 to 10 - selection of only papers that achieved a quality score >7. From an initial set of 756 papers, only 16 were selected for this review.",
+      "raw": {
+        "object": "block",
+        "id": "25331e17-71aa-4900-b4b1-199b867ed745",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:18:00.000Z",
+        "last_edited_time": "2024-07-11T15:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "An interesting approach is that athe athor evaluates the quality of the papers by using a weighted sum of different determinants of success. Each paper would receive a score from 0 to 10 - selection of only papers that achieved a quality score >7. From an initial set of 756 papers, only 16 were selected for this review.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "An interesting approach is that athe athor evaluates the quality of the papers by using a weighted sum of different determinants of success. Each paper would receive a score from 0 to 10 - selection of only papers that achieved a quality score >7. From an initial set of 756 papers, only 16 were selected for this review.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f260dba0-9e2d-43c2-9d97-20bbb531f07e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f260dba0-9e2d-43c2-9d97-20bbb531f07e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:26:00.000Z",
+        "last_edited_time": "2024-07-11T15:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b1d177ff-23be-4104-a09f-0e5034aa752a",
+      "type": "paragraph",
+      "text": "Then, the information about each paper was collected and placed in tabulated records: recommendation approach, recommendation technique, input parameters, data collection strat and methodology, evaluation of the recoomender: setting, approaches, methodology and metrics.",
+      "raw": {
+        "object": "block",
+        "id": "b1d177ff-23be-4104-a09f-0e5034aa752a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:11:00.000Z",
+        "last_edited_time": "2024-07-11T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Then, the information about each paper was collected and placed in tabulated records: recommendation approach, recommendation technique, input parameters, data collection strat and methodology, evaluation of the recoomender: setting, approaches, methodology and metrics.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Then, the information about each paper was collected and placed in tabulated records: recommendation approach, recommendation technique, input parameters, data collection strat and methodology, evaluation of the recoomender: setting, approaches, methodology and metrics.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "39c7f912-0d73-45f3-abcd-474f4f5ad5c8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "39c7f912-0d73-45f3-abcd-474f4f5ad5c8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:30:00.000Z",
+        "last_edited_time": "2024-07-11T15:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "72d10779-1fc2-4a67-9e8f-80d119ee1da6",
+      "type": "heading_2",
+      "text": "Results and Discussion",
+      "raw": {
+        "object": "block",
+        "id": "72d10779-1fc2-4a67-9e8f-80d119ee1da6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-10T16:24:00.000Z",
+        "last_edited_time": "2024-07-11T15:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results and Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results and Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2bfb4a1c-2ff1-41c1-aee5-68a8c9373a2f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2bfb4a1c-2ff1-41c1-aee5-68a8c9373a2f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:31:00.000Z",
+        "last_edited_time": "2024-07-11T15:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6505876d-c0e9-4027-8913-a27bbf7e5cc5",
+      "type": "paragraph",
+      "text": "Authors start with a paper by paper “shopping list” of studies that advance ERS field:",
+      "raw": {
+        "object": "block",
+        "id": "6505876d-c0e9-4027-8913-a27bbf7e5cc5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:31:00.000Z",
+        "last_edited_time": "2024-07-11T15:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors start with a paper by paper “shopping list” of studies that advance ERS field:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors start with a paper by paper “shopping list” of studies that advance ERS field:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "32a500e0-a2d7-4f01-a9b4-614ff1377f89",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "32a500e0-a2d7-4f01-a9b4-614ff1377f89",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T15:32:00.000Z",
+        "last_edited_time": "2024-07-11T16:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b71c34ca-30e2-4cb2-ba79-91d871a47329",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b71c34ca-30e2-4cb2-ba79-91d871a47329",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T16:58:00.000Z",
+        "last_edited_time": "2024-07-11T16:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f9798ed1-2463-4ccc-83c6-4a693ced7ece",
+      "type": "paragraph",
+      "text": "The authors identify 2 main methods of presenting recommendations. Most of the works focus on recommending learning materials. ",
+      "raw": {
+        "object": "block",
+        "id": "f9798ed1-2463-4ccc-83c6-4a693ced7ece",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-11T16:34:00.000Z",
+        "last_edited_time": "2024-07-12T14:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identify 2 main methods of presenting recommendations. Most of the works focus on recommending learning materials. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identify 2 main methods of presenting recommendations. Most of the works focus on recommending learning materials. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "243d2829-a261-4fc4-9de9-b020c4489b15",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "243d2829-a261-4fc4-9de9-b020c4489b15",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:23:00.000Z",
+        "last_edited_time": "2024-07-12T14:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "26da1dfd-e56a-4c06-b4f9-76d57d2fd1ca",
+      "type": "paragraph",
+      "text": "As is costumary in most LA literature up to this point, most of the development and research is still too focused on validating the usefulness of the tools and not into actually putting them into service. Very few research works actually focus on taking the recommender and putting it into use.",
+      "raw": {
+        "object": "block",
+        "id": "26da1dfd-e56a-4c06-b4f9-76d57d2fd1ca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:33:00.000Z",
+        "last_edited_time": "2024-07-12T14:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "As is costumary in most LA literature up to this point, most of the development and research is still too focused on validating the usefulness of the tools and not into actually putting them into service. Very few research works actually focus on taking the recommender and putting it into use.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "As is costumary in most LA literature up to this point, most of the development and research is still too focused on validating the usefulness of the tools and not into actually putting them into service. Very few research works actually focus on taking the recommender and putting it into use.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cc9ffbd9-72af-4518-b2a7-48ae8038395e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "cc9ffbd9-72af-4518-b2a7-48ae8038395e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:37:00.000Z",
+        "last_edited_time": "2024-07-12T14:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6d724b2b-ff90-487c-95ea-9c2246b4c42f",
+      "type": "paragraph",
+      "text": "There are 3 main approaches: offline, user study (questionnaires and A/B testing) and fully online. None of the studies reviewed here use online testing and stick to offline and/or user study.",
+      "raw": {
+        "object": "block",
+        "id": "6d724b2b-ff90-487c-95ea-9c2246b4c42f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:37:00.000Z",
+        "last_edited_time": "2024-07-12T14:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are 3 main approaches: offline, user study (questionnaires and A/B testing) and fully online. None of the studies reviewed here use online testing and stick to offline and/or user study.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are 3 main approaches: offline, user study (questionnaires and A/B testing) and fully online. None of the studies reviewed here use online testing and stick to offline and/or user study.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a5849cbe-5fdd-4f7a-8829-3444d3d062b0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a5849cbe-5fdd-4f7a-8829-3444d3d062b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:41:00.000Z",
+        "last_edited_time": "2024-07-12T14:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4b3fbc7e-d7c6-49c3-ad02-2f93ae8eb992",
+      "type": "paragraph",
+      "text": "User satisfaction seems to be the most common parameter being measured in papers deploying user study methods combined with offline methods. There is one paper that combines user satisfaction with pedagogical effectiveness of a recommender. ",
+      "raw": {
+        "object": "block",
+        "id": "4b3fbc7e-d7c6-49c3-ad02-2f93ae8eb992",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:40:00.000Z",
+        "last_edited_time": "2024-07-12T14:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "User satisfaction seems to be the most common parameter being measured in papers deploying user study methods combined with offline methods. There is one paper that combines user satisfaction with pedagogical effectiveness of a recommender. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "User satisfaction seems to be the most common parameter being measured in papers deploying user study methods combined with offline methods. There is one paper that combines user satisfaction with pedagogical effectiveness of a recommender. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3860c381-f633-4e41-b27e-43166e141159",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3860c381-f633-4e41-b27e-43166e141159",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:43:00.000Z",
+        "last_edited_time": "2024-07-12T14:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0f484e6e-ec49-48bf-8ae1-e9e2b885e13a",
+      "type": "paragraph",
+      "text": "In user study exclusive approaches, there seems to be an effor tto measure the effectiveness of the recommender system in promoting student learning - whether it is by influencing their learning score or whether it impacts the time students take to complete a task. System attractiveness is a second important metric. Other, less popular metrics include pedagogical effectiveness, diversity in recommendations, perceived usefulness of the materials and easiness. It should be noted, however, that most works do not evaluate their recommender on single perspective and, instead, try to find multiple perspectives to evaluate the quality of their recommender system.",
+      "raw": {
+        "object": "block",
+        "id": "0f484e6e-ec49-48bf-8ae1-e9e2b885e13a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T14:43:00.000Z",
+        "last_edited_time": "2024-07-12T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In user study exclusive approaches, there seems to be an effor tto measure the effectiveness of the recommender system in promoting student learning - whether it is by influencing their learning score or whether it impacts the time students take to complete a task. System attractiveness is a second important metric. Other, less popular metrics include ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In user study exclusive approaches, there seems to be an effor tto measure the effectiveness of the recommender system in promoting student learning - whether it is by influencing their learning score or whether it impacts the time students take to complete a task. System attractiveness is a second important metric. Other, less popular metrics include ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "pedagogical effectiveness, diversity in recommendations, perceived usefulness of the materials and easiness. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "pedagogical effectiveness, diversity in recommendations, perceived usefulness of the materials and easiness. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "It should be noted, however, that most works do not evaluate their recommender on single perspective and, instead, try to find multiple perspectives to evaluate the quality of their recommender system.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It should be noted, however, that most works do not evaluate their recommender on single perspective and, instead, try to find multiple perspectives to evaluate the quality of their recommender system.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "aa7981e5-9d31-4e97-94f0-6bfe07316d82",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "aa7981e5-9d31-4e97-94f0-6bfe07316d82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:19:00.000Z",
+        "last_edited_time": "2024-07-12T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "53b77aaa-8522-4fa1-b2db-d6ad56ba14b5",
+      "type": "paragraph",
+      "text": "The Wan and Niu papers (2016, 2018 and 2020) seem to be among the most complete research works on this area.",
+      "raw": {
+        "object": "block",
+        "id": "53b77aaa-8522-4fa1-b2db-d6ad56ba14b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:19:00.000Z",
+        "last_edited_time": "2024-07-12T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The Wan and Niu papers (2016, 2018 and 2020) seem to be among the most complete research works on this area.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Wan and Niu papers (2016, 2018 and 2020) seem to be among the most complete research works on this area.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5b31bf3d-fecd-45b8-8a9c-663258ba8de6",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5b31bf3d-fecd-45b8-8a9c-663258ba8de6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:21:00.000Z",
+        "last_edited_time": "2024-07-12T15:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9958eca0-d1a8-4421-aac0-24df7b840fba",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9958eca0-d1a8-4421-aac0-24df7b840fba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:22:00.000Z",
+        "last_edited_time": "2024-07-12T15:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5254a4ea-f9d4-4192-a90f-8e2b47986888",
+      "type": "paragraph",
+      "text": "One of the main limitations is the reproducibility of the results. Only Wu (2020) actually has a public educational dataset for this purpose. In addition, most data used in the surveys refers to a small dataset AND a dataset from a single institution. Thus, there is a very big need for open and public data that can allow for the proper benchmarking of ERS.",
+      "raw": {
+        "object": "block",
+        "id": "5254a4ea-f9d4-4192-a90f-8e2b47986888",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:21:00.000Z",
+        "last_edited_time": "2024-07-12T15:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "One of the main limitations is the reproducibility of the results. Only Wu (2020) actually has a public educational dataset for this purpose. In addition, most data used in the surveys refers to a small dataset AND a dataset from a single institution. Thus, there is a very big need for open and public data that can allow for the proper benchmarking of ERS.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "One of the main limitations is the reproducibility of the results. Only Wu (2020) actually has a public educational dataset for this purpose. In addition, most data used in the surveys refers to a small dataset AND a dataset from a single institution. Thus, there is a very big need for open and public data that can allow for the proper benchmarking of ERS.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "343af759-5e0e-4b02-b51a-bbaa78f8b0ca",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "343af759-5e0e-4b02-b51a-bbaa78f8b0ca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:26:00.000Z",
+        "last_edited_time": "2024-07-12T15:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ba9f6bb6-e4c2-4496-ae24-aaafe25cb245",
+      "type": "paragraph",
+      "text": "Moreover, in the context of education, there does not seem to be a lot of research that focuses on measuring the impact of problems that are well-known in the recommender system community (e.g. cold-start, overspecialization or sparsity). Authors point to the need of addressing these issues also in ERS because these issues have a direct impact on the quality of recommendations.",
+      "raw": {
+        "object": "block",
+        "id": "ba9f6bb6-e4c2-4496-ae24-aaafe25cb245",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:26:00.000Z",
+        "last_edited_time": "2024-07-12T16:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, in the context of education, there does not seem to be a lot of research that focuses on measuring the impact of problems that are well-known in the recommender system community (e.g. cold-start, overspecialization or sparsity). Authors point to the need of addressing these issues also in ERS because these issues have a direct impact on the quality of recommendations.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, in the context of education, there does not seem to be a lot of research that focuses on measuring the impact of problems that are well-known in the recommender system community (e.g. cold-start, overspecialization or sparsity). Authors point to the need of addressing these issues also in ERS because these issues have a direct impact on the quality of recommendations.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "97b024dd-d4ce-49b0-adf6-e7bde72a85ed",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "97b024dd-d4ce-49b0-adf6-e7bde72a85ed",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T16:28:00.000Z",
+        "last_edited_time": "2024-07-12T16:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5dad3eab-7b87-4d90-8cee-2544eee7f246",
+      "type": "paragraph",
+      "text": "The works published also seem to lack more fine-grained information about the learners themselves. Including other elements such as cultural information or even emotional state may play an important role later down the line. Another important area for future work may come from introducing overlooked attributes about the users.",
+      "raw": {
+        "object": "block",
+        "id": "5dad3eab-7b87-4d90-8cee-2544eee7f246",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T16:28:00.000Z",
+        "last_edited_time": "2024-07-12T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The works published also seem to lack more fine-grained information about the learners themselves. Including other elements such as cultural information or even emotional state may play an important role later down the line. Another important area for future work may come from introducing overlooked attributes about the users.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The works published also seem to lack more fine-grained information about the learners themselves. Including other elements such as cultural information or even emotional state may play an important role later down the line. Another important area for future work may come from introducing overlooked attributes about the users.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "921b69e3-fbba-4abc-b21c-a4ad6d7a4463",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "921b69e3-fbba-4abc-b21c-a4ad6d7a4463",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:33:00.000Z",
+        "last_edited_time": "2024-07-12T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "52f82f5c-8568-441e-b87f-761321ba1a58",
+      "type": "paragraph",
+      "text": "Use of recommender systems such as these in informal educational scenarios. These can be understood as cenarios outside an educational institution where, for multiple reasons, there is not an explicit expert supervising or guiding the learner throughout the whole process. More research on this type of scenarios would be welcomed.",
+      "raw": {
+        "object": "block",
+        "id": "52f82f5c-8568-441e-b87f-761321ba1a58",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:33:00.000Z",
+        "last_edited_time": "2024-07-12T18:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Use of recommender systems such as these in informal educational scenarios. These can be understood as cenarios outside an educational institution where, for multiple reasons, there is not an explicit expert supervising or guiding the learner throughout the whole process. More research on this type of scenarios would be welcomed.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Use of recommender systems such as these in informal educational scenarios. These can be understood as cenarios outside an educational institution where, for multiple reasons, there is not an explicit expert supervising or guiding the learner throughout the whole process. More research on this type of scenarios would be welcomed.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "20c73d2d-2ba6-44f7-9802-7314192c5b82",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "20c73d2d-2ba6-44f7-9802-7314192c5b82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:41:00.000Z",
+        "last_edited_time": "2024-07-12T18:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "eff2931c-1751-41ca-b166-dd0bcafc7f0c",
+      "type": "paragraph",
+      "text": "Another area of improvement is the use of multi-dimensional evaluation frameworks. The main idea would be to include other forms of evaluation that go beyond the evaluation of the system’s accuracy or the user’s satisfaction.",
+      "raw": {
+        "object": "block",
+        "id": "eff2931c-1751-41ca-b166-dd0bcafc7f0c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:41:00.000Z",
+        "last_edited_time": "2024-07-12T18:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another area of improvement is the use of multi-dimensional evaluation frameworks. The main idea would be to include other forms of evaluation that go beyond the evaluation of the system’s accuracy or the user’s satisfaction.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another area of improvement is the use of multi-dimensional evaluation frameworks. The main idea would be to include other forms of evaluation that go beyond the evaluation of the system’s accuracy or the user’s satisfaction.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "42eb50e9-4892-4f82-8956-347ddd353d04",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "42eb50e9-4892-4f82-8956-347ddd353d04",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:44:00.000Z",
+        "last_edited_time": "2024-07-12T18:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "244cdb0d-0c4f-41ef-80f9-716ea6299bf8",
+      "type": "heading_2",
+      "text": "Conclusion",
+      "raw": {
+        "object": "block",
+        "id": "244cdb0d-0c4f-41ef-80f9-716ea6299bf8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:42:00.000Z",
+        "last_edited_time": "2024-07-12T18:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Conclusion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Conclusion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30cbc30a-10c0-45ca-9a1f-4eea122b9e6b",
+      "type": "paragraph",
+      "text": "Authors present a SLR that aims to compile the different trends and views on the use of Recommender Systems in education for the purposes of teaching and learning support. The authors found that most approaches use an hybrid approach that has a user centered design. There is also an apparent lack of more advanced recommender system algorithms in education - specifically what the authors call bandit-based or deep learning approaches. ",
+      "raw": {
+        "object": "block",
+        "id": "30cbc30a-10c0-45ca-9a1f-4eea122b9e6b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:44:00.000Z",
+        "last_edited_time": "2024-07-12T18:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors present a SLR that aims to compile the different trends and views on the use of Recommender Systems in education for the purposes of teaching and learning support. The authors found that most approaches use an hybrid approach that has a user centered design. There is also an apparent lack of more advanced recommender system algorithms in education - specifically what the authors call bandit-based or deep learning approaches. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors present a SLR that aims to compile the different trends and views on the use of Recommender Systems in education for the purposes of teaching and learning support. The authors found that most approaches use an hybrid approach that has a user centered design. There is also an apparent lack of more advanced recommender system algorithms in education - specifically what the authors call bandit-based or deep learning approaches. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30d8cd9e-5513-486c-b344-c720a1fd1cbe",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "30d8cd9e-5513-486c-b344-c720a1fd1cbe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:49:00.000Z",
+        "last_edited_time": "2024-07-12T18:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f195c2b7-34d3-4761-b9ef-f68e937fa2a4",
+      "type": "paragraph",
+      "text": "The main problems identified revolve around the notion that the datasets are small and not reproducible, calling for the appearance and publication of large-scale publicly available datasets that can be used for different purposes. As far as limitations of the study itself, the authors point towards the low number of repos used for paper selection. ",
+      "raw": {
+        "object": "block",
+        "id": "f195c2b7-34d3-4761-b9ef-f68e937fa2a4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:49:00.000Z",
+        "last_edited_time": "2024-07-12T19:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The main problems identified revolve around the notion that the datasets are small and not reproducible, calling for the appearance and publication of large-scale publicly available datasets that can be used for different purposes. As far as limitations of the study itself, the authors point towards the low number of repos used for paper selection. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The main problems identified revolve around the notion that the datasets are small and not reproducible, calling for the appearance and publication of large-scale publicly available datasets that can be used for different purposes. As far as limitations of the study itself, the authors point towards the low number of repos used for paper selection. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f89f8317-8fb8-4922-963a-4b34184ed661",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f89f8317-8fb8-4922-963a-4b34184ed661",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T18:37:00.000Z",
+        "last_edited_time": "2024-07-12T18:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c2a73be-3362-4cf5-b1d5-901febdac147",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c2a73be-3362-4cf5-b1d5-901febdac147",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:24:00.000Z",
+        "last_edited_time": "2024-07-12T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a9baf623-aad2-427e-a1ec-0b0b05537f73",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "a9baf623-aad2-427e-a1ec-0b0b05537f73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:24:00.000Z",
+        "last_edited_time": "2024-07-12T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f797c00b-82ce-4e32-80f9-7341c91f5d61",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f797c00b-82ce-4e32-80f9-7341c91f5d61",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:23:00.000Z",
+        "last_edited_time": "2024-07-12T15:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "66d0404e-7eb8-416f-9ecd-17dbc13b8765",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "66d0404e-7eb8-416f-9ecd-17dbc13b8765",
+        "parent": {
+          "type": "page_id",
+          "page_id": "99601ef7-2f18-4396-b864-88fda9d63542"
+        },
+        "created_time": "2024-07-12T15:23:00.000Z",
+        "last_edited_time": "2024-07-12T15:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

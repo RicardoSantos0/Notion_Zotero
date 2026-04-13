@@ -1,0 +1,581 @@
+{
+  "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39",
+  "title": "Credit hours is not enough: Explaining undergraduate perceptions of course workload using LMS records",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "987652d9-5322-46a9-8bcc-80562bfd7eee",
+          "name": "Course Load",
+          "color": "yellow"
+        },
+        {
+          "id": "cf0247a8-f64b-4561-8dbc-c2fcb7c26811",
+          "name": "Course Design",
+          "color": "gray"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "f9d39440-9bea-489d-9186-ce9657fa28d7",
+          "name": "Enrollment data",
+          "color": "default"
+        },
+        {
+          "id": "f75b2aac-77ec-474e-bc7f-a80d597b4149",
+          "name": "Survey Research",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “LMS”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “LMS”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-05T17:05:00.000+00:00",
+        "end": "2025-04-15T21:36:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pardos et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pardos et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Credit hours is not enough: Explaining undergraduate perceptions of course workload using LMS records",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Credit hours is not enough: Explaining undergraduate perceptions of course workload using LMS records",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d64750c-f3ba-807c-91e6-cbf03068bbde",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "128 learners",
+          "3724 UC Berkeley Courses",
+          "LMS logs, Enrollment Data, Questionnaires",
+          "Course Workload Assessment Technique",
+          "[Average size of original posts, Numberr of Original Forum Posts, Number of OPriginal Top Forum Posts, Original Forum Posts per Student, TA/Instructoir Posts per Student, Average Forum Reply Time, %of students with replies, Average Size of Submission Comments, Number of Submission Comments per Student, %Submissions with Comments, Assignment Spread, Parallel Assignments, Course Assignments, Graded Course Assignments, Graded Course Assignments per Week, Most Graded Course Assigments per Week, Submission Time to Deadline, early Assignment Availability Ratio, early Assignment Availability Time, Dropout Ratio Q1, Q2, Q3, 4, Satisfied Prerequisites, Student Course STEM Match, Course credit Hours, Course GPA Spring 2021, GPA Standard Deviation for Course, Course was STEM, Number of Course Pre-Requisites, % Pass and Satisfactory among Non-Letter Grades, Course had No Letter Grades, No LMS Assignments, No LMS Assignments with Due, No LMS Assignments with Due + Unlock, No LMS Forum, No LMS Submissions, Multiple LMS Courses Concatenated]",
+          "Data is collected from all sources and aggregated. Final dataset has each row refer to a learner-course pairing. \n\nAnalysis starts with the creation of different linear models with different feature sets:\n\nIndividual Student Features from Enrollment, Course and Pre-requisite based features, Features based on prior student GPA, Feautres based on prior course GPA.\n\nDropout status of students was included as feature in a model.\n\nAssignments were filtered in order make asure all assignments considered had, at least, one submission. Authors also created a set of control variables.\n\nSTEM status for all courses was encoded manually.\n\nVariables whose Variance Inflation Factor was below 10 were excluded. ",
+          "Linear Mixed Models",
+          "{R-Squared: 0.45 - LMS + Individual Features}",
+          "NA",
+          "NA",
+          "Authors argue that ECTS are a bad predictor of the effort put by students into their studies. Instead, the authors argue that other indicators, such as the number of deliverables in the course should be used:\n\nThe more deliverables, the more the perceived effort the studuent needs to put into the course.\n\nTime load is a determinant for elective course selection and should be treated accordingly.",
+          "LMS features re collected at the course level.\n\n3 Mixed Linear models were created:\n\n- Time load, \n- Mental Effort,\n- Psychological Stress\n\nThe authors show that the models containing these feature sets far surpass the expectations of effort students have about course load relative to ECTS.",
+          "Limited access to other likely predictors of course load such as lecture materials or Zoom calls.\n\nCourse load evaluations were done post-hoc, which may not be an accurate representation → peak-end rule.\n\nNeed to validate in additional cultural contexts. \n\nSample was collected during Covid era - whuch may not be representative of workload in face-to-face contexts. "
+        ]
+      ],
+      "index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ad4750c-f3ba-80e0-87c7-d612a173979c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80e0-87c7-d612a173979c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+        },
+        "created_time": "2025-03-05T17:01:00.000Z",
+        "last_edited_time": "2025-03-05T17:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-80dc-987c-d7c5c1f7bba3",
+      "type": "paragraph",
+      "text": "This study measures the degree to which student perception of the time they need to spend on a course actually maps to the credit hours expected for a specific course. Authors compare whether credit hours explain student effort (don’t seem to), as the number of deliverables student need to do actually is a much better predictor. Authors argue for the adoption of a new construct of course load than credit hours. ",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80dc-987c-d7c5c1f7bba3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+        },
+        "created_time": "2025-03-05T17:01:00.000Z",
+        "last_edited_time": "2025-04-15T14:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This study measures the degree to which student perception of the time they need to spend on a course actually maps to the credit hours expected for a specific course. Authors compare whether credit hours explain student effort (don’t seem to), as the number of deliverables student need to do actually is a much better predictor. Authors argue for the adoption of a new construct of course load than credit hours. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This study measures the degree to which student perception of the time they need to spend on a course actually maps to the credit hours expected for a specific course. Authors compare whether credit hours explain student effort (don’t seem to), as the number of deliverables student need to do actually is a much better predictor. Authors argue for the adoption of a new construct of course load than credit hours. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-8015-9183-ed83b23adce0",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-8015-9183-ed83b23adce0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+        },
+        "created_time": "2025-04-15T14:15:00.000Z",
+        "last_edited_time": "2025-04-15T14:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-807c-91e6-cbf03068bbde",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-807c-91e6-cbf03068bbde",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+        },
+        "created_time": "2025-04-15T14:15:00.000Z",
+        "last_edited_time": "2025-04-15T14:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-800d-bdd0-e7a409288754",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-800d-bdd0-e7a409288754",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+        },
+        "created_time": "2025-04-15T14:16:00.000Z",
+        "last_edited_time": "2025-04-15T14:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

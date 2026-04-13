@@ -1,0 +1,611 @@
+{
+  "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4",
+  "title": "GCKT: Context-Aware Gating of Heterogeneous Learning\nFeatures With Transformer for Cognitive Knowledge\nTracing in Intelligent Tutoring Systems",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "453c28c1-109d-4804-980b-0d367f0f967f",
+          "name": "Gated Fusion",
+          "color": "brown"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "96ab566a-43c7-47a8-a338-a9924c70af47",
+          "name": "Transformer Encoder",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2026
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        },
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "International Journal of Intelligent Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "International Journal of Intelligent Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02T18:00:00.000+01:00",
+        "end": "2026-04-05T17:02:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GCKT: Context-Aware Gating of Heterogeneous Learning\nFeatures With Transformer for Cognitive Knowledge\nTracing in Intelligent Tutoring Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GCKT: Context-Aware Gating of Heterogeneous Learning\nFeatures With Transformer for Cognitive Knowledge\nTracing in Intelligent Tutoring Systems",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3394750c-f3ba-808a-9a66-c164aebcda7f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Predicting future cognitive performance from historical interactions",
+          "Cognitive level class (0–6); also binary correctness in auxiliary evaluation",
+          "14,224 (MoocRadar), 467 (Math)",
+          "MOOC + high-school math contexts",
+          "MoocRadar, Math",
+          "Exercise, response, response time, interval time, topic, concept, cognitive level",
+          "Prior KT models use simple concatenation or fixed weighting of heterogeneous signals",
+          "Transformer KT with context-aware gated fusion of heterogeneous features",
+          "Student-wise 7:3 split; temporal order preserved; 5-fold CV; padded/truncated to length 500; QQQ-matrix smoothing γ=0.03",
+          "DKT, AKT, SAINT+, LPKT, GCKT",
+          "5-Fold Cross-Validation",
+          "MOOCRadar: \n{AUC: 0.8602 - GCKT}\n\nMath: \n{AUC: 0.8615 - GGCKT}\n\n\n",
+          "Main contribution is better fusion of temporal + hierarchical knowledge features; also somewhat interpretable via gate-weight analysis",
+          "Needs rich cognitive annotations; cold start and very long sequences remain issues\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-8011-a822-dedb055e9f73",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8011-a822-dedb055e9f73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-02T14:29:00.000Z",
+        "last_edited_time": "2026-04-02T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80db-83e6-f7f015a6ab5f",
+      "type": "paragraph",
+      "text": "Most KT models struggle with different types of signals that are generated during learning. Authors present Gated-full features Transformer Cognitive Knowledge Tracing which promises to be able to integrate these heterogenous signals via a fusion gate (instead of the general concatenation or weighting used in other architectures). \n\nThe model embeds topics and concepts which is later concatenated with with exercise, time, correctedness before passing through this fusion-gate which generates weights that hopefully provide a better representation of the knowledge State. Tests on multiple Public Datasets show that CGKT beats other KT models. ",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80db-83e6-f7f015a6ab5f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-02T14:30:00.000Z",
+        "last_edited_time": "2026-04-02T14:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most KT models struggle with different types of signals that are generated during learning. Authors present Gated-full features Transformer Cognitive Knowledge Tracing which promises to be able to integrate these heterogenous signals via a fusion gate (instead of the general concatenation or weighting used in other architectures). \n\nThe model embeds topics and concepts which is later concatenated with with exercise, time, correctedness before passing through this fusion-gate which generates weights that hopefully provide a better representation of the knowledge State. Tests on multiple Public Datasets show that CGKT beats other KT models. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most KT models struggle with different types of signals that are generated during learning. Authors present Gated-full features Transformer Cognitive Knowledge Tracing which promises to be able to integrate these heterogenous signals via a fusion gate (instead of the general concatenation or weighting used in other architectures). \n\nThe model embeds topics and concepts which is later concatenated with with exercise, time, correctedness before passing through this fusion-gate which generates weights that hopefully provide a better representation of the knowledge State. Tests on multiple Public Datasets show that CGKT beats other KT models. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-806a-8d05-c7e696b9ef1a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-806a-8d05-c7e696b9ef1a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-02T14:35:00.000Z",
+        "last_edited_time": "2026-04-02T14:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/f0e4821f-3bbe-4e6e-926d-d8bf1ee8bd69/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SDZO5QP5%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151745Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQD0QvEhlR%2FOZvdRaZ%2B2o%2BBQUZzx%2B8GRUkgEOlwx6BvH6AIhAJbeBwvWomd23WgMz9xyxKZgwsBFp%2BssjE%2Bbo681DfW8Kv8DCHcQABoMNjM3NDIzMTgzODA1IgxbssYdfPIyzoxDF8kq3AOHn966kN%2FOYHe2tTfRrtLwJiQgP6w2cB8bLXnCK8OFRIOU4CFHY7%2Bs%2Bdx2pm6Se3Fdh9%2FMDQ1QNRyzCv8gPkhaWceK9g3CFFCMj%2BWidwt8qc910r8T6yAbTKaT0V3LAlIkBqCcM7nkAHpRicphpYFBuh1n2329FmKJedrQmeL%2FOUbjYQhm%2FfrwSnxRNevSHtJZzQZvKhfZeeahqEUR%2FEg1x7T7rrS0oTkP0arfg2VaKBn0mK%2BAMGy%2BDh9GFnIUEVVhHdHfmCpgqtYnSIs7AlOKT3jz8N25%2BSucqNPYl6ayZvueD7DthoWoZ5bKNa%2B6wESyviL6epiOUbWFBY82Z7En5zj7mhXwCLM1OUnE7tMJKy%2F%2Fkq6HmYW58Ur0oeSqVzrswY5Qm3CIpJRFUOYLwYF46fSPV1qP7Vl7IjFhwbPvAOwpiC7SwAM5KgO7jYfwthgSQDaB9eQwb2DUyYNMJFyuAT8n2DLKQ9o1pO5tJqfRRznuZz%2Fg1882Lj6x%2BXMrJg7KRER4sg9wqBVC0b8hgf887xqkm0T%2FHaRaX%2BRvI1B0cYrqrvGhOtmJxjm7kjMFmxgfNtpmKGH3bY3aGLazprCKHDK7xARK%2Frw%2BBzojpZ%2FyrxkNHGaAcHx3sdRW6jDB8PPOBjqkAdsWLYj1puIgcpMaDXWbqqFyPlixpyrpgIVtnpKBDJN637mMZhOTG75pMeE7nE%2B807Kzhc%2FyH9IJNkB7FtHYcbc3%2Bl%2BtG%2B%2BPcOWyMjcd%2F7WwHHPGoinjapVehUFZXAwAtOm6x%2Bd%2B5LfPZYTIlQX0Hpp1q%2BzDvwA%2FN7XSAoT8or5DYIMrA5CS%2BloGV2%2B8qHI8mwwjf%2BEN65wq0cve%2BIMH%2Fx8AHAr3&X-Amz-Signature=abf38ad73b872c2ab41fa29243e332c8b8aa0638b6429efd2a14e071cdf830af&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:17:45.438Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-8099-9308-cd2b29d6e57f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-8099-9308-cd2b29d6e57f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-05T15:29:00.000Z",
+        "last_edited_time": "2026-04-05T15:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-80d6-879b-ed153551e291",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-80d6-879b-ed153551e291",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-05T15:29:00.000Z",
+        "last_edited_time": "2026-04-05T15:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-808a-9a66-c164aebcda7f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-808a-9a66-c164aebcda7f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-8084-9d73-eff7384610c4"
+        },
+        "created_time": "2026-04-05T15:29:00.000Z",
+        "last_edited_time": "2026-04-05T15:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

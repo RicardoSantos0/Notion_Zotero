@@ -1,0 +1,544 @@
+{
+  "page_id": "3364750c-f3ba-801f-93ec-ca078044d5fa",
+  "title": "Modelability as a Strategy for Improving the  Generalizability and Scalability of Predictive Models",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "cba86054-1d9d-4a7f-bb75-b329eae9d458",
+          "name": "Modelability",
+          "color": "yellow"
+        },
+        {
+          "id": "95c151e2-7a12-419d-9d57-50591ca213d9",
+          "name": "Generalizability",
+          "color": "orange"
+        },
+        {
+          "id": "dcbe2156-3fe7-4ae6-a750-4ebd3af4257f",
+          "name": "Scalability",
+          "color": "green"
+        },
+        {
+          "id": "fe5ffef1-cc0c-4ce2-bbc2-f026e1651bcd",
+          "name": "Cross-Institutional Research",
+          "color": "brown"
+        },
+        {
+          "id": "95ae6f6c-5c47-48d3-87b7-c61a55eb2c1c",
+          "name": "Predictive Learning Analytics",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Learning Analytics” AND “Predictive Models”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Learning Analytics” AND “Predictive Models”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2026
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Journal of Learning Analytics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Journal of Learning Analytics",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02T14:50:00.000+01:00",
+        "end": "2026-04-05T18:03:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Xu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Xu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Modelability as a Strategy for Improving the  Generalizability and Scalability of Predictive Models",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Modelability as a Strategy for Improving the  Generalizability and Scalability of Predictive Models",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3394750c-f3ba-8021-ad02-f5744ff3a8e6",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Flipped Classroom",
+          "Final Mark in a Course",
+          "High achievers (A- to A+), Moderate performers (B- to B+), At-risk students (C+ or lower)",
+          "Course 1: 183 students; Course 2: 60 students",
+          "2 introductory statistics courses at 2 public research universities in California",
+          "CourseKata online textbook trace data, embedded formative assessments, chapter summaries, final letter grades",
+          "[Reading-related: sess_count, sess_avg_dur, sess_max_dur, pages_per_sess, read_time_total, engage_ratio; Formative-assessment-related: quiz_score, first_attempt_acc, final_attempt_acc, avg_attempts, summary_word_count]",
+          "Chapter-level early prediction throughout the course; models evaluated after each completed chapter",
+          "Authors engineered 11 chapter-level features for each of 12 chapters (132 total features). Reading traces were segmented into sessions using a 10-minute inactivity threshold; sessions under 1 minute and sessions from end-of-chapter quizzes were removed from reading-feature construction. Data were standardized with z-score normalization using training-set scalers only. 5-fold stratified cross-validation, repeated 5 times, was used. Training data were balanced with SMOTE. For early prediction, the authors created an augmented dataset containing all prefixes of each student’s chapter sequence, masking later chapters as missing.\n\n\n\n",
+          "Random Forest (RF), sequence model based on RNN/GRU, chapter ensemble of RF classifiers",
+          "Within Course 1: 5-fold cross-validation repeated 5 times. Cross-institution generalization: train on Course 1, test on Course 2. Models compared across chapter-by-chapter early prediction.",
+          "Within Course 1:\n\n{AUC: 0.86 - Sequence Model by Chapters 10-12}\n\nCross-Institution:\n\n{AUC: 0.81 - Sequence Model by Chapters 10-12}",
+          "Main contribution is showing that a system designed for modelability can support predictive models that generalize across institutions. The strongest model was the sequence model with augmented data, especially in the cross-institution test. The study is also interesting because it uses behavioral-only textbook interaction metrics, not demographic or prior-grade predictors, and still achieves strong early prediction.",
+          "Only 2 institutions and both were public research universities in California, so broader generalizability still needs testing. Sample size is modest, especially for Course 2. The target is an ordinal 3-class grouping based on letter grades rather than raw score prediction. Features come from a shared CourseKata environment, so transferability may depend on similarly instrumented platforms."
+        ]
+      ],
+      "index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-8067-ae40-ddd4128e58d3",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8067-ae40-ddd4128e58d3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-801f-93ec-ca078044d5fa"
+        },
+        "created_time": "2026-04-02T13:50:00.000Z",
+        "last_edited_time": "2026-04-02T13:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-807a-aecb-ce9b4afad004",
+      "type": "paragraph",
+      "text": "Generalizability across different contexts is a known flaw of the current Student Performance Predictive Models. Authors present their framework and show how it would work in an online environment called CourseKata. Results show that modelability is a promising avenue for generalizability across contexts and potentially institutions. ",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-807a-aecb-ce9b4afad004",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-801f-93ec-ca078044d5fa"
+        },
+        "created_time": "2026-04-02T13:50:00.000Z",
+        "last_edited_time": "2026-04-02T14:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Generalizability across different contexts is a known flaw of the current Student Performance Predictive Models. Authors present their framework and show how it would work in an online environment called CourseKata. Results show that modelability is a promising avenue for generalizability across contexts and potentially institutions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Generalizability across different contexts is a known flaw of the current Student Performance Predictive Models. Authors present their framework and show how it would work in an online environment called CourseKata. Results show that modelability is a promising avenue for generalizability across contexts and potentially institutions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-804a-a42c-f14e124d61b2",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-804a-a42c-f14e124d61b2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-801f-93ec-ca078044d5fa"
+        },
+        "created_time": "2026-04-05T16:32:00.000Z",
+        "last_edited_time": "2026-04-05T16:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3394750c-f3ba-8021-ad02-f5744ff3a8e6",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3394750c-f3ba-8021-ad02-f5744ff3a8e6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-801f-93ec-ca078044d5fa"
+        },
+        "created_time": "2026-04-05T16:32:00.000Z",
+        "last_edited_time": "2026-04-05T16:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

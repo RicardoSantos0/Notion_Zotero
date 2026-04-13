@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434",
+      "title": "Centralized student performance prediction in large courses based on lowcost variables in an institutional context",
+      "authors": [],
+      "year": null,
+      "journal": "Internet and Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0c8cfc17",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Grade in Course",
+          "Target": "Normalized Final Score (0 to 1)",
+          "Students": "21314 undergraduate students",
+          "Courses": "811 unique undergraduate face-to-face courses with LMS support; analysis restricted to large courses (>50 enrollments)",
+          "Data sources": "SIS, LMS logs",
+          "Features": "[AGE, GEND, F_SCHO, HS_CGPA, EX_LEN, EX_MAT, SCHOOL, C_DURA, CRED_S, E_SEM, CGPA, WEB_READ, CONT_READ, SYLL_READ, MSG_READ, MSG_NEW, MSG_REPLY, MSG_FORW, QUIZ_SUB, AS_SUB, AS_REV, SEC_READ, FOR_READ, FOR_RESP, CHAT_NEW, POLL_VOTE, POLL_READ, NEWREAD, WIKI_READ, WIKI_REV, WIKI_NEW, PREF_UPD, PREF_ADD, PROF_PRIV, PROF_PREF]",
+          "Moment of Prediction": "Mid-semester and end-of-semester; authors compare prediction using only fixed data, full-term LMS data, and midterm LMS data",
+          "Preprocessing Details": "Data from DARA and SAKAI were integrated into a unified database. Records were cleaned for inconsistencies, recoded into standard formats, and encrypted. LMS actions by the same student of the same type within 60 seconds were collapsed into one action. Courses were filtered into three sets: Large Courses, Large Top 20%, and Large Top 10% according to enrollment size and LMS use. CGPA and LMS usage variables were z-score transformed to improve comparability across courses. Final grades were normalized to 0–1.",
+          "Models": "Linear Regression, Robust Linear Regression, Random Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{RMSE: 0.0848 – Random Forest, Large Top 10%, M-LMS; RSquared: 0.6736 – Random Forest, Large Top 10%, M-LMS; R-Fscore: 0.5349 – Random Forest, Large Top 10%, M-LMS}\n\n",
+          "Comments": "Main contribution is a centralized, low-cost institutional model for early identification of at-risk students in large classes. Random Forest clearly outperformed Linear Regression and Robust Linear Regression, especially when LMS data were added. Importantly, midterm LMS data performed as well as or slightly better than full-term LMS data, supporting early intervention use. Variable relevance analysis showed CGPA as the strongest predictor, followed by enrolled school; LMS variables had lower but still useful predictive value, improving RMSE by up to 12.28% according to the abstract.\n",
+          "Limitations": "Focused only on large face-to-face courses supported by LMS, so results may not generalize to small classes or fully online contexts. LMS variables were mostly low-level aggregated counts and reflected relatively passive LMS use. Prediction still depends strongly on prior academic performance (especially CGPA), which may limit interpretability from a learning-process perspective. The study was conducted in one university with a particular institutional context.\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_dd79e419",
+      "reference_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434",
+      "text": "There is a plethora of studies focusing on the extraction of insights about student interaction with Learning Management Systems and its relationship to student success → problem is small samples and expensive variables. Thus, the authors use a sophisticated algorithm (unspecified) with what they call low cost variables to make early prediction of success in large courses. ",
+      "provenance": {
+        "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+      }
+    },
+    {
+      "id": "an_62b9cf64",
+      "reference_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434",
+      "text": "Results show that this model outperforms other alternatives. Moreover, adding LMS data also improved the performance of the predictive model by close to 12%. This is a regression problem.",
+      "provenance": {
+        "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+      }
+    }
+  ],
+  "workflow_states": []
+}

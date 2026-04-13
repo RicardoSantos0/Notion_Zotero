@@ -1,0 +1,651 @@
+{
+  "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d",
+  "title": "Designing for serendipity in a university course recommendation system",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "87d17d2e-89c3-4e16-9a76-df4cba371253",
+          "name": "Higher Education",
+          "color": "gray"
+        },
+        {
+          "id": "5473dc6a-4387-4ea9-a8ff-843c0b49221f",
+          "name": "Course Guidance",
+          "color": "brown"
+        },
+        {
+          "id": "99d4a4b2-d204-4797-9933-723856658d9f",
+          "name": "Filter Bubble",
+          "color": "pink"
+        },
+        {
+          "id": "6b2c64f2-6085-4579-90a8-ce35c7dd01ce",
+          "name": "Neural Networks",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Recommender Systems”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Recommender Systems”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        },
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T21:50:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pardos & Jiang",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pardos & Jiang",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Designing for serendipity in a university course recommendation system",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Designing for serendipity in a university course recommendation system",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d84750c-f3ba-80e4-96cc-d0226541b025",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Content-Based Filtering",
+          "University courses to take next",
+          "164196 students in offline data; 70 undergrads in user study",
+          "9478 lecture courses → 7487 after ≥20-enrollment filter",
+          "Enrollment histories + catalog descriptions + course meta-info",
+          "User gives one favorite course; models use learned embeddings (no special cold-start beyond that)",
+          "Models/versioned on GitHub and refreshed 3× per semester after data refresh",
+          "Remove generic sentences, stop words & punctuation; lemmatize/stem; tokenize; build TF, binary, tf-idf vectors",
+          "Top-10 Recommendations (Max 1 per department)",
+          "Offline: mean/median rank & recall@10 (equivalency); recall@1/@10 (analogies). User study: serendipity = mean(unexpectedness, successfulness); 6 dimensions rated",
+          "BOW (div) scored highest in serendipity/novelty; course2vec best on analogies; RNN lacked novelty and often repeated requirement/major courses",
+          "Students rely on catalog text; neural concepts may be hidden; hard to see commonality when descriptions are distal; real-time enrollment lag; future work: add latent semantics/syllabi"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-80e3-91c7-c6449019d670",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80e3-91c7-c6449019d670",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-02-05T21:49:00.000Z",
+        "last_edited_time": "2025-07-23T15:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-8060-af3d-e2d4bf3f448b",
+      "type": "paragraph",
+      "text": "Collaborative Filtering algorithms tend to over-optimize for past behaviour, often leading to what is called a filter bubble. Authors try to address the issue in a course recommendation system at a HEI. This is done by using catalog descriptions (BOW) and enrollment histories (course2vec) to recommend novel and different courses.",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8060-af3d-e2d4bf3f448b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-02-05T21:50:00.000Z",
+        "last_edited_time": "2025-02-05T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Collaborative Filtering algorithms tend to over-optimize for past behaviour, often leading to what is called a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Collaborative Filtering algorithms tend to over-optimize for past behaviour, often leading to what is called a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "filter bubble. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "filter bubble. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors try to address the issue in a course recommendation system at a HEI. This is done by using catalog descriptions (BOW) and enrollment histories (course2vec) to recommend novel and different courses.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors try to address the issue in a course recommendation system at a HEI. This is done by using catalog descriptions (BOW) and enrollment histories (course2vec) to recommend novel and different courses.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80d8-abb4-dca759532ad0",
+      "type": "paragraph",
+      "text": "Comparison is done with offline validation sets against a RNN-based recommender, with the bag-of-words based recommendations being the more serendipitous.",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80d8-abb4-dca759532ad0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-02-05T21:55:00.000Z",
+        "last_edited_time": "2025-02-05T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comparison is done with offline validation sets against a RNN-based recommender, with the bag-of-words based recommendations being the more serendipitous.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comparison is done with offline validation sets against a RNN-based recommender, with the bag-of-words based recommendations being the more serendipitous.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d84750c-f3ba-80e9-b8cc-e05d9157a8cc",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "1d84750c-f3ba-80e9-b8cc-e05d9157a8cc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-04-17T18:43:00.000Z",
+        "last_edited_time": "2025-04-17T18:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d84750c-f3ba-80e4-96cc-d0226541b025",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d84750c-f3ba-80e4-96cc-d0226541b025",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-04-17T18:43:00.000Z",
+        "last_edited_time": "2025-04-17T18:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2394750c-f3ba-80ed-b0f3-c8cc6bfed42a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2394750c-f3ba-80ed-b0f3-c8cc6bfed42a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8085-9404-ed3871e1e89d"
+        },
+        "created_time": "2025-07-23T15:58:00.000Z",
+        "last_edited_time": "2025-07-23T15:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

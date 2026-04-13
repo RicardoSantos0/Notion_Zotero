@@ -1,0 +1,342 @@
+{
+  "references": [
+    {
+      "id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "title": "Enhancing educational evaluation through predictive student assessment modeling",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education: Artificial Intelligence",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1c117452",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Grade Range",
+          "Target": "A, B, C and F",
+          "Students": "253 second and third year undergraduate students",
+          "Courses": "5 Classes in Web Design, Web Technologies and Java Programming",
+          "Data sources": "LMS logs, Student Demographics, Academic Background",
+          "Features": "[Consistency, Following, Review Score, Attendance Score, Midterm Exam Score, Compulsory, Average Score in Other Subjects, Entrance Exam Score, Age, Gender, HighSchool GPA, HW Submission Rate, Subject]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Data was standardized and nans were imputted using kNN. \n\nCategorical data was One-Hot-Encoded",
+          "Models": "kNN, Random Forest, Logistic Regression, SVM, Naive Bayes, Stacking",
+          "Assessment Strategy": "Holdout Method (80/20)",
+          "Performance Metric: Best Model": "{Accuracy: 0.826 - Stacking, Precision: 0.805 - SVM, Recall: 0.825, F1-Score: 0.792}",
+          "Comments": "Authors do a standard classification problem on data from an Online Platform. The goal is to predict end of course performance. ",
+          "Limitations": "Models overfit.\n\nPrediction of average grades would benefit from Midterms but authors intend to use it earlier.\n\nAdditional data sources could be explored.\n\nThere is no integration of other AI tools. "
+        }
+      ],
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+        "block_index": 71
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_921435c7",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The work uses an interactive LMS to collect data about students and use it to forecast success. Data sources involves interaction patterns, time on exercises and, finally, progress across learning activities. Authors use multiple classifiers, with a Stacking model being the better one at predicting grade rages.\n",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_9f3986ab",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The rise of Covid increased the demand for digital ways to deliver educational content, which has contributed towards making the grading of students online somewhat of a nightmare, especially if the professors are not well versed in online evaluation. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_2c42611d",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "In previous studies, authors have attempted to use different measurements to collect data “on the fly” and use it for predictive modelling, but most studies have been rather unsuccessful.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_a763f46e",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The aim of this paper seems to be to use “any means” to extrsct student data and use it for predictive modelling of student performance. The model is meant to explore different instructional conditions. RQ1 is aimed to verify whether it is possible to predict student performance from the start of the course. RQ2 explores which factors are the most likely to determine an outcome.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_3f63bc19",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "It is difficult to create an early warning system: The methods we use are often unreliable to detect students who may be struggling. The authors consistently contest methods used to assess what are effective predictors of student success:",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_ceb9918e",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "#### Machine Learning-based works",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_79d5c14f",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": " ML has been used for multiple purposes in Learning Analytics. The authors start this sub-section with a review of which feature extraction strategies are the most commonly employed.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_ddd3ec6a",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Authors highlight 3 main types of data:",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_494f5e75",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Fernandes used GBoost on demographics and in-term grades and found that static attributes (the kind that is non-actionable) exhibit the highest predictive potential - gender, demographics. Jiang found quizzes and peer-assessments to be some of the most effective determiners of course-performance. Bernacki was able to only use LMS data to predict performance.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_52792fd4",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Something interesting: ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_edb99ba7",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Unlike Bernacki, these authors make a clear argument that including grades is paramount to predict performance.  For example, the authors fully accept a work that uses the midterm exam grades to predict the end-of-course grades (even though, more than likely, these grades are a part of the computation of the final grade). Well, at least they end the section acknowledging that the cited works only self-propagate already existing biases.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_319bbc7a",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "They also mention the use of a Multiple Features Fusion Attention Mechanism Enhanced Deep Knowledge Tracing (which I always understood as the task of predicting the answer to next question based on previous questions - not specifically something to measure student performance explicitly).",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_21d86b51",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "In general, this literature review makes a very broad and general broad-strokes look into “what is student performance and compiles multiple ways of going about it. There does not seem to a specific rule on what is the task at hand, or the data. It’s very confusing and awkward to read.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_655e96ff",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "I’ll be honest… I’m at the halfway point of this paper and I still do not understand what these authors are doing. Hopefully I can finally understand it:",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_59be7237",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Data: Authors use multiple features extracted from five different classes made available in VnCodelab. Students are allowed to interact with the platform during class. Actions by student and professor are captured in real time. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_80f6e894",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Data refers to 253 undergraduate students of Computer Science with similar demographics and backgrounds.  Authors collected demographic data and 2 main variables: total time dedicated in the system & time spent doing reviews outside regular class hours.  The system also includes other performance-related daqta - Grades, GPAs, etc…",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_667514e0",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Data Cleaning and Normalization",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_f66c148e",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The authors collected data about multiple facets of the interaction of the students with the environment. One such cases refers to variable Time Interval.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_9c4e16d5",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Time Interval: The authors intend to compute the difference in time between the students being on the same slide as their professor. This allowed to compute a variable called the “Mean Focus Rate”.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_fb46d6ea",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The final models considered 13 key variables:",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_f65fef07",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Consistency, Following, Review Score, Attendance Score, Midterm Exam Score, Compulsory, Average Score in Other Subjects, Entrance Exam Score, Age, Gender, HighSchool GPA, HW Submission Rate and Subject. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_6b603930",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Model Selection - Algorithms considered were RF, LR, SVM, NB and KNN. Stacking classifier uses all of them into a SVM meta-estimator. The task at hand is multi-class classification, where the goal is to predict a Grade Range. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_38415a27",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Authors start by checking the performance of the models using only features that are directly used to compute the grades. Then, they exclusively use demographics, then followed by interaction with the course and (finally?) performance in events prior to current course/subject, whatever they are considering… I’m so confused…",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_0a8f5ca0",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Model evaluation:",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_ef0bd87a",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The models were evaluated using classification metrics and other things that definitely are not metrics such as the “confusion matrix”. Also, how are these ROC scores being computed if we’re using multiclass classification? Are the scores seen the ovr averages? So many questions…",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_61a2a5a9",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "0.792 F1 score on test set.",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_ec5c2bfb",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Por algum motivo, estes autores decidem revelar os resultados da sua avaliação para “todos os conjuntos de dados ou seja, o dataset todo”. Ao menos poderia fazer cross-validation, não ?? ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_eb2b58db",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Reconhecem a existência de overiftting no seu trabalho, vá lá…. mas não atribuem os seus resultados a, sei lá, um pequeno sample size (Dataset de teste tem 50 observações). Also, aparentemente Stacking deles não overfitta porque fazem 3 folds de CV. Resumindo…",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_1ade3b70",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Comparam 5 base models vs um stacking dos 5 modelos. O melhor modelo aparenta ser o stacking por ser aquele que tem melhores resultados e, simultaneamente, não overfitta.  O melhor score utiliza 13 variáveis??? Confesso que nunca percebi muito bem qual é a experiência…",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_d61367b4",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Impact of Features on Model Performance",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_32b92efa",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The authors start with the analysis of a correlation matrix between features. The explanation of color coding is incorrect. Attendance, Midterm Exam and averaqge grade on other subjects display the highest correlation with the Grade Range for the course. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_c767688b",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The authors also do a second level of analysis where they look to create different models by iteratively removing one of the features and then looking into the decline in predictive performance. By looking at both techniques, the authors find that Gender and Compulsory have close to no impact on Grade Range. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_322aaa14",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "The authors argue that they are proposing an EWS, which they definitely aren’t as their model uses, among other things, the Midterm Exam score. There is also no mention as to when they are making the prediction (i.e. they mention that they use data from 5 classes, is this the first 5 classes of a semester??). Their overall ML discussion of voerfitting is also innacurate. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_25544f06",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Prior academic performance is a predictor of student success, same with attendance, in course performance, etc… Gender does not seem to be a significant contributor. In fact, the authors answer RQ by explicitly mentioning that demographics seems to play no role on a sample where they themselves claim to be almost homogeneous).",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_53f8002f",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Interestingly, the authors deployed this model to 2 lecturers who have praised its utility. Ultimiately, both lecturers seem excited by the potential of these models. ",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    },
+    {
+      "id": "an_06636e03",
+      "reference_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd",
+      "text": "Os autores identifcam as seguintes ao seu trabalho::",
+      "provenance": {
+        "page_id": "02eedcf7-bc5a-406e-ba94-01f7e39a25cd"
+      }
+    }
+  ],
+  "workflow_states": []
+}

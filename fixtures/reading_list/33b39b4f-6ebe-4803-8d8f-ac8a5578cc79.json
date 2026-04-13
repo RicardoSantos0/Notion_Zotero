@@ -1,0 +1,665 @@
+{
+  "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79",
+  "title": "Dropout Prediction in MOOCs: Using Deep Learning for Personalized Intervention",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6b27426d-9ba0-436b-81f9-241cac222119",
+          "name": "MOOC",
+          "color": "pink"
+        },
+        {
+          "id": "638864bd-86d4-4902-9abe-7a5bf32f8037",
+          "name": "Dropout Prediction",
+          "color": "brown"
+        },
+        {
+          "id": "bc92f3a4-8f84-41e5-8620-daed100e0a5b",
+          "name": "Intervention",
+          "color": "purple"
+        },
+        {
+          "id": "708e7d4b-b6f4-404e-be82-0d36dd4d67c3",
+          "name": "Personalized Recommendation",
+          "color": "red"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Journal of Educational Computing Research",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Journal of Educational Computing Research",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-04-01T18:01:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Xing & Du",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Xing & Du",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dropout Prediction in MOOCs: Using Deep Learning for Personalized Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dropout Prediction in MOOCs: Using Deep Learning for Personalized Intervention",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3354750c-f3ba-80b1-950d-ca12d8d8dc98",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "E-Learning",
+          "Dropout",
+          "Dropout vs Active in the following week",
+          "3617 registered students",
+          "1 Project Management MOOC on Canvas (about 8 weeks; 11 modules, 14 discussion forums, 12 quizzes)",
+          "LMS logs, Quiz Scores, Discussion Forums",
+          "[Number of announcements, Number of assignments, Number of calendar, Number of module pages, Number of courses, Number of discussion, Number of files, Number of gradebooks, Number of quizzes, Number of submissions, Number of wikis, Number of active days]",
+          "Every Week",
+          "Data came from Canvas trace logs plus JSON data retrieved through the Canvas API. A flat feature structure was used. Features from each week were cumulatively added to the previous weeks’ features, so the model at week t used all information up to week t. Data were split into 70% training / 30% testing, and 10-fold cross-validation was used to reduce overfitting. Deep learning models were customized for each week and trained with forward/backward propagation and batch gradient descent.",
+          "KNN, SVM, Decision Tree, MLP",
+          "Temporal Validation",
+          "{AUC: 0.968 average – Deep Learning; Testing Accuracy: 0.930 average – Deep Learning}",
+          "Main contribution is combining weekly temporal dropout prediction with individual dropout probabilities to support personalized and prioritized intervention. Deep learning outperformed KNN, SVM, and Decision Tree in both predictive performance and stability. Regression tests showed that the dropout probabilities produced by deep learning aligned best with actual dropout timing (p = .000, adjusted R² = 0.0687), supporting its use for personalization.",
+          "Based on a single MOOC course, so generalizability is limited. \n\nThe intervention mechanism is still hypothetical and was not validated in a live intervention study. \n\nFeature engineering is relatively simple and uses a flat cumulative structure. \n\nPersonalization is statistically supported, but not tested for actual impact on dropout reduction."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "b8c8a001-adc1-4855-beab-f3636d43dc87",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "b8c8a001-adc1-4855-beab-f3636d43dc87",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2024-07-31T19:51:00.000Z",
+        "last_edited_time": "2024-07-31T19:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0aa3fc36-7b4b-4f11-a9d5-293a62315306",
+      "type": "paragraph",
+      "text": "MOOCs have very high dropout rates. It is possible to use Analytics to create models that predict whether a student is likely to dropout or not. However, the models available do not have the finesse to enable personalized interventions. ",
+      "raw": {
+        "object": "block",
+        "id": "0aa3fc36-7b4b-4f11-a9d5-293a62315306",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2024-07-31T19:51:00.000Z",
+        "last_edited_time": "2024-07-31T19:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "MOOCs have very high dropout rates. It is possible to use Analytics to create models that predict whether a student is likely to dropout or not. However, the models available do not have the finesse to enable personalized interventions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "MOOCs have very high dropout rates. It is possible to use Analytics to create models that predict whether a student is likely to dropout or not. However, the models available do not have the finesse to enable personalized interventions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bf19ed07-b293-4511-82e0-cb39fcf6cc55",
+      "type": "paragraph",
+      "text": "In order to address this, the authors propose a temporal DL model that predicts the probability of a student dropping out or not. The model outperforms other baseline algorithms tested while also returning a probability → meaning that educators can start by trying to help students flagged as more likely to drop out relative to other colleagues.",
+      "raw": {
+        "object": "block",
+        "id": "bf19ed07-b293-4511-82e0-cb39fcf6cc55",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2024-07-31T19:53:00.000Z",
+        "last_edited_time": "2024-07-31T19:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In order to address this, the authors propose a temporal DL model that predicts the probability of a student dropping out or not. The model outperforms other baseline algorithms tested while also returning a probability → meaning that educators can start by trying to help students flagged as ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In order to address this, the authors propose a temporal DL model that predicts the probability of a student dropping out or not. The model outperforms other baseline algorithms tested while also returning a probability → meaning that educators can start by trying to help students flagged as ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "more likely",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "more likely",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " to drop out relative to other colleagues.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " to drop out relative to other colleagues.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8042-b407-d7e8718faedb",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8042-b407-d7e8718faedb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2026-04-01T16:55:00.000Z",
+        "last_edited_time": "2026-04-01T16:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-80aa-badc-e29e171522eb",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-80aa-badc-e29e171522eb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2026-04-01T16:55:00.000Z",
+        "last_edited_time": "2026-04-01T16:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-80b1-950d-ca12d8d8dc98",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-80b1-950d-ca12d8d8dc98",
+        "parent": {
+          "type": "page_id",
+          "page_id": "33b39b4f-6ebe-4803-8d8f-ac8a5578cc79"
+        },
+        "created_time": "2026-04-01T16:55:00.000Z",
+        "last_edited_time": "2026-04-01T16:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

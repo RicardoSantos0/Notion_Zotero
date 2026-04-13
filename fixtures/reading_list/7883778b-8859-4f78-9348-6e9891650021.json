@@ -1,0 +1,589 @@
+{
+  "page_id": "7883778b-8859-4f78-9348-6e9891650021",
+  "title": "Predicting At-Risk Students Using Clickstream Data in the Virtual Learning Environment",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "bfd6aad4-710e-47cc-b766-a69bd2bac7b8",
+          "name": "Students at risk",
+          "color": "pink"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        },
+        {
+          "id": "d10c622d-7224-4643-bd2e-a1c8314875e4",
+          "name": "Classification",
+          "color": "yellow"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "f7fe3061-5422-4266-9221-ce8935eb5405",
+          "name": "Long short-term memory (LSTM)",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Sustainability",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Sustainability",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Aljohani et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Aljohani et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting At-Risk Students Using Clickstream Data in the Virtual Learning Environment",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting At-Risk Students Using Clickstream Data in the Virtual Learning Environment",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3354750c-f3ba-809a-b87d-dbfdd9e53277",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "End of Course PErformance",
+          "Pass vs Fail",
+          "22437 OULAD students",
+          "All 7 OULAD Course",
+          "LMS logs, Assessments, Student/course records",
+          "[Weekly collection of 20 attributes]",
+          "Every Week",
+          "Raw OULAD tables were processed into a week-wise sequential format. Students were identified uniquely per course presentation. Repeated students and repeated course attempts were excluded. Distinction and pass were merged into a single pass class; fail remained the other class. Withdrawal cases do not appear to be part of the final binary dataset. Final analytic dataset contained 22,437 instances. Weekly vectors were padded to equal sequence length, and padded values were masked before input to the LSTM.",
+          "LSTM, Logistic Regression, MLP, SVM",
+          "Temporal Validation",
+          "Week 10:\n{Accuracy: 0.90 - LSTM}\n\nEnd of Course:\n{Accuracy: 0.9523 – LSTM, Precision: 0.9346 – LSTM, Recall: 0.7579 – LSTM}",
+          "Main contribution is showing that week-wise sequential clickstream modeling with LSTM improves early prediction of at-risk students compared with non-sequential baselines using aggregated data. The paper argues that the sequential format captures learning behaviour better than flat aggregated vectors. The pass group consistently showed more VLE interaction than the fail group, as illustrated in the week-wise average-click chart on page 4.",
+          "The study does not analyze repeated students or course-repeat behaviour. It also does not perform course-level analysis in depth, despite using multiple courses. \n\nThe dataset transformation excludes some potentially relevant complexity, and future work is suggested to add assessment scores and textual feedback data. \n\nWithdrawal is not retained as a prediction class in the final setup, which simplifies the problem."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "6a29c38b-4679-4b81-88d8-2b33594ffdf2",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "6a29c38b-4679-4b81-88d8-2b33594ffdf2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+        },
+        "created_time": "2024-07-31T17:58:00.000Z",
+        "last_edited_time": "2024-07-31T17:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6eb81885-8d46-4aa3-ad6f-508059a12842",
+      "type": "paragraph",
+      "text": "The authors explore the effectiveness of LSTM to predict end of course performance in an online University. Results obtained on OULAD dataset show that this approach greatly outperforms the baseline Logistic Regression model, achieving 95.2% accuracy, 93% precision and 76% Recall. ",
+      "raw": {
+        "object": "block",
+        "id": "6eb81885-8d46-4aa3-ad6f-508059a12842",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+        },
+        "created_time": "2024-07-31T17:58:00.000Z",
+        "last_edited_time": "2024-07-31T18:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors explore the effectiveness of LSTM to predict end of course performance in an online University. Results obtained on OULAD dataset show that this approach greatly outperforms the baseline Logistic Regression model, achieving 95.2% accuracy, 93% precision and 76% Recall. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors explore the effectiveness of LSTM to predict end of course performance in an online University. Results obtained on OULAD dataset show that this approach greatly outperforms the baseline Logistic Regression model, achieving 95.2% accuracy, 93% precision and 76% Recall. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c697588b-73e5-4e80-9fc4-9bf1e99f092d",
+      "type": "paragraph",
+      "text": "Moreover, the authors show that it is possible to use a week-wise granularity to make such predictions, with the model being abel to achieve 90% accuracy whithin the first 10 weeks (out of 38). ",
+      "raw": {
+        "object": "block",
+        "id": "c697588b-73e5-4e80-9fc4-9bf1e99f092d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+        },
+        "created_time": "2024-07-31T18:01:00.000Z",
+        "last_edited_time": "2024-07-31T18:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, the authors show that it is possible to use a week-wise granularity to make such predictions, with the model being abel to achieve 90% accuracy whithin the first 10 weeks (out of 38). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, the authors show that it is possible to use a week-wise granularity to make such predictions, with the model being abel to achieve 90% accuracy whithin the first 10 weeks (out of 38). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8029-af05-c337ead25537",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8029-af05-c337ead25537",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+        },
+        "created_time": "2026-04-01T16:23:00.000Z",
+        "last_edited_time": "2026-04-01T16:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-809a-b87d-dbfdd9e53277",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-809a-b87d-dbfdd9e53277",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7883778b-8859-4f78-9348-6e9891650021"
+        },
+        "created_time": "2026-04-01T16:23:00.000Z",
+        "last_edited_time": "2026-04-01T16:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

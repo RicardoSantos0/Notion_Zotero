@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "id": "901360c0-4fc1-441b-8bb7-ec31d6aa61e5",
+      "title": "Educational Resource Recommender Systems Using Python and Moodle",
+      "authors": [],
+      "year": null,
+      "journal": "ICCSA 2022 Workshops",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_37c52bf6",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Online Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Educational Resources on Youtube",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "901360c0-4fc1-441b-8bb7-ec31d6aa61e5",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_bf67a35d",
+      "reference_id": "901360c0-4fc1-441b-8bb7-ec31d6aa61e5",
+      "text": "Recommender system uses Youtube API to recommend materials based on students’ level of knowledge. Recommender is deployed into the context of course during a semester.",
+      "provenance": {
+        "page_id": "901360c0-4fc1-441b-8bb7-ec31d6aa61e5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

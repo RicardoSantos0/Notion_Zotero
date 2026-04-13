@@ -1,0 +1,1857 @@
+{
+  "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb",
+  "title": "Targeting At-risk Students Using Engagement and Effort Predictors in an Introductory Computer Programming Course",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "87b32258-e49f-4208-b4f2-0360ba35bae0",
+          "name": "Computer Science Education",
+          "color": "purple"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "d4044c9c-b1f5-441e-b3da-105f17fe0fbf",
+          "name": "Prediction",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"At-risk students\" AND \"Learning Strategies”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"At-risk students\" AND \"Learning Strategies”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rxk{",
+          "name": "Book Chapter",
+          "color": "default"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Data Driven Approaches in Digital Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Data Driven Approaches in Digital Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-10-16T15:15:00.000+01:00",
+        "end": "2024-10-17T08:24:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Azcona & Smeaton",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Azcona & Smeaton",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Targeting At-risk Students Using Engagement and Effort Predictors in an Introductory Computer Programming Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Targeting At-risk Students Using Engagement and Effort Predictors in an Introductory Computer Programming Course",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1214750c-f3ba-8083-9c08-e69b1e5db946",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Success in Next Computer-Based Lab Exam",
+          "Fail (0) vs Pass (1)",
+          "138 Year 1 students → Train Data\n128 Year 2 students → Test Data",
+          "1 Computer Programming Course",
+          "LMS\nSubmissions",
+          "[Unspecified Log related features]",
+          "Every Week",
+          "There was a model trained for every week… Every new week, the features of the previous week’s classifiers were concatenated and the new data was appended.",
+          "Logistic Regression\nSVM-Linear\nSVM-Gaussian\nkNN\nRandom Forest",
+          "10-Fold Cross-Validation",
+          "{Misclassification Error: 0.2984 - Logistic Regression}",
+          "This work is a short paper on the development and implementation of an early warning system to predict success in next test based on interactions and submissions. \n\nThe authors train on a sample of Year 1, select the best model and then deploy it on the second year - identifying students at-risk and providing additional mentoring to the students who were flagged this way. \n\nPerformance on the test data on the end of the course reveals 64.38%  accuracy.",
+          "The way this differential is computed is extremely sus. \n\nVague in terms of preprocessing and modelling.\n\nOnly metric for whom results are mentioned is Misclassification Error.\n\nSmall sample size."
+        ]
+      ],
+      "index": 31
+    }
+  ],
+  "blocks": [
+    {
+      "id": "dbb8b8e1-867b-48e0-af47-25984b064c7a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "dbb8b8e1-867b-48e0-af47-25984b064c7a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-07-31T14:55:00.000Z",
+        "last_edited_time": "2024-07-31T14:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a78a5ae6-1cc4-4420-bd10-6fa57b818cc6",
+      "type": "paragraph",
+      "text": "Paper presents an approach to identifyind at-risk students in a programming course. Predictions use clickstream and progression on programming labs and are made at every week. Students labeled as at-risk were provided with additional support. Results show that the progression of students who received assistance was 4 time higher in students who received the intervention relative to the students who attended the course of the first training data.",
+      "raw": {
+        "object": "block",
+        "id": "a78a5ae6-1cc4-4420-bd10-6fa57b818cc6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-07-31T14:55:00.000Z",
+        "last_edited_time": "2024-07-31T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper presents an approach to identifyind at-risk students in a programming course. Predictions use clickstream and progression on programming labs and are made at every week. Students labeled as at-risk were provided with additional support. Results show that the progression of students who received assistance was 4 time higher in students who received the intervention relative to the students who attended the course of the first training data.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper presents an approach to identifyind at-risk students in a programming course. Predictions use clickstream and progression on programming labs and are made at every week. Students labeled as at-risk were provided with additional support. Results show that the progression of students who received assistance was 4 time higher in students who received the intervention relative to the students who attended the course of the first training data.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0d9b532e-b306-499f-8b4c-5a65d95e3d92",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "0d9b532e-b306-499f-8b4c-5a65d95e3d92",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-07-31T15:00:00.000Z",
+        "last_edited_time": "2024-10-16T14:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-804f-9acc-f4f394c009d8",
+      "type": "paragraph",
+      "text": "Programming is a difficult task and many researchers have been looking for ways to improve the learning experience of programming students. Behavioral data is, hopefully, a reflection of a student’s effort and learning progress. This notion is similar to the use of LMS logs to predict performance. Sin programming courses tend to generate even more data (due to more interactions)  the authors expect that leveraging this data for predictive modelling is viable in their programming course. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-804f-9acc-f4f394c009d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:28:00.000Z",
+        "last_edited_time": "2024-10-16T14:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Programming is a difficult task and many researchers have been looking for ways to improve the learning experience of programming students. Behavioral data is, hopefully, a reflection of a student’s effort and learning progress. This notion is similar to the use of LMS logs to predict performance. Sin programming courses tend to generate even more data (due to more interactions)  the authors expect that leveraging this data for predictive modelling is viable in their programming course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Programming is a difficult task and many researchers have been looking for ways to improve the learning experience of programming students. Behavioral data is, hopefully, a reflection of a student’s effort and learning progress. This notion is similar to the use of LMS logs to predict performance. Sin programming courses tend to generate even more data (due to more interactions)  the authors expect that leveraging this data for predictive modelling is viable in their programming course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-801e-86d9-d1b90deba7f1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-801e-86d9-d1b90deba7f1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:34:00.000Z",
+        "last_edited_time": "2024-10-16T14:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8019-9e71-ee1eb676769d",
+      "type": "paragraph",
+      "text": "Thus, the authors present a retrospective study that simulates real time predictions via an early warning system from LMS logs. The questions to answer are:",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8019-9e71-ee1eb676769d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:34:00.000Z",
+        "last_edited_time": "2024-10-16T14:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the authors present a retrospective study that simulates real time predictions via an early warning system from LMS logs. The questions to answer are:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the authors present a retrospective study that simulates real time predictions via an early warning system from LMS logs. The questions to answer are:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8099-9523-dec9a1412645",
+      "type": "numbered_list_item",
+      "text": "What is the success of predictive models using behavior and progress features for identification of at-risk students.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8099-9523-dec9a1412645",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:35:00.000Z",
+        "last_edited_time": "2024-10-16T14:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What is the success of predictive models using behavior and progress features for identification of at-risk students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What is the success of predictive models using behavior and progress features for identification of at-risk students.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-804e-acd6-edcbffb8d9a6",
+      "type": "numbered_list_item",
+      "text": "Does providing support to an at-risk student actually lead to better student outcomes. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-804e-acd6-edcbffb8d9a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:36:00.000Z",
+        "last_edited_time": "2024-10-16T14:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Does providing support to an at-risk student actually lead to better student outcomes. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Does providing support to an at-risk student actually lead to better student outcomes. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8071-9c88-e219148c63c2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8071-9c88-e219148c63c2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:31:00.000Z",
+        "last_edited_time": "2024-10-16T14:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8064-8da8-cce0978db421",
+      "type": "heading_2",
+      "text": "Data",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8064-8da8-cce0978db421",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:31:00.000Z",
+        "last_edited_time": "2024-10-16T14:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8050-ade9-ffe0c64c2a73",
+      "type": "paragraph",
+      "text": "Data is From Computer Programming, a 12-week long course I taught at Dublin University. The course combines 4 hours of lecture with 4 hours of practical lab materials. Students are assessed 2 to 3 times over the semester on lab-based exams. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8050-ade9-ffe0c64c2a73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:43:00.000Z",
+        "last_edited_time": "2024-10-16T14:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Data is From Computer Programming, a 12-week long course I taught at Dublin University. The course combines 4 hours of lecture with 4 hours of practical lab materials. Students are assessed 2 to 3 times over the semester on lab-based exams. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Data is From Computer Programming, a 12-week long course I taught at Dublin University. The course combines 4 hours of lecture with 4 hours of practical lab materials. Students are assessed 2 to 3 times over the semester on lab-based exams. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-808c-93f3-e5a5226471f1",
+      "type": "paragraph",
+      "text": "As far as students go, there were 138 registered in year 1 and 128 in year 2. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-808c-93f3-e5a5226471f1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:54:00.000Z",
+        "last_edited_time": "2024-10-16T14:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "As far as students go, there were 138 registered in year 1 and 128 in year 2. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "As far as students go, there were 138 registered in year 1 and 128 in year 2. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8031-b893-cfddc3da18c4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8031-b893-cfddc3da18c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:54:00.000Z",
+        "last_edited_time": "2024-10-16T14:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8013-a34e-d0ff0c06cfef",
+      "type": "heading_2",
+      "text": "Models",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8013-a34e-d0ff0c06cfef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:54:00.000Z",
+        "last_edited_time": "2024-10-16T14:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Models",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Models",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8070-bfb6-c59639796f5c",
+      "type": "paragraph",
+      "text": "The goal of the models designed here is to use interaction logs on programming work to predict success in a computer-based programming lab exam. To do that, the authors use data from:",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8070-bfb6-c59639796f5c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:54:00.000Z",
+        "last_edited_time": "2024-10-16T14:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The goal of the models designed here is to use interaction logs on programming work to predict success in a computer-based programming lab exam. To do that, the authors use data from:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The goal of the models designed here is to use interaction logs on programming work to predict success in a computer-based programming lab exam. To do that, the authors use data from:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80fe-af00-d788a4ba10d2",
+      "type": "numbered_list_item",
+      "text": "Submissions → The program submissions done by each student.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80fe-af00-d788a4ba10d2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:56:00.000Z",
+        "last_edited_time": "2024-10-16T14:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Submissions",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Submissions",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " → ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " → ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "The program submissions done by each student.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The program submissions done by each student.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80e4-bebf-ff90ac3fc9a8",
+      "type": "numbered_list_item",
+      "text": "Interaction Logs → Any interaction between the student and the custom VLE. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80e4-bebf-ff90ac3fc9a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:56:00.000Z",
+        "last_edited_time": "2024-10-16T14:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Interaction Logs",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Interaction Logs",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " → ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " → ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Any interaction between the student and the custom VLE. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Any interaction between the student and the custom VLE. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8092-bc77-e0dc0249b1b5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8092-bc77-e0dc0249b1b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:57:00.000Z",
+        "last_edited_time": "2024-10-16T14:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-805e-a2eb-da2725d2443f",
+      "type": "paragraph",
+      "text": "The authors take data from the first year → the 138 students in 2015/2016 to train a predictive model. Task being passing or failing on the next lab exam. In Year 1, there were 2 labs (Week 7 and End-of-Semester). Data from Week 1 to 6 was used to predict success in midterm.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-805e-a2eb-da2725d2443f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:57:00.000Z",
+        "last_edited_time": "2024-10-16T15:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors take data from the first year → the 138 students in 2015/2016 to train a predictive model. Task being passing or failing on the next lab exam. In Year 1, there were 2 labs (Week 7 and End-of-Semester). Data from Week 1 to 6 was used to predict success in midterm.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors take data from the first year → the 138 students in 2015/2016 to train a predictive model. Task being passing or failing on the next lab exam. In Year 1, there were 2 labs (Week 7 and End-of-Semester). Data from Week 1 to 6 was used to predict success in midterm.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-806d-9ba0-c3250e0836d5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-806d-9ba0-c3250e0836d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:04:00.000Z",
+        "last_edited_time": "2024-10-16T15:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8057-a278-d350aff0a3c1",
+      "type": "paragraph",
+      "text": "When it comes to representation, this not a full aggregation performed every week. Instead, it seems to have a concatenation of the features of the classifiers of the previous weeks and appending data for that specific week. Multiple different classifiers are compared against one another, with selection being determined by the smallest error rate using 10-Fold Cross-Validation. For interpretation purposes, results reflect the average of the weekly analyses done across the entire semester. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8057-a278-d350aff0a3c1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:04:00.000Z",
+        "last_edited_time": "2024-10-16T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to representation, this not a full aggregation performed every week. Instead, it seems to have a concatenation of the features of the classifiers of the previous weeks and appending data for that specific week. Multiple different classifiers are compared against one another, with selection being determined by the smallest error rate using 10-Fold Cross-Validation. For interpretation purposes, results reflect the average of the weekly analyses done across the entire semester. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to representation, this not a full aggregation performed every week. Instead, it seems to have a concatenation of the features of the classifiers of the previous weeks and appending data for that specific week. Multiple different classifiers are compared against one another, with selection being determined by the smallest error rate using 10-Fold Cross-Validation. For interpretation purposes, results reflect the average of the weekly analyses done across the entire semester. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80c9-85cb-c7f0ff22f534",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80c9-85cb-c7f0ff22f534",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:15:00.000Z",
+        "last_edited_time": "2024-10-16T15:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80d2-a8bd-ddcee759520b",
+      "type": "paragraph",
+      "text": "Model assessment results on Year 1 data shos that Logistic Regression achieved the lowest average misclassification error across the 12 weeks (29.84%).",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80d2-a8bd-ddcee759520b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:04:00.000Z",
+        "last_edited_time": "2024-10-16T15:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model assessment results on Year 1 data shos that Logistic Regression achieved the lowest average misclassification error across the 12 weeks (29.84%).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model assessment results on Year 1 data shos that Logistic Regression achieved the lowest average misclassification error across the 12 weeks (29.84%).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8008-a657-c0be26592aad",
+      "type": "paragraph",
+      "text": "This model was sub-sequently pseudo-deployed on the 2016/2017 cohort. Students flagged as at-risk were offered assitance and personalized mentoring opportunities during the lab session. The overall model achieved an F1-Score of 0.6438.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8008-a657-c0be26592aad",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:48:00.000Z",
+        "last_edited_time": "2024-10-16T15:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This model was sub-sequently pseudo-deployed on the 2016/2017 cohort. Students flagged as at-risk were offered assitance and personalized mentoring opportunities during the lab session. The overall model achieved an F1-Score of 0.6438.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This model was sub-sequently pseudo-deployed on the 2016/2017 cohort. Students flagged as at-risk were offered assitance and personalized mentoring opportunities during the lab session. The overall model achieved an F1-Score of 0.6438.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8095-96fd-c938e95f079d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8095-96fd-c938e95f079d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:53:00.000Z",
+        "last_edited_time": "2024-10-16T15:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80eb-a570-cbbacc3b61d5",
+      "type": "paragraph",
+      "text": "To answer the second question (does assistance improve performance), the authors focused on utilizing an approach where the differences in performance between Test 1 and Test 2 for both co-horts. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80eb-a570-cbbacc3b61d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:53:00.000Z",
+        "last_edited_time": "2024-10-16T15:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To answer the second question (does assistance improve performance), the authors focused on utilizing an approach where the differences in performance between Test 1 and Test 2 for both co-horts. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To answer the second question (does assistance improve performance), the authors focused on utilizing an approach where the differences in performance between Test 1 and Test 2 for both co-horts. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8024-8b0d-d44f0b2cdaa9",
+      "type": "paragraph",
+      "text": "  ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8024-8b0d-d44f0b2cdaa9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:04:00.000Z",
+        "last_edited_time": "2024-10-16T15:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8017-a074-d24bfff7eb78",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8017-a074-d24bfff7eb78",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:55:00.000Z",
+        "last_edited_time": "2024-10-16T15:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/b7895adb-af4b-4a08-b9da-bd593c0aaa4d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U5535WSB%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152024Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIFfLAxLBD1Uw5lGzDSWs02DZj8NNMT8p4MWE23B5cDgQAiAeM8OrrI2je5nGdLvTt4pFXZXDzOHOq%2BSMPPJMrBJyPSr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMNAb3HySDEynFq4q7KtwDplaFh1e%2Bhbt%2BNfb5L96lGTYbw86MzUEqmh6kPKkkC%2FWCRzpGZH6T7q6UWCQolJPSvTpdWSMXkDkNZINyh5qSfe%2BlW%2Bz20hjsr9Kq9zdm53lLbbKEkfNW%2FNurDJdqokiMVR0DMECJ2dLoWA7dFDPYsApuJui9LuJe6ZPGXl3LvVw2QSU9unsfi1F%2BcZeRu9oaljmHm95DHPQqVGPNagS6m%2FrIWfiEzKfADtem2s%2F3vq84%2BFUWt%2BaXFV5DAMY7uGZOJdMyo2JRCj4WtkdviY6Ybn8TS61gZ6vSiYa%2BaP0KMUoifzcJBT4RjC7TS4AfOJJQ%2Fh3lX1lrLJHeTi4XXGZfr%2FD%2BLYoURIVSV5%2BV%2Fv9xd66gMioVGN3NCzUbqLeBS%2BRaKr1IqH47Ms1fBMmzRnRt5M7AQHvUiHoE6Vldqg7J%2F1Ct8z9O%2Bypu65lCrdDX1t%2Bp0QMBcO%2BYmMslYinWNGJIEqH5mBllEvJ1Om8ldFl%2FhTlU35UI1orLyk8cxn88rwYBhdH83zOw1nE%2FJMz6QmD5XxPTAbuidRuWWbHaMFBZQ9vJ1bhJFK2FPTENB0S74978Jq%2BFFQXxcyerZedan8V2ncKL5WqldLWvLJDZwxz%2BreNT15KZJeYEkYUn2dcw2%2B7zzgY6pgHj%2B2U0XdtuLBojsKsPCdiZxOGHyR8WqNvSmraiHM24Yu%2BHSNDSygXcWvD18VcrUApJWfOJABHQ%2B50pwFuQQ%2FN5Ty27b9QgaQeY74MuGMY60cFU0rj5yCXM7A%2BSrsy1V%2BpG2XUef4w4HMzjSEGh1ZvQh0dTKXdl0v95DiGLF8gQUDi3ro%2BzdEGXC6nmUIZWwFD486wPL5jcXOf%2F9ZNx59zjVw3CYPTX&X-Amz-Signature=be32d11f6dc75a15ca1a04aa5e35bf1db5e1eb0a7a950ebaebc0ea9cabac11bc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:24.102Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80ee-bad5-ff4faabcef5d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80ee-bad5-ff4faabcef5d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:55:00.000Z",
+        "last_edited_time": "2024-10-16T15:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80bc-9184-c1073a687895",
+      "type": "paragraph",
+      "text": "In year 1, there was no intervention. However, both groups of students improved their performance from Exam 1 to Exam 2 (with the improvements on students who failed being 23.64%). In essence, students who failed improved more “percentage-wise” than students who had passed. In this work, the difference is given by a construct called differential (positive 11.52%).\n\nIn Year 2, students who succeeded on Exam 1 actually saw their performance significantly drop, while the performance of students who were predicted to fail improved. The differential was, again positive, but into the range of 50%. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80bc-9184-c1073a687895",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T15:55:00.000Z",
+        "last_edited_time": "2024-10-16T16:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In year 1, there was no intervention. However, both groups of students improved their performance from Exam 1 to Exam 2 (with the improvements on students who failed being 23.64%). In essence, students who failed improved more “percentage-wise” than students who had passed. In this work, the difference is given by a construct called differential (positive 11.52%).\n\nIn Year 2, students who succeeded on Exam 1 actually saw their performance significantly drop, while the performance of students who were predicted to fail improved. The differential was, again positive, but into the range of 50%. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In year 1, there was no intervention. However, both groups of students improved their performance from Exam 1 to Exam 2 (with the improvements on students who failed being 23.64%). In essence, students who failed improved more “percentage-wise” than students who had passed. In this work, the difference is given by a construct called differential (positive 11.52%).\n\nIn Year 2, students who succeeded on Exam 1 actually saw their performance significantly drop, while the performance of students who were predicted to fail improved. The differential was, again positive, but into the range of 50%. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80a8-a92c-dbb335defb0f",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80a8-a92c-dbb335defb0f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:28:00.000Z",
+        "last_edited_time": "2025-03-16T17:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8083-9c08-e69b1e5db946",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8083-9c08-e69b1e5db946",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9d6a4bda-e4b3-4064-83ef-6c99446ed7cb"
+        },
+        "created_time": "2024-10-16T14:28:00.000Z",
+        "last_edited_time": "2024-10-16T14:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

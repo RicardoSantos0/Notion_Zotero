@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
+      "title": "Helping university students to choose elective courses by using a hybrid multi-criteria recommendation system with genetic optimization",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge-Based Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c0c7ef55",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Elective Courses",
+          "Students": "95 Computer Science students from University of Cordoba",
+          "Courses": "Computer Science Program",
+          "Data sources": "Academic History and Ratings, Course and professor Metadata",
+          "Initialization Method": "Each student is technically represented by 2 vectors:\n\n1. Historical performance in each course\n\n2. The learners course ratings based on a questionnaire\n\nWhen it comes to the content-end, there are 4 vectors created for each course: \n\n1. Professors (who teaches it vs who doesn’t)\n\n2. Competences (what competences are covered vs not not covered)\n\n3. Knowledge area - Scaler 1 to 8.\n\n4. Frequency vectors of course contents.",
+          "Updates to Recommendations": "– Learner model updated after each session: weights on knowledge, interest, and behavior adjusted using exponential decay\n\n– Resource similarity re-evaluated dynamically based on updated learner vector",
+          "Preprocessing Details": "The authors propose a recommende system that combines CBF (course information) and CF (Learner Preferences).\n\nThe genetic algorithm regulates how these 2 are combined:\n\n- Assigns weights do each component (CF or CBF) \n\n- Assigns weights to each individual vector for each component\n\n- Similarity metrics\n\nThe genes are trained in a way that prevents the mating between “too similar” - what they call incest prevention.\n\nUniform Crossover\n\nElitism selection strategy\n\n ",
+          "Recommendation types": "Top-N Learning Resources",
+          "Evaluation": "{RMSE: 0.971, nDCG: 0682, Reach: 100, Time: 3.022 seconds}",
+          "Comments": "– Combines learner preference modeling with multi-criteria optimization.\n\n– Uses genetic algorithm to automatically tune feature weights across diverse criteria.\n\n– Improves prediction accuracy and personalization versus single-method RS.\n\n– Adaptable to various academic domains.",
+          "Limitations": "- Computationally expensive (GA convergence).– Tested on a limited dataset (≈ 500 learners).\n\n– Requires extensive feature engineering and domain knowledge.\n\n– Does not capture temporal evolution of student preferences.\n\n– Cold-start still partially unresolved."
+        }
+      ],
+      "provenance": {
+        "page_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_fd8af336",
+      "reference_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
+      "text": "Recommender Systems can be used to help students select courses who are better suited for them. Paper suggests a hybrid RS that combines both Content-Based Filtering and Collaborative Filtering.  Optimization of the parameters of the Recommender System is done via a Genetic Algorithm.",
+      "provenance": {
+        "page_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c"
+      }
+    },
+    {
+      "id": "an_91d7415d",
+      "reference_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c",
+      "text": "An experiemntal sewtup on the university of Cordoba, a dataset with 2500 entries with 95 students and 63 courses. Results show excellent performance of recommendations in comparison to previous models. Moreover, the authors also delve into the interpretation of the most relevant criteria for course recommendation.",
+      "provenance": {
+        "page_id": "cf70bc9e-2245-4aa5-81d0-1e605bc8c62c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

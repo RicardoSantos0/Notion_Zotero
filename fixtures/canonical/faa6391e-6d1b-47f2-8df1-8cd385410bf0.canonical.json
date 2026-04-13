@@ -1,0 +1,39 @@
+{
+  "references": [
+    {
+      "id": "faa6391e-6d1b-47f2-8df1-8cd385410bf0",
+      "title": "Toward effective group formation in computer-supported collaborative learning",
+      "authors": [],
+      "year": null,
+      "journal": "Interactive Learning Environments",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_40ba2ec9",
+      "reference_id": "faa6391e-6d1b-47f2-8df1-8cd385410bf0",
+      "text": "Group formation, although essential for collaborative learning is a very difficult task. The authors use a form of graph-based modelling to identify similarity between different members. Then, the authors propose a binary integer model to solve group formation on a sample of 32 students (groups of 4). ",
+      "provenance": {
+        "page_id": "faa6391e-6d1b-47f2-8df1-8cd385410bf0"
+      }
+    },
+    {
+      "id": "an_cff70d55",
+      "reference_id": "faa6391e-6d1b-47f2-8df1-8cd385410bf0",
+      "text": "Model found optimal combination in 20 seconds. Results were also compared against an altered version of the k-means algorithm.",
+      "provenance": {
+        "page_id": "faa6391e-6d1b-47f2-8df1-8cd385410bf0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

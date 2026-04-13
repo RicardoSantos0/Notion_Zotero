@@ -1,0 +1,631 @@
+{
+  "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15",
+  "title": "Deploying multimodal learning analytics models to explore the impact of digital distraction and peer learning on student performance",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "b74fe30f-4c66-409e-800c-c4f535aa08a7",
+          "name": "Multimodal Data",
+          "color": "red"
+        },
+        {
+          "id": "8a9d3384-9d95-40e5-a8d0-41920a2880e2",
+          "name": "Digital Distraction",
+          "color": "default"
+        },
+        {
+          "id": "e8f97e69-5210-496a-b4ca-bbbe55b7b5c7",
+          "name": "Problem-Based Learning",
+          "color": "brown"
+        },
+        {
+          "id": "ead80d6f-460e-4bfd-a80a-ec23995c6809",
+          "name": "Peer Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “Machine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “Machine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-05T00:00:00.000+01:00",
+        "end": "2025-04-27T01:10:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Liao & Wu",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Liao & Wu",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-08-03",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deploying multimodal learning analytics models to explore the impact of digital distraction and peer learning on student performance",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deploying multimodal learning analytics models to explore the impact of digital distraction and peer learning on student performance",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1e04750c-f3ba-80f3-82c1-c486a9e99e33",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "REgression",
+          "Higher Education",
+          "Blended Learning",
+          "51 graduate students",
+          "2 Consecutive Courses on Statistical Techniques",
+          "Questionnaire, Publications on Social Media, Student Characteristics",
+          "Problem-Based Learning",
+          "[Male, Age, Prior Knowledge, Facebook Stay Time, Facebook Friends, Digital Distraction, Peer Learning Orientation, Peer Learning Engagement]",
+          "Prior knowledge comes form a 33 MCQ test done at the start.\n\nDigital distraction was done using Perceived Attention Discontinuity subscale. \n\nPeer learning was extracted using the MSLQ. \n\nThe work involves the of predictive models from 2299 interaction artifacts to predict peer learning. It starts with identifying whether the posts were statistics related or not. \n\nStatistics important posts were analyzed using different NLP representations and subsequently used for prediction using RF, SVM, LSTM or Fully Connected Neural Networks.",
+          "Hierarchical Linear Regression",
+          "{R-Squared: 0.58 - Model 5, Adjusted R-Squared: 0.49 - Model 5, AIC: 314.76 - Model 5, BIC: 332.67 - Model 4B}",
+          "-",
+          "The best performing model in terms of hierarchical regression was the one that considered the results of the peer learning predictive model.\n\nObjective peer learning engagement was still a significant predictor of performance in PBL.\n\n",
+          "Prior knowledge activation or process orientation feedback can prevent  learners from incorrectly learning. \n\nDigital distractions negstively impact performance. \n\nIt is benefical to introduce timed tasks to help learners focus.\n\nPredicted peer learning was fouond to be more relevant than the perception. \n\nLow number of posts associated withs tatistics was a signifcant predictor of poor performance.\n\nMu.ltimodal Learning Analytics can be sued to identify distractions and predict poor performance.\n\n",
+          "Authors use an hierarchical regression model to understand factors behind peer learning. \n\nIn the process, they extract data from multiple sources and compare whether peer learning reported in questionnaire is more predictive than observed behavior.\n\n",
+          "Only recruited learners from one specific course. \n\nLimited number of ML algorithms and NLP representations were tested. \n\nCoding as statistics-relevant vs not -relevant, while interesting, could be explored with additional layers.\n\nOnly considers peer learning as part of a facebook group."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "49c498b9-e13c-44a1-a197-2c731bbbcd3c",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "49c498b9-e13c-44a1-a197-2c731bbbcd3c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2024-08-05T14:06:00.000Z",
+        "last_edited_time": "2024-08-05T14:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5405c710-4a08-4b24-8d9c-6f907b03119d",
+      "type": "paragraph",
+      "text": "Social media is simultaneously indispensible for learning and one of the main causes of digital distraction and poor peer learning engagement. In this work, authors use a PBL approach with LA. LA model is meant to identify 3 things:",
+      "raw": {
+        "object": "block",
+        "id": "5405c710-4a08-4b24-8d9c-6f907b03119d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2024-08-05T14:06:00.000Z",
+        "last_edited_time": "2024-08-05T14:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Social media is simultaneously indispensible for learning and one of the main causes of digital distraction and poor peer learning engagement. In this work, authors use a PBL approach with LA. LA model is meant to identify 3 things:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Social media is simultaneously indispensible for learning and one of the main causes of digital distraction and poor peer learning engagement. In this work, authors use a PBL approach with LA. LA model is meant to identify 3 things:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "abe5d8e2-71c8-4c23-9852-14d8d26317a9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "abe5d8e2-71c8-4c23-9852-14d8d26317a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2024-08-05T14:11:00.000Z",
+        "last_edited_time": "2024-08-05T14:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5d75d2a5-4a5b-4494-8d00-e6a8f53b7831",
+      "type": "paragraph",
+      "text": "Authors use data from learner discourse in FB groups and qureestionnaires, learner characteristics, and multiple latent variables related with distraction and engagement. Authors found that performance and perceived peer engagement were correlated. However, they also found that the use of ML to predict peer engagement generates features that are more predictive of performance than the self-reports.",
+      "raw": {
+        "object": "block",
+        "id": "5d75d2a5-4a5b-4494-8d00-e6a8f53b7831",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2024-08-05T14:11:00.000Z",
+        "last_edited_time": "2024-08-05T14:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use data from learner discourse in FB groups and qureestionnaires, learner characteristics, and multiple latent variables related with distraction and engagement. Authors found that performance and perceived peer engagement were correlated. However, they also found that the use of ML to predict peer engagement generates features that are more predictive of performance than the self-reports.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use data from learner discourse in FB groups and qureestionnaires, learner characteristics, and multiple latent variables related with distraction and engagement. Authors found that performance and perceived peer engagement were correlated. However, they also found that the use of ML to predict peer engagement generates features that are more predictive of performance than the self-reports.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-80c5-ad73-f6b33cbe572c",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-80c5-ad73-f6b33cbe572c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2025-04-25T17:47:00.000Z",
+        "last_edited_time": "2025-04-25T17:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-80f3-82c1-c486a9e99e33",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-80f3-82c1-c486a9e99e33",
+        "parent": {
+          "type": "page_id",
+          "page_id": "78e33dc4-9682-43f6-839d-2776566e0f15"
+        },
+        "created_time": "2025-04-25T17:47:00.000Z",
+        "last_edited_time": "2025-04-25T17:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

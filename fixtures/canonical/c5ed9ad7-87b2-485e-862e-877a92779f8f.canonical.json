@@ -1,0 +1,279 @@
+{
+  "references": [
+    {
+      "id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "title": "Multiple Features Fusion Attention Mechanism Enhanced Deep Knowledge Tracing for Student Performance Prediction",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b36b58ae",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "MOOCs",
+          "Student Performance Definition": "Correct on next exercise on first attempt",
+          "Target": "Correct (1)/Incorrect (0) ",
+          "Students": "4216 ",
+          "Courses": "ASSISTments",
+          "Data sources": "ASSISTments dataset",
+          "Features": "24 exercise and behavior features",
+          "Flaw of Previous Models": "Previous models primarily relied on limited exercise features, ignored most student behavior features, and used manual feature selection with uniform feature weighting. Existing models also struggled with processing long learning sequences and capturing the varying importance of different features.",
+          "Novelty of Model": "The MFA-DKT framework addresses these limitations by automatically processing both behavior and exercise features using Principal Component Analysis. It employs an LSTM network with an attention mechanism to dynamically weight feature importance. ",
+          "Preprocessing Details": "PCA for feature dimensionality reduction, Removal of NaNs, duplicates, and text features",
+          "Models": "MFA-DKT, BKT, DKT, DKT+, DKVMN",
+          "Assessment Strategy": "Repeated-Holdout ",
+          "Performance Metric: Best Model": "{AUC: 0.98 - MFA-DKT, Accuracy: 0.97 - MFA-DKT, RMSE - 0.26 - MFA-DKT, MAE-0.20 - MFA-DKT} ",
+          "Comments": "MFA-DKT outperforms all baselines, better accuracy with larger training set.\n\nSecond experiment compares model against different combinations of features and outperforms all others.",
+          "Limitations": "Ignores relationship between knowledge concepts, uses PCA for feature embeddings"
+        }
+      ],
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+        "block_index": 61
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_bbdc4eb2",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The authors of thjs work distingusih between 2 types of features. Those that relate to exercises: i.e. is a specific task being correctly executed? and those who relate with behavior. The paper proposes a framework for the prediction of student performance using:",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_5e4aef8d",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "To do that, they use a Deep Learning architecture to automatically extract features that is followed by an attention-based model.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_99f73ae7",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "According to authors, the model seems to outperform the current state of the art.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_ac5774c0",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Greater ability to produce content has contributed towards an increase of supply in educational contents. Tracking performance in these contexts is especially important, as it opens the door of personalized support to students in need. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_acc02fca",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "There is a distinction between exercise features - related with knowledge concepts and how they lead to a student’s response - and behaviour features - how a student behaves and/or what is his/her background. Combining multiple types of features is, generally speaking, a better approach than working with “isolated features”. However, combining data from multiple sources is relatively hard. Over the years, the prediction of performance has seen advancements using Knowledge Tracing, Deep Learning. Deep Knowledge Tracing, more specifically, combines both DL and KT as it intends to use the Sequential Nature of RNNs into a knowledge training task (KT - does a student know a concept or not). ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_da38cef5",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "So, essencially, the research gap is that the models that predict student performance either focus on Knowledge Tracing - exercise features - OR behavior related features, with little work being done to combine BOTH types of Features. So, the authors suggest a model that fully utilizes both exercise and behaviour features - MFA-DKT.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_9e0cf591",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The model starts by incorporating raw data into a KT model to identify a representation of the features. Then, this embedding is combined with the sequences of knowledge states to predict student performance (more details below, possibly). Benchmark results show promising signs.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_3f2c3fe9",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Authors describe 3 different kinds of student performance prediction:",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_9890ed1c",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Definition of RNN can be skipped (for obvious reasons). WE can now move to sub-section C - Attention Models",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_dc27038f",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Attention models draw from intuition: when presented with a lot of information, we tend not to focus on thon a certain segment. Think of it like a vector of weights that assign different importances to the elements of a sequence. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_4344d2b2",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Implementation of the Attention Mechanism",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_34622288",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The attention layer refers to the weighted sum of the different hidden student states present in the sequence.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_f855998f",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The Multiple Feature Fusion Attention Deep Knowledge Tracing Mechanism (MFADKT)that is made out of 4 distinct modules:",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_a115bf70",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The authors start by using PCA to reduce the dimensionality of the behavior features. This allows them to reduce the dimensionality of the dataset “without” going through those pesky parts of the work such as feature selection.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_e1797dd5",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The embedding of the features is passed as an argument to LSTM for training. The idea is to have the LSTM predict the performance of student i on exercise j at t+1. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_72a870c7",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "The prediction will be a binary label: 1 for correct answer and 0 for incorrect answer. Thus, the loss function to minimize is binary cross entropy.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_44a43da3",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Thus far, we have had a description of the overall architecture of the Multiple Feature Fusion Attention Deep Knowledge Tracing Framework. At this stage, we will move on with the description of the different experiments conducted to validate this approach:",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_0117a07c",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Comparison with other popular frameworks used in the task of predicting whether the next question will be correct or not! ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_03c74f1a",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "BKT: Uses Hidden Markov Models to predict the probability of the student’s “mastery level”.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_cb56c59f",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "DKT: Uses RNNs",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_59e869d9",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "DKT+: It takes DKT but adds a regularization term to smoothen some of the issues reportedly found in the traditional DKT approach.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_2adc4841",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "DKVMN: Also DKT with a Twist. The twist here refers to the use of a static key matrix and a dynamic value matrix (essencially, the key matrix acts as an identifier “ish” while the value matrix is updated regularly.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_63768ca8",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Repeated Holdout method of sequences. When comparing the results of the MFA DKT vs the Baseline approaches such as BKT, the authors found that the traditional methods were not as effective for the proposed task. In fact, MFA DKT outperformed all other approaches across all metrics whereas BKT was consistently the worse model. Also, the performance always seems to increase the larger the training set is: as it consistently shows that 90% training size for the Repeated Holdout achieves the best scores.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_cc5db1bb",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Ideal number of hidden units seems to be 16.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_d27363ff",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "At a second level of experiment, the authors look to analyze what is the impact of including the behaviour related features into the models used. For comparison purposes, the authors look into benchmarking MFA DKT agains DKT (which uses no features) and IRF DKT (which uses a few student features).  Again, MFA DKT which uses attention mechanisms to extract “information” about all student features seems to outperform all other models used. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_3f9565fb",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Thus, integrating multiple features into a knowledge tracing model does indeed seem to contribute to better model accuracy. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_f864aef0",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Authors argue that a greater ability to identify knowledge states in students opens the door for better learning pathways that are directed towards the students “actual needs”. This could allow, for example, instructors to spend more time covering parts where students struggle more than the parts where the students seem to struggle less. As a limitation, the authors discuss that the work “ignores” the relationship between knowledge concepts when predicting student performance: meaning that prior knowledge on topic does not seem to still be fully realized on this model.",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    },
+    {
+      "id": "an_ccdc3d34",
+      "reference_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f",
+      "text": "Final Overview: The paper introduces a novel way of performing knowledge tracing. The novelty aspect resides into the full incorporation of not only exercise related features, but behaviour related features as well. They for some reason use PCA to create embeddings of the features. This model seems to outperform other approaches to knowledge tracing on the ASSISTments dataset. ",
+      "provenance": {
+        "page_id": "c5ed9ad7-87b2-485e-862e-877a92779f8f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

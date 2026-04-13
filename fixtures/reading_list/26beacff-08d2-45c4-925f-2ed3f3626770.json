@@ -1,0 +1,721 @@
+{
+  "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
+  "title": "Predicting individual learning performance using machine‐learning hybridized with the teaching‐learning‐based optimization",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "8e784f04-4096-4276-92af-bdbd09c6207f",
+          "name": "Early Prediction",
+          "color": "red"
+        },
+        {
+          "id": "644db1ce-acca-4496-8839-83f89b43bf18",
+          "name": "Artificial Neural Network",
+          "color": "yellow"
+        },
+        {
+          "id": "deb8fa97-4936-443a-b752-5514b1b0169a",
+          "name": "Final Exam Scores",
+          "color": "gray"
+        },
+        {
+          "id": "662a5c71-c75a-4bb4-9006-f1729e7e02e6",
+          "name": "Machine Learning Methods",
+          "color": "pink"
+        },
+        {
+          "id": "5ce5a100-e1bd-41c8-87a3-730d2b5b03b2",
+          "name": "Student Engagement",
+          "color": "brown"
+        },
+        {
+          "id": "3a11d75a-21b5-4ec6-9744-24bdf2b91d60",
+          "name": "Support Vector Machines",
+          "color": "green"
+        },
+        {
+          "id": "2ef00b6e-4077-473b-bb8b-9259b3cf1667",
+          "name": "Teaching-Learning-Based Optimizer",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “MAchine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “MAchine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computer Applications in Engineering Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computer Applications in Engineering Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-11-08T23:23:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Arashpour et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Arashpour et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting individual learning performance using machine‐learning hybridized with the teaching‐learning‐based optimization",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting individual learning performance using machine‐learning hybridized with the teaching‐learning‐based optimization",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2a54750c-f3ba-800d-bb7e-e7e338e1ac13",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Exam Result",
+          "Pass (1) vs Fail (0)",
+          "3452 students from OULAD",
+          "1 course",
+          "Student Characteristics, Assessment Scores, LMS logs",
+          "[Gender, Age, Disability, Qualification, Previous Attempts, Credit Points, Engagemente Level, Assessment 1, Assessment 2, Assessment 3, Assessment 4, Assessment 5, Assessment 6]",
+          "End of Course",
+          "TLBO is metaheuristic optimization algorithm that is population based.\n\nIt has a teacher stage and a learner stage. ",
+          "SVM, MLP",
+          "20-Repeated Hooldout",
+          "{Precision: 0.9465 - SVM, Recall: 0.8674 - MLP, Accuracy: 0.8610, FM: 0.90 - SVM, F1-Score: 0.9032 - SVM, MCC - 0.67 - SVM}",
+          "Authors use the TLBO algorithm to perform optimization.  \n\nAuthors create their models and, later, perform a sensitivity analysis.",
+          "- LMS logs are considered useful online but not in other contexts\n\n- Small number of tested predictive algorithms\n\n- No benchmarking against other forms of preprocessing"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "E-Learning",
+          "Final Exam Result",
+          "Exam Score",
+          "3452 students from OULAD",
+          "1 course",
+          "Student Characteristics, Assessment Scores, LMS logs",
+          "[Gender, Age, Disability, Qualification, Previous Attempts, Credit Points, Engagemente Level, Assessment 1, Assessment 2, Assessment 3, Assessment 4, Assessment 5, Assessment 6]",
+          "End of Course",
+          "TLBO is metaheuristic optimization algorithm that is population based.\n\nIt has a teacher stage and a learner stage. ",
+          "SVM, MLP",
+          "20-Repeated Hooldout",
+          "{RMSE: 0.1580 - SVM, SI: 0.25 - MLP, MBE: -0.26 - SVM, MAE: 12.81 - SVM, R: 0.54 - SVVM}",
+          "Authors use the TLBO algorithm to perform optimization. \n\nAuthors create their models and, later, perform a sensitivity analysis.",
+          "- LMS logs are considered useful online but not in other contexts\n\n- Small number of tested predictive algorithms\n\n- No benchmarking against other forms of preprocessing"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "73343b29-5bbc-4a2c-bdc9-1061a9c1306a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "73343b29-5bbc-4a2c-bdc9-1061a9c1306a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2024-08-06T18:32:00.000Z",
+        "last_edited_time": "2024-08-06T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f691ad8e-c03c-47f8-9b28-faeb159a2a12",
+      "type": "paragraph",
+      "text": "Authors perform prediction of exam performance by hybridizing an SVM and an ANN with a teaching-learning-based optimizer. ",
+      "raw": {
+        "object": "block",
+        "id": "f691ad8e-c03c-47f8-9b28-faeb159a2a12",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2024-08-06T18:32:00.000Z",
+        "last_edited_time": "2024-08-06T18:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors perform prediction of exam performance by hybridizing an SVM and an ANN with a teaching-learning-based optimizer. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors perform prediction of exam performance by hybridizing an SVM and an ANN with a teaching-learning-based optimizer. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0973ea8c-16c3-4c97-a83e-f30abfd17966",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "0973ea8c-16c3-4c97-a83e-f30abfd17966",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2024-08-06T18:34:00.000Z",
+        "last_edited_time": "2024-08-06T18:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "19723f2b-afda-4cf0-8303-86cb98fce518",
+      "type": "paragraph",
+      "text": "TLBO is an algorithm that, in this experiment, performs feature selection and selects the optimal ANN arquitecture. The contributions of the paper are the hydridization of ML models for the task of predicting at risk students and the introduction of TBLO. There is no mention about moment of prediction or whether the models are any good. ",
+      "raw": {
+        "object": "block",
+        "id": "19723f2b-afda-4cf0-8303-86cb98fce518",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2024-08-06T18:34:00.000Z",
+        "last_edited_time": "2025-11-08T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "TLBO is an algorithm that, in this experiment, performs feature selection and selects the optimal ANN arquitecture. The contributions of the paper are the hydridization of ML models for the task of predicting at risk students and the introduction of TBLO. There is no mention about moment of prediction or whether the models are any good. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "TLBO is an algorithm that, in this experiment, performs feature selection and selects the optimal ANN arquitecture. The contributions of the paper are the hydridization of ML models for the task of predicting at risk students and the introduction of TBLO. There is no mention about moment of prediction or whether the models are any good. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a54750c-f3ba-805c-ad9f-d223da70c433",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2a54750c-f3ba-805c-ad9f-d223da70c433",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2025-11-08T21:29:00.000Z",
+        "last_edited_time": "2025-11-08T21:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a54750c-f3ba-808b-bb5b-ccc507e36428",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2a54750c-f3ba-808b-bb5b-ccc507e36428",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2025-11-08T21:29:00.000Z",
+        "last_edited_time": "2025-11-08T21:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/f65928ed-58d7-438d-9405-210580c40837/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46665ZLDGSA%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153001Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHfg3RS39erQMpvW%2F7MWXU%2F33p%2BYBZ0QKYkZzdm32mxRAiAa22HuTMmF1I8VR7mG78GS7MxersXQN5nSROREmH9x%2Fir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMruXCdGO6wcpP%2By8KKtwDN4XLfNQvd4yHwQ3uXzGrrDMzyEtx96J7XOF2%2FEg9oGG3jtPVFa%2BFVJ2Zy%2BW63mOjG60i%2B941Lp9wZNIg3srOT63UWg%2FTX%2FX1TDk53gentLja1Rp7BkoAI9YDmMVbtmFbhUHPqKItHT0ng3KYtde0A%2BMFkk1riQynLpj2XxrYjeQLOdOhwr4vani4GkTY7rUpyYvvM4wVR4gk%2FJx5akhsZsAVYuBlBuvILmpq0oQbFQOw7G9lW7mhFGyeL58nzFncpY5%2Fz%2Fst9dhIWW0oaTJmd9VD%2BAjuE6JqZfl4AnhZd3j8S9yrt0zf5beP2DgcQP4BKHowhuot%2Fj4pkvvpMOw2hZzQCtxVQgsgBN8UYfMLJoVQSjaQAQ8ey0TunTr4RJH98hD%2F9jMFMFTKJhvrFKOucoX0Ew159y9GJHmyehTSysM2La3D4TKiVb80%2FG3oG2o0vfo0oHNzRyOhKNqJtJp0aA5rDmIVqKhIAPWXe10b4spB1tBY9inNCiUlw9QfGlPk%2BJelwAEGUElCW72y3Xgt0U2CgsrqOwggY9gTqWLGt527DyBye6QYdiEr0YBtPS0v6kaRhIz%2FBsg2k2cxT%2B%2Fg7HnOtsDPWungs6AW35lbl3dvVQvBwJANxXJigkIwtvHzzgY6pgHS91PcxzExXKX42juYb%2FD9DcFmUEH4SdsDBZE8A1xvN0emf2N8jWbyxkSUXyOvGyaXlU68Lvy6dQyazO2M5MJ8UEqPV2%2FlxlrwZzoeAmVfcAdWA3tES0%2Bc4ZXaRen1hELggFVcjUvP10OKLc3vWSinSg0rA6FUBWot50fh3FDPHVAVx%2Bx0douPTxTEQelfKlTAouJ5nTL1LJOSHx75Z74f7443t943&X-Amz-Signature=64f646fb42a39c9741704356bee3740189b94791d62102fa0335588d150a69b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:30:01.133Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a54750c-f3ba-803e-a0a6-f463c5f9b2b7",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2a54750c-f3ba-803e-a0a6-f463c5f9b2b7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2025-11-08T21:27:00.000Z",
+        "last_edited_time": "2025-11-08T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a54750c-f3ba-800d-bb7e-e7e338e1ac13",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2a54750c-f3ba-800d-bb7e-e7e338e1ac13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+        },
+        "created_time": "2025-11-08T21:27:00.000Z",
+        "last_edited_time": "2025-11-08T21:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

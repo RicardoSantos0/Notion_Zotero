@@ -1,0 +1,594 @@
+{
+  "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf",
+  "title": "Identifying At-Risk Students for Early Intervention—A Probabilistic Machine Learning Approach",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "3f1deb09-c04d-4bde-ad19-0b26197b5b52",
+          "name": "Probabilistic Machine Learning",
+          "color": "blue"
+        },
+        {
+          "id": "74b4f2c1-915a-4da5-839c-e48b8cd856d9",
+          "name": "Predictive Analytics",
+          "color": "blue"
+        },
+        {
+          "id": "6be1eefa-2488-4d5d-af0d-34f04574e83f",
+          "name": "Early Intervention",
+          "color": "purple"
+        },
+        {
+          "id": "4e272c1c-ed05-4342-b2e2-81677d969fde",
+          "name": "At-Risk Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“At-risk Students” AND “Early Warning System”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“At-risk Students” AND “Early Warning System”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Applied Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Applied Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-05T17:00:00.000+00:00",
+        "end": "2025-04-16T00:14:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Nimy et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Nimy et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-27",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Identifying At-Risk Students for Early Intervention—A Probabilistic Machine Learning Approach",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Identifying At-Risk Students for Early Intervention—A Probabilistic Machine Learning Approach",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d64750c-f3ba-804d-8d89-effb18d0f61f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Probability of Failing an Upcoming Assessment",
+          "Failing (1) vs Succeeding (0)",
+          "90 first-year students",
+          "A compulsory Second-semester course at a South African University",
+          "LMS logs, Demograhic Data, Academic Performance",
+          "[Title, Qual Code, Class Group, ASA1, TM 1, TM 2, CA 1, # of Courses, Time on Site, Time on Courses, Time on Activities]",
+          "5 Stages of Early Prediction",
+          "Data is label encoded and features are sub-sequently standardized. Feature selection is performed via Pearson Correlation index and Extra trees Feature Importances.\n\nClass Imbalance is addressed with SMOTE.",
+          "Logistic Regression,\nProbabilistic Logistic Regression",
+          "None Specified",
+          "{Accuracy: 0.9281 - PLR Stage 3, F1-Score: 0.9283 - PLR Stage 3, Precision:  0.9255 - PLR Stage 3, Recall:  0.9313 - PLR Stage 3}",
+          "Authors create a 5-stage logistic regression to predict succes at next assignment in 5 different stages of course completion: Week 2, Week 4, Week 6, Week 7, Week 10.\n\nOverall, the models created seem to be especially effective at Stage 3: week 6. \n\nDifferent features are important at different stages.",
+          "No model assessment strategy → Data leakage issues.\n\nNo algorithms tested beyond Logistic Regression.\n\nSome questionable preprocessing decisions: Pearson correlation and Label Encoding for non-ordinal variables."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ad4750c-f3ba-80e0-95c9-cdcee2c3f140",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-80e0-95c9-cdcee2c3f140",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+        },
+        "created_time": "2025-03-05T16:55:00.000Z",
+        "last_edited_time": "2025-03-05T16:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-808a-9095-cdfdae0c15e6",
+      "type": "paragraph",
+      "text": "Most of the literature on early warning systems for students at risk does not use probabilistic approaches. To fill this gap, the authors use a five-stage Logistic Regression model trained on Moodle logs, demographic information and student assessment data to predict the probability of a student failing an upcoming assessment.",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-808a-9095-cdfdae0c15e6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+        },
+        "created_time": "2025-03-05T16:55:00.000Z",
+        "last_edited_time": "2025-03-05T16:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most of the literature on early warning systems for students at risk does not use probabilistic approaches. To fill this gap, the authors use a five-stage Logistic Regression model trained on Moodle logs, demographic information and student assessment data to predict the probability of a student failing an upcoming assessment.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most of the literature on early warning systems for students at risk does not use probabilistic approaches. To fill this gap, the authors use a five-stage Logistic Regression model trained on Moodle logs, demographic information and student assessment data to predict the probability of a student failing an upcoming assessment.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ad4750c-f3ba-8052-b878-ea103b5185b6",
+      "type": "paragraph",
+      "text": "Prior performance was established to be the primary predictor, with the remaining feature sets loosing significance after incorporating data from this source. Moreover, the authors established that good predictions could be achieved as early as week 6, but with uncertainty decreasing at later stages of prediction. \n",
+      "raw": {
+        "object": "block",
+        "id": "1ad4750c-f3ba-8052-b878-ea103b5185b6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+        },
+        "created_time": "2025-03-05T16:58:00.000Z",
+        "last_edited_time": "2025-04-15T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Prior performance was established to be the primary predictor, with the remaining feature sets loosing significance after incorporating data from this source. Moreover, the authors established that good predictions could be achieved as early as week 6, but with uncertainty decreasing at later stages of prediction. \n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Prior performance was established to be the primary predictor, with the remaining feature sets loosing significance after incorporating data from this source. Moreover, the authors established that good predictions could be achieved as early as week 6, but with uncertainty decreasing at later stages of prediction. \n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-80c7-afd5-c59a8b46a8a5",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-80c7-afd5-c59a8b46a8a5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+        },
+        "created_time": "2025-04-15T22:11:00.000Z",
+        "last_edited_time": "2025-04-15T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-804d-8d89-effb18d0f61f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-804d-8d89-effb18d0f61f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+        },
+        "created_time": "2025-04-15T22:11:00.000Z",
+        "last_edited_time": "2025-04-15T22:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

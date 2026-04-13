@@ -1,0 +1,571 @@
+{
+  "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1",
+  "title": "Measuring Students’ Self-Regulatory Phases in LMS with Behavior and Real-Time Self Report",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "e87b671f-ed0d-4a3c-820a-4b693d9e9030",
+          "name": "Pattern Recognition",
+          "color": "blue"
+        },
+        {
+          "id": "eecee1f0-ebab-488a-a826-e18a1e117037",
+          "name": "Knowledge-Engineered Trace Measures",
+          "color": "default"
+        },
+        {
+          "id": "496776e7-d701-472a-a369-12899e4fa212",
+          "name": "Self-Reported Measures",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Self-Regulated Learning” AND “Analytics”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Self-Regulated Learning” AND “Analytics”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T15:20:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Salehian Kia et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Salehian Kia et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Measuring Students’ Self-Regulatory Phases in LMS with Behavior and Real-Time Self Report",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Measuring Students’ Self-Regulatory Phases in LMS with Behavior and Real-Time Self Report",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1cb4750c-f3ba-801c-8758-fb466b2a26a2",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "B-Learning",
+          "92 undergraduate students to build SRL indicators\n\n38 students for “testing” purposes",
+          "1 course in a Computer Science Program",
+          "LMS logs, \nQuestionnaires",
+          "Winne’s SRL Model",
+          "[Self-Reported SRL Tags]",
+          "Logs were categorized into different SRL constructs which the authors called Observed SRL Tags. \n\nMSLQ answers are clustered using Hierarchical Clustering.\n\nLMS logs were filtered in order to only account for the ones relating with the assignment and the logs were aggregated into sessions. \n\n\n\n",
+          "Hierarchical Clustering",
+          "{Weighted Cohen’s Kappa: 0.74 - Agreement between self-report and SRL tags}",
+          "3",
+          "Cluster 1: High SRL learners, \n\nCluster 2: Moderate SRL learners\n\nCluster 3: Low SRL learners",
+          "Being able to observed students’ SRL behaviors in the context of an LMS could be pivotal towards developing better assignments and learning activity structures.\n\n",
+          "Authors evaluate self-report measures and how they map with Log behavior in the context of one/more than one assignment.\n\nAfter tagging behavior to different SRL dimensions, the authors check the agreement between what was observed behavior AND Self-Reported Behavior.\n\nResults show that it is possible to achieve a level of partial agreement based on sequences.",
+          "Self-selection bias-participantes were rewarded with participation.\n\nLMS are a partial and incomplete picture of learner behavior."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-80e9-b50d-db84bfef657c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80e9-b50d-db84bfef657c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1"
+        },
+        "created_time": "2025-02-06T15:20:00.000Z",
+        "last_edited_time": "2025-02-06T15:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8005-9552-c89e5363287c",
+      "type": "paragraph",
+      "text": "Authors use instructional design to create SRL measures that are capturable from a LMS. Authors valdiate their approach on 2 distinct learning activities and compare how well their SRL measures actually map to SRL constructs obtainable from Self-Reports. Results show relatively high agreement between the authors methods’, but sometimes it does seem to generate a bias in the results. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8005-9552-c89e5363287c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1"
+        },
+        "created_time": "2025-02-06T15:20:00.000Z",
+        "last_edited_time": "2025-02-06T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use instructional design to create SRL measures that are capturable from a LMS. Authors valdiate their approach on 2 distinct learning activities and compare how well their SRL measures actually map to SRL constructs obtainable from Self-Reports. Results show relatively high agreement between the authors methods’, but sometimes it does seem to generate a bias in the results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use instructional design to create SRL measures that are capturable from a LMS. Authors valdiate their approach on 2 distinct learning activities and compare how well their SRL measures actually map to SRL constructs obtainable from Self-Reports. Results show relatively high agreement between the authors methods’, but sometimes it does seem to generate a bias in the results. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cb4750c-f3ba-80e2-9a67-ffffbe0f5ef4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cb4750c-f3ba-80e2-9a67-ffffbe0f5ef4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1"
+        },
+        "created_time": "2025-04-04T13:36:00.000Z",
+        "last_edited_time": "2025-04-04T13:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cb4750c-f3ba-8074-89ac-f511c274d5a8",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1cb4750c-f3ba-8074-89ac-f511c274d5a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1"
+        },
+        "created_time": "2025-04-04T13:36:00.000Z",
+        "last_edited_time": "2025-04-04T13:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1cb4750c-f3ba-801c-8758-fb466b2a26a2",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1cb4750c-f3ba-801c-8758-fb466b2a26a2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-80b8-9dba-f168c4835fa1"
+        },
+        "created_time": "2025-04-04T13:36:00.000Z",
+        "last_edited_time": "2025-04-04T13:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

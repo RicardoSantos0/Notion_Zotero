@@ -1,0 +1,602 @@
+{
+  "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19",
+  "title": "LLM-based Literature Recommender System in Higher Education - A Case Study of Supervising Students' Term Papers",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d563b8c-9dcf-41df-8ff6-a135a21b3455",
+          "name": "Literature Recommender System",
+          "color": "purple"
+        },
+        {
+          "id": "914c9051-1646-4ea8-b8e5-3f1a0bccf508",
+          "name": "Large Language Models",
+          "color": "default"
+        },
+        {
+          "id": "87d17d2e-89c3-4e16-9a76-df4cba371253",
+          "name": "Higher Education",
+          "color": "gray"
+        },
+        {
+          "id": "c09f25ab-a882-495d-929b-62b3cdfbe7e5",
+          "name": "Term Paper",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Educational Recommender Systems\" AND \"Higher Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Educational Recommender Systems\" AND \"Higher Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02T17:00:00.000+01:00",
+        "end": "2026-04-02T17:45:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "9da6614e-d4f0-4fef-8964-5565460866d2",
+          "name": "Large Language Models",
+          "color": "blue"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LLM-based Literature Recommender System in Higher Education - A Case Study of Supervising Students' Term Papers",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LLM-based Literature Recommender System in Higher Education - A Case Study of Supervising Students' Term Papers",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3364750c-f3ba-8053-a43d-fabefae92924",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "Blended Learning",
+          "Knowledge-based LLM-supported literature recommender; framework also discusses expert-based, multi-criteria, profile-based, and hybrid options, but only knowledge-based is implemented",
+          "Literature references and feedback for term paper topic / research question development",
+          "~70 students in prior supervision analysis; 56 term paper examples in pilot evaluation",
+          "Bachelor of Arts program in Culture and Social Sciences; term-paper supervision context rather than course recommendation",
+          "Term Paper Proposal",
+          "Topic extraction and categorization from student proposal using LLMs; sentiment analysis used to help trigger recommendation mode; literature selected from static corpus with star-based sorting over concept/reference links",
+          "Recommendations generated from each submitted proposal; iterative supervision use case, but no clear automated online updating / retraining reported",
+          "Moderation check; LLM extracts top-k topics with explanations and assigned categories; topic filtering via in-context learning; retrieval from concept-linked external resource corpus; final natural-language feedback generated by LLM",
+          "Literature recommendations + personalized natural-language feedback / explanations",
+          "Expert evaluation with 2 raters on 56 examples using relevance, citation accuracy, citation consistency, usefulness; Cohen’s kappa: relevance 0.5105, accuracy 0.4746, consistency 0.3805, usefulness 0.4683",
+          "Interesting because it shifts recommendation from course/resource consumption to academic idea development. Emphasis is on inspiring students, supporting topic refinement, and reducing teacher workload rather than automating writing. Current implementation is only the knowledge-based engine, despite the broader conceptual framework.",
+          "Open-ended recommendation setting; no uniform item corpus; small dataset; only pilot expert evaluation; current “star” matching is semantically limited; repeated recommendations / possible popularity bias; creativity evaluation remains unresolved"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-8087-b30e-c894c639d80a",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8087-b30e-c894c639d80a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T14:45:00.000Z",
+        "last_edited_time": "2026-04-02T14:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8047-979f-d94a2266cede",
+      "type": "paragraph",
+      "text": "Authors introduce an LLM-based Recommender for Literature - LRS4TP. The goal of the paper is to formulate research topics and questions to help them in their Papers. It DOES NOT WRITE automatically… instead it acts as supervisor. A test on a Bachelor of Arts program suggests promising results - high quality feedback while freeing time from the professors and teaching staff.",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8047-979f-d94a2266cede",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T14:45:00.000Z",
+        "last_edited_time": "2026-04-02T14:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors introduce an LLM-based Recommender for Literature - LRS4TP. The goal of the paper is to formulate research topics and questions to help them in their Papers. It DOES NOT WRITE automatically… instead it acts as supervisor. A test on a Bachelor of Arts program suggests promising results - high quality feedback while freeing time from the professors and teaching staff.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors introduce an LLM-based Recommender for Literature - LRS4TP. The goal of the paper is to formulate research topics and questions to help them in their Papers. It DOES NOT WRITE automatically… instead it acts as supervisor. A test on a Bachelor of Arts program suggests promising results - high quality feedback while freeing time from the professors and teaching staff.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8027-91a3-d2cb661100d7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8027-91a3-d2cb661100d7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T16:27:00.000Z",
+        "last_edited_time": "2026-04-02T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8073-a67e-cd6e04684265",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8073-a67e-cd6e04684265",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T16:27:00.000Z",
+        "last_edited_time": "2026-04-02T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/637dfdbc-8658-446a-bed9-ab4a2aa22964/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U564OEEF%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151750Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQDjgM56Q4isNwtxilaY%2BjJecI5rYGTqtW5RH8pv1N8ALAIgAO1RvalO%2FqjmA17RLCVY1V1Ot0RaK%2FjwbZxi7hs3zPgq%2FwMIeBAAGgw2Mzc0MjMxODM4MDUiDGeTwSt6lkqgIv6euSrcA8s4qFjtSSqrPIxsM21%2FkDs4xxTEwNgXGK1%2Bao0MDxMw%2FUX99dax77Eb8PpawoQOXFMKXJOdc3rpwcIFcg4Md41PZTXOAwN%2Bobn9zqgZltCHnd4KSxZ7Vf%2BwmMNrhJQhNqSngp56ewykMA0fHquNFLYg8pGIDUIW9SIKHPucj%2B2xXlB5BF6EeLUlcd5ZxsNbI3Z4otLplbQBOLxC%2BNIEQNcR%2BK9xVg6I5Uut9DU83o%2B48mvrmlgqkNi8r2Zu%2B1DJPkngoPhSweFlvDhUu3MD7x7%2FUVwjS4HY6Bumg94jWogoN2mCAf%2Bo94UmcrhYLlIf0qc5sE5eP%2ByYKV6wrcDvhRED5%2FL%2F6Jb4xnJR%2B8%2BwZgSztA21Hr4%2B3OV1hdwKUdnTpaG1l2KD%2Fod2Fdp9qazau6ybKmKT484lhEuLltXuW2VSr9zo%2FKKw0gRmyySmsFQzyDB2Snaw5wq7cOP%2FqVJ9uW3toHpED7tO5r8B5PadSpmxcWRDGSGufI3goXppOnM8AB8ohypWaSYB%2FRLr6uFM%2Bted9BeqQk2sz%2FmYjnPUx7lF%2FPIXtiAEj3i0ETYyaqoh4V5JPm9iGOGwmkb1W7kOOxfEk0z9wt2YBUjmZTibr50RTeAXTCVXB%2FgSiM4zMKn%2B884GOqUBpIH4HBBJoDp%2FjK20IPR7EEz0PYCZD%2BlJIcpbIm6YAFRqCnQayctW4CSSwtlEMuFxb5Nij4TxHqVtk55Fq4AZMxt19u6dCUucfAwIdX%2BmDIPaLVmLI0GIVvRNGlyPYRT7KzkdJmhT1Gup%2BNZxNLDDUyHgCf6CiHKqpE3vT%2BY8xV3ar%2BLCXqCxHHnJI%2BLZk13FgwLW2aRdIAvya9PEVYb9LOQ6tOEm&X-Amz-Signature=147742adea18ef802c2bff51394a0cc5950c1c68d74adef99c4a6ad4d6b5cac2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:17:50.873Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80a7-a27b-d407478b7783",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80a7-a27b-d407478b7783",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T16:09:00.000Z",
+        "last_edited_time": "2026-04-02T16:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8053-a43d-fabefae92924",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8053-a43d-fabefae92924",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80d9-bfe7-fec051b13d19"
+        },
+        "created_time": "2026-04-02T16:09:00.000Z",
+        "last_edited_time": "2026-04-02T16:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

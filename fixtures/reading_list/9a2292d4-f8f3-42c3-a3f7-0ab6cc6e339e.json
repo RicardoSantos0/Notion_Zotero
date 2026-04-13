@@ -1,0 +1,700 @@
+{
+  "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e",
+  "title": "Demonstrating the impact of study regularity on academic success using learning analytics",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "0594a586-5a5a-4c76-a1fc-6e62c78decf3",
+          "name": "Flipped Learning",
+          "color": "purple"
+        },
+        {
+          "id": "501fed9b-7612-480d-9162-dd00e8d32d45",
+          "name": "Study Regularity",
+          "color": "orange"
+        },
+        {
+          "id": "0e6f8204-ead1-44fe-a690-3e59a6f18286",
+          "name": "Learning Traces",
+          "color": "purple"
+        },
+        {
+          "id": "534651fb-6d89-4321-8432-cafb790b5f3d",
+          "name": "Learning Pathways",
+          "color": "blue"
+        },
+        {
+          "id": "2d03052b-113d-436d-8470-20167ce9155f",
+          "name": "Grade Predictions",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2026-02-19T15:27:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Bourguet",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Bourguet",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Demonstrating the impact of study regularity on academic success using learning analytics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Demonstrating the impact of study regularity on academic success using learning analytics",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "30b4750c-f3ba-8017-b17f-c954bd38ae73",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "240 undergraduate students",
+          "1 Multimedia Fundamentals Course",
+          "LMS logs",
+          "Zimmerman’s SRL Model",
+          "[Weekly Videos and Quizz scores, weekly Last Date of Access to Each Learning Activity]",
+          "Data was anonimized and stored in a vector containing the information for the different weeks. ",
+          "k-Means",
+          "-",
+          "3",
+          "Regular Learners: Often follow lecturer advice, activity closely follows recommended learning pathway.\n\nIrregular or Selective Learners: They pick and choose which activities to partake in. \n\nLate Learners: Only access VLE closer to exam",
+          "Students in 2022 were informed of successful and less successful learning pathways undertaken by their previous colleagues. And this translated into a noticeable behaviorable shift relative to previous years - which also translated into a noticeable improvement in the average performance of the students in this cohort. \n\n",
+          "Clustering on this work is done for learning trajectories.",
+          "No ablation study to determine importance of different features.\n\nData is accumulated weekly (not daily)\n\nDistance metric is not optimized"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "70297d95-96c7-48bf-9834-06b166b2c20b",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "70297d95-96c7-48bf-9834-06b166b2c20b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:52:00.000Z",
+        "last_edited_time": "2024-08-06T20:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "619ca1c6-e287-4529-aeca-41bef38c84be",
+      "type": "paragraph",
+      "text": "Flipped classrooms are better suited for learners with developed SRL skills. Authors work focuses on measuring effect of study regularity on academic success. The work defines a measure of study regularity that can uncover learner profiles in B-Learning. This measure heavily correlates with academic success.",
+      "raw": {
+        "object": "block",
+        "id": "619ca1c6-e287-4529-aeca-41bef38c84be",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:53:00.000Z",
+        "last_edited_time": "2025-01-24T00:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Flipped classrooms are better suited for learners with developed SRL skills. Authors work focuses on measuring effect of study regularity on academic success. The work defines a measure of study regularity that can uncover learner profiles in B-Learning. This measure heavily correlates with academic success.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Flipped classrooms are better suited for learners with developed SRL skills. Authors work focuses on measuring effect of study regularity on academic success. The work defines a measure of study regularity that can uncover learner profiles in B-Learning. This measure heavily correlates with academic success.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e7ba0fee-847a-4f6a-8993-061d58b955ae",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e7ba0fee-847a-4f6a-8993-061d58b955ae",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:55:00.000Z",
+        "last_edited_time": "2024-08-06T20:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "50c59399-7e8c-4fc3-9882-393a7480183c",
+      "type": "paragraph",
+      "text": "Work finishes with a discussion of how this measure of study regularity can be used to help students develop better study habits. ",
+      "raw": {
+        "object": "block",
+        "id": "50c59399-7e8c-4fc3-9882-393a7480183c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:55:00.000Z",
+        "last_edited_time": "2024-08-06T20:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Work finishes with a discussion of how this measure of study regularity can be used to help students develop better study habits. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Work finishes with a discussion of how this measure of study regularity can be used to help students develop better study habits. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b82ec63f-bfe1-4792-8f6d-365ac11bb702",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "b82ec63f-bfe1-4792-8f6d-365ac11bb702",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:54:00.000Z",
+        "last_edited_time": "2024-08-06T20:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30b4750c-f3ba-8021-87d5-ee09f754f7d6",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "30b4750c-f3ba-8021-87d5-ee09f754f7d6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2026-02-18T16:27:00.000Z",
+        "last_edited_time": "2026-02-18T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "30b4750c-f3ba-8017-b17f-c954bd38ae73",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "30b4750c-f3ba-8017-b17f-c954bd38ae73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2026-02-18T16:27:00.000Z",
+        "last_edited_time": "2026-02-18T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f34a597d-d90e-4a99-8f32-910c513c8b7b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f34a597d-d90e-4a99-8f32-910c513c8b7b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+        },
+        "created_time": "2024-08-06T20:53:00.000Z",
+        "last_edited_time": "2024-08-06T20:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

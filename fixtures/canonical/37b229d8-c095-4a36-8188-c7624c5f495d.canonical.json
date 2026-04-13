@@ -1,0 +1,114 @@
+{
+  "references": [
+    {
+      "id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+      "title": "Transformer Encoder Model for Sequential Prediction of Student Performance Based on Their Log Activities",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_03dffb5b",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Mark in a Course",
+          "Target": "F (0) vs PD (1)",
+          "Students": "32593 students",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "VLE logs, Learner Characteristics, Course Information",
+          "Features": "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Moment of Prediction": "Every 20% of Course Duration (54 days)",
+          "Preprocessing Details": "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "Models": "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "Early Prediction - 40%\n{Accuracy: 0.8275 - PD-Daily, F1-Score: 0.6743}\n\nEnd of Course\n{Accuracy: 0.9134 - PD-Daily, F1-Score: 0.8558}\n\nOverall\n{Accuracy: 0.8358 - PD-Daily, F1-Score: 0.6784}\n\n",
+          "Comments": "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.",
+          "Limitations": "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Mark in a Course",
+          "Target": "W (0) vs PD (1)",
+          "Students": "32593 students",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "VLE logs, Learner Characteristics, Course Information",
+          "Features": "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Moment of Prediction": "Every 20% of Course Duration (54 days)",
+          "Preprocessing Details": "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "Models": "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "Early Prediction - 40%\n{Accuracy: 0.9027 - PD-Daily, F1-Score: 0.8347}\n\nEnd of Course\n{Accuracy: 0.9814 - PD-Daily, F1-Score: 09708}\n\nOverall\n{Accuracy: 0.8959 - PD-Daily, F1-Score: 0.8082}\n\n",
+          "Comments": "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.\n\nMost of Dropouts can be identified as early as 40% of course duration.",
+          "Limitations": "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Mark in a Course",
+          "Target": "WF (0) vs PD (1)",
+          "Students": "32593 students",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "VLE logs, Learner Characteristics, Course Information",
+          "Features": "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Moment of Prediction": "Every 20% of Course Duration (54 days)",
+          "Preprocessing Details": "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "Models": "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "Early Prediction - 40%\n{Accuracy: 0.8283 - PD-Daily, F1-Score: 0.8091}\n\nEnd of Course\n{Accuracy: 0.9342 - PD-Daily, F1-Score: 09301}\n\nOverall\n{Accuracy: 0.8303 - PD-Daily, F1-Score: 0.8102}\n\n",
+          "Comments": "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.",
+          "Limitations": "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features"
+        }
+      ],
+      "provenance": {
+        "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_7657a4e5",
+      "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+      "text": "The authors propose a new deep learning model to predict student performance using the sequential aspect of interaction logs between a student and an LMS in the hopes of providing support as early as possible. ",
+      "provenance": {
+        "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+      }
+    },
+    {
+      "id": "an_bcfd1c88",
+      "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+      "text": "The authors use OULAD to perform multiple early classification tasks and their proposed model achieves, at the very least, 76% when performing early prediction. When comparing the performance of the Transformer-Encoder model, the authors found that their proposed method outperformed the baselkine LSTM models by 3% to 7% on F1-Score.",
+      "provenance": {
+        "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+      }
+    },
+    {
+      "id": "an_ad86074a",
+      "reference_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+      "text": "Authors also test the effect of different pre-processing options such as positional encoding. In OULAD, the best options had no positional encoding and, in some cases, worked better with weeky feature aggragation and weighted loss functions.",
+      "provenance": {
+        "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

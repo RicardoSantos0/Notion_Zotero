@@ -1,0 +1,566 @@
+{
+  "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9",
+  "title": "Utilizing early engagement and machine learning to predict student outcomes",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "b41b454f-988b-4513-8853-cd5b1f6d7ac5",
+          "name": "Student Retention",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-03-12T15:40:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Gray & Perkins",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Gray & Perkins",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Utilizing early engagement and machine learning to predict student outcomes",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Utilizing early engagement and machine learning to predict student outcomes",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3214750c-f3ba-806f-ac43-c83ed1d4a31b",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "At-risk of Failing in the Program",
+          "Pass, Fail, Conditional Fail, Repeat the Year, Repeat Semester",
+          "Train: 4970 undergraduate students\n\nTest: 4877",
+          "Train: All Undergraduate Programs at Bangor University in 2016/2017\n\nTest: All Undergraduate Programs at Bangor University in 2015/2016",
+          "Attendance Records, Academic Records",
+          "[Engagement Ratio, Bangor Engagement Metric, Exam Attendance, 3 Biological Variables, Program Information]",
+          "Every Week",
+          "Authors define a metric for attendance called Engagement Ratio and a second called Bangor Engagement Metric which are collected every week - using the attendance data from each of the 12 weeks of the semester. Also, there are 6 Exam Attendance BEMs.\n\nFeature Selection is done using SFS with a 1-NN algorithm first, followed by a LOOCV usage of C4.5 to get a better feature set. \n\nExperiments are conducted fro every week but authors find that by the 3rd week of the Fall Semester there is enough predictive accuracy for the model.",
+          "Random Tree,\nRandom Forest, \nRotation Forest, MLP, SOM, Naive Bayes, Decision Table, C4.5",
+          "Holdout Method",
+          "{Accuracy: 0.9733 - Random Forest - Pass vs Others Classes Setting}",
+          "Well… Predictive modelling work that trains on a dataset from 2016/2017.\n\nMultiple combinations of preprocessings/algorithms are tested, but these involve different model assessment strategies (some use LOO, others use 10-Fold CV). \n\n",
+          "Test dataset is the year before.\n\nNo consistent model assessment strategy seems to have been used - authors mention LOO, 10-Fold CV and a completely separate test dataset.\n\nData from a single institution.\n\nPoor choice of metrics for reporting.\n\n\n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "7e130c6f-9744-4374-92b5-f5c2e74366f5",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "7e130c6f-9744-4374-92b5-f5c2e74366f5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+        },
+        "created_time": "2024-07-31T21:12:00.000Z",
+        "last_edited_time": "2024-07-31T21:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0922f1e6-8598-4340-99a2-5407b9c611fa",
+      "type": "paragraph",
+      "text": "Most educators and managers often rely on domain knowledge and intuition to predict students at risk. The paper reviews current methods used in LA and concludse that few approaches actually delve into early prediction. Authors subsequently re-define student attendance AND create a model that, by Week 3 of the Fall Semester achieved an Accuracy of 97%. No specific additional details are provided in the current moment.",
+      "raw": {
+        "object": "block",
+        "id": "0922f1e6-8598-4340-99a2-5407b9c611fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+        },
+        "created_time": "2024-07-31T21:12:00.000Z",
+        "last_edited_time": "2024-07-31T21:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most educators and managers often rely on domain knowledge and intuition to predict students at risk. The paper reviews current methods used in LA and concludse that few approaches actually delve into early prediction. Authors subsequently re-define student attendance AND create a model that, by Week 3 of the Fall Semester achieved an Accuracy of 97%. No specific additional details are provided in the current moment.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most educators and managers often rely on domain knowledge and intuition to predict students at risk. The paper reviews current methods used in LA and concludse that few approaches actually delve into early prediction. Authors subsequently re-define student attendance AND create a model that, by Week 3 of the Fall Semester achieved an Accuracy of 97%. No specific additional details are provided in the current moment.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f06cf7bd-a698-4411-9cac-f802780823c0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "f06cf7bd-a698-4411-9cac-f802780823c0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+        },
+        "created_time": "2024-07-31T21:14:00.000Z",
+        "last_edited_time": "2024-07-31T21:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3214750c-f3ba-8062-8a66-fafff378ba04",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3214750c-f3ba-8062-8a66-fafff378ba04",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+        },
+        "created_time": "2026-03-12T14:25:00.000Z",
+        "last_edited_time": "2026-03-12T14:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3214750c-f3ba-806f-ac43-c83ed1d4a31b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3214750c-f3ba-806f-ac43-c83ed1d4a31b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "0fa04787-ce26-44e3-b823-fb9a424144f9"
+        },
+        "created_time": "2026-03-12T14:25:00.000Z",
+        "last_edited_time": "2026-03-12T14:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

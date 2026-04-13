@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "d096f16e-0812-41fd-94af-511aec2df0a9",
+      "title": "Using Neural and Graph Neural Recommender Systems to Overcome Choice Overload: Evidence From a Music Education Platform",
+      "authors": [],
+      "year": null,
+      "journal": "ACM Transactions on Information Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3144dc6b",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Interactive Content Platform",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid Filtering",
+          "Target of Recommendation": "Songs to practice",
+          "Students": "35028 users",
+          "Courses": "Not Applicable",
+          "Data sources": "Tomplay ",
+          "Initialization Method": "3 embeddings:\n\nUser & item embeddings are randomly (or Xavier) initialized in the LightGCN.Item title & composer embeddings come from a pre-trained SBERT model and are averaged with the item ID embedding.Cold-start users = zero vector → single forward pass over the graph (no retraining).\n\n50 interactions seem to be enough to get a good understanding.",
+          "Updates to Recommendations": "Since it is a graph neural network, new interactions ar added to the graph and the recommendations are updated. \n",
+          "Preprocessing Details": "The number of interactions is smaller than other common recommendation datasets.\n\nRecommender works by creating embeddings of the users and embeddings of the items. \n\nRaw logs are used to create event sequences. A graph is built with interactions as edges. Entity resolution incorporates SBERT embeddings for titles and composers, combining with item embeddings. Graph preprocessing connects similar items and adds exponential decay edge weights. Negative sampling is used to create Y.\n\nUser features are preprocessed for the baseline Heater model.",
+          "Recommendation types": "Top-10 Recommendations",
+          "Evaluation": "{F1-Score: 0.24, Recall@25: 0.391, Precision@25: 0.174, HR@10: 0.990, NDCG@10: 0.826}",
+          "Comments": "The work uses Tomplay dataset - an educational dataset that is sometimes used by College Professors.\n\nThe authors propose a GNN-based approach based on LightGCN., which is compared against a myriad of other common RS approaches. \n\nBest performance at 1 GNN layer; connecting similar items didn’t help; sensitive to γ",
+          "Limitations": "Validation on a single dataset.\n\nNo deployment. \n\nItem averaging may lose information (even if computationally more expedient).\n\nGraph connections of similar items does not seem to improve recommender accuracy,\n\nDataset only contains positive interactions (negatives are assumed). \n\nCold start module cannot learn → forward pass only\n\nFor cold-start evaluation: 20% new users with ≥325 interactions are chosen"
+        }
+      ],
+      "provenance": {
+        "page_id": "d096f16e-0812-41fd-94af-511aec2df0a9",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6487a1bc",
+      "reference_id": "d096f16e-0812-41fd-94af-511aec2df0a9",
+      "text": "Authors test effectiveness of recommender systems in educational platforms, bringing forward the example of music platforms - TomPlay - which suffer from the problem of having sparser interactions than other recommender system scenarios. ",
+      "provenance": {
+        "page_id": "d096f16e-0812-41fd-94af-511aec2df0a9"
+      }
+    },
+    {
+      "id": "an_7c9eb8a2",
+      "reference_id": "d096f16e-0812-41fd-94af-511aec2df0a9",
+      "text": "To deal with the sparsity problem, the authors propose a Deep LEarning based recommender that uses Graph Neural Networks and show that it outperforms standard NNs. Moreover, the authors  try to assert the amount of interactions required for the recommender to properly model the user interactions, concluding 50 to be the optimal number. ",
+      "provenance": {
+        "page_id": "d096f16e-0812-41fd-94af-511aec2df0a9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

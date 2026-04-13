@@ -1,0 +1,578 @@
+{
+  "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae",
+  "title": "Time slice imputation for personalized goal-based recommendation in higher education",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "e9b685ae-8cd7-4166-b0f2-6a8318b19992",
+          "name": "Goal",
+          "color": "orange"
+        },
+        {
+          "id": "aabe1bdc-6e55-4301-84b1-aa894413746d",
+          "name": "Enrollment",
+          "color": "gray"
+        },
+        {
+          "id": "d35ab533-d8d0-43c6-aa42-adf78fa2c313",
+          "name": "Online Courses",
+          "color": "yellow"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "RecSys",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "RecSys",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T12:55:00.000+00:00",
+        "end": "2026-03-20T16:18:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Jiang & Pardos",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jiang & Pardos",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Time slice imputation for personalized goal-based recommendation in higher education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Time slice imputation for personalized goal-based recommendation in higher education",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3294750c-f3ba-8003-b5e2-d64643b7a5f8",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "Blended Learning",
+          "Goal-based personalized sequential recommendation; LSTM/RNN grade-prediction model with backprop-based time-slice imputation; compared against exhaustive enumeration",
+          "Courses to take next for preparation toward a target course; objective is to maximize probability of earning ≥ B in the target course while recommending a course the student can pass",
+          "164,196 anonymized undergraduates; evaluation uses students with at least 2 semesters before Spring 2016",
+          "10,430 courses; 4.8M enrollments",
+          "UC Berkeley enrollment and grade histories, Fall 2008–Spring 2017",
+          "Stage 1: collective training of the course-grade prediction model (Model 2 from prior work). Stage 2: fix model parameters, infer learner hidden state, initialize candidate-course vector with s = (1,0)^n and all-ones weights, then optimize recommendation weights via backprop; enumeration used as baseline",
+          "Recommendations are recomputed per learner and per goal after reading the learner’s history; no explicit periodic retraining schedule reported",
+          "Semester input = multi-hot co-enrollment vector + grade encoding collapsed to ≥B / <B. Domain filters remove courses already passed and courses above the target course level",
+          "Top-10 courses",
+          "RNN+Enumeration: high-perf. students 57.65, gap 21.21, overall 49.60. RNN+Backprop: high-perf. students 77.17, gap 6.51, overall 75.78",
+          "Main contribution is replacing exhaustive candidate enumeration with per-learner backprop over the recommendation time slice. Backprop improves overall course recommendation accuracy, but reduces separation between high- and low-performance groups",
+          "Paper notes: candidate recommendations are optimized independently rather than under a constrained simultaneous-input setting; multi-time-slice imputation is difficult; domain knowledge filters are needed to avoid spurious recommendations; cold start gives generic rather than personalized recommendations"
+        ],
+        [
+          "MOOC",
+          "E-Learning",
+          "Goal-based personalized sequential recommendation; LSTM/RNN correctness-prediction model with backprop-based time-slice imputation; compared against exhaustive enumeration",
+          "Pages/videos to view next in preparation for an upcoming quiz; objective is to maximize predicted correctness on the target quiz",
+          "4,763 learners with at least one problem answer",
+          "1 edX Physics course; 868 book/video pages plus quiz problems",
+          "1,869,406 learner actions: page/video views and problem attempts; 177,623 correct and 104,711 incorrect answers",
+          "Stage 1: collective training of problem-correctness prediction model on action sequences. Stage 2: fix model parameters, infer learner hidden state, initialize candidate-page vector with s = (1,0)^n and all-ones weights, then optimize via backprop toward an all-correct target quiz; enumeration used as baseline",
+          "Recommendations are generated per learner at a time slice before the target quiz; no explicit online retraining schedule reported",
+          "One-hot action per time slice: either page/video view or problem answer. Masked cross-entropy is applied only on answered problems. Filters remove quiz pages and pages that occur after the target quiz",
+          "Top-10 pages/resources",
+          "Prediction task: accuracy 77.17%, AUC 0.8749; raw correct-answer rate 62.91%. Recommendation eval — RNN+Enumeration: quiz-correct rec. group 72.12, gap 8.10, overall 11.04. RNN+Backprop: 66.51, gap 1.05, overall 12.17",
+          "Extends the same goal-based framework from course preparation to within-course MOOC resource recommendation. Backprop gives slightly higher overall overlap accuracy, but much weaker discrimination between better and worse quiz outcomes than enumeration",
+          "Same paper-level limitations: independently optimized candidates, difficulty with multi-time-slice imputation, reliance on domain filters, and weak personalization for cold-start learners"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-80cb-81f9-fa6246b2cc32",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80cb-81f9-fa6246b2cc32",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae"
+        },
+        "created_time": "2025-02-05T12:51:00.000Z",
+        "last_edited_time": "2025-02-05T12:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80c5-98e9-c6b5170ad876",
+      "type": "paragraph",
+      "text": "Authors use deep learning to predict what should the student’s lext action be based on his past actions. The authors experiment with their approach on two datasetsm one from a higher education institution and the other from a MOOC. ",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80c5-98e9-c6b5170ad876",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae"
+        },
+        "created_time": "2025-02-05T12:51:00.000Z",
+        "last_edited_time": "2025-02-05T13:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use deep learning to predict what should the student’s lext action be based on his past actions. The authors experiment with their approach on two datasetsm one from a higher education institution and the other from a MOOC. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use deep learning to predict what should the student’s lext action be based on his past actions. The authors experiment with their approach on two datasetsm one from a higher education institution and the other from a MOOC. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3294750c-f3ba-8093-a1de-f20ccfcfb1a3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3294750c-f3ba-8093-a1de-f20ccfcfb1a3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae"
+        },
+        "created_time": "2026-03-20T15:21:00.000Z",
+        "last_edited_time": "2026-03-20T15:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3294750c-f3ba-80dc-87f3-f6818fe2d941",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "3294750c-f3ba-80dc-87f3-f6818fe2d941",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae"
+        },
+        "created_time": "2026-03-20T15:21:00.000Z",
+        "last_edited_time": "2026-03-20T15:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3294750c-f3ba-8003-b5e2-d64643b7a5f8",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3294750c-f3ba-8003-b5e2-d64643b7a5f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9905a7c4-a3e8-4801-90fe-01a8a00ec3ae"
+        },
+        "created_time": "2026-03-20T15:21:00.000Z",
+        "last_edited_time": "2026-03-20T16:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

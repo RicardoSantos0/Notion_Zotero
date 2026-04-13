@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-808a-9b54-cf18a2b15622",
+      "title": "The impact of social capital on self-efficacy and study success among first-year university students",
+      "authors": [],
+      "year": null,
+      "journal": "Learning and Individual Differences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_f921455e",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Peer Learning",
+          "Students": "364 first-year students",
+          "Courses": "All courses in the Behavioral and Social Sciences Department of the University of Groningen",
+          "Data sources": "Survey for Socio-Economic Details,\nSurvey for Social Behavior,\nPre-University Academic Records",
+          "Theoretical Grounding": "Pintrich’s SRL Framework",
+          "Features": "[First-Year Student, Moving Out, Financial Support, Mentor Support, , Peer Support, Friends, Help/Advice Seeking, Collaboration, Self-Efficacy, Weighted Average Mark for Fall Semester,  Weighted Average Mark for Spring Semester, Weighted Average Mark for First Year}",
+          "Preprocessing Details": "Authors employed Path Analysis to explore the best way in which to fill missing values. \n\nIn addition, the authors measure correlation between the different predictors. ",
+          "Models": "Multi-Level Regression Analysis",
+          "Performance Metric: Best Model": "Model was found to be statistically significant to describe student performance.",
+          "Groups Created": "3",
+          "Cluster Description": "Low Achievers\n\nAverage Achievers\n\nHigh achievers: Having friends shows a positive relationship with success.\n",
+          "Implications": "Peer and Faculty capital contribute to explaining student success.\n\nFamily support was not shown to be relevant at this level, likely because students without family support often fail at reaching the undergraduate level. \n\nBeing in a small group with similar peers does not seem to be benefical for either loiw or average attainment students.\n\nFirst semester success is highly indicative of later success, which means that using this as an early-warning system may be relevant.\n\nAuthors argue for the buiding of fostering development of social connections between different levels of achievers in a way that helps low achievers find the social capital that helps them perform.\n\n ",
+          "Comments": "Authors do the separation at the level of the dependent variablein 3 categories.\n\nEffect of social circles and having friends was remarkably higher for high-achieving students → suggesting that social interactions are more benefical in this context than they are for lower achieving students. ",
+          "Limitations": "Study focuses only on access to social capital via number of friends and not social networks themselves.\n\nUse of self-reports to measure support without any direct behavioral data.\n\nHomogenous sample of Behavioral and Social Sciences students.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_d4e2fcb7",
+      "reference_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622",
+      "text": "Authors touch on the concept of Social Capital as a driver that fosters academic performance. They explore how social capital influences performance in first-year undergraduates. Authors use path analysis to evaluate how different forms of social capital influence performance. ",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+      }
+    },
+    {
+      "id": "an_3239cc62",
+      "reference_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622",
+      "text": "Results show that peer capital and faculty capital contribute positively to study success. Moreover, high-achievers have a positive influence in low-achievers if they are friends.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-9b54-cf18a2b15622"
+      }
+    }
+  ],
+  "workflow_states": []
+}

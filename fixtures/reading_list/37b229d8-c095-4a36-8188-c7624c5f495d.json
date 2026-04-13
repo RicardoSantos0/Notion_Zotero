@@ -1,0 +1,821 @@
+{
+  "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d",
+  "title": "Transformer Encoder Model for Sequential Prediction of Student Performance Based on Their Log Activities",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "96ab566a-43c7-47a8-a338-a9924c70af47",
+          "name": "Transformer Encoder",
+          "color": "yellow"
+        },
+        {
+          "id": "f9b1d4d0-5d59-4484-b6d2-365e06faae99",
+          "name": "Student At Risk Prediction",
+          "color": "purple"
+        },
+        {
+          "id": "25e11b0b-41b0-48e0-80f0-09fa4be66a50",
+          "name": "Massive Open Online Courses",
+          "color": "default"
+        },
+        {
+          "id": "d91ae543-3980-41c5-b95e-9ceed7c8701d",
+          "name": "Sequential Model",
+          "color": "yellow"
+        },
+        {
+          "id": "8ae32679-95c8-4c96-a36f-03a45d1d2c78",
+          "name": "Imbalanced Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Transformer” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Transformer” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Access",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Access",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-05T09:00:00.000+01:00",
+        "end": "2026-03-17T11:48:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kusumawardani & Alfarozi",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kusumawardani & Alfarozi",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Transformer Encoder Model for Sequential Prediction of Student Performance Based on Their Log Activities",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Transformer Encoder Model for Sequential Prediction of Student Performance Based on Their Log Activities",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3254750c-f3ba-801e-a9f7-ec58c73f132a",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark in a Course",
+          "F (0) vs PD (1)",
+          "32593 students",
+          "7 courses in OULAD",
+          "VLE logs, Learner Characteristics, Course Information",
+          "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Every 20% of Course Duration (54 days)",
+          "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Holdout Method (70/30)",
+          "Early Prediction - 40%\n{Accuracy: 0.8275 - PD-Daily, F1-Score: 0.6743}\n\nEnd of Course\n{Accuracy: 0.9134 - PD-Daily, F1-Score: 0.8558}\n\nOverall\n{Accuracy: 0.8358 - PD-Daily, F1-Score: 0.6784}\n\n",
+          "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.",
+          "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features\n"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark in a Course",
+          "W (0) vs PD (1)",
+          "32593 students",
+          "7 courses in OULAD",
+          "VLE logs, Learner Characteristics, Course Information",
+          "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Every 20% of Course Duration (54 days)",
+          "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Holdout Method (70/30)",
+          "Early Prediction - 40%\n{Accuracy: 0.9027 - PD-Daily, F1-Score: 0.8347}\n\nEnd of Course\n{Accuracy: 0.9814 - PD-Daily, F1-Score: 09708}\n\nOverall\n{Accuracy: 0.8959 - PD-Daily, F1-Score: 0.8082}\n\n",
+          "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.\n\nMost of Dropouts can be identified as early as 40% of course duration.",
+          "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark in a Course",
+          "WF (0) vs PD (1)",
+          "32593 students",
+          "7 courses in OULAD",
+          "VLE logs, Learner Characteristics, Course Information",
+          "[id_student, code_module, code_presentation, activity_type, score, is_banked, weight, sum_click, date]",
+          "Every 20% of Course Duration (54 days)",
+          "The original table was arranged in a way that the original table was converted into a 4-dimensional tensor: \n\n(N, D, T, F)\n\nD accounts Days and is of length 270 (full duration). \n\nAuthors also attempt a weekdly aggregation instead of a daily one. \n\nAuthors use 2 layers of Transformational encoders with 100 units each. \n\nAnother notable distinction is the use of a Weighted Loss Function instead of the Standard Binary Cross-Entropy\n",
+          "F-PD-Daily\nF-PD-Weekly\nLSTM-Daily\nLSTM-Weekly",
+          "Holdout Method (70/30)",
+          "Early Prediction - 40%\n{Accuracy: 0.8283 - PD-Daily, F1-Score: 0.8091}\n\nEnd of Course\n{Accuracy: 0.9342 - PD-Daily, F1-Score: 09301}\n\nOverall\n{Accuracy: 0.8303 - PD-Daily, F1-Score: 0.8102}\n\n",
+          "Authors propose a new architecture to do prediction of End of Course Performance. The proposed architecture uses a Transformer model.\n\nResults on different binary tasks show good results, with daily representations winning. However… these results seem low compared to other methods I’ve seen using OULAD.",
+          "  • No other architectures are tested to benchmark against the one used \n\n  • One Dataset\n\n  • No multiclass setting\n\n  • Only considers Activity Features"
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "72263b25-c265-4f5a-abfa-c9f50cad59df",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "72263b25-c265-4f5a-abfa-c9f50cad59df",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:18:00.000Z",
+        "last_edited_time": "2024-08-05T14:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1052f945-752d-4d25-9943-01718e0dfbc2",
+      "type": "paragraph",
+      "text": "The authors propose a new deep learning model to predict student performance using the sequential aspect of interaction logs between a student and an LMS in the hopes of providing support as early as possible. ",
+      "raw": {
+        "object": "block",
+        "id": "1052f945-752d-4d25-9943-01718e0dfbc2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:18:00.000Z",
+        "last_edited_time": "2024-08-05T14:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors propose a new deep learning model to predict student performance using the sequential aspect of interaction logs between a student and an LMS in the hopes of providing support as early as possible. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors propose a new deep learning model to predict student performance using the sequential aspect of interaction logs between a student and an LMS in the hopes of providing support as early as possible. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1eddb09b-6f63-41d6-9b7d-fba9e95bd5b1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1eddb09b-6f63-41d6-9b7d-fba9e95bd5b1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:20:00.000Z",
+        "last_edited_time": "2024-08-05T14:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "df981193-ca6e-45fd-9163-6a9025e166b9",
+      "type": "paragraph",
+      "text": "The authors use OULAD to perform multiple early classification tasks and their proposed model achieves, at the very least, 76% when performing early prediction. When comparing the performance of the Transformer-Encoder model, the authors found that their proposed method outperformed the baselkine LSTM models by 3% to 7% on F1-Score.",
+      "raw": {
+        "object": "block",
+        "id": "df981193-ca6e-45fd-9163-6a9025e166b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:20:00.000Z",
+        "last_edited_time": "2024-08-05T14:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use OULAD to perform multiple early classification tasks and their proposed model achieves, at the very least, 76% when performing early prediction. When comparing the performance of the Transformer-Encoder model, the authors found that their proposed method outperformed the baselkine LSTM models by 3% to 7% on F1-Score.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use OULAD to perform multiple early classification tasks and their proposed model achieves, at the very least, 76% when performing early prediction. When comparing the performance of the Transformer-Encoder model, the authors found that their proposed method outperformed the baselkine LSTM models by 3% to 7% on F1-Score.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3b274c3c-bb2d-4579-8446-cca2a0da77a7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3b274c3c-bb2d-4579-8446-cca2a0da77a7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:22:00.000Z",
+        "last_edited_time": "2024-08-05T14:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "57e93ae0-a2ed-4280-9942-2ccf89c774f4",
+      "type": "paragraph",
+      "text": "Authors also test the effect of different pre-processing options such as positional encoding. In OULAD, the best options had no positional encoding and, in some cases, worked better with weeky feature aggragation and weighted loss functions.",
+      "raw": {
+        "object": "block",
+        "id": "57e93ae0-a2ed-4280-9942-2ccf89c774f4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2024-08-05T14:21:00.000Z",
+        "last_edited_time": "2024-08-05T14:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors also test the effect of different pre-processing options such as positional encoding. In OULAD, the best options had no positional encoding and, in some cases, worked better with weeky feature aggragation and weighted loss functions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors also test the effect of different pre-processing options such as positional encoding. In OULAD, the best options had no positional encoding and, in some cases, worked better with weeky feature aggragation and weighted loss functions.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-80a4-ab70-d945df457965",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-80a4-ab70-d945df457965",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2026-03-16T16:30:00.000Z",
+        "last_edited_time": "2026-03-16T16:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-801a-8b31-f7728755f90a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-801a-8b31-f7728755f90a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2026-03-16T16:30:00.000Z",
+        "last_edited_time": "2026-03-16T16:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/5432cc28-42a1-4b00-896f-a5e030bb1d22/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4667IDQ6UQ4%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153034Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDMupDkUxWrFqb8WEzvR0YcdnJIWwhRVDZv9hV%2FNQ06rgIhAOX8zjLPCgEAVVVlJZGU7KohRpL91CWsmawA%2BSaZLYZ6Kv8DCHcQABoMNjM3NDIzMTgzODA1IgzYNjKDKxJPkAvQzeIq3APCNe8Qw90x8H21gRFlkVrXHOykN9t5c3MtwFzEXNlW%2BCTotyJ4tWylffvE3zCXPGFLEjuGHSaOWrCgoRF%2Bw2txu2RCgbNoYg11u2PsHaXhSrXXk%2B4yeT%2B6IA0GiSci8iLPF%2BRp%2F07ISJgE357O5rOSj0gASbFN6lqDLK2U3a21MpmNSdrEncNRpqcZXYBzE9RdFOjgsybtmYmaZG7LxGr6MxJVfqFphV6CmSMey0cpPajCfEFpgmNwZhR4MJvdEwDVpY6f5f4fKTFiaM%2FijtLve8gMbUXdYCAvihCGLRTQZXFWH2S6yqb%2Ba6VmJkjxj0hifX%2BXZ6cptqtlaWHrOEdS6UzRUVUsjlJ%2B%2BtkoMcHswSeMGIwyhtS%2Fz06YRvjSaq4LlMPNv1C3ACEAeIR4MRN4YoZdGiZTOnKT%2FUhUNHdC25mZ3Z0bm1JuWeVkbb1bXiZGr2M4qyJOcvGSZwiN4D2%2FYRArv1KKYmOpHwU3DZRLO5ZGEWDt%2B2gQ2HKYtiuKsiJMRpdXvopCVbHOc%2BHJQlMx4%2BbB5ea7NVfRhZP5Z0mcLMAUTVeFZm%2FiLatpuI9%2BYdKLYqwFrM5KTnF%2FV8y2M5%2F7l92ggUJg7d2dlwmEA%2Fw0peal%2BI2sj6ah4UjzxjC27%2FPOBjqkAcpsT4lUBPox71UUnyM1xss%2Fz4IjFbaIlAAGz6Yl4Vwaq3xtw1j62Dy%2BrEc49SFtoMgG3aKIOqbrSdX9bGKv%2FQLSawkDCz%2FpctJ9m0ZXLYSZ7hmxX%2FNeQgxt7SVt6Ybe%2FGSGxpiGebwwtGb2Ma3E9Vi2fnz4XtayQg7BBuWjnzQkus9u4SuspJaHAgMDlQhOY2X7YFFeKSKfmpzBpyuNebSmoLws&X-Amz-Signature=217e1deda2c1ba2f8c09481cbfd088c816ffa37ad5fb2c0b21d2e42aaf0d0b44&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:30:34.644Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-807b-b831-e90dc4b6c9a7",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-807b-b831-e90dc4b6c9a7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2026-03-16T16:10:00.000Z",
+        "last_edited_time": "2026-03-16T16:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3254750c-f3ba-801e-a9f7-ec58c73f132a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3254750c-f3ba-801e-a9f7-ec58c73f132a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37b229d8-c095-4a36-8188-c7624c5f495d"
+        },
+        "created_time": "2026-03-16T16:10:00.000Z",
+        "last_edited_time": "2026-03-17T11:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,740 @@
+{
+  "page_id": "83242ebd-f552-4708-967f-42d88411cd7f",
+  "title": "Portability of Predictive Academic Performance Models: An Empirical Sensitivity Analysis",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c8102372-e25c-4503-ad79-ed3e045abe05",
+          "name": "Mathematics Education",
+          "color": "gray"
+        },
+        {
+          "id": "f1b6e489-3490-4968-ae54-c38c8dfc2b59",
+          "name": "University Teaching",
+          "color": "green"
+        },
+        {
+          "id": "14083534-37ed-4c60-b101-fb3149f79ca2",
+          "name": "Academic Success",
+          "color": "blue"
+        },
+        {
+          "id": "dc43d4ba-4106-4b6a-a50a-1e6a12e833a7",
+          "name": "Quantitative Research",
+          "color": "green"
+        },
+        {
+          "id": "6e1f6035-06d0-4d99-a1d8-c999797c8fcf",
+          "name": "Predictive Models",
+          "color": "gray"
+        },
+        {
+          "id": "86938733-6d8c-4a8a-bb15-c6ffec08386e",
+          "name": "Portability",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “Higher Education” AND “Portability”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “Higher Education” AND “Portability”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mathematics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mathematics",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-02T09:00:00.000+01:00",
+        "end": "2026-03-14T16:31:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Arroyo-Barrigüete et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Arroyo-Barrigüete et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Portability of Predictive Academic Performance Models: An Empirical Sensitivity Analysis",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Portability of Predictive Academic Performance Models: An Empirical Sensitivity Analysis",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3234750c-f3ba-809e-901c-e90aa0fc30bd",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "6 Potential Forms of Academic Performance are Tested",
+          "Pass vs Fail",
+          "170 students",
+          "4 Different Classes of the same Business Management across 2 years",
+          "Academic History",
+          "[EvAU score, 1st course grade, math. 1 grade, math. 2 grade, early assessment, late assessment]",
+          "Previous Academic Performance",
+          "Authors test more than 60 alternative models - all possible combinations of the six variables (up to 3 simultaneous variables)\n\nThis is done by separating the students into different categories.\n\nVariables ewre standardized.\n\nAuthors compare performance of group specific models vs general models and find that portability is different because the groups themselves are different,",
+          "60 Logistic Regressions",
+          "10-Fold Cross-Validation",
+          "{AUC: 0.951 - Model 2}",
+          "What was done: The authors built logistic regression models to predict whether university students would pass or fail, using simple inputs like prior grades and early assessment scores. Models were developed on a base group of 39 business students, then tested on five other groups varying by subject, teacher, and language of instruction (170 students total across two years).Main findings: The models performed well on the group they were built for (AUC above 0.9), but their ability to correctly identify at-risk students (specificity) dropped consistently as the target group shared fewer characteristics with the original group. Notably, the student group itself mattered more for portability than the subject, teacher, or language. The authors conclude that universal predictive models are very difficult to achieve, even under tightly controlled conditions — echoing findings from the learning platform literature.",
+          "Small sample size\n\nOnly 4 groups could be used\n\nAll logit models had, at most, 3 variables\n\nSingle institution and Degree\n\nBase model is trained on 39 students\n\n"
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1e28fb30-18b9-4143-9571-e723719cd592",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1e28fb30-18b9-4143-9571-e723719cd592",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:33:00.000Z",
+        "last_edited_time": "2024-08-02T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b5a93e38-7b6a-4a35-9049-4ee748035214",
+      "type": "paragraph",
+      "text": "Few studies in LA use previous evaluations as features. This work intends to see effect of portability when preceding performance is key factor.  ",
+      "raw": {
+        "object": "block",
+        "id": "b5a93e38-7b6a-4a35-9049-4ee748035214",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:33:00.000Z",
+        "last_edited_time": "2024-08-02T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Few studies in LA use previous evaluations as features. This work intends to see effect of portability when preceding performance is key factor.  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Few studies in LA use previous evaluations as features. This work intends to see effect of portability when preceding performance is key factor.  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3f60d04b-cc72-437f-b4ea-1ce0470c6efd",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3f60d04b-cc72-437f-b4ea-1ce0470c6efd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:34:00.000Z",
+        "last_edited_time": "2024-08-02T18:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c627e08f-9530-47a5-8f81-947809ded4d8",
+      "type": "paragraph",
+      "text": "Authors use data from 170 students collected across 2 academic years. They create a set of models using data from 39 and select the best 4. Then, they test the model on the remaining groups. ",
+      "raw": {
+        "object": "block",
+        "id": "c627e08f-9530-47a5-8f81-947809ded4d8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:33:00.000Z",
+        "last_edited_time": "2024-08-02T18:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use data from 170 students collected across 2 academic years. They create a set of models using data from 39 and select the best 4. Then, they test the model on the remaining groups. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use data from 170 students collected across 2 academic years. They create a set of models using data from 39 and select the best 4. Then, they test the model on the remaining groups. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ce2603e1-9248-43bc-8a29-5e008fcb19e6",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ce2603e1-9248-43bc-8a29-5e008fcb19e6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:35:00.000Z",
+        "last_edited_time": "2024-08-02T18:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "51da82c7-080b-40bf-ad69-654af98b19f3",
+      "type": "paragraph",
+      "text": "Authors find that, the more different the students are from the base group, the specificity of the four models tends to decrease.",
+      "raw": {
+        "object": "block",
+        "id": "51da82c7-080b-40bf-ad69-654af98b19f3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2024-08-02T18:35:00.000Z",
+        "last_edited_time": "2024-08-02T18:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors find that, the more different the students are from the base group, the specificity of the four models tends to decrease.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors find that, the more different the students are from the base group, the specificity of the four models tends to decrease.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3234750c-f3ba-806f-90a0-cde8e0804d74",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3234750c-f3ba-806f-90a0-cde8e0804d74",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2026-03-14T12:27:00.000Z",
+        "last_edited_time": "2026-03-14T12:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3234750c-f3ba-80e4-a7e1-d731d18a372d",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3234750c-f3ba-80e4-a7e1-d731d18a372d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2026-03-14T12:27:00.000Z",
+        "last_edited_time": "2026-03-14T12:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3234750c-f3ba-809e-901c-e90aa0fc30bd",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3234750c-f3ba-809e-901c-e90aa0fc30bd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "83242ebd-f552-4708-967f-42d88411cd7f"
+        },
+        "created_time": "2026-03-14T12:27:00.000Z",
+        "last_edited_time": "2026-03-14T12:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "page_id": "87247106-6f59-410e-85fc-33830f5b24df",
+  "title": "Data-Driven Support Infrastructure for Iterative Team-Based Learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d38c271-c4b0-42c1-ba8b-57309dd664b7",
+          "name": "Team-Based Learning",
+          "color": "gray"
+        },
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "7c8f203f-d8ba-4aba-acc1-2f76875baea9",
+          "name": "Group Formation",
+          "color": "brown"
+        },
+        {
+          "id": "39fdd990-cbab-40f4-a3d3-013b15a863ed",
+          "name": "Peer Evaluation",
+          "color": "blue"
+        },
+        {
+          "id": "e2c93b96-4872-4b0d-81f5-e9b962046eaf",
+          "name": "Rater Reliability",
+          "color": "orange"
+        },
+        {
+          "id": "099f51a1-9ab0-4f07-88c1-11d34a17dc45",
+          "name": "Data-Driven Support",
+          "color": "yellow"
+        },
+        {
+          "id": "fde9a87f-488d-4e56-8e0a-b01011a9ea03",
+          "name": "Computer-Supported Collaborative Learning",
+          "color": "orange"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Group Formation” AND “Collaborative Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Group Formation” AND “Collaborative Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Access",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Access",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T17:07:00.000+00:00",
+        "end": "2025-03-12T17:15:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Liang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Liang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c9b2501b-8b9c-4006-8f15-62f4fc00b325",
+          "name": "Group Formation",
+          "color": "pink"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Data-Driven Support Infrastructure for Iterative Team-Based Learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Data-Driven Support Infrastructure for Iterative Team-Based Learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8062-a2bd-d98aec5f226a",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8062-a2bd-d98aec5f226a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "87247106-6f59-410e-85fc-33830f5b24df"
+        },
+        "created_time": "2025-03-12T17:17:00.000Z",
+        "last_edited_time": "2025-03-12T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80ae-80a5-e4251f9137fd",
+      "type": "paragraph",
+      "text": "TBL is commonly used to help individuals develop collaborative learning activities, but iterative TBL has been somewhat neglected in the literature. The authors introduce a framework for iterative TBL that sub-divides iterative TBL into 4 stages of group activity workflows and 3 data flows.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80ae-80a5-e4251f9137fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "87247106-6f59-410e-85fc-33830f5b24df"
+        },
+        "created_time": "2025-03-12T17:17:00.000Z",
+        "last_edited_time": "2025-03-12T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "TBL is commonly used to help individuals develop collaborative learning activities, but iterative TBL has been somewhat neglected in the literature. The authors introduce a framework for iterative TBL that sub-divides iterative TBL into 4 stages of group activity workflows and 3 data flows.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "TBL is commonly used to help individuals develop collaborative learning activities, but iterative TBL has been somewhat neglected in the literature. The authors introduce a framework for iterative TBL that sub-divides iterative TBL into 4 stages of group activity workflows and 3 data flows.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8097-96d8-c19651a64039",
+      "type": "paragraph",
+      "text": "The framework is put to the test in two applications and the authors discuss impacts and challenges to the development of the framework.",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8097-96d8-c19651a64039",
+        "parent": {
+          "type": "page_id",
+          "page_id": "87247106-6f59-410e-85fc-33830f5b24df"
+        },
+        "created_time": "2025-03-12T17:17:00.000Z",
+        "last_edited_time": "2025-03-12T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The framework is put to the test in two applications and the authors discuss impacts and challenges to the development of the framework.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The framework is put to the test in two applications and the authors discuss impacts and challenges to the development of the framework.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80aa-9693-f24dd43819ec",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80aa-9693-f24dd43819ec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "87247106-6f59-410e-85fc-33830f5b24df"
+        },
+        "created_time": "2025-03-12T17:17:00.000Z",
+        "last_edited_time": "2025-03-12T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,672 @@
+{
+  "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+  "title": "Capacity Tracing-Enhanced Course Recommendation in MOOCs",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "11fbf41b-e3cd-47ee-98b2-d192d3980443",
+          "name": "Capacity Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "b135d466-3dd6-4f83-baf6-3921f600e95e",
+          "name": "Computer-Aided Instruction",
+          "color": "pink"
+        },
+        {
+          "id": "70ff441a-cd09-4102-914a-d1d9c0f6a7bc",
+          "name": "Course Recommendation",
+          "color": "orange"
+        },
+        {
+          "id": "25e11b0b-41b0-48e0-80f0-09fa4be66a50",
+          "name": "Massive Open Online Courses",
+          "color": "default"
+        },
+        {
+          "id": "22fc9c02-ef97-4375-a63b-be332f68ebd3",
+          "name": "Multidimensional Item Response Theory",
+          "color": "green"
+        },
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-08T21:46:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Tian & Liu",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Tian & Liu",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Capacity Tracing-Enhanced Course Recommendation in MOOCs",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Capacity Tracing-Enhanced Course Recommendation in MOOCs",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-80f0-bddd-ef9300f19401",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "MOOC",
+          "Online Learning",
+          "Collaborative Filtering",
+          "Next Course to Take",
+          "28197 learners",
+          "856 courses",
+          "LMS logs, Course metadata, Responses for Cognitive Diagnosis, Knowledge Topics, ",
+          "– MIRT static fit: estimate initial learner capacity uᵢ₀ and course difficulty dⱼ via maximum likelihood on ideal response qᵢⱼ\n\n\n– Implicit response pᵢⱼ computed as geometric mean of completion ratio aᵢⱼ and relative duration tᵢⱼ/ Dⱼ\n",
+          "– After each new interaction aᵢⱼ, update learner capacity uᵢ,ₜ by Δuᵢ = pᵢ,ₜ·λᵢ·ReLU(dⱼ – uᵢ,ₜ₋₁) (Eq 4), where λᵢ is per-learner growth rate\n\n– Form embeddings: lᵢ,ₜ = concat(g(uᵢ,ₜ₋₁), l′ᵢ), cⱼ = concat(g(dⱼ), c′ⱼ), then predict with NCF or GRU by optimizing cross-entropy loss\n\n",
+          "– Online setting: no offline train/test split for model fitting.– Compute pᵢⱼ via Eq 2; filter out records with missing aᵢⱼ or unknown",
+          "Top-K courses (K=10)",
+          "{Precision@10: 0.0715 - CT-E NCF, Precision@20: 0.1149 - CT-E NCF, Precision@40: 0.1827 - CT-E NCF, Hit_Ratio@10: 0.1605 - CT-E NCF, Hit_Ratio@20: 0.1290 - CT-E NCF, Hit_Ratio@40: 0.1025 - CT-E NCF}",
+          "– Combines explainable MIRT capacities with CF.\n\n– CT-E NCF yields highest Precision & Hit gains over all baselines.\n\n– Capacity tracing correlates strongly with static MIRT estimates (ρ ≈ 0.79–0.99)",
+          "- No user study; offline only.\n- Static dⱼ (no difficulty update).\n- Assumes weak interactions suffice for pᵢⱼ.\n- No specialized cold-start beyond MIRT init.\n\n- Assumes completion ≈ mastery (may misestimate short sessions).\n\n- No modeling of temporal drift beyond immediate updates."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1944750c-f3ba-8057-81ce-e9c9cc8736b1",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-8057-81ce-e9c9cc8736b1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-02-08T21:46:00.000Z",
+        "last_edited_time": "2025-02-08T21:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-8075-b9d3-ef9abc6b7ea7",
+      "type": "paragraph",
+      "text": "Online features a very high dropout rate and, for that reason, tools for proper recommendations and tutoring are welcomed. Authors explore how item-response theory can be integrated into a recommender. ",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-8075-b9d3-ef9abc6b7ea7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-02-08T21:46:00.000Z",
+        "last_edited_time": "2025-02-08T21:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online features a very high dropout rate and, for that reason, tools for proper recommendations and tutoring are welcomed. Authors explore how item-response theory can be integrated into a recommender. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online features a very high dropout rate and, for that reason, tools for proper recommendations and tutoring are welcomed. Authors explore how item-response theory can be integrated into a recommender. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-8023-b935-fb5a18c1af12",
+      "type": "paragraph",
+      "text": "Authors use mutidimensional IRT and KT techniques to be able to diagnose a learner’s skills (so, first step is the creation of a knowledge model). Then, this model based on MIRT is used as input to a collaborative filtering algorithm for course recommendations. ",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-8023-b935-fb5a18c1af12",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-02-08T21:48:00.000Z",
+        "last_edited_time": "2025-02-08T21:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use mutidimensional IRT and KT techniques to be able to diagnose a learner’s skills (so, first step is the creation of a knowledge model). Then, this model based on MIRT is used as input to a collaborative filtering algorithm for course recommendations. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use mutidimensional IRT and KT techniques to be able to diagnose a learner’s skills (so, first step is the creation of a knowledge model). Then, this model based on MIRT is used as input to a collaborative filtering algorithm for course recommendations. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-80b7-84a9-ef81a171c11d",
+      "type": "paragraph",
+      "text": "Experiments on a real dataset show that approach not only improves effectiveness of MOOCs, but its explainability as well.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-80b7-84a9-ef81a171c11d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-02-08T21:51:00.000Z",
+        "last_edited_time": "2025-02-08T21:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Experiments on a real dataset show that approach not only improves effectiveness of MOOCs, but its explainability as well.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Experiments on a real dataset show that approach not only improves effectiveness of MOOCs, but its explainability as well.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-8081-83ea-d2261a74bdc1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-8081-83ea-d2261a74bdc1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-07-26T15:28:00.000Z",
+        "last_edited_time": "2025-07-26T15:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-804b-8980-cb8e48dc246e",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-804b-8980-cb8e48dc246e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-07-26T15:28:00.000Z",
+        "last_edited_time": "2025-07-26T15:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-80f0-bddd-ef9300f19401",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-80f0-bddd-ef9300f19401",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+        },
+        "created_time": "2025-07-26T15:28:00.000Z",
+        "last_edited_time": "2025-08-04T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,609 @@
+{
+  "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2",
+  "title": "A Robust Machine Learning Technique to Predict Low-performing Students",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "cf1fd73e-2fd7-4ff1-b07f-48fe85974b35",
+          "name": "Computing Education",
+          "color": "blue"
+        },
+        {
+          "id": "87b32258-e49f-4208-b4f2-0360ba35bae0",
+          "name": "Computer Science Education",
+          "color": "purple"
+        },
+        {
+          "id": "c3365aa1-1515-4e47-9214-3db8296d7cb4",
+          "name": "Peer Instruction",
+          "color": "pink"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "4e272c1c-ed05-4342-b2e2-81677d969fde",
+          "name": "At-Risk Students",
+          "color": "brown"
+        },
+        {
+          "id": "d4044c9c-b1f5-441e-b3da-105f17fe0fbf",
+          "name": "Prediction",
+          "color": "purple"
+        },
+        {
+          "id": "0a58deef-574d-40ba-94b1-802c0322241f",
+          "name": "Multi-Institution",
+          "color": "blue"
+        },
+        {
+          "id": "bc26da07-25cf-41d1-aa11-8dbdb637c75b",
+          "name": "Cross-Term",
+          "color": "green"
+        },
+        {
+          "id": "65260543-7adb-4f98-bc49-af65ed8f05a2",
+          "name": "Clicker Data",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Management System” AND “Academic Success”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Management System” AND “Academic Success”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Transactions on Computing Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Transactions on Computing Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-03-12T18:48:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Liao et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Liao et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Robust Machine Learning Technique to Predict Low-performing Students",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Robust Machine Learning Technique to Predict Low-performing Students",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3214750c-f3ba-80fd-9137-dde4d42c74a6",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Peer Instruction",
+          "Course Performance on Final Exam",
+          "Top 60% vs Bottom 40% ",
+          "Train: 1 270 students\n\nTest: 1 149 students ",
+          "Train: 5 Undergraduate Courses across 2 American Universities\n\nTest: Following edition of the same  courses ",
+          "Clicker Questions, Exam Performance",
+          "[Sequence of Question Responses on Clickers in the First 3 Weeks (Group and Individual)]",
+          "3rd week (out of 10 or 12 weeks depending on course)",
+          "Clicker responses are collected and placed as a vector for each student.\n\nStudents who did not answer in the first 3 weeks were also removed.",
+          "SVM",
+          "10-Fold Cross-Validation",
+          "{AUC: [0,65-0,79] - SVM}",
+          "Authors create multiple course-specific models and start with a multi-institution analysis - comparing courses from similar institutions across different contexts. \n\nHyper-parameter tuning is done using 10-Fold CV. \n\nAuthors evaluate the same course across institutions to see differences and individually.\n",
+          "  • Only one model is tested\n  • No course-agnostic approach"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "c751a7b0-0516-4516-ac4e-e22301808ef4",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "c751a7b0-0516-4516-ac4e-e22301808ef4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+        },
+        "created_time": "2024-07-31T21:04:00.000Z",
+        "last_edited_time": "2024-07-31T21:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "973695c1-5ab4-4b84-9ae0-5b0ee2778983",
+      "type": "paragraph",
+      "text": "Automated early prediction is important in large courses. Thus, authors propose a model that, using data from the first 3 weeks of a course, predict final exam scores - SVM. Data is collected on the first term and the model is deployed on the second term. ",
+      "raw": {
+        "object": "block",
+        "id": "973695c1-5ab4-4b84-9ae0-5b0ee2778983",
+        "parent": {
+          "type": "page_id",
+          "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+        },
+        "created_time": "2024-07-31T21:04:00.000Z",
+        "last_edited_time": "2024-07-31T21:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Automated early prediction is important in large courses. Thus, authors propose a model that, using data from the first 3 weeks of a course, predict final exam scores - SVM. Data is collected on the first term and the model is deployed on the second term. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Automated early prediction is important in large courses. Thus, authors propose a model that, using data from the first 3 weeks of a course, predict final exam scores - SVM. Data is collected on the first term and the model is deployed on the second term. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7f345efc-6117-4a11-96f1-ac1b67a93640",
+      "type": "paragraph",
+      "text": "Modelling approach was used in 5 different Computer Science courses across 2 different institutions and taught by 3 different instructors. Predictive performance is competitive with state of the art techniques while having some strenghts:",
+      "raw": {
+        "object": "block",
+        "id": "7f345efc-6117-4a11-96f1-ac1b67a93640",
+        "parent": {
+          "type": "page_id",
+          "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+        },
+        "created_time": "2024-07-31T21:06:00.000Z",
+        "last_edited_time": "2024-07-31T21:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Modelling approach was used in 5 different Computer Science courses across 2 different institutions and taught by 3 different instructors. Predictive performance is competitive with state of the art techniques while having some strenghts:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Modelling approach was used in 5 different Computer Science courses across 2 different institutions and taught by 3 different instructors. Predictive performance is competitive with state of the art techniques while having some strenghts:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3214750c-f3ba-80fb-bb76-d8807bdd6845",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3214750c-f3ba-80fb-bb76-d8807bdd6845",
+        "parent": {
+          "type": "page_id",
+          "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+        },
+        "created_time": "2026-03-12T15:50:00.000Z",
+        "last_edited_time": "2026-03-12T15:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3214750c-f3ba-80fd-9137-dde4d42c74a6",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3214750c-f3ba-80fd-9137-dde4d42c74a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+        },
+        "created_time": "2026-03-12T15:50:00.000Z",
+        "last_edited_time": "2026-03-12T15:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

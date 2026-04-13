@@ -1,0 +1,651 @@
+{
+  "page_id": "4f419199-3706-4650-a624-624bc63ca0c2",
+  "title": "Identifying university students’ online academic help-seeking patterns and their role in Internet self-efficacy",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a1756a28-f669-4f2e-ac6b-a39b3d3c05cc",
+          "name": "Online Academic Help-Seeking",
+          "color": "pink"
+        },
+        {
+          "id": "4cec23f2-3b14-417a-bafd-74a21831c5f1",
+          "name": "Internet Self-Efficacy",
+          "color": "purple"
+        },
+        {
+          "id": "7957f970-73cd-4e5f-887b-e10641a8f930",
+          "name": "University Students",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “LMS”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “LMS”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-06T15:07:00.000+00:00",
+        "end": "2025-11-01T16:40:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fan & Lin",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fan & Lin",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-03-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Identifying university students’ online academic help-seeking patterns and their role in Internet self-efficacy",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Identifying university students’ online academic help-seeking patterns and their role in Internet self-efficacy",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "29e4750c-f3ba-804a-ac1d-fb6663002462",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "366 undergraduate students",
+          "Diverse Majors in Science, Humanities and Social Sciences",
+          "Internet Self-Efficacy Survey,\nOAHS questionnaire",
+          "Online Help-Seeking and Internet Self-Efficacy",
+          "[Infoormation Searching, Formal query, Informal query, Usage, Sharing, Communication, Verifying, Metacognition, Application, Learning]",
+          "OAHS questionnaire is a 5-point Likert Scale, ISE is also a 5-point Likert Scale",
+          "k-Means",
+          "ANOVA and Scheffé Tests",
+          "3",
+          "Cluster 1 - Adaptive: More diverse experiences across OAHS experiences and higher confidence across ISE scales. 169 participants\n\nCluster 2 - Socially Afilliated: Higher scores on Formal and Informal Query than  Query than self-reliant. On ISE - more sharing. 134 participants\n\nCluster 3 - Self-Reliant: Better at Information Searching. Also, theses students have also shown higher confidence in ISE Usage.\n\n",
+          "- System developers could set-up multiple help-seeking channels since different students have different habits\n\n- Develop adaptive help-seeking detection and regulation mechanisms in computer environments.\n\n- Organaize tasks and pedagogies across new learning paradigms (e.g. PBL) to form a trusted online learning community - something the authors argue is bvaluable.",
+          "Authors do 2 surveys to 366 undergrads across different taiwanese institutions.\n\nFrom the surveys the authors cluster the students into 3 distinct clusters using k-means.\n\nResults show that there seem to be 3 main kinds of online help-seeking behavior and each has different preferences and psychological attributes.",
+          "- Only  considers Taiwanese Context\n\n- Only uses surveys as source of information\n\n- Only considers 3 OAHS patterns.Including more could probably lead to the creation of other categories\n\n- There does not seem to be made a normalization for different fields - groups may be overly general."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-8002-9834-f608310dea50",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8002-9834-f608310dea50",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-03-06T15:06:00.000Z",
+        "last_edited_time": "2025-03-06T15:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8084-b741-e674b4a3430d",
+      "type": "paragraph",
+      "text": "The paper explores online help-seeking on a set of taiwanese HE students. Learners were asked to answer 2 surveys. Authors create 3 clusters - Adaptive, Socially-afiliated and self-reliant.",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8084-b741-e674b4a3430d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-03-06T15:06:00.000Z",
+        "last_edited_time": "2025-03-06T15:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper explores online help-seeking on a set of taiwanese HE students. Learners were asked to answer 2 surveys. Authors create 3 clusters - Adaptive, Socially-afiliated and self-reliant.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper explores online help-seeking on a set of taiwanese HE students. Learners were asked to answer 2 surveys. Authors create 3 clusters - Adaptive, Socially-afiliated and self-reliant.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8044-b9cd-e1727ecc8aeb",
+      "type": "paragraph",
+      "text": "Clusters were later evaluated from the perspective of Internet Self-Efficacy.",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8044-b9cd-e1727ecc8aeb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-03-06T15:09:00.000Z",
+        "last_edited_time": "2025-03-06T15:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Clusters were later evaluated from the perspective of Internet Self-Efficacy.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Clusters were later evaluated from the perspective of Internet Self-Efficacy.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29e4750c-f3ba-8080-b33f-c4579765a290",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29e4750c-f3ba-8080-b33f-c4579765a290",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-11-01T15:00:00.000Z",
+        "last_edited_time": "2025-11-01T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29e4750c-f3ba-80e6-9ce7-fc45b4688df3",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29e4750c-f3ba-80e6-9ce7-fc45b4688df3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-11-01T15:00:00.000Z",
+        "last_edited_time": "2025-11-01T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/8cb2ae13-fb18-419c-9756-53bf2f1fc634/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UKCMLDSV%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152958Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCICdLXf2IF81tdKF2RfdkZGjMf9QdXLEkho8MaldHWh4MAiEAqjxKtp71Dy7fpNAk22dSeW44dCJFct7SCERVcTraDJgq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDE80CvmRIfDW5MiDvircA5hcKh7Zwhez3b2oBz6ioeoOW0F98S6RRAZXUkmVG7wjLyJLxz%2FrqFRO47Ju117dzLEdmsruqrJxW2%2FjeGtB4Kj53AJ7iQemXelmoj1ZwfKpfO6Ys5gDUyKDKTKR0AcV%2BEZXb%2BoWniZzFfyRlCWGpq3EAQcAD4FXlUQtMwuJaCS%2F63j2c555queJC0XWXLpGv4cxuw3MICZYkyctHO4ZEW%2BwMIF535YGNtPDLoq%2FedVSeMAFxv49oQy4fEiqd7txR8vJDXfriFNbZ2e%2F%2BFXhSnw6BJxgi6Is3dCLIcNPqfeHDAwhKbemkhz57ZXsa%2F82kH1msnhB05DERawpN9k4h2z7GIndy17SscuDcDyxsrMQCUzXOOS52qZDTkVTHzHePiknZb9ZguGolOO34lFR5rNcEK396bctPtraBRzIBcZ06jHGfxO%2BWSP7v6JHHZ9gj1Kzhxka6bTtYRmEu8qGam%2Bwp%2BksbIOfyz9P2YGUqZ6S0JRCHau91sBaWV%2FXjWlQr18QBorOtCs6s%2BkwbEuNDogUUBsqKn8Dy1zwBMk11sGx2mo3tZSWw0p5Rz9vsLZBziON2hAx%2BHYUh2N9LTjrxF%2FnhZUs%2Bn8UVBAr2Wg5ZFAmy5ev27DsvHilHl%2FQMJPy884GOqUBUQUMESC6hgybNVGu2cGtUgpgBmWlkXdZ4hdg6aB3cAqmr5I9rjryTt1buljQP3wzx02bxbQZhVVbshQWGRUvXSvHxeYOLkYqlnCaMVLC75NE47ztoARTI8WLNUEMHpzpaky%2BrT1gR8%2BxLKyaE0O2AkghO5yVxEGSRVskBVzfbZJ%2FFNiY64Vda4GzDSK9Okr0frdJcH6KZQIOx%2FS25KrJeYceCsrJ&X-Amz-Signature=ae9f3873d31b656fec095b7d6c4ce5d634e530efa97944d30bfb2679ae7c681b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:29:58.746Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29e4750c-f3ba-80ab-bbb7-f67c474b92a4",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "29e4750c-f3ba-80ab-bbb7-f67c474b92a4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-11-01T14:59:00.000Z",
+        "last_edited_time": "2025-11-01T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29e4750c-f3ba-804a-ac1d-fb6663002462",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29e4750c-f3ba-804a-ac1d-fb6663002462",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4f419199-3706-4650-a624-624bc63ca0c2"
+        },
+        "created_time": "2025-11-01T14:59:00.000Z",
+        "last_edited_time": "2025-11-01T15:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

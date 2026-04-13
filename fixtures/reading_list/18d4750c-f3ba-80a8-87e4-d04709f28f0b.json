@@ -1,0 +1,623 @@
+{
+  "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b",
+  "title": "Personalized Grade Prediction: A Data Mining Approach",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "409b8d70-9955-4752-9ab5-cc4191868ffd",
+          "name": "Forecasting Algorithms",
+          "color": "gray"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        },
+        {
+          "id": "403216ab-6772-4921-a58b-c7c1d01de56a",
+          "name": "Grade Prediction",
+          "color": "red"
+        },
+        {
+          "id": "27f671ba-eb9f-4b2c-a90b-de2eb4ec5419",
+          "name": "Data Mining",
+          "color": "blue"
+        },
+        {
+          "id": "6cadcb37-003f-4e0e-961f-6dcb940628fa",
+          "name": "Digital Signal Processing Education",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance” AND “Early Prediction”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE International Conference on Data Mining",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE International Conference on Data Mining",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-02T00:00:00.000+00:00",
+        "end": "2025-03-21T22:15:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Meier et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Meier et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Personalized Grade Prediction: A Data Mining Approach",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Personalized Grade Prediction: A Data Mining Approach",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1bd4750c-f3ba-80ef-b6ee-cfa5de7f6023",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Blended Learning",
+          "Final Grade in Course",
+          "Normalized Final Score (0 to 1)",
+          "700 students",
+          "Multiple Editions of one Undergraduate Digital Processing Course ",
+          "Assessment Grades",
+          "Feature vector with the grade of all assessments taken uup to the moment of prediction.",
+          "Every Week (Week 1 to Week 10)",
+          "Target score is normalized and computed as weighted sum of the gades of all moments of evaluation. \n\nAt every week, the features being considered onbly include data collected up to the moment of prediction.",
+          "ZeroR - Score of last Assessment\nThe formula for the course grading\nLinear Regression\nKNN with 7 neighbors\nNeighborhood-based Algorithm",
+          "Holdout Method",
+          "{Average Absolute Error: 0.41 - Neighborhood after Midterm - W5}",
+          "Authors introduce a new algorithm that works in the following way:\n\n1. Memorize all previous students\n2. For new student - identify most similar students in a neighborhood (using weighted-distance).\n\nInclusion of Midterm instead of Quizzes greatly increases predcitive capability. \n\nAuthors discuss the tradeoof between model performance and ability to flag learners in need early.\n\n\n\n",
+          "Work claims to be doing regression and uses regression metrics, but target seems to be grade E to A.\n\nModel optimization for benchmark models takes into consideration performance in the training data (selection of 7 neighbors).\n\nRequires learners to do badly in order to be flagged.\n\n\n\n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18e4750c-f3ba-80c6-b1fd-d8c3820010f1",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-80c6-b1fd-d8c3820010f1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+        },
+        "created_time": "2025-02-02T22:54:00.000Z",
+        "last_edited_time": "2025-02-02T22:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18e4750c-f3ba-808d-bb11-ce83d61df066",
+      "type": "paragraph",
+      "text": "Early identification of students who may underperform is relevant and, for that reason, authors propose an algorithm that predicts final grade of a student in course. The algorithm is able to identify optimal prediction and optimal moment of prediction.",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-808d-bb11-ce83d61df066",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+        },
+        "created_time": "2025-02-02T22:54:00.000Z",
+        "last_edited_time": "2025-02-02T22:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Early identification of students who may underperform is relevant and, for that reason, authors propose an algorithm that predicts final grade of a student in course. The algorithm is able to identify optimal prediction and ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Early identification of students who may underperform is relevant and, for that reason, authors propose an algorithm that predicts final grade of a student in course. The algorithm is able to identify optimal prediction and ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "optimal",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "optimal",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " moment of prediction.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " moment of prediction.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18e4750c-f3ba-80d0-9b0f-de924d2ebb8d",
+      "type": "paragraph",
+      "text": "Authors test their model on a sample of 700 undergraduate students taking an introductory digital signal processing course. Authors argue that model is effective method of early identification.",
+      "raw": {
+        "object": "block",
+        "id": "18e4750c-f3ba-80d0-9b0f-de924d2ebb8d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+        },
+        "created_time": "2025-02-02T22:58:00.000Z",
+        "last_edited_time": "2025-02-02T23:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors test their model on a sample of 700 undergraduate students taking an introductory digital signal processing course. Authors argue that model is effective method of early identification.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors test their model on a sample of 700 undergraduate students taking an introductory digital signal processing course. Authors argue that model is effective method of early identification.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1bd4750c-f3ba-8039-a07f-e63f14106a72",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1bd4750c-f3ba-8039-a07f-e63f14106a72",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+        },
+        "created_time": "2025-03-21T21:42:00.000Z",
+        "last_edited_time": "2025-03-21T21:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1bd4750c-f3ba-80ef-b6ee-cfa5de7f6023",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1bd4750c-f3ba-80ef-b6ee-cfa5de7f6023",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+        },
+        "created_time": "2025-03-21T21:42:00.000Z",
+        "last_edited_time": "2025-03-21T21:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

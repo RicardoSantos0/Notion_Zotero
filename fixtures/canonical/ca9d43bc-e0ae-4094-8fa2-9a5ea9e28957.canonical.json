@@ -1,0 +1,98 @@
+{
+  "references": [
+    {
+      "id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+      "title": "Knowledge modeling via contextualized representations for LSTM-based personalized exercise recommendation",
+      "authors": [],
+      "year": null,
+      "journal": "Information Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_848e4a36",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Content-Based Filtering",
+          "Target of Recommendation": "Exercises",
+          "Students": "4163 ASSIST09 learners, 1452 Intelligence18 learners",
+          "Courses": "Mathematics and English language courses",
+          "Data sources": "Exercise Sequence, Knowledge Components",
+          "Initialization Method": "The contextualized Q-Matrix (CQ-Matrix) is initialized by a combination of learner historical performance and expert opinions. ",
+          "Updates to Recommendations": "Each student as a set of knowledge vectors that are updated after each interaction.\n\nCold-start is handled by a “global” Knowledge Vector.",
+          "Preprocessing Details": "Logs are cleaned for missing or invalid KC mappings. \n\nThe weighted Q-Matrix is converted into a contextualized CQ-Matrix.",
+          "Recommendation types": "Top-N Exercises",
+          "Evaluation": "{Top-N Precision: 0.40 - LSTMCQP - up to 80 items}",
+          "Comments": "Authors use a Knowledge Tracing Model which serves as a foundation for a Recommender System.\n\nThe main idea is that, by identifying areas where the student is “having difficulties” and make recommendations to address that.",
+          "Limitations": "- No pre-requisite relationships between KCs. \n\n- Context is limited to performance-derived factors.\n\n- Offline validation on 2 datasets.\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+        "block_index": 7
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_fe9ff4b2",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next Exercise Correctedness",
+          "Target": "Probability of Answering Correctly",
+          "Students": "4163 ASSIST09 learners, 1452 Intelligence18 learners",
+          "Courses": "Mathematics and English language courses",
+          "Data sources": "Exercise Sequence, Knowledge Components",
+          "Features": "[Sequence of Exercises taken, Expert Derived Q-Matrices] ",
+          "Flaw of Previous Models": "Most DKT approaches are unable to fulfiil the promise of personalization without the need of adding new features - which defeats the purpose of “simpler models*.",
+          "Novelty of Model": "Authors propose the introduction of CQ-Matrix that is not derived from experts but instead from data. \n\nThis CQ-Matrix is integrated into a DKT framework with LSTM (and a personalization layer) to ensure better personalization of exercises and content.  ",
+          "Preprocessing Details": "Logs are cleaned for missing or invalid KC mappings. \n\nThe weighted Q-Matrix is converted into a contextualized CQ-Matrix.",
+          "Models": "BKT, DKT, CBQM, CBQC, LSTMCQ, LSTMCQP",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "AST09\n{AUC: 0.7388 - LSTMCQP, RMSE: 0.4189 - LSTMCQP}\n\nIntellilence18\n{AUC: 0.6896 - LSTMCQP, RMSE: 0.3173 - LSTMCQP}",
+          "Comments": "The authors propose 2 distinct algorithms for the task of KT. \n\nCBCQ is a content-based algorithm while LSTMCQP is a deep-learning based approach. \n\nAuthors test both of these models against other common baselines and find that LSTMCQP tends perform better both in terrms of RMSE and AUC. \n\nThe study does not feature an ablation study to check the influence of each component.",
+          "Limitations": "- No ablation study\n\n- Only tests against BKT and DKT as baselines (missing other relevant architectures) \n\n- No consideration of relationships between Knowledge Components\n\n-  Only 2 datasets are used. \n\n- KC mastery is determined by performance without considering the text of the exercises. "
+        }
+      ],
+      "provenance": {
+        "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9d21e058",
+      "reference_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+      "text": "ITS require good KT in order to effectively estimate students’ needs and recommend approapriate content. BKT and DKT are popular KT techniques. One of the main problems with these approaches is that KC are treated as independent entities (which is an unreasonable assumption). Authors present two approaches that contextualize KC:",
+      "provenance": {
+        "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+      }
+    },
+    {
+      "id": "an_f7b755d7",
+      "reference_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957",
+      "text": "Experiments on 2 datasets show a tangible improvement in both KT and Recommendation results. ",
+      "provenance": {
+        "page_id": "ca9d43bc-e0ae-4094-8fa2-9a5ea9e28957"
+      }
+    }
+  ],
+  "workflow_states": []
+}

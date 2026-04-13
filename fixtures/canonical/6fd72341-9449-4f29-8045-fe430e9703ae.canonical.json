@@ -1,0 +1,222 @@
+{
+  "references": [
+    {
+      "id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "title": "Detecting Learning Strategies with Analytics: Links with Self-Reported Measures and Academic Performance",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Learning Analytics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_6095cbc8",
+      "reference_task_id": null,
+      "schema_name": "Discussion",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Flipped Classroom",
+          "Students": "144 students",
+          "Courses": "1 First year Engineering Course",
+          "Data sources": "Study Process Questionnaire\nLMS\nGrades",
+          "Thereotical Model": "Bigg’s 3P Model",
+          "Features": "[seq.cluster1, seq.cluster2, seq.cluster3, seq.cluster4, seq.total ]",
+          "Preprocessing Details": "The SPQ made 20 questions and allowed the emasurement of 4 sub-scales: Deep Motivation, Deep Strategy, Surface Motivation and Surface Strategy (only 144 students actually answered).\n\nThe LMS data was collected from weeks 2-13 (only students who answered the SPQ were considered).\n\nConsecutive learning events were considered as part of the same learning session if they occured within 30 minutes.",
+          "Models": "Agglomerative Clustering - Ward",
+          "Performance Metric: Best Model": "Variable differences via de Mann Whitney U test. ",
+          "Groups Created": "4",
+          "Cluster Description": "Clusters 1 and 2 are characterized by being more active than the 3 and 4 counterparts. These students engage in much more meaningful deep learning activities (especially cluster 1). \n\nClusters 3 and 4 follow a much more surface level approach to learning, with cluster 4 being less active throughout and cluster 3 being active when it comes to summative assessments. \n\nUnsurprisingly, clsuters 1 and 2 outperform 3 and 4 both at the midterms and final exams.",
+          "Implications": "Differences were found when it comes to approaches deep approach and deep strategy. However, the logs do not provide ways of distinguishing motivation subscales or identify specifical surface approaches. \n\nProfessors can invest in delivering contents in a way that promotes deep learning approaches with more flipped classroom and active learning.\n\n\n\n",
+          "Comments": "The clustering approach is done in a twop-fold manner:\n\n1. The learning sequences were clustered first. \n2. The learning sequences were used as inputs to cluster the students.\n\nClustering of students creates 4 clusters that are sub-sequently grouped into 2 groups (Deep learners vs surface learners). Mapping the approaches to SPQ answers, it is possible to see that deep learners have a much higher DA scale on the SPQ. ",
+          "Limitations": "Questionnaire was administered at start of the course.\n\nSusceptible to self-selection bias - students who answered are more active and more likely to invest in their course.\n\nSmall sample size. "
+        }
+      ],
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+        "block_index": 51
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_737c0c0f",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Few works have compared the SRL variables extracted from logs with the SRL variables extracted from questionnaires. This work explores exactly that by lloking at a sample of 144 students attending a course that follows a flipped classroom approach. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_30938709",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Authors found that the logs allow for the distinction between deep learning approaches and surface learning approaches. The results also show that there were some associations between deep learning strategies identified in LMS vs the other methods. The same, however, cannot be said in regards to surface learning or motivation. The authors also found that students following deep approaches performed better.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_262ac402",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "While the early days of LA often involved the predictive modeling of student success, the use of advanced machine learning techniques to model students has gained significant traction.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_d7a10c58",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Multiple authors have argued that proper modelling of students, their learning processes and behaviors requires backing by educational theory. The reason for this is two-fold: First, it allows for better interpretation of the models while, simultaneously, allowing for their validation and updating. This opens opportunities for the creation of new predictors and facilitate interpretation of results. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_a0ce7089",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "There still is some tension on theory-driven techniques used in learning analytics, with the reliance in self reports being a considerable point. Moreover, a problem comes from the fact that trace data and self-reports often cannot be overlapped → learners to over-estimate their tactics. Trace data has shown to be less biased. This brings forward the notion of combining both self-reports and trace data.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_908535b2",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "The apper explores learning strategies measurable from self-reporting and trace data and their effect on student performance. Existing research shows that learners often engage in unproductive learning strategies and inneficieient use of the tools available. Unsupervised learning techniques have generaaly identified between 3 and 6 learning strategies. Results often showed that it is possible to discern differences in behavior and that it is possible to identify relationships with performance → more engagement tends to lead to better performance. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_f255bc36",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "When it comes to historical readings from students, the literature often shows that deep learning approaches often tend to lead to better student outcomes than more surface-level approaches to learning. Obsevation shows that surface approaches are more common in knowledge transmission classes while deep learning approaches were often more common in conceptual change classes.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_b05390d6",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Thue authors use a self-report instrument that tracks different approaches to learning on 4 sub-scales: Deep Motive, Deep Strategy, Surface Motive and Surface Strategy. The research questions for this study can be written as follows:",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_d3865bed",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "The course includes a fllipped classroom first-year course that lasted for 13 weeks and enrolled 290 students. The preparatory lessons included videos, MCQ, reading materials and problem sequences (the latter being used as summative assessment). Students also had access to a LA dashboard.  ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_839db2dc",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "3 sources were used. Study Process Questionnaire which was answered by 144 students. The second source were the LMS logs created during the whole duration of the course: weeks  2 to 13. The highlights the preparation for the flipped classroom lectures by the students who answered the SPQ. Exam scores were also extracted: both mid-term and final exam scores.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_fb069f70",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "As far as the data goes, the learning sequences were clustered and used subsequently to cluster students. In both cases, the authors used agglomerative clustering with ward distance. Clustering of learning sequences used Levenshtein distance (edit distance).",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_5ba633e9",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "The learning sequence clustering gets 4 clusters, and the clustering of students is based on the number learning sequences that belong to each of these clusters seq.cluster_i. The fifth feature is the total number of learning sequencves by the student.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_485fff23",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Comparisoin of student along the 6 constructs of relied on the Man Whitney U test. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_7b2fb69b",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "From the clustering of learning sequences (6196), the authors found 4 clusters:",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_18c75f21",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "As far as student clustering goes, the results also show 4 clusters:",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_8992e2f4",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "There is a distinction between approaches to learning: deep approaches come from intrinsic motivation and is characterized by critical evaluation and synthetization. Students in C1 and C2 are more engaged in general, especially on Seq1 - Formative assessment and Seq3. Reading materials. Thus, these clusters seem to follow more of a deep approach (with C1 even having advantage here). Both these clusters also perform better than their peers.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_fe02c9a6",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Cluster 3 and follow a surface aproach, with C4 being a more innactive set of students relative to C3. C3 is interpreted as trying to get good results with minimal engagement.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_1ef0d249",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Cluisters 1 and 2 were grouped into students who followed a deep approach and 3 and 4 grouped into students who follow a surface approach. These 2 new clusters were compared against one another and we see that Deep Learning approaches had considerably higher scores on the Deep Approach scale than students identified as having a Surface approach.",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_444e12b9",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Finally, the authors compare the mid-term and final exam scores of both groups, with the Deep Approach Group outperforming the Surface Approach Group on both. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_b63891d2",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "Students in the deep approach followed a variety of possible ways to engage to with the contents provided to them. This is due to the fact that deep approaches often require the exploration of both deep and surface level strategies, whereas surface level approaches often are performance oriented (not learning). ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    },
+    {
+      "id": "an_a7ca0a71",
+      "reference_id": "6fd72341-9449-4f29-8045-fe430e9703ae",
+      "text": "There are some other factors that may account for the differences in results: prior knowledge. ",
+      "provenance": {
+        "page_id": "6fd72341-9449-4f29-8045-fe430e9703ae"
+      }
+    }
+  ],
+  "workflow_states": []
+}

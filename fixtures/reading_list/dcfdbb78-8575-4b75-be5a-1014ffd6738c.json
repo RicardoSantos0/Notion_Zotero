@@ -1,0 +1,726 @@
+{
+  "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c",
+  "title": "Predicting at-risk students in the early stage of a blended learning course via machine learning using limited data",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4bac26fe-7fc6-4319-9df6-dbbeeb379386",
+          "name": "Academic Failure",
+          "color": "gray"
+        },
+        {
+          "id": "5d5b88a0-bc9b-4312-b1a8-a7cf4327b270",
+          "name": "Academic Performance Prediction",
+          "color": "gray"
+        },
+        {
+          "id": "05605f72-ab05-4ff7-8e1c-56431f387bef",
+          "name": "Motivation Regulation",
+          "color": "pink"
+        },
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "76ec2ac5-3a11-4db3-92fe-f375429f61d7",
+          "name": "Blended Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "ea2e8631-10bf-4b49-ab7b-31edb71a51bd",
+          "name": "SHAP Method",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"At-risk students\" AND \"Learning Strategies”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"At-risk students\" AND \"Learning Strategies”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education: Artificial Intelligence",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education: Artificial Intelligence",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-09-03T00:42:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Azizah et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Azizah et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting at-risk students in the early stage of a blended learning course via machine learning using limited data",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting at-risk students in the early stage of a blended learning course via machine learning using limited data",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2624750c-f3ba-804c-80fd-c333fc6b1873",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Performance on Course Exam",
+          "Pass vs Warn",
+          "424 students from Tohoku University",
+          "1 Spring Semester Course and a 1 Fall Semester Course",
+          "LMS logs",
+          "[early_learning, study_in_time, catch_up, cramming, study_again, #videos_watched, #quizzes_taken, #audio_recordings, #listener_to_native_speaker, #listener_to_recorded_audio, #learning_sessions, duration_of_engagement]",
+          "Every Week (Total 7 Periods)",
+          "Authors draw from SRL models to create 5 of the variables used. \n\nAuthors use SMOTE. Data is always Aggregated from moment 1 to moment 7.",
+          "RF-Benchmark,\nRF-Prospective",
+          "5-Fold Cross-Validation",
+          "Period 1\n{F1-Score: 0.235 - RF-Prospective, Accuracy: 0.824 - RF-Prospective, AUC: 0.559 - RF-Prospective, Precision: 0.353 - RF-Prospective, Recall: 0.176 - RF-Prospective, Specificity: 0.941 - RF-Prospective}\n\nPeriod 2\n{F1-Score: 0.431 - RF-Benchmark, Accuracy: 0.864 - RF-Prospective, AUC: 0.654 - RF-Benchmark, Precision: 0.667 - RF-Prospective, Recall: 0.380 - RF-Benchmark, Specificity: 0.979 - RF-Prospective}\n\nPeriod 3\n{F1-Score: 0.437 - RF-Benchmark, Accuracy: 0.860 - RF-Prospective, AUC: 0.670 - RF-Benchmark, Precision: 0.714 - RF-Prospective, Recall: 0.420 - RF-Benchmark, Specificity: 0.989 - RF-Prospective}\n\nPeriod 4\n{F1-Score: 0.476 - RF-Benchmark, Accuracy: 0.846 - RF-Prospective, AUC: 0.692 - RF-Benchmark, Precision: 0.500 - RF-Prospective, Recall: 0.480 - RF-Benchmark, Specificity: 0.920 - RF-Prospective}\n\nPeriod 5\n{F1-Score: 0.542 - RF-Prospective, Accuracy: 0.878 - RF-Prospective, AUC: 0.722 - RF-Benchmark, Precision: 0.640 - RF-Prospective, Recall: 0.520 - RF-Benchmark, Specificity: 0.952 - RF-Prospective}\n\nPeriod 6\n{F1-Score: 0.518 - RF-Benchmark, Accuracy: 0.882 - RF-Prospective, AUC: 0.714 - RF-Benchmark, Precision: 0750 - RF-Prospective, Recall: 0.500 - RF-Benchmark, Specificity: 0.979 - RF-Prospective}\n\nPeriod 7\n{F1-Score: 0.741 - RF-Prospective, Accuracy: 0.878 - RF-Prospective, AUC: 0.730 - RF-Benchmark, Precision: 0.706 - RF-Prospective, Recall: 0.540 - RF-Benchmark, F1-Score: 0.973 - RF-Prospective}",
+          "Authors do 2 different works:\n\n1 - A Benchmark study which, across different periods does a holdout separation using the entire sample. \n\n2 - A prospective study which usus the 2018 version of the course as trainig and the 2019 as test data.\n\nThe comparison between RF-Benchmark and RF-Prospective shows that performance is better across the board. Authors use SHAP to understand the importance of the features and find study in time as being particularly relevant.",
+          "- Small sample size\n\n- Does not consider other contexts - too course specific\n\n- Only uses RF\n\n- Does not consider additional data sources"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3b413da2-25cc-457a-a799-6b2c71b48030",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3b413da2-25cc-457a-a799-6b2c71b48030",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2024-08-06T20:41:00.000Z",
+        "last_edited_time": "2024-08-06T20:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "09f20924-251d-417b-a27c-efad7192e350",
+      "type": "paragraph",
+      "text": "Work tries to dientify students at risk in a blended learning course with limited data. The authors compare 2 approaches:",
+      "raw": {
+        "object": "block",
+        "id": "09f20924-251d-417b-a27c-efad7192e350",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2024-08-06T20:42:00.000Z",
+        "last_edited_time": "2024-08-06T20:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Work tries to dientify students at risk in a blended learning course with limited data. The authors compare 2 approaches:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Work tries to dientify students at risk in a blended learning course with limited data. The authors compare 2 approaches:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "74517e90-1b71-40fc-a583-c957570efcb0",
+      "type": "paragraph",
+      "text": "The authors extract and categorize multiple motivational variables.",
+      "raw": {
+        "object": "block",
+        "id": "74517e90-1b71-40fc-a583-c957570efcb0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2024-08-06T20:43:00.000Z",
+        "last_edited_time": "2024-08-06T20:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors extract and categorize multiple motivational variables.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors extract and categorize multiple motivational variables.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "408fb69b-b874-44c5-a48f-b139631c13fe",
+      "type": "paragraph",
+      "text": "Authors found prospective study to be in line with the benchmark study. SHAP emphaiszes importance of time management variables for early identification of students at risk. ",
+      "raw": {
+        "object": "block",
+        "id": "408fb69b-b874-44c5-a48f-b139631c13fe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2024-08-06T20:44:00.000Z",
+        "last_edited_time": "2024-08-06T20:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors found prospective study to be in line with the benchmark study. SHAP emphaiszes importance of time management variables for early identification of students at risk. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors found prospective study to be in line with the benchmark study. SHAP emphaiszes importance of time management variables for early identification of students at risk. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2624750c-f3ba-80cd-af23-eebacdb332b9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2624750c-f3ba-80cd-af23-eebacdb332b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2025-09-02T21:50:00.000Z",
+        "last_edited_time": "2025-09-02T21:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2624750c-f3ba-800b-8f65-e95c0bfd299a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2624750c-f3ba-800b-8f65-e95c0bfd299a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2025-09-02T21:50:00.000Z",
+        "last_edited_time": "2025-09-02T21:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/6b6a73c7-312b-4984-b97a-47445ca60061/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4663YMPUO2D%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153229Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIB5R3rPsCmjdoWiQ0QbLr7S5IulPmuUdg2Qh5j89DohqAiEA%2B88eE1awSIC6Z4YS%2BOpa9bYiEh2WmHo9eFNvDtiDSsAq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDBGrCtkgP9rCQsGArSrcAwTnjsbdH0VdzSWG7RFbFcvOrw9QLdXudzsHgSOXQj2tMmuX%2FkZE31KJEqxvYUfIVZscLHULEbCAVA2rg9HQZwkCGrAu6sZYWElIUVCjZ6U1c%2FalWJs%2Bf5EAXKWovKhzKfNNknY9WBsZ6%2BZCq3iNXbN2vCy3BPat1a5us0I%2BIIfH%2FFcrD0MRDPvGTBxEMmiN15XAsm5hm2jEuxrLfJQ5bp52HU4rCazc38f%2Fn1dIKNmf8IvgKqwMELm3%2FMFGzdgcr%2FR6ws3%2FNpeRi0lLFKVfrmCzcT8EnG2Cy%2BX0tmwUeT16A7xkFycLA0bAEMJWGd7TJrvwDDiyGZIUByLPB7U6TA0cLaaej0o4m6VZuKoGSqVcv%2BYsJHx1he6cc29X6lRZX1fWDfHiiNXtZWYlKypAf0T8IZdZQ2vOXGffcuw3P3R3Tc361E7%2F894Ukd71Q9A707W9ibWBj2ny7D2wS%2F4g19UVjOq8G8IZkB9G7yDktyH%2BnS1qBc%2BLTmr1fJzejQXDUi47mfeQ1m1Hf9k%2Fl0tZJEQt%2B8D0toqfh4%2Bz6lkCbiowX48v5yd%2FNkJ35kIuShEcLSt93lwWQr12hK6J4u4mwdysJcQKjikXHe3FTTbmvzTQpVXl0NPQ2bjNQmH4MMDu884GOqUBRhjKGD%2Bt77VKEgPJYpTeHa4XoG5V8Jj9WZR5wZBnCwLcW4tj6AntP%2FfSRZHdiGmxjfbDmb5TcRov47bGzuign5Vm42BWcTxkj6uIWB5NfANVENUzj%2FItG5BWFMNAeMu5wSACn5uP3SESeZZyf0ERAb2GpRtVO5DtMqsXSXiDLAnRC1jxmWZYikTxfjeUT6AOC57awDdiSCAKLlFS7Oc%2FdPkc%2FmX4&X-Amz-Signature=0136887ca84906150ef50f84ff1553552b619b56a7be733f4b06e37f7531247e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:29.230Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2624750c-f3ba-805e-851e-e8fd803f2784",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2624750c-f3ba-805e-851e-e8fd803f2784",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2025-09-02T21:33:00.000Z",
+        "last_edited_time": "2025-09-02T21:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2624750c-f3ba-804c-80fd-c333fc6b1873",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2624750c-f3ba-804c-80fd-c333fc6b1873",
+        "parent": {
+          "type": "page_id",
+          "page_id": "dcfdbb78-8575-4b75-be5a-1014ffd6738c"
+        },
+        "created_time": "2025-09-02T21:33:00.000Z",
+        "last_edited_time": "2025-09-02T21:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

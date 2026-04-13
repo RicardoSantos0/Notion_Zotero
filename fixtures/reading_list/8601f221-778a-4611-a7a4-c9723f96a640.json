@@ -1,0 +1,1598 @@
+{
+  "page_id": "8601f221-778a-4611-a7a4-c9723f96a640",
+  "title": "Hierarchical reinforcement learning with dynamic recurrent mechanism for course recommendation",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "801c9ff2-2fbf-493b-a63a-9a6ee8b2d01a",
+          "name": "Hierarchical Reinforcement Learning",
+          "color": "green"
+        },
+        {
+          "id": "70ff441a-cd09-4102-914a-d1d9c0f6a7bc",
+          "name": "Course Recommendation",
+          "color": "orange"
+        },
+        {
+          "id": "31392678-8da7-45e8-9462-8c276956d2f9",
+          "name": "Policy Gradient",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-04T23:00:00.000+00:00",
+        "end": "2025-10-25T23:46:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lin et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lin et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hierarchical reinforcement learning with dynamic recurrent mechanism for course recommendation",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hierarchical reinforcement learning with dynamic recurrent mechanism for course recommendation",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2974750c-f3ba-80b6-9546-f45264f1382a",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "MOOC",
+          "E-Learning",
+          "Hybrid",
+          "Course Recommendations",
+          "82505 MOOCCourse learners\n\n55203 MOOCCube learners",
+          "1302 + 706 courses",
+          "LMS logs, \nEnrollment History\n",
+          "- User initial states are computed from learner profile vectors (historical learning behavior, interests and knowledge coverage).\n\n- Reward scaling is initialized as 1\n\nQ-network weights are randomly initialized for both agents",
+          "- High-level agent selects a learning goal.\n\n- Low-level agent recommends a course sequence to achieve the goal.\n\n- Rewards are dynamically adjusted on learner’s engagement, completion and satiscfction after each interaction.\n\n- Policies are updated using a Dynamic Recurrent Mechanism",
+          "- Inactive users were removed, leaving in total 32000 students.\n\nCourse vectors were created using Word2Vec\n\nLearner features are normalized and concatenated with engagement metrics\n\nAuthors use Holdout Method, making the separation by Learner ID.",
+          "Top-N courses ",
+          "MOOCCourse\n{HR@10: 0.7797 - HELAR_W, HR@20: 0.8786 - HELAR_W, NDCG@10: 0.5414 - HELAR_W, NDCG@20: 0.5671 - HELAR_W}\n\nMOOCCube\n{HR@10: 0.8419 - HELAR_A, HR@20: 0.9426 - HELAR_A, NDCG@10: 0.585 - HELAR_W, NDCG@20: 0.6136 - HELAR_W}",
+          "Authors use Hierarchical Reinforcement Learning to develop a dual-based recommender system:\n\nHigher-level Agent: Decides the students’ learning goal, \n\nLower-level Agent: Recommends Specific Courses\n\nThis system outperforms multiple baselines\n\nAuthors create 2 alternative HELARs:\n\nHELAR_W → brings the Attention Coefficient into the objective function\n\nHELAR_A → Brings Attention Weight Matrix into Objective Function\n",
+          "- Model training requires enough data for 2 Q-matrices\n\n- Reward design depends on platform-specific metrics\n\n- No specific handling of cold-start scenario"
+        ]
+      ],
+      "index": 19
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ac4750c-f3ba-8012-8cf7-ea7da4c51ec3",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ac4750c-f3ba-8012-8cf7-ea7da4c51ec3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-03-04T22:59:00.000Z",
+        "last_edited_time": "2025-03-04T22:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ac4750c-f3ba-808e-acfb-d523be84f5fa",
+      "type": "paragraph",
+      "text": "The authors adddress the course selection in an online scenario problem by using Reinforcement Learning to create a dynamic representation of learners. However RL approaches often come short due to the exploration-exploitation tradeoff. Hierarchical Reinforcement Learning with Dynamic Recurrent mechanism (HELAR) includes a novel policy gradient method → a recurrent scheme that exploits current knowledge while also exploring learning preferences.",
+      "raw": {
+        "object": "block",
+        "id": "1ac4750c-f3ba-808e-acfb-d523be84f5fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-03-04T22:59:00.000Z",
+        "last_edited_time": "2025-03-04T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors adddress the course selection in an online scenario problem by using Reinforcement Learning to create a dynamic representation of learners. However RL approaches often come short due to the exploration-exploitation tradeoff. Hierarchical Reinforcement Learning with Dynamic Recurrent mechanism (HELAR) includes a novel policy gradient method → a recurrent scheme that exploits current knowledge while also exploring learning preferences.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors adddress the course selection in an online scenario problem by using Reinforcement Learning to create a dynamic representation of learners. However RL approaches often come short due to the exploration-exploitation tradeoff. Hierarchical Reinforcement Learning with Dynamic Recurrent mechanism (HELAR) includes a novel policy gradient method → a recurrent scheme that exploits current knowledge while also exploring learning preferences.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ac4750c-f3ba-80d8-925c-d350db176250",
+      "type": "paragraph",
+      "text": "Results from Backtests on 2 datasets with positive results. ",
+      "raw": {
+        "object": "block",
+        "id": "1ac4750c-f3ba-80d8-925c-d350db176250",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-03-04T23:03:00.000Z",
+        "last_edited_time": "2025-03-04T23:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results from Backtests on 2 datasets with positive results. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results from Backtests on 2 datasets with positive results. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8037-9e40-e133bc52f2bb",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8037-9e40-e133bc52f2bb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:01:00.000Z",
+        "last_edited_time": "2025-10-25T22:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/e4436707-2577-4f83-9874-f0a3f855b97d/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YK7ZMPXG%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152837Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEDLJg38Uixe3HONuqRhtDa4bjwo6BNIg%2F6qK1C9SeHlAiAGqo5hlhlawNUP0OuZMpQUwbb1rHfyr9nNRN7qnmVLECr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMNRonvEuBypySNvWZKtwDEfYTsZo4s2pytbrzRk5MAt7O1xyjD14RFG3PrEnCOUe8%2BUbO2Z2NW837FXwmvwLJFOZActvvWSuSv7ffUorb8XQOoj4rKA4fUxv4xkqrNXeJN8T0qE0GdeWCf12dhy4iz96sIrz%2B6qlcySdRkKL22LUjOVlwYwMxfEGi567yDFNFvVK6HRksKeVY94Kx1A8%2FxYUAHz5K0Yf00GilQm9rQKYL3m3hnwOrcI6tM%2BZ2UWKQpbLhmOEppZ2nKsTJwVatNbbJAbWXA%2BEh7CaTdS0jVoh%2F01wSmrGgVp1Bar9lUvw%2FJxwa6QRsjbPFSQRc%2F9pi9sylLxh8Ks1Ozk7L6Po8qYj6fG1wt25cDWQOO1hDaLT%2FBlMJk4iUYqmFj7rXK27K63S4dQ38w%2FzQWyAu7rxOITFh7KlSSFjCCZuHusrygnlCWbQWOhMXtTYMCFBA1mJMp8JTAoxhKK7yyljs2J3P5lbEzhhKe4k2nAXzqAbGQWvR2nWvE6e6aDnpXlQPsivcPKdpazGgRt%2F%2F%2FmDDJg%2FBVxz8Mepo6BK6j9LRexSUFUWhtQarUA67orQWZJlRndFc%2ByLzNexWgOvknZ%2BaggW1YugQ1w5nlPVNeW%2FGiqQCwoo7YzFztqvMqUW%2FrMkwmvLzzgY6pgGjseqwhNEhYjKQ%2B7Im7JdT9DQTKhGCi5MYpYYvxsGMFu1ciYT0Cpv0jbxIqQGZPL4etlFW17n1bqOVo8QTtB6%2F1L%2Bc%2B2jOiAXIvg%2Fe4TyAnNv0Brzzlm%2BVOgKTpfDWNMI9ps4XySzqKN84VCsMPCEd7%2BwFz3gqmoLXqFAHB%2FltexYdskVMrD8JejY1EgLH0c1ew0TSjC3CLSPVVRy7TnqgD1JwDJSy&X-Amz-Signature=14264b9e2c43d6c196eda2b6cbeae275d1d3ad7e4870a5ef64d6dc8b2c0402b2&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:28:37.109Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-807e-99d0-e0d00f55018d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-807e-99d0-e0d00f55018d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8091-a88f-efd14d483352",
+      "type": "paragraph",
+      "text": "What the paper does:",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8091-a88f-efd14d483352",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What the paper does:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What the paper does:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80ee-89fe-eb65c2f7feee",
+      "type": "paragraph",
+      "text": "Instead of recommending a single next course, this system builds a two-level decision process:",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80ee-89fe-eb65c2f7feee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Instead of recommending a single next course, this system builds a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Instead of recommending a single next course, this system builds a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "two-level decision process",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "two-level decision process",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ":",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ":",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8084-996e-c79afd02afde",
+      "type": "bulleted_list_item",
+      "text": "The upper agent decides what kind of learning goal (topic area or difficulty level) a student should pursue next.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8084-996e-c79afd02afde",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "upper agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "upper agent",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " decides ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " decides ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "what kind of learning goal",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "what kind of learning goal",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " (topic area or difficulty level) a student should pursue next.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " (topic area or difficulty level) a student should pursue next.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80df-bc89-d2e553fdb88e",
+      "type": "bulleted_list_item",
+      "text": "The lower agent then recommends specific courses to achieve that goal.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80df-bc89-d2e553fdb88e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "lower agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "lower agent",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " then recommends ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " then recommends ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "specific courses",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "specific courses",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " to achieve that goal.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " to achieve that goal.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8009-9fd4-e162a3c51e10",
+      "type": "paragraph",
+      "text": "It learns from historical behavior and continuously updates its strategy as learners engage (or disengage) with the platform.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8009-9fd4-e162a3c51e10",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It learns from historical behavior and continuously updates its strategy as learners engage (or disengage) with the platform.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It learns from historical behavior and continuously updates its strategy as learners engage (or disengage) with the platform.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8022-921a-c5f11099a6ec",
+      "type": "paragraph",
+      "text": "Why it matters:",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8022-921a-c5f11099a6ec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Why it matters:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Why it matters:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80df-9a89-ce2a1f07716f",
+      "type": "paragraph",
+      "text": "Traditional recommenders (like CF or GRU4Rec) only look at short-term clicks. Here, reinforcement learning (RL) focuses on long-term learning success—whether a student completes and benefits from a sequence of courses. The “dynamic reward adjustment” gives higher feedback when engagement increases and penalizes the agent when students drop out or rate courses poorly.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80df-9a89-ce2a1f07716f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Traditional recommenders (like CF or GRU4Rec) only look at short-term clicks. Here, reinforcement learning (RL) focuses on ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Traditional recommenders (like CF or GRU4Rec) only look at short-term clicks. Here, reinforcement learning (RL) focuses on ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "long-term learning success",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "long-term learning success",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "—whether a student completes and benefits from a sequence of courses. The “dynamic reward adjustment” gives higher feedback when engagement increases and penalizes the agent when students drop out or rate courses poorly.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "—whether a student completes and benefits from a sequence of courses. The “dynamic reward adjustment” gives higher feedback when engagement increases and penalizes the agent when students drop out or rate courses poorly.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80d4-805a-fceb3dae4ce5",
+      "type": "paragraph",
+      "text": "Main findings:",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80d4-805a-fceb3dae4ce5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Main findings:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Main findings:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-808e-ba2f-c60f848d1b2e",
+      "type": "bulleted_list_item",
+      "text": "The HRL model achieves around 10 % higher precision and recall than strong deep-learning baselines.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-808e-ba2f-c60f848d1b2e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The HRL model achieves around ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The HRL model achieves around ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "10 % higher precision and recall",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "10 % higher precision and recall",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " than strong deep-learning baselines.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " than strong deep-learning baselines.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80d6-82c4-dace6dfbea4f",
+      "type": "bulleted_list_item",
+      "text": "The dynamic reward makes it more adaptive—it notices when a learner’s motivation wanes and shifts recommendations accordingly.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80d6-82c4-dace6dfbea4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The dynamic reward makes it more ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The dynamic reward makes it more ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "adaptive",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "adaptive",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "—it notices when a learner’s motivation wanes and shifts recommendations accordingly.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "—it notices when a learner’s motivation wanes and shifts recommendations accordingly.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80c6-8279-c01c9dafc5c8",
+      "type": "bulleted_list_item",
+      "text": "This hierarchical setup models realistic learning goals better than single-step recommenders.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80c6-8279-c01c9dafc5c8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This hierarchical setup models realistic learning goals better than single-step recommenders.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This hierarchical setup models realistic learning goals better than single-step recommenders.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-807a-8548-d776fbd5ce4d",
+      "type": "paragraph",
+      "text": "Bottom line:",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-807a-8548-d776fbd5ce4d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Bottom line:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Bottom line:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80cc-8871-e796e6c6f668",
+      "type": "paragraph",
+      "text": "The system learns to recommend whole learning pathways instead of isolated courses, balancing exploration (new topics) and exploitation (familiar domains). It’s powerful but computationally demanding, requiring careful reward tuning and large-scale behavioral data.",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80cc-8871-e796e6c6f668",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T22:13:00.000Z",
+        "last_edited_time": "2025-10-25T22:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The system learns to recommend ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The system learns to recommend ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "whole learning pathways",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "whole learning pathways",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " instead of isolated courses, balancing exploration (new topics) and exploitation (familiar domains). It’s powerful but computationally demanding, requiring careful reward tuning and large-scale behavioral data.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " instead of isolated courses, balancing exploration (new topics) and exploitation (familiar domains). It’s powerful but computationally demanding, requiring careful reward tuning and large-scale behavioral data.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-8017-9f9d-e244e9d109ba",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-8017-9f9d-e244e9d109ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T18:19:00.000Z",
+        "last_edited_time": "2025-10-25T18:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2974750c-f3ba-80b6-9546-f45264f1382a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2974750c-f3ba-80b6-9546-f45264f1382a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "8601f221-778a-4611-a7a4-c9723f96a640"
+        },
+        "created_time": "2025-10-25T18:19:00.000Z",
+        "last_edited_time": "2025-10-25T22:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

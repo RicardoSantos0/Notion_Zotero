@@ -1,0 +1,95 @@
+{
+  "references": [
+    {
+      "id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "title": "Early prediction of learners at risk in self-paced education: A neural network approach",
+      "authors": [],
+      "year": null,
+      "journal": "Expert Systems with Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_c72fa8c0",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Problem is student retention in self-paced educational programs. Authors use LSTM to predict student success and achieve remarkable results on OULAD - both when using the entire dataset (84.6% accuracy) and even when only using the first 5 weeks (71% accuracy). Authors also use Shapely to identify what are the most important predictors of student retention.",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_aae397f5",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "There is smaller and smaller funding, so universities need inventive solutions to address the challenges they commonly face. Among such problems is student retention - failing and, in the most extreme cases, not concluding the cycle of studes at all. Early prediction is something that is attempted by institutions for multiple reasons: both pedagogical and administrative.",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_2ee949b6",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Most work in prediction of performance is done on MOOCs and blended courses, but vcery few is done on self-paced courses. Moreover, the techniques employed are general traditional machine learning approaches without great expansions into deep learning - with explainability being pointed as one ofd the main factors behind this.",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_81b029e1",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Thus, the aim of the paper is two-fold: ",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_d22238f3",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "The literature review section is divided into 2 main subcomponents:",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_65120ed1",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Self-paced learning allows students to be more flexible in their study. However, this often comes at the expense of decreased success, especially among those students who lack the proper self-regulated learning abilities. There is some work on self-paced learning published but not a lot in terms of self-paced.",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_e00f0e0d",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Usually there are two ways in which prediction is performed:",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_18ac6f8c",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Typical inputs: ",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    },
+    {
+      "id": "an_df3c7eef",
+      "reference_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b",
+      "text": "Modeling approaches:",
+      "provenance": {
+        "page_id": "03b10d6a-c955-46b7-b47e-6ed24bc3cb7b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

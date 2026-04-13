@@ -1,0 +1,651 @@
+{
+  "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
+  "title": "Explore Bayesian analysis in Cognitive-aware Key–Value Memory Networks for knowledge tracing in online learning",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "2f0edffe-2cfd-44c8-a269-24b45a4eb264",
+          "name": "Bayesian Optimization",
+          "color": "pink"
+        },
+        {
+          "id": "faca7a6d-43b9-43cc-b904-63550eee2fa1",
+          "name": "Personalized Learning",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\n”Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\n”Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Expert Systems With Applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Expert Systems With Applications",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T17:35:00.000+00:00",
+        "end": "2025-04-24T16:05:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zhang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zhang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Explore Bayesian analysis in Cognitive-aware Key–Value Memory Networks for knowledge tracing in online learning",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Explore Bayesian analysis in Cognitive-aware Key–Value Memory Networks for knowledge tracing in online learning",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-802f-b4b3-d2a2a72ecc5f",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Probability of Answering Next Question Correctly",
+          "Correct (1) vs Incorrect (0)",
+          "574 Algebra learners, 4151 ASSISTments2009 learners, 1709 ASSISTments2017 learners",
+          "ASSISTments, LEarners",
+          "Sequences of Answers, Problem Difficulty, LMS logs",
+          "[Student Knowledge Embeddings]",
+          "DKVMN, which are part of the state-of-the-art of KT at the time struggles is vulnerable to longer sequences.\n\nDKT achieves good performances, even with longer sequences but struggles with interpretation.\n\nBKT is the most interpretable KT model but its performance is relatively subpar in comparison with other options.",
+          "The authors introduce an LSTM module after the formation of the KV matrices.\n\nMoreover, the outputs of the LSTM module are subsequently given to a Bayesian Module which allows for greater interpretability of the model.\n",
+          "As any Key-Value Network, the model requires the building of 2 matrices: \n\nA Key-Matrix that associates questions and knowledge components - which is static\n\nA Value Matrix that suffers different sets of Erase-Write operations to model the student’s actually knowledge.\n",
+          "BKT, DKT, DKT+, DKVMN, SKVMN, enKT, BCKVMN",
+          "Holdout Method",
+          "AST09\n{AUC: 0.8649 - BCKVMN}\n\nAST17\n{AUC: 0.7757 - BCKVMN}\n\nAlgebra2005\n{AUC: 0.9662 - BCKVMN}",
+          "Authors propose new architecture and perform multipe experiments:\n\nAnalysis of effect of different parameters (d, N, lambdas)\n\nThey also tested effects of changing the size of the training data\n\nClustering of exercises.\n\nA very preliminary start at using this approach for recomendations of in-session learning paths.",
+          "Requires integration in order to be used for elarning apth recommendation. \n\nNo Cross-Validation."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8049-989d-dab0349b6fd6",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8049-989d-dab0349b6fd6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-03-12T17:34:00.000Z",
+        "last_edited_time": "2025-03-12T17:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-80cb-b901-e8ce68717feb",
+      "type": "paragraph",
+      "text": "The current KT approaches either model knowledge for different concepts separately or fail at capturing longer-term dependencies in an historical sequence of questions. To address this issue, the authors propose Bayesian Cognitive-Aware Key-Value Memory Networks, a model that combines multiple popular KT architectures (DKVMN, LSTM and Bayesian theory). ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-80cb-b901-e8ce68717feb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-03-12T17:34:00.000Z",
+        "last_edited_time": "2025-03-12T17:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The current KT approaches either model knowledge for different concepts separately or fail at capturing longer-term dependencies in an historical sequence of questions. To address this issue, the authors propose Bayesian Cognitive-Aware Key-Value Memory Networks, a model that combines multiple popular KT architectures (DKVMN, LSTM and Bayesian theory). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The current KT approaches either model knowledge for different concepts separately or fail at capturing longer-term dependencies in an historical sequence of questions. To address this issue, the authors propose Bayesian Cognitive-Aware Key-Value Memory Networks, a model that combines multiple popular KT architectures (DKVMN, LSTM and Bayesian theory). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-802c-998b-eb9ae4c6baa0",
+      "type": "paragraph",
+      "text": "In essence, longer-term dependencies are captured by introducing an LSTM layer to DKVMN. In addition, an embedding layer is used top infer question difficulty on final predictions and Bayesian theory for better parameter interpretation. Testing on different 3-real world datasets shows that the approach achieve SotA performance. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-802c-998b-eb9ae4c6baa0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-03-12T17:38:00.000Z",
+        "last_edited_time": "2025-03-12T17:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In essence, longer-term dependencies are captured by introducing an LSTM layer to DKVMN. In addition, an embedding layer is used top infer question difficulty on final predictions and Bayesian theory for better parameter interpretation. Testing on different 3-real world datasets shows that the approach achieve SotA performance. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In essence, longer-term dependencies are captured by introducing an LSTM layer to DKVMN. In addition, an embedding layer is used top infer question difficulty on final predictions and Bayesian theory for better parameter interpretation. Testing on different 3-real world datasets shows that the approach achieve SotA performance. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-8034-900e-fffb0faacf4d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-8034-900e-fffb0faacf4d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-04-24T13:58:00.000Z",
+        "last_edited_time": "2025-04-24T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-800d-8f59-d7113f09a39a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-800d-8f59-d7113f09a39a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-04-24T13:58:00.000Z",
+        "last_edited_time": "2025-04-24T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/22f15601-fccb-465e-b255-8dd697237d38/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466ZZ2L5OZR%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153110Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCjHtWZ7c80Ul647xt4l8N8L%2BkJTIoTsaorDiyUBMhMhgIhAIqQ6At6xI8O6ZcjCxD3UJOgl5HaHCZO5g9mc7vjP4MNKv8DCHcQABoMNjM3NDIzMTgzODA1IgxFciBlurSPDqaCj3Iq3AOcrbO%2FxZUY4uxx09aCDcKt6jksNYZLbC5LoJjD6U%2FjweZ99C4l1tGQQ3SNEsJFDTEOBgY5zemA0O61izgf%2BlUqm1%2F7cIPGXt0SgXELEthoZOFjEQrOPhPk%2FVJZYbObXow3J38MwFLku9gNoZ2O3RGbpXF1dbQgHqPjnjv4v4lalf5IgivqjyE6gWZQ%2FjmMtIVRSYLjOkc9fwqjeEe6IiDDLWrfeHDOZUqVX3xMeh3rxZKKnsCsCDaJQOFRgICdB7LlhpHfIrUQ8N4mZjCTSK2s1E1CiBOpdbSAdgymNVL9QusQsjVuycWWgL7HiGuwM9reu21LhQlytYf5qjR9sbziTigmx1vX8RV4XpG7KTLbreAT7w%2BD8Bglz7H83wFkIVZrgRZ%2B%2BroLi%2Bhzr50XzL2mn4N8UYSUAFAoIjfaxcZ3yxWBkXK0x%2FCtCg%2FcNa0IT4RoRLMY4fAyyqIjE8pOxq4TeG%2BAYRmZsVISBo5SwFkcygUizVtJ3uLv034FwXEdlxPpBY1kx3T4mLplpy%2BFosoq13XrGVCF6VshtQi92jg5jckM05IU%2BQDOc49eEey5OqpuWXD0VKCSaH8ZpTRCPMzU%2B34O8gSOVxZyKdJPZQSPQ9M8pAEOqpBbLLRljzD38PPOBjqkAT2QhQDSHkrHB%2FJHv9zO9JCGXUKCdD27d%2F3vUZynFB%2BqXsJqqg4G67AaKO%2B9TKgqSBioCzZSlZwGZCKxjncLVmY0Fb%2FFrv0djBQ69644Grg1hiVoRRuGgz6OWnupD2Iwb7ChxC56853UTtm5cEdjT0f7S81nxpuFoETpHZ4c6QUF4CRDykXljkUn2ahibMPm2SGNY3y7kCZaBwHXum%2BcDk%2BEQUvr&X-Amz-Signature=e5c66ccbd973394bb5f6fa7771387cad83fe65db8935114f57c66f394bbb7b24&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:31:10.185Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80e9-9e0b-e41f25f8145a",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80e9-9e0b-e41f25f8145a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-802f-b4b3-d2a2a72ecc5f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-802f-b4b3-d2a2a72ecc5f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

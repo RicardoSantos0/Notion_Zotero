@@ -1,0 +1,39 @@
+{
+  "references": [
+    {
+      "id": "999f42fe-ff92-4f62-8f87-1ffdd7edde8b",
+      "title": "Efficiency of using VNS algorithm for forming heterogeneous groups for CSCL learning",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_42c01e65",
+      "reference_id": "999f42fe-ff92-4f62-8f87-1ffdd7edde8b",
+      "text": "Authors formalize group formation as a mathematical problem and use Variable Neighborhood Search to form heterogenous groups in a collaborative setting. VNS was compared against the best results obtained by other optimization methods (CPLEX). ",
+      "provenance": {
+        "page_id": "999f42fe-ff92-4f62-8f87-1ffdd7edde8b"
+      }
+    },
+    {
+      "id": "an_2f358923",
+      "reference_id": "999f42fe-ff92-4f62-8f87-1ffdd7edde8b",
+      "text": "To show effectiveness, the authors took 3 groups of college students and, inside each group, used different algorithms to form teams of 4 in a Calculus course. Students in groups created with VNS outperformed their peers in groups formed randomly. However, the VNS groups did noty outperform the groups following ontological guidelines.  ",
+      "provenance": {
+        "page_id": "999f42fe-ff92-4f62-8f87-1ffdd7edde8b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

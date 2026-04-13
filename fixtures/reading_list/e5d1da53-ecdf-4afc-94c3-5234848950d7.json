@@ -1,0 +1,939 @@
+{
+  "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7",
+  "title": "A Fair Clustering Approach to Self-Regulated Learning Behaviors in a Virtual Learning Environment",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "e16e8c13-5f28-4c1e-86fb-32a93bb8bb95",
+          "name": "Fair Clustering",
+          "color": "orange"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "XOA;",
+        "name": "K-12",
+        "color": "purple"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "|mIX",
+        "name": "Rejected after Abstract",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-14T18:28:00.000+00:00",
+        "end": "2025-03-14T18:33:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Song et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Song et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Fair Clustering Approach to Self-Regulated Learning Behaviors in a Virtual Learning Environment",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Fair Clustering Approach to Self-Regulated Learning Behaviors in a Virtual Learning Environment",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1b64750c-f3ba-8089-9d8a-f31332c5409d",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8089-9d8a-f31332c5409d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:28:00.000Z",
+        "last_edited_time": "2025-03-14T18:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-805a-8a7d-ef0f126fb78d",
+      "type": "paragraph",
+      "text": "In K-12 there are common applications of VLE’s for classroom interaction. However, the greater success, even at this age, of using a VLE is often determined byu the learner’s SRL skills. And, while clustering techniques have been used to uncover different SRL constructs, little attention is given to algorithmic bias or fairness. ",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-805a-8a7d-ef0f126fb78d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:28:00.000Z",
+        "last_edited_time": "2025-03-14T18:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In K-12 there are common applications of VLE’s for classroom interaction. However, the greater success, even at this age, of using a VLE is often determined byu the learner’s SRL skills. And, while clustering techniques have been used to uncover different SRL constructs, little attention is given to ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In K-12 there are common applications of VLE’s for classroom interaction. However, the greater success, even at this age, of using a VLE is often determined byu the learner’s SRL skills. And, while clustering techniques have been used to uncover different SRL constructs, little attention is given to ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "algorithmic bias",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "algorithmic bias",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " or fairness. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " or fairness. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-802a-a030-f3c1c526c0d9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-802a-a030-f3c1c526c0d9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:31:00.000Z",
+        "last_edited_time": "2025-03-14T18:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-8053-9a97-d0a757601170",
+      "type": "paragraph",
+      "text": "Authors use what is called Fair Capacitated Clustering on data from 14251 learners in K-12. Results show that 3 clusters appear for high-performing students:",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8053-9a97-d0a757601170",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:31:00.000Z",
+        "last_edited_time": "2025-03-14T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use what is called Fair Capacitated Clustering on data from 14251 learners in K-12. Results show that 3 clusters appear for high-performing students:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use what is called Fair Capacitated Clustering on data from 14251 learners in K-12. Results show that 3 clusters appear for high-performing students:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-8022-8c1d-c4ff45024feb",
+      "type": "numbered_list_item",
+      "text": "Help-Providers",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8022-8c1d-c4ff45024feb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:32:00.000Z",
+        "last_edited_time": "2025-03-14T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Help-Providers",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Help-Providers",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-80c1-9e1e-c5a42bc6fa14",
+      "type": "numbered_list_item",
+      "text": "Active SRL Learner, ",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-80c1-9e1e-c5a42bc6fa14",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:32:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Active SRL Learner, ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Active SRL Learner, ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-802e-a846-f7b6401a4a61",
+      "type": "numbered_list_item",
+      "text": "Active On-looker",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-802e-a846-f7b6401a4a61",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Active On-looker",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Active On-looker",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-80fd-85a8-c43321a837b7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-80fd-85a8-c43321a837b7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-80ea-9f00-e71a5b62c16b",
+      "type": "paragraph",
+      "text": "Moreover, 3 other clusters appear for low-performing students:",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-80ea-9f00-e71a5b62c16b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, 3 other clusters appear for low-performing students:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, 3 other clusters appear for low-performing students:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-80d1-b2d1-dd2fb7fcc74a",
+      "type": "numbered_list_item",
+      "text": "Quiz-taker",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-80d1-b2d1-dd2fb7fcc74a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Quiz-taker",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Quiz-taker",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-800c-80c2-e7b5cd8c2c91",
+      "type": "numbered_list_item",
+      "text": "Dormant LEarner",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-800c-80c2-e7b5cd8c2c91",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dormant LEarner",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dormant LEarner",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-8069-b595-c0a0344478fc",
+      "type": "numbered_list_item",
+      "text": "Inactive onlooker",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8069-b595-c0a0344478fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Inactive onlooker",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Inactive onlooker",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-8099-839a-f61f7d567136",
+      "type": "numbered_list_item",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8099-839a-f61f7d567136",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e5d1da53-ecdf-4afc-94c3-5234848950d7"
+        },
+        "created_time": "2025-03-14T18:33:00.000Z",
+        "last_edited_time": "2025-03-14T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [],
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

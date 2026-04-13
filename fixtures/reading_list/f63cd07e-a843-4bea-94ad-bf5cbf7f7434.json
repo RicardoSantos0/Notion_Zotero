@@ -1,0 +1,623 @@
+{
+  "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434",
+  "title": "Centralized student performance prediction in large courses based on lowcost variables in an institutional context",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "36f480af-3e53-4dfc-9370-32c572b30ce1",
+          "name": "Prediction of Academic Performance",
+          "color": "default"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "cefa4f55-f2d0-467f-ab80-fa0e8b746ae4",
+          "name": "Post-Secondary Education",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-04-01T17:54:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Sandoval et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Sandoval et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Centralized student performance prediction in large courses based on lowcost variables in an institutional context",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Centralized student performance prediction in large courses based on lowcost variables in an institutional context",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3354750c-f3ba-80c9-81d5-cf1a256eab87",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Blended Learning",
+          "Final Grade in Course",
+          "Normalized Final Score (0 to 1)",
+          "21314 undergraduate students",
+          "811 unique undergraduate face-to-face courses with LMS support; analysis restricted to large courses (>50 enrollments)",
+          "SIS, LMS logs",
+          "[AGE, GEND, F_SCHO, HS_CGPA, EX_LEN, EX_MAT, SCHOOL, C_DURA, CRED_S, E_SEM, CGPA, WEB_READ, CONT_READ, SYLL_READ, MSG_READ, MSG_NEW, MSG_REPLY, MSG_FORW, QUIZ_SUB, AS_SUB, AS_REV, SEC_READ, FOR_READ, FOR_RESP, CHAT_NEW, POLL_VOTE, POLL_READ, NEWREAD, WIKI_READ, WIKI_REV, WIKI_NEW, PREF_UPD, PREF_ADD, PROF_PRIV, PROF_PREF]",
+          "Mid-semester and end-of-semester; authors compare prediction using only fixed data, full-term LMS data, and midterm LMS data",
+          "Data from DARA and SAKAI were integrated into a unified database. Records were cleaned for inconsistencies, recoded into standard formats, and encrypted. LMS actions by the same student of the same type within 60 seconds were collapsed into one action. Courses were filtered into three sets: Large Courses, Large Top 20%, and Large Top 10% according to enrollment size and LMS use. CGPA and LMS usage variables were z-score transformed to improve comparability across courses. Final grades were normalized to 0–1.",
+          "Linear Regression, Robust Linear Regression, Random Forest",
+          "10-Fold Cross-Validation",
+          "{RMSE: 0.0848 – Random Forest, Large Top 10%, M-LMS; RSquared: 0.6736 – Random Forest, Large Top 10%, M-LMS; R-Fscore: 0.5349 – Random Forest, Large Top 10%, M-LMS}\n\n",
+          "Main contribution is a centralized, low-cost institutional model for early identification of at-risk students in large classes. Random Forest clearly outperformed Linear Regression and Robust Linear Regression, especially when LMS data were added. Importantly, midterm LMS data performed as well as or slightly better than full-term LMS data, supporting early intervention use. Variable relevance analysis showed CGPA as the strongest predictor, followed by enrolled school; LMS variables had lower but still useful predictive value, improving RMSE by up to 12.28% according to the abstract.\n",
+          "Focused only on large face-to-face courses supported by LMS, so results may not generalize to small classes or fully online contexts. LMS variables were mostly low-level aggregated counts and reflected relatively passive LMS use. Prediction still depends strongly on prior academic performance (especially CGPA), which may limit interpretability from a learning-process perspective. The study was conducted in one university with a particular institutional context.\n\n\n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "e26a9629-d6fc-4e6f-b710-fac7527a291b",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "e26a9629-d6fc-4e6f-b710-fac7527a291b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+        },
+        "created_time": "2024-07-31T15:13:00.000Z",
+        "last_edited_time": "2024-07-31T15:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b6bb98ba-e2e1-494c-b880-ba392dcc5be2",
+      "type": "paragraph",
+      "text": "There is a plethora of studies focusing on the extraction of insights about student interaction with Learning Management Systems and its relationship to student success → problem is small samples and expensive variables. Thus, the authors use a sophisticated algorithm (unspecified) with what they call low cost variables to make early prediction of success in large courses. ",
+      "raw": {
+        "object": "block",
+        "id": "b6bb98ba-e2e1-494c-b880-ba392dcc5be2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+        },
+        "created_time": "2024-07-31T15:13:00.000Z",
+        "last_edited_time": "2024-07-31T15:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is a plethora of studies focusing on the extraction of insights about student interaction with Learning Management Systems and its relationship to student success → problem is small samples and expensive variables. Thus, the authors use a sophisticated algorithm (unspecified) with what they call ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is a plethora of studies focusing on the extraction of insights about student interaction with Learning Management Systems and its relationship to student success → problem is small samples and expensive variables. Thus, the authors use a sophisticated algorithm (unspecified) with what they call ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "low cost",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "low cost",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " variables to make early prediction of success in large courses. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " variables to make early prediction of success in large courses. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a26675d3-2cd2-421b-b896-866cd02e6d71",
+      "type": "paragraph",
+      "text": "Results show that this model outperforms other alternatives. Moreover, adding LMS data also improved the performance of the predictive model by close to 12%. This is a regression problem.",
+      "raw": {
+        "object": "block",
+        "id": "a26675d3-2cd2-421b-b896-866cd02e6d71",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+        },
+        "created_time": "2024-07-31T15:16:00.000Z",
+        "last_edited_time": "2024-07-31T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that this model outperforms other alternatives. Moreover, adding LMS data also improved the performance of the predictive model by close to 12%. This is a regression problem.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that this model outperforms other alternatives. Moreover, adding LMS data also improved the performance of the predictive model by close to 12%. This is a regression problem.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-803b-970d-e08f8cc39cf3",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-803b-970d-e08f8cc39cf3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+        },
+        "created_time": "2026-04-01T16:48:00.000Z",
+        "last_edited_time": "2026-04-01T16:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-80c9-81d5-cf1a256eab87",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-80c9-81d5-cf1a256eab87",
+        "parent": {
+          "type": "page_id",
+          "page_id": "f63cd07e-a843-4bea-94ad-bf5cbf7f7434"
+        },
+        "created_time": "2026-04-01T16:48:00.000Z",
+        "last_edited_time": "2026-04-01T16:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

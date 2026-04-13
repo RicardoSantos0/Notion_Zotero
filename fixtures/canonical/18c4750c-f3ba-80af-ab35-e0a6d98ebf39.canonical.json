@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39",
+      "title": "Credit hours is not enough: Explaining undergraduate perceptions of course workload using LMS records",
+      "authors": [],
+      "year": null,
+      "journal": "The Internet and Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b30d23ec",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "128 learners",
+          "Courses": "3724 UC Berkeley Courses",
+          "Data sources": "LMS logs, Enrollment Data, Questionnaires",
+          "Theoretical Grounding": "Course Workload Assessment Technique",
+          "Features": "[Average size of original posts, Numberr of Original Forum Posts, Number of OPriginal Top Forum Posts, Original Forum Posts per Student, TA/Instructoir Posts per Student, Average Forum Reply Time, %of students with replies, Average Size of Submission Comments, Number of Submission Comments per Student, %Submissions with Comments, Assignment Spread, Parallel Assignments, Course Assignments, Graded Course Assignments, Graded Course Assignments per Week, Most Graded Course Assigments per Week, Submission Time to Deadline, early Assignment Availability Ratio, early Assignment Availability Time, Dropout Ratio Q1, Q2, Q3, 4, Satisfied Prerequisites, Student Course STEM Match, Course credit Hours, Course GPA Spring 2021, GPA Standard Deviation for Course, Course was STEM, Number of Course Pre-Requisites, % Pass and Satisfactory among Non-Letter Grades, Course had No Letter Grades, No LMS Assignments, No LMS Assignments with Due, No LMS Assignments with Due + Unlock, No LMS Forum, No LMS Submissions, Multiple LMS Courses Concatenated]",
+          "Preprocessing Details": "Data is collected from all sources and aggregated. Final dataset has each row refer to a learner-course pairing. \n\nAnalysis starts with the creation of different linear models with different feature sets:\n\nIndividual Student Features from Enrollment, Course and Pre-requisite based features, Features based on prior student GPA, Feautres based on prior course GPA.\n\nDropout status of students was included as feature in a model.\n\nAssignments were filtered in order make asure all assignments considered had, at least, one submission. Authors also created a set of control variables.\n\nSTEM status for all courses was encoded manually.\n\nVariables whose Variance Inflation Factor was below 10 were excluded. ",
+          "Models": "Linear Mixed Models",
+          "Performance Metric: Best Model": "{R-Squared: 0.45 - LMS + Individual Features}",
+          "Groups Created": "NA",
+          "Cluster Description": "NA",
+          "Implications": "Authors argue that ECTS are a bad predictor of the effort put by students into their studies. Instead, the authors argue that other indicators, such as the number of deliverables in the course should be used:\n\nThe more deliverables, the more the perceived effort the studuent needs to put into the course.\n\nTime load is a determinant for elective course selection and should be treated accordingly.",
+          "Comments": "LMS features re collected at the course level.\n\n3 Mixed Linear models were created:\n\n- Time load, \n- Mental Effort,\n- Psychological Stress\n\nThe authors show that the models containing these feature sets far surpass the expectations of effort students have about course load relative to ECTS.",
+          "Limitations": "Limited access to other likely predictors of course load such as lecture materials or Zoom calls.\n\nCourse load evaluations were done post-hoc, which may not be an accurate representation → peak-end rule.\n\nNeed to validate in additional cultural contexts. \n\nSample was collected during Covid era - whuch may not be representative of workload in face-to-face contexts. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39",
+        "block_index": 3
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c9a497a0",
+      "reference_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39",
+      "text": "This study measures the degree to which student perception of the time they need to spend on a course actually maps to the credit hours expected for a specific course. Authors compare whether credit hours explain student effort (don’t seem to), as the number of deliverables student need to do actually is a much better predictor. Authors argue for the adoption of a new construct of course load than credit hours. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80af-ab35-e0a6d98ebf39"
+      }
+    }
+  ],
+  "workflow_states": []
+}

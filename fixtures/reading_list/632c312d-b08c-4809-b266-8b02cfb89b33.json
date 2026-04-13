@@ -1,0 +1,2984 @@
+{
+  "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33",
+  "title": "A multivariate approach to predicting student outcomes in web-enabled blended learning courses",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "76ec2ac5-3a11-4db3-92fe-f375429f61d7",
+          "name": "Blended Learning",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zacharis",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zacharis",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A multivariate approach to predicting student outcomes in web-enabled blended learning courses",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A multivariate approach to predicting student outcomes in web-enabled blended learning courses",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "35c6f753-2739-47d6-a56e-1d2619166dfc",
+      "heading": "Implications",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Blended Learning",
+          "Final Grade in the Course",
+          "Final Grade (0 to 10)",
+          "134",
+          "1 Introduction to Computer Science using Java Course",
+          "LMS",
+          "[Reading and posting messages (RePo messages), Wiki edit, Content creation contribution (CCC), Mail messages read (user view), Assignments submitted (assign submit), Quiz engagement (quiz efforts), Blog update, Files viewed, Web links viewed (page view + url view), Total time online, Total LMS hits, Wiki view, Online sessions, Forum add post, Assessments started, Blog view, Wiki add page, Quiz continue attempt, Chat view, Resource view, Quiz close attempt, Accesses to grades tool (assign view), Course view, Quiz attempt, Forum view discussion, Quiz view, Quiz review, Chat talk, Assignment view]",
+          "End of Course",
+          "Variable Extraction required the definition of sessions and the computation of time online.\n\nMany similar activities were summed together into a variable. These aggregate variables’s effectiveness was analyzed and compared against the individual features.\n\nFeature Selection was performed using the Pearson correlation with Final Grade - 14 variables survived.\n\nRegression analysis was performed and 4 variables survived for best model. ",
+          "Linear Regression",
+          "10-Fold Cross Validation",
+          "{MAE: 1.0097, RMSE: 1.2633}",
+          "The authors avoid the use of any self-report measures due to their biased nature. \n\n29 variables are extracted from the LMS and 14 exhibited significant correlation with the target.\n\n4 variables led to construction of best model: RePo Messages, CCC, Quizz Efforts, Files Viewed → all aggregate variables were mantained showcasing that this form of aggregation by use is a worthwhile endeavor.\n\nAfter selection, the authors created a Linear REgression with the 4 variables that achieved 1.0097 MAE.\n\n",
+          "Knowledge required to use Data Mining Tools.\n\nSmall sample size of homogenous characteristics.\n\nSingle course.\n\nOnly uses LMS data.\n\nNo analysis of the contents of text messages."
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Final Grade in the Course",
+          "At risk (0) vs Not at risk (1)",
+          "134",
+          "1 Introduction to Computer Science using Java Course",
+          "LMS",
+          "[Reading and posting messages (RePo messages), Wiki edit, Content creation contribution (CCC), Mail messages read (user view), Assignments submitted (assign submit), Quiz engagement (quiz efforts), Blog update, Files viewed, Web links viewed (page view + url view), Total time online, Total LMS hits, Wiki view, Online sessions, Forum add post, Assessments started, Blog view, Wiki add page, Quiz continue attempt, Chat view, Resource view, Quiz close attempt, Accesses to grades tool (assign view), Course view, Quiz attempt, Forum view discussion, Quiz view, Quiz review, Chat talk, Assignment view]",
+          "End of Course",
+          "Variable Extraction required the definition of sessions and the computation of time online.\n\nMany similar activities were summed together into a variable. These aggregate variables’s effectiveness was analyzed and compared against the individual features.\n\nFeature Selection was performed using the Pearson correlation with Final Grade - 14 variables survived.\n\nRegression analysis was performed and 4 variables survived for best model. ",
+          "Logistic Regression",
+          "None",
+          "{Accuracy: 0.813 - LR}",
+          "4 variables used\n\nIn addition, while the Linear REgression did follow cross-validation, the confusion matrix hints at no explicit model assessment strategy being used. After all, the model made predictions for all students in sample.",
+          "Classification problem was evaluated on the data used to train the Linear Regression. "
+        ]
+      ],
+      "index": 51
+    }
+  ],
+  "blocks": [
+    {
+      "id": "f34798d5-9157-417b-8f7a-29db670efffd",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "f34798d5-9157-417b-8f7a-29db670efffd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-07-30T15:50:00.000Z",
+        "last_edited_time": "2024-07-30T15:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a7f94835-aa6a-4e9c-9be1-186283b051e8",
+      "type": "paragraph",
+      "text": "Standard Analytics work of predicting Performance from LMS logs in a blended-course. Authors extract 29 variables from the LMS and use it to predict student final grade using a Stepwise Multivariate Regression. R-Squared analysis on the 14 significant variables explains 52% of the variance in the student’s final grade. Abstract makes no mention on early prediction.",
+      "raw": {
+        "object": "block",
+        "id": "a7f94835-aa6a-4e9c-9be1-186283b051e8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-07-30T15:51:00.000Z",
+        "last_edited_time": "2024-07-30T15:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Standard Analytics work of predicting Performance from LMS logs in a blended-course. Authors extract 29 variables from the LMS and use it to predict student final grade using a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Standard Analytics work of predicting Performance from LMS logs in a blended-course. Authors extract 29 variables from the LMS and use it to predict student final grade using a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Stepwise Multivariate Regression",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Stepwise Multivariate Regression",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". R-Squared analysis on the 14 significant variables explains 52% of the variance in the student’s final grade. Abstract makes no mention on early prediction.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". R-Squared analysis on the 14 significant variables explains 52% of the variance in the student’s final grade. Abstract makes no mention on early prediction.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "618c56cf-c53f-4814-864d-6d65f873b1ff",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "618c56cf-c53f-4814-864d-6d65f873b1ff",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T16:26:00.000Z",
+        "last_edited_time": "2024-08-28T16:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d4a7e3f4-c3d7-4cc6-836f-840c2863b5e8",
+      "type": "paragraph",
+      "text": "Modern universities have the ability to create online learning experiences. These experiences allow learners to learn at their own pace and collaborate with other learners. web-based modules also allow to design more student centered content delivery methods. Remote learning also has challenges: educators cannot take emotional cues from face-to-face classes to understand struggling students. Thus, educators need to devise learning activities that promote engagement and SRL skills to be successful.",
+      "raw": {
+        "object": "block",
+        "id": "d4a7e3f4-c3d7-4cc6-836f-840c2863b5e8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T16:29:00.000Z",
+        "last_edited_time": "2024-08-28T17:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Modern universities have the ability to create online learning experiences. These experiences allow learners to learn at their own pace and collaborate with other learners. web-based modules also allow to design more student centered content delivery methods. Remote learning also has challenges: educators cannot take emotional cues from face-to-face classes to understand struggling students. Thus, educators need to devise learning activities that promote engagement and SRL skills to be successful.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Modern universities have the ability to create online learning experiences. These experiences allow learners to learn at their own pace and collaborate with other learners. web-based modules also allow to design more student centered content delivery methods. Remote learning also has challenges: educators cannot take emotional cues from face-to-face classes to understand struggling students. Thus, educators need to devise learning activities that promote engagement and SRL skills to be successful.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2129c37e-4d8d-4d5b-838c-f6531c8984a8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2129c37e-4d8d-4d5b-838c-f6531c8984a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:05:00.000Z",
+        "last_edited_time": "2024-08-28T17:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "88fc659d-8728-4ba5-b085-4f29f953cba0",
+      "type": "paragraph",
+      "text": "Online enviroments have the capacity to allow the delivery of contents in different types to cater to different learner preferences while also allowing learners to be more self-directed in their learning. However, online courses still have considerably higher rates of dropout than their face-to-face counterparts. ",
+      "raw": {
+        "object": "block",
+        "id": "88fc659d-8728-4ba5-b085-4f29f953cba0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:05:00.000Z",
+        "last_edited_time": "2024-08-28T17:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online enviroments have the capacity to allow the delivery of contents in different types to cater to different learner preferences while also allowing learners to be more self-directed in their learning. However, online courses still have considerably higher rates of dropout than their face-to-face counterparts. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online enviroments have the capacity to allow the delivery of contents in different types to cater to different learner preferences while also allowing learners to be more self-directed in their learning. However, online courses still have considerably higher rates of dropout than their face-to-face counterparts. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "70171e7a-7198-459b-9a0e-0d0780009543",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "70171e7a-7198-459b-9a0e-0d0780009543",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:08:00.000Z",
+        "last_edited_time": "2024-08-28T17:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bc4b4cf8-bf0d-4883-aca0-99365c7a5962",
+      "type": "paragraph",
+      "text": "Contexts that combine standard Face-to-face with online learning platforms have shown to be at least as effective as full face-to-face. The interaction with the teacher is seen as the likely cause for this observation. Because there is more data, the author argues that the b-learning workflow should include analysis of online student activities - in the LMS. ",
+      "raw": {
+        "object": "block",
+        "id": "bc4b4cf8-bf0d-4883-aca0-99365c7a5962",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:08:00.000Z",
+        "last_edited_time": "2024-08-28T17:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Contexts that combine standard Face-to-face with online learning platforms have shown to be at least as effective as full face-to-face. The interaction with the teacher is seen as the likely cause for this observation. Because there is more data, the author argues that the b-learning workflow should include analysis of online student activities - in the LMS. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Contexts that combine standard Face-to-face with online learning platforms have shown to be at least as effective as full face-to-face. The interaction with the teacher is seen as the likely cause for this observation. Because there is more data, the author argues that the b-learning workflow should include analysis of online student activities - in the LMS. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b33171e7-2676-43aa-bb27-a24ab4222d23",
+      "type": "paragraph",
+      "text": "Tracking of LMS activities has been previously explored by this time to predict student performance. Current challenges involve choosing correct set of predictors → in many cases this decision is ontology-basedbut lacking validation on real data. To address this issue, the author extracts 29 variables from the LMS and found 14 to be significant to creating a predictive model that predicts Final Grade. ",
+      "raw": {
+        "object": "block",
+        "id": "b33171e7-2676-43aa-bb27-a24ab4222d23",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:10:00.000Z",
+        "last_edited_time": "2024-08-28T17:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Tracking of LMS activities has been previously explored by this time to predict student performance. Current challenges involve choosing correct set of predictors → in many cases this decision is ontology-basedbut lacking validation on real data. To address this issue, the author extracts 29 variables from the LMS and found 14 to be significant to creating a predictive model that predicts ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Tracking of LMS activities has been previously explored by this time to predict student performance. Current challenges involve choosing correct set of predictors → in many cases this decision is ontology-basedbut lacking validation on real data. To address this issue, the author extracts 29 variables from the LMS and found 14 to be significant to creating a predictive model that predicts ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Final Grade. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Final Grade. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a306e7fa-09e8-4ca4-b4e7-d79d3cf19689",
+      "type": "heading_3",
+      "text": "LMS and B-Learning",
+      "raw": {
+        "object": "block",
+        "id": "a306e7fa-09e8-4ca4-b4e7-d79d3cf19689",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:09:00.000Z",
+        "last_edited_time": "2024-08-29T16:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LMS and B-Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LMS and B-Learning",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e9ec67d8-8499-48fc-8efc-e5a0608240ad",
+      "type": "paragraph",
+      "text": "Common sense says that full-time online students have higher dropout rates than their peers. Still, there is potential as the maturation of e-learning tools allows for the design of differnt learning experiences to suit learner needs. ",
+      "raw": {
+        "object": "block",
+        "id": "e9ec67d8-8499-48fc-8efc-e5a0608240ad",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:09:00.000Z",
+        "last_edited_time": "2024-08-29T18:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Common sense says that full-time online students have higher dropout rates than their peers. Still, there is potential as the maturation of e-learning tools allows for the design of differnt learning experiences to suit learner needs. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Common sense says that full-time online students have higher dropout rates than their peers. Still, there is potential as the maturation of e-learning tools allows for the design of differnt learning experiences to suit learner needs. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "45a5797d-a5ee-4ff6-a8fa-ad28180a5678",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "45a5797d-a5ee-4ff6-a8fa-ad28180a5678",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:37:00.000Z",
+        "last_edited_time": "2024-08-29T18:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "07666425-6106-4575-8bcd-095ba50a2098",
+      "type": "paragraph",
+      "text": "B-Learning Course Design",
+      "raw": {
+        "object": "block",
+        "id": "07666425-6106-4575-8bcd-095ba50a2098",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:37:00.000Z",
+        "last_edited_time": "2024-08-29T18:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "B-Learning Course Design",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "B-Learning Course Design",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e6b8a5e3-8b3a-4932-92e0-7b65d538ffcb",
+      "type": "paragraph",
+      "text": "B-Learniong combines F2F with online in a transformative manner → not only as repository for slides for example. More than just knowledge transmitters, professors in this paradigm take more of a role of facilitators or mentors. According to the author, B-Learning supposes Active Learning. Guidelines on effective course design involve dividing materials into chunks and providing multiple forms of content delivery (videos, audios, etc…).  Regular feedback is also a part of the mix.",
+      "raw": {
+        "object": "block",
+        "id": "e6b8a5e3-8b3a-4932-92e0-7b65d538ffcb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:37:00.000Z",
+        "last_edited_time": "2024-08-29T18:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "B-Learniong combines F2F with online in a transformative manner → not only as repository for slides for example. More than just knowledge transmitters, professors in this paradigm take more of a role of facilitators or mentors. According to the author, B-Learning supposes ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "B-Learniong combines F2F with online in a transformative manner → not only as repository for slides for example. More than just knowledge transmitters, professors in this paradigm take more of a role of facilitators or mentors. According to the author, B-Learning supposes ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Active Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Active Learning",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". Guidelines on effective course design involve dividing materials into chunks and providing multiple forms of content delivery (videos, audios, etc…).  Regular feedback is also a part of the mix.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". Guidelines on effective course design involve dividing materials into chunks and providing multiple forms of content delivery (videos, audios, etc…).  Regular feedback is also a part of the mix.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "87efe2bd-416c-45eb-a69b-668a270f0956",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "87efe2bd-416c-45eb-a69b-668a270f0956",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:41:00.000Z",
+        "last_edited_time": "2024-08-29T18:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10c1d952-d3b1-41b9-9428-cda3bc036fd4",
+      "type": "paragraph",
+      "text": "LMS and B-Learning",
+      "raw": {
+        "object": "block",
+        "id": "10c1d952-d3b1-41b9-9428-cda3bc036fd4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:41:00.000Z",
+        "last_edited_time": "2024-08-29T18:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LMS and B-Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LMS and B-Learning",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d0059197-d47a-4710-96cf-cc340da7ef5c",
+      "type": "paragraph",
+      "text": "LMS centralize and automate the delivery of learning materials, facilitating communication, assessment and, if need be, administration. They also have built-in mechanisms to facilitate discussion between students and other stakeholders → professors, groups, peers. The asynchronous and synchronous tools that exist in LMS allow for access to learning materials and/or collaboration. Due to the flexibility, student satisfaction with B-Learning approaches is rather high. ",
+      "raw": {
+        "object": "block",
+        "id": "d0059197-d47a-4710-96cf-cc340da7ef5c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:41:00.000Z",
+        "last_edited_time": "2024-08-29T18:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LMS centralize and automate the delivery of learning materials, facilitating communication, assessment and, if need be, administration. They also have built-in mechanisms to facilitate discussion between students and other stakeholders → professors, groups, peers. The asynchronous and synchronous tools that exist in LMS allow for access to learning materials and/or collaboration. Due to the flexibility, student satisfaction with ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LMS centralize and automate the delivery of learning materials, facilitating communication, assessment and, if need be, administration. They also have built-in mechanisms to facilitate discussion between students and other stakeholders → professors, groups, peers. The asynchronous and synchronous tools that exist in LMS allow for access to learning materials and/or collaboration. Due to the flexibility, student satisfaction with ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "B-Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "B-Learning",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " approaches is rather high. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " approaches is rather high. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d1297c75-c646-4456-a4b0-34acf005e53e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "d1297c75-c646-4456-a4b0-34acf005e53e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T18:58:00.000Z",
+        "last_edited_time": "2024-08-29T18:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7aa65c7b-5269-40d0-8631-e3d520133c7f",
+      "type": "paragraph",
+      "text": "When it comes to data, LMS are rich sources as they record the logs for every interaction done with the system. When there is enough data, teachers can leverage those records and automate systems to predict e.g. student performance. Key variables being measured by researchers include engagement, participation and effort. ",
+      "raw": {
+        "object": "block",
+        "id": "7aa65c7b-5269-40d0-8631-e3d520133c7f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T17:06:00.000Z",
+        "last_edited_time": "2024-08-29T19:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to data, LMS are rich sources as they record the logs for every interaction done with the system. When there is enough data, teachers can leverage those records and automate systems to predict e.g. student performance. Key variables being measured by researchers include ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to data, LMS are rich sources as they record the logs for every interaction done with the system. When there is enough data, teachers can leverage those records and automate systems to predict e.g. student performance. Key variables being measured by researchers include ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "engagement",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "engagement",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "participation",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "participation",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " and ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " and ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "effort",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "effort",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8d183d9a-5435-4d60-b55a-7073a6d90f58",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8d183d9a-5435-4d60-b55a-7073a6d90f58",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T19:01:00.000Z",
+        "last_edited_time": "2024-08-29T19:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b4660066-ce9c-4ef6-90c5-e8b200c1fb1d",
+      "type": "paragraph",
+      "text": "Instructional Design and Participation",
+      "raw": {
+        "object": "block",
+        "id": "b4660066-ce9c-4ef6-90c5-e8b200c1fb1d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T19:01:00.000Z",
+        "last_edited_time": "2024-08-29T19:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Instructional Design and Participation",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Instructional Design and Participation",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f0edb8f8-e002-4b5a-9400-9bc040720c2d",
+      "type": "paragraph",
+      "text": "Not all teaching methods are conducive to having interactions with the LMS represent actual learning activities, especially if there are face-to-face components taking the brunt. When the interactions occur is also telling: some authors identified that foruym posts increased dramatically in weeks when an assignment was due. ",
+      "raw": {
+        "object": "block",
+        "id": "f0edb8f8-e002-4b5a-9400-9bc040720c2d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T19:02:00.000Z",
+        "last_edited_time": "2024-08-29T19:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Not all teaching methods are conducive to having interactions with the LMS represent actual learning activities, especially if there are face-to-face components taking the ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Not all teaching methods are conducive to having interactions with the LMS represent actual learning activities, especially if there are face-to-face components taking the ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "brunt. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "brunt. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "When the interactions occur is also telling: some authors identified that foruym posts increased dramatically in weeks when an assignment was due. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When the interactions occur is also telling: some authors identified that foruym posts increased dramatically in weeks when an assignment was due. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "80c53779-3924-4fba-ade9-c7e361a7898a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "80c53779-3924-4fba-ade9-c7e361a7898a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T19:04:00.000Z",
+        "last_edited_time": "2024-08-29T19:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c6bd8334-db9e-43d7-8067-5b7153b91a50",
+      "type": "paragraph",
+      "text": "Social Learning Analytics",
+      "raw": {
+        "object": "block",
+        "id": "c6bd8334-db9e-43d7-8067-5b7153b91a50",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T16:42:00.000Z",
+        "last_edited_time": "2024-08-29T21:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Social Learning Analytics",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Social Learning Analytics",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e3831a76-f2e1-4095-ac5b-393b66072058",
+      "type": "paragraph",
+      "text": "There is an inherent difficulty in properly modelling the learning process in tertiary education due to amount of variables and factors that determine learning. Learning can be understood as a combination of SRL skills, behavior, motivation, cognitive ability and learner preferences. This however is not the only perspective → attitudes towards learning in group can also play a role in this. ",
+      "raw": {
+        "object": "block",
+        "id": "e3831a76-f2e1-4095-ac5b-393b66072058",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:14:00.000Z",
+        "last_edited_time": "2024-08-29T21:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is an inherent difficulty in properly modelling the learning process in tertiary education due to amount of variables and factors that determine learning. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is an inherent difficulty in properly modelling the learning process in tertiary education due to amount of variables and factors that determine learning. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " can be understood as a combination of SRL skills, behavior, motivation, cognitive ability and learner preferences. This however is not the only perspective → attitudes towards learning in group can also play a role in this. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " can be understood as a combination of SRL skills, behavior, motivation, cognitive ability and learner preferences. This however is not the only perspective → attitudes towards learning in group can also play a role in this. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "ad187041-c2f7-4d5a-a0ef-a27a9ff330b2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "ad187041-c2f7-4d5a-a0ef-a27a9ff330b2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:18:00.000Z",
+        "last_edited_time": "2024-08-29T21:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a2391b9e-a213-4219-8c8a-e013dac243e0",
+      "type": "paragraph",
+      "text": "The study at hand intends to replicate the work by MacFadyen and Dawson in 2010 but in a B-Learning Setting.",
+      "raw": {
+        "object": "block",
+        "id": "a2391b9e-a213-4219-8c8a-e013dac243e0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:18:00.000Z",
+        "last_edited_time": "2024-08-29T21:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The study at hand intends to replicate the work by MacFadyen and Dawson in 2010 but in a B-Learning Setting.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The study at hand intends to replicate the work by MacFadyen and Dawson in 2010 but in a B-Learning Setting.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a87c178b-4095-4835-8d1a-c5578d384b45",
+      "type": "heading_3",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "a87c178b-4095-4835-8d1a-c5578d384b45",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:16:00.000Z",
+        "last_edited_time": "2024-08-29T21:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "add9470a-5944-45fc-a2f5-12ad0f0cae09",
+      "type": "paragraph",
+      "text": "The work is divided into 3 stages:",
+      "raw": {
+        "object": "block",
+        "id": "add9470a-5944-45fc-a2f5-12ad0f0cae09",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:19:00.000Z",
+        "last_edited_time": "2024-08-29T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work is divided into 3 stages:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work is divided into 3 stages:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9a0f25f9-59ce-49ae-83fe-7a01af841d98",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9a0f25f9-59ce-49ae-83fe-7a01af841d98",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:29:00.000Z",
+        "last_edited_time": "2024-08-29T21:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4ab5b878-1ce0-4f94-9355-170b3b64d9fb",
+      "type": "paragraph",
+      "text": "The course is an Introductory Java Course that is fully organized to suit B-Learning… Materials, forums, etc… are all available. The authors extracted the logs for whole semester and created 29 features from the logs.",
+      "raw": {
+        "object": "block",
+        "id": "4ab5b878-1ce0-4f94-9355-170b3b64d9fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:27:00.000Z",
+        "last_edited_time": "2024-08-29T21:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The course is an Introductory Java Course that is fully organized to suit B-Learning… Materials, forums, etc… are all available. The authors extracted the logs for whole semester and created 29 features from the logs.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The course is an Introductory Java Course that is fully organized to suit B-Learning… Materials, forums, etc… are all available. The authors extracted the logs for whole semester and created 29 features from the logs.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e508d946-1c51-40ac-805c-bd04d3f01588",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e508d946-1c51-40ac-805c-bd04d3f01588",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:32:00.000Z",
+        "last_edited_time": "2024-08-29T21:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b27a5f66-77ad-4711-9149-84fdb2a862e5",
+      "type": "paragraph",
+      "text": "Sessions and time per activity were defined under specific rules. In addition, a variable called RePoMessages represented the sum of all reading and posting of messages on all media. All aggregate variables were tested and compared against the individual variables that made them. Subsequently, these variables were given to the models: Multiple Linear Regression and LR.",
+      "raw": {
+        "object": "block",
+        "id": "b27a5f66-77ad-4711-9149-84fdb2a862e5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:32:00.000Z",
+        "last_edited_time": "2024-08-29T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Sessions and time per activity were defined under specific rules. In addition, a variable called ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Sessions and time per activity were defined under specific rules. In addition, a variable called ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "RePoMessages",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "RePoMessages",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " represented the sum of all reading and posting of messages on all media. All aggregate variables were tested and compared against the individual variables that made them. Subsequently, these variables were given to the models: Multiple Linear Regression and LR.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " represented the sum of all reading and posting of messages on all media. All aggregate variables were tested and compared against the individual variables that made them. Subsequently, these variables were given to the models: Multiple Linear Regression and LR.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "12260b4f-7618-4e7d-89ed-8704381c5792",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "12260b4f-7618-4e7d-89ed-8704381c5792",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:37:00.000Z",
+        "last_edited_time": "2024-08-29T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "13494b87-5bf8-4e1d-b8d0-3a4264986675",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "13494b87-5bf8-4e1d-b8d0-3a4264986675",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:37:00.000Z",
+        "last_edited_time": "2024-08-29T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "57dad13f-7e72-4f23-99b3-c1c6425d6187",
+      "type": "paragraph",
+      "text": "Results for Correlation Analysis resulted in 14 variables being selected. Interestingly most aggregate variables were mantained while individual variables were removed as they did not reach the p-value < 0.05 threshold. Out of 29 actions/variables examined, one demonstrated a strong effect size (R = 0.60–0.79), two showed a moderate effect size (R = 0.40–0.59) and eight had a weak effect size (R = 0.20–0.39)",
+      "raw": {
+        "object": "block",
+        "id": "57dad13f-7e72-4f23-99b3-c1c6425d6187",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:27:00.000Z",
+        "last_edited_time": "2024-08-29T21:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results for Correlation Analysis resulted in 14 variables being selected. Interestingly most aggregate variables were mantained while individual variables were removed as they did not reach the p-value < 0.05 threshold. Out of 29 actions/variables examined, one demonstrated a strong effect size (R = 0.60–0.79), two showed a moderate effect size (R = 0.40–0.59) and eight had a weak effect size (R = 0.20–0.39)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results for Correlation Analysis resulted in 14 variables being selected. Interestingly most aggregate variables were mantained while individual variables were removed as they did not reach the p-value < 0.05 threshold. Out of 29 actions/variables examined, one demonstrated a strong effect size (R = 0.60–0.79), two showed a moderate effect size (R = 0.40–0.59) and eight had a weak effect size (R = 0.20–0.39)",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "313170fe-332c-4050-849a-99c2e64becc5",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "313170fe-332c-4050-849a-99c2e64becc5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:39:00.000Z",
+        "last_edited_time": "2024-08-29T21:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a6fddf9f-c021-49d5-a549-710a839cf6f4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UW3H4TOW%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEhHwB3R5H6y92%2BlxFWYkT8s%2FYsaSyBF14NYwMBuS%2FXMAiBZc4Cp%2F0rTSzfVdw8DhcYFQhcC56UTqM%2F3wuUsfmhmbir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMva9grKPwmUV844UKKtwDHkjpJqmjCLmC42TJ40hgYATzWFhPrweo9XGy9P7hyUs2FpQfiD%2Bm5RnF5nJbjbhKffpmV2tNJphLKakK19E%2BBY3q4Z0hXIJE73sxCsNZQ16MkvHLeyZtapg4dgw2CTL6gIyVN3cUn9%2Fbq4J4Py6%2BHfc4kNp%2FwCOOHpMtJ9swUYcUDuMGcfGMBWXMFJ5Hg8NwKX5wV2PQoHLwJiL%2BK1pK7ZwEojHg%2FuH%2F5oQEgETsUDODEO4rkrdIzsFq1ZlUaHtW49elna5XyMgvTTqIUiAcYZvoHFHKyFqEV12QIVSv4Ghs1hmk%2FOzGuhntLekvTZthjRycM6DI7oJHjR%2BMt8KW7%2BiwcmSZhpQTGwFQwjJmnJP8%2FhBuW47LfB5Gs0dr2a4in9qLRVgCi3gCW7fgwJhPQnjmcazzj0rSvkiBkIsLPxB0Gf8cxi%2BF15z38g%2BJl7L81HJRwU3xucEuTBJ6LuBmfDH%2F6fKA0yBKjfTGo2ncxsdp5N5NMH0fp1UPiccfgyJ0W0xcW5FzfSpIEKNuXCI4qq2SZBLbOHYnWPHA3ty0uwTGNCgh%2Fkvxlv7finngChd%2BSNOQ76YaNd%2FxaZzVEYAsvhspFM1UlpBAPBtTZ6sfx2VKdZs5pebaqdzkDngw0%2B%2FzzgY6pgFSq%2BowJglSbH42Rf6cYTdIYYdxqqZpbxAvytLT60MdKB7DUEIbu39uGXWrE5sLIwCOb4KUxe9LQXXHukbc9%2BCzSY1C2TNWpR3m8zLaPjz0EnnDBiInUgPxpdAA9IZwhxDXB2oa4YIkv5ex3sP%2BXVreTsBro4%2B%2FpL7rGKO40FfxH4wOvnMZgsQEZZCPBufnEVkY95O7f9955%2BCHRGQK2%2B99IcHp1%2B1y&X-Amz-Signature=65ea6400b7e8a98c8b7042faf0c65d3c24124907ef67117801899a7da4c4c899&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:06.575Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8012568a-04ae-40a4-900b-019bd3f6c958",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "8012568a-04ae-40a4-900b-019bd3f6c958",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:39:00.000Z",
+        "last_edited_time": "2024-08-29T21:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e743da20-118b-41c9-a78c-71ccd8b963b2",
+      "type": "paragraph",
+      "text": "Results from Stepwise Regression actually show that, despite 14 variables being enough, the best regression was created using only 4 predictors:\n",
+      "raw": {
+        "object": "block",
+        "id": "e743da20-118b-41c9-a78c-71ccd8b963b2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:39:00.000Z",
+        "last_edited_time": "2024-08-29T21:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results from Stepwise Regression actually show that, despite 14 variables being enough, the best regression was created using only 4 predictors:\n",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results from Stepwise Regression actually show that, despite 14 variables being enough, the best regression was created using only 4 predictors:\n",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "73a64aca-afb6-4aa1-96bd-ad6ec80c5349",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "73a64aca-afb6-4aa1-96bd-ad6ec80c5349",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:43:00.000Z",
+        "last_edited_time": "2024-08-29T21:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/30064dc8-a79b-4a13-a957-e3881d3dbe61/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UW3H4TOW%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEhHwB3R5H6y92%2BlxFWYkT8s%2FYsaSyBF14NYwMBuS%2FXMAiBZc4Cp%2F0rTSzfVdw8DhcYFQhcC56UTqM%2F3wuUsfmhmbir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMva9grKPwmUV844UKKtwDHkjpJqmjCLmC42TJ40hgYATzWFhPrweo9XGy9P7hyUs2FpQfiD%2Bm5RnF5nJbjbhKffpmV2tNJphLKakK19E%2BBY3q4Z0hXIJE73sxCsNZQ16MkvHLeyZtapg4dgw2CTL6gIyVN3cUn9%2Fbq4J4Py6%2BHfc4kNp%2FwCOOHpMtJ9swUYcUDuMGcfGMBWXMFJ5Hg8NwKX5wV2PQoHLwJiL%2BK1pK7ZwEojHg%2FuH%2F5oQEgETsUDODEO4rkrdIzsFq1ZlUaHtW49elna5XyMgvTTqIUiAcYZvoHFHKyFqEV12QIVSv4Ghs1hmk%2FOzGuhntLekvTZthjRycM6DI7oJHjR%2BMt8KW7%2BiwcmSZhpQTGwFQwjJmnJP8%2FhBuW47LfB5Gs0dr2a4in9qLRVgCi3gCW7fgwJhPQnjmcazzj0rSvkiBkIsLPxB0Gf8cxi%2BF15z38g%2BJl7L81HJRwU3xucEuTBJ6LuBmfDH%2F6fKA0yBKjfTGo2ncxsdp5N5NMH0fp1UPiccfgyJ0W0xcW5FzfSpIEKNuXCI4qq2SZBLbOHYnWPHA3ty0uwTGNCgh%2Fkvxlv7finngChd%2BSNOQ76YaNd%2FxaZzVEYAsvhspFM1UlpBAPBtTZ6sfx2VKdZs5pebaqdzkDngw0%2B%2FzzgY6pgFSq%2BowJglSbH42Rf6cYTdIYYdxqqZpbxAvytLT60MdKB7DUEIbu39uGXWrE5sLIwCOb4KUxe9LQXXHukbc9%2BCzSY1C2TNWpR3m8zLaPjz0EnnDBiInUgPxpdAA9IZwhxDXB2oa4YIkv5ex3sP%2BXVreTsBro4%2B%2FpL7rGKO40FfxH4wOvnMZgsQEZZCPBufnEVkY95O7f9955%2BCHRGQK2%2B99IcHp1%2B1y&X-Amz-Signature=c94b700187c0b8a1bc2b88f1d6ab4244c958e140d595dc330c183b511ee3afc1&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:06.580Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6bc71a94-983a-4bad-9b17-91126ec90826",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "6bc71a94-983a-4bad-9b17-91126ec90826",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:48:00.000Z",
+        "last_edited_time": "2024-08-29T21:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d38d8694-3f08-43dc-b45b-f660224f3108",
+      "type": "paragraph",
+      "text": "This was followed by the Logistic Regression, that does not seem to have an explicit model assessment strategy. Due to the fact that the model generates predictions for all observations in a sample and does not have a separate validation or test set. ",
+      "raw": {
+        "object": "block",
+        "id": "d38d8694-3f08-43dc-b45b-f660224f3108",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:48:00.000Z",
+        "last_edited_time": "2024-08-29T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This was followed by the Logistic Regression, that does not seem to have an explicit model assessment strategy. Due to the fact that the model generates predictions for all observations in a sample and does not have a separate validation or test set. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This was followed by the Logistic Regression, that does not seem to have an explicit model assessment strategy. Due to the fact that the model generates predictions for all observations in a sample and does not have a separate validation or test set. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3a1573e9-fcdc-48ef-b600-a8c8660729e2",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3a1573e9-fcdc-48ef-b600-a8c8660729e2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:56:00.000Z",
+        "last_edited_time": "2024-08-29T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/6068a01c-6142-4472-9329-a6155a8361bc/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UW3H4TOW%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151906Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEhHwB3R5H6y92%2BlxFWYkT8s%2FYsaSyBF14NYwMBuS%2FXMAiBZc4Cp%2F0rTSzfVdw8DhcYFQhcC56UTqM%2F3wuUsfmhmbir%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMva9grKPwmUV844UKKtwDHkjpJqmjCLmC42TJ40hgYATzWFhPrweo9XGy9P7hyUs2FpQfiD%2Bm5RnF5nJbjbhKffpmV2tNJphLKakK19E%2BBY3q4Z0hXIJE73sxCsNZQ16MkvHLeyZtapg4dgw2CTL6gIyVN3cUn9%2Fbq4J4Py6%2BHfc4kNp%2FwCOOHpMtJ9swUYcUDuMGcfGMBWXMFJ5Hg8NwKX5wV2PQoHLwJiL%2BK1pK7ZwEojHg%2FuH%2F5oQEgETsUDODEO4rkrdIzsFq1ZlUaHtW49elna5XyMgvTTqIUiAcYZvoHFHKyFqEV12QIVSv4Ghs1hmk%2FOzGuhntLekvTZthjRycM6DI7oJHjR%2BMt8KW7%2BiwcmSZhpQTGwFQwjJmnJP8%2FhBuW47LfB5Gs0dr2a4in9qLRVgCi3gCW7fgwJhPQnjmcazzj0rSvkiBkIsLPxB0Gf8cxi%2BF15z38g%2BJl7L81HJRwU3xucEuTBJ6LuBmfDH%2F6fKA0yBKjfTGo2ncxsdp5N5NMH0fp1UPiccfgyJ0W0xcW5FzfSpIEKNuXCI4qq2SZBLbOHYnWPHA3ty0uwTGNCgh%2Fkvxlv7finngChd%2BSNOQ76YaNd%2FxaZzVEYAsvhspFM1UlpBAPBtTZ6sfx2VKdZs5pebaqdzkDngw0%2B%2FzzgY6pgFSq%2BowJglSbH42Rf6cYTdIYYdxqqZpbxAvytLT60MdKB7DUEIbu39uGXWrE5sLIwCOb4KUxe9LQXXHukbc9%2BCzSY1C2TNWpR3m8zLaPjz0EnnDBiInUgPxpdAA9IZwhxDXB2oa4YIkv5ex3sP%2BXVreTsBro4%2B%2FpL7rGKO40FfxH4wOvnMZgsQEZZCPBufnEVkY95O7f9955%2BCHRGQK2%2B99IcHp1%2B1y&X-Amz-Signature=3acba9d30972e7ad4d0d4626b82897ccd12523f11d62dcbe4edd981ee9adccea&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:06.575Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5c73234a-dcc3-41f6-b95a-7195cbd92418",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5c73234a-dcc3-41f6-b95a-7195cbd92418",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:56:00.000Z",
+        "last_edited_time": "2024-08-29T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0bad4212-afa3-4a3c-919d-33681782601e",
+      "type": "heading_2",
+      "text": "Discussion",
+      "raw": {
+        "object": "block",
+        "id": "0bad4212-afa3-4a3c-919d-33681782601e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:56:00.000Z",
+        "last_edited_time": "2024-08-29T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b5ff9384-8731-4207-a1a2-1a7916e0aa44",
+      "type": "paragraph",
+      "text": "he work had some unexpected results when it comes to variable importance. The 52% RSquared shows that only 4 variables explained a significant portion of the final grades’ variability. The composite variables (sum of multiple variables representing similar activities) played a major role in the model. ",
+      "raw": {
+        "object": "block",
+        "id": "b5ff9384-8731-4207-a1a2-1a7916e0aa44",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T21:56:00.000Z",
+        "last_edited_time": "2024-08-29T22:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "he work had some unexpected results when it comes to variable importance. The 52% RSquared shows that only 4 variables explained a significant portion of the final grades’ variability. The composite variables (sum of multiple variables representing similar activities) played a major role in the model. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "he work had some unexpected results when it comes to variable importance. The 52% RSquared shows that only 4 variables explained a significant portion of the final grades’ variability. The composite variables (sum of multiple variables representing similar activities) played a major role in the model. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c9d9525d-c9b0-400d-934e-c98cd782526d",
+      "type": "paragraph",
+      "text": "Engaging with quizzes also had a positive effect in performance which goes contrary to previous literature where it is usual to see a negative effect. Assigment submission was found to be a good univariate predictor, but not in a multi-variate way.",
+      "raw": {
+        "object": "block",
+        "id": "c9d9525d-c9b0-400d-934e-c98cd782526d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T22:01:00.000Z",
+        "last_edited_time": "2024-08-29T22:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Engaging with quizzes also had a positive effect in performance which goes contrary to previous literature where it is usual to see a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Engaging with quizzes also had a positive effect in performance which goes contrary to previous literature where it is usual to see a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "negative effect",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "negative effect",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". Assigment submission was found to be a good univariate predictor, but not in a multi-variate way.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". Assigment submission was found to be a good univariate predictor, but not in a multi-variate way.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2bca270f-9900-41d8-8aa3-5be13dd52203",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2bca270f-9900-41d8-8aa3-5be13dd52203",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T22:03:00.000Z",
+        "last_edited_time": "2024-08-29T22:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6c58c3fe-bd23-4127-92c5-4319d815b34c",
+      "type": "heading_2",
+      "text": "Implications",
+      "raw": {
+        "object": "block",
+        "id": "6c58c3fe-bd23-4127-92c5-4319d815b34c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T22:03:00.000Z",
+        "last_edited_time": "2024-08-29T22:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Implications",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Implications",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "34ce58b6-8ef8-4ee0-a487-2a16e842f2fd",
+      "type": "paragraph",
+      "text": "Learning analytics may be viable strategy to implement for B-Learning contexts as it allows professors to continuously monitor student progress. LMS are important tools for that. ",
+      "raw": {
+        "object": "block",
+        "id": "34ce58b6-8ef8-4ee0-a487-2a16e842f2fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-29T22:03:00.000Z",
+        "last_edited_time": "2024-08-29T22:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning analytics may be viable strategy to implement for B-Learning contexts as it allows professors to continuously monitor student progress. LMS are important tools for that. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning analytics may be viable strategy to implement for B-Learning contexts as it allows professors to continuously monitor student progress. LMS are important tools for that. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a530fb1-e68a-4546-83ff-4cf525888f84",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2a530fb1-e68a-4546-83ff-4cf525888f84",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-28T16:26:00.000Z",
+        "last_edited_time": "2025-03-16T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "35c6f753-2739-47d6-a56e-1d2619166dfc",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "35c6f753-2739-47d6-a56e-1d2619166dfc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "632c312d-b08c-4809-b266-8b02cfb89b33"
+        },
+        "created_time": "2024-08-01T15:25:00.000Z",
+        "last_edited_time": "2024-08-29T21:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

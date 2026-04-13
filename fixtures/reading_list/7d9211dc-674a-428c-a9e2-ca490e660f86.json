@@ -1,0 +1,775 @@
+{
+  "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86",
+  "title": "Multimodal prediction of student performance: A fusion of signed graph neural networks and large language models",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "22645de8-f37b-4f41-bb2d-ad14295eb4f5",
+          "name": "Signed Network",
+          "color": "brown"
+        },
+        {
+          "id": "2cab86ee-0a9a-4f50-914b-a036820bff92",
+          "name": "Graph Representations Learning",
+          "color": "brown"
+        },
+        {
+          "id": "8c05b477-2291-4da8-9449-abb129c7e8b3",
+          "name": "Natural Language Processing",
+          "color": "red"
+        },
+        {
+          "id": "d36d82ab-8192-4b31-8ab4-c48d819b85f5",
+          "name": "Multimodal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pattern Recognition Letters",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pattern Recognition Letters",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "J]hy",
+        "name": "Rejected For Predictive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multimodal prediction of student performance: A fusion of signed graph neural networks and large language models",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multimodal prediction of student performance: A fusion of signed graph neural networks and large language models",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "24c4750c-f3ba-80c0-96b0-f2d066ea770d",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Next Question Correctedness",
+          "Correct (Green) vs Incorrect (Red)",
+          "761 Biology students, 528 Law students, 383 Cardiff students, 382 Sydney19 learners and 198 Sydney23 learners ",
+          "Biology, Law  & others",
+          "Sequence of Answers, Question Text",
+          "[Structural Embeddings from Positive and Negative answers to questions, MCQ Embeddings - GLoVe, Student Embeddings]",
+          "Previous graph models struggle with 2 things: \n\n1. Establish a relationship between learners and questions.\n\n2. Dealing with noise associated with the randomness of learner content generation.\n\n",
+          "The model creates augmented graphs for students and questions. These are subsequently passed through 2 encoders (a positive encoder and a negative encoder). This graph encoder is “compatible” with any GNN model.\n\nThe second innovation comes from the adopted contrastive objective  function - which aims to maximize similarity of nodes across different views. \n\nThe final innovation stems from the use of GPT to generate semantyc embeddings.",
+          "Augmentation of the graphs is done using stochastic methods to create the positive and negative sub-graphs.\n\nAuthors use Graph Attention Networks as the model used for the creation of embeddings. Sequences are converted to knowledge components using the GPT 3.5 Turbo, which are converted to embeddings using GloVe.\n\nThe initialization of learner embeddings is random - since there is no student profile. \n\n\n",
+          "Random, GCN, GAT, SGCN, SBGNN, SBCL, LLM-SBCL",
+          "Holdout Method",
+          "Biology\n{F1-Score: 0.787 - LMM-SBCLL}\n\nLaw\n{F1-Score: 0.908 - LMM-SBCLL}\n\nCardiff2012\n{F1-Score: 0.734- LMM-SBCLL}\n\nSydney19\n{F1-Score: 0.694 - LMM-SBCLL}\n\nSydney23\n{F1-Score: 0.76- LMM-SBCLL}",
+          "Authors propose a novel graph model that includes a positive and a negative encoder for the sequences of the answers before feeding the embeddings to an MLP. \n\nAuthors also use an LLM to extract the knowledge concepts and use them as a feature for the models. \n\nAblation studies show that the model LLM-SBCL has every layer be relevant.",
+          "- What are the average and standard deviation of F1-Score for in an implementation of the holdout method?\n\n- Small student population.\n\n- Limited capacity in cold-start scenarios\n\n- Does not consider interactions among students or questions\n\n- Does not explore any other LLMs"
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "9e9f1d5e-e9ab-414a-acef-c0d0b9b62529",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "9e9f1d5e-e9ab-414a-acef-c0d0b9b62529",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:24:00.000Z",
+        "last_edited_time": "2024-08-06T16:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4803f19e-3cc5-44af-8511-70ccbda44dda",
+      "type": "paragraph",
+      "text": "Learner sourcing platforms often rely on multiple choice questions to assess students. While a mechanism for feedback, this system introduces noise that hinders the ability of predictive models to make a correct prediction about student dropout or overall performance. This noise is often generated by a model’s inability to semantically distinguish between a correct and an incorrect answer. ",
+      "raw": {
+        "object": "block",
+        "id": "4803f19e-3cc5-44af-8511-70ccbda44dda",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:24:00.000Z",
+        "last_edited_time": "2024-08-06T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learner sourcing platforms often rely on multiple choice questions to assess students. While a mechanism for feedback, this system introduces noise that hinders the ability of predictive models to make a correct prediction about student dropout or overall performance. This noise is often generated by a model’s inability to semantically distinguish between a correct and an incorrect answer. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learner sourcing platforms often rely on multiple choice questions to assess students. While a mechanism for feedback, this system introduces noise that hinders the ability of predictive models to make a correct prediction about student dropout or overall performance. This noise is often generated by a model’s inability to semantically distinguish between a correct and an incorrect answer. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5b9e17b7-2efd-4a59-869f-6b4856a868fa",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5b9e17b7-2efd-4a59-869f-6b4856a868fa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:27:00.000Z",
+        "last_edited_time": "2024-08-06T16:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4d3bf12e-3f0b-4750-9b13-cd419f89d08d",
+      "type": "paragraph",
+      "text": "To address this limitation, the authors propose a combination of LLMs and Graph Neural Networks that receive,as inputs, data from multiple types of sources. The model uses a bipartite graph to represent student answers. Then, they apply constrastive learning to the signed graphs and combine them with knowledge point embeddings created by the LLM.",
+      "raw": {
+        "object": "block",
+        "id": "4d3bf12e-3f0b-4750-9b13-cd419f89d08d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:27:00.000Z",
+        "last_edited_time": "2024-08-06T16:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To address this limitation, the authors propose a combination of LLMs and Graph Neural Networks that receive,as inputs, data from multiple types of sources. The model uses a bipartite graph to represent student answers. Then, they apply constrastive learning to the signed graphs and combine them with knowledge point embeddings created by the LLM.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To address this limitation, the authors propose a combination of LLMs and Graph Neural Networks that receive,as inputs, data from multiple types of sources. The model uses a bipartite graph to represent student answers. Then, they apply constrastive learning to the signed graphs and combine them with knowledge point embeddings created by the LLM.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "04de2652-38b1-4736-bb15-ae1f17d544a6",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "04de2652-38b1-4736-bb15-ae1f17d544a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:30:00.000Z",
+        "last_edited_time": "2024-08-06T16:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "89117264-d9c1-4ef0-94c0-1c7fdb62791e",
+      "type": "paragraph",
+      "text": "Evaluation of the model on 5 different datasets, the authors find that it outperforms other methods, with close to 4% improvements on F1 score relative to the best baseline models.",
+      "raw": {
+        "object": "block",
+        "id": "89117264-d9c1-4ef0-94c0-1c7fdb62791e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2024-08-06T16:30:00.000Z",
+        "last_edited_time": "2024-08-06T16:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Evaluation of the model on 5 different datasets, the authors find that it outperforms other methods, with close to 4% improvements on F1 score relative to the best baseline models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Evaluation of the model on 5 different datasets, the authors find that it outperforms other methods, with close to 4% improvements on F1 score relative to the best baseline models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24c4750c-f3ba-801e-b7f0-fe8d0bac0cd8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24c4750c-f3ba-801e-b7f0-fe8d0bac0cd8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2025-08-11T21:02:00.000Z",
+        "last_edited_time": "2025-08-11T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24c4750c-f3ba-8048-81a7-ec313044c873",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24c4750c-f3ba-8048-81a7-ec313044c873",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2025-08-11T21:02:00.000Z",
+        "last_edited_time": "2025-08-11T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/9a11be81-6341-46b4-a5c4-55c99cb076be/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466R7NWDRJJ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153157Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCZoh5DkYdKfTxj7gj6Ra%2FkJXjLI1VvDespTjGABSmXtwIgGfpPQnU2e1EpROa6hzmIdajJVf4g6cxVKvSqnbdTGhIq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDIOcsuNESAAdsGlgKircA1bRFL1reXnDW5D2f%2B%2BP8hrnD%2BJ65MMXDafDe4dWQUOaibWbpVtCMchYkX9fCwSrMCnzPb47lOSYAWJVoQ4OgT4ZQ%2B%2B9bZw1La0BK3fBGVgSceNv5V6fcRPAoomq1%2B1FSSKHtmotsiTFBxpaHnKfGWgURBU1GMiTnuW71VEHUX%2B6BKwtTvWxhdh2tW93QzPp3NJ1zIDO8iLLAbrZSXAu8E5oiJPY3S3RtMn4k5utaHvNkzEg6PKRaRohTcxLvHXPR9%2FR8YOqPqH5uns6YuoPgY3OXIGxJ4tbAsgI8fuZaZWN3yeYLAMRIOhTdsYfjfbTUZUv2Rfr1jcQsRrz%2BScBL0mYbafRaFMgxd1JkC9WOTS4pThLtqrXIoZS8YhDQp1lKLIxVHEmcLnjWwuFdR3RPlA27mQ7XKtIsw%2BHmPHj7S2sIaX24UzLb0YJgaSHQz2z8XIMa8x10PoQvP2kJU4Ltm4DQYIX0LJL7WyIZqhxLqWOL0bu2zuD8CsMZ9KYwHyvMZoIn8JlmGJVIQag9SbNXQt9G8JuOj12gwuJWrpKti1zB%2FJ2TvhHExM6z9zqNGMsT%2BXQGkGipdTYexf9rgmA2Ufset9KurweFpiqD6S6np6aFz2pL2%2Bic8mF3rrYMKHx884GOqUB4BL6sG31dGeza0zb1g7q3r6tWABS58F3LOc4v1Oz2ouAUIIuWM8t7aUR%2FiJgA2TbOHfqZwciIZT7atAaflW0OL84gnhWRYuX4mmP8qEnJxxbMVT5S7e3DUpNEEUInJFB5bphkpL47Vi0fD6ndMdp%2Fd89251bkDtcMafVXPhDKOAHJnUjYlijXfjHkNJjvmNzRdDmcnVdjNQqahjVKcBQ%2Fsj7sY%2BP&X-Amz-Signature=dfb17765ac10e0ec2518a91b4d408315a41c6be20c63c782eca540654ab56b73&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:31:57.548Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24c4750c-f3ba-8000-a5ef-e094aec91d42",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "24c4750c-f3ba-8000-a5ef-e094aec91d42",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2025-08-11T00:28:00.000Z",
+        "last_edited_time": "2025-08-11T00:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24c4750c-f3ba-80c0-96b0-f2d066ea770d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24c4750c-f3ba-80c0-96b0-f2d066ea770d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "7d9211dc-674a-428c-a9e2-ca490e660f86"
+        },
+        "created_time": "2025-08-11T00:28:00.000Z",
+        "last_edited_time": "2025-08-11T00:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

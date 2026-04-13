@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
+      "title": "Machine Learning Prediction of University Student Dropout: Does Preference Play a Key Role?",
+      "authors": [],
+      "year": null,
+      "journal": "Mathematics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c4871030",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Predict Dropout at the end of the First Year",
+          "Target": "Dropout (1) vs No Dropout (0)",
+          "Students": "3428 students",
+          "Courses": "Courses in 10 different majors",
+          "Data sources": "Socio-Economic Data, Enrollment Variables, School Characteristics, Pre-University Variables, Preferences, !st Semester Academic Performance",
+          "Features": "[Academic Amount, Degree, Area, Family Township, Admissioin Option, Gender, Country of Birth, Admission Study, Access Specialty, Follow tge Path, Time Commitment, PAU grade, Access Grade, Mother’s Education Level, Father’s Education Level, Scholarship holder, School Location, PAU Call, Admission Reason, Age]",
+          "Moment of Prediction": "Moment of Admission",
+          "Preprocessing Details": "Authors perform Feature Selection on the Feature Set. Authors make an analysis that is Global, followed by Degree Specific Analysis.\n\n",
+          "Models": "NN\nSVM\nkNN\nDT\nLogistic Regression",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.8559 - kNN, Recall: 0.1636 - kNN }",
+          "Comments": "Results published are not only Total (the ones revealed here) but are also shown in terms of program-specific. The authors refer to Class-Specific Accuracy which I’m understanding to be Recall. ",
+          "Limitations": "Model-Agnostic Model does not seem to perform very well when the student population is heterogenous. \n\nSimple family of algorithms.\n\nNo interaction data. Moreover, the most effective models. \n\nHoldout method seems week for a dataser as small as this one.\n\nUnclear Feature Selection strategy. \n\nOnly first-year dropouts are considered. \n\nNo model optimization efforts seem to be done. "
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Face to Face",
+          "Student Performance Definition": "Predict Dropout",
+          "Target": "Dropout (1) vs No Dropout (0)",
+          "Students": "3428 students",
+          "Courses": "Courses in 10 different majors",
+          "Data sources": "Socio-Economic Data, Enrollment Variables, School Characteristics, Pre-University Variables, Preferences, !st Semester Academic Performance",
+          "Features": "[Academic Amount, Degree, Area, Family Township, Admissioin Option, Gender, Country of Birth, Admission Study, Access Specialty, Follow tge Path, Time Commitment, PAU grade, Access Grade, Mother’s Education Level, Father’s Education Level, Scholarship holder, School Location, PAU Call, Admission Reason, Age, First-Semester Grade, ECTS enrolled in 1st semester, ECTS approaved in 1st Semester, Ratio of Subject Passes]",
+          "Moment of Prediction": "End of First Semester",
+          "Preprocessing Details": "Authors perform Feature Selection on the Feature Set. Authors make an analysis that is Global, followed by Degree Specific Analysis.\n\n",
+          "Models": "NN\nSVM\nkNN\nDT\nLogistic Regression",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.8872 - kNN, Recall: 0.3250 - SVM }",
+          "Comments": "The addition of First-Semester specific variable increases the model’s ability to identify students who will dropout. ",
+          "Limitations": "Model-Agnostic Model does not seem to perform very well when the student population is heterogenous. \n\nSimple family of algorithms.\n\nNo interaction data. Moreover, the most effective models. \n\nHoldout method seems week for a dataser as small as this one.\n\nUnclear Feature Selection strategy. \n\nOnly first-year dropouts are considered. \n\nNo model optimization efforts seem to be done. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_966c481b",
+      "reference_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
+      "text": "Dropout prediction is a very popular learning analytics activity - after all, detecting students who are less likely to complete their programs is essential to prevent churn. The work uses data from first-year students attending a European University at two different moments of prediction: the beginning of the course or the end of the first semester.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4"
+      }
+    },
+    {
+      "id": "an_78cdbb62",
+      "reference_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4",
+      "text": "Different classifiers were used, and predictions at the end of the first semester outperformed the beginning of the course. Moreover, Logistic Regression was good enough as a baseline, but was outperformed by other ML techniques.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-808a-a0dc-d13b4b6556c4"
+      }
+    }
+  ],
+  "workflow_states": []
+}

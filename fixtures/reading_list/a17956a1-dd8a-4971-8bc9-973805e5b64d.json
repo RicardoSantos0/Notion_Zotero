@@ -1,0 +1,663 @@
+{
+  "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d",
+  "title": "Predicting Students Success in Blended Learning—Evaluating Different Interactions Inside Learning Management Systems",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4e272c1c-ed05-4342-b2e2-81677d969fde",
+          "name": "At-Risk Students",
+          "color": "brown"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "76ec2ac5-3a11-4db3-92fe-f375429f61d7",
+          "name": "Blended Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "368887bf-d4e1-4d09-b09b-4e60f7cdaa3d",
+          "name": "Introduction to Programming",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Applied Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Applied Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-03-19T18:11:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Buschetto Macarini et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Buschetto Macarini et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting Students Success in Blended Learning—Evaluating Different Interactions Inside Learning Management Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting Students Success in Blended Learning—Evaluating Different Interactions Inside Learning Management Systems",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3284750c-f3ba-80e0-a2cc-c97e2a48b7ea",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "End of Course Performance",
+          "Pass vs Fail/Dropout",
+          "89 students",
+          "1 Introductory Programming Course",
+          "LMS logs",
+          "[Count, Average, Median, Zeroed weeks, Average of the Difference, Commintment Factor, Cognitive Count, Teaching Count, Social Count, Other Count]",
+          "Course Halfway Point",
+          "Authors do an aggregation of different actions into bigger constructs: Commitment, Cognitive, Teaching and Social.\n\nDifferent datasets are constructed using different cmbination of variables. In total there are 13 configurations.\n\nAll datasets were oversampled using SMOTE.",
+          "kNN, MLP, Naive Bayes, AdaBoost, Radndom Forest",
+          "Leave-One-Out Cross-Validation",
+          "2016-1\n{AUC: 0.62820 - AdaBoost DB12}\n\n2016-2\n{AUC: 0.71795 - AdaBoost DB2 & DB5 AND kNN DB9 & DB12}\n\n2017-1\n{AUC: 0.66013 - AdaBoost DB2}\n\n2017-2\n{AUC: 0.83974 - AdaBoost DB2}",
+          "Authors create 13 datasets and run each dataset over 5 classifiers - 65 configurations in total. \n\nThey create a model for each specific edition of the dataset and measure the Scores using AUC.",
+          "Small Sample Size\n\nSingle Course Context\n\nNo additional Data Sources\n\nOnly considers SMOTE for Resampling. "
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "20884a80-82eb-4d6a-b40d-e8ec140e8c82",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "20884a80-82eb-4d6a-b40d-e8ec140e8c82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2024-07-31T20:52:00.000Z",
+        "last_edited_time": "2024-07-31T20:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6dffbd22-8a0a-4371-9ecb-47149576f977",
+      "type": "paragraph",
+      "text": "Courses such as algorithms and programming have very high rates of dropout. Authors create multiple early detection algorithms with different pre-processing techniques to identify which combinations generate the best predictions. ",
+      "raw": {
+        "object": "block",
+        "id": "6dffbd22-8a0a-4371-9ecb-47149576f977",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2024-07-31T20:52:00.000Z",
+        "last_edited_time": "2024-07-31T20:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Courses such as algorithms and programming have very high rates of dropout. Authors create multiple early detection algorithms with different pre-processing techniques to identify which combinations generate the best predictions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Courses such as algorithms and programming have very high rates of dropout. Authors create multiple early detection algorithms with different pre-processing techniques to identify which combinations generate the best predictions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3a410439-f567-48a4-9a8c-39d403f143a6",
+      "type": "paragraph",
+      "text": "Authors find that, indeed, different features/algorithm combinations did not lead to statistically significant differences in predictive performance, ultimately finding that activity counts and some derived attributes are sufficient for the task. However, the authors did find that predictions in the second semester were much better → 0.7 AUC to 0.9 AUC. SMOTE did not improve performance of the models. ",
+      "raw": {
+        "object": "block",
+        "id": "3a410439-f567-48a4-9a8c-39d403f143a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2024-07-31T20:55:00.000Z",
+        "last_edited_time": "2024-07-31T20:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors find that, indeed, different features/algorithm combinations did not lead to statistically significant differences in predictive performance, ultimately finding that activity counts and some ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors find that, indeed, different features/algorithm combinations did not lead to statistically significant differences in predictive performance, ultimately finding that activity counts and some ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "derived attributes",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "derived attributes",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " are sufficient for the task. However, the authors did find that predictions in the second semester were much better → 0.7 AUC to 0.9 AUC. SMOTE did not improve performance of the models. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " are sufficient for the task. However, the authors did find that predictions in the second semester were much better → 0.7 AUC to 0.9 AUC. SMOTE did not improve performance of the models. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3284750c-f3ba-80b3-94d6-ef828f46719a",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3284750c-f3ba-80b3-94d6-ef828f46719a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2026-03-19T17:59:00.000Z",
+        "last_edited_time": "2026-03-19T17:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/73ad4ffe-b5c0-4750-9f25-c7549d328c6e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466SFGNMFJ3%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152320Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDVCMj5Et%2BEu0Exb6RQKcZLQEj%2BLenGoUZCEAmqw%2F05KwIhAMy1VI%2BKnxO1NBAqY3HO1et7IahE7zG9DcJoPM8n8d8IKv8DCHcQABoMNjM3NDIzMTgzODA1IgwiDL9u1L2SGDZXSXgq3ANuOOZ2AtpNCLQxvJVEXIjITkXKVLKhDoQBKXXu85gIMeIkmWsujcoyEO7hVebXnH%2Br74WWCynhfZU3Tsf%2Fy6vkCpqPmByfkF1PyY3cn0h3CX%2B2Qcs0TJF049UoL4dBzbxvRK90lKndT7SkCCUxcNz90uk6rCx1nZzdx3hacRlv4H2arbpetTYDKxJt1BB535Ff2G7C9ZNArXnO3gPwvhj%2FU0TwJvgR5iMIyuE0nStnhiEsnDM5%2Fiwn3BoudqgQY6u2GSuqXLoeKPqhn9uYxP4zjgutskrfIYgPZh3lPMk5Xm2g8G7KK2mU6wVggZNN8BRPElr3oDT5P6GTXf8J9TptphNy1rwVmYWO1rMlTXKeScA3GKcHwR8iaoPJ27abckUsJ7aC2u%2BY%2FaT%2FLXCXIW0XhTMHHnwdTLw9EQmvGknTZYe8d%2Fgt%2BhotbAaOsjs5SYkttim1X3W4RSPHJa8z1rbqpEBAcrojgLEfNJfmleAT%2Fj8tTFq1twEtVBVN8vshg6TXcFC9hs8lYk6nE5v1t4ecBBFLnHWIBa6bnvtzrjFtC6fkb4LBvxHOEyYScOPT%2BX%2FLUHbhxYKhQILSAUSWFHd3QQ9AJDvp0o5iI5fVBBYASLjD%2BTsw9s7d6xCmaDCL8PPOBjqkAQ3isyZ%2FROKJaR9P%2BwhKeG98ChCIfSyoWLNWOpK3KRQeh7k8FKaGMwE6kpz%2FB7CYE3nmPIpXnCBTXFiJq9eprolnXo1C3mmSZwS28U7PmMmVa2Od5IwhrquaBeM4eqNXVJa0mjgv3wwb%2FDcAFg3fbY0n4pGL3lstCC6mIZxsGbvVUY7OFCci5Buzx5d1HYIzdfW5NI5CiBh%2FO53MTKuqVPDxVDz4&X-Amz-Signature=566c34b4b7cba2aa922be7f714f4c6f2031e1c6553ba597f6dc188352a716dff&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:23:20.895Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3284750c-f3ba-8014-bea2-fcd57f144592",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3284750c-f3ba-8014-bea2-fcd57f144592",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2026-03-19T17:53:00.000Z",
+        "last_edited_time": "2026-03-19T17:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3284750c-f3ba-80e0-a2cc-c97e2a48b7ea",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3284750c-f3ba-80e0-a2cc-c97e2a48b7ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "a17956a1-dd8a-4971-8bc9-973805e5b64d"
+        },
+        "created_time": "2026-03-19T17:53:00.000Z",
+        "last_edited_time": "2026-03-19T17:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

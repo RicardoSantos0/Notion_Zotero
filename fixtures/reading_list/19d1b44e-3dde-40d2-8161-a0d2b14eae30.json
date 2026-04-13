@@ -1,0 +1,653 @@
+{
+  "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30",
+  "title": "Student Performance Prediction Model Based on Course Description and Student Similarity",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2a24d956-ff91-4a63-93c2-8d091273c726",
+          "name": "Student's Performance",
+          "color": "orange"
+        },
+        {
+          "id": "2df48077-dcac-46ce-b67f-4e8b4f7c5a62",
+          "name": "Decision Making",
+          "color": "red"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "9d772e99-b468-41ad-9a5b-943e2c1a28a2",
+          "name": "Performance Prediction",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Advanced Information Systems Engineering Workshops",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Advanced Information Systems Engineering Workshops",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T00:00:00.000+01:00",
+        "end": "2025-08-23T01:10:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mäder et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mäder et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Student Performance Prediction Model Based on Course Description and Student Similarity",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Student Performance Prediction Model Based on Course Description and Student Similarity",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2574750c-f3ba-80e9-8b95-cae23f77e6c8",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "End of Course Performance",
+          "Pass (1) vs Fail (0)",
+          "856 BIS Master’s students",
+          "4 Compulsory and 20 Elective Courses",
+          "Student Registrations and Grades, Course Descriptions",
+          "[ID Person, SemesterNR, Anrede, max_semester, Cloud Computing, Alignment of Business and IT, Research Methods in Information Systems, Business Process Management, Strategic Management in the Digital Economy, Emerging Topics for Business Information Systems, Emerging Topics in Information Systems, Business Intelligence, Supply Chain Management, Compliance Management and Governance of IT, Knowledge Processing and Decision Making, Digitalization of Business Process, MAster Thesis Proposal, Managers Shadow Project, Master Thesis, …, Competitive Strategy in the Information Age, Information Management, USer-centered Design and Design Thinking, Artificial Intelligence for Business Processes]",
+          "End of Previous Semester",
+          "Authors removed grades from students who have de-registered from a course. To address the class imbalance between success and insuccess, authors made 2 copies of every observation that registered a negative mark on a course. \n\nCourse interestes were extracted by creatinfg vector embeddings of the course descriptions in courses in which a student registered in.\n\nCourse description embeddings were created using BERT. Similarity between students was computed using cosine similarity. Similarity between students when it comes to course performance was computed using Adjusted Euclidean distance,\n\nData was normalizesd.",
+          "kNN",
+          "Leave-One-Out Cross-Validation",
+          "{Precision: 0.36734 . 5 neighbors, Recall: Recall: 0.45 - 5 neighbors, F1-Score: 0.40 - 5 neighbors}",
+          "Authors introduce a new method that can be a percursor of an elective course recommender system. \n\nThe method takes the history of students that have attended the course and take the course descripions (embedded using BERT) as a proxy for learner interests.\n\nAuthors use kNN as the algorithm to compute the expected grade on the elective course based on the current student’s history and their interests based on the the history of courses completed by the student.\n\nAuthors also include a fallback for first-semester students (cold-start scenario).",
+          "- Oversampling technique selected is fairy simple compared to other alternatives (e.g. SMOTE).\n\n- Interestes are a proxy of courses taken by the students.\n\n- Only kNN is used as a predictive algotrithm.\n\nOnly tested in a MSc dataset. "
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "d6769c5d-fda2-4c6f-b554-cd0f3e99806f",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "d6769c5d-fda2-4c6f-b554-cd0f3e99806f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2024-08-06T16:56:00.000Z",
+        "last_edited_time": "2024-08-06T16:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b47d3a09-40ff-41c8-8252-3ab6921b487c",
+      "type": "paragraph",
+      "text": "Paper uses NLP to predict the performance of students at the end of a course. The model uses historical enrollment data and course descriptions to predict the potential grade of a student in a course. The authors use BERT to analyse the text and create course description embeddings. ",
+      "raw": {
+        "object": "block",
+        "id": "b47d3a09-40ff-41c8-8252-3ab6921b487c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2024-08-06T16:56:00.000Z",
+        "last_edited_time": "2024-08-06T16:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Paper uses NLP to predict the performance of students at the end of a course. The model uses historical enrollment data and course descriptions to predict the potential grade of a student in a course. The authors use BERT to analyse the text and create course description embeddings. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Paper uses NLP to predict the performance of students at the end of a course. The model uses historical enrollment data and course descriptions to predict the potential grade of a student in a course. The authors use BERT to analyse the text and create course description embeddings. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e79f7c45-c9a9-4da9-9bc7-fe8936ea4a16",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e79f7c45-c9a9-4da9-9bc7-fe8936ea4a16",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2024-08-06T17:01:00.000Z",
+        "last_edited_time": "2024-08-06T17:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6d7f4712-6986-4a41-8f9f-afd49e1de423",
+      "type": "paragraph",
+      "text": "Moreover, the author creates a student knowledge profile that is based on the descriptions of the courses the student has already attended AND the student’s respective performance on that course. The approach had soime promise but still has plenty of room for improvement according to the authors. ",
+      "raw": {
+        "object": "block",
+        "id": "6d7f4712-6986-4a41-8f9f-afd49e1de423",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2024-08-06T16:56:00.000Z",
+        "last_edited_time": "2024-08-06T17:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, the author creates a student knowledge profile that is based on the descriptions of the courses the student has already attended AND the student’s respective performance on that course. The approach had soime promise but still has plenty of room for improvement according to the authors. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, the author creates a student knowledge profile that is based on the descriptions of the courses the student has already attended AND the student’s respective performance on that course. The approach had soime promise but still has plenty of room for improvement according to the authors. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2574750c-f3ba-804a-9f51-efe8fcf49b74",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2574750c-f3ba-804a-9f51-efe8fcf49b74",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2025-08-22T19:09:00.000Z",
+        "last_edited_time": "2025-08-22T19:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2574750c-f3ba-8066-ba9d-e2b32b55d811",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2574750c-f3ba-8066-ba9d-e2b32b55d811",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2025-08-22T19:09:00.000Z",
+        "last_edited_time": "2025-08-22T19:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2574750c-f3ba-80e9-8b95-cae23f77e6c8",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2574750c-f3ba-80e9-8b95-cae23f77e6c8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "19d1b44e-3dde-40d2-8161-a0d2b14eae30"
+        },
+        "created_time": "2025-08-22T19:09:00.000Z",
+        "last_edited_time": "2025-08-22T23:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

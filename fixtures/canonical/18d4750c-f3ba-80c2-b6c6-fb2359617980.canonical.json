@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-80c2-b6c6-fb2359617980",
+      "title": "Dropout and transfer paths: What are the risky profiles when analyzing university persistence with machine learning techniques?",
+      "authors": [],
+      "year": null,
+      "journal": "PLos ONE",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_cd37e995",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Dropping out of a program at the end of the second year",
+          "Target": "Dropout vs Continue vs Change",
+          "Students": "1055 students",
+          "Courses": "54 programmes at the University of Oviedo",
+          "Data sources": "Socio-Demographic Variables,\nPrior Academic History, \nQuestionnaire for Academic Performance, Motivation abd Satisfaction with University",
+          "Features": "[Number_FamilyMembers, StudyHours_PerWeek, WorkHours_PerWeek, HouseWorkHours_PerWeek, Age, BACH_FP, GEN, Grade, Area_Code, Enrollment_Credits2010, Attended_cred_2010, Passed_Credits_2010, Enrollment_Credtis_2011, Attended_credits_T_2011, \nPassed_Credits_2011, Place_of_Residence, Studies_Choice_Reason, Prior_Guidance, Inyrgration_Activities_Utility, Participation_Integration_Activities, Class_Attendance, Approppriate_Methodology, RatioGradesEffort, Difficulty, Teacher_Relation, JoinNonAcademic__activities, Would_recommend_uniovi, Gender, Nationality_Code, Disability_Code, Fam_Code, Father_Stud_Code, Mother_Study_Code, Father_job, Mother_job, Acces_Way, Center_Code, Priority, First_Year_Grant_Code, Grant_2011]",
+          "Moment of Prediction": "End of SecondYear",
+          "Preprocessing Details": "Authors perform outlier detection and ultimately decide that they are legitimate values and, for that reason reason, should be kept.\n\n",
+          "Models": "CART, \nC4.5, \nSVM, \nBayes Net,\nRandom Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{F1-Score: 0.856 - SVM, Accuracy: 0.866 - Random Forest}",
+          "Comments": "Authors do an ex-post analysis of dropout at their university- Not ondly do they create a set of predictive models but also look to analyze factors that help explain Dropout.\n\nClass change is much more difficult to prediuct correctly than the otyher 2 classes. \n\nAuthors also look to optimize their C4.5 Decision Tree (which in this case, since its WeKA should be J48).\n\n",
+          "Limitations": "Bejhhavioral data is extracted only from Self-Reports.\n\nSmall Sample size (1055 students).\n\nMachine Learning Models used are relatively simple, but 3 of them are Tree-Based.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980",
+        "block_index": 3
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_d5730fa1",
+      "reference_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980",
+      "text": "Analyzing dropout in large datasets is difficult. Authors propose a non-parametric ML approach that handles large datasets well and is interpretable. Results of this approach show that performance in first year, personal and contextual variables play a key role in predicting dropout.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+      }
+    }
+  ],
+  "workflow_states": []
+}

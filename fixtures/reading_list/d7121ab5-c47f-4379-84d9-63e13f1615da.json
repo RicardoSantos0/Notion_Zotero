@@ -1,0 +1,572 @@
+{
+  "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da",
+  "title": "Path-Based Recommender System for Learning Activities Using Knowledge Graphs",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65bbd368-aedc-44d0-b40a-9ef226c14dce",
+          "name": "Knowledge Graphs",
+          "color": "purple"
+        },
+        {
+          "id": "1b2fcc3d-3c57-4057-8b84-2338cb96c975",
+          "name": "Knowledge-Graph-Based Recommender System",
+          "color": "gray"
+        },
+        {
+          "id": "530e4cb6-1351-47da-a21e-7282b1e375f8",
+          "name": "Path-Based Reasoning",
+          "color": "orange"
+        },
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "5c672682-65e2-4e6b-b73e-312e6d8e8d46",
+          "name": "Intelligent Tutoring Systems",
+          "color": "brown"
+        },
+        {
+          "id": "fee56a28-ddec-49f7-8ade-331a364c22cc",
+          "name": "Learning Activity Recommendations",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Information",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Information",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-04T22:55:00.000+00:00",
+        "end": "2025-10-25T19:18:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Troussas & Krouska",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Troussas & Krouska",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Path-Based Recommender System for Learning Activities Using Knowledge Graphs",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Path-Based Recommender System for Learning Activities Using Knowledge Graphs",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2934750c-f3ba-8013-a169-c77e102940c9",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Collaborative Filtering",
+          "Learning Paths",
+          "100 undergraduate students",
+          "-",
+          "Learner-Activity Record\nActivity Metadata",
+          "The knowledge graphs are built using entity types and relationships.\n\nLatent representations are created using Random-Walk",
+          "Graph Edges are extended by interactions. \n\n",
+          "Authors include bias parameters p and q to balance local/global walks\n\n- Skipgrams are used to create effiicient node representations",
+          "Top-N learning activities",
+          "{User Experience: 0.72, Effectiveness: 0.76, Impact on Learning: 0.7}",
+          "The idea of the authors is to create a new path-based recommender system.\n\nActivities are captured by embeddings, which allows the identification of similar ones.\n\nProvides explainable recommendations via path tracing.\n\nResults on experiment with 100 students show that students who used the recommender have higher satisfaction when it comes to user experience, effectiveness and impact on learning.",
+          "- Single domain.\n- No tests against other models.\n- Evaluated done only throughout a semester.\n- Limited scale - no exploration of the growth of the knowledge graph."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ac4750c-f3ba-8048-a50b-cea177113e80",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ac4750c-f3ba-8048-a50b-cea177113e80",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da"
+        },
+        "created_time": "2025-03-04T22:55:00.000Z",
+        "last_edited_time": "2025-03-04T22:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ac4750c-f3ba-802a-989c-cbb7794cdf00",
+      "type": "paragraph",
+      "text": "The authors propose a new recommender system for learning activities that uses knowledge graphs. The model uses student-learning activity graph to identify common learning activity pathways.  Authors test their approach in an ITS on the teaching of Java.",
+      "raw": {
+        "object": "block",
+        "id": "1ac4750c-f3ba-802a-989c-cbb7794cdf00",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da"
+        },
+        "created_time": "2025-03-04T22:55:00.000Z",
+        "last_edited_time": "2025-03-04T22:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors propose a new recommender system for learning activities that uses knowledge graphs. The model uses student-learning activity graph to identify common learning activity pathways.  Authors test their approach in an ITS on the teaching of Java.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors propose a new recommender system for learning activities that uses knowledge graphs. The model uses student-learning activity graph to identify common learning activity pathways.  Authors test their approach in an ITS on the teaching of Java.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2934750c-f3ba-80f0-86d1-d9d68c439b63",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2934750c-f3ba-80f0-86d1-d9d68c439b63",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da"
+        },
+        "created_time": "2025-10-21T14:20:00.000Z",
+        "last_edited_time": "2025-10-21T14:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2934750c-f3ba-8060-9f7e-ebdc028dcfdf",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "2934750c-f3ba-8060-9f7e-ebdc028dcfdf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da"
+        },
+        "created_time": "2025-10-21T14:20:00.000Z",
+        "last_edited_time": "2025-10-21T14:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2934750c-f3ba-8013-a169-c77e102940c9",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2934750c-f3ba-8013-a169-c77e102940c9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d7121ab5-c47f-4379-84d9-63e13f1615da"
+        },
+        "created_time": "2025-10-21T14:20:00.000Z",
+        "last_edited_time": "2025-10-21T14:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

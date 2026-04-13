@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "8bb53b06-6318-4286-b722-2dd1f69c0984",
+      "title": "Combining University Student Self-Regulated Learning Indicators and Engagement with Online Learning Events to Predict Academic Performance",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_9da09427",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended LEarning",
+          "Students": "145 first-year students",
+          "Courses": "1 Introduction to Computer Systems course",
+          "Data sources": "LMS logs, MSLQ, Academic Performance",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[DBoard, Col-Exp, Resource, Video, MCQ, VMCQ, Exercise, Self-Efficacy, Intrinsic Motivation, Test Anxiety, Positive Self-Regulated Strategy Use, Negative Self-Regulated Use]",
+          "Preprocessing Details": "Initial exploration of the data was done using PCA with Varimax rotation. Questionaire consistency was evaluated using Cronbach alpha. ",
+          "Models": "Hierarchical Clustering",
+          "Performance Metric: Best Model": " - ",
+          "Groups Created": "2",
+          "Cluster Description": "High self-regulated and high-achieving (n=62)\n\nThese students tend to exhibit the best indicators when it comes to SRL and interaction patterns. These students also exhibit the highest grades overall.\n\nLow self-regulated and low-achieving students (n=83)\n\nLowest patterns of interaction and lowest values on the SRL constucts - leading also to the lowest grade.",
+          "Implications": "Constructs and variables usually associated with engative performance have, in this study, effectively led to worst results. \n\nThere is value in combining different sources of variables as it allows for a more fine-grained evaluation of student behavior and their SRL perceptions.",
+          "Comments": "Authors do Hierarchical clustering to perform to identify 2 groups of students.  Results are consistent with literature.",
+          "Limitations": "Survey was made for the course as a whole, not dividing betwen face-to-face and online components. \n\nSRL is dynamic so capturing some idea at one point may not fully translate into a complete experience throughout the course. "
+        },
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended LEarning",
+          "Students": "145 first-year students",
+          "Courses": "1 Introduction to Computer Systems course",
+          "Data sources": "LMS logs, MSLQ, Academic Performance",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[DBoard, Col-Exp, Resource, Video, MCQ, VMCQ, Exercise, Self-Efficacy, Intrinsic Motivation, Test Anxiety, Positive Self-Regulated Strategy Use, Negative Self-Regulated Use]",
+          "Preprocessing Details": "Initial exploration of the data was done using PCA with Varimax rotation. Questionaire consistency was evaluated using Cronbach alpha. \n\nAuthors check for the independence assumptions and notice the Tolearance and VIF are within acceptable values, same goes for the Durbin-Watson test.",
+          "Models": "Multiple Linear Regression",
+          "Performance Metric: Best Model": " {Adjusted RQuared: 0.32 - Model 2}",
+          "Groups Created": "-",
+          "Cluster Description": "-",
+          "Implications": "Addressing test anxiety and poor student engagement with online events may improve student outcomes.",
+          "Comments": "Regression analysis confirms the observations made in the previous experiment.",
+          "Limitations": "Survey was made for the course as a whole, not dividing betwen face-to-face and online components. \n\nSRL is dynamic so capturing some idea at one point may not fully translate into a complete experience throughout the course. "
+        }
+      ],
+      "provenance": {
+        "page_id": "8bb53b06-6318-4286-b722-2dd1f69c0984",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_45166c3c",
+      "reference_id": "8bb53b06-6318-4286-b722-2dd1f69c0984",
+      "text": "Work focuses on combining the trace data obtained from LMS logs and regularly used to predict performance with self-reported indicators often used to identify SRL. To do that, the authors perform a case-study on a sample of 145 students. Students perform a self-report assessment for SRL indicators and their logs are collected and analyzed.",
+      "provenance": {
+        "page_id": "8bb53b06-6318-4286-b722-2dd1f69c0984"
+      }
+    },
+    {
+      "id": "an_491c9c34",
+      "reference_id": "8bb53b06-6318-4286-b722-2dd1f69c0984",
+      "text": "Results show that a model that combines both sources of data leads to a greater explained variance of the final score than when the sources are used in isolation. Authors make no specific mention of early prediction in the abstract.",
+      "provenance": {
+        "page_id": "8bb53b06-6318-4286-b722-2dd1f69c0984"
+      }
+    }
+  ],
+  "workflow_states": []
+}

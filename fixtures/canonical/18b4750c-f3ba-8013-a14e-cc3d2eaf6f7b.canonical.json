@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
+      "title": "Dynamic Bayesian Networks  for Student Modeling",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_fd55926c",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Getting the Next Question Correctly",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "6043 Algebra learners, 7265 Dybuster learners, 77 Physics learners, 1581 Math learners, ",
+          "Courses": "Number Representation, Subtraction, Physics, Algebra, Spelling",
+          "Data sources": "Answer of Sequences",
+          "Features": "[Sequences of Answers]",
+          "Flaw of Previous Models": "BKT is unable to identify relationships between skills since it requires the construction of one model per skill.",
+          "Novelty of Model": "The authors embloy Dynamic Bayesian Networks to map hierarchies of skills. An advantage of the method is that skills are modeled jointly.\n\n\n\n",
+          "Preprocessing Details": "The DBN uses Log-Linear weights associated to each skill and knowledge component.",
+          "Models": "DBNc1, DBNc2, DBNc3, DBNc4, BKTc, AFM, PFA",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Number Representation\n{RMSE: 0.4378 - DBNc4, AUC: 0.7026 - DBNc2, Reliability: 0.073 - BKTc, Resolution: 0.09 - AFM}\n\nSubtraction\n{RMSE: 0.4215 - DBNc2, AUC: 0.6928 - DBNc4, Reliability: 0.073 - DBN, Resolution: 0.09 - AFM}\n\nPhysics\n{RMSE: 0.4244 - DBNc3, AUC: 0.7021 - DBNc3, Reliability: 0.01 - DBN, Resolution: 0.03 - DBN}\n\nAlgebra\n{RMSE: 0.3246 - DBNc2, AUC: 0.7042 - DBNc2, Reliability: 0.02 - DBN, Resolution: 0.015 - DBN}\n\nSpelling\n{RMSE: 0.4472 - DBNc4, AUC: 0.5808 - DBNc4, Reliability: 0.028 - PFA, Resolution: 0.015 - AFM}\n",
+          "Comments": "Authors check whether their proposed model otperforms other approaches using RMSE and AUC metrics but, additionally, they also test thheir moddel when it comes to Reliability and Resolution.\n\n",
+          "Limitations": "Model does not include ability to forget, something which is known to improve model performance. \n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6df11592",
+      "reference_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
+      "text": "In order to work, ITS require good representations of students and their knowledge, with BKT being among the most popular representations. However, BKT does not account for hierarchical relationships between skills, something that Dynamic Bayesian networks (DBN) address. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b"
+      }
+    },
+    {
+      "id": "an_79461d44",
+      "reference_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b",
+      "text": "The authors introduce DBN for student modelling and test the performance of their algorithm on 5 distinct datasets, outperforming previous approaches.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8013-a14e-cc3d2eaf6f7b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

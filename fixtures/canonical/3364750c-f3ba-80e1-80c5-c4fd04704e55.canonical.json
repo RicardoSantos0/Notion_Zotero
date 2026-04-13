@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "id": "3364750c-f3ba-80e1-80c5-c4fd04704e55",
+      "title": "Competency and Skill-Based Educational Recommendation System",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Artificial Intelligence in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1363d5ca",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "",
+          "Teaching Method": "",
+          "Recommender System Type": "Ontology-Based",
+          "Target of Recommendation": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "3364750c-f3ba-80e1-80c5-c4fd04704e55",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_cb69515f",
+      "reference_id": "3364750c-f3ba-80e1-80c5-c4fd04704e55",
+      "text": "Automatic scoring often uses ML to generate a score but often ignore how well the answer maps to the original question. Authors’ approach identifies cognitive difficiencies and subsequently makes recommendations for remediation. Authors present a case study of their system.",
+      "provenance": {
+        "page_id": "3364750c-f3ba-80e1-80c5-c4fd04704e55"
+      }
+    }
+  ],
+  "workflow_states": []
+}

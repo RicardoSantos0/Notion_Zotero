@@ -1,0 +1,696 @@
+{
+  "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
+  "title": "A MOOCs Recommender System Based on User’s Knowledge Background",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f538b1da-e7a4-41df-914d-ce1bc66f101d",
+          "name": "Recommender Systems",
+          "color": "green"
+        },
+        {
+          "id": "65bbd368-aedc-44d0-b40a-9ef226c14dce",
+          "name": "Knowledge Graphs",
+          "color": "purple"
+        },
+        {
+          "id": "faca7a6d-43b9-43cc-b904-63550eee2fa1",
+          "name": "Personalized Learning",
+          "color": "green"
+        },
+        {
+          "id": "6b27426d-9ba0-436b-81f9-241cac222119",
+          "name": "MOOC",
+          "color": "pink"
+        },
+        {
+          "id": "736b4275-b62c-4e0d-acf2-12ac0c2ded4f",
+          "name": "Educational Resources",
+          "color": "default"
+        },
+        {
+          "id": "fcb48c60-1920-4eee-8c96-1c11c9d572aa",
+          "name": "Attention Networks",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rxk{",
+          "name": "Book Chapter",
+          "color": "default"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge Science, Engineering and Management",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge Science, Engineering and Management",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T23:45:00.000+00:00",
+        "end": "2025-07-26T16:26:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zhao et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zhao et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A MOOCs Recommender System Based on User’s Knowledge Background",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A MOOCs Recommender System Based on User’s Knowledge Background",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-805c-bb4e-c5dca0a43b67",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "MOOC",
+          "E-Learning",
+          "Content-based filtering",
+          "Courses to Take ",
+          "168664 XueTxang users",
+          "6410 courses",
+          "Course Descriptors\nEnrollment history\n",
+          "Entity Embeddings are learned using TransH.\n\nCourse Information is done via the creation of separate embeddings for pre-requisite courses, curreent courses and parallel courses.\n\nFor users, Knowledge Extraction, it takes the sequence of the courses taken and computes the average representation aacross the different dimensions.\n",
+          "- Retraining after a learner takes a course.",
+          "Dimensions of Word Embedings are set to 100.\n\nSeparate layers are creation:\n- Creation of a Curse Knowledge Graph to understand course relationships\n\n- Knowledge Background from users: Uses sequences of courses taken\n\nFinal prediction is obtained via the product bbetween user embedding and the course embeddings",
+          "Top-K Courses to take ",
+          "{AUC: 0.9143 - HRL, HR@5: 0.8269 - Proposed Model, HR@10: 0.8785 - Proposed Model, NDCG@5: 0.6808 - Proposed Model, NDCG@10: 0.6973 - Proposed Model, MRR: 0.6433 - Proposed Model}",
+          "Authors propose a new N architecture that inclues different modules:\n\nKnowledge extraction Module:  includes the representations of all courses available in the platform\n\nUser Knowledge Background: Creates a representation of the user’s knowledge based on the courses taken up to this point → uses as input the sequences of courses taken.\n\nUser Interest: Results from the product of the user’s history with the representation of each candidate course → leads to a prediction of probability of enrollment.\n\nModel outperforms other baseliines considered for a similar task.\n\n",
+          "- Does not consider user history beyond the sequence of courses taken."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-8040-ac76-c243f1bd6336",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8040-ac76-c243f1bd6336",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-02-06T23:40:00.000Z",
+        "last_edited_time": "2025-02-06T23:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8052-8077-df3795104d82",
+      "type": "paragraph",
+      "text": "MOOCs have plenty of flexibility when it comes to the learning paths they wish to pursue. This great flexibility gives plenty of options to students and current course recommenders tend to rely on previous courses to suggest good next steps. However, these recommenders do not account for student knowledge.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8052-8077-df3795104d82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-02-06T23:40:00.000Z",
+        "last_edited_time": "2025-02-06T23:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "MOOCs have plenty of flexibility when it comes to the learning paths they wish to pursue. This great flexibility gives plenty of options to students and current course recommenders tend to rely on previous courses to suggest good next steps. However, these recommenders do not account for student knowledge.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "MOOCs have plenty of flexibility when it comes to the learning paths they wish to pursue. This great flexibility gives plenty of options to students and current course recommenders tend to rely on previous courses to suggest good next steps. However, these recommenders do not account for student knowledge.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8083-9f1a-ef74a4ee0a40",
+      "type": "paragraph",
+      "text": "Authors propose a knowledge-aware recommendation that uses historical enrollments and learning feedback. The model uses a Knowledge graph to represent a learning sequence. The Learning sequence was combined with learning feedback to extract the students’ knowledge. Finally, an Attention module is used to predict the probability of enrolling in a course. Comparison with other baselines show that method can recommend MOOCs.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8083-9f1a-ef74a4ee0a40",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-02-06T23:43:00.000Z",
+        "last_edited_time": "2025-02-06T23:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose a knowledge-aware recommendation that uses historical enrollments and learning feedback. The model uses a Knowledge graph to represent a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose a knowledge-aware recommendation that uses historical enrollments and learning feedback. The model uses a Knowledge graph to represent a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "learning sequence. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "learning sequence. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "The Learning sequence was combined with learning feedback to extract the students’ knowledge. Finally, an Attention module is used to predict the probability of enrolling in a course. Comparison with other baselines show that method can recommend MOOCs.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The Learning sequence was combined with learning feedback to extract the students’ knowledge. Finally, an Attention module is used to predict the probability of enrolling in a course. Comparison with other baselines show that method can recommend MOOCs.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-80d3-94ec-f0fb7d42dc89",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-80d3-94ec-f0fb7d42dc89",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-07-26T15:14:00.000Z",
+        "last_edited_time": "2025-07-26T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-8025-abc6-fbcccdee4dd2",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-8025-abc6-fbcccdee4dd2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-07-26T15:14:00.000Z",
+        "last_edited_time": "2025-07-26T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/fb35a1e4-5f9c-4a09-b87b-c150d0fc00d4/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XMBB7BTU%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152649Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIHBr0fgOP7aZ2XKzsnGKz8oJIxheaIQjctumL0c8hIvtAiEAqHQgWS0h92Gm7ceQYdYsgPrQdktWYC22CsaTvWZEP5Aq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDPLo8bCDw7GFIzRMYyrcA2u5Us0b%2F%2FMScS9Q69U2dhHF6%2FkuHQZo5TaPGAXPH5OFdUDMfdOwk4oXtybCv9rUw%2FXztoc5PKVwnOkmUfFgcqe5D7qpCeMDlBWVo4T7vOE7janzBH8hQMOSJhttuwAQTTkAMLvtce6X0F5sCTxvpS%2BjniJABRqTQXiYjmnKQOcgL0qdOH1zRxXJ6LtQeHgzcHRKqgVWNATiXTQzCMpgXE6jFb%2B%2BHlyGczTr%2BfoDBmtMi6mx9109FVFv5W%2FWXPs7DPusYjtvMafudxgqA22V3%2Fo8D4JSSPZoc9eoT3bwnyqfgVQhEMgx%2BCMMNo0AG5QW56hqHpOYITGsMM7mnm8Uk3neotvAG0NmDjeIhHIn1fsD%2FAxbBrWwGJTWvi8h%2F83uY8kMVX3G02eYO4Q1ME1hkboN%2FsuxoIskjyP9H3ax3uhcr9HYnkKnGd2jkTQSN%2F6Q3t8uB7K60MqbhlXpvarekAYXUFejo1QYhoqdRUXDUVIyqAkViVaxrPx2RshvnpYfXXd%2F%2FnqLn6WyqS9c9wqY4VNzqLAvA6d2SpJp8trf3zJr%2B7CrM0nU%2F6clQpCVLEw9thz00zbuMGZO8bpMRhn8BW28oxcjtZOIsinw0G1faSBtk0CuuPmmWiMuoVzHMNjx884GOqUBWHYxEZ%2B8yZkJRl9LlNmvxfFMZG2sDmAuV3qPCf23IF94pzqdwYoDkb9DVEEig64e1gCcG%2Fw3hX81b3aQtVFT4IdeKGGEaOoj6wzoilzylMWECP8FB%2BYdw2AR2%2BfhwKzg2NeESi%2FGTauamLigxDiPsqGijCUhgOWPJgwJ7V7tBOXKEkaAKpLu4Ege%2FDVfNKNDwk1SDpJ3813jYWlRJijDKwEhepmU&X-Amz-Signature=9afbc17372b0433ef5ae427388c3f2785fd33d7c5d06787fb6b66ea77293a157&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:26:49.126Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-800a-8bf0-c3cc4cec424a",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-800a-8bf0-c3cc4cec424a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-07-26T13:52:00.000Z",
+        "last_edited_time": "2025-07-26T13:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-805c-bb4e-c5dca0a43b67",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-805c-bb4e-c5dca0a43b67",
+        "parent": {
+          "type": "page_id",
+          "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+        },
+        "created_time": "2025-07-26T13:52:00.000Z",
+        "last_edited_time": "2025-07-26T13:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

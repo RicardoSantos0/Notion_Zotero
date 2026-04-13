@@ -1,0 +1,798 @@
+{
+  "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd",
+  "title": "Mining Code Submissions to Elucidate Disengagement in a Computer Science MOOC",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6213c7ba-f73a-4691-b5d1-9d25cb65eb7b",
+          "name": "Introductory computer science education",
+          "color": "pink"
+        },
+        {
+          "id": "ef96a3b6-1ffc-43fc-889a-590deb8aa20e",
+          "name": "Code Analysis",
+          "color": "default"
+        },
+        {
+          "id": "f7a84497-fb45-4c92-b597-7fb0ccd76ed0",
+          "name": "Automated Tutoring System",
+          "color": "purple"
+        },
+        {
+          "id": "25e11b0b-41b0-48e0-80f0-09fa4be66a50",
+          "name": "Massive Open Online Courses",
+          "color": "default"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-04T09:00:00.000+01:00",
+        "end": "2026-02-05T15:15:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Vinker & Rubenstein",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Vinker & Rubenstein",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mining Code Submissions to Elucidate Disengagement in a Computer Science MOOC",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mining Code Submissions to Elucidate Disengagement in a Computer Science MOOC",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2fe4750c-f3ba-80eb-885e-da1f7308ce2d",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "E-Learning",
+          "Student Attrition",
+          "Submitting at Least 70% of Graded Assignments (-1) vs Attrition (1)",
+          "4064 learners",
+          "1 1SCS course from Telavive University",
+          "Code submissions",
+          "[Ak, Bk, Ck, Dkm, Ek, Fk, Gk, Hk, Ik, Jk, Kk, Lk, Mk, N, Oq, P, Q, R, S, T]",
+          "Assignments 1 to 8 (out of 27)",
+          "The 20 extracted features are aggregated into into 5 distinct categories:  Performance, Participation, Persistence, Interaction, Timing\n\nHyper-Parameter Tuning is done using 5-fold CV",
+          "Soft-SVM, Logistic Regression, Decision Tree",
+          "Holdout Method (80/20)",
+          "{Accuracy: 0.76 - Logistic Regression, Precision: 0.91 - Logistic Regression, Recall: 0.77 - DT, F1-Score: 0.82 - DT}",
+          "Authors in study 2 try to predict attrition of a MOOC at the end the of the 3rd out of 8 modules of an introductory programming course. \n\nThe first study involves tracking the submission history while the second involves the creation of a supervised model to predict attrition. ",
+          "Only considers submissions and no additional data sources. \n\nOnly considers one course. \n\nSmall number of algorithms. "
+        ]
+      ],
+      "index": 6
+    },
+    {
+      "block_id": "2c94750c-f3ba-8089-a13b-f11bfe82e9fc",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Sequence Mining",
+          "MOOC",
+          "E-Learning ",
+          "4064 learners",
+          "1 1SCS course from Telavive University",
+          "Code submissions",
+          "None Specified",
+          "",
+          "Authors use features from mulitple assignments. In essence, they monitor the submission, grade, etc… for each assigment k in a total of 27 assignments. ",
+          "Unspecified",
+          "-",
+          "-",
+          "Assignments 21 and 22 were found to be assignments where students tended to fail the most and this was, in fact, later confirmed by the teaching staff.  \n\nThe sequence also allows the visibility of specific attrition points: 33% quit after Assignment 2, and only 35% participate in the final assignment.",
+          "Identification of points of hurt can be used by educators to improve the curriculum.",
+          "The work is divided into multiple Studies. The first study involves the creation of a set of submission trajectories and creating a graph network. ",
+          "The algorithm used to create the trajectory graph was not specified. Likely a Markov Model."
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "89b3c60b-00e6-486a-972a-f410f2efce7b",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "89b3c60b-00e6-486a-972a-f410f2efce7b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2024-08-04T15:33:00.000Z",
+        "last_edited_time": "2024-08-04T15:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23905712-6466-4226-8af0-1b5845020aac",
+      "type": "paragraph",
+      "text": "MOOCs in programming are carachterized by a high rate of attrition of students. The authors of the study use data from MOOCs (logs and code submissions) to predict student disengagement. For that purpose, the authors use multiple classic ML algorithms.",
+      "raw": {
+        "object": "block",
+        "id": "23905712-6466-4226-8af0-1b5845020aac",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2024-08-04T15:33:00.000Z",
+        "last_edited_time": "2026-02-05T13:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "MOOCs in programming are carachterized by a high rate of attrition of students. The authors of the study use data from MOOCs (logs and code submissions) to predict student disengagement. For that purpose, the authors use multiple classic ML algorithms.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "MOOCs in programming are carachterized by a high rate of attrition of students. The authors of the study use data from MOOCs (logs and code submissions) to predict student disengagement. For that purpose, the authors use multiple classic ML algorithms.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c98cc009-295a-41f2-b2e6-24dc34d7745e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c98cc009-295a-41f2-b2e6-24dc34d7745e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2024-08-04T15:42:00.000Z",
+        "last_edited_time": "2024-08-04T15:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2ce5ded9-50e3-4d4e-b5f3-70f30646493b",
+      "type": "paragraph",
+      "text": "Results show that further research should be devoted to understanding and developing betters hand on experiences in online learning systems. ",
+      "raw": {
+        "object": "block",
+        "id": "2ce5ded9-50e3-4d4e-b5f3-70f30646493b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2024-08-04T15:42:00.000Z",
+        "last_edited_time": "2024-08-04T15:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that further research should be devoted to understanding and developing betters hand on experiences in online learning systems. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that further research should be devoted to understanding and developing betters hand on experiences in online learning systems. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2fe4750c-f3ba-80ba-9586-e3bb5109a02e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2fe4750c-f3ba-80ba-9586-e3bb5109a02e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2026-02-05T14:59:00.000Z",
+        "last_edited_time": "2026-02-05T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2fe4750c-f3ba-80db-aad4-ccaaf6e89088",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2fe4750c-f3ba-80db-aad4-ccaaf6e89088",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2026-02-05T14:59:00.000Z",
+        "last_edited_time": "2026-02-05T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2fe4750c-f3ba-80eb-885e-da1f7308ce2d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2fe4750c-f3ba-80eb-885e-da1f7308ce2d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2026-02-05T14:59:00.000Z",
+        "last_edited_time": "2026-02-05T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-805c-a589-c9d6673c1b2c",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-805c-a589-c9d6673c1b2c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8089-a13b-f11bfe82e9fc",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8089-a13b-f11bfe82e9fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "57942fdd-c7bc-4f62-b88d-dabf6b3b55bd"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2026-02-05T14:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

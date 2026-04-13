@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "17c20953-fb22-4346-b8e5-938e56b2be51",
+      "title": "Student Answer Forecasting: Transformer-Driven Answer Choice Prediction for Language Learning",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_eba12cc2",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Predicting the Option Selected by Student in MCQ Scenario",
+          "Target": "Options Selected",
+          "Students": "10499 learners",
+          "Courses": "Mathematics & German in Lernnavi",
+          "Data sources": "Answer Sequences, Questions, Topic Taxonomies",
+          "Features": "[User Generated Transactions, Questions (and Options), Topic Taxomony for German and Maths]",
+          "Flaw of Previous Models": "Most approaches that are SoTA usually focus on whether the answer is correct or incorrect, not the learner’s specific answer - something which can now be better used with attention-based models.",
+          "Novelty of Model": "The proposed model uses LLMs to understand content and context of the answers to create student embeddings based on their question answering history.",
+          "Preprocessing Details": "Users are first organized into learning sessions. Each learning session includes a the sequence of answers given by a student. \n\nFor each question, the options are binary encoded so that it becomes possible to identify what was the answer given by the student.\n\nAuthors created 22 different embeddings: 1 with MLP, 16 with LSTM, 1 with LernnaviBERT and 4 with Mistral7BInstruct\n\nAuthors create a normal KT model from sequences of answers but subsequently incorporate the student embeddings. Main distinction between the models is related to how these embeddings are integrated: \n\nMCQStudentBertCat → concatenates with model outputs before classification, \n\nMCQStudentBertSum → Sums embeddings at input stage",
+          "Models": "MCQStudentBertCat, MCQStudentBertSum",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{MCC: 0.579 - MCQStudentBertCat with Mistral Embeddings, Accuracy: 0.797 - MCQStudentBertCat with Mistral Embeddings, F1-Score: 0.782 - MCQStudentBertCat with Mistral Embeddings}",
+          "Comments": "Authors compare the 2 different models: MCQStudentBertCat and MCQStudentBertSum using multiple different forms of learner embeddings:\n\n- Dummy (no user embedding), MCQBert, MLP, LSTM, LearnnaviBERT and Mistral 7B.\n\nTesting with the holdout method, the authors found that the representation that concatenates the user embeddings before prediction are the betterr form of introducing hte embeddings. Moreover, the best embbeddings are, unsurprisingly, the ones obtained with Mistral.",
+          "Limitations": "Limited interpretability of embedding-based models\n\nSingle context - Lernnavi dataset.\n\nHoldout method"
+        }
+      ],
+      "provenance": {
+        "page_id": "17c20953-fb22-4346-b8e5-938e56b2be51",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6da6109d",
+      "reference_id": "17c20953-fb22-4346-b8e5-938e56b2be51",
+      "text": "ITS predict likely student answers and provide individualized feedback but, most Knowledge Tracing tasks focus on getting question right or wrong and do not focus explicitly on knowledge states of the learner.",
+      "provenance": {
+        "page_id": "17c20953-fb22-4346-b8e5-938e56b2be51"
+      }
+    },
+    {
+      "id": "an_953d87de",
+      "reference_id": "17c20953-fb22-4346-b8e5-938e56b2be51",
+      "text": "Authors propose a novel answer forectasting model called QStudentBert. This model integrates LLMs to understand student context and answer history. The idea is to create embeddings of student context and previous answers and use them as the inputs for a fine-tuned BERT. ",
+      "provenance": {
+        "page_id": "17c20953-fb22-4346-b8e5-938e56b2be51"
+      }
+    },
+    {
+      "id": "an_f7e11910",
+      "reference_id": "17c20953-fb22-4346-b8e5-938e56b2be51",
+      "text": "Tests on a dataset featuring more than 10000 students. REsults versus baseline are not revealed.",
+      "provenance": {
+        "page_id": "17c20953-fb22-4346-b8e5-938e56b2be51"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,88 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
+      "title": "Pull together: Option-weighting-enhanced mixture-of-experts knowledge tracing",
+      "authors": [],
+      "year": null,
+      "journal": "Expert Systems With Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_9b35c15b",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next MCQ is Correct",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "100000 EdNet-KT1 learners, 118971 Eedi learners, 10000 EdNet learners ",
+          "Courses": "EdNet, Eedi, ENEM",
+          "Data sources": "Sequence of Answers, Problem Difficulty",
+          "Features": "[Sequence of Answers, Option Scores]",
+          "Flaw of Previous Models": "KT methods often estimate knowledge states based on correctedness of a MCQ. \n\nHowever, selecting different options may be indicative of different knowledge states. \n\nMoreover, while multi-task prediction has been used in KT, it lacks a full model specific for different tasks.",
+          "Novelty of Model": "The novelty of the approach is two-fold:\n\nThe introduction of option-weighting to assign different weights to the different possibilities of MCQ. \n\nSecondly, the model introduces the notion of mixtures-of-experts. \n\nOne Module Specific for KT, a second for OT and a thir for both tasks. ",
+          "Preprocessing Details": "The authors create 2 forms of embeddings: a categorical embedding for exercises representation.\n\nA continuous embedding to represent the learners’ knowledge states. \n\nThe authors create mixture of experts set of embeddings. \n\nIn short, the authors create 3 modules that are meant to mimetize domain-experts with different perspectives:\n\n- Exercise Embeddings, \n- Exercise Analysis, \n- Learning State Recognition, \n- Interaction Parsing,\n- Knowledge State Acquisiton\n\nFor this exercise, there is an expert for the KT task and an expert meant to evaluate the KT and the OT perspectives. \n ",
+          "Models": "DKT, DKVMN, SAKT, AKT, SAINT, CL4KT, DIMKT, DP-WEKT, MQFKT, ATDKT, WEKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "EdNet\n{AUC: 0.7751 - WEKT, Accuracy: 0.7332 - WEKT, RMSE; 0.4218 - WEKT}\n\nEedi\n{AUC: 0.8164 - WEKT, Accuracy: 0.7538 - WEKT, RMSE; 0.4012 - WEKT}\n\nENEM\n{AUC: 0.7453- WEKT, Accuracy: 0.7350 - WEKT, RMSE; 0.4274 - WEKT}",
+          "Comments": "Results show that both WEKT and DP-WEKT approaches achieve state-of-the-art performance on 3 of the datasets.\n\nThe impact of the experts is measured via an ablation study - both for full experts and Expert Compents as well.",
+          "Limitations": "Only works for MCQ scenarios.\n\nDoes not consider specific learner behaviors which may enrich the model’s performance.\n\nDoes not consider, at this stage, the incorporation of LLMs.\n\nHoldout Method"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Which Option Selects on a MCQ",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "100000 EdNet-KT1 learners, 118971 Eedi learners, 10000 EdNet learners ",
+          "Courses": "EdNet, Eedi, ENEM",
+          "Data sources": "Sequence of Answers, Problem Difficulty",
+          "Features": "[Sequence of Answers, Option Scores]",
+          "Flaw of Previous Models": "KT methods often estimate knowledge states based on correctedness of a MCQ. \n\nHowever, selecting different options may be indicative of different knowledge states. \n\nMoreover, while multi-task prediction has been used in KT, it lacks a full model specific for different tasks.",
+          "Novelty of Model": "The novelty of the approach is two-fold:\n\nThe introduction of option-weighting to assign different weights to the different possibilities of MCQ. \n\nSecondly, the model introduces the notion of mixtures-of-experts. \n\nOne Module Specific for KT, a second for OT and a third for both tasks. ",
+          "Preprocessing Details": "The authors create 2 forms of embeddings: a categorical embedding for exercises representation.\n\nA continuous embedding to represent the learners’ knowledge states. \n\nThe authors create mixture of experts set of embeddings. \n\nIn short, the authors create 3 modules that are meant to mimetize domain-experts with different perspectives:\n\n- Exercise Embeddings, \n- Exercise Analysis, \n- Learning State Recognition, \n- Interaction Parsing,\n- Knowledge State Acquisiton\n\nFor this exercise, there is an expert for the OT task and an expert meant to evaluate the KT and the OT perspectives. \n ",
+          "Models": "DP-WEKT, WEKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "EdNet\n{AUC: 0.6772 - WEKT}\n\nEedi\n{AUC: 06611 - WEKT}\n\nENEM\n{AUC: 0.4184 - WEKT}",
+          "Comments": "For Option Tracing Task, both WEKT and DP-WEKT were tested. \n\nWEKT outperforms DP-WEKT while being substantially faster to train. ",
+          "Limitations": "Only works for MCQ scenarios.\n\nDoes not consider specific learner behaviors which may enrich the model’s performance.\n\nDoes not consider, at this stage, the incorporation of LLMs.\n\nHoldout Method"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e237ee54",
+      "reference_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
+      "text": "In online teaching, KT is meant to inform whether a teaching strategy should be changed according to the changes in learners knowledge states. Most KT models assume a binary target, without additional adjustments. For example, MCQ options introduce confounding concepts and, depending on the learner’s answer, it may be possible to understand the current knowledge state. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+      }
+    },
+    {
+      "id": "an_f5216b14",
+      "reference_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
+      "text": "To take advantage of this phenomenon, the authors introduce an option-weighted enhanced mixture-of-experts knowledge tracing (WEKT) method. Each answer receives a specific weight and can be used to update the learners’ knowledge states. The structure combines cognitive theory and deep learning. Experiments on multiple datasets show that the model achieves its aims. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

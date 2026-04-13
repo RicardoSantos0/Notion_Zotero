@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-809e-a037-cd5196ba9d19",
+      "title": "Analyzing Student Strategies In Blended Courses Using Clickstream Data",
+      "authors": [],
+      "year": null,
+      "journal": "EDM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c4033443",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "B-Learning",
+          "Students": "164 students",
+          "Courses": "1 Computer Science Course at Carnegie Melon University Spring 2019",
+          "Data sources": "LMS logs, \nHomework and Exam Grades, \nStudent-level lecture and attendance logs",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[n-grams of sequences of activities with length 3, 4 or 5]",
+          "Preprocessing Details": "Authors identify 37 types of clicks.^Clickstreams are divided into assessment weeks. \n\nAuthors create an embedding of the click types using a skip-gram model.\n\n\n\n",
+          "Models": "Hierarchical Clustering,\nLatent Dirichlet Allocation",
+          "Performance Metric: Best Model": "Coherence score between sequences.",
+          "Groups Created": "9",
+          "Cluster Description": "Group 1 - Looks at lecture notes\n\nGroup 2 - Look at Homeworks\n\nGroup 3 - Looks at recitation materials, \n\nGroup 4 - Catch up on news, \n\nGroup 5 Active HW Engagement, \n\nGroup 6 - Active Homework Engagement\n\nGroup 7 -Library Documentation\n\nGroup 8 - Tries Practice Exam\n\nGroup 9 - Look at practyice exam",
+          "Implications": "NLP-approaches can be used to analyze student’s learning strategies. \n\nActivity tends to increase before exams/homeworks, with students.",
+          "Comments": "Authors start by using pattern mining to extract sequences of activities. Similarity between patterns is computed using Jaro-Winkler distance.\n\nClusters generated are imbalanced. Smallest clusters have around 2 or 3 candiddate patterns.\n\nAuthors create a predicitve model that predicts assessment type based on the interactions of students → showing beihavior differs between homeworks and exams.\n\n\n\n",
+          "Limitations": "Needs generalizability with more data/ techniques."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-809e-a037-cd5196ba9d19",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1aeb421c",
+      "reference_id": "18c4750c-f3ba-809e-a037-cd5196ba9d19",
+      "text": "Descriptive modelling is under-explored in comparison to the creation of models that predict performance. Authors draw from pattern mining and NLP to extract the most frequent learning strategies from a blended course.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-809e-a037-cd5196ba9d19"
+      }
+    },
+    {
+      "id": "an_b8499237",
+      "reference_id": "18c4750c-f3ba-809e-a037-cd5196ba9d19",
+      "text": "Results show that, depending on the assessments the student is preparing for, the patterns of interaction with the LMS differ considerably. The results show that the hybrid NLP approach may generate decent descriptions of student behavior and be used to predict performance. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-809e-a037-cd5196ba9d19"
+      }
+    }
+  ],
+  "workflow_states": []
+}

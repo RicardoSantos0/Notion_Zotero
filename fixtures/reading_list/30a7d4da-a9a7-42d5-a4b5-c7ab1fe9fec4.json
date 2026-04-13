@@ -1,0 +1,4487 @@
+{
+  "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+  "title": "A recommender agent based on learning styles for better virtual collaborative learning experiences",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a906e860-f0e0-4a12-aad9-65316adeb697",
+          "name": "Educational recommender systems",
+          "color": "pink"
+        },
+        {
+          "id": "ff21347c-106a-4f44-a745-938807ca6903",
+          "name": "Learning Styles",
+          "color": "pink"
+        },
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers in Human Behavior",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers in Human Behavior",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-09-24T11:31:00.000+01:00",
+        "end": "2024-10-04T00:40:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dascalu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dascalu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A recommender agent based on learning styles for better virtual collaborative learning experiences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A recommender agent based on learning styles for better virtual collaborative learning experiences",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "10b4750c-f3ba-80b1-91a1-f004e3119ca9",
+      "heading": "Results and Discussion",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Collaborative Filtering",
+          "Learning Materials",
+          "25 students",
+          "Not Applicable - students belong to Engineering in Foreign Languages School",
+          "- Registration Form\n",
+          "Learning Style is inferred from Questionnaire. \n\nSparsity problem → requires that there is at least one student with each learning tool to have selected a tool as preferrable. ",
+          "The learning style is continuously updated based on the interactions of the user with the system.",
+          "Similarity between items is computed using Jaccard Similarity.\n\nRepresentation of users used demographic data AND Learning Style as derived from the LS questionnaire. ",
+          "Shortcuts: based on static information\n\nSuggestions: incorporate learning style and user interactions",
+          "{Satisfaction: 12/20 students reported to be likely to use the recommendder again}",
+          "Methodologically, the work can be summarized into 2 sections:\n\n1. Obtaining the learning styles from the questionnaire AND a rating of tools based on choices upon registration.\n\n2. Using a Collaborative Filtering approach to make recommendations.\n\nTo mitigate the sparsity problem, recommendation matrices are computed seaparately for each learning style.",
+          "- Results on accuracy of LS evaluation or Recommendations is not reported.\n\n- Items whose score does not surpass a pre-determined threshold are never shown.\n\n- Cold-Start problem\n\n- Evaluation metrics considered (accuracy)\n\n- Survey evaluation for recommender based on sdatisfaction-"
+        ]
+      ],
+      "index": 82
+    }
+  ],
+  "blocks": [
+    {
+      "id": "10b4750c-f3ba-80c5-8913-ca4c537fd24e",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-80c5-8913-ca4c537fd24e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-09-24T10:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9ce16ce4-bafd-4b16-92b5-9c7c9413a0f1",
+      "type": "paragraph",
+      "text": "More is not necessarily better. Survey data shows that students need more guidance to access materials than when they had less choice. Thus, the authors propose a new collaborative filtering recommender that also finds a student’s learning style. The system produces 2 types of recommendations and the authors showcase an example of its integration in a VLE.",
+      "raw": {
+        "object": "block",
+        "id": "9ce16ce4-bafd-4b16-92b5-9c7c9413a0f1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-09-24T10:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "More is not necessarily better. Survey data shows that students need more guidance to access materials than when they had less choice. Thus, the authors propose a new collaborative filtering recommender that also finds a student’s learning style. The system produces 2 types of recommendations and the authors showcase an example of its integration in a VLE.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "More is not necessarily better. Survey data shows that students need more guidance to access materials than when they had less choice. Thus, the authors propose a new collaborative filtering recommender that also finds a student’s learning style. The system produces 2 types of recommendations and the authors showcase an example of its integration in a VLE.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10b4750c-f3ba-805e-909b-e767ad974fe3",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-805e-909b-e767ad974fe3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2024-09-24T10:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10b4750c-f3ba-80f0-8719-e6fcd0d7177c",
+      "type": "paragraph",
+      "text": "Nowadays, there are new forms of education that have not existed before: continuous education, online educations, etc… Meaning that it no longer is knowledge transfer from professor to students. Computer Supported Collaborative Learning (CSCL) is among the most challenging educational opportunities, requiring good SRL skills to be successful. ",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-80f0-8719-e6fcd0d7177c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:42:00.000Z",
+        "last_edited_time": "2024-10-01T22:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Nowadays, there are new forms of education that have not existed before: continuous education, online educations, etc… Meaning that it no longer is knowledge transfer from professor to students. Computer Supported Collaborative Learning (CSCL) is among the most challenging educational opportunities, requiring good SRL skills to be successful. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Nowadays, there are new forms of education that have not existed before: continuous education, online educations, etc… Meaning that it no longer is knowledge transfer from professor to students. Computer Supported Collaborative Learning (CSCL) is among the most challenging educational opportunities, requiring good SRL skills to be successful. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80c6-b267-c98667765cd1",
+      "type": "paragraph",
+      "text": "An important construct to consider is personalization. The authors propose a collaborative filtering method for personalization of a CSCL environment.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80c6-b267-c98667765cd1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:21:00.000Z",
+        "last_edited_time": "2024-10-01T22:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "An important construct to consider is ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "An important construct to consider is ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "personalization. The authors propose a collaborative filtering method for personalization of a CSCL environment.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "personalization. The authors propose a collaborative filtering method for personalization of a CSCL environment.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80b0-8097-fa902b98d0b5",
+      "type": "heading_3",
+      "text": "Personalization",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80b0-8097-fa902b98d0b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:26:00.000Z",
+        "last_edited_time": "2024-10-01T22:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Personalization",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Personalization",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80c5-8405-ea6cd8727ae9",
+      "type": "paragraph",
+      "text": "The authors consider that personalization can be defined as fostering specific learning behaviors. However, e-learning personalization differs from traditional classrooms substantially, bringing forward new challenges related to the fact the e-learning tends to be self-directed.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80c5-8405-ea6cd8727ae9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:26:00.000Z",
+        "last_edited_time": "2024-10-01T22:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors consider that personalization can be defined as fostering specific learning behaviors. However, e-learning personalization differs from traditional classrooms substantially, bringing forward new challenges related to the fact the e-learning tends to be self-directed.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors consider that personalization can be defined as fostering specific learning behaviors. However, e-learning personalization differs from traditional classrooms substantially, bringing forward new challenges related to the fact the e-learning tends to be self-directed.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80f3-8e9d-feea5c8fb6a9",
+      "type": "paragraph",
+      "text": "E-learning recommenders are not as developed or matured as their e-commerce counterparts. Moreover, they have recognized drawbacks, but still should be regarded as mainly advantageous:",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80f3-8e9d-feea5c8fb6a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:41:00.000Z",
+        "last_edited_time": "2024-10-01T23:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "E-learning recommenders are not as developed or matured as their e-commerce counterparts. Moreover, they have recognized drawbacks, but still should be regarded as mainly advantageous:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "E-learning recommenders are not as developed or matured as their e-commerce counterparts. Moreover, they have recognized drawbacks, but still should be regarded as mainly advantageous:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8085-baa1-e19757104324",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8085-baa1-e19757104324",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:12:00.000Z",
+        "last_edited_time": "2024-10-01T23:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-800b-8f91-d20df2093bd5",
+      "type": "paragraph",
+      "text": "Improving learning with recommendations",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-800b-8f91-d20df2093bd5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:12:00.000Z",
+        "last_edited_time": "2024-10-01T23:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Improving learning with recommendations",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Improving learning with recommendations",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80f0-b8f8-ca791770c234",
+      "type": "paragraph",
+      "text": "One popular form of personalization is what is called learner-centered: approaches that make the learner have a defining role in the learning experience (often frowned at by students at the start, but accepted later). Professors in learner centered approaches are not giver’s of content and more coaches or facilitators.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80f0-b8f8-ca791770c234",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:12:00.000Z",
+        "last_edited_time": "2024-10-01T23:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "One popular form of personalization is what is called learner-centered: approaches that make the learner have a defining role in the learning experience (often frowned at by students at the start, but accepted later). Professors in learner centered approaches are not giver’s of content and more coaches or facilitators.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "One popular form of personalization is what is called learner-centered: approaches that make the learner have a defining role in the learning experience (often frowned at by students at the start, but accepted later). Professors in learner centered approaches are not giver’s of content and more coaches or facilitators.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8098-ae1a-f2599ea383d1",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8098-ae1a-f2599ea383d1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:18:00.000Z",
+        "last_edited_time": "2024-10-01T23:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80ef-bb8e-d530d6b32504",
+      "type": "paragraph",
+      "text": "Recommendations can be understood as those made by a professor or done by a technology. The authors discuss two distinct conceptual models of recommendations/feedback applicable to the context of professors and proceed to discuss recommender systems in the context of personalization.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80ef-bb8e-d530d6b32504",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:15:00.000Z",
+        "last_edited_time": "2024-10-01T23:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Recommendations can be understood as those made by a professor or done by a technology. The authors discuss two distinct conceptual models of recommendations/feedback applicable to the context of professors and proceed to discuss recommender systems in the context of personalization.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Recommendations can be understood as those made by a professor or done by a technology. The authors discuss two distinct conceptual models of recommendations/feedback applicable to the context of professors and proceed to discuss recommender systems in the context of personalization.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8007-8175-f8cbd835b1d5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8007-8175-f8cbd835b1d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:19:00.000Z",
+        "last_edited_time": "2024-10-01T23:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80a3-9ff9-c53b7a8f334a",
+      "type": "paragraph",
+      "text": "A recommender is defined as an agent that, starting from a very large pool of possible resources, gives a user the approapriate resources and guidance to achieve their learning goals.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80a3-9ff9-c53b7a8f334a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:19:00.000Z",
+        "last_edited_time": "2024-10-01T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A recommender is defined as an agent that, starting from a very large pool of possible resources, gives a user the approapriate resources and guidance to achieve their learning goals.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A recommender is defined as an agent that, starting from a very large pool of possible resources, gives a user the approapriate resources and guidance to achieve their learning goals.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80b3-bb14-ed2bd7337216",
+      "type": "paragraph",
+      "text": "The main advantage of a recommender is related with its decisiveness: they make a decision for someone who may not have the expertise or the maturity to know where to go next.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80b3-bb14-ed2bd7337216",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:15:00.000Z",
+        "last_edited_time": "2024-10-01T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The main advantage of a recommender is related with its decisiveness: they make a decision for someone who may not have the expertise or the maturity to know where to go next.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The main advantage of a recommender is related with its decisiveness: they make a decision for someone who may not have the expertise or the maturity to know where to go next.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8060-9b4b-eb2f510e9b1f",
+      "type": "paragraph",
+      "text": "Still, recommenders in VLEs are not straighforward:",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8060-9b4b-eb2f510e9b1f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:21:00.000Z",
+        "last_edited_time": "2024-10-01T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Still, recommenders in VLEs are not straighforward:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Still, recommenders in VLEs are not straighforward:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-806e-9e94-eda3c74bc5e4",
+      "type": "numbered_list_item",
+      "text": "Many algorithms to possibly use:",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-806e-9e94-eda3c74bc5e4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:24:00.000Z",
+        "last_edited_time": "2024-10-01T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Many algorithms to possibly use:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Many algorithms to possibly use:",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-804a-b809-ddafc6a54f17",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-804a-b809-ddafc6a54f17",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:28:00.000Z",
+        "last_edited_time": "2024-10-01T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80ef-bb51-ca5196b1c529",
+      "type": "paragraph",
+      "text": "Learning Styles as a Possible Input to a Recommender Agent",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80ef-bb51-ca5196b1c529",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:28:00.000Z",
+        "last_edited_time": "2024-10-01T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning Styles as a Possible Input to a Recommender Agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning Styles as a Possible Input to a Recommender Agent",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-80ed-9d9c-ff698bf81942",
+      "type": "paragraph",
+      "text": "For personalization and recommendations to work, it is pivotal to ensure that there is an effective user model (representation is key). Common attributes used in such representations include personal details, learning experience, goals or style. However, creating a representation that is optimal for a specific application is de facto representation a challenge. Empahsys on Learning Style.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-80ed-9d9c-ff698bf81942",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:28:00.000Z",
+        "last_edited_time": "2024-10-02T12:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "For personalization and recommendations to work, it is pivotal to ensure that there is an effective user model (representation is key). Common attributes used in such representations include ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For personalization and recommendations to work, it is pivotal to ensure that there is an effective user model (representation is key). Common attributes used in such representations include ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "personal details",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "personal details",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", learning experience, goals or style. However, creating a representation that is optimal for a specific application is ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", learning experience, goals or style. However, creating a representation that is optimal for a specific application is ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "de facto",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "de facto",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " representation a challenge. Empahsys on Learning Style.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " representation a challenge. Empahsys on Learning Style.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8017-ae7e-de80f106d708",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8017-ae7e-de80f106d708",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:05:00.000Z",
+        "last_edited_time": "2024-10-02T12:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-806a-876c-f85104f5511e",
+      "type": "paragraph",
+      "text": "Again, Learning styles themselves have multiple different conceptual models for Learning Styles and the authors explore the relationship between the different learning styles and any relevant teaching/learning methods to make recommendations.",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-806a-876c-f85104f5511e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:05:00.000Z",
+        "last_edited_time": "2024-10-02T12:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Again, Learning styles themselves have multiple different conceptual models for Learning Styles and the authors explore the relationship between the different learning styles and any relevant teaching/learning methods to make recommendations.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Again, Learning styles themselves have multiple different conceptual models for Learning Styles and the authors explore the relationship between the different learning styles and any relevant teaching/learning methods to make recommendations.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-80de-a29d-f108057c6120",
+      "type": "paragraph",
+      "text": "Such cases include Protus (v1 and 2.0) which use Learning Style to recommend educational content. Oscar is a ITS to learn SQL that also uses learning styles to recommend the most suitable content to deliver.",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-80de-a29d-f108057c6120",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:14:00.000Z",
+        "last_edited_time": "2024-10-02T12:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Such cases include Protus (v1 and 2.0) which use Learning Style to recommend educational content. Oscar is a ITS to learn SQL that also uses learning styles to recommend the most suitable content to deliver.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Such cases include Protus (v1 and 2.0) which use Learning Style to recommend educational content. Oscar is a ITS to learn SQL that also uses learning styles to recommend the most suitable content to deliver.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8084-9c23-f822a9259440",
+      "type": "heading_3",
+      "text": "Learning Style-Based Recommender Agent",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8084-9c23-f822a9259440",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:15:00.000Z",
+        "last_edited_time": "2024-10-02T12:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning Style-Based Recommender Agent",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning Style-Based Recommender Agent",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-80d3-b2a9-ce9830a9c879",
+      "type": "paragraph",
+      "text": "There is an interesting niche on making recommendations on specialized online search and learning tools (for some reason, students do not follow recommended bibliography). The authors created a recommender and added it to their VLE - U-Learn.",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-80d3-b2a9-ce9830a9c879",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:13:00.000Z",
+        "last_edited_time": "2024-10-02T12:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is an interesting niche on making recommendations on specialized online search and learning tools (for some reason, students do not follow recommended bibliography). The authors created a recommender and added it to their VLE - U-Learn.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is an interesting niche on making recommendations on specialized online search and learning tools (for some reason, students do not follow recommended bibliography). The authors created a recommender and added it to their VLE - U-Learn.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8069-a7ca-cde2dd86de97",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8069-a7ca-cde2dd86de97",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:19:00.000Z",
+        "last_edited_time": "2024-10-02T12:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-80ec-bb69-d55c0c700a25",
+      "type": "paragraph",
+      "text": "Rationale",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-80ec-bb69-d55c0c700a25",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:13:00.000Z",
+        "last_edited_time": "2024-10-02T12:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Rationale",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Rationale",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8064-9c68-fe8f2efd003e",
+      "type": "paragraph",
+      "text": "Authors surveyed 35 people from different backgrounds in order to understanding how they access  and use bibliographical resources:",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8064-9c68-fe8f2efd003e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:21:00.000Z",
+        "last_edited_time": "2024-10-02T12:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors surveyed 35 people from different backgrounds in order to understanding how they access  and use bibliographical resources:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors surveyed 35 people from different backgrounds in order to understanding how they access  and use bibliographical resources:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-80a7-91fb-c05fc95c7771",
+      "type": "bulleted_list_item",
+      "text": "Google is/was a very popular tool for searching,",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-80a7-91fb-c05fc95c7771",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:23:00.000Z",
+        "last_edited_time": "2024-10-02T12:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Google is/was a very popular tool for searching,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Google is/was a very popular tool for searching,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-805d-a8ab-e4c4123717ca",
+      "type": "bulleted_list_item",
+      "text": "Difficult to find targeted/specific resources to find necessary information,",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-805d-a8ab-e4c4123717ca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:23:00.000Z",
+        "last_edited_time": "2024-10-02T12:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Difficult to find targeted/specific resources to find necessary information,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Difficult to find targeted/specific resources to find necessary information,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8014-8c35-ede373d6b406",
+      "type": "bulleted_list_item",
+      "text": "Time-consuming",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8014-8c35-ede373d6b406",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:24:00.000Z",
+        "last_edited_time": "2024-10-02T12:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Time-consuming",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Time-consuming",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8000-a3c1-cee47dec727c",
+      "type": "bulleted_list_item",
+      "text": "USers are constantly looking for new tools to use (unhappy with current tools)",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8000-a3c1-cee47dec727c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:25:00.000Z",
+        "last_edited_time": "2024-10-02T12:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "USers are constantly looking for new tools to use (unhappy with current tools)",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "USers are constantly looking for new tools to use (unhappy with current tools)",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-805e-a351-e14b201c0b4f",
+      "type": "bulleted_list_item",
+      "text": "A tool should be reliable and accessible.",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-805e-a351-e14b201c0b4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:25:00.000Z",
+        "last_edited_time": "2024-10-02T12:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A tool should be reliable and accessible.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A tool should be reliable and accessible.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1134750c-f3ba-8058-aec8-e9b41e86c035",
+      "type": "paragraph",
+      "text": "The responses informed the creation of the e-learning recommender on the following features:",
+      "raw": {
+        "object": "block",
+        "id": "1134750c-f3ba-8058-aec8-e9b41e86c035",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-02T12:25:00.000Z",
+        "last_edited_time": "2024-10-03T11:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The responses informed the creation of the e-learning recommender on the following features:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The responses informed the creation of the e-learning recommender on the following features:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-808a-87de-d92905c76a20",
+      "type": "bulleted_list_item",
+      "text": "Learner profile → being able to show to students their learning style and the implications of adopting that style.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-808a-87de-d92905c76a20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:02:00.000Z",
+        "last_edited_time": "2024-10-03T11:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learner profile → being able to show to students their learning style and the implications of adopting that style.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learner profile → being able to show to students their learning style and the implications of adopting that style.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80aa-ad09-fa93471bce36",
+      "type": "bulleted_list_item",
+      "text": "Grant access to information stored in a database (and possibly information not stored in the database as well).",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80aa-ad09-fa93471bce36",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:03:00.000Z",
+        "last_edited_time": "2024-10-03T11:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Grant access to information stored in a database (and possibly information not stored in the database as well).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Grant access to information stored in a database (and possibly information not stored in the database as well).",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80f8-b529-fea9de418c14",
+      "type": "bulleted_list_item",
+      "text": "Being able to identify the user’s learning style and to make recommendations based on it.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80f8-b529-fea9de418c14",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:04:00.000Z",
+        "last_edited_time": "2025-03-06T16:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Being able to identify the user’s learning style and to make recommendations based on it.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Being able to identify the user’s learning style and to make recommendations based on it.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8092-b8ee-c7d82c6c5024",
+      "type": "bulleted_list_item",
+      "text": "Integrated into an user-friendly interface for accessibility.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8092-b8ee-c7d82c6c5024",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:19:00.000Z",
+        "last_edited_time": "2024-10-03T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Integrated into an user-friendly interface for accessibility.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Integrated into an user-friendly interface for accessibility.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80b2-8ba5-c06e763f3c56",
+      "type": "bulleted_list_item",
+      "text": "A search bar to look for specific keywords.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80b2-8ba5-c06e763f3c56",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:05:00.000Z",
+        "last_edited_time": "2024-10-03T14:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A search bar to look for specific keywords.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A search bar to look for specific keywords.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80a7-8f56-c92971acf2b9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80a7-8f56-c92971acf2b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:06:00.000Z",
+        "last_edited_time": "2024-10-03T14:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80f2-93b5-c6d9e4ce9c0c",
+      "type": "paragraph",
+      "text": "Features",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80f2-93b5-c6d9e4ce9c0c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:06:00.000Z",
+        "last_edited_time": "2024-10-03T14:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Features",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Features",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8044-aa43-ee67b098bce7",
+      "type": "paragraph",
+      "text": "The user profile is saved into a preference tree model with a dynamic part and a static part.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8044-aa43-ee67b098bce7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:06:00.000Z",
+        "last_edited_time": "2024-10-03T14:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The user profile is saved into a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The user profile is saved into a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "preference tree model with a dynamic part and a static part.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "preference tree model with a dynamic part and a static part.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8097-af00-cb0ab3270f76",
+      "type": "bulleted_list_item",
+      "text": "Static Part: items provided by each user → country, education, interests.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8097-af00-cb0ab3270f76",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:09:00.000Z",
+        "last_edited_time": "2024-10-03T14:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Static Part",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Static Part",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": items provided by each user → country, education, interests.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": items provided by each user → country, education, interests.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-800b-808f-eca3373dae72",
+      "type": "bulleted_list_item",
+      "text": "Dynamic Part: this refers to the learning style - initialized by Questionnaire and updated by the user interactions.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-800b-808f-eca3373dae72",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:10:00.000Z",
+        "last_edited_time": "2024-10-03T14:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dynamic Part",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dynamic Part",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": this refers to the learning style - initialized by Questionnaire and updated by the user interactions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": this refers to the learning style - initialized by Questionnaire and updated by the user interactions.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8049-895f-ff8ab9c87f59",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8049-895f-ff8ab9c87f59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:27:00.000Z",
+        "last_edited_time": "2024-10-03T14:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8012-8f67-f49c2a53d198",
+      "type": "paragraph",
+      "text": "Similarly, the recommender offers 2 types of recommendations:",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8012-8f67-f49c2a53d198",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:27:00.000Z",
+        "last_edited_time": "2024-10-03T14:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Similarly, the recommender offers 2 types of recommendations:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Similarly, the recommender offers 2 types of recommendations:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8067-afa1-c635bcbc4231",
+      "type": "bulleted_list_item",
+      "text": "Shortcuts: recommendations of learning materials solely based on the user’s learning style.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8067-afa1-c635bcbc4231",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:28:00.000Z",
+        "last_edited_time": "2024-10-03T14:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Shortcuts: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Shortcuts: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "recommendations of learning materials solely based on the user’s learning style.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "recommendations of learning materials solely based on the user’s learning style.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8015-b001-f9bf0efd627a",
+      "type": "bulleted_list_item",
+      "text": "Suggestions: a collaborative filtering approach that considers the user’s learning style and recommend based on the content selections of similar users.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8015-b001-f9bf0efd627a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:28:00.000Z",
+        "last_edited_time": "2024-10-03T14:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "bulleted_list_item",
+        "bulleted_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Suggestions: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Suggestions: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "a collaborative filtering approach that considers the user’s learning style and recommend based on the content selections of similar users.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "a collaborative filtering approach that considers the user’s learning style and recommend based on the content selections of similar users.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80b9-8d62-c8e722aaa697",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80b9-8d62-c8e722aaa697",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:30:00.000Z",
+        "last_edited_time": "2024-10-03T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80e1-be1b-d6627f32690f",
+      "type": "paragraph",
+      "text": "Description of Recommender",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80e1-be1b-d6627f32690f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:29:00.000Z",
+        "last_edited_time": "2024-10-03T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Description of Recommender",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Description of Recommender",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80f4-9e3e-c9a9935c95d2",
+      "type": "paragraph",
+      "text": "Collaborative filtering approaches tend to use rankings (e.g. stars). Thus, similarity is generally computed from the ratings, not specifically behavior. Formally, the algorithm works as follows:",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80f4-9e3e-c9a9935c95d2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:30:00.000Z",
+        "last_edited_time": "2024-10-03T14:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Collaborative filtering approaches tend to use rankings (e.g. stars). Thus, similarity is generally computed from the ratings, not specifically behavior. Formally, the algorithm works as follows:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Collaborative filtering approaches tend to use rankings (e.g. stars). Thus, similarity is generally computed from the ratings, not specifically behavior. Formally, the algorithm works as follows:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80cd-95db-efb87a46586e",
+      "type": "numbered_list_item",
+      "text": "There is an initial matrix of item preferences based on users and the rating of the different materials.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80cd-95db-efb87a46586e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:40:00.000Z",
+        "last_edited_time": "2024-10-03T14:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There is an initial matrix of item preferences based on users and the rating of the different materials.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There is an initial matrix of item preferences based on users and the rating of the different materials.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-803f-83f9-c4d4ac10b42f",
+      "type": "numbered_list_item",
+      "text": "The sytem computes an inverted matrix based on which users have chosen which tools,",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-803f-83f9-c4d4ac10b42f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:40:00.000Z",
+        "last_edited_time": "2024-10-03T14:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The sytem computes an inverted matrix based on which users have chosen which tools,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The sytem computes an inverted matrix based on which users have chosen which tools,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-808e-9354-da0034038fa8",
+      "type": "numbered_list_item",
+      "text": "Compute Jaccard similarity for every tool.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-808e-9354-da0034038fa8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:43:00.000Z",
+        "last_edited_time": "2024-10-03T14:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Compute Jaccard similarity for every tool.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Compute Jaccard similarity for every tool.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80a7-956f-e2aadc0f93f4",
+      "type": "numbered_list_item",
+      "text": "Get an aggregate score for each tool by summing the total similarity between the tool and the others.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80a7-956f-e2aadc0f93f4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:44:00.000Z",
+        "last_edited_time": "2024-10-03T14:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Get an aggregate score for each tool by summing the total similarity between the tool and the others.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Get an aggregate score for each tool by summing the total similarity between the tool and the others.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8025-a1da-f1cef00056a1",
+      "type": "numbered_list_item",
+      "text": "Tools with highest aggregate score are recommended.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8025-a1da-f1cef00056a1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:44:00.000Z",
+        "last_edited_time": "2024-10-03T14:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Tools with highest aggregate score are recommended.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Tools with highest aggregate score are recommended.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-805d-856b-cd8033cb5c39",
+      "type": "paragraph",
+      "text": "An example:",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-805d-856b-cd8033cb5c39",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:50:00.000Z",
+        "last_edited_time": "2024-10-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "An example:",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "An example:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8012-ae9f-e5edd8cdb655",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8012-ae9f-e5edd8cdb655",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:50:00.000Z",
+        "last_edited_time": "2024-10-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/aea31c44-c78e-4c73-a6ba-bb5915e51b39/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAVPUDGZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEAHX1nrAkR1v3s2avX%2BBBLeMsofXsbpgFYoz4f2Q0VbAiBLwp68FgjH1rzdwQGOdxt3gBZoLVVyKeGoQDMqTC%2FCASr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIM5BfDHgF80CusJPl9KtwDg4G4vLoapmHUnObZa2fg7fZsbekYOBu%2FBXY3WsDtiRxpXWiMi3Z9SO%2FYrc7GoM1AGgoWgoYOFsYBhQIS4C0Tre4PWg7dnxPpvdumGS%2FK%2BQcfIW6nM%2BzGnPJ%2B7KEo2T%2BwcP6R4H93S07sf3aXDSKTRqfzbS17o5r8WzKHDwnVKhKNzsuHI%2FBBZDM5utTqEB9kODVRoFhFJEiKfkl1cCRNjYasZHYi%2FP2lkaSA2UdWXsYGPDZgXo2CO3GPdV3wAROW%2FOz5iv09a8XLBCC80KD2Hu9qTZugkPzZ%2F0Hb60dKWGZj9f7FKJUME%2FnbMw%2FRAvrLO6KlL0HmQnwPMXMTua1yb6jjDjkhOXrMpbIisfD312NuwLCEJaRjiT%2F4p27MhamlmKwKDBWzL0zjWd%2BOj9YycZfHG7eB5NSI41XeyUZbQhAT3DHLuHP21XthzxgErVSc1FkYQWZIPO0bWduMXo86s4Pi71RvDJIHl2vc%2FTCRTVLJvLTNqse4lGrR1%2FtOi664kado4Wr855Hh34SLCP%2BzxPmFLTi7Z9J1895SesIwj8GqNSUAC7llWWogjTwRCdnZgF9OBgskXCBbbUtNWwkx%2BFaOYOz6clr5zBkXHHCcb%2FMQFkKZLD%2FnHc1vKRcw9O%2FzzgY6pgFotksK90cdBLm%2B8P5TTOf%2BMCD9xgrxouzSb9m62ngaDQM6MwI29LPORnT%2BOuVrcRTWH17AwlfJyYEAe365E64jgU2YaWHuj0qXcatxaEUfBAEnJFkCk9%2FoCHMDEXayVDNexEMzpfhO7DAeITCM0HkZjXB8IyrIb5nmdd6hxl6DPR1szex4oePnppeYHwngoHXkY4W2jrPOLafif9azfXB56rZtPVnj&X-Amz-Signature=f217c6794b2fd0ff49d869edd3a1f8e193656881d17ace145efdbd790425d89c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:26.163Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-800f-91c7-f32a9ea88a9f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-800f-91c7-f32a9ea88a9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:20:00.000Z",
+        "last_edited_time": "2024-10-03T11:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80bc-b179-f63cfbed1e37",
+      "type": "paragraph",
+      "text": "The initial matrix is a user-tool matrix, the inverted matrix is a tool-user matrix. This is followed by the computation of a Tool-Tool matrix based on Jaccard Similarity (a similarity matrix basically). ",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80bc-b179-f63cfbed1e37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:18:00.000Z",
+        "last_edited_time": "2024-10-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The initial matrix is a user-tool matrix, the inverted matrix is a tool-user matrix. This is followed by the computation of a Tool-Tool matrix based on Jaccard Similarity (a similarity matrix basically). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The initial matrix is a user-tool matrix, the inverted matrix is a tool-user matrix. This is followed by the computation of a Tool-Tool matrix based on Jaccard Similarity (a similarity matrix basically). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8039-98e0-d03da45b837c",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8039-98e0-d03da45b837c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:52:00.000Z",
+        "last_edited_time": "2024-10-03T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/0c592b2e-59b9-4500-bf1e-73e5f9e2da69/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAVPUDGZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEAHX1nrAkR1v3s2avX%2BBBLeMsofXsbpgFYoz4f2Q0VbAiBLwp68FgjH1rzdwQGOdxt3gBZoLVVyKeGoQDMqTC%2FCASr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIM5BfDHgF80CusJPl9KtwDg4G4vLoapmHUnObZa2fg7fZsbekYOBu%2FBXY3WsDtiRxpXWiMi3Z9SO%2FYrc7GoM1AGgoWgoYOFsYBhQIS4C0Tre4PWg7dnxPpvdumGS%2FK%2BQcfIW6nM%2BzGnPJ%2B7KEo2T%2BwcP6R4H93S07sf3aXDSKTRqfzbS17o5r8WzKHDwnVKhKNzsuHI%2FBBZDM5utTqEB9kODVRoFhFJEiKfkl1cCRNjYasZHYi%2FP2lkaSA2UdWXsYGPDZgXo2CO3GPdV3wAROW%2FOz5iv09a8XLBCC80KD2Hu9qTZugkPzZ%2F0Hb60dKWGZj9f7FKJUME%2FnbMw%2FRAvrLO6KlL0HmQnwPMXMTua1yb6jjDjkhOXrMpbIisfD312NuwLCEJaRjiT%2F4p27MhamlmKwKDBWzL0zjWd%2BOj9YycZfHG7eB5NSI41XeyUZbQhAT3DHLuHP21XthzxgErVSc1FkYQWZIPO0bWduMXo86s4Pi71RvDJIHl2vc%2FTCRTVLJvLTNqse4lGrR1%2FtOi664kado4Wr855Hh34SLCP%2BzxPmFLTi7Z9J1895SesIwj8GqNSUAC7llWWogjTwRCdnZgF9OBgskXCBbbUtNWwkx%2BFaOYOz6clr5zBkXHHCcb%2FMQFkKZLD%2FnHc1vKRcw9O%2FzzgY6pgFotksK90cdBLm%2B8P5TTOf%2BMCD9xgrxouzSb9m62ngaDQM6MwI29LPORnT%2BOuVrcRTWH17AwlfJyYEAe365E64jgU2YaWHuj0qXcatxaEUfBAEnJFkCk9%2FoCHMDEXayVDNexEMzpfhO7DAeITCM0HkZjXB8IyrIb5nmdd6hxl6DPR1szex4oePnppeYHwngoHXkY4W2jrPOLafif9azfXB56rZtPVnj&X-Amz-Signature=5af5634bb55507d428571145804eaaa9a82f9ac00aa1f9f9d11807ebc61f73cc&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:26.163Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8046-bc6d-e3979ac31287",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8046-bc6d-e3979ac31287",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T14:51:00.000Z",
+        "last_edited_time": "2024-10-03T14:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8046-b89a-d56dda441ca0",
+      "type": "paragraph",
+      "text": "Then, for each tool it is possible to use these similarities to compute the score for each tool:",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8046-b89a-d56dda441ca0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T11:18:00.000Z",
+        "last_edited_time": "2024-10-03T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Then, for each tool it is possible to use these similarities to compute the score for each tool:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Then, for each tool it is possible to use these similarities to compute the score for each tool:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80d3-b2af-f64e85ba03ea",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80d3-b2af-f64e85ba03ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T15:14:00.000Z",
+        "last_edited_time": "2024-10-03T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/a0d86c2e-1321-43e2-b523-c6383c77825f/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QAVPUDGZ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151926Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIEAHX1nrAkR1v3s2avX%2BBBLeMsofXsbpgFYoz4f2Q0VbAiBLwp68FgjH1rzdwQGOdxt3gBZoLVVyKeGoQDMqTC%2FCASr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIM5BfDHgF80CusJPl9KtwDg4G4vLoapmHUnObZa2fg7fZsbekYOBu%2FBXY3WsDtiRxpXWiMi3Z9SO%2FYrc7GoM1AGgoWgoYOFsYBhQIS4C0Tre4PWg7dnxPpvdumGS%2FK%2BQcfIW6nM%2BzGnPJ%2B7KEo2T%2BwcP6R4H93S07sf3aXDSKTRqfzbS17o5r8WzKHDwnVKhKNzsuHI%2FBBZDM5utTqEB9kODVRoFhFJEiKfkl1cCRNjYasZHYi%2FP2lkaSA2UdWXsYGPDZgXo2CO3GPdV3wAROW%2FOz5iv09a8XLBCC80KD2Hu9qTZugkPzZ%2F0Hb60dKWGZj9f7FKJUME%2FnbMw%2FRAvrLO6KlL0HmQnwPMXMTua1yb6jjDjkhOXrMpbIisfD312NuwLCEJaRjiT%2F4p27MhamlmKwKDBWzL0zjWd%2BOj9YycZfHG7eB5NSI41XeyUZbQhAT3DHLuHP21XthzxgErVSc1FkYQWZIPO0bWduMXo86s4Pi71RvDJIHl2vc%2FTCRTVLJvLTNqse4lGrR1%2FtOi664kado4Wr855Hh34SLCP%2BzxPmFLTi7Z9J1895SesIwj8GqNSUAC7llWWogjTwRCdnZgF9OBgskXCBbbUtNWwkx%2BFaOYOz6clr5zBkXHHCcb%2FMQFkKZLD%2FnHc1vKRcw9O%2FzzgY6pgFotksK90cdBLm%2B8P5TTOf%2BMCD9xgrxouzSb9m62ngaDQM6MwI29LPORnT%2BOuVrcRTWH17AwlfJyYEAe365E64jgU2YaWHuj0qXcatxaEUfBAEnJFkCk9%2FoCHMDEXayVDNexEMzpfhO7DAeITCM0HkZjXB8IyrIb5nmdd6hxl6DPR1szex4oePnppeYHwngoHXkY4W2jrPOLafif9azfXB56rZtPVnj&X-Amz-Signature=de4ac17b537e1ccb5926844a89b64c91ea60ccc1fcf5cb4685b8efd845e8670f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:26.160Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8019-a1ac-decbd83cf848",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8019-a1ac-decbd83cf848",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T23:14:00.000Z",
+        "last_edited_time": "2024-10-01T23:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8085-b945-fb2096102d7f",
+      "type": "paragraph",
+      "text": "Indexing Learning Styles",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8085-b945-fb2096102d7f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:43:00.000Z",
+        "last_edited_time": "2024-10-03T15:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Indexing Learning Styles",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Indexing Learning Styles",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80f1-a869-e42f0bac8ab1",
+      "type": "paragraph",
+      "text": "So, for students who share a specific learning style, the algorithm works as described previously, which requires classification. The first step for identification is the questionnaire answered by the users. Then, they are classified according to the Index of Learning Styles (ILS): active/reflective, sensing/intuitive, visual/verbal, and sequential/global.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80f1-a869-e42f0bac8ab1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T15:15:00.000Z",
+        "last_edited_time": "2024-10-03T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "So, for students who share a specific learning style, the algorithm works as described previously, which requires classification. The first step for identification is the questionnaire answered by the users. Then, they are classified according to the Index of Learning Styles (ILS): active/reflective, sensing/intuitive, visual/verbal, and sequential/global.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "So, for students who share a specific learning style, the algorithm works as described previously, which requires classification. The first step for identification is the questionnaire answered by the users. Then, they are classified according to the Index of Learning Styles (ILS): active/reflective, sensing/intuitive, visual/verbal, and sequential/global.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8032-aa4b-f9b601978eae",
+      "type": "paragraph",
+      "text": "Based of the assessment of learning style, the recommmender considers what types of items to recommend to the students.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8032-aa4b-f9b601978eae",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T15:18:00.000Z",
+        "last_edited_time": "2024-10-03T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Based of the assessment of learning style, the recommmender considers what types of items to recommend to the students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Based of the assessment of learning style, the recommmender considers what types of items to recommend to the students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-805e-bf56-eda14e88e051",
+      "type": "paragraph",
+      "text": "Technological Choices",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-805e-bf56-eda14e88e051",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T22:00:00.000Z",
+        "last_edited_time": "2024-10-03T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Technological Choices",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Technological Choices",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1124750c-f3ba-8060-9f59-edc7f0973f11",
+      "type": "paragraph",
+      "text": "The platform U-Learn was developed in Java. The platform is accessible via browser. The platform saves all user information into a MySQL database. This part is a lenghty description of the platform.",
+      "raw": {
+        "object": "block",
+        "id": "1124750c-f3ba-8060-9f59-edc7f0973f11",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-01T22:20:00.000Z",
+        "last_edited_time": "2024-10-03T23:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The platform U-Learn was developed in Java. The platform is accessible via browser. The platform saves all user information into a MySQL database. This part is a lenghty description of the platform.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The platform U-Learn was developed in Java. The platform is accessible via browser. The platform saves all user information into a MySQL database. This part is a lenghty description of the platform.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-803b-8601-fffb50ec31a4",
+      "type": "paragraph",
+      "text": "When it comes to functionality, the platfomr includes 5 parts: View Article, Add Article, View Tools, Add Tools, Suggestions and Shortcuts.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-803b-8601-fffb50ec31a4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:09:00.000Z",
+        "last_edited_time": "2024-10-03T23:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to functionality, the platfomr includes 5 parts: View Article, Add Article, View Tools, Add Tools, Suggestions and Shortcuts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to functionality, the platfomr includes 5 parts: View Article, Add Article, View Tools, Add Tools, Suggestions and Shortcuts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8019-af62-e916a4398ad4",
+      "type": "paragraph",
+      "text": "User can access recommendations by clicking suggestion. To use the platform, users must create an account and follow a set of steps:",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8019-af62-e916a4398ad4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:10:00.000Z",
+        "last_edited_time": "2024-10-03T23:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "User can access recommendations by clicking suggestion. To use the platform, users must create an account and follow a set of steps:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "User can access recommendations by clicking suggestion. To use the platform, users must create an account and follow a set of steps:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80eb-8905-cd7d5ef9735d",
+      "type": "numbered_list_item",
+      "text": "Provide general information about the user.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80eb-8905-cd7d5ef9735d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:12:00.000Z",
+        "last_edited_time": "2024-10-03T23:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Provide general information about the user.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Provide general information about the user.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-808a-97d9-ebddd2c84a53",
+      "type": "numbered_list_item",
+      "text": "Select most useful learning tools from a set of 5 randomly sampled.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-808a-97d9-ebddd2c84a53",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:14:00.000Z",
+        "last_edited_time": "2024-10-03T23:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Select most useful learning tools from a set of 5 randomly sampled.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Select most useful learning tools from a set of 5 randomly sampled.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80c2-a6bb-d71ecdf6bc68",
+      "type": "numbered_list_item",
+      "text": "Fill out the questionnaire for Learning Style.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80c2-a6bb-d71ecdf6bc68",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:11:00.000Z",
+        "last_edited_time": "2024-10-03T23:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fill out the questionnaire for Learning Style.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fill out the questionnaire for Learning Style.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8087-b7b8-db6145609a52",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8087-b7b8-db6145609a52",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:16:00.000Z",
+        "last_edited_time": "2024-10-03T23:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8033-8921-e93b18ed4f85",
+      "type": "paragraph",
+      "text": "This allows the system to make recommendations. Successful recommendations are considered as such if the user shares them.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8033-8921-e93b18ed4f85",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:15:00.000Z",
+        "last_edited_time": "2024-10-03T23:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This allows the system to make recommendations. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This allows the system to make recommendations. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "Successful recommendations",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Successful recommendations",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " are considered as such if the user ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " are considered as such if the user ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "shares them",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "shares them",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ".",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ".",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8000-b8e6-c96e6130d627",
+      "type": "heading_2",
+      "text": "Results and Discussion",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8000-b8e6-c96e6130d627",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:15:00.000Z",
+        "last_edited_time": "2024-10-03T23:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results and Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results and Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-80eb-93a6-e6f638db1399",
+      "type": "paragraph",
+      "text": "The authors do a pilot-test of their prototype on a group of 25 students to validate the recommenders efficiency and effectiveness.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-80eb-93a6-e6f638db1399",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:17:00.000Z",
+        "last_edited_time": "2024-10-03T23:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors do a pilot-test of their prototype on a group of 25 students to validate the recommenders efficiency and effectiveness.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors do a pilot-test of their prototype on a group of 25 students to validate the recommenders efficiency and effectiveness.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1144750c-f3ba-8095-a318-ecd91d32ce5d",
+      "type": "paragraph",
+      "text": "To do that, the authors developed a feedback questionnaire that measures: Ease of use, learning style accuracy, usefulness and recommendation accuracy. Most students mentioned to be satisfied with the system in utilization and would recommend its use. However, no actual mention of the performance of the recommender.",
+      "raw": {
+        "object": "block",
+        "id": "1144750c-f3ba-8095-a318-ecd91d32ce5d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-10-03T23:18:00.000Z",
+        "last_edited_time": "2025-03-06T16:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To do that, the authors developed a feedback questionnaire that measures: Ease of use, learning style accuracy, usefulness and recommendation accuracy. Most students mentioned to be satisfied with the system in utilization and would recommend its use. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To do that, the authors developed a feedback questionnaire that measures: Ease of use, learning style accuracy, usefulness and recommendation accuracy. Most students mentioned to be satisfied with the system in utilization and would recommend its use. ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "However",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "However",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ", no actual mention of the performance of the recommender.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ", no actual mention of the performance of the recommender.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c2fc6d3b-6ec8-4a5a-85ed-36ae7628f1b6",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "c2fc6d3b-6ec8-4a5a-85ed-36ae7628f1b6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2025-03-14T22:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "10b4750c-f3ba-80b1-91a1-f004e3119ca9",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "10b4750c-f3ba-80b1-91a1-f004e3119ca9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2024-09-24T10:27:00.000Z",
+        "last_edited_time": "2025-03-14T21:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b64750c-f3ba-8001-846f-d8710135f00e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b64750c-f3ba-8001-846f-d8710135f00e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+        },
+        "created_time": "2025-03-14T21:55:00.000Z",
+        "last_edited_time": "2025-03-14T21:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

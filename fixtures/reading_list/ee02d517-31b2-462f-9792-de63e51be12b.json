@@ -1,0 +1,589 @@
+{
+  "page_id": "ee02d517-31b2-462f-9792-de63e51be12b",
+  "title": "Towards Portability of Models for Predicting Students’ Final Performance in University Courses Starting from Moodle Logs",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "177d95f6-eacb-450e-9afc-5423d87ff0df",
+          "name": "Predicting Student Performance",
+          "color": "brown"
+        },
+        {
+          "id": "5e316a6a-d2f3-415e-a8dd-185111845dab",
+          "name": "Student Model Portability",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Applied Sciences",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Applied Sciences",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-01T09:00:00.000+01:00",
+        "end": "2026-04-02T11:18:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lopéz-Zambrano et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lopéz-Zambrano et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "9a075cee-a697-42fa-a280-4b75c1f6a318",
+          "name": "Transfer Learning",
+          "color": "brown"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Towards Portability of Models for Predicting Students’ Final Performance in University Courses Starting from Moodle Logs",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Towards Portability of Models for Predicting Students’ Final Performance in University Courses Starting from Moodle Logs",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3364750c-f3ba-80df-9a50-e1dbeb043e73",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "End of Course Performance",
+          "Pass (0) vs Fail (1)",
+          "3235 students",
+          "24 university courses from 4 degrees (Computer, Education, Engineering, Physics) at the University of Córdoba",
+          "LMS logs, Final Course Grades",
+          "[assign submit, assign submit for grading, assign view, assign view all, assignment upload, assignment view, assignment view all, choice choose, choice choose again, choice report, choice view, choice view all, course enroll, course user report, course view, course view section, folder view, folder view all, forum add discussion, forum add post, forum mark read, forum search, forum subscribe, forum subscribe all, forum unsubscribe, forum view discussion, forum view forum, forum view forums, page view, page view all, questionnaire submit, questionnaire view, questionnaire view all, quiz attempt, quiz close attempt, quiz continue attempt, quiz review, quiz view, quiz view all, quiz view summary, resource view, resource view all, url view, url view all, wiki edit, wiki info, wiki links, wiki update, wiki view, wiki view all]",
+          "End of course",
+          "Moodle logs and grade files were integrated with a specific preprocessing tool. Student identities were anonymized. Only student events were retained, and 50 Moodle event attributes were selected. Two datasets were created per course: numerical and discretized. Moodle event attributes were discretized with equal-width binning into HIGH/LOW. Final grade was manually discretized into FAIL (<5) and PASS (≥5). Courses were grouped in two ways for portability experiments: by degree and by Moodle usage level (Low, Medium, High).\n\n\n\n",
+          "J48",
+          "Leave-KGroups-Out Cross-Validation",
+          "Best portability result at group level: Physics group, discretized data with {Average AUC: 0.60, Average AUC loss: 0.09}. Best single transfer examples include PM → RE with:\n {AUC loss: 0.006} \nand MM → MA1 with {AUC loss: 0.009}.",
+          "Main contribution is studying when course-to-course portability of performance prediction models is feasible. In general, numerical datasets yielded slightly higher AUC, but discretized datasets yielded much better portability (lower AUC loss). Portability was more feasible between courses of the same degree than between courses only grouped by similar Moodle usage. The most portable models used Moodle events related mainly to forums, assignments, choices, resources, and pages.\n\n\n",
+          "Most transferred models had only modest predictive performance, often just above chance. \n\nDirect portability was feasible only under some circumstances, mainly with discretized datasets and especially in some same-degree groups. \n\nModels may include activities absent from target courses, which can reduce transfer quality. \n\nThe study used only one algorithm (J48) and one institution. \n\nThe approach tests direct portability, not tuned transfer learning or domain adaptation."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "0d5b173f-820c-4441-86da-8d3bc656cead",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "0d5b173f-820c-4441-86da-8d3bc656cead",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+        },
+        "created_time": "2024-08-01T11:33:00.000Z",
+        "last_edited_time": "2024-08-01T11:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "466b731f-e00e-4743-bdfd-a00fbe92f5eb",
+      "type": "paragraph",
+      "text": "The literature features a lack of course-agnostic models and mostly focuses on models that aim to achieve the best predictive performance in a single course. Thus, the aim of the paper is to study portability of models across multiple courses.",
+      "raw": {
+        "object": "block",
+        "id": "466b731f-e00e-4743-bdfd-a00fbe92f5eb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+        },
+        "created_time": "2024-08-01T11:33:00.000Z",
+        "last_edited_time": "2024-08-01T11:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The literature features a lack of course-agnostic models and mostly focuses on models that aim to achieve the best predictive performance in a single course. Thus, the aim of the paper is to study portability of models across multiple courses.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The literature features a lack of course-agnostic models and mostly focuses on models that aim to achieve the best predictive performance in a single course. Thus, the aim of the paper is to study portability of models across multiple courses.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "de8d23fc-b41f-4653-9c4e-0efd23c3d147",
+      "type": "paragraph",
+      "text": "The work groups courses according to similarity in student behaviors or by degree and how different feature engineering strategies affect model performance. Authors find that, while portability is possible, it is only achievable under certain constraints.",
+      "raw": {
+        "object": "block",
+        "id": "de8d23fc-b41f-4653-9c4e-0efd23c3d147",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+        },
+        "created_time": "2024-08-01T11:34:00.000Z",
+        "last_edited_time": "2024-08-01T11:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work groups courses according to similarity in student behaviors or by degree and how different feature engineering strategies affect model performance. Authors find that, while portability is possible, it is only achievable under certain constraints.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work groups courses according to similarity in student behaviors or by degree and how different feature engineering strategies affect model performance. Authors find that, while portability is possible, it is only achievable under certain constraints.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80d7-a663-d04729b72b20",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80d7-a663-d04729b72b20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+        },
+        "created_time": "2026-04-02T10:09:00.000Z",
+        "last_edited_time": "2026-04-02T10:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80df-9a50-e1dbeb043e73",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80df-9a50-e1dbeb043e73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "ee02d517-31b2-462f-9792-de63e51be12b"
+        },
+        "created_time": "2026-04-02T10:09:00.000Z",
+        "last_edited_time": "2026-04-02T10:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,621 @@
+{
+  "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc",
+  "title": "A Statistical Analysis of Factors Affecting Higher Education Dropouts",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "574148ed-490c-4446-8c23-70eb71b87820",
+          "name": "Dropout Rates",
+          "color": "orange"
+        },
+        {
+          "id": "a6394424-a3a8-41c8-b538-8200b0e81637",
+          "name": "University Careers",
+          "color": "default"
+        },
+        {
+          "id": "48aac40a-3669-4ede-8363-a380e2302e8e",
+          "name": "Data Science",
+          "color": "default"
+        },
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Social Indicators Research",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Social Indicators Research",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T15:05:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Perchinunno et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Perchinunno et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Statistical Analysis of Factors Affecting Higher Education Dropouts",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Statistical Analysis of Factors Affecting Higher Education Dropouts",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1be4750c-f3ba-8043-bfbc-efff3907fc59",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Dropout at the End of the First-Year - define as not registering in the University of Bari in the Second YEar",
+          "Dropout (1) vs No Dropout (0)",
+          "11000 students",
+          "All courses in University of Bari in 2015/2016",
+          "Highschool Academic Performance,\nNumber of Credits Completed in First Year",
+          "[Type of Highschool Diploma, Area, Degree, Credits, Age, Diploma Grade]",
+          "End of First Year",
+          "Authors aggregate all predictors into a single feature vector.",
+          "Logistic Regression,\nDT",
+          "10-Fold Cross-Validation",
+          "{AUC: 0.8440 - DT, Recall: 0.8129 - DT, Specificity: 0.8751 - DT}",
+          "Authors use cost-complexity pruningto optimize their DT. Best alpha found to be at 0.3195.\n\nCredits is the most important predictor. In fact the authors make an exploratory analysis to identify the most important predictors.",
+          "Not approppriate for predictive purposes as requires learners to complete first-year before the model is able to make a prediction.\n\nLimited number of ML algorithms.\n\n"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-806f-a162-d6a2a178a2db",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-806f-a162-d6a2a178a2db",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-02-06T15:05:00.000Z",
+        "last_edited_time": "2025-02-06T15:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-808a-8cb9-ff0ba11f6659",
+      "type": "paragraph",
+      "text": "The first-to-second year in an undergraduate program is among the most important stages of a student’s academic career (especially when it comes to deciding whether to drop out or not). Authors analyze the factors behind dropout in Italy at two-levels of resolution:",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-808a-8cb9-ff0ba11f6659",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-02-06T15:05:00.000Z",
+        "last_edited_time": "2025-02-06T15:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The first-to-second year in an undergraduate program is among the most important stages of a student’s academic career (especially when it comes to deciding whether to drop out or not). Authors analyze the factors behind dropout in Italy at two-levels of resolution:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The first-to-second year in an undergraduate program is among the most important stages of a student’s academic career (especially when it comes to deciding whether to drop out or not). Authors analyze the factors behind dropout in Italy at two-levels of resolution:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-808f-ad8e-ce983879830e",
+      "type": "paragraph",
+      "text": "Authors use a set of classification methods to identify the profiles of students who are more likely to dropout. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-808f-ad8e-ce983879830e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-02-06T15:07:00.000Z",
+        "last_edited_time": "2025-02-06T15:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use a set of classification methods to identify the profiles of students who are more likely to dropout. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use a set of classification methods to identify the profiles of students who are more likely to dropout. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-8089-865a-f368331cdc95",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-8089-865a-f368331cdc95",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-03-22T17:40:00.000Z",
+        "last_edited_time": "2025-03-22T17:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-80d6-8cb2-de53b6c3a1e6",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-80d6-8cb2-de53b6c3a1e6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-03-22T17:40:00.000Z",
+        "last_edited_time": "2026-03-27T12:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1be4750c-f3ba-8043-bfbc-efff3907fc59",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1be4750c-f3ba-8043-bfbc-efff3907fc59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80ff-903f-cfcc7d5c0adc"
+        },
+        "created_time": "2025-03-22T17:40:00.000Z",
+        "last_edited_time": "2026-03-27T12:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

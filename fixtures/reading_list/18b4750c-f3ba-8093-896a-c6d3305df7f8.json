@@ -1,0 +1,735 @@
+{
+  "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8",
+  "title": "csKT: Addressing cold-start problem in knowledge tracing via kernel bias and cone attention",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "455314b8-c4c9-4578-b3d9-64fe08f656f7",
+          "name": "Cold-Start Problem",
+          "color": "pink"
+        },
+        {
+          "id": "ab8208d0-9370-4dc2-afce-ef8987e2603a",
+          "name": "Cone Attention",
+          "color": "orange"
+        },
+        {
+          "id": "edd8334c-d055-4905-b44f-441000d8c533",
+          "name": "AI in Education",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Expert Systems With Applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Expert Systems With Applications",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-01T00:00:00.000+00:00",
+        "end": "2025-04-23T17:41:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Bai et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Bai et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "csKT: Addressing cold-start problem in knowledge tracing via kernel bias and cone attention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "csKT: Addressing cold-start problem in knowledge tracing via kernel bias and cone attention",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80d5-8976-eeb9304aa219",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Next Question is Correct",
+          "Correct (1) vs Incorrect (0)",
+          "333 Statics learners, 574 Algebra2005 Learners, 1146 Bridge2006 learners, 4918 NIPS34 learners",
+          "Algebra, Statics, Mathematics",
+          "Question and Response Sequences, Knowledge Components, Difficulty",
+          "[Knowledge Components, Question Sequences, Responses]",
+          "Most state-of-the-art knowledge tracing approaches, especially the ones based on attention modules are problematic when it comes to handling smaller sequences → cold-start problem. ",
+          "The authors propose an approach that makes KT more effective especially when dealing with smaller sequences.\n\nThis is achieved via 2 different mechanisms: \n\n1. Cone attention which converts the representation of knowledge components into an hyperbolic space.\n\n2. A Kernel bias: a logarithmic-decay based positional encoder. This ensures that more recent questions become more important than older ones. This allows working with smaller sequences because the importance of larger (older) sequences becomes diminished.",
+          "Preprocessing involves the construction of sequences and the formulation of the kernel bias.\n\nMaximum sequence length is defined to be 20 questions.",
+          "DKT, DKT+, DKVMN, EERNN, ATKT, SAKT, LPKT, AKT, AT-DKT, sparse-KT, FoLiBiKT, simpleKT, Dtransformer, HD-KT, csKT",
+          "5-Fold Cross-Validation",
+          "Statics\n{AUC: 0.8265 - csKT-50, Accuracy: 0.7990 - csKT-50}\n\nAlgebra 2005\n{AUC: 0.8213 - csKT-50, Accuracy: 0.8077 - DKT-500}\n\nBD2006\n{AUC:  0.8094 - csKT-50, Accuracy: 0.8555 - csKT-50}\n\nStatics\n{AUC: 0.7985 - csKT-50 & csKT-100, Accuracy: 0.7284 - csKT-50}",
+          "Author attempt different predictions using different sequence lengths - 50, 100 and 500 questions under a cold-start scenario.\n\nResults show that the approach using the kernel bias assigns more importance to more recent questions, which makes it more effective than state-of-the-art techniques.\n\nAuthors also perform ablation studies to see effectiveness of the different modules of the arquitecture.",
+          "Only tests model performance under the cold-start scenario.\n\nModel only considers answer sequences, not accounting for other potentially predictive factors such as engagement.\n\n"
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18d4750c-f3ba-8001-b416-f779c033553a",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-8001-b416-f779c033553a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-02-01T18:06:00.000Z",
+        "last_edited_time": "2025-02-01T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-8089-8723-e37b7ce259b3",
+      "type": "paragraph",
+      "text": "KT has a cold-start problem. If we use the past to predict student performance,not having it may be problematic. Thus, KT models, while impressive, tend to not generate stable predictions when there still are small numbers of interactions. ",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-8089-8723-e37b7ce259b3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-02-01T18:07:00.000Z",
+        "last_edited_time": "2025-02-01T18:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "KT has a cold-start problem. If we use the past to predict student performance,not having it may be problematic. Thus, KT models, while impressive, tend to not generate stable predictions when there still are small numbers of interactions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "KT has a cold-start problem. If we use the past to predict student performance,not having it may be problematic. Thus, KT models, while impressive, tend to not generate stable predictions when there still are small numbers of interactions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-804c-9a99-fb1f8e837bbe",
+      "type": "paragraph",
+      "text": "Authors propose csKT, which is meant to be able to be trained on small sequences and then expand in a smoother way to longer sequences. This is done via a kernel bias and cone attention.",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-804c-9a99-fb1f8e837bbe",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-02-01T18:08:00.000Z",
+        "last_edited_time": "2025-02-01T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors propose csKT, which is meant to be able to be trained on small sequences and then expand in a smoother way to longer sequences. This is done via a ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors propose csKT, which is meant to be able to be trained on small sequences and then expand in a smoother way to longer sequences. This is done via a ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "kernel bias and cone attention",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "kernel bias and cone attention",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ".",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ".",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18d4750c-f3ba-807c-b5f1-d96d1d2eb75f",
+      "type": "paragraph",
+      "text": "Results on 4 known KT datasets show that csKT outperforms other KT models in cold-start scenarios. ",
+      "raw": {
+        "object": "block",
+        "id": "18d4750c-f3ba-807c-b5f1-d96d1d2eb75f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-02-01T18:10:00.000Z",
+        "last_edited_time": "2025-02-01T18:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results on 4 known KT datasets show that csKT outperforms other KT models in cold-start scenarios. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results on 4 known KT datasets show that csKT outperforms other KT models in cold-start scenarios. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1de4750c-f3ba-8094-ad67-da14a5d73a1e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1de4750c-f3ba-8094-ad67-da14a5d73a1e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-04-23T16:09:00.000Z",
+        "last_edited_time": "2025-04-23T16:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1de4750c-f3ba-80f3-80e0-c45d99c0386d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1de4750c-f3ba-80f3-80e0-c45d99c0386d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-04-23T16:09:00.000Z",
+        "last_edited_time": "2025-04-23T16:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/d54418cc-7b98-4b23-b8c6-0b13e6e6af5c/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB46622TUAZ3L%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153336Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGxRR1JjHbbci7%2BDVcz077vpgYrj0gndTrLoWocLZ24XAiA91Mcw2t5MJGfJorqJwGj1JopNEXQtYAcyweLY%2FN75Air%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMLWD7u5Dh1OGPkHq6KtwDdzTM%2BshKIeCBN4bfi7zk4OknWLFNRZzyf28BCGWROZN3x2drUrXNNmY6vrla%2BumnHv6HNbhweCu%2FXWb71S53l34YPO2%2Bmh%2FObDQP7ngfqFM0deGPkH%2FxxVIj83gXIEu7eady3vZZ5eSkycRANiB848Amrt1uNd9aGrjeNMIPkCS7PMUkqroRrrByxpIlz7H1pgEXyxBihJ%2BJB6k5OgRqx9lji%2FpL6aY7WK%2BYRhvyAc0rSnvhdAhrAj09AnktYOAsBNg1eNUNeQOxUOsLbyjQ%2FiMAklMsUaROLCkf0qZSbUI%2BFJhoCPj3hjC1LhWqklOMxK6YEzQjJw%2B0juyr6Np%2FvzsmfEFqXBobdTJAxH8PGEoR7XFx2qvYlpVSMe42a4ZTruTkz13aFg2a%2FYZRwyCDklYI%2B7Oa%2BhkbhRbhEC4upIVTA6G%2Bxp9W1LphlKtJwRInp3EWo4oBRsuys83gJgzscGGSZEfT2F0H8O1tlEYk8HzEZw%2BO5eGj9yVoV9Du68rTkGqa4bIaGAFVA90mWeQEUnbMdu349pbkIo8aXH1sjs82VEwjKBjIA64U7ek%2F3iRrvCgn5Yyj59NNYEHzFVSo1Y27BKBRpNaVbyuP%2BJuBxy7OCUa38Dx%2F3kFPZHYw5u%2FzzgY6pgGyATeUyKjxIgx1VwVpaMesuP7fqI9J%2Bs2TRsQguCU%2FtMA%2FJDd4t2CLU%2F7qJiMgMUyNE1xwiuYZNtcm6gPmJv8PIf6G51RjPpreN514DA24eAPJ4A%2B6HEyE90l4ykQY%2FRMtJIwAZMOxZbI%2FgSAp9QVDY9A26Gv3lnkF%2FcrY%2Fybnkh1SRqO3ohiiEgj%2B2V33k7O2pIbmeBOzS0QVpVmCzwOKRS0FHfaW&X-Amz-Signature=f9a8af78ee60fa84b1212f56e1d1902c7c0a18a5d249d40abe26332b285cb42e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:33:36.120Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-807d-a813-deac8056ea01",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-807d-a813-deac8056ea01",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80d5-8976-eeb9304aa219",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80d5-8976-eeb9304aa219",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8093-896a-c6d3305df7f8"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

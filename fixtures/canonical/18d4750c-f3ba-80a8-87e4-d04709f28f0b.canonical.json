@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b",
+      "title": "Personalized Grade Prediction: A Data Mining Approach",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE International Conference on Data Mining",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0d0e1079",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Grade in Course",
+          "Target": "Normalized Final Score (0 to 1)",
+          "Students": "700 students",
+          "Courses": "Multiple Editions of one Undergraduate Digital Processing Course ",
+          "Data sources": "Assessment Grades",
+          "Features": "Feature vector with the grade of all assessments taken uup to the moment of prediction.",
+          "Moment of Prediction": "Every Week (Week 1 to Week 10)",
+          "Preprocessing Details": "Target score is normalized and computed as weighted sum of the gades of all moments of evaluation. \n\nAt every week, the features being considered onbly include data collected up to the moment of prediction.",
+          "Models": "ZeroR - Score of last Assessment\nThe formula for the course grading\nLinear Regression\nKNN with 7 neighbors\nNeighborhood-based Algorithm",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Average Absolute Error: 0.41 - Neighborhood after Midterm - W5}",
+          "Comments": "Authors introduce a new algorithm that works in the following way:\n\n1. Memorize all previous students\n2. For new student - identify most similar students in a neighborhood (using weighted-distance).\n\nInclusion of Midterm instead of Quizzes greatly increases predcitive capability. \n\nAuthors discuss the tradeoof between model performance and ability to flag learners in need early.\n\n\n\n",
+          "Limitations": "Work claims to be doing regression and uses regression metrics, but target seems to be grade E to A.\n\nModel optimization for benchmark models takes into consideration performance in the training data (selection of 7 neighbors).\n\nRequires learners to do badly in order to be flagged.\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_628f2f00",
+      "reference_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b",
+      "text": "Early identification of students who may underperform is relevant and, for that reason, authors propose an algorithm that predicts final grade of a student in course. The algorithm is able to identify optimal prediction and optimal moment of prediction.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+      }
+    },
+    {
+      "id": "an_1fdd54c0",
+      "reference_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b",
+      "text": "Authors test their model on a sample of 700 undergraduate students taking an introductory digital signal processing course. Authors argue that model is effective method of early identification.",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-80a8-87e4-d04709f28f0b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

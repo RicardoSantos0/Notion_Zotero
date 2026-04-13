@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
+      "title": "Explore Bayesian analysis in Cognitive-aware Key–Value Memory Networks for knowledge tracing in online learning",
+      "authors": [],
+      "year": null,
+      "journal": "Expert Systems With Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_858a5f34",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Probability of Answering Next Question Correctly",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "574 Algebra learners, 4151 ASSISTments2009 learners, 1709 ASSISTments2017 learners",
+          "Courses": "ASSISTments, LEarners",
+          "Data sources": "Sequences of Answers, Problem Difficulty, LMS logs",
+          "Features": "[Student Knowledge Embeddings]",
+          "Flaw of Previous Models": "DKVMN, which are part of the state-of-the-art of KT at the time struggles is vulnerable to longer sequences.\n\nDKT achieves good performances, even with longer sequences but struggles with interpretation.\n\nBKT is the most interpretable KT model but its performance is relatively subpar in comparison with other options.",
+          "Novelty of Model": "The authors introduce an LSTM module after the formation of the KV matrices.\n\nMoreover, the outputs of the LSTM module are subsequently given to a Bayesian Module which allows for greater interpretability of the model.\n",
+          "Preprocessing Details": "As any Key-Value Network, the model requires the building of 2 matrices: \n\nA Key-Matrix that associates questions and knowledge components - which is static\n\nA Value Matrix that suffers different sets of Erase-Write operations to model the student’s actually knowledge.\n",
+          "Models": "BKT, DKT, DKT+, DKVMN, SKVMN, enKT, BCKVMN",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "AST09\n{AUC: 0.8649 - BCKVMN}\n\nAST17\n{AUC: 0.7757 - BCKVMN}\n\nAlgebra2005\n{AUC: 0.9662 - BCKVMN}",
+          "Comments": "Authors propose new architecture and perform multipe experiments:\n\nAnalysis of effect of different parameters (d, N, lambdas)\n\nThey also tested effects of changing the size of the training data\n\nClustering of exercises.\n\nA very preliminary start at using this approach for recomendations of in-session learning paths.",
+          "Limitations": "Requires integration in order to be used for elarning apth recommendation. \n\nNo Cross-Validation."
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_24a8da88",
+      "reference_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
+      "text": "The current KT approaches either model knowledge for different concepts separately or fail at capturing longer-term dependencies in an historical sequence of questions. To address this issue, the authors propose Bayesian Cognitive-Aware Key-Value Memory Networks, a model that combines multiple popular KT architectures (DKVMN, LSTM and Bayesian theory). ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+      }
+    },
+    {
+      "id": "an_7ec9bb16",
+      "reference_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf",
+      "text": "In essence, longer-term dependencies are captured by introducing an LSTM layer to DKVMN. In addition, an embedding layer is used top infer question difficulty on final predictions and Bayesian theory for better parameter interpretation. Testing on different 3-real world datasets shows that the approach achieve SotA performance. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ee-be85-c86f9e7d8bbf"
+      }
+    }
+  ],
+  "workflow_states": []
+}

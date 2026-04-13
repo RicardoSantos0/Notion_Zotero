@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8008-a36d-e58a8865f9e3",
+      "title": "Prerequisite-Driven Deep Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE International Conference on Data Mining",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_32b1095b",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "NExt Candidate Question is Answerewd Correctly",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "1610 ASSISTments learners, 2648 AICFE-CM learners, 1451 AICFE-GE learners, 2445 AICFE-MA learners, 964 AICFE-PH learners",
+          "Courses": "ASSISTments, AICFE",
+          "Data sources": "Sequence of Questions, Sequence of Answers",
+          "Features": "[Student-Question Matrix, Question-Concept Mapping, Ordered Pairs]",
+          "Flaw of Previous Models": "The idea of prerequisite knowledge between different knowledge concepts is underexplored in common KT frameworks. ",
+          "Novelty of Model": "Model proposed treats prequesities ar ordering pairs. Essencially, the probability of mastering a concept needs to be lower than the probability of having mastered concepts that are prequisites. ",
+          "Preprocessing Details": "The first step starts with the building of 2 matrices:\n\nA student-question matrix indicating whether the question was correctly or incorrectly answered.\n\nA Question-Concept Mapping intending to identify which concepts are associated with each question.\n\nA set of pre-requisite relationships derived from ppedagogical experts. \n\nModelling of these constraints is attempted in different forms:\n\n1. Logic, 2. Boolean Factors and 3. A Conditional Probability, 4. An Ordering Pair",
+          "Models": "BKT, DKT, PMF, PDKT-C",
+          "Assessment Strategy": "10-Repeated Holdout",
+          "Performance Metric: Best Model": "AST\n{AUC: 0.805 - PDKT-C, Accuracy: 0.73 - PDKT-C, MAE: 0.37 - PDKT-C, RMSE: 0.43 - PDKT-C}\n\nAICFE-CM\n{AUC: 0.83 - PDKT-C, Accuracy: 0.76 - PDKT-C, MAE: 0.345 - PDKT-C, RMSE: 0.41 - PDKT-C}\n\nAICFE-GE\n{AUC: 0.82 - PDKT-C, Accuracy: 0.75 - PDKT-C, MAE: 0.35 - PDKT-C, RMSE: 0.42 - PDKT-C}\n\nAICFE-MA\n{AUC: 0.79 - PDKT-C, Accuracy: 0.75 - PDKT-C, MAE: 0.37 - PDKT-C, RMSE: 0.43 - PDKT-C}\n\nAICFE-PH\n{AUC: 0.795 - PDKT-C, Accuracy: 0.73 - PDKT-C, MAE: 0.36 - PDKT-C, RMSE: 0.44 - PDKT-C}",
+          "Comments": "The main difference of this approach relative to DKT is that it includes constraints on pre-requisite knowledge.\n\nOn all datasets, the authors show that PDKT-C is the most effective method out of all tested across all datasets.\n\nAuthors also do an Ablation study to check the effect of different parameter changes to model performance: \n-Hidden Units, Lambda, Trainig dataset size, Number oif considered pre-requisites.",
+          "Limitations": "Does not consider additional sources of data,\n\nPre-requisite extraction needs optimization."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8008-a36d-e58a8865f9e3",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_40f03752",
+      "reference_id": "18c4750c-f3ba-8008-a36d-e58a8865f9e3",
+      "text": "One of the main bottlenecks to the deployment of KT approaches is the sparseness in exercise data. To circumvent this issue,. the authors propose that KT models could incorporate pre-requequisites into the KT model. Authors introduce pre-requisites in the form of a constraint and show, on 5 datasets, that this alteration improves the standard KT approaches.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8008-a36d-e58a8865f9e3"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "1d94750c-f3ba-802c-a3a8-eea1ee4eeea3",
+      "title": "Dynamic Key-Value Memory Networks for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "Proceedings of the 26th International Conference on World Wide Web",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_743044d9",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Correct Ansewr in Next Question",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4000 Synthetic learners, 4151 ASSISTments2009 learners, 19840 ASSISTments2012 learners,\n333 Statics learners ",
+          "Courses": "ASSISTments, Statics",
+          "Data sources": "Answer Sequences, Questions",
+          "Features": "[Sequence of Questions]",
+          "Flaw of Previous Models": "BKT and DKT (the at the time state-of-the-art) have problems with the way they represent knowledge concepts:\n\n- BKT treats each knowledge concept as its own dimension and they are modelled separately,\n\n- DKT aggregates all KC into a single, not interpretable hidden vector",
+          "Novelty of Model": "Memory augmented Neural Networks are a foprm of enural networks with 2 modules:\n\n1. A memory matrix that sotre information\n2. A Controller module that reads and/or writes oin the matrix → changing it.\n\nMANN can be adopted for KT as it represents a theoretical improvement to LSTMs, but still has an issue with the fact that reading and writing is done on the same matrix.\n\nDKVMN addresses this by using 2 matrices: a static one that encodes information about questions and a second dynamic one that encodes knowledge on different knowledge components.",
+          "Preprocessing Details": "Each dataset is treated separately and, in each, each question is associated with a knowledge concept apriori.\n\nInput exercise data is provided as a one-hot encoded vector.\n\nKey is updated during training but becomes fixed for the testing process.\n\nFor the value, the starting point is the difficulty of each concept. ",
+          "Models": "BKT, BKT+, MANN, DKT, DKVMN",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "Synthetic\n{AUC: 0.8273 - DKVMN}\n\nASSIST09\n{AUC: 0.8157 - DKVMN}\n\nSynthetic\n{AUC: 0.7268 - DKVMN}\n\nSynthetic\n{AUC: 0.8284 - DKVMN}",
+          "Comments": "Authors propose a new model and test it on 4 different datasets. \n\nAuthors do some hyper-parameter tuning to identify what would be the ideal combination of hyper-parameters.",
+          "Limitations": "Does not perform cross-Validation.\n\nOnly takes into consideration answer sequences, leaving aside any representation of content or any supporting priors.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "1d94750c-f3ba-802c-a3a8-eea1ee4eeea3",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_692811e4",
+      "reference_id": "1d94750c-f3ba-802c-a3a8-eea1ee4eeea3",
+      "text": "Authors propose DKVMN, a framework that models learner’s knowledge by mining a large amount of exercise records. This approach addresses problems from previous models by creating 2 separate matrices:\n\na static matrix: the Key that stores information about different knowledge concepts\na dynamic matrix: the Value that encodes the learners’ mastery level of different concepts.\n\nDKVMN outperms DKT on multiple datasets.\n\n",
+      "provenance": {
+        "page_id": "1d94750c-f3ba-802c-a3a8-eea1ee4eeea3"
+      }
+    }
+  ],
+  "workflow_states": []
+}

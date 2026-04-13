@@ -1,0 +1,799 @@
+{
+  "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
+  "title": "AI-Driven Personalized Learning and Remedial Recommendation Through Knowledge Concept-Centric Evaluation",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "faca7a6d-43b9-43cc-b904-63550eee2fa1",
+          "name": "Personalized Learning",
+          "color": "green"
+        },
+        {
+          "id": "28f59f3c-657d-49cd-97fa-fd0746175773",
+          "name": "Knowledge Gap Identification",
+          "color": "yellow"
+        },
+        {
+          "id": "8c1c212d-93e6-40e0-9021-70b403c677a8",
+          "name": "Adaptive Question Generation",
+          "color": "orange"
+        },
+        {
+          "id": "430b8f07-1410-478d-9821-b3e3ed05ad5c",
+          "name": "Deep Knowledge Tracing",
+          "color": "default"
+        },
+        {
+          "id": "fc49475b-4399-4613-bed1-2cae29e0ac15",
+          "name": "Retrieval-Augmented Generation",
+          "color": "blue"
+        },
+        {
+          "id": "39e984b3-20ac-4946-a994-02aac39d3529",
+          "name": "Remedial Recommendation",
+          "color": "yellow"
+        },
+        {
+          "id": "ef7355a0-9a84-4716-8ce3-16c93d03e54e",
+          "name": "Outcome-Based Education",
+          "color": "default"
+        },
+        {
+          "id": "edd8334c-d055-4905-b44f-441000d8c533",
+          "name": "AI in Education",
+          "color": "yellow"
+        },
+        {
+          "id": "3c192546-5440-4869-934d-2f3be5f2048c",
+          "name": "Sustainable Development Goal 4 (SDG 4)",
+          "color": "green"
+        },
+        {
+          "id": "cdcb31a7-0469-4e0c-8c4a-674f5532be09",
+          "name": "Concept-Centric Evaluation",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Educational Recommender Systems\" AND \"Higher Education\" AND \"Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Educational Recommender Systems\" AND \"Higher Education\" AND \"Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2025
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Access",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Access",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "NI>e",
+        "name": "Deployed by Instructor",
+        "color": "yellow"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        },
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02T16:08:00.000+01:00",
+        "end": "2026-04-02T18:09:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pradesh et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pradesh et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2026-04-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "9da6614e-d4f0-4fef-8964-5565460866d2",
+          "name": "Large Language Models",
+          "color": "blue"
+        },
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "AI-Driven Personalized Learning and Remedial Recommendation Through Knowledge Concept-Centric Evaluation",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "AI-Driven Personalized Learning and Remedial Recommendation Through Knowledge Concept-Centric Evaluation",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3364750c-f3ba-807f-bbda-cee115e0fd25",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "AI-driven remedial recommender / adaptive concept-based recommender using knowledge-gap identification, LLM-generated remedial content, and adaptive follow-up evaluation",
+          "Weak knowledge concepts; recommendations include learning objectives, review topics, remedial explanation, practice activities, and concept-gap rationale",
+          "262 learners for recommendation-module analysis",
+          "Procedural Programming using C (evaluation setting); broader curriculum processing spans 70+ CSE courses",
+          "Curriculum PDFs, OBE exam data from AMPLE LMS, learner-question performance, concept/outcome mappings, instructor-defined attainment rules",
+          "Initialized from curriculum processing and concept extraction; instructor validates concepts and defines thresholds/targets and question rules; weak concepts are identified from learner performance",
+          "Iterative closed loop: after studying recommendations, learners complete self-assessment; results are fed back and the system generates refined recommendations until target mastery is reached",
+          "PDF-to-text conversion, RAG-based retrieval, embeddings/vector DB, semantic deduplication for follow-up questions, multi-model cross-verification of generated remedial content",
+          "Personalized remedial recommendations + review guidance + practice tasks + adaptive follow-up question",
+          "Recommendation-module results should be the focus here: after recommendation, Not Competent/Beginner decreased and Intermediate/Expert increased across all five concepts (Fig. 7); pre/post gains were significant for all concepts (p < 0.0001), with mean gains of +22.47, +18.50, +15.97, +13.21, and +1.28 depending on the concept; learner survey showed strongest ratings for relevance and structure of recommendations (>3.3/5) and weakest ratings for personalization to individual mistakes/needs (<3.0/5)",
+          "Best framed as a remedial intervention recommender rather than a classical item recommender. Strong point: the paper evaluates the effect of recommendations directly with pre/post learner improvement and user perception, not only underlying model performance",
+          "Single-institution study; recommendation quality is not compared against alternative recommender baselines; personalization was perceived as weaker than clarity/relevance; relies on human/instructor oversight and cross-verification"
+        ]
+      ],
+      "index": 6
+    },
+    {
+      "block_id": "3364750c-f3ba-8013-af08-e2c69a749ea2",
+      "heading": "Summary Table REC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Whether learners have attained the required concept level",
+          "Concept mastery probabilities; weak concepts are those below OBE target levels",
+          "1,276 learners for KT training/testing dataset",
+          "70+ courses in a 4-year CSE program",
+          "Historical OBE exam data from AMPLE LMS; learner-question responses mapped to concepts; curriculum and course-outcome structure",
+          "Learner interaction sequences, correctness, exercise/question content, concept mappings, OBE attainment labels",
+          "Earlier KT approaches either rely mainly on response sequences or do not sufficiently incorporate exercise semantics/content. The paper argues this limits fine-grained concept-level gap detection for OBE-aligned personalization",
+          "Uses Exercise-Aware Knowledge Tracing (EKT) to combine learner response history with semantic content of exercises, then uses predicted concept mastery to identify weak concepts for personalized follow-up",
+          "Curriculum PDFs converted to text and aligned to concepts; learner-question attainment mapped to concept-level outcomes; 75/25 train-test split; 12 epochs; embedding dimension 100; LSTM hidden size 100; dropout 0.3; Adam optimizer 0.001; batch size 32; binary cross-entropy loss",
+          "DKT, DKVMN, EKT, AKT, SimpleKT",
+          "Holdout Method",
+          "{AUC: 0.9334 - EKT, RMSE: 0.1828 - EKT}",
+          "Good fit for KT table because KT is not peripheral here: it is the mechanism used to estimate concept mastery and trigger downstream intervention. Figures 4–6 show model comparison, learner knowledge-state evolution, and concept-wise mastery visualization",
+          "Single-institution OBE dataset; results tied to one engineering program; only holdout evaluation reported; paper emphasizes downstream application more than deep ablation of the KT component"
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3364750c-f3ba-8093-b0c1-c69b05b5b5ce",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8093-b0c1-c69b05b5b5ce",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T15:00:00.000Z",
+        "last_edited_time": "2026-04-02T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80d9-be95-e286e16ffd13",
+      "type": "paragraph",
+      "text": "The authors propose an architecture that includes 4 key components: Knowledge Gap Identification, Adaptive Question Generation, Personalized Evaluation and Remedial Recommendation. EKT continuously monitors the learners’ knowledge states while RAG is used to create MCQ for the learners to practice. \n\nRecommender is tested.",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80d9-be95-e286e16ffd13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T15:05:00.000Z",
+        "last_edited_time": "2026-04-02T15:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors propose an architecture that includes 4 key components: Knowledge Gap Identification, Adaptive Question Generation, Personalized Evaluation and Remedial Recommendation. EKT continuously monitors the learners’ knowledge states while RAG is used to create MCQ for the learners to practice. \n\nRecommender is tested.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors propose an architecture that includes 4 key components: Knowledge Gap Identification, Adaptive Question Generation, Personalized Evaluation and Remedial Recommendation. EKT continuously monitors the learners’ knowledge states while RAG is used to create MCQ for the learners to practice. \n\nRecommender is tested.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80a4-af01-e892227a22a9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80a4-af01-e892227a22a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T15:00:00.000Z",
+        "last_edited_time": "2026-04-02T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80aa-a8eb-e8b1854c0c99",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80aa-a8eb-e8b1854c0c99",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T15:00:00.000Z",
+        "last_edited_time": "2026-04-02T15:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/95f465f1-de10-48ef-b232-68883e8b8579/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466UPFNWUIO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151757Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIGBandANLPY09PJMGPQIHquY5Fwx6dStlORrh8y0qzNjAiEApC0BbrzLhfhdZhQ4IOoe5aVTScKyUbS%2F%2BgO17ISHp0Iq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDEkcFkSsMEPLJsRRAyrcA5l%2FxSRAJQ1q3iGrj35AE9LhTK5hldZ13j3ZcIbA%2F%2FWLEPDscKCU%2BUfeHbB%2FgCxiIr%2FPQqsNv%2BUR2cgD3Ujs8LahHYixNHKIu%2FPmLmHTuX4CVzHVDEZqs1t72FnvcjYhdsoAQDAd95PlJlZTf6L8FhDDDRR01Wz9Iz70%2FsZhkj3o%2BHHMPOt3e8HxfeNehDy6g9Cwycf11c2Q1X3cAGsbFtQyjq%2BIpzMxGSjyAJrUrhsJ%2BMtllMWVbMfFPKWwMrWczYfcOUA3gMCGJgdc9wXMw9w1kPBhMjyRhzqBw87zg8mfV2lT9p0oiuIte7f6hNl%2BgjWfha38%2F9GNZ3nW%2FIx8a0S9RcYcf1PitXu2s%2B72bnnjPCFkZOhzQRzu%2Bdy38YDQcWhhSyla2Bvl7HdNma0kdVNGylKw7QD%2FPlfg7%2F7RBBRBFWKIF4cNwm%2Fle9s2DppRAgTKP%2FQNdOQ3MCUStAc2Be8wgTwj7Zw77ZRdVjJYOtFQcLfpwR3xsfnO5i2WvaW78Qt%2FGMoz7mPc7QbxOR6EGuviCQPVqRQ%2Bdh9XnOhZvJx2ZlDTONONJCEc3PxO3aUJDNePfrHKx54sGk%2Brii4o49rKwBei134ezfcBKoR0TmDiWHSXgvs%2Bq5iUWm%2BWMLfw884GOqUBURZS9YSRXSRH0qlTdPzJkcp6GSJxB7zCYD96eClVQ5Lko%2BLsotFgrFWUg91eXpX6QxIKb7rVXY2JiDTFvXJ7diApSaiwcFR%2BvaIGXG4ixK1c%2BGiL7Wwtkrm9MpGcLKL0R57fes84dujCVxRUm136ztVeim8eWbIIQUGz04pAFvSfv8grYqgn3nzkDVuTUW2%2F87xD8z2FuAUcTmYEtZDZBzKWyOCO&X-Amz-Signature=d28179297bab0143373fafb3b3c1abc9b154dc48ebf67bf544dce1998266ee9f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:17:57.532Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-80aa-b5f7-f828cb733d30",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-80aa-b5f7-f828cb733d30",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T16:54:00.000Z",
+        "last_edited_time": "2026-04-02T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8079-b964-d30608077023",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8079-b964-d30608077023",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T16:53:00.000Z",
+        "last_edited_time": "2026-04-02T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-807f-bbda-cee115e0fd25",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-807f-bbda-cee115e0fd25",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T16:53:00.000Z",
+        "last_edited_time": "2026-04-02T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8030-838c-d781b8fa7e20",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8030-838c-d781b8fa7e20",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T16:54:00.000Z",
+        "last_edited_time": "2026-04-02T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3364750c-f3ba-8013-af08-e2c69a749ea2",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3364750c-f3ba-8013-af08-e2c69a749ea2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+        },
+        "created_time": "2026-04-02T16:54:00.000Z",
+        "last_edited_time": "2026-04-02T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

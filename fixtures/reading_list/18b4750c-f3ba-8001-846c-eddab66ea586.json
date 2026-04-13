@@ -1,0 +1,635 @@
+{
+  "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586",
+  "title": "Fuzzy Bayesian Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "a92b199c-30c0-46bc-8579-db396317e53a",
+          "name": "Fuzzy Theory",
+          "color": "brown"
+        },
+        {
+          "id": "8ac1bbbf-5274-4ce0-b98f-43d0eff1305d",
+          "name": "Hidden Markov Models",
+          "color": "blue"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Fuzzy Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Fuzzy Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Xplore",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Xplore",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-08T23:45:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Liu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Liu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fuzzy Bayesian Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fuzzy Bayesian Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-809d-8839-ff20c20de3b8",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Intelligent Tutoring System",
+          "Score in Exercise",
+          "Continuous score [0,1]",
+          "1825 Algebra05&06 learners,\n1112 Bridge Algebra learners, 3062 ASSISTments2009 learners, 16587 ASSISTments12 learners, 1704  ASSISTments17 learners",
+          "Algebra, ASSISTments",
+          "Answer Sequences and Scores obtained ",
+          "[Sequences of Scores for Previous Questions in the same Knowledge Component]",
+          "Most of the current state-of-the-art KT models either focus prediction binary outcomes - correct or not correct, which makes these models unsuitable for continuous scores or subjective questions.\n\nNo consideratioin for a status of partial mastery of a specific knowledge component.",
+          "The addition of fuzziness to BKT allows for the introduction of the  partial correctedness.\n\nHowever, the introduction of this Fuzzy BKT also has its own drawback - model parameter uncertainty - by using type-2 fuzzifications.",
+          "In essence, Fuzzy BKT and T2FBKT takes the performance scores as input (not a binary sequence of 0s to 1s) ",
+          "BKT, DKT, DKVMN, DKT+, DKT_DSC, DeepIRT, SAKT, KQN, AKT, CKT, DMN, ADMN, IADMN, FBKT, T2FBKT",
+          "5-Fold Cross-Validation",
+          "{Average MAE Rank: 1.47 - T2FBKT, Average RMSE Rank:                                                                                                                                                      1.4 - T2FBKT}",
+          "Authors explore the idea of introducing fuziness to a domain that is often characterized by working with binary sequences.\n\nThe fuzzy possiibility allows the assignment of a continuous score to each question, which should reflect a better estimate of learner knowledge than 0 - wrong vs 1 - correct.\n\nAuthors propose this approach and test its efectiveness on mulitple datasets. Proposed models - FBKT and T2FBKT seem to outperform the remaining options. \n\nResults between models are done using Friedman tests and Nemeyi tests. \n\nEither FBKT or T2FBKT beat all baseline models on all datasets and metrics.\n\nSome abation studies are conducted in order to optimize the paramenters of these models. ",
+          "This fuzzy approach is exclusively applied to BKT - missing DKT or any of its variants."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1944750c-f3ba-80bb-8b30-d24e5f7bcd8a",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-80bb-8b30-d24e5f7bcd8a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-02-08T23:44:00.000Z",
+        "last_edited_time": "2025-02-08T23:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1944750c-f3ba-80c7-98fb-e3b993629e84",
+      "type": "paragraph",
+      "text": "Most KT models use CFA, a binary problem (the answer is correct or incorrect), which limits the possible applications for KT models. Thus, the authors propose a set of Bayesian KT Models (FBKT and T2FBKT) to address continuous score scenarios. The results show that KT can go beyond regular applications with this approach.",
+      "raw": {
+        "object": "block",
+        "id": "1944750c-f3ba-80c7-98fb-e3b993629e84",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-02-08T23:44:00.000Z",
+        "last_edited_time": "2025-02-08T23:50:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most KT models use CFA, a binary problem (the answer is correct or incorrect), which limits the possible applications for KT models. Thus, the authors propose a set of Bayesian KT Models (FBKT and T2FBKT) to address ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most KT models use CFA, a binary problem (the answer is correct or incorrect), which limits the possible applications for KT models. Thus, the authors propose a set of Bayesian KT Models (FBKT and T2FBKT) to address ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "continuous score scenarios",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "continuous score scenarios",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". The results show that KT can go beyond regular applications with this approach.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". The results show that KT can go beyond regular applications with this approach.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1da4750c-f3ba-80d4-9bdd-f83becf57dd8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1da4750c-f3ba-80d4-9bdd-f83becf57dd8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-04-19T17:25:00.000Z",
+        "last_edited_time": "2025-04-19T17:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1da4750c-f3ba-8064-a75f-e68c2f3af77d",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1da4750c-f3ba-8064-a75f-e68c2f3af77d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-04-19T17:25:00.000Z",
+        "last_edited_time": "2025-04-19T17:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/5e64fa64-a98d-4b98-9096-c3dd7b97f3f1/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466VPTB4PZT%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152723Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIDUOjXgRmJ54SCOJIzdODQ5MRFG3lNFRkjIbBFkB52JlAiA0VRU6ZORTRecgTrPdFv4yVt3yoRFS1kvbo0Ga8MAU2Sr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMu4eIEnbsBkzVzrMXKtwD1%2F9cYSbQF6dL%2Fd%2BNLEOkDkP2mL3LzyoDA9t9smXa0RYq7ghjBdbUFabpsodoRrwSH9EWFBV9NwsTnBMvb3pQWsInfSFeVf3KIpBjdS8hiw%2FQOinQemZy%2B8UfYfJuweG2qGANO5ZwMqRPndDGas9q6FwNfIGVgHKjKaFlOTZdri%2FWbN9G3Zj5yeKLNseV62SNcQCmJ6TIVdAzjGkmZnZmZ067IYalEgEi4BaBaJFdXFICty2c96XUkwGjP%2B1J7tMBKEKFxIc0v6kN5U8WTOWyBqbPaH1M05NdgLHjWBaUZAjaRNoEarnwZd76UHlrjDsNSMIDThAD2M96Xh3F%2BwMJV0mpRKUBMJFqvAbntAzw41ZpVZ8SXHbGzoSty9FWQgMNR6etwdzG5xU7D41iqLimdJGFzX6n%2F2t2%2BV08bXdZrVccjAiCsWd8ClRyWK4VhT66KwQhfFH%2FNAfHr6lrykMNLTQPoQMLRIRlyWOfA5l7mVciH%2FTEOMLOJPpUd8Sc%2B8myKhB%2B6ohW%2B1EDZbrTSiBj%2FNheNlRKE6BE%2BwLsYYf7zQdGHLytondCdO5eW3l9AwVbr%2FLyq3wcbtJ3p9i3bQNIR5BET4AvI81DTJ%2BptkkRbbxLU1ZsCujl3DAiXHEw2vDzzgY6pgHSgik0XuIrkcBqJZrS0kXN25HIheAnp3KwO0CP2qzHa2RF0rbwR6xRpIVLr8eDLbtoySQDyfJSLC2o8%2BI96O%2FLqrfnxt%2FCI9KmHaXLQqJz7KOijDc%2FU9MxJuvEZU0Ir2xYISkiDIOygZwvih5hAffwyFTBO8hyocFJ9bZ3qliUXNh6alcHnRgNBKzW2PsnrM3n3fIHbj4an2bHntEQ0Tr9SwU%2BMZkO&X-Amz-Signature=65703a85d70595c253b91be531c7931ce47302173e40a8197ecdaf871904203f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:27:23.604Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8007-992f-ec1a15996b52",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8007-992f-ec1a15996b52",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-809d-8839-ff20c20de3b8",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-809d-8839-ff20c20de3b8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8001-846c-eddab66ea586"
+        },
+        "created_time": "2025-04-07T15:18:00.000Z",
+        "last_edited_time": "2025-04-07T15:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

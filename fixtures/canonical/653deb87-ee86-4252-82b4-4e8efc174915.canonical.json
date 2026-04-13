@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "653deb87-ee86-4252-82b4-4e8efc174915",
+      "title": "Classification and Regression Trees (CART) for Predictive Modeling in Blended Learning",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Intelligent Systems and Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4b899091",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "352 undergraduate students",
+          "Courses": "1 Object-Oriented Programming Course",
+          "Data sources": "LMS logs, Course Grades\n",
+          "Features": "[Messages exchanged, Group wiki content contributions, Files viewed, Quiz efforts]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "IStudent online interactions were extracted from Moodle logs into Excel. VBA macros were used to compute, for each student, the number of files viewed, content contributions, quiz efforts, and messages exchanged. The activity table was then merged with a second file containing student IDs and course grades. CART was applied with four predictors and one binary target.",
+          "Models": "CART\n",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "{Accuracy: 99.1% - CART; Recall_Fail: 98.2%; Recall_Pass: 100.0%}",
+          "Comments": "Messages exchanged and collaborative content creation were the two most important predictors. Two main rules emerged: students with messages ≤ 172 were predicted to fail; students with messages > 172 and content contributions ≥ 13 were predicted to succeed. The resulting tree is very small and interpretable.",
+          "Limitations": "Single course in one context. \n\nPrediction is based on full-semester behavior. \n\nVery high accuracy may reflect context-specific patterns and may not generalize to other courses or institutions. \n\nOnly four LMS features were used, with no demographic, prior-achievement, or offline learning"
+        }
+      ],
+      "provenance": {
+        "page_id": "653deb87-ee86-4252-82b4-4e8efc174915",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e3fae5c3",
+      "reference_id": "653deb87-ee86-4252-82b4-4e8efc174915",
+      "text": "Author uses data collected from Moodle to predict student success in a course using CART. Model focuses on detection of students at-risk based on 4 distinct activities: message exchanging, group wiki content creation, course file opening and online quiz taking. Accuracy is close 99%.",
+      "provenance": {
+        "page_id": "653deb87-ee86-4252-82b4-4e8efc174915"
+      }
+    }
+  ],
+  "workflow_states": []
+}

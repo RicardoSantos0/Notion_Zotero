@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84",
+      "title": "Predicting Student Dropout in Higher Education",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_435f6501",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Student Will Complete His/Her Graduation",
+          "Target": "Graduation (1) vs Non-Completion (0)",
+          "Students": "32538 students",
+          "Courses": "All Students who Entered in 1998.",
+          "Data sources": "Student Demographics\nPre-College Academic Performance, Complete Transcript Records with First-Term Academic Performance\n",
+          "Features": "[Close to 1000 Features divided into 4 Categories: Demographics, SAT and ACT, Top 150 majors on Campus and Finally Department-Based Features - credits enrolled, classes taken and GPA for all classes taken in that department.]",
+          "Moment of Prediction": "End of First Quarter",
+          "Preprocessing Details": "Initial dataset coimprised 69116 students from the University of Washington, but majority class was undersampled in order to ensure that the dataset was balanced. \n\nNon-Completion was defined as did not complete program within 6 years after registering for the first-year. \n\nIn total, the model contained close to 1000 features",
+          "Models": "Logistic Regression\nkNN\nRandom Forest\n",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.6659 Logistic Regression, AUC: 0.729 - Logistic Regression}",
+          "Comments": "Authors also perform single-variable Logistic Regression to assess the predictive power of multiple features.\n\nWork also shows a following-level attempting to predict when a Dropout will happen.",
+          "Limitations": "Curse of Dimensionality.\n\nLack of model optimization efforts.\n\nVery simple set of estimators used. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_4508bd63",
+      "reference_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84",
+      "text": "Around 30% of students that are registered in the first year do not return for the second. The authors take a step to understand why by analyzing data from the University of Washington. Authors find that it is possible to identify early predictors and, not only that, that it is also possible to predict dropout when a single term of academic data (end of first-semester equivalent). ",
+      "provenance": {
+        "page_id": "18d4750c-f3ba-8077-86e5-d9bd1c53dd84"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "id": "6ed31a11-414c-478f-986c-61ab26a110c0",
+      "title": "PERKC: Personalized kNN With CPT for Course Recommendations in Higher Education",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_52d14dbc",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid ",
+          "Target of Recommendation": "Next Course to Take",
+          "Students": "40 undergraduate students",
+          "Courses": "Computer Science Program",
+          "Data sources": "Questionnaire,\nEnrollment History\n",
+          "Initialization Method": "Learners are represented by the Quuestionnaire and Academic History.",
+          "Updates to Recommendations": "Requires retraining to change results.  ",
+          "Preprocessing Details": "Learners are represented as personality (from questionnaire) and profile (from the remaning data). Both attributes are normalized and fed into a kNN algorithm (after normalization). Distance uses Hamming (sequences) and Cosine similarity (personality).",
+          "Recommendation types": "Top-N Courses",
+          "Evaluation": "{Accuracy: 0.91 - PERKC}",
+          "Comments": "Authors look to do some form of Collaborative Filtering to compute similarity between users (without the need for rating). \n\nThe goal is to perform sequence prediction rather than perform Sequential Pattern Mining.",
+          "Limitations": "- Small set of students in test\n\n- Only Accuracy is used to evaluate the results.\n\n- Learners are required to answer the questionnaire to be initialized.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6ee80bcd",
+      "reference_id": "6ed31a11-414c-478f-986c-61ab26a110c0",
+      "text": "Students often select e-learning options to gain extra credits and and enhance their skills. The authors propose a personalizer recommender system that use Compact Prediction Tree to recommend courses for students to take. Algorithm is tested against other baseline approaches and is shown to outperform the alternatives. ",
+      "provenance": {
+        "page_id": "6ed31a11-414c-478f-986c-61ab26a110c0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

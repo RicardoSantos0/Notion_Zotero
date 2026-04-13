@@ -1,0 +1,60 @@
+{
+  "references": [
+    {
+      "id": "b165ce63-5718-47af-b1c7-561347079f43",
+      "title": "Expert Features for a Student Support Recommendation Contextual Bandit Algorithm",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3c7b3b29",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "",
+          "Teaching Method": "",
+          "Recommender System Type": "",
+          "Target of Recommendation": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "b165ce63-5718-47af-b1c7-561347079f43",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_dc428500",
+      "reference_id": "b165ce63-5718-47af-b1c7-561347079f43",
+      "text": "The authors explore how the Contextual Bandit Algorithm can be used in a KT task to improve the quality of student support recommendations. The authors employ their algorithm in a simulated environment and see that features engineered using this algorithm result in better rewards than randomly selected student supports. ",
+      "provenance": {
+        "page_id": "b165ce63-5718-47af-b1c7-561347079f43"
+      }
+    }
+  ],
+  "workflow_states": []
+}

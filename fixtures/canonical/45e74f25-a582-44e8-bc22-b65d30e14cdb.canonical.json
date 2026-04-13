@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "45e74f25-a582-44e8-bc22-b65d30e14cdb",
+      "title": "Classification of educational videos by using a semi-supervised learning method on transcripts and keywords",
+      "authors": [],
+      "year": null,
+      "journal": "Neurocomputing",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_84c86a6e",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Recommender System Type": "",
+          "Target of Recommendation": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "Paper focuses on using transcripts on educational videos to label them according to discipline. In essence, the paper offers a way of automating parts of the Recommender System Creation.\n\n",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "45e74f25-a582-44e8-bc22-b65d30e14cdb",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c28226e2",
+      "reference_id": "45e74f25-a582-44e8-bc22-b65d30e14cdb",
+      "text": "In a context where new resources are always becoming available, it becomes increasingly difficult to index them in search or recommender systems. ",
+      "provenance": {
+        "page_id": "45e74f25-a582-44e8-bc22-b65d30e14cdb"
+      }
+    },
+    {
+      "id": "an_ac2f91b1",
+      "reference_id": "45e74f25-a582-44e8-bc22-b65d30e14cdb",
+      "text": "Authors use a semi supervised topic modelling approach to classify educational videos. Idea is to automate the process of labelling of the videos, which will make them easier to find in search or recommender systems. Results show that approach proposed with this method beats other alternatives. ",
+      "provenance": {
+        "page_id": "45e74f25-a582-44e8-bc22-b65d30e14cdb"
+      }
+    }
+  ],
+  "workflow_states": []
+}

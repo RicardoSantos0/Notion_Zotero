@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8093-856f-efcb99126d44",
+      "title": "Should Learning Analytics Models Include Sensitive Attributes? Explaining the Why",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_df3088bf",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Face-to-Face Learning",
+          "Student Performance Definition": "Dropout within their 3-year study program",
+          "Target": "Dropout (1) vs Completion (0)",
+          "Students": "696 undergraduate students",
+          "Courses": "All courses between 2015-2017",
+          "Data sources": "Academic History, Student Demographics, LMS logs, Attendance lgos ",
+          "Features": "[network_fundamentals, problem_solving, it_fundamentals, design_thinking, num_core_enrolled, core_average, gender_code, age, citizenship_status, home_language, disability_exists_flag, forum_contribution, site_visit, last_login, sms_opted_in_flag, Attendance mode]",
+          "Moment of Prediction": "End of First Semester",
+          "Preprocessing Details": "The data includes 4 putative targets that are reduced to 2. Non-binary categoricasl were binarized and numerical features were standardized. \n\nThe authors also created 4 specific variables whose inclusion/exclusion were tested.",
+          "Models": "H2O.ai’s AutoML",
+          "Assessment Strategy": "10-Repeated 5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy - Unpublished, TPR, TNR}",
+          "Comments": "Authors use AutoML to determine what would be the best algorithm and identify GBoost as the best one.\n\nAuthors do not fully publish the metrics epr se, but do publish a T-Score which measures the different",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8093-856f-efcb99126d44",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_fbf51d9d",
+      "reference_id": "18c4750c-f3ba-8093-856f-efcb99126d44",
+      "text": "Dropout prediction is a common Learning Analytics task and, in may scenarios, institutions have models put into place to predict it, raising questions on whether sensitive attributes should be used or not. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8093-856f-efcb99126d44"
+      }
+    },
+    {
+      "id": "an_71d2c051",
+      "reference_id": "18c4750c-f3ba-8093-856f-efcb99126d44",
+      "text": "Authors create models using data from an Australian university and realize that sensitive attributes brought marginal gains to model performance and, when there is an increase in model effectiveness, it comes more of as a function of how the attribute is related to the target. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8093-856f-efcb99126d44"
+      }
+    }
+  ],
+  "workflow_states": []
+}

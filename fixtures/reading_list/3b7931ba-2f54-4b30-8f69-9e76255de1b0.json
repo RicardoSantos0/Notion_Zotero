@@ -1,0 +1,624 @@
+{
+  "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
+  "title": "Enhancing Automated Scoring of Math Self‑Explanation Quality Using LLM‑Generated Datasets: A Semi‑Supervised Approach",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "5e893d93-6399-469d-ae00-f6b3f1ad7a9f",
+          "name": "Self-Explanation",
+          "color": "gray"
+        },
+        {
+          "id": "c7847c63-931e-4e3e-b29b-88a823d9579a",
+          "name": "Automated Scoring",
+          "color": "pink"
+        },
+        {
+          "id": "3a30a9c2-d08e-4c44-b1c2-5614e2a3cc3a",
+          "name": "Semi-Supervised Learning",
+          "color": "yellow"
+        },
+        {
+          "id": "83cfb54e-7cfb-41e1-86ca-e8933766797b",
+          "name": "Language Learning Model",
+          "color": "pink"
+        },
+        {
+          "id": "1cd6b4f8-9e63-49f7-a99c-85d4daf60da7",
+          "name": "Data Augmentation",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "[={O",
+          "name": "Q3+ Journal",
+          "color": "blue"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Population & Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Population & Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Nakamoto et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Nakamoto et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Enhancing Automated Scoring of Math Self‑Explanation Quality Using LLM‑Generated Datasets: A Semi‑Supervised Approach",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Enhancing Automated Scoring of Math Self‑Explanation Quality Using LLM‑Generated Datasets: A Semi‑Supervised Approach",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "40011571-d02f-4030-b462-2e3ea8a3961c",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3ae58bc4-91e1-4656-a99e-34cddb2dd7f2",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3ae58bc4-91e1-4656-a99e-34cddb2dd7f2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:23:00.000Z",
+        "last_edited_time": "2024-08-06T14:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "76521151-36f2-46e8-b1b9-ac0ba6335911",
+      "type": "paragraph",
+      "text": "Despite its effectiveness in math education, self-explanations seem to be an underused source of data about student learning processes. However, with new advancements in NLP it may now be possible to use them. Thus, the authors propose the use of an LLM to automatically grade mathematical self-explanations and provide personalzied feedback based on them. ",
+      "raw": {
+        "object": "block",
+        "id": "76521151-36f2-46e8-b1b9-ac0ba6335911",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:23:00.000Z",
+        "last_edited_time": "2024-08-06T14:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Despite its effectiveness in math education, self-explanations seem to be an underused source of data about student learning processes. However, with new advancements in NLP it may now be possible to use them. Thus, the authors propose the use of an LLM to automatically grade mathematical self-explanations and provide personalzied feedback based on them. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Despite its effectiveness in math education, self-explanations seem to be an underused source of data about student learning processes. However, with new advancements in NLP it may now be possible to use them. Thus, the authors propose the use of an LLM to automatically grade mathematical self-explanations and provide personalzied feedback based on them. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5980e02e-4b45-4db8-a9fc-70971847626c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5980e02e-4b45-4db8-a9fc-70971847626c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:26:00.000Z",
+        "last_edited_time": "2024-08-06T14:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "17b5cd47-a01f-41c4-aaba-0e57b95ba704",
+      "type": "paragraph",
+      "text": "Authors use 5 distinct datasets for validation. Results show that combining LLM explanations with amthematical material improves the accuracy of such an auto-grader model. Authors also find that there is a cap in synthetic self-explanations before the model starts to overfit.",
+      "raw": {
+        "object": "block",
+        "id": "17b5cd47-a01f-41c4-aaba-0e57b95ba704",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:26:00.000Z",
+        "last_edited_time": "2024-08-06T14:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use 5 distinct datasets for validation. Results show that combining LLM explanations with amthematical material improves the accuracy of such an auto-grader model. Authors also find that there is a cap in synthetic self-explanations before the model starts to overfit.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use 5 distinct datasets for validation. Results show that combining LLM explanations with amthematical material improves the accuracy of such an auto-grader model. Authors also find that there is a cap in synthetic self-explanations before the model starts to overfit.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "6d965310-ce53-481c-8b03-5043c4f618f6",
+      "type": "heading_2",
+      "text": "Summary Table",
+      "raw": {
+        "object": "block",
+        "id": "6d965310-ce53-481c-8b03-5043c4f618f6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:23:00.000Z",
+        "last_edited_time": "2024-08-06T14:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "40011571-d02f-4030-b462-2e3ea8a3961c",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "40011571-d02f-4030-b462-2e3ea8a3961c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+        },
+        "created_time": "2024-08-06T14:23:00.000Z",
+        "last_edited_time": "2024-08-06T14:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

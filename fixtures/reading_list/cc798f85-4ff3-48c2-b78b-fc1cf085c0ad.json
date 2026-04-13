@@ -1,0 +1,522 @@
+{
+  "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad",
+  "title": "An improved genetic approach for composing optimal collaborative learning groups",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "b553053d-d80d-415f-a7dc-84a1916668a9",
+          "name": "Collaborative Learning",
+          "color": "blue"
+        },
+        {
+          "id": "e917c7fa-fbd8-4380-b819-c36d86bc7ff4",
+          "name": "Learner Group Formation",
+          "color": "red"
+        },
+        {
+          "id": "b5b1fc7c-4d20-4efd-9da5-032cd42d8b59",
+          "name": "Genetic Algorithm",
+          "color": "blue"
+        },
+        {
+          "id": "cd9abe50-369b-4703-8dfc-7af866ee2a5f",
+          "name": "Optimal Solution",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Group Formation” AND “Machine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Group Formation” AND “Machine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "c|bm",
+        "name": "Rejected Before Reading",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "387caf66-e381-4bfa-bddc-ef3c33b1670e",
+        "name": "Not started",
+        "color": "red"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-04T22:55:00.000+00:00",
+        "end": "2025-02-04T22:58:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zheng et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zheng et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-04-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c9b2501b-8b9c-4006-8f15-62f4fc00b325",
+          "name": "Group Formation",
+          "color": "pink"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An improved genetic approach for composing optimal collaborative learning groups",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An improved genetic approach for composing optimal collaborative learning groups",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [],
+  "blocks": [
+    {
+      "id": "1904750c-f3ba-80d8-86ab-cd0cbdca6e39",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-80d8-86ab-cd0cbdca6e39",
+        "parent": {
+          "type": "page_id",
+          "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+        },
+        "created_time": "2025-02-04T22:56:00.000Z",
+        "last_edited_time": "2025-02-04T22:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-8021-bb5c-c3a95dc09a5e",
+      "type": "paragraph",
+      "text": "Group formation is the task of assigning students to the best learner group in order to succeed at a collaborative learning task. The authors propose a new general method for group formation. The method mathematically formulates all requirements of the learner group formation problem and uses an improved genetic algorithm to solve it. The authors test their model and optimization using multiple contexts and grouping requirements. Simulated results show that the model is effective. ",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8021-bb5c-c3a95dc09a5e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+        },
+        "created_time": "2025-02-04T22:56:00.000Z",
+        "last_edited_time": "2025-02-04T23:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Group formation is the task of assigning students to the ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Group formation is the task of assigning students to the ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "best",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "best",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " learner group in order to succeed at a collaborative learning task. The authors propose a new general method for group formation. The method mathematically formulates all requirements of the learner group formation problem and uses an improved genetic algorithm to solve it. The authors test their model and optimization using multiple contexts and grouping requirements. Simulated results show that the model is effective. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " learner group in order to succeed at a collaborative learning task. The authors propose a new general method for group formation. The method mathematically formulates all requirements of the learner group formation problem and uses an improved genetic algorithm to solve it. The authors test their model and optimization using multiple contexts and grouping requirements. Simulated results show that the model is effective. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-8068-be54-cf4f4affe1c2",
+      "type": "paragraph",
+      "text": " Moreover, an empyrical study on real data also shows that the groups formed using this method got better individual, group grades and satisfaction.",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8068-be54-cf4f4affe1c2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+        },
+        "created_time": "2025-02-04T23:07:00.000Z",
+        "last_edited_time": "2025-02-04T23:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " Moreover, an empyrical study on real data also shows that the groups formed using this method got better individual, group grades and satisfaction.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " Moreover, an empyrical study on real data also shows that the groups formed using this method got better individual, group grades and satisfaction.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-80e5-95ee-c5caabfd736a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-80e5-95ee-c5caabfd736a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+        },
+        "created_time": "2025-02-04T23:08:00.000Z",
+        "last_edited_time": "2025-02-04T23:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

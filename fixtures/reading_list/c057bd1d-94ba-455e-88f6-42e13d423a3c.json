@@ -1,0 +1,708 @@
+{
+  "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c",
+  "title": "Shapley Explainable Deep Learning based\nKnowledge Distillation Framework for Student’s\nPerformance Prediction ",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "49aeff7c-a644-441e-b5d8-3ceeb50749a8",
+          "name": "Deep Learning",
+          "color": "purple"
+        },
+        {
+          "id": "7bfcb327-dee6-4ed1-a1fa-0de95be0dc27",
+          "name": "Student Performance Prediction",
+          "color": "blue"
+        },
+        {
+          "id": "f0ad7f92-a9d6-457a-8c0d-acc335371470",
+          "name": "Knowledge Distillation",
+          "color": "green"
+        },
+        {
+          "id": "47fd27b0-ab70-4dd5-8722-9f1c8da24cb0",
+          "name": "Shapley Additive Explanation",
+          "color": "green"
+        },
+        {
+          "id": "61417597-ed61-4b59-981d-10372137d728",
+          "name": "Improved SMOTE",
+          "color": "pink"
+        },
+        {
+          "id": "71c245e7-b462-43f9-9f97-c404c7cbf8e1",
+          "name": "OULAD Dataset",
+          "color": "pink"
+        },
+        {
+          "id": "9fd20ef1-028a-42e2-af10-d5d7c39a110c",
+          "name": "ResNet-101",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ICDSIS",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ICDSIS",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-08-29T01:54:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Rahul & Katarya",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Rahul & Katarya",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Shapley Explainable Deep Learning based\nKnowledge Distillation Framework for Student’s\nPerformance Prediction ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Shapley Explainable Deep Learning based\nKnowledge Distillation Framework for Student’s\nPerformance Prediction ",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "25d4750c-f3ba-8081-bfc5-fa2030b7dc3a",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark in a Course",
+          "Distinction vs Pass vs Fail vs Withdraw",
+          "32593",
+          "7 courses in OULAD",
+          "VLE logs",
+          "[id_student, code_module_student_presentation, sum_click, date_unregistration, final_score, studied_credits, Module_presentation_length, date_registration, imd_band, code_module_presentation, region, num_of_prev_attempts, code_module, highest_education, cohort, disability, code_presentation, age_band, count_click]",
+          "End of Course",
+          "Filling of missing values takes advantage of the sequential nature of the data. If a point is missing at moment V, it is filled using an “average” of V at t-1 and V at t+1. \n\nAdditionally, the authors address the class imbalance by using ISMOTE - which tests generated samples and decides on whether the generated sample should be accepted or not. \n\nThe sequences are given as input to 2 distinct modules simultaneously: a teacher model which uses Attention Layers into a Bi-Directional LSTM Network (which is pre-trained). There is also a Student Model that uses a CNN-based ResNet-101.",
+          "CNN, Bi-LSTM, LSTM, ResNet, EDL_KDF",
+          "Holdout Method",
+          "{Accuracy: 0.996 - EDF_KDF, Precision: 0.9921 - EDF_KDF, Recall: 0.9921 - EDF_KDF, AUC: 0.99 - EDF_KDF}",
+          "Authors propose a new DL model for the prediction of student performance. \n\nThe model uses 2 distinct Deep Learning modules for the prediction of student performance. Results are very high in comparison with other alternative models in the literature.",
+          "- Holdout Method\n\n- Unspecified Train/Test separation\n\n- It seems, from description, that final score is used as an input to the model."
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "88ba6d5c-5042-4995-a023-7ba4c099cc44",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "88ba6d5c-5042-4995-a023-7ba4c099cc44",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2024-08-06T17:56:00.000Z",
+        "last_edited_time": "2024-08-06T17:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0e50cae6-eed9-4002-bf55-a56edb9e3a18",
+      "type": "paragraph",
+      "text": "Universities are constantly look into ways to improve the academic performance of their students and the introduiction of VLEs represents a significant step toward that direction. Authors use VLE data to create an early warning system that makes recommendations for intervention. ",
+      "raw": {
+        "object": "block",
+        "id": "0e50cae6-eed9-4002-bf55-a56edb9e3a18",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2024-08-06T17:56:00.000Z",
+        "last_edited_time": "2024-08-06T17:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Universities are constantly look into ways to improve the academic performance of their students and the introduiction of VLEs represents a significant step toward that direction. Authors use VLE data to create an early warning system that makes recommendations for intervention. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Universities are constantly look into ways to improve the academic performance of their students and the introduiction of VLEs represents a significant step toward that direction. Authors use VLE data to create an early warning system that makes recommendations for intervention. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0e404970-526d-4e4a-b47c-49b1ea838a17",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "0e404970-526d-4e4a-b47c-49b1ea838a17",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2024-08-06T17:59:00.000Z",
+        "last_edited_time": "2024-08-06T17:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a356054e-873b-4385-9963-5ba188baf530",
+      "type": "paragraph",
+      "text": "Authors perform pre-processing on the data and use ISMOTE to deal with data imbalance. Authors feed the preprocessed data as input to a EDL_KDL mode, a deep learning explainable model to predict performance and that can be explained using SHAP values. This model achieves 99.6% accuracy and 99.21% precision on OULAD. ",
+      "raw": {
+        "object": "block",
+        "id": "a356054e-873b-4385-9963-5ba188baf530",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2024-08-06T17:59:00.000Z",
+        "last_edited_time": "2024-08-06T18:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors perform pre-processing on the data and use ISMOTE to deal with data imbalance. Authors feed the preprocessed data as input to a EDL_KDL mode, a deep learning explainable model to predict performance and that can be explained using SHAP values. This model achieves 99.6% accuracy and 99.21% precision on OULAD. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors perform pre-processing on the data and use ISMOTE to deal with data imbalance. Authors feed the preprocessed data as input to a EDL_KDL mode, a deep learning explainable model to predict performance and that can be explained using SHAP values. This model achieves 99.6% accuracy and 99.21% precision on OULAD. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25d4750c-f3ba-8041-bc1b-c16194e575b3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25d4750c-f3ba-8041-bc1b-c16194e575b3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2025-08-28T17:51:00.000Z",
+        "last_edited_time": "2025-08-28T17:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25d4750c-f3ba-8027-8432-c8915e6277fb",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25d4750c-f3ba-8027-8432-c8915e6277fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2025-08-28T17:51:00.000Z",
+        "last_edited_time": "2025-08-28T17:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/fa0697cb-3369-4705-b969-28a1a1f86530/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XSIJVCYT%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153216Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDbkGAXwLAHY4a%2B73L98gnrZ1tAyEy0TuPG8vJ%2F5snkagIhAKmoBeTWjMFTodEijmNWHRruX2yhC6pkdEC8FfLcNKDzKv8DCHcQABoMNjM3NDIzMTgzODA1IgxbvorKGbpSJ56SFSAq3AN8ikhXweJDRuFkBLZgtZcQhu6clg7h4QK9p1yKp9h9hy02yoAgW1peZqxhKkRPRKCN8kRRNf7B4ZuQSFIPfxj9gm%2Bmmzd%2F1FUnV0QWN33%2BZ6z5lmAPi1X%2FBO1%2B9szRxLtEJHX%2FfrjbQnDcEJfQT2fZ%2BEGaiMqxXX8eZ2Mh0fUcEzMC7QbeATYXClnnec0%2FVuVgd2EGPUV1yCLmPpwSQCNWi4j4YS%2FxKSAsYYzjP%2F97k7CEeY58xFetqKBq1%2BBnUw57zIqTmQrseIncaCEpHP5RcbOumT9utRxvjfUYH2srUXcyY%2BYPGlua5lNVRX%2FpET9Duy%2BGSlZUSuIvvQ%2FH1nVObzQB2vVxWD%2BUo5pGRNxznn%2FIF4MsZABM1NrxIVLyXti0fpCz3h6jMc%2B1rTVHo%2FpXTuKK%2B2FdWb46CxHVuUSL3MkAepfzTVvRqk63R7%2BqW3Xho4pYCS2EiCA3k51nNivAi0%2ByqjG0yEHE1xrXoZOk3uHZOn%2BbCQxvMy9h73vtSTkOXEdgct%2FZK%2BC5us2Wf3ch8WC8FmG21pRcsMhLMwVct59eUM7tXeZXSJKs2AAZ9Fox9k7qEHINqFhU0LKFgoOofIc0TDOI0Ei6ochwrRtwr%2B5DCJrXjhiH20UEVDCh9vPOBjqkATU4S48QqCJfB1kv3OUY%2Bb8v6YFGHzT5jyfzVPhHcqlwff%2BJbFhyCwrPHAYKhwkQ%2FODBSUooZrmWo7vkwlRFX0qB%2FZWtvQjGkmSTyJFLZBIX5J2JOQ92Uc8%2B%2Bk5CxUdu5vYjCC3OPCwhup2%2BEET9lU6Vsi2X%2BCuxhRi%2BAEHgnYO7wRRC952aE8s5kjqTDVcbzWAQe%2FodKxECoqHGZpSfdpRPzM51&X-Amz-Signature=90aae27cb51f3741b6555e0488b988864d75831664d8f98d608f6a41da4a4061&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:32:16.541Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25d4750c-f3ba-8097-85da-ef3d0756ff8d",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "25d4750c-f3ba-8097-85da-ef3d0756ff8d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2025-08-28T17:37:00.000Z",
+        "last_edited_time": "2025-08-28T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "25d4750c-f3ba-8081-bfc5-fa2030b7dc3a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "25d4750c-f3ba-8081-bfc5-fa2030b7dc3a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c057bd1d-94ba-455e-88f6-42e13d423a3c"
+        },
+        "created_time": "2025-08-28T17:37:00.000Z",
+        "last_edited_time": "2025-08-28T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

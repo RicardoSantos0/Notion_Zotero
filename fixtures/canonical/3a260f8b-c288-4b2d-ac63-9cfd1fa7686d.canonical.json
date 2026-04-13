@@ -1,0 +1,39 @@
+{
+  "references": [
+    {
+      "id": "3a260f8b-c288-4b2d-ac63-9cfd1fa7686d",
+      "title": "Building Knowledge Graphs and Recommender Systems for Suggesting Reskilling and Upskilling Options from the Web",
+      "authors": [],
+      "year": null,
+      "journal": "Information",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_8a5c222a",
+      "reference_id": "3a260f8b-c288-4b2d-ac63-9cfd1fa7686d",
+      "text": "The availability of resources that now existes makes it really challenging for prospective learners to select the best sets of resources available to them. Authors collect data from providers and use Named Entity Recognition and entity linking to extract information about pre-requisites, learning objectives, etc…",
+      "provenance": {
+        "page_id": "3a260f8b-c288-4b2d-ac63-9cfd1fa7686d"
+      }
+    },
+    {
+      "id": "an_f10638af",
+      "reference_id": "3a260f8b-c288-4b2d-ac63-9cfd1fa7686d",
+      "text": "These representations are incorporated into a Knowledge Graph that is used as a basis for a recommender system for career path and upskilling suggestions. Model is evaluated using CareerCoach 2022 gold standard. ",
+      "provenance": {
+        "page_id": "3a260f8b-c288-4b2d-ac63-9cfd1fa7686d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

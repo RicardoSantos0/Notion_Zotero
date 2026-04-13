@@ -1,0 +1,2384 @@
+{
+  "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+  "title": "Utilizing student activity patterns to predict performance",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "27f671ba-eb9f-4b2c-a90b-de2eb4ec5419",
+          "name": "Data Mining",
+          "color": "blue"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        },
+        {
+          "id": "22483079-bec1-43c9-a1ba-008f118fc1c7",
+          "name": "Student Behavior",
+          "color": "gray"
+        },
+        {
+          "id": "6be1eefa-2488-4d5d-af0d-34f04574e83f",
+          "name": "Early Intervention",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2017
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "International Journal of Educational Technology in Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "International Journal of Educational Technology in Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T00:00:00.000+01:00",
+        "end": "2024-10-18T00:57:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Casey & Azcona",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Casey & Azcona",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Utilizing student activity patterns to predict performance",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Utilizing student activity patterns to predict performance",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1214750c-f3ba-80cc-808e-e273dfce03d9",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Final Exam Performance",
+          "Fail (0) vs Pass (1)",
+          "111",
+          "1 Programming Course",
+          "LMS",
+          "[Number of Successful Compilations, Successful Compilations Average Complexity,  Number of Failed Compilations, Failed Compilations Average Complexity, Ratio between On-campus and Off-campus Connections, Number of Connections, Time spent on the Platform, Time spent on slides within the Platform,  Slides Coverage, Number of Slides visited,  Number of Slides opened, Number of transactions during Labs, Number of transactions outside Labs, Number of transactions in the Platform]",
+          "Every Week (16 weeks total)",
+          "All features extracted refer to browsing interactions or computations obtained from browsing interactions.\n\nProgram Complexity uses NLP to strip the comments and measure the length of the code.\n\nAuthors explore both normalization and standardization as scaling methods.\n\n\n\n",
+          "Linear Regression\nLogistic Regression\nGaussian NB\nMultinomial NB\nBernoulli NB\nSVM\nkNN\nDT",
+          "10-Fold Cross-Validation",
+          "End of course:\n{AUC: 0.85 - DT-CART)\n\nEarly Prediction:\n{AUC: 0.77 - DT-CART Week 4)",
+          "Number of folds in cross-validation is not mentioned.\n\nProgram complexity was a particualrly succesful feature.",
+          "Authors doo not mention specifics on feature selection and/or other preprocessing steps such as nans. \n\n"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Final Exam Performance",
+          "Fail (0) vs Pass (1)",
+          "111",
+          "1 Programming Course",
+          "LMS",
+          "[Number of Successful Compilations, Successful Compilations Average Complexity,  Number of Failed Compilations, Failed Compilations Average Complexity, Ratio between On-campus and Off-campus Connections, Number of Connections, Time spent on the Platform, Time spent on slides within the Platform,  Slides Coverage, Number of Slides visited,  Number of Slides opened, Number of transactions during Labs, Number of transactions outside Labs, Number of transactions in the Platform, Concept Adoption Times]",
+          "Every Week (16 weeks total)",
+          "Authors add the concept adoption times as features to the model. ",
+          "Linear Regression\nLogistic Regression\nGaussian NB\nMultinomial NB\nBernoulli NB\nSVM\nkNN\nDT",
+          "10-Fold Cross-Validation",
+          "End of course:\n{AUC: 0.86 - DT-CART)\n\nEarly Prediction:\n{AUC: 0.85 - DT-CART Week 10)",
+          "Week 10 becomes a hallmark where the concept adoption variables start to really play an effect in the improvement of predictive performance.",
+          "Concept adoption only becomes effective after 2/3 of the course. \n\nConcept adoption feature only measures when a concept is first used.\n\nNo tracking of unsuccessful attempts at concept adoption.\n\n"
+        ]
+      ],
+      "index": 44
+    }
+  ],
+  "blocks": [
+    {
+      "id": "47755ea8-8f9b-4721-81b2-ecb46e3c3f35",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "47755ea8-8f9b-4721-81b2-ecb46e3c3f35",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-07-31T14:17:00.000Z",
+        "last_edited_time": "2024-07-31T14:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "b4d6a309-3ce0-441e-b879-cd6bf2391f57",
+      "type": "paragraph",
+      "text": "The paper focuses on understanding how students consume and reuse course materials. To do that, authors present a basic classifier that identifies struggling students. Then, they introduce indicators on when students employ a concept for the first time. The improvements resulted in a 85% accuracy score.",
+      "raw": {
+        "object": "block",
+        "id": "b4d6a309-3ce0-441e-b879-cd6bf2391f57",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-07-31T14:18:00.000Z",
+        "last_edited_time": "2024-07-31T14:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper focuses on understanding how students consume and reuse course materials. To do that, authors present a basic classifier that identifies struggling students. Then, they introduce indicators on when students employ a concept for the first time. The improvements resulted in a 85% accuracy score.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper focuses on understanding how students consume and reuse course materials. To do that, authors present a basic classifier that identifies struggling students. Then, they introduce indicators on when students employ a concept for the first time. The improvements resulted in a 85% accuracy score.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80b3-a1c0-ff4f37195271",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80b3-a1c0-ff4f37195271",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T20:40:00.000Z",
+        "last_edited_time": "2024-10-16T20:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-803d-834e-f8a2599a3ec0",
+      "type": "paragraph",
+      "text": "Computer science degrees tend to have high churn and high rates of failure in introductory courses. However, little attention is placed on this fact. This difficulty reduces the number of available skilled professionals for ICT companies. So, undergraduate courses are a good place to start addressing this to, hopefully, get more ICT graduates. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-803d-834e-f8a2599a3ec0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T16:11:00.000Z",
+        "last_edited_time": "2024-10-16T20:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Computer science degrees tend to have high churn and high rates of failure in introductory courses. However, little attention is placed on this fact. This difficulty reduces the number of available skilled professionals for ICT companies. So, undergraduate courses are a good place to start addressing this to, hopefully, get more ICT graduates. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Computer science degrees tend to have high churn and high rates of failure in introductory courses. However, little attention is placed on this fact. This difficulty reduces the number of available skilled professionals for ICT companies. So, undergraduate courses are a good place to start addressing this to, hopefully, get more ICT graduates. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8077-95e7-f5cbd2cd72a2",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8077-95e7-f5cbd2cd72a2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T20:58:00.000Z",
+        "last_edited_time": "2024-10-16T20:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8083-8b79-fc5ba36a16e4",
+      "type": "paragraph",
+      "text": "Fortunately, LMS and the birth of Learning Analytics has contributed to a better understanding of the phenomena behind learning. LMS and other VLE’s can produce data in enough quantity and quality necessary for this. With this, it has been possible to, for example, identify students in risk of dropping out.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8083-8b79-fc5ba36a16e4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T20:58:00.000Z",
+        "last_edited_time": "2024-10-16T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fortunately, LMS and the birth of Learning Analytics has contributed to a better understanding of the phenomena behind learning. LMS and other VLE’s can produce data in enough quantity and quality necessary for this. With this, it has been possible to, for example, identify students in risk of dropping out.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fortunately, LMS and the birth of Learning Analytics has contributed to a better understanding of the phenomena behind learning. LMS and other VLE’s can produce data in enough quantity and quality necessary for this. With this, it has been possible to, for example, identify students in risk of dropping out.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8031-8864-de46f63c1b4a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8031-8864-de46f63c1b4a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:02:00.000Z",
+        "last_edited_time": "2024-10-16T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80e1-85be-fa1e06506c11",
+      "type": "paragraph",
+      "text": "During the literature review, the authors point to studies that have found relationships between interactions with the LMS. The most surprising observation notes that extremely high student activity levels are predictors of negative student performance. Another relevant study is the one of Course Signals taht identified students in need and sent them an e-mail. This system, and others, were effective at improving performance but often are criticized by being one-size fits all solutions and, by definition, probably too general. However, there are opportunities in more context specific domains like programming:",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80e1-85be-fa1e06506c11",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:02:00.000Z",
+        "last_edited_time": "2024-10-16T21:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "During the literature review, the authors point to studies that have found relationships between interactions with the LMS. The most surprising observation notes that extremely high student activity levels are predictors of negative student performance. Another relevant study is the one of Course Signals taht identified students in need and sent them an e-mail. This system, and others, were effective at improving performance but often are criticized by being one-size fits all solutions and, by definition, probably too general. However, there are opportunities in more context specific domains like programming:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "During the literature review, the authors point to studies that have found relationships between interactions with the LMS. The most surprising observation notes that extremely high student activity levels are predictors of negative student performance. Another relevant study is the one of Course Signals taht identified students in need and sent them an e-mail. This system, and others, were effective at improving performance but often are criticized by being one-size fits all solutions and, by definition, probably too general. However, there are opportunities in more context specific domains like programming:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-801e-a3cf-f456c2d88305",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-801e-a3cf-f456c2d88305",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:17:00.000Z",
+        "last_edited_time": "2024-10-16T21:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80e4-8180-e7c51367fcb2",
+      "type": "paragraph",
+      "text": "The authors identify other potential prospects: the Blackbox project asked users of an IDE about the collection of their data. Another study points to the use of virtual machines on an engineering course. The VM would store the information and send it to a central server for analytical purposes.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80e4-8180-e7c51367fcb2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:17:00.000Z",
+        "last_edited_time": "2024-10-16T21:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identify other potential prospects: the Blackbox project asked users of an IDE about the collection of their data. Another study points to the use of virtual machines on an engineering course. The VM would store the information and send it to a central server for analytical purposes.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identify other potential prospects: the Blackbox project asked users of an IDE about the collection of their data. Another study points to the use of virtual machines on an engineering course. The VM would store the information and send it to a central server for analytical purposes.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80f4-ae33-c76c05db106e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80f4-ae33-c76c05db106e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:10:00.000Z",
+        "last_edited_time": "2024-10-16T21:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8015-aa80-e712f6266ced",
+      "type": "paragraph",
+      "text": "Another set of authors found that tinkering had a role to play in the learning process. Others focused on understanding the robustness of tutoring software. More specifically in the prediction of performance, other authors used DTs to distinguish between low and high-performing students on a Java course → achieving between 70 to 80% accuracy.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8015-aa80-e712f6266ced",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:10:00.000Z",
+        "last_edited_time": "2024-10-16T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another set of authors found that ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another set of authors found that ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "tinkering",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "tinkering",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " had a role to play in the learning process. Others focused on understanding the robustness of tutoring software. More specifically in the prediction of performance, other authors used DTs to distinguish between low and high-performing students on a Java course → achieving between 70 to 80% accuracy.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " had a role to play in the learning process. Others focused on understanding the robustness of tutoring software. More specifically in the prediction of performance, other authors used DTs to distinguish between low and high-performing students on a Java course → achieving between 70 to 80% accuracy.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80e9-9a0a-f40ea4929e4f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80e9-9a0a-f40ea4929e4f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:37:00.000Z",
+        "last_edited_time": "2024-10-16T21:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80dc-8b9c-c27951a87942",
+      "type": "paragraph",
+      "text": "The authors note that LMS often DO NOT give real-time analytics. This raises for the exposition of a platform that can be used to provide support to students in a real-time laboratory session. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80dc-8b9c-c27951a87942",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:37:00.000Z",
+        "last_edited_time": "2024-10-16T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors note that LMS often DO NOT give real-time analytics. This raises for the exposition of a platform that can be used to provide support to students in a real-time laboratory session. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors note that LMS often DO NOT give real-time analytics. This raises for the exposition of a platform that can be used to provide support to students in a real-time laboratory session. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-802c-9c22-eaebdbc7f36b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-802c-9c22-eaebdbc7f36b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:41:00.000Z",
+        "last_edited_time": "2024-10-16T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8041-9d7f-d037f8f28ea2",
+      "type": "heading_2",
+      "text": "Fine Grained Data",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8041-9d7f-d037f8f28ea2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:41:00.000Z",
+        "last_edited_time": "2024-10-16T21:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Fine Grained Data",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Fine Grained Data",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8005-a28e-c17fe4e354e5",
+      "type": "paragraph",
+      "text": "The authors developed a platform for module delivery. The platform was trialed in 2nd year CS students. The platform SOCS handles content and learning activities. Since the platform is custom made, it allows for a more fine-grained analysis of the activities performed in the LMS. ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8005-a28e-c17fe4e354e5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T21:06:00.000Z",
+        "last_edited_time": "2024-10-16T23:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors developed a platform for module delivery. The platform was trialed in 2nd year CS students. The platform SOCS handles content and learning activities. Since the platform is custom made, it allows for a more fine-grained analysis of the activities performed in the LMS. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors developed a platform for module delivery. The platform was trialed in 2nd year CS students. The platform SOCS handles content and learning activities. Since the platform is custom made, it allows for a more fine-grained analysis of the activities performed in the LMS. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-804d-9d23-f5b773b2c8ea",
+      "type": "paragraph",
+      "text": "When it comes to learning materials, SOCS features 20 lessons, 8 lab exercises and a simulator. Students were encouraged to explored the simulator. Students undertaking the platform had an introductory course on it and are informed about the data collection. In total, 111 students used the platform, recording more than 9 million interactions and made more than 58000 programs.",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-804d-9d23-f5b773b2c8ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T23:41:00.000Z",
+        "last_edited_time": "2024-10-17T13:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to learning materials, SOCS features 20 lessons, 8 lab exercises and a simulator. Students were encouraged to explored the simulator. Students undertaking the platform had an introductory course on it and are informed about the data collection. In total, 111 students used the platform, recording more than 9 million interactions and made more than 58000 programs.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to learning materials, SOCS features 20 lessons, 8 lab exercises and a simulator. Students were encouraged to explored the simulator. Students undertaking the platform had an introductory course on it and are informed about the data collection. In total, 111 students used the platform, recording more than 9 million interactions and made more than 58000 programs.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8015-b8e6-e01ddb38d450",
+      "type": "paragraph",
+      "text": "Observation of the logs shows 3 distinct spikes in activity, each spike referring to periods before either lab exams or final exam.",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8015-b8e6-e01ddb38d450",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T00:07:00.000Z",
+        "last_edited_time": "2024-10-17T00:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Observation of the logs shows 3 distinct spikes in activity, each spike referring to periods before either lab exams or final exam.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Observation of the logs shows 3 distinct spikes in activity, each spike referring to periods before either lab exams or final exam.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80e0-8872-faeb9009ddd3",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80e0-8872-faeb9009ddd3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T00:07:00.000Z",
+        "last_edited_time": "2024-10-17T00:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/ff56bce8-f305-4dbe-8cc1-87aae9292fb3/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RQIDTY64%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152026Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCpR%2FudAZBbFIAbwJ6CVmWTzMc8TSDOZ2RK6IZNeaqP%2BQIhANFHoouZ69A6rH%2FvteIO2XfjSM5SE9xBTgHq5rsXWfYtKv8DCHcQABoMNjM3NDIzMTgzODA1IgwuIcQfN7PFSHJQF1cq3ANcXMQqf7dvzOHlc8jY2O%2Bo9E%2FA2WpjlJdCR7hZiZO9ZfgKttymZf3BoWl%2BtZjLejOtQ8Wy5%2FbIms3MeV9hdMID9gNDQbzkrRvtcW8V7h3oimqkUyuNWxNZUqgP3nmqdbwWSmUzwQhuKTDWS67Ghqoe6bGWPVYPr%2BCbWyDfvG0EHNGsld%2FPWjjc%2FloSGZBLAr2z1%2FWZd9Ug3%2BUP3nClv1LdnYmkLOZiuOEDEe6PC2gb0TPGXzqLvWPcpgGUJZY2Q70yT%2BVikCOXIvq%2FyVxNK0%2BIli%2F0OXRnXIPvai8LfHYA5J9mni4rDJ2tgt0nQInvCaCt%2BhGqj3Yrz7aQYoom%2BovJrXv1Um2gaTn7Mb5Ao0OGPt6mtg1scAp6cEz5gqbo3asXueM5fFMRBarVJ6B4z4KecuVBB17OIDS9saS6PzeUTkUFidRti59JcJdev%2BdAlLErVbvcQV5oDeMl8rtE2ZBr9Am2s86aCUWY2k%2FozMr%2BQeXUHTJJ8s13Z6XSf71RJkApCCHUMDzRjp%2BliWO1NAvnLYbozooEFGSbLq0ju2232RWFL8fKC2zt9Wv7FnB2cabW6LxSeWlT6JwpeAOc%2F65nBQpJf3vJ7BP9vjQI915l69zU0mIm4N7bQPWMLTC48fPOBjqkAYNs9H8Ks9bXVaS46gXbNfMp4MxGZ3JoD5xJOTHDOQbj60ZFLD8PYJ6dONaLS7t0jt0mjQfV%2FHgn%2B7IxD6hWr9pqg6ovUz4q4J%2BYxRLFn767h2InQqEmRX%2BYNNU7yprYMlsMUseSQg8z03jJTkO7A0h2AiQl9C1OHUAuEUpZG%2FdfIbJ7E39NPhRbZSz0tmlCCkgRLaaD0CJsw2cze%2BlEybI1fscc&X-Amz-Signature=b3c4b906555ee3a402b04d1ba64902b9c908f6758d95fad2ac83fa5d52672e1e&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:26.842Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80d1-aa4a-f30ba5888533",
+      "type": "paragraph",
+      "text": " ",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80d1-aa4a-f30ba5888533",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T20:52:00.000Z",
+        "last_edited_time": "2024-10-17T00:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8059-a5ff-e12684b23c5e",
+      "type": "heading_2",
+      "text": "Concept Adoption",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8059-a5ff-e12684b23c5e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T00:07:00.000Z",
+        "last_edited_time": "2024-10-17T00:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Concept Adoption",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Concept Adoption",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80ce-9f54-ea5d20cb299e",
+      "type": "paragraph",
+      "text": "Another important use case for this LMS is to test whether a certain concept described as important by the educator is adopted in the coding submission. As an experiment, the authors selected 6 concepts and an auto-grader designed to capture those concepts in the programs written by the students. Some of the concepts are easier to detect than others:",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80ce-9f54-ea5d20cb299e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T00:08:00.000Z",
+        "last_edited_time": "2024-10-17T13:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another important use case for this LMS is to test whether a certain concept described as important by the educator is adopted in the coding submission. As an experiment, the authors selected 6 concepts and an auto-grader designed to capture those concepts in the programs written by the students. Some of the concepts are easier to detect than others:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another important use case for this LMS is to test whether a certain concept described as important by the educator is adopted in the coding submission. As an experiment, the authors selected 6 concepts and an auto-grader designed to capture those concepts in the programs written by the students. Some of the concepts are easier to detect than others:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80b0-a8d6-d60a8ec7e8c4",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80b0-a8d6-d60a8ec7e8c4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:15:00.000Z",
+        "last_edited_time": "2024-10-17T13:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/b219c5af-c7a9-49c9-b83a-b399ff1d28da/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RQIDTY64%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152026Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCpR%2FudAZBbFIAbwJ6CVmWTzMc8TSDOZ2RK6IZNeaqP%2BQIhANFHoouZ69A6rH%2FvteIO2XfjSM5SE9xBTgHq5rsXWfYtKv8DCHcQABoMNjM3NDIzMTgzODA1IgwuIcQfN7PFSHJQF1cq3ANcXMQqf7dvzOHlc8jY2O%2Bo9E%2FA2WpjlJdCR7hZiZO9ZfgKttymZf3BoWl%2BtZjLejOtQ8Wy5%2FbIms3MeV9hdMID9gNDQbzkrRvtcW8V7h3oimqkUyuNWxNZUqgP3nmqdbwWSmUzwQhuKTDWS67Ghqoe6bGWPVYPr%2BCbWyDfvG0EHNGsld%2FPWjjc%2FloSGZBLAr2z1%2FWZd9Ug3%2BUP3nClv1LdnYmkLOZiuOEDEe6PC2gb0TPGXzqLvWPcpgGUJZY2Q70yT%2BVikCOXIvq%2FyVxNK0%2BIli%2F0OXRnXIPvai8LfHYA5J9mni4rDJ2tgt0nQInvCaCt%2BhGqj3Yrz7aQYoom%2BovJrXv1Um2gaTn7Mb5Ao0OGPt6mtg1scAp6cEz5gqbo3asXueM5fFMRBarVJ6B4z4KecuVBB17OIDS9saS6PzeUTkUFidRti59JcJdev%2BdAlLErVbvcQV5oDeMl8rtE2ZBr9Am2s86aCUWY2k%2FozMr%2BQeXUHTJJ8s13Z6XSf71RJkApCCHUMDzRjp%2BliWO1NAvnLYbozooEFGSbLq0ju2232RWFL8fKC2zt9Wv7FnB2cabW6LxSeWlT6JwpeAOc%2F65nBQpJf3vJ7BP9vjQI915l69zU0mIm4N7bQPWMLTC48fPOBjqkAYNs9H8Ks9bXVaS46gXbNfMp4MxGZ3JoD5xJOTHDOQbj60ZFLD8PYJ6dONaLS7t0jt0mjQfV%2FHgn%2B7IxD6hWr9pqg6ovUz4q4J%2BYxRLFn767h2InQqEmRX%2BYNNU7yprYMlsMUseSQg8z03jJTkO7A0h2AiQl9C1OHUAuEUpZG%2FdfIbJ7E39NPhRbZSz0tmlCCkgRLaaD0CJsw2cze%2BlEybI1fscc&X-Amz-Signature=91dbba12b20c07d39262c4bc2e80862eb78ed9214186cbc9a48cf99b50ec702c&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:26.842Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80ab-99c0-d492a17720f4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80ab-99c0-d492a17720f4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:15:00.000Z",
+        "last_edited_time": "2024-10-17T13:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80ec-a9b9-dcf456bca146",
+      "type": "paragraph",
+      "text": "This allowed to detect when did a student first submit code that actually captured a certain concept, allowing the measurement of indicators such as the time to adopt a specific concept. An interesting observation is that adoption sort of follows a sttepped nature that overlaps with labs or worksheets. Interestingly as well, when covering more complex topics, the authors noted that:",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80ec-a9b9-dcf456bca146",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:15:00.000Z",
+        "last_edited_time": "2024-10-17T13:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This allowed to ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This allowed to ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "detect",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "detect",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " when did a student first submit code that actually captured a certain concept, allowing the measurement of indicators such as the time to adopt a specific concept. An interesting observation is that adoption sort of follows a sttepped nature that overlaps with labs or worksheets. Interestingly as well, when covering more complex topics, the authors noted that:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " when did a student first submit code that actually captured a certain concept, allowing the measurement of indicators such as the time to adopt a specific concept. An interesting observation is that adoption sort of follows a sttepped nature that overlaps with labs or worksheets. Interestingly as well, when covering more complex topics, the authors noted that:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8046-9a8c-fba25f5cff31",
+      "type": "numbered_list_item",
+      "text": "the adoption of theses concepts occurs much later than the simpler concepts,",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8046-9a8c-fba25f5cff31",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:31:00.000Z",
+        "last_edited_time": "2024-10-17T13:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "the adoption of theses concepts occurs much later than the simpler concepts,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "the adoption of theses concepts occurs much later than the simpler concepts,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80b0-a69c-c8cfc7d2ad0d",
+      "type": "numbered_list_item",
+      "text": "Many students never even employ the concept even though the professort had dedicated a substantial amount of resources to delivering the concept.",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80b0-a69c-c8cfc7d2ad0d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:32:00.000Z",
+        "last_edited_time": "2024-10-17T13:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Many students never even employ the concept even though the professort had dedicated a substantial amount of resources to delivering the concept.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Many students never even employ the concept even though the professort had dedicated a substantial amount of resources to delivering the concept.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80fe-a377-d374d8f6b259",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80fe-a377-d374d8f6b259",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:33:00.000Z",
+        "last_edited_time": "2024-10-17T13:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80aa-b5ea-d55f3ee078b2",
+      "type": "paragraph",
+      "text": "Moreover, not using a concept before a specific moment in time usually makes it likely that the student wil not employ the concept, which would make sheets, labs or tests forcing that employment a suitable intervention. This is also a good form to identify potentially struggling students.",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80aa-b5ea-d55f3ee078b2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:32:00.000Z",
+        "last_edited_time": "2024-10-17T23:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Moreover, not using a concept before a specific moment in time usually makes it likely that the student wil not employ the concept, which would make sheets, labs or tests forcing that employment a suitable intervention. This is also a good form to identify potentially struggling students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Moreover, not using a concept before a specific moment in time usually makes it likely that the student wil not employ the concept, which would make sheets, labs or tests forcing that employment a suitable intervention. This is also a good form to identify potentially struggling students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-809d-9e72-ef67077f00ec",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-809d-9e72-ef67077f00ec",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:29:00.000Z",
+        "last_edited_time": "2024-10-17T23:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8028-87bd-c744ebc75ff6",
+      "type": "heading_3",
+      "text": "Pass-Fail Classifiers",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8028-87bd-c744ebc75ff6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:29:00.000Z",
+        "last_edited_time": "2024-10-17T23:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Pass-Fail Classifiers",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Pass-Fail Classifiers",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80cc-a588-dea7f562b3b4",
+      "type": "paragraph",
+      "text": "The authors also developed a Pass/Fail on the final exam classifier to apply to their students. To do that, the authors explore multiple different options for classifiers, compare their performance and select the best one. The authors compare the different models using Cross-Validation from sklearn. \n\nAs inputs, the models use data collected from the LMS throughout the entire semester (a prediction is attempted at the end of every week). The variables take advantage of the fact that this is a custom platform that is optimized for programming. Thus, in addition to standard LMS variables, the variables also include successful compilations of code or complexity of the failed compilations. The authors use use a ratio of on-campus/off campus interactions.",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80cc-a588-dea7f562b3b4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T13:32:00.000Z",
+        "last_edited_time": "2024-10-17T23:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors also developed a Pass/Fail on the final exam classifier to apply to their students. To do that, the authors explore multiple different options for classifiers, compare their performance and select the best one. The authors compare the different models using Cross-Validation from sklearn. \n\nAs inputs, the models use data collected from the LMS throughout the entire semester (a prediction is attempted at the end of every week). The variables take advantage of the fact that this is a custom platform that is optimized for programming. Thus, in addition to standard LMS variables, the variables also include successful compilations of code or complexity of the failed compilations. The authors use use a ratio of on-campus/off campus interactions.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors also developed a Pass/Fail on the final exam classifier to apply to their students. To do that, the authors explore multiple different options for classifiers, compare their performance and select the best one. The authors compare the different models using Cross-Validation from sklearn. \n\nAs inputs, the models use data collected from the LMS throughout the entire semester (a prediction is attempted at the end of every week). The variables take advantage of the fact that this is a custom platform that is optimized for programming. Thus, in addition to standard LMS variables, the variables also include successful compilations of code or complexity of the failed compilations. The authors use use a ratio of on-campus/off campus interactions.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80e6-87ab-e1581188c687",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80e6-87ab-e1581188c687",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:43:00.000Z",
+        "last_edited_time": "2024-10-17T23:43:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80af-ab99-ca695a31a363",
+      "type": "paragraph",
+      "text": "The authors test different forms of preprocessing: scalers, feature selection (altough unspecificied). Models are also compared using the ROC AUC. ",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80af-ab99-ca695a31a363",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:43:00.000Z",
+        "last_edited_time": "2024-10-17T23:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors test different forms of preprocessing: scalers, feature selection (altough unspecificied). Models are also compared using the ROC AUC. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors test different forms of preprocessing: scalers, feature selection (altough unspecificied). Models are also compared using the ROC AUC. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-808c-b35c-f57caee1082e",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-808c-b35c-f57caee1082e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:46:00.000Z",
+        "last_edited_time": "2024-10-17T23:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8006-b623-c197dcbff6a1",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8006-b623-c197dcbff6a1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:46:00.000Z",
+        "last_edited_time": "2024-10-17T23:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80f9-9ae9-ff4bc3153222",
+      "type": "paragraph",
+      "text": "The AUC score evolves with time as expected, gradually increasing over time. Moreover, authors identify the CART as the best model on the later sections of the course. ",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80f9-9ae9-ff4bc3153222",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:47:00.000Z",
+        "last_edited_time": "2024-10-17T23:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The AUC score evolves with time as expected, gradually increasing over time. Moreover, authors identify the CART as the best model on the later sections of the course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The AUC score evolves with time as expected, gradually increasing over time. Moreover, authors identify the CART as the best model on the later sections of the course. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80c5-b46b-e8e486f0c682",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80c5-b46b-e8e486f0c682",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:48:00.000Z",
+        "last_edited_time": "2024-10-17T23:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/b7ad7461-8e80-41d5-a203-b19da062aa20/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RQIDTY64%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152026Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCpR%2FudAZBbFIAbwJ6CVmWTzMc8TSDOZ2RK6IZNeaqP%2BQIhANFHoouZ69A6rH%2FvteIO2XfjSM5SE9xBTgHq5rsXWfYtKv8DCHcQABoMNjM3NDIzMTgzODA1IgwuIcQfN7PFSHJQF1cq3ANcXMQqf7dvzOHlc8jY2O%2Bo9E%2FA2WpjlJdCR7hZiZO9ZfgKttymZf3BoWl%2BtZjLejOtQ8Wy5%2FbIms3MeV9hdMID9gNDQbzkrRvtcW8V7h3oimqkUyuNWxNZUqgP3nmqdbwWSmUzwQhuKTDWS67Ghqoe6bGWPVYPr%2BCbWyDfvG0EHNGsld%2FPWjjc%2FloSGZBLAr2z1%2FWZd9Ug3%2BUP3nClv1LdnYmkLOZiuOEDEe6PC2gb0TPGXzqLvWPcpgGUJZY2Q70yT%2BVikCOXIvq%2FyVxNK0%2BIli%2F0OXRnXIPvai8LfHYA5J9mni4rDJ2tgt0nQInvCaCt%2BhGqj3Yrz7aQYoom%2BovJrXv1Um2gaTn7Mb5Ao0OGPt6mtg1scAp6cEz5gqbo3asXueM5fFMRBarVJ6B4z4KecuVBB17OIDS9saS6PzeUTkUFidRti59JcJdev%2BdAlLErVbvcQV5oDeMl8rtE2ZBr9Am2s86aCUWY2k%2FozMr%2BQeXUHTJJ8s13Z6XSf71RJkApCCHUMDzRjp%2BliWO1NAvnLYbozooEFGSbLq0ju2232RWFL8fKC2zt9Wv7FnB2cabW6LxSeWlT6JwpeAOc%2F65nBQpJf3vJ7BP9vjQI915l69zU0mIm4N7bQPWMLTC48fPOBjqkAYNs9H8Ks9bXVaS46gXbNfMp4MxGZ3JoD5xJOTHDOQbj60ZFLD8PYJ6dONaLS7t0jt0mjQfV%2FHgn%2B7IxD6hWr9pqg6ovUz4q4J%2BYxRLFn767h2InQqEmRX%2BYNNU7yprYMlsMUseSQg8z03jJTkO7A0h2AiQl9C1OHUAuEUpZG%2FdfIbJ7E39NPhRbZSz0tmlCCkgRLaaD0CJsw2cze%2BlEybI1fscc&X-Amz-Signature=42ccda503f7b2bb2dd86fd9eef414794caaa4ba2670c4a2f3743115b73ae9b6b&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:26.922Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-806b-8de9-cd4de50c5476",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-806b-8de9-cd4de50c5476",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:48:00.000Z",
+        "last_edited_time": "2024-10-17T23:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-8078-b482-ed12c6b7dea4",
+      "type": "paragraph",
+      "text": "More than just making these predictions, the authors attempt to compare these models with other models that incorporate concept adoption features. Their incorporation increases the performance of the models after week 10.",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-8078-b482-ed12c6b7dea4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:48:00.000Z",
+        "last_edited_time": "2024-10-17T23:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "More than just making these predictions, the authors attempt to compare these models with other models that incorporate concept adoption features. Their incorporation increases the performance of the models after week 10.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "More than just making these predictions, the authors attempt to compare these models with other models that incorporate concept adoption features. Their incorporation increases the performance of the models after week 10.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-80fc-9d88-e052d04e5cb9",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-80fc-9d88-e052d04e5cb9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:54:00.000Z",
+        "last_edited_time": "2024-10-17T23:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/42b3a931-a022-4963-8956-0741f3234356/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RQIDTY64%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152026Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCpR%2FudAZBbFIAbwJ6CVmWTzMc8TSDOZ2RK6IZNeaqP%2BQIhANFHoouZ69A6rH%2FvteIO2XfjSM5SE9xBTgHq5rsXWfYtKv8DCHcQABoMNjM3NDIzMTgzODA1IgwuIcQfN7PFSHJQF1cq3ANcXMQqf7dvzOHlc8jY2O%2Bo9E%2FA2WpjlJdCR7hZiZO9ZfgKttymZf3BoWl%2BtZjLejOtQ8Wy5%2FbIms3MeV9hdMID9gNDQbzkrRvtcW8V7h3oimqkUyuNWxNZUqgP3nmqdbwWSmUzwQhuKTDWS67Ghqoe6bGWPVYPr%2BCbWyDfvG0EHNGsld%2FPWjjc%2FloSGZBLAr2z1%2FWZd9Ug3%2BUP3nClv1LdnYmkLOZiuOEDEe6PC2gb0TPGXzqLvWPcpgGUJZY2Q70yT%2BVikCOXIvq%2FyVxNK0%2BIli%2F0OXRnXIPvai8LfHYA5J9mni4rDJ2tgt0nQInvCaCt%2BhGqj3Yrz7aQYoom%2BovJrXv1Um2gaTn7Mb5Ao0OGPt6mtg1scAp6cEz5gqbo3asXueM5fFMRBarVJ6B4z4KecuVBB17OIDS9saS6PzeUTkUFidRti59JcJdev%2BdAlLErVbvcQV5oDeMl8rtE2ZBr9Am2s86aCUWY2k%2FozMr%2BQeXUHTJJ8s13Z6XSf71RJkApCCHUMDzRjp%2BliWO1NAvnLYbozooEFGSbLq0ju2232RWFL8fKC2zt9Wv7FnB2cabW6LxSeWlT6JwpeAOc%2F65nBQpJf3vJ7BP9vjQI915l69zU0mIm4N7bQPWMLTC48fPOBjqkAYNs9H8Ks9bXVaS46gXbNfMp4MxGZ3JoD5xJOTHDOQbj60ZFLD8PYJ6dONaLS7t0jt0mjQfV%2FHgn%2B7IxD6hWr9pqg6ovUz4q4J%2BYxRLFn767h2InQqEmRX%2BYNNU7yprYMlsMUseSQg8z03jJTkO7A0h2AiQl9C1OHUAuEUpZG%2FdfIbJ7E39NPhRbZSz0tmlCCkgRLaaD0CJsw2cze%2BlEybI1fscc&X-Amz-Signature=28c7d707fc3bda062221b67b41203d8e6d1a0386a77426a93ff6ff15564a35fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:20:26.928Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1224750c-f3ba-801b-b092-e7d9d5f26f05",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1224750c-f3ba-801b-b092-e7d9d5f26f05",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-17T23:48:00.000Z",
+        "last_edited_time": "2024-10-17T23:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-8009-8684-c142915ef335",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-8009-8684-c142915ef335",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T16:11:00.000Z",
+        "last_edited_time": "2025-03-16T17:41:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1214750c-f3ba-80cc-808e-e273dfce03d9",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1214750c-f3ba-80cc-808e-e273dfce03d9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+        },
+        "created_time": "2024-10-16T16:11:00.000Z",
+        "last_edited_time": "2024-10-17T23:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

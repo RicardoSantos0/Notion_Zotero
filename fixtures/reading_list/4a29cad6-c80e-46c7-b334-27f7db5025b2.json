@@ -1,0 +1,738 @@
+{
+  "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2",
+  "title": "Online help-seeking occurring in multiple computer-mediated conversations affects grades in an introductory programming course",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "ca390f1d-2c88-4a7a-b29e-36acfa995167",
+          "name": "Programming",
+          "color": "purple"
+        },
+        {
+          "id": "e9cdf36f-ada8-4d2a-9f7b-fc0b401a5993",
+          "name": "Online Help-Seeking",
+          "color": "pink"
+        },
+        {
+          "id": "7aec4cfe-37d7-4bf1-9a1d-535e38ebba62",
+          "name": "Learning Analytics at Scale",
+          "color": "red"
+        },
+        {
+          "id": "96c20efc-074c-4a08-8d89-dd2072e8837b",
+          "name": "CS1",
+          "color": "brown"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": null
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cloude et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cloude et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Online help-seeking occurring in multiple computer-mediated conversations affects grades in an introductory programming course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Online help-seeking occurring in multiple computer-mediated conversations affects grades in an introductory programming course",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-8093-8fd3-f9c533571855",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "301 undergraduate students",
+          "1 CS1 course from a private american university",
+          "",
+          "Nelson-Le Gall’s Model of Help-Seeking",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          "",
+          ""
+        ]
+      ],
+      "index": 8
+    }
+  ],
+  "blocks": [
+    {
+      "id": "7e186958-e73f-40e9-8889-ca2ea0ac2c85",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "7e186958-e73f-40e9-8889-ca2ea0ac2c85",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T13:56:00.000Z",
+        "last_edited_time": "2024-08-06T13:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7615268e-7e54-487c-ad46-d5eaf83e1e40",
+      "type": "paragraph",
+      "text": "Online help-seeking is a complex phenomenom with many intricacies that ultimately have an effect on student performance. However, when studying the phenomenon, researchers often treat help-seeking as a factor to be isolated from remaining context. ",
+      "raw": {
+        "object": "block",
+        "id": "7615268e-7e54-487c-ad46-d5eaf83e1e40",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T13:56:00.000Z",
+        "last_edited_time": "2024-08-06T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online help-seeking is a complex phenomenom with many intricacies that ultimately have an effect on student performance. However, when studying the phenomenon, researchers often treat help-seeking as a factor to be isolated from remaining context. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online help-seeking is a complex phenomenom with many intricacies that ultimately have an effect on student performance. However, when studying the phenomenon, researchers often treat help-seeking as a factor to be isolated from remaining context. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "e6a35b5b-c938-4527-a48f-f719eaa80075",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e6a35b5b-c938-4527-a48f-f719eaa80075",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T13:58:00.000Z",
+        "last_edited_time": "2024-08-06T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "caf768f2-3eb2-4b91-a82d-3b0374ea187f",
+      "type": "paragraph",
+      "text": "The analysis of the behavvior of a set of 301 CS students shows that there are, in fact, differences in help-seeking behavior:",
+      "raw": {
+        "object": "block",
+        "id": "caf768f2-3eb2-4b91-a82d-3b0374ea187f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T13:58:00.000Z",
+        "last_edited_time": "2024-08-06T14:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The analysis of the behavvior of a set of 301 CS students shows that there are, in fact, differences in help-seeking behavior:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The analysis of the behavvior of a set of 301 CS students shows that there are, in fact, differences in help-seeking behavior:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dbc4b025-073e-419d-914c-838280ed3122",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "dbc4b025-073e-419d-914c-838280ed3122",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T14:01:00.000Z",
+        "last_edited_time": "2024-08-06T14:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2a367a43-a6ec-4fa3-bf9c-cd3e79871254",
+      "type": "paragraph",
+      "text": "Findings highlight the potential of using help-seeking behavior as a m,arker for potential student performance and the re-design of educational resources in ointroductory programming. ",
+      "raw": {
+        "object": "block",
+        "id": "2a367a43-a6ec-4fa3-bf9c-cd3e79871254",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2024-08-06T14:01:00.000Z",
+        "last_edited_time": "2024-08-06T14:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Findings highlight the potential of using help-seeking behavior as a m,arker for potential student performance and the re-design of educational resources in ointroductory programming. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Findings highlight the potential of using help-seeking behavior as a m,arker for potential student performance and the re-design of educational resources in ointroductory programming. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8010-81cf-cecef309c19c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8010-81cf-cecef309c19c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2025-12-14T16:15:00.000Z",
+        "last_edited_time": "2025-12-14T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8004-b44a-d72effc2ab3a",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8004-b44a-d72effc2ab3a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2025-12-14T16:15:00.000Z",
+        "last_edited_time": "2025-12-14T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8093-8fd3-f9c533571855",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8093-8fd3-f9c533571855",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4a29cad6-c80e-46c7-b334-27f7db5025b2"
+        },
+        "created_time": "2025-12-14T16:15:00.000Z",
+        "last_edited_time": "2025-12-14T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,3099 @@
+{
+  "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070",
+  "title": "Learning analytics should not promote one size fits all: The effects of instructional conditions in predicting academic success",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "e5722230-057d-4ae6-8170-d5b6e79fd32f",
+          "name": "Learning Success",
+          "color": "red"
+        },
+        {
+          "id": "b41b454f-988b-4513-8853-cd5b1f6d7ac5",
+          "name": "Student Retention",
+          "color": "default"
+        },
+        {
+          "id": "c8dcfdc6-780c-4020-a94d-14156e09dbae",
+          "name": "Instructional Conditions",
+          "color": "yellow"
+        },
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2016
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Internet and Higher Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Internet and Higher Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30T00:00:00.000+01:00",
+        "end": "2024-10-09T00:00:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Gašević et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Gašević et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learning analytics should not promote one size fits all: The effects of instructional conditions in predicting academic success",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learning analytics should not promote one size fits all: The effects of instructional conditions in predicting academic success",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1154750c-f3ba-80f1-a077-eb306fe4cd7b",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higher Education",
+          "Blended Learning",
+          "Percent Final Mark",
+          "0-100%",
+          "4134",
+          "9 first year courses across different disciplines",
+          "Student Characteristics\nLMS",
+          "[Age, Gender, International Student, Language at home, Hoome Remoteness, Term Access, Previous Enrollments in Course, Course Access Start, Assignment, Book, Chat, Course logins, Feedback, Forum, Light Box Gallery, Map, Quiz, Resource, Turnitin, Virtual Classroom]",
+          "End of Course",
+          "Most trace variables were initially extracted as continuous but, eventually, converted into discrete variables (sometimes dichotomous).\n\nNon-normal continuous attributes were transformed using a logarithm tranformation.\n\nMulticollinearity assessed using Variance Inflation Factos of Linear Regressions\n\nThere is an adjustment of the features for student characteristics.",
+          "Mulitple Linear Regression",
+          "None",
+          "{R-Squared: 0.211 - Model 2 general,\nR-Squared: [0.093, 0.738] - Model 2 course specific}",
+          "The authors compare the performance of models trained specifically for each course vs models trained in general.\n\nThe importance of variables for each course were analysed using ANOVA tests (continuous) and Chi-Square test (categorical).\n\nDifferences between courses are noticeable in characteristics, LMS variables and even overall student performance. \n\nCourse-specific models achieve on average better scores than the general model)- differences are almost always statistically significant.",
+          "No modela assessment strategy. Simple models are unlikely to overfit but no test on unseen data is performed.\n\nDifferences found can come from the different instructors, materials and disciplinary differences.\n\nDid not investigate instructional intent of items on the LMS. "
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Academic Success",
+          "Pass, Fail",
+          "4134",
+          "9 first year courses across different disciplines",
+          "Student Characteristics\nLMS",
+          "[Age, Gender, International Student, Language at home, Hoome Remoteness, Term Access, Previous Enrollments in Course, Course Access Start, Assignment, Book, Chat, Course logins, Feedback, Forum, Light Box Gallery, Map, Quiz, Resource, Turnitin, Virtual Classroom]",
+          "End of Course",
+          "Classification target variable was made be dichotomous due to non-existance of enough withdraw students.",
+          "Logistic Regression",
+          "None",
+          "{AUC: 0.749 - Model 2 general,\nAUC: [0.765, 0.915] - Model 2 course specific}",
+          "The authors compare the performance of models trained specifically for each course vs models trained in general.\n\nThe importance of variables for each course were analysed using ANOVA tests (continuous) and Chi-Square test (categorical).\n\nDifferences between courses are noticeable in characteristics, LMS variables and even overall student performance. \n\nCourse-specific models achieve on average better scores than the general model)- differences are almost always statistically significant.",
+          "No modela assessment strategy. Simple models are unlikely to overfit but no test on unseen data is performed.\n\nDifferences found can come from the different instructors, materials and disciplinary differences.\n\nDid not investigate instructional intent of items on the LMS. "
+        ]
+      ],
+      "index": 58
+    }
+  ],
+  "blocks": [
+    {
+      "id": "0357f342-2f68-4bd2-aa01-6ccbc4a87266",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "0357f342-2f68-4bd2-aa01-6ccbc4a87266",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-07-30T17:28:00.000Z",
+        "last_edited_time": "2024-07-30T17:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "df83fda3-3d19-4fa5-a318-cb73da54efc5",
+      "type": "paragraph",
+      "text": "Authors explore the use of predictive model on the prediction of student performance with Logistic Regression. Experiment is performed in multiple ways:",
+      "raw": {
+        "object": "block",
+        "id": "df83fda3-3d19-4fa5-a318-cb73da54efc5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-07-30T17:29:00.000Z",
+        "last_edited_time": "2024-07-30T17:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors explore the use of predictive model on the prediction of student performance with Logistic Regression. Experiment is performed in multiple ways:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors explore the use of predictive model on the prediction of student performance with Logistic Regression. Experiment is performed in multiple ways:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ff8b9db-0d78-4a3a-9480-55a7e580e657",
+      "type": "paragraph",
+      "text": "Authors find that course-specific models achieve better predictive scores than course-agnostic model. Moreover, the general model does not seem to exhibit meaningful types of interactions with the LMS, suggesting that the approaches for predictive modeling should take into consideration instructional conditions. ",
+      "raw": {
+        "object": "block",
+        "id": "1ff8b9db-0d78-4a3a-9480-55a7e580e657",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-07-30T17:30:00.000Z",
+        "last_edited_time": "2024-07-30T17:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors find that course-specific models achieve better predictive scores than course-agnostic model. Moreover, the general model does not seem to exhibit meaningful types of interactions with the LMS, suggesting that the approaches for predictive modeling should take into consideration instructional conditions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors find that course-specific models achieve better predictive scores than course-agnostic model. Moreover, the general model does not seem to exhibit meaningful types of interactions with the LMS, suggesting that the approaches for predictive modeling should take into consideration instructional conditions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80c6-9414-c85b8ef3c71f",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80c6-9414-c85b8ef3c71f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T21:46:00.000Z",
+        "last_edited_time": "2024-10-07T21:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-8010-888c-f1bbc1e40d64",
+      "type": "paragraph",
+      "text": "There are open questions on whether predictive models of learning analytics are generalizable between different educational contexts. Getting this right is pivotal to devlopment and interpretation of learning analytics models.",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-8010-888c-f1bbc1e40d64",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-04T22:51:00.000Z",
+        "last_edited_time": "2024-10-07T21:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are open questions on whether predictive models of learning analytics are generalizable between different educational contexts. Getting this right is pivotal to devlopment and interpretation of learning analytics models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are open questions on whether predictive models of learning analytics are generalizable between different educational contexts. Getting this right is pivotal to devlopment and interpretation of learning analytics models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8026-a9ec-f999bc06bd2e",
+      "type": "paragraph",
+      "text": "Most common approaches LA modelling involve the use of data mining techniques on data extracted from either an institutional SIS or LMS. Predictive models for the identification of students at risk or the prediction of a student’s final grade are common applications. Sources for these models (often Logistic Regressions at the time, but with data mining practitioners using other algorithms) are:",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8026-a9ec-f999bc06bd2e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T21:47:00.000Z",
+        "last_edited_time": "2024-10-07T22:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Most common approaches LA modelling involve the use of data mining techniques on data extracted from either an institutional SIS or LMS. Predictive models for the identification of students at risk or the prediction of a student’s final grade are common applications. Sources for these models (often Logistic Regressions at the time, but with data mining practitioners using other algorithms) are:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Most common approaches LA modelling involve the use of data mining techniques on data extracted from either an institutional SIS or LMS. Predictive models for the identification of students at risk or the prediction of a student’s final grade are common applications. Sources for these models (often Logistic Regressions at the time, but with data mining practitioners using other algorithms) are:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8077-a7f3-f6d1dc448a79",
+      "type": "numbered_list_item",
+      "text": "Institutional data stored in the SIS",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8077-a7f3-f6d1dc448a79",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:00:00.000Z",
+        "last_edited_time": "2024-10-07T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Institutional data stored in the SIS",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Institutional data stored in the SIS",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80d4-ae44-c98e0ab7cac1",
+      "type": "numbered_list_item",
+      "text": "LMS records",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80d4-ae44-c98e0ab7cac1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:00:00.000Z",
+        "last_edited_time": "2024-10-07T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "LMS records",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "LMS records",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8076-9e85-e5275f0efce4",
+      "type": "numbered_list_item",
+      "text": "Combinations of both sources",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8076-9e85-e5275f0efce4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:00:00.000Z",
+        "last_edited_time": "2024-10-07T22:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Combinations of both sources",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Combinations of both sources",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80d6-b156-c2a6d7e5fea8",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80d6-b156-c2a6d7e5fea8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:31:00.000Z",
+        "last_edited_time": "2024-10-07T22:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8058-89db-e61f70baa23b",
+      "type": "paragraph",
+      "text": "The idea of these models is to extract variables that predict academic success in a way that is generalizable between different undergraduate contexts, ogten overtly. However, thee types of studies are often the exception and not the rule → most works are often used in one or a small subset of courses. Raising the question → how generalizable is it, really?",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8058-89db-e61f70baa23b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:31:00.000Z",
+        "last_edited_time": "2024-10-07T22:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The idea of these models is to extract variables that predict academic success in a way that is generalizable between different undergraduate contexts, ogten overtly. However, thee types of studies are often the exception and not the rule → most works are often used in one or a small subset of courses. Raising the question → how generalizable is it, really?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The idea of these models is to extract variables that predict academic success in a way that is generalizable between different undergraduate contexts, ogten overtly. However, thee types of studies are often the exception and not the rule → most works are often used in one or a small subset of courses. Raising the question → how generalizable is it, really?",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80c6-aff1-feddb694972a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80c6-aff1-feddb694972a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:35:00.000Z",
+        "last_edited_time": "2024-10-07T22:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80a8-ae6b-f17ad0be6fc1",
+      "type": "paragraph",
+      "text": "The reason for this observation comes from the fact that there seems to be mismatch between the determinants of academic risk found in learning theory when comparing against the assumptions made for these predictive models. Regardless of learning theory framework, context matters, and the models are somewhat designed to ignore context. ",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80a8-ae6b-f17ad0be6fc1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:35:00.000Z",
+        "last_edited_time": "2024-10-07T22:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The reason for this observation comes from the fact that there seems to be mismatch between the determinants of academic risk found in learning theory when comparing against the assumptions made for these predictive models. Regardless of learning theory framework, context matters, and the models are somewhat designed to ignore context. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The reason for this observation comes from the fact that there seems to be mismatch between the determinants of academic risk found in learning theory when comparing against the assumptions made for these predictive models. Regardless of learning theory framework, context matters, and the models are somewhat designed to ignore context. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8056-92bf-d82e32f9f9ba",
+      "type": "paragraph",
+      "text": "The literature is filled with mixed results due to differences in context: for some courses forums are important while being unimportant for others. Likewise, the relationships found to be significant for individual courses often do not hold for general models → underexploration of contextual variables is a major contributor to this. ",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8056-92bf-d82e32f9f9ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:00:00.000Z",
+        "last_edited_time": "2024-10-07T23:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The literature is filled with mixed results due to differences in context: for some courses forums are important while being unimportant for others. Likewise, the relationships found to be significant for individual courses often do not hold for general models → underexploration of contextual variables is a major contributor to this. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The literature is filled with mixed results due to differences in context: for some courses forums are important while being unimportant for others. Likewise, the relationships found to be significant for individual courses often do not hold for general models → underexploration of contextual variables is a major contributor to this. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80e4-aba3-d7abaf657c8c",
+      "type": "paragraph",
+      "text": "The authors argiue that aligning learning theory with moidelling contribute to validating previous educational research and leading to better and more actionable insights. For that, the authors follow a constructivist approach to learning, according to which learners acquire knowledge by exploring the available educational tools. This makes them argue that learning analytics must account for conditions. ",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80e4-aba3-d7abaf657c8c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:22:00.000Z",
+        "last_edited_time": "2024-10-07T23:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors argiue that aligning learning theory with moidelling contribute to validating previous educational research and leading to better and more actionable insights. For that, the authors follow a constructivist approach to learning, according to which learners acquire knowledge by exploring the available educational tools. This makes them argue that learning analytics must account for conditions. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors argiue that aligning learning theory with moidelling contribute to validating previous educational research and leading to better and more actionable insights. For that, the authors follow a constructivist approach to learning, according to which learners acquire knowledge by exploring the available educational tools. This makes them argue that learning analytics must account for conditions. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-801c-a14f-d70238d16adc",
+      "type": "paragraph",
+      "text": "Thus, the authors follow the model of Winne and Hadwin, specifically pointing at instructional conditions as a key factor to determine success. ",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-801c-a14f-d70238d16adc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T22:00:00.000Z",
+        "last_edited_time": "2024-10-07T23:25:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the authors follow the model of Winne and Hadwin, specifically pointing at instructional conditions as a key factor to determine success. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the authors follow the model of Winne and Hadwin, specifically pointing at instructional conditions as a key factor to determine success. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8088-9165-ca2a3ce2aac5",
+      "type": "heading_3",
+      "text": "Research Questions",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8088-9165-ca2a3ce2aac5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:26:00.000Z",
+        "last_edited_time": "2024-10-07T23:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Research Questions",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Research Questions",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8097-820c-d0bcbafd7e71",
+      "type": "numbered_list_item",
+      "text": "How different are the characteristics and usage patterns of students across different b-learning courses?",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8097-820c-d0bcbafd7e71",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:26:00.000Z",
+        "last_edited_time": "2024-10-07T23:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How different are the characteristics and usage patterns of students across different b-learning courses?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How different are the characteristics and usage patterns of students across different b-learning courses?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80d1-b0fb-d94456a88db7",
+      "type": "numbered_list_item",
+      "text": "Is portability viable?",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80d1-b0fb-d94456a88db7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:27:00.000Z",
+        "last_edited_time": "2024-10-07T23:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Is portability viable?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Is portability viable?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8026-9389-f3e862d10ea6",
+      "type": "numbered_list_item",
+      "text": "Does the predictive power of specific trace variables across different courses?",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8026-9389-f3e862d10ea6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:27:00.000Z",
+        "last_edited_time": "2024-10-07T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Does the predictive power of specific trace variables across different courses?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Does the predictive power of specific trace variables across different courses?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80cf-bc8a-fbe8a62bd3c0",
+      "type": "numbered_list_item",
+      "text": "Differences between SIS data and LMS data?",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80cf-bc8a-fbe8a62bd3c0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:28:00.000Z",
+        "last_edited_time": "2024-10-07T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Differences between SIS data and LMS data?",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Differences between SIS data and LMS data?",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-80fd-abe0-df104969bdfb",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-80fd-abe0-df104969bdfb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:28:00.000Z",
+        "last_edited_time": "2024-10-07T23:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1184750c-f3ba-8051-872b-cdaf2c04df24",
+      "type": "paragraph",
+      "text": "In total, the authors explore 9 separate first-year courses, each having different instructional conditions. Total sample size is 4134 students attending the courses in 2012. All courses were taught using a b-learning method and, since each course had different activities, there was little overlap between the courses in terms of Moodle Activities.",
+      "raw": {
+        "object": "block",
+        "id": "1184750c-f3ba-8051-872b-cdaf2c04df24",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-07T23:28:00.000Z",
+        "last_edited_time": "2024-10-08T20:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In total, the authors explore 9 separate first-year courses, each having different instructional conditions. Total sample size is 4134 students attending the courses in 2012. All courses were taught using a b-learning method and, since each course had different activities, there was little overlap between the courses in terms of Moodle Activities.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In total, the authors explore 9 separate first-year courses, each having different instructional conditions. Total sample size is 4134 students attending the courses in 2012. All courses were taught using a b-learning method and, since each course had different activities, there was little overlap between the courses in terms of Moodle Activities.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8023-90eb-cad1f51bf3a8",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8023-90eb-cad1f51bf3a8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T20:54:00.000Z",
+        "last_edited_time": "2024-10-08T20:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/2b23b241-793b-49a5-b7d0-af5c57008025/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U7FFZQNU%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151944Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCeHu0D0OsJmkgQ7IR2503C8dbCe1bxwK1CWpyQfXXmhAIgHTh2MjIfs7N5ULc%2BpLA28o1Rs7Bdg67OcF2kgTF0GdMq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDHuI5HheNA5AdCm0WyrcA6z4murvcB3wgYNnSSKqd2f16%2BS%2B6M3y2Sz2NfMGrNH8IxBWPTauhbjtOYDyDwjC%2BmLz0paEJX4z5Yzz8uLY%2B3HhUCPxrSgm%2FStJH5uqfzfwNmk3mkUxKEv83vOa%2FTdw4gjIeIpryZ3Cy8dj1qqsrLeujo50C2BL4qxw5x%2BQwWb4BTmHFPQ%2Bz1fOSlKaE20e2Yob9B5OHpW4mP4wVGTpQHqYNdcyxPYlOjhr%2BI86vxRFGgxgtsaMYKmF2IBeal%2BzF0ASIGjGZz%2BVoSBL5GA4dJESTYDl8xb%2Ft029WFEwXPU%2BOWItrlamX%2ByG1txnaqTd0ReD2M0XacjrOi%2FJurja0Nk%2Bp69%2B72t0d56Zrk%2BRzYVre6RybGBfA%2B6mQ1HT%2FvTqhtAFHNHxG50m%2Feby3JLGMbrZ7f38FnytkuoATKzb%2Fmqzc2s15V2ycJp6MSv3UZwHXefjrY%2FGMYPk56eca5O3vZQzN8TJrmC0p7JFgREiGKLx7tL4KbgeFo7IbIGujCkS%2B2wSmK26kLi%2FukG7lnHxtZwDlJGgLY25oVxsGLzMcMD83nE0wgD090kXvhHh52weSLR54PtPWQvstDOF8Y0DhGEtcuHTVz2LWVupeUOSpiWbntl7jt%2BAlpXcf%2BF%2BMNPv884GOqUBf12fTtdRnMW%2BtwyFsxx8TDz42o22oDpyW50Xp5wvtCPcF48KC%2FABjGzGnLUTaDNzZooSN%2BdwFAuNawZylgJabHaX8pilVll3jMCuXS9tef%2BdJJQxsX0AHZnm8p5Hfo%2BZLWASkFffi%2BpgACMyhf6zl7Wxn31bUF48HtVB0xKOYdykmRjBIjp8R5ps4zAhPdto6ZOMMEXcpP0Kipi7%2FepZESUaqQSX&X-Amz-Signature=255235563b0c382a86e566e1d2ed9e06d70498f32084fc19d099900cc65bce0d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:44.082Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8006-adbe-fe55a9690214",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8006-adbe-fe55a9690214",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T20:54:00.000Z",
+        "last_edited_time": "2024-10-08T20:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8093-a147-ca4d60eb4ed1",
+      "type": "paragraph",
+      "text": "When it comes to target, the authors identified 2 possibilities: a regression based on the final grade or a multiclass label distinguishing between passing/failing or withdrawing (removed due to small number of withdraws - 88).",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8093-a147-ca4d60eb4ed1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T20:54:00.000Z",
+        "last_edited_time": "2024-10-08T21:02:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to target, the authors identified 2 possibilities: a regression based on the final grade or a multiclass label distinguishing between passing/failing or withdrawing (removed due to small number of withdraws - 88).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to target, the authors identified 2 possibilities: a regression based on the final grade or a multiclass label distinguishing between passing/failing or withdrawing (removed due to small number of withdraws - 88).",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80c7-b0d7-e1d418eb7bd1",
+      "type": "paragraph",
+      "text": "When it comes to features, the authors focused on features extracted from the institutional system and features extracted from Moodle. Features extracted from Moodle were initially extracted as continuous but, if heavily skewed they were eventually discretized.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80c7-b0d7-e1d418eb7bd1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:01:00.000Z",
+        "last_edited_time": "2024-10-08T21:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "When it comes to features, the authors focused on features extracted from the institutional system and features extracted from Moodle. Features extracted from Moodle were initially extracted as continuous but, if heavily skewed they were eventually discretized.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "When it comes to features, the authors focused on features extracted from the institutional system and features extracted from Moodle. Features extracted from Moodle were initially extracted as continuous but, if heavily skewed they were eventually discretized.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8085-a507-ff90838319b2",
+      "type": "heading_3",
+      "text": "Statistical Analysis",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8085-a507-ff90838319b2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:22:00.000Z",
+        "last_edited_time": "2024-10-08T21:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Statistical Analysis",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Statistical Analysis",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80a5-888f-f8de0bcc54ea",
+      "type": "paragraph",
+      "text": "The authors looked at the differences between courses using ANOVA and Chi-Square statistical tests. Moreover, they create differente models: course specific and course agnostic. Moreover, there is also the indication of 2 types of models considered by the authors:",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80a5-888f-f8de0bcc54ea",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:24:00.000Z",
+        "last_edited_time": "2024-10-08T21:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors looked at the differences between courses using ANOVA and Chi-Square statistical tests. Moreover, they create differente models: course specific and course agnostic. Moreover, there is also the indication of 2 types of models considered by the authors:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors looked at the differences between courses using ANOVA and Chi-Square statistical tests. Moreover, they create differente models: course specific and course agnostic. Moreover, there is also the indication of 2 types of models considered by the authors:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80af-aa6b-d0b04debc2d5",
+      "type": "numbered_list_item",
+      "text": "Model 1 exclusively includes Student Characteristics",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80af-aa6b-d0b04debc2d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:48:00.000Z",
+        "last_edited_time": "2024-10-08T21:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model 1 exclusively includes Student Characteristics",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model 1 exclusively includes Student Characteristics",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8087-b446-ede98e51c11c",
+      "type": "numbered_list_item",
+      "text": "Model 2 includes Model 1 AND the LMS trace variables extracted and found to be relevant for each specific target.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8087-b446-ede98e51c11c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:48:00.000Z",
+        "last_edited_time": "2024-10-08T21:49:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model 2 includes Model 1 AND the LMS trace variables extracted and found to be relevant for each specific target.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model 2 includes Model 1 AND the LMS trace variables extracted and found to be relevant for each specific target.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8067-be7a-ff929bca2779",
+      "type": "paragraph",
+      "text": "Regression models were evaluated using R-Squared while the classification models were evaluated using the AUC of the ROC curve.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8067-be7a-ff929bca2779",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:56:00.000Z",
+        "last_edited_time": "2024-10-08T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Regression models were evaluated using R-Squared while the classification models were evaluated using the AUC of the ROC curve.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Regression models were evaluated using R-Squared while the classification models were evaluated using the AUC of the ROC curve.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8022-a7a7-c28b623708cc",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8022-a7a7-c28b623708cc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:56:00.000Z",
+        "last_edited_time": "2024-10-08T21:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80c0-8a12-f8828adf0479",
+      "type": "paragraph",
+      "text": "The authors identified statistically significant difference sin student characteristics across courses,l mentioning that these alone are an argument against general models. ",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80c0-8a12-f8828adf0479",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T21:49:00.000Z",
+        "last_edited_time": "2024-10-08T23:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors identified statistically significant difference sin student characteristics across courses,l mentioning that these alone are an argument against general models. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors identified statistically significant difference sin student characteristics across courses,l mentioning that these alone are an argument against general models. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-804b-966c-fe262913d0e0",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-804b-966c-fe262913d0e0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T22:55:00.000Z",
+        "last_edited_time": "2024-10-08T22:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/9c04b3f5-e4b6-47eb-830f-b7c6be040ac8/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466U7FFZQNU%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151944Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCeHu0D0OsJmkgQ7IR2503C8dbCe1bxwK1CWpyQfXXmhAIgHTh2MjIfs7N5ULc%2BpLA28o1Rs7Bdg67OcF2kgTF0GdMq%2FwMIdxAAGgw2Mzc0MjMxODM4MDUiDHuI5HheNA5AdCm0WyrcA6z4murvcB3wgYNnSSKqd2f16%2BS%2B6M3y2Sz2NfMGrNH8IxBWPTauhbjtOYDyDwjC%2BmLz0paEJX4z5Yzz8uLY%2B3HhUCPxrSgm%2FStJH5uqfzfwNmk3mkUxKEv83vOa%2FTdw4gjIeIpryZ3Cy8dj1qqsrLeujo50C2BL4qxw5x%2BQwWb4BTmHFPQ%2Bz1fOSlKaE20e2Yob9B5OHpW4mP4wVGTpQHqYNdcyxPYlOjhr%2BI86vxRFGgxgtsaMYKmF2IBeal%2BzF0ASIGjGZz%2BVoSBL5GA4dJESTYDl8xb%2Ft029WFEwXPU%2BOWItrlamX%2ByG1txnaqTd0ReD2M0XacjrOi%2FJurja0Nk%2Bp69%2B72t0d56Zrk%2BRzYVre6RybGBfA%2B6mQ1HT%2FvTqhtAFHNHxG50m%2Feby3JLGMbrZ7f38FnytkuoATKzb%2Fmqzc2s15V2ycJp6MSv3UZwHXefjrY%2FGMYPk56eca5O3vZQzN8TJrmC0p7JFgREiGKLx7tL4KbgeFo7IbIGujCkS%2B2wSmK26kLi%2FukG7lnHxtZwDlJGgLY25oVxsGLzMcMD83nE0wgD090kXvhHh52weSLR54PtPWQvstDOF8Y0DhGEtcuHTVz2LWVupeUOSpiWbntl7jt%2BAlpXcf%2BF%2BMNPv884GOqUBf12fTtdRnMW%2BtwyFsxx8TDz42o22oDpyW50Xp5wvtCPcF48KC%2FABjGzGnLUTaDNzZooSN%2BdwFAuNawZylgJabHaX8pilVll3jMCuXS9tef%2BdJJQxsX0AHZnm8p5Hfo%2BZLWASkFffi%2BpgACMyhf6zl7Wxn31bUF48HtVB0xKOYdykmRjBIjp8R5ps4zAhPdto6ZOMMEXcpP0Kipi7%2FepZESUaqQSX&X-Amz-Signature=f58127e0b3e8d178fd2020dfd0262a326a5a291c98f977b785509a84b999d76f&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:44.173Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8006-b568-ec264ff0a949",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8006-b568-ec264ff0a949",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:07:00.000Z",
+        "last_edited_time": "2024-10-08T23:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8005-8e07-ef3c23c3b191",
+      "type": "paragraph",
+      "text": "Likewise, when looking at the trace data, the authors identified statistically significant differents in the end of course performance in different courses (using Bonferroni test). Math and accounting students were the ones who failed the most percentage-wise. ",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8005-8e07-ef3c23c3b191",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:07:00.000Z",
+        "last_edited_time": "2024-10-08T23:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Likewise, when looking at the trace data, the authors identified statistically significant differents in the end of course performance in different courses (using Bonferroni test). Math and accounting students were the ones who failed the most percentage-wise. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Likewise, when looking at the trace data, the authors identified statistically significant differents in the end of course performance in different courses (using Bonferroni test). Math and accounting students were the ones who failed the most percentage-wise. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80e6-96ac-c34226d4e4f9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80e6-96ac-c34226d4e4f9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:13:00.000Z",
+        "last_edited_time": "2024-10-08T23:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80e2-86d1-ec4b77ab1d06",
+      "type": "paragraph",
+      "text": "Notably, when comparing general models and specific models, the authors found that the general regression models exclusively using characteristics explained 5% of the the variance in final grades. The results are also not that appealing when adding LMS as the total R-squared rose 16%. In course-specific models, R2 for Model 1 varied significantly, going as low as 9% in GRAP to 74% in COMM. Again, context matters, and different instructional conditions also play an important role in determining whether a specific variable will or will not be considered important. ",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80e2-86d1-ec4b77ab1d06",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:13:00.000Z",
+        "last_edited_time": "2024-10-08T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Notably, when comparing general models and specific models, the authors found that the general regression models exclusively using characteristics explained 5% of the the variance in final grades. The results are also not that appealing when adding LMS as the total R-squared rose 16%. In course-specific models, R2 for Model 1 varied significantly, going as low as 9% in GRAP to 74% in COMM. Again, context matters, and different instructional conditions also play an important role in determining whether a specific variable will or will not be considered important. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Notably, when comparing general models and specific models, the authors found that the general regression models exclusively using characteristics explained 5% of the the variance in final grades. The results are also not that appealing when adding LMS as the total R-squared rose 16%. In course-specific models, R2 for Model 1 varied significantly, going as low as 9% in GRAP to 74% in COMM. Again, context matters, and different instructional conditions also play an important role in determining whether a specific variable will or will not be considered important. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-808d-9ef3-d836476b005b",
+      "type": "heading_3",
+      "text": "Classification",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-808d-9ef3-d836476b005b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:20:00.000Z",
+        "last_edited_time": "2024-10-08T23:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Classification",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Classification",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80cc-8ee6-f33593e6e8dc",
+      "type": "paragraph",
+      "text": "As far as classification goes, similar observations hold. Model 1 tended to underperform Model 2 both in a general sense and in a course-specific sense. However, the differences were not uniform from course to course - the alsrgest improvement was observed in mathematics. ",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80cc-8ee6-f33593e6e8dc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:20:00.000Z",
+        "last_edited_time": "2024-10-08T23:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "As far as classification goes, similar observations hold. Model 1 tended to underperform Model 2 both in a general sense and in a course-specific sense. However, the differences were not uniform from course to course - the alsrgest improvement was observed in mathematics. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "As far as classification goes, similar observations hold. Model 1 tended to underperform Model 2 both in a general sense and in a course-specific sense. However, the differences were not uniform from course to course - the alsrgest improvement was observed in mathematics. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80e1-85bf-d1d7cac01959",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80e1-85bf-d1d7cac01959",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:23:00.000Z",
+        "last_edited_time": "2024-10-08T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80c3-a669-ee2c247e44fb",
+      "type": "paragraph",
+      "text": "Relationships found to be meaningful for one specific course often did not generalize either to other courses or to a general mode. E.g. in CS more logins tended to be negatively related with failing. However, this relationship was not found for any other model.  Model performance also varied significantly, as AUC for model 2 ranged from to 0.765 in Accounting to 0.915 in COMM.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80c3-a669-ee2c247e44fb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:23:00.000Z",
+        "last_edited_time": "2024-10-08T23:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Relationships found to be meaningful for one specific course often did not generalize either to other courses or to a general mode. E.g. in CS more logins tended to be negatively related with failing. However, this relationship was not found for any other model.  Model performance also varied significantly, as AUC for model 2 ranged from to 0.765 in Accounting to 0.915 in COMM.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Relationships found to be meaningful for one specific course often did not generalize either to other courses or to a general mode. E.g. in CS more logins tended to be negatively related with failing. However, this relationship was not found for any other model.  Model performance also varied significantly, as AUC for model 2 ranged from to 0.765 in Accounting to 0.915 in COMM.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8012-bf8d-f11540bdf495",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8012-bf8d-f11540bdf495",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:30:00.000Z",
+        "last_edited_time": "2024-10-08T23:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80fc-9b6e-c4d306b169f9",
+      "type": "heading_2",
+      "text": "Discussion",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80fc-9b6e-c4d306b169f9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:30:00.000Z",
+        "last_edited_time": "2024-10-08T23:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-808e-94a3-d330a61d4ba6",
+      "type": "paragraph",
+      "text": "At the end of the day, the authors show that performance on course-specific models tends to outshine the performance on a general model that is course-agnostic, leading them to explicitly argue for more course-specific models.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-808e-94a3-d330a61d4ba6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:30:00.000Z",
+        "last_edited_time": "2024-10-08T23:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "At the end of the day, the authors show that performance on course-specific models tends to outshine the performance on a general model that is course-agnostic, leading them to explicitly argue for more course-specific models.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "At the end of the day, the authors show that performance on course-specific models tends to outshine the performance on a general model that is course-agnostic, leading them to explicitly argue for more course-specific models.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8068-90f0-c6c64c044b66",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8068-90f0-c6c64c044b66",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:33:00.000Z",
+        "last_edited_time": "2024-10-08T23:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8020-91b6-dee6ede4ce52",
+      "type": "paragraph",
+      "text": "The authors also divide LMS features into 5 categories:",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8020-91b6-dee6ede4ce52",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:33:00.000Z",
+        "last_edited_time": "2024-10-08T23:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors also divide LMS features into 5 categories:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors also divide LMS features into 5 categories:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-801f-ada2-fbf752a2fb1c",
+      "type": "numbered_list_item",
+      "text": "Not significant for some courses,",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-801f-ada2-fbf752a2fb1c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:33:00.000Z",
+        "last_edited_time": "2024-10-08T23:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Not significant for some courses,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Not significant for some courses,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8042-b9fd-d133e27354a9",
+      "type": "numbered_list_item",
+      "text": "Significant in general model but not in course-specific models (e.g. course logins or resource views).",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8042-b9fd-d133e27354a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:34:00.000Z",
+        "last_edited_time": "2024-10-08T23:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Significant in general model but not in course-specific models (e.g. course logins or resource views).",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Significant in general model but not in course-specific models (e.g. course logins or resource views).",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80f0-add0-fe029ed39bc6",
+      "type": "numbered_list_item",
+      "text": "Significant in course-specific models but not in general model",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80f0-add0-fe029ed39bc6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:34:00.000Z",
+        "last_edited_time": "2024-10-08T23:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Significant in course-specific models but not in general model",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Significant in course-specific models but not in general model",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-807a-80a1-f52e63460114",
+      "type": "numbered_list_item",
+      "text": "Relevant for % Mark in some courses while insignificant in others,",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-807a-80a1-f52e63460114",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:35:00.000Z",
+        "last_edited_time": "2024-10-08T23:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Relevant for % Mark in some courses while insignificant in others,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Relevant for % Mark in some courses while insignificant in others,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80f8-869d-dd1ab75fa33c",
+      "type": "numbered_list_item",
+      "text": "Conflicting results: positive effect in one course, negative in other course.",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80f8-869d-dd1ab75fa33c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:35:00.000Z",
+        "last_edited_time": "2024-10-08T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Conflicting results: positive effect in one course, negative in other course.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Conflicting results: positive effect in one course, negative in other course.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-80fe-8732-f112ed3705f4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-80fe-8732-f112ed3705f4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:36:00.000Z",
+        "last_edited_time": "2024-10-08T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-8096-8a76-f975f7cb6732",
+      "type": "paragraph",
+      "text": "The conclusions become elementary from this:",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-8096-8a76-f975f7cb6732",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:36:00.000Z",
+        "last_edited_time": "2024-10-08T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The conclusions become elementary from this:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The conclusions become elementary from this:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-803f-9f8c-f1c6cebd6d6d",
+      "type": "numbered_list_item",
+      "text": "General models can both underestimate or underestimate the impact of some trace variables,",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-803f-9f8c-f1c6cebd6d6d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:36:00.000Z",
+        "last_edited_time": "2024-10-08T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "General models can both underestimate or underestimate the impact of some trace variables,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "General models can both underestimate or underestimate the impact of some trace variables,",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1194750c-f3ba-809f-8f27-efb0b0ea486f",
+      "type": "numbered_list_item",
+      "text": "A variable from LMS being important in one course does not mean it will be important in another course. ",
+      "raw": {
+        "object": "block",
+        "id": "1194750c-f3ba-809f-8f27-efb0b0ea486f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-08T23:36:00.000Z",
+        "last_edited_time": "2024-10-08T23:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "A variable from LMS being important in one course does not mean it will be important in another course. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "A variable from LMS being important in one course does not mean it will be important in another course. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-806c-9610-e05026368cbc",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-806c-9610-e05026368cbc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-04T22:51:00.000Z",
+        "last_edited_time": "2025-03-16T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1154750c-f3ba-80f1-a077-eb306fe4cd7b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1154750c-f3ba-80f1-a077-eb306fe4cd7b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "5c914e51-ff08-437f-8c87-d8db55be4070"
+        },
+        "created_time": "2024-10-04T22:51:00.000Z",
+        "last_edited_time": "2024-10-07T21:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

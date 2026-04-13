@@ -1,0 +1,722 @@
+{
+  "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace",
+  "title": "Predicting academic performance by considering student heterogeneity",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "7bfcb327-dee6-4ed1-a1fa-0de95be0dc27",
+          "name": "Student Performance Prediction",
+          "color": "blue"
+        },
+        {
+          "id": "5514405e-1aba-42f4-a16f-58db16536119",
+          "name": "Student Heterogeneity",
+          "color": "brown"
+        },
+        {
+          "id": "1e3f1481-95b4-41c7-b73f-f38d146ee3c4",
+          "name": "Learning management systems",
+          "color": "brown"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "5a55ddd2-b4c7-4dbf-8c3d-7213e92ca8a8",
+          "name": "WEKA",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-02-27T19:29:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Helal et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Helal et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Predicting academic performance by considering student heterogeneity",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Predicting academic performance by considering student heterogeneity",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3144750c-f3ba-808b-ac1e-fa15aeb011d9",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "End of Course Performance",
+          "Being “at-risk” (1) vs not “at-risk” (0)",
+          "2468 students",
+          "Undergraduate Pograms in an Aulstralian University",
+          "Enrollment Data, LMS logs",
+          "[Gender, SAS_ADD_CURRENT_SHORT_SAS, AGE_NUM, ATTENDANCE_TYPE_DESC, ATTENDANCE_MODE_SHORT_DESC, AUST_SES, APPL_WAS_FIRST_PREF, IN_MULTI_PROG_ANY_YR, iN_MULT_PROG_THIS_YR, pARENT_1_EDUCATION_CIODE, pARENT_2_EDUCATION_CODE, HIGH_SCHOOL_STATE, ATAR_rank, BOOK_VIEW, CHOICE_VIEW, COURSE_VISIT, FORUM_ADD_DISCUSSION, FORUM_ADD_POST, FORUM_VIEW_DISCUSSION, fORUM_VIEW_FORUM, lESSON_VIEW, OUWIKI_EDIT, OUWIKI_VIEW, QUIZ_ATTEMPT, QUIZ_REVIEW, QUIZ_VIEW, RESOURCE_VIEW]",
+          "End of Course",
+          "Discretization happens across different numeric variables and categorized according to the 4 quartiles. \n\nSince the study includes a general model and multiple sub-models that account for different student subgroups, each student enrollment is included in total in 8 distinct datasets. \n\nThen, females and males are subsequently separated in 6 additional datasets.",
+          "Naive Bayes, SMO, J48, JRip",
+          "10-Fold Cross-Validation",
+          "{Accuracy: 0.798 - J48, Precision: 0.682 - NB, Recall: 0.374 - NB, F1-Score: 0.48 - NB, Cohen’s Kappa: 0.43 - NB, AUC: 0.699 - J48}",
+          "Authors create a base, course-agnostic model athat also does not consider student sub-groups and, later, compares the performance of this base model against different models created specifically for different sub-groups. \n\nSub-models seem to outperform ther base model in general, but there is no specific submodel that always outperforms the others.\n\nAlso, combining data from different sources - enrollment + logs seems to improve performance of the models.\n\nResults shown only refer to base models.",
+          "Data only refers to a set of domestic students in a very specific department.\n\nAdditional categorization of the LMS data would also be benefical.\n\nNo early prediction"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "a372194a-2272-4249-bb9b-f40a8be217bf",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "a372194a-2272-4249-bb9b-f40a8be217bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:13:00.000Z",
+        "last_edited_time": "2024-07-31T17:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "573c25c2-e776-4278-a6fd-b1f0bbdf0c90",
+      "type": "paragraph",
+      "text": "Work starts with the prediction of student performance from data collected at an Australian University. Enrollment details and LMS data. Authors also make an attempt to consider student heterogeneity. To do that, the authors create models that are specific to different student sub-populations.",
+      "raw": {
+        "object": "block",
+        "id": "573c25c2-e776-4278-a6fd-b1f0bbdf0c90",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:13:00.000Z",
+        "last_edited_time": "2024-07-31T17:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Work starts with the prediction of student performance from data collected at an Australian University. Enrollment details and LMS data. Authors also make an attempt to consider student heterogeneity. To do that, the authors create models that are specific to different student sub-populations.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Work starts with the prediction of student performance from data collected at an Australian University. Enrollment details and LMS data. Authors also make an attempt to consider student heterogeneity. To do that, the authors create models that are specific to different student sub-populations.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "51a01b8a-6641-4ba2-b4c7-64688930de95",
+      "type": "paragraph",
+      "text": "Results show that models created on sub-populations outperform a general model trained on all instances. Combining LMS and enrollment also outperforms other options. Moreover, there is no best model for all scenarios, but authors argue tree-based or rule-based models for interpretability purposes.",
+      "raw": {
+        "object": "block",
+        "id": "51a01b8a-6641-4ba2-b4c7-64688930de95",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:16:00.000Z",
+        "last_edited_time": "2024-07-31T17:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results show that models created on sub-populations outperform a general model trained on all instances. Combining LMS and enrollment also outperforms other options. Moreover, there is no best model for all scenarios, but authors argue tree-based or rule-based models for interpretability purposes.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results show that models created on sub-populations outperform a general model trained on all instances. Combining LMS and enrollment also outperforms other options. Moreover, there is no best model for all scenarios, but authors argue tree-based or rule-based models for interpretability purposes.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3144750c-f3ba-80d6-8306-dd4b9f0d2c9f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3144750c-f3ba-80d6-8306-dd4b9f0d2c9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2026-02-27T18:47:00.000Z",
+        "last_edited_time": "2026-02-27T18:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3144750c-f3ba-80ec-b339-caaee3b5b5ae",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3144750c-f3ba-80ec-b339-caaee3b5b5ae",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2026-02-27T18:47:00.000Z",
+        "last_edited_time": "2026-02-27T18:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3144750c-f3ba-808b-ac1e-fa15aeb011d9",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3144750c-f3ba-808b-ac1e-fa15aeb011d9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2026-02-27T18:47:00.000Z",
+        "last_edited_time": "2026-02-27T18:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "bed83ee0-b84e-431c-beca-8e615dbbbe9f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "bed83ee0-b84e-431c-beca-8e615dbbbe9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:14:00.000Z",
+        "last_edited_time": "2024-07-31T17:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9f0425ed-c350-4cf2-ac39-e08ce11ed4b5",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "9f0425ed-c350-4cf2-ac39-e08ce11ed4b5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:14:00.000Z",
+        "last_edited_time": "2024-07-31T17:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d6580cf-0222-436a-a218-38299f6b1cd3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d6580cf-0222-436a-a218-38299f6b1cd3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c4bf8af8-477e-4e1c-bf0c-7351a31e6ace"
+        },
+        "created_time": "2024-07-31T17:14:00.000Z",
+        "last_edited_time": "2024-07-31T17:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

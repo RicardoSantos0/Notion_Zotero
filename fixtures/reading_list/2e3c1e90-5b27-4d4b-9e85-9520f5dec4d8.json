@@ -1,0 +1,626 @@
+{
+  "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8",
+  "title": "Logs or Self-Reports? Misalignment Between Behavioral Trace Data and Surveys When Modeling Learner Achievement Goal Orientation",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "00d5369c-2783-44e5-bf2f-3aba87ac8926",
+          "name": "Achievement Goals",
+          "color": "blue"
+        },
+        {
+          "id": "e3d4545b-8263-460b-9e3e-6715426f9a13",
+          "name": "Trace Data",
+          "color": "brown"
+        },
+        {
+          "id": "c1d4bf2a-53df-47a0-996a-d5c9d7f19365",
+          "name": "Survey Data",
+          "color": "purple"
+        },
+        {
+          "id": "81b52f0c-d2cd-44ba-b077-c88624c5a543",
+          "name": "Latent Variable Mixture Modeling",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2026-02-05T17:34:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Choi et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Choi et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Logs or Self-Reports? Misalignment Between Behavioral Trace Data and Surveys When Modeling Learner Achievement Goal Orientation",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Logs or Self-Reports? Misalignment Between Behavioral Trace Data and Surveys When Modeling Learner Achievement Goal Orientation",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-806b-b888-fbfe08d1c0e1",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "249 MSc students",
+          "2 editions of a Data Science course from University of Michigan",
+          "LMS logs, Surveys",
+          "Goal Complex Theory",
+          "[mastery_approach, mastery_avoicdance, performance_approach, performance_avoidance, performance_controlling, performance_autonomous, emailN_count, notebookNcount, bonusN_sharing, extraN_submitted, extraN_count, additionalN_count]",
+          "SAmple size was reduced to 191 students because not all students had answered all quizzes. \n\nAnalysis starts with CFA to check fit of answers with Goal complex Theory. \n\nContinuous variables in Trace data were log-transformed. \n\nSurvey and Log datasets are treated separately since one the research questions is the comparison between them. \n\nClustering is used on both datasets separately (Weeks 1-2) and for weeks (3-4) the clustering is done separately and with the combined datasetw.",
+          "Latent Variable Mixture Modeling",
+          "-",
+          "Weeks 1-2 on Trace data: 3\n\nWeeks 3-4 on Trace data: 3",
+          "Weeks 1-2: \n\nLess Engaged (95): Rarely interact with optional course materials  \n\nMastery and Performance (52): generated highest counts of log data with assignments and extra assignments \n\nPerformance (44): Higher interest in materials bearing influence on their grade. \n\nWeeks 3-4: \n\nPerformance and weak mastery (43) \n\nLess Engaged (135)\n\nMAstery and Performance Controlling (13)",
+          "A refined definition of what achievement goals are:\n\nExpectations, followed by Action, followed by remembering what the goals are.\n\nDiscrepancies between trace and survey could be used to identify students struggling with SRL skills.\n\n",
+          "CFA shows that trace data fits better with Goal Complex Theory than the Survey constructs. \n\nBAsed on these results, most of the discussion is centered around the Trace data clusters. \n\nMoreover, the authors find that there is a poor mapping of the survey data to the actual behavioral data → students tend to overestimate their intents. ",
+          "Features need to be revised to ensure that they capture different motivations. \n\nDoes not consider any variable beyond instrumentation within the course."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "55a21841-49e4-4b1b-833d-c3d9cf78fc46",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "55a21841-49e4-4b1b-833d-c3d9cf78fc46",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2024-08-06T14:03:00.000Z",
+        "last_edited_time": "2024-08-06T14:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c10691f9-af08-426d-8414-75677105a7cf",
+      "type": "paragraph",
+      "text": "Learning analytics is being constantly integrated in learning environments. However, most of the markers for student success derive from self-reported measures. Study compares the effectiveness of logs vs self-reports as effective representations of achievement goals. ",
+      "raw": {
+        "object": "block",
+        "id": "c10691f9-af08-426d-8414-75677105a7cf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2024-08-06T14:03:00.000Z",
+        "last_edited_time": "2024-08-06T14:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Learning analytics is being constantly integrated in learning environments. However, most of the markers for student success derive from self-reported measures. Study compares the effectiveness of logs vs self-reports as effective representations of achievement goals. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Learning analytics is being constantly integrated in learning environments. However, most of the markers for student success derive from self-reported measures. Study compares the effectiveness of logs vs self-reports as effective representations of achievement goals. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1da2baae-67d0-4437-9ae4-49320cb3054a",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1da2baae-67d0-4437-9ae4-49320cb3054a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2024-08-06T14:04:00.000Z",
+        "last_edited_time": "2024-08-06T14:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cb1574b0-10fa-4958-8ce1-28870b6a5266",
+      "type": "paragraph",
+      "text": "The authors create goal clusters using latent variable mixture modelling and the results show that there is a misalignement between both sources of data. More specifically, self-repoorts before learning do not translate into learning relevant behaviour measurable by learning logs. More specifically, self-reports seem to be overly optimistic measures of student motivation and engagement.",
+      "raw": {
+        "object": "block",
+        "id": "cb1574b0-10fa-4958-8ce1-28870b6a5266",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2024-08-06T14:04:00.000Z",
+        "last_edited_time": "2024-08-06T14:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors create goal clusters using latent variable mixture modelling and the results show that there is a misalignement between both sources of data. More specifically, self-repoorts before learning do not translate into learning relevant behaviour measurable by learning logs. More specifically, self-reports seem to be overly optimistic measures of student motivation and engagement.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors create goal clusters using latent variable mixture modelling and the results show that there is a misalignement between both sources of data. More specifically, self-repoorts before learning do not translate into learning relevant behaviour measurable by learning logs. More specifically, self-reports seem to be overly optimistic measures of student motivation and engagement.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80e8-9303-f6e6b7f10b48",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80e8-9303-f6e6b7f10b48",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2025-12-14T16:15:00.000Z",
+        "last_edited_time": "2025-12-14T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-806b-b888-fbfe08d1c0e1",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-806b-b888-fbfe08d1c0e1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "2e3c1e90-5b27-4d4b-9e85-9520f5dec4d8"
+        },
+        "created_time": "2025-12-14T16:15:00.000Z",
+        "last_edited_time": "2025-12-14T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

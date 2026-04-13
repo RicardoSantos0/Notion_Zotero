@@ -1,0 +1,76 @@
+{
+  "references": [
+    {
+      "id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+      "title": "An improved adaptive learning path recommendation model driven by real-time learning analytics",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Computers in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_23573a18",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid ontology‑based + collaborative filtering",
+          "Target of Recommendation": "Next Learning Object to take",
+          "Students": "96 undergraduate students from 2 Indian Universities",
+          "Courses": "1 Programming and Data Structure course\n\n1 Data Mining Course",
+          "Data sources": "LMS logs\nLearner Characteristics\nLearning Objects",
+          "Initialization Method": "StaticParameters are charged into the system \n\nThe learning path is initialized from the students choosing an LU and SU → these become the first node of the graph.\n\nNew learners are assigned to a natural learner group via clustering based on similarity with existing learners-",
+          "Updates to Recommendations": "- Real‑time: after each LO interaction update: • Learner ability Aᵢⱼ (Eq.1) • LO difficulty Dⱼ (Eq.2) • Recompute optimal path via DFS + LO ranking (Algorithms 1–3)",
+          "Preprocessing Details": "- Build two‑layer KG (topics → LOs)Extract static vs. dynamic learner/LO parametersNo offline train/test split (online setting)No negative sampling",
+          "Recommendation types": "Single “best‑fit” path per query",
+          "Evaluation": "- Accuracy: RMSE & R² on predicted vs. actual time/score (first 8 iterations)\n- Adaptivity: mean Euclidean similarity (Eq.6)\n- Diversity: path dissimilarity (Eq.7)\n- Satisfaction: learner rating share (Figs. 6–9)",
+          "Comments": "- Compares four methods: SeqSt, SeqDyn, PathSt, PathDyn (proposed)Leverages both ontology and analytics\n\nSatisfaction of users is used for evaluation",
+          "Limitations": "- Initial LO metadata set by experts (not personalized)\n- Limited topic/LO coverage\n- Assumes learners know all prerequisites\n- Some records discarded due to data errors\n-Initial training was performed on simulated data."
+        }
+      ],
+      "provenance": {
+        "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_71995e57",
+      "reference_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+      "text": "Dealing with content overload is prolematic for e-learners, which suggests that a recommender system an effective measure to mitigate this issue. Authors propose a new recommender system based on knowledge building and performance analysis. ",
+      "provenance": {
+        "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+      }
+    },
+    {
+      "id": "an_73fc20a1",
+      "reference_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+      "text": "The recommender estimates the knowledge level of the learner and makes recommendations based on learner preferences and knowledge level and predicts the time it will take the learner to learn and how he/she will perform. Performance of the model is assessed using R-Squared. ",
+      "provenance": {
+        "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+      }
+    },
+    {
+      "id": "an_56488227",
+      "reference_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35",
+      "text": "Model is tested with MOOC data from 530 LO and 96 undergraduate students and is shown to outperform other alternative methods.",
+      "provenance": {
+        "page_id": "4e2cce9e-91ad-4769-a8f5-3565c8377b35"
+      }
+    }
+  ],
+  "workflow_states": []
+}

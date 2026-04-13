@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "bb7cb1b2-e984-4461-aadd-7ec37531a371",
+      "title": "Collaborative activities recommendation based on students’ collaborative learning styles using ANN and WSM",
+      "authors": [],
+      "year": null,
+      "journal": "Interactive Learning Environments",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_852b48fb",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Collaborative Learning",
+          "Recommender System Type": "Knowledge-Based + Hybrid",
+          "Target of Recommendation": "Collaborative Activities",
+          "Students": "80 undergraduate Computer Science students (University of West Attica, Greece)",
+          "Courses": "Java Programming Course",
+          "Data sources": "Questionnaire (Gardner & Korth Collaborative Learning Styles), \nExpert-Defined Weights from 14 instructors",
+          "Initialization Method": "Learners complete a collaborative learning style questionnaire (Gardner & Korth, 1998), which classifies them into four styles: Accommodator, Converger, Diverger, Assimilator. Initial weights per style and per activity are defined by experts and fed to the ANN.",
+          "Updates to Recommendations": "Static once per learner profile (no continuous updates). System generates new recommendations per learner instance but does not adapt dynamically.",
+          "Preprocessing Details": "Weights defined by experts are normalized and fed to the ANN as input nodes. WSM (Weighted Sum Model) acts as the activation function, producing an output vector representing the percentage likelihood of participation in each collaborative activity type.",
+          "Recommendation types": "Top-N collaborative activities",
+          "Evaluation": "{Satisfaction on Assignment: 8.55/10 vs 6.625/10, Grades: 7.825/10 vs 6.25/10}",
+          "Comments": "Combines Artificial Neural Networks (ANN) with the Weighted Sum Model (WSM) for multi-criteria decision-making, based on learners’ collaborative styles.Model outputs participation percentages per activity type → used for recommendations and grouping.\n\nEmpirical evaluation shows significant improvement in satisfaction and learning outcomes.Extends adaptive CSCL personalization by incorporating group-level learning style intelligence.",
+          "Limitations": "Recommendations are static, not adaptive to ongoing learner behavior.\n\nLearning style detection depends entirely on self-reported questionnaire data.\n\nExpert weighting introduces subjectivity.\n\nEvaluation limited to a single course and small population.\n\nNo long-term validation or group interaction analysis beyond the Java course."
+        }
+      ],
+      "provenance": {
+        "page_id": "bb7cb1b2-e984-4461-aadd-7ec37531a371",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_7f4d5024",
+      "reference_id": "bb7cb1b2-e984-4461-aadd-7ec37531a371",
+      "text": "The personalization of learning activities in computer-supported collaborative learning is something that has garnered the interest of educational researchers. The recommender system uses Artificial Neural Networks and Weighted Sum Model to recommend which collaborative activities a learner should take going forward. ",
+      "provenance": {
+        "page_id": "bb7cb1b2-e984-4461-aadd-7ec37531a371"
+      }
+    },
+    {
+      "id": "an_098dbe3d",
+      "reference_id": "bb7cb1b2-e984-4461-aadd-7ec37531a371",
+      "text": "To test their model, the authors created an intelligent tutoring system for Java. Results on this ITS show that the solution is not only feasable but also tends to lead to positive impacts on learning. ",
+      "provenance": {
+        "page_id": "bb7cb1b2-e984-4461-aadd-7ec37531a371"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,556 @@
+{
+  "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980",
+  "title": "Dropout and transfer paths: What are the risky profiles when analyzing university persistence with machine learning techniques?",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "PLos ONE",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "PLos ONE",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-04T23:10:00.000+00:00",
+        "end": "2025-03-25T18:41:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Rodríguez-Muñiz",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Rodríguez-Muñiz",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Dropout and transfer paths: What are the risky profiles when analyzing university persistence with machine learning techniques?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Dropout and transfer paths: What are the risky profiles when analyzing university persistence with machine learning techniques?",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c14750c-f3ba-804e-8689-f43c67810956",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Dropping out of a program at the end of the second year",
+          "Dropout vs Continue vs Change",
+          "1055 students",
+          "54 programmes at the University of Oviedo",
+          "Socio-Demographic Variables,\nPrior Academic History, \nQuestionnaire for Academic Performance, Motivation abd Satisfaction with University",
+          "[Number_FamilyMembers, StudyHours_PerWeek, WorkHours_PerWeek, HouseWorkHours_PerWeek, Age, BACH_FP, GEN, Grade, Area_Code, Enrollment_Credits2010, Attended_cred_2010, Passed_Credits_2010, Enrollment_Credtis_2011, Attended_credits_T_2011, \nPassed_Credits_2011, Place_of_Residence, Studies_Choice_Reason, Prior_Guidance, Inyrgration_Activities_Utility, Participation_Integration_Activities, Class_Attendance, Approppriate_Methodology, RatioGradesEffort, Difficulty, Teacher_Relation, JoinNonAcademic__activities, Would_recommend_uniovi, Gender, Nationality_Code, Disability_Code, Fam_Code, Father_Stud_Code, Mother_Study_Code, Father_job, Mother_job, Acces_Way, Center_Code, Priority, First_Year_Grant_Code, Grant_2011]",
+          "End of SecondYear",
+          "Authors perform outlier detection and ultimately decide that they are legitimate values and, for that reason reason, should be kept.\n\n",
+          "CART, \nC4.5, \nSVM, \nBayes Net,\nRandom Forest",
+          "10-Fold Cross-Validation",
+          "{F1-Score: 0.856 - SVM, Accuracy: 0.866 - Random Forest}",
+          "Authors do an ex-post analysis of dropout at their university- Not ondly do they create a set of predictive models but also look to analyze factors that help explain Dropout.\n\nClass change is much more difficult to prediuct correctly than the otyher 2 classes. \n\nAuthors also look to optimize their C4.5 Decision Tree (which in this case, since its WeKA should be J48).\n\n",
+          "Bejhhavioral data is extracted only from Self-Reports.\n\nSmall Sample size (1055 students).\n\nMachine Learning Models used are relatively simple, but 3 of them are Tree-Based.\n\n"
+        ]
+      ],
+      "index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1904750c-f3ba-80e0-9b1a-cfff2af39f86",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-80e0-9b1a-cfff2af39f86",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+        },
+        "created_time": "2025-02-04T23:09:00.000Z",
+        "last_edited_time": "2025-02-04T23:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1904750c-f3ba-8052-861b-f3014ea93092",
+      "type": "paragraph",
+      "text": "Analyzing dropout in large datasets is difficult. Authors propose a non-parametric ML approach that handles large datasets well and is interpretable. Results of this approach show that performance in first year, personal and contextual variables play a key role in predicting dropout.",
+      "raw": {
+        "object": "block",
+        "id": "1904750c-f3ba-8052-861b-f3014ea93092",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+        },
+        "created_time": "2025-02-04T23:09:00.000Z",
+        "last_edited_time": "2025-03-25T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Analyzing dropout in large datasets is difficult. Authors propose a non-parametric ML approach that handles large datasets well and is interpretable. Results of this approach show that performance in first year, personal and contextual variables play a key role in predicting dropout.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Analyzing dropout in large datasets is difficult. Authors propose a non-parametric ML approach that handles large datasets well and is interpretable. Results of this approach show that performance in first year, personal and contextual variables play a key role in predicting dropout.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-801f-a6f3-c2ab3c45bb0b",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-801f-a6f3-c2ab3c45bb0b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+        },
+        "created_time": "2025-03-25T15:27:00.000Z",
+        "last_edited_time": "2025-03-25T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-804e-8689-f43c67810956",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-804e-8689-f43c67810956",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+        },
+        "created_time": "2025-03-25T15:27:00.000Z",
+        "last_edited_time": "2025-03-25T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c14750c-f3ba-805e-8293-e8520dfde747",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c14750c-f3ba-805e-8293-e8520dfde747",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80c2-b6c6-fb2359617980"
+        },
+        "created_time": "2025-03-25T15:27:00.000Z",
+        "last_edited_time": "2025-03-25T15:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4",
+  "title": "Using learning analytics with temporal modeling to uncover the interplay of before-class video viewing engagement, motivation, and performance in an active learning context",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "3502b6fa-9587-4fa9-9be1-1ad7c084ca9e",
+          "name": "Active Learning",
+          "color": "brown"
+        },
+        {
+          "id": "54ccbcc4-6c00-4f19-b9ce-7ca5bc6091c7",
+          "name": "Video Viewing Engagement",
+          "color": "purple"
+        },
+        {
+          "id": "55602dbf-3edf-453f-a776-78f4bc794f6b",
+          "name": "Data Science Applications in Education",
+          "color": "pink"
+        },
+        {
+          "id": "120ac6a7-3caa-425a-bf2f-c0f51fa33be0",
+          "name": "Gender Difference",
+          "color": "default"
+        },
+        {
+          "id": "6f4666b7-82bb-463b-b22a-61c45fcec01b",
+          "name": "Educational Equity",
+          "color": "green"
+        },
+        {
+          "id": "efeeea86-c32d-4682-a7ad-3aed1cb2fe6a",
+          "name": "Learning Environments",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “Machine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “Machine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers & Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers & Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T00:00:00.000+01:00",
+        "end": "2025-04-26T18:46:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-08-03",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Using learning analytics with temporal modeling to uncover the interplay of before-class video viewing engagement, motivation, and performance in an active learning context",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Using learning analytics with temporal modeling to uncover the interplay of before-class video viewing engagement, motivation, and performance in an active learning context",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1e04750c-f3ba-8085-8a89-e9396ec6dbcc",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Regression",
+          "Higherr Education",
+          "Blended Learning",
+          "118 Social Science students",
+          "1 Video-Based Statistics Course",
+          "LMS logs, Student Characteristics, Questionnaire, Performance",
+          "Self-Determination Theory",
+          "[Male,  Age, Pre-test, Frq. of SB, Freq. of Pause, Freq. of SF, Ratio of SB, Ratio of Pause, Ratio of SF, Autonomous Motivation, Controlled Motivation]",
+          "Totasl dataset is comprised of 631 lesson-based records. Missing values were not considered.\n\n",
+          "Dynamic SEM",
+          "Chi-Squared Statistics,RSquared, RMSEA",
+          "-",
+          "Division across demographic groups shows that:\n\nMales have higher levels of autonomous motivation.\n\nOlder learners not only have more autonoumous motivation but also have more controlled motivation.\n\nFrequently rewinding videos reveals less controlled motivation. However, larger steps when rewinding videos are indivative of higher controlled motivation.\n\nOnly autonomous motivation was found to be a significant predictor of performance.\n\nStudent behavior tends to be consistent across different lessons.",
+          "Autonomous motivation plays an important role in predicting learning performance in weekly quizzes.\n\nIndividual differences between students are, in general, better indirect predictors of performance.\n\nAssisting students who show poorer prior knowledge may be an effective way of increasing the motivation of theses learners. \n\nMoreoever, especially when it comes to video-based lessons, preparing learners for more difficult concepts (e.g. providing a poause before introcing them) cvould be benefical to keep them engaged.\n\n",
+          "Authors do a sequential test of different variables and video-watching behaviors across a set of different lessons.\n\nDynamic SEM allow the use of longitudinal data while, simultaneously, tracking how behaviour change throughout the lesson.\n\nAnalysis is done before watching a video, after watching a class and what are the impacts for next lesson.\n\nAnalysis is done at different levels:\n\n- Demographics and before watching\n\n- Direct effects of watching video on next lesson\n\nIndirect effects between video-watching engagements\n\nConsisentecy across succesive lessons\n",
+          "STEM-specific cohort.\n\nCould have benefitted from considering data from additional sources (or different feature sets).\n\nDoes not use final grade as the metric for course achievement - focus is on weekly quizzes instead."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "d49e8171-54db-4e3c-a67e-69fb5d63a483",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "d49e8171-54db-4e3c-a67e-69fb5d63a483",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+        },
+        "created_time": "2024-08-06T21:23:00.000Z",
+        "last_edited_time": "2024-08-06T21:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5b0fc391-1d17-4d97-8d77-8b1298ff62ba",
+      "type": "paragraph",
+      "text": "Authors use a Dynamic SEM model to create an integrated temporal model that is meant to estimate motivation of students from video-watching behavior. Results show that there are patterns in video-watching behavior that can determine student performance.",
+      "raw": {
+        "object": "block",
+        "id": "5b0fc391-1d17-4d97-8d77-8b1298ff62ba",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+        },
+        "created_time": "2024-08-06T21:23:00.000Z",
+        "last_edited_time": "2024-08-06T21:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors use a Dynamic SEM model to create an integrated temporal model that is meant to estimate motivation of students from video-watching behavior. Results show that there are patterns in video-watching behavior that can determine student performance.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors use a Dynamic SEM model to create an integrated temporal model that is meant to estimate motivation of students from video-watching behavior. Results show that there are patterns in video-watching behavior that can determine student performance.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d135329c-e4e7-43c4-b7ae-e54577fa0a8b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "d135329c-e4e7-43c4-b7ae-e54577fa0a8b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+        },
+        "created_time": "2024-08-06T21:23:00.000Z",
+        "last_edited_time": "2024-08-06T21:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-804b-97da-dbdbe6500adf",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-804b-97da-dbdbe6500adf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+        },
+        "created_time": "2025-04-25T17:48:00.000Z",
+        "last_edited_time": "2025-04-25T17:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1e04750c-f3ba-8085-8a89-e9396ec6dbcc",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1e04750c-f3ba-8085-8a89-e9396ec6dbcc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+        },
+        "created_time": "2025-04-25T17:48:00.000Z",
+        "last_edited_time": "2025-04-25T17:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

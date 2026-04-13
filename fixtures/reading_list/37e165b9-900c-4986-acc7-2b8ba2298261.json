@@ -1,0 +1,671 @@
+{
+  "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261",
+  "title": "Effects of Internal and External Conditions on Strategies of Self-regulated Learning: A Learning Analytics Study",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "1996b434-ecc5-403b-a5a8-be00fc544eaa",
+          "name": "Self-Regulated Learning",
+          "color": "default"
+        },
+        {
+          "id": "69879c35-8e43-4348-a4a1-0c0d56f92e96",
+          "name": "Self-Regulated Learning Strategies",
+          "color": "yellow"
+        },
+        {
+          "id": "e8628992-3c2a-4df4-9052-f01199a51231",
+          "name": "Scaffolding",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-03T22:10:00.000+00:00",
+        "end": "2026-02-04T17:56:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Srivasta et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Srivasta et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Effects of Internal and External Conditions on Strategies of Self-regulated Learning: A Learning Analytics Study",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Effects of Internal and External Conditions on Strategies of Self-regulated Learning: A Learning Analytics Study",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-80a4-9eec-f5c2530bd63a",
+      "heading": "Summary Table DESC",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Process Mining",
+          "Higher Education",
+          "E-Learning",
+          "173 MSc Students",
+          "1 Academic Writing Course",
+          "LMS Logs, \nMESH Questionnaire, Pre-Test, Pre-Survey, Post-Test, Transfer Test, Post Survey",
+          "Winne and Hadwin SRL Model",
+          "[17 Learning Actions]",
+          "Authors use the MESH questionnaire to see how they perceive different strategies to be effective or not. \n\nIIn total, the authors identified 24053 instances of SRL processes in their sample. \n\nThese were made to compute the transition probabilities between different actions.",
+          "First-Order Markov Model",
+          "-",
+          "-",
+          "-",
+          "-",
+          "80 participants from the original 253 student sample were excluded.\n\nFOMM were exclusively used to extract sequences of learning behaviors and mapping them to the SRL Processess.\n\nThese were subsequently clustered.",
+          "  • Findings on external conditions may be biased due to the amount of removed participants.\n\n  • Unclear student motivations to perform task (i.e. learners may have intended to just get a good grade)."
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "173 MSc Students",
+          "1 Academic Writing Course",
+          "LMS Logs, \nMESH Questionnaire, Pre-Test, Pre-Survey, Post-Test, Transfer Test, Post Survey",
+          "Winne and Hadwin SRL Model",
+          "[SRL Processes as Identified by FOMM]",
+          "The SRL processes were identified and mapped according to COPES. ",
+          "Expectation-Maximization",
+          "-",
+          "3",
+          "Cluster 1: Read First, Write Next: - 91 members: Reads materials first and then starts composing essays. They rarely go back to read the instructions. These ere the ones that performed better (even if slightly).\n\nCluster 2: Read and Write Simultaneously - 48 members:  Tended to alternatte more often between reading description and writing materials (to make sure).\n\nCluster 3: Reading with Quiz: Reads materials with intention of passing on the Quiz.",
+          "Encouraging learners to Read First and Write next mildly promote the development of knowledge transfer. ",
+          "80 participants from the original 253 student sample were excluded.\n\nAuthors check differences between groups using the ANOVA test and, when normality is not ensured using Kruskall-Wallis ",
+          "• Findings on external conditions may be biased due to the amount of removed participants.\n\n  • Unclear student motivations to perform task (i.e. learners may have intended to just get a good grade)."
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-8003-916e-d5631876f052",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8003-916e-d5631876f052",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-03-03T22:24:00.000Z",
+        "last_edited_time": "2025-03-03T22:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80b6-9e7f-fffdb3a0ee98",
+      "type": "paragraph",
+      "text": "Interpreting SRL attributes merely from behavior is challenging due to potential differences in task and context. Authors propose a new method to extract SRL processes to a dataset of a multi-source writing task. ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80b6-9e7f-fffdb3a0ee98",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-03-03T22:24:00.000Z",
+        "last_edited_time": "2025-03-03T22:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Interpreting SRL attributes merely from behavior is challenging due to potential differences in task and context. Authors propose a new method to extract SRL processes to a dataset of a multi-source writing task. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Interpreting SRL attributes merely from behavior is challenging due to potential differences in task and context. Authors propose a new method to extract SRL processes to a dataset of a multi-source writing task. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80c6-a195-df44dca30b37",
+      "type": "paragraph",
+      "text": "Authors relate the strategies to outcome, internal and external conditions. Ultimately, they identify 3 learning strategies. ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80c6-a195-df44dca30b37",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-03-03T22:26:00.000Z",
+        "last_edited_time": "2025-03-03T22:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Authors relate the strategies to outcome, internal and external conditions. Ultimately, they identify 3 learning strategies. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Authors relate the strategies to outcome, internal and external conditions. Ultimately, they identify 3 learning strategies. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2fc4750c-f3ba-80a8-b556-d23a557982bf",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2fc4750c-f3ba-80a8-b556-d23a557982bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2026-02-03T17:46:00.000Z",
+        "last_edited_time": "2026-02-03T17:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-8023-a120-c9ae0a584a03",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-8023-a120-c9ae0a584a03",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-803c-bb00-eb82b2d144ad",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-803c-bb00-eb82b2d144ad",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80a4-9eec-f5c2530bd63a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80a4-9eec-f5c2530bd63a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+        },
+        "created_time": "2025-12-14T16:13:00.000Z",
+        "last_edited_time": "2025-12-14T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

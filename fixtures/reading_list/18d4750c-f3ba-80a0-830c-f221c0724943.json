@@ -1,0 +1,634 @@
+{
+  "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943",
+  "title": "Analysis of First-Year University Student Dropout through Machine Learning Models: A Comparison between Universities",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "0668bd07-b85e-4c35-ae13-ccca8f2bfb26",
+          "name": "First-year Student Dropout",
+          "color": "orange"
+        },
+        {
+          "id": "10bb505c-2028-483c-8f05-a1d6ccdc1083",
+          "name": "Universities",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mathematics",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mathematics",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T15:00:00.000+00:00",
+        "end": "2025-03-26T01:03:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Opazo et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Opazo et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Analysis of First-Year University Student Dropout through Machine Learning Models: A Comparison between Universities",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Analysis of First-Year University Student Dropout through Machine Learning Models: A Comparison between Universities",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c24750c-f3ba-80e0-b1be-db3cb7fb3a82",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Not Applicable",
+          "Predicting Student Dropout During the First Year",
+          "Dropout (+) vs No Dropout (-)",
+          "3750 first-year engineering students from UAI\n\n2201 first-year engineering students from Universidad de Talca\n\n\n\n\n\n",
+          "Limited to Engineering Students",
+          "Student Demographics, \nHighschool History and Characteristics, Application data, University Admission Test Scores",
+          "[Year, Gender, School, Admission, Nem, Ranking, Mat, Lang, Optional, Pps, Preference, Commune, Region, University]",
+          "Start of First Year",
+          "From description, data follows a standard ML pipeline: \n\nBinning and aggregations, Feature Selection etc..\n\nClass Imabalances are addressed by Undersampling of the Majority Class.\n\nNominal Variables were One-Hot Encoded for Tree-based Models.\n\nBoth datasets are reduced to a small portion of their initial sizes due to the Data Cleaning Efforts.",
+          "kNN\nSVM\nNaive Bayes\nDT\nRandom Forest\nGBoost\nMLP\nLogistic Regression",
+          "10-Fold Cross-Validation",
+          "{F1-Score: 0,37 - GBoost, Recall: 0.58 - kNN, Precision: 0.28 - RF & GBoost, Accuracy: GBoost & RF}",
+          "Optimal Combination of Hyper-Parameters for each algorithm were assessed via Gridd-Search Optimization.\n\nModels are compared as by the results in Aggregate and, later, separated by University. Model performance seems to be better for UTalca than for UAI.\n\nAuthors also perform analysis of Feature Importance and realize that Mat is the most important variable",
+          "Homogenous set of students (Engineering despite the 2 Universities).\n\nNo comparison against university specific models.\n\nNoo use of behavioral data (e.g. logs) which could be helpful in obtaining better predictions.\n\nUninspiring Model Performance."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-80c1-b764-f233a3a0552c",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80c1-b764-f233a3a0552c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-02-06T14:52:00.000Z",
+        "last_edited_time": "2025-02-06T14:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8027-aa20-ee3ca6ba953b",
+      "type": "paragraph",
+      "text": "The work uses multiple ML models on 2 Chilean universities with the goal of predicting the probability of first-year engineering students dropping out. Reulsts show that doing university-specific models would lead to better results, with Gradfient-Boosting approaches being among the top-performing. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8027-aa20-ee3ca6ba953b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-02-06T14:52:00.000Z",
+        "last_edited_time": "2025-02-06T15:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The work uses multiple ML models on 2 Chilean universities with the goal of predicting the probability of first-year engineering students dropping out. Reulsts show that doing university-specific models would lead to better results, with Gradfient-Boosting approaches being among the top-performing. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The work uses multiple ML models on 2 Chilean universities with the goal of predicting the probability of first-year engineering students dropping out. Reulsts show that doing university-specific models would lead to better results, with Gradfient-Boosting approaches being among the top-performing. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80d7-810c-c2fe977dd973",
+      "type": "paragraph",
+      "text": "In terms of interpretability, authors identify that students who achieve higher test scores are more likely to continue with their studies and not dropout. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80d7-810c-c2fe977dd973",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-02-06T15:03:00.000Z",
+        "last_edited_time": "2025-02-06T15:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In terms of interpretability, authors identify that students who achieve higher test scores are more likely to continue with their studies and not dropout. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In terms of interpretability, authors identify that students who achieve higher test scores are more likely to continue with their studies and not dropout. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80f5-ae85-e9eebbc5cd63",
+      "type": "paragraph",
+      "text": " ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80f5-ae85-e9eebbc5cd63",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-02-06T15:04:00.000Z",
+        "last_edited_time": "2025-02-06T15:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-8039-bc65-c3f11e3a2e0f",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-8039-bc65-c3f11e3a2e0f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-03-26T00:14:00.000Z",
+        "last_edited_time": "2025-03-26T00:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-80e0-b1be-db3cb7fb3a82",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-80e0-b1be-db3cb7fb3a82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18d4750c-f3ba-80a0-830c-f221c0724943"
+        },
+        "created_time": "2025-03-26T00:14:00.000Z",
+        "last_edited_time": "2025-03-26T00:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

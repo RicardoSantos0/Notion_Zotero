@@ -1,0 +1,643 @@
+{
+  "page_id": "9ce53305-2dee-416d-b988-81884c3698c2",
+  "title": "Educational data mining: prediction of students' academic performance using machine learning algorithms",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64e6c59a-44a1-4f4f-9332-abe48594beb7",
+          "name": "Machine Learning",
+          "color": "pink"
+        },
+        {
+          "id": "4d6a2fb4-b7a1-4f73-a8e2-1e9dc28469e5",
+          "name": "Educational Data Mining",
+          "color": "brown"
+        },
+        {
+          "id": "00f9d016-79cc-4d7b-a3f8-3b8027895832",
+          "name": "Predicting Achievement",
+          "color": "red"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "8bf0b68c-6d78-48c7-b3bb-6f688005376f",
+          "name": "Early Warning Systems",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “MAchine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “MAchine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Smart Learning Environments",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Smart Learning Environments",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-04T09:00:00.000+01:00",
+        "end": "2025-11-02T12:47:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Yağcı",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Yağcı",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Educational data mining: prediction of students' academic performance using machine learning algorithms",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Educational data mining: prediction of students' academic performance using machine learning algorithms",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "29f4750c-f3ba-80ae-86f4-fc941f7e8769",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "Final Exam Score Categories",
+          "Grade<32.5 (1), 32.5<Grade<55 (2), 55<Grade<77.5(3), Grade>77.5 (4)",
+          "1854 university students",
+          "1 Turkish Language Course",
+          "Student Infornation System",
+          "[Midterm Score, Faculty, Department]",
+          "After Midterm Exam",
+          "Grades are discretized into 4 different categories.\n\n",
+          "Naive Bayes, Random Forest, SVM, MLP, Logistic Regression, kNN",
+          "No Separation",
+          "{AUC: 0.860 - RF, Accuracy: 0.746 - RF & MLP, F1-Score: 0.723 - MLP, Precision: 0.752 - RF, Recall: 0.746 - RF & MLP}",
+          "Authors create a comparison of predictive models. \n\nAuthors do not perform any form of validation. ",
+          "- No validation\n\n- Does only consider Midterm exams.\n\n- Small dataset"
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "5562897a-3221-4b31-8c4c-2c839062f966",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "5562897a-3221-4b31-8c4c-2c839062f966",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2024-08-04T18:39:00.000Z",
+        "last_edited_time": "2024-08-04T18:39:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5637a753-26b8-4935-a520-dc90248064a6",
+      "type": "paragraph",
+      "text": "The goal of the paper is to create a predictive model that is able to predict final exam scores taking into consideration midterm exams.\n\nAuthors compare the performance of multiple different algorithms, SVM, RF, kNN, NB, etc… Sample includes data from a Turkish Language Course in the Fall of 2019/2020. Proposed model achievef 70 to 75% accuracy.",
+      "raw": {
+        "object": "block",
+        "id": "5637a753-26b8-4935-a520-dc90248064a6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2024-08-04T18:39:00.000Z",
+        "last_edited_time": "2024-08-04T18:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The goal of the paper is to create a predictive model that is able to predict final exam scores taking into consideration midterm exams.\n\nAuthors compare the performance of multiple different algorithms, SVM, RF, kNN, NB, etc… Sample includes data from a Turkish Language Course in the Fall of 2019/2020. Proposed model achievef 70 to 75% accuracy.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The goal of the paper is to create a predictive model that is able to predict final exam scores taking into consideration midterm exams.\n\nAuthors compare the performance of multiple different algorithms, SVM, RF, kNN, NB, etc… Sample includes data from a Turkish Language Course in the Fall of 2019/2020. Proposed model achievef 70 to 75% accuracy.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29f4750c-f3ba-8070-838b-dfa0a874bbee",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29f4750c-f3ba-8070-838b-dfa0a874bbee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2025-11-02T11:28:00.000Z",
+        "last_edited_time": "2025-11-02T11:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29f4750c-f3ba-8047-895c-d0e2c0f127fc",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29f4750c-f3ba-8047-895c-d0e2c0f127fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2025-11-02T11:28:00.000Z",
+        "last_edited_time": "2025-11-02T11:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/14b5eaaa-3cd0-4ec1-889a-4c79d1b67a8a/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466XR6YENFA%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152749Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHO1BuYvwShF72Zml9JRD553nnaX4zAA8f18vHllEcJXAiASBnCpbsFkumXFKtFbuIB8k31g%2B38gZqyKvBn3l9UWkyr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMcKLGjcRfz8QXxVqzKtwDL8hH0HHKqWFT28wWphLyx2xL%2FUWSzYBLt4zB5Qs%2B67bclJ%2BWx4FDjW4cSloBIAz62mrkYg8646ZCXnt2am6OcfK0nIErfNOCrxshgsgfL2oz%2FulxjLLC%2B8sOSGc%2B76FRpjD5Pc74Fbi9G7r7X4ECjByFnOiHoNSGBDTQl5ZwO%2BIbwiSmwgLOO3b6RZ%2BF2g61ZfAHzCD0GpCFhJzBxWK5oc3wGaV%2Fq43a0L7a%2Fg5B3moEfSKvdPxLHr91%2FwSI42L%2FqQw586TRhppP58XJH6F3wVjbQpgFs5QEfB6eKhhZYnZ6yyL0%2FpMaOwWKpMPVMq5tJyQTXbTEM75QCVkZEl%2Bn7jUO570ja%2F20KQ7Rtd2fTo9XVOSInDVRFkiGg%2F3qpibSTAzfdP0O7BblshlthGpSnIJ%2BwA9s9dmWf0OhNLhHnng0sG2wV6PSofSSVVyZba2xtgnd2ghV3TDkfLl5SHEUCWtlaetSytcQNL9%2FH2U7HLzQuKYOwZ1%2Bj5BQGF4RXmaUVGZZU2TXUyH5Ff%2BhMWi7HvBtypg8TgKwgsMpvDwnRDQv8IAf6XQNQRTRXPovBT1G%2FjNwPTHDMhV%2FJpFqzEjiI8dXVdbXdkvfL5zB2Rf6Vo9E4NOjSl3AslscoZIwrvLzzgY6pgF93HRWN8hniYwoE5%2B6n3b64QAwjaLUeQo4reeUbRRW%2BiMFJ0TvdaUsW93dLMx5wu8JZYjeNM%2FOYIwGEIxppmNRxOkqhdA5R6xRHFAH%2FquMGu71wnuRwCiYHMc1F35tGqdKdpdavpEfBGAyX1cc%2FKjrCIW0xR1YKYhA%2B6Ug%2FSFdQL6%2FRXIRS6DyKzdZYFtf%2B%2B9J9R6bFOAA9%2F%2B8tm%2FuWpCTsy1pskBb&X-Amz-Signature=96513588e4e160b6c7f88a5292f3908ea1522f52c1015b591730e2b48214e5cd&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:27:49.579Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29f4750c-f3ba-80a2-a881-cc57b1c5d9f5",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "29f4750c-f3ba-80a2-a881-cc57b1c5d9f5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2025-11-02T11:26:00.000Z",
+        "last_edited_time": "2025-11-02T11:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29f4750c-f3ba-80ae-86f4-fc941f7e8769",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29f4750c-f3ba-80ae-86f4-fc941f7e8769",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2025-11-02T11:26:00.000Z",
+        "last_edited_time": "2025-11-02T11:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "29f4750c-f3ba-80d7-9a66-de7916069755",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "29f4750c-f3ba-80d7-9a66-de7916069755",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+        },
+        "created_time": "2025-11-02T12:04:00.000Z",
+        "last_edited_time": "2025-11-02T12:04:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

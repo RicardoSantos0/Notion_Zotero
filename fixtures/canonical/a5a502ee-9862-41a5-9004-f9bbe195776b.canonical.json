@@ -1,0 +1,76 @@
+{
+  "references": [
+    {
+      "id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+      "title": "A Reinforcement Learning Based Recommendation System to Improve Performance of Students in Outcome Based Education Model",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3b06cc4a",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Optimal Learning Policy",
+          "Students": "198 undergraduate students",
+          "Courses": "Multiple Courses in a Software Engineering Program",
+          "Data sources": "Course Learning Outcomes, CLO marks, PLO Description, Course Information",
+          "Initialization Method": "The start state is based on Cosine similarity → which measures the degree of similarity between the learner’s CLOs and each Bi-Cluster.",
+          "Updates to Recommendations": "Recommendations are designed in a way that maximizes what the author’s call return.\n",
+          "Preprocessing Details": "Dataset preparation involves the mapping of courses to CLOs (which are themselves mapped to PLOs and OBEs)- Students are assigned a score on CLO based on their marks - leading to the creation of a student CLO matrix.\n\nStudents are bi-clustered (in a way that a student can be assigned to different CLO sets - using Bibit - which requires converting CLO scores to 1/0 form. \n\nAfter forming the bi-clustersm the authors attempted to merge them absed on Jaccard similarity.\n\n",
+          "Recommendation types": "Recommendation for current defficient CLO",
+          "Evaluation": "{Precision: 0.4241 - 500 episodes, Recall: 0.5389 - 500 episodes. F1-Score: 0.47420 - 500 episodes, CLO Coverage: 0.8045 - 450 episodes, Student Coverage: 0.9827 - 350 episodes onward}",
+          "Comments": "Authors use Reinforcement Learning to create “optimal learning paths”. \n\nAuthors start with the creation of bi-clusters, and  these bi-clusters will be used as reference for trainining along a Square Grid. \n\nFrom here, Q-Learning is used to learn the optimal policy for the student in question. \n\nAuthors do a set of tests comparing the optimal policy against other randomly generated policies. Evaluation is done via comparison of prediction of a deficient CLO for a student vs actual deficient CLOs. Performance is tested on multiple episodes and the model is shown to be better at later iterations.\n\nAuthros also perform different optimizations of parameters.",
+          "Limitations": "- Training requires labels for deficient CLOs. \n\n- Only uses Q-Learn to solve the Reinforcement Learning problem. \n\n- Only Bibit is explored as a clustering approach.\n\n- Does not use student information beyibd the CLO scores for each student. \n\nCan only use used retrospectively: can only identify CLOs and make suggestions for CLOs taken in previous semesters.\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+        "block_index": 10
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9d5af27d",
+      "reference_id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+      "text": "Outcome Based Education is an educational model with 3 main objectives: ",
+      "provenance": {
+        "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+      }
+    },
+    {
+      "id": "an_90b5e829",
+      "reference_id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+      "text": "The objective of the work is to recommend online resources so that students can develop their course Learning Outcomes. The authors create their own dataset and use it to create a student to CLO matrix using a bi-clustering approach.",
+      "provenance": {
+        "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+      }
+    },
+    {
+      "id": "an_eec8075a",
+      "reference_id": "a5a502ee-9862-41a5-9004-f9bbe195776b",
+      "text": "The Student student bi-cluster are then used as input for Reinforcement Learning environment that generates learning path sequences. ",
+      "provenance": {
+        "page_id": "a5a502ee-9862-41a5-9004-f9bbe195776b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

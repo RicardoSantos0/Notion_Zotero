@@ -1,0 +1,676 @@
+{
+  "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f",
+  "title": "An Early Feedback Prediction System for Learners At-Risk Within a First-Year Higher Education Course",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "d5e82f8e-c001-4643-bb0a-886bfe9183f5",
+          "name": "Pedictive Models",
+          "color": "yellow"
+        },
+        {
+          "id": "bfd6aad4-710e-47cc-b766-a69bd2bac7b8",
+          "name": "Students at risk",
+          "color": "pink"
+        },
+        {
+          "id": "95eca2a4-ff10-43ce-8688-e13843359cd5",
+          "name": "First Year Student",
+          "color": "purple"
+        },
+        {
+          "id": "5335ff6c-f37e-44d3-8159-a0bb0d1cde2a",
+          "name": "Personalized Feedback",
+          "color": "yellow"
+        },
+        {
+          "id": "4f572fd6-0895-436b-9e4e-9dda138b9fec",
+          "name": "Online Learning",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND “Student Performance”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND “Student Performance”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2019
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-31T09:00:00.000+01:00",
+        "end": "2026-04-01T17:22:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Baneres et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Baneres et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An Early Feedback Prediction System for Learners At-Risk Within a First-Year Higher Education Course",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An Early Feedback Prediction System for Learners At-Risk Within a First-Year Higher Education Course",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "3354750c-f3ba-804f-983a-d29875f7928f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "End of Course Performance",
+          "Pass vs Fail",
+          "Whole-institution GAR analysis: 608 courses after cleansing, with 240,929 records for training and 85,198 for testing. Case study: 537 students in a first-year Computer Fundamentals course",
+          "Whole institution (UOC) for model analysis; case study in 1 first-year Computer Fundamentals course in Computer Science",
+          "Institutional data mart, continuous assessment registry (CAR), student grades on assessment activities",
+          "[Sequence of Assessment Activity Grades]",
+          "From the first assessment activity onward, updated gradually after each newly graded activity",
+          "Data from the institutional data mart covered 3 semesters. 2016 Fall and 2017 Spring were used for training; 2017 Fall for testing. Courses whose number of assessment activities changed across semesters were removed, leaving 608 courses. Predictive submodels were generated course by course according to the number of assessment activities. Results were distributed across the semester timeline and smoothed using LOESS regression for institutional analysis. A threshold of 70% was defined to identify low-quality models and adapt interventions.",
+          "GAR-NB, GAR-CART, GAR-kNN, GAR-SVM",
+          "Temporal Validation",
+          "Institutional GAR model: \n\n{LOESS TPR: [0.514, 0.8681] - GAR-NB, F1-Score: [0.5336, 0.8376]- GAR-NB, Accuracy: [0.8067, 0.9158] - GAR-NB, TNR: [0.9152, 0.9362] - GAR-NB}\n\nCase study (Computer Fundamentals): f{Accuracy: 0.9305 - PrAA4, TNR: 0.9795 - PrAA4, TPR: 0.9327 - PrAA4, F1-Score: 0.9490 - PrAA4}.",
+          "Authors attempt to do prediction of performance of the student at the start of the academic year.\n\nThis is Model B, the one using the feature sets of “immutable data”.\n\nAuthors also use Bayesian Models with default parameters. Results are little unintelligible though.Main contribution is an early warning system combining a simple course-specific predictive model, dashboards for students and teachers, and an automated personalized feedback service. A distinctive feature is that students are shown the minimum grade needed in the next activity to retain a good chance of passing. The warning system uses Green-Amber-Red (plus Black for likely dropout in the teacher view). The first case-study activity used only Yellow because the first submodel was below the quality threshold. The system also gathered student feedback and reasons for poor performance / non-submission.",
+          "The GAR model relies only on grades, so it ignores LMS interaction, demographic, and other potentially useful features.\n\nIt becomes invalid if the assessment structure changes across semesters; 281 courses (31.6%) were excluded for this reason.\n\n TPR is weaker in early stages, partly because of class imbalance and the presence of dropout behaviour. \n\nSome courses had underfitted models due to small historical samples. \n\nThe impact of the EWS on retention/performance cannot be firmly established from one semester alone."
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "10136047-1ee7-4a52-843f-73401ddaa3d9",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "10136047-1ee7-4a52-843f-73401ddaa3d9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2024-07-31T18:05:00.000Z",
+        "last_edited_time": "2024-07-31T18:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "72df9916-f29f-45bd-9f79-ce050e0c9bce",
+      "type": "paragraph",
+      "text": "The paper is divided into two main components:",
+      "raw": {
+        "object": "block",
+        "id": "72df9916-f29f-45bd-9f79-ce050e0c9bce",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2024-07-31T18:05:00.000Z",
+        "last_edited_time": "2024-07-31T18:09:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper is divided into two main components:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper is divided into two main components:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f3a98ae0-92e3-4f65-987d-c56c881da316",
+      "type": "paragraph",
+      "text": "The authors finalized by discussing the factors that contribute to an at-risk status, show the predictive performance of their model in the pilot test and also shed light on how well the system was received by their students.",
+      "raw": {
+        "object": "block",
+        "id": "f3a98ae0-92e3-4f65-987d-c56c881da316",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2024-07-31T18:09:00.000Z",
+        "last_edited_time": "2024-07-31T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors finalized by discussing the factors that contribute to an at-risk status, show the predictive performance of their model in the pilot test and also shed light on how well the system was received by their students.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors finalized by discussing the factors that contribute to an at-risk status, show the predictive performance of their model in the pilot test and also shed light on how well the system was received by their students.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8059-85c4-fe55676ea9d3",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8059-85c4-fe55676ea9d3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2026-04-01T16:11:00.000Z",
+        "last_edited_time": "2026-04-01T16:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-8089-81c8-fa103a95d97b",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-8089-81c8-fa103a95d97b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2026-04-01T16:11:00.000Z",
+        "last_edited_time": "2026-04-01T16:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "3354750c-f3ba-804f-983a-d29875f7928f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "3354750c-f3ba-804f-983a-d29875f7928f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2026-04-01T16:11:00.000Z",
+        "last_edited_time": "2026-04-01T16:12:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0b96689c-8319-4c59-857e-954f991d8bee",
+      "type": "paragraph",
+      "text": " ",
+      "raw": {
+        "object": "block",
+        "id": "0b96689c-8319-4c59-857e-954f991d8bee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "615b9d1a-ffa3-4ba9-9904-3c8e1cc3936f"
+        },
+        "created_time": "2024-07-31T18:10:00.000Z",
+        "last_edited_time": "2024-07-31T18:10:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

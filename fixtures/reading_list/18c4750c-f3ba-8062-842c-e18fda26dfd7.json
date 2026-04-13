@@ -1,0 +1,711 @@
+{
+  "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7",
+  "title": "Learning from Non-Assessed Resources: Deep Multi-Type Knowledge Tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "ddfa9244-9b31-4853-8d08-d3458875058e",
+          "name": "Multiple Learning Resource Types",
+          "color": "red"
+        },
+        {
+          "id": "a8102509-acfa-4038-b83a-f3be57763444",
+          "name": "Non-Assessed Learning Resources",
+          "color": "default"
+        },
+        {
+          "id": "b360aae8-d9ee-4bbe-8b94-e439790a0ed0",
+          "name": "Memory Augmented Neural Networks",
+          "color": "default"
+        },
+        {
+          "id": "d274dd21-86ec-4803-b1d6-6813ce89cdb8",
+          "name": "Domain Knowledge Modeling",
+          "color": "pink"
+        },
+        {
+          "id": "3aa81bff-0dd8-4417-b06b-366853bb14ea",
+          "name": "Student Knowledge Modeling",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Learning Analytics”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Learning Analytics”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "EDM",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "EDM",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T16:15:00.000+00:00",
+        "end": "2025-03-27T15:43:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Wang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Wang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Learning from Non-Assessed Resources: Deep Multi-Type Knowledge Tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Learning from Non-Assessed Resources: Deep Multi-Type Knowledge Tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1bb4750c-f3ba-8080-a25f-dda2e9bc835c",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "Getting the next assessed learning activity correct on timestep t",
+          "Correct (1) vs Incorrect (0)",
+          "1000 learners from EdNet\n\n2063 learners from Junyi2063 and 1564 from Junyi 1564",
+          "Each dataset often refers to a single course.",
+          "Description of Activities Undertaken.\n\nLearner interactions and performance on graded and ungraded assessments.",
+          "Knowledge of the learner in each knowledge concept.",
+          "Current KT approaches do not take into account non-assessed learning resources even though interaction with these types of resources is instrumental towards knowledge acquisition.\n\nIn other words, since there is usually no latent space of knowledge concepts that are being evaluated in graded exercises, doing that exercise for non-assessed resources is even more challenging. ",
+          "Authors claim non-assess learning resources is pivotal. Thus, the proposed model DMKT which not only estimates knowledge gains between different assessed exercises but also tries to do the same between non-assessed and assessed exercises. ",
+          "Each learner is represented by a memory matrix which stores the knowledge states of each student.\n\nAfter each question, the memory matrix is updated using a erase-followed-by-add mechanism.\n\nFor a given knowledge concept, different resources have different importances/weights. Attention mechanisms are especially useful for this specific step.\n\nInitialization of both Memory Matrix is done via Gaussian initialization. \n\nSequence of actions is optimized to be of length 50.",
+          "DKT, DKVMN, DeepIRT, SAKT, SAINT, AKT, MVKM, MLP-M, DKT-M, DKVMN-M, SAKT-M, SAINT-M, AKT-M, Deep Multi-Type Knowledge Tracing",
+          "5-Fold Cross-Validation",
+          "EDNet\n{AUC: 0.6675 - DMKT}\n\nJunyi1564\n{AUC: 0.9440 - DMKT}\n\nJunyi2063\n{AUC: 0.8714 - DMKT}",
+          "Authors use a different form of representation of learners adapted from DKVKT.\n\nIt uses a key matrix to store knowledge concepts. In addition, it uses an Attention mechanism to represent the ungraded resources → these are an embedding representation of the concepts from each ungraded exercise. \n\nMoreover, it has a Memory matrix meant to represent each learner and his current knowledge on different knowledge components. At different timesteps, the learner interacts with components and questions, which leads to the update of the memory matrix. \n\nThus, for Question at time t, the input is the knowledge state of the learner and the knowledge concepts that exercise evaluates. \n\nDiscussion of interpretability is very much welcomed, as the notion of correlation between resources can help identify similar types of resouces.",
+          "AUC as only classification metric being considered.\n\nSmall numbe of students - despite high number of interactions."
+        ],
+        [
+          "Regression",
+          "MOOC",
+          "Score on next graded assessment on timestep t",
+          "Normalized score (0-1)",
+          "686 learners from MORF",
+          "Each dataset often refers to a single course.",
+          "Description of Activities Undertaken.\n\nLearner interactions and performance on graded and ungraded assessments.",
+          "Knowledge of the learner in each knowledge concept.",
+          "Current KT approaches do not take into account non-assessed learning resources even though interaction with these types of resources is instrumental towards knowledge acquisition.\n\nIn other words, since there is usually no latent space of knowledge concepts that are being evaluated in graded exercises, doing that exercise for non-assessed resources is even more challenging. ",
+          "Authors claim non-assess learning resources is pivotal. Thus, the proposed model DMKT which not only estimates knowledge gains between different assessed exercises but also tries to do the same between non-assessed and assessed exercises. ",
+          "Each learner is represented by a memory matrix which stores the knowledge states of each student.\n\nAfter each question, the memory matrix is updated using a erase-followed-by-add mechanism.\n\nFor a given knowledge concept, different resources have different importances/weights. Attention mechanisms are especially useful for this specific step.\n\nInitialization of both Memory Matrix is done via Gaussian initialization. \n\nSequence of actions is optimized to be of length 50.",
+          "DKT, DKVMN, DeepIRT, SAKT, SAINT, AKT, MVKM, MLP-M, DKT-M, DKVMN-M, SAKT-M, SAINT-M, AKT-M, Deep Multi-Type Knowledge Tracing",
+          "5-Fold Cross-Validation",
+          "{RMSE: 0.1369 - DMKT}",
+          "Authors use a different form of representation of learners adapted from DKVKT.\n\nIt uses a key matrix to store knowledge concepts. In addition, it uses an Attention mechanism to represent the ungraded resources → these are an embedding representation of the concepts from each ungraded exercise. \n\nMoreover, it has a Memory matrix meant to represent each learner and his current knowledge on different knowledge components. At different timesteps, the learner interacts with components and questions, which leads to the update of the memory matrix. \n\nThus, for Question at time t, the input is the knowledge state of the learner and the knowledge concepts that exercise evaluates. \n\nDiscussion of interpretability is very much welcomed",
+          "AUC as only classification metric being considered.\n\nSmall numbe of students - despite high number of interactions."
+        ]
+      ],
+      "index": 7
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-807f-ad02-f8f77a2c984a",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-807f-ad02-f8f77a2c984a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-02-06T16:16:00.000Z",
+        "last_edited_time": "2025-02-06T16:16:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8010-b080-cecf6a88c64f",
+      "type": "paragraph",
+      "text": "Non-assessed learning resources are often ignored in KT even though they generally contain multiple materials that are necessary for students to acquire knowledge. The paper introduces Deep Multi Knowledge Tracing (DMKT) that models transitions between assess and non-assessed learning activities. ",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8010-b080-cecf6a88c64f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-02-06T16:16:00.000Z",
+        "last_edited_time": "2025-02-06T16:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Non-assessed learning resources are often ignored in KT even though they generally contain multiple materials that are necessary for students to acquire knowledge. The paper introduces Deep Multi Knowledge Tracing (DMKT) that models transitions between assess and non-assessed learning activities. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Non-assessed learning resources are often ignored in KT even though they generally contain multiple materials that are necessary for students to acquire knowledge. The paper introduces Deep Multi Knowledge Tracing (DMKT) that models transitions between assess and non-assessed learning activities. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-80ea-844b-f4f833e2eec7",
+      "type": "paragraph",
+      "text": "Comparison with State-of-the-art on 4 datasets shows that the model is good at predicting performance and respresenting student knowledge.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80ea-844b-f4f833e2eec7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-02-06T16:20:00.000Z",
+        "last_edited_time": "2025-02-06T16:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Comparison with State-of-the-art on 4 datasets shows that the model is good at predicting performance and respresenting student knowledge.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Comparison with State-of-the-art on 4 datasets shows that the model is good at predicting performance and respresenting student knowledge.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-80ea-965f-dc264b628e73",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-80ea-965f-dc264b628e73",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-03-27T15:33:00.000Z",
+        "last_edited_time": "2025-03-27T15:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c34750c-f3ba-802c-bf78-c31cd506b020",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c34750c-f3ba-802c-bf78-c31cd506b020",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-03-27T15:33:00.000Z",
+        "last_edited_time": "2025-03-27T15:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/0abb8cae-f2e4-4d62-ac2d-1cb5775b5254/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4662R3CVDSA%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152533Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIByKSn66tCjY%2FHlbcr%2Fla7CqejTFrqwGvoVbwuMIy%2BxFAiBBM8moA3lzgxmTg7ZxnkxOgzRMG7hgEXelNj5pOm40jyr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMcHitUeFj9C54ZE3DKtwDMUb57xNutdm0d5i4gEnUu4VI398%2Ft05xoltvJUD5Ohbtvv8kHH1keGnR2g1HbwifGOKSGq2kxuabgM4rJO%2F1pbPrr6oTsOud2ISmk2A9tTUVkaWxgYg798YgraaxX4Rl1tsiDyQ6l2iYwMRR3GOWiC%2BuApbRslOAnvU%2B%2FGwcWLy7T1p5IY4eMN2Yf%2B%2BVGDudosZddvEUy0Wf2%2BmTCc%2Fl9r4qOLyVWRAytn4%2B%2BHzWwHdBOeOIOeBLtRg7LZ6DimxL%2BPVFlPnc5JJfFtZTPDtmmAbWnd8wwo%2FKdC2cBBzdoTM3SoFbjAoqvyUMM9pXx6dXK%2BQKxPLai438FTJXVTqqMbtHo6KoGMnsT3UAs%2BQPAhvi0ezw0zuDRJME4Q45ffAMCUH8EpRphixh37wy1p8zpx4J4cSktg90b9sT2MCQhHBFHdfXpK01agZRsZFOPVSmYcrlkaFce83Tr%2F5aF9j2nSDvpABmFQYm1ZVAywyIl24nccveDTaWykEGpgembgIBozn7It%2FJFpOlC1rWM1PnExU6bGjLkR9wGKVrajlpdi2TG07tMBftQNypVL1va3HIofvqc1%2FZ3VWbUS3zWmS7t8ov%2FHNinul62wNS33TK2UoxUwnq026gR9N8LFMwjPDzzgY6pgHMW53R5szE3jM5HglrU5qxg5nghtwv52696Vb2iIa01zNYiUSCojO6vmCVNfKRc1hno4v8kIT4ClciBfLczlDBK%2FUaaMADmeHh%2FACgFYpdEw%2FWFMlxxAqZ6ymk%2BM7gbXYZxnThU31F2sNoPwaVv%2BAWAnaKRkWD%2B21ULc%2BmihtyrRQvSnIUZkQMLVKgFItot3GHGzX%2FjO6DkbYhFoBblvicGeEIxsrJ&X-Amz-Signature=f90ed1949b720fb45f3eef84e7980547a63aa43c7eeb68371564848d7c26b249&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:25:33.242Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1bb4750c-f3ba-8095-b180-d1ed17772750",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1bb4750c-f3ba-8095-b180-d1ed17772750",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-03-19T23:36:00.000Z",
+        "last_edited_time": "2025-03-19T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1bb4750c-f3ba-800d-bb33-c2b6541e1b5c",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1bb4750c-f3ba-800d-bb33-c2b6541e1b5c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-03-19T23:36:00.000Z",
+        "last_edited_time": "2025-03-19T23:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1bb4750c-f3ba-8080-a25f-dda2e9bc835c",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1bb4750c-f3ba-8080-a25f-dda2e9bc835c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8062-842c-e18fda26dfd7"
+        },
+        "created_time": "2025-03-19T23:36:00.000Z",
+        "last_edited_time": "2025-03-27T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "references": [
+    {
+      "id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46",
+      "title": "A Semi-Supervised Regression Algorithm for Grade Prediction of Students in Distance Learning Courses",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal on Artificial Intelligence Tools",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_7abf92ea",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final  Exam Grade",
+          "Target": "Grade: 0 to 10",
+          "Students": "1073 undergradaute learners",
+          "Courses": "1 Introduction to Informatics",
+          "Data sources": "LMS logs, SIS, Assignment Scores",
+          "Features": "[Gender, New Student, Ocsi, Wrii, Logins, Pseudocode Forum views, Module forum views, Course forum views, Viewws of course news, Posts in Pseudo-Code Forum, Posts in Compiler forum, Posts in Module forum, Posts in Course Forum]",
+          "Moment of Prediction": "8 stages of the academic year",
+          "Preprocessing Details": "Categoricals are One-Hot Encoded and the data was subsequently normalized.\n\nThe academic year was split into 8 partitions and the authors collect the data for each period (Ocs and Wri have 4)\n\nAuthors use 3 kNN base regressors using self-training.\n\n",
+          "Models": "Linear Regression, MSSRA, IBk, M5Rules, M5 Model Tree, Random Forest, SMOreg",
+          "Assessment Strategy": "10-fold cross-Validation",
+          "Performance Metric: Best Model": "Friedman Rank:\n{MAE:  7.625 - MSSRA, RAE: 7.00 - MSSRA, RMSE: 8.00 - MSSRA,  PCC: 8.125 - MSSRA}",
+          "Comments": "Authors present a novel frameworkk for Semi-Supervised Regression called MSSRA.\n\nAuthors keep performance for each period - SMO outperforms all others on the first 2 partitions, but MSSRA outperforms all others past that point. \n\nMore adata leads to better predictions as usual.\n\nAuthors also test different ratios of labeled data in their dataset, showing that it is possible to obtain good results with as little as 10 to 15% of labeled data.",
+          "Limitations": "Small sample size. "
+        }
+      ],
+      "provenance": {
+        "page_id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_5b1dd801",
+      "reference_id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46",
+      "text": "Most LA work focuses on the use of supervised classifiers to predict students at risk. However, SSL approaches have shown to be superior to supervised methods. Moreover, Regression is also an underused method. ",
+      "provenance": {
+        "page_id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46"
+      }
+    },
+    {
+      "id": "an_8acdaaa4",
+      "reference_id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46",
+      "text": "Authors develop a Semi-Supervised Learning Regression algorithm to predict the outcomes of undergraduate students. They carry out multiple tests to showcase the superiority of their method and conclude that they can obtain a MAE of 1.23 before the middle of the academic year. Authors also discuss implications for practice.  ",
+      "provenance": {
+        "page_id": "8c84ae5d-a567-484f-9640-9ef94ebc1e46"
+      }
+    }
+  ],
+  "workflow_states": []
+}

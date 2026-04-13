@@ -1,0 +1,62 @@
+{
+  "references": [
+    {
+      "id": "30624b56-6180-4448-bbae-c26d7e7d8d6c",
+      "title": "First‐Year Engineering Students’ Strategies for Taking Exams",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Artificial Intelligence in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_cae1752f",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Sequential Pattern Mining",
+          "Context": "Higher Education",
+          "Teaching Method": "Face-to-Face Learning",
+          "Students": "361 First-Year Students",
+          "Courses": "First Year Courses with exam at a Mechanical Engineering Program",
+          "Data sources": "Exam Attempt Logs",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Sequence of Exams Taken and corresponding Grade foir Each Week]",
+          "Preprocessing Details": "Out of the initial 361 students, authors filtered out 50. \n\nExam attempt logs consider,  for each exam, one of 4 possible situations:\n\n0 - not taking, \n1. Failed first attempt, \n2. Failed Second Attempt, \n3. Passed\n\nWhithin each week, the student is represented by one of 64 possible states. The input to the Markov Chain is of length 6. Similarity between the groups is done via shortest-path kernel method.",
+          "Models": "Markov Chain",
+          "Performance Metric: Best Model": "Successful Students\n{Graph Complexity: 0.1844, Most Similar Group: 0.997 - Passing}\n\nPassing Students\n{Graph Complexity: 0.2896, Most Similar Group: 0.997 - Successful}\n\nFailingStudents\n{Graph Complexity: 0.7474, Most Similar Group: 0.73 - Passing}",
+          "Groups Created": "3",
+          "Cluster Description": "Successful Students: Passed all 3 exams\n\nPassing Students: 1 or 2 exams\n\nFailing Students: Failed on all 3 exams",
+          "Implications": "Successful students start strongly with the attempts at the start of the exam season.\n\nUnsuccessful students start slow and tend to accelerate in their attempts with the passage of time. \n\nWhen it comes to exam-taking behavior - Pace is the largest distinctor between successful and unsuccessful students. ",
+          "Comments": "Authors klook at exam-taking behvaior of first-year students on the first semester exam season. \n\nTo do that, they take Exam Attempt Logs and, for each week of the exam-taking season, the state of attempts is evaluated. \n\nThe transitions of behavior across the weeks show that succesful student work at a much higher pace than their peers.\n\nAS a matter of fact, the speed at which learners attempt and take exams is the most relevaant predictor.\n\nThe findings were used in a subsequent exam season to provide soime intervention.",
+          "Limitations": "Not generalizable to a siituation where an exam has to be taken on a specific date-time.\n\nComplexity analysis could be more developed.\n\nRoom for addition of data from other sources."
+        }
+      ],
+      "provenance": {
+        "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c",
+        "block_index": 3
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c7055704",
+      "reference_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c",
+      "text": "Dropout is a big concern, especially among first-year students who may not be ready for the transition between their previous educational settings to the new ones. The work focuses on exploring first-year students’ exam-taking patterns using layered Markov-Chain probabilistic graphs. ",
+      "provenance": {
+        "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

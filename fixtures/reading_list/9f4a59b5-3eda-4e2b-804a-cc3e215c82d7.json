@@ -1,0 +1,586 @@
+{
+  "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7",
+  "title": "How Do Table Shape, Group Size, and Gender Affect On-Task Actions in Computer Education Open-Ended Tasks",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "ea79084d-5664-4b8b-acd4-58a4dff0bb66",
+          "name": "Collaborative Problem Solving",
+          "color": "yellow"
+        },
+        {
+          "id": "914d70ea-3f10-45ad-befc-c98137aa28a2",
+          "name": "Engineering Education",
+          "color": "red"
+        },
+        {
+          "id": "346b107e-2aea-4b03-b8c1-dc2dabb91a22",
+          "name": "Gender",
+          "color": "orange"
+        },
+        {
+          "id": "8ea1823b-34bd-48de-ab0c-8a950e8b5755",
+          "name": "Group Size",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Group Formation” AND “Collaborative Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Group Formation” AND “Collaborative Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "{xgu",
+        "name": "Rejected after Full Paper",
+        "color": "brown"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": null
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Awv\\",
+        "name": "Read Methods",
+        "color": "blue"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": []
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Intervention",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Intervention",
+          "href": null
+        }
+      ]
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-03T00:00:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Vujovic & Hernández-Leo",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Vujovic & Hernández-Leo",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c9b2501b-8b9c-4006-8f15-62f4fc00b325",
+          "name": "Group Formation",
+          "color": "pink"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How Do Table Shape, Group Size, and Gender Affect On-Task Actions in Computer Education Open-Ended Tasks",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How Do Table Shape, Group Size, and Gender Affect On-Task Actions in Computer Education Open-Ended Tasks",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2384750c-f3ba-8069-bc0e-fb6b0bed3f86",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not Applicable",
+          "5870 students",
+          "41 courses at a Dutch STEM university",
+          "LMS logs\nEnd-of-course Grades ",
+          "Wynne’s SRL Model",
+          "[Announcement, Discussions, Assignment, Submission, Learning Materials, Mandatory Quiz, Optional Quiz, Metacognition andd Course Browsing]",
+          "Authors aggregated different types of activities in the 9 categories described as the features.\n\nMoreover, the authors defined learning sessions, considering that two clicks were in the same session if they were within 12.1 minutes and cannot have more than 111 clicks/learning events.\n\nData was filtered to remove outliers,  leading to 5110 students in 34 sessions. ",
+          "Expectation-Maximization",
+          "Log-lokelihood,\nBayesian Information Criterion,\nAkaike Information Criterion",
+          "4",
+          "Assignment-Focused tactic: Most common tactic. Dominated by Assignment Pages and Mandatory Quizzes\n\nMaterial-Focused tactic:  More than half of the clicks are on materials. Second most common tactic as well.\n\nMixed Tactic: More diverse set of actions with no clear dominant action.\n\nQuizz-Focused Tactic: Least common tactic in which students opt to do mandatory quizzes or optional quizzes.  ",
+          "The different learning tactics are the backbone of the learning strategies covered layer. More than just characterization of the clusters over the features, authors also describe clusters in terms of most likely transitions in actions.\n\nFor example, the Mixed Tactic revels itself to be the most common way of a student starting a course. ",
+          "Selection of Groups number was done via the Expectation-Maximization Algorithm.\n\nThe first level of clustering was for learning tactics, the second for learning strategies.\n\n",
+          "Survivorship bias (only learners who were present over the 2 years were considered).\n\nLMS are a partial and incomplete picture of learner behavior.\n\nNo specifics on the internal conditions of each course."
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not Applicable",
+          "5870 students",
+          "41 courses at a Dutch STEM university",
+          "LMS logs\nEnd-of-course Grades ",
+          "Wynne’s SRL Model",
+          "[Quizz-Focused Tactic, Mixed Tactic, Material-Focused Tactic, Assignment-Focused Tactic]",
+          "Authors obtain the clusters of learning tactics from the Logs using EM and then use the model outputs as the features for the second clustering algorithm of learning strategies. ",
+          "Multiple Markov Models",
+          "“Best fit”",
+          "4",
+          "Balanced Strategy: No dominant tactic, as all are employed relatively often. \n\nResource-Oriented: Most of the actions are accessing resources. This learning strategy is the second largest and is ranked thrid in terms of number of sessions.\n\nGrade-Oriented: Most of the time is spent on grade menus (largest cluster). \n\nFlexible: Adaptation to different courses, buyt not equal “balanced” engagement in all learning tactics.",
+          "Different strategies suggest different levels of engagement with Surfave vs Deep approaches to learning. \n\nTemporal level of granularity of analysis also impacts the analysis of transitions between strategies.\n\nAll strategies are found to have a significantly different impact on grade as showcased by a Kruskall-Wallis test. \n\nResults also show that being consistent in terms of learning strategy ois more effective than changing strategy midway.\n\n",
+          "Authors also look at how learners change their behavior (strategy) during a course - often considering both at a half or at a quarter.\n\nEnd-result: Adopting a consistent deep-level approach to learning is the best option to succeed. However, transitioning between strategies is better than consistently adopting a surface-level approach to learning. ",
+          "Survivorship bias (only learners who were present over the 2 years were considered).\n\nLMS are a partial and incomplete picture of learner behavior.\n\nNo specifics on the internal conditions of each course."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-8029-989e-c44ed92bacd5",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8029-989e-c44ed92bacd5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7"
+        },
+        "created_time": "2025-03-03T22:35:00.000Z",
+        "last_edited_time": "2025-03-03T22:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8018-9257-cd7d14c47e3c",
+      "type": "paragraph",
+      "text": "Evaluates how different attributes affect collaborative learning in the context of computer education. Authors conduct a set of experiments with table size, group size and gender and measure their effects on a sample of university students.,",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8018-9257-cd7d14c47e3c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7"
+        },
+        "created_time": "2025-03-03T22:35:00.000Z",
+        "last_edited_time": "2025-03-03T22:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Evaluates how different attributes affect collaborative learning in the context of computer education. Authors conduct a set of experiments with table size, group size and gender and measure their effects on a sample of university students.,",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Evaluates how different attributes affect collaborative learning in the context of computer education. Authors conduct a set of experiments with table size, group size and gender and measure their effects on a sample of university students.,",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2384750c-f3ba-8064-8974-d801f2373d4b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2384750c-f3ba-8064-8974-d801f2373d4b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7"
+        },
+        "created_time": "2025-07-22T21:08:00.000Z",
+        "last_edited_time": "2025-07-22T21:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2384750c-f3ba-80e8-b341-e2f8c170d5dc",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2384750c-f3ba-80e8-b341-e2f8c170d5dc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7"
+        },
+        "created_time": "2025-07-22T21:08:00.000Z",
+        "last_edited_time": "2025-07-22T21:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2384750c-f3ba-8069-bc0e-fb6b0bed3f86",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2384750c-f3ba-8069-bc0e-fb6b0bed3f86",
+        "parent": {
+          "type": "page_id",
+          "page_id": "9f4a59b5-3eda-4e2b-804a-cc3e215c82d7"
+        },
+        "created_time": "2025-07-22T21:08:00.000Z",
+        "last_edited_time": "2025-07-22T21:08:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

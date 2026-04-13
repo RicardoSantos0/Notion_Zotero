@@ -1,0 +1,68 @@
+{
+  "references": [
+    {
+      "id": "51c20a04-05a8-44d9-8373-c17048b067d9",
+      "title": "An Approach to Semantic-Aware Heterogeneous Network Embedding for Recommender Systems",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Cybernetics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_71975ca4",
+      "reference_task_id": null,
+      "schema_name": "Abstract ",
+      "extracted": [
+        {
+          "Context": "",
+          "Teaching Method": "",
+          "Recommender System Type": "",
+          "Target of Recommendation": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "51c20a04-05a8-44d9-8373-c17048b067d9",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_674300e6",
+      "reference_id": "51c20a04-05a8-44d9-8373-c17048b067d9",
+      "text": "Heterogenous Information network embedding-based Recommendations face challenges related with the heterogenous nature of the way users or items are represented. The authors propose a new form of recommendations SEMH4Rec that is meant to create better representations of users and items and feeds them to a Matrix Factorization algorithm.",
+      "provenance": {
+        "page_id": "51c20a04-05a8-44d9-8373-c17048b067d9"
+      }
+    },
+    {
+      "id": "an_a9aa51f8",
+      "reference_id": "51c20a04-05a8-44d9-8373-c17048b067d9",
+      "text": "The first representation is Co-occurrence representation learning which follow a random-walk and skip-grams to identify meta-paths. The second representation is semantic-aware representation learning. Both are combined to be fed as input to a matrix factorization algorithm. The approach is tested on multiple public datasets with other HIN recommenders.   ",
+      "provenance": {
+        "page_id": "51c20a04-05a8-44d9-8373-c17048b067d9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,563 @@
+{
+  "page_id": "392864c0-b363-4e06-84d6-8f1df0182036",
+  "title": "When the Past != The Future: Assessing the Impact of Dataset Drift on the Fairness of Learning Analytics Models",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "7c8f203f-d8ba-4aba-acc1-2f76875baea9",
+          "name": "Group Formation",
+          "color": "brown"
+        },
+        {
+          "id": "98123e3a-9bc4-4ec5-afb5-13e7ddb4df9f",
+          "name": "Dataset Drift",
+          "color": "yellow"
+        },
+        {
+          "id": "c34f6298-2719-403a-bae6-e79ade4d0251",
+          "name": "Ethical Learning Analytics",
+          "color": "brown"
+        },
+        {
+          "id": "45497416-2853-491f-9ce9-f16ce400ada4",
+          "name": "Fairness",
+          "color": "brown"
+        },
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "48f48730-d0f7-45df-9b0d-8c22aa60b3b2",
+          "name": "Predictive Modeling",
+          "color": "gray"
+        },
+        {
+          "id": "64216318-73e2-419a-bdfa-4f2160d58df5",
+          "name": "Virtual Learning Environment (VLE)",
+          "color": "gray"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance” AND “MAchine Learning”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance” AND “MAchine Learning”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISI Web of Science",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISI Web of Science",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06T09:00:00.000+01:00",
+        "end": "2025-12-14T15:15:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Deho et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Deho et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "When the Past != The Future: Assessing the Impact of Dataset Drift on the Fairness of Learning Analytics Models",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When the Past != The Future: Assessing the Impact of Dataset Drift on the Fairness of Learning Analytics Models",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2c94750c-f3ba-80f2-8b0d-d8c1188ffcd5",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Course Grade",
+          "Success (1) vs Fail (0)",
+          "1618 NWF students, 1636 PBS students",
+          "2 Anonimized STEM courses",
+          "Student Demographics, LMS logs",
+          "[Gender, Age, Citizenship Status, Home Language, Last LMS login, Medium of Contact, Study Period, Course Accesses, Resourcee Acesses, Assignment Accesses, Quiz Accesses, Forum Accesses, Folder Accesses, Page Accesses, URL accesses]",
+          "End of Course",
+          "The authors decide to do feature selection using the top-5 features for each year unsing the RF feature importances.\n\nTo do this, the authors rank the feature importances in each year and select the top-5 moist important ones.\n\nAuthors also subset their analysis across distinct demographiic segments:\n\n- English vs Non-English speakers\n- Citizens vs Non-Citizens",
+          "Random Forest",
+          "Holdout Method",
+          "2015-2016 - NWF\n{Balanced Accuracy: 0.91 (current) vs 0.72 (subsequent)}\n\n2015-2016 - PBS\n{Balanced Accuracy: 0.86 (current) vs 0.72 (subsequent)}\n\n2016-2017 - NWF\n{Balanced Accuracy: 0.80 (current) vs 0.72 (subsequent)}\n\n2016-2017 - PBS\n{Balanced Accuracy: 0.78 (current) vs 0.71 (subsequent)}\n\n2017-2018 - NWF\n{Balanced Accuracy: 0.81 (current) vs 0.79 (subsequent)}\n\n2017-2018 - PBS\n{Balanced Accuracy: 0.79 (current) vs 0.78 (subsequent)}\n\n2018-2019 - NWF\n{Balanced Accuracy: 0.86 (current) vs 0.73 (subsequent)}\n\n2018-2019 - PBS\n{Balanced Accuracy: 0.83 (current) vs 0.74 (subsequent)}",
+          "Most datassets in the real world are “not stationary”.  A fair algorithm trained at time t has no assurance of remaining fair at time t+1…\n\nThe authors m,ake an assessment of dataset drift in Learning Analytics student success models in 2 perspectives… how performance is affected from one academic year to next (it is…) and also how this is affected in terms of model fairness when comparing generral student populations (citizens orr english speakers vs other demographics).",
+          "- Small number of courses in STEM.\n\n- Vulnerable to changes in instructional conditions from year to year.\n\n- Only tested on Randoom Forest\n\n- No early prediction"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "e37fb503-f9ef-4983-b093-e44abfe7eafd",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "e37fb503-f9ef-4983-b093-e44abfe7eafd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "392864c0-b363-4e06-84d6-8f1df0182036"
+        },
+        "created_time": "2024-08-06T21:14:00.000Z",
+        "last_edited_time": "2024-08-06T21:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "cacfe02a-2de2-4d53-824c-2ef16bdccc4b",
+      "type": "paragraph",
+      "text": "The authors analyse the drift in features (covariate drift) and drift of the target. The results show that the features are the most responsible for unfairness of the models in the dynamic context. Moreover, there is also a proportional relationship between drift and model unfairness. Finally, there is no guarantee that a fair model will remain fair → requiring models to be robust before deployment. ",
+      "raw": {
+        "object": "block",
+        "id": "cacfe02a-2de2-4d53-824c-2ef16bdccc4b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "392864c0-b363-4e06-84d6-8f1df0182036"
+        },
+        "created_time": "2024-08-06T21:14:00.000Z",
+        "last_edited_time": "2025-11-08T00:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors analyse the drift in features (covariate drift) and drift of the target. The results show that the features are the most responsible for unfairness of the models in the dynamic context. Moreover, there is also a proportional relationship between drift and model unfairness. Finally, there is no guarantee that a fair model will remain fair → requiring models to be robust before deployment. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors analyse the drift in features (covariate drift) and drift of the target. The results show that the features are the most responsible for unfairness of the models in the dynamic context. Moreover, there is also a proportional relationship between drift and model unfairness. Finally, there is no guarantee that a fair model will remain fair → requiring models to be robust before deployment. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-804e-9239-cfe418288462",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-804e-9239-cfe418288462",
+        "parent": {
+          "type": "page_id",
+          "page_id": "392864c0-b363-4e06-84d6-8f1df0182036"
+        },
+        "created_time": "2025-12-14T13:58:00.000Z",
+        "last_edited_time": "2025-12-14T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80ea-aaac-fd7e43b43626",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80ea-aaac-fd7e43b43626",
+        "parent": {
+          "type": "page_id",
+          "page_id": "392864c0-b363-4e06-84d6-8f1df0182036"
+        },
+        "created_time": "2025-12-14T13:58:00.000Z",
+        "last_edited_time": "2025-12-14T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2c94750c-f3ba-80f2-8b0d-d8c1188ffcd5",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2c94750c-f3ba-80f2-8b0d-d8c1188ffcd5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "392864c0-b363-4e06-84d6-8f1df0182036"
+        },
+        "created_time": "2025-12-14T13:58:00.000Z",
+        "last_edited_time": "2025-12-14T13:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

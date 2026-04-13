@@ -1,0 +1,1951 @@
+{
+  "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+  "title": "What are the most important predictors of computer science students' online help-seeking behaviors?",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a1756a28-f669-4f2e-ac6b-a39b3d3c05cc",
+          "name": "Online Academic Help-Seeking",
+          "color": "pink"
+        },
+        {
+          "id": "48536445-2b9e-4c94-9c07-dac06ed5f887",
+          "name": "Important Predictors",
+          "color": "green"
+        },
+        {
+          "id": "49e26e89-f8eb-4452-a00d-e6218a7d4615",
+          "name": "Online Searching",
+          "color": "purple"
+        },
+        {
+          "id": "2a306362-7ad0-4a40-ac25-5c0fdb480932",
+          "name": "Asking Peers Online for Help",
+          "color": "blue"
+        },
+        {
+          "id": "188af820-bc63-4ef9-9813-a1bc7774592f",
+          "name": "Cross-Validation",
+          "color": "red"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Strategies” AND “LMS”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Strategies” AND “LMS”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2016
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Computers in Human Behavior",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Computers in Human Behavior",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "22a34904-9e74-4421-8f00-9e7b58f31dc2",
+        "name": "Out of Scope",
+        "color": "default"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-10-09T13:00:00.000+01:00",
+        "end": "2024-10-09T19:37:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hao et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hao et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "d8d72fd9-7226-4113-a091-6f7c86b49a9a",
+          "name": "Self-Regulated Learning",
+          "color": "brown"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What are the most important predictors of computer science students' online help-seeking behaviors?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What are the most important predictors of computer science students' online help-seeking behaviors?",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1b84750c-f3ba-8048-afce-f2c41c8405ee",
+      "heading": "Guidelines",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "203 students",
+          "162 in introductory course\n42 in advanced course",
+          "Survey\nStudent Grades",
+          "None Specified",
+          "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Multiple Linear Regression: Online Search",
+          "{R-Squared: 0.299 - 4 factors model, Adjusted R-Squared: 0.285 - 4 factors model}",
+          "2",
+          "Expert students would, on average, report to be more willing to search for help online - especially independent searching.\n\nKey variables to predict online searching were Academic Performance, Learning Proficiency, Epistemological Belief and Problem Difficulty at p<0.001",
+          "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.\n\nThere is a distinction from the authors based on whether the students are Novice or Experts.",
+          "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "203 students",
+          "162 in introductory course\n42 in advanced course",
+          "Survey\nStudent Grades",
+          "None Specified",
+          "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Multiple Linear Regression: Asking Peers for Online Help",
+          "{R-Squared: 0.192 - 2 factors model, Adjusted R-Squared: 0.184 - 4 factors model}",
+          "2",
+          "Expert students would, on average, report to be more willing to search for help.\n\nInterest and Problem Difficulty were the relevant predictors at p<0.001",
+          "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.",
+          "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "Blended Learning",
+          "203 students",
+          "162 in introductory course\n42 in advanced course",
+          "Survey\nStudent Grades",
+          "None Specified",
+          "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Multiple Linear Regression: Asking Teachers for Online Help",
+          "{R-Squared: 0.083 - 5 factors model, Adjusted R-Squared: 0.059 - 5 factors model}}",
+          "2",
+          "Expert students would, on average, report to be more willing to search for help.\n\nAcademic Performance, Learning Proficiency and Problem Diffulty were the only significant predictors at 5% significance",
+          "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.",
+          "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        ]
+      ],
+      "index": 32
+    }
+  ],
+  "blocks": [
+    {
+      "id": "11a4750c-f3ba-80d8-a2cc-c78d21bb6cfb",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80d8-a2cc-c78d21bb6cfb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:03:00.000Z",
+        "last_edited_time": "2024-10-09T14:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8091-98ca-f73b3b402e9c",
+      "type": "paragraph",
+      "text": "The paper focuses on the identification of help-seeking behavior on a sample of 203 CS students. Authors analyze which of 8 potential factors are the best towards determining the behavior, with problem difficulty being the most important. Depending on the type of help-seeking (online or professor-assisted) other predictors were also found to be relevant.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8091-98ca-f73b3b402e9c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:03:00.000Z",
+        "last_edited_time": "2024-10-09T14:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The paper focuses on the identification of help-seeking behavior on a sample of 203 CS students. Authors analyze which of 8 potential factors are the best towards determining the behavior, with problem difficulty being the most important. Depending on the type of help-seeking (online or professor-assisted) other predictors were also found to be relevant.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The paper focuses on the identification of help-seeking behavior on a sample of 203 CS students. Authors analyze which of 8 potential factors are the best towards determining the behavior, with problem difficulty being the most important. Depending on the type of help-seeking (online or professor-assisted) other predictors were also found to be relevant.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8079-be80-d0448a4fc717",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8079-be80-d0448a4fc717",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:33:00.000Z",
+        "last_edited_time": "2024-10-09T14:38:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8053-a590-dc3ea5557ba6",
+      "type": "paragraph",
+      "text": "Higher education is becoming more and more sought after by young adults who look at it as an opportunity to better employment and economic stability. However, this increase also increases pressure to develop new ways of teaching that are necessary to provide support to students in need.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8053-a590-dc3ea5557ba6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:38:00.000Z",
+        "last_edited_time": "2024-10-09T16:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Higher education is becoming more and more sought after by young adults who look at it as an opportunity to better employment and economic stability. However, this increase also increases pressure to develop new ways of teaching that are necessary to provide support to students in need.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Higher education is becoming more and more sought after by young adults who look at it as an opportunity to better employment and economic stability. However, this increase also increases pressure to develop new ways of teaching that are necessary to provide support to students in need.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-802c-b7bc-f5947d3f4e23",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-802c-b7bc-f5947d3f4e23",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T16:59:00.000Z",
+        "last_edited_time": "2024-10-09T16:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8038-964d-e0fcc89f1637",
+      "type": "paragraph",
+      "text": "Help-seeking is a kill that is very important in these new teaching methodologies. Specifically, online help-seeking is easier for students who may be unconfortable in face to face contexts even though, sometimes, they may struggle in finding the information they need online. ",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8038-964d-e0fcc89f1637",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T16:11:00.000Z",
+        "last_edited_time": "2024-10-09T17:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Help-seeking is a kill that is very important in these new teaching methodologies. Specifically, online help-seeking is easier for students who may be unconfortable in face to face contexts even though, sometimes, they may struggle in finding the information they need online. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Help-seeking is a kill that is very important in these new teaching methodologies. Specifically, online help-seeking is easier for students who may be unconfortable in face to face contexts even though, sometimes, they may struggle in finding the information they need online. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8054-a5b9-e3961b5cfd2c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8054-a5b9-e3961b5cfd2c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:06:00.000Z",
+        "last_edited_time": "2024-10-09T17:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80fd-8eec-ecdb53c047e9",
+      "type": "paragraph",
+      "text": "Thus, the paper aims to provide guidelines on online help-seeking. To do that, the authors first determine what are the factors that predict online help-seeking.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80fd-8eec-ecdb53c047e9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:03:00.000Z",
+        "last_edited_time": "2024-10-09T17:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Thus, the paper aims to provide guidelines on online help-seeking. To do that, the authors first determine what are the factors that predict online help-seeking.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Thus, the paper aims to provide guidelines on online help-seeking. To do that, the authors first determine what are the factors that predict online help-seeking.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80c3-8af4-feb263f0b0cb",
+      "type": "heading_2",
+      "text": "Literature Review ",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80c3-8af4-feb263f0b0cb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:18:00.000Z",
+        "last_edited_time": "2024-10-09T17:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Literature Review ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Literature Review ",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80c7-bf84-d019b009b231",
+      "type": "paragraph",
+      "text": "Help-seeking is a sequence of actions: realizing you need help, identifying problems and making questions. Literature identifies 3 types of online help-seeking:",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80c7-bf84-d019b009b231",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:19:00.000Z",
+        "last_edited_time": "2024-10-09T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Help-seeking is a sequence of actions: realizing you need help, identifying problems and making questions. Literature identifies 3 types of online help-seeking:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Help-seeking is a sequence of actions: realizing you need help, identifying problems and making questions. Literature identifies 3 types of online help-seeking:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8089-9494-f28703b172b1",
+      "type": "numbered_list_item",
+      "text": "Online Search",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8089-9494-f28703b172b1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:22:00.000Z",
+        "last_edited_time": "2024-10-09T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online Search",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online Search",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80d9-a1a0-d1a5c1111afc",
+      "type": "numbered_list_item",
+      "text": "Asking teachers for help online",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80d9-a1a0-d1a5c1111afc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:22:00.000Z",
+        "last_edited_time": "2024-10-09T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Asking teachers for help online",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Asking teachers for help online",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-806c-86a4-e3e798e2631d",
+      "type": "numbered_list_item",
+      "text": "Asking peers online for help",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-806c-86a4-e3e798e2631d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:22:00.000Z",
+        "last_edited_time": "2024-10-09T17:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Asking peers online for help",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Asking peers online for help",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-806d-b902-c9a3de20cb74",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-806d-b902-c9a3de20cb74",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:23:00.000Z",
+        "last_edited_time": "2024-10-09T17:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80c9-bc85-f3c8859f61d1",
+      "type": "paragraph",
+      "text": "Online settings offer a wealth of information that is more unstructured than regular tutor-led help-seeking. While still in its infancy, the authors found that students with smaller prior knowledge of the discipline under study are more likely to not know when to seek help or even to formulate what to ask. Similarly, experienced learners are also more likely to prefer online help-seeking. Novices tend to require structure and someone to tell them what to look for.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80c9-bc85-f3c8859f61d1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:23:00.000Z",
+        "last_edited_time": "2024-10-09T17:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online settings offer a wealth of information that is more unstructured than regular tutor-led help-seeking. While still in its infancy, the authors found that students with smaller prior knowledge of the discipline under study are more likely to not know when to seek help or even to formulate what to ask. Similarly, experienced learners are also more likely to prefer online help-seeking. Novices tend to require structure and someone to tell them what to look for.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online settings offer a wealth of information that is more unstructured than regular tutor-led help-seeking. While still in its infancy, the authors found that students with smaller prior knowledge of the discipline under study are more likely to not know when to seek help or even to formulate what to ask. Similarly, experienced learners are also more likely to prefer online help-seeking. Novices tend to require structure and someone to tell them what to look for.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80ba-b23a-dc0693afd246",
+      "type": "paragraph",
+      "text": "Another predictor of help-seeking (especially in face-to-face contexts) is academic performance. Better students tend to be more confident and are more likely to engage in help-seeking.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80ba-b23a-dc0693afd246",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:33:00.000Z",
+        "last_edited_time": "2024-10-09T17:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Another predictor of help-seeking (especially in face-to-face contexts) is academic performance. Better students tend to be more confident and are more likely to engage in help-seeking.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Another predictor of help-seeking (especially in face-to-face contexts) is academic performance. Better students tend to be more confident and are more likely to engage in help-seeking.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80af-8438-ea3530a3082b",
+      "type": "paragraph",
+      "text": "There are other potential factors such as problem difficulty, age, gender that have the potential to predict help-seeking. However, most of these require validation for online contexts.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80af-8438-ea3530a3082b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:34:00.000Z",
+        "last_edited_time": "2024-10-09T17:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are other potential factors such as problem difficulty, age, gender that have the potential to predict help-seeking. However, most of these require validation for online contexts.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are other potential factors such as problem difficulty, age, gender that have the potential to predict help-seeking. However, most of these require validation for online contexts.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8082-83c6-e4087679596b",
+      "type": "heading_3",
+      "text": "Research Questions",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8082-83c6-e4087679596b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:36:00.000Z",
+        "last_edited_time": "2024-10-09T17:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Research Questions",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Research Questions",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8067-a877-f3296c975b65",
+      "type": "paragraph",
+      "text": "What are the most important predictors of student online help-seeking behavior?",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8067-a877-f3296c975b65",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:36:00.000Z",
+        "last_edited_time": "2024-10-09T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "What are the most important predictors of student online help-seeking behavior?",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "What are the most important predictors of student online help-seeking behavior?",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80d2-bef3-fa0e140e399e",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80d2-bef3-fa0e140e399e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:37:00.000Z",
+        "last_edited_time": "2024-10-09T17:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8099-817c-e393cf2b4cf4",
+      "type": "paragraph",
+      "text": "The sample uses 203 students attending CS courses, out of whom 162 were novice learners and 41 were advanced learners. The courses used an LMS that allows for communication and help-seeking. Data collection for identification of online help-seeking behavior was done via survey with the exception of dimensions Academic Performance (grade averages) and Learning Proficiency (course being undertaken). These variables were used as input to a Multiple Linear Regression model in order to ascertain what were the most significant predictors of different online help-seeking behaviors (online search and asking peers). Results were evaluated using 1000 repetitions of 10-Fold CV.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8099-817c-e393cf2b4cf4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:38:00.000Z",
+        "last_edited_time": "2024-10-09T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The sample uses 203 students attending CS courses, out of whom 162 were novice learners and 41 were advanced learners. The courses used an LMS that allows for communication and help-seeking. Data collection for identification of online help-seeking behavior was done via survey with the exception of dimensions Academic Performance (grade averages) and Learning Proficiency (course being undertaken). These variables were used as input to a Multiple Linear Regression model in order to ascertain what were the most significant predictors of different online help-seeking behaviors (online search and asking peers). Results were evaluated using 1000 repetitions of 10-Fold CV.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The sample uses 203 students attending CS courses, out of whom 162 were novice learners and 41 were advanced learners. The courses used an LMS that allows for communication and help-seeking. Data collection for identification of online help-seeking behavior was done via survey with the exception of dimensions Academic Performance (grade averages) and Learning Proficiency (course being undertaken). These variables were used as input to a Multiple Linear Regression model in order to ascertain what were the most significant predictors of different online help-seeking behaviors (online search and asking peers). Results were evaluated using 1000 repetitions of 10-Fold CV.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8027-9ff9-c5fd27cb8771",
+      "type": "heading_2",
+      "text": "Results",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8027-9ff9-c5fd27cb8771",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:52:00.000Z",
+        "last_edited_time": "2024-10-09T17:52:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Results",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Results",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80c2-9177-cdf30b4d5d76",
+      "type": "paragraph",
+      "text": "For Online help-seeking, the model that resulted in the lowest error was the 4-factors regression comprising the constructs: Academic Performance, LEarning Proficiency, Epistemological Belief and Problem Difficulty. ",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80c2-9177-cdf30b4d5d76",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T17:55:00.000Z",
+        "last_edited_time": "2024-10-09T17:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "For Online help-seeking, the model that resulted in the lowest error was the 4-factors regression comprising the constructs: Academic Performance, LEarning Proficiency, Epistemological Belief and Problem Difficulty. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For Online help-seeking, the model that resulted in the lowest error was the 4-factors regression comprising the constructs: Academic Performance, LEarning Proficiency, Epistemological Belief and Problem Difficulty. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8004-a852-e37b54bef6b9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8004-a852-e37b54bef6b9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:28:00.000Z",
+        "last_edited_time": "2024-10-09T18:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8044-9c54-d26eeef59cb3",
+      "type": "paragraph",
+      "text": "On the end of seeking Teachers, the 5-factor model (Gender, Academic Performance, Learning Proficiency, Epistemological Beliefs and Problem Difficulty) was the best one, even though it only achieves na R-Squared of 0.08. Finally, on the searching for Peer assistance model, the results show that the 2-factor model (Interest and Problem Difficulty) were the best ones.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8044-9c54-d26eeef59cb3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:28:00.000Z",
+        "last_edited_time": "2024-10-09T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "On the end of seeking Teachers, the 5-factor model (Gender, Academic Performance, Learning Proficiency, Epistemological Beliefs and Problem Difficulty) was the best one, even though it only achieves na R-Squared of 0.08. Finally, on the searching for Peer assistance model, the results show that the 2-factor model (Interest and Problem Difficulty) were the best ones.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "On the end of seeking Teachers, the 5-factor model (Gender, Academic Performance, Learning Proficiency, Epistemological Beliefs and Problem Difficulty) was the best one, even though it only achieves na R-Squared of 0.08. Finally, on the searching for Peer assistance model, the results show that the 2-factor model (Interest and Problem Difficulty) were the best ones.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8042-8e6a-c7c45b6081ef",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8042-8e6a-c7c45b6081ef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:30:00.000Z",
+        "last_edited_time": "2024-10-09T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-802c-b74f-f17d5ad8cd6b",
+      "type": "heading_2",
+      "text": "Discussion",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-802c-b74f-f17d5ad8cd6b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:30:00.000Z",
+        "last_edited_time": "2024-10-09T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Discussion",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Discussion",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-808c-bdd3-d1759f9854c8",
+      "type": "paragraph",
+      "text": "Problem difficulty was the most important predictor on all tasks, with 3 others being important in both Online Search and interactions with Professors. The discussion of the negative and positive effects of these constructs are justified under the perspective of learning theory.",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-808c-bdd3-d1759f9854c8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:30:00.000Z",
+        "last_edited_time": "2024-10-09T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Problem difficulty was the most important predictor on all tasks, with 3 others being important in both Online Search and interactions with Professors. The discussion of the negative and positive effects of these constructs are justified under the perspective of learning theory.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Problem difficulty was the most important predictor on all tasks, with 3 others being important in both Online Search and interactions with Professors. The discussion of the negative and positive effects of these constructs are justified under the perspective of learning theory.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80a1-8ef9-c1e1b1bcb6c7",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80a1-8ef9-c1e1b1bcb6c7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:32:00.000Z",
+        "last_edited_time": "2024-10-09T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80be-a950-cc3f6687a48b",
+      "type": "heading_3",
+      "text": "Guidelines",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80be-a950-cc3f6687a48b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:32:00.000Z",
+        "last_edited_time": "2024-10-09T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Guidelines",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Guidelines",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-8016-8007-d920742efb54",
+      "type": "paragraph",
+      "text": "It is important to assist students develop online search skills: Students who are novices or academically challenged feel less confortable with having to learn on their own and often tend to avoid reaching out for help due to self-confidence issues. Another important factor is to encourage students to be more active in their learning → maybe even needing to be convinced that independent learning is a viable alternative for them. ",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-8016-8007-d920742efb54",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T18:32:00.000Z",
+        "last_edited_time": "2024-10-09T18:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "It is important to assist students develop online search skills: Students who are novices or academically challenged feel less confortable with having to learn on their own and often tend to avoid reaching out for help due to self-confidence issues. Another important factor is to encourage students to be more active in their learning → maybe even needing to be convinced that independent learning is a viable alternative for them. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "It is important to assist students develop online search skills: Students who are novices or academically challenged feel less confortable with having to learn on their own and often tend to avoid reaching out for help due to self-confidence issues. Another important factor is to encourage students to be more active in their learning → maybe even needing to be convinced that independent learning is a viable alternative for them. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "11a4750c-f3ba-80f6-8ac4-cdf3b4cf76c9",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "11a4750c-f3ba-80f6-8ac4-cdf3b4cf76c9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2024-10-09T14:03:00.000Z",
+        "last_edited_time": "2025-03-16T16:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-8048-afce-f2c41c8405ee",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-8048-afce-f2c41c8405ee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2025-03-16T16:54:00.000Z",
+        "last_edited_time": "2025-03-22T16:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b84750c-f3ba-80bd-ac90-f1c8f5002d82",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b84750c-f3ba-80bd-ac90-f1c8f5002d82",
+        "parent": {
+          "type": "page_id",
+          "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+        },
+        "created_time": "2025-03-16T16:54:00.000Z",
+        "last_edited_time": "2025-03-16T16:54:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

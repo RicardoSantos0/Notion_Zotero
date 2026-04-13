@@ -1,0 +1,576 @@
+{
+  "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c",
+  "title": "First‐Year Engineering Students’ Strategies for Taking Exams",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "991a600e-1bdc-4b01-82e5-f8d81d9ac5f0",
+          "name": "First-year Students",
+          "color": "purple"
+        },
+        {
+          "id": "751684d0-4606-4903-8f2d-b6cac63bc264",
+          "name": "Markov Chains",
+          "color": "default"
+        },
+        {
+          "id": "c4a20acb-d191-4f10-a032-b33e81af2cfd",
+          "name": "Exam-taking patterns",
+          "color": "blue"
+        },
+        {
+          "id": "f5a0e3c5-24b6-4a16-86bc-a0c9a87061a5",
+          "name": "Similarity",
+          "color": "blue"
+        },
+        {
+          "id": "ca159b1b-7f1e-4f9d-82a6-90e9bc9db2be",
+          "name": "Retention",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Student Performance\" AND \"Semi-Supervised Learning\"",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2023
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "International Journal of Artificial Intelligence in Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "International Journal of Artificial Intelligence in Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-06T14:23:00.000+00:00",
+        "end": "2025-04-26T00:04:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Kuzilek et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Kuzilek et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-26",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "First‐Year Engineering Students’ Strategies for Taking Exams",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "First‐Year Engineering Students’ Strategies for Taking Exams",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1d64750c-f3ba-8068-b2f5-d5dd0c6d1fe1",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Sequential Pattern Mining",
+          "Higher Education",
+          "Face-to-Face Learning",
+          "361 First-Year Students",
+          "First Year Courses with exam at a Mechanical Engineering Program",
+          "Exam Attempt Logs",
+          "None Specified",
+          "[Sequence of Exams Taken and corresponding Grade foir Each Week]",
+          "Out of the initial 361 students, authors filtered out 50. \n\nExam attempt logs consider,  for each exam, one of 4 possible situations:\n\n0 - not taking, \n1. Failed first attempt, \n2. Failed Second Attempt, \n3. Passed\n\nWhithin each week, the student is represented by one of 64 possible states. The input to the Markov Chain is of length 6. Similarity between the groups is done via shortest-path kernel method.",
+          "Markov Chain",
+          "Successful Students\n{Graph Complexity: 0.1844, Most Similar Group: 0.997 - Passing}\n\nPassing Students\n{Graph Complexity: 0.2896, Most Similar Group: 0.997 - Successful}\n\nFailingStudents\n{Graph Complexity: 0.7474, Most Similar Group: 0.73 - Passing}",
+          "3",
+          "Successful Students: Passed all 3 exams\n\nPassing Students: 1 or 2 exams\n\nFailing Students: Failed on all 3 exams",
+          "Successful students start strongly with the attempts at the start of the exam season.\n\nUnsuccessful students start slow and tend to accelerate in their attempts with the passage of time. \n\nWhen it comes to exam-taking behavior - Pace is the largest distinctor between successful and unsuccessful students. ",
+          "Authors klook at exam-taking behvaior of first-year students on the first semester exam season. \n\nTo do that, they take Exam Attempt Logs and, for each week of the exam-taking season, the state of attempts is evaluated. \n\nThe transitions of behavior across the weeks show that succesful student work at a much higher pace than their peers.\n\nAS a matter of fact, the speed at which learners attempt and take exams is the most relevaant predictor.\n\nThe findings were used in a subsequent exam season to provide soime intervention.",
+          "Not generalizable to a siituation where an exam has to be taken on a specific date-time.\n\nComplexity analysis could be more developed.\n\nRoom for addition of data from other sources."
+        ]
+      ],
+      "index": 3
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ae4750c-f3ba-8081-834f-ed361ef4126a",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8081-834f-ed361ef4126a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+        },
+        "created_time": "2025-03-06T14:26:00.000Z",
+        "last_edited_time": "2025-03-06T14:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ae4750c-f3ba-8051-968a-c1e39d94d0d5",
+      "type": "paragraph",
+      "text": "Dropout is a big concern, especially among first-year students who may not be ready for the transition between their previous educational settings to the new ones. The work focuses on exploring first-year students’ exam-taking patterns using layered Markov-Chain probabilistic graphs. ",
+      "raw": {
+        "object": "block",
+        "id": "1ae4750c-f3ba-8051-968a-c1e39d94d0d5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+        },
+        "created_time": "2025-03-06T14:26:00.000Z",
+        "last_edited_time": "2025-03-06T14:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dropout is a big concern, especially among first-year students who may not be ready for the transition between their previous educational settings to the new ones. The work focuses on exploring first-year students’ exam-taking patterns using layered Markov-Chain probabilistic graphs. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dropout is a big concern, especially among first-year students who may not be ready for the transition between their previous educational settings to the new ones. The work focuses on exploring first-year students’ exam-taking patterns using layered Markov-Chain probabilistic graphs. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-80e1-ade7-ce0a872c04cc",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-80e1-ade7-ce0a872c04cc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+        },
+        "created_time": "2025-04-15T14:18:00.000Z",
+        "last_edited_time": "2025-04-15T14:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-8068-b2f5-d5dd0c6d1fe1",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-8068-b2f5-d5dd0c6d1fe1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+        },
+        "created_time": "2025-04-15T14:18:00.000Z",
+        "last_edited_time": "2025-04-25T22:53:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1d64750c-f3ba-809a-a91e-eb0d57f4805b",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1d64750c-f3ba-809a-a91e-eb0d57f4805b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "30624b56-6180-4448-bbae-c26d7e7d8d6c"
+        },
+        "created_time": "2025-04-15T14:18:00.000Z",
+        "last_edited_time": "2025-04-15T14:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

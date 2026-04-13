@@ -1,0 +1,790 @@
+{
+  "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6",
+  "title": "A three learning states Bayesian knowledge tracing model",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "dba3d461-d440-4e9b-88d6-ced47e599b57",
+          "name": "Bayesian Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "d5d19905-d5c3-4bc5-9b27-0d793b1c75de",
+          "name": "Three-Way Decisions",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Bayesian Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Bayesian Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2018
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Knowledge-Based Systems",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Knowledge-Based Systems",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "Z=B>",
+        "name": "Important Parts Done",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-04T16:30:00.000+00:00",
+        "end": "2025-02-04T16:30:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zhang & Yao",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zhang & Yao",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-02-02",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A three learning states Bayesian knowledge tracing model",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A three learning states Bayesian knowledge tracing model",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1b94750c-f3ba-80ea-836e-dc8df5fb43e8",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "ITS",
+          "Next Exercise is Correct",
+          "Correct (1) vs Incorrect (0)",
+          "912 students - Assistments Math 2004-2005\n\n3136 students - Assistments Math 2005-2006\n\n5046 students -  e Assistments\nMath 2006–2007\n\n",
+          "3 Cohorts of Assistments Math",
+          "ITS logs",
+          "[D-KC, G-KC, M-KC, N-KC, P-KC]",
+          "BKT is based on Hiden Markov Models, where the observations are the answers to previous questions (correct or incorrect).  This bi-partition is not always clear.",
+          "The authors introduce a tripartite of representing each element of the BKT sequence:\n\nUnlearned State/Learning State/Learned State",
+          "Students with fewer than 100 learning processes were excluded.\n\nEach learner is usually represented by the sequence of exercises within a knowledge component - a binary of learned state and unlearned state.\n\nAuthors simulate the bipartite vs the tripartite data representation using synthetic data - with results being clearly better for TPS.\n\nEach learner is ultimately represented by the sequences in each of the 5 considered knowledge components.",
+          "Original BKT\nTLS-BKT",
+          "10-fold Cross-Validation",
+          "D-KC: {AUC: 0.8036 - TLS-BKT on 2004 data}\n\nG-KC: {AUC: 0.7653 - TLS-BKT on 2006 data}\n\nM-KC: {AUC: 0.7510 - TLS-BKT on 2006 data}\n\nN-KC: {AUC: 0.8394 - TLS-BKT on 2006 data}\n\nP-KC: {AUC: 0.8367 - TLS-BKT on 2004 data}\n\nAll-KC: {AUC: 0.8056 - TLS-BKT on 2004 data} ",
+          "Before going into the real datasets, the authors test the performance of both traditional BKT and TLS-BKT on random subsets of the datasets.\n\nOne model is created for each individual knowledge component.\n\nHere, they consider multiple metrics beyond the AUC score: Distinction, Accuracy, RMSE and Standard Deviation.\n\nTLS-BKT outperforms BKT on every benchmark test.\n\nNeed to validate, but it seems that there is one model per knowledge component, which would make such a model very difficult to create in practice.",
+          "Lacks generalization to environments outside Assistments Math.\n\nEvaluation on the full real data does not consider all metrics used for the randomly selected data data. \n"
+        ]
+      ],
+      "index": 10
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18f4750c-f3ba-8057-a9b6-eef398bff22f",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-8057-a9b6-eef398bff22f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-02-03T23:31:00.000Z",
+        "last_edited_time": "2025-02-03T23:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18f4750c-f3ba-802e-8718-f14a734ba9f2",
+      "type": "paragraph",
+      "text": "Traditional BKT has two-learning states and the authors propose a third learning state. This means that they define the learning process into 3 sections. This small change to BKT shows superior results in comparison with BKT both in quantitative and qualitative terms.  ",
+      "raw": {
+        "object": "block",
+        "id": "18f4750c-f3ba-802e-8718-f14a734ba9f2",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-02-03T23:31:00.000Z",
+        "last_edited_time": "2025-02-03T23:35:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Traditional BKT has two-learning states and the authors propose a third learning state. This means that they define the learning process into 3 sections. This small change to BKT shows superior results in comparison with BKT both in quantitative and qualitative terms.  ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Traditional BKT has two-learning states and the authors propose a third learning state. This means that they define the learning process into 3 sections. This small change to BKT shows superior results in comparison with BKT both in quantitative and qualitative terms.  ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-8016-82da-f1c094000287",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-8016-82da-f1c094000287",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-17T23:59:00.000Z",
+        "last_edited_time": "2025-03-17T23:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-8092-b81e-f424d51950bf",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-8092-b81e-f424d51950bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-17T23:59:00.000Z",
+        "last_edited_time": "2026-04-05T10:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/943c991b-bff0-45bf-a473-65c6c97eb383/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YTCNCHKO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCI%2Bws4XeWCXDUlwpEScfI7QU%2F%2BZXIKHIGc1LrI6cXtrAIhAPnGGpj9Qy4RV4rFAJxUIuF6wctAXysEn4Cw4Jekc4uHKv8DCHcQABoMNjM3NDIzMTgzODA1IgxQEC%2By5KdHYOjbzXMq3AN%2FR1%2FVR3qrV0EG5RwJMQXxOuKOzmw%2F3sa8QT%2BC%2FUlxb0E1L1NpZgwqvur4zlagKAVUp0SGE7ONoc%2B356ROayN9%2FWzWUCAunv2iFH68pZMw%2FRmTJobSKDzJetIv%2BAreacRk6OWUnva%2ByHmKGn4StDi9qBxkpMgpM7b4kWk4IW4yraLMztTZJF2Bbtxg6T%2BvVd%2BltSyBlfCpAHLuqwlc7FFJ1B7%2FkmN1s28WcOH4gs8tR%2B84O9tS%2FvKdHUMIg5LPphsiwLGcq%2B2QX3nXMW%2BIbeCbB%2F53feBDRv9JWVFSHxQzZ0Q%2B6tscRBG3o%2F9rJDAAc5UIKGxS7EloHOmxjq5XqdbVlqgLsCU3kpFqAnFZoIFrk0EuNdZUPSN7x0FtCn%2BzLCASfOhLSt7L%2FTpX3k9MjkOicPmklSwRRTgb7H6ba%2Fn2S0jyuTjSoyhtxSIL%2FicgjjoWnJLdmTyZxzakqmWf%2BB1c%2F09dPL1xvZzlyT8duhFb0KadQVTnrRjmaa9RitmVICMd2310iMvKaeOMRDJ4ioKluwn4WjsJRHTmpZA%2FIKxkCPIrPnjqwuZTVSUqtFbynGUQMahsqO%2FqlOv5WTPguZMEhQys645Q%2FUgQlHaS%2FUWQqFjvYUY0gUWLDJWKHzCY8vPOBjqkAdyVyWojtPF2IcwsLSoIfMsawHCB2iCeM3AnrcaSEifOpgVPnSgOFIqI954o%2FJ02J7sUArJyzh5aYqqWKwKAQlS2pHrCKvju%2BmJp4pQwntDayVSPmBThucqUOBUkQRuskTKnU6Z925DgqfMQrAT3KedYXNlL%2B1r6hO3m38QdvtEqLhP5Q8YuuNL8fSPgvh4DVcRvFW6aUjb7RCU7I0QnJmzPYNMf&X-Amz-Signature=bc7653619b22a6af29da14dcbda1bc0d554fb9f52c68a1db9a6c6391d3bab537&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:21:04.038Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ba4750c-f3ba-8085-81c6-dd9b33558696",
+      "type": "paragraph",
+      "text": "Representation of the bipartitate state of the sequences vs the tri-partite state.",
+      "raw": {
+        "object": "block",
+        "id": "1ba4750c-f3ba-8085-81c6-dd9b33558696",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-18T00:06:00.000Z",
+        "last_edited_time": "2025-03-18T00:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Representation of the bipartitate state of the sequences vs the tri-partite state.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Representation of the bipartitate state of the sequences vs the tri-partite state.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ba4750c-f3ba-8039-b661-e434ee08fe13",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ba4750c-f3ba-8039-b661-e434ee08fe13",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-18T00:06:00.000Z",
+        "last_edited_time": "2025-03-18T00:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ba4750c-f3ba-80f3-8613-ffb3b5cfc5aa",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ba4750c-f3ba-80f3-8613-ffb3b5cfc5aa",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-18T00:06:00.000Z",
+        "last_edited_time": "2025-03-18T00:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/36a49f25-7c80-4820-abfb-bfc3355f94ab/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466YTCNCHKO%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152104Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCI%2Bws4XeWCXDUlwpEScfI7QU%2F%2BZXIKHIGc1LrI6cXtrAIhAPnGGpj9Qy4RV4rFAJxUIuF6wctAXysEn4Cw4Jekc4uHKv8DCHcQABoMNjM3NDIzMTgzODA1IgxQEC%2By5KdHYOjbzXMq3AN%2FR1%2FVR3qrV0EG5RwJMQXxOuKOzmw%2F3sa8QT%2BC%2FUlxb0E1L1NpZgwqvur4zlagKAVUp0SGE7ONoc%2B356ROayN9%2FWzWUCAunv2iFH68pZMw%2FRmTJobSKDzJetIv%2BAreacRk6OWUnva%2ByHmKGn4StDi9qBxkpMgpM7b4kWk4IW4yraLMztTZJF2Bbtxg6T%2BvVd%2BltSyBlfCpAHLuqwlc7FFJ1B7%2FkmN1s28WcOH4gs8tR%2B84O9tS%2FvKdHUMIg5LPphsiwLGcq%2B2QX3nXMW%2BIbeCbB%2F53feBDRv9JWVFSHxQzZ0Q%2B6tscRBG3o%2F9rJDAAc5UIKGxS7EloHOmxjq5XqdbVlqgLsCU3kpFqAnFZoIFrk0EuNdZUPSN7x0FtCn%2BzLCASfOhLSt7L%2FTpX3k9MjkOicPmklSwRRTgb7H6ba%2Fn2S0jyuTjSoyhtxSIL%2FicgjjoWnJLdmTyZxzakqmWf%2BB1c%2F09dPL1xvZzlyT8duhFb0KadQVTnrRjmaa9RitmVICMd2310iMvKaeOMRDJ4ioKluwn4WjsJRHTmpZA%2FIKxkCPIrPnjqwuZTVSUqtFbynGUQMahsqO%2FqlOv5WTPguZMEhQys645Q%2FUgQlHaS%2FUWQqFjvYUY0gUWLDJWKHzCY8vPOBjqkAdyVyWojtPF2IcwsLSoIfMsawHCB2iCeM3AnrcaSEifOpgVPnSgOFIqI954o%2FJ02J7sUArJyzh5aYqqWKwKAQlS2pHrCKvju%2BmJp4pQwntDayVSPmBThucqUOBUkQRuskTKnU6Z925DgqfMQrAT3KedYXNlL%2B1r6hO3m38QdvtEqLhP5Q8YuuNL8fSPgvh4DVcRvFW6aUjb7RCU7I0QnJmzPYNMf&X-Amz-Signature=242e860f1ac8b06ed4375c1aae4d0e9d3991e1ead3b9b28191f24cabce1b3727&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:21:04.043Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ba4750c-f3ba-8023-82df-ff76676082b0",
+      "type": "paragraph",
+      "text": "Model Performance (AUC) on the 3 datasets",
+      "raw": {
+        "object": "block",
+        "id": "1ba4750c-f3ba-8023-82df-ff76676082b0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-18T00:06:00.000Z",
+        "last_edited_time": "2025-03-18T00:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Model Performance (AUC) on the 3 datasets",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Model Performance (AUC) on the 3 datasets",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ba4750c-f3ba-8086-bffe-f804b438b252",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ba4750c-f3ba-8086-bffe-f804b438b252",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-18T00:06:00.000Z",
+        "last_edited_time": "2025-03-18T00:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-80f3-bc47-f55d258cefb4",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-80f3-bc47-f55d258cefb4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-17T23:15:00.000Z",
+        "last_edited_time": "2025-03-17T23:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b94750c-f3ba-80ea-836e-dc8df5fb43e8",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1b94750c-f3ba-80ea-836e-dc8df5fb43e8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18e4750c-f3ba-808a-9c2a-c7497bba06a6"
+        },
+        "created_time": "2025-03-17T23:15:00.000Z",
+        "last_edited_time": "2025-03-19T15:29:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

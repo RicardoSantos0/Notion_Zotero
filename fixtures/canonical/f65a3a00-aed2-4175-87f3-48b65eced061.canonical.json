@@ -1,0 +1,78 @@
+{
+  "references": [
+    {
+      "id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+      "title": "Multimodal Predictive Student Modeling with Multi-Task Transfer Learning",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_bd7d34b9",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Game-Based Learning",
+          "Student Performance Definition": "Post-Test Scores",
+          "Target": "High (1) vs Low(0)",
+          "Students": "66 undergraduate students",
+          "Courses": "1 Microbiology Game",
+          "Data sources": "Pre-Test,  Post-Test, Eye-Tracker and Facial Expression, IMI survey",
+          "Features": "460 multimodal features per student",
+          "Moment of Prediction": "Every 2 minutes during Game\nBefore Post-Test",
+          "Preprocessing Details": "Student’s knowledge was encoded from the answers to the pre-test.\n\nThen, data was collected and the data was subsequently treated using PCA to reduce dimensionality.\n\n3 forms of PCA usage were tested (No PCA, 1 PCA per modality and PCA on the entire space). \n\nParameter-tuning uses nested-CV with 3-folds\n\n",
+          "Models": "Random Forest",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Standardized Conversion Point: 0.428 - RF-Gameplay&ReflexionTest, F1-Score: 0.749 - RF-Gameplay&ReflexionTest}",
+          "Comments": "Only the first experiment was conducted on College Students. The second experiment was conducted on 8th-grader…\n\nAuthors train different models for post-test scores and interest (in here we consider only the ones for test-scores). \n\nDifferent sources of data are compared separately ahnd then comined into a single RF model.",
+          "Limitations": "Data is not sequential\n\nOnly considers Random Forest\n\nSmall Sample Size\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9a08c279",
+      "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+      "text": "Game-based learning has demonstrated pedagogical effectiveness and recent advancements in sensors and nlp made data acquisiton a whole new ball-game. Due to the requirements of intertaction with a game, GBL is a prime candidate for effectiveness of LA-based early warning systems. ",
+      "provenance": {
+        "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+      }
+    },
+    {
+      "id": "an_67c272ba",
+      "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+      "text": "Thus authors explore a multi-task and multi-modal learning analytics framework for Game-Based LEarning Environments. Framework is evaluated on 2 distinct student populations (n = 61 and n = 118). The models are tasked with predicting post-test performance and interest. ",
+      "provenance": {
+        "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+      }
+    },
+    {
+      "id": "an_18a46ec6",
+      "reference_id": "f65a3a00-aed2-4175-87f3-48b65eced061",
+      "text": "Moreover, the authors make a comparison between training paradigms. On the first, each dataset is trained independently and performance is assessed on the data the models were trained on. On the second paradigm, the authors pre-train a model in one dataset to then fine-tune with the other. Resutlts show that multi-task models were able to improve performance for one the tasks, but not for both. Moreover, transfer learning also seems to contribute to improvements in model performance. ",
+      "provenance": {
+        "page_id": "f65a3a00-aed2-4175-87f3-48b65eced061"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,693 @@
+{
+  "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
+  "title": "Enhanced Transformer: Knowledge Tracing with Incorporation of Temporal Features",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "6e142984-1055-4d80-82d2-1f32b5414cfb",
+          "name": "Knowledge State",
+          "color": "pink"
+        },
+        {
+          "id": "3c6ec866-ecf4-4ee2-b591-75c7974eef6d",
+          "name": "Ednet KT Dataset",
+          "color": "green"
+        },
+        {
+          "id": "f11477d1-5789-4ebd-9e73-9167ad8dced1",
+          "name": "Enhanced Transformer",
+          "color": "pink"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Transformer”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Transformer”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "26253d5b-f87d-453a-84f3-c84204687612",
+          "name": "Dynamic",
+          "color": "purple"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE IATMSI",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE IATMSI",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-06",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Hegde et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Hegde et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-24",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "c928d68b-d25f-423a-b242-c67843bf6ed7",
+          "name": "Deep Learning",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Enhanced Transformer: Knowledge Tracing with Incorporation of Temporal Features",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Enhanced Transformer: Knowledge Tracing with Incorporation of Temporal Features",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80c1-bb7d-f36dbb220e65",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Next Question Correctedness",
+          "Probability of Next Question being Correct",
+          "297915 EdNet learners",
+          "293 tags on EdNet",
+          "Sequence of Questions/Answers,\nLMS logs",
+          "[Questions, Time of Interactions (Response Time, Lag Time, Explanation Time, Video Lecture Time), Answers]",
+          "Most of the current KT approaches do not consider the time spent on different learrning activities. \n\nMoreover, the knowledge is often estimated from sequences of answers (no formal assessment of prior knowledge). Forgetting is also not usually explained. ",
+          "The Enhanced Transformer arquitecture does uses multihead attention wherein:\n\n- Queries are the question embeddings\n\n- Keys are embeddings of the sequences of interactions of the students\n\n- Values: Embedding that considers the correctedness of the previous questions.",
+          "Authors extract from logs the time spent on different learning activities. \n\nThese are given as input to a Multihead attention layer.",
+          "DKT, DKVMN, SAKT, SAINT, SAINT+, Enhanced Transformer",
+          "Holdout Method",
+          "{Accuracy: 0.8319 - E-Transformer with all time features, AUC: 0.8489 - E-Transformer with all time features}",
+          "Authors propose a new architecture called the Enhanced Transformer.\n\nThe model uses multihead atention to receive Questions, Time Spent on Activities and Answers and, when comparing the model against other KT models in the same dataset, the model outperforms all others.\n\nAblation study to check the effect different types of temporal features shows that they do, indeed, increase the performance of the model.",
+          "- Holdout method\n\n - Executes test in a single dataset\n\n- Could consider additional temporal features\n\n- Utilization of forgetting behavior does not consider any form of pedagogical grounding.\n"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "a0dcb93f-7a5f-4dc1-956a-004c89e6e5bf",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "a0dcb93f-7a5f-4dc1-956a-004c89e6e5bf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2024-08-06T16:13:00.000Z",
+        "last_edited_time": "2024-08-06T16:13:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "77c2786a-cc24-4f79-980d-bbf46595c36c",
+      "type": "paragraph",
+      "text": "Knowledge Tracing involves estimating the knowledge state of a student and using that knowledge state to understand whether they wil get a question right or wrong. However, an underlooked aspect of KT is temporal aspects and forgetting behavior. ",
+      "raw": {
+        "object": "block",
+        "id": "77c2786a-cc24-4f79-980d-bbf46595c36c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2024-08-06T16:13:00.000Z",
+        "last_edited_time": "2024-08-06T16:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Knowledge Tracing involves estimating the knowledge state of a student and using that knowledge state to understand whether they wil get a question right or wrong. However, an underlooked aspect of KT is temporal aspects and forgetting behavior. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Knowledge Tracing involves estimating the knowledge state of a student and using that knowledge state to understand whether they wil get a question right or wrong. However, an underlooked aspect of KT is temporal aspects and forgetting behavior. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "fb9fe934-16a4-4909-83a8-eea4446f7a05",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "fb9fe934-16a4-4909-83a8-eea4446f7a05",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2024-08-06T16:14:00.000Z",
+        "last_edited_time": "2024-08-06T16:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d9e29302-0a8e-4759-8768-2045e10fb7e4",
+      "type": "paragraph",
+      "text": "To address this limitation, authors propse a new-transformer based KT model that incorporates the aspects of time and forgetting behavior in order to create a more accurate estimation of a learner’s knowledge state. When benchmarking the results using the EdNet KT3 dataset, the authors find their proposed architecture outperforms all baseline models significantly both in terms of accuracy and AUC.",
+      "raw": {
+        "object": "block",
+        "id": "d9e29302-0a8e-4759-8768-2045e10fb7e4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2024-08-06T16:14:00.000Z",
+        "last_edited_time": "2024-08-06T16:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To address this limitation, authors propse a new-transformer based KT model that incorporates the aspects of time and forgetting behavior in order to create a more accurate estimation of a learner’s knowledge state. When benchmarking the results using the EdNet KT3 dataset, the authors find their proposed architecture outperforms all baseline models significantly both in terms of accuracy and AUC.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To address this limitation, authors propse a new-transformer based KT model that incorporates the aspects of time and forgetting behavior in order to create a more accurate estimation of a learner’s knowledge state. When benchmarking the results using the EdNet KT3 dataset, the authors find their proposed architecture outperforms all baseline models significantly both in terms of accuracy and AUC.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24b4750c-f3ba-808c-8b65-c80aebc4f25c",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24b4750c-f3ba-808c-8b65-c80aebc4f25c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2025-08-10T21:42:00.000Z",
+        "last_edited_time": "2025-08-10T21:42:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/24d2021d-dcd7-416e-884f-bc4b96a45c5e/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TX5AYBNQ%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153154Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDHqHKnGQKMhFPrBnFB3EFii0nnBy%2FV91Dn9sZmFM0lLAIhAMaan6PMoLWvK8rxZW%2FwNNQgnOpnYhoScz%2Fhzy81j4BAKv8DCHcQABoMNjM3NDIzMTgzODA1Igxlv4Es8%2FNKNUe1YnQq3AOA2WKCvo6RcVefWX2I4wXpGRImjYaW%2BhZ3FBwGtPNHToAYCoY1Sg32s8WEV0u3lUCFyWkwpjaN3x7afX1gQpQ6AoSzpprz4ums5SgO2h1H7S%2FZc9qdEki0GDRNDgga%2BS9QHyw1zzD%2FkVgObwUo1roUjfWQPTpsUTLCqpliNmA70uMRZ%2BeHxzWXk4sAPV8WwebebKl7VpG02J6MB6qUjHKgkpoQwUADIq6vPik%2FCG60uPwz3mg5%2F35CMC0D1diZX1ZQ8xbPxUCGXM5XFVzPiLGSSviQ8qQWy8QWZkjbXvMBvsUCf5icApTyOEF6rqtoLOp1O6xrj%2BclINRjfHEW4VDeNZwr5O9SHKnJfEZeXRZ5icPxJ2PhXIGw0qd%2FV4c1ajH26DzvkkcWlrr6oC2in96lIMxVkPwGTSNuuvQrrbiJx19JR0h28qT0GX3hpWJfKr3gTLyAZMg2a4lzzDg3ZbCSX6V%2F%2FfwbPGJwDeKZ0c7eY0x2HyocMR4KKKwF8l2f3i0vs8WXbFvabhWjVe8R7AWu89etsCa1oaIyQpjcUqwJtqlRDoWRNyU49k2mJT3C%2B4ymUqdaMSUGFXX31JXIC8xLErTq5h1ourYnW5ZrsceV2sdqoLVJuK9l2EWXGzDe7vPOBjqkAbfgb3lrDiw1juaArCYtOZVZgz%2F3EaINDt0l2%2BH4b81n4Szo1%2F7%2BXd%2Be92SOctLbHOWFyVIePQ1OMS%2Bm3Y0L922i5GOqE6AGG2KNfX%2Fy0IhVtuPNwh%2B19I5KBQgAe%2FgesWfN5IT4xREeiOlP%2F1kPTGPJh1QQGV7G6XZzK5vdufw5oNmk8h5PFnqNztlOguPkMiqQItWaqaGSwF5DohdXhK5WWfd7&X-Amz-Signature=2e644b67e32fe9e6f9be086ea0563d148a59f6d222c87dc6bf80dfac6f40dbac&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:31:52.565Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80a7-9e4e-d08381953995",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80a7-9e4e-d08381953995",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2025-04-07T15:21:00.000Z",
+        "last_edited_time": "2025-04-07T15:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80c1-bb7d-f36dbb220e65",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80c1-bb7d-f36dbb220e65",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2025-04-07T15:21:00.000Z",
+        "last_edited_time": "2025-04-07T15:21:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "24b4750c-f3ba-801d-8f16-f6cbd2f07a18",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "24b4750c-f3ba-801d-8f16-f6cbd2f07a18",
+        "parent": {
+          "type": "page_id",
+          "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+        },
+        "created_time": "2025-08-10T22:34:00.000Z",
+        "last_edited_time": "2025-08-10T22:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

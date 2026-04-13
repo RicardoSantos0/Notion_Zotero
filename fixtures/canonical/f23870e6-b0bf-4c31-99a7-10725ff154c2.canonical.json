@@ -1,0 +1,39 @@
+{
+  "references": [
+    {
+      "id": "f23870e6-b0bf-4c31-99a7-10725ff154c2",
+      "title": "A Survey of Knowledge Tracing: Models, Variants, and Applications",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_b1d3604f",
+      "reference_id": "f23870e6-b0bf-4c31-99a7-10725ff154c2",
+      "text": "Knowledge tracing is one of the fundamental tasks using student behavioral data in Learning Analytcs. In essence it aims to infer the knowledge state of a student and how it can be leveraged in problem-solving. The paper makes a survey on the evolving landscape of knowledge tracing. ",
+      "provenance": {
+        "page_id": "f23870e6-b0bf-4c31-99a7-10725ff154c2"
+      }
+    },
+    {
+      "id": "an_93155e1b",
+      "reference_id": "f23870e6-b0bf-4c31-99a7-10725ff154c2",
+      "text": "Moreover, the paper introduces 2 open-source algorithms. The first downloads and preprocessing of KT-related datasets. Also EduKTM implements the most common KT models. Potential future directions are also discussed in the paper.",
+      "provenance": {
+        "page_id": "f23870e6-b0bf-4c31-99a7-10725ff154c2"
+      }
+    }
+  ],
+  "workflow_states": []
+}

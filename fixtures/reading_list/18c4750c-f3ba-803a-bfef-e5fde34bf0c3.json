@@ -1,0 +1,633 @@
+{
+  "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3",
+  "title": "Supporting actionable intelligence: Reframing the analysis of observed study strategies",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "44908932-69ff-4f78-bf86-02e4ac094a9d",
+          "name": "Learning Analytics",
+          "color": "gray"
+        },
+        {
+          "id": "e3d4545b-8263-460b-9e3e-6715426f9a13",
+          "name": "Trace Data",
+          "color": "brown"
+        },
+        {
+          "id": "64bcd71b-eec3-4928-9300-4d6c5b82b593",
+          "name": "Learner Behavior",
+          "color": "yellow"
+        },
+        {
+          "id": "289ccfa4-6787-46e2-9a19-592cc702f702",
+          "name": "Learning Tactics and Strategies",
+          "color": "blue"
+        },
+        {
+          "id": "2df5da98-9868-4c61-9eb7-7ef460f258e2",
+          "name": "Explanatory Models",
+          "color": "purple"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Strategies” AND “Learning Analytics”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Strategies” AND “Learning Analytics”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2020
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        },
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-05T15:25:00.000+00:00",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Jovanović",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Jovanović",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-09-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "870454f1-eeee-4a4f-8780-54d375397844",
+          "name": "Learning Strategies",
+          "color": "purple"
+        },
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Supporting actionable intelligence: Reframing the analysis of observed study strategies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Supporting actionable intelligence: Reframing the analysis of observed study strategies",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c84750c-f3ba-80aa-822f-f960c9fbcd87",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "969 students at an Australian University",
+          "3 Editions of an online course",
+          "LMS logs,\nStudent Final Grade",
+          "None Specified",
+          "[Count of learning actions (based on activity), Time between first attempt and and overall first assessment, time distance between learner submission and overall last submission, Number of sessions, Median and MAD of action counts per session, Median and MAD session length, Entropy of session counts epr day, Days with at least on session, delay of first session, Number of sessions per learning strategy]",
+          "The logs contain around 44 types of learning activities, which are aggregated into the 7 fhigher level forms of aggregation which are subsequently used to extract the different features.\n\nData is aggregated from the start to the moment of prediction, which is done every week. \n\nThe authors use expectation maximization to create learning tactics.\n\n",
+          "Expectation-Maximization",
+          "Within Cluster Square Distances to select k.\n\nPerformance distinctions were assessed with Kruskall-Wallis followed by Man-Whitney U test. ",
+          "7",
+          "MIX_SIP_LCA_AS - a variety of learning actions, primarily and roughly equally distributed across passive social interaction (SIP), learning content access (LCA), and assessment (AS) actions. \n\nMIX_LCA_AS - a variety of learning actions, with learning content access (LCA) and assessment (AS) having the largest presence. \n\nLCA_AS - dominance of learning content access (LCA) with notable presence of assessment (AS) and minimal presence of informing/orienteering and/or monitoring. \n\nAS_LCA_MM - dominance of assessment (AS), with a notable presence of learning content access (LCA) and monitoring (MM) actions. \n\nAS_INF_MP_LCA - sessions focused primarily on assessment (AS) with notable presence of informing (INF), planning (MP) and learning content access (LCA). \n\nsh_AS_INF_MM - short (sh) sessions with dominance of assessment (AS) and notable presence of informing (INF) and monitoring (MM) actions. \n\n\nsh_AS_INF_MP - short sessions with dominance of assessment (AS) and notable presence of informing (INF) and planning (MP) actions.",
+          "Need and benefit of communicating with students why a specific strategy is not only benefical, but also important to the task at hand.\n\nNeed to understand the reason for why students consider changing learning tactics throughout a course.",
+          "Authors identify 7 “learning tactics”, which subsequently are divided into 4 learning strategies.",
+          "Multiple features seem to have the same name, hindering interpretability.\n\nNo insight into student motivation, which leads that log interpretation requires assumptions.\n\nNeed for generalization to other courses and contexts. "
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "E-Learning",
+          "969 students at an Australian University",
+          "3 Editions of an online course",
+          "LMS logs,\nStudent Final Grade",
+          "None Specified",
+          "[MIX_SIP_LCA_AS, MIX_LCA_AS, LCA_AS, AS_LCA_MM, AS_INF_MP_LCA, sh_AS_INF_MM, sh_AS_INF_MP]",
+          "The logs contain around 44 types of learning activities, which are aggregated into the 7 fhigher level forms of aggregation which are subsequently used to extract the different features.\n\nData is aggregated from the start to the moment of prediction, which is done every week. \n\nThe authors use expectation maximization to create learning tactics.\n\n",
+          "Hierarchical Clustering",
+          "Done via dendogram",
+          "4",
+          "Strategy A: Active, regular, comprehensive - a learning tactic that mixes multiple forms of resources regularly\n\nStrategy B: Active, Regular, Selective - high (lower than A) levels of activity → low presence f monitoring activities\n\nStrategy C - Marginally active and regular, highly selective: low levels of activity - low activity an low regularity of study. When it comes to learning resources the focus is learning materials and assessments. \n\nStrategy D: Inactive, Irregular, Selective - Even lower levels of activity than C.",
+          "Need and benefit of communicating with students why a specific strategy is not only benefical, but also important to the task at hand.\n\nNeed to understand the reason for why students consider changing learning tactics throughout a course. ",
+          "Analysis is done over time, but the 4 clusters appear consistently over time. After obtaining the clusters, authors focus on examining the learning pahtways of different students → whether they are changing their strategy of not and see effects in performance. \n\nAuthors conclude that being consistent in Strategies A or B tends to result in the best performances. On the other end of the spectrum, being consistent on poor strategy tends to lead to the worst performance.\n\nInterestingly, when it comes to tactics, successful students are not only active but tend to follow varierd forms of tactics, while the least successful tend to reduce the variety of tactics as the semester advances.\n\n\n \n\n",
+          "Multiple features seem to have the same name, hindering interpretability.\n\nNo insight into student motivation, which leads that log interpretation requires assumptions.\n\nNeed for generalization to other courses and contexts. \n"
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1914750c-f3ba-8076-82c6-c7b6e6b58c9f",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-8076-82c6-c7b6e6b58c9f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3"
+        },
+        "created_time": "2025-02-05T15:13:00.000Z",
+        "last_edited_time": "2025-02-05T15:14:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1914750c-f3ba-80b6-97d8-eeaee774693a",
+      "type": "paragraph",
+      "text": "Translating analytics into outcomes is a problem that the authors aim to address. For that, the authors focus on developing an interpretable predictive model for student performance. Analisys on data from an undergraduate course shows that there is a relationship betweeen observed study strategies and course-success.",
+      "raw": {
+        "object": "block",
+        "id": "1914750c-f3ba-80b6-97d8-eeaee774693a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3"
+        },
+        "created_time": "2025-02-05T15:14:00.000Z",
+        "last_edited_time": "2025-04-01T16:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Translating analytics into outcomes is a problem that the authors aim to address. For that, the authors focus on developing an interpretable predictive model for student performance. Analisys on data from an undergraduate course shows that there is a relationship betweeen ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Translating analytics into outcomes is a problem that the authors aim to address. For that, the authors focus on developing an interpretable predictive model for student performance. Analisys on data from an undergraduate course shows that there is a relationship betweeen ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "observed study strategies",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "observed study strategies",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " and course-success.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " and course-success.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c84750c-f3ba-8029-97c3-c0a981224e58",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c84750c-f3ba-8029-97c3-c0a981224e58",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3"
+        },
+        "created_time": "2025-04-01T16:37:00.000Z",
+        "last_edited_time": "2025-04-01T16:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c84750c-f3ba-803d-b5ad-fa89912851a0",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1c84750c-f3ba-803d-b5ad-fa89912851a0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3"
+        },
+        "created_time": "2025-04-01T16:37:00.000Z",
+        "last_edited_time": "2025-04-01T16:37:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c84750c-f3ba-80aa-822f-f960c9fbcd87",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c84750c-f3ba-80aa-822f-f960c9fbcd87",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-803a-bfef-e5fde34bf0c3"
+        },
+        "created_time": "2025-04-01T16:37:00.000Z",
+        "last_edited_time": "2025-04-02T14:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

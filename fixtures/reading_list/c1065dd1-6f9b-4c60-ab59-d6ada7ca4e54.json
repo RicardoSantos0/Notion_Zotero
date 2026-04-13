@@ -1,0 +1,823 @@
+{
+  "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+  "title": "Mining Sequential Learning Trajectories With Hidden Markov Models For Early Prediction of At-Risk Students in E-Learning Environments",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "8bf0b68c-6d78-48c7-b3bb-6f688005376f",
+          "name": "Early Warning Systems",
+          "color": "yellow"
+        },
+        {
+          "id": "4e8b1d74-efc9-46a4-b8a4-e2295a5b6c82",
+          "name": "E-Learning Environments",
+          "color": "purple"
+        },
+        {
+          "id": "0068a2d0-1229-475d-a2a5-b98acb0a1efd",
+          "name": "Formative Assessments",
+          "color": "gray"
+        },
+        {
+          "id": "8ac1bbbf-5274-4ce0-b98f-43d0eff1305d",
+          "name": "Hidden Markov Models",
+          "color": "blue"
+        },
+        {
+          "id": "94417f6a-eb3e-4c0e-905b-5525218420a1",
+          "name": "Sequential Pattern Analysis",
+          "color": "yellow"
+        },
+        {
+          "id": "faa90247-b02c-431f-bde5-e6ccbf1e30c7",
+          "name": "Teaching/Learning Strategies",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"At-risk students\" AND \"Learning Strategies”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"At-risk students\" AND \"Learning Strategies”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": ">a[s",
+          "name": "Q2 Journal",
+          "color": "brown"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "IEEE Transactions on Learning Technologies",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "IEEE Transactions on Learning Technologies",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-08-04T09:00:00.000+01:00",
+        "end": "2025-09-04T00:36:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Gupta et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Gupta et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Mining Sequential Learning Trajectories With Hidden Markov Models For Early Prediction of At-Risk Students in E-Learning Environments",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Mining Sequential Learning Trajectories With Hidden Markov Models For Early Prediction of At-Risk Students in E-Learning Environments",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "2634750c-f3ba-8081-9196-ed5ba096027d",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "Final Mark in a Course",
+          "Safe (1) vs At-Risk (0)",
+          "32593",
+          "7 courses in OULAD",
+          "Lightweight Assessment Scores",
+          "[Sequence of Encoded LWA scores]",
+          "After 5 LWA",
+          "The authors divide the assessments based on sequential distribution - across course duration.\n\nFor each quartile of course duration the authors extract perform feature generation based on the distribution - guided by the median and quartiles of the assessments.\n\nThese are subsequently encoded into 4 states: \n\nA - Non-attempters, \nB - 0 to Q1\nC - Q1 to Med\nD - Med or greater ",
+          "seqHMM,\nSVM, RF, Logistic Regression, MLP",
+          "Holdout Method",
+          "{Accuracy: [0.8767, 0.9340], Precision: [0.8571, 0.9464], Recall: [0.8854, 0.9924], F1-Score: [0.905, 0.938], Cohen’s Kappa: [0.719, 0.886]}",
+          "Authors do a study using Hidden Markov Models. \n\nThe authors use this approach and compare it against other baselines. HMM perform at a comparative level (and sometimes better) than baselines.",
+          "- Does not consider multiple institutions.\n\n- No use of other data sources.\n\n- Does not allow prediction of assessment performance."
+        ]
+      ],
+      "index": 6
+    },
+    {
+      "block_id": "2634750c-f3ba-8075-b239-c926bcfe8f72",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Higher Education",
+          "E-Learning",
+          "32593",
+          "7 courses in OULAD",
+          "Lightweight Assessment Scores",
+          "None Specified",
+          "[Transitions between risk profiles]",
+          "The authors divide the assessments based on sequential distribution - across course duration.\n\nFor each quartile of course duration the authors extract perform feature generation based on the distribution - guided by the median and quartiles of the assessments.\n\nThese are subsequently encoded into 4 states: \n\nA - Non-attempters, \nB - 0 to Q1\nC - Q1 to Med\nD - Med or greater ",
+          "Hidden Markov Models",
+          "",
+          "2",
+          "Strugglers: Students who have consistently low performance and end up giving up.\n\nSporadic Learners: start well, but tend to get to higher-risk profiles later on.",
+          "Educators should incorporate LWA into their pedagogical practice and use transition patterns. ",
+          "Authors do a study using Hidden Markov Models to profile students identified as at-risk.\n",
+          "- Does not consider multiple institutions.\n\n- No use of other data sources."
+        ]
+      ],
+      "index": 9
+    }
+  ],
+  "blocks": [
+    {
+      "id": "3564c894-df44-48df-b093-40324b182dd7",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "3564c894-df44-48df-b093-40324b182dd7",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2024-08-04T12:01:00.000Z",
+        "last_edited_time": "2024-08-04T12:01:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "01046370-825c-4fd6-ad26-ae0c09712613",
+      "type": "paragraph",
+      "text": "Nowadays, there is more and more data available from VLE. This data has been used already to create early warning systems that intend to identify students at risk. ",
+      "raw": {
+        "object": "block",
+        "id": "01046370-825c-4fd6-ad26-ae0c09712613",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2024-08-04T12:01:00.000Z",
+        "last_edited_time": "2024-08-04T15:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Nowadays, there is more and more data available from VLE. This data has been used already to create early warning systems that intend to identify students at risk. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Nowadays, there is more and more data available from VLE. This data has been used already to create early warning systems that intend to identify students at risk. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8418d674-f21f-4b7a-b4a1-aea5848ba4af",
+      "type": "paragraph",
+      "text": "The authors use an Hidden Markov Model to mine sequential behaviors and create an EWS. Authors use OULAD as validation and achieve 90%´accuracy and AUC. In addition the authors also find that the optimal moment for early prediction is either the first or second quarter of a course.",
+      "raw": {
+        "object": "block",
+        "id": "8418d674-f21f-4b7a-b4a1-aea5848ba4af",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2024-08-04T15:16:00.000Z",
+        "last_edited_time": "2024-08-04T15:22:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors use an Hidden Markov Model to mine sequential behaviors and create an EWS. Authors use OULAD as validation and achieve 90%´accuracy and AUC. In addition the authors also find that the optimal moment for early prediction is either the first or second quarter of a course.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors use an Hidden Markov Model to mine sequential behaviors and create an EWS. Authors use OULAD as validation and achieve 90%´accuracy and AUC. In addition the authors also find that the optimal moment for early prediction is either the first or second quarter of a course.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-80bf-81e1-da368657a0e0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-80bf-81e1-da368657a0e0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T21:40:00.000Z",
+        "last_edited_time": "2025-09-03T21:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-80a5-b732-ffe8ad6912e1",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-80a5-b732-ffe8ad6912e1",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T21:40:00.000Z",
+        "last_edited_time": "2025-09-03T21:40:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/e0895776-c50d-48ec-9d1e-43be1d3a3a81/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466TIEPVTTA%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T152746Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIGc9H2n%2FUF41PigY96WPNhJqDzuoAeES4acoDgVqnH5oAiApf1XKmsvubqjdf7JDyzHaYJaIheXyLiuH5AuxRmMHNSr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMKpfbvRjfUTim0hgPKtwDHOZd1wbaZ0VZuIGrdQAr%2B0%2Boekk1eTxeWTcnOeqEXwUKFBL3KC0z1RnUR8osUccDhCn4TGMEyBW0m4l%2BhvKaX%2B0SP0X4YXYQKFPuOKDqkTZ2V3mLIRrKOOfNNmnf8TB24hpAGKsyUP1Mm6BmneuaHu4iFRVMGHiw%2FhaKBVVCLU3p7CRmE54MQ4PkB4z7ffak8ux3yw4pvghz3Ea3uF0z6Aq5KIJSOFKFOXN59cHARmc%2FgYZyOzFbrMwkUBy0vgTBcW0y5bQ1146xksPMypKe8ibpO%2Fpb83mu2CpX1YQyU1kryc3QmB5bIvMewfYUl3DSqujqfuY6zJ96PzXoJihbwttKy5p51ObjaUPbsPknRg2l1tZFC69Dm%2FiTl6Vq5Qw3kcdx0cV1JKh%2FP%2B9z%2F4O%2FzbOagOXTZr7rs%2FXIfZQgtdmBHQy4dVjrq7Q%2Fn3uLR1PlMdxfZhW%2FXYS0%2Fh10sAqiorsx%2FWKD4B4kRRe5J5QTVjHngXJbx9h5EADwiYwoQc3rGItpe%2BDE49zEM5POxZmnCQXI%2BQzT8xzqE973YYD9z6OgOj4APga9m0G5cGBIlDTN4pqsebXNTTkuDD6S7bmfg3gW%2BYdiIghXb5QCRBtjsLLb2Hazuyc%2BTS2j76cwvu7zzgY6pgEJc%2BZqK0LvhnoIM9b%2BlcDiZ2uTNS6lmjq4cTKH6pWk98y95IPNZygWjEdiUoEVxzkzpplC1d6ejPv9x2m3XxCAGonAVSilJjgCZKv8NdW7I9jErvMtTEdfNWozCzfNk%2BrfPi9BIj0bmFqaWpdGQWUOfbmbpAX4dLBRG%2BfmDAsGDIeC5rVtz20P3t%2BWZJSRTFjpd7y1zkABw9Wssz9Ewq5rHlr4OeKf&X-Amz-Signature=340f69973e0d113283c151f39615438c529af4bece99cdca4e215d2aae75b3a0&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:27:46.210Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-802d-a289-d26aeb86714b",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-802d-a289-d26aeb86714b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T17:36:00.000Z",
+        "last_edited_time": "2025-09-03T17:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-8081-9196-ed5ba096027d",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-8081-9196-ed5ba096027d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T17:36:00.000Z",
+        "last_edited_time": "2025-09-03T17:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-8002-9016-e015c4ba289d",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-8002-9016-e015c4ba289d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T23:23:00.000Z",
+        "last_edited_time": "2025-09-03T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-80ca-b332-da71152971ee",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-80ca-b332-da71152971ee",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T23:23:00.000Z",
+        "last_edited_time": "2025-09-03T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "2634750c-f3ba-8075-b239-c926bcfe8f72",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "2634750c-f3ba-8075-b239-c926bcfe8f72",
+        "parent": {
+          "type": "page_id",
+          "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+        },
+        "created_time": "2025-09-03T23:23:00.000Z",
+        "last_edited_time": "2025-09-03T23:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

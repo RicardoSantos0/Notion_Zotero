@@ -1,0 +1,737 @@
+{
+  "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9",
+  "title": "Pull together: Option-weighting-enhanced mixture-of-experts knowledge tracing",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "39e41b39-6070-491a-be15-9ea50d7f5b62",
+          "name": "Option Tracing",
+          "color": "green"
+        },
+        {
+          "id": "4bca2663-2f45-4671-ac11-81a619481b31",
+          "name": "Option Weights",
+          "color": "gray"
+        },
+        {
+          "id": "0ec00db9-fb0f-4f76-a519-45c09198853d",
+          "name": "Multi-task Learning",
+          "color": "orange"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Knowledge Tracing”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Knowledge Tracing”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "d6bf9dd5-a8b7-4c23-9bd1-fd637461afc5",
+        "name": "Intelligent Tutoring System",
+        "color": "default"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2024
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Expert Systems With Applications",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Expert Systems With Applications",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Scopus",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Scopus",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-03-12T17:33:00.000+00:00",
+        "end": "2025-04-24T17:35:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Huang et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Huang et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Pull together: Option-weighting-enhanced mixture-of-experts knowledge tracing",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Pull together: Option-weighting-enhanced mixture-of-experts knowledge tracing",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-80bd-8ddc-f0556af73f6f",
+      "heading": "Summary Table KT",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Next MCQ is Correct",
+          "Correct (1) vs Incorrect (0)",
+          "100000 EdNet-KT1 learners, 118971 Eedi learners, 10000 EdNet learners ",
+          "EdNet, Eedi, ENEM",
+          "Sequence of Answers, Problem Difficulty",
+          "[Sequence of Answers, Option Scores]",
+          "KT methods often estimate knowledge states based on correctedness of a MCQ. \n\nHowever, selecting different options may be indicative of different knowledge states. \n\nMoreover, while multi-task prediction has been used in KT, it lacks a full model specific for different tasks.",
+          "The novelty of the approach is two-fold:\n\nThe introduction of option-weighting to assign different weights to the different possibilities of MCQ. \n\nSecondly, the model introduces the notion of mixtures-of-experts. \n\nOne Module Specific for KT, a second for OT and a thir for both tasks. ",
+          "The authors create 2 forms of embeddings: a categorical embedding for exercises representation.\n\nA continuous embedding to represent the learners’ knowledge states. \n\nThe authors create mixture of experts set of embeddings. \n\nIn short, the authors create 3 modules that are meant to mimetize domain-experts with different perspectives:\n\n- Exercise Embeddings, \n- Exercise Analysis, \n- Learning State Recognition, \n- Interaction Parsing,\n- Knowledge State Acquisiton\n\nFor this exercise, there is an expert for the KT task and an expert meant to evaluate the KT and the OT perspectives. \n ",
+          "DKT, DKVMN, SAKT, AKT, SAINT, CL4KT, DIMKT, DP-WEKT, MQFKT, ATDKT, WEKT",
+          "Holdout Method",
+          "EdNet\n{AUC: 0.7751 - WEKT, Accuracy: 0.7332 - WEKT, RMSE; 0.4218 - WEKT}\n\nEedi\n{AUC: 0.8164 - WEKT, Accuracy: 0.7538 - WEKT, RMSE; 0.4012 - WEKT}\n\nENEM\n{AUC: 0.7453- WEKT, Accuracy: 0.7350 - WEKT, RMSE; 0.4274 - WEKT}",
+          "Results show that both WEKT and DP-WEKT approaches achieve state-of-the-art performance on 3 of the datasets.\n\nThe impact of the experts is measured via an ablation study - both for full experts and Expert Compents as well.",
+          "Only works for MCQ scenarios.\n\nDoes not consider specific learner behaviors which may enrich the model’s performance.\n\nDoes not consider, at this stage, the incorporation of LLMs.\n\nHoldout Method"
+        ],
+        [
+          "Classification",
+          "Intelligent Tutoring System",
+          "Which Option Selects on a MCQ",
+          "Correct (1) vs Incorrect (0)",
+          "100000 EdNet-KT1 learners, 118971 Eedi learners, 10000 EdNet learners ",
+          "EdNet, Eedi, ENEM",
+          "Sequence of Answers, Problem Difficulty",
+          "[Sequence of Answers, Option Scores]",
+          "KT methods often estimate knowledge states based on correctedness of a MCQ. \n\nHowever, selecting different options may be indicative of different knowledge states. \n\nMoreover, while multi-task prediction has been used in KT, it lacks a full model specific for different tasks.",
+          "The novelty of the approach is two-fold:\n\nThe introduction of option-weighting to assign different weights to the different possibilities of MCQ. \n\nSecondly, the model introduces the notion of mixtures-of-experts. \n\nOne Module Specific for KT, a second for OT and a third for both tasks. ",
+          "The authors create 2 forms of embeddings: a categorical embedding for exercises representation.\n\nA continuous embedding to represent the learners’ knowledge states. \n\nThe authors create mixture of experts set of embeddings. \n\nIn short, the authors create 3 modules that are meant to mimetize domain-experts with different perspectives:\n\n- Exercise Embeddings, \n- Exercise Analysis, \n- Learning State Recognition, \n- Interaction Parsing,\n- Knowledge State Acquisiton\n\nFor this exercise, there is an expert for the OT task and an expert meant to evaluate the KT and the OT perspectives. \n ",
+          "DP-WEKT, WEKT",
+          "Holdout Method",
+          "EdNet\n{AUC: 0.6772 - WEKT}\n\nEedi\n{AUC: 06611 - WEKT}\n\nENEM\n{AUC: 0.4184 - WEKT}",
+          "For Option Tracing Task, both WEKT and DP-WEKT were tested. \n\nWEKT outperforms DP-WEKT while being substantially faster to train. ",
+          "Only works for MCQ scenarios.\n\nDoes not consider specific learner behaviors which may enrich the model’s performance.\n\nDoes not consider, at this stage, the incorporation of LLMs.\n\nHoldout Method"
+        ]
+      ],
+      "index": 6
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1b44750c-f3ba-8094-a999-e9714e1ea181",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8094-a999-e9714e1ea181",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-03-12T17:27:00.000Z",
+        "last_edited_time": "2025-03-12T17:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8009-b24e-fefc5b284ce6",
+      "type": "paragraph",
+      "text": "In online teaching, KT is meant to inform whether a teaching strategy should be changed according to the changes in learners knowledge states. Most KT models assume a binary target, without additional adjustments. For example, MCQ options introduce confounding concepts and, depending on the learner’s answer, it may be possible to understand the current knowledge state. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8009-b24e-fefc5b284ce6",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-03-12T17:27:00.000Z",
+        "last_edited_time": "2025-03-12T17:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In online teaching, KT is meant to inform whether a teaching strategy should be changed according to the changes in learners knowledge states. Most KT models assume a binary target, without additional adjustments. For example, MCQ options introduce confounding concepts and, depending on the learner’s answer, it may be possible to understand the current knowledge state. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In online teaching, KT is meant to inform whether a teaching strategy should be changed according to the changes in learners knowledge states. Most KT models assume a binary target, without additional adjustments. For example, MCQ options introduce confounding concepts and, depending on the learner’s answer, it may be possible to understand the current knowledge state. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1b44750c-f3ba-8048-9a4e-f53b1a6c7dd0",
+      "type": "paragraph",
+      "text": "To take advantage of this phenomenon, the authors introduce an option-weighted enhanced mixture-of-experts knowledge tracing (WEKT) method. Each answer receives a specific weight and can be used to update the learners’ knowledge states. The structure combines cognitive theory and deep learning. Experiments on multiple datasets show that the model achieves its aims. ",
+      "raw": {
+        "object": "block",
+        "id": "1b44750c-f3ba-8048-9a4e-f53b1a6c7dd0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-03-12T17:30:00.000Z",
+        "last_edited_time": "2025-03-12T17:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To take advantage of this phenomenon, the authors introduce an option-weighted enhanced mixture-of-experts knowledge tracing (WEKT) method. Each answer receives a specific weight and can be used to update the learners’ knowledge states. The structure combines ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To take advantage of this phenomenon, the authors introduce an option-weighted enhanced mixture-of-experts knowledge tracing (WEKT) method. Each answer receives a specific weight and can be used to update the learners’ knowledge states. The structure combines ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "cognitive theory",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "cognitive theory",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": " and ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " and ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "deep learning",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": true,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "deep learning",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ". Experiments on multiple datasets show that the model achieves its aims. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ". Experiments on multiple datasets show that the model achieves its aims. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-80e2-b7f1-c0c6876f51fd",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-80e2-b7f1-c0c6876f51fd",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-04-24T15:06:00.000Z",
+        "last_edited_time": "2025-04-24T15:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1df4750c-f3ba-80fd-8663-fffc3dfe892b",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1df4750c-f3ba-80fd-8663-fffc3dfe892b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-04-24T15:06:00.000Z",
+        "last_edited_time": "2025-04-24T15:06:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/46b22a41-1126-41ce-a907-56d8e9f4e650/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RCIBQYBE%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T153108Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJGMEQCIHTN0LGKKB5P7v9yRIsBGG0m0eWZQDpbqQvy%2FeWpucgzAiALPqQtqDoqs22QGufqEFsz1hB9FZojq6HSLmFMomMl%2Byr%2FAwh3EAAaDDYzNzQyMzE4MzgwNSIMwBSiVJbq%2B0vR4WEKKtwDnt1Ms%2FH2v0YK88e3pL3WLkao%2B7VRu72PdVT1W%2Bz74gNStmDJxr9bi8wEVSO9iZLO4ZbO9dNtZkrgBNTDa5wVEQJJSdy%2Fc%2FmRgxGK%2By0FzVVvSZBu1S8Z3UwpL8TATQ8F1bD4bYXWocrU8BvdytUm4ge81WWzdvFnfv%2BFnopnVMOfBXGzA0ju5k3F%2FdVmhOdQ6s5re%2FuDG8ZjrZRgcLauGzRYhqapa%2Bgk88npoAc%2BvlPI5xJ0ragAyldxW4DQvKEvITB7AkZ6vnRTb0yNf5OiD1aR2%2FbjlN3lAMho%2BgkjJPsDqDBQRoNEnIDRmLfRlR2r9Muq2dAb9ZQA2WPufraq0TpXFzWHzh1ahdrt5mEGSt9u7WrYMhU3P%2Fiiytg%2FAZHBjf0RKjcxLkaVa9pSBzxDpHFQO10mGKfEwETJcEuUG2vn1JuLf%2B6KSdej73SMPNGnsmJg5xLBGfybDGLoRdRhysKOioWbBgZDE%2FcKPSEAffzd5LjtIrh06390sAqs%2FgfPQQgKRw02kPD36n5R5UWDLZ2J9m7qLpWACX2BkXgHgf4OsKXiZdIXweOSuoo4Akm7sE%2FxjfFv1zipuJhmslObQB8nAUJoU1eLgp%2F7odExXCPbV1FlxEa7HLrUwQUwi%2FDzzgY6pgG%2FT3o42gNd2KZuI%2BDrcTngvQYk7SnS%2FvX4hYur78b8jG2Ea68OJelA0WjbmxJaY%2Bw1AVATVRkyIYpO%2Bth9JKrDu0HTC5%2B3RKY%2FZxBRtBoyO%2FI%2FbDhw7tDqKUg1hRw8u5rpdegCFXtEmUsvwIo0DTiTwJhERuulLx2nPmCyeMnCoE9U2Md44CjPOL7BOlIQFJD8bwa%2Fz0CIJJVDW8eNXCB9NxqdQeIL&X-Amz-Signature=dee3f60e76204dfcd3e4979be97356ff81570b46b4ceb9a44c1ff375d8cc9337&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:31:08.006Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-803e-b754-e4bc3d54808f",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-803e-b754-e4bc3d54808f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-07T15:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-80bd-8ddc-f0556af73f6f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-80bd-8ddc-f0556af73f6f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18b4750c-f3ba-8042-b170-f80ea9d94cf9"
+        },
+        "created_time": "2025-04-07T15:19:00.000Z",
+        "last_edited_time": "2025-04-24T16:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+{
+  "references": [
+    {
+      "id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "title": "Students' LMS interaction patterns and their relationship with achievement: A case study in higher education",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2d504506",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Online Learning",
+          "Students": "140 students",
+          "Courses": "1 module as part of a eTRAL course",
+          "Data sources": "LMS\nFinal Grades",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Time Tasks, Time Theory, Time Forums, Word Forums, Relevant Actions, Days “hand-in”]",
+          "Preprocessing Details": "The 6 variables were created from the extraction of 12 raw LMS variables. \n\nData is standardized (0 mean, 1 SD).\n\nANOVA tests were performed to identify the importance of the different features.\n\nt-Tests were performed to analyse differents in final course achievement between different clusters. ",
+          "Models": "EM\nk-Means",
+          "Performance Metric: Best Model": "Log likelihood: -6.82178",
+          "Groups Created": "4",
+          "Cluster Description": "Pairwise similarities between Clusters 1 and 4 and Clusters 2 and 3 when it comes to task orientation.\n\nCluster 1 (5.90): NonNon Task or Theory Oriented Group (non-procrastinators)\n\nCluster 2 (7.20): Task Oriented Group (socially focused)\n\nCluster 3 (6.49): Task Oriented Group (individually focused)\n\nCluster 4 (4.85): Non Task Oriented Group (procrastinators)\n\nClusters 2 and 3 exhibit the highest performance wchich suggests that spending time on different tasks is heavily related with good performance.",
+          "Implications": "Understanding the characteristics of different student interactions can be used to identify students at risk.\n\nTask-oriented student behavior may inform creation of recommender systems. ",
+          "Comments": "Variables exhibited positive correlations with the exception of Time Theory and Time Tasks.\n\nLikewise, the time variavbles were negatively correlated with Days-hand in.\n\nIn general, the work can be described in the following steps:\n\n1. Extract data and create features\n2. Create a clustering model\n3. Analyze whether the features used are contributed to cluster separation or not\n4. Analyze whether different clusters have different performances at the end of the course. ",
+          "Limitations": "Does not explain why students with different engagement patterns get similar performance.\n\nLack of additional data sources.\n\nSmall sample size with homogenous sample of 3rd year psychology students.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+        "block_index": 57
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c882c46b",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The study looks to evaluate the processes by which students asynchronously interact with their Learning Management System. This approach involves the extraction of the LMS logs of 140 undergraduate students, followed by the creation of clusters with the k-means algorithm.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_f69fe6a5",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Results allow the authors to separate students into 4 distinct groups with distinct behaviors. The analysis of the average performance of each group shows that different learning strategies on the LMS can affect how students perform.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_bf8d6ff8",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Learning Management Systems are more popular than ever but students often fail to adapt to it. Modern education requires more effort and better SRL skills in order to be successful. More than students, educators often do not adapt to these systems either: identifying student effort and behaviour is harder in these systems as it requires the collection and processing of data at a very fundamental level (the interactions). However, uncovering patterns in the LMS is useful to create Adaptive Educational Systems.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_d5ae8d6e",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The work under scrutiny uses an EDM approach on LMS logs to uncover student learning strategies. This requires the extraction of relevant indicators from logs (effort, time working, etc…) to answer multiple research questions versing over a student’s ability to adapt and succeed in these environments. Previous applciations include the tracxking of student activities or the prediction of dropout or academic success.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_2ab3fe98",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The novelty of this study is that is collects data extracted from a real course and real activities to identify learning strategies on the LMS. ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_a98160b8",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The literature features different types of works leveraging LMS data: from identification of Learning stules to prediction of motivation. From the literature it is possible to see that students adopting different learning styles also tend exhibit different types of behaviors in the LMS. In previous works, the utilization of clusters was merely descriptive. ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_087aaef2",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "In this study, the authors want to predict achievement. Thus, they also turn to review works that predict it. Previous work has shown that there is a relationship between dedicated to learning activities and achievement (even if it is not a perfect measure and different authors obtain different results). One interesting observation comes from Plant et al. mentioning that more active students plan their activities → greater success with less time studying.  ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_8f16458c",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Frequecy-related variables (either counting the number of times an activity was accessed or measuring the time spent) are focal variables in learning analytics approaches. Another variable that are considered useful is a measurement of procrastination. In fact, it has been shown that procrastination in e-learning is even more detrimental than in face-to-face. There is novelty in the fact that procrastination is measured from logs.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_09f7a02b",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Thus, the research questions are: ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_20f1ca2c",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The data comprises 140 student attending a psychology degree during 2012-2013. The experiment was conduct as part of a course called eTRAL. The program was executed entirely outside teaching hours. Students who did the program were given an extra point in their final course subject if they submitted at least 80% of the assignments. The program under evaluation was composed of both Theoretical and Practical portions. Moreover, there was a forum. On average the materials are expected to take 2 to 2.5 hours every week.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_daf0c6f5",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The data was collected after the experiment. We refer to 12 raw features extracted from LMS logs here. These were used to calculate the total 6 variables used in the study:",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_834542e5",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Moreover, the authors also extracted the final grade on the subject → meaning that the logs under analysis only refer to a small part of the total course. It is unclear how early in the course these materials are created.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_ee843258",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The analysis was done in different stages:",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_766e7eaa",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The authors organize their results in order to align them to the Research Questions.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_36c903d8",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The authors identify 4 as the optimal number of clusters for both EM and k-means. Then, the authors represent each cluster by the coordinates of the centroid. A description of clusters follows:",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_c6f4f7bd",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "The results show that a high amount of variance (71.5%) is explained by the variables, which is remarkably high. When analyzed individually, it is possible to see that all variables exhibit meaningful differences across the different clusters, which is a hallmark of good separation.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_b25ec38a",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Teh results of the t-tests between the clusters on the final course performance show that there are indeed statistically significant differences between the majority of the clusters: ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_6753c3f7",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Cluster 1 vs Clusters 2 and 4\nCluster 2 vs Clusters 3 and 4",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_429aa561",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Cluster 3 vs Cluster 4",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_7057b2bb",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": "Meaning that the only clusters without statistically significant differences are Cluster 1 vs Cluster 3.",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    },
+    {
+      "id": "an_f39f8361",
+      "reference_id": "a2b4d599-5f66-473a-842c-6daf51ce791f",
+      "text": " ",
+      "provenance": {
+        "page_id": "a2b4d599-5f66-473a-842c-6daf51ce791f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

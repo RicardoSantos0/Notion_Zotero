@@ -1,0 +1,594 @@
+{
+  "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea",
+  "title": "Personalized Learning Path Recommender Based on User Profile Using Social Tags",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "c3dd2d69-f863-4e9f-8934-a00f0848f5d6",
+          "name": "Learning Path",
+          "color": "brown"
+        },
+        {
+          "id": "9c7d611e-5c8c-4352-969e-0ba6a08a0f7a",
+          "name": "Bayes Formula",
+          "color": "orange"
+        },
+        {
+          "id": "efb9b523-4d80-4b3d-bc6d-4b24c2375efa",
+          "name": "User Profile",
+          "color": "red"
+        },
+        {
+          "id": "cedd3563-134a-4147-b422-ab3e9d350f17",
+          "name": "Social Tags",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Recommender Systems” AND “Education”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Recommender Systems” AND “Education”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2012
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ISCID",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ISCID",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "ohE[",
+        "name": "Accepted For Recommender Systems",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "z=Nn",
+        "name": "Deployable",
+        "color": "green"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f=JN",
+          "name": "Tested on New Students",
+          "color": "pink"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-01-30T15:10:00.000+00:00",
+        "end": "2025-10-20T19:05:00.000+01:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Xu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Xu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-06-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "30c9ffd1-14d0-4c3e-ad2a-20b11877f424",
+          "name": "Recommender Systems",
+          "color": "orange"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Personalized Learning Path Recommender Based on User Profile Using Social Tags",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Personalized Learning Path Recommender Based on User Profile Using Social Tags",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "23c4750c-f3ba-8010-9eca-e16df9d8e47c",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Context",
+          "Teaching Method",
+          "Recommender System Type",
+          "Target of Recommendation",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Initialization Method",
+          "Updates to Recommendations",
+          "Preprocessing Details",
+          "Recommendation types",
+          "Evaluation",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Higher Education",
+          "E-Learning",
+          "Collaborative Filtering",
+          "Learning Pathways",
+          "200 Computer Science students",
+          "1 C Programming  Learning System",
+          "Social tags",
+          "Users are initialized via the profiling via social tags- users are asked to rank the social tags according to their preference. ",
+          "After taking an activity",
+          "The fiull preprocessing pipeline goes as follows:\n\n1. Select the representative items for each learner.\n\n2. Do not consider items that user has not viewed and build item-tag matrix.\n\n3. For each item-tag relationship, highlight if it is part of the user preferences. \n\n4. Rank tags\n\n5. For each item, form a vector consisting of tag rankings\n\n6. Create a profile of user u for each item based on the tag rankings. \n\n7. USer simmilarity will be computed using Pearson Correlation.\n\n8. Select most similar users and aggregate the learning path (sequence of steps from user U up to now).\n\nPredictions on most most likely next action arre made using Bayes Theorem. ",
+          "Next Recommended Action",
+          "{Learning Time: 115.2, Average Grade: 81.4, Knowledge Unit Mastery: 0.913}",
+          "Authors do 2 experiments:\n\nExperiment 1 that only executes Step 8 - Aggregation and recommendation.\n\nExperiment 2 which follows the full logic of the recommender framework.\n\nLearners who were part of experiment 2 spent less time studying and achieved better grades and knowledge mastery.",
+          "Only considers preferences from the most interested learners. \n\nSmall dataset."
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "18b4750c-f3ba-80eb-9550-f6c78e160824",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "18b4750c-f3ba-80eb-9550-f6c78e160824",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-01-30T15:11:00.000Z",
+        "last_edited_time": "2025-01-30T15:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18b4750c-f3ba-802b-9b93-d44fef8132ca",
+      "type": "paragraph",
+      "text": "The goal of educational recommender systems is to improve performance. The authors propose a recommender system that uses social tags to build user profiles. Then, it uses Bayes formula to predict next learning materials out of the ones used by similar users (so, collaborative filtering). ",
+      "raw": {
+        "object": "block",
+        "id": "18b4750c-f3ba-802b-9b93-d44fef8132ca",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-01-30T15:11:00.000Z",
+        "last_edited_time": "2025-01-30T15:15:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The goal of educational recommender systems is to improve performance. The authors propose a recommender system that uses social tags to build user profiles. Then, it uses Bayes formula to predict next learning materials out of the ones used by similar users (so, collaborative filtering). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The goal of educational recommender systems is to improve performance. The authors propose a recommender system that uses social tags to build user profiles. Then, it uses Bayes formula to predict next learning materials out of the ones used by similar users (so, collaborative filtering). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18b4750c-f3ba-80ff-ae5e-d475af6ebcf9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "18b4750c-f3ba-80ff-ae5e-d475af6ebcf9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-01-30T15:17:00.000Z",
+        "last_edited_time": "2025-01-30T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-803e-a596-e4915174633a",
+      "type": "heading_2",
+      "text": "Summary Table REC",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-803e-a596-e4915174633a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-07-26T15:31:00.000Z",
+        "last_edited_time": "2025-07-26T15:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table REC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table REC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "23c4750c-f3ba-8010-9eca-e16df9d8e47c",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "23c4750c-f3ba-8010-9eca-e16df9d8e47c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-07-26T15:31:00.000Z",
+        "last_edited_time": "2025-07-26T15:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 14,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "18b4750c-f3ba-80b3-85bf-daf04a349474",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "18b4750c-f3ba-80b3-85bf-daf04a349474",
+        "parent": {
+          "type": "page_id",
+          "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+        },
+        "created_time": "2025-01-30T15:17:00.000Z",
+        "last_edited_time": "2025-01-30T15:17:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}

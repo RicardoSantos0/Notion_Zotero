@@ -1,0 +1,586 @@
+{
+  "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231",
+  "title": "Motives for dropping out from higher education—An analysis of bachelor's degree students in Germany",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "f96d0d0a-5564-4a20-ab15-5f040d49759e",
+          "name": "Article",
+          "color": "default"
+        },
+        {
+          "id": "ef2adb0f-7b91-42ce-89d0-f33a322b1656",
+          "name": "Cluster Analysis",
+          "color": "red"
+        },
+        {
+          "id": "6ebd4f78-9e64-4542-99c3-69172e9e32e4",
+          "name": "Dropout Motive",
+          "color": "default"
+        },
+        {
+          "id": "e179c2cb-038f-43fa-9c1c-07398f3c6032",
+          "name": "Germany",
+          "color": "orange"
+        },
+        {
+          "id": "87d17d2e-89c3-4e16-9a76-df4cba371253",
+          "name": "Higher Education",
+          "color": "gray"
+        },
+        {
+          "id": "dfef66a9-e2ff-4b1a-b218-c17163db5053",
+          "name": "Intervention Measures",
+          "color": "purple"
+        },
+        {
+          "id": "5f22cae6-4dd2-42f4-a1a3-079ec1651d3f",
+          "name": "Student Dropout",
+          "color": "blue"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Learning Analytics” AND (“Student Performance” OR “Dropout”) AND “Higher Education” ",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "7940a14a-7ea0-41a0-820f-d08024337f8c",
+        "name": "Higher Education (Not Course Related)",
+        "color": "brown"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2021
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "h=IE",
+          "name": "Q1 Journal",
+          "color": "gray"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "trX]",
+          "name": "Static Aggregate",
+          "color": "green"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "European Journal of Education",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "European Journal of Education",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "QsQW",
+        "name": "Accepted for Descriptive Modelling",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Google Scholar",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Google Scholar",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "65f23339-5652-44d2-9bf9-8da46efb7639",
+          "name": "Public Dataset",
+          "color": "orange"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-02-06T14:50:00.000+00:00",
+        "end": "2025-03-26T22:14:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Behr et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Behr et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-10",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "c674af0c-130c-4a03-a260-7fbdb382ff39",
+          "name": "Dropout",
+          "color": "red"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Motives for dropping out from higher education—An analysis of bachelor's degree students in Germany",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Motives for dropping out from higher education—An analysis of bachelor's degree students in Germany",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1c24750c-f3ba-8070-ba94-f5db18710e2f",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Theoretical Grounding",
+          "Features",
+          "Preprocessing Details",
+          "Models",
+          "Performance Metric: Best Model",
+          "Groups Created",
+          "Cluster Description",
+          "Implications",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Clustering",
+          "Higher Education",
+          "Not Applicable",
+          "662 students who have dropped out",
+          "4 majors: Engineering, STEM, Law, Economics and Social Sciences, Linguistics and cultural Sciences",
+          "Student Interviews. Data is divided into main categories:\n\n1. Interest/ Expectations\n\n2. Performance/ Requirements\n\n3. Financial Aspects\n\n4. Study Conditions\n\n5. Job Alternative/ Career\n\n6. Personal/ Family Aspects\n\n",
+          "Vincent Tinto’s Model for Student Attrition",
+          "[Drop Interest Field, Drop Expect, Drop Wish Practice, Drop No Practice, Drop Exam, Drop Require, Drop Material, drop Perform, Drop Activ, Drop Financial, Drop Moneymaking, Drop Anonym, Drop Overcrowd, Drop Orga, Drop Tuition, Drop Job, Drop Suitability, Drop Interest Job, Drop Opportunities, Drop Child, Drop Family, Drop Ill, Drop Pregnant, Drop Abroad]",
+          "The NEPS dataset conducts interviews with their students and the authors use this dataset. While there is some worry with pre-processing such as identification of different types of Missing Value, authors use PCA on the feature set to reduce dimensionality. \n\n",
+          "Hierarchical Clustering",
+          "{Silhouette Score: 0.634 - 8 Clusters wih reduced Feature Set}",
+          "8",
+          "Clusters 1 and 2: The largest clusters with a mix of all reasons for dropout. Difference is that Cluster 2 has a big prevalence of Family Reasons while Cluster 1 doesn’t.\n\nClusters 3 and 4: These students reported a combined of 3 or 4 motives for dropout. Cluster 3 specific is mostly comprised of second and third year droouts who argued for study-related reasons.\n\nCluster 5: Students who reported interest, expectations and performance rrelated problems - mainly early dropouts.\n\nCluster 6: Cited study conditions along wqith family/personal motives for dropping out.\n\nCluster 7: Mostly lack of interest and unfulfilled expectations.\n\nCluster 8: Early dropouts who leave because of mainly personal or family reasons.",
+          "Programmes may focus on addressing the most relevant reasons for student dropout: \n\n1. The gap in expectation vs reality.\n\n2. Take care of possibly unrealistic expectations on study requirements. \n\nBoth could be achieved by greater comunication between university and Highschools.\n\nMoreover, depending on program type, htere are differences in Dropout. Thus, the emasures that should be taken for distinct programs should probably be accounted for - STEM students foten leave for personal/financial reasons. ",
+          "Authors look to cluster different motives for Dropout. \n\nAuthors do a series of discussions of motives for dropout according to different individual characteristics. Clustering is used afterward to cluster dropout motives using all predictors.",
+          "Panel attrition and missing values on motive for dropout.\n\nSmall sample size, that could benefit from more instances.\n\nExclusive use of Hierarchical Clsutering without attempting other approaches.\n\nSubpar results on entire feature subset. Usage of PCA to bypass feature selection/Feature engineering. "
+        ]
+      ],
+      "index": 4
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1924750c-f3ba-80e8-9878-e596eff3174f",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-80e8-9878-e596eff3174f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231"
+        },
+        "created_time": "2025-02-06T14:44:00.000Z",
+        "last_edited_time": "2025-02-06T14:44:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1924750c-f3ba-8078-afde-ec1d59127121",
+      "type": "paragraph",
+      "text": "Dropout is important to control for, so authors analyze the different reasons that may justify dropout from a higher education institution. The main reason authors found were interest and performance in an undergraduate program. Authors look at dropout using hierarchical clustering and identify multiple motives behind it.",
+      "raw": {
+        "object": "block",
+        "id": "1924750c-f3ba-8078-afde-ec1d59127121",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231"
+        },
+        "created_time": "2025-02-06T14:44:00.000Z",
+        "last_edited_time": "2025-03-26T13:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Dropout is important to control for, so authors analyze the different reasons that may justify dropout from a higher education institution. The main reason authors found were interest and performance in an undergraduate program. Authors look at dropout using hierarchical clustering and identify multiple motives behind it.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Dropout is important to control for, so authors analyze the different reasons that may justify dropout from a higher education institution. The main reason authors found were interest and performance in an undergraduate program. Authors look at dropout using hierarchical clustering and identify multiple motives behind it.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-807f-827e-e5b55dcb3aa0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-807f-827e-e5b55dcb3aa0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231"
+        },
+        "created_time": "2025-03-26T13:34:00.000Z",
+        "last_edited_time": "2025-03-26T13:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-80a2-83de-c3bd8392e0ef",
+      "type": "heading_2",
+      "text": "Summary Table DESC",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-80a2-83de-c3bd8392e0ef",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231"
+        },
+        "created_time": "2025-03-26T13:34:00.000Z",
+        "last_edited_time": "2025-03-26T13:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table DESC",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table DESC",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1c24750c-f3ba-8070-ba94-f5db18710e2f",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1c24750c-f3ba-8070-ba94-f5db18710e2f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "18c4750c-f3ba-8018-8ec7-d75dd3086231"
+        },
+        "created_time": "2025-03-26T13:34:00.000Z",
+        "last_edited_time": "2025-03-26T19:59:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

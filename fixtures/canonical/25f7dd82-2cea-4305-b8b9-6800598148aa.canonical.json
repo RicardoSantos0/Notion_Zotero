@@ -1,0 +1,182 @@
+{
+  "references": [
+    {
+      "id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "title": "OU Analyse: analysing at-risk students at The Open University",
+      "authors": [],
+      "year": null,
+      "journal": "Learning Analytics Review",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5f0b028a",
+      "reference_task_id": null,
+      "schema_name": "Predicting for new courses",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Being at risk of failing at next assessment",
+          "Target": "Not at Risk (0) vs At Risk (1)\n\nNote: Dashboard points to target possibly being Submit vs Not Submit assessment.",
+          "Students": "Unspecified number should be in hundreds or thousands",
+          "Courses": "2 anonyumized courses",
+          "Data sources": "Student Demographics\nLMS",
+          "Features": "[Age, Previous Education, Gender, Number of Credits, Previous Attempts, Number of clicks in different resources]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "The work does not consider student performance in other courses. \n\nMaterials are labeled according to role they play in learning process. \n\nSelection of attributes to predict success at next assignment is also done manually.",
+          "Models": "kNN (VLE)\nkNN (Demographic)\nNB\nCART",
+          "Assessment Strategy": "Holdout",
+          "Performance Metric: Best Model": "{Precision: [0.857, 0.934] -Assessment 4, \nRecall: [0.341, 0.529] - Assessment 1, \nF1-Score: [0.574, 0.458] - Assessment 2 ABC, Assessment 1 - XYZ}",
+          "Comments": "Authors developed an EWS and show the results on a pilot-test done on 2 courses at OU. \n\nThe system considers demographics and VLE from previous editions of course to predict success in next assessment. \n\nEvery week, there is a prediction that results from Vote of the 4 classifiers trained in parallel. \n\nResults on experimental courses show that Precision increases with time, but Recall and F1-Score decrease with time.\n\nCurrent work focuses on extending to more courses and that requires multiple pipeline optimization efforts.",
+          "Limitations": "Does not consider student academic history\n\nTarget is binary label on next assessment\n\nCurrent pipeline uses Excel sheets which is unfeasible for scale.\n\nManual labelling and selection of VLE Activity Types for next assessment.\n\nOn an implementation view, even though formally parallel, the models are being trained sequentially. \n\nInsufficient data at beggining\n\nVulnerable to possible changes in course design.\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+        "block_index": 40
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_f7332b48",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "OU Analyze is a system that intends to identify students at-risk in a VLE. The model uses 4 distinct learning algorithms. Pilot tests started in 2014. The system features prediction and a Dashboard to show course overview and view of individual students. ",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_572168bd",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Early identification of students based on interactions with VLE can be helpful for courses in an online setting. The Open University is a british Online University that allows students to participate in degree programs or do isolated courses. The system has its own VLE and a dedicated team to student support. As the number of students for each course can go into the thousands, providing personalized support to students in need is a difficult endeavour.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_6444c4b0",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Previous research has focused on the use of ML to identify students at risk. These models are often trained on what the authors call legacy data (previous academic performance) and, despite the naturally high failure rate seen in online education, it is possible to save some students in need. Another way of looking at the problem involves using VLE interactions or demographics. ",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_129bf4eb",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "The work of these authors follows up on previous work conducted at the OU. Initially, the authors used DTs on behavioral data and assessment scores. More recently, demographics have also started to be incorporated.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_efeecf3d",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "In order to make a prediction, the authors consider the behavior and performance of a student in the current course, student demographics and prior performance of other students in the same course. Academic history of a student is not considered. Goal is identify, as early as possible, if a student will or will not be at risk in a given course → Models are course-specific.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_08f0f49b",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Data is collected from the warehouse and transformed in order to be suitable for an Analytics Dashboard - 11 courses at time of writing. Data is collected for every student:",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_46115090",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Role of VLE",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_e2d2b0bc",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "As the course advances, the weight of demographic data decreases: very important at the start when there is nothing to go with → less and less important as more VLE interactions are made with the system. Predictive performance increases with the addition of VLE data. ",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_eae0572e",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "For each course, the authors identify what types of interaction are to be considered the most meaningful → Bayesian analysis. The data is then taken to 4 distinct predictive models that are parallel:",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_c00fddc8",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Decision of classification is based on the vote of the 4 algorithms. ",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_fa591e40",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Models are used every week to assess whether a student will be at-risk or not. Currently deployed on 18 courses → Empyrical results of the pilot test done in 2 distinct course - ABC and XYZ. In this case, it is possible to see that, as different assessments advance, the model becomes increasingly more precise even if at the expense of other metrics.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_444f09c6",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "This makes sense, as the idea is to have a support team reach out to students in need, the you better make damn sure that the students are actually at risk.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_483047d9",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "The authors have developed an analytics Dashboard. The dashboard includes a Course view page that includes overview of assessment results and predictions for the next assessment.",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_bbbb520a",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Also, there is student view page. The page shows student’s performance and compares it against scores of the cohort. It also includes an activity recommender. ",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_13dd1347",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Scaling up to 18 courses. The authors are finding some challenges with scale which required some redesigns. One of the main bottlenecks is the cleaning and pre-processing pipeline which is somewhat inefficient. \n\nThe labelling and selection of activity types is also a point being addressed as the authors are looking to automate it with Minimum Redundancy Maximization Algorithm. In the prototypical implementation models are trained in a sequence (even though formally they are parallel).\n",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    },
+    {
+      "id": "an_d6b8c589",
+      "reference_id": "25f7dd82-2cea-4305-b8b9-6800598148aa",
+      "text": "Another concern is starting predictions for new courses for which there is no prior data. In here, the authors consider 2 scenarios:",
+      "provenance": {
+        "page_id": "25f7dd82-2cea-4305-b8b9-6800598148aa"
+      }
+    }
+  ],
+  "workflow_states": []
+}

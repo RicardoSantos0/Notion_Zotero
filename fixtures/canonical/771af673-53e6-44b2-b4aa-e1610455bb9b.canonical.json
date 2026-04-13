@@ -1,0 +1,80 @@
+{
+  "references": [
+    {
+      "id": "771af673-53e6-44b2-b4aa-e1610455bb9b",
+      "title": "Predictive Modelling of Student Reviewing Behaviors in an Introductory Programming Course",
+      "authors": [],
+      "year": null,
+      "journal": "Proceedings of International Conference of Educational Data Mining Computer Science Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": []
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0a241e06",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Exam Performance",
+          "Target": "Exam Performance",
+          "Students": "246 students",
+          "Courses": "1 Data Structures and Algorithms course",
+          "Data sources": "LMS logs,\nExam Performance,\nQuiz Grades",
+          "Features": "[Number of Assessments, Average Time to Review, Distinct Days, Distinct Actions, Number of Interactions, Quiz 6 Mark, Quiz 10 Mark]",
+          "Moment of Prediction": "Before each exam",
+          "Preprocessing Details": "Target is computed as average of the grades obtained on each Exam.",
+          "Models": "Linear Regression",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Exam 1\n{R-Squared: -0.1411 - Linear Regression, MAE: 0.0843 - Linear Regression}\n\nExam 2\n{R-Squared: 0.6404 - Linear Regression, MAE: 0.0476 - Linear Regression}\n\nExam 3\n{R-Squared: 0.8752 - Linear Regression, MAE: 0.0266 - Linear Regression}\n\nFinal\n{R-Squared: 1 - Linear Regression, MAE: 0 - Linear Regression}",
+          "Comments": "Authors create 3 different models - 1 per exam. Results show that the more data is used - later moment of prediction the better the performance. ",
+          "Limitations": "Final grade is computed as average of all exam scores. \n\nRequires students to fail first.\n\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Exam Performance",
+          "Target": "High performers vs low performers",
+          "Students": "246 students",
+          "Courses": "1 Data Structures and Algorithms course",
+          "Data sources": "LMS logs,\nExam Performance,\nQuiz Grades",
+          "Features": "[Number of Assessments, Average Time to Review, Distinct Days, Distinct Actions, Number of Interactions, Quiz 6 Mark, Quiz 10 Mark]",
+          "Moment of Prediction": "Before each exam",
+          "Preprocessing Details": "Target variable is grade based - above 77.60% (high) vs below (low).\n\nAuthors create a classifier to predict the exam performance on each of the 3 exams.",
+          "Models": "Logistic Regression, \nkNN,\nDecision Tree, \nSVM, \nSVM (Gaussian kernel), \nRandom Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Exam 1\n{Precision: 0.7065 - SVM,   F1-Score: 0.76  - SVM}\n\nExam 2\n{Precision: 0.9303 - SVM,   F1-Score: 0.8466  - SVM}\n\nExam 3\n{Precision: 0.9655 - SVM,   F1-Score: 0.9084  - SVM}\n\nFinal\n{Precision: 1 - SVM,   F1-Score: 0.9559  - SVM}",
+          "Comments": "Authors identify that different features are relevant depending on the period. Review Patterns and Time to Attend Review. ",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "771af673-53e6-44b2-b4aa-e1610455bb9b",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_40acba32",
+      "reference_id": "771af673-53e6-44b2-b4aa-e1610455bb9b",
+      "text": "Authors created predictive models that were trained on student reviewing behavior with the goal of identifying students in need of support. This is a retrospective analysis that shows reasonable accuracy, suggesting potential to develop actions that help students form effective reviewing strategies.",
+      "provenance": {
+        "page_id": "771af673-53e6-44b2-b4aa-e1610455bb9b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

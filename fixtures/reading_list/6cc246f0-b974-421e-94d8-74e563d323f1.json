@@ -1,0 +1,2015 @@
+{
+  "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1",
+  "title": "A time series interaction analysis method for building predictive models of learners using log data",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "6d632f72-2ab9-448f-85a9-c757044606c3",
+          "name": "None",
+          "color": "green"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“Student Performance” AND “Higher Education” AND “Education Data Mining”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“Student Performance” AND “Higher Education” AND “Education Data Mining”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "h]Bc",
+        "name": "MOOC",
+        "color": "gray"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2015
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "bsf^",
+        "name": "Accepted For Performance Prediction Task",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "{edF",
+        "name": "Not Ready",
+        "color": "pink"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2024-07-30",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Brooks et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Brooks et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2023-01-01",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "2705d9b4-cb5e-480a-ae96-365359960058",
+          "name": "Student Performance",
+          "color": "green"
+        },
+        {
+          "id": "a5fa1235-c911-49d2-bb7d-2fa08a812df9",
+          "name": "Early Warning System",
+          "color": "yellow"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A time series interaction analysis method for building predictive models of learners using log data",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A time series interaction analysis method for building predictive models of learners using log data",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "27b9fcea-49eb-46a7-8272-8f9c14ce722b",
+      "heading": "Summary Table PRED",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Teaching Method",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Moment of Prediction",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "MOOC",
+          "E-Learning",
+          "Achieving a Passing Grade in MOOC Summative Evaluation",
+          "Normal grade (1) vs Not Passing (0)",
+          "33013 - Literature \n77900 - Internet\n104250 - Philosophy\n156106 - Networks",
+          "2 Literatures Courses\n3 Internet Courses\n3 Philosophy courses\n3 Networks Courses",
+          "LMS",
+          "[21 features describing the accesses to different resources in different days of the week, 480 boolean features, 717 n-gram related features]",
+          "End of Course",
+          "The work creates sequences of features. Authors attempt 4 distinct intervals:\ndaily, every 3 days, weekly and monthly.\n\nFor each period, boolean indicators are created mentioning whether a resource is accessed or not. Moreover, 2 to 5-grams are also created to mirror sequences of clicks in a specific activity.\n\nRandom undersampling of majority class (Not passing) for models to answer RQ1 and RQ2.",
+          "J48",
+          "Holdout",
+          "Holdout results for RQ2\n\n{Keiss kappa: 0.73 - Networks; Accuracy: 0.9899 - Networks}\n\nRQ3\n{{Keiss kappa: >0.40 - All courses at 21 days} ",
+          "Authors create boolean flags for sequences of different length. Moreover, the first 2 questions focus on prediction at the end of the course, with the 3rd focusing on early prediction.\n\nWork does not aim to find best model and best hyper-parameters. Instead it focuses on optimizing preprocessing strategy.\n\nAuthors point to the models created having minimal explanatory power even though they are decision trees. \n\nModel assessment is also rough:\n1 - test performance on same course and likely same data\n2. Holdout where test set is third offering of a course.\n\nModels clearly overfit. Still, optimal time to make early predictions seems to be after 21 days, when the FPR tends to decrease substantially.\n\nModels are course-specific but meant to generalize across different editions.",
+          "No feature selection was performed.\n\nDoes not use any algorithms beside DT.\n\nUnverified assumption that previous editions work similarly to later editions of a same course.\n\n\n"
+        ]
+      ],
+      "index": 33
+    }
+  ],
+  "blocks": [
+    {
+      "id": "2a144913-123b-489b-9e0e-6799823fc1a9",
+      "type": "heading_2",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "2a144913-123b-489b-9e0e-6799823fc1a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-07-30T16:03:00.000Z",
+        "last_edited_time": "2024-07-30T16:03:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5dfd5314-403c-4e3e-8845-e662ba80c67f",
+      "type": "paragraph",
+      "text": "Need for new methods of predicting achievement that are cheaper and generalizable to increasingly large courses (e.g. MOOCs). Paper presents a novel approach of feature extraction from logs → Features extracted using proposed methodology are built from interactions between learners and resources.",
+      "raw": {
+        "object": "block",
+        "id": "5dfd5314-403c-4e3e-8845-e662ba80c67f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-07-30T16:03:00.000Z",
+        "last_edited_time": "2024-07-30T16:05:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Need for new methods of predicting achievement that are cheaper and generalizable to increasingly large courses (e.g. MOOCs). Paper presents a novel approach of feature extraction from logs → Features extracted using proposed methodology are built from interactions between learners and resources.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Need for new methods of predicting achievement that are cheaper and generalizable to increasingly large courses (e.g. MOOCs). Paper presents a novel approach of feature extraction from logs → Features extracted using proposed methodology are built from interactions between learners and resources.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f9a91b56-8f1d-4d18-9845-3ddecf405005",
+      "type": "heading_2",
+      "text": "Introduction",
+      "raw": {
+        "object": "block",
+        "id": "f9a91b56-8f1d-4d18-9845-3ddecf405005",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T16:49:00.000Z",
+        "last_edited_time": "2024-09-06T16:51:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Introduction",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Introduction",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f2b032f7-ff88-49ca-b0bb-e1214f7ba1d0",
+      "type": "paragraph",
+      "text": "Current models for rpediction of student performance often depend on domain knowledge and pedagogical constraints which makes these models only effective in situations where the technologie or pedagogical strategies being measured are used. Thus, there is a need for more generalizability. ",
+      "raw": {
+        "object": "block",
+        "id": "f2b032f7-ff88-49ca-b0bb-e1214f7ba1d0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T16:51:00.000Z",
+        "last_edited_time": "2024-09-06T18:18:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Current models for rpediction of student performance often depend on domain knowledge and pedagogical constraints which makes these models only effective in situations where the technologie or pedagogical strategies being measured are used. Thus, there is a need for more generalizability. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Current models for rpediction of student performance often depend on domain knowledge and pedagogical constraints which makes these models only effective in situations where the technologie or pedagogical strategies being measured are used. Thus, there is a need for more generalizability. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "453e5397-2c01-4e40-aab5-b3e8fbae73f8",
+      "type": "paragraph",
+      "text": "The authors intend to build a model from interactions that is generalizable and not course-specific. A factor motivating this approach is the increasing availability of LMS systems that collecte clickstream data. Altough there are many approaches for this, trhe authors specifically focus on time series interaction analysis with the goal of predicting summative evaluations on MOOCs.",
+      "raw": {
+        "object": "block",
+        "id": "453e5397-2c01-4e40-aab5-b3e8fbae73f8",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:18:00.000Z",
+        "last_edited_time": "2024-09-06T18:20:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors intend to build a model from interactions that is generalizable and not course-specific. A factor motivating this approach is the increasing availability of LMS systems that collecte clickstream data. Altough there are many approaches for this, trhe authors specifically focus on ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors intend to build a model from interactions that is generalizable and not course-specific. A factor motivating this approach is the increasing availability of LMS systems that collecte clickstream data. Altough there are many approaches for this, trhe authors specifically focus on ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "time series interaction analysis with the goal of predicting summative evaluations on MOOCs.",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "time series interaction analysis with the goal of predicting summative evaluations on MOOCs.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8e79f2d6-b10e-47a5-9bb3-bff38e064dd3",
+      "type": "paragraph",
+      "text": "Historically, prior performance data is more predictive of student performance than clickstream data. However, due to their availability, clickstream summaries have been more and more popular. For example, in MOOC, institutions often have very little knowledge on a student’s performance in previous courses. Thus behavioral data is the primary dsata source to form a predictive model until the end of examinations (at least in MOOC). ",
+      "raw": {
+        "object": "block",
+        "id": "8e79f2d6-b10e-47a5-9bb3-bff38e064dd3",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:20:00.000Z",
+        "last_edited_time": "2024-09-06T18:27:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Historically, prior performance data is more predictive of student performance than clickstream data. However, due to their availability, clickstream summaries have been more and more popular. For example, in MOOC, institutions often have very little knowledge on a student’s performance in previous courses. Thus behavioral data is the primary dsata source to form a predictive model until the end of examinations (at least in MOOC). ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Historically, prior performance data is more predictive of student performance than clickstream data. However, due to their availability, clickstream summaries have been more and more popular. For example, in MOOC, institutions often have very little knowledge on a student’s performance in previous courses. Thus behavioral data is the primary dsata source to form a predictive model until the end of examinations (at least in MOOC). ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "77eb9af4-75cd-42de-9484-d90ddb8087ce",
+      "type": "heading_2",
+      "text": "Approach",
+      "raw": {
+        "object": "block",
+        "id": "77eb9af4-75cd-42de-9484-d90ddb8087ce",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:22:00.000Z",
+        "last_edited_time": "2024-09-06T18:26:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Approach",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Approach",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "86fce02c-39a9-43d2-8681-9f9fe19439a5",
+      "type": "paragraph",
+      "text": "There are multiple perspectives when it comes to modelling cognitive skills or learning. The basis for many ITS is the ACT-R model that postulates that cognitive skilsl can be described as if they were mere production rules. Another theory argues that learning comes from making mistakes. Moreover, there is contact with materials or communication with peers.",
+      "raw": {
+        "object": "block",
+        "id": "86fce02c-39a9-43d2-8681-9f9fe19439a5",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:26:00.000Z",
+        "last_edited_time": "2024-09-06T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are multiple perspectives when it comes to modelling cognitive skills or learning. The basis for many ITS is the ACT-R model that postulates that cognitive skilsl can be described as if they were mere production rules. Another theory argues that learning comes from making mistakes. Moreover, there is contact with materials or communication with peers.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are multiple perspectives when it comes to modelling cognitive skills or learning. The basis for many ITS is the ACT-R model that postulates that cognitive skilsl can be described as if they were mere production rules. Another theory argues that learning comes from making mistakes. Moreover, there is contact with materials or communication with peers.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f784776a-e191-4df0-81ea-69f73ad06cdf",
+      "type": "paragraph",
+      "text": "This work intends to model learners based on their interactions with a LMS - specifically resources available in the LMS.",
+      "raw": {
+        "object": "block",
+        "id": "f784776a-e191-4df0-81ea-69f73ad06cdf",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:32:00.000Z",
+        "last_edited_time": "2024-09-06T18:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "This work intends to model learners based on their interactions with a LMS - specifically resources available in the LMS.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "This work intends to model learners based on their interactions with a LMS - specifically resources available in the LMS.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "343e4106-02ab-4aa5-982d-309f226e6193",
+      "type": "heading_3",
+      "text": "The general learner model from Log Data",
+      "raw": {
+        "object": "block",
+        "id": "343e4106-02ab-4aa5-982d-309f226e6193",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:33:00.000Z",
+        "last_edited_time": "2024-09-06T18:36:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_3",
+        "heading_3": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The general learner model from Log Data",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The general learner model from Log Data",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dddf96c2-514e-4028-aff8-c19fcd6cd43f",
+      "type": "paragraph",
+      "text": "There are 5 main intervenients: ",
+      "raw": {
+        "object": "block",
+        "id": "dddf96c2-514e-4028-aff8-c19fcd6cd43f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:33:00.000Z",
+        "last_edited_time": "2024-09-06T18:46:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "There are 5 main intervenients: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "There are 5 main intervenients: ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "f004e47f-1771-4e79-94a1-e23a59abf3c9",
+      "type": "paragraph",
+      "text": "How to create TS Features:",
+      "raw": {
+        "object": "block",
+        "id": "f004e47f-1771-4e79-94a1-e23a59abf3c9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:46:00.000Z",
+        "last_edited_time": "2024-09-06T18:47:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "How to create TS Features",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "How to create TS Features",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ":",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ":",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d803a7d0-8ea1-4a7f-9ce9-7944b6402b59",
+      "type": "paragraph",
+      "text": " The creation of Time-Series Features involves first defining specific time-frames and then creating boolean flags that reflect whether a specific resource was interacted with in a given dataframe.",
+      "raw": {
+        "object": "block",
+        "id": "d803a7d0-8ea1-4a7f-9ce9-7944b6402b59",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:47:00.000Z",
+        "last_edited_time": "2024-09-06T18:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " The creation of Time-Series Features involves first defining specific time-frames and then creating boolean flags that reflect whether a specific resource was interacted with in a given dataframe.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " The creation of Time-Series Features involves first defining specific time-frames and then creating boolean flags that reflect whether a specific resource was interacted with in a given dataframe.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "a46d7086-13b4-4310-a1b6-770d75031f93",
+      "type": "numbered_list_item",
+      "text": "TimeFrames: Authors consider different levels of granularity → daily, every 3 days, weekly or monthly. ",
+      "raw": {
+        "object": "block",
+        "id": "a46d7086-13b4-4310-a1b6-770d75031f93",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:53:00.000Z",
+        "last_edited_time": "2024-09-06T18:56:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "TimeFrames",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "TimeFrames",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": Authors consider different levels of granularity → daily, every 3 days, weekly or monthly. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": Authors consider different levels of granularity → daily, every 3 days, weekly or monthly. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d2bafd32-37d5-4df3-ad79-8009fd884f28",
+      "type": "numbered_list_item",
+      "text": "Resources: For interpretation and computational reasons, the authors have decided to explore only 3 resource types: lecture videos, discussion forums and quiz attempts. ",
+      "raw": {
+        "object": "block",
+        "id": "d2bafd32-37d5-4df3-ad79-8009fd884f28",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:56:00.000Z",
+        "last_edited_time": "2024-09-06T18:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Resources: ",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Resources: ",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": "For interpretation and computational reasons, the authors have decided to explore only 3 resource types: lecture videos, discussion forums and quiz attempts. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "For interpretation and computational reasons, the authors have decided to explore only 3 resource types: lecture videos, discussion forums and quiz attempts. ",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "4bc30b99-f972-4a1a-b5ea-f6ea70d95717",
+      "type": "numbered_list_item",
+      "text": "N-Gram usage: The authors postulate that some co-occurrences of learning resources can be predictive of student success. To capture how some sequences of interactions may lead to performance, the authors explore the use n-gram → specifically 2-grams to 5-grams.",
+      "raw": {
+        "object": "block",
+        "id": "4bc30b99-f972-4a1a-b5ea-f6ea70d95717",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T18:57:00.000Z",
+        "last_edited_time": "2024-09-06T19:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "N-Gram usage",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "N-Gram usage",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": The authors postulate that some co-occurrences of learning resources can be predictive of student success. To capture how some sequences of interactions may lead to performance, the authors explore the use n-gram → specifically 2-grams to 5-grams.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": The authors postulate that some co-occurrences of learning resources can be predictive of student success. To capture how some sequences of interactions may lead to performance, the authors explore the use n-gram → specifically 2-grams to 5-grams.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "962c40fc-1a2f-4e64-9b5b-44e9e8bf84a9",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "962c40fc-1a2f-4e64-9b5b-44e9e8bf84a9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T16:48:00.000Z",
+        "last_edited_time": "2024-09-07T16:48:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "8f274b4e-ea9c-49a9-abf2-0fbc4eb40f35",
+      "type": "paragraph",
+      "text": "In total, each student enrollment had 1221 features: 480 boolean features, 21 summative counts of accesses in distinct days of the week and 717 n-gram related features. ",
+      "raw": {
+        "object": "block",
+        "id": "8f274b4e-ea9c-49a9-abf2-0fbc4eb40f35",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T16:48:00.000Z",
+        "last_edited_time": "2024-09-07T17:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "In total, each student enrollment had 1221 features: 480 boolean features, 21 summative counts of accesses in distinct days of the week and 717 n-gram related features. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "In total, each student enrollment had 1221 features: 480 boolean features, 21 summative counts of accesses in distinct days of the week and 717 n-gram related features. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "7e8b1301-15f2-4dac-a0be-34956323a1cb",
+      "type": "heading_2",
+      "text": "Methods",
+      "raw": {
+        "object": "block",
+        "id": "7e8b1301-15f2-4dac-a0be-34956323a1cb",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:55:00.000Z",
+        "last_edited_time": "2024-09-07T17:55:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Methods",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Methods",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "0a9de17f-eb81-4747-b3a3-0d9430a7ae5e",
+      "type": "paragraph",
+      "text": "Tests were done over 3 RQ, with only the third one focusing on early warning systems per se:",
+      "raw": {
+        "object": "block",
+        "id": "0a9de17f-eb81-4747-b3a3-0d9430a7ae5e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:55:00.000Z",
+        "last_edited_time": "2024-09-07T17:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Tests were done over 3 RQ, with only the third one focusing on early warning systems per se:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Tests were done over 3 RQ, with only the third one focusing on early warning systems per se:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9ed3bfd2-f5f5-4d86-affa-767c4da53f72",
+      "type": "numbered_list_item",
+      "text": "Create a post-hoc explanatory model of interactions that lead to passing grade",
+      "raw": {
+        "object": "block",
+        "id": "9ed3bfd2-f5f5-4d86-affa-767c4da53f72",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:56:00.000Z",
+        "last_edited_time": "2024-09-07T17:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Create a post-hoc explanatory model of interactions that lead to passing grade",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Create a post-hoc explanatory model of interactions that lead to passing grade",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "75b1303e-9a8c-4e6e-86af-4899efa7fb0f",
+      "type": "numbered_list_item",
+      "text": "Test generalizability of post-hoc model to new sessions of a course",
+      "raw": {
+        "object": "block",
+        "id": "75b1303e-9a8c-4e6e-86af-4899efa7fb0f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:57:00.000Z",
+        "last_edited_time": "2024-09-07T17:57:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Test generalizability of post-hoc model to new sessions of a course",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Test generalizability of post-hoc model to new sessions of a course",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "9504e4a8-31c6-40a4-8f06-ad8f7c16d27d",
+      "type": "numbered_list_item",
+      "text": "Test accuracy and explanatory power of model focusing on early prediction.",
+      "raw": {
+        "object": "block",
+        "id": "9504e4a8-31c6-40a4-8f06-ad8f7c16d27d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:57:00.000Z",
+        "last_edited_time": "2024-09-07T17:58:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "numbered_list_item",
+        "numbered_list_item": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Test accuracy and explanatory power of model focusing on early prediction.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Test accuracy and explanatory power of model focusing on early prediction.",
+              "href": null
+            }
+          ],
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "39775a32-5c76-485b-bd89-5fa1b4a983c0",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "39775a32-5c76-485b-bd89-5fa1b4a983c0",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:00:00.000Z",
+        "last_edited_time": "2024-09-07T18:00:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d98e76aa-2a4c-4d85-ae7e-53449cfd7965",
+      "type": "paragraph",
+      "text": "To test the feasibility, the authors opted to use a J48 DT. on 4 different MOOCs from Michigan University on Coursera. The models will be evaluated across the numbers of correct and incorrect predictions and Fleiss’s kappa. This metric has some constraints related with its interpretation that will be addressed later by the authors. ",
+      "raw": {
+        "object": "block",
+        "id": "d98e76aa-2a4c-4d85-ae7e-53449cfd7965",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T17:58:00.000Z",
+        "last_edited_time": "2024-09-07T18:11:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "To test the feasibility, the authors opted to use a J48 DT. on 4 different MOOCs from Michigan University on Coursera. The models will be evaluated across the numbers of correct and incorrect predictions and Fleiss’s kappa. This metric has some constraints related with its interpretation that will be addressed later by the authors. ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "To test the feasibility, the authors opted to use a J48 DT. on 4 different MOOCs from Michigan University on Coursera. The models will be evaluated across the numbers of correct and incorrect predictions and Fleiss’s kappa. This metric has some constraints related with its interpretation that will be addressed later by the authors. ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "90c719b5-0208-4214-9587-eaf4245d757f",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "90c719b5-0208-4214-9587-eaf4245d757f",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:19:00.000Z",
+        "last_edited_time": "2024-09-07T18:19:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "dcc863da-2821-471d-80df-a4c39836f93d",
+      "type": "paragraph",
+      "text": "RQ1: The first decision tree for post-hoc analysis shows 3 viable paths of classification:",
+      "raw": {
+        "object": "block",
+        "id": "dcc863da-2821-471d-80df-a4c39836f93d",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:19:00.000Z",
+        "last_edited_time": "2024-09-07T18:23:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "RQ1",
+                "link": null
+              },
+              "annotations": {
+                "bold": true,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "RQ1",
+              "href": null
+            },
+            {
+              "type": "text",
+              "text": {
+                "content": ": The first decision tree for post-hoc analysis shows 3 viable paths of classification:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": ": The first decision tree for post-hoc analysis shows 3 viable paths of classification:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "c19a18eb-0612-4e39-9fc4-46799d0ee21c",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "c19a18eb-0612-4e39-9fc4-46799d0ee21c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:28:00.000Z",
+        "last_edited_time": "2024-09-07T18:28:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "78966406-f368-4414-8348-7beb604f78fc",
+      "type": "paragraph",
+      "text": "RQ2: The model trained on the balanced datasets of course editions 1 and 2 and tested on third offering. Multiple predictions are made over time. It stands clear that the models clearly overfit:",
+      "raw": {
+        "object": "block",
+        "id": "78966406-f368-4414-8348-7beb604f78fc",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:23:00.000Z",
+        "last_edited_time": "2024-09-07T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "RQ2: The model trained on the balanced datasets of course editions 1 and 2 and tested on third offering. Multiple predictions are made over time. It stands clear that the models clearly overfit:",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "RQ2: The model trained on the balanced datasets of course editions 1 and 2 and tested on third offering. Multiple predictions are made over time. It stands clear that the models clearly overfit:",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "5486ebdd-32dc-4230-8932-7e82f709671e",
+      "type": "image",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "5486ebdd-32dc-4230-8932-7e82f709671e",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:30:00.000Z",
+        "last_edited_time": "2024-09-07T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "image",
+        "image": {
+          "caption": [],
+          "type": "file",
+          "file": {
+            "url": "https://prod-files-secure.s3.us-west-2.amazonaws.com/d64fe7c1-2ce9-4d15-8da9-4341ceb34e42/19cf5376-7fa5-4376-addd-2febc08568d0/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466RBU3FPMA%2F20260413%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260413T151918Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEK7%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQDcH0KLVVNEdBg4fhNxWCOpPX%2BHp8nk%2FhUypPclGEloQwIhAJ3nxV94zlSFRG1pZKV9rW7Yptyi1Y77997Ysc9Ds65oKv8DCHcQABoMNjM3NDIzMTgzODA1IgywLxzQCOdsawOYu%2F0q3APtpwCoXcDy%2BRKhhRFyZuASo84%2BbaMUfe%2B2ReYvpgTHpa8EVMnf7HuyLl4fMcd5R9IR1edeO5bX%2FoUoPB8uGRf9XipW10GbQKg06UYAA%2BTDeo7jMjlerzkivQIO9m6BMT3hBXeYyHQtd%2FzKSybjfJinkkvuisNHa7iE%2FMDuQU%2FX3FUUP0Du08OkmGWVAODG6BRHSGy0h07zI0pOSvDBapElL5G26yv11fHnh991brBfQEIRP%2F5aeksmLklpG8TJczMB6cMqSF9c1qAnyrsBmROHlp%2FtSWwlj10H48aO5Jq3bf6wAJsI%2Fqf9Jyj0BcMfFDk8OUOkRhiHtHE6G8zud%2BSDjlTl%2BrO0Nnbs77%2FUN%2B5wtg7888bdSPM1wslkLWT%2F6hzRVZ%2FZ2KPZIN5YSwO4gBJ4se8d81W46di1pejenl9q8Xl7wGYuVXRShW8xrx%2BUcboEb%2Fzu6jiMi4wN9kx0owO87wjQq3sTB2EZK8W6ayDFNlMLUBMv0%2F0qCJj%2BxnXX3CA0%2BRuigZDikbSo%2FVCwMyF3VbX%2FiXfGckhLRqXhNaoYhZD4nO45sBkE7oQ%2B%2BEBWOvJRdafgKTdSfObE4Rn4WiMSKerf6SoSRzPkSPgjR9dKxtQhng%2BPyd%2B7TnHr3DDP8fPOBjqkAUmJ38Vd6CiRTsb9Z8IoOS8l3PwpEv1GsJCKpaKiJGM%2FYRiRl3eLnIXjUOCPRRduOeED8GJGjdf%2FCiL14952upThrflNGivFBVButR2I7t1KwmroARzroBWdagBcrdg3nwL%2BQypw0nmSKmtwbzrHTqrjJSEzW3GvEUR1gN%2BwfOaFGdATgEOMGf6XhTsDbSRqELctrQ37RXqFq8RvonLKUU2jFDIQ&X-Amz-Signature=ff5a486ee1c9d8850cda7570de04f39278b144a27e90645042ede2953151f1fb&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject",
+            "expiry_time": "2026-04-13T16:19:18.614Z"
+          }
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "26cf9e00-1364-42d5-9006-fa1f9424ebe4",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "26cf9e00-1364-42d5-9006-fa1f9424ebe4",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:30:00.000Z",
+        "last_edited_time": "2024-09-07T18:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "403a2a2a-1a97-4d94-b4a6-582a2ed11c07",
+      "type": "paragraph",
+      "text": "Predictive performance measured by kappa clearly increases as the number of days increases. Optimal tradeoff for classification seems to be after 21 days, when there is a significant drropoff in the FPR.",
+      "raw": {
+        "object": "block",
+        "id": "403a2a2a-1a97-4d94-b4a6-582a2ed11c07",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-07T18:30:00.000Z",
+        "last_edited_time": "2024-09-07T18:33:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Predictive performance measured by kappa clearly increases as the number of days increases. Optimal tradeoff for classification seems to be after 21 days, when there is a significant drropoff in the FPR.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Predictive performance measured by kappa clearly increases as the number of days increases. Optimal tradeoff for classification seems to be after 21 days, when there is a significant drropoff in the FPR.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "d8d55fbe-e23c-44e8-bdaf-3cb33a881926",
+      "type": "heading_2",
+      "text": "Summary Table PRED",
+      "raw": {
+        "object": "block",
+        "id": "d8d55fbe-e23c-44e8-bdaf-3cb33a881926",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T16:49:00.000Z",
+        "last_edited_time": "2025-03-16T18:07:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table PRED",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table PRED",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "27b9fcea-49eb-46a7-8272-8f9c14ce722b",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "27b9fcea-49eb-46a7-8272-8f9c14ce722b",
+        "parent": {
+          "type": "page_id",
+          "page_id": "6cc246f0-b974-421e-94d8-74e563d323f1"
+        },
+        "created_time": "2024-09-06T16:49:00.000Z",
+        "last_edited_time": "2025-03-06T16:45:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    }
+  ]
+}

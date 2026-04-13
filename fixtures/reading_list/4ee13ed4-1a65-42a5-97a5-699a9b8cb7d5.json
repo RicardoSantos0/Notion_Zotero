@@ -1,0 +1,708 @@
+{
+  "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5",
+  "title": "Enhancing Programming Knowledge Tracing by Interacting Programming Skills and Student Code",
+  "properties": {
+    "Keywords/Type": {
+      "id": "%2F7eo",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "bec50a18-af7e-46c8-9448-ccc3b840456d",
+          "name": "Pogramming Education",
+          "color": "purple"
+        },
+        {
+          "id": "a9cdb581-de37-4f37-90b7-0a998eebee10",
+          "name": "Knowledge Tracing",
+          "color": "red"
+        },
+        {
+          "id": "10bc29b7-c035-424e-b2e9-d7487ec4221b",
+          "name": "Code Representation",
+          "color": "purple"
+        },
+        {
+          "id": "784d5305-98d3-4c12-82a9-899bf2721449",
+          "name": "Attention Mechanism",
+          "color": "brown"
+        },
+        {
+          "id": "63e1eb83-a5c7-4a66-913b-25b495f9447a",
+          "name": "Intelligent Education",
+          "color": "default"
+        }
+      ]
+    },
+    "Search Strategy": {
+      "id": "%3A%3E%7C%3A",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "“LAK Proceedings”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "“LAK Proceedings”",
+          "href": null
+        }
+      ]
+    },
+    "AI summary": {
+      "id": "%40X%3D%3A",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Learner Population": {
+      "id": "%40hny",
+      "type": "select",
+      "select": {
+        "id": "vbdR",
+        "name": "Higher Education",
+        "color": "blue"
+      }
+    },
+    "Year": {
+      "id": "Blir",
+      "type": "number",
+      "number": 2022
+    },
+    "Article Type": {
+      "id": "FG%3A%60",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "rmin",
+          "name": "Conference",
+          "color": "green"
+        }
+      ]
+    },
+    "Learner Representation": {
+      "id": "FdHu",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "YxMm",
+          "name": "Sequence",
+          "color": "red"
+        }
+      ]
+    },
+    "Journal": {
+      "id": "Popq",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "LAK",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LAK",
+          "href": null
+        }
+      ]
+    },
+    "Course-Agnostic Approach": {
+      "id": "SW%7Bb",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status": {
+      "id": "UMCM",
+      "type": "status",
+      "status": {
+        "id": "H\\fk",
+        "name": "Accepted For Knowledge Tracing",
+        "color": "green"
+      }
+    },
+    "Results": {
+      "id": "UMFh",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Discussion": {
+      "id": "W%5COz",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Related Work": {
+      "id": "%5Ec%5D_",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Deployed/ Deployable": {
+      "id": "%60bGZ",
+      "type": "select",
+      "select": {
+        "id": "3dbf9971-3fdf-4eee-a449-3d26ee597e94",
+        "name": "Prototype",
+        "color": "red"
+      }
+    },
+    "Abstract": {
+      "id": "cswx",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Introduction": {
+      "id": "d%40Ow",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Platform": {
+      "id": "eGsN",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "ACM Digital Library",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "ACM Digital Library",
+          "href": null
+        }
+      ]
+    },
+    "Limitations": {
+      "id": "g%3F_D",
+      "type": "checkbox",
+      "checkbox": true
+    },
+    "Conclusion": {
+      "id": "gXSx",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Status_1": {
+      "id": "h%3AFo",
+      "type": "status",
+      "status": {
+        "id": "l;I]",
+        "name": "N\\A",
+        "color": "green"
+      }
+    },
+    "Methods": {
+      "id": "l%3Bbh",
+      "type": "checkbox",
+      "checkbox": false
+    },
+    "Work Nature": {
+      "id": "oJe%5C",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "|alu",
+          "name": "Backtested with data from Previous Students",
+          "color": "brown"
+        }
+      ]
+    },
+    "Motive For Exclusion": {
+      "id": "pPy_",
+      "type": "rich_text",
+      "rich_text": []
+    },
+    "Completed": {
+      "id": "qGBj",
+      "type": "date",
+      "date": {
+        "start": "2025-05-08T22:30:00.000+01:00",
+        "end": "2026-02-05T16:22:00.000+00:00",
+        "time_zone": null
+      }
+    },
+    "Author": {
+      "id": "qNw_",
+      "type": "rich_text",
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Zhu et al.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Zhu et al.",
+          "href": null
+        }
+      ]
+    },
+    "Date of Retrieval": {
+      "id": "u%5DsD",
+      "type": "date",
+      "date": {
+        "start": "2024-07-25",
+        "end": null,
+        "time_zone": null
+      }
+    },
+    "Type": {
+      "id": "%7Cs%7BS",
+      "type": "multi_select",
+      "multi_select": [
+        {
+          "id": "64156163-dda0-4a3c-8400-72900ee85c5e",
+          "name": "Knowledge Tracing",
+          "color": "yellow"
+        },
+        {
+          "id": "1d11734a-154e-4f32-8d5c-38a6a656b6be",
+          "name": "Assessment",
+          "color": "gray"
+        }
+      ]
+    },
+    "Name": {
+      "id": "title",
+      "type": "title",
+      "title": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Enhancing Programming Knowledge Tracing by Interacting Programming Skills and Student Code",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Enhancing Programming Knowledge Tracing by Interacting Programming Skills and Student Code",
+          "href": null
+        }
+      ]
+    }
+  },
+  "tables": [
+    {
+      "block_id": "1ce4750c-f3ba-8029-86a6-c10304a5938a",
+      "heading": "Abstract",
+      "rows": [
+        [
+          "Task",
+          "Context",
+          "Student Performance Definition",
+          "Target",
+          "Students",
+          "Courses",
+          "Data sources",
+          "Features",
+          "Flaw of Previous Models",
+          "Novelty of Model",
+          "Preprocessing Details",
+          "Models",
+          "Assessment Strategy",
+          "Performance Metric: Best Model",
+          "Comments",
+          "Limitations"
+        ],
+        [
+          "Classification",
+          "E-Learning",
+          "Correctedness of Code Submission",
+          "Correct (1) vs Incorect (0)",
+          "300 Codeforces users with at least 10 submissions",
+          "Codespaces from Saratov State University",
+          "Code Submissions to 7152 programming exercises",
+          "[Timestamp, Required Programming skills, Submitted code, Judging results]",
+          "Programming exercises require the simultaneous display of multiple different skills. However, most KT models usually treat skills as independent and assign one skill to each exercise. \n\nIntegrating code into a predictive model is challenging and most models simply concatenate exercise embeddings with the ID and the Correctedness. ",
+          "Authors propose the utilization of an Attention network to extract the features of the sills: Skills become queries and code representations become keys and values.\n\nThe introduction of the attention mechanism to incorportate the code submission is the de-facto improvement. ",
+          "The model ios largely based on DKT. In this case, each exercise submission is treated as a 4 element tuple containing Exercise ID, Programming skills required by the exercise, Code submitted and code correctedness. \n\nCode is embedded using either GGNN, code2vec and ASTNN. \n\n",
+          "GGNN-concat, code2vec-concat, ASTNN-concat, GGNN-attn, code2vec-attn, ASTNN-atnn",
+          "Holdout Method (80/20)",
+          "{AUC: 0.7381 - code2vec-attn}",
+          "Authors do Hyper-parameter tuning using 5-fold CV. \n\nThe comparison is performed by concatenating code embeddings to the usual vector vs the new approach which is using an attention mechanism to query for skills and code submissions. \n\nResults show that this approach outperforms the standard DKT representation - regardless of the method used for the creation of the code embeddings. ",
+          "Time consuming and computationally intensive to train the code-embeddings.\n\nNot tested on any of the regular KT benchmarking datasets. \n\nOnly considers an adjustment to DKT even though DKT has not been SoTA for a while at the time of publishing. "
+        ]
+      ],
+      "index": 5
+    }
+  ],
+  "blocks": [
+    {
+      "id": "1ab4750c-f3ba-8084-b851-fc42cd2230e9",
+      "type": "heading_1",
+      "text": "Abstract",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8084-b851-fc42cd2230e9",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:30:00.000Z",
+        "last_edited_time": "2025-03-03T22:30:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_1",
+        "heading_1": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Abstract",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Abstract",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-805e-beaa-d0a7449cec06",
+      "type": "paragraph",
+      "text": "Online judges are often used to help in programming training, but often do not evaluate the degree of mastery of programming skills (often focusing on works vs doesn’t work). Deep knowledge tracing models have been used, but often assume a task requires one skill only.",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-805e-beaa-d0a7449cec06",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:30:00.000Z",
+        "last_edited_time": "2025-03-03T22:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Online judges are often used to help in programming training, but often do not evaluate the degree of mastery of programming skills (often focusing on works vs doesn’t work). Deep knowledge tracing models have been used, but often assume a task requires one skill only.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Online judges are often used to help in programming training, but often do not evaluate the degree of mastery of programming skills (often focusing on works vs doesn’t work). Deep knowledge tracing models have been used, but often assume a task requires one skill only.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80cf-a9c3-e9cb769ec118",
+      "type": "paragraph",
+      "text": "The authors propose an attention-based model to create embeddings of learner code AND a separate set of embeddings encoding skills. Then authors combine DKT to show this representation outperforms the traditional approach.",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80cf-a9c3-e9cb769ec118",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:32:00.000Z",
+        "last_edited_time": "2025-03-03T22:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "The authors propose an attention-based model to create embeddings of learner code AND a separate set of embeddings encoding skills. Then authors combine DKT to show this representation outperforms the traditional approach.",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "The authors propose an attention-based model to create embeddings of learner code AND a separate set of embeddings encoding skills. Then authors combine DKT to show this representation outperforms the traditional approach.",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-80ee-b448-f73dd2255831",
+      "type": "paragraph",
+      "text": " ",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-80ee-b448-f73dd2255831",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:34:00.000Z",
+        "last_edited_time": "2025-03-03T22:34:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": " ",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": " ",
+              "href": null
+            }
+          ],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-803f-99f0-e2717b79937c",
+      "type": "heading_2",
+      "text": "Summary Table KT",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-803f-99f0-e2717b79937c",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-04-07T15:24:00.000Z",
+        "last_edited_time": "2025-04-07T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "heading_2",
+        "heading_2": {
+          "rich_text": [
+            {
+              "type": "text",
+              "text": {
+                "content": "Summary Table KT",
+                "link": null
+              },
+              "annotations": {
+                "bold": false,
+                "italic": false,
+                "strikethrough": false,
+                "underline": false,
+                "code": false,
+                "color": "default"
+              },
+              "plain_text": "Summary Table KT",
+              "href": null
+            }
+          ],
+          "is_toggleable": false,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ce4750c-f3ba-8029-86a6-c10304a5938a",
+      "type": "table",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ce4750c-f3ba-8029-86a6-c10304a5938a",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-04-07T15:24:00.000Z",
+        "last_edited_time": "2025-04-07T15:24:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": true,
+        "in_trash": false,
+        "type": "table",
+        "table": {
+          "table_width": 16,
+          "has_column_header": false,
+          "has_row_header": false
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-809c-801b-d92ea721f161",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-809c-801b-d92ea721f161",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:32:00.000Z",
+        "last_edited_time": "2025-03-03T22:32:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    },
+    {
+      "id": "1ab4750c-f3ba-8046-bd7d-fe7c6012a5be",
+      "type": "paragraph",
+      "text": "",
+      "raw": {
+        "object": "block",
+        "id": "1ab4750c-f3ba-8046-bd7d-fe7c6012a5be",
+        "parent": {
+          "type": "page_id",
+          "page_id": "4ee13ed4-1a65-42a5-97a5-699a9b8cb7d5"
+        },
+        "created_time": "2025-03-03T22:31:00.000Z",
+        "last_edited_time": "2025-03-03T22:31:00.000Z",
+        "created_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "last_edited_by": {
+          "object": "user",
+          "id": "20a7795c-3622-4527-bd13-5ddbf48dc31d"
+        },
+        "has_children": false,
+        "in_trash": false,
+        "type": "paragraph",
+        "paragraph": {
+          "rich_text": [],
+          "icon": null,
+          "color": "default"
+        },
+        "archived": false
+      }
+    }
+  ]
+}
