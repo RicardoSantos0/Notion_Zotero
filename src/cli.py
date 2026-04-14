@@ -2,7 +2,7 @@
 """CLI entrypoint for the Notion_Zotero toolkit.
 
 Provides a small, discoverable CLI that composes existing scripts and
-pipeline helpers. Registered as a console script in `pyproject.toml`.
+pipeline helpers. Registered as a console script in `pyproject.toml`."""
 from __future__ import annotations
 
 import argparse

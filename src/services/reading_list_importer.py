@@ -111,13 +111,21 @@ def parse_fixture(path: Path):
     status = prop_value(props.get("Status") or props.get("Status_1"))
     if status:
         workflow_states.append(WorkflowState(id=f"ws_{uuid.uuid4().hex[:8]}", reference_id=ref.id, state=status))
+    # model_dump() for pydantic v2, fall back to dict() when necessary
+    def _dump(obj):
+        if hasattr(obj, "model_dump"):
+            return obj.model_dump()
+        if hasattr(obj, "dict"):
+            return obj.dict()
+        return obj
+
     out = {
-        "references": [ref.dict()],
-        "tasks": [t.dict() for t in tasks],
-        "reference_tasks": [rt.dict() for rt in reference_tasks],
-        "task_extractions": [e.dict() if hasattr(e, "dict") else e for e in extractions],
-        "annotations": [a.dict() for a in annotations],
-        "workflow_states": [w.dict() for w in workflow_states]
+        "references": [_dump(ref)],
+        "tasks": [_dump(t) for t in tasks],
+        "reference_tasks": [_dump(rt) for rt in reference_tasks],
+        "task_extractions": [_dump(e) for e in extractions],
+        "annotations": [_dump(a) for a in annotations],
+        "workflow_states": [_dump(w) for w in workflow_states],
     }
     return page_id, out
 
