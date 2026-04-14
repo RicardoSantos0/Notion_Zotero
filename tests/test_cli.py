@@ -15,7 +15,27 @@ def test_merge_canonical_smoke(tmp_path):
 
 
 def test_dedupe_canonical_smoke(tmp_path):
-    in_path = Path("fixtures/canonical_merged.json")
+    # Create a minimal canonical merged JSON at runtime so the test is self-contained
+    sample = [
+        {
+            "references": [{"id": "page_1", "title": "Sample A", "doi": "10.1000/1", "authors": ["Alice"]}],
+            "tasks": [],
+            "reference_tasks": [],
+            "task_extractions": [],
+            "annotations": [],
+            "workflow_states": [],
+        },
+        {
+            "references": [{"id": "page_2", "title": "Sample B", "authors": ["Bob"]}],
+            "tasks": [],
+            "reference_tasks": [],
+            "task_extractions": [],
+            "annotations": [],
+            "workflow_states": [],
+        },
+    ]
+    in_path = tmp_path / "canonical_merged.json"
+    in_path.write_text(json.dumps(sample, ensure_ascii=False, indent=2), encoding="utf-8")
     out = tmp_path / "dedup.json"
     rc = cli.main(["dedupe-canonical", "--input", str(in_path), "--out", str(out)])
     assert rc == 0
