@@ -22,3 +22,4 @@ where = ["src"]
 [project.scripts]
 export-reading-list = "src.scripts.export_reading_list:main"
 import-reading-list = "src.services.reading_list_importer:main"
+notion-zotero = "src.cli:main"
