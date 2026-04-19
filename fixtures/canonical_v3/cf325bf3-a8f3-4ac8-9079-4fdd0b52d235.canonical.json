@@ -1,0 +1,89 @@
+{
+  "references": [
+    {
+      "id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
+      "title": "Delving Deeper into MOOC Student Dropout Prediction",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_70d9eefd",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Accruing Enough Points to Earn a Certificate",
+          "Target": "Dropout (1) vs No Dropout (0)",
+          "Students": "528349 participants",
+          "Courses": "40 MOOCs from HarvardX",
+          "Data sources": "LMS logs, Registration Data, Pre-Course Survey",
+          "Features": "[73 features]",
+          "Moment of Prediction": "Every week",
+          "Preprocessing Details": "Work focuses on early prediction. For each week t, the authors aggregate all data from course start to week t-1 → dimensionality does not increase with the passage of weeks. \n\nAuthors also explore 4 training paradigms:\n\n  1. Train on data from some course,\n  2. Train on data from other courses in the same field, \n  3. Train on all other courses\n\nFor each of the 3 training paradigms the data was standardized.",
+          "Models": "Logistic Regression, MLP",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.9743 - MLP Week 5 -Same course}",
+          "Comments": "The work is actually really interesting. It starts with the prediction of Dropout at a MOOC level using 3 distinct training paradigms: \n\n  1. Train on data from the same course, \n  2. Train on data from other courses that share a similar field, \n  3. Train on data of all other courses and average the Decision Boundary of those. \n\nResulçts show that training on data from the same course is the most effective way.\n\nComparisons also include baselines including only the demographic data AND days since last event",
+          "Limitations": "Small number of models\n\nHoldout Method\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Interacts with MOOC on the Next Week",
+          "Target": "Persisted (1) vs No Persistence (0)",
+          "Students": "528349 participants",
+          "Courses": "40 MOOCs from HarvardX",
+          "Data sources": "LMS logs, Registration Data, Pre-Course Survey",
+          "Features": "[73 features]",
+          "Moment of Prediction": "Every week",
+          "Preprocessing Details": "Train on proxy-labels. - persisted as having interacted with the course in the previous week. Data was normalized using percentiles",
+          "Models": "Logistic Regression, MLP",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.8733 - Logistic Regression average across the 8 weeks}",
+          "Comments": "Prediction of proxy labels is different form of making predictions that yields interesting results - second best approach after Traininig on data from same course.",
+          "Limitations": "Small number of models\n\nHoldout Method"
+        }
+      ],
+      "provenance": {
+        "page_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_efc74ca6",
+      "reference_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
+      "text": "Authors start by identifying that most works of Dropout prediction suffer from data leakage - Performance of predictive models is measured on the same dataset used for training. To test the effects, authors create a model using 4 different training paradigms. ",
+      "provenance": {
+        "page_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235"
+      }
+    },
+    {
+      "id": "an_50b7243b",
+      "reference_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235",
+      "text": "Main results:",
+      "provenance": {
+        "page_id": "cf325bf3-a8f3-4ac8-9079-4fdd0b52d235"
+      }
+    }
+  ],
+  "workflow_states": []
+}

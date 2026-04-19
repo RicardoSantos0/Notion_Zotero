@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
+      "title": "Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge-Based Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_883e5d36",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring Systems",
+          "Student Performance Definition": "Probability of answering next exercise correctly.",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4217 ASSISTments2009 learners, 1709 ASSISTments 2017 learners, 5000 EdNet learners, 118971 Eedi learners ",
+          "Courses": "ASSISTments, Santa, Eedi",
+          "Data sources": "Sequences of Answers, Question Sentences, LMS logs",
+          "Features": "[Interaction Sequences, Question Sentences, Answers]",
+          "Flaw of Previous Models": "KT approaches often consider different knowledge concepts as independent from one another, which is unrealistic. \n\nGraph-based KT methods have started to introduce relationships between concepts to update learner knowledge.\n\nHowever, the way the graph is built does not really consider changes in knowledge state for either dynamic or static perspectives.\n\nMoreover, learning encompasses different temporal resolutions, something that current models do not seem to completely grasp",
+          "Novelty of Model": "Model uses a Transformer Knowledge State encoder to represent learning at different temporal resolutions - days, weeks, months, semesters.\n\nMoreover, the authors introduce an Interaction Graph Dependency Module which that builds 2 knowledge graphs and uses them to build a more stable mapping of correlations between concepts.\n\n",
+          "Preprocessing Details": "Model starts with the construction of 3 embeddings - Questions, Knowledge Concepts, and Answers\n\nThe transformer for Knowledge States does a separate normalization of rows and columns to expedite training time.\n\nGraph modules are built by measuring dissimarity between nodes of the graphs. A connection is etablished if similarity is above a specified threshold. One of the graphs is passed through a low-pass (smoothes the edges) filter while the other is passed by a high-pass filter (sharpens the edges). \n\nThe results are concated.\n\n",
+          "Models": "DKT, DKVMN, SAKT, MRTKT, DTransformer, GKT, DGEKT, MGIGKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "AST09\n{Accuracy: 0.834 - MGIGKT, AUC: 0.798 - MGIGKT}\n\nAST17\n{Accuracy: 0.828- MGIGKT, AUC: 0.797 - MGIGKT}\n\nEdNet\n{Accuracy: 0.805 - MGIGKT, AUC: 0.769 - MGIGKT}\n\nEedi\n{Accuracy: 0.843 - MGIGKT, AUC: 0.801 - MGIGKT}\n",
+          "Comments": "Authors introduce a new model meant solve 2 problems:\n\n1 - Consider different temporal resolutions of the learning process\n\n2 - Encode relationships between different knowledge concepts to provide a better estimate of learners.\n\nSome of the preprocessing decisions are made in order to reduce the training time of the model.\n\nIn addition, authors perform an ablation study and notice to check the impact of presence/absence of each of the proposed modules proposed.",
+          "Limitations": "No cross-Valdiation.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_8bbb0b65",
+      "reference_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
+      "text": "KT analyzes historical records to infer students’ knowledge states, and deep learning methods are the current state-of-the-art. However, the current techniques tend to treat records as a single time-series AND they don’t account for possible correlations. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+      }
+    },
+    {
+      "id": "an_50568746",
+      "reference_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f",
+      "text": "Authors propose Multi-Granularity Ensemble Interaction Graph Modeling for Knowledge Tracing which is meant to address the two constraints. Analysis on four datasets show that the model outperforms other approaches.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-8049-9100-dfca1f25a43f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

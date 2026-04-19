@@ -1,0 +1,40 @@
+{
+  "references": [
+    {
+      "id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad",
+      "title": "An improved genetic approach for composing optimal collaborative learning groups",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge-Based Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_1a0566e0",
+      "reference_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad",
+      "text": "Group formation is the task of assigning students to the best learner group in order to succeed at a collaborative learning task. The authors propose a new general method for group formation. The method mathematically formulates all requirements of the learner group formation problem and uses an improved genetic algorithm to solve it. The authors test their model and optimization using multiple contexts and grouping requirements. Simulated results show that the model is effective. ",
+      "provenance": {
+        "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+      }
+    },
+    {
+      "id": "an_e1e86e46",
+      "reference_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad",
+      "text": " Moreover, an empyrical study on real data also shows that the groups formed using this method got better individual, group grades and satisfaction.",
+      "provenance": {
+        "page_id": "cc798f85-4ff3-48c2-b78b-fc1cf085c0ad"
+      }
+    }
+  ],
+  "workflow_states": []
+}

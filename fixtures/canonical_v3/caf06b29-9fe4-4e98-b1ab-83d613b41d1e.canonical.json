@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
+      "title": "Predictive analytics in education: a comparison of deep learning frameworks",
+      "authors": [],
+      "year": null,
+      "journal": "Education and Information Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_74e19436",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Performance on Weekly Assignment",
+          "Target": "Pass vs Fail",
+          "Students": "6241 learners",
+          "Courses": "1 EdX MOOC",
+          "Data sources": "LMS logs",
+          "Features": "[Videos viewed per week, stops, pauses, rewinds, fastforwards, average fracition played, average time watching, average fraction completed, playback rate, std of playback rate]",
+          "Moment of Prediction": "Before every Assignment",
+          "Preprocessing Details": "Authors extract, for every week, 10 features and use those features to predict the performance on the next assignment.",
+          "Models": "SVM, Naive Bayes, Logistic Regression, k-Nearest Neighbors, \nDeep Learning Model - Keras, Deep Learning Model - PyTorch ",
+          "Assessment Strategy": "10-Fold Cross Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.6931 - Logistic Regressionl}",
+          "Comments": "Deep learning work that compares performance of models against other baselines.",
+          "Limitations": "  • Only 2 Datasets are used (and only one counts for this work)\n\n  • Relatively Small dataset for deep learning\n\n  • Exclusive focus on video watching behavior\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e5f9eef5",
+      "reference_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
+      "text": "This work focuses on benchmarking deep learning frameworks on 2 distinct educational datasets. The authors find that the Optimizer and the hyper-parameters used in different models do, in fact, reveal differences in Model Performance. More surprisingly though, the authors found that the model performances obtained using Deep Learning packages is comparable to other traditional methos. ",
+      "provenance": {
+        "page_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e"
+      }
+    },
+    {
+      "id": "an_3125ac69",
+      "reference_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e",
+      "text": "Authors finish by arguing that statistical techniques should be preferred for this domain due to their interpretability: EDM and LA should aim for explanation and not prediction.",
+      "provenance": {
+        "page_id": "caf06b29-9fe4-4e98-b1ab-83d613b41d1e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

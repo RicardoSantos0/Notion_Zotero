@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5",
+      "title": "Using clickstream data to measure, understand, and support self-regulated learning in online courses",
+      "authors": [],
+      "year": null,
+      "journal": "Internet and Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ba9778a1",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "238 students",
+          "Courses": "1 Chemistry Course ",
+          "Data sources": "Student Demographics, LMS logs, Pre-Course Survey, Post-Course Survey, Performance Data",
+          "Theoretical Grounding": "Pintrich’s SRL Model",
+          "Features": "[Female, Age, Hispanic, Asian/Pacific Islander, White, African American, First Generation, Low Income, SAT Score, High School GPA, Keep Record of Assignments_PRE, Plan in Advance_PRE, Quit Before Finishing_PRE, Work Hard To Do Well_PRE, Keep Working Until Finish_PRE, Catch Up When Falling Behind_PRE, Keep Record of Assignments_POST, Plan in Advance_POST, Quit Before Finishing_POST, Work Hard To Do Well_POST, Keep Working Until Finish_POST, Catch Up When Falling Behind_POST, Study in Time_CL, Study in Advance_CL, Space_CL, Change in time on task_CL, Current Course final Exam, Current Course Grade, Subsequent Course Grade]",
+          "Preprocessing Details": "The adapted version of the MSLQ was given both before and after the course to extract the Self-Reports on 2 distinct moments. Different variables were also extracted from the logs.",
+          "Models": "5 Linear Regressions",
+          "Performance Metric: Best Model": "Course Grade\n{RSquared: 0.503 - Model 5}\n\nFinal Exam Score\n{RSquared: 0.459 - Model 5}",
+          "Groups Created": "-",
+          "Cluster Description": "Adding data from multiple sources seems to improve explanatory performance of the linear models.\n\nCuriously, RSquared does not chance significantly when we use Pre-Course surveys + Clickstream vs Post-Course surveys + Clickstream.\n\nAlso… clickstream behaviour is clearly different from the behavior mentioned that students expected to have in the pre-course survey.",
+          "Implications": "Students overestimante their capacity at the start of the course. \n\nOne idfea would be administer surveys during the course, not before it, so that students can… hipothetically… be familiar with the online system before answering.\n\nAppropriate extraction of clickstream data can improve predictive performance.",
+          "Comments": "Linear Regression descriptive analysis of of different tasks.",
+          "Limitations": "Survey data validity\n\nSingle institution \n\nNo analysis of contextual factor, only clickstream"
+        }
+      ],
+      "provenance": {
+        "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_d377f95d",
+      "reference_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5",
+      "text": "There is plenty of research using clickstream data to measure SRL in online courses. However, little research is dedicated to mapping SRL variables from LMS to actual SRL constructs in the literature. Thus, paper explores time management and effort regulation. ",
+      "provenance": {
+        "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+      }
+    },
+    {
+      "id": "an_e0a0978e",
+      "reference_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5",
+      "text": "Results show that clickstream maps pretty well to the self-reported measures. Also, incorporating these in a predictive model improved the model’s ability to detect student performance over self-reports alone. \n",
+      "provenance": {
+        "page_id": "6c0fcfdc-5dec-444c-9c7e-a02f87441bd5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

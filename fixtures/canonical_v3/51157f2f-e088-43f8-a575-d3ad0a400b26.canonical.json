@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "51157f2f-e088-43f8-a575-d3ad0a400b26",
+      "title": "A novel approach for group formation in collaborative learning using learner preferences",
+      "authors": [],
+      "year": null,
+      "journal": "ICACCI",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1a4c0a62",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": " ",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Theoretical Grounding": "",
+          "Features": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Performance Metric: Best Model": "",
+          "Groups Created": "",
+          "Cluster Description": "",
+          "Implications": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "51157f2f-e088-43f8-a575-d3ad0a400b26",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_b6cdf861",
+      "reference_id": "51157f2f-e088-43f8-a575-d3ad0a400b26",
+      "text": "Paper about Group formation. Key idea behind this specific paper is considers learner preferences in terms of group composition. Authors use k-means to obtain what would-be considered learner profiles and go into their charachterization.",
+      "provenance": {
+        "page_id": "51157f2f-e088-43f8-a575-d3ad0a400b26"
+      }
+    }
+  ],
+  "workflow_states": []
+}

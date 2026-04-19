@@ -1,0 +1,117 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+      "title": "Goal-based Course Recommendation",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2edd2e5f",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Student Grade",
+          "Target": "Above specific threshold (A or B) vs Below Threshold",
+          "Students": "164196 university students",
+          "Courses": "10430 courses at University of California Berkeley",
+          "Data sources": "Course Enrollment Data, Course Information",
+          "Features": "[Semester, Course NAme, Course Number, Department, Instructor, Subject, Enrollment Count, Capacity]",
+          "Moment of Prediction": "Start of Semester",
+          "Preprocessing Details": "Each row represents an enrollment. \n\nCourse data was collected across a 10 year period. Authors only consider courses of lecture type.\n\nData between 2008 and 2015 was used for training, 2016 for validation and 2017 for testing purposes. \n\nWeight decay and Dropout layers have been used.",
+          "Models": "LSTM",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.8805 - Model 2 on B Threshold, F1-Score: 0.6024 - Model 2 on A Threshold}",
+          "Comments": "The paper is relatively complex as it uses an LSTM model to predict a learner’s grade on a course. ",
+          "Limitations": "Only LSTMs are considered.\n\nRequires additional validation (other than backtesting) before deployment.  \n\nResults are somewhat biased because of Grade Letter Aggregation."
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Student Grade",
+          "Target": "Pass (1) vs Fail (0)",
+          "Students": "164196 university students",
+          "Courses": "10430 courses at University of California Berkeley",
+          "Data sources": "Course Enrollment Data, Course Information",
+          "Features": "[Semester, Course Name, Course Number, Department, Instructor, Subject, Enrollment Count, Capacity]",
+          "Moment of Prediction": "Start of Semester",
+          "Preprocessing Details": "Each row represents an enrollment. \n\nCourse data was collected across a 10 year period. Authors only consider courses of lecture type.\n\nData between 2008 and 2015 was used for training, 2016 for validation and 2017 for testing purposes. \n\nWeight decay and Dropout layers have been used.",
+          "Models": "LSTM",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy:  0.9178 - Model 2 on Threshold B}",
+          "Comments": "The paper is relatively complex as it uses an LSTM model to predict whether a learner will pass or fail in a course.\n\n",
+          "Limitations": "Only LSTMs are considered.\n\nRequires additional validation (other than backtesting) before deployment.  \n\nImbalanced dataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+        "block_index": 4
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_14e88a01",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Courses to Register in based on the learner’s goal",
+          "Students": "164196 university students",
+          "Courses": "10430 courses at University of California Berkeley",
+          "Data sources": "Student’s personal course history,\nCourse Pre-Requisites embeddings\n",
+          "Initialization Method": "0/random initialization since there is no history when student registers.",
+          "Updates to Recommendations": "Updates are done via update to the LSTM weights based on how the learner evolves throughout the courses.",
+          "Preprocessing Details": "Authors filtered the dataset to e exclusively account for records from Fall 2016 to recommend courses for Spring 2016.\n\nCourse history is encoded in the form of embeddings.\n\n ",
+          "Recommendation types": "Top-10 Course Recommendations - computed and sorted in descending order  by the probability of achieving an A.",
+          "Evaluation": "{Accuracy: 0.5765 - Model 2 on B Treshold}",
+          "Comments": "Authors do a complete work that follows a sequence of different steps: \n\n1. There is a prediction of course performance, which is enhanced by a prediction of performance in a using information from pre-requisite courses.\n\n2. The LMSTM predicts the probability of achieving an A for every available course in the following semester and recommends the 10 in which the poorobability is highest.\n\nSince this is a backtest, authors consider a successful reccomendation if the student took a course that is listed in the top-10 recommendations list.",
+          "Limitations": "Recommender only takes into account courses taken in previous semester. May benefit from working with a longer sequence.\n\nImbalanced dataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_87e80abc",
+      "reference_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+      "text": "Supporting student decision making is becoming increasingly important when more and more information is becoming available. This work builds on the literature of Deep Learning-Based Recommender systems meant to recommend courses meant to prepare them for target courses of interest. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+      }
+    },
+    {
+      "id": "an_2c460841",
+      "reference_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9",
+      "text": "Authors test their model by using tests of grade prediction and the recovery of pre-requisites as articulated by the university. On a third step, authors compare behavior of students in the semester preceding a course versus a simulated version where students would have taken the recommended courses. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800a-bb2d-f1d25e1094a9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b",
+      "title": "Learner-centred Analytics of Feedback Content in Higher Education",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_73f6770e",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Grade Changes Between Assignments",
+          "Target": "Increased vs Not Increased",
+          "Students": "272 Monash University Students",
+          "Courses": "1 Introductory Data Science Course",
+          "Data sources": "Feedback from Instructors",
+          "Features": "[Strenghten teacher and learner relationships, Encourage Learner Agency, Encourage Positive Learner Affect, Highlight strenghten of performance, Provide critiques about performance, Provide actionable information for future performance, Promote Learner Independence, Usable for Learners]",
+          "Moment of Prediction": "Between Assignments",
+          "Preprocessing Details": "The grade differences were computed between grades on assignment I to assignment II. \n\nAuthors worked on providing feedback to assignments and this is what is used by the authors to achieve get an improvement. These are mapped according to 8 of  the 9 attributes in the LEarner-Centered feedback.",
+          "Models": "Logistic Regression, Random Forest, Gradient Boosting",
+          "Assessment Strategy": "Holdout Method (70/10/20)",
+          "Performance Metric: Best Model": "{Accuracy: 0.84 - GBoost, F1-Score: 0.80 - GBosst, AUC: 0.80 - GBoost, Cohen’s Kappa: 0.61 -  GBoost}",
+          "Comments": "Authors do a work that takes feedback from instructors in the first assignment and uses it to predict whether the feedback led, or not, to an improvement in the assignment grade. \n\nAuthors also do an analysis on how these 2 groups differ. \n\nSHAP analysis also highlights that the grade on the first assignment was the most important determinant feature…followed by interrogratives and positive emotion. ",
+          "Limitations": "  • Single course analysis, with limited number of models being tested\n\n  • Holdout Method\n\n  • Does not fully account for other factors than feedback.\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c71ac89b",
+      "reference_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b",
+      "text": "Over the years, feedback has evolved to be lerner-centered process, in the sense that feedback provided is useful for students to address future tasks. The study collects instructor feedback on 2-consecutive assignments from a data science course. ",
+      "provenance": {
+        "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+      }
+    },
+    {
+      "id": "an_52446a5b",
+      "reference_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b",
+      "text": "The authors use changes in performance as a proxy of learning outcomes. Segmentation analysis is performed and the features extracted from the data were used to subsequently predict learning outcomes → with interpretation being provided by SHAP. Authors find that:",
+      "provenance": {
+        "page_id": "5e0bdf0b-0a36-41b3-b2b7-d6830c8ed90b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

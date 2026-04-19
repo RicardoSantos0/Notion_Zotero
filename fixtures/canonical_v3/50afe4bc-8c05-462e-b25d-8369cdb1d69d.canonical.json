@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
+      "title": "Enhanced Transformer: Knowledge Tracing with Incorporation of Temporal Features",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE IATMSI",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_94ca74a8",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next Question Correctedness",
+          "Target": "Probability of Next Question being Correct",
+          "Students": "297915 EdNet learners",
+          "Courses": "293 tags on EdNet",
+          "Data sources": "Sequence of Questions/Answers,\nLMS logs",
+          "Features": "[Questions, Time of Interactions (Response Time, Lag Time, Explanation Time, Video Lecture Time), Answers]",
+          "Flaw of Previous Models": "Most of the current KT approaches do not consider the time spent on different learrning activities. \n\nMoreover, the knowledge is often estimated from sequences of answers (no formal assessment of prior knowledge). Forgetting is also not usually explained. ",
+          "Novelty of Model": "The Enhanced Transformer arquitecture does uses multihead attention wherein:\n\n- Queries are the question embeddings\n\n- Keys are embeddings of the sequences of interactions of the students\n\n- Values: Embedding that considers the correctedness of the previous questions.",
+          "Preprocessing Details": "Authors extract from logs the time spent on different learning activities. \n\nThese are given as input to a Multihead attention layer.",
+          "Models": "DKT, DKVMN, SAKT, SAINT, SAINT+, Enhanced Transformer",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.8319 - E-Transformer with all time features, AUC: 0.8489 - E-Transformer with all time features}",
+          "Comments": "Authors propose a new architecture called the Enhanced Transformer.\n\nThe model uses multihead atention to receive Questions, Time Spent on Activities and Answers and, when comparing the model against other KT models in the same dataset, the model outperforms all others.\n\nAblation study to check the effect different types of temporal features shows that they do, indeed, increase the performance of the model.",
+          "Limitations": "- Holdout method\n\n - Executes test in a single dataset\n\n- Could consider additional temporal features\n\n- Utilization of forgetting behavior does not consider any form of pedagogical grounding.\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_2167231f",
+      "reference_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
+      "text": "Knowledge Tracing involves estimating the knowledge state of a student and using that knowledge state to understand whether they wil get a question right or wrong. However, an underlooked aspect of KT is temporal aspects and forgetting behavior. ",
+      "provenance": {
+        "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+      }
+    },
+    {
+      "id": "an_7ba0d8ea",
+      "reference_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d",
+      "text": "To address this limitation, authors propse a new-transformer based KT model that incorporates the aspects of time and forgetting behavior in order to create a more accurate estimation of a learner’s knowledge state. When benchmarking the results using the EdNet KT3 dataset, the authors find their proposed architecture outperforms all baseline models significantly both in terms of accuracy and AUC.",
+      "provenance": {
+        "page_id": "50afe4bc-8c05-462e-b25d-8369cdb1d69d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

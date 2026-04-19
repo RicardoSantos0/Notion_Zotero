@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "2b35ec63-ce55-47d8-abdb-f7204fb84381",
+      "title": "Agent-Based Personalized Assessment Tasks Recommendation Considering Objective and Subjective Factors",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_535fee5e",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "3rd Grade",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Agentic",
+          "Target of Recommendation": "IRT-Based Exercises",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "The recommender system incorporates a little bit of KT. The goal of the work is to predict success on exercises and, from there, recommend what is the most suitable exercise for the learner in question - in this case - generate an assessment.\n\nThe recommender starts with evaluating learner ability",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "2b35ec63-ce55-47d8-abdb-f7204fb84381",
+        "block_index": 10
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_dd940ffa",
+      "reference_id": "2b35ec63-ce55-47d8-abdb-f7204fb84381",
+      "text": "Learning for individuals depends on many factors but assessments often are one-size fits all approaches. Thus, recommending assessments in a personalized way would be very helpful. The work proposes an autonomous agent-based approach for recommendations of assessment tasks:",
+      "provenance": {
+        "page_id": "2b35ec63-ce55-47d8-abdb-f7204fb84381"
+      }
+    },
+    {
+      "id": "an_26557872",
+      "reference_id": "2b35ec63-ce55-47d8-abdb-f7204fb84381",
+      "text": "After extensive experimentation, the authors find their model outperforms traditional content-based or collaborative filtering recomendation approaches. ",
+      "provenance": {
+        "page_id": "2b35ec63-ce55-47d8-abdb-f7204fb84381"
+      }
+    }
+  ],
+  "workflow_states": []
+}

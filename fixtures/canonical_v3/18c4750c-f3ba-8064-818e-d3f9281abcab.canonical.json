@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+      "title": "Deep Knowledge Tracing with Convolutions",
+      "authors": [],
+      "year": null,
+      "journal": "ACM Conference",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_68b2e9a9",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Inteligent Tutoring System",
+          "Student Performance Definition": "Answering next question correctly",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4151 learners in ASSISTments2009, 19840 learners in ASSISTments2015, 333 learners in Statics2011 and 4000 synthetic learners",
+          "Courses": "Each dataset refers to its own context",
+          "Data sources": "Questions, \nLMS logs",
+          "Features": "[Sequences of Answers]",
+          "Flaw of Previous Models": "Current KT models consider the whole sequence of answers and not specifically the most recent answers. \n\nAll methods used the embedding of answers directly into the model.",
+          "Novelty of Model": "Authors introduce convolution to identify local interactions and patterns in the sequence of answers:\n\nThe vector is converted into a matrix.\n\nCNNs are used to reduce dimensionality and locally encode potential patterns.",
+          "Preprocessing Details": "Sequence vectors are reshaped into a Matrix, which is given as argument to a Convolutional Layer, followed by an average pooling layer.\n\nThese are then given as iput to a LSTM.\n\n",
+          "Models": "DKT, DKVMN, SKVMN, SAKT, CKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "ASSISTments2009: {AUC: 0.8254 - CKT (k=4, b=80)}\n\nASSISTments2015: {AUC: 0.7291 - CKT (k=4, b=80)}\n\nStatics2011: {AUC: 0.8279 - DKT}\n\nSynthetic-5: {AUC: 0.8253 - MKVMN}",
+          "Comments": "Authors develop a new apporach at knowledge tracing. Models are followed by a set of optimization attempts. \n\nAuthors argue that this KT approach can help professors and learners track the learning progress of learners and check exercise realtionships.",
+          "Limitations": "Model evaluation should use ranking instead of only showing performance results.\n\nMore metrics of evaluation should be considered. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_affbc205",
+      "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+      "text": "KT looks at past responses from students and uses them to create a model of the students’ knowledge. This model can later be used to predict the probability of getting a new question right. Good KT models can help students identify where a student is lacking in terms of knowledge, which can also be used by professors to better prepare new materials. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+      }
+    },
+    {
+      "id": "an_92cdbbcf",
+      "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+      "text": "Deep learning models in KT seem to be the state-of-the-art but seem to underestimate the contribution of the most recent answers for the current knowledge state, which is counterintuitive. To address this, the authors propose a Convolutional KT model, that uses 3D convolutions. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+      }
+    },
+    {
+      "id": "an_43e6073a",
+      "reference_id": "18c4750c-f3ba-8064-818e-d3f9281abcab",
+      "text": "CKT is argued to achieve the new State-of-te-art performance in predicting performance on ASSISTments2009 and ASSISTments 2015 datasets.\n",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-818e-d3f9281abcab"
+      }
+    }
+  ],
+  "workflow_states": []
+}

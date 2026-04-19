@@ -1,0 +1,32 @@
+{
+  "references": [
+    {
+      "id": "eddd2fc2-66ce-4d0b-90a7-a04d45b313e0",
+      "title": "RecRec: Algorithmic Recourse for Recommender Systems",
+      "authors": [],
+      "year": null,
+      "journal": "CIKM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_ac38cfac",
+      "reference_id": "eddd2fc2-66ce-4d0b-90a7-a04d45b313e0",
+      "text": "Authors propose a recourse framework aimed at providers of content. Essencially, the recommender has a set of rules that, if fulfilled, lead to a change in ranking or recommendation. Validation of this dataset on 3 public datasets shows RecRec is effective at leading to valid, sparse and actionable recommendations.",
+      "provenance": {
+        "page_id": "eddd2fc2-66ce-4d0b-90a7-a04d45b313e0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

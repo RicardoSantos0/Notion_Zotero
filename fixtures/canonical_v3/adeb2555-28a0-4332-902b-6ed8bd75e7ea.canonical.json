@@ -1,0 +1,61 @@
+{
+  "references": [
+    {
+      "id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea",
+      "title": "Personalized Learning Path Recommender Based on User Profile Using Social Tags",
+      "authors": [],
+      "year": null,
+      "journal": "ISCID",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_a5032657",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Learning Pathways",
+          "Students": "200 Computer Science students",
+          "Courses": "1 C Programming  Learning System",
+          "Data sources": "Social tags",
+          "Initialization Method": "Users are initialized via the profiling via social tags- users are asked to rank the social tags according to their preference. ",
+          "Updates to Recommendations": "After taking an activity",
+          "Preprocessing Details": "The fiull preprocessing pipeline goes as follows:\n\n1. Select the representative items for each learner.\n\n2. Do not consider items that user has not viewed and build item-tag matrix.\n\n3. For each item-tag relationship, highlight if it is part of the user preferences. \n\n4. Rank tags\n\n5. For each item, form a vector consisting of tag rankings\n\n6. Create a profile of user u for each item based on the tag rankings. \n\n7. USer simmilarity will be computed using Pearson Correlation.\n\n8. Select most similar users and aggregate the learning path (sequence of steps from user U up to now).\n\nPredictions on most most likely next action arre made using Bayes Theorem. ",
+          "Recommendation types": "Next Recommended Action",
+          "Evaluation": "{Learning Time: 115.2, Average Grade: 81.4, Knowledge Unit Mastery: 0.913}",
+          "Comments": "Authors do 2 experiments:\n\nExperiment 1 that only executes Step 8 - Aggregation and recommendation.\n\nExperiment 2 which follows the full logic of the recommender framework.\n\nLearners who were part of experiment 2 spent less time studying and achieved better grades and knowledge mastery.",
+          "Limitations": "Only considers preferences from the most interested learners. \n\nSmall dataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0d96b96d",
+      "reference_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea",
+      "text": "The goal of educational recommender systems is to improve performance. The authors propose a recommender system that uses social tags to build user profiles. Then, it uses Bayes formula to predict next learning materials out of the ones used by similar users (so, collaborative filtering). ",
+      "provenance": {
+        "page_id": "adeb2555-28a0-4332-902b-6ed8bd75e7ea"
+      }
+    }
+  ],
+  "workflow_states": []
+}

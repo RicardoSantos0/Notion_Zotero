@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80cf-9ffa-ed17065f669a",
+      "title": "Multimodal Learning Analytics and Neurofeedback for Optimizing Online Learners’ Self-Regulation",
+      "authors": [],
+      "year": null,
+      "journal": "Technology, Knowledge and Learning",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5a9db7d8",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Theoretical Grounding": "",
+          "Features": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Performance Metric: Best Model": "",
+          "Groups Created": "",
+          "Cluster Description": "",
+          "Implications": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80cf-9ffa-ed17065f669a",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_219496c0",
+      "reference_id": "18c4750c-f3ba-80cf-9ffa-ed17065f669a",
+      "text": "Work uses EEG to record physiological information from learners to predict SRL traits during online learning. The authors also propose a form of providing feedback to train online learner brains to improve their SRL skills. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80cf-9ffa-ed17065f669a"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,119 @@
+{
+  "references": [
+    {
+      "id": "060989c9-da7d-41d8-9ad2-04ebad13c871",
+      "title": "A two-phase machine learning approach for predicting student outcomes",
+      "authors": [],
+      "year": null,
+      "journal": "Education and Information Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5f485acb",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Time to Degree",
+          "Target": "Years to Degree",
+          "Students": "1100 undergraduate students",
+          "Courses": "Courses in the CS department at a Greek University",
+          "Data sources": "Student Information System",
+          "Features": "[GPA, Specialization Field, Capstone Project Grade, Time to Complete Basic Cycle, First Year Performance in Core Subjects, High School, Rank-in-Class, Student Mobility Program, Internship, Awards, Grade in High School, Grade in Entrance Exams, RIASEC/Holland code]",
+          "Moment of Prediction": "End of Program",
+          "Preprocessing Details": "Preprocessing involves 3 main steps:\n\n- Removing Ouliers - 2% of the datasset was removed this way\n\n- Normalization\n\n- Feature Extraction of FYPICS\n\nThe data is clustered using k-Means and each cluster has its own model",
+          "Models": "Random Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Cluster 1: \n{Relative Absolute Error: 0.26, Relative Squared Error: 0.13, RSquared: 0.87}\n\nCluster 2: \n{Relative Absolute Error: 0.29, Relative Squared Error: 0.18, RSquared: 0.82}\n\nCluster 3: \n{Relative Absolute Error: 0.27, Relative Squared Error: 0.17, RSquared: 0.83}",
+          "Comments": "Authors create a predictive model that is meant to predict how many years the student took finish the program.\n\nThis prediction is particularly trivial since it uses data from the entire program.\n\nOne approach that distinguishes this work from others though is that it clusters first and then predicts.\n\nThere is benchmarking of general model vs cluster-specific model",
+          "Limitations": "- System does not perform early prediction\n\n- Limited preprocessing alternatives\n\n- Task is too trivial\n\n- Only considers academic profile data"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Continue Post-Graduate Studies",
+          "Target": "Continue (1) vs Not Continue (0)",
+          "Students": "1100 undergraduate students",
+          "Courses": "Courses in the CS department at a Greek University",
+          "Data sources": "Student Information System",
+          "Features": "[GPA, Specialization Field, Capstone Project Grade, Time to Complete Basic Cycle, First Year Performance in Core Subjects, High School, Rank-in-Class, Student Mobility Program, Internship, Awards, Grade in High School, Grade in Entrance Exams, RIASEC/Holland code, TTD]",
+          "Moment of Prediction": "End of Program",
+          "Preprocessing Details": "Preprocessing involves 3 main steps:\n\n- Removing Ouliers - 2% of the datasset was removed this way\n\n- Normalization\n\n- Feature Extraction of FYPICS\n\n- The data is clustered using k-Means and each cluster has its own model",
+          "Models": "Random Forest",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Cluster 1: \n{Precision: 0.852, Recall: 0.891, Accuracy: 0.821}\n\nCluster 2: \n{Precision: 0.713, Recall: 0.752, Accuracy: 0.729}\n\nCluster 3: \n{Precision: 0.812, Recall: 0.878, Accuracy: 0.832}",
+          "Comments": "Approach is related with the creation of specific models:\n\n- Clustering in Supervised learning - specific cluster models. \n\n- SEIPS is about predicting whether the student will go into Post-graduate studies or not.\n\nOne approach that distinguishes this work from others though is that it clusters first and then classifies.\n\nThere is benchmarking of general model vs cluster-specific model",
+          "Limitations": "- System does not perform early prediction\n\n- Limited preprocessing alternatives\n\n- Task is too trivial\n\n- Only considers academic profile data"
+        }
+      ],
+      "provenance": {
+        "page_id": "060989c9-da7d-41d8-9ad2-04ebad13c871",
+        "block_index": 6
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_9e549db8",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Students": "1100 undergraduate students",
+          "Courses": "Courses in the CS department at a Greek University",
+          "Data sources": "Student Information System",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[GPA, Specialization Field, Capstone Project Grade, Time to Complete Basic Cycle, First Year Performance in Core Subjects, High School, Rank-in-Class, Student Mobility Program, Internship, Awards, Grade in High School, Grade in Entrance Exams, RIASEC/Holland code]",
+          "Preprocessing Details": "Preprocessing involves 3 main steps:\n\n- Removing Ouliers - 2% of the datasset was removed this way\n\n- Normalization\n\n- Feature Extraction of FYPICS",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "Sum of Square Residuals",
+          "Groups Created": "3",
+          "Cluster Description": "Cluster 1: Composed by close to 50% of students - these have the highest performance on first year (FYPICS) and finish their programs in the lowest time.\n\nCluster 2: Composed by close to 25% of learners. They place second.\n\nCluster 3: Composed by close to 20%, features the learners with llowest FYPICS and also the highest average TTD.",
+          "Implications": "Clustering students before creating a classifier leads to overall better predictions than trying to classify students from the get go.",
+          "Comments": "Clustering is used ass part of a more overarching framework called EDUC8.",
+          "Limitations": "- System does not perform early prediction\n\n- Limited preprocessing alternatives\n\n- Task is too trivial\n\n- Only considers academic profile data"
+        }
+      ],
+      "provenance": {
+        "page_id": "060989c9-da7d-41d8-9ad2-04ebad13c871",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_02f0d459",
+      "reference_id": "060989c9-da7d-41d8-9ad2-04ebad13c871",
+      "text": "Paper presents a 2 phase machine learning approach to predict student outcomes in Higher Education:",
+      "provenance": {
+        "page_id": "060989c9-da7d-41d8-9ad2-04ebad13c871"
+      }
+    },
+    {
+      "id": "an_d819a9e4",
+      "reference_id": "060989c9-da7d-41d8-9ad2-04ebad13c871",
+      "text": "Models achieve good accuracy, highlghting potential of these approaches for Learning Analytics.",
+      "provenance": {
+        "page_id": "060989c9-da7d-41d8-9ad2-04ebad13c871"
+      }
+    }
+  ],
+  "workflow_states": []
+}

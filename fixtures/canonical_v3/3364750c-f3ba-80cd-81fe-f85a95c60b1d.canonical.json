@@ -1,0 +1,91 @@
+{
+  "references": [
+    {
+      "id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
+      "title": "AI-Driven Personalized Learning and Remedial Recommendation Through Knowledge Concept-Centric Evaluation",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_6455f798",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "AI-driven remedial recommender / adaptive concept-based recommender using knowledge-gap identification, LLM-generated remedial content, and adaptive follow-up evaluation",
+          "Target of Recommendation": "Weak knowledge concepts; recommendations include learning objectives, review topics, remedial explanation, practice activities, and concept-gap rationale",
+          "Students": "262 learners for recommendation-module analysis",
+          "Courses": "Procedural Programming using C (evaluation setting); broader curriculum processing spans 70+ CSE courses",
+          "Data sources": "Curriculum PDFs, OBE exam data from AMPLE LMS, learner-question performance, concept/outcome mappings, instructor-defined attainment rules",
+          "Initialization Method": "Initialized from curriculum processing and concept extraction; instructor validates concepts and defines thresholds/targets and question rules; weak concepts are identified from learner performance",
+          "Updates to Recommendations": "Iterative closed loop: after studying recommendations, learners complete self-assessment; results are fed back and the system generates refined recommendations until target mastery is reached",
+          "Preprocessing Details": "PDF-to-text conversion, RAG-based retrieval, embeddings/vector DB, semantic deduplication for follow-up questions, multi-model cross-verification of generated remedial content",
+          "Recommendation types": "Personalized remedial recommendations + review guidance + practice tasks + adaptive follow-up question",
+          "Evaluation": "Recommendation-module results should be the focus here: after recommendation, Not Competent/Beginner decreased and Intermediate/Expert increased across all five concepts (Fig. 7); pre/post gains were significant for all concepts (p < 0.0001), with mean gains of +22.47, +18.50, +15.97, +13.21, and +1.28 depending on the concept; learner survey showed strongest ratings for relevance and structure of recommendations (>3.3/5) and weakest ratings for personalization to individual mistakes/needs (<3.0/5)",
+          "Comments": "Best framed as a remedial intervention recommender rather than a classical item recommender. Strong point: the paper evaluates the effect of recommendations directly with pre/post learner improvement and user perception, not only underlying model performance",
+          "Limitations": "Single-institution study; recommendation quality is not compared against alternative recommender baselines; personalization was perceived as weaker than clarity/relevance; relies on human/instructor oversight and cross-verification"
+        }
+      ],
+      "provenance": {
+        "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
+        "block_index": 6
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_fcbad921",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Student Performance Definition": "Whether learners have attained the required concept level",
+          "Target": "Concept mastery probabilities; weak concepts are those below OBE target levels",
+          "Students": "1,276 learners for KT training/testing dataset",
+          "Courses": "70+ courses in a 4-year CSE program",
+          "Data sources": "Historical OBE exam data from AMPLE LMS; learner-question responses mapped to concepts; curriculum and course-outcome structure",
+          "Features": "Learner interaction sequences, correctness, exercise/question content, concept mappings, OBE attainment labels",
+          "Flaw of Previous Models": "Earlier KT approaches either rely mainly on response sequences or do not sufficiently incorporate exercise semantics/content. The paper argues this limits fine-grained concept-level gap detection for OBE-aligned personalization",
+          "Novelty of Model": "Uses Exercise-Aware Knowledge Tracing (EKT) to combine learner response history with semantic content of exercises, then uses predicted concept mastery to identify weak concepts for personalized follow-up",
+          "Preprocessing Details": "Curriculum PDFs converted to text and aligned to concepts; learner-question attainment mapped to concept-level outcomes; 75/25 train-test split; 12 epochs; embedding dimension 100; LSTM hidden size 100; dropout 0.3; Adam optimizer 0.001; batch size 32; binary cross-entropy loss",
+          "Models": "DKT, DKVMN, EKT, AKT, SimpleKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{AUC: 0.9334 - EKT, RMSE: 0.1828 - EKT}",
+          "Comments": "Good fit for KT table because KT is not peripheral here: it is the mechanism used to estimate concept mastery and trigger downstream intervention. Figures 4–6 show model comparison, learner knowledge-state evolution, and concept-wise mastery visualization",
+          "Limitations": "Single-institution OBE dataset; results tied to one engineering program; only holdout evaluation reported; paper emphasizes downstream application more than deep ablation of the KT component"
+        }
+      ],
+      "provenance": {
+        "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_864f496a",
+      "reference_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d",
+      "text": "The authors propose an architecture that includes 4 key components: Knowledge Gap Identification, Adaptive Question Generation, Personalized Evaluation and Remedial Recommendation. EKT continuously monitors the learners’ knowledge states while RAG is used to create MCQ for the learners to practice. \n\nRecommender is tested.",
+      "provenance": {
+        "page_id": "3364750c-f3ba-80cd-81fe-f85a95c60b1d"
+      }
+    }
+  ],
+  "workflow_states": []
+}

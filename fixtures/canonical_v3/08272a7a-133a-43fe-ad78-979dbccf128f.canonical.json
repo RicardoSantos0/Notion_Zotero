@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "08272a7a-133a-43fe-ad78-979dbccf128f",
+      "title": "Using institutional data to predict student course selections in higher education",
+      "authors": [],
+      "year": null,
+      "journal": "Internet and Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_6116d706",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "University courses to take next",
+          "Students": "1061 Psychology students",
+          "Courses": "47 course at a Canadian University ",
+          "Data sources": "Course and Instructor Scores, Student Preferences",
+          "Initialization Method": "Qualifier tags are built from the evaluations of a course using an ontology. \n\nWhen a course has not been taught before (and has no evaluations), essencially the algorithm provides it with an “unknown” constant ranking. \n\n",
+          "Updates to Recommendations": "Model recalibrated using cross-validation and variable weighting of AHP criteria (course difficulty, GPA, popularity, interest)",
+          "Preprocessing Details": "– De-identification of student-level data\n\n– Aggregation of preferences by GPA group and course type– Normalization of grades [0–1]\n\n– Pairwise comparisons for AHP matrix consistency check",
+          "Recommendation types": "Prediction of most likely course enrolments by student (ranking)",
+          "Evaluation": "{Accuracy: 0.64, RMSE: 0.072, Pearson r: 0.69}}",
+          "Comments": "– AHP effectively integrates identifiable + non-identifiable data to respect privacy constraints.\n\n– GPA and course difficulty are dominant predictors of course selection.\n\n– Model matches accuracy of prior identifiable-data approaches.\n\n– Emphasizes self-efficacy as a psychological factor in academic decision-making.",
+          "Limitations": "– Limited generalizability (single program dataset).\n\n– AHP assumes stable weighting preferences across cohorts.\n\n– Manual feature scaling and expert-defined hierarchy.\n\n– Lacks behavioural, temporal, or motivational data.\n\n– Not a “true” recommender—predicts enrollment likelihood, not utility."
+        }
+      ],
+      "provenance": {
+        "page_id": "08272a7a-133a-43fe-ad78-979dbccf128f",
+        "block_index": 10
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_57941b37",
+      "reference_id": "08272a7a-133a-43fe-ad78-979dbccf128f",
+      "text": "There are enormous conomic benefits to draw from automating course-selection and many current predictive models actually try to predict the number of students that may enroll in a given course. Multiple issues exist with this approach:",
+      "provenance": {
+        "page_id": "08272a7a-133a-43fe-ad78-979dbccf128f"
+      }
+    },
+    {
+      "id": "an_11631648",
+      "reference_id": "08272a7a-133a-43fe-ad78-979dbccf128f",
+      "text": "Thus, authors propose a recommender system for courses only using information available in the School’s institutional system. The approach starts with the extraction of features and their use with Analytical Hierarchy Process to predict course selections. Tests done on a sample of 1061 higher education students.",
+      "provenance": {
+        "page_id": "08272a7a-133a-43fe-ad78-979dbccf128f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

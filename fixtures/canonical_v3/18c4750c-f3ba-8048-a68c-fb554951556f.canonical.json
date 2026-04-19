@@ -1,0 +1,99 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8048-a68c-fb554951556f",
+      "title": "PredictCS: Personalizing Programming learning by leveraging learning analytics",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5081d955",
+      "reference_task_id": null,
+      "schema_name": " Abstract",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-a68c-fb554951556f",
+        "block_index": 4
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_5d2b0289",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Online Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Learning Materials",
+          "Students": "25 students",
+          "Courses": "Not Applicable - students belong to Engineering in Foreign Languages School",
+          "Data sources": "- Registration Form\n",
+          "Initialization Method": "Learning Style is inferred from Questionnaire. \n\nSparsity problem → requires that there is at least one student with each learning tool to have selected a tool as preferrable. ",
+          "Updates to Recommendations": "The learning style is continuously updated based on the interactions of the user with the system.",
+          "Preprocessing Details": "Similarity between items is computed using Jaccard Similarity.\n\nRepresentation of users used demographic data AND Learning Style as derived from the LS questionnaire. ",
+          "Recommendation types": "Shortcuts: based on static information\n\nSuggestions: incorporate learning style and user interactions",
+          "Evaluation": "{Satisfaction: 12/20 students reported to be likely to use the recommendder again}",
+          "Comments": "Methodologically, the work can be summarized into 2 sections:\n\n1. Obtaining the learning styles from the questionnaire AND a rating of tools based on choices upon registration.\n\n2. Using a Collaborative Filtering approach to make recommendations.\n\nTo mitigate the sparsity problem, recommendation matrices are computed seaparately for each learning style.",
+          "Limitations": "- Results on accuracy of LS evaluation or Recommendations is not reported.\n\n- Items whose score does not surpass a pre-determined threshold are never shown.\n\n- Cold-Start problem\n\n- Evaluation metrics considered (accuracy)\n\n- Survey evaluation for recommender based on sdatisfaction-"
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-a68c-fb554951556f",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e81955d5",
+      "reference_id": "18c4750c-f3ba-8048-a68c-fb554951556f",
+      "text": "PredictCS automatically flags students at risk and sends them feedback useful for early intervention. It uses multi-modal data as inputs for multiple predictive models - prior academic performance, carachteristics, logs and student progress. The model generates predictions every week. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-a68c-fb554951556f"
+      }
+    },
+    {
+      "id": "an_adbd9b06",
+      "reference_id": "18c4750c-f3ba-8048-a68c-fb554951556f",
+      "text": "There is also an opt-in to receive feedback - programming suggestions to resources that help fill knowledge gaps.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-a68c-fb554951556f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

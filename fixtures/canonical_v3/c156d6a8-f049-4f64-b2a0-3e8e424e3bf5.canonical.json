@@ -1,0 +1,217 @@
+{
+  "references": [
+    {
+      "id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "title": "Utilizing student activity patterns to predict performance",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Educational Technology in Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2d419de5",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Exam Performance",
+          "Target": "Fail (0) vs Pass (1)",
+          "Students": "111",
+          "Courses": "1 Programming Course",
+          "Data sources": "LMS",
+          "Features": "[Number of Successful Compilations, Successful Compilations Average Complexity,  Number of Failed Compilations, Failed Compilations Average Complexity, Ratio between On-campus and Off-campus Connections, Number of Connections, Time spent on the Platform, Time spent on slides within the Platform,  Slides Coverage, Number of Slides visited,  Number of Slides opened, Number of transactions during Labs, Number of transactions outside Labs, Number of transactions in the Platform]",
+          "Moment of Prediction": "Every Week (16 weeks total)",
+          "Preprocessing Details": "All features extracted refer to browsing interactions or computations obtained from browsing interactions.\n\nProgram Complexity uses NLP to strip the comments and measure the length of the code.\n\nAuthors explore both normalization and standardization as scaling methods.\n\n\n\n",
+          "Models": "Linear Regression\nLogistic Regression\nGaussian NB\nMultinomial NB\nBernoulli NB\nSVM\nkNN\nDT",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "End of course:\n{AUC: 0.85 - DT-CART)\n\nEarly Prediction:\n{AUC: 0.77 - DT-CART Week 4)",
+          "Comments": "Number of folds in cross-validation is not mentioned.\n\nProgram complexity was a particualrly succesful feature.",
+          "Limitations": "Authors doo not mention specifics on feature selection and/or other preprocessing steps such as nans. \n\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Exam Performance",
+          "Target": "Fail (0) vs Pass (1)",
+          "Students": "111",
+          "Courses": "1 Programming Course",
+          "Data sources": "LMS",
+          "Features": "[Number of Successful Compilations, Successful Compilations Average Complexity,  Number of Failed Compilations, Failed Compilations Average Complexity, Ratio between On-campus and Off-campus Connections, Number of Connections, Time spent on the Platform, Time spent on slides within the Platform,  Slides Coverage, Number of Slides visited,  Number of Slides opened, Number of transactions during Labs, Number of transactions outside Labs, Number of transactions in the Platform, Concept Adoption Times]",
+          "Moment of Prediction": "Every Week (16 weeks total)",
+          "Preprocessing Details": "Authors add the concept adoption times as features to the model. ",
+          "Models": "Linear Regression\nLogistic Regression\nGaussian NB\nMultinomial NB\nBernoulli NB\nSVM\nkNN\nDT",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "End of course:\n{AUC: 0.86 - DT-CART)\n\nEarly Prediction:\n{AUC: 0.85 - DT-CART Week 10)",
+          "Comments": "Week 10 becomes a hallmark where the concept adoption variables start to really play an effect in the improvement of predictive performance.",
+          "Limitations": "Concept adoption only becomes effective after 2/3 of the course. \n\nConcept adoption feature only measures when a concept is first used.\n\nNo tracking of unsuccessful attempts at concept adoption.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+        "block_index": 44
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_d93e068b",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The paper focuses on understanding how students consume and reuse course materials. To do that, authors present a basic classifier that identifies struggling students. Then, they introduce indicators on when students employ a concept for the first time. The improvements resulted in a 85% accuracy score.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_80912b72",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Computer science degrees tend to have high churn and high rates of failure in introductory courses. However, little attention is placed on this fact. This difficulty reduces the number of available skilled professionals for ICT companies. So, undergraduate courses are a good place to start addressing this to, hopefully, get more ICT graduates. ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_c212746a",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Fortunately, LMS and the birth of Learning Analytics has contributed to a better understanding of the phenomena behind learning. LMS and other VLE’s can produce data in enough quantity and quality necessary for this. With this, it has been possible to, for example, identify students in risk of dropping out.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_384223f7",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "During the literature review, the authors point to studies that have found relationships between interactions with the LMS. The most surprising observation notes that extremely high student activity levels are predictors of negative student performance. Another relevant study is the one of Course Signals taht identified students in need and sent them an e-mail. This system, and others, were effective at improving performance but often are criticized by being one-size fits all solutions and, by definition, probably too general. However, there are opportunities in more context specific domains like programming:",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_754fdfaa",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The authors identify other potential prospects: the Blackbox project asked users of an IDE about the collection of their data. Another study points to the use of virtual machines on an engineering course. The VM would store the information and send it to a central server for analytical purposes.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_b94b09af",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Another set of authors found that tinkering had a role to play in the learning process. Others focused on understanding the robustness of tutoring software. More specifically in the prediction of performance, other authors used DTs to distinguish between low and high-performing students on a Java course → achieving between 70 to 80% accuracy.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_a1fe573d",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The authors note that LMS often DO NOT give real-time analytics. This raises for the exposition of a platform that can be used to provide support to students in a real-time laboratory session. ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_1429ce5a",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The authors developed a platform for module delivery. The platform was trialed in 2nd year CS students. The platform SOCS handles content and learning activities. Since the platform is custom made, it allows for a more fine-grained analysis of the activities performed in the LMS. ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_3956d980",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "When it comes to learning materials, SOCS features 20 lessons, 8 lab exercises and a simulator. Students were encouraged to explored the simulator. Students undertaking the platform had an introductory course on it and are informed about the data collection. In total, 111 students used the platform, recording more than 9 million interactions and made more than 58000 programs.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_900957b3",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Observation of the logs shows 3 distinct spikes in activity, each spike referring to periods before either lab exams or final exam.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_b34bc99c",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": " ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_17c51f8e",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Another important use case for this LMS is to test whether a certain concept described as important by the educator is adopted in the coding submission. As an experiment, the authors selected 6 concepts and an auto-grader designed to capture those concepts in the programs written by the students. Some of the concepts are easier to detect than others:",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_bdac70c2",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "This allowed to detect when did a student first submit code that actually captured a certain concept, allowing the measurement of indicators such as the time to adopt a specific concept. An interesting observation is that adoption sort of follows a sttepped nature that overlaps with labs or worksheets. Interestingly as well, when covering more complex topics, the authors noted that:",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_198d3d20",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "Moreover, not using a concept before a specific moment in time usually makes it likely that the student wil not employ the concept, which would make sheets, labs or tests forcing that employment a suitable intervention. This is also a good form to identify potentially struggling students.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_3bbe8904",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The authors also developed a Pass/Fail on the final exam classifier to apply to their students. To do that, the authors explore multiple different options for classifiers, compare their performance and select the best one. The authors compare the different models using Cross-Validation from sklearn. \n\nAs inputs, the models use data collected from the LMS throughout the entire semester (a prediction is attempted at the end of every week). The variables take advantage of the fact that this is a custom platform that is optimized for programming. Thus, in addition to standard LMS variables, the variables also include successful compilations of code or complexity of the failed compilations. The authors use use a ratio of on-campus/off campus interactions.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_00973b15",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The authors test different forms of preprocessing: scalers, feature selection (altough unspecificied). Models are also compared using the ROC AUC. ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_96b17ffe",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "The AUC score evolves with time as expected, gradually increasing over time. Moreover, authors identify the CART as the best model on the later sections of the course. ",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    },
+    {
+      "id": "an_ea9c413e",
+      "reference_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5",
+      "text": "More than just making these predictions, the authors attempt to compare these models with other models that incorporate concept adoption features. Their incorporation increases the performance of the models after week 10.",
+      "provenance": {
+        "page_id": "c156d6a8-f049-4f64-b2a0-3e8e424e3bf5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

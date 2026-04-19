@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "3f33f9ca-9ea4-4626-8ce9-02812a806533",
+      "title": "Fuzzy-based active learning for predicting student academic performance using autoML: a step-wise approach",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Computing in Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0d7570ab",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Passing a Course",
+          "Target": "Pass (0) vs Fail (1)",
+          "Students": "866 students in Thessaloniki",
+          "Courses": "3 courses: Physics III, Phjysical Chemistry I & Analtical Chemistry Labs",
+          "Data sources": "LMS logs, Intermediate and Final Grades",
+          "Features": "[Number of Views per module]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Features are extracted from the logs themselves using a plugin.\n\nThese are subsequently given to a set of fuzzy learning algorithms.\n\nAt the second stage authors 4 distinc strategies:\n\nUncertainty Sample with LC, Hinted SVM, QUIRE and Random Sampling.",
+          "Models": "FMARR, MFPC AIWA/OWA, FPC GA/LGA, PT, PTTD, FPC OWA, Naive Bayesm IBk-5NN, Random Forest, GBoost",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Friedman Aligned Rank Accuracy: 11.2 - PT,  Friedman Aligned Rank AUC: 15 - PTTD, Friedman Aligned Rank AUC: 15.1 - PTTD}",
+          "Comments": "Authors use AutoML to do hyper.-parameter tuning od different fuzzy learning algorithms to predict a student’s ability to pass our fail a course.\n\nEven after comparison using Standard ML algorithms, the rank performance of the Fuzzy Classifiers beats the remaining models.\n\nTests using the different forms of resampling show that Hinted SVM or QUIRE are decent techniques.\n\n",
+          "Limitations": "No consideration of adding other data sources.\n\nNo explanation of learning using resources not available in the LMS.\n\nUncreative feature engineering and extraction."
+        }
+      ],
+      "provenance": {
+        "page_id": "3f33f9ca-9ea4-4626-8ce9-02812a806533",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c37c1f35",
+      "reference_id": "3f33f9ca-9ea4-4626-8ce9-02812a806533",
+      "text": "While ML to predict student performance is popular, there is a growing need to create models that are accurate but at a low-cost, something fuzzy-models can do. Then, it is important to choose optimal method and optimal parameters for a model. Authors explore the potential of AutoML to predict student performance. Multiple experiments seem to show approach is accurate.",
+      "provenance": {
+        "page_id": "3f33f9ca-9ea4-4626-8ce9-02812a806533"
+      }
+    }
+  ],
+  "workflow_states": []
+}

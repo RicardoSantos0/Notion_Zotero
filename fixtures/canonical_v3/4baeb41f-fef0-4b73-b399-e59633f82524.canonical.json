@@ -1,0 +1,93 @@
+{
+  "references": [
+    {
+      "id": "4baeb41f-fef0-4b73-b399-e59633f82524",
+      "title": "Contrasting prediction methods for early warning systems at undergraduate level",
+      "authors": [],
+      "year": null,
+      "journal": "Internet and Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_82173b49",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "144 undergraduate students",
+          "Courses": "1 Practical Statistics Course",
+          "Data sources": "LMS Logs, Institutuional Data",
+          "Theoretical Grounding": "None Specificed",
+          "Features": "[Resource Usages per week]",
+          "Preprocessing Details": "Authors exclusively use the fine-grained data from the LMS of interactions with the folders on both Weekdays and Sunday.",
+          "Models": "GMM",
+          "Performance Metric: Best Model": "BIC",
+          "Groups Created": "3",
+          "Cluster Description": "Cluster 1 (n=6): Lower total views in general and, correspondingly, lower final result.\n\nCluster 2 (n=69): More views on Weekdays than on Sunday.\n\nCluster 3 (n=61):\nMore views on on Sunday than Weekdays, even though not by a substantial margin. \n\nPerformance is indistinguishable for both of these clusters. ",
+          "Implications": "Cluster show that more activity tends to lead to better performance. However, whether the levels of activity come more during weekdays or weekends does not seem to have a significant impact.",
+          "Comments": "Clustering via GMM is introduced as a new approach to feature generation rather than what is usually used. ",
+          "Limitations": "ingle course Data\n\nMay not generalize well to outside STEM\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "4baeb41f-fef0-4b73-b399-e59633f82524",
+        "block_index": 4
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_cdd92028",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Mark",
+          "Target": "Continuous Value",
+          "Students": "144 undergraduate students",
+          "Courses": "1 Practical Statistics Course",
+          "Data sources": "LMS Logs, Institutuional Data, Learner Results",
+          "Features": "[Demographics, Resource Usages per week]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "Authors collect information from the Student Registration System and  of the Student Interactions.\n\nEach week has a specific folder that contains the materials meant for the week → thus there is, at max, a total of 15 stages.\n\nAuthhors also compare 4 feature configurations:\n\n  1. Background, Continuous Assessment and Logs, \n  2. Background and Continuous Assessment,\n  3. Background, Continuous Assessment and cumulative activity for each folder,\n  4. Cluster variables\n\n",
+          "Models": "Random Forest, BART, XGBoost, Principal Components Regression, SVM, MLP, Adaptive Regression Splines, kNN",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{MAE: 6.5 -  Week 6 BART with Cumulative Variables and Cluster Variables}",
+          "Comments": "Authors attempt do early prediction not only using the usual traininig paradigm on multiple features sets, but also try new approaches → cumulative variables and cluster variables on a Statistics course.\n\nResults show that it is possible to obtain good predictions by week 6/15 using this approach,",
+          "Limitations": "Single course Data\n\nMay not generalize well to outside STEM\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "4baeb41f-fef0-4b73-b399-e59633f82524",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_b57c2a02",
+      "reference_id": "4baeb41f-fef0-4b73-b399-e59633f82524",
+      "text": "This work compares 8 distinct predictive algorithms to predict student performance (grade) in a statistics course. Authors also identify weeks 5-6 (pretty much halfway point) as the optimal time to make a prediction. Best model (BART) achieves 6.5% of MAE. Also, authors publish their code in a github repository.",
+      "provenance": {
+        "page_id": "4baeb41f-fef0-4b73-b399-e59633f82524"
+      }
+    }
+  ],
+  "workflow_states": []
+}

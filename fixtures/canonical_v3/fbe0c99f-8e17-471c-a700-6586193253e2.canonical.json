@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "fbe0c99f-8e17-471c-a700-6586193253e2",
+      "title": "Early-predicting dropout of university students: an application of innovative multilevel machine learning and statistical techniques",
+      "authors": [],
+      "year": null,
+      "journal": "Studies in Higher Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b567e2be",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Face-to-Face Learning",
+          "Student Performance Definition": "Dropping out from a Program",
+          "Target": "Graduated (0) vs Dropout (1)",
+          "Students": "31071 Engineering sudents",
+          "Courses": "1 Engineering Program",
+          "Data sources": "Student Demographics, Previous Academic Performance, Academic Information",
+          "Features": "[Gender, Income (range), Access to Study Age, Student’ origins, Previous Studies, Admission score, TotalCredits1s, Attempts 1s]",
+          "Moment of Prediction": "End of First Academic Year",
+          "Preprocessing Details": "Data is collectedbetween 2010/2011 and 2015/2016.\n\nDataset is subsequently divided between early and late dropout and using different configurations:\n\n- Degree courses not considered\n\n- Courses considered as dummies\n\n- Courses considered as part of a multilevel model\n\nIn the last formulation, a random effects increment is added to the intercept to account for the probability of a course contributing to dropout.",
+          "Models": "Generalized Linear Model, Decision Tree, Random Forest",
+          "Assessment Strategy": "Holdout Method (70/30)",
+          "Performance Metric: Best Model": "Early Dropout\n\n{AUC: 0.9615 - GLM-Nested, Accuracy: 0.9342 - DT Not Nested & Dummy, Sensitivity: 0.9004 -DT-Nested, Specificity: 0.9294 - RF Not Nested}\n\nLate Dropout\n\n{AUC: 0.9091 - GLM-Nested, Accuracy: 0.8851 - DT Not Nested, Sensitivity: 0.8118 -DT-Nested, Specificity: 0.9312 - DT Not Nested}",
+          "Comments": "Authors use 3 different configurations of models to perform 2 distinct classification tasks:\n\nLate Dropout vs Graduated,\n\nEearly Dropout vs Graduated\n\nFrom results, it becomesapparent that detecting early dropout is relatively easier since most early dropouts are justified either by poor performance from the get go - which may indicate some difficulty to adapt.",
+          "Limitations": "- Holdout Method\n\n- No integration of Course Interaction Data\n\n- Only consider binary classification scenarios\n\n- Small number of algorithms considered\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "fbe0c99f-8e17-471c-a700-6586193253e2",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_93eb0d23",
+      "reference_id": "fbe0c99f-8e17-471c-a700-6586193253e2",
+      "text": "Combines theoretically based model with data driven approach to create early warning system fro Dropout. ",
+      "provenance": {
+        "page_id": "fbe0c99f-8e17-471c-a700-6586193253e2"
+      }
+    },
+    {
+      "id": "an_c7476ab4",
+      "reference_id": "fbe0c99f-8e17-471c-a700-6586193253e2",
+      "text": "Model uses multi level statistics and results show effectiveness of approach.",
+      "provenance": {
+        "page_id": "fbe0c99f-8e17-471c-a700-6586193253e2"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -14,6 +14,7 @@ class Reference(BaseModel):
     abstract: Optional[str] = None
     item_type: Optional[str] = None
     tags: List[str] = []
+    provenance: Optional[Dict] = None
 
 
 class Task(BaseModel):

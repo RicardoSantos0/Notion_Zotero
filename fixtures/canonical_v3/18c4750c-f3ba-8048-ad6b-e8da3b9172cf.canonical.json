@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf",
+      "title": "Identifying At-Risk Students for Early Intervention—A Probabilistic Machine Learning Approach",
+      "authors": [],
+      "year": null,
+      "journal": "Applied Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ad9dc9f1",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Probability of Failing an Upcoming Assessment",
+          "Target": "Failing (1) vs Succeeding (0)",
+          "Students": "90 first-year students",
+          "Courses": "A compulsory Second-semester course at a South African University",
+          "Data sources": "LMS logs, Demograhic Data, Academic Performance",
+          "Features": "[Title, Qual Code, Class Group, ASA1, TM 1, TM 2, CA 1, # of Courses, Time on Site, Time on Courses, Time on Activities]",
+          "Moment of Prediction": "5 Stages of Early Prediction",
+          "Preprocessing Details": "Data is label encoded and features are sub-sequently standardized. Feature selection is performed via Pearson Correlation index and Extra trees Feature Importances.\n\nClass Imbalance is addressed with SMOTE.",
+          "Models": "Logistic Regression,\nProbabilistic Logistic Regression",
+          "Assessment Strategy": "None Specified",
+          "Performance Metric: Best Model": "{Accuracy: 0.9281 - PLR Stage 3, F1-Score: 0.9283 - PLR Stage 3, Precision:  0.9255 - PLR Stage 3, Recall:  0.9313 - PLR Stage 3}",
+          "Comments": "Authors create a 5-stage logistic regression to predict succes at next assignment in 5 different stages of course completion: Week 2, Week 4, Week 6, Week 7, Week 10.\n\nOverall, the models created seem to be especially effective at Stage 3: week 6. \n\nDifferent features are important at different stages.",
+          "Limitations": "No model assessment strategy → Data leakage issues.\n\nNo algorithms tested beyond Logistic Regression.\n\nSome questionable preprocessing decisions: Pearson correlation and Label Encoding for non-ordinal variables."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_28f69e92",
+      "reference_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf",
+      "text": "Most of the literature on early warning systems for students at risk does not use probabilistic approaches. To fill this gap, the authors use a five-stage Logistic Regression model trained on Moodle logs, demographic information and student assessment data to predict the probability of a student failing an upcoming assessment.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+      }
+    },
+    {
+      "id": "an_bc422a6c",
+      "reference_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf",
+      "text": "Prior performance was established to be the primary predictor, with the remaining feature sets loosing significance after incorporating data from this source. Moreover, the authors established that good predictions could be achieved as early as week 6, but with uncertainty decreasing at later stages of prediction. \n",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8048-ad6b-e8da3b9172cf"
+      }
+    }
+  ],
+  "workflow_states": []
+}

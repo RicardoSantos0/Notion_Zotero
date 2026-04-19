@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "2e4f7b5d-ba1d-4164-b04b-ab687a7c1e11",
+      "title": "Artificial neural network model to predict student performance using nonpersonal information",
+      "authors": [],
+      "year": null,
+      "journal": "Frontiers in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1cc03a1b",
+      "reference_task_id": null,
+      "schema_name": "Introduction",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass (1) vs Fail (0)",
+          "Students": "32593 OULAD  students",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "LMS logs, \nAssessment Scores, \nCourse Information",
+          "Features": "[number_of_prev_attempts, weighted_grade, exam_score, date, sum_clicks]",
+          "Moment of Prediction": "50% Course Duration",
+          "Preprocessing Details": "authors extract the logs from the relevant tables available in OULAD. \n\nAuthors use correlations and Feature Importances to dientiffy what the most relevant  features were. \n\n",
+          "Models": "MLP, \nSVM, \nNaive Bayes,\nRandom Forest",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.9381 - MLP with pass_rate}",
+          "Comments": "Authors use OULAD to predict performance at the course’s halfway point without using any personable identifiable information or aggregate characteristics. ",
+          "Limitations": "Does not consider potentiallyrelevant information.\n\nHoldout method\n\nOnly considers Accuracy as work’s porformance metric.\n\nConsiders all course-student pairs as independent from one another.\n\nSample size not specified - authors mention 32593 OULAD students, but test dataset includes a very small subset (despite the alleged 70/30 split).\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "2e4f7b5d-ba1d-4164-b04b-ab687a7c1e11",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_fdfdae8f",
+      "reference_id": "2e4f7b5d-ba1d-4164-b04b-ab687a7c1e11",
+      "text": "Authors propose a Neural Network arquitecture that may be capable iof predictiong student performance without using personal sensitive information. Authors use OULAD for the purpose. Results on multiple relevant metrics are shown.",
+      "provenance": {
+        "page_id": "2e4f7b5d-ba1d-4164-b04b-ab687a7c1e11"
+      }
+    }
+  ],
+  "workflow_states": []
+}

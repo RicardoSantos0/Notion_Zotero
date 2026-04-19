@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "058d7cf3-d0d1-4404-9c00-114f12e17802",
+      "title": "Multi-Clustered Mathematical Model for Student Cognitive Skills Prediction Optimization",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Access",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_24c403cc",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Student Performance Definition": "Cognitive Skills",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Flaw of Previous Models": "",
+          "Novelty of Model": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "058d7cf3-d0d1-4404-9c00-114f12e17802",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_8b74c11c",
+      "reference_id": "058d7cf3-d0d1-4404-9c00-114f12e17802",
+      "text": "Paper presents a new model that is able to predictive cognitive skills of students at risk using anxiety and age clusters. The contributions of the paper, as argued by the authors are three-fold:",
+      "provenance": {
+        "page_id": "058d7cf3-d0d1-4404-9c00-114f12e17802"
+      }
+    },
+    {
+      "id": "an_7e5d9916",
+      "reference_id": "058d7cf3-d0d1-4404-9c00-114f12e17802",
+      "text": "As for most papers, the model achieved excellent results for the task of predicting cognitive skills. ",
+      "provenance": {
+        "page_id": "058d7cf3-d0d1-4404-9c00-114f12e17802"
+      }
+    }
+  ],
+  "workflow_states": []
+}

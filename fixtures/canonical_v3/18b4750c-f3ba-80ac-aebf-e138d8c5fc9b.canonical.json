@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
+      "title": "Integrating Temporal Information Into Knowledge Tracing: A Temporal Difference Approach",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_08149fc6",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Performance on Math Problems",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "671 Junyi learners",
+          "Courses": "Math",
+          "Data sources": "Answer sequences",
+          "Features": "[Sliced Sequences of Answers]",
+          "Flaw of Previous Models": "BKT, while more interpretable than, for instance, MAtrix Factorizarion approaches, suffers from the problem of exclusively considering sequences of answer, but does not account for temporal aspects of the exercise solving process.",
+          "Novelty of Model": "The approach TD-BKT starts with the introduction of a congnitive inflection point detection algorithm.\n\nThe purpose of this algorithm is to identify which moment in time refers to the point where the student starts to faulter on challenging problems to the point where the student is mastering the skill.\n\nThis allows the model to slice the sequence and assign a weight to each slice.",
+          "Preprocessing Details": "The main novelty of this odl is precisely in the preprocessing. Instead of using individual exercise events as members of the sequence, the authors slice the data (each slice containinng multiple questions/answers) based on IRT.\n\n",
+          "Models": "BKT, PMF, FAST, TD-BKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{MAE: 0.27 - TD-BKT, RMSE: 0.1 - TD-BKT}",
+          "Comments": "Authorse xplore differenct form of computing the Inflection Point: Arithmetic, Logics and Probabilistic, with the probabilistic approach reaching the lowest error.\n\nBest performance, when comparted against baseline, is TD-BKT.",
+          "Limitations": "No exploration of DKT or DKT-based approaches.\n\nHoldout Method approach.\n\nOne dataset only.\n\nDoes not include any additional data sources."
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_244be502",
+      "reference_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
+      "text": "BKT has limitations related with temporal differences in data. The authors propose an improved version of BKT that incorporates temporal difference information. In other words, this model detects moments in time where there is a shift in the cognitive level of a student and incorporates that information. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b"
+      }
+    },
+    {
+      "id": "an_5197a493",
+      "reference_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b",
+      "text": "Empyrical tests show TD-BKT outperforms BKT on the Junyi academy dataset.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80ac-aebf-e138d8c5fc9b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

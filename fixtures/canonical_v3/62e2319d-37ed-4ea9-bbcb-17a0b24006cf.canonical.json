@@ -1,0 +1,267 @@
+{
+  "references": [
+    {
+      "id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "title": "Mining LMS data to develop an ‘‘early warning system” for educators: A proof of concept",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_fbd87e30",
+      "reference_task_id": null,
+      "schema_name": "Discussion",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Undergraduate Course",
+          "Teaching Method": "Online Learning",
+          "Student Performance Definition": "Final Grade",
+          "Target": "Student Final Grade (0 to 100)",
+          "Students": "118",
+          "Courses": "1 Biology course",
+          "Data sources": "LMS",
+          "Features": "[Total number of online sessions, # Uses of the ‘Compile’ tool, # Assessments started Total time online, # Uses of the ‘Search’ function, # Assessments finished, # Mail messages read, # Visits to MyGrades tool Time spent on assessments, # Mail messages sent, # Visits to MyProgress tool, # Assignments read, # Discussion messages read, # Uses of the ‘Who is online’ viewer, # Assignments submitted, Total # discussion messages posted, # Visits to course chat area, Time spent on assignments, # New discussion messages posted, # Files viewed, # Reply discussion messages posted, # Web links viewed]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Only data for sudents who completed the course was mantained. \n\nAll the data was standardized to their respective z-scores. \n\nFeature selection using Pearson correlation index for initial relevance + redundancy analysis.\n\nAnalysis is followed by a Backwards Stepwise approach that removes the least relevant variables. ",
+          "Models": "Linear regression",
+          "Assessment Strategy": "None",
+          "Performance Metric: Best Model": "{Multiple Squared Correlation Coefficient: 0.33}",
+          "Comments": "Authors use 8 variables from the set of correlated variables to perform multi-variate regression. No assignment grades were considered.\n\nAfter the Nackwards Feature Selection method, the authors found that 3 variables were the ones that achieved the best performance - Multiple Squared Correlation Index.\n\nSome variables are predictive, others aren’t or at least don’t seem to be, ",
+          "Limitations": "No assessment of generalizability of the model.\n\nUse of correlations as a measure of performance of the model. "
+        },
+        {
+          "Task": "Classification",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "At-risk vs Not at risk",
+          "Target": "<60% (0) vs ≥60% (1)",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "Logistic Regression",
+          "Assessment Strategy": "None",
+          "Performance Metric: Best Model": "{Accuracy: 0.737}",
+          "Comments": "Authors select At risk as students who are slightly above 60% percentage. \n\nThe model made 12,7% of Type II errors and 13.6% Type I errors. Authors mostly focus on Type II errors",
+          "Limitations": "No assessment of generalizability of the model.\n\nOne online course from one institution. \n\n"
+        },
+        {
+          "Task": "Network Analysis",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "36",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "Ego Networks",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "Students with lower grades tend to interact more with students who have lower grades. \n\nConversely, the interactions of an A student show a much thicker network with more participants. ",
+          "Comments": "Only use students who have participated in discussion forums.\n\nAnalysis of the networks can be refined by looking at individualized or ego networks. ",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+        "block_index": 52
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9b68f870",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Good old study that suggests data mining tecniques as a possible way of early identification of struggling students. Authors start with the creation of a model from the logs. In total this model uses 15 variables on a logistic regression. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_fe027bfe",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "The authors also performed a network analysis on the data to identify peers and student groups. So, the contribution os two-fold: the model and the network analysis based on the LMS data.",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_1b9a21ad",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Higher education has an ever-increasing number of constraints and that make it difficult for professors to demonstrate effective and innovative teaching practices. In this context, with more and more students every year, educators struggle with being able to properly identify students requiring support. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_66beeb8b",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Identifying students in need of support has become increasingly challenging under the new paradigm: summative assessment makes it too late (no chance to provide support). Moreover, more students means more individuals that profesors would need to look out for → more likely for someone to slip through the cracks. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_470ad57c",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "This brings us to LMS and online learning interactions. Over the years, authors have consistently argued that monitoring activity on the LMS could be an early indicator of academic achievement. Thus, the goal of the project in which this work is part of is to develop a dashboard-like visualization tool for educators. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_a9991591",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "What makes an EWS",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_90d895e2",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "LMS are part of the most important technologies for higher education and, even in the 2010s, had already shown massive adoption rates by institutions. The popularity of LMS is noticeable in both Online but B-Learning and Face-to-Face contexts. Moreover, LMS such as BB Vista, automatically collect user activity and interaction data, making them very useful tools for analytics. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_659fd696",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Academic Analytics ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_32828fa8",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Over the years, the rise of academic analytics has been focused on analysing the effects of demographics on student performance → goal of improving student recruitment and retention. Little to no work is devoted to improvement of teaching practices. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_06ff99d9",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Despite this, educators have looked into educational theory and accepted that there are benefits to educational practices based on socio-constructivist principles. Thus the authors point to 4 key developments that may allow for the development of better EWS:",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_f3df70fe",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Thus, the RQs are:",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_e29a8a20",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Data from a fully-online undergraduate course in Biology at British columbia university. This course is considered very important as it provides the foundations for a plethora of other possibly health-related courses such as micro-biology or biochemistry. The data used only encompasses the 118 students who completed all the courseworks.",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_d79a2952",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Extraction of behavior was done from the LMS. The authors extracted whole term counts for the different variables being analyzed. Goal is to predict student success. On a second goal, the authors took data from a subset of data (the 36 students with discussion forum data). From here, the authors perform a social network analysis on the data to uncover ppotential network relationships.",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_2a50daed",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Correlation between LMS variables with grade",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_1050aa7c",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "The first part of the work revolved around the analysis of scatterplots showing the relationship betweem variable values and student final grade. And, more quantitatively, 13 out of 22 variables actually exhibit statistically significant correlations with final grade, most with medium effects and the other 6 with small effects. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_8012d354",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Regression",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_88a03dd3",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "The authors make an analysis discriminated by Quartile of course achievement. For example, students on the first quartile tend to spend more time, while students of the last quartile of performance tend to spend less time online per week. Q2 and Q3 show no significant differences.  Ultimately, the authors argue that there is no consistent pattern between time spent and performance. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_a7e83873",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Classification",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_315801ca",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Moreover, the authors also use a Logistic Regression for classification purposes. The authors not e that there were Type II error - Predict not at risk that were at risk and 16 Type I errors. Authors argue, reasonably, that Type II errors are more important for this specific context. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_09cb027a",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Network Analysis",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_401fdb76",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Ego network Analysis shows that students who perform worse have a social circle (on forum) of fewer students who happen to be low performing students. Conversely, students who perform very well interact with more students on the forum and, more specifically, those students tend to also be better performing. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    },
+    {
+      "id": "an_72ce7a85",
+      "reference_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf",
+      "text": "Authors argue that learning is a social process and that engagement with peers is an indicator of success. Also, predictive models should be done at the course-level. ",
+      "provenance": {
+        "page_id": "62e2319d-37ed-4ea9-bbcb-17a0b24006cf"
+      }
+    }
+  ],
+  "workflow_states": []
+}

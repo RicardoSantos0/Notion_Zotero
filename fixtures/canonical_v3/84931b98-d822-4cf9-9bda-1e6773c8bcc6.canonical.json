@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
+      "title": "Fine-Grained Interaction Modeling with Multi-Relational Transformer for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "ACM Transactions on Information Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_346a1c63",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next Question Being Correct",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "8300 ASSISTments 2009 sequences, \n67100 ASSISTments 2012 sequences, 2.3M Ednet-KT1, 447.8k Eedi sequences",
+          "Courses": "Not Applicable",
+          "Data sources": "ASSIStments, EdNet-KT1, Eedi",
+          "Features": "[Sequence of Previous Questions,  Answers and Related Concepts, Sequence of Correctedness]",
+          "Flaw of Previous Models": "The current KT models often struggle with non-adjacent interactions between question-answer pairs: DKT implicitly models adjacent interactions (hidden state updates of RNN), and few attention models learn both adjacent and non-adjacent interactions. ",
+          "Novelty of Model": "MRT-KT introduces a novel form of relationship encoding - unique for each two question-response pairs.\n\nIt also has a multi-relational self-attention mechanism stacked with multi-relational tarrget-dependent attention. \n\nIn addition, the architecture also includes relation-specific temporal kernels.",
+          "Preprocessing Details": "Inputs (question, concepts, correctedness) are encoded sequentially to be given as input to the model.\n\nRelationships between 2 question-answer pairs are represented by 2-bit (multi-relational target dependent) and 4-bit (multi-relational self-attention). ",
+          "Models": "DKT, SKT-Forget, SAKT, EKT-A, AKT, HawkesKT, LPKT, SAINT+, MRT-KT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "ASSISTments2009: {AUC: 0.8223 - MRT-KT, Accuracy: 0.7841 - MRT-KT}\n\nASSISTments2012: {AUC: 0.7698 - MRT-KT, Accuracy: 0.7544 - MRT-KT}\n\nEdNet-KT1: {AUC: 0.7753 - MRT-KT, Accuracy: 0.7319 - MRT-KT}\n\nEedi: {AUC: 0.8260 - MRT-KT, Accuracy: 0.7569 - MRT-KT}",
+          "Comments": "Authors propose a model  that includes 3 relationship: \n\n- adjacent past interactions \n- target-dependent interactions between question and past questions, \n- non-adjacent interactions with other questions with distance grater than 1\n\nThe proposed model includes 2 attention layers (one for target interactions and the second for non-adjacent past interactions).\n\nAuthors do a set of experiments to:\n\n1. Assess model performance against other alterrnatives,\n2. Do an ablation study to check the relevance of the different layers introduced in the model.",
+          "Limitations": "- Holdout Method\n\n- No probabilistic modelling, which hinders ability to work with open-ended questions."
+        }
+      ],
+      "provenance": {
+        "page_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_132fa6b2",
+      "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
+      "text": "Knowledge tracing is an important in student modelling as it is an application that infers knowledge states and allows the prediction of sucess in future questions based on past questions. A limitation of the current knowledge tracing methods is the way question-response pairings are reporesented. ",
+      "provenance": {
+        "page_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6"
+      }
+    },
+    {
+      "id": "an_ee58a3e6",
+      "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
+      "text": "The authors start with an analysis that identifies cross effects between question-respponse pairs within a sequence of anwers. Then, the authors create a multi-relational transformer for knowledge tracing that better encodes question-reponse pairings. Results show that the new Transformer model outperforms state-of-the-art is four widely-used datasets for knowledge tracing. ",
+      "provenance": {
+        "page_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6"
+      }
+    },
+    {
+      "id": "an_aa25a2d3",
+      "reference_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6",
+      "text": "\n",
+      "provenance": {
+        "page_id": "84931b98-d822-4cf9-9bda-1e6773c8bcc6"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
+      "title": "Predicting Learning Outcomes with MOOC Clickstreams",
+      "authors": [],
+      "year": null,
+      "journal": "Education Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_e19fac35",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Course Completion",
+          "Target": "Certificate (1) vs No Certificate (0)",
+          "Students": "Main course: 590 students in semester 1, 346 in semester 2, 427 in semester 3",
+          "Courses": "1 MOOC foundation course (6 weeks, 55 videos); additional validation on a second MOOC course (9 weeks, 95 videos)",
+          "Data sources": "LMS logs, SQL course data, course scores",
+          "Features": "[umber of course units entered, number of videos viewed, number of viewing sessions, 7 behavioral sequence types (Rewatch, Skipping, Fast Watching, Slow Watching, Clear Concept, Checkback Reference, Playrate Transition), number of available tests, number of answered tests, number of attempts, unit test score]",
+          "Moment of Prediction": "Weekly prediction during the course; authors also generated weekly tutoring lists for at-risk students",
+          "Preprocessing Details": "Raw OpenEdu logs were processed into video-event sequences. Twelve low-level click events were defined (e.g., play, pause, seek forward/backward, rate change, stop). N-gram analysis was performed on clickstream sequences and 4-grams were selected empirically. These sequences were then grouped into 7 higher-level behavioral actions using a “don’t care” matching scheme. The resulting course-unit features were merged with test performance data, yielding 85 features initially, from which 14 were selected for model building. Separate analyses were also conducted by video type: theoretical, experimental, and analytic.",
+          "Models": "kNN, SVM, MLP",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "1st 2 course Offerings: \n{Accuracy: 0.9553 – MLP}\n\n3rd course Offering:\n{Accuracy: 0.9865 – MLP}\n\n2nd Course\n{Accuracy: 0.9432 – MLP}\n\n",
+          "Comments": "The paper’s main contribution is transforming raw video clickstream into interpretable behavioral sequence features using 4-grams and grouping them into 7 cognitive participation behaviors. ANN performed best among the three methods. A further analysis showed that using only theoretical + experimental video data could yield prediction accuracy close to using all video types, which may help teachers evaluate which videos matter most. The system also produced weekly tutoring lists for students needing support.",
+          "Limitations": "Based on only one main MOOC course plus one additional course for generalization. Evaluation relies on holdout splits rather than cross-validation. The prediction framework combines clickstream with unit-test behavior, so the effect of clickstream alone is less isolated. Some methodological choices, such as selecting 4-grams and the behavior-grouping rules, are partly empirical and domain-specific.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_99100013",
+      "reference_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
+      "text": "The work uses video clickstream records on a MOOC to identify 7 types of cognitive participation models. This feature extraction is followed by the creation of a predictive model that predicts student performance, with ANN taking the take as the one achieving the highest accuracy. ",
+      "provenance": {
+        "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+      }
+    },
+    {
+      "id": "an_16a0ca5b",
+      "reference_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1",
+      "text": "Authors follow-up by attempting to improve the original model by pre-classifying the different videos according to the content - theoretical, experimental and/or analytical. The creation of different models shows that by model performance is relatively unaffected if the models only consider theoretical and experimental videos. ",
+      "provenance": {
+        "page_id": "acc99794-cf47-4cb2-a1fd-4db79129fae1"
+      }
+    }
+  ],
+  "workflow_states": []
+}

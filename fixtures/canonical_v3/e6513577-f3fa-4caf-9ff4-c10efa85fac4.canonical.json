@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4",
+      "title": "Using learning analytics with temporal modeling to uncover the interplay of before-class video viewing engagement, motivation, and performance in an active learning context",
+      "authors": [],
+      "year": null,
+      "journal": "Computers & Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_41381bf5",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higherr Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "118 Social Science students",
+          "Courses": "1 Video-Based Statistics Course",
+          "Data sources": "LMS logs, Student Characteristics, Questionnaire, Performance",
+          "Theoretical Grounding": "Self-Determination Theory",
+          "Features": "[Male,  Age, Pre-test, Frq. of SB, Freq. of Pause, Freq. of SF, Ratio of SB, Ratio of Pause, Ratio of SF, Autonomous Motivation, Controlled Motivation]",
+          "Preprocessing Details": "Totasl dataset is comprised of 631 lesson-based records. Missing values were not considered.\n\n",
+          "Models": "Dynamic SEM",
+          "Performance Metric: Best Model": "Chi-Squared Statistics,RSquared, RMSEA",
+          "Groups Created": "-",
+          "Cluster Description": "Division across demographic groups shows that:\n\nMales have higher levels of autonomous motivation.\n\nOlder learners not only have more autonoumous motivation but also have more controlled motivation.\n\nFrequently rewinding videos reveals less controlled motivation. However, larger steps when rewinding videos are indivative of higher controlled motivation.\n\nOnly autonomous motivation was found to be a significant predictor of performance.\n\nStudent behavior tends to be consistent across different lessons.",
+          "Implications": "Autonomous motivation plays an important role in predicting learning performance in weekly quizzes.\n\nIndividual differences between students are, in general, better indirect predictors of performance.\n\nAssisting students who show poorer prior knowledge may be an effective way of increasing the motivation of theses learners. \n\nMoreoever, especially when it comes to video-based lessons, preparing learners for more difficult concepts (e.g. providing a poause before introcing them) cvould be benefical to keep them engaged.\n\n",
+          "Comments": "Authors do a sequential test of different variables and video-watching behaviors across a set of different lessons.\n\nDynamic SEM allow the use of longitudinal data while, simultaneously, tracking how behaviour change throughout the lesson.\n\nAnalysis is done before watching a video, after watching a class and what are the impacts for next lesson.\n\nAnalysis is done at different levels:\n\n- Demographics and before watching\n\n- Direct effects of watching video on next lesson\n\nIndirect effects between video-watching engagements\n\nConsisentecy across succesive lessons\n",
+          "Limitations": "STEM-specific cohort.\n\nCould have benefitted from considering data from additional sources (or different feature sets).\n\nDoes not use final grade as the metric for course achievement - focus is on weekly quizzes instead."
+        }
+      ],
+      "provenance": {
+        "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_47660690",
+      "reference_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4",
+      "text": "Authors use a Dynamic SEM model to create an integrated temporal model that is meant to estimate motivation of students from video-watching behavior. Results show that there are patterns in video-watching behavior that can determine student performance.",
+      "provenance": {
+        "page_id": "e6513577-f3fa-4caf-9ff4-c10efa85fac4"
+      }
+    }
+  ],
+  "workflow_states": []
+}

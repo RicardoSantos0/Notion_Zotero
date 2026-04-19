@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "0c06813a-4a18-460a-9912-24c843d6f2a9",
+      "title": "The potential for student performance prediction in small cohorts with minimal available attributes",
+      "authors": [],
+      "year": null,
+      "journal": "British Journal of Educational Technology",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5c622500",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Student Assessment Marks",
+          "Target": "Assessment Score (0-100)",
+          "Students": "23 final undergraduate students",
+          "Courses": "1 Computer Science Module",
+          "Data sources": "LMS accesses, Attendance records, Assessment Scores",
+          "Features": "[Lecture/tutorial attendance, Delta increase from attendance in previous period, Cumulative VLE news section accesses, Cumulative VLE Teaching Section Accesses, Cumulative VLE accesses, EVS1 result, EVSS2 result, EVS3 result, Group Presentation Result, Individual Report Result]",
+          "Moment of Prediction": "At each assessment",
+          "Preprocessing Details": "Authoors mantained a continuous count of the number of accesses up to the point of measurement - 99% of accesses were done to News and Teaching. \n\nThe analysis was done at multiple levels:\n\n- At each assessment using only the sequence of assessment scores. \n\n- At each assessment using all data points\n\n- At each assessment by combining the 2 types of VLE accesses into a single one.\n",
+          "Models": "Decision Tree, kNN, Random Forest",
+          "Assessment Strategy": "No Assessment Strategy",
+          "Performance Metric: Best Model": "{Average  Accuracy: 0.84 - Random Forest}",
+          "Comments": "Authors create a model using just a very small dataset and a very minute numberr of predictors:\n\nAttendance records, Historical Assessment Scores in the course and VLE logs are used.\n\nAuthors test different combinations of features on 3 algorithms to assess the performance of their models.\n\nNo assessment strategy is used . no train-test separation. ",
+          "Limitations": "- No Assessment Method\n\n- Small dataset \n\n- Single course context\n\n- Small number of algorithms used\n\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "0c06813a-4a18-460a-9912-24c843d6f2a9",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_38a3d582",
+      "reference_id": "0c06813a-4a18-460a-9912-24c843d6f2a9",
+      "text": "The most common way professors evaluate whether a student is at-risk or not is through direct interaction. However, this is impractical in modern HEI. While ML can be used for this, many courses have ew datapoints to actually use. ",
+      "provenance": {
+        "page_id": "0c06813a-4a18-460a-9912-24c843d6f2a9"
+      }
+    },
+    {
+      "id": "an_6b57143d",
+      "reference_id": "0c06813a-4a18-460a-9912-24c843d6f2a9",
+      "text": "Authors present results from an experiment with 23 students with very few attributes. Authors claim to have found potential in the creation of a predictive model for such a minute dataset.",
+      "provenance": {
+        "page_id": "0c06813a-4a18-460a-9912-24c843d6f2a9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

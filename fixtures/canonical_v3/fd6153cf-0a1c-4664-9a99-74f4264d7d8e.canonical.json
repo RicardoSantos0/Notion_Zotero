@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
+      "title": "A data-driven approach to predict first-year students’ academic success in higher education institutions",
+      "authors": [],
+      "year": null,
+      "journal": "Education and Information Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_7ea609bb",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Student Graduation in Expected Time",
+          "Target": "Success vs Fail",
+          "Students": "9652 students for regular BSc, 789 students attending a 4-year BSc program",
+          "Courses": "All first-year courses in a Public Portuguese HEI",
+          "Data sources": "Student Information System",
+          "Features": "[Area, areaCode, gender, yearOfBirth, fatherOccupation, motherOccupation, fatherOccupationConditionType, motherOccupationConditionType, occupation, firstExecutionYear, maritalStatusType, nationality, secondNationality, entryYear, fatherLiteraryHabilitationType, motherLiteraryHabilitationType, workingStudentatEntry, partialTimeStudentatEntry, specialEducationNeedsatEntry, scholarshipAtEntry, dislocatedAtEntry, degreeCode, degreeType, degreeSchool, entryGrade, precedentDegreeDesignation, scondarySchoolType, ingression, highSchoolDegreeType, wasFirstChoice, erasmusOutgoing, workingStudentEntryYear1stSem, InternationalStudentEntryYear1stSEM, partialTimeEntryStudentYear1stSem, fcgrantOwnerEntryYear1stSem, classRepresentativeEntryYear1stSem, pregnantOrChildrenUnder3EntryYear1stSem, professionalAthleteEntryYear1stSem, sasGrantOwnerEntryYear1stSem, temporaryDisabilityEntryYear1stSem, religiousEntryYear1stSem, associativeLeaderEntryYear1stSem, athleteEntryYear1stSem, firefighterentryYear1stSem, erasmusGuestEntryYear1stSem, deathOfSpouseOrFamilyEntryYear1stSem, appearancePoliceorMilitaryAuthorityEntryYear1stSem, monitorEntryYear1stSem, previousIBSStudentEntryYear1stSem, top15IBSStudentEntryYear1stSem, workingStudentEntryYear2ndSem, internationalStudentEntryYear2ndSem, partialTimeStudentEntryYear2ndSem, fcgrantOwnerEntryYear2ndSem, classSubTrpresentativeEntryYear2ndSem, handicappedEntryYear2ndSem, pregnantOrChildrenUnder3EntryYear2ndSem, professionalAthleteEntryYear2ndSem, sasGrantOwnerEntryYear2ndSem,militaryEntryYear2ndSem, temporaryDisabilityEntryYear2ndSem, religiousEntryYear2ndSem, associatedLearnerEntryYear2ndSem, athleteEntryYear2ndSem, firefighterEntryYear2ndSem, erasmusGuestEntryYear2ndSem, deathOfSpouseOrFamilyEntryYear2ndSem, apprearancePoliceOrMilitaryAuthorityEntryYear2ndSem, monitorEntryYear2ndSem, previousIBSStudentEntryYear2ndSem, top15IBSEntryYear2ndSem, requestScoailServicesEntryYear, acceptedSocialServicesEntryYear, requestedSStranstSupplementaryEntryYear, requestSSacommondationsEntryYear, requestedSSresidenceRequestEntryYear, resquestSSFinantialSupportEntryYear, \nacceptedSStranstSupplementaryEntryYear, acceptedSSacommondationsEntryYear, acceptedSSresidenceRequestEntryYear, acceptedSSFinantialSupportEntryYear, firstChoice, firstChoiceofUniversity, firstChoiceofCourse, orderPreference, gapEntryExames, entryAge, entryAgeRange, municipality, district, lisbonMetropolitanArea, studyGap, studyGapYears, ectsCreditsEntryYear1stSem, averageEntryYear1stSem, weightedAverageEntryYear1stSem, averageGradeEntryYear2ndSem, weightedAverageEntryYear2ndSem]",
+          "Moment of Prediction": "Before Start, End of 1st Semester 1st year, End of First Year",
+          "Preprocessing Details": "Some of the features were imputted using kNN. Partial time students were excluded.\n\nAuthors iterate over different feature combinations andoutlier handling to decide on what is the best approach.",
+          "Models": "RPART, DT, CTree, Random Forest, SVM, MLP",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Before 1st Year\n{AUC: 0.7732 - SVM}\n\nAfter 1st Sem\n{AUC: 0.9097 - SVM}\n\nAfter 1st Year\n{AUC: 0.9380 - RF}",
+          "Comments": "Authors use administrative data to predict whether a student will graduate or not within only using data from the first year.\n\nGraduation is understood as graduating in the correct time. Only administrative data is used.\n\nAuthors also perform prediction at 3 different stages of the 1st year. ",
+          "Limitations": "Single Data Source\n\nSingle Institution Data\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_19657c7d",
+      "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
+      "text": "The main aim of the study is to predict the success of first-year undergraduate students. Authors extract multiple features from both the SIS and LMS as well: socio-demographics, origin, previous qualifications and educational path. ",
+      "provenance": {
+        "page_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e"
+      }
+    },
+    {
+      "id": "an_9501b115",
+      "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
+      "text": "Authors use 3 distinct moments of prediction: before start of year, end of first semester and after second semester, with SVM achieving the best overall performance.",
+      "provenance": {
+        "page_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e"
+      }
+    },
+    {
+      "id": "an_1e683295",
+      "reference_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e",
+      "text": " Important features include previous evaluations, study gaps and age-related features when entering college. For later stages, the predictive power is stored on current evaluation features. ",
+      "provenance": {
+        "page_id": "fd6153cf-0a1c-4664-9a99-74f4264d7d8e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

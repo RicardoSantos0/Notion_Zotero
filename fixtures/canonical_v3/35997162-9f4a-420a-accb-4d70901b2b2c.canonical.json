@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "35997162-9f4a-420a-accb-4d70901b2b2c",
+      "title": "Predicting student performance in a blended learning environment using learning management system interaction data",
+      "authors": [],
+      "year": null,
+      "journal": "Applied Computing and Informatics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d362b2cd",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended LEarning",
+          "Student Performance Definition": "Course Success",
+          "Target": "Pass vs Fail",
+          "Students": "112 students",
+          "Courses": "6 Lab Classes in a Simulated Learning Environment",
+          "Data sources": "LMS logs",
+          "Features": "[Session, StudentID, exercise, activity, Start_time, end_time, idle_time, mouse_wheel, mouse_wheel_click, mouse_click_left, mouse_click_right, keystroke, mouse_movement]",
+          "Moment of Prediction": "After 6 lab sessions",
+          "Preprocessing Details": "Raw session CSV files were merged into a single dataset. Data from all six sessions were aggregated per student into a dimensional vector. Null, empty, and negative values were removed. Only students attending all six sessions and the final exam were retained and verified through attendance logs. Final numeric marks were binarized into Pass and Fail (62% pass, 38% fail). Feature selection was supported by exploratory correlation analysis via heatmap.",
+          "Models": "Random Forest, J48, NBTree, Decision Stump, AdaBoost",
+          "Assessment Strategy": "10-fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.857 – Random Forest with AdaBoost; Precision: 0.857 – Random Forest with AdaBoost; Recall: 0.857 – Random Forest with AdaBoost; F1-Score: 0.843 – Random Forest with AdaBoost; RMSE: 32.7 – Random Forest with AdaBoost}",
+          "Comments": "The study proposes an ML-based educational decision support system to identify at-risk students from LMS interaction data. Random Forest was the best-performing classifier both with and without boosting, and boosting improved all models’ performance. Authors argue the approach supports near real-time or timely intervention, though the actual dataset is aggregated across all sessions.",
+          "Limitations": "mall sample size. \n\nCourse/context description is limited and based on a simulated e-learning environment.\n\nPrediction is framed as early identification, but the operationalization aggregates data across all six sessions.\n\n Only a small set of behavioral LMS features is used, and the outcome is reduced to binary Pass/Fail."
+        }
+      ],
+      "provenance": {
+        "page_id": "35997162-9f4a-420a-accb-4d70901b2b2c",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_404a9cbb",
+      "reference_id": "35997162-9f4a-420a-accb-4d70901b2b2c",
+      "text": "Student attrition is a significant issue in higher education and analysis of behavioral data in the LMS may be helpful for that. ",
+      "provenance": {
+        "page_id": "35997162-9f4a-420a-accb-4d70901b2b2c"
+      }
+    },
+    {
+      "id": "an_2a9d32f9",
+      "reference_id": "35997162-9f4a-420a-accb-4d70901b2b2c",
+      "text": "The paper uses a publicly available dataset to identify student attrition with ML. Findings show that it is possible to use ML to identify students at risk with 85% accuracy (RF). ",
+      "provenance": {
+        "page_id": "35997162-9f4a-420a-accb-4d70901b2b2c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

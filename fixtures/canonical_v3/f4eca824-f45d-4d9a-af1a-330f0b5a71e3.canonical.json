@@ -1,0 +1,61 @@
+{
+  "references": [
+    {
+      "id": "f4eca824-f45d-4d9a-af1a-330f0b5a71e3",
+      "title": "Pilot Recommender System Enabling Students to Indirectly Help Each Other and Foster Belonging Through Reflections",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_43b4f559",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Active Learning",
+          "Recommender System Type": "Content-Based Filtering",
+          "Target of Recommendation": "Personalized Solutions to Learning Challenges",
+          "Students": "55 students (Summer 2021)Historic reflections: 186 students (2020–2021)",
+          "Courses": "1 course, 14 weeks of reflections",
+          "Data sources": "– Student reflection texts (2 prompts per week)\n\n– Historical dataset of prior students’ “challenges” and “solutions”",
+          "Initialization Method": "Sentence embeddings initialized with pre-trained stsb-roberta-large transformer (no fine-tuning)",
+          "Updates to Recommendations": "Static: no retraining during deployment\n\nRecommendations recomputed for new students using existing reflection corpus",
+          "Preprocessing Details": "– Removed incomplete or short reflections\n\n– Token cleaning and normalization– Sentence-to-vector encoding (RoBERTa embeddings)\n\n– Cosine similarity top-k (k=5) retrieval",
+          "Recommendation types": "Top-5 Solutions to Reported Challenges",
+          "Evaluation": "{Membership: 0.83 → 0.86, Acceptance: 0.62→0.70, Trust: 0.75→0.81, Fade: -0.34→-0.48}",
+          "Comments": "– Novel reflection-driven educational recommender leveraging NLP (semantic similarity) rather than grades or logs.\n\n– Encourages peer empathy and sense of belonging by connecting similar challenges.\n\n– No labeled data needed (unsupervised, lightweight).\n\n– Demonstrates positive affective outcomes and high perceived usefulness.",
+          "Limitations": "– Small pilot sample (N = 16 post-survey).\n\n– Dependence on reflection quality; vague or humorous answers degrade results.\n\n– Lack of adaptive feedback (static corpus).\n\n– Negative correlation between similarity & usefulness suggests semantic proximity ≠ pedagogical value.\n\n– Limited generalization (single course, single institution)."
+        }
+      ],
+      "provenance": {
+        "page_id": "f4eca824-f45d-4d9a-af1a-330f0b5a71e3",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0ea54f28",
+      "reference_id": "f4eca824-f45d-4d9a-af1a-330f0b5a71e3",
+      "text": "The work proposes a recommender system that suggests peers and solutions to challenges based on reflections from students on the previous semesters. The recommendations are the suggestions of previous students. When testing it, the authors report that 70% of the recommended solutions were helpful.",
+      "provenance": {
+        "page_id": "f4eca824-f45d-4d9a-af1a-330f0b5a71e3"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+      "title": "Student Profiles of Change in a University Course: A Complex Dynamical Systems Perspective",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ac6d0a5c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "",
+          "Teaching Method": "E-Learning",
+          "Students": "288 students",
+          "Courses": "1 First-Year Engeering Course",
+          "Data sources": "LMS logs",
+          "Theoretical Grounding": "Complex Dynamic Systems Theory",
+          "Features": "[Planning, Observing, Practicing, Performing]",
+          "Preprocessing Details": "The LMS logs were categorized into different types of SRL constructs. \n\nData is collected every week, so essencially we have a sequence of different behaviors as the input. ",
+          "Models": "Latent Class Growth Curve Modelling",
+          "Performance Metric: Best Model": "BIC: 875.4376",
+          "Groups Created": "3",
+          "Cluster Description": "Students with Stable Weekly Study Patterns (n=158) - entropy of recurrence in weekly activities remained stable and high throughout the course.\n\nStudents with Steep Chances in Weekly Study Patterns (n=40) - highest entropy of recurrence at the start of the course.  These students were the ones with the lowest performance on the course.\n\nStudents with Moderate Changes in Study Patterns (n=90): Slight decrease in recurrence over time.  ",
+          "Implications": "All groups of students modified behavior when closer to the exam.\n\nHighly disordered behaviour of students in early weeks could be used as a warning sign for students who may struggle. \n\n",
+          "Comments": "This study groups sequences of behaviors and identifies the performance of different segments of students. \n\nAuthors find that students who display a more erratic behavior at the start of the course tend to perform worse than their peers. ",
+          "Limitations": "Based exclusively on one course.\n\nMeasure is sensible to window size. ptimizing for window size may be an interesting approach,\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_69c121e4",
+      "reference_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+      "text": "Integrating temporal patterns into descriptive analytics profiling works is often underexplored. The authors address this issue by evaluating how study profiles evolve in a blended-learning undergraduate course. Adjustments to the student profile were done using clickstream data. ",
+      "provenance": {
+        "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+      }
+    },
+    {
+      "id": "an_4e3f0823",
+      "reference_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+      "text": "Authors collect student trajectories and cluster them. 3 patterns were identified: ",
+      "provenance": {
+        "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+      }
+    },
+    {
+      "id": "an_641103b6",
+      "reference_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e",
+      "text": "Learners with steep changes achieved lower performances on exam. The authors also tie back their results to existing SRL theory.",
+      "provenance": {
+        "page_id": "0f2dffa6-d4be-4460-a188-6a45a8cef54e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

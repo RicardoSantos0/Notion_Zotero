@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e",
+      "title": "Demonstrating the impact of study regularity on academic success using learning analytics",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_a091d635",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "240 undergraduate students",
+          "Courses": "1 Multimedia Fundamentals Course",
+          "Data sources": "LMS logs",
+          "Theoretical Grounding": "Zimmerman’s SRL Model",
+          "Features": "[Weekly Videos and Quizz scores, weekly Last Date of Access to Each Learning Activity]",
+          "Preprocessing Details": "Data was anonimized and stored in a vector containing the information for the different weeks. ",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "3",
+          "Cluster Description": "Regular Learners: Often follow lecturer advice, activity closely follows recommended learning pathway.\n\nIrregular or Selective Learners: They pick and choose which activities to partake in. \n\nLate Learners: Only access VLE closer to exam",
+          "Implications": "Students in 2022 were informed of successful and less successful learning pathways undertaken by their previous colleagues. And this translated into a noticeable behaviorable shift relative to previous years - which also translated into a noticeable improvement in the average performance of the students in this cohort. \n\n",
+          "Comments": "Clustering on this work is done for learning trajectories.",
+          "Limitations": "No ablation study to determine importance of different features.\n\nData is accumulated weekly (not daily)\n\nDistance metric is not optimized"
+        }
+      ],
+      "provenance": {
+        "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_947db18c",
+      "reference_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e",
+      "text": "Flipped classrooms are better suited for learners with developed SRL skills. Authors work focuses on measuring effect of study regularity on academic success. The work defines a measure of study regularity that can uncover learner profiles in B-Learning. This measure heavily correlates with academic success.",
+      "provenance": {
+        "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+      }
+    },
+    {
+      "id": "an_51a7cfb2",
+      "reference_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e",
+      "text": "Work finishes with a discussion of how this measure of study regularity can be used to help students develop better study habits. ",
+      "provenance": {
+        "page_id": "9a2292d4-f8f3-42c3-a3f7-0ab6cc6e339e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

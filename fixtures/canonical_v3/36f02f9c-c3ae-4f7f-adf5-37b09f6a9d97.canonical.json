@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97",
+      "title": "An Adaptive Learning Path Builder based on a Context Aware Recommender System",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE FIE",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_a8dfb07e",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Training Programs for Students",
+          "Students": "50 undergraduate students",
+          "Courses": "1 Fundamentals to Informatics and 1 Costume Design courses",
+          "Data sources": "Questionnaire, Social Networks, \nContextual Information,\nProfessor",
+          "Initialization Method": "Item Profiles are created and labeled by professors nd subsequently vectorized.\n\nStudent specific data is extracted from the questionnaire after discretization.",
+          "Updates to Recommendations": "Success in modules is recorded by the Knowledge Base Module after obtaining ratings on a specific module.\n\nIf the user does not answer the questionnaire, the ratings are updated via inference.",
+          "Preprocessing Details": "Users and Items have the same dimension fixed in advance and cannot have negative elements.\n\nUsers are clustered using cosine similarity.\n\nContext (Location and Day of Week) are added in the Knowledeg-Base Module.",
+          "Recommendation types": "Learning Path that addresses student difficulties",
+          "Evaluation": "The test of the system was conducted via survey. Participants reported:\n\nUtility, Reliability, Recommendation, Usability and Performance. These were evaluated in a Likert Scale",
+          "Comments": "In this short paper, the authors create a recommender system framework meant to recommend exercises and materials using “contextual information”.\n\nThe system is designed into separate modules:\n\nData Management & Knowledge Base: The stages at whixh the authors do the data collection and preprocessing.\n\nThe RS Moduule and CARS Modules: The RS Module is the main dataflow for the creatioon of the of the PathBuilder. If it fails, then the data goes thrrough CARS which does not include the contextual features. \n\nPath Builder Module: Does the recommendations. \n \n\n ",
+          "Limitations": "Validation via self-reporting.\n\nSmall sample size for evaluation of system. \n\nUnclear form of recommendation.\n\nNo assessment of model performance. "
+        }
+      ],
+      "provenance": {
+        "page_id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_f821c4ae",
+      "reference_id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97",
+      "text": "There is a big increase in tools and services that now create novel learning pathways for learners. In this scenario, the challenge becomes recommending the correct pathway to the correct student. The paper presents a recommender system that introduces recommendations via multimedia content. ",
+      "provenance": {
+        "page_id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97"
+      }
+    },
+    {
+      "id": "an_727c5729",
+      "reference_id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97",
+      "text": "The recommender seems to follow a content-based filtering approach and is tested in 2 courses with different characteristics.",
+      "provenance": {
+        "page_id": "36f02f9c-c3ae-4f7f-adf5-37b09f6a9d97"
+      }
+    }
+  ],
+  "workflow_states": []
+}

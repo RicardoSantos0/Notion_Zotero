@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
+      "title": "SGKT: Session graph-based knowledge tracing for student performance prediction",
+      "authors": [],
+      "year": null,
+      "journal": "Expert Systems With Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_abb9b48c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Probability of getting the next candidate exercise correct",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "3852 ASSISTments09 learners, 27485 ASSISTments12 learners nad 5000 EdNet learners",
+          "Courses": "ASSISTments & EdNet",
+          "Data sources": "Answer sequences",
+          "Features": "[HRG embeddings, SG embeddings]",
+          "Flaw of Previous Models": "Graph-based KT has already been used. Current approaches either ignore relationship between exercises and skills. GIKT or PEBG-KT ignore relationships between exercises. \n\nAlso, all Graph KT models ignore the graph when answering questions.",
+          "Novelty of Model": "SGKT introduces 3 structures meant to address the flaws of the previous models:\n\nan HRG embedding which encodes the exercise-to-exercise and skill-to-skill information.\n\nAn SG embedding model which encodes the learner’s knowledge state.\n\nA prediction model which takes the previous representations and predicts the probability of getting the new exercise correctly.",
+          "Preprocessing Details": "Both HRG and SG are combined using a self-attention mechanism.",
+          "Models": "BKT, DKT, DKT+, KTM, DDKVMN, GIKT, SGKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "AST09\n{AUC: 0.7975 - SGKT}\n\nAST12\n{AUC: 0.8135 - SGKT}\n\nEdNet\n{AUC: 0.7550 - SGKT}",
+          "Comments": "The authors create a new KT model based on Knowledge Graphs.\n\nThe model allows the measurement of the evolution of skills over time - interpretability.\n\nAuthors also do experiments to address cold-start scenario. SGKT ourperforms DKT and DKT+ on both of the scenarios tested - but eventually \n\n",
+          "Limitations": "No cross-validation.\n\nLimited studies on cold-start scenarios.\n\nRequires model optimization efforts."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_a01a296b",
+      "reference_id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
+      "text": "LSTM is commonly used in DKT to analyze sequences of exercises done by students and predict whether the next exercise will be done right or not. However, LSTMs tend to give too much importance to short-term dependencies and often overlook longer-term dependencies. Authors look to create a Graph-Based Knowledge Model (SGKT). This model creates a representation for each exercise session and attempts to model the relationship between exercises and skills.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804e-81ee-e45b186197f5"
+      }
+    },
+    {
+      "id": "an_8a4463c1",
+      "reference_id": "18c4750c-f3ba-804e-81ee-e45b186197f5",
+      "text": "The knowledge state is obtained via a gated graph NN and uses CNN to obtain embedding representations of exercises and skills. Moreover, there is a second mechanism to obtain embeddings of knowledge states. Finally, an Attention mechanism is used to make predictions.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-804e-81ee-e45b186197f5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

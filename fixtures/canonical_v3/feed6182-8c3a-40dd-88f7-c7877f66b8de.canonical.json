@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
+      "title": "Student Performance Prediction Using Dynamic Neural Models",
+      "authors": [],
+      "year": null,
+      "journal": "EDM Conference",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_859293c7",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring Systems",
+          "Student Performance Definition": "Next Question Correctedness",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4152 AST09, 28834 AST12, 1709 AST17 and 310 FSAI learners",
+          "Courses": "ASSIST09, ASSIST09corrected, ASSIST12, ASSIST17, FSAI-F1 to F3",
+          "Data sources": "ASSIST09, ASSIST09corrected, ASSIST12, ASSIST17, FSAI-F1 to F3",
+          "Features": "[Sequence of Questions, Sequence of Answers]",
+          "Flaw of Previous Models": "PFA, while interpretable is considered too simplistic. \n\nDKT, DKVMN, SAKT have indeed shown impressive results when it comes to predictive performance. However, most of these models usually involve complex Attention layers that make the models heavy to run and mantain.",
+          "Novelty of Model": "Authors argue that it is possible to achieve better performance while doing away with the Attention Layers and using simples dynamic models using embeddings and recurrent or time-delay feed-forward neural networks.",
+          "Preprocessing Details": "The 2 models that the authors propose:\n\nBi-GRU Model creates 2 forms embeddings (Skills from Question Sequence) and Responses from Answer Sequence. These are concatenated and passed through a Bi-Directional GRU. \n\nTDNN is almost similar but, instead of having the GRU layer, it adds 2 Dense layers more.",
+          "Models": "DKT, DKVMN, Deep-IRT, Bi-GRU, TDNN",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "AST09\n{AUC: 0.8255 - Bi-GRU}\n\nAST09Corrected\n{AUC: 0.7527 - Bi-GRU}\n\nAST12\n{AUC: 0.6973 - Deep-IRT}\n\nAST17\n{AUC: 0.376 - Bi-GRU}\n\nFSAI\n{AUC: 0.7047 - Bi-GRU}",
+          "Comments": "Authors propose a simpler model that beats some of the most common KT methods around.\n\nThis is done by introducing embeddings for both skills and responses.\n\nResults show that Bi-GRU outperforms Deep-IRT and DKVMN in most of the benchmark datasets.",
+          "Limitations": "No ablation study\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c2518d99",
+      "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
+      "text": "Paper presents 2 new models for knowledge tracing - predict answer in next exam question. Authors present 2 models - TDNN and RNN.",
+      "provenance": {
+        "page_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de"
+      }
+    },
+    {
+      "id": "an_32ad29c7",
+      "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
+      "text": "Modelling is performed under 2 distinct tasks:",
+      "provenance": {
+        "page_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de"
+      }
+    },
+    {
+      "id": "an_76ad7c8a",
+      "reference_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de",
+      "text": "Results show that both models outperformed other state of the art models in 4 out of the 5 datasets used in this benchmark. Moreover, the RNN was found to be the superior option.",
+      "provenance": {
+        "page_id": "feed6182-8c3a-40dd-88f7-c7877f66b8de"
+      }
+    }
+  ],
+  "workflow_states": []
+}

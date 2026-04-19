@@ -1,0 +1,40 @@
+{
+  "references": [
+    {
+      "id": "36a45f1e-fa7d-4063-94f3-01b9a09809ec",
+      "title": "Personalized and Automated Feedback in Summative Assessment Using Recommender Systems",
+      "authors": [],
+      "year": null,
+      "journal": "Frontiers in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "annotations": [
+    {
+      "id": "an_88c6a20a",
+      "reference_id": "36a45f1e-fa7d-4063-94f3-01b9a09809ec",
+      "text": "Authors use a recommender system to provide automated feedback after summative assessment. The feedback is given in the form of a set of questions that would be benefical for the student in question.b This requires, first, the construction of a knowledge model of the learner and second the identification of the gaps in that knowledge. ",
+      "provenance": {
+        "page_id": "36a45f1e-fa7d-4063-94f3-01b9a09809ec"
+      }
+    },
+    {
+      "id": "an_c9219f4a",
+      "reference_id": "36a45f1e-fa7d-4063-94f3-01b9a09809ec",
+      "text": "Authors do recommendations using multiple popular algorithms. Results on secondary education level show that the recommendations can be done reasonably well without a lot of computational complexity.  ",
+      "provenance": {
+        "page_id": "36a45f1e-fa7d-4063-94f3-01b9a09809ec"
+      }
+    }
+  ],
+  "workflow_states": []
+}

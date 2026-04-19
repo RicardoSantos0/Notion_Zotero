@@ -1,0 +1,127 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "title": "Can we Take Advantage of Time-Interval Pattern Mining to Model Students Activity?",
+      "authors": [],
+      "year": null,
+      "journal": "EDM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d7d6d15c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Temporal Pattern Mining ",
+          "Context": "Higher Education",
+          "Teaching Method": "B-Learning",
+          "Students": "113 first-year students",
+          "Courses": "1 Algorithms and Programming Course",
+          "Data sources": "LMS logs\n",
+          "Theoretical Grounding": "None",
+          "Features": "[Sequences of Activities in the LMS]",
+          "Preprocessing Details": "Minimum support of 0.1, meaning that only sequences that happen at least 10% of times are considered.",
+          "Models": "PrefixSpan\nI-PrefixSpan",
+          "Performance Metric: Best Model": "Linear Resolution\n\n{Fitting ratio: 72% - 1 day duration of interval up to a max of 25 intervals}\n\nGranular Resolution\n\n{Fitting ratio: 100% - Human resolution up to a max of 6 intervals}\n\n",
+          "Groups Created": "3",
+          "Cluster Description": "Activities of temporally close events: solving exercises, labs - the typical activity one would see when preparing for an exam. \n\n\nActivities made up of Ih time-intervals: Often exercise sheets that take between 1 hour and one day → this tyype of activity ios noticeable when the student is going deeper into a specific activity,\n\nOther intervals\n ",
+          "Implications": "Since different activities have their own rythm, it is possible to monitor whether the behaviour of the learner maps onto the expected behavior. Moreover, it also allows educators to understand different learning styles.\n\nBetter ability to predict the next action of a student, which is vbery helpful in the discovery of optimal learning pathways,\n\nTiming of the last gap in student activity can be regarded as strong indicator of a learner’s next activity,\n",
+          "Comments": "More than merely looking at sequences of activities, the authors attempt to consider the time that passed bettween consecutive activities to mine patterns of student behavior. \n\nAuthors evaluate what temporal resolution to use based on what they call the fitting ratio: Ratio between non-empty intervals and total number of intervals - this is a measure to minimize the number of irrelevant timesteps.\n\nClose to 99% of the sequential patterns mined using PrefixScan were disregarded by the incorporation of time-intervals.\n\nOutputs are groups of patterns of activities,\n\nWhen looking at the skeleton of activites at different temporal resolutions, we can see that they are very different → each activity has a rythm.\n\n\n",
+          "Limitations": "Small sample size within the context of a single course.\n\nMost behaviors do not have a stable timing, which lked to the loss of more than 99% of all sequences of behavior.\n\nTemporal granularity of the interval may need refinement.\n\nIrregular occurences and potential noise - students don’t always stick to the typical timing.\n\nComputational complexity. "
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+        "block_index": 40
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_74b2256a",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "Time between activities is an often underexplored construct when analyzing student activities. Thus, authors look to explore intervals of time spent between different activities using data from 113 first-year students. Human-times (hours, minutes, seconds) seem to be the most relevant. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_679aab34",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "Time-interval pattern mining brings more information than sequential pattern mining. Also, some students exhibit regular intervals, suggesting that order of resources is not the only determinant to model student behavior. Interestingly, differences in time-intervals also seem to be predictive of different sequences of learning activities by the learner.\n\n\n",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_7590d455",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "The paper by Dermy and Brun explores using time-interval pattern mining (via the I-PrefixSpan algorithm) to model student learning activities. Instead of looking only at the sequence of resources a student accesses, this approach also considers the time gaps between events, yielding time-interval patterns (ti-patterns) that include temporal information. The main findings from their study on LMS log data (113 first-year university students over ~1 year) can be summarized as follows:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_d0a112e0",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "The research provides a direct comparison between traditional sequential pattern mining and the time-interval pattern approach:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_c33248d6",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "Incorporating time intervals into pattern mining has notable implications, as directly highlighted by the authors:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_bdf32423",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "While the results are promising, the paper also discusses several limitations and challenges in using time-interval pattern mining for student activity modeling:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_e6bee6dc",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "This work offers a fresh perspective in the educational data mining (EDM) domain by emphasizing the temporal dimension of student behavior. A few additional points help contextualize the significance of the findings:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_2957b667",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "In summary, the I-PrefixSpan time-interval pattern mining approach proved effective in uncovering temporal dynamics in student learning behavior. The main results showed that only a subset of student activities have consistent time gaps, but those that do can be very informative. Including time intervals made it possible to discern different student strategies and to more confidently predict future actions (reducing uncertainty by around 40% on average). The work also highlights important limitations: most learning patterns don’t have fixed timing, and choosing the right time granularity is critical. Despite these challenges, the research demonstrates clear benefits to modeling",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    },
+    {
+      "id": "an_712d117e",
+      "reference_id": "18c4750c-f3ba-801a-81d7-e1af648768b5",
+      "text": "when learning events occur. This added temporal dimension enriches our understanding of student activities and opens up possibilities for more responsive and personalized learning systems that account for not just what students do, but when they do it.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-801a-81d7-e1af648768b5"
+      }
+    }
+  ],
+  "workflow_states": []
+}

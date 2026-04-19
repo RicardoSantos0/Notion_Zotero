@@ -1,0 +1,97 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
+      "title": "Optimizing Bayesian Knowledge Tracing with Neural Network Parameter Generation",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Educational Data Mining",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3f2cb484",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next Question Being Correct",
+          "Target": "Probability of Correctly Answering Question",
+          "Students": "4217 ASSISTments 2009 students, \n3310 KDD-Cup Algebra learners, \n46674 ASSISTments 2012 students, 6043 Bridge and Algebra learners",
+          "Courses": "Not Applicable",
+          "Data sources": "Sequence of Answers",
+          "Features": "[Knowledge Components for learner, Sequence of Previous Answers]",
+          "Flaw of Previous Models": "BKT, while interpretable, has issues with convergence in local minima regardless of optimization technique. \n\nDKT and SAKT get better predictive performance but are not interpretable.\n\nGoodd interpretable approaches such as DLKT or Deep-IRT introduce interpretability because they separately moddel knowledge and difficulty, but they are “definitive” and lack probabilistic context. \n\n ",
+          "Novelty of Model": "Authors propose not a model, but a neural network-based optimization technique - OptiNN - that improves BKT. \n\n",
+          "Preprocessing Details": "Observations with no skills attached were not considered. Missing values were filled with mode.",
+          "Models": "BKT, KT-IDEM, ILE",
+          "Assessment Strategy": "5-Repeated Holdout Method",
+          "Performance Metric: Best Model": "AST09\n\n{RMSE: 0.363 - KT-IDEM-OptiNN}\n\nAST12\n\n{RMSE: 0.426 - KT-IDEM-OptiNN}\n\nALG08\n\n{RMSE: 0.327 - ILE-OptiNN}\n\nBRI08\n\n{RMSE: 0.310 - ILE-OptiNN}",
+          "Comments": "Authors compare 3 well-known KT models: BKT, KT-IDEM and ILE on 4 distinct datasets. 4 forms of parameter optimization are done for each model. \n\nOptiNN optimization shows the best performance consistently across all experiments on models.\n\nVarying the psarameters of OptiNN shows some robustness of the model.",
+          "Limitations": "Holdout method.\n\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Next Question Being Correct",
+          "Target": "Probability of Correctly Answering Question",
+          "Students": "4217 ASSISTments 2009 students, \n3310 KDD-Cup Algebra learners, \n46674 ASSISTments 2012 students, 6043 Bridge and Algebra learners",
+          "Courses": "Not Applicable",
+          "Data sources": "Sequence of Answers",
+          "Features": "[Knowledge Components for learner, Sequence of Previous Answers]",
+          "Flaw of Previous Models": "BKT, while interpretable, has issues with convergence in local minima regardless of optimization technique. \n\nDKT and SAKT get better predictive performance but are not interpretable.\n\nGoodd interpretable approaches such as DLKT or Deep-IRT introduce interpretability because they separately moddel knowledge and difficulty, but they are “definitive” and lack probabilistic context. \n\n ",
+          "Novelty of Model": "Also, they authors also propose TransformerKT to beat state-of-the art models in a hyper-parameter insensitive manner. ",
+          "Preprocessing Details": "Observations with no skills attached were not considered. Missing values were filled with mode..\n\nBKTransformer is an extension of SAKT that also incorporates BKT parameters for knowledge component.",
+          "Models": "BKTransformer, DKT, SAKT, BKT-EM",
+          "Assessment Strategy": "5-Repeated Holdout Method",
+          "Performance Metric: Best Model": "AST09\n\n{AUC: 0.892 - BKTransformer, RMSE: 0.340 - BKTransformer}\n\nAST12\n\n{AUC: 0.695 - DKT, RMSE: 0.433 - DKT}\n\nALG08\n\n{AUC: 0.788 - BKTransformer & SAKT, RMSE: 0.321 - BKTransformer}\n\nBRI08\n\n{AUC: 0.833 - BKTransformer & SAKT, RMSE: 0.304 - BKTransformer}",
+          "Comments": "BKTransformer achieves close to state-of-art performance on most datasets, being only surpassed in AST12 by DKT.\n\n\n\n",
+          "Limitations": "No full interepretability of attention networks.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_15a91f27",
+      "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
+      "text": "Bayesian Knowledge Tracing, while useful and well-established, is known to have some convergence problems that lead it to converge in undesirable local minima (parameter degeneracy). Deep Knowledge Tracing achieves better performance but is often not interpretable - a significant issue in student response correctedness scenarios.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-a4da-db81327e4be6"
+      }
+    },
+    {
+      "id": "an_2a6e3986",
+      "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
+      "text": "To address the problems with BKT convergence, authors propose a new form of optimizing BKT OptimNN which is meant to use a NN to train BKT parameters. This is later extended into BKTransformer, which generates parameters for BKT that evolve with time. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-a4da-db81327e4be6"
+      }
+    },
+    {
+      "id": "an_4bec5881",
+      "reference_id": "18c4750c-f3ba-8064-a4da-db81327e4be6",
+      "text": "Authors show this approach to outperform both BKT and DKT with minimal parameter tuning, with the advantage of mantaining the BKT interpretability that comes with probability estimates of skill, student mastery and question correctedness. \n\n\n",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8064-a4da-db81327e4be6"
+      }
+    }
+  ],
+  "workflow_states": []
+}

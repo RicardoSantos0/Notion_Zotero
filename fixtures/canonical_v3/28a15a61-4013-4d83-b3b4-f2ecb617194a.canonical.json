@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "28a15a61-4013-4d83-b3b4-f2ecb617194a",
+      "title": "Lost in Translation: Determining the Generalizability of Temporal Models across Course Contexts",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c7ede8e0",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Sequential Pattern Mining",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "411 students",
+          "Courses": "19 courses ",
+          "Data sources": "LMS logs",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[MC_ORIENT, CONTENT_ACCESS, MC_EVAL, MCQ:IN, MCQ_CO]",
+          "Preprocessing Details": "Authors extract logs and assign them to different event categories. These categories are subsequently mapped into SRL constructs (Planning, Work on Task, Evaluation). \n\nThe authors perform Trajectory Mining to form clusters on the data from the 19 courses.",
+          "Models": "Life Trajectory Miner, followed by First-Order Markov Models",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "3",
+          "Cluster Description": "Cluster 1: No clear dominating strategy but these students seem to start with knowledge-buiding activities.\n\nCluster 2: Regular transitions between formative assessments and knowledge building activities\n\nCluster 3: More regular planning and reflection relative to other works. Regular transitions between setting goals and making plans have been registered. ",
+          "Implications": "Temporal modelling seems to be somewaht limited in large-scale endeavours, especially ones considering different course structures and contextual conditions. \n\n\nTemporal modelling of SRL constructs may reqauire refinments.\n",
+          "Comments": "Authors use a Course-Agnostic approach to ideintify regular transitions in behvaior from students across diffferent courses.\n\nIn total, the authors identify 3 main clusters.\n\nThis is followed by a subsequent regression analysis that tries to “explain group membership vs grade. Best students were the ones in Cluster 3. ",
+          "Limitations": "Lack of descriptive features.\n\nExtraction of general patterns from a very diverse subset of courses. \n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "28a15a61-4013-4d83-b3b4-f2ecb617194a",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_12f5d48f",
+      "reference_id": "28a15a61-4013-4d83-b3b4-f2ecb617194a",
+      "text": "The abstract starts by criticizing the fact that the showcase of new models in LA is to show how well they perform in a single course. The authors attempt to replicate a temporal model of SRL taxonomies with the caveat of generalizing it to 411 students in 19 courses. Techniques used combine hierarchical clustering with Hidden Markov Models.",
+      "provenance": {
+        "page_id": "28a15a61-4013-4d83-b3b4-f2ecb617194a"
+      }
+    },
+    {
+      "id": "an_83d799af",
+      "reference_id": "28a15a61-4013-4d83-b3b4-f2ecb617194a",
+      "text": "The findings show that that some patterns of SRL can, indeed, generalize between different courses and it is even possible to find some relationship between interaction and performance. However, the generalization to other contexts requires a reduction in complexity of the models, whihc may lead to a situation where all you have is too much of a simplification.",
+      "provenance": {
+        "page_id": "28a15a61-4013-4d83-b3b4-f2ecb617194a"
+      }
+    }
+  ],
+  "workflow_states": []
+}

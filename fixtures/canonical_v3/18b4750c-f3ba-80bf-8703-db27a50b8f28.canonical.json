@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
+      "title": "Dynamic Cognitive Diagnosis: An Educational  Priors-Enhanced Deep Knowledge  Tracing Perspective",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3bf74c2b",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Correctectly answering the input question",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "3079 ASSISTments2009 learners, 24768 ASSISTments 2012 learners, 9471 KDDCup learners",
+          "Courses": "ASSISTments",
+          "Data sources": "Question Attribtutes, Sequence of Answers",
+          "Features": "[Question ID, Question/KC Difficulty, KC, Question Discrimination, Input Question Attributes]",
+          "Flaw of Previous Models": "Cognitive diagnosis is a form of student modelling in a static setting (i.e. a student’s knowledge state does not change, or is not meant to, during a test).\n\nTest theory methods are interpretable and often evaluate 2 perspectives: ability level or cognition level. \n\nThese features can be valuable additions to DKT model in order to increase its interpretability.\n\n",
+          "Novelty of Model": "DCDKT looks to include the cognitive level features into a DKT model.\n\nThis is done in order to incorporate items such as: Difficulty and/or discrimination.",
+          "Preprocessing Details": "Questions without a Knowledge Component were not considered. Similarly, learners with fewer than 15 answers were disregarded.\n\nStudents wth more than 200 answers were divided into multiple dummy students.\n\n\n\n\n\n",
+          "Models": "BKT, DKT_Q, DKT_KC, DKT_MLP, DKVMN, DIRT_1, DIRT_2, DIRT_3, DIRT_4, DNeuralCDM_1, DNeuralCDM_2, DNeuralCDM_3, DNeural_CDM_4",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "ASSIST09\n{Accuracy: 0.7838 - DNeuralCDM_4, AUC: 0.7471 - DNeuralCDM_4}\n\nASSIST12\n{Accuracy:  0.7780 - DNeuralCDM_3, AUC: 0.7597 - DNeuralCDM_4}\n\nKDDCup\n{Accuracy: 0.8114 - DNeuralCDM_4, AUC: 0.8525 - DNeuralCDM_4}",
+          "Comments": "Predictions were attempted using different possible models: \n\nDKT_Q → only using question features.\n\nDKT_KC: Each question is represented by the KC ID\n\nDKT_MLP: Same input as DKT_KC, but output was produced by 2 feed-forward layers.\n\nThe congnitive diagnosis section is presented using DIRT or DNeuralCDM.\n\nNumber at the end of DIRT or DNeuralCDM represents the type of features being considered for each.\n\n\n1: Question ID, \n2:QID and KC ID, \n3: QID, KC ID, Difficulty, \n4: QID, KC ID, Difficulty, Discrimination ",
+          "Limitations": "No cross-validation.\n\nAdd additional educational priors. \n\nModels considered only use GRU.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_afb8d761",
+      "reference_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
+      "text": "Deep Knowledge Tracing has been able to achieve state-of-the-art performances in the representation of students’ knowledge states. One disadvantage of this technique is the lack of interpretability of the model (especially when compared against BKT). ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+      }
+    },
+    {
+      "id": "an_eb47cecf",
+      "reference_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28",
+      "text": "To address this, the authors propose dynamic cognitive diagnosis, a model that is somewhat inspired by psychometrics and combines educational priors with DKT. The authors show that their model is not only more interpretable but proper selection of biases also boosts the performance of DKT models. ",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-80bf-8703-db27a50b8f28"
+      }
+    }
+  ],
+  "workflow_states": []
+}

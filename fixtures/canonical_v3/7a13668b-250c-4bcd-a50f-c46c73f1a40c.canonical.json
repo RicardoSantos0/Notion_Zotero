@@ -1,0 +1,89 @@
+{
+  "references": [
+    {
+      "id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c",
+      "title": "Evaluating the effectiveness of educational data mining techniques for early prediction of students' academic failure in introductory programming courses",
+      "authors": [],
+      "year": null,
+      "journal": "Computers in Human Behavior",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_563be6f5",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "262 undergraduate students",
+          "Courses": "1 Introductory Programming Course",
+          "Data sources": "Student Characteristics, LMS logs, Performance throughout the course",
+          "Features": "[age, gender, civil status, city, income, student registration, period, class, semester, campus, access frequency, forum participation, received and viewed files, educational tool usage, year of enrollment, status, performance in weekly activities and exams]",
+          "Moment of Prediction": "Every Week until First Exam (Week 5/10)",
+          "Preprocessing Details": "Authors use Information Gain to perform Feature Selection. \n\nClass Imbalance was addressed using SMOTE.\n\nMoreoever, authors perform hypar-parameter tuning. ",
+          "Models": "Naive Bayes, J48, MLP, SVM",
+          "Assessment Strategy": "None Specified",
+          "Performance Metric: Best Model": "Week 4\n{F1-Score: 0.86 - SVM}\n\n1st Exam\n{F1-Score: 0.92 - SVM}",
+          "Comments": "Authors do a work that uses ML to do early prediction of performance in a course.\n\nThey compare multiple algorithms and notice that Fine-Tuning and Preprocessing tend to improve model performance.",
+          "Limitations": "  • No model assessment strategy\n\n  • Single institution data\n\n  • Small dataset\n\n  • Limited parameter search space"
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "161 undergraduate students",
+          "Courses": "1 Introductory Programming Course",
+          "Data sources": "Student Characteristics, LMS logs, Performance throughout the course",
+          "Features": "[age, gender, civil status, city, income, student registration, period, class, semester, campus, year of enrollment, exercises performed, correct exercises, performance in weekly activities and exams]",
+          "Moment of Prediction": "Every Week until First Exam \n(Week 3/16)",
+          "Preprocessing Details": "Authors use Information Gain to perform Feature Selection. \n\nClass Imbalance was addressed using SMOTE.\n\nMoreoever, authors perform hypar-parameter tuning. ",
+          "Models": "Naive Bayes, J48, MLP, SVM",
+          "Assessment Strategy": "None Specified",
+          "Performance Metric: Best Model": "Week 2\n{F1-Score: 0.82 - J48}\n\n1st Exam\n{F1-Score: 0.83 - SVM}",
+          "Comments": "Authors do a work that uses ML to do early prediction of performance in a course.\n\nThey compare multiple algorithms and notice that Fine-Tuning and Preprocessing tend to improve model performance.",
+          "Limitations": "  • No model assessment strategy\n\n  • Single institution data\n\n  • Small dataset\n\n  • Limited parameter search space"
+        }
+      ],
+      "provenance": {
+        "page_id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_4dfa43c8",
+      "reference_id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c",
+      "text": "The authors perform a comparative study of different predictive models on 2 distinct datasets obtained from a Brazilian University on a course of introductory programming:",
+      "provenance": {
+        "page_id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c"
+      }
+    },
+    {
+      "id": "an_cd297445",
+      "reference_id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c",
+      "text": "Key Takeaways:",
+      "provenance": {
+        "page_id": "7a13668b-250c-4bcd-a50f-c46c73f1a40c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

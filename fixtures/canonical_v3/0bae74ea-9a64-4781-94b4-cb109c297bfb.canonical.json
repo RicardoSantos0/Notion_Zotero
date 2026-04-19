@@ -1,0 +1,109 @@
+{
+  "references": [
+    {
+      "id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+      "title": "Predicting course achievement of university students based on their procrastination behaviour on Moodle",
+      "authors": [],
+      "year": null,
+      "journal": "Soft Computing",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_5a2d6f05",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End of Course Grade - Inferred from Clustering",
+          "Target": " to F",
+          "Students": "242 university students from University of Tartu",
+          "Courses": "1 Teaching and Reflect course",
+          "Data sources": "LMS logs, Homework grades",
+          "Features": "[For each Homework, OpenD, FirstviewD, SubmissionD, Deadline, S]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "For each Homework, the authors extract: when it is open, viewed and submitte. This allows the creation of the feature vector X which includes measurements of time. \n\nThese feature vectors are subsequently given to a clustering algorithm to obtain a label. The authors use different methods depending on the fact that the input feature vectors are categorical or continuous. ",
+          "Models": "L-SVM, R-SVM, Gaussian Process, Decision Tree, Random Forest, MLP, AdaBoost, Naive Bayes",
+          "Assessment Strategy": "k-Fold Cross-Validation (k=5, 10, 15)",
+          "Performance Metric: Best Model": "{Precision: 0.870 - L-SVM_10folds_Cat, Accuracy: 0.846 - L-SVM_5folds_Cat, F1-Score: 0.857 - L-SVM_15folds_Cont, Cohen’s Kappa: 0.771 - L_SVM_15folds_Cat}",
+          "Comments": "Authors create 2 distinct feature sets: one continuous and one categorical and check the performance of both.\n\nAll variables are indicative of procrastination behavior. \n\nDifferent k are tested for Cross-Validation. ",
+          "Limitations": "Single institution, \n\nOnly considers homework submission data\n\nNo “early prediction”\n\nTarget is not actual ground truth… it is inferred from Clustering"
+        }
+      ],
+      "provenance": {
+        "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+        "block_index": 6
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_adbc51ab",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "242 university students from University of Tartu",
+          "Courses": "1 Teaching and Reflect course",
+          "Data sources": "LMS logs, Homework grades",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[For each Homework, OpenD, FirstviewD, SubmissionD, Deadline, S, H]",
+          "Preprocessing Details": "For each Homework, the authors extract: when it is open, viewed and submitte. This allows the creation of the feature vector X which includes measurements of time. \n\nThe authors use different methods depending on the fact that the input feature vectors are categorical or continuous. ",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "6",
+          "Cluster Description": "C1: A, C2: B, C3: C, C4: D, C5: E, C6: F\n",
+          "Implications": "There is a noticeable correlation between procrastinating behaviors and the performance on the course. \n\nStudents who procrastinate more tend to do worse in the course. ",
+          "Comments": "Authors use clustering to identify students based on their grade. Clustering, in this instance is made to estimate what the final course grade would be based on the homework submissions.",
+          "Limitations": "Single institution, \n\nOnly considers homework submission data"
+        }
+      ],
+      "provenance": {
+        "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_bede165e",
+      "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+      "text": "Procrastination behavior is a negatively affects student performance. Work intends to measure procrastination behavior based on Moodle submission Logs. ",
+      "provenance": {
+        "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+      }
+    },
+    {
+      "id": "an_42d121ce",
+      "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+      "text": "Authors start by creating vectors of student procrastination tendencies. Students are then grouped using clustering and classification techniques in order to be assigned to different categories of course achievement. Results show that their model achieves 87% precision and 84% accuracy on a sample of 242 students. ",
+      "provenance": {
+        "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+      }
+    },
+    {
+      "id": "an_dc773d29",
+      "reference_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb",
+      "text": "Students who procrastinate more are more likely to do badly in the course.\n",
+      "provenance": {
+        "page_id": "0bae74ea-9a64-4781-94b4-cb109c297bfb"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,295 @@
+{
+  "references": [
+    {
+      "id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "title": "MOOC performance prediction via clickstream data and social learning networks",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE INFOCOM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0b307183",
+      "reference_task_id": null,
+      "schema_name": "Conclusion",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Student Performance Definition": "Getting Next Question Correct on First Attempt",
+          "Target": "NCFA (0) vs CFA (1) ",
+          "Students": "5205",
+          "Courses": "1 Networks: Friends, Money, and Bytes Course",
+          "Data sources": "LMS",
+          "Features": "[fracSpent, fracComp, fracPlayed, numPaused, fracPaused, avgPBR, stPBR, numRWs, numFFs, Success Estimates]",
+          "Flaw of Previous Models": "Typical measures used in MOOC environments - interactions - tend to dropoff with the advancement of a MOOC.",
+          "Novelty of Model": "Authors look to use behavioral data to predict CFA, in this case video watching behavior.",
+          "Preprocessing Details": "Beggining of the course decribed as the first 2 weeks. Also, active users are defined as haviong answered at least 20 questions.\n\nTest for normal distribution done using Shapiro-Wilk test and failed → statistical test for differences between classes was Wilcoxon Rank Sum test.\n\nAlso, to check whether thre are ranges that are predictive of CFA or not the authors did a Gaussian KErnel Density Estimation.\n\nEstimates of success are also used as inputs to predictive models.",
+          "Models": "Naive\nBiases\nMatrix Factorization\nkNN\nVID-A\nVID-B",
+          "Assessment Strategy": "5 Repeats of 5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Active Students:{Accuracy: 0.725 - VID-A, RMSE: 0.428- VID-N & VID-A; AUC: 0.759 - VID-N & VID-A}\n\n2-Weeks All Users\n{Accuracy: 0.7117 - VID-A, RMSE: 0.4364 - VID-A; AUC: 0.7115 - VID-A}\n\nAll Users\n{Accuracy: 0.7070 - VID-A, RMSE: 0.4380 - VID-A; AUC: 0.7276 - VID-A}",
+          "Comments": "Data was very sparse as only 12% of entries: user-submission-assignment were known.\n\nAuthors analyized the differences in distribution between CFA and non-CFA:\n\n1. Playing behavior: Playing the video for more time contributes to a higher likelihood of getting CFA.\n2. Pausing behavior: Pausing multiple times, either very short pauses or very long pauses.\n3. Playback rate behavior: Having average playback rate different from default speed.\n4. Jumping behavior: Rewinding at least once.\n\nAuthors setup a baselineand compare its performance against the models incorporating video-watching behavior.\n\nAuthors attempt to do some fiine-tuning of the models.\n\nIn this case, early prediction is used to see whether it is possible to identify which students will be active or not.\n\n2nd out of 12 weeks\nEnd of Course",
+          "Limitations": "Data sparsity with small number of active users. \n\nModels used are nont-interpretable.\n\nOnly considers video-watching behavior.\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+        "block_index": 64
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_25ef3c28",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Paper focuses on predicting whether a student will get a question right or wrong on First Attempt. For that, authors use video-watching behavior from student-video pairs. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_27daf383",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Authors identify that there are sets of behaviors that do in fact lead to a higher probability of getting a question right. Thus, the authors identify which sets of intervals are the most reliable estimators of success and use the behavior in those intervals as features in a predictive model for Knowledge Tracing. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_3cd5f143",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Results show that the model constructed in this manner significantly outperforms other models exclusively using log data and that the improvement is even more pronounced when considering a scenario of early prediction (unclear at this stage if this is still knowledge tracing at this point, but it seems to me). ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_95abe26d",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "In the world of MOOCs, where the ration instructor/student is smaller than 1%, scale is big factor. More explicitly, automation of processes to enhance learning are paramount for success at scale. The study intends to answer the following research questions:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_248c6d9e",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "To answer these questions, the authors use Coursera data from a Princeton university course. The data includes 1.3 M records of interaction with video player and over 40k Quizz submissions.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_e7f3d423",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "In the field of Learning Analytics (LA), student performance can refer to various aspects. Knowledge Tracing is one such LA task. This specific work builds upon Item Response Theory, which computes the probability of an examinee's answer to a particular item. One of the major modern applications of this approach is in models that use study behaviors to predict whether a specific answer will be correct on the first attempt (CFA).",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_fd0a66cd",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "A common set of models used for this task are Collaborative Filtering approaches. These have gained significant popularity since the Netflix Prize competition, which showcased their effectiveness in recommendation systems. These models excel at uncovering hidden relationships between different users as they interact with specific pieces of content, making them particularly useful for predicting user preferences and behaviors.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_7f5f256f",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Other approaches include Probabilistic Graphical Models, Hidden Markov Models, Bayesian Networks, Decision Trees, and Factorization Machines. These methods are often employed when dealing with coarse-grained information about users and/or courses across multiple sessions. Coarse-grained data in this context might refer to high-level, aggregated information such as:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_95161688",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "The approaches of predicting success in next question using behavioral data have their own sets of challenges when it comes to MOOC specifically. First, a lot more users simply dropout which means that the fraction of assessments completed by each user is relatively small. Also, the number of users is much larger than in traditional settings.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_77b0e84d",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Contribution of paper: Video watching behavior is correlated with performance, which means that it can be used for CFA. Also, the contribution of the behavioral data is larger at earlier stages of course.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_ce575234",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Data",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_248fcd40",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "The data used refers to a data from a MOOC that has already had multiple offerings. This course is structured for Online Learning. It has 20 lectures that are spread across 12 weeks. Each lecture is subdivided into multiple videos, totalling 93 videos. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_0d2f6e2c",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Videos were supplemented with in-video quizzes to test understanding. Questions were Multiple Choice with 4 options. Students had to answer as they watched the video → meaning that they only answer questions for videos they have watched. This problem is particularly important because there are close to 5000 users and close to 100 questions but there were only 40000 user-quizz pairings. Only 12% of the entries of a user → quizz matrix were known. The criteria for active users is having answered more than 20 questions.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_ea7bd29a",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "From the submission historyit is possible to see that a lot more students made submissions earlier on. Moreover, the authors analyzed two things:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_4022bcc5",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Bottom line, being more active leads to more submissions and better scores.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_eb410573",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Clickstream data",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_24396951",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Data from the clickstream was extracted from Coursera. Every action with the videos was recorded: pause, play, rate change or seek. Only pairs that featured the existence of logs and submissions were considered.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_e0827e22",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "\nFor each user-video pair with logs and submissions, the authors extracted features related to video watching behavior: time spent on video, number of rewinds, fast-forwards, etc…",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_eeddd9be",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Exploratory anlaysis on both classes shows some important insights on higher change of CFA:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_0bfe7010",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "The authors start with algorithms that only use performance data to predict CFA. The metrics for evaluation of the models were standard classsification and regression metrics: Accuracy, RMSE & AUC. Algorithm predictions will be a continuous score [0, 1]. These scores are rounded for 0 or 1 in CFA.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_bcfee143",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "The baseline algorithms themselves were the following:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_c204dab9",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "In addition now, these baseline algorithms ended up being compared against a set of algorithms that used the data of previous performance AND data from clickstream on videos. The attributes were separated into 3 categories:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_39f1c35a",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Computation of CFA estimates are a function of the behaviors occuring in specific intervals. This allows the of LAplace rule of succession to compute the probability of a new observation belonging to class C or not. This is also complemented with a Bayesian adjustment to make more confident predictions.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_b319175c",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "In preparation for the final models that incorporate the clicksteam, the authors implement an SVM-based classifier. These classifiers, called VID-A and VID-B differ in the way they incorporate success estimates into the classification predictions.  Evaluation of the different models is based on 5-fold CV.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_901dbf51",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Evaluation of the different models is done by looking at the percentage improvement relative to the Naive benchmark that, for reference had 66% Acc and 0.5 RMSE & AUC. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_9280ecee",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Evaluation starts by looking at the scores obtained exclusively for the Active Users, followed by all users on the first 2 weeks and, finally, All users throughout the full course. Regarsless of context, the results show that making predictions with the video data leads to better CFA predictions than not using them.",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_978e996b",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Moreover, it is also possible to see that accurate predictions are easier to obtain on more active students. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_5983f21c",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "The use of video-watching behavior may significantly assist the prediction of CFA earleier on in the course. The reason for this stems from the way models are built_ Biases and MF rely on the creation of complex models of the users → something that requires more data to be effective. \n\nVID-A outperforms VID-N for all tasks involving all users. The difference between both approaches stems from the KDE. The smaller value of  \\eta leads to more bins in the continuous attributes. The authors identify 3 points of future investigation:",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_2c3f17d8",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Generalizatbility of the findings may be hard to replicate due to some constraints on the building of the experiment: for example there is a 1 to 1 correspondence between video and quizzes. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    },
+    {
+      "id": "an_c79037b6",
+      "reference_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66",
+      "text": "Authors show that video-watching logs are decent predictors of CFA, especially earlier on. ",
+      "provenance": {
+        "page_id": "b126b38f-dca6-4c9f-b5fa-bea12f98ee66"
+      }
+    }
+  ],
+  "workflow_states": []
+}

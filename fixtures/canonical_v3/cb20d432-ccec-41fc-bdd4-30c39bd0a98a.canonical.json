@@ -1,0 +1,61 @@
+{
+  "references": [
+    {
+      "id": "cb20d432-ccec-41fc-bdd4-30c39bd0a98a",
+      "title": "Enrollment Recommendation System based on Student Profile and Progress",
+      "authors": [],
+      "year": null,
+      "journal": "LACLO",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_289055df",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "",
+          "Teaching Method": "",
+          "Recommender System Type": "",
+          "Target of Recommendation": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Initialization Method": "",
+          "Updates to Recommendations": "",
+          "Preprocessing Details": "",
+          "Recommendation types": "",
+          "Evaluation": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "cb20d432-ccec-41fc-bdd4-30c39bd0a98a",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_038f6615",
+      "reference_id": "cb20d432-ccec-41fc-bdd4-30c39bd0a98a",
+      "text": "Authors propose a recommender system that aims to propose new courses in which undergraduate students could enroll based on their current academic moment. The article backtests the results of their recommender on data colelcted from a Computer Science course. Results show that recommender is able to generate more than 60% of the students’ actual decisions.",
+      "provenance": {
+        "page_id": "cb20d432-ccec-41fc-bdd4-30c39bd0a98a"
+      }
+    }
+  ],
+  "workflow_states": []
+}

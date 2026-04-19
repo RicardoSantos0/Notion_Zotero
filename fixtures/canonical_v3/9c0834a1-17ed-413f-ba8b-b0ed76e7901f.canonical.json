@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f",
+      "title": "A Cluster-Based Approach to Understanding Students’ Resource-Usage Patterns in an Active, Blended, and Collaborative Learning Environment",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Engineering Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_41eebf47",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "581 students",
+          "Courses": "1 Dynamics course in a US University",
+          "Data sources": "Student Demographics, Survey, Interviews",
+          "Theoretical Grounding": "Expectancy-Value Model",
+          "Features": "[Peers in Class, Course LectureBook, Examples and Solutions, Course Blog, Questions in Class, Office Hours, Online Resources, Outside Students, TAs]",
+          "Preprocessing Details": "Authors conduct interviews to assess the median time of interactions of students with the different resources. \n\nAfter cluster formation, the analysis is complemented with interviews to understand the reasons behind the decisions reported on the surveys. ",
+          "Models": " k-Means",
+          "Performance Metric: Best Model": "{BIC: –16,490 - 8 clusters}",
+          "Groups Created": "9",
+          "Cluster Description": "C1: Multiple resource uses and heavy use of tutorial room. Receptive to help.\n\nC2: Primary reliance on core resources.\n\nC3: Use of core resources and tutorial room.\n\nC4: Seek help from external students.\n\nC5: Did not use blog, but use non-course online resources more.\n\nC6: Similar to C2\n\nC7: Least utilization of lecturebook. Moderate use of other resources.\n\nC8: Peers and lecturebook usage.\n\nC9: Infrequent use of peers. ",
+          "Implications": "Due to the variablility in usage of materials… lecturers should spend less time advising on which materials to use. \n\nIt becomes apparent that students look for help in mulitple sources.",
+          "Comments": "Authors select the number ok k that achieved the 2nd lowest BIC because, in the author’s eyes -  the 9 cluster solution was more meaningful than the 8-cluster solution interpretation-wise.",
+          "Limitations": "- Innapropriate metric for selection of ideal k.\n\n- No use of LMS data.\n\n- Small dataset\n\n - Reliance on self-reported data"
+        }
+      ],
+      "provenance": {
+        "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_f428ce3a",
+      "reference_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f",
+      "text": "The goal of the work how and why students engaged with different learning resources. Work creates clusters from the interactions of 581 engineering students and, for 44 of them use survey data to understand the motivation behind the usage of those resources. Authors argue that their results may be useful to coach students and design better curricula/resources.",
+      "provenance": {
+        "page_id": "9c0834a1-17ed-413f-ba8b-b0ed76e7901f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

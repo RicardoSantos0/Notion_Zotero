@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "d0797811-8d5a-4f9d-985b-e5180265316e",
+      "title": "A MOOCs Recommender System Based on User’s Knowledge Background",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge Science, Engineering and Management",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_999042b1",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Content-based filtering",
+          "Target of Recommendation": "Courses to Take ",
+          "Students": "168664 XueTxang users",
+          "Courses": "6410 courses",
+          "Data sources": "Course Descriptors\nEnrollment history\n",
+          "Initialization Method": "Entity Embeddings are learned using TransH.\n\nCourse Information is done via the creation of separate embeddings for pre-requisite courses, curreent courses and parallel courses.\n\nFor users, Knowledge Extraction, it takes the sequence of the courses taken and computes the average representation aacross the different dimensions.\n",
+          "Updates to Recommendations": "- Retraining after a learner takes a course.",
+          "Preprocessing Details": "Dimensions of Word Embedings are set to 100.\n\nSeparate layers are creation:\n- Creation of a Curse Knowledge Graph to understand course relationships\n\n- Knowledge Background from users: Uses sequences of courses taken\n\nFinal prediction is obtained via the product bbetween user embedding and the course embeddings",
+          "Recommendation types": "Top-K Courses to take ",
+          "Evaluation": "{AUC: 0.9143 - HRL, HR@5: 0.8269 - Proposed Model, HR@10: 0.8785 - Proposed Model, NDCG@5: 0.6808 - Proposed Model, NDCG@10: 0.6973 - Proposed Model, MRR: 0.6433 - Proposed Model}",
+          "Comments": "Authors propose a new N architecture that inclues different modules:\n\nKnowledge extraction Module:  includes the representations of all courses available in the platform\n\nUser Knowledge Background: Creates a representation of the user’s knowledge based on the courses taken up to this point → uses as input the sequences of courses taken.\n\nUser Interest: Results from the product of the user’s history with the representation of each candidate course → leads to a prediction of probability of enrollment.\n\nModel outperforms other baseliines considered for a similar task.\n\n",
+          "Limitations": "- Does not consider user history beyond the sequence of courses taken."
+        }
+      ],
+      "provenance": {
+        "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9574ddcf",
+      "reference_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
+      "text": "MOOCs have plenty of flexibility when it comes to the learning paths they wish to pursue. This great flexibility gives plenty of options to students and current course recommenders tend to rely on previous courses to suggest good next steps. However, these recommenders do not account for student knowledge.",
+      "provenance": {
+        "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+      }
+    },
+    {
+      "id": "an_10697fe4",
+      "reference_id": "d0797811-8d5a-4f9d-985b-e5180265316e",
+      "text": "Authors propose a knowledge-aware recommendation that uses historical enrollments and learning feedback. The model uses a Knowledge graph to represent a learning sequence. The Learning sequence was combined with learning feedback to extract the students’ knowledge. Finally, an Attention module is used to predict the probability of enrolling in a course. Comparison with other baselines show that method can recommend MOOCs.",
+      "provenance": {
+        "page_id": "d0797811-8d5a-4f9d-985b-e5180265316e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,349 @@
+{
+  "references": [
+    {
+      "id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "title": "A recommender agent based on learning styles for better virtual collaborative learning experiences",
+      "authors": [],
+      "year": null,
+      "journal": "Computers in Human Behavior",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_14bc4553",
+      "reference_task_id": null,
+      "schema_name": "Results and Discussion",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Learning Materials",
+          "Students": "25 students",
+          "Courses": "Not Applicable - students belong to Engineering in Foreign Languages School",
+          "Data sources": "- Registration Form\n",
+          "Initialization Method": "Learning Style is inferred from Questionnaire. \n\nSparsity problem → requires that there is at least one student with each learning tool to have selected a tool as preferrable. ",
+          "Updates to Recommendations": "The learning style is continuously updated based on the interactions of the user with the system.",
+          "Preprocessing Details": "Similarity between items is computed using Jaccard Similarity.\n\nRepresentation of users used demographic data AND Learning Style as derived from the LS questionnaire. ",
+          "Recommendation types": "Shortcuts: based on static information\n\nSuggestions: incorporate learning style and user interactions",
+          "Evaluation": "{Satisfaction: 12/20 students reported to be likely to use the recommendder again}",
+          "Comments": "Methodologically, the work can be summarized into 2 sections:\n\n1. Obtaining the learning styles from the questionnaire AND a rating of tools based on choices upon registration.\n\n2. Using a Collaborative Filtering approach to make recommendations.\n\nTo mitigate the sparsity problem, recommendation matrices are computed seaparately for each learning style.",
+          "Limitations": "- Results on accuracy of LS evaluation or Recommendations is not reported.\n\n- Items whose score does not surpass a pre-determined threshold are never shown.\n\n- Cold-Start problem\n\n- Evaluation metrics considered (accuracy)\n\n- Survey evaluation for recommender based on sdatisfaction-"
+        }
+      ],
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+        "block_index": 82
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_868b851c",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "More is not necessarily better. Survey data shows that students need more guidance to access materials than when they had less choice. Thus, the authors propose a new collaborative filtering recommender that also finds a student’s learning style. The system produces 2 types of recommendations and the authors showcase an example of its integration in a VLE.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_f4c99574",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Nowadays, there are new forms of education that have not existed before: continuous education, online educations, etc… Meaning that it no longer is knowledge transfer from professor to students. Computer Supported Collaborative Learning (CSCL) is among the most challenging educational opportunities, requiring good SRL skills to be successful. ",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_91eca545",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "An important construct to consider is personalization. The authors propose a collaborative filtering method for personalization of a CSCL environment.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_afcdcb54",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The authors consider that personalization can be defined as fostering specific learning behaviors. However, e-learning personalization differs from traditional classrooms substantially, bringing forward new challenges related to the fact the e-learning tends to be self-directed.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0300c5aa",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "E-learning recommenders are not as developed or matured as their e-commerce counterparts. Moreover, they have recognized drawbacks, but still should be regarded as mainly advantageous:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_7847a0df",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Improving learning with recommendations",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_9d364780",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "One popular form of personalization is what is called learner-centered: approaches that make the learner have a defining role in the learning experience (often frowned at by students at the start, but accepted later). Professors in learner centered approaches are not giver’s of content and more coaches or facilitators.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0a8bb10b",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Recommendations can be understood as those made by a professor or done by a technology. The authors discuss two distinct conceptual models of recommendations/feedback applicable to the context of professors and proceed to discuss recommender systems in the context of personalization.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_40bc4e9c",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "A recommender is defined as an agent that, starting from a very large pool of possible resources, gives a user the approapriate resources and guidance to achieve their learning goals.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_9d42058b",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The main advantage of a recommender is related with its decisiveness: they make a decision for someone who may not have the expertise or the maturity to know where to go next.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_6d71b675",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Still, recommenders in VLEs are not straighforward:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_eb0ab991",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Learning Styles as a Possible Input to a Recommender Agent",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_24ec8d65",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "For personalization and recommendations to work, it is pivotal to ensure that there is an effective user model (representation is key). Common attributes used in such representations include personal details, learning experience, goals or style. However, creating a representation that is optimal for a specific application is de facto representation a challenge. Empahsys on Learning Style.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_da97ae7f",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Again, Learning styles themselves have multiple different conceptual models for Learning Styles and the authors explore the relationship between the different learning styles and any relevant teaching/learning methods to make recommendations.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_5240bc8a",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Such cases include Protus (v1 and 2.0) which use Learning Style to recommend educational content. Oscar is a ITS to learn SQL that also uses learning styles to recommend the most suitable content to deliver.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_3c10acc8",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "There is an interesting niche on making recommendations on specialized online search and learning tools (for some reason, students do not follow recommended bibliography). The authors created a recommender and added it to their VLE - U-Learn.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0da377cd",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Rationale",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_54ed69cf",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Authors surveyed 35 people from different backgrounds in order to understanding how they access  and use bibliographical resources:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_57f27ce3",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The responses informed the creation of the e-learning recommender on the following features:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_d0fd5812",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Features",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_cfdd797c",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The user profile is saved into a preference tree model with a dynamic part and a static part.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_b847ae68",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Similarly, the recommender offers 2 types of recommendations:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_5bbbfc09",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Description of Recommender",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_f10e3623",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Collaborative filtering approaches tend to use rankings (e.g. stars). Thus, similarity is generally computed from the ratings, not specifically behavior. Formally, the algorithm works as follows:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0de421c2",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "An example:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_94e671c1",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The initial matrix is a user-tool matrix, the inverted matrix is a tool-user matrix. This is followed by the computation of a Tool-Tool matrix based on Jaccard Similarity (a similarity matrix basically). ",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_fa2105a3",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Then, for each tool it is possible to use these similarities to compute the score for each tool:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0bf24570",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Indexing Learning Styles",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_c9e1f417",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "So, for students who share a specific learning style, the algorithm works as described previously, which requires classification. The first step for identification is the questionnaire answered by the users. Then, they are classified according to the Index of Learning Styles (ILS): active/reflective, sensing/intuitive, visual/verbal, and sequential/global.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_b216918e",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Based of the assessment of learning style, the recommmender considers what types of items to recommend to the students.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_2fa5b441",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "Technological Choices",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_cbf108db",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The platform U-Learn was developed in Java. The platform is accessible via browser. The platform saves all user information into a MySQL database. This part is a lenghty description of the platform.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_5a30755a",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "When it comes to functionality, the platfomr includes 5 parts: View Article, Add Article, View Tools, Add Tools, Suggestions and Shortcuts.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_ce65dd62",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "User can access recommendations by clicking suggestion. To use the platform, users must create an account and follow a set of steps:",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_0cea15a0",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "This allows the system to make recommendations. Successful recommendations are considered as such if the user shares them.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_14adc870",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "The authors do a pilot-test of their prototype on a group of 25 students to validate the recommenders efficiency and effectiveness.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    },
+    {
+      "id": "an_81b58ee8",
+      "reference_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4",
+      "text": "To do that, the authors developed a feedback questionnaire that measures: Ease of use, learning style accuracy, usefulness and recommendation accuracy. Most students mentioned to be satisfied with the system in utilization and would recommend its use. However, no actual mention of the performance of the recommender.",
+      "provenance": {
+        "page_id": "30a7d4da-a9a7-42d5-a4b5-c7ab1fe9fec4"
+      }
+    }
+  ],
+  "workflow_states": []
+}

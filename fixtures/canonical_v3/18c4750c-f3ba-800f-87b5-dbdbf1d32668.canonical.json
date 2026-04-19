@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
+      "title": "A Self-Attentive model for Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_92ef491d",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Intelligent Tutoring System",
+          "Student Performance Definition": "Student is able to solve exercise at step t+1",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "4000 Synthetic learners, 4417 ASSISTments09 learners, 19917 ASSISTments15 learners, 686 ASSISTmentsChall, 333 Statics learners",
+          "Courses": "ASSISTments, Statics",
+          "Data sources": "Questions, Answer Sequences",
+          "Features": "[Sequence of Question-Anser pairs]",
+          "Flaw of Previous Models": "DKT approaches use either RNNs or RNN-derived structures which makes thems vulnerable to deal with sparser datasets and/or longer sequences.",
+          "Novelty of Model": "The authors introduce a Transformer architecture which, at the time, was the state-of-the-art form of addressing sequential data.",
+          "Preprocessing Details": "The model involves 2 forms of embeddings: A question embedding and an interaction embedding.\n\nThe authors also employ a normalization layer at the end of each layer: be it feed-forward or self-attention layer.",
+          "Models": "DKT, DKT+, DKVMN, SAKT",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "AST09\n{AUC: 0.848 - SAKT}\n\nAST15\n{AUC: 0.854 - SAKT}\n\nASTChall\n{AUC: 0.734 - SAKT & DKT}\n\nStatics\n{AUC: 0.853 - SAKT}\n\nSynthetic\n{AUC: 0.832 - SAKT}",
+          "Comments": "Authors also perform an Ablation study:\n\nThe loss in performance coming from positional encoding is not very pronounced.\n\nResults show that not only model performs better but is also1 ordder of magnitude faster.",
+          "Limitations": "No Cross-Validation.\n\nCould explore more features and data from other sources."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_13dcc6eb",
+      "reference_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
+      "text": "Knowledge Tracing estimates the performance of a student in different learning activities, allowing it to model the student’s mastery of different knowledge concepts. The current state-of-the-art methods are BKT, DKT and Dynamic Key-value Mmory Networks and all have the issue of poor generalization in the rpesence of sparse data.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668"
+      }
+    },
+    {
+      "id": "an_aba63402",
+      "reference_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668",
+      "text": "The authors propose an approach that estimates Knowledge Components from past activities (sort of using preceding knowledge components to estimate current ones?).  This approach is Self-Attention Based (SAKT). Results on multiple datasets show that SAKT beats other alternatives by an average 4.43% on the AUC score.",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-800f-87b5-dbdbf1d32668"
+      }
+    }
+  ],
+  "workflow_states": []
+}

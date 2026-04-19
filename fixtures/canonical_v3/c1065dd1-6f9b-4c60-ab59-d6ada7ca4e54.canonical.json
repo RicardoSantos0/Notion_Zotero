@@ -1,0 +1,101 @@
+{
+  "references": [
+    {
+      "id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+      "title": "Mining Sequential Learning Trajectories With Hidden Markov Models For Early Prediction of At-Risk Students in E-Learning Environments",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_0515aa04",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Mark in a Course",
+          "Target": "Safe (1) vs At-Risk (0)",
+          "Students": "32593",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "Lightweight Assessment Scores",
+          "Features": "[Sequence of Encoded LWA scores]",
+          "Moment of Prediction": "After 5 LWA",
+          "Preprocessing Details": "The authors divide the assessments based on sequential distribution - across course duration.\n\nFor each quartile of course duration the authors extract perform feature generation based on the distribution - guided by the median and quartiles of the assessments.\n\nThese are subsequently encoded into 4 states: \n\nA - Non-attempters, \nB - 0 to Q1\nC - Q1 to Med\nD - Med or greater ",
+          "Models": "seqHMM,\nSVM, RF, Logistic Regression, MLP",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: [0.8767, 0.9340], Precision: [0.8571, 0.9464], Recall: [0.8854, 0.9924], F1-Score: [0.905, 0.938], Cohen’s Kappa: [0.719, 0.886]}",
+          "Comments": "Authors do a study using Hidden Markov Models. \n\nThe authors use this approach and compare it against other baselines. HMM perform at a comparative level (and sometimes better) than baselines.",
+          "Limitations": "- Does not consider multiple institutions.\n\n- No use of other data sources.\n\n- Does not allow prediction of assessment performance."
+        }
+      ],
+      "provenance": {
+        "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+        "block_index": 6
+      },
+      "revision_status": null
+    },
+    {
+      "id": "ex_522f6955",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "32593",
+          "Courses": "7 courses in OULAD",
+          "Data sources": "Lightweight Assessment Scores",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Transitions between risk profiles]",
+          "Preprocessing Details": "The authors divide the assessments based on sequential distribution - across course duration.\n\nFor each quartile of course duration the authors extract perform feature generation based on the distribution - guided by the median and quartiles of the assessments.\n\nThese are subsequently encoded into 4 states: \n\nA - Non-attempters, \nB - 0 to Q1\nC - Q1 to Med\nD - Med or greater ",
+          "Models": "Hidden Markov Models",
+          "Performance Metric: Best Model": "",
+          "Groups Created": "2",
+          "Cluster Description": "Strugglers: Students who have consistently low performance and end up giving up.\n\nSporadic Learners: start well, but tend to get to higher-risk profiles later on.",
+          "Implications": "Educators should incorporate LWA into their pedagogical practice and use transition patterns. ",
+          "Comments": "Authors do a study using Hidden Markov Models to profile students identified as at-risk.\n",
+          "Limitations": "- Does not consider multiple institutions.\n\n- No use of other data sources."
+        }
+      ],
+      "provenance": {
+        "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9e9d0aee",
+      "reference_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+      "text": "Nowadays, there is more and more data available from VLE. This data has been used already to create early warning systems that intend to identify students at risk. ",
+      "provenance": {
+        "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+      }
+    },
+    {
+      "id": "an_6eff69ac",
+      "reference_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54",
+      "text": "The authors use an Hidden Markov Model to mine sequential behaviors and create an EWS. Authors use OULAD as validation and achieve 90%´accuracy and AUC. In addition the authors also find that the optimal moment for early prediction is either the first or second quarter of a course.",
+      "provenance": {
+        "page_id": "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+      }
+    }
+  ],
+  "workflow_states": []
+}

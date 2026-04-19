@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "e33616be-ee22-468f-ad4c-2d3747da47c9",
+      "title": "Transfer Learning from Deep Neural Networks for Predicting Student Performance",
+      "authors": [],
+      "year": null,
+      "journal": "Applied Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_6ddf3689",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End-of-Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "Five course datasets; course sizes ranged from 117 to 282 students depending on course offering",
+          "Courses": "5 compulsory undergraduate courses from 2 programs: Physical Chemistry I (Spring 2018), Physics III (Spring 2018 and Spring 2019), Analytical Chemistry Lab (Spring 2018 and Spring 2019)",
+          "Data sources": "LMS logs,\nAssignment Grades, Gender",
+          "Features": "[forum views, page views, resource views, folder views, URL views, assignment views, submitted assignment grades, total course views, total course activity, gender]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "For each unique pair of courses, datasets were rebuilt to share a common set of features. Features of paired courses were matched one by one by type; when a matching feature did not exist, an empty zero-valued feature was created. A four-layer dense neural network was used. Baseline models were trained from scratch for 150 epochs with 10-fold cross-validation. Transfer learning initialized the target-course model with source-course weights and then fine-tuned it for 0, 10, 20, 30, 40, 50, 100, or 150 epochs.",
+          "Models": "MLP\n",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: transfer learning outperformed baseline in 18/20 course pairs after 100 epochs and in 16/20 pairs after 10 epochs; improvement significant for epochs 10–150 (best p = 0.0002 at 100 epochs)}.",
+          "Comments": "Main contribution is showing that a deep model trained on one course can be repurposed for a related course, often improving predictive accuracy and reducing training effort. The paper is especially useful for settings where data for a target course are limited but related past-course data exist. The study also shows that transferability is not guaranteed in every case and depends on course relatedness.",
+          "Limitations": "Very small number of courses. Courses came from only two departments and five offerings, limiting generalizability.\n\n The study focuses on related compulsory courses with manually engineered feature alignment, so portability to more heterogeneous courses is uncertain. It is not an explicitly early-warning design, since prediction is based on course-level semester data rather than intermediate checkpoints. \n\nThere was also at least one non-improving transfer case, showing transfer learning is not universally beneficial."
+        }
+      ],
+      "provenance": {
+        "page_id": "e33616be-ee22-468f-ad4c-2d3747da47c9",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0016db0d",
+      "reference_id": "e33616be-ee22-468f-ad4c-2d3747da47c9",
+      "text": "Transfer Learning refers to the process of taking a model trained in one context and applying it to another. Authors attempt to perform transfer learning on educational data and thus obtain data from 5 compulsory courses of two undergraduate programs.",
+      "provenance": {
+        "page_id": "e33616be-ee22-468f-ad4c-2d3747da47c9"
+      }
+    },
+    {
+      "id": "an_17542745",
+      "reference_id": "e33616be-ee22-468f-ad4c-2d3747da47c9",
+      "text": "Results show that it is possible to use this approach. However, it requires datasets of students who have attended other related courses.\n\n",
+      "provenance": {
+        "page_id": "e33616be-ee22-468f-ad4c-2d3747da47c9"
+      }
+    }
+  ],
+  "workflow_states": []
+}

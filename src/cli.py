@@ -22,13 +22,13 @@ def _call_func_with_argv(func, argv: Sequence[str]):
 
 
 def cmd_export_snapshot(args):
-    from src.analysis import export_database_snapshot
+    from .analysis import export_database_snapshot
 
     export_database_snapshot(args.out, args.db)
 
 
 def cmd_parse_fixtures(args):
-    from src.services.reading_list_importer import main as _rl_main
+    from .services.reading_list_importer import main as _rl_main
 
     argv = []
     if args.input:
@@ -84,7 +84,7 @@ def _dedupe_bundles(bundles: list[dict[str, Any]]) -> list[dict[str, Any]]:
             else:
                 authors_str = str(authors)
             # lazy import to avoid heavy imports at module load
-            from src.analysis import normalize_title, normalize_authors
+            from .analysis import normalize_title, normalize_authors
 
             key = f"ta:{normalize_title(title)}|{normalize_authors(authors_str)}"
 
@@ -130,7 +130,7 @@ def cmd_zotero_citation(args):
         # Otherwise assume file is a Zotero item dict
         item = data
 
-    from src.analysis import citation_from_item
+    from .analysis import citation_from_item
 
     print(citation_from_item(item))
 

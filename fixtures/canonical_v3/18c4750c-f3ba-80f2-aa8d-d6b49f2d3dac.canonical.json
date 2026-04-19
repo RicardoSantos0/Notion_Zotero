@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac",
+      "title": "Predicting Student Performance in Higher Educational Institutions Using Video Learning Analytics and Data Mining Techniques",
+      "authors": [],
+      "year": null,
+      "journal": "Applied Sciences",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4256433e",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Passing or Failing the Course",
+          "Target": "Pass ( 0) vs Fail (1)",
+          "Students": "772 Omani students",
+          "Courses": "1 e-Commerce and a 1 e-Commerce Technologies courses",
+          "Data sources": "Academic History, \nLMS logs, \nVideo-Interactions, \nGrades in Course",
+          "Features": "[CGPA, Attempt Count, High Risk, Term Exceed at Risk, At Risk, Student Success Centre, Other Modules, Plagiarism Count, CW1, CW2, End Semester Examination, Activity on Campus, Activity off Campus, Played, Paused, Likes/Dislikes, Segment]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Target is numerical but dsiscretized in order to be usable in classfication.\n\nMost numerical variables, such as GPA were also discretized. Authors used Genetic Algorithms and/or PCA to do feature selection.\n\nComparison is done in terms of binning strategies and feature selection strategies. ",
+          "Models": "CN2 Rule Inducer, Random Forest, Logistic Regression, Decision Tree, kNN, Naive Bayes, MLP, SVM",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.883 - RF with equal-width binning and IG Feature Selection, Sensitivity: 1: MLPs and RF with GA , Specificity: 1: RF with GA, F1-Score:  0.933 - RF with equal-width binning and IG Feature Selection}",
+          "Comments": "Authors create multiple forms of preprocessing and look to compare how they perform. \n\nEssencially, the gfoal is to use video-watching behavior (eDify) to Predict student performance.",
+          "Limitations": "No early prediction - since prediction is done after all materials have been consulted.\n\nAccuracy as primary metric is not ideal in this sort of scenarios,\n\nLMS logs are underexplored as a feature,\n\nSmall sample size.\n\nPreprocessing strategies: the binning, is not a widely explored."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_9c4a3b25",
+      "reference_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac",
+      "text": "The paper looks at data from 772 students and tries to predict student performance at the end of the semester using video learning analytics and ML. The authors use data from SIS, LMS and mobile applications, use PCA and Genetic Search for feature selection and compare 8 distinct algorithms. RF achieved 88.3% accuracy and outperformed all other algorithms. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80f2-aa8d-d6b49f2d3dac"
+      }
+    }
+  ],
+  "workflow_states": []
+}

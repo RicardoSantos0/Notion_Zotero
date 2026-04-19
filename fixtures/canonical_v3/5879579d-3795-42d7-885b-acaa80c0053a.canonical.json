@@ -1,0 +1,97 @@
+{
+  "references": [
+    {
+      "id": "5879579d-3795-42d7-885b-acaa80c0053a",
+      "title": "A prediction model of student performance based on self-attention mechanism",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge and Information Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_35db84b6",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Failing in a Program",
+          "Target": "Pass (1) vs Fail ( 0)",
+          "Students": "20000 undergraduate students of Xi’an Jiaotong University",
+          "Courses": "Not Applicable",
+          "Data sources": "Library Access Control, Transaction Data, Attendance Data, Enollment Data, Student Characteristics, Academic History",
+          "Features": "[Student Number, Province, Entry Type, Gender, College, Graduate High School, Year of Enrollment, Course Category, Class number, Schedule Week, Credits, School Year Term, Grades, Credits, Dynamic Data Sequences from Campus Card]",
+          "Moment of Prediction": "Start of Term",
+          "Preprocessing Details": "The model includes a set of different modules: \n\n- Behavior Feature Extraction module. This module does 3 forms of aggregation in an hierarchical manner: daily, to weekly, to term - the highest resolution level.\n\nThe outputs of this module are fed as input to a mode difference module, which checks the similarity of between the current time step and the next time step for a specific feature. \n\nFinally, the ouptputs of these are given to a module that is meant to make the correction. ",
+          "Models": "Logistic Regression, Random Forest,\nGBoost, SVM, MSH-MD LSTM, MSH-LSTM",
+          "Assessment Strategy": "Holdout Method (80/20)",
+          "Performance Metric: Best Model": "{Precision: 0.54 - RF, Recall: 0.7413 - MSH-MD-LSTM , F1-Score: 0.5831 - MSH-MD LSTM}",
+          "Comments": "Authors propose a new model for the prediction of student performance based on 2 tasks: Classification and Regression.\n\nTo do that, the authors propose a deep learning architecture with multiple new modules: \n\n1. ! Module meant to extract the temporal features from the data source (card usages). These are attempted at diufferent levels of temporal granularity (day, week, term).\n\n2. One module meant to deal with sparsity of information that measures the difference in mode between one feature on the previous period and the current period (called the day-before feature extraction module.\n\nThese results are concatenated before being given as input to the prediction module. \n\nThe work compares the introduction of the 2 new models and compares their performance against that of other representations - MSH-MD LSTM outperforms all baselines.\n\nAblation study shgows that the mode difference module is relevant.",
+          "Limitations": "- Single Dataset\n\n- Unhelpful for early prediction since requires data from the term to be fully taken\n\n- Holdout Method\n\n- Difficult to generalize to different institutions - card data is extremely specific."
+        },
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "GPA",
+          "Target": "GPA grade",
+          "Students": "20000 undergraduate students of Xi’an Jiaotong University",
+          "Courses": "Not Applicable",
+          "Data sources": "Library Access Control, Transaction Data, Attendance Data, Enollment Data, Student Characteristics, Academic History",
+          "Features": "[Student Number, Province, Entry Type, Gender, College, Graduate High School, Year of Enrollment, Course Category, Class number, Schedule Week, Credits, School Year Term, Grades, Credits, Dynamic Data Sequences from Campus Card]",
+          "Moment of Prediction": "Start of Term",
+          "Preprocessing Details": "The model includes a set of different modules: \n\n- Behavior Feature Extraction module. This module does 3 forms of aggregation in an hierarchical manner: daily, to weekly, to term - the highest resolution level.\n\nThe outputs of this module are fed as input to a mode difference module, which checks the similarity of between the current time step and the next time step for a specific feature. \n\nFinally, the ouptputs of these are given to a module that is meant to make the correction. ",
+          "Models": "LinearRegression, Random Forest,\nGBoost, SVM, MSH-MD LSTM, MSH-LSTM",
+          "Assessment Strategy": "Holdout Method (80/20)",
+          "Performance Metric: Best Model": "{MSE 0.0070- MSH-MD LSTM, RMSE: 0.0836 - MSH-MD LSTM , MAE: 0.0526 - MSH-MD LSTM, RSquared: 0.4805}",
+          "Comments": "Authors propose a new model for the prediction of student performance based on 2 tasks: Classification and Regression.\n\nTo do that, the authors propose a deep learning architecture with multiple new modules: \n\n1. ! Module meant to extract the temporal features from the data source (card usages). These are attempted at diufferent levels of temporal granularity (day, week, term).\n\n2. One module meant to deal with sparsity of information that measures the difference in mode between one feature on the previous period and the current period (called the day-before feature extraction module.\n\nThese results are concatenated before being given as input to the prediction module. \n\nThe work compares the introduction of the 2 new models and compares their performance against that of other representations - MSH-MD LSTM outperforms all baselines.\n\nAblation study shgows that the mode difference module is relevant.",
+          "Limitations": "- Single Dataset\n\n- Unhelpful for early prediction since requires data from the term to be fully taken\n\n- Holdout Method\n\n- Difficult to generalize to different institutions - card data is extremely specific."
+        }
+      ],
+      "provenance": {
+        "page_id": "5879579d-3795-42d7-885b-acaa80c0053a",
+        "block_index": 13
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_dffb6788",
+      "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
+      "text": "The paper attempts to perform prediction for 2 distinct targets:",
+      "provenance": {
+        "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+      }
+    },
+    {
+      "id": "an_9020ca36",
+      "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
+      "text": "Contribution starts with the introduction of a novel way of representing behavioral features from campus card data. Second, the authors use a multi-head attention mechanism to automatically select the most important high-order combination features. Third, the authors propose a new predictive model that retains accuracy and robustness. ",
+      "provenance": {
+        "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+      }
+    },
+    {
+      "id": "an_1cf003f4",
+      "reference_id": "5879579d-3795-42d7-885b-acaa80c0053a",
+      "text": "Empyrical experiment is performed on data collected from a system in a chinese university. Model outpertms baseline models for both tasks. ",
+      "provenance": {
+        "page_id": "5879579d-3795-42d7-885b-acaa80c0053a"
+      }
+    }
+  ],
+  "workflow_states": []
+}

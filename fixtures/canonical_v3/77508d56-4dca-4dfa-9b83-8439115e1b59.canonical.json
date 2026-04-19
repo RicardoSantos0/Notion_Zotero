@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "77508d56-4dca-4dfa-9b83-8439115e1b59",
+      "title": "A General Purpose Anomaly-Based Method for Detecting Cheaters in Online Courses",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_697e6b1a",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-LEarning",
+          "Students": "2108 edX learners",
+          "Courses": "2 Physics Courses, 1 Biology Course",
+          "Data sources": "LMS logs",
+          "Theoretical Grounding": "Item Response Theory",
+          "Features": "[m.vtp, std.vtp, perc.vtp.watched, Guttman Error, ZU3, Guttman Error on response-time]",
+          "Preprocessing Details": "Authors extract features from videos and assessments and subsequently use LASSO regression on one of the versions of the Physics course. It returned 5 features as ideal and all models for all datasets were subsequently trained on this set of features.\n\n",
+          "Models": "",
+          "Performance Metric: Best Model": "",
+          "Groups Created": "",
+          "Cluster Description": "",
+          "Implications": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "77508d56-4dca-4dfa-9b83-8439115e1b59",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0f8a5adb",
+      "reference_id": "77508d56-4dca-4dfa-9b83-8439115e1b59",
+      "text": "Work focuses on identifying cheating behaviors in online courses. It treats cheater detection as a combination of anomaly detection AND supervised ML. Authors create behavioral features using literature and try to find anomalies. Results show that classifiers trained on data of cheating behabviors becomes effective at identifying cheating behaviors across different types of cheating and acrooss different courses.",
+      "provenance": {
+        "page_id": "77508d56-4dca-4dfa-9b83-8439115e1b59"
+      }
+    },
+    {
+      "id": "an_e6a683b2",
+      "reference_id": "77508d56-4dca-4dfa-9b83-8439115e1b59",
+      "text": "Authors run their 2 models on 5 runs of MITx MOOC. The contributions of paper are:",
+      "provenance": {
+        "page_id": "77508d56-4dca-4dfa-9b83-8439115e1b59"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "9ce53305-2dee-416d-b988-81884c3698c2",
+      "title": "Educational data mining: prediction of students' academic performance using machine learning algorithms",
+      "authors": [],
+      "year": null,
+      "journal": "Smart Learning Environments",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ab9d04de",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "Final Exam Score Categories",
+          "Target": "Grade<32.5 (1), 32.5<Grade<55 (2), 55<Grade<77.5(3), Grade>77.5 (4)",
+          "Students": "1854 university students",
+          "Courses": "1 Turkish Language Course",
+          "Data sources": "Student Infornation System",
+          "Features": "[Midterm Score, Faculty, Department]",
+          "Moment of Prediction": "After Midterm Exam",
+          "Preprocessing Details": "Grades are discretized into 4 different categories.\n\n",
+          "Models": "Naive Bayes, Random Forest, SVM, MLP, Logistic Regression, kNN",
+          "Assessment Strategy": "No Separation",
+          "Performance Metric: Best Model": "{AUC: 0.860 - RF, Accuracy: 0.746 - RF & MLP, F1-Score: 0.723 - MLP, Precision: 0.752 - RF, Recall: 0.746 - RF & MLP}",
+          "Comments": "Authors create a comparison of predictive models. \n\nAuthors do not perform any form of validation. ",
+          "Limitations": "- No validation\n\n- Does only consider Midterm exams.\n\n- Small dataset"
+        }
+      ],
+      "provenance": {
+        "page_id": "9ce53305-2dee-416d-b988-81884c3698c2",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_91ae5b97",
+      "reference_id": "9ce53305-2dee-416d-b988-81884c3698c2",
+      "text": "The goal of the paper is to create a predictive model that is able to predict final exam scores taking into consideration midterm exams.\n\nAuthors compare the performance of multiple different algorithms, SVM, RF, kNN, NB, etc… Sample includes data from a Turkish Language Course in the Fall of 2019/2020. Proposed model achievef 70 to 75% accuracy.",
+      "provenance": {
+        "page_id": "9ce53305-2dee-416d-b988-81884c3698c2"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,97 @@
+{
+  "references": [
+    {
+      "id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
+      "title": "A sequence data model for analyzing temporal patterns of student data",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Learning Analytics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c16d2ade",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "91 students",
+          "Courses": "1 introductory Computer Science course (Spring 2017)",
+          "Data sources": "LMS logs, Student characteristics, surveys, Course Assessments",
+          "Features": "[citizenship type, current age, employment type, gender, marital status, major, lab section/group, Weekly course data: class activities, lab activities, quizzes, lecture tests, assignments; Reflection features derived from LIWC sentiment analysis]",
+          "Moment of Prediction": "Weekly during the semester (17 weekly nodes + background + outcome)",
+          "Preprocessing Details": "Authors build a within-semester sequence model where each week is a node. Student data were organized into 19 nodes: 1 background node, 17 weekly nodes, 1 outcome node. In total, the model included 4 background features, 110 gradable test features, and 18 reflection features selected from LIWC sentiment measures. A progressive classification approach was used: at each week, an SVM classified students and recorded the distance to the decision boundary to create a temporal signature. Then a 3-degree polynomial curve was fit to the signature and the coefficients were used as temporal features. Temporal models were compared with non-temporal feature-vector models under different feature-group settings",
+          "Models": "SVM for progressive classification; polynomial curve fitting for signature feature extraction",
+          "Assessment Strategy": "10-fold cross-validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.9564 - SVM_tests+salient}",
+          "Comments": "Main contribution is proposing a sequence data model that explicitly preserves temporal dependencies instead of flattening student data into a static feature vector. In the within-semester case, temporal signatures built from weekly progression improved prediction of course success. Reflection-derived features were particularly useful, and the model is also presented as more interpretable through contextualization and “storytelling.”",
+          "Limitations": "Small sample and imbalanced dataset (only 12/91 failed). Strong methodological contribution, but not a direct comparison across many standard ML models. The predictive gains depend on the proposed temporal representation and signature-construction pipeline, which may be harder to operationalize than standard tabular models."
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Graduation on time",
+          "Target": "At-risk of not graduating on time vs successful on-time graduation",
+          "Students": "2574 students",
+          "Courses": "Computer Science major / College of Computing at UNC Charlotte",
+          "Data sources": "University student records, course records, LMS logs",
+          "Features": "[age, gender, citizenship type, ethnicity, marital status, previous institution, previous school GPA, previous school rank and size, Semester data: courses taken, course grades, academic information such as major/advisor; Statistical features: % courses with A–D, % F courses, average course level, % IT courses with A–D, % IT courses with F, average IT course level; salient temporal features included course level and/or course grade]",
+          "Moment of Prediction": "Every semester across the degree program",
+          "Preprocessing Details": "Authors build a between-semester sequence model with an initial background node, semester nodes, and an outcome node. They limited analysis to undergraduate students who spent 8 or more semesters at UNC Charlotte and selected CS as their major at some point. To generate temporal signatures, they used progressive clustering with HDBSCAN on semester nodes and recorded the percentage of at-risk students in the cluster for each semester. Then they fit a 3-degree polynomial curve to the signature and used the coefficients as temporal features. Temporal models were compared with non-temporal ones across 3 feature-group settings.",
+          "Models": "HDBSCAN for progressive clustering; SVM for final classification on extracted temporal features",
+          "Assessment Strategy": "10-fold cross-validation",
+          "Performance Metric: Best Model": "{Accuracy: 0.9720 - SVM}",
+          "Comments": "The paper argues that course level progression is a stronger temporal predictor than course grade for degree-level risk prediction. This is one of the more distinctive papers in your set because it explicitly models temporal structure and compares it against non-temporal baselines using the same data. The sequence representation also supports narrative interpretation of student progression.",
+          "Limitations": "Not really an “early warning” paper in the short-term sense, since the between-semester model focuses on longer academic trajectories. It is also tied to a fairly elaborate custom sequence/signature pipeline rather than off-the-shelf predictive models. The sample is restricted to one institution and one major context."
+        }
+      ],
+      "provenance": {
+        "page_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0c6d9a4c",
+      "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
+      "text": "Authors propose the introduction of temporal data in models meant to predict student performance. Authors show that within- and between-semester features could be utilized to predict success.",
+      "provenance": {
+        "page_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae"
+      }
+    },
+    {
+      "id": "an_8923a913",
+      "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
+      "text": "Authors show effectiveness of approach by using a sample of 10 years of data collected from UNC Charlotte for between-semester interactions. Within-semester activities were measured using an introductory course in Computer Science. ",
+      "provenance": {
+        "page_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae"
+      }
+    },
+    {
+      "id": "an_602668c2",
+      "reference_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae",
+      "text": "Results show that temporal model outperforms models who do not use these temporal features.",
+      "provenance": {
+        "page_id": "a522f6f0-8390-48cf-a94f-d4ce65f335ae"
+      }
+    }
+  ],
+  "workflow_states": []
+}

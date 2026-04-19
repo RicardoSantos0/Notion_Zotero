@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
+      "title": "Monitoring Student Progress for Learning  Process-Consistent Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_a9ae6253",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "",
+          "Student Performance Definition": "Performance on next exercise",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "29018 ASSISTments2012 learners, 1709 ASSISTmentsChall learners, 78431 EdNet-KT1 learners",
+          "Courses": "ASSISTments, Santa",
+          "Data sources": "Exercise and Answer Sequences, LMS logs, Time between exercises",
+          "Features": "[Learning unit (E-AT-A), interval time, learner embedding]",
+          "Flaw of Previous Models": "Most KT approaches achieve good accuracy from sequences of exercises, but pay little attention to effectively monitoring knowledge states → often the knowledge states are not consistent with the learning process → learners can gain knowledge whether they get a question right or wrong → what can change is the pace at which knowledge is gained.\n\nMoreover, most approaches do not account for obvious factors of learning progress such as forgetting. ",
+          "Novelty of Model": "The authors propose a framework that continuously monitors how a student progresses.\n\nTo do that, the authors formalize:\n\n- Basic Learning unit as tuple: Exercise-answer time-Answer\n\n- Learning Gains as normalized difference between post and pre test scores → positive effect on learning progress\n\n- Forgetting as a temporal decay - negative progress \n\n- Student progress as the result of both effects.",
+          "Preprocessing Details": "The model is composed of 3 modules. For any given timestep:\n\nA Learning gain module followed by a Forgetting Module and Finally a prediction module.\n\nEach learner is represented by an embedding vector which encodes the learning progress of the student.\n\nThere is a Q matrix that encodes exercises and knowledge concepts.\n\nLPKT-S additionally adds a set of student-specific features.",
+          "Models": "DKT, DKT+, DKVMN, SAKT, CKT, AKT, LPKT, LPKT-S",
+          "Assessment Strategy": "5-Fold Cross-Validation",
+          "Performance Metric: Best Model": "AST12\n{RMSE: 0.4065 - LPKT-S, R-Squared: 0.2195 - LPKT-S, AUC: 0.7803 - LPKT-S, Accuracy: 0.7584- LPKT-S}\n\nASTChall\n{RMSE:  0.4160 - LPKT-S, R-Squared: 0.2558 - LPKT-S, AUC: 0.7979 - LPKT-S, Accuracy: 0.7420- LPKT-S}\n\nEdNet-KT1\n{RMSE:  0.4261 - LPKT-S, R-Squared: 0.1976 - LPKT-S, AUC:  0.7662 - LPKT-S, Accuracy:  0.7259- LPKT-S}",
+          "Comments": "Author pros«pose a new model that assists in the continuous modelling of student progress by the addition of different modules. \n\nResults on the 3 datasets show that the model beats AKT which was, at the time, the state of the art model.\n\nAuthors also perform ablation studies to check the impact of the presence/absence of the different modules:\n\n- Forgetting has noticeable negative impact in student performace.\n\n- Modelling learning gains achieves better predictive performance than merely modelling outcomes.\n\n- Interval time and answer time are essential information for modelling.\n\nAuthors also perform exercise clustering.",
+          "Limitations": "Room for improvement in the representation of Q-matrix.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
+        "block_index": 9
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_3f0b3d7a",
+      "reference_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
+      "text": "KT is about tracing a student’s knowledge at any given moment with the rationale that knowing what a student knows and where the knowledge is lacking allows for more effective and efficient pedagogical activities. Most methods assess the correctness of the knowledge model by checking how well the model predicts CFA. However, it does not account for whether the students’ learning process maps into the inferred knowledge state.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1"
+      }
+    },
+    {
+      "id": "an_f3523b85",
+      "reference_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1",
+      "text": "The paper explores Learning Process-consistent KT (LPKT), a model that monitors the learning process. The model incorporates parameters to account for learning gains and forgetting. They add a new constraint to their model to account for student-specific learning rates. Results on 3 public datasets show hat PLKT and LPKT-S outperformed State-of-the-art models.",
+      "provenance": {
+        "page_id": "18b4750c-f3ba-807b-8f2d-cd625bdc13f1"
+      }
+    }
+  ],
+  "workflow_states": []
+}

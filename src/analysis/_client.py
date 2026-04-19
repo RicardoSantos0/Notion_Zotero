@@ -12,8 +12,17 @@ import time
 from typing import Any, Callable, TypeVar
 
 from dotenv import load_dotenv
-from notion_client import Client
-from notion_client.errors import APIResponseError
+# Lazy import of the Notion SDK to avoid requiring it at module import time when
+# running tests or offline inspections. If the SDK is not available we provide
+# a light fallback for the exception type so callers can still be imported.
+try:
+    from notion_client import Client  # type: ignore
+    from notion_client.errors import APIResponseError  # type: ignore
+except Exception:  # pragma: no cover - environments without notion-client
+    Client = None  # type: ignore
+
+    class APIResponseError(Exception):
+        pass
 
 load_dotenv()
 
@@ -79,8 +88,10 @@ def _backoff_seconds(attempt: int) -> int:
 # Client construction
 # ---------------------------------------------------------------------------
 
-def get_notion_client() -> Client:
+def get_notion_client() -> Any:
     """Build an authenticated Notion SDK client."""
+    if Client is None:
+        raise RuntimeError("notion-client package not installed; install it to use Notion connectors")
     return Client(auth=_get_notion_token())
 
 
@@ -157,7 +168,7 @@ def get_block_id(block_id: str | None = None) -> str:
 # ---------------------------------------------------------------------------
 
 def _sdk_request(
-    client: Client,
+    client: Any,
     method: str,
     path: str,
     *,
@@ -210,7 +221,7 @@ def _collect_paginated_results(
 # Platform data source helper
 # ---------------------------------------------------------------------------
 
-def _get_platform_ds_id(client: Client, database_id: str) -> str | None:
+def _get_platform_ds_id(client: Any, database_id: str) -> str | None:
     """Return the active (non-archived) data source ID for a database."""
     database = _call_with_retry(
         f"databases.retrieve({database_id})",
@@ -229,7 +240,7 @@ def _get_platform_ds_id(client: Client, database_id: str) -> str | None:
     return None
 
 
-def _resolve_query_target_id(client: Client, database_id: str) -> str:
+def _resolve_query_target_id(client: Any, database_id: str) -> str:
     """Resolve the most compatible query target for the installed Notion API version."""
     data_source_id = _get_platform_ds_id(client, database_id)
     if data_source_id:
@@ -237,7 +248,7 @@ def _resolve_query_target_id(client: Client, database_id: str) -> str:
     return database_id
 
 
-def _wait_for_platform_ds(client: Client, database_id: str, max_wait_seconds: int = 30) -> str | None:
+def _wait_for_platform_ds(client: Any, database_id: str, max_wait_seconds: int = 30) -> str | None:
     """Poll until the platform `data_source` for `database_id` is available or timeout."""
     try:
         max_wait = int(os.getenv("NOTION_DS_WAIT_SECONDS", str(max_wait_seconds)))

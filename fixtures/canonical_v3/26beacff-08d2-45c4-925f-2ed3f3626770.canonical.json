@@ -1,0 +1,89 @@
+{
+  "references": [
+    {
+      "id": "26beacff-08d2-45c4-925f-2ed3f3626770",
+      "title": "Predicting individual learning performance using machine‐learning hybridized with the teaching‐learning‐based optimization",
+      "authors": [],
+      "year": null,
+      "journal": "Computer Applications in Engineering Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_19ae8bdb",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Exam Result",
+          "Target": "Pass (1) vs Fail (0)",
+          "Students": "3452 students from OULAD",
+          "Courses": "1 course",
+          "Data sources": "Student Characteristics, Assessment Scores, LMS logs",
+          "Features": "[Gender, Age, Disability, Qualification, Previous Attempts, Credit Points, Engagemente Level, Assessment 1, Assessment 2, Assessment 3, Assessment 4, Assessment 5, Assessment 6]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "TLBO is metaheuristic optimization algorithm that is population based.\n\nIt has a teacher stage and a learner stage. ",
+          "Models": "SVM, MLP",
+          "Assessment Strategy": "20-Repeated Hooldout",
+          "Performance Metric: Best Model": "{Precision: 0.9465 - SVM, Recall: 0.8674 - MLP, Accuracy: 0.8610, FM: 0.90 - SVM, F1-Score: 0.9032 - SVM, MCC - 0.67 - SVM}",
+          "Comments": "Authors use the TLBO algorithm to perform optimization.  \n\nAuthors create their models and, later, perform a sensitivity analysis.",
+          "Limitations": "- LMS logs are considered useful online but not in other contexts\n\n- Small number of tested predictive algorithms\n\n- No benchmarking against other forms of preprocessing"
+        },
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Final Exam Result",
+          "Target": "Exam Score",
+          "Students": "3452 students from OULAD",
+          "Courses": "1 course",
+          "Data sources": "Student Characteristics, Assessment Scores, LMS logs",
+          "Features": "[Gender, Age, Disability, Qualification, Previous Attempts, Credit Points, Engagemente Level, Assessment 1, Assessment 2, Assessment 3, Assessment 4, Assessment 5, Assessment 6]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "TLBO is metaheuristic optimization algorithm that is population based.\n\nIt has a teacher stage and a learner stage. ",
+          "Models": "SVM, MLP",
+          "Assessment Strategy": "20-Repeated Hooldout",
+          "Performance Metric: Best Model": "{RMSE: 0.1580 - SVM, SI: 0.25 - MLP, MBE: -0.26 - SVM, MAE: 12.81 - SVM, R: 0.54 - SVVM}",
+          "Comments": "Authors use the TLBO algorithm to perform optimization. \n\nAuthors create their models and, later, perform a sensitivity analysis.",
+          "Limitations": "- LMS logs are considered useful online but not in other contexts\n\n- Small number of tested predictive algorithms\n\n- No benchmarking against other forms of preprocessing"
+        }
+      ],
+      "provenance": {
+        "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_38a51eaf",
+      "reference_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
+      "text": "Authors perform prediction of exam performance by hybridizing an SVM and an ANN with a teaching-learning-based optimizer. ",
+      "provenance": {
+        "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+      }
+    },
+    {
+      "id": "an_42be40be",
+      "reference_id": "26beacff-08d2-45c4-925f-2ed3f3626770",
+      "text": "TLBO is an algorithm that, in this experiment, performs feature selection and selects the optimal ANN arquitecture. The contributions of the paper are the hydridization of ML models for the task of predicting at risk students and the introduction of TBLO. There is no mention about moment of prediction or whether the models are any good. ",
+      "provenance": {
+        "page_id": "26beacff-08d2-45c4-925f-2ed3f3626770"
+      }
+    }
+  ],
+  "workflow_states": []
+}

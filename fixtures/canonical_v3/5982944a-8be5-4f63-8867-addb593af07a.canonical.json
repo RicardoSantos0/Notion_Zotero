@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "5982944a-8be5-4f63-8867-addb593af07a",
+      "title": "AutoML Feature Engineering for Student Modeling Yields High Accuracy, but Limited Interpretability",
+      "authors": [],
+      "year": null,
+      "journal": "Journal of Educational Data Mining",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d7806d32",
+      "reference_task_id": null,
+      "schema_name": "Summary Table",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "K-12 / Large-Scale Digital Assessment",
+          "Teaching Method": "Not Applicable",
+          "Student Performance Definition": "Assessment behavior / Time-management performance",
+          "Target": "Efficient (positive class) vs Not efficient in block B",
+          "Students": "2464 8th-grade students; 1232 labeled training instances and 1232 holdout instances",
+          "Courses": "NAEP Mathematics assessment (two-block assessment)",
+          "Data sources": "Assessment interaction logs from block A",
+          "Features": "AutoML and expert-engineered log features. TSFRESH: time-series features from seconds per action, seconds per problem, seconds per item, and seconds per action in the last 5 minutes. Featuretools: hierarchical/relational features aggregated at student level from row-, item-, and student-level tables. Expert features: time per item, number of actions, answer-popularity features, first/last-5-minute features.",
+          "Moment of Prediction": "Prediction made after block A to predict behavior in block B; separate models for first 10 minutes, first 20 minutes, and full 30 minutes of block A",
+          "Preprocessing Details": "Organizers provided only block A logs, while labels were derived from block B. Data were split into train/holdout. Authors created matched 10-, 20-, and 30-minute versions of the training data. TSFRESH default feature extraction yielded 467/516/460 features; Featuretools yielded 2980 per time length; expert features yielded 644/647/990. Authors proposed a multi-phase feature selection procedure: one-feature CART models with 4-fold CV and AUC filtering, removal of features predictive of train-vs-holdout membership, then correlation-based redundancy removal. Final selected feature sets had 413, 517, and 530 features.",
+          "Models": "Extra-Trees, Random Forest, XGBoost ",
+          "Assessment Strategy": "Competition holdout evaluation; internal 4-fold cross-validation on training data; Bayesian hyperparameter optimization; final submission scored on held-out NAEP competition leaderboard",
+          "Performance Metric: Best Model": "{Final leaderboard: Cohen’s kappa = 0.2116, AUC = 0.6653, Aggregate score = 0.5422; Public leaderboard: Cohen’s kappa = 0.2799, AUC = 0.6676, Aggregate score = 0.6351}",
+          "Comments": "This is a student-modeling / behavioral prediction paper rather than a classic academic-performance paper. The outcome is explicitly time management skill, not assessment score. The paper’s main contribution is methodological: comparing AutoML feature engineering approaches. TSFRESH features outperformed Featuretools and expert-engineered features on average, but were also the hardest to interpret.",
+          "Limitations": "Outcome is not a conventional academic success variable. Potential overfitting/generalizability concerns are suggested by the gap between public and final leaderboard results. AutoML features may be dataset- and software-specific. Interpretability analysis is exploratory and based on only six experts."
+        }
+      ],
+      "provenance": {
+        "page_id": "5982944a-8be5-4f63-8867-addb593af07a",
+        "block_index": 8
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_c028c4eb",
+      "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
+      "text": "Authors use AutoML to extract features in context of the NAEP data mining competition. In particular, 2 different packages are tested: FeatureTools and TSFRESH. ",
+      "provenance": {
+        "page_id": "5982944a-8be5-4f63-8867-addb593af07a"
+      }
+    },
+    {
+      "id": "an_b43d92b3",
+      "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
+      "text": "Thus, Bosch creates predictive models using the features extracted via the AutoML packages and compare how they perform against the features extracted from expert knowledge. The approach got 3rd on final kaggle scores and first in the public data.",
+      "provenance": {
+        "page_id": "5982944a-8be5-4f63-8867-addb593af07a"
+      }
+    },
+    {
+      "id": "an_5bb203a1",
+      "reference_id": "5982944a-8be5-4f63-8867-addb593af07a",
+      "text": "More specifically, TSFRESH revealed to be the package that got the best features, even if at the expense of interpretability. ",
+      "provenance": {
+        "page_id": "5982944a-8be5-4f63-8867-addb593af07a"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,303 @@
+{
+  "references": [
+    {
+      "id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "title": "Participation-based student final performance prediction model through interpretable Genetic Programming: Integrating learning analytics, educational data mining and theory",
+      "authors": [],
+      "year": null,
+      "journal": "Computers in Human Behavior",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d3d2e000",
+      "reference_task_id": null,
+      "schema_name": "Summary Table",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Unspecified",
+          "Teaching Method": "Computer Supported Collaborative Learning",
+          "Student Performance Definition": "Course-Learning Outcomes obtained via Clustering",
+          "Target": "At-risk, \nSufficient, \nAverage,\nGood,\nExcellent",
+          "Students": "122 students",
+          "Courses": "1 Geometry-related course split into 4 modules",
+          "Data sources": "LMS logs",
+          "Features": "[Object, Subject, Tools, Community, Rules, Division of Labor]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "On a first level, the logs were categorized when it comes to 4 participation dimensions.\n\nThe preprocessed dataset was then classified according to one of the 6 features used.\n\nTarget variable was obtained from clustering analysis. Clusters used as input human-evaluated assessments of each student’s achievement.",
+          "Models": "GP-IRCM\nNNge\nRandom Tree\nLogistic Regression\nPerceptron\nNaive Bayes\n",
+          "Assessment Strategy": "10-Repeat 10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Overall:\n\n{Fitness: 0.802 -IGP-IRCM, Recall: 0.803 - IGP-IRCM, Specificity: 0.803 - IGP-IRCM}\n\nAt Risk:\n\n{Fitness: 0.947 -Naive Bayes, Recall: 0.900 - Naive Bayes, Specificity: 1.000 - Naive Bayes}",
+          "Comments": "Authors present a theory-driven approach that tries to optimize performance and prediction in a CSCL setting.\n\nThe work starts with the categorization of learning activities on Geogebra according to participation dimensions. These dimensions help a secondary categorization of the features into the Activity Theory constructs.\n\nThese are then used to predict the performance labels that result from clustering. \n\nDifferent algorithms are compared and the difference in performance between GP and other candidate algorithms is done using a t-test. Metrics are evaluated as an aggregate (all 5 labels) and specifically for the at-risk label.\n\nGP ICRM outperforms all other options when it comes to overall predictions. Naive Bayes, however, outperforms the remaining models.\n\nAuthors follow up with an analysis of the understandability of the models:\n\nRandom Tree and GP ICRM are the best models on this mark.\n\nResults show that student participation can be used to predict student performance. \n",
+          "Limitations": "Level of students is not mentioned → different levels of education usually exhibit different behaviors. \n\nNo early prediction.\n\nAlleged ease of use requires extensive pre-classification of learning activities into the activity theory constructs.\n\nSmall sample size  and baseline models selected for comparison are all rather “simple”.\n\nPerformance labels are inferred by a clustering algorithm.\n\nNo assessment of quality of work generated into the features.\n\nDifficult to reproduce if unfamiliar with the VMT environment.\n\n\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+        "block_index": 58
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_7a6eaa0c",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Common issues with predictive models of student performance stem from lack of practicality and/or interpretability.  Authors review and propose a different approach to creating predictive models that is, they argue, more usable.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_ca6d43bf",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Authors quantify student participation in the environment as one of 6 different variables. The authors argue that this classification of activities into different variables differentiates them from other approaches as it provides context to the interactions. Then, the authors use Genetic Programming to predict student performance (thus far unspecified). The proposed model outperforms other models in prediction rate and interpretability. ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_b768e675",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Current methods of early detection of students at risk often circle around the notion of detecting at-risk vs not at risk. However, it would be helpful to create models that assist all students → not only those at risk. This would expedite the roles of assessments. ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_a7e73be5",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Prior work on performance prediction has usually involved the employment of either Statistical or Data Mining Techniques, but these methods have limitations:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_2ef983fa",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Interpretability is important in early-wrning systems because these are meant to be decision-support systems → meaning that the humans need to trust the model. Also, it will not be helpful for the purposes of telling professors what should be changed in order to improve the prediction. Without these, the authors argue that it would be impossible to explore personalized education.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_d500ee78",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "As mentioned, previous work often involves the use of non-interpretable models and a very simple binary flag of at-risk vs not at-risk. This causes concern because these early-warning systems can soon become tools to intervene only on those who fail→punitive interventions. Another common limitation is the lack of theory embedding in the models, both the models used for prediction as the ones used for e-g- feature selection. ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_28267757",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "This is seen by the authors as a huge flaw, calling for the development of a principled, theory-based method for the synthetizing of factors from factors.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_f1d6869c",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The authors intend to use a Genetic Algorithm for predictions, arguing that it offers a good tradeoff between predictive power and interpretability. To provide interpretability to actions, authors draw from Hratsinski model of online learning as essencial towards learning. For that, the authors label activities according to 6 different possible aspects. The 6 aspects are then gfiven as inputs to the GA.\n\nThe endpoint of the work is a Predictive Model that achieves good performance using 6 different features and that allows educators to understand the causes for a specific prediction.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_492dec01",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Data sources for early warning systems  often involve the use student information, learning management systems and/or financial information system. With time, the encoding of this data may change → encoding of learning activities for example.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_59ac56e9",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": " Most of the models used, such as neural networks or SVM are called black-box models, as they focus on predictive power and not interpretability. There are, however, some studies with white-box models with a much higher emphasis on understanding reasons behind a prediction: for example Bayesian networks. However, these pale in comparison to Decision Tree-based or Rules-based models. ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_9959423d",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Still, non-parametric models tend to require a lot more data than parametric ones, which is an increased hardship in educational contexts (likely with the exception of MOOCs). GP appears as an elegant alternative that provides interpretability while working reasonably well on smaller datasets. Thus, the authors attempt to use GP to balance multiple constraints:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_78aa7126",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Knowledge is a construct that is manifested not only in minds but communication, interaction, theories and models. Online participation specifically is regarded by Hrastinski as the most important variable in online learning. As such, he proposed a theoretical model for online learning participation containing the following variables:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_cf49e655",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "A framework that links individual and social behavior. According to it, learning is a joint activity of learners, tools and tools. Learning is thus a result of social participation, not mere practice. It involves 6 constructs:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_0efbe279",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Analysis of the logs of a math course comprised of 4 modules. In total, the course had 122 students. All activities took place in a Computer-Supported Collaborative Learning environment. The logs from GeoGebra categorizes data in different event types: Awareness, Geogebra, System, Chat and Whiteboard. From these logs, the authors created new measures of participation:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_1195eb75",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "From these 4 categorizations, the authors make a subsequent classification into the 7 constructs of Activity Theory:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_e9ab505f",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "These 6 new constructs are then the features for the predictive model, which as mentioned before, will be the students’ performance resulting from the clustering approach. An preliminary look at the final form of the features is presented below:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_94b319c2",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "GP tests different candidate prediction models, in this case Rules-based models, and assesses their fitness. Then, it iterates over multiple generations in order to minimize the fitness of the candidate solutions. The authors consider the use of 3 genetic operations: cross-over, selection and mutation.",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_808f7b58",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The authors draw from previous work on a model call Genetic Programming Interpretable Classification Rule Mining. This model presents 3 advantages:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_6574a589",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Fitness Function",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_623255d6",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The fitness function uses 2 metrics: Sensitity (Recall) and Specificity (Recall, but for negatives). ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_32259dfd",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "To provide a better balance, the final form of the Fitness function is as follows:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_ae18c494",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The final algorithm can be summarized in the following steps:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_a65af9fc",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The authors test the GP-IRCM against other classifiers:",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_71c4c0cc",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Nearest-Neighbor Generalized Exemplars - a sort of rules-based nearest neighbor algorithm",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_d3c0f393",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Random Tree",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_3f522747",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Naive Bayes",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_5860f588",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Perceptron",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_af1bd0cb",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "Logistic Regression",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_729f1f99",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The scores on each construct give an immediate understanding to the instructor into which dimensions each student is struggling more (as loing as they are familiar with Activity Theory). ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_5d905387",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The results show that the GP ICRM algorithm outperforms all other options on all metrics, at the level of overall predictions. Moreover, it is only superseded in the identification of students at risk by the Naive Bayes classifier. ",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    },
+    {
+      "id": "an_79a0ef54",
+      "reference_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1",
+      "text": "The authors followup with a sample showcase of a model built using GP IRCM as it is the model that generated less rules and the simpler rules (even though IMHO the interpretability of these constructs hinges so much on theoretical understanding of the constructs that it sort of looses its mark).",
+      "provenance": {
+        "page_id": "07693b77-012d-41f4-a33e-7e9b3cfa22f1"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,89 @@
+{
+  "references": [
+    {
+      "id": "37e165b9-900c-4986-acc7-2b8ba2298261",
+      "title": "Effects of Internal and External Conditions on Strategies of Self-regulated Learning: A Learning Analytics Study",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_a0e2d180",
+      "reference_task_id": null,
+      "schema_name": "Summary Table DESC",
+      "extracted": [
+        {
+          "Task": "Process Mining",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "173 MSc Students",
+          "Courses": "1 Academic Writing Course",
+          "Data sources": "LMS Logs, \nMESH Questionnaire, Pre-Test, Pre-Survey, Post-Test, Transfer Test, Post Survey",
+          "Theoretical Grounding": "Winne and Hadwin SRL Model",
+          "Features": "[17 Learning Actions]",
+          "Preprocessing Details": "Authors use the MESH questionnaire to see how they perceive different strategies to be effective or not. \n\nIIn total, the authors identified 24053 instances of SRL processes in their sample. \n\nThese were made to compute the transition probabilities between different actions.",
+          "Models": "First-Order Markov Model",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "-",
+          "Cluster Description": "-",
+          "Implications": "-",
+          "Comments": "80 participants from the original 253 student sample were excluded.\n\nFOMM were exclusively used to extract sequences of learning behaviors and mapping them to the SRL Processess.\n\nThese were subsequently clustered.",
+          "Limitations": "  • Findings on external conditions may be biased due to the amount of removed participants.\n\n  • Unclear student motivations to perform task (i.e. learners may have intended to just get a good grade)."
+        },
+        {
+          "Task": "Clustering",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "173 MSc Students",
+          "Courses": "1 Academic Writing Course",
+          "Data sources": "LMS Logs, \nMESH Questionnaire, Pre-Test, Pre-Survey, Post-Test, Transfer Test, Post Survey",
+          "Theoretical Grounding": "Winne and Hadwin SRL Model",
+          "Features": "[SRL Processes as Identified by FOMM]",
+          "Preprocessing Details": "The SRL processes were identified and mapped according to COPES. ",
+          "Models": "Expectation-Maximization",
+          "Performance Metric: Best Model": "-",
+          "Groups Created": "3",
+          "Cluster Description": "Cluster 1: Read First, Write Next: - 91 members: Reads materials first and then starts composing essays. They rarely go back to read the instructions. These ere the ones that performed better (even if slightly).\n\nCluster 2: Read and Write Simultaneously - 48 members:  Tended to alternatte more often between reading description and writing materials (to make sure).\n\nCluster 3: Reading with Quiz: Reads materials with intention of passing on the Quiz.",
+          "Implications": "Encouraging learners to Read First and Write next mildly promote the development of knowledge transfer. ",
+          "Comments": "80 participants from the original 253 student sample were excluded.\n\nAuthors check differences between groups using the ANOVA test and, when normality is not ensured using Kruskall-Wallis ",
+          "Limitations": "• Findings on external conditions may be biased due to the amount of removed participants.\n\n  • Unclear student motivations to perform task (i.e. learners may have intended to just get a good grade)."
+        }
+      ],
+      "provenance": {
+        "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_82c439cd",
+      "reference_id": "37e165b9-900c-4986-acc7-2b8ba2298261",
+      "text": "Interpreting SRL attributes merely from behavior is challenging due to potential differences in task and context. Authors propose a new method to extract SRL processes to a dataset of a multi-source writing task. ",
+      "provenance": {
+        "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+      }
+    },
+    {
+      "id": "an_0b0d49fd",
+      "reference_id": "37e165b9-900c-4986-acc7-2b8ba2298261",
+      "text": "Authors relate the strategies to outcome, internal and external conditions. Ultimately, they identify 3 learning strategies. ",
+      "provenance": {
+        "page_id": "37e165b9-900c-4986-acc7-2b8ba2298261"
+      }
+    }
+  ],
+  "workflow_states": []
+}

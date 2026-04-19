@@ -1,0 +1,77 @@
+{
+  "references": [
+    {
+      "id": "eca0c756-cace-4359-ae29-ca4daa4bd057",
+      "title": "Insights into undergraduate pathways using course load analytics",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_f03b7f1c",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "Not Applicable",
+          "Recommender System Type": "Predictive Analytics (ML-based workload estimation)",
+          "Target of Recommendation": "Course load predictions to inform course selection",
+          "Students": "128 students for survey (596 ratings); 58,325 student-semester pairs for longitudinal analysis (9,106 students from Fall 2017 cohort)",
+          "Courses": "332 courses with ratings; ~10,000 courses in full catalog; 4,305 courses analyzed for discrepancy",
+          "Data sources": "Survey data (ground truth: time load, mental effort, psychological stress ratings on 5-point Likert scales); Canvas LMS data (Spring 2017-2021); Enrollment records; course2vec embeddings",
+          "Initialization Method": "Not applicable - supervised learning on surveyed course ratings. Models trained on 85% of 332 rated courses (5-fold CV); 15% held out for testing. Random search hyperparameter tuning (N=25 draws)",
+          "Updates to Recommendations": "Static model - trained once on Spring 2021 survey data, then scaled to historical enrollments. For courses missing LMS data in a semester, imputed via average predictions across semesters with available data (12.56% of offerings, avg 2.80 course iterations)",
+          "Preprocessing Details": "LMS features (31 total): assignments (13; deadlines, count), submission comments (4; response rate, size), forum posts (14; reply speed, frequency). Enrollment features: credit hours, course GPA/SD, grade distributions, STEM status, prerequisites (total, satisfied in current/past semesters). course2vec: 300-dim embeddings + average prerequisite vectors. Missing LMS data: control variable imputation (keep 0s, add binary indicator) outperformed k-means. Averaged multiple ratings per course (1.80 avg) before training.",
+          "Recommendation types": "Course-level workload predictions on continuous 5-point scale for: time load, mental effort, psychological stress, combined (average of 3). Scaled to predict semester load (PCL_sem) by summing course predictions per student per semester",
+          "Evaluation": "Cross-validation: MAE, % improvement over mean baseline. Test set: MAE with 95% CI via bootstrap (N=1,000). Longitudinal: compared PCL_sem vs credit hours across semesters, STEM vs non-STEM, transfer vs non-transfer. Stop-out & delayed graduation: logistic regression (AUC, McFadden's R², likelihood-ratio tests). Discrepancy analysis: partial correlations controlling for credit hours",
+          "Comments": "Ensemble model best for combined load: 21.9% improvement, MAE=0.626. Mental effort most predictive (18.2% improvement). Time load hardest (10% improvement). First semester highest by PCL_sem but lowest by credit hours. STEM courses show higher positive discrepancy (predicted > credit hours; M=0.54 vs -0.35 non-STEM). Students with low credit/high PCL_sem more likely to stop out (R²=0.39% vs 0.21% credit-only). Prerequisites most associated with discrepancy (r=0.54 for satisfied prereqs). High-discrepancy STEM courses (>2 SD) linked to stop-out. Average prerequisite course2vec explained more discrepancy variance (R²=0.75) than course's own vector (R²=0.63)",
+          "Limitations": "No real-world deployment/intervention testing - can't confirm if CLA-informed decisions improve outcomes. Survey data from single semester (Spring 2021) at one institution (UC Berkeley). Simple semester load = sum of course predictions (no temporal granularity for assignment deadline overlaps). Models explain little variance in stop-out (AUC=0.57) and delayed graduation (AUC=0.55) directly. Credit hour adjustment suggestion (0.40 units) based on inference, not tested. Selection bias: AP credit holders may appear to have fewer satisfied prerequisites. Privacy constraints excluded assignment content analysis. Scale reliability moderate; needs more items for time load/stress subscales. Generalizability unknown across institutions/demographics"
+        }
+      ],
+      "provenance": {
+        "page_id": "eca0c756-cace-4359-ae29-ca4daa4bd057",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_335cced8",
+      "reference_id": "eca0c756-cace-4359-ae29-ca4daa4bd057",
+      "text": "Course Load Analytics is a more accurate representation of course-work than credit hours. The study uses data from course catalogs of a public university and create a machine-learning model meant to predict course-load ratings. Analysis of results shows that students experiencing greater course-load are more likely to dropout - especially in STEM and other fields that have a very high pre-requisite burden of knowledge. ",
+      "provenance": {
+        "page_id": "eca0c756-cace-4359-ae29-ca4daa4bd057"
+      }
+    },
+    {
+      "id": "an_f6caf6e0",
+      "reference_id": "eca0c756-cace-4359-ae29-ca4daa4bd057",
+      "text": "Work is meant to help administrators create better recommendations of courses to their students. ",
+      "provenance": {
+        "page_id": "eca0c756-cace-4359-ae29-ca4daa4bd057"
+      }
+    },
+    {
+      "id": "an_d915b71f",
+      "reference_id": "eca0c756-cace-4359-ae29-ca4daa4bd057",
+      "text": "\n",
+      "provenance": {
+        "page_id": "eca0c756-cace-4359-ae29-ca4daa4bd057"
+      }
+    }
+  ],
+  "workflow_states": []
+}

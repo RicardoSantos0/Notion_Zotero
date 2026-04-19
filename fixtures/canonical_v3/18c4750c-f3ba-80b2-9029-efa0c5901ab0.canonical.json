@@ -1,0 +1,89 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
+      "title": "Prediction of Dilatory Behavior in eLearning: A Comparison of Multiple Machine Learning Models",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_dca547b0",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Delay in Submission",
+          "Target": "Delay vs Timely Submission",
+          "Students": "134 from a Central European University",
+          "Courses": "126 online courses",
+          "Data sources": "Questionnaires, LMS logs",
+          "Features": "[General Academic Self-Efficacy Scale, Self-Directed Learning Scale, Academic Procrastination Scale, Active Procrastination Scale, Clicks on Assignment, Days between start of block and first click, Number of clicks on relevant activities]",
+          "Moment of Prediction": "Before assignment submission.",
+          "Preprocessing Details": "In total, there were 1107 student-assignment pairs. All missing values were removed and data was normalized.\n\nThe authors made a separation between types of predictiors:\n\n1. A model built using only subjective predictors,\n2. A model built only using objective predictors, \n3. Both predictor types\n\n ",
+          "Models": "NB, kNN, RBFN, FFNN, RT, Random Forest, GBoost, SVM, BA",
+          "Assessment Strategy": "10-Repeated Holdout",
+          "Performance Metric: Best Model": "{G-Score: 0.7626 - RF comb, Accuracy: 0.705 - SVM - RBF comb, Mathews Correlation Coefficient: 0.3486 - RF comb, Precision: 0.5383 - SVM-RBF comb, Recall: 0.6222 - BRF comb, F1-Score (positive): 0.5705 - RF comb, F1-Score (negative) - 0.7824 - SMB-VS Subj}",
+          "Comments": "Authors perform parameter tuning using CV but they also do a Repeated Holdout experiment. \n\nModels trained on subjective predictors are surpassed by models uising objective predictors which are subsequentely outperformed by models trained uising both types of data.",
+          "Limitations": "Small sample size without any addressing of class imabalances.\n\nDoes not account for facts such as stringent deadlines of submission which may artificially increase the number of learners submitting on time. \n\nExclusion of covariates."
+        },
+        {
+          "Task": "Regression",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Delay in Submission",
+          "Target": "Number of Days of Delay",
+          "Students": "134 from a Central European University",
+          "Courses": "126 online courses",
+          "Data sources": "Questionnaires, LMS logs",
+          "Features": "[General Academic Self-Efficacy Scale, Self-Directed Learning Scale, Academic Procrastination Scale, Active Procrastination Scale, Clicks on Assignment, Days between start of block and first click, Number of clicks on relevant activities]",
+          "Moment of Prediction": "Before assignment submission.",
+          "Preprocessing Details": "In total, there were 1107 student-assignment pairs. All missing values were removed and data was normalized.\n\nThe authors made a separation between types of predictiors:\n\n1. A model built using only subjective predictors,\n2. A model built only using objective predictors, \n3. Both predictor types\n\n ",
+          "Models": "NB, kNN, RBFN, FFNN, RT, Random Forest, GBoost, SVM, BA",
+          "Assessment Strategy": "10-Repeated Holdout",
+          "Performance Metric: Best Model": "{MAE: 7.05 - GBoost comb}",
+          "Comments": "Authors perform parameter tuning using CV but they also do a Repeated Holdout experiment. \n\nModels trained on subjective predictors are surpassed by models uising objective predictors which are subsequentely outperformed by models trained uising both types of data.",
+          "Limitations": "Small sample size without any addressing of class imabalances.\n\nDoes not account for facts such as stringent deadlines of submission which may artificially increase the number of learners submitting on time. \n\nExclusion of covariates."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6297fb58",
+      "reference_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
+      "text": "LMS and Learning Analytics have made it possible to pinpoint and identify potentially dilatory behavior from learners such as procrastination. Authors attempt to use ML to predict procrastinatory behavior by comparing 2 different feature sets:",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+      }
+    },
+    {
+      "id": "an_32884268",
+      "reference_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0",
+      "text": "Models using Logs consistently outperform models self-reported measures, with a combination of both actually achieving marginally better results (Accuracy around 70%). Depending on feature set, the best alorithm also differed, putting emphasis into performing model selection when using these machine learning approaches. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80b2-9029-efa0c5901ab0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

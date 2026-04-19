@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "033342f8-04d7-4a83-b56e-7d8b056b12e2",
+      "title": "A Robust Machine Learning Technique to Predict Low-performing Students",
+      "authors": [],
+      "year": null,
+      "journal": "ACM Transactions on Computing Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_b4e651c7",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Peer Instruction",
+          "Student Performance Definition": "Course Performance on Final Exam",
+          "Target": "Top 60% vs Bottom 40% ",
+          "Students": "Train: 1 270 students\n\nTest: 1 149 students ",
+          "Courses": "Train: 5 Undergraduate Courses across 2 American Universities\n\nTest: Following edition of the same  courses ",
+          "Data sources": "Clicker Questions, Exam Performance",
+          "Features": "[Sequence of Question Responses on Clickers in the First 3 Weeks (Group and Individual)]",
+          "Moment of Prediction": "3rd week (out of 10 or 12 weeks depending on course)",
+          "Preprocessing Details": "Clicker responses are collected and placed as a vector for each student.\n\nStudents who did not answer in the first 3 weeks were also removed.",
+          "Models": "SVM",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "{AUC: [0,65-0,79] - SVM}",
+          "Comments": "Authors create multiple course-specific models and start with a multi-institution analysis - comparing courses from similar institutions across different contexts. \n\nHyper-parameter tuning is done using 10-Fold CV. \n\nAuthors evaluate the same course across institutions to see differences and individually.\n",
+          "Limitations": "  • Only one model is tested\n  • No course-agnostic approach"
+        }
+      ],
+      "provenance": {
+        "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_475d7fa7",
+      "reference_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2",
+      "text": "Automated early prediction is important in large courses. Thus, authors propose a model that, using data from the first 3 weeks of a course, predict final exam scores - SVM. Data is collected on the first term and the model is deployed on the second term. ",
+      "provenance": {
+        "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+      }
+    },
+    {
+      "id": "an_0df389e2",
+      "reference_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2",
+      "text": "Modelling approach was used in 5 different Computer Science courses across 2 different institutions and taught by 3 different instructors. Predictive performance is competitive with state of the art techniques while having some strenghts:",
+      "provenance": {
+        "page_id": "033342f8-04d7-4a83-b56e-7d8b056b12e2"
+      }
+    }
+  ],
+  "workflow_states": []
+}

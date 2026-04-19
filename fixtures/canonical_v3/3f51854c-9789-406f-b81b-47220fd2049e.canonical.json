@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "3f51854c-9789-406f-b81b-47220fd2049e",
+      "title": "Leveraging LMS Logs to Analyze Self-Regulated Learning Behaviors in a Maker-based Course",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_c0de0dd4",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Sequential Pattern Mining",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "104 students",
+          "Courses": "1 Digitizing Cultural Heritage course",
+          "Data sources": "LMS logs, Student Reflection",
+          "Theoretical Grounding": "Adaption of 3 Common SRL Models",
+          "Features": "[Goal Setting, Making Personal Plans, Working on a Task, Reformulation, Evaluation, Reflection]",
+          "Preprocessing Details": "Authors take logs and associate different activities as part of wider SRL constructs. In total, there were 63716 logged events, out of which 48602 were labelled. \n\n ",
+          "Models": "cSPADE",
+          "Performance Metric: Best Model": "Mininum support of 0.40 and minimum confidence of 0.6.",
+          "Groups Created": "2",
+          "Cluster Description": "High PErforming Students:\n\nStudents tended to reflect more on their SRL behaviors. Specifically, these students have a higher proneness of Reformulation→ Reflection than their peers. \n\nLow-Performing Students\n\nLess prone to reflect on their SRL behaviours. \n\n",
+          "Implications": "High performance students are often better at planning and reflecting their peers.\n\nLow performing students often focus on fulfilling academic obligations rather than promoting their work and development.\n\nInstructors can provide specific prompts to “force” their students to reflect more on their SRL behaviors. \n\n",
+          "Comments": "Authors use Sequential Pattern mining to identify different transitions of learning behavior. \n\n",
+          "Limitations": "Only uses one very general course. "
+        }
+      ],
+      "provenance": {
+        "page_id": "3f51854c-9789-406f-b81b-47220fd2049e",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_8a6f9801",
+      "reference_id": "3f51854c-9789-406f-b81b-47220fd2049e",
+      "text": "The work explores the usage of Logs in maker-based pedagogy to generate evidence of SRL. The authors use frequencies and sequential patterns for that using a mixed-method approach. They developed a log-based analytic framework for development of SRL phases for maker activities. ",
+      "provenance": {
+        "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+      }
+    },
+    {
+      "id": "an_85d7d7fc",
+      "reference_id": "3f51854c-9789-406f-b81b-47220fd2049e",
+      "text": "Dataset uses 48602 logged events and 131 excerpts from student reflections. Segmentation is done on High-Performance vs Low-Performing students. High-Performing students exhibited SRL behaviours more frequently. ",
+      "provenance": {
+        "page_id": "3f51854c-9789-406f-b81b-47220fd2049e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

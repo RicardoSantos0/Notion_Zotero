@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "47288612-634c-4533-b120-19284bdb59df",
+      "title": "Semi-supervised deep learning based named entity recognition model to parse education section of resumes",
+      "authors": [],
+      "year": null,
+      "journal": "Neural Computing and Applications",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_04037445",
+      "reference_task_id": null,
+      "schema_name": "Summary Table",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "47288612-634c-4533-b120-19284bdb59df",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_a4663b29",
+      "reference_id": "47288612-634c-4533-b120-19284bdb59df",
+      "text": "Educational qualifications often capture the knowledge and skills a student should have upon entering the labour market. ",
+      "provenance": {
+        "page_id": "47288612-634c-4533-b120-19284bdb59df"
+      }
+    },
+    {
+      "id": "an_2ec6cf47",
+      "reference_id": "47288612-634c-4533-b120-19284bdb59df",
+      "text": "Paper uses Semi-Supervised Deep Learning to perform Named-Entity Recognition on educational sections of resumes. The model predicts entities of unlabeled education sections and is then rectified. ",
+      "provenance": {
+        "page_id": "47288612-634c-4533-b120-19284bdb59df"
+      }
+    },
+    {
+      "id": "an_02cf72d0",
+      "reference_id": "47288612-634c-4533-b120-19284bdb59df",
+      "text": "Proposed methodology achieves over 90% accuracy in NER task.",
+      "provenance": {
+        "page_id": "47288612-634c-4533-b120-19284bdb59df"
+      }
+    }
+  ],
+  "workflow_states": []
+}

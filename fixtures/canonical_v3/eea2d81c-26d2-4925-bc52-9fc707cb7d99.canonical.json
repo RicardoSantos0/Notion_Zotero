@@ -1,0 +1,79 @@
+{
+  "references": [
+    {
+      "id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99",
+      "title": "Regularized ensemble learning for prediction and risk factors assessment of students at risk in the post-COVID era",
+      "authors": [],
+      "year": null,
+      "journal": "Scientific Reports",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d902f717",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Post-Covid in Program GPA",
+          "Target": "GPA above 3 (1) vs Not (0)",
+          "Students": "245 learners",
+          "Courses": "Courses at a Pakistani University",
+          "Data sources": "Student Characteristics, Performance  Before Covid, Performance During Covid, Questionnaires",
+          "Features": "[Faculty of the student, Gender, Age, Nationality, Status, Level of study, Academic performance during the COVID-19, Subjects in which student excels academically after COVID-19, Subjects in which student excels academically during COVID-19, Completing assignments, Reviewing material covered in lecture, In-class interaction, Transition from online to physical learning, Difficulty in readjusting to the traditional classroom after the COVID-19, Attendance after the COVID-19 restrictions, Post COVID-19 engagement in learning, Post COVID-19 period collaboration and peers interaction, Managing workload after the COVID-19, Efficiency in physical exams against online assessments, Difficulty concentrating or staying focused in class after the COVID-19, Time management after the COVID-19 restrictions, Effect of face-to-face interaction with teachers and classmates on learning, Effect of structure daily routine on study, Access to learning resources after restrictions, Indicator whether a prerequisite courses is taken during the COVID-19, Understanding the importance of pre-requisite, Level of difficulty in courses with pre-requisite done during the pandemic, GPA in the last semester during COVID-19 restriction, Internet connectivity, Class attendance after the COVID-19 restrictions, Effect of financial stress due the pandemic on learning, Lack of motivation due to COVID-19 related financial problems, Compromises or sacrifices due to financial constraints, Delays or disruptions in studies due to financial difficulty",
+          "Moment of Prediction": "Before end of program ",
+          "Preprocessing Details": "Authors extracted data from administrative data and used as input for multiple ML algorithms.\n\nTarget variable awas binarizxed from actual GPA value.\n\nAuthors look at different forms of pruning for a Random Forest:\n\nOOB sampling\nSub-sampling\nSub-Bagging.\n\nAuthors also explore the effective of training dataset size: 70%, 80% and 90%.",
+          "Models": "ExNRule, kNN, WkNN, RF, SVM, NN, LDA, OTE-IND, OTE-OOB, OTE-SUB",
+          "Assessment Strategy": "1000- Repeated Holdout Method",
+          "Performance Metric: Best Model": "{Accuracy: 0.872 - OTE-OOB with 90%, Cohen’s Kappa: 0.701 - OTE-OOB with 70%, Sensitivity: 0.767 - OTE-SUB with 80%, Brier Score: 0.110 - OTE-IND with 80%}",
+          "Comments": "This work is meant to explore how students who had part of their education during COVID and authors look to see how they perform after returning. ",
+          "Limitations": "Small sample size. \n\nDoes not consider behavioral data."
+        }
+      ],
+      "provenance": {
+        "page_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99",
+        "block_index": 7
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_05c38da1",
+      "reference_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99",
+      "text": "The transition back to face to fface learning may have hindered the ability of some students to learn. After all, COVID demanded a substantial change to one’s study habits and it may have been hard for some students to go back to the previous normal. Therefore, it is important to understand what potential risk factors exist for low performance. ",
+      "provenance": {
+        "page_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99"
+      }
+    },
+    {
+      "id": "an_47c6ab78",
+      "reference_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99",
+      "text": "Standard ML models often find it hard to identify insights that may be useful for the design of early interventions. To address this, the authors create a Random Forest trained under 3 distinct pruning paradigms:",
+      "provenance": {
+        "page_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99"
+      }
+    },
+    {
+      "id": "an_d9314e5e",
+      "reference_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99",
+      "text": "The suggested methods outperform all other methods considered in the study in the task of identifying students at risk.",
+      "provenance": {
+        "page_id": "eea2d81c-26d2-4925-bc52-9fc707cb7d99"
+      }
+    }
+  ],
+  "workflow_states": []
+}

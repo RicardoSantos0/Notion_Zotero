@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "dd21d830-8604-4593-af38-fd8651669a90",
+      "title": "Exercise recommendation based on knowledge concept prediction",
+      "authors": [],
+      "year": null,
+      "journal": "Knowledge-Based Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d6d8686d",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Context": "Intelligent Tutoring System",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid",
+          "Target of Recommendation": "Next Exercise",
+          "Students": "4217 ASSISTments09 learners, 574 Algebra 2005 learners, 335 OLIES students",
+          "Courses": "ASSISTments, Algebra and OLIES",
+          "Data sources": "Sequence of Answers, Knowledge Components",
+          "Initialization Method": "Learner knowledge is initialized via weighted-average of first-attempt scores on each concept.\n\nExercise profiles are created from difficulty and concept coverage",
+          "Updates to Recommendations": "Learner Mastery is updated after each attempt.",
+          "Preprocessing Details": "Authors create a concept-exercise matrix that highlights the concepts covered by each exercise.\n\nStudent scores on each exercise are normalized",
+          "Recommendation types": "Top-N exercises",
+          "Evaluation": "AST09\n{Accuracy: 0.866 - KCP-ER, Diversity: 0.772 - KCP-ER, Novelty: 0.963 - KCP-ER}\n\nAlgebra05\n{Accuracy: 0.899 - KCP-ER, Diversity: 0.751 - KCP-ER, Novelty: 0.839 - KCP-ER}\n\nOLIES\n{Accuracy: 0.894 - KCP-ER, Diversity: 0.948 - KCP-ER, Novelty: 0.883 - KCP-ER}",
+          "Comments": "Authors use Knowledge Tracing - and more specifically DKT to understand a learners’ mastery level of different concepts.\n\nThen, the authors compute similarity between exercises the suggest exercises that are in an approppriate difficulty for the knowledge concept.",
+          "Limitations": "- Cognitive-level estimation estimation depends on manual tagging of exercises.\n\n- Does not use text of exercise to estimate difficulty (or correctedness)."
+        }
+      ],
+      "provenance": {
+        "page_id": "dd21d830-8604-4593-af38-fd8651669a90",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_044ac3bf",
+      "reference_id": "dd21d830-8604-4593-af38-fd8651669a90",
+      "text": "Exercise recommendations can make or break learning. To be effective, an exercise needs to be challenging enough to foster interest while, simultaneously, being accessible. Collaborative Filtering is not effective at this since it recommends exercises based on past behavior of similar students. ",
+      "provenance": {
+        "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+      }
+    },
+    {
+      "id": "an_1a2ee3e9",
+      "reference_id": "dd21d830-8604-4593-af38-fd8651669a90",
+      "text": "Authors propose a model that uses DKT to predict a learner’s mastery level and uses this prediction as a form to filter exercises eligible for recommendation. Results show that model does better than baseline approaches both in terms of difficulty of exercises but also diversity and novelty. ",
+      "provenance": {
+        "page_id": "dd21d830-8604-4593-af38-fd8651669a90"
+      }
+    }
+  ],
+  "workflow_states": []
+}

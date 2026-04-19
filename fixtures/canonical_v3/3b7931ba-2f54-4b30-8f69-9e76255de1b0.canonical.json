@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
+      "title": "Enhancing Automated Scoring of Math Self‑Explanation Quality Using LLM‑Generated Datasets: A Semi‑Supervised Approach",
+      "authors": [],
+      "year": null,
+      "journal": "Computers",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_88926903",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "",
+          "Context": "",
+          "Teaching Method": "",
+          "Student Performance Definition": "",
+          "Target": "",
+          "Students": "",
+          "Courses": "",
+          "Data sources": "",
+          "Features": "",
+          "Moment of Prediction": "",
+          "Preprocessing Details": "",
+          "Models": "",
+          "Assessment Strategy": "",
+          "Performance Metric: Best Model": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_6e0c2b5c",
+      "reference_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
+      "text": "Despite its effectiveness in math education, self-explanations seem to be an underused source of data about student learning processes. However, with new advancements in NLP it may now be possible to use them. Thus, the authors propose the use of an LLM to automatically grade mathematical self-explanations and provide personalzied feedback based on them. ",
+      "provenance": {
+        "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+      }
+    },
+    {
+      "id": "an_65e697d6",
+      "reference_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0",
+      "text": "Authors use 5 distinct datasets for validation. Results show that combining LLM explanations with amthematical material improves the accuracy of such an auto-grader model. Authors also find that there is a cap in synthetic self-explanations before the model starts to overfit.",
+      "provenance": {
+        "page_id": "3b7931ba-2f54-4b30-8f69-9e76255de1b0"
+      }
+    }
+  ],
+  "workflow_states": []
+}

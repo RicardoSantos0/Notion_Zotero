@@ -3,10 +3,10 @@ import json
 import uuid
 import argparse
 from pathlib import Path
-import sys
-
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from src.core.models import Reference, Task, ReferenceTask, TaskExtraction, Annotation, WorkflowState
+from ..core.models import Reference, Task, ReferenceTask, TaskExtraction, Annotation, WorkflowState
+from ..schemas import task_registry, extraction_schemas
+from ..schemas.idgen import deterministic_short_id
+from ..schemas import status_mapping
 
 
 def prop_value(prop):
@@ -81,7 +81,32 @@ def parse_fixture(path: Path):
                 if len(r) < len(header):
                     r = r + ["" for _ in range(len(header) - len(r))]
                 parsed.append(dict(zip(header, r)))
-        if task_name:
+        # Attempt registry-driven parsing first. If registry yields applicable
+        # task parsers, prefer those; otherwise fall back to legacy behavior.
+        item = {"page_id": page_id, "heading": heading, "rows": parsed, "properties": props, "title": title}
+        applicable = task_registry.get_applicable_tasks(item)
+        if applicable:
+            for tname, parser in applicable:
+                task_id = slugify(tname)
+                # add task if not already present
+                if not any(t.id == task_id for t in tasks):
+                    tasks.append(Task(id=task_id, name=tname, aliases=[]))
+                rt_id = deterministic_short_id("rt", page_id, task_id)
+                reference_tasks.append(ReferenceTask(id=rt_id, reference_id=ref.id, task_id=task_id, provenance={"page_id": page_id, "table_block_id": tb.get("block_id")}))
+                # parser may return a mapping with keys 'schema_name' and 'extracted'
+                parsed_out = parser(item)
+                ex_id = deterministic_short_id("ex", page_id, task_id or schema, tb.get("index"))
+                extractions.append(
+                    extraction_schemas.build_extraction(
+                        id=ex_id,
+                        reference_task_id=rt_id,
+                        schema_name=parsed_out.get("schema_name", schema),
+                        extracted=parsed_out.get("extracted", parsed),
+                        page_id=page_id,
+                        block_index=tb.get("index"),
+                    )
+                )
+        elif task_name:
             task_id = slugify(task_name)
             tasks.append(Task(id=task_id, name=task_name, aliases=[]))
             rt_id = f"rt_{uuid.uuid4().hex[:8]}"
@@ -96,21 +121,26 @@ def parse_fixture(path: Path):
                 "revision_status": None,
             })
         else:
-            ex_id = f"ex_{uuid.uuid4().hex[:8]}"
-            extractions.append({
-                "id": ex_id,
-                "reference_task_id": None,
-                "schema_name": schema,
-                "extracted": parsed,
-                "provenance": {"page_id": page_id, "block_index": tb.get("index")},
-                "revision_status": None,
-            })
+            ex_id = deterministic_short_id("ex", page_id, schema, tb.get("index"))
+            extractions.append(
+                extraction_schemas.build_extraction(
+                    id=ex_id,
+                    reference_task_id=None,
+                    schema_name=schema,
+                    extracted=parsed,
+                    page_id=page_id,
+                    block_index=tb.get("index"),
+                )
+            )
     for b in d.get("blocks", []):
         if b.get("type") == "paragraph" and b.get("text"):
-            annotations.append(Annotation(id=f"an_{uuid.uuid4().hex[:8]}", reference_id=ref.id, text=b.get("text"), provenance={"page_id": page_id}))
-    status = prop_value(props.get("Status") or props.get("Status_1"))
+            # Use a deterministic id derived from page and block id/text snippet
+            block_key = b.get("id") or (b.get("text") or "")[:40]
+            annotations.append(Annotation(id=deterministic_short_id("an", page_id, block_key), reference_id=ref.id, text=b.get("text"), provenance={"page_id": page_id}))
+    status_raw = prop_value(props.get("Status") or props.get("Status_1"))
+    status = status_mapping.map_status(status_raw)
     if status:
-        workflow_states.append(WorkflowState(id=f"ws_{uuid.uuid4().hex[:8]}", reference_id=ref.id, state=status))
+        workflow_states.append(WorkflowState(id=deterministic_short_id("ws", page_id, status), reference_id=ref.id, state=status))
     # model_dump() for pydantic v2, fall back to dict() when necessary
     def _dump(obj):
         if hasattr(obj, "model_dump"):

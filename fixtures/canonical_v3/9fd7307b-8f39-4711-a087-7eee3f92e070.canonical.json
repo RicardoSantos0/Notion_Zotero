@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
+      "title": "Framelet-based dual hypergraph neural networks for student performance prediction",
+      "authors": [],
+      "year": null,
+      "journal": "International Journal of Machine Learning and Cybernetics",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_1ae142dc",
+      "reference_task_id": null,
+      "schema_name": "Summary Table PRED",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass (1) vs Fail (0)",
+          "Students": "3983 OULAD students, 649 Portuguese Students, 2000 Math students, 5820 Gazi University students, 7543 World University City Platform",
+          "Courses": "OULAD, Portuguese, Mathematics, 2 Classes in Gazi University in Ankara",
+          "Data sources": "LMS logs, Student Characteristics",
+          "Features": "[Dataset Dependent]",
+          "Moment of Prediction": "End of Course",
+          "Preprocessing Details": "Work takes as input a feature matrix. The feature matrix is processed via UDFmT, separating students and ccreating 7 uniform hypergraphs (constructed suing cosine similarity).\n\nThese hyypergraphs are then sent to a dual hypergraph learning module which is then directed to an attention-based layer. ",
+          "Models": "SVM, Logistic Regression, SLFNN, GCN, MTGNN, FD-HGNNN",
+          "Assessment Strategy": "Holdout Method (75/25)",
+          "Performance Metric: Best Model": "Dataset 1\n{Accuracy: 0.9111 - FD-HGNN (UniGAT)}\n\nDataset 2\n{Accuracy: 0.9234 - FD-HGNN (HGCN}\n\nDataset 1\n{Accuracy: 0.8858 - FD-HGNN (UniGAT)}}\n\nDataset 1\n{Accuracy: 0.8678 - FD-HGNN (UniGAT)}}",
+          "Comments": "The work by the authors invollves the creation of a novel neural network arquitecture meant to predict end of course performance.\n\nThe authors provide a mathematical description of the different elements:\n\n- Uniform Hyper-graph creation\n- Dual hypergraph learning module\n- Attention Layer\n\nAuthors show that the model outperforms all other tested models for the same task.\n\nAblation study shows that all elements of the network are relevant towards the prediction - first for elements. Then, the authors test different forms of Hypergraph formation and find UniGAT to be the “best one”.",
+          "Limitations": "- Holdout method\n\n- Prone to over-smooth\n\n- No exploration of Temportal Dynamics"
+        }
+      ],
+      "provenance": {
+        "page_id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_ab5b3032",
+      "reference_id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
+      "text": "Most methods for the prediction of student performance tend to focus on attributes of the students and not as much in the relationships between the students themselves. The paper introduces a framelet-nased dual hypergraph neeural network  that decomposes student features in order to obtain model student relatinships.",
+      "provenance": {
+        "page_id": "9fd7307b-8f39-4711-a087-7eee3f92e070"
+      }
+    },
+    {
+      "id": "an_1c6baba3",
+      "reference_id": "9fd7307b-8f39-4711-a087-7eee3f92e070",
+      "text": "By integrating a more robust model of student relationships, the feature space now includes dimensions that were not observable before, which results into the creation of better and more accurate predictive models. Validation of the new model against traditional classifiers AND Graph neural networks on 4 real-world datasets demonstrates the superiority of the designed approach. ",
+      "provenance": {
+        "page_id": "9fd7307b-8f39-4711-a087-7eee3f92e070"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,99 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
+      "title": "What Time is It? Student Modeling Needs to Know",
+      "authors": [],
+      "year": null,
+      "journal": "EDM",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_ed55f5c7",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Prediction of completing the next task successfully",
+          "Target": "Finish Assignment within 1 hour: Successful (0) vs Unsuccessful (1)",
+          "Students": "171 students using iSNAP",
+          "Courses": "1 Homework in a BJC Curriculum",
+          "Data sources": "Code Traces",
+          "Features": "Extacted using EFD",
+          "Flaw of Previous Models": "Time is often not considered in models for KT in either self-paced or tutor-based education -time to be understood as time elapsed between sequential events.",
+          "Novelty of Model": "T-LSTM introduce the ability to model time intervals and incorporate into the prediction",
+          "Preprocessing Details": "Students who had requested hints were eliminated from the sample.\n\nCode traces are timestamped snapshots of student code.\n\nFeatures are extracted using a form of AutoML called Expert Feature Detector.\n\n",
+          "Models": "ZeroR,\nLogistic Regression, \nRecent Temporal Pattern,\nLTSM,\nT-LSTM\n",
+          "Assessment Strategy": "Prefix Split",
+          "Performance Metric: Best Model": "First 6 Minutes \n\n{Accuracy: 0.7658 - T-LSTM, Precision: 0.875 - T-LSTM, Recall: 0.8429 - RTP, F1-Score: 0.7778 - T-LSTM, AUC: 0.7528 - T-LSTM}\n\nAfter 20 minutes\n\n{AUC: 0.7512 - T-LSTM}",
+          "Comments": "BKT was not considered for this open-ended task since there are no specific knowledge components or predefined steps that need to be followed.\n\nTask on iSNAP is defined by the learners being able to solve a homework: a snapshop of their screen is taken every 2 minutes and this sequence is used for prediction.",
+          "Limitations": "Only a single modeling task per learning environment.\n\nSmall sample size.\n\nNo alternative methods to assess time-awareness.\n"
+        },
+        {
+          "Task": "Classification",
+          "Context": "ITS",
+          "Teaching Method": "E-Learning",
+          "Student Performance Definition": "Predictioin of Learning Gains",
+          "Target": "Low vs High learning gains",
+          "Students": "1190 students using Pyrenees",
+          "Courses": "1 Test in Pyrinees ITS",
+          "Data sources": "Pre-test and post-test assessments",
+          "Features": "Answer sequences",
+          "Flaw of Previous Models": "Time is often not considered in models for KT in either self-paced or tutor-based education -time to be understood as time elapsed between sequential events.",
+          "Novelty of Model": "T-LSTM introduce the ability to model time intervals and incorporate into the prediction",
+          "Preprocessing Details": "-",
+          "Models": "ZeroR,\nLogistic Regression, \nBKT, LSTM, T-LSTM",
+          "Assessment Strategy": "Prefix Split",
+          "Performance Metric: Best Model": "First 30% of the sequence of answers \n\n{Accuracy: 0.6328 - T-LSTM, Precision: 0.6322 - T-LSTM, Recall: 0.9566 - LR, F1-Score: 0.7422 - LSTM, AUC: 0.5789 - T-LSTM}\n\nUsing whole sequence of answers\n\n{AUC: 0.6013 - LSTM}",
+          "Comments": "Task on Pyrinees was to predict learning gains based on the sequences of answers given in a test. ",
+          "Limitations": "Only a single modeling task per learning environment.\n\nSmall sample size.\n\nNo alternative methods to assess time-awareness."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1116479e",
+      "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
+      "text": "Some of the most well known methods for KT are BKT and LSTMs. The problem with these approaches is that sub-divide time into discrete time-steps and not continuous. However, time between events  varies significantly and, fot that reason, authors decide to use Time-Aware LSTM for KT. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd"
+      }
+    },
+    {
+      "id": "an_b8267f64",
+      "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
+      "text": "Authors explore T-LSTM in 2 domains. First, self-paced learning, wherein authors compare T-LSTM vs other standard classifiers to predict success. On a second-approach, they follow an instructor-paced setting and try to predict learning gains. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd"
+      }
+    },
+    {
+      "id": "an_8a64d199",
+      "reference_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd",
+      "text": "Results show LSTM beats all others in the self-paced setting and perform on par with LSTMs on instructor-paced learning. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-8088-bbb5-e82aee13cbcd"
+      }
+    }
+  ],
+  "workflow_states": []
+}

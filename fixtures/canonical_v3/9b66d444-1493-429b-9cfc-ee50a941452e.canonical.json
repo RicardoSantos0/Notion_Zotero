@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "9b66d444-1493-429b-9cfc-ee50a941452e",
+      "title": "Predictive learning analytics using deep learning model in MOOCs’ courses videos",
+      "authors": [],
+      "year": null,
+      "journal": "Education and Information Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_82c6cd25",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "MOOC",
+          "Teaching Method": "E-LEarning",
+          "Student Performance Definition": "Passing a MOOC",
+          "Target": "Pass (1) vs Fail (0)",
+          "Students": "13000 MOOC learners",
+          "Courses": "2 editions of 1 Mining Massive Datasets and an Automata Theory Course",
+          "Data sources": "Video Interactions",
+          "Features": "[Fraction completed, Fraction spent (fracSpent), Fraction played (fracPL), Number of played, Number of pauses, Fraction paused (fracPa), Fraction Forward (Fracfrwd), Fraction Backward (FracBkwd), Number of seek Backward (NumSBW), Number of fast forwards (NumFFW), Wekly Counts of: Play, Pause, Seek, Rate-Change, Load, Stop]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "For every week, the authors appended the vector of the new week to the vectors of the previous weeks. These were subsequently padded to ensure that, for all students, the vectors were all of the same length. \n\nFor each model, authors focused on learners that learned at least 20% of the videos of the current week. ",
+          "Models": "LSTM, MLP, SVM, Logistic Regression\n",
+          "Assessment Strategy": "Holdout Method (60/30/10)",
+          "Performance Metric: Best Model": "Week 3 MMDS\n{Accuracy: 0.89 - LSTM, Precision: 0.91 - LSTM, Recall: 0.92 - LSTM, F1-Score: 0.91 - LSTM}\n\nWeek 3 Automata\n{Accuracy: 0.89 - LSTM, Precision: 0.96 - LSTM, Recall: 0.90 - LSTM, F1-Score: 0.93 - LSTM}\n\nEnd of Course MMDS\n{Accuracy: 093 - LSTM, Precision: 0.93 - LSTM, Recall: 0.91 - LSTM, F1-Score: 0.92 - LSTM}\n\nEnd of Course Automata\n{Accuracy: 0.89 - LSTM, Precision: 0.95 - LSTM, Recall: 0.95 - LSTM, F1-Score: 0.95 - LSTM}",
+          "Comments": "Authors do predictive modelling of course performance on video watching behavior. \n\nThe representation is somewhat dynamic. There is a vector of fixed length that includes the calculations up to a certain week and, for each week, the interactions are gradually being concatenated.",
+          "Limitations": "Holdout method\n\nDoes not consider additional data sources\n\nMOOC-specific"
+        }
+      ],
+      "provenance": {
+        "page_id": "9b66d444-1493-429b-9cfc-ee50a941452e",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_52198f35",
+      "reference_id": "9b66d444-1493-429b-9cfc-ee50a941452e",
+      "text": "Video lectures are a pivotal component of MOOC and a source of interesting data for analytical purposes. ",
+      "provenance": {
+        "page_id": "9b66d444-1493-429b-9cfc-ee50a941452e"
+      }
+    },
+    {
+      "id": "an_f332cdff",
+      "reference_id": "9b66d444-1493-429b-9cfc-ee50a941452e",
+      "text": "Thus, the authors use Deep Learning from video clickstream data to understand how a student will perform on a given week of the MOOC. Authors use LSTM for this purpose and find that the approach outperforms all other baseline models used - with accuracies ranging between 82% and 93%. ",
+      "provenance": {
+        "page_id": "9b66d444-1493-429b-9cfc-ee50a941452e"
+      }
+    }
+  ],
+  "workflow_states": []
+}

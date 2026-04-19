@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "4c7a76b4-54c3-4418-9354-95b7c34fbae8",
+      "title": "Can Feature Predictive Power Generalize? Benchmarking Early Predictors of Student Success across Flipped and Online Courses",
+      "authors": [],
+      "year": null,
+      "journal": "EDM Conference",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_77ef0f51",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Flipped Classroom",
+          "Student Performance Definition": "End of Course Performance",
+          "Target": "Pass vs Fail",
+          "Students": "214 students",
+          "Courses": "1 Linear Algebra Course",
+          "Data sources": "LMS logs",
+          "Features": "[CompetencyAnticipation, WeeklyPropWatched-Avg, RatioClicksWeekendDay, ContentAnticipation, CompetencyStrength, RegWeeklySim-M2, WeeklyPrpInter-Avg, StudentShape, NumSubmissionsPerCorrect, WeeklyPropReplayed-Avg, FrequencyEvent-VideoPlay, QCheck-QCheck-Vload, VPlay-VPause-VLoad, RegPeriodicity-M3, RegWeeklySim-M1, VStop-PCheck-VLoad]",
+          "Moment of Prediction": "Every Week",
+          "Preprocessing Details": "Authors use nested CV to assess performance of their models. ",
+          "Models": "RF-Akpinaretal, RF-Boroujenietal, RF-ChenCui, RF-LAlleConati, RF-LemayDoleck, RF-Mbouzaoelal, RF-Mubaraketal, RF-Wanetal, RF-Marras, RF-EnsembleMarras, RF-EnsembleAll",
+          "Assessment Strategy": "10-Fold Cross-Validation",
+          "Performance Metric: Best Model": "Week 6\n{AUC: 0.72 - RF-EnsembleMarras}\n\nWeek 10\n{AUC: 0.77 - RF-EnsembleAll}",
+          "Comments": "The main distinction of this paper is that it keeps the same algorithm and tests multiple distinct feature sets. \n\nAuthors identify that an emsemble of their own feature set is better for early prediction.\n\nAuthors then follow-up with a generalization study over a total of 4 curricular units - 2 FP and 2 MOOCs. \n\nThe feature sets selected in one and the other are different.",
+          "Limitations": "Course-specific models"
+        }
+      ],
+      "provenance": {
+        "page_id": "4c7a76b4-54c3-4418-9354-95b7c34fbae8",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_289de7be",
+      "reference_id": "4c7a76b4-54c3-4418-9354-95b7c34fbae8",
+      "text": "The intent behind early predictors of student success is to help students and the state of the art has evolved considerably with time. The paper does a 2-part split. First, it reviews early predictors and, then, it analyzes 8 feature sets that have been successful in recent years. Then, the authors introduce another feature set. Results are compared using a RF and an analysis of the feature importances is subsequently performed.",
+      "provenance": {
+        "page_id": "4c7a76b4-54c3-4418-9354-95b7c34fbae8"
+      }
+    }
+  ],
+  "workflow_states": []
+}

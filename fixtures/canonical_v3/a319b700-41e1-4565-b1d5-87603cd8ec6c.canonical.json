@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "a319b700-41e1-4565-b1d5-87603cd8ec6c",
+      "title": "user2code2vec: Embeddings for Profiling Students Based on Distributional Representations of Source Code",
+      "authors": [],
+      "year": null,
+      "journal": "LAK",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2a6d030c",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Student Performance Definition": "Next Code Submission is Correct",
+          "Target": "Correct (1) vs Incorrect (0)",
+          "Students": "666 Python Programming Learners",
+          "Courses": "5 Python Programming News",
+          "Data sources": "LMS logs, Code Submission",
+          "Features": "[Code2Vec embeddings from Code Submissions]",
+          "Flaw of Previous Models": "Representations based on logs have been popular… However, doing richer representations is still seen as a challenging problem.",
+          "Novelty of Model": "The creation of user embeddings based on embeddings of their code submissions.",
+          "Preprocessing Details": "Code2vec embeddings are padded to 50 sentences and contain 100 dimensions (Words, Python Categories, Python Token Words and AST Nodes).\n\nCode submissions of learners are used to build a User Submission Matrix. These are flattened and a user embedding is created with 100 dimensions.\n\nVisualization is done using Principal Components of the 2 variables.\n\n",
+          "Models": "Naive Bayes, MLP",
+          "Assessment Strategy": "5-Fold Crosss-Validation",
+          "Performance Metric: Best Model": "",
+          "Comments": "Authors create an embedding structure called code2vec that is meant to represent code submissions.\n\nAfter identifying the best form of code embeddings, they use these as inputs for the user representation: user2code2vec\n\n",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0ea7c640",
+      "reference_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c",
+      "text": "Authors propose a new method to profile computer science students through embeddings. The idea is not only to predict whether a code submission is correct but also to create a student profile that allows for better and more adequate recommendations to the learner’s knowledge level. Authors identify the extraction of relevant student features as a limitation since, in LA, there is no such thing as an infinite amount of students to build embeddings from.",
+      "provenance": {
+        "page_id": "a319b700-41e1-4565-b1d5-87603cd8ec6c"
+      }
+    }
+  ],
+  "workflow_states": []
+}

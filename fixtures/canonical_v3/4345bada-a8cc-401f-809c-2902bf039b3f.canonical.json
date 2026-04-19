@@ -1,0 +1,77 @@
+{
+  "references": [
+    {
+      "id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+      "title": "Capacity Tracing-Enhanced Course Recommendation in MOOCs",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Learning Technologies",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_3cef274f",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "Online Learning",
+          "Recommender System Type": "Collaborative Filtering",
+          "Target of Recommendation": "Next Course to Take",
+          "Students": "28197 learners",
+          "Courses": "856 courses",
+          "Data sources": "LMS logs, Course metadata, Responses for Cognitive Diagnosis, Knowledge Topics, ",
+          "Initialization Method": "– MIRT static fit: estimate initial learner capacity uᵢ₀ and course difficulty dⱼ via maximum likelihood on ideal response qᵢⱼ\n\n\n– Implicit response pᵢⱼ computed as geometric mean of completion ratio aᵢⱼ and relative duration tᵢⱼ/ Dⱼ\n",
+          "Updates to Recommendations": "– After each new interaction aᵢⱼ, update learner capacity uᵢ,ₜ by Δuᵢ = pᵢ,ₜ·λᵢ·ReLU(dⱼ – uᵢ,ₜ₋₁) (Eq 4), where λᵢ is per-learner growth rate\n\n– Form embeddings: lᵢ,ₜ = concat(g(uᵢ,ₜ₋₁), l′ᵢ), cⱼ = concat(g(dⱼ), c′ⱼ), then predict with NCF or GRU by optimizing cross-entropy loss\n\n",
+          "Preprocessing Details": "– Online setting: no offline train/test split for model fitting.– Compute pᵢⱼ via Eq 2; filter out records with missing aᵢⱼ or unknown",
+          "Recommendation types": "Top-K courses (K=10)",
+          "Evaluation": "{Precision@10: 0.0715 - CT-E NCF, Precision@20: 0.1149 - CT-E NCF, Precision@40: 0.1827 - CT-E NCF, Hit_Ratio@10: 0.1605 - CT-E NCF, Hit_Ratio@20: 0.1290 - CT-E NCF, Hit_Ratio@40: 0.1025 - CT-E NCF}",
+          "Comments": "– Combines explainable MIRT capacities with CF.\n\n– CT-E NCF yields highest Precision & Hit gains over all baselines.\n\n– Capacity tracing correlates strongly with static MIRT estimates (ρ ≈ 0.79–0.99)",
+          "Limitations": "- No user study; offline only.\n- Static dⱼ (no difficulty update).\n- Assumes weak interactions suffice for pᵢⱼ.\n- No specialized cold-start beyond MIRT init.\n\n- Assumes completion ≈ mastery (may misestimate short sessions).\n\n- No modeling of temporal drift beyond immediate updates."
+        }
+      ],
+      "provenance": {
+        "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_e72aded5",
+      "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+      "text": "Online features a very high dropout rate and, for that reason, tools for proper recommendations and tutoring are welcomed. Authors explore how item-response theory can be integrated into a recommender. ",
+      "provenance": {
+        "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+      }
+    },
+    {
+      "id": "an_ffef08f7",
+      "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+      "text": "Authors use mutidimensional IRT and KT techniques to be able to diagnose a learner’s skills (so, first step is the creation of a knowledge model). Then, this model based on MIRT is used as input to a collaborative filtering algorithm for course recommendations. ",
+      "provenance": {
+        "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+      }
+    },
+    {
+      "id": "an_19bc2d74",
+      "reference_id": "4345bada-a8cc-401f-809c-2902bf039b3f",
+      "text": "Experiments on a real dataset show that approach not only improves effectiveness of MOOCs, but its explainability as well.",
+      "provenance": {
+        "page_id": "4345bada-a8cc-401f-809c-2902bf039b3f"
+      }
+    }
+  ],
+  "workflow_states": []
+}

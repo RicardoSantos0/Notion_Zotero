@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "18c4750c-f3ba-80de-83bf-d970b7615174",
+      "title": "Open-Ended Knowledge Tracing",
+      "authors": [],
+      "year": null,
+      "journal": "ArXiv",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_99ea4094",
+      "reference_task_id": null,
+      "schema_name": "Summary Table KT",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Student Performance Definition": "Predict Presented Code Solution",
+          "Target": "Code Submission",
+          "Students": "246 students",
+          "Courses": "1 Computer Science Course",
+          "Data sources": "Open Ended Questions, Code Submissions",
+          "Features": "[Student Knowledge State]",
+          "Flaw of Previous Models": "Most KT models only analyze and predict binary-valued learner responses to questions → making it difficult to use for open-ended questions.",
+          "Novelty of Model": "OKT presents a framework that is able to model and predict knowledge from open-ended questions.\n\n",
+          "Preprocessing Details": "The model creates a continuous embedding representation to encodde the open-ended answers. \n\nKnowledge updates follow the same logic as other KT models.\n\nStudent is represented, for each timestep, as a triple: question-answer-correctedness.\n\nEmbedding of questions is done by GPT-2 and answers are of ASTNN.\n\nThe knowledge state of the student is updated by a LSTM AND is the input of the code generation.\n",
+          "Models": "OKT-DKT, OKT-AKT, OKT-DKVMN",
+          "Assessment Strategy": "Holdout Method",
+          "Performance Metric: Best Model": "{CodeBLEU: 0.565 - OKT-AKT, Dist-1: 0.396 - OKT-AKT, Test Loss: 0.133 - OKT-AKT}",
+          "Comments": "OKT does not measure wether the answer is correct or not. It predicts the learners’ open ended answer → which could later be tested for correctedness. Since this is not a common task in KT, ther are no baselines to compare against. To address that the authors test multiple variants of OKT: using other frameworks for knowledge update.",
+          "Limitations": "Does not address the standard KT task of predicting correctedness.\n\nLimited number of explored Generative Moddels for Code Generation.\n\nSmall dataset."
+        }
+      ],
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80de-83bf-d970b7615174",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_f1f650b6",
+      "reference_id": "18c4750c-f3ba-80de-83bf-d970b7615174",
+      "text": "One of the problems with KT is that they treat answers as correct/incorrect. While valuable, this information is somewhat incomplete and likely could be complemented if questions were “open-ended,” - especially when the goal is to create a model of learner’s knowledge. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80de-83bf-d970b7615174"
+      }
+    },
+    {
+      "id": "an_05e29a97",
+      "reference_id": "18c4750c-f3ba-80de-83bf-d970b7615174",
+      "text": "The paper presents open-ended Knowledge Tracing. They lay out the specifications and evaluation metrics and conduct experiments to test the open-ended knowledge tracing on a real world dataset. ",
+      "provenance": {
+        "page_id": "18c4750c-f3ba-80de-83bf-d970b7615174"
+      }
+    }
+  ],
+  "workflow_states": []
+}

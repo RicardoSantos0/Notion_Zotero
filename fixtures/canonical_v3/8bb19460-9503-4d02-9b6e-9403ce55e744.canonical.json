@@ -1,0 +1,69 @@
+{
+  "references": [
+    {
+      "id": "8bb19460-9503-4d02-9b6e-9403ce55e744",
+      "title": "Adapting New Learners and New Resources to Micro Open Learning via Online Computation",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Computational Social Systems",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_8ac0c37c",
+      "reference_task_id": null,
+      "schema_name": "Summary Table REC",
+      "extracted": [
+        {
+          "Context": "MOOC",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Knowledge-Based",
+          "Target of Recommendation": "Learrning Path Recommendation ",
+          "Students": "1435 simulated learners",
+          "Courses": "2935 Courses (9758 Micro OERs).",
+          "Data sources": "LearnerProfile, MicroOERProfile, Association",
+          "Initialization Method": "The initial labelling of learners starts with the mapping of the association between learners and the MicroOERs: ratings, clickthrough rates.\n\nOER are createdvia an ontology from the courses.  \n\nWhen in cold-start it can be attributed to: new learner, new item and new community:\nwhen triggered, the user starts with online computation.",
+          "Updates to Recommendations": "Next Optimal MicroOER obtained from learning path sequence.\n\nIn the cold-start scenario, the authors create a set of learning paths using Genetic Algorithms and, after selection of the ideal candidate learning path, suggest the first one.",
+          "Preprocessing Details": "Knowledge Representation: Construction of the learner profile using Ontologies and Text Mining.\n\nMicroOER representation: mapping of ontology to chunks.\n\n\nThe first step is finding associations between elements. Focus in 3 major relationship types: ConsistsOf, RequiredSequence and RecommendedSequence.\n\nUsers are clustered using U-Clustering\n",
+          "Recommendation types": "Top-N OER",
+          "Evaluation": "{Precision: 0.48 - GA, Recall: 0.35 - GA}",
+          "Comments": "Authors intend to develop a recommender of learning paths that is “robust” to the cold-start problem - asystem they call MLaaS\n\nThe main idea is to create a learning path that is optimal to the learner and continuously suggest the next Open Educational Resource the learner should take. The proposed system is compared specifically against other approaches when it comes to the cold-start problem. \n\nResults show that model is robust in the cold-start scenario. Moreover, the results also show that transferability from other domains is very good for the educational domain.\n\n",
+          "Limitations": "- Validation is performed on simulated user profiles.\n\n- No evaluation of effectiveness of the recommmendations.\n\n"
+        }
+      ],
+      "provenance": {
+        "page_id": "8bb19460-9503-4d02-9b6e-9403ce55e744",
+        "block_index": 6
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_675601d5",
+      "reference_id": "8bb19460-9503-4d02-9b6e-9403ce55e744",
+      "text": "Remote learning has been a recourse option ever since the arisal of Covid-19. This has generated a big influx of new educational materials and, simultaneously, fast migration to online has brought the cold start to the spotlight. ",
+      "provenance": {
+        "page_id": "8bb19460-9503-4d02-9b6e-9403ce55e744"
+      }
+    },
+    {
+      "id": "an_d5c5cf3f",
+      "reference_id": "8bb19460-9503-4d02-9b6e-9403ce55e744",
+      "text": "The authors propose what they call online computation. Authors use a lightweight learner-micro-OER profile and use 2 algorithms to address the cold-start problem for users and contents. The recommender system generates learning paths.",
+      "provenance": {
+        "page_id": "8bb19460-9503-4d02-9b6e-9403ce55e744"
+      }
+    }
+  ],
+  "workflow_states": []
+}

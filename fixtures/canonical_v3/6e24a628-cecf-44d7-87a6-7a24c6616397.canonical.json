@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "6e24a628-cecf-44d7-87a6-7a24c6616397",
+      "title": "Learning by Reviewing Paper-Based Programming Assessments",
+      "authors": [],
+      "year": null,
+      "journal": "Lifelong Technology-Enhanced Learning",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_d5222570",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Association Rule Mining",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "246 students",
+          "Courses": "Data Structure and Algorithms",
+          "Data sources": "LMS",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Exam Reviewing]",
+          "Preprocessing Details": "Authors labeled students according to academic performance and performance trajectory.\n\n",
+          "Models": "",
+          "Performance Metric: Best Model": "",
+          "Groups Created": "",
+          "Cluster Description": "",
+          "Implications": "",
+          "Comments": "",
+          "Limitations": ""
+        }
+      ],
+      "provenance": {
+        "page_id": "6e24a628-cecf-44d7-87a6-7a24c6616397",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_5b4a9421",
+      "reference_id": "6e24a628-cecf-44d7-87a6-7a24c6616397",
+      "text": "This work looks at SRL behaviors while using an educational technology. The authors reviewed the learning behaviors of their students and how that translated into student performance. The results show that students who progressed more tended to spend more time reviewing their mistakes and were dilligent in their process throughout the semester.",
+      "provenance": {
+        "page_id": "6e24a628-cecf-44d7-87a6-7a24c6616397"
+      }
+    },
+    {
+      "id": "an_ed2d58ab",
+      "reference_id": "6e24a628-cecf-44d7-87a6-7a24c6616397",
+      "text": "On the other hand, students who lagged behind tended to focus more on studying materials they already knew.",
+      "provenance": {
+        "page_id": "6e24a628-cecf-44d7-87a6-7a24c6616397"
+      }
+    }
+  ],
+  "workflow_states": []
+}

@@ -1,0 +1,63 @@
+{
+  "references": [
+    {
+      "id": "f0797625-f745-4adf-a307-a753be4f3d9b",
+      "title": "Understanding self-regulation  strategies in problem-based  learning through dispositional  learning analytics",
+      "authors": [],
+      "year": null,
+      "journal": "Frontiers in Education",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_2c9dd9a0",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Clustering",
+          "Context": "Higher Edfucation",
+          "Teaching Method": "Problem-Based Learning",
+          "Students": "2400 First-Year Students",
+          "Courses": "1 Statistics and MAthematics Course",
+          "Data sources": "LMS logs, Questionnaires, Observational Instrutments",
+          "Theoretical Grounding": " Dispositional Learning Analytics",
+          "Features": "[LrnApp01,  LrnApp02, LrnApp03,   LrnApp04, LrnApp05, LrnApp06, LrnApp07,  LrnApp08, LrnApp09, LrnApp10, LrnApp11, LrnApp12, LrnApp13, LrnApp14, LrnApp15]",
+          "Preprocessing Details": "The authors collect data from multiple instruments and  evaluate the different clusters using different perspectives.\n",
+          "Models": "k-Means",
+          "Performance Metric: Best Model": "Authors use ANOVA tests to measure group differences among the differet perspectives",
+          "Groups Created": "7",
+          "Cluster Description": "Passive strategists\n\nNo tool users\n\nTesting directed\n\n Intensive tool use and lectures\n\nAll high\n\nAll low\n\nTool users testing directed",
+          "Implications": "Students who incorporate testing as a significant component of their learning strategies demonstrate above-average performance.\n\nPrior mathematics does not exhibit effects on student learning.\n\nLearners who do not use tool or act more passively are more prone to fail as, on average, they achieve a worse grade.\n\nCoversely, learners with more activity tend to eprform better.\n\nFlexibility is a key factor for elarner success as the most successfull students are the ones who engage on more learning strategies.",
+          "Comments": "Authors take survey answers and use them to create clusters.\n\nTbhe clusters are subsequently profiled using different instruments:\n\nMotivational Scales, Learning Strategy Profiles, Affective Scales, Programs and Gender, Course Performance.\n\nLearners in this PBL course were provided with a plethora of different resources.",
+          "Limitations": "Colustering results are exclusively created form the SLQ.\n\nDAta from a single course (even though 3 separate editions)."
+        }
+      ],
+      "provenance": {
+        "page_id": "f0797625-f745-4adf-a307-a753be4f3d9b",
+        "block_index": 4
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_dc7a379a",
+      "reference_id": "f0797625-f745-4adf-a307-a753be4f3d9b",
+      "text": "The authors follow the idea that race and survey data should be combined in order to bvalidate the identification of SRL adjacent behaviors. Work uses logs and answers from Study of Learning Questionnaire (SLQ) to identy learning dispositions. Then, it explores hjow these learning dispositions can act as antecedents of of specific learning strategies. ",
+      "provenance": {
+        "page_id": "f0797625-f745-4adf-a307-a753be4f3d9b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

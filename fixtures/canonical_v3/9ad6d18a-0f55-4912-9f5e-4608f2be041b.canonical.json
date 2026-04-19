@@ -1,0 +1,229 @@
+{
+  "references": [
+    {
+      "id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "title": "A Hybrid E-Learning Recommendation Approach Based on Learners’ Influence Propagation",
+      "authors": [],
+      "year": null,
+      "journal": "IEEE Transactions on Knowledge and Data Engineering",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_177dedb9",
+      "reference_task_id": null,
+      "schema_name": "Conclusion",
+      "extracted": [
+        {
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Recommender System Type": "Hybrid ",
+          "Target of Recommendation": "Learning Objective Sequences",
+          "Students": "1119 BUCEA students",
+          "Courses": "1 C Programming Course (divided into 6 groups)\n",
+          "Data sources": "Survey and LMS for learners",
+          "Initialization Method": "Survey for Learning Styles,\nLMS for interaction data",
+          "Updates to Recommendations": "Recommendations are updated at the end of each iteration:\n\nLearners are updated after interacting with materials, a new self-organization epoch is ran and the recommendations are the activities that best match the user in question → done unsin sequential pattern mining.\n\n",
+          "Preprocessing Details": "Personality similarities are computed using Jaccard Index and Cosine Similarity.\n\nRecommendations are generated using Sequential Pattern Mining\n\n",
+          "Recommendation types": "Sequence of LOs",
+          "Evaluation": "{Average Score: 84 - SI-IFL, Self-Assessed Personalized Recommendation: SI-IFL, Flow Experience Evaluation: SI-IFL, Quality: SI-IFL,\nDiversity: SI-IFL, Fitness - SI-IFL}\n ",
+          "Comments": "Authors use Intuionist fuzzy Kogic optimization to make updates to learners.\n\nAuthors use Self-Organizing Maps to identify the stable sequences of learning. \n\nLearning Activities are recommended and the learner is updated post-interactions.\n\nSelf-Organization is employed to the learners in order to identify which learners are more similar to the current learner and what sequences were used by the learner. Sequential pattern mining is used to generate the recommendations.\n\nStudents who used the SI-IFL recommender achieved better scores AND displayed greater satisfaction with the recommender than learners taking the remaining baseline approaches.",
+          "Limitations": "- Needs validation with additional datasets\n\n- Limited representation of learners and learning behaviours"
+        }
+      ],
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+        "block_index": 52
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_1e8e68f5",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Most recommenders in education need to be content-based because there are few interactions between users. The paper looks to add learners to the recommender system by building an hybrid recommender that combines Learner Influence Model, Self organization and Sequential Pattern Mining to recommend LO to learners. ",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_339ade8e",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "LIM obtains interpersonal information without requiring (e.g. ratings or grades). Then, SOM is used to recommend the optimal cliques to learners and, finally, SPM is used to decide which learning objects LO and learning paths should be taken by the learner. Results show promise in efficiency and adaptability to e-learning scenarios.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_34ac3043",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "With the proliferation of e-learning platforms, learners are increasingly expected to have a personalized learning pathway that is suited for their needs and learning goals. REcommender systems have been used to try to meet this need - CBF, CF or Hybrid. CBF recommenders make recommendation based on the content that is explored by the user and some common features for these recommenders can be knowledge level, learning ability and learning experience. Despite their popularity these recommenders run into the issue of overspecialization and information overload.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_a27296c8",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "CF approaches compute similarity between users. However, these systems tend to suffer from problems such as cold-start and sparsity. Both of these carachteristics are everpresent in educational data. HF tries to combine information of learners with information about the LOs.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_096a9424",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The paper focuses on presenting an HF approach to e-learning recommendations. It will require some heuristics to define what can be considered the Learner Model and their interactive behaviors.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_26d277de",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Research Problems to address with this research are as follows:",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_0ee5d1b9",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Thus, authors propose a new HF approach. This will require:",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_dabbe3cd",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The authors summarize the works on multiple dimensions.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_679c61d0",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The criteria for stopping is Entropy. As soon as the intra-cluster entropy (impurity) falls below a certain threshold, then the clsuter is considered stable. ",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_995c2ed6",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "After obtaining the clusters, the authors use a PrefixSpan algorithm to extract the recommendations. ",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_bcb6e52c",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The algorithm takes as input the learners in a specific cluster. Then, it uses the PageRank algorithm to sort the suitability of the different learners to the active learner. After sorting, the PrefixSpan algorithm is applied on the sequences of actions of the learners in the cluster to return the “optimal” sequence for the active learner.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_ee997719",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The authors use data from a C course taught at their institution. The course includes 4 modules and the open digital resources available are in the foprm of video, audio, PPT, Word, HTML, pages, etc…Students in 6 institutions take the course and each institution is considered a group.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_17179f86",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Groups were not balanced because the authors argues that there were no significant differences between the different groups in previous years. All students completed C and were in the final exam.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_d0dc8958",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "The different groups were subjected to distinct recommendation strategies:",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_d75f0873",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Students that were subjected to the SI-IFL algorithm as the recommendation strategy received the highest average score and, as per usual in other works presented by these authors, also achieved those greater scores while spending less time with the system and, simultaneously, accessing a smaller percentage of the candidate LOs.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_78517014",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "Total evaluation of the recommender is based on the following metrics:",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_2b2df66c",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "From the primary results, it seems that SI-IFL, the model with the most considerations of influence does seem to outperform the remaining models.  ",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_b504f954",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "When it comes to overall satisfaction, the SI-IFL seems to be one that has students be the most content with out of all the considered options. This is also the model in which the learners seem to be the most content with. Other approaches using self-organization also outperform the remaining strategies when it comes to attention focus and curiosity.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_8c783f07",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "When it comes to personalization, the authors note that the influence models are the models that generate the recommendations that are more accepted by the students. All-in-all, the IFLs usage of fuzzy-logic showcases a smaller degree of rejection of LOs than other models.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_8d6f8fef",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "When it comes to diversity, the authors analyze the results according to 2 different perspectives:",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_93a666ba",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "AS in previous works, the authors show that their system is not only the most accurate, but the most diverse out of all options tested until this specific moment.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    },
+    {
+      "id": "an_faeb29d4",
+      "reference_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b",
+      "text": "E-Learning has carachteristics of time continuity, which makes attributes such as diversity important for recommender systems to consider as these are key factors that contribute to a better learning experience and better learner satisfaction. \n\nThe authors propose an influence-based learner model that is independent from ratings. The authors use IFL to optimize their learner model and use that model to cluster learners nto different groups using SOM. For each cluster, the interactions are recorder using PrefixSpan. Thy proposed hybrid recommender system has shown to be effective, diverse and highly adaptable.",
+      "provenance": {
+        "page_id": "9ad6d18a-0f55-4912-9f5e-4608f2be041b"
+      }
+    }
+  ],
+  "workflow_states": []
+}

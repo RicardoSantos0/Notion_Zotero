@@ -1,0 +1,71 @@
+{
+  "references": [
+    {
+      "id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb",
+      "title": "Uncovering Learning Styles through Eye Tracking and Artificial Intelligence",
+      "authors": [],
+      "year": null,
+      "journal": "ETRA",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_f77c5771",
+      "reference_task_id": null,
+      "schema_name": "Abstract",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "E-Learning",
+          "Students": "100 Higher Education Students",
+          "Courses": "Not Applicable",
+          "Data sources": "Eye Tracking Device, ILS Questionnaires",
+          "Theoretical Grounding": "Felder Silverman Learning Style Model (FSLSM)",
+          "Features": "[Fixation, Whole Fixation, Visit, Glance, Total Duration, Modiefied Total Duration, Number, Modified Number, Time to First, Duration of First, Minimum/Average/Maximum duration, Last AOI viewed]",
+          "Preprocessing Details": "Surveys reveal target while eye-tracking dimensions wiill be used as features… eacxh element on the LMS is mapped to an AOI Grouping: Table of Contents, Summary, Illustrations, Keywords, Theory, Exercise, Example, Supporting Text, MCQ, Additional Materials.\n\nOutliers were removed. Authors, in fact, do different pre-processings and test the different preprocessings on different algorithms.\n\n",
+          "Models": "Logistic Regression, Ridge Regression, Decision Tree, RRandom Forest, Gradient Boosting, Naive Bayes, kNN, SVM, k-Means and MLP",
+          "Performance Metric: Best Model": "{Mean Accuracy: 0.69 - Gradient Boosting with ISF outlier removal and VAT feature Selection, F1-Score: 0.56 - NB with Mean imputation, LOF, Standard Scaler and VAT feature selection}",
+          "Groups Created": "-",
+          "Cluster Description": "-",
+          "Implications": "The results show that predicting learning styles from eye-tracking alone is challenging, but the introduction of pre-processing steps seems to improve model performance. \n\n",
+          "Comments": "Authors attempt to use supervised Learning to predict each of the 4 dimensions FSLSM. To do that, the authors use the ILS survey for the target variables and test different algorithm/preprocessing configurations. \n\nResults show that ML from Eye Tracking is not particularly effective since iit does not achieve an average F1-Score of 0.8 (the author’s established target).",
+          "Limitations": "- Limitations inherent to eye tracking tool or action classification.\n\n- No hyper-parameter tuning.\n\n- No data augmentation techniques used."
+        }
+      ],
+      "provenance": {
+        "page_id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb",
+        "block_index": 5
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_0e00a294",
+      "reference_id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb",
+      "text": "The paper proposes the utilization of eye-tracking data to identify learning styles on learners. The authors attempt to use multiple data extrtaction methods and make predictions on a plethora of differetn potential classifiers. ",
+      "provenance": {
+        "page_id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb"
+      }
+    },
+    {
+      "id": "an_41955cb2",
+      "reference_id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb",
+      "text": "Authors use data from 100 students to publish their findings but study results are unspecified.",
+      "provenance": {
+        "page_id": "32389c41-c2aa-4c05-81e6-14e6a6d04afb"
+      }
+    }
+  ],
+  "workflow_states": []
+}

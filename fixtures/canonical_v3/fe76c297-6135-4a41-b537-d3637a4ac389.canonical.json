@@ -1,0 +1,203 @@
+{
+  "references": [
+    {
+      "id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "title": "What are the most important predictors of computer science students' online help-seeking behaviors?",
+      "authors": [],
+      "year": null,
+      "journal": "Computers in Human Behavior",
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": null
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "id": "ex_4e1d225f",
+      "reference_task_id": null,
+      "schema_name": "Guidelines",
+      "extracted": [
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "203 students",
+          "Courses": "162 in introductory course\n42 in advanced course",
+          "Data sources": "Survey\nStudent Grades",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Preprocessing Details": "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Models": "Multiple Linear Regression: Online Search",
+          "Performance Metric: Best Model": "{R-Squared: 0.299 - 4 factors model, Adjusted R-Squared: 0.285 - 4 factors model}",
+          "Groups Created": "2",
+          "Cluster Description": "Expert students would, on average, report to be more willing to search for help online - especially independent searching.\n\nKey variables to predict online searching were Academic Performance, Learning Proficiency, Epistemological Belief and Problem Difficulty at p<0.001",
+          "Implications": "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Comments": "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.\n\nThere is a distinction from the authors based on whether the students are Novice or Experts.",
+          "Limitations": "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "203 students",
+          "Courses": "162 in introductory course\n42 in advanced course",
+          "Data sources": "Survey\nStudent Grades",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Preprocessing Details": "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Models": "Multiple Linear Regression: Asking Peers for Online Help",
+          "Performance Metric: Best Model": "{R-Squared: 0.192 - 2 factors model, Adjusted R-Squared: 0.184 - 4 factors model}",
+          "Groups Created": "2",
+          "Cluster Description": "Expert students would, on average, report to be more willing to search for help.\n\nInterest and Problem Difficulty were the relevant predictors at p<0.001",
+          "Implications": "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Comments": "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.",
+          "Limitations": "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        },
+        {
+          "Task": "Classification",
+          "Context": "Higher Education",
+          "Teaching Method": "Blended Learning",
+          "Students": "203 students",
+          "Courses": "162 in introductory course\n42 in advanced course",
+          "Data sources": "Survey\nStudent Grades",
+          "Theoretical Grounding": "None Specified",
+          "Features": "[Age, Gender, Epistemological Belief, Interest, Prior Knowledge on Learning Subject, Problem Difficulty, Learning Proficiency, Academic Performance]",
+          "Preprocessing Details": "Data collection was done via survey for most constructs using a 4 point likert scale. \n\nAcademic performance was estimated taking into consideration the grades on individual assignments, projects, group projects, midterms and final exam.\n\nKaiser-Meyer-Olkin (KMO) measure verified the sampling adequacy for the analysis\n",
+          "Models": "Multiple Linear Regression: Asking Teachers for Online Help",
+          "Performance Metric: Best Model": "{R-Squared: 0.083 - 5 factors model, Adjusted R-Squared: 0.059 - 5 factors model}}",
+          "Groups Created": "2",
+          "Cluster Description": "Expert students would, on average, report to be more willing to search for help.\n\nAcademic Performance, Learning Proficiency and Problem Diffulty were the only significant predictors at 5% significance",
+          "Implications": "Academically challenged and novice students would benefit from help at developing online help-seeking skills - especially since they usually do not have the confidence to approach professors.\n\nFostering training of online-help seeking would be benefical and develop their acceptance of independent learning.\n\n",
+          "Comments": "Study is descriptive in the sense that it does not look to predict anything specifically. Instead in focuses on identifying predictors of online help-seeking from 8 different constructs.",
+          "Limitations": "Data is only based on self-reports. \n\nSmall sample size (even though model assessment strategy is adequate). "
+        }
+      ],
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+        "block_index": 32
+      },
+      "revision_status": null
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_271b72c9",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "The paper focuses on the identification of help-seeking behavior on a sample of 203 CS students. Authors analyze which of 8 potential factors are the best towards determining the behavior, with problem difficulty being the most important. Depending on the type of help-seeking (online or professor-assisted) other predictors were also found to be relevant.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_b3fa3f6d",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Higher education is becoming more and more sought after by young adults who look at it as an opportunity to better employment and economic stability. However, this increase also increases pressure to develop new ways of teaching that are necessary to provide support to students in need.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_9aa83d9c",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Help-seeking is a kill that is very important in these new teaching methodologies. Specifically, online help-seeking is easier for students who may be unconfortable in face to face contexts even though, sometimes, they may struggle in finding the information they need online. ",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_fb53dc30",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Thus, the paper aims to provide guidelines on online help-seeking. To do that, the authors first determine what are the factors that predict online help-seeking.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_a9056bb7",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Help-seeking is a sequence of actions: realizing you need help, identifying problems and making questions. Literature identifies 3 types of online help-seeking:",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_ea4a0fc0",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Online settings offer a wealth of information that is more unstructured than regular tutor-led help-seeking. While still in its infancy, the authors found that students with smaller prior knowledge of the discipline under study are more likely to not know when to seek help or even to formulate what to ask. Similarly, experienced learners are also more likely to prefer online help-seeking. Novices tend to require structure and someone to tell them what to look for.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_104a9c5f",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Another predictor of help-seeking (especially in face-to-face contexts) is academic performance. Better students tend to be more confident and are more likely to engage in help-seeking.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_5f92431f",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "There are other potential factors such as problem difficulty, age, gender that have the potential to predict help-seeking. However, most of these require validation for online contexts.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_b117a610",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "What are the most important predictors of student online help-seeking behavior?",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_19a6110e",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "The sample uses 203 students attending CS courses, out of whom 162 were novice learners and 41 were advanced learners. The courses used an LMS that allows for communication and help-seeking. Data collection for identification of online help-seeking behavior was done via survey with the exception of dimensions Academic Performance (grade averages) and Learning Proficiency (course being undertaken). These variables were used as input to a Multiple Linear Regression model in order to ascertain what were the most significant predictors of different online help-seeking behaviors (online search and asking peers). Results were evaluated using 1000 repetitions of 10-Fold CV.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_7fb68762",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "For Online help-seeking, the model that resulted in the lowest error was the 4-factors regression comprising the constructs: Academic Performance, LEarning Proficiency, Epistemological Belief and Problem Difficulty. ",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_989433bf",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "On the end of seeking Teachers, the 5-factor model (Gender, Academic Performance, Learning Proficiency, Epistemological Beliefs and Problem Difficulty) was the best one, even though it only achieves na R-Squared of 0.08. Finally, on the searching for Peer assistance model, the results show that the 2-factor model (Interest and Problem Difficulty) were the best ones.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_96f9d144",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "Problem difficulty was the most important predictor on all tasks, with 3 others being important in both Online Search and interactions with Professors. The discussion of the negative and positive effects of these constructs are justified under the perspective of learning theory.",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    },
+    {
+      "id": "an_e28ac399",
+      "reference_id": "fe76c297-6135-4a41-b537-d3637a4ac389",
+      "text": "It is important to assist students develop online search skills: Students who are novices or academically challenged feel less confortable with having to learn on their own and often tend to avoid reaching out for help due to self-confidence issues. Another important factor is to encourage students to be more active in their learning → maybe even needing to be convinced that independent learning is a viable alternative for them. ",
+      "provenance": {
+        "page_id": "fe76c297-6135-4a41-b537-d3637a4ac389"
+      }
+    }
+  ],
+  "workflow_states": []
+}
