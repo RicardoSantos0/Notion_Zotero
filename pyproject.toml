@@ -13,7 +13,12 @@ dependencies = [
   "notion-client",
   "python-dotenv",
   "pydantic>=2",
-  "pytest; extra == 'test'"
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=7.0",
+  "pytest-cov>=4.0",
 ]
 
 [tool.setuptools.packages.find]

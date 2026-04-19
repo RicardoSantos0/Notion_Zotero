@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv run *)",
+      "Bash(pip install *)",
+      "Bash(python -m pytest tests/test_models_roundtrip.py tests/test_importer_integration.py tests/test_templates_registry.py -v)",
+      "Bash(python -m pytest tests/ -v)",
+      "Bash(python -m notion_zotero.cli list-domain-packs)",
+      "Bash(python -m notion_zotero.cli list-templates)",
+      "Bash(python -m pytest tests/ -v --tb=short)",
+      "Bash(python -m pytest tests/ -v --tb=no -q)"
+    ]
+  }
+}

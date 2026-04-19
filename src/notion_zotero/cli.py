@@ -1,17 +1,15 @@
 #!/usr/bin/env python3
-"""Compatibility CLI entrypoint under `notion_zotero` package.
-
-This module is a lightweight shim that delegates to the existing `src`-
-prefixed modules so the new console script entrypoints work immediately
-while the refactor proceeds.
-"""
+"""CLI entrypoint for the notion_zotero package."""
 from __future__ import annotations
 
 import argparse
 import json
+import logging
 import sys
 from pathlib import Path
 from typing import Any, Sequence
+
+log = logging.getLogger(__name__)
 
 
 def _call_func_with_argv(func, argv: Sequence[str]):
@@ -34,7 +32,6 @@ def cmd_export_snapshot(args):
 
 
 def cmd_parse_fixtures(args):
-    # Delegate to the existing reading_list_importer under `src.services`
     from notion_zotero.services.reading_list_importer import main as _rl_main
 
     argv = []
@@ -44,6 +41,9 @@ def cmd_parse_fixtures(args):
         argv += ["--out", args.out]
     if args.force:
         argv += ["--force"]
+    if getattr(args, "domain_pack", None):
+        argv += ["--domain-pack", args.domain_pack]
+        log.info("parse-fixtures: using domain pack %s", args.domain_pack)
     _call_func_with_argv(_rl_main, argv)
 
 
@@ -121,6 +121,55 @@ def cmd_dedupe_canonical(args):
     print("WROTE:", out_path)
 
 
+def cmd_list_domain_packs(args):
+    from notion_zotero.schemas.task_registry import list_domain_packs
+    packs = list_domain_packs()
+    if not packs:
+        print("No domain packs registered.")
+        return
+    print("Available domain packs:")
+    for p in packs:
+        print(f"  {p}")
+
+
+def cmd_list_templates(args):
+    from notion_zotero.schemas.templates.generic import TEMPLATES
+    if not TEMPLATES:
+        print("No templates registered.")
+        return
+    print("Available templates:")
+    for tid, tmpl in TEMPLATES.items():
+        print(f"  {tid}  —  {tmpl.display_name}")
+
+
+def cmd_validate_fixtures(args):
+    from notion_zotero.schemas.templates.generic import TEMPLATES
+    from notion_zotero.schemas.task_registry import list_domain_packs
+    in_dir = Path(args.input or "fixtures/canonical")
+    if not in_dir.exists():
+        print(f"Input directory not found: {in_dir}", file=sys.stderr)
+        sys.exit(1)
+    files = sorted(in_dir.glob("*.canonical.json"))
+    if not files:
+        print(f"No *.canonical.json files found in {in_dir}")
+        return
+    errors = 0
+    for f in files:
+        try:
+            data = json.loads(f.read_text(encoding="utf-8"))
+            if not isinstance(data, dict):
+                print(f"  WARN  {f.name}: root is not an object")
+                errors += 1
+            else:
+                print(f"  OK    {f.name}")
+        except Exception as exc:
+            print(f"  ERROR {f.name}: {exc}")
+            errors += 1
+    log.info("validate-fixtures: %d files, %d errors", len(files), errors)
+    if errors:
+        sys.exit(1)
+
+
 def cmd_zotero_citation(args):
     f = Path(args.file).resolve() if args.file else None
     if not f or not f.exists():
@@ -158,6 +207,7 @@ def main(argv: Sequence[str] | None = None) -> int:
     p.add_argument("--input", default="fixtures/reading_list")
     p.add_argument("--out", default="fixtures/canonical")
     p.add_argument("--force", action="store_true")
+    p.add_argument("--domain-pack", default=None, help="Domain pack ID to apply during parsing")
     p.set_defaults(func=cmd_parse_fixtures)
 
     m = sub.add_parser("merge-canonical", help="Merge per-page canonical JSONs into a single array")
@@ -173,6 +223,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     z = sub.add_parser("zotero-citation", help="Print a human citation for a Zotero item or canonical bundle")
     z.add_argument("--file", required=True)
     z.set_defaults(func=cmd_zotero_citation)
+
+    lp = sub.add_parser("list-domain-packs", help="List registered domain packs")
+    lp.set_defaults(func=cmd_list_domain_packs)
+
+    lt = sub.add_parser("list-templates", help="List registered extraction templates")
+    lt.set_defaults(func=cmd_list_templates)
+
+    vf = sub.add_parser("validate-fixtures", help="Validate canonical fixture JSON files")
+    vf.add_argument("--input", default="fixtures/canonical")
+    vf.set_defaults(func=cmd_validate_fixtures)
 
     args = parser.parse_args(argv)
     if not hasattr(args, "func"):

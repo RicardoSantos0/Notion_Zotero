@@ -1,0 +1,62 @@
+{
+  "id": "test-ela-page-001",
+  "object": "page",
+  "properties": {
+    "Title": {
+      "type": "title",
+      "title": [{"type": "text", "text": {"content": "Deep Knowledge Tracing"}}]
+    },
+    "Author": {
+      "type": "rich_text",
+      "rich_text": [{"type": "text", "text": {"content": "Piech, C.; Spencer, J.; Goodman, N."}}]
+    },
+    "Year": {"type": "number", "number": 2015},
+    "Journal": {
+      "type": "rich_text",
+      "rich_text": [{"type": "text", "text": {"content": "Advances in Neural Information Processing Systems"}}]
+    },
+    "DOI": {
+      "type": "rich_text",
+      "rich_text": [{"type": "text", "text": {"content": "10.5555/2969442.2969558"}}]
+    },
+    "Status": {
+      "type": "select",
+      "select": {"name": "KT"}
+    },
+    "Status_1": {
+      "type": "select",
+      "select": {"name": "included"}
+    }
+  },
+  "children": [
+    {
+      "type": "heading_2",
+      "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Knowledge Tracing Results"}}]}
+    },
+    {
+      "type": "table",
+      "table": {
+        "has_row_header": true,
+        "table_width": 3,
+        "children": [
+          {
+            "type": "table_row",
+            "table_row": {"cells": [
+              [{"type": "text", "text": {"content": "Dataset"}}],
+              [{"type": "text", "text": {"content": "AUC"}}],
+              [{"type": "text", "text": {"content": "Notes"}}]
+            ]}
+          },
+          {
+            "type": "table_row",
+            "table_row": {"cells": [
+              [{"type": "text", "text": {"content": "ASSISTments"}}],
+              [{"type": "text", "text": {"content": "0.86"}}],
+              [{"type": "text", "text": {"content": "LSTM-based model"}}]
+            ]}
+          }
+        ]
+      }
+    }
+  ]
+}

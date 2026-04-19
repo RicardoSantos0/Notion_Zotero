@@ -8,9 +8,13 @@ Description-Content-Type: text/markdown
 Requires-Dist: notion-client
 Requires-Dist: python-dotenv
 Requires-Dist: pydantic>=2
-Requires-Dist: pytest; extra == "test"
+Provides-Extra: test
+Requires-Dist: pytest>=7.0; extra == "test"
+Requires-Dist: pytest-cov>=4.0; extra == "test"
 
  # Notion_Zotero
+
+ [![Regenerate sanitized summary](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml/badge.svg?branch=main)](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml)
 
  Scaffold for Notion ↔ Zotero reference management toolkit.
 

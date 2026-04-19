@@ -1,0 +1,55 @@
+{
+  "id": "test-generic-page-001",
+  "object": "page",
+  "properties": {
+    "Title": {
+      "type": "title",
+      "title": [{"type": "text", "text": {"content": "A Systematic Review of Prediction Models"}}]
+    },
+    "Author": {
+      "type": "rich_text",
+      "rich_text": [{"type": "text", "text": {"content": "Smith, J.; Jones, A."}}]
+    },
+    "Year": {"type": "number", "number": 2022},
+    "Status": {
+      "type": "select",
+      "select": {"name": "PRED"}
+    }
+  },
+  "children": [
+    {
+      "type": "heading_2",
+      "heading_2": {"rich_text": [{"type": "text", "text": {"content": "Prediction Results"}}]}
+    },
+    {
+      "type": "table",
+      "table": {
+        "has_row_header": true,
+        "table_width": 2,
+        "children": [
+          {
+            "type": "table_row",
+            "table_row": {"cells": [
+              [{"type": "text", "text": {"content": "Metric"}}],
+              [{"type": "text", "text": {"content": "Value"}}]
+            ]}
+          },
+          {
+            "type": "table_row",
+            "table_row": {"cells": [
+              [{"type": "text", "text": {"content": "Accuracy"}}],
+              [{"type": "text", "text": {"content": "0.91"}}]
+            ]}
+          },
+          {
+            "type": "table_row",
+            "table_row": {"cells": [
+              [{"type": "text", "text": {"content": "F1"}}],
+              [{"type": "text", "text": {"content": "0.88"}}]
+            ]}
+          }
+        ]
+      }
+    }
+  ]
+}
