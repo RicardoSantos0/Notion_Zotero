@@ -7,7 +7,7 @@ name = "notion_zotero"
 version = "0.1.0"
 description = "Notion ↔ Zotero extraction and canonicalization toolkit"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 authors = [ {name = "Ricardo Santos"} ]
 dependencies = [
   "notion-client",
@@ -20,6 +20,6 @@ dependencies = [
 where = ["src"]
 
 [project.scripts]
-export-reading-list = "src.scripts.export_reading_list:main"
-import-reading-list = "src.services.reading_list_importer:main"
-notion-zotero = "src.cli:main"
+export-reading-list = "notion_zotero.scripts.export_reading_list:main"
+import-reading-list = "notion_zotero.services.reading_list_importer:main"
+notion-zotero = "notion_zotero.cli:main"

@@ -1,0 +1,6 @@
+notion-client
+python-dotenv
+pydantic>=2
+
+[:extra == "test"]
+pytest

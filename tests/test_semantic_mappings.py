@@ -11,24 +11,9 @@ def _fixtures_dir() -> Path:
 
 
 def test_parse_fixture_is_deterministic_and_has_provenance():
-    # Ensure the Notion_Zotero project root is on sys.path before importing
-    import sys
+    # Use the canonical importer in the `notion_zotero` package
+    from notion_zotero.services import reading_list_importer as rli
     fixtures = _fixtures_dir()
-    project_root = fixtures.parent.parent
-    if str(project_root) not in sys.path:
-        sys.path.insert(0, str(project_root))
-    import importlib
-    import types
-    importlib.invalidate_caches()
-    # Make a package placeholder for `src` pointing at the local src/ dir so
-    # relative imports inside the module resolve correctly and do not collide
-    # with other workspace packages named `src`.
-    src_pkg = types.ModuleType("src")
-    src_pkg.__path__ = [str(project_root / "src")]
-    import sys
-    # Force-local `src` package override for the duration of this test run.
-    sys.modules["src"] = src_pkg
-    rli = importlib.import_module("src.services.reading_list_importer")
     files = sorted(fixtures.glob("*.json"))
     assert files, "No reading_list fixtures found for test"
 

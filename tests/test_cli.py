@@ -1,7 +1,7 @@
 import json
 from pathlib import Path
 
-from src import cli
+from notion_zotero import cli
 
 
 def test_merge_canonical_smoke(tmp_path):

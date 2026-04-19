@@ -1,0 +1,35 @@
+{
+  "page_id": "page-001",
+  "title": "Test Paper Title",
+  "properties": {
+    "Authors": {"type": "people", "people": [{"name": "Alice"}]},
+    "Journal": {"type": "rich_text", "rich_text": [{"plain_text": "JMLR"}]},
+    "DOI": {"type": "rich_text", "rich_text": [{"plain_text": "10.1000/test"}]},
+    "URL": {"type": "url", "url": "https://example.com"},
+    "Zotero Key": {"type": "rich_text", "rich_text": [{"plain_text": "Z-KEY"}]},
+    "Status": {"type": "select", "select": {"name": "Read"}}
+  },
+  "tables": [
+    {
+      "heading": "Prediction results",
+      "block_id": "tb-1",
+      "index": 0,
+      "rows": [
+        ["Name", "Metric", "Value"],
+        ["Model A", "Accuracy", "0.90"]
+      ]
+    },
+    {
+      "heading": "Methods",
+      "block_id": "tb-2",
+      "index": 1,
+      "rows": [
+        ["Method", "Description"],
+        ["SVM", "Support Vector Machine"]
+      ]
+    }
+  ],
+  "blocks": [
+    {"type": "paragraph", "id": "b-1", "text": "Some note here."}
+  ]
+}

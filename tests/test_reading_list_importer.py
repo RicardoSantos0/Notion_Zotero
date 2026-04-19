@@ -1,5 +1,5 @@
 from pathlib import Path
-from src.services.reading_list_importer import parse_fixture
+from notion_zotero.services.reading_list_importer import parse_fixture
 import json
 
 
