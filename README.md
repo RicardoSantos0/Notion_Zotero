@@ -1,5 +1,7 @@
  # Notion_Zotero
 
+ [![Regenerate sanitized summary](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml/badge.svg?branch=main)](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml)
+
  Scaffold for Notion ↔ Zotero reference management toolkit.
 
  Quick start
