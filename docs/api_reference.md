@@ -71,11 +71,60 @@ citation_from_reference(ref: Reference, style: str = "apa") -> str
 
 ## `notion_zotero.schemas.task_registry`
 
+### Functions
+
 ```python
 list_domain_packs() -> list[str]
+```
+Returns the IDs of all registered domain packs (e.g. `["education_learning_analytics"]`).
+
+```python
 load_domain_pack(name: str) -> dict | None
-resolve_task_alias(domain_pack: dict, heading: str) -> str | None
-match_heading_to_task(heading: str) -> str | None   # uses education pack
+```
+Returns the domain pack dict for `name`, or `None` if not registered.
+
+```python
+resolve_task_alias(domain_pack: dict, heading: str | None) -> str | None
+```
+Resolves a Notion heading to a task ID using substring alias matching against the provided pack. Returns `None` if no alias matches; logs a `WARNING` when the heading is non-empty but unmatched.
+
+```python
+match_heading_to_task(heading: str | None) -> str | None
+```
+Convenience wrapper — resolves `heading` against the built-in `education_learning_analytics` pack.
+
+```python
+get_applicable_tasks(item: dict) -> list[tuple[str, callable]]
+```
+Returns `[(task_id, parser), ...]` for the given item dict. `item` must contain `"heading"` (str) and optionally `"_domain_pack"` (dict) to override the default pack. Logs a warning when `heading` is non-empty and matches no task.
+
+### Domain Pack Dict Schema
+
+```python
+{
+    "id": str,          # unique pack identifier
+    "version": str,     # semantic version string, e.g. "1.0"
+    "name": str,        # human-facing display name
+    "tasks": {
+        "<task_id>": {
+            "name": str,              # human-facing task name
+            "aliases": list[str],     # heading substrings to match (case-insensitive)
+            "template_id": str,       # key in schemas.templates.generic.TEMPLATES
+        },
+        ...
+    },
+}
+```
+
+**Canonical bundle provenance** — each bundle produced by the importer includes:
+```python
+{
+    "provenance": {
+        "domain_pack_id": str,      # pack ID used at import time
+        "domain_pack_version": str, # pack version used at import time
+    },
+    ...
+}
 ```
 
 ---

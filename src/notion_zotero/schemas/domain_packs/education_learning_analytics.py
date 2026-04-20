@@ -8,6 +8,7 @@ from typing import Dict, Any, Optional
 
 domain_pack = {
     "id": "education_learning_analytics",
+    "version": "1.0",
     "name": "Education / Learning Analytics",
     "tasks": {
         "descriptive_modelling": {

@@ -1,10 +1,15 @@
- .venv/
- __pycache__/
- *.pyc
- .env
- data/
- .idea/
- .vscode/
- fixtures/canonical_merged.json
- # Migration audit raw report (may contain private content)
- migration_audit/migration_report.json
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+data/
+.idea/
+.vscode/
+fixtures/canonical_merged.json
+# Migration audit raw report (may contain private content)
+migration_audit/migration_report.json
+.pytest_cache/
+*.egg-info/
+dist/
+.coverage

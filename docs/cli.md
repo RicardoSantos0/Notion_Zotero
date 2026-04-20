@@ -1,61 +1,105 @@
 # CLI (notion_zotero) — commands and examples
 
-This document shows the supported `notion_zotero` CLI subcommands and quick
-examples using the package entrypoint.
-
-Run the CLI using Python's `-m` module runner:
+Run via the installed entrypoint or the module runner:
 
 ```bash
+notion-zotero <subcommand> [options]
+# or
 python -m notion_zotero.cli <subcommand> [options]
 ```
 
-Available subcommands (seeded):
+---
 
-- `export-snapshot` — Export a Notion database snapshot to JSON.
-  - Note: this requires an `analysis` implementation under `notion_zotero.analysis`.
-    If the package does not include that module, the command will raise an
-    informative runtime error.
+## Subcommands
 
-- `parse-fixtures` — Parse local fixture JSON files (Notion snapshots) into
-  per-page canonical JSON bundles.
-
-- `merge-canonical` — Merge per-page canonical JSON files into a single
-  array file (useful prior to deduplication).
-
-- `dedupe-canonical` — Deduplicate canonical bundles by DOI or title+authors.
-
-- `zotero-citation` — Print a human citation string for a Zotero item or a
-  canonical bundle file.
-
-Examples
-
-1) Parse fixtures into canonical files:
+### `parse-fixtures`
+Parse local fixture JSON files (Notion snapshots) into per-page canonical JSON bundles.
 
 ```bash
-python -m notion_zotero.cli parse-fixtures --input fixtures/reading_list --out fixtures/canonical
+notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical
 ```
 
-2) Merge canonical bundles into a single file:
+Options:
+- `--input PATH` — directory containing raw Notion export JSON files
+- `--out PATH` — output directory for canonical bundles
+- `--force` — overwrite existing canonical bundles
+- `--domain-pack PACK_ID` — apply a specific domain pack for task extraction. Falls back to `education_learning_analytics` with a warning if the requested pack is not found.
+
+Each output bundle is stamped with provenance:
+```json
+{
+  "provenance": {
+    "domain_pack_id": "education_learning_analytics",
+    "domain_pack_version": "1.0"
+  }
+}
+```
+
+---
+
+### `merge-canonical`
+Merge per-page canonical JSON files into a single array file.
 
 ```bash
-python -m notion_zotero.cli merge-canonical --input fixtures/canonical --out fixtures/canonical_merged.json
+notion-zotero merge-canonical --input fixtures/canonical --out fixtures/canonical_merged.json
 ```
 
-3) Deduplicate merged canonical file:
+---
+
+### `dedupe-canonical`
+Deduplicate canonical bundles by DOI or title+authors.
 
 ```bash
-python -m notion_zotero.cli dedupe-canonical --input fixtures/canonical_merged.json --out fixtures/canonical_merged.dedup.json
+notion-zotero dedupe-canonical --input fixtures/canonical_merged.json --out fixtures/canonical_merged.dedup.json
 ```
 
-4) Print a citation from a canonical bundle:
+---
+
+### `validate-fixtures`
+Validate canonical bundle files in a directory. Exits with code 1 if any bundles are malformed.
 
 ```bash
-python -m notion_zotero.cli zotero-citation --file fixtures/canonical/<page>.canonical.json
+notion-zotero validate-fixtures --input fixtures/canonical
 ```
 
-Notes & tips
+---
 
-- If `export-snapshot` is missing, implement the database export function in
-  `notion_zotero.analysis` or restore the legacy analysis module into the
-  package.
-- Use `--force` with `parse-fixtures` to overwrite canonical bundle files.
+### `list-domain-packs`
+List all registered domain packs.
+
+```bash
+notion-zotero list-domain-packs
+```
+
+---
+
+### `list-templates`
+List all registered extraction templates.
+
+```bash
+notion-zotero list-templates
+```
+
+---
+
+### `export-snapshot`
+Export a live Notion database snapshot to JSON (requires `NOTION_API_KEY` and `NOTION_DATABASE_ID`).
+
+```bash
+notion-zotero export-snapshot
+```
+
+---
+
+### `zotero-citation`
+Print a human citation string for a canonical bundle file.
+
+```bash
+notion-zotero zotero-citation --file fixtures/canonical/<page>.canonical.json
+```
+
+---
+
+## Logging
+
+All operational output (file writes, updates, warnings) uses Python's standard `logging` module, not `print`. Set `logging.basicConfig(level=logging.INFO)` in calling code, or use the `LOGLEVEL` env var if configured.

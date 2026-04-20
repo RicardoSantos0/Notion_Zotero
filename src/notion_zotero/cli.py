@@ -70,8 +70,8 @@ def cmd_merge_canonical(args):
     out_path = args.out or "fixtures/canonical_merged.json"
     bundles = _load_canonical_bundles(in_dir)
     _write_json(bundles, out_path)
-    print(f"Loaded {len(bundles)} bundles from {in_dir}")
-    print("WROTE:", out_path)
+    log.info("loaded %d bundles from %s", len(bundles), in_dir)
+    log.info("WROTE: %s", out_path)
 
 
 def _dedupe_bundles(bundles: list[dict[str, Any]]) -> list[dict[str, Any]]:
@@ -117,8 +117,8 @@ def cmd_dedupe_canonical(args):
         data = [data]
     deduped = _dedupe_bundles(data)
     _write_json(deduped, out_path)
-    print(f"Input bundles: {len(data)}; deduped: {len(deduped)}")
-    print("WROTE:", out_path)
+    log.info("input bundles: %d; deduped: %d", len(data), len(deduped))
+    log.info("WROTE: %s", out_path)
 
 
 def cmd_list_domain_packs(args):

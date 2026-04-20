@@ -1,9 +1,12 @@
 """Registry to list and load domain packs and resolve headings to canonical tasks."""
 from __future__ import annotations
 
-from typing import Dict, Optional, List, Tuple
+import logging
+from typing import Any, Dict, Optional, List, Tuple
 
 from .domain_packs import education_learning_analytics as ela
+
+log = logging.getLogger(__name__)
 
 
 DOMAIN_PACKS: Dict[str, Dict] = {
@@ -41,17 +44,21 @@ def get_applicable_tasks(item: dict[str, Any]) -> List[tuple[str, callable]]:
     The parser is a callable parser(item) -> {"schema_name": str, "extracted": list}
     """
     out: List[tuple[str, callable]] = []
-    # 1) Domain-pack-driven match
+    heading = item.get("heading") or ""
+    # 1) Domain-pack-driven match — prefer pack injected by importer, fall back to ELA default
     try:
-        tid = match_heading_to_task(item.get("heading"))
+        active_pack = item.get("_domain_pack") or ela.domain_pack
+        tid = resolve_task_alias(active_pack, heading)
         if tid:
-            meta = ela.domain_pack.get("tasks", {}).get(tid, {})
+            meta = active_pack.get("tasks", {}).get(tid, {})
             template_id = meta.get("template_id")
 
             def _parser(it, schema_name=template_id):
                 return {"schema_name": schema_name or "table", "extracted": it.get("rows", [])}
 
             out.append((tid, _parser))
+        elif heading:
+            log.warning("heading '%s' (page %s) matched no domain pack task", heading, item.get("page_id", "unknown"))
     except Exception:
         # defensive: ignore domain pack errors
         pass

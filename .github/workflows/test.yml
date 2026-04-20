@@ -17,4 +17,4 @@ jobs:
       - name: Install package with test deps
         run: pip install -e ".[test]"
       - name: Run tests
-        run: pytest tests/ -v --cov=notion_zotero --cov-report=term-missing
+        run: pytest tests/ -v --cov=notion_zotero --cov-report=term-missing --cov-fail-under=70

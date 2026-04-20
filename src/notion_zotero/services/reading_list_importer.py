@@ -8,6 +8,7 @@ and uses deterministic IDs from `src.schemas.idgen`.
 from __future__ import annotations
 
 import json
+import logging
 import argparse
 from pathlib import Path
 from typing import Any
@@ -19,6 +20,8 @@ from notion_zotero.core.normalize import normalize_title
 
 # reuse deterministic id helper from the package-local schemas
 from notion_zotero.schemas.idgen import deterministic_short_id
+
+log = logging.getLogger(__name__)
 
 
 def prop_value(prop: dict | None):
@@ -55,11 +58,22 @@ def slugify(s: str | None) -> str:
 	return "".join(c if c.isalnum() else "_" for c in (s or "")).strip("_").lower()
 
 
-def parse_fixture(path: Path):
+def parse_fixture(path: Path, domain_pack_id: str | None = None):
 	d = json.loads(path.read_text(encoding="utf-8"))
 	page_id = d.get("page_id")
 	title = d.get("title") or page_id
 	props = d.get("properties", {})
+	# Resolve which domain pack to use
+	active_pack = None
+	active_pack_version: str | None = None
+	if domain_pack_id:
+		active_pack = task_registry.load_domain_pack(domain_pack_id)
+		if active_pack is None:
+			log.warning("domain pack '%s' not found; falling back to default", domain_pack_id)
+	if active_pack is None:
+		from notion_zotero.schemas.domain_packs import education_learning_analytics as _ela
+		active_pack = _ela.domain_pack
+	active_pack_version = active_pack.get("version")
 
 	ref = Reference(
 		id=page_id,
@@ -90,7 +104,7 @@ def parse_fixture(path: Path):
 					r = r + ["" for _ in range(len(header) - len(r))]
 				parsed.append(dict(zip(header, r)))
 
-		item = {"page_id": page_id, "heading": heading, "rows": parsed, "properties": props, "title": title}
+		item = {"page_id": page_id, "heading": heading, "rows": parsed, "properties": props, "title": title, "_domain_pack": active_pack}
 
 		applicable = task_registry.get_applicable_tasks(item)
 		if applicable:
@@ -127,6 +141,10 @@ def parse_fixture(path: Path):
 		return obj
 
 	out = {
+		"provenance": {
+			"domain_pack_id": active_pack.get("id"),
+			"domain_pack_version": active_pack_version,
+		},
 		"references": [_dump(ref)],
 		"tasks": [_dump(t) for t in tasks],
 		"reference_tasks": [_dump(rt) for rt in reference_tasks],
@@ -142,25 +160,29 @@ def main():
 	p.add_argument("--input", default="fixtures/reading_list")
 	p.add_argument("--out", default="fixtures/canonical")
 	p.add_argument("--force", action="store_true", help="overwrite existing canonical files even if content unchanged")
+	p.add_argument("--domain-pack", default=None, help="domain pack ID to use for task resolution")
 	args = p.parse_args()
+	domain_pack_id: str | None = getattr(args, "domain_pack", None)
+	if domain_pack_id:
+		log.info("using domain pack: %s", domain_pack_id)
 	input_dir = Path(args.input)
 	out_dir = Path(args.out)
 	out_dir.mkdir(parents=True, exist_ok=True)
 	for f in sorted(input_dir.glob("*.json")):
-		page_id, canon = parse_fixture(f)
+		page_id, canon = parse_fixture(f, domain_pack_id=domain_pack_id)
 		out_path = out_dir / f"{page_id}.canonical.json"
 		new_text = json.dumps(canon, ensure_ascii=False, indent=2)
 		if out_path.exists() and not args.force:
 			old_text = out_path.read_text(encoding="utf-8")
 			if old_text == new_text:
-				print("UNCHANGED:", out_path)
+				log.info("UNCHANGED: %s", out_path)
 				continue
 			else:
 				out_path.write_text(new_text, encoding="utf-8")
-				print("UPDATED:", out_path)
+				log.info("UPDATED: %s", out_path)
 		else:
 			out_path.write_text(new_text, encoding="utf-8")
-			print("WROTE:", out_path)
+			log.info("WROTE: %s", out_path)
 
 
 if __name__ == '__main__':
