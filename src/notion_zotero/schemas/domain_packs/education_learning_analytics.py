@@ -1,10 +1,18 @@
 """Domain pack for the education / learning-analytics review.
 
 Defines canonical task ids, human-facing names, aliases, and template mapping.
+
+Compliance: no imports from notion_zotero.core — this module is intentionally
+kept free of core-model dependencies so it can be loaded before core models
+are fully initialised.
 """
 from __future__ import annotations
 
 from typing import Dict, Any, Optional
+
+# Module-level constants for external reference without loading the full dict.
+DOMAIN_PACK_ID: str = "education_learning_analytics"
+DOMAIN_PACK_VERSION: str = "1.0"
 
 domain_pack = {
     "id": "education_learning_analytics",
@@ -50,4 +58,4 @@ def match_heading_to_task(heading: str | None) -> Optional[str]:
     return None
 
 
-__all__ = ["domain_pack", "list_tasks", "match_heading_to_task"]
+__all__ = ["DOMAIN_PACK_ID", "DOMAIN_PACK_VERSION", "domain_pack", "list_tasks", "match_heading_to_task"]

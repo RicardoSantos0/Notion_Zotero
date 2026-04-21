@@ -1,0 +1,100 @@
+{
+  "references": [
+    {
+      "id": "aaa00001-0000-0000-0000-000000000001",
+      "title": "Deep Knowledge Tracing",
+      "authors": ["Piech, Chris", "Spencer, Jonathan"],
+      "year": 2015,
+      "journal": "Advances in Neural Information Processing Systems",
+      "doi": "10.5555/2969239.2969296",
+      "url": null,
+      "zotero_key": "PIECH2015",
+      "abstract": "Knowledge tracing models a student's latent knowledge state as they interact with a tutoring system.",
+      "item_type": "journalArticle",
+      "tags": ["knowledge tracing", "deep learning"],
+      "provenance": {
+        "source_id": "aaa00001-0000-0000-0000-000000000001",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_seq_trace_001",
+      "name": "Knowledge Tracing",
+      "aliases": ["knowledge tracing", "sequence tracing"],
+      "template_id": "sequence_tracing",
+      "family": "sequence",
+      "domain_pack": "education_learning_analytics",
+      "provenance": {
+        "source_id": "aaa00001-0000-0000-0000-000000000001",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "reference_tasks": [
+    {
+      "id": "rt_aaa00001_seq_001",
+      "reference_id": "aaa00001-0000-0000-0000-000000000001",
+      "task_id": "task_seq_trace_001",
+      "assignment_source": "heading_match",
+      "inclusion_decision_for_task": "include",
+      "relevance_notes": "Core DKT paper — directly addresses sequence tracing task.",
+      "created_from_source": null,
+      "template_id": "sequence_tracing",
+      "provenance": {
+        "source_id": "aaa00001-0000-0000-0000-000000000001",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "task_extractions": [
+    {
+      "id": "ex_aaa00001_seq_001",
+      "reference_task_id": "rt_aaa00001_seq_001",
+      "template_id": "sequence_tracing",
+      "schema_name": "Sequence / Tracing",
+      "raw_headers": ["Event"],
+      "extracted": [
+        {"Event": "Student answers question Q1 correctly"},
+        {"Event": "Student answers question Q2 incorrectly"},
+        {"Event": "Model updates hidden knowledge state"}
+      ],
+      "validation": null,
+      "provenance": {
+        "source_id": "aaa00001-0000-0000-0000-000000000001",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 2
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "workflow_states": [
+    {
+      "id": "ws_aaa00001_001",
+      "reference_id": "aaa00001-0000-0000-0000-000000000001",
+      "state": "done",
+      "source_field": "Status",
+      "provenance": {
+        "source_id": "aaa00001-0000-0000-0000-000000000001",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "annotations": []
+}

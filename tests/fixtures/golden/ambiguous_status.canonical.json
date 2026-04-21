@@ -1,0 +1,45 @@
+{
+  "_fixture_purpose": "QA report testing: WorkflowState with state not in canonical WorkflowStateEnum values",
+  "references": [
+    {
+      "id": "eee00005-0000-0000-0000-000000000005",
+      "title": "Ambiguous Status Test Paper",
+      "authors": [],
+      "year": null,
+      "journal": null,
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": {
+        "source_id": "eee00005-0000-0000-0000-000000000005",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [],
+  "workflow_states": [
+    {
+      "_comment": "AMBIGUOUS: state='pending_review' is not a valid WorkflowStateEnum value (todo/in_progress/done)",
+      "id": "ws_eee00005_001",
+      "reference_id": "eee00005-0000-0000-0000-000000000005",
+      "state": "pending_review",
+      "source_field": "Status",
+      "provenance": {
+        "source_id": "eee00005-0000-0000-0000-000000000005",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "annotations": []
+}

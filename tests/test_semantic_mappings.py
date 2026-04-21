@@ -28,7 +28,8 @@ def test_parse_fixture_is_deterministic_and_has_provenance():
     for e in canon1.get("task_extractions", []):
         prov = e.get("provenance")
         assert prov is not None
-        assert prov.get("source") == "reading_list" or prov.get("page_id") is not None
+        # canonical provenance key is source_id (not legacy page_id)
+        assert prov.get("source_id") is not None or prov.get("page_id") is not None
 
     # IDs should use deterministic prefixes
     for ex in canon1.get("task_extractions", []):

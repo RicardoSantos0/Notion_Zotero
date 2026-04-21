@@ -1,0 +1,100 @@
+{
+  "references": [
+    {
+      "id": "ccc00003-0000-0000-0000-000000000003",
+      "title": "Grade Prediction Using Recurrent Neural Networks",
+      "authors": ["Lee, Sangwon", "Park, Jieun"],
+      "year": 2021,
+      "journal": "Computers & Education",
+      "doi": "10.1016/j.compedu.2021.example",
+      "url": null,
+      "zotero_key": "LEE2021",
+      "abstract": "We apply RNNs to longitudinal student grade data to predict future performance.",
+      "item_type": "journalArticle",
+      "tags": ["grade prediction", "RNN", "performance"],
+      "provenance": {
+        "source_id": "ccc00003-0000-0000-0000-000000000003",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_pred_rnn_001",
+      "name": "Performance Prediction",
+      "aliases": ["performance prediction", "grade prediction"],
+      "template_id": "prediction_modeling",
+      "family": "prediction",
+      "domain_pack": "education_learning_analytics",
+      "provenance": {
+        "source_id": "ccc00003-0000-0000-0000-000000000003",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "reference_tasks": [
+    {
+      "id": "rt_ccc00003_pred_001",
+      "reference_id": "ccc00003-0000-0000-0000-000000000003",
+      "task_id": "task_pred_rnn_001",
+      "assignment_source": "heading_match",
+      "inclusion_decision_for_task": "include",
+      "relevance_notes": null,
+      "created_from_source": null,
+      "template_id": "prediction_modeling",
+      "provenance": {
+        "source_id": "ccc00003-0000-0000-0000-000000000003",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "task_extractions": [
+    {
+      "id": "ex_ccc00003_pred_001",
+      "reference_task_id": "rt_ccc00003_pred_001",
+      "template_id": "prediction_modeling",
+      "schema_name": "Prediction / Modeling",
+      "raw_headers": ["Metric", "Value"],
+      "extracted": [
+        {"Metric": "Accuracy", "Value": "0.791"},
+        {"Metric": "F1", "Value": "0.763"},
+        {"Metric": "AUC", "Value": "0.834"}
+      ],
+      "validation": null,
+      "provenance": {
+        "source_id": "ccc00003-0000-0000-0000-000000000003",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 4
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "workflow_states": [
+    {
+      "id": "ws_ccc00003_001",
+      "reference_id": "ccc00003-0000-0000-0000-000000000003",
+      "state": "done",
+      "source_field": "Status",
+      "provenance": {
+        "source_id": "ccc00003-0000-0000-0000-000000000003",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "annotations": []
+}

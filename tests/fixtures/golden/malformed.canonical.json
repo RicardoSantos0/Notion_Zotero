@@ -1,0 +1,86 @@
+{
+  "_fixture_purpose": "QA report testing: TaskExtraction with required columns missing from extracted rows",
+  "references": [
+    {
+      "id": "ddd00004-0000-0000-0000-000000000004",
+      "title": "Malformed Extraction Test Paper",
+      "authors": [],
+      "year": null,
+      "journal": null,
+      "doi": null,
+      "url": null,
+      "zotero_key": null,
+      "abstract": null,
+      "item_type": null,
+      "tags": [],
+      "provenance": {
+        "source_id": "ddd00004-0000-0000-0000-000000000004",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "tasks": [],
+  "reference_tasks": [],
+  "task_extractions": [
+    {
+      "_comment": "MALFORMED: template_id=prediction_modeling requires Metric and Value columns, but both are absent",
+      "id": "ex_ddd00004_malformed_001",
+      "reference_task_id": null,
+      "template_id": "prediction_modeling",
+      "schema_name": "Prediction / Modeling",
+      "raw_headers": ["Notes", "Source"],
+      "extracted": [
+        {"Notes": "Some random note", "Source": "Table 3"},
+        {"Notes": "Another note", "Source": "Table 4"}
+      ],
+      "validation": null,
+      "provenance": {
+        "source_id": "ddd00004-0000-0000-0000-000000000004",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 1
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    },
+    {
+      "_comment": "MALFORMED: extracted is null — table was present but nothing extracted",
+      "id": "ex_ddd00004_malformed_002",
+      "reference_task_id": null,
+      "template_id": "recommendation_system",
+      "schema_name": "Recommender System Results",
+      "raw_headers": null,
+      "extracted": null,
+      "validation": null,
+      "provenance": {
+        "source_id": "ddd00004-0000-0000-0000-000000000004",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 2
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "workflow_states": [
+    {
+      "id": "ws_ddd00004_001",
+      "reference_id": "ddd00004-0000-0000-0000-000000000004",
+      "state": "todo",
+      "source_field": "Status",
+      "provenance": {
+        "source_id": "ddd00004-0000-0000-0000-000000000004",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "annotations": []
+}

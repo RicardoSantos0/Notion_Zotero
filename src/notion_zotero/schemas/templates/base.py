@@ -33,6 +33,21 @@ class ExtractionTemplate:
     def model_dump(self) -> Dict[str, Any]:
         return asdict(self)
 
+    def validate_extraction_row(self, row: dict) -> List[str]:
+        """Validate a single extracted row against the expected columns.
+
+        Returns a list of error strings (empty list means the row is valid).
+        A required column is considered missing only when neither its canonical
+        name nor any of its aliases appear as a key in *row*.
+        """
+        errors: List[str] = []
+        for col in self.expected_columns:
+            if col.required and col.name not in row:
+                alias_found = any(alias in row for alias in (col.aliases or []))
+                if not alias_found:
+                    errors.append(f"Missing required column: {col.name!r}")
+        return errors
+
 
 @dataclass
 class TemplateMatchRule:

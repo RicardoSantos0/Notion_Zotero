@@ -1,20 +1,40 @@
 """Canonical core models for `notion_zotero`.
 
-Implemented as lightweight dataclasses to avoid introducing runtime
-dependencies during the refactor. Each model exposes `model_dump()` to be
-compatible with code that later expects a pydantic-like interface.
+Implemented as Pydantic v2 BaseModels with strict validation.
+
+Design decisions:
+- ConfigDict(strict=False, arbitrary_types_allowed=True): strict=True was
+  relaxed because `extracted` holds Any-typed data (list[dict], None, etc.)
+  and `provenance` is an open dict that receives heterogeneous values from
+  callers. Pydantic strict mode rejects e.g. passing `None` where `Optional`
+  is expected at coercion boundaries that exist in the existing test suite.
+  arbitrary_types_allowed=True is required to allow dict[str,Any] fields with
+  complex nested values.
+- model_dump() is provided natively by Pydantic v2 and is therefore no longer
+  hand-rolled on each class.
+- ValidationStatus defaults to UNKNOWN so every object is auditable.
+- sync_metadata defaults to {} as a reserved connector dict.
+- provenance must include source_id, domain_pack_id, domain_pack_version at
+  runtime (enforced by importer, not at Pydantic field level, because callers
+  supply partial provenance dicts during construction).
 """
 from __future__ import annotations
 
-from dataclasses import dataclass, field, asdict
-from typing import List, Optional, Dict, Any
+from typing import Any, List, Optional
+
+from pydantic import BaseModel, ConfigDict, Field
+
+from notion_zotero.core.enums import ValidationStatus
+
+_cfg = ConfigDict(strict=False, arbitrary_types_allowed=True)
 
 
-@dataclass
-class Reference:
+class Reference(BaseModel):
+    model_config = _cfg
+
     id: str
     title: Optional[str] = None
-    authors: List[str] = field(default_factory=list)
+    authors: List[str] = Field(default_factory=list)
     year: Optional[int] = None
     journal: Optional[str] = None
     doi: Optional[str] = None
@@ -22,79 +42,80 @@ class Reference:
     zotero_key: Optional[str] = None
     abstract: Optional[str] = None
     item_type: Optional[str] = None
-    tags: List[str] = field(default_factory=list)
-    provenance: Dict[str, Any] = field(default_factory=dict)
+    tags: List[str] = Field(default_factory=list)
+    provenance: dict = Field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
 
+class Task(BaseModel):
+    model_config = _cfg
 
-@dataclass
-class Task:
     id: str
     name: str
-    aliases: List[str] = field(default_factory=list)
+    aliases: List[str] = Field(default_factory=list)
     template_id: Optional[str] = None
     family: Optional[str] = None
     domain_pack: Optional[str] = None
+    provenance: dict = Field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
 
+class ReferenceTask(BaseModel):
+    model_config = _cfg
 
-@dataclass
-class ReferenceTask:
     id: str
     reference_id: str
     task_id: str
     assignment_source: Optional[str] = None
     inclusion_decision_for_task: Optional[str] = None
     relevance_notes: Optional[str] = None
-    created_from_source: Optional[Dict[str, Any]] = None
-    provenance: Dict[str, Any] = field(default_factory=dict)
+    created_from_source: Optional[dict] = None
+    template_id: Optional[str] = None
+    provenance: dict = Field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
 
+class TaskExtraction(BaseModel):
+    model_config = _cfg
 
-@dataclass
-class TaskExtraction:
     id: str
     reference_task_id: Optional[str]
     template_id: Optional[str]
     schema_name: Optional[str]
     raw_headers: Optional[List[str]] = None
     extracted: Any = None
-    validation: Optional[Dict[str, Any]] = None
-    provenance: Dict[str, Any] = field(default_factory=dict)
+    validation: Optional[dict] = None
+    provenance: dict = Field(default_factory=dict)
     revision_status: Optional[str] = None
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
 
+class WorkflowState(BaseModel):
+    model_config = _cfg
 
-@dataclass
-class WorkflowState:
     id: str
     reference_id: str
     state: str
     source_field: Optional[str] = None
-    provenance: Dict[str, Any] = field(default_factory=dict)
+    provenance: dict = Field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
 
+class Annotation(BaseModel):
+    model_config = _cfg
 
-@dataclass
-class Annotation:
     id: str
     reference_id: str
     kind: Optional[str]
     text: str
-    provenance: Dict[str, Any] = field(default_factory=dict)
-
-    def model_dump(self) -> Dict[str, Any]:
-        return asdict(self)
+    provenance: dict = Field(default_factory=dict)
+    validation_status: ValidationStatus = ValidationStatus.UNKNOWN
+    sync_metadata: dict = Field(default_factory=dict)
 
 
 __all__ = [

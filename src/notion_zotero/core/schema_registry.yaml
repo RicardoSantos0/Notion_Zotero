@@ -1,0 +1,81 @@
+version: "1.0"
+# Canonical field registry for all notion_zotero core models.
+# owner values: "system" | "zotero" | "notion"
+# required: whether the field must be non-null for the object to be valid.
+models:
+  Reference:
+    fields:
+      id:                   {type: "str",            owner: "system",  required: true}
+      title:                {type: "str | null",     owner: "zotero",  required: false}
+      authors:              {type: "list[str]",      owner: "zotero",  required: false}
+      year:                 {type: "int | null",     owner: "zotero",  required: false}
+      journal:              {type: "str | null",     owner: "zotero",  required: false}
+      doi:                  {type: "str | null",     owner: "zotero",  required: false}
+      url:                  {type: "str | null",     owner: "zotero",  required: false}
+      zotero_key:           {type: "str | null",     owner: "zotero",  required: false}
+      abstract:             {type: "str | null",     owner: "zotero",  required: false}
+      item_type:            {type: "str | null",     owner: "zotero",  required: false}
+      tags:                 {type: "list[str]",      owner: "zotero",  required: false}
+      provenance:           {type: "dict",           owner: "system",  required: true}
+      validation_status:    {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:        {type: "dict",           owner: "system",  required: true}
+
+  Task:
+    fields:
+      id:                   {type: "str",            owner: "system",  required: true}
+      name:                 {type: "str",            owner: "system",  required: true}
+      aliases:              {type: "list[str]",      owner: "system",  required: false}
+      template_id:          {type: "str | null",     owner: "system",  required: false}
+      family:               {type: "str | null",     owner: "system",  required: false}
+      domain_pack:          {type: "str | null",     owner: "system",  required: false}
+      provenance:           {type: "dict",           owner: "system",  required: true}
+      validation_status:    {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:        {type: "dict",           owner: "system",  required: true}
+
+  ReferenceTask:
+    fields:
+      id:                            {type: "str",        owner: "system",  required: true}
+      reference_id:                  {type: "str",        owner: "system",  required: true}
+      task_id:                       {type: "str",        owner: "system",  required: true}
+      assignment_source:             {type: "str | null", owner: "system",  required: false}
+      inclusion_decision_for_task:   {type: "str | null", owner: "notion",  required: false}
+      relevance_notes:               {type: "str | null", owner: "notion",  required: false}
+      created_from_source:           {type: "dict | null", owner: "system", required: false}
+      template_id:                   {type: "str | null", owner: "system",  required: false}
+      provenance:                    {type: "dict",       owner: "system",  required: true}
+      validation_status:             {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:                 {type: "dict",       owner: "system",  required: true}
+
+  TaskExtraction:
+    fields:
+      id:                   {type: "str",            owner: "system",  required: true}
+      reference_task_id:    {type: "str | null",     owner: "system",  required: false}
+      template_id:          {type: "str | null",     owner: "system",  required: false}
+      schema_name:          {type: "str | null",     owner: "system",  required: false}
+      raw_headers:          {type: "list[str] | null", owner: "system", required: false}
+      extracted:            {type: "Any",            owner: "notion",  required: false}
+      validation:           {type: "dict | null",    owner: "system",  required: false}
+      provenance:           {type: "dict",           owner: "system",  required: true}
+      revision_status:      {type: "str | null",     owner: "system",  required: false}
+      validation_status:    {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:        {type: "dict",           owner: "system",  required: true}
+
+  WorkflowState:
+    fields:
+      id:                   {type: "str",            owner: "system",  required: true}
+      reference_id:         {type: "str",            owner: "system",  required: true}
+      state:                {type: "str",            owner: "notion",  required: true}
+      source_field:         {type: "str | null",     owner: "system",  required: false}
+      provenance:           {type: "dict",           owner: "system",  required: true}
+      validation_status:    {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:        {type: "dict",           owner: "system",  required: true}
+
+  Annotation:
+    fields:
+      id:                   {type: "str",            owner: "system",  required: true}
+      reference_id:         {type: "str",            owner: "system",  required: true}
+      kind:                 {type: "str | null",     owner: "notion",  required: false}
+      text:                 {type: "str",            owner: "notion",  required: true}
+      provenance:           {type: "dict",           owner: "system",  required: true}
+      validation_status:    {type: "ValidationStatus", owner: "system", required: true}
+      sync_metadata:        {type: "dict",           owner: "system",  required: true}

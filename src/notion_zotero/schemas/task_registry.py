@@ -63,18 +63,8 @@ def get_applicable_tasks(item: dict[str, Any]) -> List[tuple[str, callable]]:
         # defensive: ignore domain pack errors
         pass
 
-    # 2) Fallback to legacy heuristic registry if available
-    try:
-        from src.schemas.task_registry import get_applicable_tasks as _legacy_get
-
-        legacy = _legacy_get(item)
-        # legacy returns list of (name, parser) where name is human-friendly;
-        # keep those as-is to preserve behaviour for non-domain tables
-        out.extend(legacy)
-    except Exception:
-        # ignore import/legacy errors
-        pass
-
+    # Unmatched tables are returned as an empty list; the importer creates
+    # unlinked TaskExtractions for them without any legacy heuristic calls.
     return out
 
 

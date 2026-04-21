@@ -1,9 +1,10 @@
+# canonical import path — no legacy heuristic calls
 """New importer implementation that uses the `notion_zotero` canonical core
 and the domain-pack / template registry.
 
 This implementation is intentionally conservative: it mirrors the legacy
 fixture parsing behaviour but produces `notion_zotero.core` model instances
-and uses deterministic IDs from `src.schemas.idgen`.
+and uses deterministic IDs from `notion_zotero.schemas.idgen`.
 """
 from __future__ import annotations
 
@@ -14,6 +15,7 @@ from pathlib import Path
 from typing import Any
 
 from notion_zotero.core.models import Reference, Task, ReferenceTask, TaskExtraction, Annotation, WorkflowState
+from notion_zotero.core.enums import ValidationStatus
 from notion_zotero.schemas import task_registry
 from notion_zotero.schemas.status_mapping import map_status
 from notion_zotero.core.normalize import normalize_title
@@ -25,165 +27,257 @@ log = logging.getLogger(__name__)
 
 
 def prop_value(prop: dict | None):
-	if not prop:
-		return None
-	t = prop.get("type")
-	if t == "title":
-		return "".join(p.get("plain_text", "") for p in prop.get("title", []))
-	if t == "rich_text":
-		return "".join(p.get("plain_text", "") for p in prop.get("rich_text", []))
-	if t == "multi_select":
-		return [s.get("name") for s in prop.get("multi_select", [])]
-	if t == "select":
-		sel = prop.get("select")
-		return sel.get("name") if sel else None
-	if t == "url":
-		return prop.get("url")
-	if t == "date":
-		d = prop.get("date")
-		return d.get("start") if d else None
-	if t == "number":
-		return prop.get("number")
-	if t == "people":
-		return [p.get("name") for p in prop.get("people", [])]
-	# fallback
-	if "rich_text" in prop:
-		return "".join(p.get("plain_text", "") for p in prop.get("rich_text", []))
-	if "title" in prop:
-		return "".join(p.get("plain_text", "") for p in prop.get("title", []))
-	return None
+    if not prop:
+        return None
+    t = prop.get("type")
+    if t == "title":
+        return "".join(p.get("plain_text", "") for p in prop.get("title", []))
+    if t == "rich_text":
+        return "".join(p.get("plain_text", "") for p in prop.get("rich_text", []))
+    if t == "multi_select":
+        return [s.get("name") for s in prop.get("multi_select", [])]
+    if t == "select":
+        sel = prop.get("select")
+        return sel.get("name") if sel else None
+    if t == "url":
+        return prop.get("url")
+    if t == "date":
+        d = prop.get("date")
+        return d.get("start") if d else None
+    if t == "number":
+        return prop.get("number")
+    if t == "people":
+        return [p.get("name") for p in prop.get("people", [])]
+    # fallback
+    if "rich_text" in prop:
+        return "".join(p.get("plain_text", "") for p in prop.get("rich_text", []))
+    if "title" in prop:
+        return "".join(p.get("plain_text", "") for p in prop.get("title", []))
+    return None
 
 
 def slugify(s: str | None) -> str:
-	return "".join(c if c.isalnum() else "_" for c in (s or "")).strip("_").lower()
+    return "".join(c if c.isalnum() else "_" for c in (s or "")).strip("_").lower()
+
+
+def _build_provenance(
+    page_id: str,
+    domain_pack_id: str | None,
+    domain_pack_version: str | None,
+    **extra: Any,
+) -> dict:
+    """Return a provenance dict that always contains the three canonical keys."""
+    base = {
+        "source_id": page_id,
+        "domain_pack_id": domain_pack_id,
+        "domain_pack_version": domain_pack_version,
+    }
+    base.update(extra)
+    return base
 
 
 def parse_fixture(path: Path, domain_pack_id: str | None = None):
-	d = json.loads(path.read_text(encoding="utf-8"))
-	page_id = d.get("page_id")
-	title = d.get("title") or page_id
-	props = d.get("properties", {})
-	# Resolve which domain pack to use
-	active_pack = None
-	active_pack_version: str | None = None
-	if domain_pack_id:
-		active_pack = task_registry.load_domain_pack(domain_pack_id)
-		if active_pack is None:
-			log.warning("domain pack '%s' not found; falling back to default", domain_pack_id)
-	if active_pack is None:
-		from notion_zotero.schemas.domain_packs import education_learning_analytics as _ela
-		active_pack = _ela.domain_pack
-	active_pack_version = active_pack.get("version")
+    d = json.loads(path.read_text(encoding="utf-8"))
+    page_id = d.get("page_id")
+    title = d.get("title") or page_id
+    props = d.get("properties", {})
 
-	ref = Reference(
-		id=page_id,
-		title=title,
-		authors=(prop_value(props.get("Authors")) or []),
-		year=None,
-		journal=prop_value(props.get("Journal")) or None,
-		doi=prop_value(props.get("DOI")) or None,
-		url=prop_value(props.get("URL")) or None,
-		zotero_key=prop_value(props.get("Zotero Key")) or None,
-		abstract=None,
-	)
+    # Resolve which domain pack to use
+    active_pack = None
+    active_pack_version: str | None = None
+    if domain_pack_id:
+        active_pack = task_registry.load_domain_pack(domain_pack_id)
+        if active_pack is None:
+            log.warning("domain pack '%s' not found; falling back to default", domain_pack_id)
+    if active_pack is None:
+        from notion_zotero.schemas.domain_packs import education_learning_analytics as _ela
+        active_pack = _ela.domain_pack
+    active_pack_id: str = active_pack.get("id") or ""
+    active_pack_version = active_pack.get("version")
 
-	tasks: list[Task] = []
-	reference_tasks: list[ReferenceTask] = []
-	extractions: list[TaskExtraction] = []
-	annotations: list[Annotation] = []
-	workflow_states: list[WorkflowState] = []
+    ref = Reference(
+        id=page_id,
+        title=title,
+        authors=(prop_value(props.get("Authors")) or []),
+        year=None,
+        journal=prop_value(props.get("Journal")) or None,
+        doi=prop_value(props.get("DOI")) or None,
+        url=prop_value(props.get("URL")) or None,
+        zotero_key=prop_value(props.get("Zotero Key")) or None,
+        abstract=None,
+        provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
+        validation_status=ValidationStatus.UNKNOWN,
+        sync_metadata={},
+    )
 
-	for tb in d.get("tables", []):
-		heading = tb.get("heading") or ""
-		rows = tb.get("rows", [])
-		parsed: list[dict[str, Any]] = []
-		if rows:
-			header = rows[0]
-			for r in rows[1:]:
-				if len(r) < len(header):
-					r = r + ["" for _ in range(len(header) - len(r))]
-				parsed.append(dict(zip(header, r)))
+    tasks: list[Task] = []
+    reference_tasks: list[ReferenceTask] = []
+    extractions: list[TaskExtraction] = []
+    annotations: list[Annotation] = []
+    workflow_states: list[WorkflowState] = []
 
-		item = {"page_id": page_id, "heading": heading, "rows": parsed, "properties": props, "title": title, "_domain_pack": active_pack}
+    for tb in d.get("tables", []):
+        heading = tb.get("heading") or ""
+        rows = tb.get("rows", [])
+        parsed: list[dict[str, Any]] = []
+        if rows:
+            header = rows[0]
+            for r in rows[1:]:
+                if len(r) < len(header):
+                    r = r + ["" for _ in range(len(header) - len(r))]
+                parsed.append(dict(zip(header, r)))
 
-		applicable = task_registry.get_applicable_tasks(item)
-		if applicable:
-			for tname, parser in applicable:
-				task_id = slugify(tname)
-				if not any(t.id == task_id for t in tasks):
-					tasks.append(Task(id=task_id, name=tname, aliases=[]))
-				rt_id = deterministic_short_id("rt", page_id, task_id)
-				reference_tasks.append(ReferenceTask(id=rt_id, reference_id=ref.id, task_id=task_id, provenance={"page_id": page_id, "table_block_id": tb.get("block_id")}))
-				parsed_out = parser(item) or {}
-				schema_name = parsed_out.get("schema_name") or "table"
-				ex_id = deterministic_short_id("ex", page_id, task_id, str(tb.get("index")))
-				extractions.append(TaskExtraction(id=ex_id, reference_task_id=rt_id, template_id=schema_name, schema_name=schema_name, raw_headers=(list(parsed[0].keys()) if parsed else None), extracted=parsed, provenance={"page_id": page_id, "block_index": tb.get("index")}, revision_status=None))
-		else:
-			# Unclassified table: create an unlinked extraction
-			ex_id = deterministic_short_id("ex", page_id, heading or "table", str(tb.get("index")))
-			extractions.append(TaskExtraction(id=ex_id, reference_task_id=None, template_id=None, schema_name=heading or "table", raw_headers=(list(parsed[0].keys()) if parsed else None), extracted=parsed, provenance={"page_id": page_id, "block_index": tb.get("index")}, revision_status=None))
+        item = {
+            "page_id": page_id,
+            "heading": heading,
+            "rows": parsed,
+            "properties": props,
+            "title": title,
+            "_domain_pack": active_pack,
+        }
 
-	for b in d.get("blocks", []):
-		if b.get("type") == "paragraph" and b.get("text"):
-			block_key = b.get("id") or (b.get("text") or "")[:40]
-			annotations.append(Annotation(id=deterministic_short_id("an", page_id, block_key), reference_id=ref.id, kind="note", text=b.get("text"), provenance={"page_id": page_id}))
+        applicable = task_registry.get_applicable_tasks(item)
+        if applicable:
+            for tname, parser in applicable:
+                task_id = slugify(tname)
+                if not any(t.id == task_id for t in tasks):
+                    tasks.append(Task(
+                        id=task_id,
+                        name=tname,
+                        aliases=[],
+                        provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
+                        validation_status=ValidationStatus.UNKNOWN,
+                        sync_metadata={},
+                    ))
+                rt_id = deterministic_short_id("rt", page_id, task_id)
+                reference_tasks.append(ReferenceTask(
+                    id=rt_id,
+                    reference_id=ref.id,
+                    task_id=task_id,
+                    provenance=_build_provenance(
+                        page_id, active_pack_id, active_pack_version,
+                        table_block_id=tb.get("block_id"),
+                    ),
+                    validation_status=ValidationStatus.UNKNOWN,
+                    sync_metadata={},
+                ))
+                parsed_out = parser(item) or {}
+                schema_name = parsed_out.get("schema_name") or "table"
+                ex_id = deterministic_short_id("ex", page_id, task_id, str(tb.get("index")))
+                extractions.append(TaskExtraction(
+                    id=ex_id,
+                    reference_task_id=rt_id,
+                    template_id=schema_name,
+                    schema_name=schema_name,
+                    raw_headers=(list(parsed[0].keys()) if parsed else None),
+                    extracted=parsed,
+                    provenance=_build_provenance(
+                        page_id, active_pack_id, active_pack_version,
+                        block_index=tb.get("index"),
+                    ),
+                    revision_status=None,
+                    validation_status=ValidationStatus.UNKNOWN,
+                    sync_metadata={},
+                ))
+        else:
+            # Unclassified table: create an unlinked TaskExtraction.
+            # No legacy heuristic calls are made.
+            ex_id = deterministic_short_id("ex", page_id, heading or "table", str(tb.get("index")))
+            extractions.append(TaskExtraction(
+                id=ex_id,
+                reference_task_id=None,
+                template_id=None,
+                schema_name=heading or "table",
+                raw_headers=(list(parsed[0].keys()) if parsed else None),
+                extracted=parsed,
+                provenance=_build_provenance(
+                    page_id, active_pack_id, active_pack_version,
+                    block_index=tb.get("index"),
+                ),
+                revision_status=None,
+                validation_status=ValidationStatus.UNKNOWN,
+                sync_metadata={},
+            ))
 
-	status_raw = prop_value(props.get("Status") or props.get("Status_1"))
-	status = map_status(status_raw)
-	if status:
-		workflow_states.append(WorkflowState(id=deterministic_short_id("ws", page_id, status), reference_id=ref.id, state=status))
+    for b in d.get("blocks", []):
+        if b.get("type") == "paragraph" and b.get("text"):
+            block_key = b.get("id") or (b.get("text") or "")[:40]
+            annotations.append(Annotation(
+                id=deterministic_short_id("an", page_id, block_key),
+                reference_id=ref.id,
+                kind="note",
+                text=b.get("text"),
+                provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
+                validation_status=ValidationStatus.UNKNOWN,
+                sync_metadata={},
+            ))
 
-	def _dump(obj):
-		if hasattr(obj, "model_dump"):
-			return obj.model_dump()
-		if hasattr(obj, "dict"):
-			return obj.dict()
-		return obj
+    # WorkflowState is created from the page status field independently of
+    # task table resolution.
+    status_raw = prop_value(props.get("Status") or props.get("Status_1"))
+    status = map_status(status_raw)
+    if status:
+        workflow_states.append(WorkflowState(
+            id=deterministic_short_id("ws", page_id, status),
+            reference_id=ref.id,
+            state=status,
+            provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
+            validation_status=ValidationStatus.UNKNOWN,
+            sync_metadata={},
+        ))
 
-	out = {
-		"provenance": {
-			"domain_pack_id": active_pack.get("id"),
-			"domain_pack_version": active_pack_version,
-		},
-		"references": [_dump(ref)],
-		"tasks": [_dump(t) for t in tasks],
-		"reference_tasks": [_dump(rt) for rt in reference_tasks],
-		"task_extractions": [_dump(e) for e in extractions],
-		"annotations": [_dump(a) for a in annotations],
-		"workflow_states": [_dump(w) for w in workflow_states],
-	}
-	return page_id, out
+    def _dump(obj):
+        if hasattr(obj, "model_dump"):
+            return obj.model_dump()
+        if hasattr(obj, "dict"):
+            return obj.dict()
+        return obj
+
+    out = {
+        "provenance": {
+            "source_id": page_id,
+            "domain_pack_id": active_pack_id,
+            "domain_pack_version": active_pack_version,
+        },
+        "references": [_dump(ref)],
+        "tasks": [_dump(t) for t in tasks],
+        "reference_tasks": [_dump(rt) for rt in reference_tasks],
+        "task_extractions": [_dump(e) for e in extractions],
+        "annotations": [_dump(a) for a in annotations],
+        "workflow_states": [_dump(w) for w in workflow_states],
+    }
+    return page_id, out
 
 
 def main():
-	p = argparse.ArgumentParser()
-	p.add_argument("--input", default="fixtures/reading_list")
-	p.add_argument("--out", default="fixtures/canonical")
-	p.add_argument("--force", action="store_true", help="overwrite existing canonical files even if content unchanged")
-	p.add_argument("--domain-pack", default=None, help="domain pack ID to use for task resolution")
-	args = p.parse_args()
-	domain_pack_id: str | None = getattr(args, "domain_pack", None)
-	if domain_pack_id:
-		log.info("using domain pack: %s", domain_pack_id)
-	input_dir = Path(args.input)
-	out_dir = Path(args.out)
-	out_dir.mkdir(parents=True, exist_ok=True)
-	for f in sorted(input_dir.glob("*.json")):
-		page_id, canon = parse_fixture(f, domain_pack_id=domain_pack_id)
-		out_path = out_dir / f"{page_id}.canonical.json"
-		new_text = json.dumps(canon, ensure_ascii=False, indent=2)
-		if out_path.exists() and not args.force:
-			old_text = out_path.read_text(encoding="utf-8")
-			if old_text == new_text:
-				log.info("UNCHANGED: %s", out_path)
-				continue
-			else:
-				out_path.write_text(new_text, encoding="utf-8")
-				log.info("UPDATED: %s", out_path)
-		else:
-			out_path.write_text(new_text, encoding="utf-8")
-			log.info("WROTE: %s", out_path)
+    p = argparse.ArgumentParser()
+    p.add_argument("--input", default="fixtures/reading_list")
+    p.add_argument("--out", default="fixtures/canonical")
+    p.add_argument("--force", action="store_true", help="overwrite existing canonical files even if content unchanged")
+    p.add_argument("--domain-pack", default=None, help="domain pack ID to use for task resolution")
+    args = p.parse_args()
+    domain_pack_id: str | None = getattr(args, "domain_pack", None)
+    if domain_pack_id:
+        log.info("using domain pack: %s", domain_pack_id)
+    input_dir = Path(args.input)
+    out_dir = Path(args.out)
+    out_dir.mkdir(parents=True, exist_ok=True)
+    for f in sorted(input_dir.glob("*.json")):
+        page_id, canon = parse_fixture(f, domain_pack_id=domain_pack_id)
+        out_path = out_dir / f"{page_id}.canonical.json"
+        new_text = json.dumps(canon, ensure_ascii=False, indent=2)
+        if out_path.exists() and not args.force:
+            old_text = out_path.read_text(encoding="utf-8")
+            if old_text == new_text:
+                log.info("UNCHANGED: %s", out_path)
+                continue
+            else:
+                out_path.write_text(new_text, encoding="utf-8")
+                log.info("UPDATED: %s", out_path)
+        else:
+            out_path.write_text(new_text, encoding="utf-8")
+            log.info("WROTE: %s", out_path)
 
 
 if __name__ == '__main__':
-	main()
+    main()

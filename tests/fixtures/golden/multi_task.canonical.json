@@ -1,0 +1,166 @@
+{
+  "references": [
+    {
+      "id": "bbb00002-0000-0000-0000-000000000002",
+      "title": "Collaborative Filtering for Student Performance Prediction and Course Recommendation",
+      "authors": ["Zhang, Wei", "Lan, Andrew"],
+      "year": 2020,
+      "journal": "Educational Data Mining",
+      "doi": "10.5555/example.2020",
+      "url": null,
+      "zotero_key": "ZHANG2020",
+      "abstract": "We propose a unified model addressing both performance prediction and course recommendation in educational settings.",
+      "item_type": "conferencePaper",
+      "tags": ["collaborative filtering", "recommendation", "prediction"],
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "tasks": [
+    {
+      "id": "task_pred_001",
+      "name": "Performance Prediction",
+      "aliases": ["performance prediction", "grade prediction"],
+      "template_id": "prediction_modeling",
+      "family": "prediction",
+      "domain_pack": "education_learning_analytics",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    },
+    {
+      "id": "task_rec_001",
+      "name": "Course Recommendation",
+      "aliases": ["course recommendation", "recommender system"],
+      "template_id": "recommendation_system",
+      "family": "recommendation",
+      "domain_pack": "education_learning_analytics",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "reference_tasks": [
+    {
+      "id": "rt_bbb00002_pred_001",
+      "reference_id": "bbb00002-0000-0000-0000-000000000002",
+      "task_id": "task_pred_001",
+      "assignment_source": "heading_match",
+      "inclusion_decision_for_task": "include",
+      "relevance_notes": "Paper proposes prediction model as a core contribution.",
+      "created_from_source": null,
+      "template_id": "prediction_modeling",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    },
+    {
+      "id": "rt_bbb00002_rec_001",
+      "reference_id": "bbb00002-0000-0000-0000-000000000002",
+      "task_id": "task_rec_001",
+      "assignment_source": "heading_match",
+      "inclusion_decision_for_task": "include",
+      "relevance_notes": "Recommendation is the second primary contribution.",
+      "created_from_source": null,
+      "template_id": "recommendation_system",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "task_extractions": [
+    {
+      "id": "ex_bbb00002_pred_001",
+      "reference_task_id": "rt_bbb00002_pred_001",
+      "template_id": "prediction_modeling",
+      "schema_name": "Prediction / Modeling",
+      "raw_headers": ["Metric", "Value"],
+      "extracted": [
+        {"Metric": "AUC", "Value": "0.847"},
+        {"Metric": "RMSE", "Value": "0.213"}
+      ],
+      "validation": null,
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 3
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    },
+    {
+      "id": "ex_bbb00002_rec_001",
+      "reference_task_id": "rt_bbb00002_rec_001",
+      "template_id": "recommendation_system",
+      "schema_name": "Recommender System Results",
+      "raw_headers": ["Algorithm", "Metric"],
+      "extracted": [
+        {"Algorithm": "CF-LSTM", "Metric": "NDCG@10: 0.412"},
+        {"Algorithm": "ItemKNN", "Metric": "NDCG@10: 0.318"}
+      ],
+      "validation": null,
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0",
+        "block_index": 5
+      },
+      "revision_status": null,
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "workflow_states": [
+    {
+      "id": "ws_bbb00002_001",
+      "reference_id": "bbb00002-0000-0000-0000-000000000002",
+      "state": "in_progress",
+      "source_field": "Status",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ],
+  "annotations": [
+    {
+      "id": "an_bbb00002_001",
+      "reference_id": "bbb00002-0000-0000-0000-000000000002",
+      "kind": "note",
+      "text": "Unified model is the key novelty — addresses both tasks in a single training loop.",
+      "provenance": {
+        "source_id": "bbb00002-0000-0000-0000-000000000002",
+        "domain_pack_id": "education_learning_analytics",
+        "domain_pack_version": "1.0"
+      },
+      "validation_status": "unknown",
+      "sync_metadata": {}
+    }
+  ]
+}
