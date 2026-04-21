@@ -71,4 +71,30 @@ def get_owner(field_name: str) -> str:
     return "unknown"
 
 
-__all__ = ["ZOTERO_OWNED", "NOTION_OWNED", "SYSTEM_FIELDS", "get_owner"]
+class FieldOwnershipViolation(Exception):
+    """Raised when a system attempts to write a field it does not own."""
+
+
+def assert_ownership(field_name: str, writing_system: str) -> None:
+    """Raise FieldOwnershipViolation if writing_system does not own field_name.
+
+    Unknown fields are not enforced (they pass silently).
+    """
+    owner = get_owner(field_name)
+    if owner == "unknown":
+        return  # unknown fields are not enforced
+    if owner != writing_system:
+        raise FieldOwnershipViolation(
+            f"Field {field_name!r} is owned by {owner!r}, "
+            f"but {writing_system!r} attempted to write it"
+        )
+
+
+__all__ = [
+    "ZOTERO_OWNED",
+    "NOTION_OWNED",
+    "SYSTEM_FIELDS",
+    "get_owner",
+    "FieldOwnershipViolation",
+    "assert_ownership",
+]

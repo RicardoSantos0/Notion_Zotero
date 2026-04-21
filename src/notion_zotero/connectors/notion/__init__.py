@@ -1,3 +1,4 @@
-"""Notion connector package placeholder for notion_zotero.connectors.notio n."""
+"""Notion connector package for notion_zotero."""
+from notion_zotero.connectors.notion.reader import NotionReader, ConfigurationError
 
-__all__ = []
+__all__ = ["NotionReader", "ConfigurationError"]
