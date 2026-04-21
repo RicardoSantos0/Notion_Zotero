@@ -13,6 +13,7 @@ dependencies = [
   "notion-client",
   "python-dotenv",
   "pydantic>=2",
+  "polars>=0.20",
 ]
 
 [project.optional-dependencies]
