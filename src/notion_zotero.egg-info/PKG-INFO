@@ -8,36 +8,71 @@ Description-Content-Type: text/markdown
 Requires-Dist: notion-client
 Requires-Dist: python-dotenv
 Requires-Dist: pydantic>=2
+Requires-Dist: polars>=0.20
 Provides-Extra: test
 Requires-Dist: pytest>=7.0; extra == "test"
 Requires-Dist: pytest-cov>=4.0; extra == "test"
+Requires-Dist: requests>=2.28; extra == "test"
+Requires-Dist: pyyaml>=6.0; extra == "test"
 
- # Notion_Zotero
+# Notion_Zotero
 
- [![Regenerate sanitized summary](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml/badge.svg?branch=main)](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml)
+[![Regenerate sanitized summary](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml/badge.svg?branch=main)](https://github.com/RicardoSantos0/Notion_Zotero/actions/workflows/regenerate-sanitized-summary.yml)
 
- Scaffold for Notion ↔ Zotero reference management toolkit.
+Domain-agnostic reference management and evidence-extraction toolkit for PhD literature reviews. Converts Notion reading list exports into versioned canonical bundles via pluggable domain packs.
 
- Quick start
------------
+## Quick start
 
- - Install editable: `pip install -e .`
- - Export Notion reading list: `export-reading-list --out fixtures/reading_list`
- - Import canonical fixtures: `import-reading-list --in fixtures/reading_list --out fixtures/canonical`
+```powershell
+python -m venv .venv
+. .venv/Scripts/Activate.ps1
+pip install -e .
+```
 
- Packaging
----------
+```bash
+# Parse a Notion snapshot into canonical bundles
+notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical
 
- This project uses a `src/` layout. To run tests locally:
+# Apply a specific domain pack
+notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical \
+  --domain-pack education_learning_analytics
 
- ```powershell
- python -m venv .venv
- . .venv/Scripts/Activate.ps1
- pip install -e .
- pytest -q
- ```
+# Merge and deduplicate
+notion-zotero merge-canonical --input fixtures/canonical --out fixtures/canonical_merged.json
+notion-zotero dedupe-canonical --input fixtures/canonical_merged.json \
+  --out fixtures/canonical_merged.dedup.json
 
- Notes
------
- - Large aggregated artifact `fixtures/canonical_merged.json` is intentionally ignored by Git. Keep canonical fixtures in `fixtures/canonical/` and raw page exports in `fixtures/reading_list/`.
- - Environment variables (see `.env.example`) are used to store `NOTION_TOKEN` and `ZOTERO_API_KEY` during local runs.
+# Inspect available domain packs and templates
+notion-zotero list-domain-packs
+notion-zotero list-templates
+
+# Validate output
+notion-zotero validate-fixtures --input fixtures/canonical
+```
+
+See [docs/cli.md](docs/cli.md) for all subcommands and options.
+
+## Architecture
+
+Three-layer design:
+
+```
+Domain Pack  →  extraction rules + task aliases (pluggable per research area)
+Templates    →  generic row schemas for each task type
+Core models  →  canonical Reference + WorkflowState + ReferenceTask bundles
+```
+
+Each canonical bundle is stamped with provenance (`domain_pack_id`, `domain_pack_version`) so consumers can detect when re-extraction is needed after a pack upgrade.
+
+## Testing
+
+```bash
+pytest -q                          # full suite
+pytest --cov=notion_zotero -q      # with coverage (CI enforces ≥ 70%)
+```
+
+## Notes
+
+- `fixtures/canonical_merged.json` is gitignored — regenerate with `merge-canonical`.
+- Raw Notion exports go in `fixtures/reading_list/`; canonical bundles in `fixtures/canonical/`.
+- Environment variables: `NOTION_API_KEY`, `NOTION_DATABASE_ID` (see `.env.example`).

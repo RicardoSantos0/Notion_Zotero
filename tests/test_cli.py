@@ -46,9 +46,28 @@ def test_dedupe_canonical_smoke(tmp_path):
     assert len(data) <= len(orig)
 
 
-def test_zotero_citation_print(capsys):
-    path = "fixtures/canonical/003e69cb-f908-470d-bab2-c26eed3c63d3.canonical.json"
-    rc = cli.main(["zotero-citation", "--file", path])
+def test_zotero_citation_print(capsys, tmp_path):
+    # Build a minimal canonical fixture with complete provenance so the
+    # TP-006 validator (source_id / domain_pack_id / domain_pack_version) passes.
+    fixture = {
+        "references": [
+            {
+                "id": "test-cite-001",
+                "title": "Test Citation Paper",
+                "authors": ["Author A"],
+                "year": 2023,
+                "journal": "Test Journal",
+                "provenance": {
+                    "source_id": "test-cite-001",
+                    "domain_pack_id": "test-pack",
+                    "domain_pack_version": "0.0.1",
+                },
+            }
+        ]
+    }
+    p = tmp_path / "cite.canonical.json"
+    p.write_text(json.dumps(fixture), encoding="utf-8")
+    rc = cli.main(["zotero-citation", "--file", str(p)])
     assert rc == 0
     captured = capsys.readouterr()
     assert captured.out.strip() != ""

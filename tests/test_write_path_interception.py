@@ -13,6 +13,12 @@ import sys
 import unittest.mock
 import pytest
 
+_PROV = {
+    "source_id": "test",
+    "domain_pack_id": "test-pack",
+    "domain_pack_version": "0.0.1",
+}
+
 # Determine whether requests is importable in this environment.
 _REQUESTS_AVAILABLE = "requests" in sys.modules or (
     __import__("importlib").util.find_spec("requests") is not None
@@ -37,7 +43,7 @@ def test_zotero_writer_no_network_in_dry_run():
     from notion_zotero.core.models import Reference
 
     writer = ZoteroWriter(dry_run=True)
-    ref = Reference(id="test-001", title="Test Paper", provenance={}, sync_metadata={})
+    ref = Reference(id="test-001", title="Test Paper", provenance=_PROV, sync_metadata={})
     report = DiffReport(entries=[], bundle_id="test-001")
 
     # Intercept stdlib transport layer; also requests if installed.
@@ -59,7 +65,7 @@ def test_notion_writer_no_network_in_dry_run():
     from notion_zotero.core.models import Reference
 
     writer = NotionWriter(dry_run=True)
-    ref = Reference(id="test-002", title="Test Paper 2", provenance={}, sync_metadata={})
+    ref = Reference(id="test-002", title="Test Paper 2", provenance=_PROV, sync_metadata={})
     report = DiffReport(entries=[], bundle_id="test-002")
 
     with unittest.mock.patch("urllib.request.urlopen") as mock_urlopen, \
@@ -81,7 +87,7 @@ def test_zotero_writer_no_requests_send_in_dry_run():
     from notion_zotero.core.models import Reference
 
     writer = ZoteroWriter(dry_run=True)
-    ref = Reference(id="test-001b", title="Test Paper", provenance={}, sync_metadata={})
+    ref = Reference(id="test-001b", title="Test Paper", provenance=_PROV, sync_metadata={})
     report = DiffReport(entries=[], bundle_id="test-001b")
 
     with unittest.mock.patch("requests.Session.send") as mock_send:
@@ -97,7 +103,7 @@ def test_notion_writer_no_requests_send_in_dry_run():
     from notion_zotero.core.models import Reference
 
     writer = NotionWriter(dry_run=True)
-    ref = Reference(id="test-002b", title="Test Paper 2", provenance={}, sync_metadata={})
+    ref = Reference(id="test-002b", title="Test Paper 2", provenance=_PROV, sync_metadata={})
     report = DiffReport(entries=[], bundle_id="test-002b")
 
     with unittest.mock.patch("requests.Session.send") as mock_send:
@@ -106,31 +112,19 @@ def test_notion_writer_no_requests_send_in_dry_run():
 
 
 def test_zotero_writer_apply_raises():
-    """ZoteroWriter apply mode must raise NotImplementedError (not silently no-op)."""
+    """ZoteroWriter raises ValueError when dry_run=False and no client provided."""
     from notion_zotero.writers.zotero_writer import ZoteroWriter
-    from notion_zotero.services.diff_engine import DiffReport
-    from notion_zotero.core.models import Reference
 
-    writer = ZoteroWriter(dry_run=False)
-    ref = Reference(id="test-003", title="Test", provenance={}, sync_metadata={})
-    report = DiffReport(entries=[], bundle_id="test-003")
-
-    with pytest.raises(NotImplementedError):
-        writer.write_reference(ref, report)
+    with pytest.raises(ValueError, match="client required for apply mode"):
+        ZoteroWriter(dry_run=False, client=None)
 
 
 def test_notion_writer_apply_raises():
-    """NotionWriter apply mode must raise NotImplementedError."""
+    """NotionWriter raises ValueError when dry_run=False and no client provided."""
     from notion_zotero.writers.notion_writer import NotionWriter
-    from notion_zotero.services.diff_engine import DiffReport
-    from notion_zotero.core.models import Reference
 
-    writer = NotionWriter(dry_run=False)
-    ref = Reference(id="test-004", title="Test", provenance={}, sync_metadata={})
-    report = DiffReport(entries=[], bundle_id="test-004")
-
-    with pytest.raises(NotImplementedError):
-        writer.write_reference(ref, report)
+    with pytest.raises(ValueError, match="client required for apply mode"):
+        NotionWriter(dry_run=False, client=None)
 
 
 def test_zotero_writer_dry_run_returns_ops_for_owned_fields():
@@ -140,7 +134,7 @@ def test_zotero_writer_dry_run_returns_ops_for_owned_fields():
     from notion_zotero.core.models import Reference
 
     writer = ZoteroWriter(dry_run=True)
-    ref = Reference(id="ref-A", title="Old Title", provenance={}, sync_metadata={})
+    ref = Reference(id="ref-A", title="Old Title", provenance=_PROV, sync_metadata={})
     entry = DiffEntry(
         entity_type="references",
         entity_id="ref-A",
@@ -164,7 +158,7 @@ def test_notion_writer_dry_run_returns_ops_for_owned_fields():
     from notion_zotero.core.models import Reference
 
     writer = NotionWriter(dry_run=True)
-    ref = Reference(id="ref-B", title="Paper B", provenance={}, sync_metadata={})
+    ref = Reference(id="ref-B", title="Paper B", provenance=_PROV, sync_metadata={})
     entry = DiffEntry(
         entity_type="workflow_states",
         entity_id="ref-B",

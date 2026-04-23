@@ -4,6 +4,8 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import pytest
+
 from notion_zotero.core.models import (
     Reference,
     Task,
@@ -15,19 +17,27 @@ from notion_zotero.core.models import (
 
 GOLDEN = Path(__file__).parent / "fixtures" / "golden"
 
+_PROV = {
+    "source_id": "test",
+    "domain_pack_id": "test-pack",
+    "domain_pack_version": "0.0.1",
+}
+
 
 def test_reference_roundtrip():
-    ref = Reference(id="ref-001", title="Test Title", authors=["Author A"], year=2022)
+    ref = Reference(id="ref-001", title="Test Title", authors=["Author A"], year=2022,
+                    provenance=_PROV)
     data = ref.model_dump()
     restored = Reference(**data)
     assert restored == ref
 
 
 def test_reference_with_provenance_roundtrip():
+    prov = {**_PROV, "source_page_id": "p-001", "source_property": "Title"}
     ref = Reference(
         id="ref-002",
         title="Paper",
-        provenance={"source_page_id": "p-001", "source_property": "Title"},
+        provenance=prov,
     )
     data = ref.model_dump()
     restored = Reference(**data)
@@ -57,6 +67,7 @@ def test_task_extraction_roundtrip():
         template_id="prediction_modeling",
         schema_name="prediction_modeling",
         extracted=[{"Metric": "AUC", "Value": "0.86"}],
+        provenance=_PROV,
     )
     assert TaskExtraction(**te.model_dump()) == te
 
@@ -85,3 +96,27 @@ def test_golden_generic_fixture_is_valid_json():
     data = json.loads(p.read_text(encoding="utf-8"))
     assert data["object"] == "page"
     assert "children" in data
+
+
+def test_provenance_validator_rejects_empty():
+    """TP-006: Reference rejects empty provenance dict."""
+    with pytest.raises(ValueError, match="provenance must contain keys"):
+        Reference(id="bad", provenance={})
+
+
+def test_provenance_validator_rejects_partial():
+    """TP-006: Reference rejects provenance missing domain_pack_version."""
+    with pytest.raises(ValueError, match="provenance must contain keys"):
+        Reference(id="bad", provenance={"source_id": "x", "domain_pack_id": "y"})
+
+
+def test_task_extraction_provenance_validator_rejects_empty():
+    """TP-006: TaskExtraction rejects empty provenance dict."""
+    with pytest.raises(ValueError, match="provenance must contain keys"):
+        TaskExtraction(
+            id="te-bad",
+            reference_task_id=None,
+            template_id=None,
+            schema_name=None,
+            provenance={},
+        )

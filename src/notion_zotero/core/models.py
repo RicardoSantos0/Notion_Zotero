@@ -1,36 +1,46 @@
 """Canonical core models for `notion_zotero`.
 
-Implemented as Pydantic v2 BaseModels with strict validation.
+Implemented as Pydantic v2 BaseModels.
 
 Design decisions:
-- ConfigDict(strict=False, arbitrary_types_allowed=True): strict=True was
-  relaxed because `extracted` holds Any-typed data (list[dict], None, etc.)
-  and `provenance` is an open dict that receives heterogeneous values from
-  callers. Pydantic strict mode rejects e.g. passing `None` where `Optional`
-  is expected at coercion boundaries that exist in the existing test suite.
-  arbitrary_types_allowed=True is required to allow dict[str,Any] fields with
-  complex nested values.
-- model_dump() is provided natively by Pydantic v2 and is therefore no longer
-  hand-rolled on each class.
+- Per-model ConfigDict: Task and WorkflowState use strict=True because they
+  have no Any-typed or heterogeneous fields. All other models use strict=False
+  because they carry fields such as `extracted: Any`, `provenance: dict`, or
+  `created_from_source: Optional[dict]` that hold heterogeneous values.
+  arbitrary_types_allowed=True is retained where strict=False is used.
+- Provenance completeness (TP-006): Reference and TaskExtraction carry a
+  @model_validator(mode='after') that raises ValueError when the provenance
+  dict is non-empty but missing any of the three required keys: source_id,
+  domain_pack_id, domain_pack_version. An empty dict is also rejected — callers
+  must supply all three keys or omit the field only in tests via a fixture.
+- model_dump() is provided natively by Pydantic v2.
 - ValidationStatus defaults to UNKNOWN so every object is auditable.
 - sync_metadata defaults to {} as a reserved connector dict.
-- provenance must include source_id, domain_pack_id, domain_pack_version at
-  runtime (enforced by importer, not at Pydantic field level, because callers
-  supply partial provenance dicts during construction).
 """
 from __future__ import annotations
 
 from typing import Any, List, Optional
 
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from notion_zotero.core.enums import ValidationStatus
 
-_cfg = ConfigDict(strict=False, arbitrary_types_allowed=True)
+_PROVENANCE_REQUIRED_KEYS = {"source_id", "domain_pack_id", "domain_pack_version"}
+
+
+def _check_provenance(provenance: dict) -> dict:
+    """Raise ValueError when provenance is missing required keys."""
+    missing = _PROVENANCE_REQUIRED_KEYS - provenance.keys()
+    if missing:
+        raise ValueError(
+            f"provenance must contain keys: source_id, domain_pack_id, "
+            f"domain_pack_version — missing: {sorted(missing)}"
+        )
+    return provenance
 
 
 class Reference(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=False, arbitrary_types_allowed=True)
 
     id: str
     title: Optional[str] = None
@@ -47,9 +57,14 @@ class Reference(BaseModel):
     validation_status: ValidationStatus = ValidationStatus.UNKNOWN
     sync_metadata: dict = Field(default_factory=dict)
 
+    @model_validator(mode="after")
+    def _require_provenance_keys(self) -> "Reference":
+        _check_provenance(self.provenance)
+        return self
+
 
 class Task(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=True)
 
     id: str
     name: str
@@ -63,7 +78,7 @@ class Task(BaseModel):
 
 
 class ReferenceTask(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=False, arbitrary_types_allowed=True)
 
     id: str
     reference_id: str
@@ -79,7 +94,7 @@ class ReferenceTask(BaseModel):
 
 
 class TaskExtraction(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=False, arbitrary_types_allowed=True)
 
     id: str
     reference_task_id: Optional[str]
@@ -93,9 +108,14 @@ class TaskExtraction(BaseModel):
     validation_status: ValidationStatus = ValidationStatus.UNKNOWN
     sync_metadata: dict = Field(default_factory=dict)
 
+    @model_validator(mode="after")
+    def _require_provenance_keys(self) -> "TaskExtraction":
+        _check_provenance(self.provenance)
+        return self
+
 
 class WorkflowState(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=True)
 
     id: str
     reference_id: str
@@ -107,7 +127,7 @@ class WorkflowState(BaseModel):
 
 
 class Annotation(BaseModel):
-    model_config = _cfg
+    model_config = ConfigDict(strict=False, arbitrary_types_allowed=True)
 
     id: str
     reference_id: str
