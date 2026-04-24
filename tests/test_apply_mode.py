@@ -162,6 +162,90 @@ def test_conflict_resolution_notion_owned_field(tmp_path):
     mock_client.pages.update.assert_not_called()
 
 
+def test_zotero_writer_skips_wrong_entity_id(tmp_path):
+    """ZoteroWriter must skip diff entries whose entity_id does not match ref.id."""
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.core.models import Reference
+
+    mock_client = unittest.mock.MagicMock()
+    writer = ZoteroWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
+    ref = Reference(id="ref-A", title="T", provenance=_PROV, sync_metadata={})
+    diff = _make_zotero_diff(entity_id="ref-OTHER", field="title")
+
+    ops = writer.write_reference(ref, diff)
+
+    assert ops == []
+    mock_client.update_item.assert_not_called()
+
+
+def test_zotero_writer_content_hash_is_stable():
+    """content_hash returns the same value for equal ZOTERO_OWNED fields."""
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.core.models import Reference
+
+    ref1 = Reference(id="ref-hash", title="Same Title", provenance=_PROV, sync_metadata={})
+    ref2 = Reference(id="ref-hash", title="Same Title", provenance=_PROV, sync_metadata={})
+    assert ZoteroWriter.content_hash(ref1) == ZoteroWriter.content_hash(ref2)
+
+
+def test_zotero_writer_content_hash_differs_on_change():
+    """content_hash differs when a ZOTERO_OWNED field changes."""
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.core.models import Reference
+
+    ref1 = Reference(id="ref-hash", title="Title A", provenance=_PROV, sync_metadata={})
+    ref2 = Reference(id="ref-hash", title="Title B", provenance=_PROV, sync_metadata={})
+    assert ZoteroWriter.content_hash(ref1) != ZoteroWriter.content_hash(ref2)
+
+
+def test_zotero_writer_apply_client_error_logged(tmp_path):
+    """ZoteroWriter records 'failed' status in write log when client raises."""
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.writers.write_log import WriteLog
+    from notion_zotero.core.models import Reference
+
+    mock_client = unittest.mock.MagicMock()
+    mock_client.update_item.side_effect = RuntimeError("API down")
+    wl = WriteLog(session_id="sess-err", log_dir=tmp_path)
+    writer = ZoteroWriter(dry_run=False, client=mock_client, write_log=wl, rate_limit_sleep=0)
+    ref = Reference(id="ref-err", title="Old", provenance=_PROV, sync_metadata={})
+    diff = _make_zotero_diff(entity_id="ref-err", field="title")
+
+    writer.write_reference(ref, diff)
+
+    entries = wl.entries_for_session("sess-err")
+    statuses = [e["status"] for e in entries]
+    assert "failed" in statuses
+
+
+def test_zotero_writer_rate_limit_sleep_called(tmp_path):
+    """Rate-limit sleep is called between (not before) writes when multiple entries."""
+    import time
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.services.diff_engine import DiffEntry, DiffReport
+    from notion_zotero.core.models import Reference
+
+    mock_client = unittest.mock.MagicMock()
+    writer = ZoteroWriter(dry_run=False, client=mock_client, rate_limit_sleep=0.001)
+
+    from notion_zotero.core.field_ownership import ZOTERO_OWNED
+    owned_fields = list(ZOTERO_OWNED)[:2]
+    if len(owned_fields) < 2:
+        return  # skip if fewer than 2 owned fields
+
+    entries = [
+        DiffEntry(entity_type="references", entity_id="ref-rl", field=f,
+                  old_value="old", new_value="new", change_type="changed")
+        for f in owned_fields
+    ]
+    diff = DiffReport(entries=entries, bundle_id="ref-rl")
+    ref = Reference(id="ref-rl", title="T", provenance=_PROV, sync_metadata={})
+
+    with unittest.mock.patch("time.sleep") as mock_sleep:
+        writer.write_reference(ref, diff)
+        assert mock_sleep.call_count == 1  # called once, between the two writes
+
+
 def test_zotero_writer_raises_without_client_in_apply_mode():
     from notion_zotero.writers.zotero_writer import ZoteroWriter
 

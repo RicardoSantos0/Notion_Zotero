@@ -6,11 +6,15 @@ class NotionZoteroError(Exception):
     """Base exception for all notion_zotero errors."""
 
 
-class ImportError(NotionZoteroError):
+class ConfigurationError(NotionZoteroError):
+    """Raised when a required configuration value (e.g. env var) is missing."""
+
+
+class NotionImportError(NotionZoteroError):
     """Raised when importing/parsing a reading list page fails."""
 
 
-class FieldMappingError(ImportError):
+class FieldMappingError(NotionImportError):
     """Raised when a required field cannot be mapped from the source."""
 
     def __init__(self, field: str, source: str | None = None) -> None:
@@ -53,7 +57,8 @@ class ProvenanceError(NotionZoteroError):
 
 __all__ = [
     "NotionZoteroError",
-    "ImportError",
+    "ConfigurationError",
+    "NotionImportError",
     "FieldMappingError",
     "SchemaValidationError",
     "DomainPackError",

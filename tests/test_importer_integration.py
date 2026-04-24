@@ -62,12 +62,12 @@ def test_templates_dict_is_nonempty():
 def test_exceptions_hierarchy():
     from notion_zotero.core.exceptions import (
         NotionZoteroError,
-        ImportError,
+        NotionImportError,
         FieldMappingError,
         DomainPackError,
     )
-    assert issubclass(ImportError, NotionZoteroError)
-    assert issubclass(FieldMappingError, ImportError)
+    assert issubclass(NotionImportError, NotionZoteroError)
+    assert issubclass(FieldMappingError, NotionImportError)
     assert issubclass(DomainPackError, NotionZoteroError)
     err = FieldMappingError("doi", "reading_list")
     assert "doi" in str(err)

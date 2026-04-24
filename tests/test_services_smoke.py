@@ -773,3 +773,122 @@ def test_export_database_snapshot_raises_on_missing_fixtures(tmp_path, monkeypat
     monkeypatch.chdir(tmp_path)
     with pytest.raises(FileNotFoundError):
         analysis.export_database_snapshot(out=str(tmp_path / "out.json"))
+
+
+# ---------------------------------------------------------------------------
+# services/flattener.py — to_csv, to_jsonl, malformed bundle paths
+# ---------------------------------------------------------------------------
+
+def test_flatten_bundles_skips_malformed_json(tmp_path):
+    """flatten_bundles silently skips files with invalid JSON."""
+    from notion_zotero.services.flattener import flatten_bundles
+    bad = tmp_path / "bad.canonical.json"
+    bad.write_text("NOT JSON {{{", encoding="utf-8")
+    result = flatten_bundles(tmp_path)
+    assert result["references"].is_empty()
+
+
+def test_flatten_bundles_skips_non_dict_bundle(tmp_path):
+    """flatten_bundles skips bundles that are not dicts (e.g. a bare list)."""
+    from notion_zotero.services.flattener import flatten_bundles
+    import json
+    (tmp_path / "list.canonical.json").write_text(json.dumps([1, 2, 3]), encoding="utf-8")
+    result = flatten_bundles(tmp_path)
+    assert result["references"].is_empty()
+
+
+def test_flatten_bundles_skips_non_dict_rows(tmp_path):
+    """flatten_bundles skips rows inside a bundle that are not dicts."""
+    from notion_zotero.services.flattener import flatten_bundles
+    import json
+    bundle = {"references": ["string-row", 42, None]}
+    (tmp_path / "mixed.canonical.json").write_text(json.dumps(bundle), encoding="utf-8")
+    result = flatten_bundles(tmp_path)
+    assert result["references"].is_empty()
+
+
+def test_to_csv_writes_files(tmp_path):
+    """to_csv writes one CSV file per entity type."""
+    from notion_zotero.services.flattener import flatten_bundles, to_csv
+    import json
+    bundle = {"references": [{"id": "r1", "title": "T"}]}
+    (tmp_path / "b.canonical.json").write_text(json.dumps(bundle), encoding="utf-8")
+    dfs = flatten_bundles(tmp_path)
+    out = tmp_path / "csv_out"
+    to_csv(dfs, out)
+    assert (out / "references.csv").exists()
+
+
+def test_to_jsonl_writes_files(tmp_path):
+    """to_jsonl writes one JSONL file per entity type."""
+    from notion_zotero.services.flattener import flatten_bundles, to_jsonl
+    import json
+    bundle = {"references": [{"id": "r1", "title": "T"}]}
+    (tmp_path / "b.canonical.json").write_text(json.dumps(bundle), encoding="utf-8")
+    dfs = flatten_bundles(tmp_path)
+    out = tmp_path / "jsonl_out"
+    to_jsonl(dfs, out)
+    assert (out / "references.jsonl").exists()
+
+
+# ---------------------------------------------------------------------------
+# schemas/templates/base.py — ColumnDefinition, ExtractionTemplate, TemplateMatchRule
+# ---------------------------------------------------------------------------
+
+def test_column_definition_matches_by_name():
+    from notion_zotero.schemas.templates.base import ColumnDefinition
+    col = ColumnDefinition(name="doi", aliases=["doi_number"])
+    assert col.matches("DOI") is True
+    assert col.matches("doi_number") is True
+    assert col.matches("title") is False
+    assert col.matches("") is False
+
+
+def test_column_definition_no_aliases():
+    from notion_zotero.schemas.templates.base import ColumnDefinition
+    col = ColumnDefinition(name="title")
+    assert col.matches("TITLE") is True
+    assert col.matches("abstract") is False
+
+
+def test_extraction_template_model_dump():
+    from notion_zotero.schemas.templates.base import ExtractionTemplate, ColumnDefinition
+    tmpl = ExtractionTemplate(
+        template_id="t1",
+        display_name="Test Template",
+        expected_columns=[ColumnDefinition(name="doi")],
+    )
+    d = tmpl.model_dump()
+    assert d["template_id"] == "t1"
+    assert d["display_name"] == "Test Template"
+    assert len(d["expected_columns"]) == 1
+
+
+def test_template_match_rule_matches_headers():
+    from notion_zotero.schemas.templates.base import TemplateMatchRule
+    rule = TemplateMatchRule(required_headers=["doi", "title"], min_matches=2)
+    assert rule.matches(["DOI", "Title", "Abstract"]) is True
+    assert rule.matches(["doi"]) is False
+    assert rule.matches([]) is False
+
+
+def test_template_match_rule_partial_match():
+    from notion_zotero.schemas.templates.base import TemplateMatchRule
+    rule = TemplateMatchRule(required_headers=["doi"], min_matches=1)
+    assert rule.matches(["doi", "title"]) is True
+
+
+# ---------------------------------------------------------------------------
+# core/exceptions.py — ConfigurationError and NotionImportError
+# ---------------------------------------------------------------------------
+
+def test_configuration_error_is_notion_zotero_error():
+    from notion_zotero.core.exceptions import ConfigurationError, NotionZoteroError
+    exc = ConfigurationError("missing key")
+    assert isinstance(exc, NotionZoteroError)
+    assert "missing key" in str(exc)
+
+
+def test_notion_import_error_is_notion_zotero_error():
+    from notion_zotero.core.exceptions import NotionImportError, NotionZoteroError
+    assert issubclass(NotionImportError, NotionZoteroError)

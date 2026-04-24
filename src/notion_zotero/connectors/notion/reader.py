@@ -5,14 +5,10 @@ import os
 import logging
 from typing import Any
 
-from notion_zotero.core.exceptions import NotionZoteroError
+from notion_zotero.core.exceptions import ConfigurationError, NotionZoteroError  # noqa: F401
 from notion_zotero.core.models import Reference
 
 log = logging.getLogger(__name__)
-
-
-class ConfigurationError(NotionZoteroError):
-    """Raised when a required configuration value (e.g. env var) is missing."""
 
 
 class NotionReader:

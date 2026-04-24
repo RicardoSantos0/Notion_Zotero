@@ -4,16 +4,12 @@ from __future__ import annotations
 import os
 import logging
 
-from notion_zotero.core.exceptions import NotionZoteroError
+from notion_zotero.core.exceptions import ConfigurationError, NotionZoteroError  # noqa: F401
 from notion_zotero.core.models import Reference
 
 log = logging.getLogger(__name__)
 
 _ZOTERO_BASE = "https://api.zotero.org"
-
-
-class ConfigurationError(NotionZoteroError):
-    """Raised when a required configuration value (e.g. env var) is missing."""
 
 
 class ZoteroReader:

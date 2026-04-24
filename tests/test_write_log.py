@@ -114,6 +114,26 @@ def test_fsync_called(tmp_path):
         assert mock_fsync.call_count == 1
 
 
+def test_parse_filename_timestamp_non_matching(tmp_path):
+    """_parse_filename_timestamp returns None for non-matching filenames."""
+    from notion_zotero.writers.write_log import _parse_filename_timestamp
+    assert _parse_filename_timestamp(Path("other_log_20200101T000000Z_sess.ndjson")) is None
+
+
+def test_parse_filename_timestamp_bad_timestamp(tmp_path):
+    """_parse_filename_timestamp returns None when timestamp portion is invalid."""
+    from notion_zotero.writers.write_log import _parse_filename_timestamp
+    assert _parse_filename_timestamp(Path("write_log_NOTADATE_sess.ndjson")) is None
+
+
+def test_read_ndjson_oserror(tmp_path, monkeypatch):
+    """_read_ndjson silently returns [] when the file cannot be opened."""
+    from notion_zotero.writers.write_log import _read_ndjson
+    bad_path = tmp_path / "nonexistent.ndjson"
+    result = _read_ndjson(bad_path)
+    assert result == []
+
+
 def test_prune_real_filesystem(tmp_path):
     """Retention correctly deletes old files and keeps recent ones on a real filesystem."""
     log_dir = tmp_path / "write_logs"

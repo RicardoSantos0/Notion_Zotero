@@ -22,6 +22,7 @@ src/notion_zotero/core/exceptions.py
 src/notion_zotero/core/field_ownership.py
 src/notion_zotero/core/models.py
 src/notion_zotero/core/normalize.py
+src/notion_zotero/core/protocols.py
 src/notion_zotero/legacy/__init__.py
 src/notion_zotero/schemas/__init__.py
 src/notion_zotero/schemas/idgen.py
@@ -55,6 +56,7 @@ tests/test_field_ownership_enforcement.py
 tests/test_importer_integration.py
 tests/test_legacy_path_guard.py
 tests/test_models_roundtrip.py
+tests/test_pull_commands.py
 tests/test_reading_list_importer.py
 tests/test_schema_registry.py
 tests/test_semantic_mappings.py
