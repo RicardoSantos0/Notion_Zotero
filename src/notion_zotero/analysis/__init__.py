@@ -1,3 +1,30 @@
+"""Analysis helpers for the original reading-list summary extraction.
+
+Expose a small API for the notebook to call:
+
+- `run_analysis(...)` — orchestrate parse/load/extract/clean and return DataFrames
+- `concatenate_summary_tables(records)` — build the 4 summary tables from canonical records
+- `standard_clean_table(df, table_name)` — normalisation helper used by the notebook
+"""
+from .original_db_summary import (
+    TASK_ORDER,
+    load_credentials,
+    parse_fixtures_to_canonical,
+    load_canonical_records,
+    concatenate_summary_tables,
+    standard_clean_table,
+    run_analysis,
+)
+
+__all__ = [
+    "TASK_ORDER",
+    "load_credentials",
+    "parse_fixtures_to_canonical",
+    "load_canonical_records",
+    "concatenate_summary_tables",
+    "standard_clean_table",
+    "run_analysis",
+]
 """Simple export helpers for `notion_zotero`.
 
 The implemented `export_database_snapshot` is intentionally conservative: it
