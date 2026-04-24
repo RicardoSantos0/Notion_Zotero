@@ -4,9 +4,9 @@ pydantic
 pytest
 
 # Notebook / analysis runtime dependencies
-pandas>=1.5
-numpy>=1.24
-polars>=0.20
+pandas
+numpy
+polars
 httpx
 ipykernel
 jupyterlab
