@@ -43,7 +43,7 @@ def test_zotero_writer_apply_calls_client(tmp_path):
     from notion_zotero.core.models import Reference
 
     mock_client = unittest.mock.MagicMock()
-    writer = ZoteroWriter(dry_run=False, client=mock_client)
+    writer = ZoteroWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
     ref = Reference(id="ref-Z", title="Old", provenance=_PROV, sync_metadata={})
     diff = _make_zotero_diff(entity_id="ref-Z", field="title", old="Old", new="New")
 
@@ -61,7 +61,7 @@ def test_zotero_writer_apply_logs_to_write_log(tmp_path):
 
     mock_client = unittest.mock.MagicMock()
     wl = WriteLog(session_id="sess-z", log_dir=tmp_path)
-    writer = ZoteroWriter(dry_run=False, client=mock_client, write_log=wl)
+    writer = ZoteroWriter(dry_run=False, client=mock_client, write_log=wl, rate_limit_sleep=0)
     ref = Reference(id="ref-Z2", title="Old", provenance=_PROV, sync_metadata={})
     diff = _make_zotero_diff(entity_id="ref-Z2", field="title", old="Old", new="New2")
 
@@ -81,7 +81,7 @@ def test_zotero_writer_apply_skips_no_diff(tmp_path):
     from notion_zotero.core.models import Reference
 
     mock_client = unittest.mock.MagicMock()
-    writer = ZoteroWriter(dry_run=False, client=mock_client)
+    writer = ZoteroWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
     ref = Reference(id="ref-empty", title="Title", provenance=_PROV, sync_metadata={})
     empty_diff = DiffReport(entries=[], bundle_id="ref-empty")
 
@@ -96,7 +96,7 @@ def test_notion_writer_apply_calls_client(tmp_path):
     from notion_zotero.core.models import Reference
 
     mock_client = unittest.mock.MagicMock()
-    writer = NotionWriter(dry_run=False, client=mock_client)
+    writer = NotionWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
     ref = Reference(id="ref-N", title="Paper", provenance=_PROV, sync_metadata={})
     diff = _make_notion_diff(entity_id="ref-N", field="state", old="todo", new="done")
 
@@ -115,7 +115,7 @@ def test_notion_writer_apply_logs_to_write_log(tmp_path):
 
     mock_client = unittest.mock.MagicMock()
     wl = WriteLog(session_id="sess-n", log_dir=tmp_path)
-    writer = NotionWriter(dry_run=False, client=mock_client, write_log=wl)
+    writer = NotionWriter(dry_run=False, client=mock_client, write_log=wl, rate_limit_sleep=0)
     ref = Reference(id="ref-N2", title="Paper", provenance=_PROV, sync_metadata={})
     diff = _make_notion_diff(entity_id="ref-N2", field="state", old="todo", new="done")
 
@@ -134,7 +134,7 @@ def test_conflict_resolution_zotero_owned_field(tmp_path):
     from notion_zotero.core.models import Reference
 
     mock_client = unittest.mock.MagicMock()
-    writer = ZoteroWriter(dry_run=False, client=mock_client)
+    writer = ZoteroWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
     ref = Reference(id="ref-cr1", title="T", provenance=_PROV, sync_metadata={})
     # "state" is NOTION_OWNED — ZoteroWriter must skip it
     diff = _make_notion_diff(entity_id="ref-cr1", field="state")
@@ -151,7 +151,7 @@ def test_conflict_resolution_notion_owned_field(tmp_path):
     from notion_zotero.core.models import Reference
 
     mock_client = unittest.mock.MagicMock()
-    writer = NotionWriter(dry_run=False, client=mock_client)
+    writer = NotionWriter(dry_run=False, client=mock_client, rate_limit_sleep=0)
     ref = Reference(id="ref-cr2", title="T", provenance=_PROV, sync_metadata={})
     # "title" is ZOTERO_OWNED — NotionWriter must skip it
     diff = _make_zotero_diff(entity_id="ref-cr2", field="title")

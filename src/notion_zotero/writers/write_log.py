@@ -1,6 +1,7 @@
 """NDJSON-backed write log for sync operations.
 
-One file per session: write_log_{session_id}.ndjson
+One file per session: write_log_{timestamp}_{session_id}.ndjson
+Timestamp is a compact UTC ISO-8601 string, e.g. 20260424T153000Z.
 Default log directory: logs/write_logs/ relative to CWD (configurable).
 
 Required fields on every append (except rollback_ref and error_message,
@@ -30,6 +31,31 @@ _REQUIRED_KEYS = frozenset({
 })
 
 
+def _compact_utc_now() -> str:
+    """Return current UTC time as compact ISO-8601: 20260424T153000Z."""
+    return datetime.now(tz=timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+
+
+def _parse_filename_timestamp(path: Path) -> datetime | None:
+    """Extract and parse the embedded timestamp from a write_log filename.
+
+    Filename format: write_log_{timestamp}_{session_id}.ndjson
+    where timestamp is YYYYMMDDTHHMMSSz.
+    Returns None if timestamp cannot be parsed.
+    """
+    stem = path.stem  # e.g. write_log_20260424T153000Z_sess-abc
+    # strip the "write_log_" prefix
+    if not stem.startswith("write_log_"):
+        return None
+    rest = stem[len("write_log_"):]
+    # timestamp is the first 16 chars: YYYYMMDDTHHMMSSz
+    ts_str = rest[:16]
+    try:
+        return datetime.strptime(ts_str, "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc)
+    except ValueError:
+        return None
+
+
 class WriteLog:
     """Append-only NDJSON write log for a single sync session."""
 
@@ -41,7 +67,8 @@ class WriteLog:
         self.session_id = session_id
         self.log_dir = Path(log_dir)
         self.log_dir.mkdir(parents=True, exist_ok=True)
-        self._log_file = self.log_dir / f"write_log_{session_id}.ndjson"
+        self._timestamp = _compact_utc_now()
+        self._log_file = self.log_dir / f"write_log_{self._timestamp}_{session_id}.ndjson"
 
     # ------------------------------------------------------------------
     # Write
@@ -72,10 +99,10 @@ class WriteLog:
 
     def entries_for_session(self, session_id: str) -> list[dict]:
         """Return all entries whose session_id matches *session_id*."""
-        log_file = self.log_dir / f"write_log_{session_id}.ndjson"
-        if not log_file.exists():
-            return []
-        return _read_ndjson(log_file)
+        entries: list[dict] = []
+        for path in sorted(self.log_dir.glob("write_log_*_" + session_id + ".ndjson")):
+            entries.extend(_read_ndjson(path))
+        return entries
 
     def all_entries(self) -> list[dict]:
         """Read and return all entries across every session file in log_dir."""
@@ -89,11 +116,16 @@ class WriteLog:
     # ------------------------------------------------------------------
 
     def prune(self, days: int = 90) -> int:
-        """Delete NDJSON files older than *days* days. Returns count deleted."""
+        """Delete NDJSON files whose embedded timestamp is older than *days* days.
+
+        Parses the timestamp from the filename — does not use filesystem mtime.
+        Returns count deleted.
+        """
         cutoff = datetime.now(tz=timezone.utc).timestamp() - days * 86400
         deleted = 0
         for path in sorted(self.log_dir.glob("write_log_*.ndjson")):
-            if path.stat().st_mtime < cutoff:
+            ts = _parse_filename_timestamp(path)
+            if ts is not None and ts.timestamp() < cutoff:
                 path.unlink()
                 deleted += 1
         return deleted

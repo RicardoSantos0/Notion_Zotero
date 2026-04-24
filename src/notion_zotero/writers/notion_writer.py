@@ -12,11 +12,10 @@ from notion_zotero.core.field_ownership import NOTION_OWNED, assert_ownership
 from notion_zotero.services.diff_engine import DiffReport
 
 if TYPE_CHECKING:
+    from notion_zotero.core.protocols import NotionClientProtocol
     from notion_zotero.writers.write_log import WriteLog
 
 log = logging.getLogger(__name__)
-
-_RATE_LIMIT_SLEEP = 0.35  # seconds between Notion API calls (3 req/s limit)
 
 
 class NotionWriter:
@@ -34,13 +33,15 @@ class NotionWriter:
         self,
         dry_run: bool = True,
         staging_db_id: str | None = None,
-        client=None,
+        client: "NotionClientProtocol | None" = None,
         write_log: "WriteLog | None" = None,
+        rate_limit_sleep: float = 0.35,
     ) -> None:
         self.dry_run = dry_run
         self.staging_db_id = staging_db_id
         self._client = client
         self._write_log = write_log
+        self._rate_limit_sleep = rate_limit_sleep
 
         if not dry_run and client is None:
             raise ValueError("client required for apply mode")
@@ -96,7 +97,7 @@ class NotionWriter:
                 self._write_log.append(log_entry)
 
             if not first_call:
-                time.sleep(_RATE_LIMIT_SLEEP)
+                time.sleep(self._rate_limit_sleep)
             first_call = False
 
             try:

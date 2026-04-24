@@ -267,6 +267,169 @@ def cmd_report_task_counts(args):
         print("No task extractions found.")
 
 
+def cmd_pull_zotero(args):
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    try:
+        from notion_zotero.connectors.zotero.reader import ZoteroReader, ConfigurationError
+    except ImportError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        reader = ZoteroReader()
+    except Exception as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    limit = args.limit if args.limit is not None else 500
+    try:
+        items = reader.get_items(limit=limit)
+    except Exception as exc:
+        print(f"Error fetching from Zotero: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    out_dir = Path(args.output or "data/pulled/zotero")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    saved = 0
+    for item in items:
+        try:
+            ref = reader.to_reference(item)
+        except Exception:
+            continue
+        bundle = {
+            "references": [ref.model_dump()],
+            "tasks": [],
+            "reference_tasks": [],
+            "task_extractions": [],
+            "workflow_states": [],
+            "annotations": [],
+        }
+        key = ref.zotero_key or ref.id
+        out_file = out_dir / f"{key}.canonical.json"
+        out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+        saved += 1
+
+    print(f"Pulled {saved} references from Zotero -> {out_dir}")
+
+
+def cmd_pull_notion(args):
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    try:
+        from notion_zotero.connectors.notion.reader import NotionReader, ConfigurationError
+    except ImportError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    import os
+    database_id = getattr(args, "database_id", None) or os.environ.get("NOTION_DATABASE_ID")
+    if not database_id:
+        print(
+            "Error: Notion database ID required. Use --database-id or set NOTION_DATABASE_ID.",
+            file=sys.stderr,
+        )
+        sys.exit(1)
+
+    try:
+        reader = NotionReader()
+    except Exception as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    try:
+        pages = reader.get_database_pages(database_id)
+    except Exception as exc:
+        print(f"Error fetching from Notion: {exc}", file=sys.stderr)
+        sys.exit(1)
+
+    out_dir = Path(args.output or "data/pulled/notion")
+    out_dir.mkdir(parents=True, exist_ok=True)
+
+    saved = 0
+    for page in pages:
+        try:
+            ref = reader.to_reference(page)
+        except Exception:
+            continue
+        bundle = {
+            "references": [ref.model_dump()],
+            "tasks": [],
+            "reference_tasks": [],
+            "task_extractions": [],
+            "workflow_states": [],
+            "annotations": [],
+        }
+        out_file = out_dir / f"{ref.id}.canonical.json"
+        out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+        saved += 1
+
+    print(f"Pulled {saved} references from Notion -> {out_dir}")
+
+
+def cmd_status(args):
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    import os
+    from notion_zotero.connectors.zotero.reader import ZoteroReader
+    from notion_zotero.connectors.notion.reader import NotionReader
+
+    # Pull Zotero
+    zotero_count = 0
+    zotero_keys: set[str] = set()
+    try:
+        z_reader = ZoteroReader()
+        limit = getattr(args, "zotero_limit", None) or 500
+        items = z_reader.get_items(limit=limit)
+        for item in items:
+            try:
+                ref = z_reader.to_reference(item)
+                zotero_keys.add(ref.zotero_key or ref.id)
+            except Exception:
+                pass
+        zotero_count = len(zotero_keys)
+    except Exception as exc:
+        print(f"Warning: could not reach Zotero: {exc}", file=sys.stderr)
+
+    # Pull Notion
+    notion_count = 0
+    notion_keys: set[str] = set()
+    database_id = getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID")
+    if not database_id:
+        print("Warning: NOTION_DATABASE_ID not set — skipping Notion.", file=sys.stderr)
+    else:
+        try:
+            n_reader = NotionReader()
+            pages = n_reader.get_database_pages(database_id)
+            for page in pages:
+                try:
+                    ref = n_reader.to_reference(page)
+                    notion_keys.add(ref.zotero_key if ref.zotero_key else ref.id)
+                except Exception:
+                    pass
+            notion_count = len(notion_keys)
+        except Exception as exc:
+            print(f"Warning: could not reach Notion: {exc}", file=sys.stderr)
+
+    matched = zotero_keys & notion_keys
+    only_zotero = zotero_keys - notion_keys
+    only_notion = notion_keys - zotero_keys
+
+    print(f"Zotero library:   {zotero_count:>4} items")
+    print(f"Notion database:  {notion_count:>4} pages")
+    print()
+    print(f"Matched (in both): {len(matched)}")
+    print(f"Only in Zotero:    {len(only_zotero)}  (not yet synced to Notion)")
+    print(f"Only in Notion:    {len(only_notion)}  (no Zotero key — manual entries or missing link)")
+    print()
+    print("Run 'notion-zotero pull-zotero' and 'notion-zotero pull-notion' to save locally.")
+    print("Run 'notion-zotero report-by-year --input data/pulled/zotero' to analyse.")
+
+
 def cmd_report_provenance(args):
     from notion_zotero.services.flattener import flatten_bundles
     dfs = flatten_bundles(args.input or "fixtures/canonical")
@@ -358,6 +521,21 @@ def main(argv: Sequence[str] | None = None) -> int:
     rp = sub.add_parser("report-provenance", help="Provenance completeness across bundles")
     rp.add_argument("--input", default="fixtures/canonical")
     rp.set_defaults(func=cmd_report_provenance)
+
+    pz = sub.add_parser("pull-zotero", help="Pull items from Zotero and save as canonical bundles")
+    pz.add_argument("--output", default=None, help="Output directory (default: data/pulled/zotero)")
+    pz.add_argument("--limit", type=int, default=None, help="Max items to fetch (default: 500)")
+    pz.set_defaults(func=cmd_pull_zotero)
+
+    pn = sub.add_parser("pull-notion", help="Pull pages from a Notion database and save as canonical bundles")
+    pn.add_argument("--database-id", dest="database_id", default=None, help="Notion database ID")
+    pn.add_argument("--output", default=None, help="Output directory (default: data/pulled/notion)")
+    pn.set_defaults(func=cmd_pull_notion)
+
+    st = sub.add_parser("status", help="Show sync status between Zotero and Notion")
+    st.add_argument("--zotero-limit", dest="zotero_limit", type=int, default=None)
+    st.add_argument("--notion-database-id", dest="notion_database_id", default=None)
+    st.set_defaults(func=cmd_status)
 
     args = parser.parse_args(argv)
     if not hasattr(args, "func"):

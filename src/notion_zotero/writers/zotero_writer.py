@@ -13,11 +13,10 @@ from notion_zotero.core.field_ownership import ZOTERO_OWNED, assert_ownership
 from notion_zotero.services.diff_engine import DiffReport
 
 if TYPE_CHECKING:
+    from notion_zotero.core.protocols import ZoteroClientProtocol
     from notion_zotero.writers.write_log import WriteLog
 
 log = logging.getLogger(__name__)
-
-_RATE_LIMIT_SLEEP = 1.0  # seconds between Zotero API calls
 
 
 class ZoteroWriter:
@@ -31,12 +30,14 @@ class ZoteroWriter:
     def __init__(
         self,
         dry_run: bool = True,
-        client=None,
+        client: "ZoteroClientProtocol | None" = None,
         write_log: "WriteLog | None" = None,
+        rate_limit_sleep: float = 1.0,
     ) -> None:
         self.dry_run = dry_run
         self._client = client
         self._write_log = write_log
+        self._rate_limit_sleep = rate_limit_sleep
 
         if not dry_run and client is None:
             raise ValueError("client required for apply mode")
@@ -92,7 +93,7 @@ class ZoteroWriter:
                 self._write_log.append(log_entry)
 
             if not first_call:
-                time.sleep(_RATE_LIMIT_SLEEP)
+                time.sleep(self._rate_limit_sleep)
             first_call = False
 
             try:

@@ -1,7 +1,13 @@
-"""Core package placeholder for notion_zotero.
+"""Core package for notion_zotero canonical models and contracts."""
 
-This package will host the canonical core models (models.py, enums.py,
-normalize.py, citation.py) as the refactor moves forward.
-"""
+from notion_zotero.core.protocols import (
+    NotionClientProtocol,
+    NotionPagesProtocol,
+    ZoteroClientProtocol,
+)
 
-__all__ = []
+__all__ = [
+    "ZoteroClientProtocol",
+    "NotionPagesProtocol",
+    "NotionClientProtocol",
+]

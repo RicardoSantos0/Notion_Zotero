@@ -2,7 +2,6 @@
 from __future__ import annotations
 
 import json
-import time
 import unittest.mock
 from pathlib import Path
 
@@ -31,15 +30,18 @@ def _minimal_entry(**overrides) -> dict:
 def test_append_creates_file(tmp_path):
     wl = WriteLog(session_id="sess-1", log_dir=tmp_path)
     wl.append(_minimal_entry(operation_id="op-1", session_id="sess-1"))
-    log_file = tmp_path / "write_log_sess-1.ndjson"
-    assert log_file.exists()
+    # Filename now has embedded timestamp: write_log_{ts}_sess-1.ndjson
+    matches = list(tmp_path.glob("write_log_*_sess-1.ndjson"))
+    assert len(matches) == 1
 
 
 def test_append_writes_valid_json(tmp_path):
     wl = WriteLog(session_id="sess-2", log_dir=tmp_path)
     entry = _minimal_entry(operation_id="op-2", session_id="sess-2")
     wl.append(entry)
-    log_file = tmp_path / "write_log_sess-2.ndjson"
+    matches = list(tmp_path.glob("write_log_*_sess-2.ndjson"))
+    assert len(matches) == 1
+    log_file = matches[0]
     lines = [l for l in log_file.read_text(encoding="utf-8").splitlines() if l.strip()]
     assert len(lines) == 1
     parsed = json.loads(lines[0])
@@ -86,14 +88,12 @@ def test_all_entries(tmp_path):
 
 
 def test_prune_removes_old_files(tmp_path):
-    wl_old = WriteLog(session_id="old-sess", log_dir=tmp_path)
-    wl_old.append(_minimal_entry(operation_id="op-old", session_id="old-sess"))
-    old_file = tmp_path / "write_log_old-sess.ndjson"
-
-    # Set file mtime to 91 days ago
-    old_mtime = time.time() - 91 * 86400
-    import os
-    os.utime(old_file, (old_mtime, old_mtime))
+    # Create a file with a 2020 timestamp embedded in the filename (clearly old)
+    old_file = tmp_path / "write_log_20200101T000000Z_old-sess.ndjson"
+    old_file.write_text(
+        json.dumps(_minimal_entry(operation_id="op-old", session_id="old-sess")) + "\n",
+        encoding="utf-8",
+    )
 
     wl_new = WriteLog(session_id="new-sess", log_dir=tmp_path)
     wl_new.append(_minimal_entry(operation_id="op-new", session_id="new-sess"))
@@ -101,7 +101,8 @@ def test_prune_removes_old_files(tmp_path):
     deleted = wl_new.prune(days=90)
     assert deleted == 1
     assert not old_file.exists()
-    assert (tmp_path / "write_log_new-sess.ndjson").exists()
+    new_matches = list(tmp_path.glob("write_log_*_new-sess.ndjson"))
+    assert len(new_matches) == 1
 
 
 def test_fsync_called(tmp_path):
@@ -111,3 +112,54 @@ def test_fsync_called(tmp_path):
     with unittest.mock.patch("os.fsync") as mock_fsync:
         wl.append(entry)
         assert mock_fsync.call_count == 1
+
+
+def test_prune_real_filesystem(tmp_path):
+    """Retention correctly deletes old files and keeps recent ones on a real filesystem."""
+    log_dir = tmp_path / "write_logs"
+    log_dir.mkdir()
+
+    session_old = "session-old-001"
+    session_new = "session-new-001"
+
+    # Create old log file with a 2020 timestamp in the filename
+    old_file = log_dir / f"write_log_20200101T000000Z_{session_old}.ndjson"
+    old_file.write_text(
+        json.dumps({
+            "operation_id": "op-old-1",
+            "session_id": session_old,
+            "timestamp": "2020-01-01T00:00:00Z",
+            "entity_type": "references",
+            "entity_id": "ref-old",
+            "field": "title",
+            "old_value": "Old",
+            "new_value": "New",
+            "actor": "zotero",
+            "status": "applied",
+        }) + "\n",
+        encoding="utf-8",
+    )
+
+    # Create a recent log file (current timestamp embedded by WriteLog)
+    wl_new = WriteLog(session_id=session_new, log_dir=str(log_dir))
+    wl_new.append({
+        "operation_id": "op-new-1",
+        "session_id": session_new,
+        "timestamp": "2026-04-24T00:00:00Z",
+        "entity_type": "references",
+        "entity_id": "ref-new",
+        "field": "title",
+        "old_value": "A",
+        "new_value": "B",
+        "actor": "notion",
+        "status": "applied",
+    })
+
+    # Prune with 90-day threshold: old file should go, new file should stay
+    pruner = WriteLog(session_id="prune-session", log_dir=str(log_dir))
+    deleted = pruner.prune(days=90)
+
+    assert deleted == 1, f"Expected 1 file deleted, got {deleted}"
+    assert not old_file.exists(), "Old log file should have been deleted"
+    new_matches = list(log_dir.glob(f"write_log_*_{session_new}.ndjson"))
+    assert len(new_matches) == 1, "Recent log file should have been kept"
