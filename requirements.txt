@@ -2,3 +2,17 @@ notion-client
 python-dotenv
 pydantic
 pytest
+
+# Notebook / analysis runtime dependencies
+pandas>=1.5
+numpy>=1.24
+polars>=0.20
+httpx
+ipykernel
+jupyterlab
+nbclient
+nbformat
+matplotlib
+seaborn
+spacy
+nltk
