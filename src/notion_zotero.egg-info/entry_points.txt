@@ -1,4 +1,0 @@
-[console_scripts]
-export-reading-list = notion_zotero.scripts.export_reading_list:main
-import-reading-list = notion_zotero.services.reading_list_importer:main
-notion-zotero = notion_zotero.cli:main
