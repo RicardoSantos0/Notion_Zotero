@@ -1,10 +1,13 @@
 from pathlib import Path
+import pytest
+
+pytestmark = pytest.mark.integration
 
 from notion_zotero.services.reading_list_importer import parse_fixture
 
 
 def test_importer_produces_deterministic_ids_and_task_mapping():
-    path = Path(__file__).parent / "fixtures" / "sample_page.json"
+    path = Path(__file__).parent.parent / "fixtures" / "sample_page.json"
     pid1, out1 = parse_fixture(path)
     pid2, out2 = parse_fixture(path)
 

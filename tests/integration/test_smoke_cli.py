@@ -1,5 +1,8 @@
 import sys
 import subprocess
+import pytest
+
+pytestmark = pytest.mark.integration
 
 
 def test_cli_help_runs():

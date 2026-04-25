@@ -3,9 +3,12 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+import pytest
 
-GOLDEN = Path(__file__).parent / "fixtures" / "golden"
-SAMPLE = Path(__file__).parent / "fixtures" / "sample_page.json"
+pytestmark = pytest.mark.integration
+
+GOLDEN = Path(__file__).parent.parent / "fixtures" / "golden"
+SAMPLE = Path(__file__).parent.parent / "fixtures" / "sample_page.json"
 
 
 def _load_json(path: Path) -> dict:
