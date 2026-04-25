@@ -1,5 +1,12 @@
+"""Integration smoke tests for CLI merge/dedupe/citation commands."""
+from __future__ import annotations
+
 import json
 from pathlib import Path
+
+import pytest
+
+pytestmark = pytest.mark.integration
 
 from notion_zotero import cli
 

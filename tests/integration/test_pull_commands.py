@@ -1,4 +1,7 @@
-"""Smoke tests for pull-zotero, pull-notion, and status CLI commands."""
+"""Smoke tests for pull-zotero, pull-notion, and status CLI commands.
+
+These exercises mock external connectors and are considered integration/smoke.
+"""
 from __future__ import annotations
 
 import json
@@ -8,10 +11,13 @@ from pathlib import Path
 
 import pytest
 
+pytestmark = pytest.mark.integration
+
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
+
 
 def _make_args(**kwargs):
     """Build a simple namespace mirroring argparse output."""
@@ -28,6 +34,7 @@ def _make_args(**kwargs):
 
 def _fake_reference(ref_id="REF001", zotero_key="REF001", title="Test Paper"):
     from notion_zotero.core.models import Reference
+
     return Reference(
         id=ref_id,
         title=title,
@@ -41,6 +48,7 @@ def _fake_reference(ref_id="REF001", zotero_key="REF001", title="Test Paper"):
 # pull-zotero
 # ---------------------------------------------------------------------------
 
+
 def test_pull_zotero_no_api_key_raises(monkeypatch, tmp_path, capsys):
     """cmd_pull_zotero without env vars exits with an error message."""
     monkeypatch.delenv("ZOTERO_API_KEY", raising=False)
@@ -49,6 +57,7 @@ def test_pull_zotero_no_api_key_raises(monkeypatch, tmp_path, capsys):
     # Prevent dotenv from loading a real .env
     with unittest.mock.patch("dotenv.load_dotenv"):
         from notion_zotero.cli import cmd_pull_zotero
+
         with pytest.raises(SystemExit):
             cmd_pull_zotero(_make_args(output=str(tmp_path)))
 
@@ -89,6 +98,7 @@ def test_pull_zotero_saves_bundle_files(monkeypatch, tmp_path):
 # pull-notion
 # ---------------------------------------------------------------------------
 
+
 def test_pull_notion_no_api_key_raises(monkeypatch, tmp_path, capsys):
     """cmd_pull_notion without env vars exits with an error message."""
     monkeypatch.delenv("NOTION_API_KEY", raising=False)
@@ -96,6 +106,7 @@ def test_pull_notion_no_api_key_raises(monkeypatch, tmp_path, capsys):
 
     with unittest.mock.patch("dotenv.load_dotenv"):
         from notion_zotero.cli import cmd_pull_notion
+
         with pytest.raises(SystemExit):
             cmd_pull_notion(_make_args(output=str(tmp_path), database_id="fake-db"))
 
@@ -143,6 +154,7 @@ def test_pull_notion_saves_bundle_files(monkeypatch, tmp_path):
 # ---------------------------------------------------------------------------
 # status
 # ---------------------------------------------------------------------------
+
 
 def test_status_no_api_key_raises(monkeypatch, capsys):
     """cmd_status with no env vars prints a warning but does not crash."""

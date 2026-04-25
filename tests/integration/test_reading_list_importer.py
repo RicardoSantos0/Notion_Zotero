@@ -1,10 +1,16 @@
+"""Integration smoke for the reading list importer."""
+from __future__ import annotations
+
 from pathlib import Path
 from notion_zotero.services.reading_list_importer import parse_fixture
 import json
+import pytest
+
+pytestmark = pytest.mark.integration
 
 
 def test_parse_single_fixture():
-    repo_root = Path(__file__).resolve().parents[1]
+    repo_root = Path(__file__).resolve().parents[2]
     fixture_dir = repo_root / "fixtures" / "reading_list"
     assert fixture_dir.exists(), f"fixtures directory not found: {fixture_dir}"
     first_fixture = next(fixture_dir.glob("*.json"))

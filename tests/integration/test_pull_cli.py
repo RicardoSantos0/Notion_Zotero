@@ -8,13 +8,17 @@ from unittest.mock import patch, MagicMock
 
 import pytest
 
+pytestmark = pytest.mark.integration
+
 
 # ---------------------------------------------------------------------------
 # Helpers
 # ---------------------------------------------------------------------------
 
+
 def _fake_reference(ref_id="REF001", zotero_key="REF001", title="Test Paper"):
     from notion_zotero.core.models import Reference
+
     return Reference(
         id=ref_id,
         title=title,
@@ -44,6 +48,7 @@ def _fake_zotero_items(n=2):
 # ---------------------------------------------------------------------------
 # T-011-1: pull-notion writes canonical files
 # ---------------------------------------------------------------------------
+
 
 def test_pull_notion_writes_canonical_files(monkeypatch, tmp_path):
     monkeypatch.setenv("NOTION_API_KEY", "fake-key")
@@ -78,6 +83,7 @@ def test_pull_notion_writes_canonical_files(monkeypatch, tmp_path):
 # T-011-2: pull-notion atomic write — staging cleaned on exception
 # ---------------------------------------------------------------------------
 
+
 def test_pull_notion_atomic_write_on_failure(monkeypatch, tmp_path):
     monkeypatch.setenv("NOTION_API_KEY", "fake-key")
     monkeypatch.setenv("NOTION_DATABASE_ID", "fake-db-id")
@@ -105,6 +111,7 @@ def test_pull_notion_atomic_write_on_failure(monkeypatch, tmp_path):
 # ---------------------------------------------------------------------------
 # T-011-3: pull-zotero writes canonical files
 # ---------------------------------------------------------------------------
+
 
 def test_pull_zotero_writes_canonical_files(monkeypatch, tmp_path):
     monkeypatch.setenv("ZOTERO_API_KEY", "fake-key")
@@ -138,6 +145,7 @@ def test_pull_zotero_writes_canonical_files(monkeypatch, tmp_path):
 # T-011-4: pull-zotero exits non-zero when ZOTERO_LIBRARY_ID not set
 # ---------------------------------------------------------------------------
 
+
 def test_pull_zotero_missing_library_id_exits(monkeypatch, tmp_path):
     monkeypatch.delenv("ZOTERO_LIBRARY_ID", raising=False)
     monkeypatch.setenv("ZOTERO_API_KEY", "fake-key")
@@ -155,6 +163,7 @@ def test_pull_zotero_missing_library_id_exits(monkeypatch, tmp_path):
 # ---------------------------------------------------------------------------
 # T-011-5: pull-notion exits non-zero when database ID not provided at all
 # ---------------------------------------------------------------------------
+
 
 def test_pull_notion_missing_database_id_exits(monkeypatch, tmp_path):
     monkeypatch.setenv("NOTION_API_KEY", "fake-key")
