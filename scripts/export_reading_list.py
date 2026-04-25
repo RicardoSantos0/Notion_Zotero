@@ -91,10 +91,37 @@ def export_page(notion, page_id, out_dir):
 def export_database(notion, database_id, out_dir):
     def _query_db(notion_client, db_id, start_cursor=None, page_size=100):
         # Prefer the high-level SDK method if available
-        if hasattr(notion_client.databases, "query"):
+        if hasattr(notion_client, "databases") and hasattr(notion_client.databases, "query"):
             if start_cursor:
                 return notion_client.databases.query(database_id=db_id, start_cursor=start_cursor, page_size=page_size)
             return notion_client.databases.query(database_id=db_id, page_size=page_size)
+
+        # If the SDK exposes data_sources, prefer querying the active
+        # platform data source (some Notion setups use data_sources).
+        try:
+            if hasattr(notion_client, "data_sources") and hasattr(notion_client.data_sources, "query"):
+                try:
+                    db_obj = notion_client.databases.retrieve(database_id=db_id)
+                except Exception:
+                    db_obj = None
+                if db_obj:
+                    for ds in db_obj.get("data_sources") or []:
+                        ds_id = ds.get("id")
+                        if not ds_id:
+                            continue
+                        try:
+                            ds_meta = notion_client.data_sources.retrieve(data_source_id=ds_id)
+                        except Exception:
+                            ds_meta = None
+                        if ds_meta and not ds_meta.get("in_trash") and not ds_meta.get("archived"):
+                            try:
+                                return notion_client.data_sources.query(data_source_id=ds_id, start_cursor=start_cursor, page_size=page_size)
+                            except Exception:
+                                # try next fallback if this fails
+                                pass
+        except Exception:
+            # Non-fatal; continue to other fallbacks
+            pass
 
         # Fallback to low-level request for SDKs that don't expose `databases.query`
         payload = {"page_size": page_size}
@@ -102,14 +129,15 @@ def export_database(notion, database_id, out_dir):
             payload["start_cursor"] = start_cursor
         # Use the client's request(path, method, ...) signature (path first).
         try:
-            return notion_client.request(f"/databases/{db_id}/query", "post", body=payload)
+            # Use named-arg signature for compatibility with notion-client v3
+            return notion_client.request(path=f"databases/{db_id}/query", method="POST", body=payload)
         except TypeError:
             # As a last resort, try the underlying http client if exposed
             if hasattr(notion_client, "_client") and hasattr(notion_client._client, "post"):
                 try:
-                    return notion_client._client.post(f"/v1/databases/{db_id}/query", json=payload)
+                    return notion_client._client.post(f"databases/{db_id}/query", json=payload)
                 except TypeError:
-                    return notion_client._client.post(f"/v1/databases/{db_id}/query", data=payload)
+                    return notion_client._client.post(f"databases/{db_id}/query", data=payload)
             raise RuntimeError("Unable to query database via notion client fallback")
 
     start = None

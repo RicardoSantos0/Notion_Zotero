@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.9"
 authors = [ {name = "Ricardo Santos"} ]
 dependencies = [
-  "notion-client",
+  "notion-client<3.0",
   "python-dotenv",
   "pydantic>=2",
   "polars>=0.20",

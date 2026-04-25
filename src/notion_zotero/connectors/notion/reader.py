@@ -74,7 +74,88 @@ class NotionReader:
             reraise=True,
         )
         def _call():
-            return self._client.databases.query(**kwargs)
+            # Prefer the official SDK method when available
+            try:
+                if hasattr(self._client, "databases") and hasattr(self._client.databases, "query"):
+                    return self._client.databases.query(**kwargs)
+            except APIResponseError:
+                # Let tenacity handle API errors (retry)
+                raise
+            except Exception:
+                # fall through to fallback strategies for other error types
+                pass
+
+            # Prepare payload and database id for fallbacks
+            payload = dict(kwargs)
+            db_id = payload.pop("database_id", None)
+            if not db_id:
+                raise RuntimeError("database_id required for query")
+
+            # 0. If the installed SDK exposes data_sources, try querying the
+            # platform data source for this database (some Notion setups use
+            # data_sources for queries instead of the /databases/.../query path).
+            try:
+                if hasattr(self._client, "data_sources") and hasattr(self._client.data_sources, "query"):
+                    # Retrieve the database and look for an active data_source
+                    try:
+                        db_obj = self._client.databases.retrieve(database_id=db_id)
+                    except Exception:
+                        db_obj = None
+                    if db_obj:
+                        for ds in db_obj.get("data_sources") or []:
+                            ds_id = ds.get("id")
+                            if not ds_id:
+                                continue
+                            # Attempt to read the data_source metadata to ensure it's active
+                            try:
+                                ds_meta = self._client.data_sources.retrieve(data_source_id=ds_id)
+                            except Exception:
+                                ds_meta = None
+                            if ds_meta and not ds_meta.get("in_trash") and not ds_meta.get("archived"):
+                                # perform the query against the data_source
+                                try:
+                                    return self._client.data_sources.query(data_source_id=ds_id, start_cursor=payload.get("start_cursor"), page_size=payload.get("page_size", 100))
+                                except APIResponseError:
+                                    # allow retry on API errors
+                                    raise
+                                except Exception:
+                                    # try next fallback if this fails
+                                    pass
+            except APIResponseError:
+                # let tenacity handle API errors
+                raise
+            except Exception:
+                # non-fatal, continue to other fallbacks
+                pass
+
+            # 1. High-level request() if present on the client
+            if hasattr(self._client, "request"):
+                try:
+                    # Use named-arg signature to be compatible with notion-client v3
+                    return self._client.request(path=f"databases/{db_id}/query", method="POST", body=payload)
+                except APIResponseError:
+                    # Allow retries for API errors
+                    raise
+                except Exception:
+                    # swallow other errors and try next fallback
+                    pass
+
+            # 2. Underlying HTTP client (older/newer variants)
+            if hasattr(self._client, "_client") and hasattr(self._client._client, "post"):
+                try:
+                    resp = self._client._client.post(f"databases/{db_id}/query", json=payload)
+                except TypeError:
+                    resp = self._client._client.post(f"databases/{db_id}/query", data=payload)
+
+                # Return parsed JSON when available
+                if hasattr(resp, "json"):
+                    try:
+                        return resp.json()
+                    except Exception:
+                        return resp
+                return resp
+
+            raise RuntimeError("Unable to query database via notion client fallback")
 
         return _call()  # type: ignore[return-value]
 

@@ -1,6 +1,0 @@
-[coverage:run]
-omit =
-    */scripts/export_reading_list.py
-    */scripts/__init__.py
-    */analysis/original_db_summary.py
-    */legacy/*

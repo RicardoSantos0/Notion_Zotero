@@ -7,6 +7,7 @@ import json
 import logging
 import os
 import shutil
+import time
 import sys
 from pathlib import Path
 from typing import Any, Sequence
@@ -337,7 +338,46 @@ def cmd_pull_zotero(args):
         raise
 
     shutil.rmtree(final_dir, ignore_errors=True)
-    shutil.move(str(staging_dir), str(final_dir))
+    # If final_dir still exists after attempted removal, move staging to an alternate location
+    if final_dir.exists():
+        alt_name = getattr(args, "alt_output_name", None)
+        if alt_name:
+            alt_base = final_dir.parent / alt_name
+            alt = alt_base
+            i = 1
+            while alt.exists():
+                alt = final_dir.parent / f"{alt_name}_{i}"
+                i += 1
+        else:
+            alt = final_dir.parent / f"{final_dir.name}_pulled_{int(time.time())}"
+        shutil.move(str(staging_dir), str(alt))
+        print(f"Pulled {saved} references from Zotero -> {alt} (final location {final_dir} contains conflicting data and was left in place)")
+        return
+
+    try:
+        shutil.move(str(staging_dir), str(final_dir))
+    except shutil.Error:
+        # fallback: remove any nested conflict and retry once
+        conflict = final_dir / staging_dir.name
+        if conflict.exists():
+            shutil.rmtree(conflict, ignore_errors=True)
+        if conflict.exists():
+            alt_name = getattr(args, "alt_output_name", None)
+            if alt_name:
+                alt_base = final_dir.parent / alt_name
+                alt = alt_base
+                i = 1
+                while alt.exists():
+                    alt = final_dir.parent / f"{alt_name}_{i}"
+                    i += 1
+            else:
+                alt = final_dir.parent / f"{final_dir.name}_pulled_{int(time.time())}"
+            shutil.move(str(staging_dir), str(alt))
+            print(f"Pulled {saved} references from Zotero -> {alt} (final location {final_dir} contains conflicting data and was left in place)")
+            return
+        shutil.rmtree(final_dir, ignore_errors=True)
+        shutil.move(str(staging_dir), str(final_dir))
+
     print(f"Pulled {saved} references from Zotero -> {final_dir}")
 
 
@@ -371,7 +411,11 @@ def cmd_pull_notion(args):
         print(f"Error fetching from Notion: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    final_dir = Path(args.output or "data/pulled/notion")
+    base_output = Path(args.output or "data/pulled/notion")
+    if getattr(args, "pull_name", None):
+        final_dir = base_output / args.pull_name
+    else:
+        final_dir = base_output
     staging_dir = final_dir.parent / (final_dir.name + "_staging")
     shutil.rmtree(staging_dir, ignore_errors=True)
     staging_dir.mkdir(parents=True, exist_ok=True)
@@ -402,7 +446,46 @@ def cmd_pull_notion(args):
         raise
 
     shutil.rmtree(final_dir, ignore_errors=True)
-    shutil.move(str(staging_dir), str(final_dir))
+    # If final_dir still exists after attempted removal, move staging to an alternate location
+    if final_dir.exists():
+        alt_name = getattr(args, "alt_output_name", None)
+        if alt_name:
+            alt_base = final_dir.parent / alt_name
+            alt = alt_base
+            i = 1
+            while alt.exists():
+                alt = final_dir.parent / f"{alt_name}_{i}"
+                i += 1
+        else:
+            alt = final_dir.parent / f"{final_dir.name}_pulled_{int(time.time())}"
+        shutil.move(str(staging_dir), str(alt))
+        print(f"Pulled {saved} references from Notion -> {alt} (final location {final_dir} contains conflicting data and was left in place)")
+        return
+
+    try:
+        shutil.move(str(staging_dir), str(final_dir))
+    except shutil.Error:
+        # fallback: remove any nested conflict and retry once
+        conflict = final_dir / staging_dir.name
+        if conflict.exists():
+            shutil.rmtree(conflict, ignore_errors=True)
+        if conflict.exists():
+            alt_name = getattr(args, "alt_output_name", None)
+            if alt_name:
+                alt_base = final_dir.parent / alt_name
+                alt = alt_base
+                i = 1
+                while alt.exists():
+                    alt = final_dir.parent / f"{alt_name}_{i}"
+                    i += 1
+            else:
+                alt = final_dir.parent / f"{final_dir.name}_pulled_{int(time.time())}"
+            shutil.move(str(staging_dir), str(alt))
+            print(f"Pulled {saved} references from Notion -> {alt} (final location {final_dir} contains conflicting data and was left in place)")
+            return
+        shutil.rmtree(final_dir, ignore_errors=True)
+        shutil.move(str(staging_dir), str(final_dir))
+
     print(f"Pulled {saved} references from Notion -> {final_dir}")
 
 
@@ -563,11 +646,16 @@ def main(argv: Sequence[str] | None = None) -> int:
     pz.add_argument("--limit", type=int, default=None, help="Page size for Zotero API (default: 100)")
     pz.add_argument("--detect-library-id", dest="detect_library_id", action="store_true",
                     help="Auto-detect ZOTERO_LIBRARY_ID from API key")
+    pz.add_argument("--alt-output-name", dest="alt_output_name", default=None,
+                    help="Alternate folder name to use if the final target conflicts (e.g. mypull)")
     pz.set_defaults(func=cmd_pull_zotero)
 
     pn = sub.add_parser("pull-notion", help="Pull pages from a Notion database and save as canonical bundles")
     pn.add_argument("--database-id", dest="database_id", default=None, help="Notion database ID")
-    pn.add_argument("--output", default=None, help="Output directory (default: data/pulled/notion)")
+    pn.add_argument("--output", default="data/pulled/notion", help="Output directory (default: data/pulled/notion)")
+    pn.add_argument("--name", dest="pull_name", default=None, help="Subfolder name under output to store this pull (e.g. learning_analytics_review)")
+    pn.add_argument("--alt-output-name", dest="alt_output_name", default=None,
+                    help="Alternate folder name to use if the final target conflicts (e.g. mypull)")
     pn.set_defaults(func=cmd_pull_notion)
 
     st = sub.add_parser("status", help="Show sync status between Zotero and Notion")

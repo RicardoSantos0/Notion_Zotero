@@ -46,7 +46,7 @@ Both commands use **atomic write**: data is staged to a temporary directory firs
 
 Pulled data lands in:
 ```
-data/pulled/notion/    ← one .canonical.json per Notion page
+data/pulled/learning_analytics_review/    ← one .canonical.json per Notion page
 data/pulled/zotero/    ← one .canonical.json per Zotero item
 ```
 
@@ -64,22 +64,22 @@ Run reports against previously pulled data. Works offline once data is local.
 
 ```bash
 # Reference counts by publication year
-notion-zotero report-by-year --input data/pulled/notion
+notion-zotero report-by-year --input data/pulled/learning_analytics_review
 
 # Reference counts by journal/venue
-notion-zotero report-by-journal --input data/pulled/notion
+notion-zotero report-by-journal --input data/pulled/learning_analytics_review
 
 # DOI coverage rate
-notion-zotero report-doi-coverage --input data/pulled/notion
+notion-zotero report-doi-coverage --input data/pulled/learning_analytics_review
 
 # Tasks per reference and extractions per template
-notion-zotero report-task-counts --input data/pulled/notion
+notion-zotero report-task-counts --input data/pulled/learning_analytics_review
 
 # Provenance completeness
-notion-zotero report-provenance --input data/pulled/notion
+notion-zotero report-provenance --input data/pulled/learning_analytics_review
 ```
 
-The Jupyter notebook `original_db_summary_analysis.ipynb` also loads from `data/pulled/notion/` and provides an interactive exploration view. Run `pull-notion` first.
+The Jupyter notebook `original_db_summary_analysis.ipynb` also loads from `data/pulled/learning_analytics_review/` and provides an interactive exploration view. Run `pull-notion` first.
 
 ---
 
@@ -131,7 +131,7 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 
 | Command | Purpose |
 |---------|---------|
-| `pull-notion` | Pull live Notion database pages → `data/pulled/notion/` |
+| `pull-notion` | Pull live Notion database pages → `data/pulled/learning_analytics_review/` |
 | `pull-zotero` | Pull live Zotero library items → `data/pulled/zotero/` |
 | `status` | Show sync status between pulled Notion and Zotero data |
 | `report-by-year` | Reference counts by publication year |
