@@ -129,30 +129,65 @@ normalised-title + first-author), and produces a diff report.
 
 ---
 
-## Operational Mode (Sprint 3, not yet implemented)
+## Live Pull Mode
 
-Operational Mode will close the loop between local canonical files and live
-Notion / Zotero databases. It is planned for Sprint 3 and is **not available in
-the current release**.
+Live Pull Mode connects directly to the Notion and Zotero APIs, fetches all
+records, and saves them as canonical bundles under `data/pulled/`. It replaces
+the previous "Analysis Mode" fixture-based workflow for day-to-day use.
 
-### Planned components
+### Prerequisites
 
-| Component | Location | Status |
-|---|---|---|
-| Notion read connector | `connectors/notion/` | Placeholder only |
-| Zotero read connector | `connectors/zotero/` | Placeholder only |
-| Dry-run diff engine | `services/diff_engine.py` | Not yet implemented |
-| Dry-run Notion writer | `connectors/notion/writer.py` | Not yet implemented |
-| Dry-run Zotero writer | `connectors/zotero/writer.py` | Not yet implemented |
+Set in `.env` (loaded automatically):
+```
+NOTION_API_KEY=secret_...
+NOTION_DATABASE_ID=...
+ZOTERO_API_KEY=...
+ZOTERO_LIBRARY_ID=...   # use --detect-library-id if unknown
+```
 
-### Intended workflow (Sprint 3)
+### Commands
 
-1. Read live Notion database pages via the Notion connector.
-2. Read Zotero library items via the Zotero connector.
-3. Run the diff engine against the local canonical output to produce a
-   structured change set.
-4. Preview the change set in dry-run mode (no writes).
-5. Apply the change set with explicit confirmation.
+```bash
+# Pull all Notion pages
+notion-zotero pull-notion
 
-Until Sprint 3 connectors are implemented, use Analysis Mode to work with
-locally exported fixture files and Migration Mode to audit schema transitions.
+# Pull all Zotero items
+notion-zotero pull-zotero
+
+# Auto-detect ZOTERO_LIBRARY_ID from your API key
+notion-zotero pull-zotero --detect-library-id
+
+# Check sync status between pulled sources
+notion-zotero status
+```
+
+### Output layout
+
+```
+data/pulled/
+  notion/   ← one .canonical.json per Notion page
+  zotero/   ← one .canonical.json per Zotero item
+```
+
+### Reliability
+
+- **Pagination**: Notion uses cursor-based pagination (`has_more` / `next_cursor`);
+  Zotero uses offset-based pagination (`start` / `limit`, terminates via
+  `Total-Results` response header).
+- **Retry**: Both connectors use tenacity (3 attempts). Notion reads `retry_after`
+  from 429 JSON body; Zotero reads the `Backoff` response header.
+- **Atomic write**: Data is written to a `_staging` directory and swapped into
+  place only on full success. A failed pull leaves the previous data intact.
+
+### Current status
+
+| Component | Status |
+|---|---|
+| Notion read connector (`connectors/notion/reader.py`) | Implemented |
+| Zotero read connector (`connectors/zotero/reader.py`) | Implemented |
+| `pull-notion` CLI command | Implemented |
+| `pull-zotero` CLI command | Implemented (+ `--detect-library-id`) |
+| `status` command | Implemented |
+| Dry-run diff engine | Planned |
+| Notion write-back | Planned — not yet implemented |
+| Zotero write-back | Planned — not yet implemented |

@@ -10,6 +10,9 @@ src/notion_zotero.egg-info/entry_points.txt
 src/notion_zotero.egg-info/requires.txt
 src/notion_zotero.egg-info/top_level.txt
 src/notion_zotero/analysis/__init__.py
+src/notion_zotero/analysis/cleaner.py
+src/notion_zotero/analysis/original_db_summary.py
+src/notion_zotero/analysis/summarizer.py
 src/notion_zotero/connectors/__init__.py
 src/notion_zotero/connectors/notion/__init__.py
 src/notion_zotero/connectors/notion/reader.py
@@ -23,6 +26,7 @@ src/notion_zotero/core/field_ownership.py
 src/notion_zotero/core/models.py
 src/notion_zotero/core/normalize.py
 src/notion_zotero/core/protocols.py
+src/notion_zotero/core/text_utils.py
 src/notion_zotero/legacy/__init__.py
 src/notion_zotero/schemas/__init__.py
 src/notion_zotero/schemas/idgen.py
@@ -45,6 +49,7 @@ src/notion_zotero/writers/__init__.py
 src/notion_zotero/writers/notion_writer.py
 src/notion_zotero/writers/write_log.py
 src/notion_zotero/writers/zotero_writer.py
+tests/test_analysis_layer.py
 tests/test_apply_mode.py
 tests/test_cli.py
 tests/test_cli_new_commands.py
@@ -56,6 +61,8 @@ tests/test_field_ownership_enforcement.py
 tests/test_importer_integration.py
 tests/test_legacy_path_guard.py
 tests/test_models_roundtrip.py
+tests/test_notion_reader.py
+tests/test_pull_cli.py
 tests/test_pull_commands.py
 tests/test_reading_list_importer.py
 tests/test_schema_registry.py
@@ -67,3 +74,4 @@ tests/test_template_validation.py
 tests/test_templates_registry.py
 tests/test_write_log.py
 tests/test_write_path_interception.py
+tests/test_zotero_reader.py

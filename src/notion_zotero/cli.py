@@ -5,6 +5,8 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
+import shutil
 import sys
 from pathlib import Path
 from typing import Any, Sequence
@@ -271,6 +273,19 @@ def cmd_pull_zotero(args):
     from dotenv import load_dotenv
     load_dotenv()
 
+    if getattr(args, "detect_library_id", False):
+        import requests as _req
+        api_key = os.environ.get("ZOTERO_API_KEY", "")
+        resp = _req.get(f"https://api.zotero.org/keys/{api_key}", timeout=10)
+        resp.raise_for_status()
+        user_id = str(resp.json().get("userID", ""))
+        print(f"Detected Zotero Library ID: {user_id}")
+        confirm = input("Use this ID? [y/N]: ").strip().lower()
+        if confirm != "y":
+            print("Aborted.")
+            sys.exit(0)
+        os.environ["ZOTERO_LIBRARY_ID"] = user_id
+
     try:
         from notion_zotero.connectors.zotero.reader import ZoteroReader, ConfigurationError
     except ImportError as exc:
@@ -283,36 +298,47 @@ def cmd_pull_zotero(args):
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    limit = args.limit if args.limit is not None else 500
+    page_size = args.limit if args.limit is not None else 100
     try:
-        items = reader.get_items(limit=limit)
+        items = reader.get_items(limit=page_size)
     except Exception as exc:
         print(f"Error fetching from Zotero: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    out_dir = Path(args.output or "data/pulled/zotero")
-    out_dir.mkdir(parents=True, exist_ok=True)
+    final_dir = Path(args.output or "data/pulled/zotero")
+    staging_dir = final_dir.parent / (final_dir.name + "_staging")
+    shutil.rmtree(staging_dir, ignore_errors=True)
+    staging_dir.mkdir(parents=True, exist_ok=True)
 
-    saved = 0
-    for item in items:
-        try:
-            ref = reader.to_reference(item)
-        except Exception:
-            continue
-        bundle = {
-            "references": [ref.model_dump()],
-            "tasks": [],
-            "reference_tasks": [],
-            "task_extractions": [],
-            "workflow_states": [],
-            "annotations": [],
-        }
-        key = ref.zotero_key or ref.id
-        out_file = out_dir / f"{key}.canonical.json"
-        out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
-        saved += 1
+    try:
+        saved = 0
+        total = len(items)
+        for n, item in enumerate(items, start=1):
+            try:
+                ref = reader.to_reference(item)
+            except Exception:
+                continue
+            bundle = {
+                "references": [ref.model_dump()],
+                "tasks": [],
+                "reference_tasks": [],
+                "task_extractions": [],
+                "workflow_states": [],
+                "annotations": [],
+            }
+            key = ref.zotero_key or ref.id
+            out_file = staging_dir / f"{key}.canonical.json"
+            out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+            saved += 1
+            if n % 50 == 0:
+                print(f"  fetched page {n}/{total}...")
+    except Exception:
+        shutil.rmtree(staging_dir, ignore_errors=True)
+        raise
 
-    print(f"Pulled {saved} references from Zotero -> {out_dir}")
+    shutil.rmtree(final_dir, ignore_errors=True)
+    shutil.move(str(staging_dir), str(final_dir))
+    print(f"Pulled {saved} references from Zotero -> {final_dir}")
 
 
 def cmd_pull_notion(args):
@@ -325,7 +351,6 @@ def cmd_pull_notion(args):
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    import os
     database_id = getattr(args, "database_id", None) or os.environ.get("NOTION_DATABASE_ID")
     if not database_id:
         print(
@@ -346,28 +371,39 @@ def cmd_pull_notion(args):
         print(f"Error fetching from Notion: {exc}", file=sys.stderr)
         sys.exit(1)
 
-    out_dir = Path(args.output or "data/pulled/notion")
-    out_dir.mkdir(parents=True, exist_ok=True)
+    final_dir = Path(args.output or "data/pulled/notion")
+    staging_dir = final_dir.parent / (final_dir.name + "_staging")
+    shutil.rmtree(staging_dir, ignore_errors=True)
+    staging_dir.mkdir(parents=True, exist_ok=True)
 
-    saved = 0
-    for page in pages:
-        try:
-            ref = reader.to_reference(page)
-        except Exception:
-            continue
-        bundle = {
-            "references": [ref.model_dump()],
-            "tasks": [],
-            "reference_tasks": [],
-            "task_extractions": [],
-            "workflow_states": [],
-            "annotations": [],
-        }
-        out_file = out_dir / f"{ref.id}.canonical.json"
-        out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
-        saved += 1
+    try:
+        saved = 0
+        total = len(pages)
+        for n, page in enumerate(pages, start=1):
+            try:
+                ref = reader.to_reference(page)
+            except Exception:
+                continue
+            bundle = {
+                "references": [ref.model_dump()],
+                "tasks": [],
+                "reference_tasks": [],
+                "task_extractions": [],
+                "workflow_states": [],
+                "annotations": [],
+            }
+            out_file = staging_dir / f"{ref.id}.canonical.json"
+            out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
+            saved += 1
+            if n % 50 == 0:
+                print(f"  fetched page {n}/{total}...")
+    except Exception:
+        shutil.rmtree(staging_dir, ignore_errors=True)
+        raise
 
-    print(f"Pulled {saved} references from Notion -> {out_dir}")
+    shutil.rmtree(final_dir, ignore_errors=True)
+    shutil.move(str(staging_dir), str(final_dir))
+    print(f"Pulled {saved} references from Notion -> {final_dir}")
 
 
 def cmd_status(args):
@@ -524,7 +560,9 @@ def main(argv: Sequence[str] | None = None) -> int:
 
     pz = sub.add_parser("pull-zotero", help="Pull items from Zotero and save as canonical bundles")
     pz.add_argument("--output", default=None, help="Output directory (default: data/pulled/zotero)")
-    pz.add_argument("--limit", type=int, default=None, help="Max items to fetch (default: 500)")
+    pz.add_argument("--limit", type=int, default=None, help="Page size for Zotero API (default: 100)")
+    pz.add_argument("--detect-library-id", dest="detect_library_id", action="store_true",
+                    help="Auto-detect ZOTERO_LIBRARY_ID from API key")
     pz.set_defaults(func=cmd_pull_zotero)
 
     pn = sub.add_parser("pull-notion", help="Pull pages from a Notion database and save as canonical bundles")

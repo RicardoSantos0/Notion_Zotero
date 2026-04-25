@@ -5,10 +5,34 @@ import os
 import logging
 from typing import Any
 
+from tenacity import retry, stop_after_attempt, retry_if_exception_type
+from tenacity.wait import wait_base
+
 from notion_zotero.core.exceptions import ConfigurationError, NotionZoteroError  # noqa: F401
 from notion_zotero.core.models import Reference
 
 log = logging.getLogger(__name__)
+
+_NOTION_RETRY_CODES = {429, 500, 502, 503, 504}
+
+
+class _NotionRetryWait(wait_base):
+    """Use retry_after from Notion 429 JSON body, else 2s."""
+
+    def __call__(self, retry_state) -> float:
+        exc = retry_state.outcome.exception()
+        if hasattr(exc, "response") and exc.response is not None:
+            try:
+                body = exc.response.json()
+                return float(body.get("retry_after", 2))
+            except Exception:
+                pass
+        if hasattr(exc, "status") and exc.status in _NOTION_RETRY_CODES:
+            return 2.0
+        return 2.0
+
+
+_notion_retry_wait = _NotionRetryWait()
 
 
 class NotionReader:
@@ -37,13 +61,45 @@ class NotionReader:
         log.debug("NotionReader initialised (read-only).")
 
     # ------------------------------------------------------------------
+    # Internal retry helpers
+    # ------------------------------------------------------------------
+
+    def _query_with_retry(self, **kwargs) -> dict:
+        from notion_client.errors import APIResponseError  # type: ignore[import]
+
+        @retry(
+            retry=retry_if_exception_type(APIResponseError),
+            stop=stop_after_attempt(3),
+            wait=_notion_retry_wait,
+            reraise=True,
+        )
+        def _call():
+            return self._client.databases.query(**kwargs)
+
+        return _call()  # type: ignore[return-value]
+
+    def _retrieve_with_retry(self, page_id: str) -> dict:
+        from notion_client.errors import APIResponseError  # type: ignore[import]
+
+        @retry(
+            retry=retry_if_exception_type(APIResponseError),
+            stop=stop_after_attempt(3),
+            wait=_notion_retry_wait,
+            reraise=True,
+        )
+        def _call():
+            return self._client.pages.retrieve(page_id=page_id)
+
+        return _call()  # type: ignore[return-value]
+
+    # ------------------------------------------------------------------
     # Public read methods
     # ------------------------------------------------------------------
 
     def get_page(self, page_id: str) -> dict:
         """Fetch a single raw Notion page by ID."""
         log.debug("Fetching Notion page %s", page_id)
-        page: dict = self._client.pages.retrieve(page_id=page_id)  # type: ignore[assignment]
+        page: dict = self._retrieve_with_retry(page_id)
         return page
 
     def get_database_pages(self, database_id: str) -> list[dict]:
@@ -58,7 +114,7 @@ class NotionReader:
             if start_cursor:
                 kwargs["start_cursor"] = start_cursor
 
-            response: dict = self._client.databases.query(**kwargs)  # type: ignore[assignment]
+            response: dict = self._query_with_retry(**kwargs)
             results.extend(response.get("results", []))
             has_more = response.get("has_more", False)
             start_cursor = response.get("next_cursor")

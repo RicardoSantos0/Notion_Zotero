@@ -9,11 +9,25 @@ Requires-Dist: notion-client
 Requires-Dist: python-dotenv
 Requires-Dist: pydantic>=2
 Requires-Dist: polars>=0.20
+Requires-Dist: requests>=2.28
+Requires-Dist: tenacity>=8.0
 Provides-Extra: test
 Requires-Dist: pytest>=7.0; extra == "test"
 Requires-Dist: pytest-cov>=4.0; extra == "test"
-Requires-Dist: requests>=2.28; extra == "test"
 Requires-Dist: pyyaml>=6.0; extra == "test"
+Provides-Extra: analysis
+Requires-Dist: pandas>=1.5; extra == "analysis"
+Requires-Dist: numpy>=1.24; extra == "analysis"
+Requires-Dist: polars>=0.20; extra == "analysis"
+Requires-Dist: httpx; extra == "analysis"
+Requires-Dist: ipykernel; extra == "analysis"
+Requires-Dist: jupyterlab; extra == "analysis"
+Requires-Dist: nbclient; extra == "analysis"
+Requires-Dist: nbformat; extra == "analysis"
+Requires-Dist: matplotlib; extra == "analysis"
+Requires-Dist: seaborn; extra == "analysis"
+Requires-Dist: spacy; extra == "analysis"
+Requires-Dist: nltk; extra == "analysis"
 
 # Notion_Zotero
 

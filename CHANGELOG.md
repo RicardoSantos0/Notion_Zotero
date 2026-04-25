@@ -4,6 +4,73 @@ All notable changes to notion_zotero are documented here.
 
 ---
 
+## [2026-04-25] Live pull connectors, retry, atomic write, CLI reports
+
+### New features
+
+- **`pull-notion` command** (`cli.py`, `connectors/notion/reader.py`):
+  Pulls all pages from a live Notion database via the Notion API. Handles cursor-based
+  pagination (`has_more` / `next_cursor`). Writes one `.canonical.json` per page to
+  `data/pulled/notion/` using atomic write (staging swap on success; staging removed
+  on failure). Progress output every 50 pages.
+
+- **`pull-zotero` command** (`cli.py`, `connectors/zotero/reader.py`):
+  Pulls all items from a live Zotero library via the Zotero Web API. Handles offset
+  pagination (`start`/`limit` params, terminates via `Total-Results` header). Same
+  atomic write pattern as `pull-notion`.
+
+- **`--detect-library-id` flag** on `pull-zotero`:
+  Auto-detects `ZOTERO_LIBRARY_ID` from your API key via `GET /keys/{api_key}`.
+  Opt-in with explicit confirmation — never silent.
+
+- **Tenacity retry** for both connectors:
+  - Notion: reads `retry_after` from 429 JSON response body; retries up to 3 times.
+  - Zotero: reads `Backoff` header from 429 responses; retries up to 3 times.
+  - Wait functions implemented as `wait_base` subclasses (`_NotionRetryWait`,
+    `_ZoteroRetryWait`) — compatible with tenacity v9+ (see bug fix below).
+
+- **`status` command** (`cli.py`): Shows sync status between pulled Notion and
+  Zotero data.
+
+- **Analysis report commands** (`cli.py`):
+  `report-by-year`, `report-by-journal`, `report-doi-coverage`, `report-task-counts`,
+  `report-provenance` — all operate on previously pulled canonical data, no network
+  required.
+
+- **Unmapped field warnings** (`connectors/zotero/reader.py`):
+  `to_reference()` now logs a warning for any Zotero item field not in
+  `_KNOWN_ZOTERO_FIELDS`, making schema drift visible without breaking the pipeline.
+
+- **`ZOTERO_LIBRARY_ID` error message** improved with link to `zotero.org/settings/keys`.
+
+### Bug fixes
+
+- **tenacity v9 compatibility** (`connectors/notion/reader.py`,
+  `connectors/zotero/reader.py`): `wait_callable()` was removed in tenacity v9.
+  Both readers were initially implemented using `wait_callable()`; corrected to
+  `wait_base` subclasses which are the supported pattern in v9+.
+
+### Quality
+
+- **Coverage gate raised to 80%** (`pyproject.toml`): `--cov-fail-under=80` enforced
+  by pytest. Sprint result: 83.75% coverage (251 passed, 20 skipped, 0 failed).
+
+- **New test files** (19 tests across 3 files):
+  - `tests/test_notion_reader.py` — 6 tests: pagination, 429-retry, field mapping
+  - `tests/test_zotero_reader.py` — 8 tests: pagination, fallback termination,
+    429-retry, retry-exhausted, unmapped field warning, missing library ID error
+  - `tests/test_pull_cli.py` — 5 tests: pull writes files, atomic write on failure,
+    missing ID exits
+
+- **Notebook updated** (`original_db_summary_analysis.ipynb`): Loads exclusively
+  from `data/pulled/notion/`; raises `FileNotFoundError` with `pull-notion`
+  instruction if the directory is empty. No fallback to `fixtures/`.
+
+- **Dependencies** (`pyproject.toml`): `tenacity>=8.0` and `requests>=2.28` promoted
+  from test-only to main `[project].dependencies`.
+
+---
+
 ## [2026-04-20] Hardening pass: domain pack bugs, provenance, logging, tests, CI
 
 ### Bug fixes
