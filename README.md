@@ -117,11 +117,13 @@ notion-zotero export-snapshot --output fixtures/reading_list
 Compare a legacy canonical directory against a new one to detect regressions or data loss.
 
 ```bash
-python legacy/migration_audit.py \
-    --legacy fixtures/canonical_old \
-    --new    fixtures/canonical_new \
-    --report docs/v3_gap_analysis_auto.md
+python tools/migration_audit.py \
+  --legacy fixtures/canonical_old \
+  --new    fixtures/canonical_new \
+  --report docs/v3_gap_analysis_auto.md
 ```
+
+Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `tools/migration_audit.py` to run audits against an extracted legacy archive placed under `legacy/legacy_archive_*`.
 
 ---
 

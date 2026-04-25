@@ -92,13 +92,13 @@ v2-to-v3 schema transition.
 ### Entry point
 
 ```bash
-python legacy/migration_audit.py \
-    --legacy fixtures/canonical_old \
-    --new    fixtures/canonical_new \
-    --report docs/v3_gap_analysis_auto.md
+python tools/migration_audit.py \
+  --legacy fixtures/canonical_old \
+  --new    fixtures/canonical_new \
+  --report docs/v3_gap_analysis_auto.md
 ```
 
-The `run_audit()` function (exposed by `legacy/migration_audit.py`) loads both
+The `run_audit()` function (exposed by `tools/migration_audit.py`) loads both
 directories, matches pages by a stable key (DOI when present, else
 normalised-title + first-author), and produces a diff report.
 

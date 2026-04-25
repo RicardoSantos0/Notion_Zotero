@@ -32,13 +32,13 @@ The legacy importer (`legacy/master_reading_list_importer.py`) used ad hoc strin
    ```bash
    notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical_new
    ```
-3. Compare output with the legacy output using `legacy/migration_audit.py`:
-   ```bash
-   python legacy/migration_audit.py \
-     --legacy fixtures/canonical_old \
-     --new fixtures/canonical_new \
-     --report docs/v3_gap_analysis.md
-   ```
+3. Compare output using `tools/migration_audit.py` (legacy archives are stored in `archive/Notion_Zotero-legacy/`; move your legacy archive into `legacy/legacy_archive_*` if needed):
+    ```bash
+    python tools/migration_audit.py \
+       --legacy fixtures/canonical_old \
+       --new fixtures/canonical_new \
+       --report docs/v3_gap_analysis.md
+    ```
 4. Review `docs/v3_gap_analysis.md` for field-level differences.
 
 ## Editable install
