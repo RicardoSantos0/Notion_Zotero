@@ -8,6 +8,9 @@ data/pulled/
 logs/
 .idea/
 .vscode/
+# ignore fixtures directory (keep local only)
+/fixtures/
+# keep ignoring the merged canonical fixture file explicitly
 fixtures/canonical_merged.json
 # Migration audit raw report (may contain private content)
 migration_audit/migration_report.json
