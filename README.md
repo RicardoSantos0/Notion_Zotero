@@ -14,6 +14,10 @@ python -m venv .venv
 pip install -e .
 ```
 
+> **OneDrive users:** `uv` fails on this path with a hardlink error (OS error 396). Use
+> standard `pip` as shown above — do not use `uv run pytest` or `uv venv`.
+> If the venv gets wiped, run `python.exe -m ensurepip` first to bootstrap pip.
+
 Copy `.env.example` to `.env` and fill in your API keys:
 
 ```
