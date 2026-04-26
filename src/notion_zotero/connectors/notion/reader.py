@@ -15,6 +15,28 @@ log = logging.getLogger(__name__)
 
 _NOTION_RETRY_CODES = {429, 500, 502, 503, 504}
 
+# Canonical field name mapping (lowercase key -> Reference field name)
+_CANONICAL_FIELD_MAP: dict[str, str] = {
+    "title": "title",
+    "name": "title",
+    "author": "authors",
+    "authors": "authors",
+    "year": "year",
+    "publication year": "year",
+    "journal": "journal",
+    "publication": "journal",
+    "doi": "doi",
+    "url": "url",
+    "link": "url",
+    "zotero_key": "zotero_key",
+    "zotero key": "zotero_key",
+    "abstract": "abstract",
+    "type": "item_type",
+    "item_type": "item_type",
+    "tags": "tags",
+    "keywords": "tags",
+}
+
 
 class _NotionRetryWait(wait_base):
     """Use retry_after from Notion 429 JSON body, else 2s."""
@@ -173,6 +195,37 @@ class NotionReader:
 
         return _call()  # type: ignore[return-value]
 
+    def _retrieve_db_with_retry(self, database_id: str) -> dict:
+        from notion_client.errors import APIResponseError  # type: ignore[import]
+
+        @retry(
+            retry=retry_if_exception_type(APIResponseError),
+            stop=stop_after_attempt(3),
+            wait=_notion_retry_wait,
+            reraise=True,
+        )
+        def _call():
+            return self._client.databases.retrieve(database_id=database_id)
+
+        return _call()  # type: ignore[return-value]
+
+    def _list_blocks_with_retry(self, block_id: str, page_size: int = 100, start_cursor: str | None = None) -> dict:
+        from notion_client.errors import APIResponseError  # type: ignore[import]
+
+        @retry(
+            retry=retry_if_exception_type(APIResponseError),
+            stop=stop_after_attempt(3),
+            wait=_notion_retry_wait,
+            reraise=True,
+        )
+        def _call():
+            kwargs: dict[str, Any] = {"block_id": block_id, "page_size": page_size}
+            if start_cursor:
+                kwargs["start_cursor"] = start_cursor
+            return self._client.blocks.children.list(**kwargs)
+
+        return _call()  # type: ignore[return-value]
+
     # ------------------------------------------------------------------
     # Public read methods
     # ------------------------------------------------------------------
@@ -203,11 +256,52 @@ class NotionReader:
         log.debug("Retrieved %d pages from database %s", len(results), database_id)
         return results
 
-    def to_reference(self, page: dict) -> Reference:
+    def get_database_schema(self, database_id: str) -> dict:
+        """Return {property_name: property_type} for every property in the DB.
+
+        Calls the Notion databases.retrieve endpoint and extracts the properties
+        dict. Returns a flat mapping of ``{name: type_string}`` suitable for
+        passing to :meth:`to_reference` as *schema*.
+        """
+        log.debug("Fetching schema for Notion database %s", database_id)
+        response = self._retrieve_db_with_retry(database_id)
+        properties: dict = response.get("properties", {})
+        return {name: prop_dict.get("type", "") for name, prop_dict in properties.items()}
+
+    def get_page_blocks(self, page_id: str) -> list[dict]:
+        """Return all block children for a page, handling pagination.
+
+        Fetches all blocks (with pagination via has_more / next_cursor) and
+        returns a flat list of block dicts.  Child blocks of ``table`` blocks
+        are NOT fetched here — callers that need table rows must fetch them
+        separately.
+        """
+        log.debug("Fetching blocks for page %s", page_id)
+        results: list[dict] = []
+        has_more = True
+        start_cursor: str | None = None
+
+        while has_more:
+            response = self._list_blocks_with_retry(
+                block_id=page_id, page_size=100, start_cursor=start_cursor
+            )
+            results.extend(response.get("results", []))
+            has_more = response.get("has_more", False)
+            start_cursor = response.get("next_cursor")
+
+        log.debug("Retrieved %d blocks for page %s", len(results), page_id)
+        return results
+
+    def to_reference(self, page: dict, schema: dict | None = None) -> Reference:
         """Map a raw Notion page dict to a canonical Reference model.
 
+        When *schema* is provided (a ``{prop_name: prop_type}`` dict from
+        :meth:`get_database_schema`), iterates over ALL page properties
+        generically and maps canonical field names.  Non-canonical properties
+        are stored in ``sync_metadata["notion_properties"]``.
+
         Only Notion-side fields are extracted here.  Zotero-owned fields
-        (title, authors, doi, …) may be populated if they are stored as
+        (title, authors, doi, ...) may be populated if they are stored as
         Notion page properties, but their authoritative values come from
         Zotero during a full sync.
         """
@@ -232,6 +326,108 @@ class NotionReader:
         def _url(prop: dict) -> str | None:
             return prop.get("url") or None
 
+        def _extract_prop_value(prop: dict) -> Any:
+            """Generic property value extractor (mirrors reading_list_importer.prop_value)."""
+            t = prop.get("type")
+            if t == "title":
+                return "".join(p.get("plain_text", "") for p in prop.get("title", [])) or None
+            if t == "rich_text":
+                return "".join(p.get("plain_text", "") for p in prop.get("rich_text", [])) or None
+            if t == "multi_select":
+                return [s.get("name") for s in prop.get("multi_select", [])]
+            if t == "select":
+                sel = prop.get("select")
+                return sel.get("name") if sel else None
+            if t == "url":
+                return prop.get("url")
+            if t == "date":
+                d = prop.get("date")
+                return d.get("start") if d else None
+            if t == "number":
+                return prop.get("number")
+            if t == "people":
+                return [p.get("name") for p in prop.get("people", [])]
+            # fallback rich_text / title
+            if "rich_text" in prop:
+                return "".join(p.get("plain_text", "") for p in prop.get("rich_text", [])) or None
+            if "title" in prop:
+                return "".join(p.get("plain_text", "") for p in prop.get("title", [])) or None
+            return None
+
+        if schema is not None:
+            # Schema-guided extraction: iterate all properties generically
+            canonical: dict[str, Any] = {}
+            extra_notion_props: dict[str, Any] = {}
+
+            for prop_name, prop_dict in props.items():
+                prop_key_lower = prop_name.lower()
+                canonical_field = _CANONICAL_FIELD_MAP.get(prop_key_lower)
+                value = _extract_prop_value(prop_dict)
+
+                if canonical_field and canonical_field not in canonical:
+                    canonical[canonical_field] = value
+                else:
+                    # Store non-canonical (or duplicate canonical) props in extra
+                    if canonical_field is None:
+                        extra_notion_props[prop_name] = value
+
+            # Resolve authors: may be a semicolon-separated string or already a list
+            authors_val = canonical.get("authors")
+            if isinstance(authors_val, str):
+                authors = [a.strip() for a in authors_val.split(";") if a.strip()]
+            elif isinstance(authors_val, list):
+                authors = [str(a) for a in authors_val if a]
+            else:
+                authors = []
+
+            # Resolve year: coerce to int if needed
+            year_val = canonical.get("year")
+            year: int | None = None
+            if year_val is not None:
+                try:
+                    year = int(year_val)
+                except (TypeError, ValueError):
+                    year = None
+
+            # Resolve tags
+            tags_val = canonical.get("tags")
+            if isinstance(tags_val, list):
+                tags = [str(t) for t in tags_val if t]
+            else:
+                tags = []
+
+            title = canonical.get("title") or None
+            journal = canonical.get("journal") or None
+            doi = canonical.get("doi") or None
+            url = canonical.get("url") or None
+            zotero_key = canonical.get("zotero_key") or None
+            abstract = canonical.get("abstract") or None
+            item_type = canonical.get("item_type") or None
+
+            ref_id = zotero_key or page_id
+
+            return Reference(
+                id=ref_id,
+                title=title,
+                authors=authors,
+                year=year,
+                journal=journal,
+                doi=doi,
+                url=url,
+                zotero_key=zotero_key,
+                abstract=abstract,
+                item_type=item_type,
+                tags=tags,
+                provenance={
+                    "source_id": page_id,
+                    "source_system": "notion",
+                    "domain_pack_id": "",
+                    "domain_pack_version": "",
+                },
+                sync_metadata={"notion_properties": extra_notion_props},
+            )
+
+        # --- Legacy path: no schema provided, use hardcoded property names ---
         # Map well-known property names (case-insensitive best-effort)
         prop_lower = {k.lower(): v for k, v in props.items()}
 

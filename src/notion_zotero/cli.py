@@ -381,6 +381,68 @@ def cmd_pull_zotero(args):
     print(f"Pulled {saved} references from Zotero -> {final_dir}")
 
 
+def _blocks_to_fixture_parts(blocks: list[dict], reader: Any) -> tuple[list[dict], list[dict]]:
+    """Convert Notion block objects into fixture-format tables and text blocks.
+
+    Returns a 2-tuple: (tables, text_blocks).
+
+    - tables: list of dicts with keys ``heading``, ``rows`` (list of lists),
+      ``block_id``
+    - text_blocks: list of dicts with keys ``type``, ``text``, ``id``
+
+    For ``table`` blocks the function fetches child rows via
+    ``reader.get_page_blocks`` on the table block id.
+    """
+    tables: list[dict] = []
+    text_blocks: list[dict] = []
+    current_heading: str = ""
+
+    for block in blocks:
+        btype = block.get("type", "")
+
+        if btype in ("heading_1", "heading_2", "heading_3"):
+            content = block.get(btype, {})
+            rt = content.get("rich_text", [])
+            current_heading = "".join(r.get("plain_text", "") for r in rt)
+
+        elif btype == "table":
+            table_id = block.get("id", "")
+            has_col_header = (block.get("table", {}) or {}).get("has_column_header", False)
+            rows: list[list[str]] = []
+            try:
+                row_blocks = reader.get_page_blocks(table_id)
+                for rb in row_blocks:
+                    if rb.get("type") == "table_row":
+                        cells = rb.get("table_row", {}).get("cells", [])
+                        row = [
+                            "".join(r.get("plain_text", "") for r in cell)
+                            for cell in cells
+                        ]
+                        rows.append(row)
+            except Exception:
+                pass
+            if rows:
+                tables.append({
+                    "heading": current_heading,
+                    "rows": rows,
+                    "block_id": table_id,
+                    "has_column_header": has_col_header,
+                })
+
+        elif btype == "paragraph":
+            content = block.get("paragraph", {})
+            rt = content.get("rich_text", [])
+            text = "".join(r.get("plain_text", "") for r in rt)
+            if text:
+                text_blocks.append({
+                    "type": "paragraph",
+                    "text": text,
+                    "id": block.get("id", ""),
+                })
+
+    return tables, text_blocks
+
+
 def cmd_pull_notion(args):
     from dotenv import load_dotenv
     load_dotenv()
@@ -405,6 +467,16 @@ def cmd_pull_notion(args):
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)
 
+    skip_blocks: bool = getattr(args, "skip_blocks", False)
+
+    # Fetch schema once before the page loop (used for generic property extraction)
+    schema: dict | None = None
+    if not skip_blocks:
+        try:
+            schema = reader.get_database_schema(database_id)
+        except Exception as exc:
+            log.warning("Could not fetch database schema: %s -- falling back to hardcoded mapping", exc)
+
     try:
         pages = reader.get_database_pages(database_id)
     except Exception as exc:
@@ -421,21 +493,70 @@ def cmd_pull_notion(args):
     staging_dir.mkdir(parents=True, exist_ok=True)
 
     try:
+        from notion_zotero.services.reading_list_importer import parse_fixture_from_dict
+    except ImportError:
+        parse_fixture_from_dict = None  # type: ignore[assignment]
+
+    try:
         saved = 0
         total = len(pages)
         for n, page in enumerate(pages, start=1):
             try:
-                ref = reader.to_reference(page)
+                ref = reader.to_reference(page, schema=schema)
             except Exception:
                 continue
-            bundle = {
-                "references": [ref.model_dump()],
-                "tasks": [],
-                "reference_tasks": [],
-                "task_extractions": [],
-                "workflow_states": [],
-                "annotations": [],
-            }
+
+            page_id = page.get("id", ref.id)
+
+            if skip_blocks or parse_fixture_from_dict is None:
+                # Fast metadata-only pull: minimal bundle
+                bundle = {
+                    "references": [ref.model_dump()],
+                    "tasks": [],
+                    "reference_tasks": [],
+                    "task_extractions": [],
+                    "workflow_states": [],
+                    "annotations": [],
+                }
+            else:
+                # Full bundle: fetch blocks, parse tables, produce canonical bundle
+                try:
+                    blocks = reader.get_page_blocks(page_id)
+                    tables, text_blocks = _blocks_to_fixture_parts(blocks, reader)
+                except Exception:
+                    blocks = []
+                    tables = []
+                    text_blocks = []
+
+                fixture_dict = {
+                    "page_id": page_id,
+                    "title": ref.title or page_id,
+                    "properties": page.get("properties", {}),
+                    "tables": tables,
+                    "blocks": text_blocks,
+                }
+
+                try:
+                    _, bundle = parse_fixture_from_dict(fixture_dict)
+                    # Merge sync_metadata.notion_properties from the schema-enriched ref
+                    # into the bundle reference so extra Notion props are preserved
+                    if bundle.get("references"):
+                        notion_props = (ref.sync_metadata or {}).get("notion_properties") or {}
+                        if notion_props:
+                            existing_sm = bundle["references"][0].get("sync_metadata") or {}
+                            existing_sm["notion_properties"] = notion_props
+                            bundle["references"][0]["sync_metadata"] = existing_sm
+                except Exception:
+                    # Fallback to minimal bundle on parse error
+                    bundle = {
+                        "references": [ref.model_dump()],
+                        "tasks": [],
+                        "reference_tasks": [],
+                        "task_extractions": [],
+                        "workflow_states": [],
+                        "annotations": [],
+                    }
+
             out_file = staging_dir / f"{ref.id}.canonical.json"
             out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
             saved += 1
@@ -656,6 +777,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     pn.add_argument("--name", dest="pull_name", default=None, help="Subfolder name under output to store this pull (e.g. learning_analytics_review)")
     pn.add_argument("--alt-output-name", dest="alt_output_name", default=None,
                     help="Alternate folder name to use if the final target conflicts (e.g. mypull)")
+    pn.add_argument("--skip-blocks", dest="skip_blocks", action="store_true",
+                    help="Skip block/table fetching and produce minimal metadata-only bundles (faster)")
     pn.set_defaults(func=cmd_pull_notion)
 
     st = sub.add_parser("status", help="Show sync status between Zotero and Notion")

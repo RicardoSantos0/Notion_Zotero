@@ -76,8 +76,13 @@ def _build_provenance(
     return base
 
 
-def parse_fixture(path: Path, domain_pack_id: str | None = None):
-    d = json.loads(path.read_text(encoding="utf-8"))
+def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
+    """Core parsing logic: accepts a fixture dict and returns (page_id, bundle_dict).
+
+    This is the single source of truth for fixture parsing.  Both
+    :func:`parse_fixture` (file-based) and :func:`parse_fixture_from_dict`
+    (in-memory) delegate here.
+    """
     page_id = d.get("page_id")
     title = d.get("title") or page_id
     props = d.get("properties", {})
@@ -247,6 +252,22 @@ def parse_fixture(path: Path, domain_pack_id: str | None = None):
         "workflow_states": [_dump(w) for w in workflow_states],
     }
     return page_id, out
+
+
+def parse_fixture(path: Path, domain_pack_id: str | None = None):
+    """Parse a fixture JSON file on disk and return (page_id, bundle_dict)."""
+    d = json.loads(path.read_text(encoding="utf-8"))
+    return _parse_fixture_dict(d, domain_pack_id=domain_pack_id)
+
+
+def parse_fixture_from_dict(d: dict, domain_pack_id: str | None = None):
+    """Parse a fixture dict in memory and return (page_id, bundle_dict).
+
+    Accepts the same structure as a fixture file (keys: ``page_id``, ``title``,
+    ``properties``, ``tables``, ``blocks``).  This allows the pull-notion CLI
+    command to build full canonical bundles without writing intermediate files.
+    """
+    return _parse_fixture_dict(d, domain_pack_id=domain_pack_id)
 
 
 def main():

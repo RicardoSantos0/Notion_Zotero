@@ -56,7 +56,8 @@ def build_summary_tables(
         ref: dict[str, Any] = refs[0] if refs else {}
 
         page_id = (bundle.get("provenance") or {}).get("source_id") or ref.get("id") or ""
-        reading_rows.append({**ref, "page_id": page_id})
+        notion_props = (ref.get("sync_metadata") or {}).get("notion_properties") or {}
+        reading_rows.append({**ref, **notion_props, "page_id": page_id})
 
         tasks_by_id = {t.get("id"): t.get("name") for t in (bundle.get("tasks") or [])}
         rt_by_id = {rt.get("id"): rt.get("task_id") for rt in (bundle.get("reference_tasks") or [])}
