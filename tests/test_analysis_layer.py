@@ -115,10 +115,18 @@ class TestNormalizeSearchString:
         from notion_zotero.core.text_utils import normalize_search_string
         assert normalize_search_string(None) is None
 
-    def test_and_terms_quoted_and_joined(self):
+    def test_and_terms_quoted_sorted_and_joined(self):
         from notion_zotero.core.text_utils import normalize_search_string
+        # Terms are sorted canonically: "deep learning" < "machine learning"
         result = normalize_search_string("machine learning AND deep learning")
-        assert '"machine learning" AND "deep learning"' == result
+        assert result == '"deep learning" AND "machine learning"'
+
+    def test_and_terms_order_independent(self):
+        from notion_zotero.core.text_utils import normalize_search_string
+        # Regardless of input order, output is the same canonical form
+        a = normalize_search_string('"Learning Analytics" AND "Student Performance"')
+        b = normalize_search_string('"Student Performance" AND "Learning Analytics"')
+        assert a == b
 
     def test_and_terms_deduplicated(self):
         from notion_zotero.core.text_utils import normalize_search_string
@@ -135,6 +143,29 @@ class TestNormalizeSearchString:
         from notion_zotero.core.text_utils import normalize_search_string
         result = normalize_search_string("machine learning")
         assert result == "machine learning"
+
+    def test_single_term_with_surrounding_quotes_stripped(self):
+        from notion_zotero.core.text_utils import normalize_search_string
+        # Outer ASCII double-quotes on a single term should be stripped
+        assert normalize_search_string('"Knowledge Tracing"') == "Knowledge Tracing"
+        # Outer curly/typographic quotes on a single term should also be stripped
+        assert normalize_search_string("“Knowledge Tracing”") == "Knowledge Tracing"
+
+    def test_or_connector_preserved(self):
+        from notion_zotero.core.text_utils import normalize_search_string
+        result = normalize_search_string('"B" OR "A"')
+        assert result == '"A" OR "B"'
+
+    def test_double_double_quotes_collapsed(self):
+        from notion_zotero.core.text_utils import normalize_search_string
+        result = normalize_search_string('""Knowledge Tracing""')
+        assert result == "Knowledge Tracing"
+
+    def test_case_insensitive_dedup(self):
+        from notion_zotero.core.text_utils import normalize_search_string
+        result = normalize_search_string('"Knowledge Tracing" AND "knowledge tracing"')
+        # Only one instance should remain
+        assert result.lower().count("knowledge tracing") == 1
 
 
 # ---------------------------------------------------------------------------

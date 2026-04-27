@@ -51,9 +51,16 @@ GENERIC_VALUE_MAP: dict[str, str] = {
     "na": "Not Applicable",
     "elearning": "E-Learning",
     "e-learning": "E-Learning",
+    # Status canonical forms (normalise case variants)
+    "accepted for recommender systems": "Accepted For Recommender Systems",
+    "accepted for descriptive modelling": "Accepted For Descriptive Modelling",
+    "accepted for performance prediction task": "Accepted For Performance Prediction Task",
+    "accepted for knowledge tracing": "Accepted For Knowledge Tracing",
 }
 
 ACRONYM_WORDS: set[str] = {"LAK", "LMS", "MOOC", "AI", "LLM", "KT", "RS"}
+
+SEARCH_STRATEGY_COLUMNS: list[str] = ["search_terms", "Search Strategy"]
 
 # ---------------------------------------------------------------------------
 # Backwards-compat private helpers — delegate to core/text_utils
@@ -238,6 +245,7 @@ __all__ = [
     "TYPO_FIXES",
     "GENERIC_VALUE_MAP",
     "ACRONYM_WORDS",
+    "SEARCH_STRATEGY_COLUMNS",
     "load_credentials",
     "load_canonical_records",
     "concatenate_summary_tables",

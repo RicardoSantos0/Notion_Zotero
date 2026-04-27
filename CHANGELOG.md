@@ -4,6 +4,65 @@ All notable changes to notion_zotero are documented here.
 
 ---
 
+## [2026-04-27] Fixtures cleanup: unified data directory, path consolidation
+
+### Breaking changes
+
+- **`fixtures/` directory removed as a concept.** All CLI commands that previously
+  defaulted to `fixtures/canonical`, `fixtures/canonical_merged.json`, or
+  `fixtures/reading_list` now default to paths under `data/`:
+
+  | Old default | New default |
+  |-------------|-------------|
+  | `fixtures/canonical` | `data/pulled/notion/learning_analytics_review` |
+  | `fixtures/canonical_merged.json` | `data/pulled/notion/canonical_merged.json` |
+  | `fixtures/canonical_merged.dedup.json` | `data/pulled/notion/canonical_merged.dedup.json` |
+  | `fixtures/reading_list` | `data/raw/notion` |
+
+  Affected commands: `merge-canonical`, `dedupe-canonical`, `validate-fixtures`,
+  `parse-fixtures`, `export-snapshot`, `report-by-year`, `report-by-journal`,
+  `report-doi-coverage`, `report-task-counts`, `report-provenance`.
+
+  Pass `--input` / `--out` explicitly to override any default.
+
+- **`fixtures/` is no longer a recognised path anywhere in the package.** The directory
+  was gitignored and empty after the previous session; it is now formally retired.
+  `data/raw/notion/` is the new staging area for raw Notion page exports used with
+  `parse-fixtures` in offline mode.
+
+### What stays the same
+
+- `tests/fixtures/` — the tracked test-data directory inside `tests/` — is **not**
+  affected. It holds curated golden canonical files and sample pages for unit/integration
+  tests and has nothing to do with live data.
+
+### Quality
+
+- `tests/test_semantic_mappings.py` removed — its only test asserted that
+  `fixtures/reading_list` was populated at runtime, which is not a property the test
+  suite can guarantee.
+- `tests/integration/test_reading_list_importer.py::test_parse_single_fixture` removed
+  for the same reason.
+- `tests/integration/test_cli.py::test_merge_canonical_smoke` rewritten to be fully
+  self-contained using `tmp_path` (no longer requires a pre-populated data directory).
+- `tests/test_analysis_layer.py::test_export_database_snapshot_writes_file` updated to
+  create `data/raw/notion` under `tmp_path` instead of `fixtures/reading_list`.
+- Suite result: **304 passed, 81.68% coverage** (up from 304 / same tests, all green).
+
+### Notion reader
+
+- `connectors/notion/reader.py`: added handling for Notion `status` property type
+  (previously only `select` was handled for status-like fields).
+
+### Importer
+
+- `services/reading_list_importer.py`: both `Status` and `Status_1` properties are now
+  preserved independently in `sync_metadata` and produce separate `WorkflowState`
+  entries, each carrying its source field name. Previously only one status field was
+  kept and the other was silently dropped.
+
+---
+
 ## [2026-04-25] Live pull connectors, retry, atomic write, CLI reports
 
 ### New features

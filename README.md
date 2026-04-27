@@ -50,8 +50,8 @@ Both commands use **atomic write**: data is staged to a temporary directory firs
 
 Pulled data lands in:
 ```
-data/pulled/learning_analytics_review/    ← one .canonical.json per Notion page
-data/pulled/zotero/    ← one .canonical.json per Zotero item
+data/pulled/notion/learning_analytics_review/   ← one .canonical.json per Notion page
+data/pulled/zotero/                             ← one .canonical.json per Zotero item
 ```
 
 After pulling, check sync status between the two sources:
@@ -68,51 +68,62 @@ Run reports against previously pulled data. Works offline once data is local.
 
 ```bash
 # Reference counts by publication year
-notion-zotero report-by-year --input data/pulled/learning_analytics_review
+notion-zotero report-by-year
 
 # Reference counts by journal/venue
-notion-zotero report-by-journal --input data/pulled/learning_analytics_review
+notion-zotero report-by-journal
 
 # DOI coverage rate
-notion-zotero report-doi-coverage --input data/pulled/learning_analytics_review
+notion-zotero report-doi-coverage
 
 # Tasks per reference and extractions per template
-notion-zotero report-task-counts --input data/pulled/learning_analytics_review
+notion-zotero report-task-counts
 
 # Provenance completeness
-notion-zotero report-provenance --input data/pulled/learning_analytics_review
+notion-zotero report-provenance
 ```
 
-The Jupyter notebook `original_db_summary_analysis.ipynb` also loads from `data/pulled/learning_analytics_review/` and provides an interactive exploration view. Run `pull-notion` first.
+All report commands default to `data/pulled/notion/learning_analytics_review`. Pass `--input <path>` to point at a different directory.
+
+The Jupyter notebook `original_db_summary_analysis.ipynb` also loads from `data/pulled/notion/learning_analytics_review/` and provides an interactive exploration view. Run `pull-notion` first.
 
 ---
 
-### 3 — Offline / fixture-based mode
+### 3 — Offline / raw-export mode
 
 Work with local Notion export snapshots without any API keys. Useful for reproducible pipelines or when credentials are unavailable.
 
+Raw page exports are staged in `data/raw/notion/` and parsed into `data/pulled/notion/learning_analytics_review/`.
+
 ```bash
 # Parse a local Notion export into canonical bundles
-notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical
+notion-zotero parse-fixtures --input data/raw/notion \
+  --out data/pulled/notion/learning_analytics_review
 
 # Apply a specific domain pack during parsing
-notion-zotero parse-fixtures --input fixtures/reading_list --out fixtures/canonical \
+notion-zotero parse-fixtures --input data/raw/notion \
+  --out data/pulled/notion/learning_analytics_review \
   --domain-pack education_learning_analytics
 
-# Merge and deduplicate
-notion-zotero merge-canonical --input fixtures/canonical --out fixtures/canonical_merged.json
-notion-zotero dedupe-canonical --input fixtures/canonical_merged.json \
-  --out fixtures/canonical_merged.dedup.json
+# Merge all canonical bundles into a single file
+notion-zotero merge-canonical
 
-# Validate output
-notion-zotero validate-fixtures --input fixtures/canonical
+# Deduplicate the merged file by DOI or title+authors
+notion-zotero dedupe-canonical
+
+# Validate canonical bundle files
+notion-zotero validate-fixtures
 ```
 
-To export a fresh Notion snapshot for use as fixtures:
+All three commands above default to `data/pulled/notion/learning_analytics_review` (or its derived files). Pass `--input` / `--out` to override.
+
+To export a fresh raw snapshot from Notion for offline use:
 
 ```bash
-notion-zotero export-snapshot --output fixtures/reading_list
+notion-zotero export-snapshot
 ```
+
+This writes raw page exports to `data/raw/notion/`.
 
 ---
 
@@ -122,9 +133,9 @@ Compare a legacy canonical directory against a new one to detect regressions or 
 
 ```bash
 python tools/migration_audit.py \
-  --legacy fixtures/canonical_old \
-  --new    fixtures/canonical_new \
-  --report docs/v3_gap_analysis_auto.md
+  --legacy data/pulled/notion/learning_analytics_review_old \
+  --new    data/pulled/notion/learning_analytics_review \
+  --report docs/migration_report.md
 ```
 
 Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `tools/migration_audit.py` to run audits against an extracted legacy archive placed under `legacy/legacy_archive_*`.
@@ -133,24 +144,45 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 
 ## All commands
 
-| Command | Purpose |
-|---------|---------|
-| `pull-notion` | Pull live Notion database pages → `data/pulled/learning_analytics_review/` |
-| `pull-zotero` | Pull live Zotero library items → `data/pulled/zotero/` |
-| `status` | Show sync status between pulled Notion and Zotero data |
-| `report-by-year` | Reference counts by publication year |
-| `report-by-journal` | Reference counts by journal/venue |
-| `report-doi-coverage` | DOI coverage rate across bundles |
-| `report-task-counts` | Tasks per reference and extractions per template |
-| `report-provenance` | Provenance completeness across bundles |
-| `export-snapshot` | Export a live Notion database to local JSON |
-| `parse-fixtures` | Parse local fixture JSONs into canonical bundles |
-| `merge-canonical` | Merge per-page canonical bundles into a single array file |
-| `dedupe-canonical` | Deduplicate a merged file by DOI or title+authors |
-| `validate-fixtures` | Validate canonical bundle files (exits 1 on error) |
-| `zotero-citation` | Print an APA citation for a canonical bundle or Zotero item |
-| `list-domain-packs` | List registered domain packs |
-| `list-templates` | List registered extraction templates |
+| Command | Default paths | Purpose |
+|---------|--------------|---------|
+| `pull-notion` | → `data/pulled/notion/<name>/` | Pull live Notion database pages |
+| `pull-zotero` | → `data/pulled/zotero/` | Pull live Zotero library items |
+| `status` | reads `data/pulled/` | Show sync status between Notion and Zotero data |
+| `report-by-year` | `data/pulled/notion/learning_analytics_review` | Reference counts by publication year |
+| `report-by-journal` | `data/pulled/notion/learning_analytics_review` | Reference counts by journal/venue |
+| `report-doi-coverage` | `data/pulled/notion/learning_analytics_review` | DOI coverage rate across bundles |
+| `report-task-counts` | `data/pulled/notion/learning_analytics_review` | Tasks per reference and extractions per template |
+| `report-provenance` | `data/pulled/notion/learning_analytics_review` | Provenance completeness across bundles |
+| `export-snapshot` | → `data/pulled/notion/canonical_merged.json` | Export and merge Notion pages to a single JSON |
+| `parse-fixtures` | `data/raw/notion` → `data/pulled/notion/learning_analytics_review` | Parse raw Notion exports into canonical bundles (offline) |
+| `merge-canonical` | `data/pulled/notion/learning_analytics_review` → `canonical_merged.json` | Merge per-page bundles into a single array file |
+| `dedupe-canonical` | `canonical_merged.json` → `canonical_merged.dedup.json` | Deduplicate a merged file by DOI or title+authors |
+| `validate-fixtures` | `data/pulled/notion/learning_analytics_review` | Validate canonical bundle files (exits 1 on error) |
+| `zotero-citation` | — | Print an APA citation for a canonical bundle or Zotero item |
+| `list-domain-packs` | — | List registered domain packs |
+| `list-templates` | — | List registered extraction templates |
+
+---
+
+## Data directory layout
+
+```
+data/
+  pulled/
+    notion/
+      learning_analytics_review/   ← one .canonical.json per Notion page (gitignored)
+      canonical_merged.json         ← merged array (produced by merge-canonical, gitignored)
+    zotero/                         ← one .canonical.json per Zotero item (gitignored)
+  raw/
+    notion/                         ← raw Notion page exports for offline parsing (gitignored)
+tests/
+  fixtures/
+    golden/                         ← curated canonical bundles for regression tests (tracked)
+    sample_page.json                ← minimal raw page for smoke tests (tracked)
+```
+
+`data/` is fully gitignored — it is ephemeral working data regenerated by `pull-notion` / `pull-zotero`. `tests/fixtures/` is tracked and contains only small, hand-crafted test inputs.
 
 ---
 
@@ -167,7 +199,7 @@ schemas/
   domain_packs/       ← pluggable extraction rule sets (education_learning_analytics, ...)
   task_registry.py    ← domain pack loading, task resolution
 services/
-  reading_list_importer.py  ← fixture → canonical pipeline
+  reading_list_importer.py  ← raw page export → canonical pipeline (offline mode)
 cli.py                ← all subcommands (argparse)
 ```
 
@@ -180,9 +212,11 @@ Rate limiting is handled automatically: the Notion connector reads `retry_after`
 ## Testing
 
 ```bash
-pytest -q                          # full suite (271 tests)
+pytest -q                          # full suite (304 tests)
 pytest --cov=notion_zotero -q      # with coverage (CI enforces >= 80%)
 ```
+
+Integration tests (marked `pytest.mark.integration`) require live API credentials or pre-populated `data/pulled/` directories. Run unit tests only with `pytest -q --ignore=tests/integration`.
 
 ---
 
@@ -201,8 +235,8 @@ Set in `.env` (loaded automatically) or as shell environment variables. Use `--d
 
 ## Notes
 
-- `fixtures/canonical_merged.json` is gitignored — regenerate with `merge-canonical`.
-- `data/pulled/` is gitignored — regenerate with `pull-notion` / `pull-zotero`.
-- Raw Notion export snapshots go in `fixtures/reading_list/`; canonical bundles from fixtures in `fixtures/canonical/`.
+- `data/` is gitignored entirely — regenerate with `pull-notion` / `pull-zotero`.
+- `data/raw/notion/` is where raw Notion page exports go for offline `parse-fixtures` use.
+- `tests/fixtures/` is tracked git — it holds curated test data, not live working data.
 - See [docs/cli.md](docs/cli.md) for full subcommand option reference.
 - See [docs/modes.md](docs/modes.md) for detailed workflow guidance.
