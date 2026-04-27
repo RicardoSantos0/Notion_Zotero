@@ -45,10 +45,12 @@ _CANONICAL_FIELD_MAP: dict[str, str] = {
     "database": "database",
     "source database": "database",
     "search database": "database",
+    "platform": "database",
     "quartile": "journal_quartile",
     "journal quartile": "journal_quartile",
     "sjr quartile": "journal_quartile",
     "journal_quartile": "journal_quartile",
+    "article type": "journal_quartile",
 }
 
 
@@ -509,12 +511,17 @@ class NotionReader:
         search_date = _rich_text(search_date_prop) if search_date_prop else None
 
         database_prop = (prop_lower.get("database") or prop_lower.get("source database")
-                         or prop_lower.get("search database") or {})
+                         or prop_lower.get("search database") or prop_lower.get("platform") or {})
         database = _select(database_prop) or _rich_text(database_prop) if database_prop else None
 
         quartile_prop = (prop_lower.get("quartile") or prop_lower.get("journal quartile")
-                         or prop_lower.get("sjr quartile") or prop_lower.get("journal_quartile") or {})
-        journal_quartile = _select(quartile_prop) or _rich_text(quartile_prop) if quartile_prop else None
+                         or prop_lower.get("sjr quartile") or prop_lower.get("journal_quartile")
+                         or prop_lower.get("article type") or {})
+        _jq = _select(quartile_prop) or _rich_text(quartile_prop) if quartile_prop else None
+        if not _jq:
+            _jq_ms = _multi_select(quartile_prop) if quartile_prop else []
+            _jq = _jq_ms[0] if _jq_ms else None
+        journal_quartile = _jq
 
         ref_id = zotero_key or page_id
 

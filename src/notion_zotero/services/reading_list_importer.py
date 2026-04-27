@@ -48,6 +48,9 @@ def prop_value(prop: dict | None):
         return prop.get("number")
     if t == "people":
         return [p.get("name") for p in prop.get("people", [])]
+    if t == "status":
+        s = prop.get("status")
+        return s.get("name") if s else None
     # fallback
     if "rich_text" in prop:
         return "".join(p.get("plain_text", "") for p in prop.get("rich_text", []))
@@ -114,11 +117,26 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
     def _prop(name: str):
         return prop_value(props.get(name)) or prop_value(_props_lower.get(name.lower()))
 
+    _year_raw = _prop("Year") or _prop("Publication Year")
+    _year_int: int | None = None
+    try:
+        _year_int = int(_year_raw) if _year_raw is not None else None
+    except (TypeError, ValueError):
+        pass
+
+    # journal_quartile: Article Type (multi_select) or Quartile/SJR (select/rich_text)
+    _jq_raw = (_prop("Article Type") or _prop("Quartile")
+               or _prop("Journal Quartile") or _prop("SJR Quartile"))
+    _jq: str | None = (_jq_raw[0] if isinstance(_jq_raw, list) and _jq_raw else _jq_raw) or None
+
+    # Status extracted early so it can go into sync_metadata
+    status_raw = prop_value(props.get("Status") or props.get("Status_1"))
+
     ref = Reference(
         id=page_id,
         title=title,
         authors=_coerce_authors(prop_value(props.get("Authors")) or prop_value(props.get("Author"))),
-        year=None,
+        year=_year_int,
         journal=_prop("Journal") or None,
         doi=_prop("DOI") or None,
         url=_prop("URL") or None,
@@ -127,11 +145,11 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
         # SLR provenance fields
         search_terms=_prop("Search Strategy") or _prop("Search Terms") or None,
         search_date=_prop("Date of Retrieval") or _prop("Search Date") or None,
-        database=_prop("Database") or _prop("Source Database") or None,
-        journal_quartile=_prop("Quartile") or _prop("Journal Quartile") or _prop("SJR Quartile") or None,
+        database=_prop("Database") or _prop("Source Database") or _prop("Platform") or None,
+        journal_quartile=_jq,
         provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
         validation_status=ValidationStatus.UNKNOWN,
-        sync_metadata={},
+        sync_metadata={"notion_properties": {"Status": status_raw}} if status_raw else {},
     )
 
     tasks: list[Task] = []
@@ -236,9 +254,7 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
                 sync_metadata={},
             ))
 
-    # WorkflowState is created from the page status field independently of
-    # task table resolution.
-    status_raw = prop_value(props.get("Status") or props.get("Status_1"))
+    # WorkflowState from the status extracted above
     status = map_status(status_raw)
     if status:
         workflow_states.append(WorkflowState(
