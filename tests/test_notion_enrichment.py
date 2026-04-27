@@ -170,14 +170,15 @@ class TestToReferenceWithSchema:
         assert ref.year == 2024
         assert "Smith" in ref.authors[0]
 
-        # Non-canonical fields should be in sync_metadata
+        # Search Strategy is now a canonical field → ref.search_terms
+        assert ref.search_terms == "Systematic"
+        # Non-canonical fields (Status, Learner Population) stay in sync_metadata
         notion_props = ref.sync_metadata.get("notion_properties", {})
         assert "Status" in notion_props
-        assert "Search Strategy" in notion_props
         assert "Learner Population" in notion_props
         assert notion_props["Status"] == "Done"
-        assert notion_props["Search Strategy"] == "Systematic"
         assert notion_props["Learner Population"] == "Higher Education"
+        assert "Search Strategy" not in notion_props
 
     def test_four_extra_props_out_of_five_total(self):
         """One canonical (title) + 4 non-canonical = 4 in notion_properties."""

@@ -39,7 +39,9 @@ def clean_table(
     search_updates = 0
 
     for col in out.columns:
-        if out[col].dtype != object:
+        # pandas 3+ uses StringDtype ('str') for string columns, not 'object'
+        import pandas as pd
+        if not (out[col].dtype == object or pd.api.types.is_string_dtype(out[col])):
             continue
         original = out[col].copy()
 

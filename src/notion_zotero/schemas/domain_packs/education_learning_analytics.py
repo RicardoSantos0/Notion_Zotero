@@ -21,17 +21,17 @@ domain_pack = {
     "tasks": {
         "descriptive_modelling": {
             "name": "Descriptive Modelling",
-            "aliases": ["descriptive", "descriptive modelling", "descriptive analysis"],
+            "aliases": ["descriptive", "descriptive modelling", "descriptive analysis", "desc"],
             "template_id": "descriptive_analysis",
         },
         "performance_prediction": {
             "name": "Performance Prediction",
-            "aliases": ["prediction", "performance prediction", "predictive"],
+            "aliases": ["prediction", "performance prediction", "predictive", "pred"],
             "template_id": "prediction_modeling",
         },
         "recommender_systems": {
             "name": "Recommender Systems",
-            "aliases": ["recommender", "recommendation", "recommender systems"],
+            "aliases": ["recommender", "recommendation", "recommender systems", "rec"],
             "template_id": "recommendation_system",
         },
         "knowledge_tracing": {

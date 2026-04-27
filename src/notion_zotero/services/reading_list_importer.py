@@ -56,6 +56,14 @@ def prop_value(prop: dict | None):
     return None
 
 
+def _coerce_authors(val) -> list:
+    if not val:
+        return []
+    if isinstance(val, list):
+        return [str(a) for a in val if a]
+    return [a.strip() for a in str(val).split(";") if a.strip()]
+
+
 def slugify(s: str | None) -> str:
     return "".join(c if c.isalnum() else "_" for c in (s or "")).strip("_").lower()
 
@@ -100,16 +108,27 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
     active_pack_id: str = active_pack.get("id") or ""
     active_pack_version = active_pack.get("version")
 
+    # Case-insensitive property lookup helper
+    _props_lower = {k.lower(): v for k, v in props.items()}
+
+    def _prop(name: str):
+        return prop_value(props.get(name)) or prop_value(_props_lower.get(name.lower()))
+
     ref = Reference(
         id=page_id,
         title=title,
-        authors=(prop_value(props.get("Authors")) or []),
+        authors=_coerce_authors(prop_value(props.get("Authors")) or prop_value(props.get("Author"))),
         year=None,
-        journal=prop_value(props.get("Journal")) or None,
-        doi=prop_value(props.get("DOI")) or None,
-        url=prop_value(props.get("URL")) or None,
-        zotero_key=prop_value(props.get("Zotero Key")) or None,
-        abstract=None,
+        journal=_prop("Journal") or None,
+        doi=_prop("DOI") or None,
+        url=_prop("URL") or None,
+        zotero_key=_prop("Zotero Key") or _prop("Zotero_Key") or None,
+        abstract=_prop("Abstract") or None,
+        # SLR provenance fields
+        search_terms=_prop("Search Strategy") or _prop("Search Terms") or None,
+        search_date=_prop("Date of Retrieval") or _prop("Search Date") or None,
+        database=_prop("Database") or _prop("Source Database") or None,
+        journal_quartile=_prop("Quartile") or _prop("Journal Quartile") or _prop("SJR Quartile") or None,
         provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
         validation_status=ValidationStatus.UNKNOWN,
         sync_metadata={},

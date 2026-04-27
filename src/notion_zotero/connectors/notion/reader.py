@@ -35,6 +35,20 @@ _CANONICAL_FIELD_MAP: dict[str, str] = {
     "item_type": "item_type",
     "tags": "tags",
     "keywords": "tags",
+    # SLR provenance fields
+    "search strategy": "search_terms",
+    "search terms": "search_terms",
+    "search_terms": "search_terms",
+    "date of retrieval": "search_date",
+    "search date": "search_date",
+    "search_date": "search_date",
+    "database": "database",
+    "source database": "database",
+    "search database": "database",
+    "quartile": "journal_quartile",
+    "journal quartile": "journal_quartile",
+    "sjr quartile": "journal_quartile",
+    "journal_quartile": "journal_quartile",
 }
 
 
@@ -402,7 +416,16 @@ class NotionReader:
             url = canonical.get("url") or None
             zotero_key = canonical.get("zotero_key") or None
             abstract = canonical.get("abstract") or None
-            item_type = canonical.get("item_type") or None
+            # item_type may be a list when the Notion property is multi_select — coerce to str
+            _item_type_raw = canonical.get("item_type")
+            if isinstance(_item_type_raw, list):
+                item_type = _item_type_raw[0] if _item_type_raw else None
+            else:
+                item_type = _item_type_raw or None
+            search_terms = canonical.get("search_terms") or None
+            search_date = canonical.get("search_date") or None
+            database = canonical.get("database") or None
+            journal_quartile = canonical.get("journal_quartile") or None
 
             ref_id = zotero_key or page_id
 
@@ -418,6 +441,10 @@ class NotionReader:
                 abstract=abstract,
                 item_type=item_type,
                 tags=tags,
+                search_terms=search_terms,
+                search_date=search_date,
+                database=database,
+                journal_quartile=journal_quartile,
                 provenance={
                     "source_id": page_id,
                     "source_system": "notion",
@@ -464,10 +491,30 @@ class NotionReader:
         abstract = _rich_text(abstract_prop) if abstract_prop else None
 
         item_type_prop = prop_lower.get("item_type") or prop_lower.get("type") or {}
-        item_type = _select(item_type_prop) or _rich_text(item_type_prop) if item_type_prop else None
+        _it = _select(item_type_prop) if item_type_prop else None
+        if not _it:
+            _it_raw = _multi_select(item_type_prop) if item_type_prop else []
+            _it = _it_raw[0] if _it_raw else _rich_text(item_type_prop) if item_type_prop else None
+        item_type = _it or None
 
         tags_prop = prop_lower.get("tags") or prop_lower.get("keywords") or {}
         tags = _multi_select(tags_prop) if tags_prop else []
+
+        search_terms_prop = (prop_lower.get("search strategy") or prop_lower.get("search terms")
+                             or prop_lower.get("search_terms") or {})
+        search_terms = _rich_text(search_terms_prop) if search_terms_prop else None
+
+        search_date_prop = (prop_lower.get("date of retrieval") or prop_lower.get("search date")
+                            or prop_lower.get("search_date") or {})
+        search_date = _rich_text(search_date_prop) if search_date_prop else None
+
+        database_prop = (prop_lower.get("database") or prop_lower.get("source database")
+                         or prop_lower.get("search database") or {})
+        database = _select(database_prop) or _rich_text(database_prop) if database_prop else None
+
+        quartile_prop = (prop_lower.get("quartile") or prop_lower.get("journal quartile")
+                         or prop_lower.get("sjr quartile") or prop_lower.get("journal_quartile") or {})
+        journal_quartile = _select(quartile_prop) or _rich_text(quartile_prop) if quartile_prop else None
 
         ref_id = zotero_key or page_id
 
@@ -483,6 +530,10 @@ class NotionReader:
             abstract=abstract,
             item_type=item_type,
             tags=tags,
+            search_terms=search_terms,
+            search_date=search_date,
+            database=database,
+            journal_quartile=journal_quartile,
             provenance={
                 "source_id": page_id,
                 "source_system": "notion",

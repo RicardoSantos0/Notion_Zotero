@@ -53,6 +53,11 @@ class Reference(BaseModel):
     abstract: Optional[str] = None
     item_type: Optional[str] = None
     tags: List[str] = Field(default_factory=list)
+    # SLR provenance fields — canonical across all domains
+    search_terms: Optional[str] = None
+    search_date: Optional[str] = None
+    database: Optional[str] = None
+    journal_quartile: Optional[str] = None
     provenance: dict = Field(default_factory=dict)
     validation_status: ValidationStatus = ValidationStatus.UNKNOWN
     sync_metadata: dict = Field(default_factory=dict)

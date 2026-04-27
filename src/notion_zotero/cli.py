@@ -473,7 +473,8 @@ def cmd_pull_notion(args):
     schema: dict | None = None
     if not skip_blocks:
         try:
-            schema = reader.get_database_schema(database_id)
+            fetched = reader.get_database_schema(database_id)
+            schema = fetched if fetched else None  # empty dict → None → legacy mapping path
         except Exception as exc:
             log.warning("Could not fetch database schema: %s -- falling back to hardcoded mapping", exc)
 
@@ -558,6 +559,7 @@ def cmd_pull_notion(args):
                     }
 
             out_file = staging_dir / f"{ref.id}.canonical.json"
+            staging_dir.mkdir(parents=True, exist_ok=True)  # OneDrive may evict the dir mid-pull
             out_file.write_text(json.dumps(bundle, ensure_ascii=False, indent=2), encoding="utf-8")
             saved += 1
             if n % 50 == 0:

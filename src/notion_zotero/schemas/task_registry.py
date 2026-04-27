@@ -26,9 +26,12 @@ def resolve_task_alias(domain_pack: Dict, heading: str | None) -> Optional[str]:
     if not domain_pack or not heading:
         return None
     h = heading.lower()
+    last_word = h.split()[-1] if h.split() else ""
     for tid, meta in domain_pack.get("tasks", {}).items():
         for a in meta.get("aliases", []):
-            if a.lower() in h:
+            al = a.lower()
+            # substring match on full heading OR exact match on last word
+            if al in h or (last_word and al == last_word):
                 return tid
     return None
 
