@@ -19,6 +19,11 @@ models:
       provenance:           {type: "dict",           owner: "system",  required: true}
       validation_status:    {type: "ValidationStatus", owner: "system", required: true}
       sync_metadata:        {type: "dict",           owner: "system",  required: true}
+      # sync_metadata sub-keys (not separate fields — documented here for clarity):
+      # sync_metadata.notion_properties: {Status, Status_1} — review decision flags
+      # sync_metadata.domain_properties: domain-pack-specific Notion properties
+      #   (reading workflow checkboxes, learner population, work nature, etc.)
+      #   Populated by reading_list_importer using domain_pack["notion_properties"] list.
 
   Task:
     fields:

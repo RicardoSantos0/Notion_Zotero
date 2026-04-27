@@ -15,10 +15,23 @@ Canonical representation of a bibliographic item.
 | `doi` | `str \| None` | DOI |
 | `url` | `str \| None` | URL |
 | `zotero_key` | `str \| None` | Zotero item key |
-| `abstract` | `str \| None` | Abstract text |
+| `abstract` | `str \| None` | Abstract text (text only — not checkbox) |
 | `item_type` | `str \| None` | Item type (journal-article, etc.) |
 | `tags` | `list[str]` | Tags / keywords |
+| `search_terms` | `str \| None` | Search strategy string |
+| `search_date` | `str \| None` | Date of retrieval |
+| `database` | `str \| None` | Source database / platform |
+| `journal_quartile` | `str \| None` | Journal quartile or SJR tier |
+| `validation_status` | `ValidationStatus` | Validation state enum |
+| `sync_metadata` | `dict` | Notion sync metadata (see below) |
 | `provenance` | `dict` | Origin metadata |
+
+**`sync_metadata` sub-keys:**
+
+| Key | Description |
+|-----|-------------|
+| `notion_properties` | Workflow status fields (`Status`, `Status_1`) |
+| `domain_properties` | Domain-specific Notion properties extracted via the active domain pack's `notion_properties` list (e.g. reading workflow checkboxes, Learner Population, Work Nature) |
 
 ### `Task`
 A canonical task (analysis dimension) defined by a domain pack.
@@ -103,7 +116,7 @@ Returns `[(task_id, parser), ...]` for the given item dict. `item` must contain 
 ```python
 {
     "id": str,          # unique pack identifier
-    "version": str,     # semantic version string, e.g. "1.0"
+    "version": str,     # semantic version string, e.g. "1.1"
     "name": str,        # human-facing display name
     "tasks": {
         "<task_id>": {
@@ -113,6 +126,8 @@ Returns `[(task_id, parser), ...]` for the given item dict. `item` must contain 
         },
         ...
     },
+    "notion_properties": list[str],   # Notion property names to extract into sync_metadata["domain_properties"]
+    "task_labels": dict[str, str],    # task_id -> short label (used by task_label_fn)
 }
 ```
 
@@ -139,9 +154,52 @@ Keys: `prediction_modeling`, `descriptive_analysis`, `recommendation_system`, `s
 
 ---
 
+## `notion_zotero.analysis`
+
+```python
+load_canonical_records(canonical_dir: str | Path) -> list[dict]
+```
+Load all `*.canonical.json` bundles from a directory.
+
+```python
+build_summary_tables(bundles, task_label_fn=None) -> dict[str, list[dict]]
+```
+Build one list of row-dicts per task label. Always includes `"Reading List"` key. Rows include both `notion_properties` and `domain_properties` spread as named columns.
+
+```python
+build_summary_dataframes(bundles, task_label_fn=None) -> dict[str, pd.DataFrame]
+```
+Same as above, wrapped in `pd.DataFrame`. Requires `pandas`.
+
+```python
+clean_table(df, typo_fixes=None, value_map=None, search_strategy_columns=None) -> tuple[pd.DataFrame, dict]
+```
+Clean a summary DataFrame: normalise typos, apply value maps, standardise search strings.
+
+```python
+run_analysis(canonical_dir, task_label_fn=None, typo_fixes=None, value_map=None, search_strategy_columns=None) -> tuple[raw_dfs, clean_dfs, norm_log]
+```
+Full pipeline: load → summarise → clean.
+
+```python
+is_accepted(bundle: dict) -> bool
+```
+Returns `True` if the bundle's workflow state or Status property contains `"accepted"`. Returns `True` when no status is found (include-by-default). Pandas-free.
+
+```python
+task_label_fn(task_name: str | None) -> str
+```
+Maps a task name to a short display label using the `education_learning_analytics` pack's `task_labels` dict. Falls back to the raw name if no match. Pandas-free.
+
+---
+
 ## CLI
 
 ```
+notion-zotero pull-notion                # pull live Notion DB into canonical bundles
+  --name <subfolder>                     #   target subfolder under data/pulled/notion
+  --database-id <id>                     #   override NOTION_DATABASE_ID from .env
+  --skip-blocks                          #   metadata-only (faster, no tables/blocks)
 notion-zotero list-domain-packs          # list registered domain packs
 notion-zotero list-templates             # list registered extraction templates
 notion-zotero parse-fixtures             # parse reading list fixtures

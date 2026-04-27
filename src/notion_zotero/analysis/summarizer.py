@@ -10,6 +10,30 @@ import json
 from pathlib import Path
 from typing import Any, Callable
 
+# Canonical acceptance values (lower-cased). A status containing "accepted"
+# passes; anything else (including blank) is treated as "include by default".
+_ACCEPTED_SUBSTRING = "accepted"
+
+
+def is_accepted(bundle: dict) -> bool:
+    """Return True if a canonical bundle should be included as an accepted paper.
+
+    Checks ``workflow_states[0].state`` first, then falls back to
+    ``references[0].sync_metadata.notion_properties.Status``.  Returns True
+    when no status information is found (include by default).
+    """
+    ws = bundle.get("workflow_states") or []
+    if ws:
+        status = ws[0].get("state") or ""
+    else:
+        refs = bundle.get("references") or [{}]
+        sm = refs[0].get("sync_metadata") or {}
+        status = sm.get("notion_properties", {}).get("Status") or ""
+
+    if not status:
+        return True
+    return _ACCEPTED_SUBSTRING in str(status).lower()
+
 
 def load_canonical_records(canonical_dir: str | Path) -> list[dict]:
     """Load every ``*.canonical.json`` bundle from *canonical_dir*.
@@ -56,8 +80,10 @@ def build_summary_tables(
         ref: dict[str, Any] = refs[0] if refs else {}
 
         page_id = (bundle.get("provenance") or {}).get("source_id") or ref.get("id") or ""
-        notion_props = (ref.get("sync_metadata") or {}).get("notion_properties") or {}
-        reading_rows.append({**ref, **notion_props, "page_id": page_id})
+        sync_meta = ref.get("sync_metadata") or {}
+        notion_props = sync_meta.get("notion_properties") or {}
+        domain_props = sync_meta.get("domain_properties") or {}
+        reading_rows.append({**ref, **notion_props, **domain_props, "page_id": page_id})
 
         tasks_by_id = {t.get("id"): t.get("name") for t in (bundle.get("tasks") or [])}
         rt_by_id = {rt.get("id"): rt.get("task_id") for rt in (bundle.get("reference_tasks") or [])}
@@ -119,4 +145,5 @@ __all__ = [
     "load_canonical_records",
     "build_summary_tables",
     "build_summary_dataframes",
+    "is_accepted",
 ]

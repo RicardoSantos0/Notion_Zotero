@@ -364,6 +364,8 @@ class NotionReader:
                 return d.get("start") if d else None
             if t == "number":
                 return prop.get("number")
+            if t == "checkbox":
+                return prop.get("checkbox")
             if t == "people":
                 return [p.get("name") for p in prop.get("people", [])]
             # fallback rich_text / title
@@ -420,7 +422,8 @@ class NotionReader:
             doi = canonical.get("doi") or None
             url = canonical.get("url") or None
             zotero_key = canonical.get("zotero_key") or None
-            abstract = canonical.get("abstract") or None
+            _abstract_raw = canonical.get("abstract")
+            abstract = _abstract_raw if isinstance(_abstract_raw, str) else None
             # item_type may be a list when the Notion property is multi_select — coerce to str
             _item_type_raw = canonical.get("item_type")
             if isinstance(_item_type_raw, list):

@@ -46,6 +46,8 @@ def prop_value(prop: dict | None):
         return d.get("start") if d else None
     if t == "number":
         return prop.get("number")
+    if t == "checkbox":
+        return prop.get("checkbox")
     if t == "people":
         return [p.get("name") for p in prop.get("people", [])]
     if t == "status":
@@ -136,6 +138,21 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
         if status_value not in (None, "", [], {}):
             status_values[status_field] = status_value
 
+    # Domain-specific properties declared by the active domain pack.
+    # Stored separately so analysis layers can surface them as named columns.
+    domain_properties: dict[str, Any] = {}
+    for field_name in active_pack.get("notion_properties", []):
+        val = _prop(field_name)
+        if val not in (None, "", [], {}):
+            domain_properties[field_name] = val
+
+    sync_meta: dict[str, Any] = {}
+    if status_values:
+        sync_meta["notion_properties"] = status_values
+    if domain_properties:
+        sync_meta["domain_properties"] = domain_properties
+
+    _abstract_raw = _prop("Abstract")
     ref = Reference(
         id=page_id,
         title=title,
@@ -145,7 +162,7 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
         doi=_prop("DOI") or None,
         url=_prop("URL") or None,
         zotero_key=_prop("Zotero Key") or _prop("Zotero_Key") or None,
-        abstract=_prop("Abstract") or None,
+        abstract=(_abstract_raw or None) if isinstance(_abstract_raw, str) else None,
         # SLR provenance fields
         search_terms=_prop("Search Strategy") or _prop("Search Terms") or None,
         search_date=_prop("Date of Retrieval") or _prop("Search Date") or None,
@@ -153,7 +170,7 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
         journal_quartile=_jq,
         provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
         validation_status=ValidationStatus.UNKNOWN,
-        sync_metadata={"notion_properties": status_values} if status_values else {},
+        sync_metadata=sync_meta,
     )
 
     tasks: list[Task] = []

@@ -38,7 +38,7 @@ def test_list_templates_contains_prediction(capsys):
 
 def test_validate_fixtures_exits_zero_on_valid_dir(tmp_path, capsys):
     bundle = {
-        "provenance": {"domain_pack_id": "education_learning_analytics", "domain_pack_version": "1.0"},
+        "provenance": {"domain_pack_id": "education_learning_analytics", "domain_pack_version": "1.1"},
         "references": [{"id": "p1", "title": "Test Paper"}],
         "tasks": [],
         "reference_tasks": [],
@@ -111,4 +111,4 @@ def test_parse_fixtures_domain_pack_stamps_provenance(tmp_path):
     canon = json.loads((out_dir / "prov-test-001.canonical.json").read_text(encoding="utf-8"))
     assert "provenance" in canon
     assert canon["provenance"]["domain_pack_id"] == "education_learning_analytics"
-    assert canon["provenance"]["domain_pack_version"] == "1.0"
+    assert canon["provenance"]["domain_pack_version"] == "1.1"

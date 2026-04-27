@@ -539,14 +539,16 @@ def cmd_pull_notion(args):
 
                 try:
                     _, bundle = parse_fixture_from_dict(fixture_dict)
-                    # Merge sync_metadata.notion_properties from the schema-enriched ref
-                    # into the bundle reference so extra Notion props are preserved
+                    # Merge sync_metadata sub-dicts from the schema-enriched ref into
+                    # the bundle reference so extra Notion props are preserved.
                     if bundle.get("references"):
-                        notion_props = (ref.sync_metadata or {}).get("notion_properties") or {}
-                        if notion_props:
-                            existing_sm = bundle["references"][0].get("sync_metadata") or {}
-                            existing_sm["notion_properties"] = notion_props
-                            bundle["references"][0]["sync_metadata"] = existing_sm
+                        ref_sm = ref.sync_metadata or {}
+                        existing_sm = bundle["references"][0].get("sync_metadata") or {}
+                        for key in ("notion_properties", "domain_properties"):
+                            val = ref_sm.get(key)
+                            if val:
+                                existing_sm[key] = val
+                        bundle["references"][0]["sync_metadata"] = existing_sm
                 except Exception:
                     # Fallback to minimal bundle on parse error
                     bundle = {

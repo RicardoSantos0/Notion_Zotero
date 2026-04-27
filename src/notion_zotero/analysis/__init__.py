@@ -22,8 +22,12 @@ from notion_zotero.analysis.summarizer import (
     load_canonical_records,
     build_summary_tables,
     build_summary_dataframes,
+    is_accepted,
 )
 from notion_zotero.analysis.cleaner import clean_table
+from notion_zotero.schemas.domain_packs.education_learning_analytics import (
+    task_label_fn,
+)
 from notion_zotero.services.reading_list_importer import parse_fixture
 
 log = logging.getLogger(__name__)
@@ -98,4 +102,6 @@ __all__ = [
     "clean_table",
     "run_analysis",
     "export_database_snapshot",
+    "is_accepted",
+    "task_label_fn",
 ]
