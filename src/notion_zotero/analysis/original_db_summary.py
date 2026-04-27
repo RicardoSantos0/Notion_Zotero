@@ -118,6 +118,32 @@ def _task_label_from_name(task_name: str) -> str:
     return task_name.upper()[:4] if task_name else ""
 
 
+def is_accepted(bundle: dict) -> bool:
+    """Return True if a canonical bundle should be considered 'accepted'.
+
+    Logic mirrors legacy notebook heuristics: prefer the first `workflow_states`
+    entry's `state` when present, otherwise fall back to the first
+    reference's `sync_metadata.notion_properties.Status` field. If no status
+    information is present the function returns True (include by default).
+
+    Status strings are normalised through :data:`GENERIC_VALUE_MAP` prior to
+    checking for the substring "accepted".
+    """
+    ws = bundle.get("workflow_states") or []
+    if ws:
+        status = ws[0].get("state") or ""
+    else:
+        refs = bundle.get("references") or [{}]
+        sm = refs[0].get("sync_metadata") or {}
+        status = sm.get("notion_properties", {}).get("Status") or ""
+
+    if not status:
+        return True
+
+    normalized = GENERIC_VALUE_MAP.get(str(status).lower(), status)
+    return "accepted" in str(normalized).lower()
+
+
 # ---------------------------------------------------------------------------
 # Backwards-compat public API
 # ---------------------------------------------------------------------------
@@ -244,6 +270,7 @@ __all__ = [
     "TASK_ORDER",
     "TYPO_FIXES",
     "GENERIC_VALUE_MAP",
+    "is_accepted",
     "ACRONYM_WORDS",
     "SEARCH_STRATEGY_COLUMNS",
     "load_credentials",
