@@ -62,22 +62,22 @@ def run_analysis(
 
 
 def export_database_snapshot(
-    out: str = "fixtures/canonical_merged.json",
+    out: str = "data/pulled/notion/canonical_merged.json",
     db: Optional[str] = None,
 ) -> None:
-    """Export a database snapshot to *out* by parsing local fixtures.
+    """Export a database snapshot to *out* by parsing local raw exports.
 
     Args:
         out: Output merged canonical JSON file path.
         db:  Unused placeholder for future direct-DB export.
     """
     out_path = Path(out)
-    fixtures_dir = Path("fixtures") / "reading_list"
-    canonical_dir = Path("fixtures") / "canonical"
+    fixtures_dir = Path("data/raw/notion")
+    canonical_dir = Path("data/pulled/notion/learning_analytics_review")
     canonical_dir.mkdir(parents=True, exist_ok=True)
 
     if not fixtures_dir.exists():
-        raise FileNotFoundError(f"Reading list fixtures directory not found: {fixtures_dir}")
+        raise FileNotFoundError(f"Raw Notion exports directory not found: {fixtures_dir}")
 
     bundles: list[dict] = []
     for f in sorted(fixtures_dir.glob("*.json")):

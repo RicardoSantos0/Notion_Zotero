@@ -354,6 +354,9 @@ class NotionReader:
             if t == "select":
                 sel = prop.get("select")
                 return sel.get("name") if sel else None
+            if t == "status":
+                status = prop.get("status")
+                return status.get("name") if status else None
             if t == "url":
                 return prop.get("url")
             if t == "date":

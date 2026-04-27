@@ -66,8 +66,8 @@ def _write_json(obj: Any, out_path: str) -> None:
 
 
 def cmd_merge_canonical(args):
-    in_dir = args.input or "fixtures/canonical"
-    out_path = args.out or "fixtures/canonical_merged.json"
+    in_dir = args.input or "data/pulled/notion/learning_analytics_review"
+    out_path = args.out or "data/pulled/notion/canonical_merged.json"
     bundles = _load_canonical_bundles(in_dir)
     _write_json(bundles, out_path)
     log.info("loaded %d bundles from %s", len(bundles), in_dir)
@@ -104,8 +104,8 @@ def _dedupe_bundles(bundles: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
 
 def cmd_dedupe_canonical(args):
-    in_path = args.input or "fixtures/canonical_merged.json"
-    out_path = args.out or "fixtures/canonical_merged.dedup.json"
+    in_path = args.input or "data/pulled/notion/canonical_merged.json"
+    out_path = args.out or "data/pulled/notion/canonical_merged.dedup.json"
     p = Path(in_path)
     if not p.exists():
         raise FileNotFoundError(f"Input file not found: {in_path}")
@@ -140,7 +140,7 @@ def cmd_list_templates(args):
 
 
 def cmd_validate_fixtures(args):
-    in_dir = Path(args.input or "fixtures/canonical")
+    in_dir = Path(args.input or "data/pulled/notion/learning_analytics_review")
     if not in_dir.exists():
         print(f"Input directory not found: {in_dir}", file=sys.stderr)
         sys.exit(1)
@@ -194,7 +194,7 @@ def cmd_zotero_citation(args):
 def cmd_report_by_year(args):
     from notion_zotero.services.flattener import flatten_bundles
     import polars as pl
-    dfs = flatten_bundles(args.input or "fixtures/canonical")
+    dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
     df = dfs["references"]
     if df.is_empty() or "year" not in df.columns:
         print("No references found.")
@@ -213,7 +213,7 @@ def cmd_report_by_year(args):
 def cmd_report_by_journal(args):
     from notion_zotero.services.flattener import flatten_bundles
     import polars as pl
-    dfs = flatten_bundles(args.input or "fixtures/canonical")
+    dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
     df = dfs["references"]
     if df.is_empty() or "journal" not in df.columns:
         print("No references found.")
@@ -235,7 +235,7 @@ def cmd_report_by_journal(args):
 def cmd_report_doi_coverage(args):
     from notion_zotero.services.flattener import flatten_bundles
     import polars as pl
-    dfs = flatten_bundles(args.input or "fixtures/canonical")
+    dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
     df = dfs["references"]
     if df.is_empty():
         print("No references found.")
@@ -251,7 +251,7 @@ def cmd_report_doi_coverage(args):
 def cmd_report_task_counts(args):
     from notion_zotero.services.flattener import flatten_bundles
     import polars as pl
-    dfs = flatten_bundles(args.input or "fixtures/canonical")
+    dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
     refs = dfs["references"]
     rts = dfs["reference_tasks"]
     exs = dfs["task_extractions"]
@@ -674,7 +674,7 @@ def cmd_status(args):
 
 def cmd_report_provenance(args):
     from notion_zotero.services.flattener import flatten_bundles
-    dfs = flatten_bundles(args.input or "fixtures/canonical")
+    dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
     required = ("source_id", "domain_pack_id", "domain_pack_version")
     totals: dict[str, int] = {}
     complete: dict[str, int] = {}
@@ -709,25 +709,25 @@ def main(argv: Sequence[str] | None = None) -> int:
     sub = parser.add_subparsers(dest="cmd")
 
     e = sub.add_parser("export-snapshot", help="Export a Notion database snapshot to JSON")
-    e.add_argument("--out", default="fixtures/canonical_merged.json")
+    e.add_argument("--out", default="data/pulled/notion/canonical_merged.json")
     e.add_argument("--db", default=None)
     e.set_defaults(func=cmd_export_snapshot)
 
     p = sub.add_parser("parse-fixtures", help="Parse local fixture JSONs into canonical files")
-    p.add_argument("--input", default="fixtures/reading_list")
-    p.add_argument("--out", default="fixtures/canonical")
+    p.add_argument("--input", default="data/raw/notion")
+    p.add_argument("--out", default="data/pulled/notion/learning_analytics_review")
     p.add_argument("--force", action="store_true")
     p.add_argument("--domain-pack", default=None, help="Domain pack ID to apply during parsing")
     p.set_defaults(func=cmd_parse_fixtures)
 
     m = sub.add_parser("merge-canonical", help="Merge per-page canonical JSONs into a single array")
-    m.add_argument("--input", default="fixtures/canonical")
-    m.add_argument("--out", default="fixtures/canonical_merged.json")
+    m.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    m.add_argument("--out", default="data/pulled/notion/canonical_merged.json")
     m.set_defaults(func=cmd_merge_canonical)
 
     d = sub.add_parser("dedupe-canonical", help="Deduplicate a merged canonical JSON by DOI or title+authors")
-    d.add_argument("--input", default="fixtures/canonical_merged.json")
-    d.add_argument("--out", default="fixtures/canonical_merged.dedup.json")
+    d.add_argument("--input", default="data/pulled/notion/canonical_merged.json")
+    d.add_argument("--out", default="data/pulled/notion/canonical_merged.dedup.json")
     d.set_defaults(func=cmd_dedupe_canonical)
 
     z = sub.add_parser("zotero-citation", help="Print a human citation for a Zotero item or canonical bundle")
@@ -741,27 +741,27 @@ def main(argv: Sequence[str] | None = None) -> int:
     lt.set_defaults(func=cmd_list_templates)
 
     vf = sub.add_parser("validate-fixtures", help="Validate canonical fixture JSON files")
-    vf.add_argument("--input", default="fixtures/canonical")
+    vf.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     vf.set_defaults(func=cmd_validate_fixtures)
 
     ry = sub.add_parser("report-by-year", help="Reference counts by publication year")
-    ry.add_argument("--input", default="fixtures/canonical")
+    ry.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     ry.set_defaults(func=cmd_report_by_year)
 
     rj = sub.add_parser("report-by-journal", help="Reference counts by journal/venue")
-    rj.add_argument("--input", default="fixtures/canonical")
+    rj.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     rj.set_defaults(func=cmd_report_by_journal)
 
     rd = sub.add_parser("report-doi-coverage", help="DOI coverage rate across bundles")
-    rd.add_argument("--input", default="fixtures/canonical")
+    rd.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     rd.set_defaults(func=cmd_report_doi_coverage)
 
     rt_p = sub.add_parser("report-task-counts", help="Tasks per reference and extractions per template")
-    rt_p.add_argument("--input", default="fixtures/canonical")
+    rt_p.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     rt_p.set_defaults(func=cmd_report_task_counts)
 
     rp = sub.add_parser("report-provenance", help="Provenance completeness across bundles")
-    rp.add_argument("--input", default="fixtures/canonical")
+    rp.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     rp.set_defaults(func=cmd_report_provenance)
 
     pz = sub.add_parser("pull-zotero", help="Pull items from Zotero and save as canonical bundles")

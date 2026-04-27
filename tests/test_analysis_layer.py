@@ -194,6 +194,58 @@ class TestBuildSummaryTables:
         assert row["source_page_id"] == "r1"
         assert row["col_a"] == "val_a"
 
+    def test_multiple_rows_in_one_extraction_are_all_concatenated(self):
+        from notion_zotero.analysis.summarizer import build_summary_tables
+
+        rows = [
+            {"Task": "Regression", "Metric": "RMSE"},
+            {"Task": "Classification", "Metric": "Accuracy"},
+        ]
+        tables = build_summary_tables([_make_bundle(task_name="prediction", rows=rows)])
+
+        assert len(tables["prediction"]) == 2
+        assert [row["Task"] for row in tables["prediction"]] == [
+            "Regression",
+            "Classification",
+        ]
+
+    def test_multiple_task_extractions_are_split_by_task_and_preserve_rows(self):
+        from notion_zotero.analysis.summarizer import build_summary_tables
+
+        bundle = {
+            "provenance": {"source_id": "paper-1"},
+            "references": [{"id": "paper-1", "title": "Multi Task Paper"}],
+            "tasks": [
+                {"id": "pred", "name": "performance_prediction"},
+                {"id": "desc", "name": "descriptive_modelling"},
+            ],
+            "reference_tasks": [
+                {"id": "rt-pred", "task_id": "pred"},
+                {"id": "rt-desc", "task_id": "desc"},
+            ],
+            "task_extractions": [
+                {
+                    "reference_task_id": "rt-pred",
+                    "schema_name": "prediction_modeling",
+                    "extracted": [{"Task": "Regression"}],
+                },
+                {
+                    "reference_task_id": "rt-desc",
+                    "schema_name": "descriptive_analysis",
+                    "extracted": [{"Task": "Clustering"}, {"Task": "Profiling"}],
+                },
+            ],
+        }
+
+        tables = build_summary_tables([bundle])
+
+        assert len(tables["performance_prediction"]) == 1
+        assert len(tables["descriptive_modelling"]) == 2
+        assert {row["Task"] for row in tables["descriptive_modelling"]} == {
+            "Clustering",
+            "Profiling",
+        }
+
     def test_load_canonical_records_empty_dir(self, tmp_path):
         from notion_zotero.analysis.summarizer import load_canonical_records
         assert load_canonical_records(tmp_path) == []
@@ -301,7 +353,7 @@ class TestAnalysisInit:
     def test_export_database_snapshot_writes_file(self, tmp_path, monkeypatch):
         from notion_zotero.analysis import export_database_snapshot
         monkeypatch.chdir(tmp_path)
-        (tmp_path / "fixtures" / "reading_list").mkdir(parents=True)
+        (tmp_path / "data" / "raw" / "notion").mkdir(parents=True)
         out = tmp_path / "out.json"
         export_database_snapshot(str(out))
         assert out.exists()

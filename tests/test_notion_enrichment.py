@@ -50,6 +50,10 @@ def _make_full_page(page_id: str = "page-full-001"):
                 "type": "select",
                 "select": {"name": "Done"},
             },
+            "Status_1": {
+                "type": "status",
+                "status": {"name": "Accepted For Performance Prediction Task"},
+            },
             "Search Strategy": {
                 "type": "rich_text",
                 "rich_text": [{"plain_text": "Systematic"}],
@@ -159,6 +163,7 @@ class TestToReferenceWithSchema:
             "Authors": "rich_text",
             "Year": "number",
             "Status": "select",
+            "Status_1": "status",
             "Search Strategy": "rich_text",
             "Learner Population": "rich_text",
         }
@@ -175,8 +180,10 @@ class TestToReferenceWithSchema:
         # Non-canonical fields (Status, Learner Population) stay in sync_metadata
         notion_props = ref.sync_metadata.get("notion_properties", {})
         assert "Status" in notion_props
+        assert "Status_1" in notion_props
         assert "Learner Population" in notion_props
         assert notion_props["Status"] == "Done"
+        assert notion_props["Status_1"] == "Accepted For Performance Prediction Task"
         assert notion_props["Learner Population"] == "Higher Education"
         assert "Search Strategy" not in notion_props
 
@@ -440,6 +447,38 @@ class TestParseFixtureFromDict:
         # If the status maps to a known workflow state, we should get one
         # (depends on map_status -- at minimum the bundle key exists)
         assert "workflow_states" in bundle
+
+    def test_status_and_status_1_are_both_preserved(self):
+        from notion_zotero.services.reading_list_importer import parse_fixture_from_dict
+
+        fixture = {
+            "page_id": "ws-test-002",
+            "title": "Two Status Test",
+            "properties": {
+                "Status": {
+                    "type": "status",
+                    "status": {"name": "Accepted for Descriptive Modelling"},
+                },
+                "Status_1": {
+                    "type": "status",
+                    "status": {"name": "Accepted For Performance Prediction Task"},
+                },
+            },
+            "tables": [],
+            "blocks": [],
+        }
+
+        _, bundle = parse_fixture_from_dict(fixture)
+
+        notion_props = bundle["references"][0]["sync_metadata"]["notion_properties"]
+        assert notion_props["Status"] == "Accepted for Descriptive Modelling"
+        assert notion_props["Status_1"] == "Accepted For Performance Prediction Task"
+        workflow_by_field = {
+            state["source_field"]: state["state"]
+            for state in bundle["workflow_states"]
+        }
+        assert workflow_by_field["Status"] == "accepted for descriptive modelling"
+        assert workflow_by_field["Status_1"] == "accepted for performance prediction task"
 
     def test_text_blocks_become_annotations(self):
         from notion_zotero.services.reading_list_importer import parse_fixture_from_dict

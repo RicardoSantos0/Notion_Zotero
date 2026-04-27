@@ -167,8 +167,8 @@ def standard_clean_table(
 
 def run_analysis(
     use_notion_api: bool = False,
-    fixtures_dir: str | Path = "fixtures/reading_list",
-    canonical_dir: str | Path = "fixtures/canonical",
+    fixtures_dir: str | Path = "data/raw/notion",
+    canonical_dir: str | Path = "data/pulled/notion/learning_analytics_review",
     parse_fixtures: bool = True,
 ) -> tuple[dict[str, pd.DataFrame], dict[str, pd.DataFrame], pd.DataFrame]:
     """High-level orchestration used by the legacy notebook.

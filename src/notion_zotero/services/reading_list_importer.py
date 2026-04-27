@@ -129,8 +129,12 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
                or _prop("Journal Quartile") or _prop("SJR Quartile"))
     _jq: str | None = (_jq_raw[0] if isinstance(_jq_raw, list) and _jq_raw else _jq_raw) or None
 
-    # Status extracted early so it can go into sync_metadata
-    status_raw = prop_value(props.get("Status") or props.get("Status_1"))
+    # Status fields may encode separate task decisions; keep every signal.
+    status_values: dict[str, Any] = {}
+    for status_field in ("Status", "Status_1"):
+        status_value = _prop(status_field)
+        if status_value not in (None, "", [], {}):
+            status_values[status_field] = status_value
 
     ref = Reference(
         id=page_id,
@@ -149,7 +153,7 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
         journal_quartile=_jq,
         provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
         validation_status=ValidationStatus.UNKNOWN,
-        sync_metadata={"notion_properties": {"Status": status_raw}} if status_raw else {},
+        sync_metadata={"notion_properties": status_values} if status_values else {},
     )
 
     tasks: list[Task] = []
@@ -254,17 +258,19 @@ def _parse_fixture_dict(d: dict, domain_pack_id: str | None = None):
                 sync_metadata={},
             ))
 
-    # WorkflowState from the status extracted above
-    status = map_status(status_raw)
-    if status:
-        workflow_states.append(WorkflowState(
-            id=deterministic_short_id("ws", page_id, status),
-            reference_id=ref.id,
-            state=status,
-            provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
-            validation_status=ValidationStatus.UNKNOWN,
-            sync_metadata={},
-        ))
+    # WorkflowState from every status field extracted above.
+    for source_field, status_raw in status_values.items():
+        status = map_status(status_raw)
+        if status:
+            workflow_states.append(WorkflowState(
+                id=deterministic_short_id("ws", page_id, source_field, status),
+                reference_id=ref.id,
+                state=status,
+                source_field=source_field,
+                provenance=_build_provenance(page_id, active_pack_id, active_pack_version),
+                validation_status=ValidationStatus.UNKNOWN,
+                sync_metadata={},
+            ))
 
     def _dump(obj):
         if hasattr(obj, "model_dump"):
@@ -307,8 +313,8 @@ def parse_fixture_from_dict(d: dict, domain_pack_id: str | None = None):
 
 def main():
     p = argparse.ArgumentParser()
-    p.add_argument("--input", default="fixtures/reading_list")
-    p.add_argument("--out", default="fixtures/canonical")
+    p.add_argument("--input", default="data/raw/notion")
+    p.add_argument("--out", default="data/pulled/notion/learning_analytics_review")
     p.add_argument("--force", action="store_true", help="overwrite existing canonical files even if content unchanged")
     p.add_argument("--domain-pack", default=None, help="domain pack ID to use for task resolution")
     args = p.parse_args()

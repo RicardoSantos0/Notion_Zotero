@@ -12,8 +12,18 @@ from notion_zotero import cli
 
 
 def test_merge_canonical_smoke(tmp_path):
+    canonical_dir = tmp_path / "canonical"
+    canonical_dir.mkdir()
+    sample = {
+        "references": [{"id": "p1", "title": "Sample"}],
+        "tasks": [], "reference_tasks": [], "task_extractions": [],
+        "annotations": [], "workflow_states": [],
+    }
+    (canonical_dir / "p1.canonical.json").write_text(
+        json.dumps(sample, ensure_ascii=False), encoding="utf-8"
+    )
     out = tmp_path / "merged.json"
-    rc = cli.main(["merge-canonical", "--input", "fixtures/canonical", "--out", str(out)])
+    rc = cli.main(["merge-canonical", "--input", str(canonical_dir), "--out", str(out)])
     assert rc == 0
     assert out.exists()
     data = json.loads(out.read_text(encoding="utf-8"))

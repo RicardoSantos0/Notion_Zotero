@@ -152,7 +152,7 @@ def main():
     p = argparse.ArgumentParser()
     p.add_argument("--database-id")
     p.add_argument("--page-id")
-    p.add_argument("--out", default="fixtures/reading_list")
+    p.add_argument("--out", default="data/raw/notion")
     args = p.parse_args()
     token = os.getenv("NOTION_TOKEN") or os.getenv("NOTION_API_KEY") or os.getenv("NOTION_INTEGRATION_TOKEN")
     if not token:
