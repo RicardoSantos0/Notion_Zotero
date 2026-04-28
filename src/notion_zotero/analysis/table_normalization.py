@@ -195,9 +195,17 @@ def extract_canonical_terms(
 
         for canonical, patterns in alias_patterns.items():
             for pattern in patterns:
-                if re.search(pattern, key, flags=re.IGNORECASE):
-                    matches.append(canonical)
-                    break
+                try:
+                    # Try matching against the normalized key first, then the raw token as a fallback.
+                    if re.search(pattern, key, flags=re.IGNORECASE) or re.search(pattern, token, flags=re.IGNORECASE):
+                        matches.append(canonical)
+                        break
+                except re.error:
+                    # If the pattern isn't a valid/compatible regex for the normalized key,
+                    # fall back to a simple case-insensitive substring check on both forms.
+                    if pattern.lower() in key or pattern.lower() in token.lower():
+                        matches.append(canonical)
+                        break
 
         if matches:
             for canonical in matches:

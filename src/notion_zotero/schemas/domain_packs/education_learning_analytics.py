@@ -86,6 +86,24 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'timestamps',
         r'course records',
         r'Learning resource/content interactions',
+        r'CourseKata online textbook trace data',
+        r'ITS logs',
+        r'Mouse and Keyboard clicks',
+        r'Learner-Activity Record',
+        r"resource view",
+        r"page view",
+        r"video visit",
+        r"video view",
+        r"lesson",
+        r"learning resource",
+        r"content access",
+        r"reading activity",
+        r'Engagament Status',
+        r'Learner-word session traces',
+        r'Video Interactions',
+        r'Video-Interactions',
+        r'Code Traces',
+
     ],
 
     "MOOC platform logs": [
@@ -94,6 +112,8 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"edx",
         r"coursera",
         r"open edx",
+        r'MoocRadar',
+        r'Tomplay',
     ],
 
     "Student demographics/characteristics": [
@@ -107,9 +127,19 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"age",
         r"first generation",
         r"6. Personal/ Family Aspects",
-        r'5. Job Alternative/ Career',
         r'Demographics',
         r'demographic data in enhanced versions',
+        r"personal\s*family",
+        r'LearnerProfile',
+        r'Demographic Information',
+        r'3. Financial Aspects',
+        r'Demograhic Data',
+        r'Vacation Information',
+        r'Socio-Economic Data',
+        r'Student and Family characteristics',
+        r'Socio-Demographic Variables',
+        r'Student Demograohics',
+
     ],
 
     "Academic background records": [
@@ -118,7 +148,6 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"previous academic",
         r"entry qualification",
         r"admission",
-        r"specialization",
         r"major",
         r'Academic Records',
         r'Academic Records in University',
@@ -127,6 +156,20 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Academic History',
         r'Acdemic Background',
         r'Academic Spreadsheets',
+        r'Highschool History and Characteristics',
+        r'University student records',
+        r'Pre-University Variables',
+        r'School Characteristics', 
+    ],
+
+    "Professional background records": [
+        r"Curriculum PDFs",
+        r"Professional background",
+        r"work experience",
+        r"employment history",
+        r"job history",
+        r'5. Job Alternative/ Career',
+        r"job alternative",
     ],
 
     "Assessment/performance records": [
@@ -144,6 +187,10 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"performance",
         r"learner grade",
         r"student grade",
+        r'Learner Results',
+        r'Student Reports',
+        r'Number of Credits Completed in First Year',
+
     ],
 
     "Administrative/SIS records": [
@@ -158,6 +205,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Institutuional Data',
         r'Institutional Data',
         r'Enollment Data',
+        r'MicroOERProfile',
+        r'Student Infornation System',
+
     ],
 
     "Forum/discussion data": [
@@ -182,6 +232,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"problem attempt",
         r"attempt data",
         r"option selected",
+        r'In-Question activities',  
     ],
 
     "Question/Answer Sequences": [
@@ -190,7 +241,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Sequence of Answers',
         r'Sequences of Answers',
         r'ITS answers',
-        r'Exercise Sequence'
+        r'Exercise Sequence',
+        r'Question Sequences',
+
     ],
 
     "Learning Gains": [
@@ -198,8 +251,11 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Learning Gain',
         r'Learning Improvement',
         r'Pre-Test',
-    ],
+        r'Knowledge Topics',
+        r'Math',
+        r'Transfer Test',
 
+    ],
 
     "Exercise/question/Assignment metadata": [
         r'Question Text',
@@ -215,18 +271,13 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"question metadata",
         r'Answers',
         r'177',
+        r'Difficulty',
+        r'1',
+        r'Exercise Sentences',
+        r'Question Sentences',
+        r'Question Attributes',
+        r'Question Attribtutes',
 
-    ],
-
-    "Learning resource/content interactions": [
-        r"resource view",
-        r"page view",
-        r"video visit",
-        r"video view",
-        r"lesson",
-        r"learning resource",
-        r"content access",
-        r"reading activity",
     ],
 
     "Course/content metadata": [
@@ -235,7 +286,25 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"course metadata",
         r"course description",
         r"lesson description",
-        r'Course Information'
+        r'Course Information',
+        r'chapter summaries',
+        r'Course Semantic Information',
+        r'Course and professor Metadata',
+        r'Course Learning Outcomes',
+        r'Course Descriptors',
+        r'PLO Description',
+        r'Learning Objects',
+        r'e-Textbook',
+        r'Module presentation',
+        r'course2vec embeddings',
+
+    ],
+
+    "In-Class Behavior": [
+        r"classroom",
+        r"attendance",
+        r"Attendance Records",
+        r'Conversational transcripts',
 
     ],
 
@@ -246,6 +315,10 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"knowledge component tagging",
         r'Knowledge Concepts',
         r'topic taxonom',
+        r'Course Pre-Requisites embeddings',
+        r'Association',
+        r'Pre-requisite Concept Mapping',
+        r'concept/outcome mappings',
 
     ],
 
@@ -253,20 +326,32 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Code Submissions',
         r'Assignments',
         r'Programming submissions',
+        r'Assignment submissions',
+        r'Submission Records',
+        r'Submissions',
+        r'Term Paper Proposal',
 
     ],
 
     "Survey data": [
         r"survey",
+        r'– Student DNU feedback logs',
+
     ],
 
-    "Questionnaire data": [
+    "Questionnaire/ Interview data": [
         r"questionnaire",
         r"self report",
         r"self reported",
         r"motivation",
         r"engagement scale",
         r'MSLQ',
+        r'Interviews',
+        r'Preferences',
+        r'Perfect Solution for each task',
+        r'4. Study Conditions',
+        r'Contextual Information',
+        r'– Student reflection texts (2 prompts per week)',
     ],
 
     "External/Public datasets": [
@@ -282,7 +367,77 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"public dataset",
         r"benchmark dataset",
         r'Algebra2005',
-        r'ASSIST2009'
+        r'ASSIST2009',
+        r'Eedi',
+    ],
+
+    "Wearable Devices/ Sensors": [
+        r"eye tracking",
+        r"wearable",
+        r"sensor",
+        r"physiological",
+        r"biometric",
+        r'Eye-Tracking Data',
+        r'Eye-Tracking',
+        r'Eye-Tracker and Facial Expression',
+        r'NIPS34',
+        r'Observational Instrutments',
+        r'Peripheral Data',
+        r'Headset',
+        r'Think-Aloud records',
+    ],
+    
+    "In-Campus Behavioral Data": [
+        r'In-Campus Behavioral Data',
+        r'Library Visits',
+        r'Campus Facility Usage',
+        r'On-Campus Event Attendance',
+        r'Library',
+        r'Library Access Control'
+        r'Consumption Data',
+        r'Digital Card interactions with Campus Infrastructure',
+        r'Once-Card Consumption',
+    ],
+
+    "Social Data/ Networks": [
+        r"social network",
+        r"social data",
+        r"peer interaction",
+        r"collaboration",
+        r"social relationship",
+        r'Peer Interactions',
+        r'Social Networks',
+        r'Collaborative Learning Data',
+        r'Social tags',
+        r'Social Networks',
+    ],
+
+    "External Websites/Apps usage": [
+        r'Websites/App usage data',
+        r'Web Browsing',
+        r'GitLab commits',
+        r'GitLab issues',
+        r'Application data',
+        r'Gateway Logins',
+        r'Learning Tools',
+        r'- Wikipedia Articles',
+    ],
+
+    "Instructor Behavior/Interventions": [
+        r'Instructor Behavior/Interventions',
+        r'Instructor Interventions',
+        r'Feedback from Instructors',
+        r'Course Instructor Behavior',
+    ],
+
+    "Others": [
+        r"other",
+        r"miscellaneous",
+        r"various",
+        r"multiple",
+        r"mixed",
+        r'There is no representation of the users. Instead it is solely based on the content provided.',
+        r'Available Time',
     ],
 }
 
