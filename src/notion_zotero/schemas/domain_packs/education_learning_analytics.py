@@ -103,7 +103,12 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Video Interactions',
         r'Video-Interactions',
         r'Code Traces',
-
+        r'Video',
+        r'interaction logs',
+        r'interaction records',
+        r'learning duration',
+        r'platform activity',
+        r'participation logs'
     ],
 
     "MOOC platform logs": [
@@ -114,6 +119,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"open edx",
         r'MoocRadar',
         r'Tomplay',
+        r'Project CodeNet',
     ],
 
     "Student demographics/characteristics": [
@@ -159,7 +165,10 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Highschool History and Characteristics',
         r'University student records',
         r'Pre-University Variables',
-        r'School Characteristics', 
+        r'School Characteristics',
+        r'Student learning history data',
+        r'Student’s personal course history',
+
     ],
 
     "Professional background records": [
@@ -190,6 +199,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Learner Results',
         r'Student Reports',
         r'Number of Credits Completed in First Year',
+        r'student outcomes',
 
     ],
 
@@ -232,7 +242,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"problem attempt",
         r"attempt data",
         r"option selected",
-        r'In-Question activities',  
+        r'In-Question activities',
+        r'attempts',
+        r'Intermediate learner solutions in the poroblem-solving process',
     ],
 
     "Question/Answer Sequences": [
@@ -243,7 +255,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'ITS answers',
         r'Exercise Sequence',
         r'Question Sequences',
-
+        r'Time between exercises',
     ],
 
     "Learning Gains": [
@@ -254,6 +266,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Knowledge Topics',
         r'Math',
         r'Transfer Test',
+        r'errors',
 
     ],
 
@@ -297,6 +310,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'e-Textbook',
         r'Module presentation',
         r'course2vec embeddings',
+        r'curriculum and course-outcome structure',
+        r'item–outcome alignment mappings',
+        r'categories)',
 
     ],
 
@@ -319,7 +335,8 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Association',
         r'Pre-requisite Concept Mapping',
         r'concept/outcome mappings',
-
+        r'SQL course data',
+        r'knowledge-point graph',
     ],
 
     "Project/Code Assignments": [
@@ -352,6 +369,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'4. Study Conditions',
         r'Contextual Information',
         r'– Student reflection texts (2 prompts per week)',
+        r'mental effort',
+        r'psychological stress ratings on 5-point Likert scales)',
+
     ],
 
     "External/Public datasets": [
@@ -393,10 +413,11 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Campus Facility Usage',
         r'On-Campus Event Attendance',
         r'Library',
-        r'Library Access Control'
+        r'Library Access Control',
         r'Consumption Data',
         r'Digital Card interactions with Campus Infrastructure',
         r'Once-Card Consumption',
+        r'Transaction Data',
     ],
 
     "Social Data/ Networks": [
@@ -421,6 +442,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Gateway Logins',
         r'Learning Tools',
         r'- Wikipedia Articles',
+        r'Cellphone Use Time',
+        r'– External APIs (Wikipedia + YouTube)',
+        r'Publications on Social Media',
     ],
 
     "Instructor Behavior/Interventions": [
@@ -428,6 +452,8 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Instructor Interventions',
         r'Feedback from Instructors',
         r'Course Instructor Behavior',
+        r'instructor-defined attainment rules',
+        r'Professor',
     ],
 
     "Others": [
@@ -438,6 +464,10 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"mixed",
         r'There is no representation of the users. Instead it is solely based on the content provided.',
         r'Available Time',
+        r'expert suggestions for LO initialization',
+        r'– Historical dataset of prior students’ “challenges” and “solutions”',
+        r'Multi-Source Writiing Session',
+
     ],
 }
 

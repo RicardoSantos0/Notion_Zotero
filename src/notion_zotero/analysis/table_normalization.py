@@ -180,6 +180,44 @@ def extract_canonical_terms(
             raw_token, value, matched
     """
     alias_patterns = alias_patterns or {}
+
+    # Pre-compile two pattern forms for each alias:
+    #  - a "normalized" regex built from the literal normalized pattern (aimed at
+    #    matching the output of ``normalize_token_key``), and
+    #  - the original/raw regex compiled as provided by the domain pack
+    # The normalized form makes domain-pack patterns resilient to punctuation,
+    # casing and spacing. The raw form is kept as a fallback.
+    prepared_patterns: dict[str, list[tuple[re.Pattern | None, re.Pattern | None, str]]] = {}
+    for canonical, patterns in alias_patterns.items():
+        compiled_list: list[tuple[re.Pattern | None, re.Pattern | None, str]] = []
+        for pattern in patterns:
+            norm_compiled = None
+            raw_compiled = None
+
+            # Build a normalized regex from the literal normalized form of the
+            # pattern string. This is intentionally simple: we treat the
+            # normalized literal as words and allow flexible whitespace between
+            # them when matching normalized token keys.
+            try:
+                norm_literal = normalize_token_key(pattern)
+                if norm_literal:
+                    parts = [re.escape(p) for p in norm_literal.split()]
+                    if parts:
+                        norm_regex = r"\b" + r"\s+".join(parts) + r"\b"
+                        norm_compiled = re.compile(norm_regex, flags=re.IGNORECASE)
+            except Exception:
+                norm_compiled = None
+
+            # Compile the original/raw pattern as provided by the domain pack.
+            try:
+                raw_compiled = re.compile(pattern, flags=re.IGNORECASE)
+            except re.error:
+                raw_compiled = None
+
+            compiled_list.append((norm_compiled, raw_compiled, pattern))
+
+        prepared_patterns[canonical] = compiled_list
+
     tokens = parse_multivalue_cell(
         value,
         split_pattern=split_pattern,
@@ -193,19 +231,34 @@ def extract_canonical_terms(
         key = normalize_token_key(token)
         matches: list[str] = []
 
-        for canonical, patterns in alias_patterns.items():
-            for pattern in patterns:
+        for canonical, compiled_list in prepared_patterns.items():
+            matched_this_canonical = False
+            for norm_compiled, raw_compiled, pattern_str in compiled_list:
                 try:
-                    # Try matching against the normalized key first, then the raw token as a fallback.
-                    if re.search(pattern, key, flags=re.IGNORECASE) or re.search(pattern, token, flags=re.IGNORECASE):
+                    # Prefer the normalized-pattern match against the normalized
+                    # token key. Only if that fails do we try the original/raw
+                    # regex against the raw token value.
+                    if norm_compiled is not None and norm_compiled.search(key):
                         matches.append(canonical)
+                        matched_this_canonical = True
+                        break
+
+                    if raw_compiled is not None and raw_compiled.search(token):
+                        matches.append(canonical)
+                        matched_this_canonical = True
                         break
                 except re.error:
-                    # If the pattern isn't a valid/compatible regex for the normalized key,
-                    # fall back to a simple case-insensitive substring check on both forms.
-                    if pattern.lower() in key or pattern.lower() in token.lower():
+                    # As a last-resort safety net, fall back to case-insensitive
+                    # substring checks on both normalized key and raw token.
+                    if pattern_str.lower() in key or pattern_str.lower() in token.lower():
                         matches.append(canonical)
+                        matched_this_canonical = True
                         break
+
+            if matched_this_canonical:
+                # Skip evaluating additional patterns for this canonical label
+                # once we've found a match.
+                continue
 
         if matches:
             for canonical in matches:
