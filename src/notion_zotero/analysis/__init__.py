@@ -30,6 +30,15 @@ from notion_zotero.schemas.domain_packs.education_learning_analytics import (
 )
 from notion_zotero.services.reading_list_importer import parse_fixture
 
+from notion_zotero.analysis.table_normalization import (
+    normalize_token_key,
+    parse_multivalue_cell,
+    extract_canonical_terms,
+    detect_column,
+    normalize_task_tables,
+    build_task_value_count_table,
+)
+
 log = logging.getLogger(__name__)
 
 
@@ -104,4 +113,11 @@ __all__ = [
     "export_database_snapshot",
     "is_accepted",
     "task_label_fn",
+    "normalize_token_key",
+    "parse_multivalue_cell",
+    "extract_canonical_terms",
+    "detect_column",
+    "normalize_task_tables",
+    "build_task_value_count_table",
 ]
+
