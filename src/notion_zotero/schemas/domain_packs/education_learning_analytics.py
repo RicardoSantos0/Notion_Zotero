@@ -69,7 +69,7 @@ DATA_SOURCE_COLUMN_CANDIDATES: list[str] = [
 # Keep this map deliberately conservative. Anything not matched will appear
 # in the audit table and can be added later.
 DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
-    "LMS/VLE logs": [
+    "LMS/VLE/MOOC logs": [
         r"\blms\b",
         r"\bvle\b",
         r"learning management system",
@@ -108,10 +108,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'interaction records',
         r'learning duration',
         r'platform activity',
-        r'participation logs'
-    ],
-
-    "MOOC platform logs": [
+        r'participation logs',
         r"\bmooc\b",
         r"massive open online course",
         r"edx",
@@ -120,6 +117,20 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'MoocRadar',
         r'Tomplay',
         r'Project CodeNet',
+        r"assistments",
+        r'ASSIST17',
+        r'ASSIST09',
+        r'ASSIST12', 
+        r"ednet",
+        r"junyi",
+        r"xes",
+        r"open university learning analytics dataset",
+        r"\boulad\b",
+        r"public dataset",
+        r"benchmark dataset",
+        r'Algebra2005',
+        r'ASSIST2009',
+        r'Eedi',
     ],
 
     "Student demographics/characteristics": [
@@ -245,6 +256,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'In-Question activities',
         r'attempts',
         r'Intermediate learner solutions in the poroblem-solving process',
+        r'question/problem logs',
     ],
 
     "Question/Answer Sequences": [
@@ -267,7 +279,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Math',
         r'Transfer Test',
         r'errors',
-
+        r'course progress',
     ],
 
     "Exercise/question/Assignment metadata": [
@@ -290,6 +302,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Question Sentences',
         r'Question Attributes',
         r'Question Attribtutes',
+        r'Question Test',
 
     ],
 
@@ -313,7 +326,8 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'curriculum and course-outcome structure',
         r'item–outcome alignment mappings',
         r'categories)',
-
+        r'– Lecture slides (concept text',
+        r'learning items',
     ],
 
     "In-Class Behavior": [
@@ -337,6 +351,9 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'concept/outcome mappings',
         r'SQL course data',
         r'knowledge-point graph',
+        r'skill labels',
+        r'outcome tree',
+        
     ],
 
     "Project/Code Assignments": [
@@ -347,7 +364,6 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Submission Records',
         r'Submissions',
         r'Term Paper Proposal',
-
     ],
 
     "Survey data": [
@@ -371,24 +387,7 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'– Student reflection texts (2 prompts per week)',
         r'mental effort',
         r'psychological stress ratings on 5-point Likert scales)',
-
-    ],
-
-    "External/Public datasets": [
-        r"assistments",
-        r'ASSIST17',
-        r'ASSIST09',
-        r'ASSIST12', 
-        r"ednet",
-        r"junyi",
-        r"xes",
-        r"open university learning analytics dataset",
-        r"\boulad\b",
-        r"public dataset",
-        r"benchmark dataset",
-        r'Algebra2005',
-        r'ASSIST2009',
-        r'Eedi',
+        r'Student Reflection',
     ],
 
     "Wearable Devices/ Sensors": [
@@ -418,9 +417,6 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'Digital Card interactions with Campus Infrastructure',
         r'Once-Card Consumption',
         r'Transaction Data',
-    ],
-
-    "Social Data/ Networks": [
         r"social network",
         r"social data",
         r"peer interaction",
@@ -467,7 +463,8 @@ DATA_SOURCE_ALIAS_PATTERNS: dict[str, list[str]] = {
         r'expert suggestions for LO initialization',
         r'– Historical dataset of prior students’ “challenges” and “solutions”',
         r'Multi-Source Writiing Session',
-
+        r'chatbot queries',
+        r'extracted keyphrases)',
     ],
 }
 
@@ -488,6 +485,226 @@ TASK_DISPLAY_LABELS: dict[str, str] = {
     "KT": "KT",
     "REC": "ERS",
     "ERS": "ERS",
+}
+
+#------------------------------/------------------------------/------------------------------/
+# Paper Summary Table Mappings
+#------------------------------/------------------------------/------------------------------/
+# These vocabularies support paper-facing task summary tables. They deliberately
+# stay conservative: raw extraction values are preserved by the analysis layer
+# and unmatched values are surfaced in audit output.
+
+PAPER_TASK_TABLES: dict[str, str] = {
+    "PRED": "PRED",
+    "DESC": "DESC",
+    "KT": "KT",
+    "REC": "ERS",
+}
+
+PAPER_TASK_ORDER: list[str] = ["PRED", "DESC", "KT", "ERS"]
+
+PAPER_SUMMARY_MISSING_VALUES: set[str] = {
+    "",
+    "None",
+    "N/A",
+    "NA",
+    "N\\A",
+    "Not Applicable",
+    "None Specified",
+    "Not Specified",
+    "-",
+}
+
+CONTEXT_COLUMN_CANDIDATES: list[str] = ["Context"]
+CONTEXT_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Higher Education": [
+        r"higher education",
+        r"higher edfucation",
+        r"higherr education",
+        r"higher education students",
+        r"undergraduate course",
+        r"social networks in higher education",
+        r"srl in undergraduate students",
+    ],
+    "MOOC": [
+        r"\bmooc\b",
+        r"massive open online course",
+    ],
+    "Intelligent Tutoring System": [
+        r"intelligent tutoring system",
+        r"intelligent tutoring systems",
+        r"intellingent tutoring system",
+        r"inteligent tutoring system",
+        r"\bits\b",
+    ],
+    "K-12": [
+        r"\bk 12\b",
+        r"\bk-12\b",
+    ],
+    "Interactive Learning Platform": [
+        r"interactive content platform",
+        r"subscription based platform",
+        r"e learning",
+    ],
+    "Educational Recommender Systems Guidelines": [
+        r"guidelines for educational recommender systems",
+    ],
+}
+
+TEACHING_METHOD_COLUMN_CANDIDATES: list[str] = ["Teaching Method"]
+TEACHING_METHOD_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "E-Learning": [
+        r"e learning",
+        r"elearning",
+        r"online learning",
+        r"mobile e learning",
+        r"\bmoocs?\b",
+    ],
+    "Blended Learning": [
+        r"blended learning",
+        r"blended learning and mooc",
+        r"\bb learning\b",
+        r"face to face learning with online forum",
+    ],
+    "Face-to-Face Learning": [
+        r"face to face learning",
+        r"face to face education",
+    ],
+    "Problem-Based Learning": [
+        r"problem based learning",
+        r"project based learning",
+    ],
+    "Collaborative Learning": [
+        r"collaborative learning",
+        r"peer learning",
+    ],
+    "Flipped Classroom": [
+        r"flipped classroom",
+    ],
+    "Active Learning": [
+        r"active learning",
+    ],
+    "E-Book Supported Learning": [
+        r"e book supported learning",
+    ],
+    "Graduate Programs": [
+        r"graduate programs",
+    ],
+}
+
+ANALYTIC_TASK_COLUMN_CANDIDATES: list[str] = ["Task"]
+ANALYTIC_TASK_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Classification": [r"classification"],
+    "Regression": [r"regression"],
+    "Clustering": [r"clustering"],
+    "Process Mining": [r"process mining"],
+    "Sequential Pattern Mining": [
+        r"sequential pattern mining",
+        r"sequence mining",
+        r"temporal pattern mining",
+        r"lag sequential analysis",
+    ],
+    "Association Rule Mining": [r"association rule mining"],
+    "Topic Modelling": [r"topic modelling", r"topic modeling"],
+    "Factor Analysis": [r"factor analysis"],
+}
+
+ASSESSMENT_STRATEGY_COLUMN_CANDIDATES: list[str] = ["Assessment Strategy"]
+ASSESSMENT_STRATEGY_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Holdout": [
+        r"holdout",
+        r"train test split",
+        r"80 20",
+        r"70 30",
+        r"75 25",
+    ],
+    "Repeated Holdout": [
+        r"repeated holdout",
+        r"10 repeated holdout",
+        r"100 repeated holdout",
+        r"5 repeated holdout",
+        r"3 repeated holdout",
+    ],
+    "K-Fold Cross-Validation": [
+        r"k fold cross validation",
+        r"fold cross validation",
+        r"fold cross validation",
+        r"cross validation",
+        r"10 fold",
+        r"5 fold",
+    ],
+    "Repeated K-Fold Cross-Validation": [
+        r"repeated 3 fold",
+        r"repeated k fold",
+        r"10 repeated 3 fold",
+    ],
+    "Stratified Cross-Validation": [
+        r"stratified cross validation",
+    ],
+    "Temporal Validation": [
+        r"temporal validation",
+        r"time split",
+        r"prefix split",
+        r"chronological",
+    ],
+    "Leave-One-Out Cross-Validation": [
+        r"leave one out",
+        r"loocv",
+    ],
+}
+
+RECOMMENDER_TYPE_COLUMN_CANDIDATES: list[str] = ["Recommender System Type"]
+RECOMMENDER_TYPE_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Hybrid": [r"hybrid"],
+    "Content-Based Filtering": [
+        r"content based filtering",
+        r"content based",
+    ],
+    "Collaborative Filtering": [
+        r"collaborative filtering",
+        r"collaborative",
+        r"userknn",
+        r"itemknn",
+        r"matrix factorization",
+    ],
+    "Knowledge-Based": [
+        r"knowledge based",
+        r"\bkb\b",
+    ],
+    "Goal-Based": [
+        r"goal based",
+        r"outcome based",
+    ],
+    "Sequential Recommendation": [
+        r"sequential recommendation",
+        r"trajectory",
+    ],
+}
+
+THEORETICAL_GROUNDING_COLUMN_CANDIDATES: list[str] = [
+    "Theoretical Grounding",
+    "Thereotical Model",
+]
+THEORETICAL_GROUNDING_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Self-Regulated Learning": [
+        r"pintrich",
+        r"winne",
+        r"hadwin",
+        r"trace srl",
+        r"self regulated learning",
+        r"\bsrl\b",
+    ],
+    "Biggs' 3P Model": [
+        r"bigg",
+        r"3p model",
+    ],
+    "Big Five Personality Traits": [
+        r"big 5",
+        r"big five",
+    ],
+    "Complex Dynamic Systems Theory": [
+        r"complex dynamic systems",
+    ],
 }
 
 #------------------------------/------------------------------/------------------------------/
@@ -571,4 +788,19 @@ __all__ = [
     "DATA_SOURCE_ALIAS_PATTERNS",
     "DATA_SOURCE_MISSING_VALUES",
     "TASK_DISPLAY_LABELS",
+    "PAPER_TASK_TABLES",
+    "PAPER_TASK_ORDER",
+    "PAPER_SUMMARY_MISSING_VALUES",
+    "CONTEXT_COLUMN_CANDIDATES",
+    "CONTEXT_ALIAS_PATTERNS",
+    "TEACHING_METHOD_COLUMN_CANDIDATES",
+    "TEACHING_METHOD_ALIAS_PATTERNS",
+    "ANALYTIC_TASK_COLUMN_CANDIDATES",
+    "ANALYTIC_TASK_ALIAS_PATTERNS",
+    "ASSESSMENT_STRATEGY_COLUMN_CANDIDATES",
+    "ASSESSMENT_STRATEGY_ALIAS_PATTERNS",
+    "RECOMMENDER_TYPE_COLUMN_CANDIDATES",
+    "RECOMMENDER_TYPE_ALIAS_PATTERNS",
+    "THEORETICAL_GROUNDING_COLUMN_CANDIDATES",
+    "THEORETICAL_GROUNDING_ALIAS_PATTERNS",
 ]

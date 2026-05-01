@@ -188,6 +188,8 @@ data/pulled/
 | `pull-notion` CLI command | Implemented |
 | `pull-zotero` CLI command | Implemented (+ `--detect-library-id`) |
 | `status` command | Implemented |
-| Dry-run diff engine | Planned |
-| Notion write-back | Planned — not yet implemented |
-| Zotero write-back | Planned — not yet implemented |
+| Diff engine (`services/diff_engine.py`) | Implemented |
+| `diff` CLI command | Implemented |
+| Notion write client (`connectors/notion/client.py`) | Implemented |
+| Zotero write client (`connectors/zotero/client.py`) | Implemented |
+| `sync` CLI command (dry-run default, `--apply` for live writes) | Implemented |

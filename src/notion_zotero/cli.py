@@ -674,6 +674,82 @@ def cmd_status(args):
     print("Run 'notion-zotero report-by-year --input data/pulled/zotero' to analyse.")
 
 
+def cmd_diff(args):
+    from notion_zotero.services.diff_engine import diff_dirs
+    reports = diff_dirs(Path(args.baseline), Path(args.updated))
+    for report in reports:
+        print(report.summary())
+    print(f"Total: {len(reports)} bundle(s) compared.")
+
+
+def cmd_sync(args):
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    from pathlib import Path as _Path
+    from notion_zotero.services.diff_engine import diff_dirs
+    from notion_zotero.writers.notion_writer import NotionWriter
+    from notion_zotero.writers.zotero_writer import ZoteroWriter
+    from notion_zotero.core.models import Reference
+
+    notion_dir = getattr(args, "notion_dir", None) or "data/pulled/notion"
+    zotero_dir = getattr(args, "zotero_dir", None) or "data/pulled/zotero"
+    baseline_dir = getattr(args, "baseline_dir", None) or "data/sync_baseline"
+    apply = getattr(args, "apply", False)
+
+    if apply:
+        print("[APPLY MODE] Writing changes to live APIs.")
+        notion_api_key = os.environ.get("NOTION_API_KEY")
+        zotero_api_key = os.environ.get("ZOTERO_API_KEY")
+        zotero_library_id = os.environ.get("ZOTERO_LIBRARY_ID")
+        missing = [k for k, v in [
+            ("NOTION_API_KEY", notion_api_key),
+            ("ZOTERO_API_KEY", zotero_api_key),
+            ("ZOTERO_LIBRARY_ID", zotero_library_id),
+        ] if not v]
+        if missing:
+            print(f"Error: missing required env vars for apply mode: {', '.join(missing)}", file=sys.stderr)
+            sys.exit(1)
+
+        from notion_zotero.connectors.notion.client import NotionClientAdapter
+        from notion_zotero.connectors.zotero.client import ZoteroClientAdapter
+        notion_client = NotionClientAdapter(notion_api_key)
+        zotero_client = ZoteroClientAdapter(zotero_api_key, zotero_library_id)
+        notion_writer = NotionWriter(dry_run=False, client=notion_client, write_log=None)
+        zotero_writer = ZoteroWriter(dry_run=False, client=zotero_client, write_log=None)
+    else:
+        print("[DRY-RUN] sync")
+        notion_writer = NotionWriter(dry_run=True, write_log=None)
+        zotero_writer = ZoteroWriter(dry_run=True, write_log=None)
+
+    baseline_path = _Path(baseline_dir)
+    notion_path = _Path(notion_dir)
+
+    if not baseline_path.exists():
+        baseline_path.mkdir(parents=True, exist_ok=True)
+
+    reports = diff_dirs(baseline_path, notion_path)
+
+    total_ops = 0
+    for report in reports:
+        ref = Reference(id=report.bundle_id)
+        ops = notion_writer.write_reference(ref, report)
+        ops += zotero_writer.write_reference(ref, report)
+        total_ops += len(ops)
+
+    if apply:
+        staging = _Path(baseline_dir + "_staging")
+        shutil.rmtree(staging, ignore_errors=True)
+        staging.mkdir(parents=True, exist_ok=True)
+        for f in sorted(notion_path.glob("*.canonical.json")):
+            shutil.copy2(str(f), str(staging / f.name))
+        shutil.rmtree(baseline_path, ignore_errors=True)
+        shutil.move(str(staging), str(baseline_path))
+
+    mode_word = "applied" if apply else "planned"
+    print(f"Sync complete: {len(reports)} bundle(s) processed, {total_ops} operation(s) {mode_word}.")
+
+
 def cmd_report_provenance(args):
     from notion_zotero.services.flattener import flatten_bundles
     dfs = flatten_bundles(args.input or "data/pulled/notion/learning_analytics_review")
@@ -784,6 +860,18 @@ def main(argv: Sequence[str] | None = None) -> int:
     pn.add_argument("--skip-blocks", dest="skip_blocks", action="store_true",
                     help="Skip block/table fetching and produce minimal metadata-only bundles (faster)")
     pn.set_defaults(func=cmd_pull_notion)
+
+    df = sub.add_parser("diff", help="Diff two canonical bundle directories")
+    df.add_argument("--baseline", required=True)
+    df.add_argument("--updated", required=True)
+    df.set_defaults(func=cmd_diff)
+
+    sy = sub.add_parser("sync", help="Sync canonical bundles to Notion and Zotero")
+    sy.add_argument("--notion-dir", dest="notion_dir", default="data/pulled/notion")
+    sy.add_argument("--zotero-dir", dest="zotero_dir", default="data/pulled/zotero")
+    sy.add_argument("--baseline-dir", dest="baseline_dir", default="data/sync_baseline")
+    sy.add_argument("--apply", action="store_true", default=False)
+    sy.set_defaults(func=cmd_sync)
 
     st = sub.add_parser("status", help="Show sync status between Zotero and Notion")
     st.add_argument("--zotero-limit", dest="zotero_limit", type=int, default=None)
