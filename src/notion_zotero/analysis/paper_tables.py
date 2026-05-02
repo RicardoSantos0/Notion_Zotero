@@ -11,6 +11,7 @@ Raw extraction tables are not mutated. The output is additive and auditable.
 from __future__ import annotations
 
 import ast
+import re
 from collections import defaultdict
 from collections.abc import Mapping, Sequence
 from typing import Any
@@ -25,6 +26,8 @@ from notion_zotero.schemas.domain_packs import education_learning_analytics as e
 
 DEFAULT_MAX_CELL_CHARS = 180
 DEFAULT_NARRATIVE_MAX_CHARS = 220
+DEFAULT_MAX_LIST_ITEMS = 8
+DEFAULT_MAX_RESULT_ITEMS = 4
 
 _CONTRIBUTION_SIGNATURE_FIELDS: dict[str, tuple[str, ...]] = {
     "ERS": (
@@ -155,6 +158,211 @@ def _join_and_shorten(
     joined = "; ".join(unique)
     display, shortened = _shorten(joined, max_chars=max_chars)
     return display, shortened, len(unique)
+
+
+def _limit_display_values(
+    values: Sequence[str],
+    max_items: int = DEFAULT_MAX_LIST_ITEMS,
+) -> tuple[list[str], int]:
+    unique = _dedupe(values)
+    if len(unique) <= max_items:
+        return unique, 0
+    return unique[:max_items], len(unique) - max_items
+
+
+def _collect_alias_values(
+    rows: Sequence[Mapping[str, Any]],
+    candidates: Sequence[str],
+    alias_patterns: Mapping[str, Sequence[str]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+    output_column: str,
+    keep_unmatched: bool = True,
+) -> list[str]:
+    column = _detect_row_column(rows, candidates)
+    if column is None:
+        return []
+
+    values: list[str] = []
+    for row in rows:
+        raw_value = row.get(column)
+        if _is_missing(raw_value):
+            continue
+        terms = extract_canonical_terms(
+            raw_value,
+            alias_patterns=alias_patterns,
+            keep_unmatched=keep_unmatched,
+            missing_values=ela.PAPER_SUMMARY_MISSING_VALUES,
+        )
+        for term in terms:
+            values.append(str(term["value"]))
+            if not term["matched"] and keep_unmatched:
+                audit_rows.append(
+                    {
+                        "task": task,
+                        "paper_id": paper_id,
+                        "column": output_column,
+                        "action": "unmatched_token",
+                        "detail": str(term["raw_token"]),
+                    }
+                )
+    return values
+
+
+def _format_limited_values(
+    values: Sequence[str],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+    output_column: str,
+    max_items: int = DEFAULT_MAX_LIST_ITEMS,
+    max_chars: int = DEFAULT_MAX_CELL_CHARS,
+) -> str:
+    display_values, remaining = _limit_display_values(values, max_items=max_items)
+    if remaining:
+        display_values = [*display_values, f"+{remaining} more"]
+        audit_rows.append(
+            {
+                "task": task,
+                "paper_id": paper_id,
+                "column": output_column,
+                "action": "limited_display_items",
+                "detail": str(remaining),
+            }
+        )
+    display, shortened, _count = _join_and_shorten(display_values, max_chars=max_chars)
+    if shortened:
+        audit_rows.append(
+            {
+                "task": task,
+                "paper_id": paper_id,
+                "column": output_column,
+                "action": "shortened_cell",
+                "detail": str(len("; ".join(_dedupe(display_values)))),
+            }
+        )
+    return display
+
+
+def _format_algorithms(
+    rows: Sequence[Mapping[str, Any]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+    candidates: Sequence[str] = ("Models",),
+) -> str:
+    values = _collect_alias_values(
+        rows,
+        candidates,
+        ela.ALGORITHM_ALIAS_PATTERNS,
+        audit_rows,
+        task,
+        paper_id,
+        "Algorithms / models",
+        keep_unmatched=True,
+    )
+    return _format_limited_values(
+        values,
+        audit_rows,
+        task,
+        paper_id,
+        "Algorithms / models",
+        max_items=8,
+        max_chars=150,
+    )
+
+
+def _format_features(
+    rows: Sequence[Mapping[str, Any]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+) -> str:
+    categories = _collect_alias_values(
+        rows,
+        ["Features"],
+        ela.FEATURE_CATEGORY_ALIAS_PATTERNS,
+        audit_rows,
+        task,
+        paper_id,
+        "Features",
+        keep_unmatched=False,
+    )
+    if categories:
+        return _format_limited_values(
+            categories,
+            audit_rows,
+            task,
+            paper_id,
+            "Features",
+            max_items=7,
+            max_chars=170,
+        )
+    return _merge_raw_fields(rows, ["Features"], audit_rows, task, paper_id, "Features", 170)
+
+
+def _canonical_metric_label(label: str) -> str:
+    key = normalize_token_key(label)
+    return ela.RESULT_METRIC_LABELS.get(key, clean_whitespace(label).strip())
+
+
+def _extract_metric_snippets(text: str) -> list[str]:
+    snippets: list[str] = []
+    metric_pattern = re.compile(
+        r"([A-Za-z][A-Za-z0-9@/_+\- ]{0,35})\s*[:=]\s*"
+        r"([+-]?\d+(?:\.\d+)?%?)"
+        r"(?:\s*-\s*([^,;}\n]+))?"
+    )
+    for metric, value, model in metric_pattern.findall(text):
+        metric_label = _canonical_metric_label(metric)
+        snippet = f"{metric_label}={value}"
+        model = clean_whitespace(model).strip()
+        if model:
+            snippet += f" ({model})"
+        snippets.append(snippet)
+    return snippets
+
+
+def _format_results(
+    rows: Sequence[Mapping[str, Any]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+    candidates: Sequence[str] = ("Performance Metric: Best Model", "Evaluation"),
+) -> str:
+    raw_text = _merge_raw_fields(
+        rows,
+        candidates,
+        audit_rows,
+        task,
+        paper_id,
+        "Results",
+        max_chars=500,
+    )
+    snippets = _extract_metric_snippets(raw_text)
+    if snippets:
+        return _format_limited_values(
+            snippets,
+            audit_rows,
+            task,
+            paper_id,
+            "Results",
+            max_items=DEFAULT_MAX_RESULT_ITEMS,
+            max_chars=180,
+        )
+    display, shortened = _shorten(raw_text, max_chars=180)
+    if shortened:
+        audit_rows.append(
+            {
+                "task": task,
+                "paper_id": paper_id,
+                "column": "Results",
+                "action": "shortened_cell",
+                "detail": str(len(raw_text)),
+            }
+        )
+    return display
 
 
 def _normalize_values(
@@ -452,17 +660,9 @@ def _build_ers_row(
                 rows, ["Recommendation types"], audit_rows, task, paper_id, "Recommendation output", 140
             ),
             "Algorithms / models": _merge_raw_fields(
-                rows,
-                ["Models", "Recommender System Type"],
-                audit_rows,
-                task,
-                paper_id,
-                "Algorithms / models",
-                150,
+                rows, ["Recommender System Type"], audit_rows, task, paper_id, "Algorithms / models", 150
             ),
-            "Results": _merge_raw_fields(
-                rows, ["Evaluation"], audit_rows, task, paper_id, "Results", 180
-            ),
+            "Results": _format_results(rows, audit_rows, task, paper_id, ("Evaluation",)),
             "Limitations": _merge_raw_fields(
                 rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
             ),
@@ -501,12 +701,8 @@ def _build_desc_row(
                 "Analytic task",
                 max_chars=100,
             ),
-            "Algorithms / models": _merge_raw_fields(
-                rows, ["Models"], audit_rows, task, paper_id, "Algorithms / models", 150
-            ),
-            "Features / variables": _merge_raw_fields(
-                rows, ["Features"], audit_rows, task, paper_id, "Features / variables", 170
-            ),
+            "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
+            "Features / variables": _format_features(rows, audit_rows, task, paper_id),
             "Results / patterns": _merge_raw_fields(
                 rows,
                 ["Groups Created", "Cluster Description", "Performance Metric: Best Model"],
@@ -581,10 +777,8 @@ def _build_pred_row(
             "Prediction timing": _merge_raw_fields(
                 rows, ["Moment of Prediction"], audit_rows, task, paper_id, "Prediction timing", 120
             ),
-            "Features": _merge_raw_fields(rows, ["Features"], audit_rows, task, paper_id, "Features", 170),
-            "Algorithms / models": _merge_raw_fields(
-                rows, ["Models"], audit_rows, task, paper_id, "Algorithms / models", 150
-            ),
+            "Features": _format_features(rows, audit_rows, task, paper_id),
+            "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
                 rows,
                 ela.ASSESSMENT_STRATEGY_COLUMN_CANDIDATES,
@@ -595,15 +789,7 @@ def _build_pred_row(
                 "Assessment strategy",
                 max_chars=100,
             ),
-            "Results": _merge_raw_fields(
-                rows,
-                ["Performance Metric: Best Model"],
-                audit_rows,
-                task,
-                paper_id,
-                "Results",
-                180,
-            ),
+            "Results": _format_results(rows, audit_rows, task, paper_id),
             "Limitations": _merge_raw_fields(
                 rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
             ),
@@ -638,12 +824,8 @@ def _build_kt_row(
                 ],
                 max_chars=170,
             ),
-            "Algorithms / models": _merge_raw_fields(
-                rows, ["Models"], audit_rows, task, paper_id, "Algorithms / models", 150
-            ),
-            "Features / representations": _merge_raw_fields(
-                rows, ["Features"], audit_rows, task, paper_id, "Features / representations", 160
-            ),
+            "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
+            "Features / representations": _format_features(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
                 rows,
                 ela.ASSESSMENT_STRATEGY_COLUMN_CANDIDATES,
@@ -654,15 +836,7 @@ def _build_kt_row(
                 "Assessment strategy",
                 max_chars=100,
             ),
-            "Results": _merge_raw_fields(
-                rows,
-                ["Performance Metric: Best Model"],
-                audit_rows,
-                task,
-                paper_id,
-                "Results",
-                180,
-            ),
+            "Results": _format_results(rows, audit_rows, task, paper_id),
             "Prior-model limitations": _merge_raw_fields(
                 rows,
                 ["Flaw of Previous Models"],

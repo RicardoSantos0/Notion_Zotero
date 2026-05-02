@@ -76,7 +76,8 @@ def test_paper_summary_tables_merge_duplicate_prediction_rows():
     assert "Regression" in row["Prediction task"]
     assert row["Assessment strategy"] == "K-Fold Cross-Validation"
     assert "Random Forest" in row["Algorithms / models"]
-    assert "Results" in row
+    assert "RMSE=0.20 (Random Forest)" in row["Results"]
+    assert "MAE=0.15 (Random Forest)" in row["Results"]
     assert "Limitations" in row
     assert any(item["action"] == "merged_duplicate_extraction_rows" for item in audit)
 
@@ -124,6 +125,38 @@ def test_same_paper_can_have_multiple_distinct_prediction_rows():
         item["action"] == "preserved_distinct_paper_contribution"
         for item in audit
     )
+
+
+def test_algorithms_features_and_results_use_consistent_display_policy():
+    dfs = {
+        "Reading List": [
+            {"page_id": "paper-3", "title": "Policy Study", "authors": "Ng et al.", "year": "2024"}
+        ],
+        "PRED": [
+            {
+                "source_page_id": "paper-3",
+                "Task": "Classification",
+                "Target": "Pass vs Fail",
+                "Models": "RF, SVM, kNN, Logistic Regression, XGBoost",
+                "Features": "Gender, Age, GPA, quiz score, LMS clicks, forum posts, course module",
+                "Assessment Strategy": "Holdout Method",
+                "Performance Metric: Best Model": "{Accuracy: 0.91 - RF, F1-Score: 0.88 - SVM}",
+            }
+        ],
+    }
+
+    tables, _audit = build_paper_summary_tables(dfs)
+    row = tables["PRED"][0]
+
+    assert "Random Forest" in row["Algorithms / models"]
+    assert "Support Vector Machine" in row["Algorithms / models"]
+    assert "k-Nearest Neighbors" in row["Algorithms / models"]
+    assert "Demographics" in row["Features"]
+    assert "Prior academic performance" in row["Features"]
+    assert "LMS activity" in row["Features"]
+    assert "Forum / social interaction" in row["Features"]
+    assert "Accuracy=0.91 (RF)" in row["Results"]
+    assert "F1=0.88 (SVM)" in row["Results"]
 
 
 def test_paper_summary_tables_build_task_specific_columns():

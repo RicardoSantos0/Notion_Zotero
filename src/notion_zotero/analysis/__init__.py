@@ -42,6 +42,11 @@ from notion_zotero.analysis.paper_tables import (
     build_paper_summary_tables,
     build_paper_summary_dataframes,
 )
+from notion_zotero.analysis.visualization import (
+    parse_list_like_cell,
+    map_value_to_group,
+    build_multivalue_trend,
+)
 
 log = logging.getLogger(__name__)
 
@@ -125,4 +130,7 @@ __all__ = [
     "build_task_value_count_table",
     "build_paper_summary_tables",
     "build_paper_summary_dataframes",
+    "parse_list_like_cell",
+    "map_value_to_group",
+    "build_multivalue_trend",
 ]
