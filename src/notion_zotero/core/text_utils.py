@@ -4,6 +4,7 @@ Pure stdlib — no pandas, numpy, or Polars imports. Safe to import anywhere.
 
 Functions:
     clean_whitespace         — normalise line endings, collapse runs, trim spacing
+    remove_ellipsis_fragments — remove incomplete prose fragments ending in ellipses
     apply_regex_fixes        — apply a caller-provided {pattern: replacement} dict
     normalize_cell           — full cell pipeline: whitespace → fixes → value_map lookup
     normalize_search_string  — extend normalize_cell with quote stripping, AND/OR dedup,
@@ -29,6 +30,39 @@ def clean_whitespace(text: str) -> str:
     text = re.sub(r"\s*\|\s*", " | ", text)
     text = re.sub(r"\s*;\s*", "; ", text)
     return text.strip()
+
+
+def remove_ellipsis_fragments(text: str) -> str:
+    """Remove incomplete prose fragments that end in ellipses.
+
+    Notebook notes and copied workbook cells sometimes contain truncated prose
+    fragments ending in ``...`` or ``…``. Those fragments read poorly in
+    paper-facing summary tables. Numeric ellipses are preserved because they
+    can carry real meaning, for example ``1, 2, ..., 10``.
+    """
+    text = str(text).replace("...", "…")
+    cleaned_lines: list[str] = []
+
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped:
+            continue
+        cleaned_lines.append(stripped)
+
+    text = " ".join(cleaned_lines)
+    cleaned_parts: list[str] = []
+    for part in re.split(r"(?<=[.;])\s+", text):
+        stripped = part.strip()
+        if not stripped:
+            continue
+        numeric_range = bool(re.search(r"\d\s*,\s*\d\s*,?\s*…\s*,?\s*\d", stripped))
+        if stripped.endswith("…") and not numeric_range:
+            continue
+        cleaned_parts.append(stripped)
+
+    if cleaned_parts:
+        return clean_whitespace(" ".join(cleaned_parts))
+    return clean_whitespace(text).rstrip("…").strip()
 
 
 def apply_regex_fixes(text: str, fixes: dict[str, str]) -> str:
@@ -148,6 +182,7 @@ def normalize_search_string(
 
 __all__ = [
     "clean_whitespace",
+    "remove_ellipsis_fragments",
     "apply_regex_fixes",
     "normalize_cell",
     "normalize_search_string",

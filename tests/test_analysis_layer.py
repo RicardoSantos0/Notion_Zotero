@@ -109,6 +109,13 @@ class TestNormalizeCell:
         from notion_zotero.core.text_utils import normalize_cell
         assert normalize_cell("  hello  ") == "hello"
 
+    def test_ellipsis_fragment_cleanup_preserves_numeric_ranges(self):
+        from notion_zotero.core.text_utils import remove_ellipsis_fragments
+
+        assert remove_ellipsis_fragments("Useful sentence. incomplete fragment...") == "Useful sentence."
+        assert remove_ellipsis_fragments("incomplete fragment...") == "incomplete fragment"
+        assert remove_ellipsis_fragments("values 1, 2, ..., 10") == "values 1, 2, …, 10"
+
 
 class TestNormalizeSearchString:
     def test_non_string_passthrough(self):

@@ -73,7 +73,9 @@ def test_paper_summary_tables_merge_duplicate_prediction_rows():
     assert "LMS/VLE/MOOC logs" in row["Data sources"]
     assert "Student demographics/characteristics" in row["Data sources"]
     assert "Academic background records" in row["Data sources"]
-    assert "Regression" in row["Prediction task"]
+    assert row["Prediction task type"] == "Regression"
+    assert "Predict the student's final grade" in row["Prediction target / timing"]
+    assert "End of Course" in row["Prediction target / timing"]
     assert row["Assessment strategy"] == "K-Fold Cross-Validation"
     assert "Random Forest" in row["Algorithms / models"]
     assert "RMSE=0.20 (Random Forest)" in row["Results"]
@@ -117,7 +119,7 @@ def test_same_paper_can_have_multiple_distinct_prediction_rows():
     tables, audit = build_paper_summary_tables(dfs)
 
     assert len(tables["PRED"]) == 2
-    assert {row["Prediction task"].split(" - ")[0] for row in tables["PRED"]} == {
+    assert {row["Prediction task type"] for row in tables["PRED"]} == {
         "Classification",
         "Regression",
     }
@@ -159,6 +161,29 @@ def test_algorithms_features_and_results_use_consistent_display_policy():
     assert "F1=0.88 (SVM)" in row["Results"]
 
 
+def test_paper_summary_tables_sort_by_year_then_study():
+    dfs = {
+        "Reading List": [
+            {"page_id": "paper-b", "title": "Beta Study", "authors": "Beta et al.", "year": "2024"},
+            {"page_id": "paper-a", "title": "Alpha Study", "authors": "Alpha et al.", "year": "2024"},
+            {"page_id": "paper-old", "title": "Old Study", "authors": "Zeta et al.", "year": "2022"},
+        ],
+        "PRED": [
+            {"source_page_id": "paper-b", "Task": "Regression", "Target": "Grade"},
+            {"source_page_id": "paper-a", "Task": "Classification", "Target": "Dropout"},
+            {"source_page_id": "paper-old", "Task": "Classification", "Target": "Pass/fail"},
+        ],
+    }
+
+    tables, _audit = build_paper_summary_tables(dfs)
+
+    assert [row["Study"] for row in tables["PRED"]] == [
+        "Zeta et al. (2022)",
+        "Alpha et al. (2024)",
+        "Beta et al. (2024)",
+    ]
+
+
 def test_paper_summary_tables_build_task_specific_columns():
     dfs = {
         "Reading List": [
@@ -176,6 +201,11 @@ def test_paper_summary_tables_build_task_specific_columns():
                 "Courses": "MOOC course",
                 "Target of Recommendation": "Courses to take",
                 "Recommender System Type": "Collaborative-Filtering",
+                "Initialization Method": (
+                    "The approach relies on creating course embeddings; "
+                    "RL head and contrastive head use a pre-trained DKT reward signal"
+                ),
+                "Comments": "Matrix Factorization and IRT models were also compared for benchmarking.",
                 "Recommendation types": "Top-10 course recommendations",
                 "Evaluation": "Precision@10",
             }
@@ -215,11 +245,18 @@ def test_paper_summary_tables_build_task_specific_columns():
     tables, audit = build_paper_summary_tables(dfs)
 
     assert set(tables) == {"ERS", "DESC", "KT"}
-    assert "Recommendation target" in tables["ERS"][0]
+    assert tables["ERS"][0]["Recommendation target"] == "Recommend courses or learning paths to students"
     assert tables["ERS"][0]["Recommender type"] == "Collaborative Filtering"
+    assert "Learning Embeddings" in tables["ERS"][0]["Algorithms / models"]
+    assert "Reinforcement Learning" in tables["ERS"][0]["Algorithms / models"]
+    assert "Contrastive Learning" in tables["ERS"][0]["Algorithms / models"]
+    assert "Deep Knowledge Tracing" in tables["ERS"][0]["Algorithms / models"]
+    assert "Matrix Factorization" in tables["ERS"][0]["Algorithms / models"]
+    assert "Item Response Theory" in tables["ERS"][0]["Algorithms / models"]
     assert tables["DESC"][0]["Context"] == "Higher Education"
     assert tables["DESC"][0]["Theoretical grounding"] == "Self-Regulated Learning"
     assert tables["KT"][0]["Context"] == "Intelligent Tutoring System"
+    assert tables["KT"][0]["KT target"] == "Predict whether the student will answer the next question correctly"
     assert tables["KT"][0]["Assessment strategy"] == "Temporal Validation"
     assert "Prior-model limitations" in tables["KT"][0]
     assert "New contribution" in tables["KT"][0]

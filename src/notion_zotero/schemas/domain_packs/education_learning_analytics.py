@@ -739,6 +739,30 @@ ALGORITHM_ALIAS_PATTERNS: dict[str, list[str]] = {
     "Markov Model": [r"markov"],
 }
 
+RECOMMENDER_ALGORITHM_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Hybrid Recommendation": [r"hybrid"],
+    "Collaborative Filtering": [r"collaborative filtering", r"collaborative"],
+    "Content-Based Filtering": [r"content based filtering", r"content based"],
+    "Knowledge-Based Recommendation": [r"knowledge based", r"\bkb\b"],
+    "Sequential Recommendation": [r"sequential recommendation", r"sequential recommender"],
+    "Matrix Factorization": [r"matrix factorization", r"\bgmf\b", r"\bneumf\b"],
+    "User-kNN": [r"userknn", r"user knn", r"user k nearest"],
+    "Item-kNN": [r"itemknn", r"item knn", r"item k nearest"],
+    "Neural Collaborative Filtering": [r"neural collaborative filtering", r"\bncf\b"],
+    "Deep Knowledge Tracing": [r"\bdkt\b", r"deep knowledge tracing"],
+    "Reinforcement Learning": [r"reinforcement learning", r"\brl\b", r"rl head"],
+    "Contrastive Learning": [r"contrastive learning", r"\bcl\b", r"contrastive head"],
+    "Transformer / BERT Embeddings": [r"\bbert\b", r"roberta", r"transformer", r"sentence embeddings"],
+    "Learning Embeddings": [r"embedding", r"embeddings"],
+    "Ontology-Based Recommendation": [r"ontology", r"qualifier tags"],
+    "Analytic Hierarchy Process": [r"\bahp\b", r"analytic hierarchy"],
+    "Graph Search": [r"depth first search", r"\bdfs\b", r"course graph", r"learning path"],
+    "Self-Organizing Map": [r"self organizing map", r"self organising map", r"\bsom\b"],
+    "Item Response Theory": [r"\birt\b", r"item response theory"],
+    "Algorithmic Recourse": [r"algorithmic recourse", r"\brecourse\b", r"\brecrec\b"],
+    "Rule-Based Recommendation": [r"rule based", r"set of rules"],
+}
+
 FEATURE_CATEGORY_ALIAS_PATTERNS: dict[str, list[str]] = {
     "Demographics": [
         r"gender",
@@ -832,6 +856,102 @@ FEATURE_CATEGORY_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"engagement",
         r"preference",
         r"reflection",
+    ],
+}
+
+PREDICTION_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Predict student dropout risk": [
+        r"dropout",
+        r"drop out",
+        r"drop-out",
+    ],
+    "Predict the student's final grade": [
+        r"final grade",
+        r"final mark",
+        r"final score",
+        r"course grade",
+    ],
+    "Predict whether the student will pass or fail": [
+        r"pass or fail",
+        r"pass/fail",
+        r"pass fail",
+    ],
+    "Identify students at risk of poor academic performance": [
+        r"at-risk",
+        r"at risk",
+        r"poor academic performance",
+    ],
+    "Predict student academic success": [
+        r"student success",
+        r"academic success",
+    ],
+    "Predict student academic performance": [
+        r"academic performance",
+        r"student performance",
+        r"performance in.*course",
+    ],
+}
+
+KT_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Predict the probability that the student will answer the next question correctly": [
+        r"probability.*next.*(question|item|problem).*(correct|success)",
+    ],
+    "Predict whether the student will answer the next question correctly": [
+        r"next.*(question|item|problem).*(correct|answer)",
+        r"correctness of the next question",
+        r"correct answer in next question",
+    ],
+    "Predict whether the student will answer correctly on the first attempt": [
+        r"first attempt.*(correct|success)",
+    ],
+    "Predict whether the student will solve the next exercise correctly": [
+        r"next exercise.*(correct|success)",
+    ],
+    "Predict whether the student will solve the exercise correctly": [
+        r"exercise.*(correct|success)",
+    ],
+    "Estimate the student's knowledge state or skill mastery": [
+        r"knowledge state",
+        r"knowledge level",
+        r"skill mastery",
+        r"\bmastery\b",
+    ],
+    "Predict the student's performance on the next learning activity": [
+        r"performance.*next",
+    ],
+    "Predict the student's need for hints or assistance": [
+        r"\bhint\b",
+        r"\bhelp\b",
+        r"assistance",
+    ],
+}
+
+RECOMMENDATION_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Recommend learning resources to students": [
+        r"recommend.*resource",
+        r"learning resource",
+        r"learning object",
+    ],
+    "Recommend courses or learning paths to students": [
+        r"recommend.*course",
+        r"recommend.*path",
+        r"learning path",
+        r"courses? to take",
+        r"course.*enrol",
+        r"course.*enroll",
+    ],
+    "Recommend learning activities to students": [
+        r"recommend.*activity",
+        r"exercise",
+        r"problem",
+    ],
+    "Recommend peers or collaborators to students": [
+        r"recommend.*peer",
+        r"collaborator",
+    ],
+    "Recommend personalized learning support to students": [
+        r"recommend",
+        r"personalized learning support",
     ],
 }
 
@@ -951,6 +1071,10 @@ __all__ = [
     "THEORETICAL_GROUNDING_COLUMN_CANDIDATES",
     "THEORETICAL_GROUNDING_ALIAS_PATTERNS",
     "ALGORITHM_ALIAS_PATTERNS",
+    "RECOMMENDER_ALGORITHM_ALIAS_PATTERNS",
     "FEATURE_CATEGORY_ALIAS_PATTERNS",
+    "PREDICTION_TARGET_ALIAS_PATTERNS",
+    "KT_TARGET_ALIAS_PATTERNS",
+    "RECOMMENDATION_TARGET_ALIAS_PATTERNS",
     "RESULT_METRIC_LABELS",
 ]

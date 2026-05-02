@@ -20,7 +20,7 @@ from notion_zotero.analysis.table_normalization import (
     extract_canonical_terms,
     normalize_token_key,
 )
-from notion_zotero.core.text_utils import clean_whitespace
+from notion_zotero.core.text_utils import clean_whitespace, remove_ellipsis_fragments
 from notion_zotero.schemas.domain_packs import education_learning_analytics as ela
 
 
@@ -119,7 +119,7 @@ def _display_value(value: Any) -> str:
     except Exception:
         pass
     text = text.strip().strip("[]").strip("'").strip('"')
-    return clean_whitespace(text)
+    return remove_ellipsis_fragments(clean_whitespace(text))
 
 
 def _dedupe(values: Sequence[str]) -> list[str]:
@@ -210,6 +210,48 @@ def _collect_alias_values(
     return values
 
 
+def _collect_alias_values_from_all_candidates(
+    rows: Sequence[Mapping[str, Any]],
+    candidates: Sequence[str],
+    alias_patterns: Mapping[str, Sequence[str]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+    output_column: str,
+    keep_unmatched: bool = True,
+) -> list[str]:
+    values: list[str] = []
+    seen_columns: set[str] = set()
+    for candidate in candidates:
+        column = _detect_row_column(rows, [candidate])
+        if column is None or column in seen_columns:
+            continue
+        seen_columns.add(column)
+        for row in rows:
+            raw_value = row.get(column)
+            if _is_missing(raw_value):
+                continue
+            terms = extract_canonical_terms(
+                raw_value,
+                alias_patterns=alias_patterns,
+                keep_unmatched=keep_unmatched,
+                missing_values=ela.PAPER_SUMMARY_MISSING_VALUES,
+            )
+            for term in terms:
+                values.append(str(term["value"]))
+                if not term["matched"] and keep_unmatched:
+                    audit_rows.append(
+                        {
+                            "task": task,
+                            "paper_id": paper_id,
+                            "column": output_column,
+                            "action": "unmatched_token",
+                            "detail": str(term["raw_token"]),
+                        }
+                    )
+    return values
+
+
 def _format_limited_values(
     values: Sequence[str],
     audit_rows: list[dict[str, Any]],
@@ -270,6 +312,53 @@ def _format_algorithms(
         "Algorithms / models",
         max_items=8,
         max_chars=150,
+    )
+
+
+def _format_recommender_algorithms(
+    rows: Sequence[Mapping[str, Any]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+) -> str:
+    candidates = (
+        "Models",
+        "Model",
+        "Algorithm",
+        "Algorithms",
+        "Algorithm Used",
+        "Recommender System Type",
+        "Initialization Method",
+        "Updates to Recommendations",
+        "Preprocessing Details",
+        "Comments",
+    )
+    values = _collect_alias_values_from_all_candidates(
+        rows,
+        candidates,
+        ela.RECOMMENDER_ALGORITHM_ALIAS_PATTERNS,
+        audit_rows,
+        task,
+        paper_id,
+        "Algorithms / models",
+        keep_unmatched=False,
+    )
+    if not values:
+        return _format_algorithms(
+            rows,
+            audit_rows,
+            task,
+            paper_id,
+            candidates=("Recommender System Type", "Models", "Algorithm", "Algorithms"),
+        )
+    return _format_limited_values(
+        values,
+        audit_rows,
+        task,
+        paper_id,
+        "Algorithms / models",
+        max_items=8,
+        max_chars=170,
     )
 
 
@@ -483,6 +572,27 @@ def _combine_parts(
     return display
 
 
+def _canonicalize_free_text(
+    text: str,
+    alias_patterns: Mapping[str, Sequence[str]],
+) -> str:
+    text = _display_value(text)
+    if not text:
+        return ""
+    normalized_text = normalize_token_key(text)
+    for canonical, patterns in alias_patterns.items():
+        for pattern in patterns:
+            try:
+                if re.search(pattern, text, flags=re.IGNORECASE):
+                    return canonical
+            except re.error:
+                pass
+            normalized_pattern = normalize_token_key(pattern)
+            if normalized_pattern and normalized_pattern in normalized_text:
+                return canonical
+    return text
+
+
 def _first_record_value(records: Sequence[Mapping[str, Any]], candidates: Sequence[str]) -> Any:
     column = _detect_row_column(records, candidates)
     if column is None:
@@ -539,6 +649,24 @@ def _citation_from_reference(reference: Mapping[str, Any] | None, fallback_title
     if title and year:
         return f"{title} ({year})"
     return title or "Unknown study"
+
+
+def _reference_year(reference: Mapping[str, Any] | None, study_label: str = "") -> int | None:
+    reference = reference or {}
+    for value in (reference.get("year"), study_label):
+        text = _display_value(value)
+        match = re.search(r"\b(19|20)\d{2}\b", text)
+        if match:
+            return int(match.group(0))
+    return None
+
+
+def _paper_sort_key(row: Mapping[str, str]) -> tuple[int, str, str]:
+    year = _reference_year(None, row.get("Study", ""))
+    sort_year = year if year is not None else 9999
+    study = clean_whitespace(row.get("Study", "")).lower()
+    title = clean_whitespace(row.get("Paper title", "")).lower()
+    return sort_year, study, title
 
 
 def _reference_index(reading_list: Sequence[Mapping[str, Any]]) -> dict[str, Mapping[str, Any]]:
@@ -659,9 +787,7 @@ def _build_ers_row(
             "Recommendation output": _merge_raw_fields(
                 rows, ["Recommendation types"], audit_rows, task, paper_id, "Recommendation output", 140
             ),
-            "Algorithms / models": _merge_raw_fields(
-                rows, ["Recommender System Type"], audit_rows, task, paper_id, "Algorithms / models", 150
-            ),
+            "Algorithms / models": _format_recommender_algorithms(rows, audit_rows, task, paper_id),
             "Results": _format_results(rows, audit_rows, task, paper_id, ("Evaluation",)),
             "Limitations": _merge_raw_fields(
                 rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
@@ -676,6 +802,10 @@ def _build_ers_row(
                 220,
             ),
         }
+    )
+    out["Recommendation target"] = _canonicalize_free_text(
+        out["Recommendation target"],
+        ela.RECOMMENDATION_TARGET_ALIAS_PATTERNS,
     )
     return out
 
@@ -733,33 +863,54 @@ def _build_desc_row(
     return out
 
 
-def _prediction_task_label(
+def _prediction_task_type(
     rows: Sequence[Mapping[str, Any]],
     audit_rows: list[dict[str, Any]],
     task: str,
     paper_id: str,
 ) -> str:
-    analytic_task = _normalize_values(
+    return _normalize_values(
         rows,
         ela.ANALYTIC_TASK_COLUMN_CANDIDATES,
         ela.ANALYTIC_TASK_ALIAS_PATTERNS,
         audit_rows,
         task,
         paper_id,
-        "Prediction task",
+        "Prediction task type",
         max_chars=80,
     )
+
+
+def _prediction_target_timing(
+    rows: Sequence[Mapping[str, Any]],
+    audit_rows: list[dict[str, Any]],
+    task: str,
+    paper_id: str,
+) -> str:
     performance_definition = _merge_raw_fields(
         rows,
         ["Student Performance Definition"],
         audit_rows,
         task,
         paper_id,
-        "Prediction task",
+        "Prediction target / timing",
         110,
     )
-    target = _merge_raw_fields(rows, ["Target"], audit_rows, task, paper_id, "Prediction task", 100)
-    return _combine_parts([analytic_task, performance_definition, target], max_chars=180)
+    target = _merge_raw_fields(rows, ["Target"], audit_rows, task, paper_id, "Prediction target / timing", 100)
+    timing = _merge_raw_fields(
+        rows,
+        ["Moment of Prediction"],
+        audit_rows,
+        task,
+        paper_id,
+        "Prediction target / timing",
+        120,
+    )
+    target_label = _canonicalize_free_text(
+        _combine_parts([performance_definition, target], max_chars=150),
+        ela.PREDICTION_TARGET_ALIAS_PATTERNS,
+    )
+    return _combine_parts([target_label, timing], max_chars=190)
 
 
 def _build_pred_row(
@@ -773,10 +924,8 @@ def _build_pred_row(
     out = _base_output_row(task, paper_id, rows, references, audit_rows, include_title)
     out.update(
         {
-            "Prediction task": _prediction_task_label(rows, audit_rows, task, paper_id),
-            "Prediction timing": _merge_raw_fields(
-                rows, ["Moment of Prediction"], audit_rows, task, paper_id, "Prediction timing", 120
-            ),
+            "Prediction task type": _prediction_task_type(rows, audit_rows, task, paper_id),
+            "Prediction target / timing": _prediction_target_timing(rows, audit_rows, task, paper_id),
             "Features": _format_features(rows, audit_rows, task, paper_id),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
@@ -809,20 +958,23 @@ def _build_kt_row(
     out = _base_output_row(task, paper_id, rows, references, audit_rows, include_title)
     out.update(
         {
-            "KT target": _combine_parts(
-                [
-                    _merge_raw_fields(
-                        rows,
-                        ["Student Performance Definition"],
-                        audit_rows,
-                        task,
-                        paper_id,
-                        "KT target",
-                        110,
-                    ),
-                    _merge_raw_fields(rows, ["Target"], audit_rows, task, paper_id, "KT target", 100),
-                ],
-                max_chars=170,
+            "KT target": _canonicalize_free_text(
+                _combine_parts(
+                    [
+                        _merge_raw_fields(
+                            rows,
+                            ["Student Performance Definition"],
+                            audit_rows,
+                            task,
+                            paper_id,
+                            "KT target",
+                            110,
+                        ),
+                        _merge_raw_fields(rows, ["Target"], audit_rows, task, paper_id, "KT target", 100),
+                    ],
+                    max_chars=170,
+                ),
+                ela.KT_TARGET_ALIAS_PATTERNS,
             ),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
             "Features / representations": _format_features(rows, audit_rows, task, paper_id),
@@ -939,7 +1091,7 @@ def build_paper_summary_tables(
                 )
             paper_rows.append(builder(paper_id, rows, references, audit_rows, include_title))
 
-        output[output_task] = sorted(paper_rows, key=lambda row: row.get("Study", ""))
+        output[output_task] = sorted(paper_rows, key=_paper_sort_key)
 
     return output, audit_rows
 
