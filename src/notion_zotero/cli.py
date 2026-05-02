@@ -682,6 +682,59 @@ def cmd_diff(args):
     print(f"Total: {len(reports)} bundle(s) compared.")
 
 
+def cmd_plan_sync(args):
+    from notion_zotero.services.sync_planner import build_sync_plan, write_sync_plan
+
+    plan = build_sync_plan(args.notion_dir, args.zotero_dir)
+    output_path = write_sync_plan(plan, args.out)
+    summary = plan["summary"]
+
+    print(f"Sync plan written: {output_path}")
+    print(
+        "Plan summary: "
+        f"{summary['matched']} matched, "
+        f"{summary['operations']} operation(s), "
+        f"{summary['only_zotero']} only in Zotero, "
+        f"{summary['only_notion']} only in Notion, "
+        f"{summary['ambiguous']} ambiguous."
+    )
+
+
+def cmd_apply_plan(args):
+    from dotenv import load_dotenv
+    load_dotenv()
+
+    from notion_zotero.services.sync_plan_applier import apply_sync_plan
+
+    plan_path = Path(args.plan)
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+
+    if args.apply:
+        notion_api_key = os.environ.get("NOTION_API_KEY")
+        if not notion_api_key:
+            print("Error: NOTION_API_KEY is required for apply-plan --apply", file=sys.stderr)
+            sys.exit(1)
+        from notion_zotero.connectors.notion.client import NotionClientAdapter
+        from notion_zotero.writers.write_log import WriteLog
+
+        write_log = WriteLog(session_id=f"apply-plan-{int(time.time())}", log_dir=args.write_log_dir)
+        notion_client = NotionClientAdapter(notion_api_key)
+        ops = apply_sync_plan(
+            plan,
+            dry_run=False,
+            notion_client=notion_client,
+            write_log=write_log,
+        )
+        print(f"[APPLY MODE] Applied {len(ops)} operation(s) from {plan_path}.")
+        print(f"Write log directory: {args.write_log_dir}")
+        return
+
+    ops = apply_sync_plan(plan, dry_run=True)
+    print(f"[DRY-RUN] Planned {len(ops)} executable operation(s) from {plan_path}.")
+    for op in ops:
+        print(op)
+
+
 def cmd_sync(args):
     from dotenv import load_dotenv
     load_dotenv()
@@ -713,10 +766,12 @@ def cmd_sync(args):
 
         from notion_zotero.connectors.notion.client import NotionClientAdapter
         from notion_zotero.connectors.zotero.client import ZoteroClientAdapter
+        from notion_zotero.writers.write_log import WriteLog
+        write_log = WriteLog(session_id=f"sync-{int(time.time())}", log_dir=args.write_log_dir)
         notion_client = NotionClientAdapter(notion_api_key)
         zotero_client = ZoteroClientAdapter(zotero_api_key, zotero_library_id)
-        notion_writer = NotionWriter(dry_run=False, client=notion_client, write_log=None)
-        zotero_writer = ZoteroWriter(dry_run=False, client=zotero_client, write_log=None)
+        notion_writer = NotionWriter(dry_run=False, client=notion_client, write_log=write_log)
+        zotero_writer = ZoteroWriter(dry_run=False, client=zotero_client, write_log=write_log)
     else:
         print("[DRY-RUN] sync")
         notion_writer = NotionWriter(dry_run=True, write_log=None)
@@ -866,10 +921,23 @@ def main(argv: Sequence[str] | None = None) -> int:
     df.add_argument("--updated", required=True)
     df.set_defaults(func=cmd_diff)
 
+    ps = sub.add_parser("plan-sync", help="Build a read-only sync plan from local Notion and Zotero snapshots")
+    ps.add_argument("--notion-dir", dest="notion_dir", default="data/pulled/notion/learning_analytics_review")
+    ps.add_argument("--zotero-dir", dest="zotero_dir", default="data/pulled/zotero")
+    ps.add_argument("--out", default="data/sync_plans/sync_plan.json")
+    ps.set_defaults(func=cmd_plan_sync)
+
+    ap = sub.add_parser("apply-plan", help="Dry-run or apply a reviewed sync plan")
+    ap.add_argument("--plan", default="data/sync_plans/sync_plan.json")
+    ap.add_argument("--apply", action="store_true", default=False)
+    ap.add_argument("--write-log-dir", dest="write_log_dir", default="logs/write_logs")
+    ap.set_defaults(func=cmd_apply_plan)
+
     sy = sub.add_parser("sync", help="Sync canonical bundles to Notion and Zotero")
     sy.add_argument("--notion-dir", dest="notion_dir", default="data/pulled/notion")
     sy.add_argument("--zotero-dir", dest="zotero_dir", default="data/pulled/zotero")
     sy.add_argument("--baseline-dir", dest="baseline_dir", default="data/sync_baseline")
+    sy.add_argument("--write-log-dir", dest="write_log_dir", default="logs/write_logs")
     sy.add_argument("--apply", action="store_true", default=False)
     sy.set_defaults(func=cmd_sync)
 

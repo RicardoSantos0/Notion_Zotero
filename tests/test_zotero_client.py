@@ -47,6 +47,18 @@ class TestZoteroClientAdapterUpdateItem:
 
         assert result == {"key": "ABCD1234"}
 
+    def test_version_guard_header_is_sent_when_provided(self):
+        from notion_zotero.connectors.zotero.client import ZoteroClientAdapter
+
+        adapter = ZoteroClientAdapter(api_key="zot-key", library_id="lib-999")
+        ok_resp = _make_response(200, {"key": "ABCD1234"})
+
+        with patch("requests.patch", return_value=ok_resp) as mock_patch:
+            adapter.update_item("ABCD1234", {"title": "x"}, version=123)
+
+        headers = mock_patch.call_args[1]["headers"]
+        assert headers["If-Unmodified-Since-Version"] == "123"
+
     def test_429_with_backoff_header_retries_and_succeeds(self):
         """429 with Backoff: 0 header on first call, 200 on second — two total calls."""
         from notion_zotero.connectors.zotero.client import ZoteroClientAdapter

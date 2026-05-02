@@ -4,6 +4,97 @@ All notable changes to notion_zotero are documented here.
 
 ---
 
+## [2026-05-02] Paper-ready summary tables, display policy, and reusable visualization
+
+### New features
+
+- **Read-only sync planning** (`services/sync_planner.py`, `plan-sync`):
+  Added a local snapshot planner that matches Notion and Zotero canonical bundles
+  by Zotero key, DOI, then title/authors. It writes an auditable JSON plan with
+  matched records, Zotero-owned metadata updates proposed for Notion, unmatched
+  records, and ambiguous candidates. The planner performs no live API calls.
+
+- **Reviewed plan application** (`services/sync_plan_applier.py`, `apply-plan`):
+  Added a dry-run-first command for reviewed sync plans. Apply mode is explicit,
+  requires `NOTION_API_KEY`, serializes Notion properties by type, and writes
+  append-only write-log entries.
+
+- **Notion/Zotero write-path hardening**:
+  Added typed Notion property serialization, configurable Notion property schema
+  support, Zotero version-guard headers (`If-Unmodified-Since-Version`), and
+  Zotero reader preservation of item version metadata.
+
+- **Zotero-only review actions**:
+  Sync plans now include non-executed review actions for Zotero records missing
+  from Notion, so Notion page creation remains visible without being automatic.
+
+- **Paper-facing task summary tables** (`analysis/paper_tables.py`):
+  Added a manuscript-oriented table builder that converts cleaned notebook summary
+  tables into one sheet per task (`PRED`, `DESC`, `KT`, `ERS`). Rows represent
+  distinct paper contributions, so the same paper can appear more than once when
+  it reports meaningfully different task-specific work.
+
+- **Camera-ready table columns**:
+  Added consistent paper-facing columns for algorithms/models, assessment strategy,
+  results, and limitations. KT tables now separate `Prior-model limitations`,
+  `New contribution`, and `Study limitations`.
+
+- **Prediction table split**:
+  Replaced the overloaded `Prediction task` output with:
+  - `Prediction task type`
+  - `Prediction target / timing`
+
+- **Reusable visualization helpers** (`analysis/visualization.py`):
+  Moved notebook chart/style logic into reusable, domain-agnostic functions for
+  multi-value trend preparation and plotting. Domain-specific task mappings,
+  labels, and palettes remain caller/notebook configuration.
+
+### Domain mappings and cleaning
+
+- **Domain-driven display policy** (`schemas/domain_packs/education_learning_analytics.py`):
+  Added conservative alias maps for algorithms, recommender algorithms, feature
+  categories, result metrics, prediction targets, KT targets, and recommendation
+  targets.
+
+- **RecSys algorithm display**:
+  ERS tables now scan recommender type, model/algorithm fields, initialization
+  details, update details, preprocessing details, and comments to surface more
+  explicit algorithm/model labels where the notes contain enough information.
+
+- **General text cleanup** (`core/text_utils.py`):
+  Added ellipsis-fragment cleanup for paper-facing prose while preserving numeric
+  ellipses such as `1, 2, ..., 10`.
+
+- **Integrated `to_integrate.py` selectively**:
+  Used its cleaning and harmonization ideas inside the existing table-generation
+  workflow instead of adding a separate workbook post-processing pass. Workbook
+  styling and feature-column deletion were intentionally not integrated.
+
+### Notebook and outputs
+
+- **Notebook updated** (`original_db_summary_analysis.ipynb`):
+  The notebook now imports and calls the reusable paper-table and visualization
+  helpers, then exports the paper-facing workbook from the same workflow.
+
+- **Workbook regenerated**:
+  `data/analysis_outputs/paper_task_summary_tables.xlsx` regenerated with:
+  - `PRED`: 181 rows x 13 columns
+  - `DESC`: 78 rows x 13 columns
+  - `KT`: 63 rows x 14 columns
+  - `ERS`: 44 rows x 13 columns
+  - `audit`: 2139 rows
+
+### Quality
+
+- Added focused tests for paper-table row merging/splitting, year/study sorting,
+  display-policy normalization, RecSys algorithm extraction, prediction-column
+  splitting, and ellipsis-fragment cleanup.
+
+- Full suite run from an external test environment outside the project `.venv`:
+  **381 passed, 83.77% coverage**.
+
+---
+
 ## [2026-04-27] Fixtures cleanup: unified data directory, path consolidation
 
 ### Breaking changes

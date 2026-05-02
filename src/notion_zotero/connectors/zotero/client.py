@@ -50,8 +50,11 @@ class ZoteroClientAdapter:
         stop=stop_after_attempt(4),
         reraise=True,
     )
-    def update_item(self, item_key: str, data: dict[str, Any]) -> Any:
+    def update_item(self, item_key: str, data: dict[str, Any], version: int | None = None) -> Any:
         url = f"{_ZOTERO_BASE}/users/{self._library_id}/items/{item_key}"
-        resp = requests.patch(url, headers=self._headers, json=data, timeout=30)
+        headers = dict(self._headers)
+        if version is not None:
+            headers["If-Unmodified-Since-Version"] = str(version)
+        resp = requests.patch(url, headers=headers, json=data, timeout=30)
         resp.raise_for_status()
         return resp.json()

@@ -10,6 +10,7 @@ from typing import TYPE_CHECKING
 from notion_zotero.core.models import Reference
 from notion_zotero.core.field_ownership import NOTION_OWNED, assert_ownership
 from notion_zotero.services.diff_engine import DiffReport
+from notion_zotero.writers.notion_properties import serialize_notion_properties
 
 if TYPE_CHECKING:
     from notion_zotero.core.protocols import NotionClientProtocol
@@ -35,12 +36,14 @@ class NotionWriter:
         staging_db_id: str | None = None,
         client: "NotionClientProtocol | None" = None,
         write_log: "WriteLog | None" = None,
+        property_schema: dict | None = None,
         rate_limit_sleep: float = 0.35,
     ) -> None:
         self.dry_run = dry_run
         self.staging_db_id = staging_db_id
         self._client = client
         self._write_log = write_log
+        self._property_schema = property_schema
         self._rate_limit_sleep = rate_limit_sleep
 
         if not dry_run and client is None:
@@ -102,7 +105,11 @@ class NotionWriter:
 
             try:
                 page_id = ref.id
-                self._client.pages.update(page_id, properties={entry.field: entry.new_value})
+                properties = serialize_notion_properties(
+                    {entry.field: entry.new_value},
+                    self._property_schema,
+                )
+                self._client.pages.update(page_id, properties=properties)
                 log_entry["status"] = "applied"
                 log.info("[APPLY] notion updated: %s", op)
             except Exception as exc:

@@ -98,7 +98,8 @@ class ZoteroWriter:
 
             try:
                 zotero_key = ref.zotero_key or ref.id
-                self._client.update_item(zotero_key, {entry.field: entry.new_value})
+                version = (ref.sync_metadata or {}).get("zotero", {}).get("version")
+                self._client.update_item(zotero_key, {entry.field: entry.new_value}, version=version)
                 log_entry["status"] = "applied"
                 log.info("[APPLY] zotero updated: %s", op)
             except Exception as exc:

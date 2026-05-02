@@ -177,6 +177,8 @@ class ZoteroReader:
             if k not in _KNOWN_ZOTERO_FIELDS:
                 log.warning("ZoteroReader: unmapped field '%s' in item %s", k, item_key)
 
+        version = data.get("version") or item.get("version")
+
         return Reference(
             id=item_key or data.get("key", ""),
             title=data.get("title") or None,
@@ -195,7 +197,7 @@ class ZoteroReader:
                 "domain_pack_id": "",
                 "domain_pack_version": "",
             },
-            sync_metadata={},
+            sync_metadata={"zotero": {"version": version}} if version is not None else {},
         )
 
 

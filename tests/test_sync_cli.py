@@ -6,6 +6,7 @@ env vars and cause silent live-network calls.
 """
 from __future__ import annotations
 
+import json
 import pytest
 from unittest.mock import patch, MagicMock
 
@@ -126,3 +127,85 @@ class TestSyncApplyModeWithEnvVars:
 
         captured = capsys.readouterr()
         assert "Sync complete" in captured.out
+
+
+class TestPlanSync:
+    def test_plan_sync_writes_read_only_plan(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        notion_dir = tmp_path / "notion"
+        zotero_dir = tmp_path / "zotero"
+        out = tmp_path / "plans" / "sync_plan.json"
+        notion_dir.mkdir()
+        zotero_dir.mkdir()
+
+        notion_bundle = {
+            "bundle_id": "N1",
+            "references": [
+                {
+                    "id": "N1",
+                    "title": "Old title",
+                    "authors": ["A. Researcher"],
+                    "year": 2020,
+                    "zotero_key": "Z1",
+                }
+            ],
+        }
+        zotero_bundle = {
+            "bundle_id": "Z1",
+            "references": [
+                {
+                    "id": "Z1",
+                    "title": "New title",
+                    "authors": ["A. Researcher"],
+                    "year": 2020,
+                    "zotero_key": "Z1",
+                }
+            ],
+        }
+        (notion_dir / "N1.canonical.json").write_text(json.dumps(notion_bundle), encoding="utf-8")
+        (zotero_dir / "Z1.canonical.json").write_text(json.dumps(zotero_bundle), encoding="utf-8")
+
+        main([
+            "plan-sync",
+            "--notion-dir",
+            str(notion_dir),
+            "--zotero-dir",
+            str(zotero_dir),
+            "--out",
+            str(out),
+        ])
+
+        captured = capsys.readouterr()
+        plan = json.loads(out.read_text(encoding="utf-8"))
+        assert "Sync plan written" in captured.out
+        assert "1 matched" in captured.out
+        assert plan["summary"]["operations"] == 1
+        assert plan["operations"][0]["operation"] == "update_notion_reference_field"
+
+    def test_apply_plan_dry_run_prints_operations(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        plan = {
+            "version": 1,
+            "operations": [
+                {
+                    "operation": "update_notion_reference_field",
+                    "target": "notion",
+                    "source": "zotero",
+                    "field": "title",
+                    "old_value": "Old",
+                    "new_value": "New",
+                    "notion_reference_id": "page-1",
+                    "reason": "zotero_owned_field",
+                }
+            ],
+        }
+        plan_path = tmp_path / "sync_plan.json"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        main(["apply-plan", "--plan", str(plan_path)])
+
+        captured = capsys.readouterr()
+        assert "[DRY-RUN] Planned 1 executable operation" in captured.out
+        assert "notion.update [page-1] title" in captured.out

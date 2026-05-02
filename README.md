@@ -60,6 +60,34 @@ After pulling, check sync status between the two sources:
 notion-zotero status
 ```
 
+To review proposed metadata changes before any live write path is enabled, build
+a read-only sync plan from local snapshots:
+
+```bash
+notion-zotero plan-sync
+```
+
+This writes `data/sync_plans/sync_plan.json` with matched records, unmatched
+records, ambiguous matches, and proposed Zotero-owned metadata updates for
+Notion. It also lists review-only actions for Zotero records that may need new
+Notion pages. The command does not call live APIs.
+
+To inspect executable plan operations without writing to Notion:
+
+```bash
+notion-zotero apply-plan
+```
+
+After reviewing the JSON plan, apply the executable Notion metadata updates with:
+
+```bash
+notion-zotero apply-plan --apply
+```
+
+Apply mode requires `NOTION_API_KEY` and writes an append-only session log under
+`logs/write_logs/`. Notion page creation for Zotero-only records is intentionally
+left as a review action in the plan, not an automatic write.
+
 ---
 
 ### 2 — Analysis reports (no network required)
@@ -86,6 +114,40 @@ notion-zotero report-provenance
 All report commands default to `data/pulled/notion/learning_analytics_review`. Pass `--input <path>` to point at a different directory.
 
 The Jupyter notebook `original_db_summary_analysis.ipynb` also loads from `data/pulled/notion/learning_analytics_review/` and provides an interactive exploration view. Run `pull-notion` first.
+
+The notebook now also builds paper-facing summary tables from the cleaned task
+tables. These tables are intended for manuscript review/supplement use rather
+than raw extraction auditing:
+
+```python
+from notion_zotero.analysis.paper_tables import build_paper_summary_dataframes
+
+paper_task_tables, paper_task_audit = build_paper_summary_dataframes(
+    cleaned_dfs,
+    task_tables={"PRED": "PRED", "DESC": "DESC", "KT": "KT", "REC": "ERS"},
+    include_title=True,
+)
+```
+
+The exported workbook is:
+
+```
+data/analysis_outputs/paper_task_summary_tables.xlsx
+```
+
+It contains one sheet per task (`PRED`, `DESC`, `KT`, `ERS`) plus an `audit`
+sheet. Rows are paper-level contribution summaries: the same paper can appear
+more than once in the same task sheet when it reports distinct task-specific
+methods, targets, or evidence.
+
+Paper-table display policy includes:
+
+- year-first, study-label-second sorting;
+- standardized algorithms/models, features, assessment strategies, results, and limitations;
+- explicit RecSys algorithm/model extraction from recommender type, method notes,
+  initialization details, update details, preprocessing details, and comments;
+- split prediction columns: `Prediction task type` and `Prediction target / timing`;
+- KT-specific columns for prior-model limitations, new contribution, and study limitations.
 
 ---
 
@@ -149,6 +211,8 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 | `pull-notion` | → `data/pulled/notion/<name>/` | Pull live Notion database pages |
 | `pull-zotero` | → `data/pulled/zotero/` | Pull live Zotero library items |
 | `status` | reads `data/pulled/` | Show sync status between Notion and Zotero data |
+| `plan-sync` | `data/pulled/notion/learning_analytics_review` + `data/pulled/zotero` → `data/sync_plans/sync_plan.json` | Build a read-only review plan before synchronization |
+| `apply-plan` | `data/sync_plans/sync_plan.json` | Dry-run or apply reviewed sync-plan operations |
 | `report-by-year` | `data/pulled/notion/learning_analytics_review` | Reference counts by publication year |
 | `report-by-journal` | `data/pulled/notion/learning_analytics_review` | Reference counts by journal/venue |
 | `report-doi-coverage` | `data/pulled/notion/learning_analytics_review` | DOI coverage rate across bundles |
@@ -169,6 +233,9 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 
 ```
 data/
+  analysis_outputs/
+    paper_task_summary_tables.xlsx  ← manuscript-oriented task summary workbook
+    data_source_summary.xlsx        ← normalized data-source summary output
   pulled/
     notion/
       learning_analytics_review/   ← one .canonical.json per Notion page (gitignored)
@@ -192,8 +259,13 @@ tests/
 connectors/
   notion/reader.py    ← live Notion API, cursor pagination, tenacity retry
   zotero/reader.py    ← live Zotero API, offset pagination, tenacity retry
+analysis/
+  paper_tables.py     ← paper-facing task summary tables + display policy
+  visualization.py    ← reusable, domain-agnostic notebook plotting helpers
+  table_normalization.py ← task/value normalization helpers driven by domain packs
 core/
   models.py           ← canonical Reference + WorkflowState + ReferenceTask
+  text_utils.py       ← reusable text cleanup, typo fixes, search-string normalization
   exceptions.py       ← ConfigurationError, NotionZoteroError
 schemas/
   domain_packs/       ← pluggable extraction rule sets (education_learning_analytics, ...)
@@ -212,11 +284,23 @@ Rate limiting is handled automatically: the Notion connector reads `retry_after`
 ## Testing
 
 ```bash
-pytest -q                          # full suite (304 tests)
-pytest --cov=notion_zotero -q      # with coverage (CI enforces >= 80%)
+pytest -q                          # full suite
+pytest --cov=src/notion_zotero -q  # with coverage (CI enforces >= 80%)
 ```
 
 Integration tests (marked `pytest.mark.integration`) require live API credentials or pre-populated `data/pulled/` directories. Run unit tests only with `pytest -q --ignore=tests/integration`.
+
+On this OneDrive path, if the project `.venv` or `uv run` hangs, use an
+external throwaway environment outside the repository:
+
+```powershell
+py -3.12 -m venv C:\Users\ricar\Documents\codex-test-env-notion-zotero
+C:\Users\ricar\Documents\codex-test-env-notion-zotero\Scripts\python.exe -m pip install -e ".[test,analysis]"
+$env:PYTHONPATH='src'
+C:\Users\ricar\Documents\codex-test-env-notion-zotero\Scripts\python.exe -m pytest tests -q
+```
+
+Latest external-env suite result: **381 passed, 83.77% coverage**.
 
 ---
 

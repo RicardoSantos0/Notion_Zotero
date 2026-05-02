@@ -161,6 +161,7 @@ def test_get_items_retry_exhausted():
 def test_to_reference_maps_fields():
     reader = _make_zotero_reader()
     item = _make_journal_article("ABC123")
+    item["data"]["version"] = 12
 
     ref = reader.to_reference(item)
 
@@ -176,6 +177,7 @@ def test_to_reference_maps_fields():
     assert "machine learning" in ref.tags
     assert ref.zotero_key == "ABC123"
     assert ref.provenance["source_system"] == "zotero"
+    assert ref.sync_metadata["zotero"]["version"] == 12
 
 
 # ---------------------------------------------------------------------------

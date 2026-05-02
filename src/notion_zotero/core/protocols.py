@@ -19,10 +19,10 @@ class ZoteroClientProtocol(Protocol):
     """Contract for the Zotero client injected into ZoteroWriter.
 
     ZoteroWriter calls exactly one method on the client:
-        client.update_item(item_key: str, data: dict[str, Any]) -> Any
+        client.update_item(item_key: str, data: dict[str, Any], version: int | None = None) -> Any
     """
 
-    def update_item(self, item_key: str, data: dict[str, Any]) -> Any: ...
+    def update_item(self, item_key: str, data: dict[str, Any], version: int | None = None) -> Any: ...
 
 
 class NotionPagesProtocol(Protocol):
