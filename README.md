@@ -243,6 +243,10 @@ data/
     zotero/                         ← one .canonical.json per Zotero item (gitignored)
   raw/
     notion/                         ← raw Notion page exports for offline parsing (gitignored)
+  sync_plans/
+    sync_plan.json                  ← generated review plan from plan-sync (gitignored)
+logs/
+  write_logs/                       ← append-only NDJSON logs for apply mode (gitignored)
 tests/
   fixtures/
     golden/                         ← curated canonical bundles for regression tests (tracked)
@@ -272,12 +276,59 @@ schemas/
   task_registry.py    ← domain pack loading, task resolution
 services/
   reading_list_importer.py  ← raw page export → canonical pipeline (offline mode)
+  sync_planner.py           ← local Notion/Zotero snapshot matching + review plan
+  sync_plan_applier.py      ← dry-run/apply reviewed plan operations
+writers/
+  notion_properties.py      ← typed Notion property serialization
+  notion_writer.py          ← Notion apply path with write-log support
+  zotero_writer.py          ← Zotero apply path with version guards
 cli.py                ← all subcommands (argparse)
 ```
 
 Each canonical bundle is a JSON file containing `references`, `tasks`, `reference_tasks`, `task_extractions`, `workflow_states`, and `annotations`. Every bundle is stamped with `provenance` (`source_id`, `source_system`, `domain_pack_id`, `domain_pack_version`) so consumers can detect when re-extraction is needed.
 
 Rate limiting is handled automatically: the Notion connector reads `retry_after` from 429 response bodies; the Zotero connector reads the `Backoff` response header. Both use [tenacity](https://github.com/jd/tenacity) with 3 retry attempts.
+
+---
+
+## Sync safety model
+
+The package uses a review-first sync workflow:
+
+1. `pull-notion` and `pull-zotero` create local canonical snapshots.
+2. `plan-sync` compares those snapshots and writes a JSON plan.
+3. `apply-plan` previews executable operations without network writes.
+4. `apply-plan --apply` applies reviewed Notion metadata updates and writes an
+   append-only NDJSON write log.
+
+Current executable plan operations update Notion bibliographic metadata from
+Zotero-owned fields. Zotero-only records are surfaced as `needs_review` actions
+for possible Notion page creation; they are not automatically created. Zotero
+writes use item version guards when version metadata is available.
+
+---
+
+## Suggested next improvements
+
+The package is now in a solid review-first state. The highest-value next steps are:
+
+- **Schema-driven Notion mapping:** fetch the active Notion database schema and
+  use it to configure property names/types instead of relying on default field
+  names.
+- **Reviewed page creation:** add an explicit `create-page` operation for
+  Zotero-only records, with duplicate checks and a required review marker.
+- **Typed sync-plan models:** represent plans and operations with Pydantic models
+  so malformed or old plan versions fail early with clear messages.
+- **Plan review reports:** generate a Markdown or Excel review report from
+  `sync_plan.json` for easier inspection before apply mode.
+- **Restore/rollback helper:** read write logs and produce a human-reviewable
+  rollback plan for recently applied Notion updates.
+- **Configuration file:** add a project config file for default paths, domain
+  pack, Notion property schema, and sync policy.
+- **Notebook pipeline command:** expose the paper-table workbook generation as a
+  CLI command so the notebook and command-line workflow stay aligned.
+- **CI polish:** run focused sync-plan tests separately from the full suite and
+  add fixture-based regression plans for common Notion/Zotero drift cases.
 
 ---
 
@@ -300,7 +351,7 @@ $env:PYTHONPATH='src'
 C:\Users\ricar\Documents\codex-test-env-notion-zotero\Scripts\python.exe -m pytest tests -q
 ```
 
-Latest external-env suite result: **381 passed, 83.77% coverage**.
+Latest external-env suite result: **395 passed, 84.02% coverage**.
 
 ---
 

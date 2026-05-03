@@ -723,6 +723,8 @@ def _base_output_row(
         out["Paper title"] = _display_value(reference.get("title") or fallback_title)
     out.update(
         {
+            "Learner representation": _display_value(reference.get("Learner Representation")),
+            "Work nature": _display_value(reference.get("Work Nature")),
             "Context": _normalize_values(
                 rows,
                 ela.CONTEXT_COLUMN_CANDIDATES,
@@ -832,7 +834,6 @@ def _build_desc_row(
                 max_chars=100,
             ),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
-            "Features / variables": _format_features(rows, audit_rows, task, paper_id),
             "Results / patterns": _merge_raw_fields(
                 rows,
                 ["Groups Created", "Cluster Description", "Performance Metric: Best Model"],
@@ -926,7 +927,6 @@ def _build_pred_row(
         {
             "Prediction task type": _prediction_task_type(rows, audit_rows, task, paper_id),
             "Prediction target / timing": _prediction_target_timing(rows, audit_rows, task, paper_id),
-            "Features": _format_features(rows, audit_rows, task, paper_id),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
                 rows,
@@ -977,7 +977,6 @@ def _build_kt_row(
                 ela.KT_TARGET_ALIAS_PATTERNS,
             ),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
-            "Features / representations": _format_features(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
                 rows,
                 ela.ASSESSMENT_STRATEGY_COLUMN_CANDIDATES,
