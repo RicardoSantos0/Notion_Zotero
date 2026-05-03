@@ -25,7 +25,7 @@ from notion_zotero.schemas.domain_packs import education_learning_analytics as e
 
 
 DEFAULT_MAX_CELL_CHARS = 180
-DEFAULT_NARRATIVE_MAX_CHARS = 220
+DEFAULT_NARRATIVE_MAX_CHARS = 5120
 DEFAULT_MAX_LIST_ITEMS = 8
 DEFAULT_MAX_RESULT_ITEMS = 4
 
@@ -427,7 +427,7 @@ def _format_results(
         task,
         paper_id,
         "Results",
-        max_chars=500,
+        max_chars=1000,
     )
     snippets = _extract_metric_snippets(raw_text)
     if snippets:
@@ -438,9 +438,9 @@ def _format_results(
             paper_id,
             "Results",
             max_items=DEFAULT_MAX_RESULT_ITEMS,
-            max_chars=180,
+            max_chars=1000,
         )
-    display, shortened = _shorten(raw_text, max_chars=180)
+    display, shortened = _shorten(raw_text, max_chars=1000)
     if shortened:
         audit_rows.append(
             {
@@ -792,7 +792,7 @@ def _build_ers_row(
             "Algorithms / models": _format_recommender_algorithms(rows, audit_rows, task, paper_id),
             "Results": _format_results(rows, audit_rows, task, paper_id, ("Evaluation",)),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
             ),
             "Key implementation note": _merge_raw_fields(
                 rows,
@@ -801,7 +801,7 @@ def _build_ers_row(
                 task,
                 paper_id,
                 "Key implementation note",
-                220,
+                500,
             ),
         }
     )
@@ -841,7 +841,7 @@ def _build_desc_row(
                 task,
                 paper_id,
                 "Results / patterns",
-                160,
+                400,
             ),
             "Theoretical grounding": _normalize_values(
                 rows,
@@ -854,10 +854,10 @@ def _build_desc_row(
                 max_chars=120,
             ),
             "Main result / implication": _merge_raw_fields(
-                rows, ["Implications", "Comments"], audit_rows, task, paper_id, "Main result / implication", 220
+                rows, ["Implications", "Comments"], audit_rows, task, paper_id, "Main result / implication", 1000
             ),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
             ),
         }
     )
@@ -940,7 +940,7 @@ def _build_pred_row(
             ),
             "Results": _format_results(rows, audit_rows, task, paper_id),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 180
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
             ),
         }
     )
@@ -995,7 +995,7 @@ def _build_kt_row(
                 task,
                 paper_id,
                 "Prior-model limitations",
-                180,
+                500,
             ),
             "New contribution": _merge_raw_fields(
                 rows,
@@ -1004,10 +1004,10 @@ def _build_kt_row(
                 task,
                 paper_id,
                 "New contribution",
-                220,
+                500,
             ),
             "Study limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Study limitations", 180
+                rows, ["Limitations"], audit_rows, task, paper_id, "Study limitations", 1000
             ),
         }
     )
