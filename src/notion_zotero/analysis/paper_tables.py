@@ -427,7 +427,7 @@ def _format_results(
         task,
         paper_id,
         "Results",
-        max_chars=1000,
+        max_chars=DEFAULT_NARRATIVE_MAX_CHARS,
     )
     snippets = _extract_metric_snippets(raw_text)
     if snippets:
@@ -438,9 +438,9 @@ def _format_results(
             paper_id,
             "Results",
             max_items=DEFAULT_MAX_RESULT_ITEMS,
-            max_chars=1000,
+            max_chars=DEFAULT_NARRATIVE_MAX_CHARS,
         )
-    display, shortened = _shorten(raw_text, max_chars=1000)
+    display, shortened = _shorten(raw_text, max_chars=DEFAULT_NARRATIVE_MAX_CHARS)
     if shortened:
         audit_rows.append(
             {
@@ -792,7 +792,7 @@ def _build_ers_row(
             "Algorithms / models": _format_recommender_algorithms(rows, audit_rows, task, paper_id),
             "Results": _format_results(rows, audit_rows, task, paper_id, ("Evaluation",)),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", DEFAULT_NARRATIVE_MAX_CHARS
             ),
             "Key implementation note": _merge_raw_fields(
                 rows,
@@ -854,10 +854,10 @@ def _build_desc_row(
                 max_chars=120,
             ),
             "Main result / implication": _merge_raw_fields(
-                rows, ["Implications", "Comments"], audit_rows, task, paper_id, "Main result / implication", 1000
+                rows, ["Implications", "Comments"], audit_rows, task, paper_id, "Main result / implication", DEFAULT_NARRATIVE_MAX_CHARS
             ),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", DEFAULT_NARRATIVE_MAX_CHARS
             ),
         }
     )
@@ -940,7 +940,7 @@ def _build_pred_row(
             ),
             "Results": _format_results(rows, audit_rows, task, paper_id),
             "Limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", 1000
+                rows, ["Limitations"], audit_rows, task, paper_id, "Limitations", DEFAULT_NARRATIVE_MAX_CHARS
             ),
         }
     )
@@ -1007,7 +1007,7 @@ def _build_kt_row(
                 500,
             ),
             "Study limitations": _merge_raw_fields(
-                rows, ["Limitations"], audit_rows, task, paper_id, "Study limitations", 1000
+                rows, ["Limitations"], audit_rows, task, paper_id, "Study limitations", DEFAULT_NARRATIVE_MAX_CHARS
             ),
         }
     )
