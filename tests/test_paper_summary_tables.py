@@ -344,3 +344,40 @@ def test_paper_summary_dataframe_wrapper_reports_missing_pandas(monkeypatch):
         assert "pandas is required" in str(exc)
     else:
         raise AssertionError("Expected ImportError")
+
+
+def test_write_paper_summary_workbook_creates_task_and_audit_sheets(tmp_path):
+    import pytest
+
+    pytest.importorskip("pandas")
+    pytest.importorskip("openpyxl")
+    from openpyxl import load_workbook
+    from notion_zotero.analysis.paper_tables import write_paper_summary_workbook
+
+    out = tmp_path / "paper_tables.xlsx"
+    written = write_paper_summary_workbook(
+        {
+            "Reading List": [
+                {
+                    "page_id": "paper-1",
+                    "title": "Prediction Paper",
+                    "authors": "Smith et al.",
+                    "year": "2024",
+                }
+            ],
+            "PRED": [
+                {
+                    "source_page_id": "paper-1",
+                    "Task": "Classification",
+                    "Target": "Pass vs Fail",
+                    "Features": "Gender, LMS clicks",
+                }
+            ],
+        },
+        out,
+    )
+
+    assert written == out
+    workbook = load_workbook(out, read_only=True)
+    assert "PRED" in workbook.sheetnames
+    assert "audit" in workbook.sheetnames

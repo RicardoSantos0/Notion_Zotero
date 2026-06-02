@@ -41,6 +41,7 @@ from notion_zotero.analysis.table_normalization import (
 from notion_zotero.analysis.paper_tables import (
     build_paper_summary_tables,
     build_paper_summary_dataframes,
+    write_paper_summary_workbook,
 )
 from notion_zotero.analysis.visualization import (
     parse_list_like_cell,
@@ -130,6 +131,7 @@ __all__ = [
     "build_task_value_count_table",
     "build_paper_summary_tables",
     "build_paper_summary_dataframes",
+    "write_paper_summary_workbook",
     "parse_list_like_cell",
     "map_value_to_group",
     "build_multivalue_trend",

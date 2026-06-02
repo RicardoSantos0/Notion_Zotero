@@ -57,6 +57,7 @@ def test_build_sync_plan_matches_by_zotero_key_and_plans_zotero_owned_update(tmp
     assert plan["summary"]["matched"] == 1
     assert plan["summary"]["operations"] == 1
     assert plan["matches"][0]["match_key"] == {"type": "zotero_key", "value": "zot1"}
+    assert plan["matches"][0]["match_confidence"] == "strong"
     assert plan["operations"][0]["target"] == "notion"
     assert plan["operations"][0]["source"] == "zotero"
     assert plan["operations"][0]["field"] == "title"
@@ -83,6 +84,77 @@ def test_build_sync_plan_reports_records_only_present_in_one_source(tmp_path):
     assert plan["only_zotero"][0]["reference_id"] == "Z1"
     assert plan["review_actions"][0]["operation"] == "create_notion_page_from_zotero_record"
     assert plan["review_actions"][0]["status"] == "needs_review"
+
+
+def test_build_sync_plan_falls_back_to_title_when_authors_are_abbreviated(tmp_path):
+    from notion_zotero.services.sync_planner import build_sync_plan
+
+    notion_dir = tmp_path / "notion"
+    zotero_dir = tmp_path / "zotero"
+    _write_bundle(
+        notion_dir,
+        "notion-ref",
+        {
+            "id": "N1",
+            "title": "Contrastive Personalized Exercise Recommendation With Reinforcement Learning",
+            "authors": ["Wu et al."],
+            "year": 2024,
+        },
+    )
+    _write_bundle(
+        zotero_dir,
+        "zotero-ref",
+        {
+            "id": "Z1",
+            "title": "Contrastive Personalized Exercise Recommendation With Reinforcement Learning",
+            "authors": ["Wu", "Chen", "Liu"],
+            "year": 2024,
+            "zotero_key": "ZOT1",
+        },
+    )
+
+    plan = build_sync_plan(notion_dir, zotero_dir)
+
+    assert plan["summary"]["matched"] == 1
+    assert plan["matches"][0]["match_key"] == {
+        "type": "title",
+        "value": "contrastive personalized exercise recommendation with reinforcement learning",
+    }
+    assert plan["matches"][0]["match_confidence"] == "weak"
+
+
+def test_build_sync_plan_rejects_title_only_match_when_years_conflict(tmp_path):
+    from notion_zotero.services.sync_planner import build_sync_plan
+
+    notion_dir = tmp_path / "notion"
+    zotero_dir = tmp_path / "zotero"
+    _write_bundle(
+        notion_dir,
+        "notion-ref",
+        {
+            "id": "N1",
+            "title": "Shared Title",
+            "authors": ["Notion Author"],
+            "year": 2020,
+        },
+    )
+    _write_bundle(
+        zotero_dir,
+        "zotero-ref",
+        {
+            "id": "Z1",
+            "title": "Shared Title",
+            "authors": ["Zotero Author"],
+            "year": 2024,
+        },
+    )
+
+    plan = build_sync_plan(notion_dir, zotero_dir)
+
+    assert plan["summary"]["matched"] == 0
+    assert plan["summary"]["operations"] == 0
+    assert plan["summary"]["ambiguous"] == 1
+    assert plan["ambiguous"][0]["reason"] == "title_year_conflict"
 
 
 def test_build_sync_plan_marks_multiple_notion_candidates_as_ambiguous(tmp_path):

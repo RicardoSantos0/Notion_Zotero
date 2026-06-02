@@ -2,6 +2,8 @@ notion-client<3.0
 python-dotenv
 pydantic
 pytest
+pytest-cov
+pyyaml
 
 # Notebook / analysis runtime dependencies
 pandas
@@ -13,6 +15,7 @@ jupyterlab
 nbclient
 nbformat
 matplotlib
+openpyxl
 seaborn
 spacy
 nltk

@@ -892,6 +892,155 @@ PREDICTION_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
     ],
 }
 
+# ---------------------------------------------------------------------------
+# Prediction horizon: short-term vs long-term outcome scope
+# Applied to: "Student Performance Definition" + "Target" columns in PRED table
+# ---------------------------------------------------------------------------
+PREDICTION_HORIZON_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Short-term": [
+        r"assignment",
+        r"quiz",
+        r"weekly",
+        r"module",
+        r"exercise",
+        r"activity",
+        r"submission",
+        r"attempt",
+        r"session",
+        r"daily",
+        r"next.*question",
+        r"question.*correct",
+        r"course.*completion",
+        r"pass or fail",
+        r"pass/fail",
+        r"final.*grade",
+        r"final.*mark",
+        r"final.*score",
+        r"course.*grade",
+        r"exam.*score",
+        r"gpa",
+    ],
+    "Long-term": [
+        r"dropout",
+        r"drop out",
+        r"drop-out",
+        r"retention",
+        r"graduation",
+        r"graduate",
+        r"degree",
+        r"program.*complet",
+        r"persist",
+        r"multi.?year",
+        r"transfer",
+        r"enroll",
+        r"at.?risk.*program",
+    ],
+    "Both": [
+        r"short.*long",
+        r"course.*program",
+        r"immediate.*long.?term",
+        r"both.*horizon",
+    ],
+}
+
+# Column candidates for prediction horizon normalization
+PREDICTION_HORIZON_COLUMN_CANDIDATES: list[str] = [
+    "Student Performance Definition",
+    "student_performance_definition",
+    "performance_definition",
+    "Target",
+    "target",
+]
+
+# ---------------------------------------------------------------------------
+# Prediction moment / timing — when in the course lifecycle is prediction made
+# Applied to: "Moment of Prediction" column in PRED table
+# ---------------------------------------------------------------------------
+PREDICTION_MOMENT_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Pre-course / At enrollment": [
+        r"before.*course",
+        r"pre.?course",
+        r"at.*enroll",
+        r"enroll.*time",
+        r"admission",
+        r"registration",
+        r"demographic",
+        r"prior.*data",
+    ],
+    "Early in course (weeks 1-4)": [
+        r"week\s*[1-4]\b",
+        r"first\s*(week|month|two weeks|few weeks)",
+        r"early\s*(in|prediction|stage)",
+        r"beginning\s*of\s*(the\s*)?course",
+        r"start\s*of\s*(the\s*)?course",
+        r"initial\s*(week|period)",
+        r"first\s*(quarter|third)",
+    ],
+    "Mid-course (weeks 5+)": [
+        r"week\s*[5-9]\b",
+        r"week\s*1[0-9]\b",
+        r"midterm",
+        r"mid.?course",
+        r"halfway",
+        r"during\s*(the\s*)?course",
+        r"every\s*week",
+        r"weekly",
+        r"ongoing",
+        r"continuous",
+        r"throughout",
+        r"each\s*week",
+        r"after\s*(each|every)\s*(week|module|assignment)",
+    ],
+    "End of course / post-course": [
+        r"end\s*of\s*(the\s*)?course",
+        r"after\s*(the\s*)?course",
+        r"post.?course",
+        r"final\s*(week|exam|assessment)",
+        r"semester\s*end",
+        r"course\s*complet",
+        r"after\s*graduation",
+        r"program\s*end",
+    ],
+}
+
+# Column candidates for prediction moment normalization
+PREDICTION_MOMENT_COLUMN_CANDIDATES: list[str] = [
+    "Moment of Prediction",
+    "moment_of_prediction",
+    "prediction_moment",
+    "timing",
+]
+
+# ---------------------------------------------------------------------------
+# Deployed / Deployable — real-world application status of the model
+# Applied to: "Deployed/ Deployable" page-level Notion property
+# ---------------------------------------------------------------------------
+DEPLOYED_STATUS_ALIAS_PATTERNS: dict[str, list[str]] = {
+    "Deployed by Instructor": [
+        r"deployed\s*by\s*instructor",
+        r"instructor.*deploy",
+        r"classroom.*deploy",
+        r"used\s*in\s*(production|practice)",
+    ],
+    "Prototype": [
+        r"prototype",
+        r"proof\s*of\s*concept",
+        r"poc",
+        r"demo",
+    ],
+    "Not Ready": [
+        r"not\s*ready",
+        r"not\s*deploy",
+        r"future\s*work",
+        r"research\s*only",
+    ],
+    "Out of Scope": [
+        r"out\s*of\s*scope",
+        r"n/?a",
+        r"not\s*applicable",
+    ],
+}
+
 KT_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
     "Predict the probability that the student will answer the next question correctly": [
         r"probability.*next.*(question|item|problem).*(correct|success)",
@@ -1074,6 +1223,11 @@ __all__ = [
     "RECOMMENDER_ALGORITHM_ALIAS_PATTERNS",
     "FEATURE_CATEGORY_ALIAS_PATTERNS",
     "PREDICTION_TARGET_ALIAS_PATTERNS",
+    "PREDICTION_HORIZON_ALIAS_PATTERNS",
+    "PREDICTION_HORIZON_COLUMN_CANDIDATES",
+    "PREDICTION_MOMENT_ALIAS_PATTERNS",
+    "PREDICTION_MOMENT_COLUMN_CANDIDATES",
+    "DEPLOYED_STATUS_ALIAS_PATTERNS",
     "KT_TARGET_ALIAS_PATTERNS",
     "RECOMMENDATION_TARGET_ALIAS_PATTERNS",
     "RESULT_METRIC_LABELS",

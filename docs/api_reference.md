@@ -172,6 +172,13 @@ build_summary_dataframes(bundles, task_label_fn=None) -> dict[str, pd.DataFrame]
 Same as above, wrapped in `pd.DataFrame`. Requires `pandas`.
 
 ```python
+write_paper_summary_workbook(dfs, output_path="data/analysis_outputs/paper_task_summary_tables.xlsx", include_title=True) -> Path
+```
+Build paper-facing task summary tables from cleaned analysis tables and write
+one Excel sheet per task plus an `audit` sheet. Requires `pandas` and an Excel
+writer engine such as `openpyxl`.
+
+```python
 clean_table(df, typo_fixes=None, value_map=None, search_strategy_columns=None) -> tuple[pd.DataFrame, dict]
 ```
 Clean a summary DataFrame: normalise typos, apply value maps, standardise search strings.
@@ -197,15 +204,21 @@ Maps a task name to a short display label using the `education_learning_analytic
 
 ```
 notion-zotero pull-notion                # pull live Notion DB into canonical bundles
-  --name <subfolder>                     #   target subfolder under data/pulled/notion
-  --database-id <id>                     #   override NOTION_DATABASE_ID from .env
-  --skip-blocks                          #   metadata-only (faster, no tables/blocks)
-notion-zotero list-domain-packs          # list registered domain packs
-notion-zotero list-templates             # list registered extraction templates
-notion-zotero parse-fixtures             # parse reading list fixtures
-notion-zotero validate-fixtures          # validate canonical fixture files
+notion-zotero pull-zotero                # pull live Zotero library into canonical bundles
+notion-zotero status                     # compare live Zotero/Notion records
+notion-zotero plan-sync                  # build local review-first sync_plan.json
+notion-zotero apply-plan                 # dry-run reviewed sync-plan operations
+notion-zotero apply-plan --apply         # apply reviewed Notion metadata updates
+notion-zotero diff                       # diff two canonical bundle directories
+notion-zotero sync                       # lower-level writer workflow
+notion-zotero report-*                   # offline analysis reports
+notion-zotero paper-summary-tables       # write paper-facing workbook + audit sheet
+notion-zotero parse-fixtures             # parse local Notion exports
 notion-zotero merge-canonical            # merge per-page canonical files
 notion-zotero dedupe-canonical           # deduplicate merged canonical
+notion-zotero validate-fixtures          # validate canonical fixture files
+notion-zotero list-domain-packs          # list registered domain packs
+notion-zotero list-templates             # list registered extraction templates
 notion-zotero zotero-citation --file F   # print citation for item
-notion-zotero export-snapshot            # export Notion DB snapshot
+notion-zotero export-snapshot            # legacy snapshot export helper
 ```

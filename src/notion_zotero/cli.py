@@ -15,6 +15,14 @@ from typing import Any, Sequence
 log = logging.getLogger(__name__)
 
 
+def _load_dotenv_for_cli() -> None:
+    """Load .env for normal CLI use, but not during pytest isolation."""
+    if os.environ.get("PYTEST_CURRENT_TEST") and not os.environ.get("NOTION_ZOTERO_LOAD_DOTENV_IN_TESTS"):
+        return
+    from dotenv import load_dotenv
+    load_dotenv()
+
+
 def _call_func_with_argv(func, argv: Sequence[str]):
     old_argv = sys.argv
     try:
@@ -270,9 +278,23 @@ def cmd_report_task_counts(args):
         print("No task extractions found.")
 
 
+def cmd_paper_summary_tables(args):
+    from notion_zotero.analysis import run_analysis, task_label_fn, write_paper_summary_workbook
+
+    _raw_dfs, clean_dfs, _norm_log = run_analysis(
+        args.input or "data/pulled/notion/learning_analytics_review",
+        task_label_fn=task_label_fn,
+    )
+    out_path = write_paper_summary_workbook(
+        clean_dfs,
+        args.out,
+        include_title=not getattr(args, "no_title", False),
+    )
+    print(f"Paper summary workbook written: {out_path}")
+
+
 def cmd_pull_zotero(args):
-    from dotenv import load_dotenv
-    load_dotenv()
+    _load_dotenv_for_cli()
 
     if getattr(args, "detect_library_id", False):
         import requests as _req
@@ -444,8 +466,7 @@ def _blocks_to_fixture_parts(blocks: list[dict], reader: Any) -> tuple[list[dict
 
 
 def cmd_pull_notion(args):
-    from dotenv import load_dotenv
-    load_dotenv()
+    _load_dotenv_for_cli()
 
     try:
         from notion_zotero.connectors.notion.reader import NotionReader, ConfigurationError
@@ -615,16 +636,15 @@ def cmd_pull_notion(args):
 
 
 def cmd_status(args):
-    from dotenv import load_dotenv
-    load_dotenv()
+    _load_dotenv_for_cli()
 
     import os
     from notion_zotero.connectors.zotero.reader import ZoteroReader
     from notion_zotero.connectors.notion.reader import NotionReader
+    from notion_zotero.services.sync_planner import compare_references
 
     # Pull Zotero
-    zotero_count = 0
-    zotero_keys: set[str] = set()
+    zotero_refs: list[dict[str, Any]] = []
     try:
         z_reader = ZoteroReader()
         limit = getattr(args, "zotero_limit", None) or 500
@@ -632,16 +652,14 @@ def cmd_status(args):
         for item in items:
             try:
                 ref = z_reader.to_reference(item)
-                zotero_keys.add(ref.zotero_key or ref.id)
+                zotero_refs.append(ref.model_dump())
             except Exception:
                 pass
-        zotero_count = len(zotero_keys)
     except Exception as exc:
         print(f"Warning: could not reach Zotero: {exc}", file=sys.stderr)
 
     # Pull Notion
-    notion_count = 0
-    notion_keys: set[str] = set()
+    notion_refs: list[dict[str, Any]] = []
     database_id = getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID")
     if not database_id:
         print("Warning: NOTION_DATABASE_ID not set — skipping Notion.", file=sys.stderr)
@@ -652,23 +670,21 @@ def cmd_status(args):
             for page in pages:
                 try:
                     ref = n_reader.to_reference(page)
-                    notion_keys.add(ref.zotero_key if ref.zotero_key else ref.id)
+                    notion_refs.append(ref.model_dump())
                 except Exception:
                     pass
-            notion_count = len(notion_keys)
         except Exception as exc:
             print(f"Warning: could not reach Notion: {exc}", file=sys.stderr)
 
-    matched = zotero_keys & notion_keys
-    only_zotero = zotero_keys - notion_keys
-    only_notion = notion_keys - zotero_keys
+    summary = compare_references(notion_refs, zotero_refs)["summary"]
 
-    print(f"Zotero library:   {zotero_count:>4} items")
-    print(f"Notion database:  {notion_count:>4} pages")
+    print(f"Zotero library:   {len(zotero_refs):>4} items")
+    print(f"Notion database:  {len(notion_refs):>4} pages")
     print()
-    print(f"Matched (in both): {len(matched)}")
-    print(f"Only in Zotero:    {len(only_zotero)}  (not yet synced to Notion)")
-    print(f"Only in Notion:    {len(only_notion)}  (no Zotero key — manual entries or missing link)")
+    print(f"Matched (in both): {summary['matched']}")
+    print(f"Only in Zotero:    {summary['only_zotero']}  (not yet synced to Notion)")
+    print(f"Only in Notion:    {summary['only_notion']}  (no Zotero key — manual entries or missing link)")
+    print(f"Ambiguous matches: {summary['ambiguous']}  (review duplicate candidate matches)")
     print()
     print("Run 'notion-zotero pull-zotero' and 'notion-zotero pull-notion' to save locally.")
     print("Run 'notion-zotero report-by-year --input data/pulled/zotero' to analyse.")
@@ -701,8 +717,7 @@ def cmd_plan_sync(args):
 
 
 def cmd_apply_plan(args):
-    from dotenv import load_dotenv
-    load_dotenv()
+    _load_dotenv_for_cli()
 
     from notion_zotero.services.sync_plan_applier import apply_sync_plan
 
@@ -736,8 +751,7 @@ def cmd_apply_plan(args):
 
 
 def cmd_sync(args):
-    from dotenv import load_dotenv
-    load_dotenv()
+    _load_dotenv_for_cli()
 
     from pathlib import Path as _Path
     from notion_zotero.services.diff_engine import diff_dirs
@@ -892,6 +906,13 @@ def main(argv: Sequence[str] | None = None) -> int:
     rt_p = sub.add_parser("report-task-counts", help="Tasks per reference and extractions per template")
     rt_p.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
     rt_p.set_defaults(func=cmd_report_task_counts)
+
+    pst = sub.add_parser("paper-summary-tables", help="Write manuscript-oriented task summary workbook")
+    pst.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    pst.add_argument("--out", default="data/analysis_outputs/paper_task_summary_tables.xlsx")
+    pst.add_argument("--no-title", action="store_true", default=False,
+                     help="Omit Paper title column from task sheets")
+    pst.set_defaults(func=cmd_paper_summary_tables)
 
     rp = sub.add_parser("report-provenance", help="Provenance completeness across bundles")
     rp.add_argument("--input", default="data/pulled/notion/learning_analytics_review")

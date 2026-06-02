@@ -119,6 +119,19 @@ The notebook now also builds paper-facing summary tables from the cleaned task
 tables. These tables are intended for manuscript review/supplement use rather
 than raw extraction auditing:
 
+```bash
+notion-zotero paper-summary-tables
+```
+
+By default this writes:
+
+```
+data/analysis_outputs/paper_task_summary_tables.xlsx
+```
+
+The same workbook can be built inside the notebook when interactive inspection
+is useful:
+
 ```python
 from notion_zotero.analysis.paper_tables import build_paper_summary_dataframes
 
@@ -127,12 +140,6 @@ paper_task_tables, paper_task_audit = build_paper_summary_dataframes(
     task_tables={"PRED": "PRED", "DESC": "DESC", "KT": "KT", "REC": "ERS"},
     include_title=True,
 )
-```
-
-The exported workbook is:
-
-```
-data/analysis_outputs/paper_task_summary_tables.xlsx
 ```
 
 It contains one sheet per task (`PRED`, `DESC`, `KT`, `ERS`) plus an `audit`
@@ -218,6 +225,7 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 | `report-doi-coverage` | `data/pulled/notion/learning_analytics_review` | DOI coverage rate across bundles |
 | `report-task-counts` | `data/pulled/notion/learning_analytics_review` | Tasks per reference and extractions per template |
 | `report-provenance` | `data/pulled/notion/learning_analytics_review` | Provenance completeness across bundles |
+| `paper-summary-tables` | `data/pulled/notion/learning_analytics_review` → `data/analysis_outputs/paper_task_summary_tables.xlsx` | Manuscript-oriented task summary workbook |
 | `export-snapshot` | → `data/pulled/notion/canonical_merged.json` | Export and merge Notion pages to a single JSON |
 | `parse-fixtures` | `data/raw/notion` → `data/pulled/notion/learning_analytics_review` | Parse raw Notion exports into canonical bundles (offline) |
 | `merge-canonical` | `data/pulled/notion/learning_analytics_review` → `canonical_merged.json` | Merge per-page bundles into a single array file |
@@ -306,6 +314,11 @@ Zotero-owned fields. Zotero-only records are surfaced as `needs_review` actions
 for possible Notion page creation; they are not automatically created. Zotero
 writes use item version guards when version metadata is available.
 
+Matching uses strong keys (`zotero_key`, DOI, title+authors) and weak title-only
+matches when years are compatible. Weak matches are labelled with
+`match_confidence` in `sync_plan.json`; collisions and year conflicts are marked
+ambiguous for review.
+
 ---
 
 ## Suggested next improvements
@@ -325,8 +338,6 @@ The package is now in a solid review-first state. The highest-value next steps a
   rollback plan for recently applied Notion updates.
 - **Configuration file:** add a project config file for default paths, domain
   pack, Notion property schema, and sync policy.
-- **Notebook pipeline command:** expose the paper-table workbook generation as a
-  CLI command so the notebook and command-line workflow stay aligned.
 - **CI polish:** run focused sync-plan tests separately from the full suite and
   add fixture-based regression plans for common Notion/Zotero drift cases.
 
@@ -335,11 +346,11 @@ The package is now in a solid review-first state. The highest-value next steps a
 ## Testing
 
 ```bash
-pytest -q                          # full suite
-pytest --cov=src/notion_zotero -q  # with coverage (CI enforces >= 80%)
+python -m pytest                          # full suite with coverage
+python -m pytest tests --ignore=tests/integration -o addopts=''  # local unit-only pass
 ```
 
-Integration tests (marked `pytest.mark.integration`) require live API credentials or pre-populated `data/pulled/` directories. Run unit tests only with `pytest -q --ignore=tests/integration`.
+Integration tests (marked `pytest.mark.integration`) require live API credentials or pre-populated `data/pulled/` directories. Run unit tests only with `python -m pytest tests --ignore=tests/integration -o addopts=''`.
 
 On this OneDrive path, if the project `.venv` or `uv run` hangs, use an
 external throwaway environment outside the repository:

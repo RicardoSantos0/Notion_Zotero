@@ -15,6 +15,7 @@ from notion_zotero.core.field_ownership import ZOTERO_OWNED
 from notion_zotero.core.normalize import normalize_authors, normalize_doi, normalize_title
 
 PLAN_VERSION = 1
+STRONG_MATCH_KEY_TYPES = {"zotero_key", "doi", "title_authors"}
 
 
 def _utc_now() -> str:
@@ -61,6 +62,42 @@ def _title_authors_key(ref: dict[str, Any]) -> str:
     return f"{title}|{authors}"
 
 
+def _title_key(ref: dict[str, Any]) -> str:
+    return normalize_title(ref.get("title")).casefold()
+
+
+def _year_value(ref: dict[str, Any]) -> int | None:
+    value = ref.get("year")
+    if value is None:
+        return None
+    try:
+        text = str(value).strip()
+        return int(text[:4]) if text else None
+    except (TypeError, ValueError):
+        return None
+
+
+def _title_years_compatible(
+    notion_ref: dict[str, Any],
+    zotero_ref: dict[str, Any],
+) -> bool:
+    notion_year = _year_value(notion_ref)
+    zotero_year = _year_value(zotero_ref)
+    return notion_year is None or zotero_year is None or notion_year == zotero_year
+
+
+def _match_confidence(
+    key: tuple[str, str],
+    notion_ref: dict[str, Any],
+    zotero_ref: dict[str, Any],
+) -> str | None:
+    if key[0] in STRONG_MATCH_KEY_TYPES:
+        return "strong"
+    if key[0] == "title" and _title_years_compatible(notion_ref, zotero_ref):
+        return "weak"
+    return None
+
+
 def _match_keys(ref: dict[str, Any]) -> list[tuple[str, str]]:
     keys: list[tuple[str, str]] = []
     zotero_key = _clean_key(ref.get("zotero_key"))
@@ -75,6 +112,10 @@ def _match_keys(ref: dict[str, Any]) -> list[tuple[str, str]]:
     if title_authors:
         keys.append(("title_authors", title_authors))
 
+    title = _title_key(ref)
+    if title:
+        keys.append(("title", title))
+
     return keys
 
 
@@ -84,6 +125,16 @@ def _index_records(records: list[dict[str, Any]]) -> dict[tuple[str, str], list[
         for key in _match_keys(record["reference"]):
             index.setdefault(key, []).append(record)
     return index
+
+
+def _record_from_reference(ref: dict[str, Any], source: str, index: int) -> dict[str, Any]:
+    return {
+        "source": source,
+        "bundle_path": "",
+        "bundle_id": str(ref.get("id") or f"{source}-{index}"),
+        "bundle": {"references": [ref]},
+        "reference": ref,
+    }
 
 
 def _record_summary(record: dict[str, Any]) -> dict[str, Any]:
@@ -147,6 +198,23 @@ def _operation_for_diff(
     }
 
 
+def _candidate_summary(
+    key: tuple[str, str],
+    candidate: dict[str, Any],
+    confidence: str | None,
+    reason: str | None = None,
+) -> dict[str, Any]:
+    summary = {
+        "match_key": {"type": key[0], "value": key[1]},
+        "notion": _record_summary(candidate),
+    }
+    if confidence:
+        summary["match_confidence"] = confidence
+    if reason:
+        summary["reason"] = reason
+    return summary
+
+
 def _review_action_for_zotero_only(record: dict[str, Any]) -> dict[str, Any]:
     summary = _record_summary(record)
     return {
@@ -162,14 +230,10 @@ def _review_action_for_zotero_only(record: dict[str, Any]) -> dict[str, Any]:
     }
 
 
-def build_sync_plan(
-    notion_dir: str | Path,
-    zotero_dir: str | Path,
-    generated_at: str | None = None,
+def _compare_records(
+    notion_records: list[dict[str, Any]],
+    zotero_records: list[dict[str, Any]],
 ) -> dict[str, Any]:
-    """Build a read-only sync plan from local Notion and Zotero snapshots."""
-    notion_records = _load_bundles(notion_dir, "notion")
-    zotero_records = _load_bundles(zotero_dir, "zotero")
     notion_index = _index_records(notion_records)
 
     matched: list[dict[str, Any]] = []
@@ -181,7 +245,8 @@ def build_sync_plan(
     ambiguous_notion_ids: set[int] = set()
 
     for zotero_record in zotero_records:
-        candidates_by_key: list[tuple[tuple[str, str], dict[str, Any]]] = []
+        candidates_by_key: list[tuple[tuple[str, str], dict[str, Any], str]] = []
+        rejected_candidates: list[tuple[tuple[str, str], dict[str, Any], str]] = []
         seen_candidate_ids: set[int] = set()
         for key in _match_keys(zotero_record["reference"]):
             for candidate in notion_index.get(key, []):
@@ -189,42 +254,57 @@ def build_sync_plan(
                 if candidate_id in seen_candidate_ids:
                     continue
                 seen_candidate_ids.add(candidate_id)
-                candidates_by_key.append((key, candidate))
+                confidence = _match_confidence(key, candidate["reference"], zotero_record["reference"])
+                if confidence is None:
+                    rejected_candidates.append((key, candidate, "year_conflict"))
+                    continue
+                candidates_by_key.append((key, candidate, confidence))
 
         if not candidates_by_key:
+            if rejected_candidates:
+                ambiguous_notion_ids.update(id(candidate) for _, candidate, _ in rejected_candidates)
+                ambiguous.append(
+                    {
+                        "zotero": _record_summary(zotero_record),
+                        "candidates": [
+                            _candidate_summary(key, candidate, None, reason)
+                            for key, candidate, reason in rejected_candidates
+                        ],
+                        "reason": "title_year_conflict",
+                    }
+                )
+                continue
             only_zotero.append(_record_summary(zotero_record))
             review_actions.append(_review_action_for_zotero_only(zotero_record))
             continue
 
         available = [
-            (key, candidate)
-            for key, candidate in candidates_by_key
+            (key, candidate, confidence)
+            for key, candidate, confidence in candidates_by_key
             if id(candidate) not in used_notion_ids
         ]
         if len(available) != 1:
-            ambiguous_notion_ids.update(id(candidate) for _, candidate in candidates_by_key)
+            ambiguous_notion_ids.update(id(candidate) for _, candidate, _ in candidates_by_key)
             ambiguous.append(
                 {
                     "zotero": _record_summary(zotero_record),
                     "candidates": [
-                        {
-                            "match_key": {"type": key[0], "value": key[1]},
-                            "notion": _record_summary(candidate),
-                        }
-                        for key, candidate in candidates_by_key
+                        _candidate_summary(key, candidate, confidence)
+                        for key, candidate, confidence in candidates_by_key
                     ],
                     "reason": "no_available_candidate" if not available else "multiple_candidates",
                 }
             )
             continue
 
-        match_key, notion_record = available[0]
+        match_key, notion_record, confidence = available[0]
         used_notion_ids.add(id(notion_record))
         match_id = f"match-{len(matched) + 1:04d}"
         diffs = _bibliographic_diffs(notion_record["reference"], zotero_record["reference"])
         match_entry = {
             "match_id": match_id,
             "match_key": {"type": match_key[0], "value": match_key[1]},
+            "match_confidence": confidence,
             "notion": _record_summary(notion_record),
             "zotero": _record_summary(zotero_record),
             "bibliographic_diffs": diffs,
@@ -241,6 +321,53 @@ def build_sync_plan(
         if id(record) not in used_notion_ids and id(record) not in ambiguous_notion_ids
     ]
 
+    summary = {
+        "notion_records": len(notion_records),
+        "zotero_records": len(zotero_records),
+        "matched": len(matched),
+        "operations": len(operations),
+        "only_zotero": len(only_zotero),
+        "only_notion": len(only_notion),
+        "ambiguous": len(ambiguous),
+        "review_actions": len(review_actions),
+    }
+    return {
+        "summary": summary,
+        "matches": matched,
+        "operations": operations,
+        "only_zotero": only_zotero,
+        "only_notion": only_notion,
+        "ambiguous": ambiguous,
+        "review_actions": review_actions,
+    }
+
+
+def compare_references(
+    notion_refs: list[dict[str, Any]],
+    zotero_refs: list[dict[str, Any]],
+) -> dict[str, Any]:
+    """Compare in-memory references using the same policy as sync plans."""
+    notion_records = [
+        _record_from_reference(ref, "notion", index)
+        for index, ref in enumerate(notion_refs, start=1)
+    ]
+    zotero_records = [
+        _record_from_reference(ref, "zotero", index)
+        for index, ref in enumerate(zotero_refs, start=1)
+    ]
+    return _compare_records(notion_records, zotero_records)
+
+
+def build_sync_plan(
+    notion_dir: str | Path,
+    zotero_dir: str | Path,
+    generated_at: str | None = None,
+) -> dict[str, Any]:
+    """Build a read-only sync plan from local Notion and Zotero snapshots."""
+    notion_records = _load_bundles(notion_dir, "notion")
+    zotero_records = _load_bundles(zotero_dir, "zotero")
+    comparison = _compare_records(notion_records, zotero_records)
+
     return {
         "version": PLAN_VERSION,
         "generated_at": generated_at or _utc_now(),
@@ -248,22 +375,7 @@ def build_sync_plan(
             "notion_dir": str(notion_dir),
             "zotero_dir": str(zotero_dir),
         },
-        "summary": {
-            "notion_records": len(notion_records),
-            "zotero_records": len(zotero_records),
-            "matched": len(matched),
-            "operations": len(operations),
-            "only_zotero": len(only_zotero),
-            "only_notion": len(only_notion),
-            "ambiguous": len(ambiguous),
-            "review_actions": len(review_actions),
-        },
-        "matches": matched,
-        "operations": operations,
-        "only_zotero": only_zotero,
-        "only_notion": only_notion,
-        "ambiguous": ambiguous,
-        "review_actions": review_actions,
+        **comparison,
     }
 
 
@@ -275,4 +387,4 @@ def write_sync_plan(plan: dict[str, Any], output_path: str | Path) -> Path:
     return path
 
 
-__all__ = ["PLAN_VERSION", "build_sync_plan", "write_sync_plan"]
+__all__ = ["PLAN_VERSION", "build_sync_plan", "compare_references", "write_sync_plan"]

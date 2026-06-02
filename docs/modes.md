@@ -6,8 +6,8 @@ Three modes cover different stages of the research workflow.
 
 ## Analysis Mode
 
-Analysis Mode operates entirely on local fixture files. No live Notion or Zotero
-connection is required. It is the primary mode for Sprint 1 and Sprint 2 work.
+Analysis Mode operates entirely on local canonical bundle files. No live Notion
+or Zotero connection is required once data has been pulled or parsed.
 
 ### Entry point
 
@@ -166,7 +166,9 @@ notion-zotero status
 ```
 data/pulled/
   notion/   ← one .canonical.json per Notion page
-  zotero/   ← one .canonical.json per Zotero item
+  zotero/                         ← one .canonical.json per Zotero item
+  sync_plans/sync_plan.json        ← generated review plan
+logs/write_logs/                   ← append-only apply logs
 ```
 
 ### Reliability
@@ -179,6 +181,28 @@ data/pulled/
 - **Atomic write**: Data is written to a `_staging` directory and swapped into
   place only on full success. A failed pull leaves the previous data intact.
 
+## Review-First Sync Mode
+
+The preferred sync path is plan-first, apply-second:
+
+```bash
+notion-zotero plan-sync
+notion-zotero apply-plan
+notion-zotero apply-plan --apply
+```
+
+`plan-sync` reads local Notion and Zotero snapshots, matches records using the
+same policy as `status`, and writes a versioned JSON plan. Strong matches use
+`zotero_key`, DOI, or title+authors. Title-only matches are marked with
+`match_confidence: "weak"` when years are compatible; collisions and conflicts
+are `ambiguous` review items.
+
+`apply-plan` defaults to dry-run. `apply-plan --apply` requires
+`NOTION_API_KEY`, writes only executable Notion metadata updates from
+Zotero-owned fields, and records every planned/applied/failed operation in
+`logs/write_logs/`. Zotero-only records remain `needs_review`; Notion pages are
+not automatically created.
+
 ### Current status
 
 | Component | Status |
@@ -187,9 +211,10 @@ data/pulled/
 | Zotero read connector (`connectors/zotero/reader.py`) | Implemented |
 | `pull-notion` CLI command | Implemented |
 | `pull-zotero` CLI command | Implemented (+ `--detect-library-id`) |
-| `status` command | Implemented |
+| `status` command | Implemented; uses sync-plan matching policy |
 | Diff engine (`services/diff_engine.py`) | Implemented |
 | `diff` CLI command | Implemented |
 | Notion write client (`connectors/notion/client.py`) | Implemented |
 | Zotero write client (`connectors/zotero/client.py`) | Implemented |
-| `sync` CLI command (dry-run default, `--apply` for live writes) | Implemented |
+| `plan-sync` / `apply-plan` commands | Implemented |
+| `sync` CLI command (dry-run default, `--apply` for controlled writer workflow) | Implemented |

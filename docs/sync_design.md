@@ -28,8 +28,8 @@ The full sync cycle follows this sequence:
 
 1. **Read** canonical state from both systems (NotionReader, ZoteroReader)
 2. **Diff** against the last committed bundle snapshot (diff_engine.diff_bundles)
-3. **Apply zotero-owned changes** to Zotero via ZoteroWriter (currently dry-run only)
-4. **Apply notion-owned changes** to Notion via NotionWriter (currently dry-run only)
+3. **Plan authoritative bibliographic updates** from Zotero to Notion via `plan-sync`
+4. **Preview/apply reviewed Notion updates** via `apply-plan` and write logs
 5. **Update sync_metadata** on canonical models with timestamps and operation IDs
 6. **Persist** the updated bundle snapshot for the next diff cycle
 
@@ -79,15 +79,28 @@ A failed batch is NOT retried automatically. Recovery is handled by the `replay`
 
 Back-off and retry are deferred to a future sprint; the current implementation uses simple fixed-delay throttling.
 
-## Dry-Run Mode
+## Plan And Apply Modes
 
-Both writers default to `dry_run=True`. In this mode:
+The recommended workflow is review-first:
+
+1. `pull-notion` and `pull-zotero` create local snapshots.
+2. `plan-sync` writes a JSON plan with matches, operations, source-only records,
+   ambiguous candidates, and review actions.
+3. `apply-plan` previews executable operations without network writes.
+4. `apply-plan --apply` writes reviewed Notion updates and appends an NDJSON log.
+
+Matching uses strong keys (`zotero_key`, DOI, title+authors) and weak title-only
+matches when years are compatible. Weak collisions and conflicts are marked
+ambiguous and require human review.
+
+The lower-level writers still default to `dry_run=True`. In this mode:
 
 - All planned operations are logged at INFO level with the prefix `[DRY-RUN]`
 - No network calls are made
 - The list of planned operation strings is returned for inspection
 
-Apply mode is active as of Sprint 4. Passing `dry_run=False` without a client raises `ValueError("client required for apply mode")`.
+Apply mode is active. Passing `dry_run=False` without a client raises
+`ValueError("client required for apply mode")`.
 
 ## Open Questions
 

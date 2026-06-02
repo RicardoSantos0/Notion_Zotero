@@ -112,3 +112,58 @@ def test_parse_fixtures_domain_pack_stamps_provenance(tmp_path):
     assert "provenance" in canon
     assert canon["provenance"]["domain_pack_id"] == "education_learning_analytics"
     assert canon["provenance"]["domain_pack_version"] == "1.1"
+
+
+def test_paper_summary_tables_command_writes_workbook(tmp_path):
+    import pytest
+
+    pytest.importorskip("pandas")
+    pytest.importorskip("openpyxl")
+
+    in_dir = tmp_path / "canonical"
+    in_dir.mkdir()
+    bundle = {
+        "provenance": {
+            "source_id": "paper-1",
+            "domain_pack_id": "education_learning_analytics",
+            "domain_pack_version": "1.1",
+        },
+        "references": [
+            {
+                "id": "paper-1",
+                "title": "Prediction Paper",
+                "authors": ["Smith et al."],
+                "year": 2024,
+                "provenance": {
+                    "source_id": "paper-1",
+                    "domain_pack_id": "education_learning_analytics",
+                    "domain_pack_version": "1.1",
+                },
+            }
+        ],
+        "tasks": [{"id": "task-1", "name": "Performance Prediction"}],
+        "reference_tasks": [{"id": "rt-1", "reference_id": "paper-1", "task_id": "task-1"}],
+        "task_extractions": [
+            {
+                "id": "ex-1",
+                "reference_task_id": "rt-1",
+                "template_id": "prediction_modeling",
+                "schema_name": "Performance Prediction",
+                "extracted": [{"Task": "Classification", "Target": "Pass vs Fail"}],
+                "provenance": {
+                    "source_id": "paper-1",
+                    "domain_pack_id": "education_learning_analytics",
+                    "domain_pack_version": "1.1",
+                },
+            }
+        ],
+        "annotations": [],
+        "workflow_states": [],
+    }
+    (in_dir / "paper-1.canonical.json").write_text(json.dumps(bundle), encoding="utf-8")
+    out = tmp_path / "paper_tables.xlsx"
+
+    rc = cli.main(["paper-summary-tables", "--input", str(in_dir), "--out", str(out)])
+
+    assert rc == 0
+    assert out.exists()

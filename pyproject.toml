@@ -35,6 +35,7 @@ analysis = [
   "nbclient",
   "nbformat",
   "matplotlib",
+  "openpyxl",
   "seaborn",
   "spacy",
   "nltk",
@@ -44,7 +45,20 @@ analysis = [
 where = ["src"]
 
 [tool.pytest.ini_options]
+python_files = ["test_*.py"]
+testpaths = ["tests"]
 addopts = "--cov=src/notion_zotero --cov-report=term-missing --cov-fail-under=80"
+markers = [
+  "slow: tests that make real network calls or take >5s (deselect with -m \"not slow\")",
+  "integration: integration tests that exercise multiple package layers",
+]
+
+[tool.coverage.run]
+source = ["src/notion_zotero"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 80
 
 [project.scripts]
 export-reading-list = "notion_zotero.scripts.export_reading_list:main"

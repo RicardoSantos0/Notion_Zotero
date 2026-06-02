@@ -209,3 +209,47 @@ class TestPlanSync:
         captured = capsys.readouterr()
         assert "[DRY-RUN] Planned 1 executable operation" in captured.out
         assert "notion.update [page-1] title" in captured.out
+
+
+class TestStatus:
+    def test_status_matches_by_title_when_notion_has_no_zotero_key(
+        self,
+        monkeypatch,
+        capsys,
+    ):
+        from notion_zotero.cli import main
+
+        class Ref:
+            def __init__(self, **data):
+                self.data = data
+
+            def model_dump(self):
+                return dict(self.data)
+
+        mock_zotero = MagicMock()
+        mock_zotero.get_items.return_value = [{"key": "Z1"}]
+        mock_zotero.to_reference.return_value = Ref(
+            id="Z1",
+            title="Shared Paper",
+            authors=["Full Author"],
+            zotero_key="Z1",
+        )
+        mock_notion = MagicMock()
+        mock_notion.get_database_pages.return_value = [{"id": "N1"}]
+        mock_notion.to_reference.return_value = Ref(
+            id="N1",
+            title="Shared Paper",
+            authors=["Author et al."],
+            zotero_key=None,
+        )
+        monkeypatch.setenv("NOTION_DATABASE_ID", "db-1")
+
+        with patch("dotenv.load_dotenv", return_value=None), \
+             patch("notion_zotero.connectors.zotero.reader.ZoteroReader", return_value=mock_zotero), \
+             patch("notion_zotero.connectors.notion.reader.NotionReader", return_value=mock_notion):
+            main(["status"])
+
+        captured = capsys.readouterr()
+        assert "Matched (in both): 1" in captured.out
+        assert "Only in Zotero:    0" in captured.out
+        assert "Only in Notion:    0" in captured.out

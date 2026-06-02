@@ -14,6 +14,7 @@ import ast
 import re
 from collections import defaultdict
 from collections.abc import Mapping, Sequence
+from pathlib import Path
 from typing import Any
 
 from notion_zotero.analysis.table_normalization import (
@@ -440,7 +441,7 @@ def _format_results(
             max_items=DEFAULT_MAX_RESULT_ITEMS,
             max_chars=DEFAULT_NARRATIVE_MAX_CHARS,
         )
-    display, shortened = _shorten(raw_text, max_chars=DEFAULT_NARRATIVE_MAX_CHARS)
+    display, shortened = _shorten(raw_text, max_chars=DEFAULT_MAX_CELL_CHARS)
     if shortened:
         audit_rows.append(
             {
@@ -725,6 +726,7 @@ def _base_output_row(
         {
             "Learner representation": _display_value(reference.get("Learner Representation")),
             "Work nature": _display_value(reference.get("Work Nature")),
+            "Deployed / Deployable": _display_value(reference.get("Deployed/ Deployable")),
             "Context": _normalize_values(
                 rows,
                 ela.CONTEXT_COLUMN_CANDIDATES,
@@ -927,6 +929,7 @@ def _build_pred_row(
         {
             "Prediction task type": _prediction_task_type(rows, audit_rows, task, paper_id),
             "Prediction target / timing": _prediction_target_timing(rows, audit_rows, task, paper_id),
+            "Features": _format_features(rows, audit_rows, task, paper_id),
             "Algorithms / models": _format_algorithms(rows, audit_rows, task, paper_id),
             "Assessment strategy": _normalize_values(
                 rows,
@@ -1119,7 +1122,45 @@ def build_paper_summary_dataframes(
     return {name: pd.DataFrame(rows) for name, rows in tables.items()}, pd.DataFrame(audit_rows)
 
 
+def write_paper_summary_workbook(
+    dfs: Mapping[str, Any],
+    output_path: str | Path = "data/analysis_outputs/paper_task_summary_tables.xlsx",
+    task_tables: Mapping[str, str] | None = None,
+    reading_list_key: str = "Reading List",
+    include_title: bool = True,
+) -> Path:
+    """Write paper-facing task tables and audit rows to an Excel workbook."""
+    try:
+        import pandas as pd  # noqa: F401
+    except ImportError as exc:
+        raise ImportError(
+            "pandas is required to write the paper summary workbook. "
+            "Install the analysis extras with: pip install -e .[analysis]"
+        ) from exc
+
+    tables, audit = build_paper_summary_dataframes(
+        dfs,
+        task_tables=task_tables,
+        reading_list_key=reading_list_key,
+        include_title=include_title,
+    )
+    path = Path(output_path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        with pd.ExcelWriter(path) as writer:
+            for sheet_name, df in tables.items():
+                df.to_excel(writer, sheet_name=str(sheet_name)[:31], index=False)
+            audit.to_excel(writer, sheet_name="audit", index=False)
+    except ImportError as exc:
+        raise ImportError(
+            "An Excel writer engine is required. Install openpyxl or the "
+            "analysis extras with: pip install -e .[analysis]"
+        ) from exc
+    return path
+
+
 __all__ = [
     "build_paper_summary_tables",
     "build_paper_summary_dataframes",
+    "write_paper_summary_workbook",
 ]

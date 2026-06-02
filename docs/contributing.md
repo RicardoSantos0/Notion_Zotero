@@ -6,24 +6,27 @@
 git clone <repo>
 cd Notion_Zotero
 pip install -e ".[test]"
-pytest tests/
+python -m pytest
 ```
 
 ## Coding standards
 
-- **Style:** `ruff` for linting, `black` for formatting.
+- **Style:** keep changes local and consistent with existing code; add `ruff` /
+  `black` only when a project config is introduced.
 - **Types:** Type annotations on all public functions.
-- **Models:** Use the dataclasses in `core/models.py`. Do not add Pydantic models to `core/`.
+- **Models:** Use the Pydantic v2 models in `core/models.py`.
 - **No sys.path hacks:** All imports must use the `notion_zotero.*` namespace.
 - **No bare exceptions:** Catch and raise typed exceptions from `core/exceptions.py`.
 
 ## Running tests
 
 ```bash
-pytest tests/ -v
+python -m pytest
 ```
 
-Tests require an editable install. The test suite does not hit live Notion or Zotero APIs.
+Tests require an editable install. Unit tests do not hit live Notion or Zotero
+APIs. Keep integration tests marked with `pytest.mark.integration` and run them
+separately when credentials or pre-populated pull data are available.
 
 ## Adding a new domain pack
 
@@ -51,7 +54,7 @@ Tests require an editable install. The test suite does not hit live Notion or Zo
 
 ## PR checklist
 
-- [ ] Tests pass (`pytest tests/ -v`)
+- [ ] Tests pass (`python -m pytest`)
 - [ ] No new `src.*` imports
 - [ ] Provenance fields populated on any new canonical objects
 - [ ] Domain-specific vocabulary stays in a domain pack, not core
