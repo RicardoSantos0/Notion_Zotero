@@ -50,6 +50,21 @@ See `src/notion_zotero/core/models.py` for full field definitions.
 
 ---
 
+## `notion_zotero.core.sync_plan_models`
+
+Typed validation models for generated sync plans.
+
+```python
+validate_sync_plan(plan: Mapping[str, Any]) -> SyncPlan
+dump_sync_plan(plan: SyncPlan | Mapping[str, Any]) -> dict[str, Any]
+```
+
+`validate_sync_plan` enforces the supported plan version, executable operation
+type, Notion/Zotero target/source pair, Zotero-owned fields, and required
+Notion page IDs. It raises `SyncPlanValidationError` for malformed plans.
+
+---
+
 ## `notion_zotero.core.normalize`
 
 ```python
@@ -65,6 +80,19 @@ normalize_doi(doi: str) -> str
 ```python
 citation_from_reference(ref: Reference, style: str = "apa") -> str
 ```
+
+---
+
+## `notion_zotero.writers.notion_properties`
+
+```python
+build_property_schema_from_notion_schema(notion_schema) -> dict[str, dict[str, str]]
+serialize_notion_properties(updates, property_schema=None) -> dict[str, dict]
+```
+
+`build_property_schema_from_notion_schema` converts live Notion database
+properties into canonical-field writer schema entries, preserving the actual
+Notion property names and types used by `apply-plan --apply`.
 
 ---
 
@@ -207,8 +235,12 @@ notion-zotero pull-notion                # pull live Notion DB into canonical bu
 notion-zotero pull-zotero                # pull live Zotero library into canonical bundles
 notion-zotero status                     # compare live Zotero/Notion records
 notion-zotero plan-sync                  # build local review-first sync_plan.json
+notion-zotero review-plan                # write Markdown sync plan review report
 notion-zotero apply-plan                 # dry-run reviewed sync-plan operations
 notion-zotero apply-plan --apply         # apply reviewed Notion metadata updates
+notion-zotero apply-plan --apply --include-reviewed-creates --notion-database-id <id>
+notion-zotero rollback-plan              # build review-only rollback_plan.json from write logs
+notion-zotero apply-rollback-plan        # dry-run/apply reviewed rollback operations
 notion-zotero diff                       # diff two canonical bundle directories
 notion-zotero sync                       # lower-level writer workflow
 notion-zotero report-*                   # offline analysis reports

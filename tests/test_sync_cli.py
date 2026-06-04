@@ -210,6 +210,299 @@ class TestPlanSync:
         assert "[DRY-RUN] Planned 1 executable operation" in captured.out
         assert "notion.update [page-1] title" in captured.out
 
+    def test_apply_plan_invalid_plan_exits_cleanly(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        plan_path = tmp_path / "bad_sync_plan.json"
+        plan_path.write_text(
+            json.dumps({"version": 999, "operations": []}),
+            encoding="utf-8",
+        )
+
+        with pytest.raises(SystemExit) as exc_info:
+            main(["apply-plan", "--plan", str(plan_path)])
+
+        captured = capsys.readouterr()
+        assert exc_info.value.code == 1
+        assert "Error: invalid sync plan" in captured.err
+
+    def test_apply_plan_apply_uses_live_notion_schema(self, tmp_path, monkeypatch, capsys):
+        from notion_zotero.cli import main
+
+        monkeypatch.setenv("NOTION_API_KEY", "fake-notion-key")
+        monkeypatch.delenv("NOTION_DATABASE_ID", raising=False)
+
+        plan = {
+            "version": 1,
+            "operations": [
+                {
+                    "operation": "update_notion_reference_field",
+                    "operation_id": "op-1",
+                    "target": "notion",
+                    "source": "zotero",
+                    "field": "title",
+                    "old_value": "Old",
+                    "new_value": "New",
+                    "notion_reference_id": "page-1",
+                    "reason": "zotero_owned_field",
+                }
+            ],
+        }
+        plan_path = tmp_path / "sync_plan.json"
+        log_dir = tmp_path / "write_logs"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        mock_reader = MagicMock()
+        mock_reader.get_database_schema.return_value = {"Paper Title": "title"}
+        mock_adapter = MagicMock()
+
+        with patch("dotenv.load_dotenv", return_value=None), \
+             patch("notion_zotero.connectors.notion.reader.NotionReader", return_value=mock_reader), \
+             patch("notion_zotero.connectors.notion.client.NotionClientAdapter", return_value=mock_adapter):
+            main([
+                "apply-plan",
+                "--plan",
+                str(plan_path),
+                "--apply",
+                "--notion-database-id",
+                "db-1",
+                "--write-log-dir",
+                str(log_dir),
+            ])
+
+        captured = capsys.readouterr()
+        assert "[APPLY MODE] Applied 1 operation" in captured.out
+        mock_reader.get_database_schema.assert_called_once_with("db-1")
+        mock_adapter.pages.update.assert_called_once_with(
+            "page-1",
+            properties={"Paper Title": {"title": [{"text": {"content": "New"}}]}},
+        )
+
+    def test_apply_plan_apply_creates_approved_review_action(self, tmp_path, monkeypatch, capsys):
+        from notion_zotero.cli import main
+
+        monkeypatch.setenv("NOTION_API_KEY", "fake-notion-key")
+
+        plan = {
+            "version": 1,
+            "operations": [],
+            "review_actions": [
+                {
+                    "operation": "create_notion_page_from_zotero_record",
+                    "operation_id": "create-Z1",
+                    "target": "notion",
+                    "source": "zotero",
+                    "status": "approved",
+                    "zotero_reference_id": "zotero-1",
+                    "zotero_key": "Z1",
+                    "title": "Brand New Paper",
+                    "reference": {
+                        "title": "Brand New Paper",
+                        "year": 2026,
+                        "zotero_key": "Z1",
+                    },
+                }
+            ],
+        }
+        plan_path = tmp_path / "sync_plan.json"
+        log_dir = tmp_path / "write_logs"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        mock_reader = MagicMock()
+        mock_reader.get_database_schema.return_value = {
+            "Paper Title": "title",
+            "Publication Year": "number",
+            "Zotero Key": "rich_text",
+        }
+        mock_reader.get_database_pages.return_value = []
+        mock_adapter = MagicMock()
+        mock_adapter.pages.create.return_value = {"id": "new-page-1"}
+
+        with patch("dotenv.load_dotenv", return_value=None), \
+             patch("notion_zotero.connectors.notion.reader.NotionReader", return_value=mock_reader), \
+             patch("notion_zotero.connectors.notion.client.NotionClientAdapter", return_value=mock_adapter):
+            main([
+                "apply-plan",
+                "--plan",
+                str(plan_path),
+                "--apply",
+                "--include-reviewed-creates",
+                "--notion-database-id",
+                "db-1",
+                "--write-log-dir",
+                str(log_dir),
+            ])
+
+        captured = capsys.readouterr()
+        assert "[APPLY MODE] Applied 1 operation" in captured.out
+        mock_reader.get_database_pages.assert_called_once_with("db-1")
+        mock_adapter.pages.create.assert_called_once()
+        assert mock_adapter.pages.create.call_args.kwargs["parent"] == {"database_id": "db-1"}
+        assert mock_adapter.pages.create.call_args.kwargs["properties"]["Paper Title"] == {
+            "title": [{"text": {"content": "Brand New Paper"}}]
+        }
+
+    def test_review_plan_writes_markdown_report(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        plan = {
+            "version": 1,
+            "generated_at": "2026-06-02T00:00:00Z",
+            "summary": {
+                "notion_records": 1,
+                "zotero_records": 1,
+                "matched": 0,
+                "operations": 0,
+                "only_zotero": 1,
+                "only_notion": 0,
+                "ambiguous": 0,
+                "review_actions": 1,
+            },
+            "review_actions": [
+                {
+                    "operation": "create_notion_page_from_zotero_record",
+                    "status": "needs_review",
+                    "zotero_key": "Z1",
+                    "title": "Missing Notion Paper",
+                    "reason": "zotero_record_missing_from_notion",
+                }
+            ],
+        }
+        plan_path = tmp_path / "sync_plan.json"
+        report_path = tmp_path / "review.md"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        main(["review-plan", "--plan", str(plan_path), "--out", str(report_path)])
+
+        captured = capsys.readouterr()
+        assert "Sync plan review written" in captured.out
+        assert "Missing Notion Paper" in report_path.read_text(encoding="utf-8")
+
+    def test_rollback_plan_writes_json_from_write_logs(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        log_dir = tmp_path / "logs"
+        log_dir.mkdir()
+        out = tmp_path / "plans" / "rollback_plan.json"
+        entry = {
+            "operation_id": "op-1",
+            "session_id": "sess-1",
+            "timestamp": "2026-06-02T12:00:00Z",
+            "entity_type": "references",
+            "entity_id": "notion-page-1",
+            "field": "title",
+            "old_value": "Old",
+            "new_value": "New",
+            "actor": "sync_plan_applier",
+            "status": "applied",
+            "error_message": None,
+            "rollback_ref": None,
+        }
+        (log_dir / "write_log_20260602T120000Z_sess-1.ndjson").write_text(
+            json.dumps(entry) + "\n",
+            encoding="utf-8",
+        )
+
+        main([
+            "rollback-plan",
+            "--write-log-dir",
+            str(log_dir),
+            "--out",
+            str(out),
+        ])
+
+        captured = capsys.readouterr()
+        plan = json.loads(out.read_text(encoding="utf-8"))
+        assert "Rollback plan written" in captured.out
+        assert plan["summary"]["rollback_operations"] == 1
+        assert plan["operations"][0]["new_value"] == "Old"
+
+    def test_apply_rollback_plan_dry_run_prints_operations(self, tmp_path, capsys):
+        from notion_zotero.cli import main
+
+        plan = {
+            "version": 1,
+            "operations": [
+                {
+                    "operation": "rollback_notion_reference_field",
+                    "operation_id": "rollback-op-1",
+                    "rollback_ref": "op-1",
+                    "target": "notion",
+                    "source": "write_log",
+                    "field": "title",
+                    "old_value": "New",
+                    "new_value": "Old",
+                    "expected_current_value": "New",
+                    "notion_reference_id": "page-1",
+                }
+            ],
+        }
+        plan_path = tmp_path / "rollback_plan.json"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        main(["apply-rollback-plan", "--plan", str(plan_path)])
+
+        captured = capsys.readouterr()
+        assert "[DRY-RUN] Planned 1 rollback operation" in captured.out
+        assert "notion.rollback [page-1] title" in captured.out
+
+    def test_apply_rollback_plan_apply_checks_current_values(self, tmp_path, monkeypatch, capsys):
+        from notion_zotero.cli import main
+
+        monkeypatch.setenv("NOTION_API_KEY", "fake-notion-key")
+        plan = {
+            "version": 1,
+            "operations": [
+                {
+                    "operation": "rollback_notion_reference_field",
+                    "operation_id": "rollback-op-1",
+                    "rollback_ref": "op-1",
+                    "target": "notion",
+                    "source": "write_log",
+                    "field": "title",
+                    "old_value": "New",
+                    "new_value": "Old",
+                    "expected_current_value": "New",
+                    "notion_reference_id": "page-1",
+                }
+            ],
+        }
+        plan_path = tmp_path / "rollback_plan.json"
+        log_dir = tmp_path / "write_logs"
+        plan_path.write_text(json.dumps(plan), encoding="utf-8")
+
+        mock_reader = MagicMock()
+        mock_reader.get_database_schema.return_value = {"Paper Title": "title"}
+        mock_reader.get_page.return_value = {"id": "page-1", "properties": {}}
+
+        class Ref:
+            title = "New"
+
+        mock_reader.to_reference.return_value = Ref()
+        mock_adapter = MagicMock()
+
+        with patch("dotenv.load_dotenv", return_value=None), \
+             patch("notion_zotero.connectors.notion.reader.NotionReader", return_value=mock_reader), \
+             patch("notion_zotero.connectors.notion.client.NotionClientAdapter", return_value=mock_adapter):
+            main([
+                "apply-rollback-plan",
+                "--plan",
+                str(plan_path),
+                "--apply",
+                "--notion-database-id",
+                "db-1",
+                "--write-log-dir",
+                str(log_dir),
+            ])
+
+        captured = capsys.readouterr()
+        assert "[APPLY MODE] Applied 1 rollback operation" in captured.out
+        mock_reader.get_page.assert_called_once_with("page-1")
+        mock_adapter.pages.update.assert_called_once_with(
+            "page-1",
+            properties={"Paper Title": {"title": [{"text": {"content": "Old"}}]}},
+        )
+
 
 class TestStatus:
     def test_status_matches_by_title_when_notion_has_no_zotero_key(

@@ -89,4 +89,26 @@ class TestNotionPagesAdapterUpdate:
         adapter = NotionClientAdapter("any-key")
         assert hasattr(adapter, "pages")
         assert hasattr(adapter.pages, "update")
+        assert hasattr(adapter.pages, "create")
         assert callable(adapter.pages.update)
+        assert callable(adapter.pages.create)
+
+    def test_create_page_posts_parent_and_properties(self):
+        from notion_zotero.connectors.notion.client import NotionClientAdapter
+
+        adapter = NotionClientAdapter("test-key")
+        ok_resp = _make_response(200, {"id": "new-page", "object": "page"})
+
+        with patch("requests.post", return_value=ok_resp) as mock_post:
+            result = adapter.pages.create(
+                parent={"database_id": "db-1"},
+                properties={"Title": {"title": []}},
+            )
+
+        mock_post.assert_called_once()
+        assert mock_post.call_args[0][0] == "https://api.notion.com/v1/pages"
+        assert mock_post.call_args.kwargs["json"] == {
+            "parent": {"database_id": "db-1"},
+            "properties": {"Title": {"title": []}},
+        }
+        assert result == {"id": "new-page", "object": "page"}

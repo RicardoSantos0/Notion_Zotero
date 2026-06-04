@@ -13,8 +13,9 @@ from typing import Any
 
 from notion_zotero.core.field_ownership import ZOTERO_OWNED
 from notion_zotero.core.normalize import normalize_authors, normalize_doi, normalize_title
+from notion_zotero.core.sync_plan_models import SYNC_PLAN_VERSION, validate_sync_plan
 
-PLAN_VERSION = 1
+PLAN_VERSION = SYNC_PLAN_VERSION
 STRONG_MATCH_KEY_TYPES = {"zotero_key", "doi", "title_authors"}
 
 
@@ -217,8 +218,15 @@ def _candidate_summary(
 
 def _review_action_for_zotero_only(record: dict[str, Any]) -> dict[str, Any]:
     summary = _record_summary(record)
+    reference = record["reference"]
+    create_fields = {
+        field: reference.get(field)
+        for field in sorted(ZOTERO_OWNED)
+        if reference.get(field) not in (None, "", [])
+    }
     return {
         "operation": "create_notion_page_from_zotero_record",
+        "operation_id": f"create-notion-page-{summary['zotero_key'] or summary['reference_id']}",
         "target": "notion",
         "source": "zotero",
         "status": "needs_review",
@@ -226,6 +234,7 @@ def _review_action_for_zotero_only(record: dict[str, Any]) -> dict[str, Any]:
         "zotero_key": summary["zotero_key"],
         "zotero_version": summary["zotero_version"],
         "title": summary["title"],
+        "reference": create_fields,
         "reason": "zotero_record_missing_from_notion",
     }
 
@@ -381,6 +390,7 @@ def build_sync_plan(
 
 def write_sync_plan(plan: dict[str, Any], output_path: str | Path) -> Path:
     """Write *plan* as UTF-8 JSON and return the output path."""
+    validate_sync_plan(plan)
     path = Path(output_path)
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(json.dumps(plan, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -18,7 +18,7 @@ Each log entry is a JSON object with the following fields:
   "field": "field name being written",
   "old_value": "previous value (null if new entity)",
   "new_value": "value after write (null if deletion)",
-  "actor": "zotero | notion",
+  "actor": "zotero | notion | sync_plan_applier",
   "status": "planned | applied | failed",
   "error_message": "null on success; error string on failure",
   "rollback_ref": "operation_id of the operation to undo this one (null initially; filled by rollback tooling)"
@@ -33,7 +33,9 @@ Each log entry is a JSON object with the following fields:
 - `status` transitions: `planned` -> `applied` on success, `planned` -> `failed` on error.
 - `old_value` / `new_value` store JSON-serialisable values. Complex objects (lists, dicts) are stored inline.
 - `error_message` is `null` on entries that have not failed; populated with the exception message on failure.
-- `rollback_ref` is `null` at creation time. Rollback tooling (future sprint) fills this field when creating a compensating operation.
+- `rollback_ref` is `null` at creation time. `rollback-plan` writes compensating
+  review operations whose `rollback_ref` points back to the applied operation;
+  applying those rollback operations is still a separate future path.
 
 ## Integration with sync_metadata
 
@@ -54,7 +56,7 @@ The write log itself is the authoritative record; `sync_metadata` is a cache for
 
 ## Storage
 
-- Log entries are appended to a newline-delimited JSON (NDJSON) file per sync run, named `write_log_<session_id>.ndjson`.
+- Log entries are appended to a newline-delimited JSON (NDJSON) file per sync run, named `write_log_<timestamp>_<session_id>.ndjson`.
 - Files are stored in a configurable `logs/` directory (default: `./logs/write_logs/`).
 - Each sync run receives a unique `session_id` (uuid4) that groups all entries for that run.
 - The `WriteLog` class (at `src/notion_zotero/writers/write_log.py`) accepts `session_id` at construction time, fsyncs after every append, and exposes `entries_for_session`, `all_entries`, and `prune` helpers.
@@ -88,6 +90,16 @@ Common audit operations against the NDJSON log:
 ### Replay
 
 A future `replay` CLI command will accept a `run_id` or `entity_id` and re-execute the planned operations for entries whose status is not `applied`. This is the primary recovery mechanism for partial failures.
+
+### Rollback planning
+
+`notion-zotero rollback-plan` reads applied Notion reference-field entries and
+writes `data/sync_plans/rollback_plan.json`. Each generated operation reverses
+`old_value` and `new_value`, carries `expected_current_value`, and points
+`rollback_ref` at the original write-log operation. `apply-rollback-plan --apply`
+fetches the affected Notion pages first, verifies the expected current values,
+then applies the compensating updates and logs them with `actor:
+rollback_applier`.
 
 ## Open Questions
 

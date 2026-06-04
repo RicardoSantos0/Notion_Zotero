@@ -30,8 +30,9 @@ The full sync cycle follows this sequence:
 2. **Diff** against the last committed bundle snapshot (diff_engine.diff_bundles)
 3. **Plan authoritative bibliographic updates** from Zotero to Notion via `plan-sync`
 4. **Preview/apply reviewed Notion updates** via `apply-plan` and write logs
-5. **Update sync_metadata** on canonical models with timestamps and operation IDs
-6. **Persist** the updated bundle snapshot for the next diff cycle
+5. **Generate rollback review plans** from applied Notion write-log entries when needed
+6. **Update sync_metadata** on canonical models with timestamps and operation IDs
+7. **Persist** the updated bundle snapshot for the next diff cycle
 
 Each writer filters the DiffReport to its own owned fields before generating operations.
 
@@ -86,8 +87,18 @@ The recommended workflow is review-first:
 1. `pull-notion` and `pull-zotero` create local snapshots.
 2. `plan-sync` writes a JSON plan with matches, operations, source-only records,
    ambiguous candidates, and review actions.
-3. `apply-plan` previews executable operations without network writes.
+3. `review-plan` and `apply-plan` validate the sync-plan version and executable
+   operation shape before rendering or previewing operations.
 4. `apply-plan --apply` writes reviewed Notion updates and appends an NDJSON log.
+   With a Notion database ID, it fetches the active database schema and uses the
+   database's actual property names/types for update serialization.
+5. Zotero-only page creation requires changing selected review actions to
+   `status: "approved"` and passing `--include-reviewed-creates`; approved
+   creates are duplicate-checked against current Notion titles.
+6. `rollback-plan` reads applied Notion log entries and writes a reviewable
+   compensating plan.
+7. `apply-rollback-plan --apply` fetches current Notion values and only writes
+   rollback operations whose current value still matches the rollback plan.
 
 Matching uses strong keys (`zotero_key`, DOI, title+authors) and weak title-only
 matches when years are compatible. Weak collisions and conflicts are marked
@@ -105,6 +116,8 @@ Apply mode is active. Passing `dry_run=False` without a client raises
 ## Open Questions
 
 - **Concurrent edits**: If both Zotero and Notion update a field between sync runs the last-writer-wins rule above applies, which may silently discard one edit. A vector-clock or last-modified-timestamp check is a future improvement.
-- **Rollback**: A `replay` CLI command will handle recovery from partial failures, but the full rollback infrastructure (rollback_ref linking) is not yet implemented.
+- **Replay**: `apply-rollback-plan` handles reviewed rollback operations. A
+  broader replay command for planned/failed write-log entries remains future
+  work.
 - **Compression**: NDJSON write logs can grow large; gzip rotation after 7 days is a candidate improvement.
 - **Concurrent sync runs**: No locking mechanism prevents two sync processes from running simultaneously against the same bundle snapshot. A file-lock or database-backed session registry is needed before running scheduled sync.

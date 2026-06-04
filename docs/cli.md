@@ -11,6 +11,20 @@ On the Windows/OneDrive development path, prefer `python -m notion_zotero.cli`
 and `python -m pytest`; this avoids PATH shims that may point at a different
 Python environment.
 
+## Project Config
+
+Most path and policy defaults can be supplied from a JSON config:
+
+```bash
+notion-zotero --config notion_zotero.config.json plan-sync
+notion-zotero --config notion_zotero.config.json apply-plan
+```
+
+If `--config` is omitted, the CLI looks for `NOTION_ZOTERO_CONFIG` and then for
+`notion_zotero.config.json`, `.notion-zotero.json`, or `notion-zotero.json` in
+the working directory. CLI flags override config values. See
+`notion_zotero.config.example.json` for the supported keys.
+
 ## Live Pull And Sync
 
 ### `pull-notion`
@@ -71,14 +85,53 @@ Preview or apply reviewed plan operations. Dry-run is the default and performs
 no network writes.
 
 ```bash
+notion-zotero review-plan --plan data/sync_plans/sync_plan.json \
+  --out data/sync_plans/sync_plan_review.md
 notion-zotero apply-plan --plan data/sync_plans/sync_plan.json
 notion-zotero apply-plan --plan data/sync_plans/sync_plan.json --apply
+notion-zotero apply-plan --plan data/sync_plans/sync_plan.json --apply \
+  --notion-database-id <id>
+notion-zotero apply-plan --plan data/sync_plans/sync_plan.json --apply \
+  --include-reviewed-creates --notion-database-id <id>
 ```
+
+`review-plan` writes a Markdown report with summary counts, executable
+operations, matches, ambiguous candidates, review actions, and Notion-only
+records. Use `--max-rows` to control how many rows appear in each section.
+`review-plan` and `apply-plan` validate plan version and executable operations
+before rendering or applying the file.
 
 Apply mode requires `NOTION_API_KEY`, writes Notion bibliographic metadata from
 Zotero-owned fields, and appends NDJSON entries under `logs/write_logs/`.
 Zotero-only records remain review actions; Notion pages are not created
-automatically.
+automatically. If `--notion-database-id` or `NOTION_DATABASE_ID` is set, apply
+mode fetches the live database schema and uses actual Notion property names and
+types while serializing updates.
+
+Zotero-only page creation is opt-in. Edit selected
+`create_notion_page_from_zotero_record` review actions in `sync_plan.json` from
+`needs_review` to `approved`, then pass `--include-reviewed-creates` with a
+database ID. Approved creates are duplicate-checked against current Notion page
+titles before writing.
+
+### `rollback-plan`
+Build a non-mutating rollback plan from applied Notion write-log entries.
+
+```bash
+notion-zotero rollback-plan \
+  --write-log-dir logs/write_logs \
+  --out data/sync_plans/rollback_plan.json
+notion-zotero rollback-plan --session-id apply-plan-1234567890
+notion-zotero apply-rollback-plan --plan data/sync_plans/rollback_plan.json
+notion-zotero apply-rollback-plan --plan data/sync_plans/rollback_plan.json \
+  --apply --notion-database-id <id>
+```
+
+The output reverses applied Notion reference-field writes into
+`rollback_notion_reference_field` operations and skips planned, failed, Zotero,
+or malformed entries. `apply-rollback-plan` previews by default. Apply mode
+requires `NOTION_API_KEY`, fetches current Notion page values, and writes only
+when they still match `expected_current_value` in the rollback plan.
 
 ### `diff` and `sync`
 `diff` compares two canonical bundle directories. `sync` is the lower-level

@@ -30,3 +30,28 @@ def test_serialize_notion_property_uses_schema_property_name_and_type():
     )
 
     assert payload == {"DOI": {"url": "10.1000/example"}}
+
+
+def test_build_property_schema_from_notion_schema_maps_canonical_aliases():
+    from notion_zotero.writers.notion_properties import (
+        build_property_schema_from_notion_schema,
+        serialize_notion_properties,
+    )
+
+    schema = build_property_schema_from_notion_schema(
+        {
+            "Paper Title": {"type": "title"},
+            "Publication Year": {"type": "number"},
+            "DOI": "rich_text",
+            "Workflow Status": {"type": "status"},
+        }
+    )
+
+    assert schema == {
+        "title": {"name": "Paper Title", "type": "title"},
+        "doi": {"name": "DOI", "type": "rich_text"},
+        "year": {"name": "Publication Year", "type": "number"},
+    }
+    assert serialize_notion_properties({"doi": "10.1000/example"}, schema) == {
+        "DOI": {"rich_text": [{"text": {"content": "10.1000/example"}}]}
+    }

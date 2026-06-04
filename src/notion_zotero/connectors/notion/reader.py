@@ -10,48 +10,14 @@ from tenacity.wait import wait_base
 
 from notion_zotero.core.exceptions import ConfigurationError, NotionZoteroError  # noqa: F401
 from notion_zotero.core.models import Reference
+from notion_zotero.writers.notion_properties import CANONICAL_NOTION_PROPERTY_ALIASES
 
 log = logging.getLogger(__name__)
 
 _NOTION_RETRY_CODES = {429, 500, 502, 503, 504}
 
 # Canonical field name mapping (lowercase key -> Reference field name)
-_CANONICAL_FIELD_MAP: dict[str, str] = {
-    "title": "title",
-    "name": "title",
-    "author": "authors",
-    "authors": "authors",
-    "year": "year",
-    "publication year": "year",
-    "journal": "journal",
-    "publication": "journal",
-    "doi": "doi",
-    "url": "url",
-    "link": "url",
-    "zotero_key": "zotero_key",
-    "zotero key": "zotero_key",
-    "abstract": "abstract",
-    "type": "item_type",
-    "item_type": "item_type",
-    "tags": "tags",
-    "keywords": "tags",
-    # SLR provenance fields
-    "search strategy": "search_terms",
-    "search terms": "search_terms",
-    "search_terms": "search_terms",
-    "date of retrieval": "search_date",
-    "search date": "search_date",
-    "search_date": "search_date",
-    "database": "database",
-    "source database": "database",
-    "search database": "database",
-    "platform": "database",
-    "quartile": "journal_quartile",
-    "journal quartile": "journal_quartile",
-    "sjr quartile": "journal_quartile",
-    "journal_quartile": "journal_quartile",
-    "article type": "journal_quartile",
-}
+_CANONICAL_FIELD_MAP = CANONICAL_NOTION_PROPERTY_ALIASES
 
 
 class _NotionRetryWait(wait_base):

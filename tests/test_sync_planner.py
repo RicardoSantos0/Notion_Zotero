@@ -84,6 +84,8 @@ def test_build_sync_plan_reports_records_only_present_in_one_source(tmp_path):
     assert plan["only_zotero"][0]["reference_id"] == "Z1"
     assert plan["review_actions"][0]["operation"] == "create_notion_page_from_zotero_record"
     assert plan["review_actions"][0]["status"] == "needs_review"
+    assert plan["review_actions"][0]["operation_id"] == "create-notion-page-Z1"
+    assert plan["review_actions"][0]["reference"]["title"] == "Only Zotero"
 
 
 def test_build_sync_plan_falls_back_to_title_when_authors_are_abbreviated(tmp_path):

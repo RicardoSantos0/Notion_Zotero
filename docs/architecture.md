@@ -12,7 +12,7 @@ review-first plan.
 src/notion_zotero/
   analysis/      # Notebook/report helpers and paper-facing summary tables
   connectors/    # Live Notion and Zotero read/write client adapters
-  core/          # Pydantic canonical models, normalization, citation, exceptions
+  core/          # Pydantic canonical/sync-plan models, normalization, citation, exceptions
   schemas/       # Template library, domain packs, task registry, status mapping
   services/      # Importer, diff engine, sync planner/applier, QA/report services
   writers/       # Notion/Zotero write paths, ownership filtering, write logs
@@ -44,7 +44,9 @@ data/pulled/**/*.canonical.json
 Generic Pydantic v2 models that do not depend on any specific domain:
 `Reference`, `Task`, `ReferenceTask`, `TaskExtraction`, `WorkflowState`, `Annotation`.
 
-Helpers: `normalize.py` (title/author/DOI), `citation.py` (APA-style), `enums.py` (workflow states), `exceptions.py` (typed error hierarchy).
+Helpers: `normalize.py` (title/author/DOI), `sync_plan_models.py` (plan
+version and operation validation), `citation.py` (APA-style), `enums.py`
+(workflow states), `exceptions.py` (typed error hierarchy).
 
 ### Layer 2 — Template library (`schemas/templates/`)
 Reusable structured extraction templates. Each template describes:
@@ -75,8 +77,11 @@ The recommended sync workflow is:
 
 1. `pull-notion` and `pull-zotero` write local canonical snapshots.
 2. `plan-sync` creates `data/sync_plans/sync_plan.json`.
-3. `apply-plan` previews executable Notion metadata updates.
+3. `review-plan` and `apply-plan` validate the plan version and operation
+   shape before rendering or previewing executable Notion metadata updates.
 4. `apply-plan --apply` writes reviewed updates and appends NDJSON write logs.
+   When a database ID is available, the apply path derives the writer property
+   schema from the live Notion database schema.
 
 Matching uses strong keys (`zotero_key`, DOI, title+authors) and weak title-only
 matches when years are compatible. Ambiguous candidates are review-only.

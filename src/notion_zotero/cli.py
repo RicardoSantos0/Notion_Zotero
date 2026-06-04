@@ -716,9 +716,22 @@ def cmd_plan_sync(args):
     )
 
 
+def cmd_review_plan(args):
+    from notion_zotero.core.sync_plan_models import SyncPlanValidationError
+    from notion_zotero.services.sync_plan_report import write_sync_plan_report_from_file
+
+    try:
+        output_path = write_sync_plan_report_from_file(args.plan, args.out, max_rows=args.max_rows)
+    except SyncPlanValidationError as exc:
+        print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
+        sys.exit(1)
+    print(f"Sync plan review written: {output_path}")
+
+
 def cmd_apply_plan(args):
     _load_dotenv_for_cli()
 
+    from notion_zotero.core.sync_plan_models import SyncPlanValidationError
     from notion_zotero.services.sync_plan_applier import apply_sync_plan
 
     plan_path = Path(args.plan)
@@ -730,22 +743,156 @@ def cmd_apply_plan(args):
             print("Error: NOTION_API_KEY is required for apply-plan --apply", file=sys.stderr)
             sys.exit(1)
         from notion_zotero.connectors.notion.client import NotionClientAdapter
+        from notion_zotero.connectors.notion.reader import NotionReader
+        from notion_zotero.writers.notion_properties import build_property_schema_from_notion_schema
         from notion_zotero.writers.write_log import WriteLog
+
+        property_schema = None
+        database_id = getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID")
+        existing_notion_titles: set[str] = set()
+        if database_id:
+            try:
+                notion_reader = NotionReader(api_key=notion_api_key)
+                notion_schema = notion_reader.get_database_schema(database_id)
+                property_schema = build_property_schema_from_notion_schema(notion_schema)
+                if getattr(args, "include_reviewed_creates", False):
+                    for page in notion_reader.get_database_pages(database_id):
+                        try:
+                            ref = notion_reader.to_reference(page, schema=notion_schema)
+                            if ref.title:
+                                existing_notion_titles.add(ref.title)
+                        except Exception:
+                            continue
+            except Exception as exc:
+                print(f"Error: could not fetch Notion database schema: {exc}", file=sys.stderr)
+                sys.exit(1)
 
         write_log = WriteLog(session_id=f"apply-plan-{int(time.time())}", log_dir=args.write_log_dir)
         notion_client = NotionClientAdapter(notion_api_key)
-        ops = apply_sync_plan(
-            plan,
-            dry_run=False,
-            notion_client=notion_client,
-            write_log=write_log,
-        )
+        try:
+            ops = apply_sync_plan(
+                plan,
+                dry_run=False,
+                notion_client=notion_client,
+                write_log=write_log,
+                property_schema=property_schema,
+                include_reviewed_creates=getattr(args, "include_reviewed_creates", False),
+                notion_database_id=database_id,
+                existing_notion_titles=existing_notion_titles,
+            )
+        except (SyncPlanValidationError, ValueError) as exc:
+            print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
+            sys.exit(1)
         print(f"[APPLY MODE] Applied {len(ops)} operation(s) from {plan_path}.")
         print(f"Write log directory: {args.write_log_dir}")
         return
 
-    ops = apply_sync_plan(plan, dry_run=True)
+    try:
+        ops = apply_sync_plan(
+            plan,
+            dry_run=True,
+            include_reviewed_creates=getattr(args, "include_reviewed_creates", False),
+            notion_database_id=getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID"),
+        )
+    except (SyncPlanValidationError, ValueError) as exc:
+        print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
+        sys.exit(1)
     print(f"[DRY-RUN] Planned {len(ops)} executable operation(s) from {plan_path}.")
+    for op in ops:
+        print(op)
+
+
+def cmd_rollback_plan(args):
+    from notion_zotero.services.rollback_planner import build_rollback_plan, write_rollback_plan
+
+    plan = build_rollback_plan(args.write_log_dir, session_id=args.session_id)
+    output_path = write_rollback_plan(plan, args.out)
+    summary = plan["summary"]
+
+    print(f"Rollback plan written: {output_path}")
+    print(
+        "Plan summary: "
+        f"{summary['rollback_operations']} rollback operation(s), "
+        f"{summary['skipped']} skipped, "
+        f"{summary['applied_entries']} applied log entry(s), "
+        f"{summary['sessions']} session(s)."
+    )
+
+
+def _current_values_for_rollback_operations(args, plan, notion_api_key: str):
+    from notion_zotero.connectors.notion.reader import NotionReader
+    from notion_zotero.writers.notion_properties import build_property_schema_from_notion_schema
+
+    database_id = getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID")
+    notion_reader = NotionReader(api_key=notion_api_key)
+    notion_schema = None
+    property_schema = None
+    if database_id:
+        notion_schema = notion_reader.get_database_schema(database_id)
+        property_schema = build_property_schema_from_notion_schema(notion_schema)
+
+    current_values: dict[str, dict[str, Any]] = {}
+    for operation in plan.get("operations") or []:
+        page_id = str(operation.get("notion_reference_id") or "")
+        field = str(operation.get("field") or "")
+        if not page_id or not field:
+            continue
+        page = notion_reader.get_page(page_id)
+        ref = notion_reader.to_reference(page, schema=notion_schema)
+        current_values.setdefault(page_id, {})[field] = getattr(ref, field, None)
+
+    return current_values, property_schema
+
+
+def cmd_apply_rollback_plan(args):
+    _load_dotenv_for_cli()
+
+    from notion_zotero.services.rollback_applier import (
+        RollbackPlanValidationError,
+        apply_rollback_plan,
+    )
+
+    plan_path = Path(args.plan)
+    plan = json.loads(plan_path.read_text(encoding="utf-8"))
+
+    if args.apply:
+        notion_api_key = os.environ.get("NOTION_API_KEY")
+        if not notion_api_key:
+            print("Error: NOTION_API_KEY is required for apply-rollback-plan --apply", file=sys.stderr)
+            sys.exit(1)
+        from notion_zotero.connectors.notion.client import NotionClientAdapter
+        from notion_zotero.writers.write_log import WriteLog
+
+        try:
+            current_values, property_schema = _current_values_for_rollback_operations(args, plan, notion_api_key)
+        except Exception as exc:
+            print(f"Error: could not fetch current Notion values: {exc}", file=sys.stderr)
+            sys.exit(1)
+
+        write_log = WriteLog(session_id=f"apply-rollback-{int(time.time())}", log_dir=args.write_log_dir)
+        notion_client = NotionClientAdapter(notion_api_key)
+        try:
+            ops = apply_rollback_plan(
+                plan,
+                dry_run=False,
+                notion_client=notion_client,
+                write_log=write_log,
+                property_schema=property_schema,
+                current_values=current_values,
+            )
+        except (RollbackPlanValidationError, ValueError) as exc:
+            print(f"Error: invalid rollback plan: {exc}", file=sys.stderr)
+            sys.exit(1)
+        print(f"[APPLY MODE] Applied {len(ops)} rollback operation(s) from {plan_path}.")
+        print(f"Write log directory: {args.write_log_dir}")
+        return
+
+    try:
+        ops = apply_rollback_plan(plan, dry_run=True)
+    except RollbackPlanValidationError as exc:
+        print(f"Error: invalid rollback plan: {exc}", file=sys.stderr)
+        sys.exit(1)
+    print(f"[DRY-RUN] Planned {len(ops)} rollback operation(s) from {plan_path}.")
     for op in ops:
         print(op)
 
@@ -852,29 +999,43 @@ def cmd_report_provenance(args):
 
 
 def main(argv: Sequence[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="notion-zotero")
+    from notion_zotero.core.config import ConfigError, config_get, load_project_config
+
+    early = argparse.ArgumentParser(add_help=False)
+    early.add_argument("--config", default=None, help="Path to notion_zotero JSON project config")
+    early_args, _ = early.parse_known_args(argv)
+    try:
+        project_config = load_project_config(early_args.config)
+    except ConfigError as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        return 1
+
+    def cfg(key: str, default: Any = None) -> Any:
+        return config_get(project_config, key, default)
+
+    parser = argparse.ArgumentParser(prog="notion-zotero", parents=[early])
     sub = parser.add_subparsers(dest="cmd")
 
     e = sub.add_parser("export-snapshot", help="Export a Notion database snapshot to JSON")
-    e.add_argument("--out", default="data/pulled/notion/canonical_merged.json")
-    e.add_argument("--db", default=None)
+    e.add_argument("--out", default=cfg("paths.canonical_merged", "data/pulled/notion/canonical_merged.json"))
+    e.add_argument("--db", default=cfg("notion.database_id"))
     e.set_defaults(func=cmd_export_snapshot)
 
     p = sub.add_parser("parse-fixtures", help="Parse local fixture JSONs into canonical files")
-    p.add_argument("--input", default="data/raw/notion")
-    p.add_argument("--out", default="data/pulled/notion/learning_analytics_review")
+    p.add_argument("--input", default=cfg("paths.raw_notion_dir", "data/raw/notion"))
+    p.add_argument("--out", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     p.add_argument("--force", action="store_true")
-    p.add_argument("--domain-pack", default=None, help="Domain pack ID to apply during parsing")
+    p.add_argument("--domain-pack", default=cfg("domain_pack"), help="Domain pack ID to apply during parsing")
     p.set_defaults(func=cmd_parse_fixtures)
 
     m = sub.add_parser("merge-canonical", help="Merge per-page canonical JSONs into a single array")
-    m.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
-    m.add_argument("--out", default="data/pulled/notion/canonical_merged.json")
+    m.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
+    m.add_argument("--out", default=cfg("paths.canonical_merged", "data/pulled/notion/canonical_merged.json"))
     m.set_defaults(func=cmd_merge_canonical)
 
     d = sub.add_parser("dedupe-canonical", help="Deduplicate a merged canonical JSON by DOI or title+authors")
-    d.add_argument("--input", default="data/pulled/notion/canonical_merged.json")
-    d.add_argument("--out", default="data/pulled/notion/canonical_merged.dedup.json")
+    d.add_argument("--input", default=cfg("paths.canonical_merged", "data/pulled/notion/canonical_merged.json"))
+    d.add_argument("--out", default=cfg("paths.canonical_deduped", "data/pulled/notion/canonical_merged.dedup.json"))
     d.set_defaults(func=cmd_dedupe_canonical)
 
     z = sub.add_parser("zotero-citation", help="Print a human citation for a Zotero item or canonical bundle")
@@ -888,39 +1049,39 @@ def main(argv: Sequence[str] | None = None) -> int:
     lt.set_defaults(func=cmd_list_templates)
 
     vf = sub.add_parser("validate-fixtures", help="Validate canonical fixture JSON files")
-    vf.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    vf.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     vf.set_defaults(func=cmd_validate_fixtures)
 
     ry = sub.add_parser("report-by-year", help="Reference counts by publication year")
-    ry.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    ry.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     ry.set_defaults(func=cmd_report_by_year)
 
     rj = sub.add_parser("report-by-journal", help="Reference counts by journal/venue")
-    rj.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    rj.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     rj.set_defaults(func=cmd_report_by_journal)
 
     rd = sub.add_parser("report-doi-coverage", help="DOI coverage rate across bundles")
-    rd.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    rd.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     rd.set_defaults(func=cmd_report_doi_coverage)
 
     rt_p = sub.add_parser("report-task-counts", help="Tasks per reference and extractions per template")
-    rt_p.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    rt_p.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     rt_p.set_defaults(func=cmd_report_task_counts)
 
     pst = sub.add_parser("paper-summary-tables", help="Write manuscript-oriented task summary workbook")
-    pst.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
-    pst.add_argument("--out", default="data/analysis_outputs/paper_task_summary_tables.xlsx")
+    pst.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
+    pst.add_argument("--out", default=cfg("paths.paper_summary_workbook", "data/analysis_outputs/paper_task_summary_tables.xlsx"))
     pst.add_argument("--no-title", action="store_true", default=False,
                      help="Omit Paper title column from task sheets")
     pst.set_defaults(func=cmd_paper_summary_tables)
 
     rp = sub.add_parser("report-provenance", help="Provenance completeness across bundles")
-    rp.add_argument("--input", default="data/pulled/notion/learning_analytics_review")
+    rp.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     rp.set_defaults(func=cmd_report_provenance)
 
     pz = sub.add_parser("pull-zotero", help="Pull items from Zotero and save as canonical bundles")
-    pz.add_argument("--output", default=None, help="Output directory (default: data/pulled/zotero)")
-    pz.add_argument("--limit", type=int, default=None, help="Page size for Zotero API (default: 100)")
+    pz.add_argument("--output", default=cfg("paths.zotero_dir"), help="Output directory (default: data/pulled/zotero)")
+    pz.add_argument("--limit", type=int, default=cfg("zotero.limit"), help="Page size for Zotero API (default: 100)")
     pz.add_argument("--detect-library-id", dest="detect_library_id", action="store_true",
                     help="Auto-detect ZOTERO_LIBRARY_ID from API key")
     pz.add_argument("--alt-output-name", dest="alt_output_name", default=None,
@@ -928,9 +1089,9 @@ def main(argv: Sequence[str] | None = None) -> int:
     pz.set_defaults(func=cmd_pull_zotero)
 
     pn = sub.add_parser("pull-notion", help="Pull pages from a Notion database and save as canonical bundles")
-    pn.add_argument("--database-id", dest="database_id", default=None, help="Notion database ID")
-    pn.add_argument("--output", default="data/pulled/notion", help="Output directory (default: data/pulled/notion)")
-    pn.add_argument("--name", dest="pull_name", default=None, help="Subfolder name under output to store this pull (e.g. learning_analytics_review)")
+    pn.add_argument("--database-id", dest="database_id", default=cfg("notion.database_id"), help="Notion database ID")
+    pn.add_argument("--output", default=cfg("paths.notion_pull_root", "data/pulled/notion"), help="Output directory (default: data/pulled/notion)")
+    pn.add_argument("--name", dest="pull_name", default=cfg("notion.pull_name"), help="Subfolder name under output to store this pull (e.g. learning_analytics_review)")
     pn.add_argument("--alt-output-name", dest="alt_output_name", default=None,
                     help="Alternate folder name to use if the final target conflicts (e.g. mypull)")
     pn.add_argument("--skip-blocks", dest="skip_blocks", action="store_true",
@@ -943,28 +1104,54 @@ def main(argv: Sequence[str] | None = None) -> int:
     df.set_defaults(func=cmd_diff)
 
     ps = sub.add_parser("plan-sync", help="Build a read-only sync plan from local Notion and Zotero snapshots")
-    ps.add_argument("--notion-dir", dest="notion_dir", default="data/pulled/notion/learning_analytics_review")
-    ps.add_argument("--zotero-dir", dest="zotero_dir", default="data/pulled/zotero")
-    ps.add_argument("--out", default="data/sync_plans/sync_plan.json")
+    ps.add_argument("--notion-dir", dest="notion_dir", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
+    ps.add_argument("--zotero-dir", dest="zotero_dir", default=cfg("paths.zotero_dir", "data/pulled/zotero"))
+    ps.add_argument("--out", default=cfg("paths.sync_plan", "data/sync_plans/sync_plan.json"))
     ps.set_defaults(func=cmd_plan_sync)
 
+    rv = sub.add_parser("review-plan", help="Write a Markdown review report from a sync plan")
+    rv.add_argument("--plan", default=cfg("paths.sync_plan", "data/sync_plans/sync_plan.json"))
+    rv.add_argument("--out", default=cfg("paths.sync_plan_review", "data/sync_plans/sync_plan_review.md"))
+    rv.add_argument("--max-rows", dest="max_rows", type=int, default=cfg("reports.max_rows", 25))
+    rv.set_defaults(func=cmd_review_plan)
+
     ap = sub.add_parser("apply-plan", help="Dry-run or apply a reviewed sync plan")
-    ap.add_argument("--plan", default="data/sync_plans/sync_plan.json")
+    ap.add_argument("--plan", default=cfg("paths.sync_plan", "data/sync_plans/sync_plan.json"))
     ap.add_argument("--apply", action="store_true", default=False)
-    ap.add_argument("--write-log-dir", dest="write_log_dir", default="logs/write_logs")
+    ap.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
+    ap.add_argument("--notion-database-id", dest="notion_database_id", default=cfg("notion.database_id"),
+                    help="Fetch live Notion database schema for property names/types in apply mode")
+    ap.add_argument("--include-reviewed-creates", dest="include_reviewed_creates",
+                    action="store_true", default=bool(cfg("sync.include_reviewed_creates", False)),
+                    help="Apply approved create_notion_page_from_zotero_record review actions")
     ap.set_defaults(func=cmd_apply_plan)
 
+    rb = sub.add_parser("rollback-plan", help="Build a review-only rollback plan from write logs")
+    rb.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
+    rb.add_argument("--out", default=cfg("paths.rollback_plan", "data/sync_plans/rollback_plan.json"))
+    rb.add_argument("--session-id", dest="session_id", default=None,
+                    help="Limit rollback planning to a single write-log session")
+    rb.set_defaults(func=cmd_rollback_plan)
+
+    arb = sub.add_parser("apply-rollback-plan", help="Dry-run or apply a reviewed rollback plan")
+    arb.add_argument("--plan", default=cfg("paths.rollback_plan", "data/sync_plans/rollback_plan.json"))
+    arb.add_argument("--apply", action="store_true", default=False)
+    arb.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
+    arb.add_argument("--notion-database-id", dest="notion_database_id", default=cfg("notion.database_id"),
+                     help="Fetch live Notion database schema for rollback value checks and writes")
+    arb.set_defaults(func=cmd_apply_rollback_plan)
+
     sy = sub.add_parser("sync", help="Sync canonical bundles to Notion and Zotero")
-    sy.add_argument("--notion-dir", dest="notion_dir", default="data/pulled/notion")
-    sy.add_argument("--zotero-dir", dest="zotero_dir", default="data/pulled/zotero")
-    sy.add_argument("--baseline-dir", dest="baseline_dir", default="data/sync_baseline")
-    sy.add_argument("--write-log-dir", dest="write_log_dir", default="logs/write_logs")
+    sy.add_argument("--notion-dir", dest="notion_dir", default=cfg("paths.notion_pull_root", "data/pulled/notion"))
+    sy.add_argument("--zotero-dir", dest="zotero_dir", default=cfg("paths.zotero_dir", "data/pulled/zotero"))
+    sy.add_argument("--baseline-dir", dest="baseline_dir", default=cfg("paths.sync_baseline", "data/sync_baseline"))
+    sy.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
     sy.add_argument("--apply", action="store_true", default=False)
     sy.set_defaults(func=cmd_sync)
 
     st = sub.add_parser("status", help="Show sync status between Zotero and Notion")
-    st.add_argument("--zotero-limit", dest="zotero_limit", type=int, default=None)
-    st.add_argument("--notion-database-id", dest="notion_database_id", default=None)
+    st.add_argument("--zotero-limit", dest="zotero_limit", type=int, default=cfg("zotero.status_limit"))
+    st.add_argument("--notion-database-id", dest="notion_database_id", default=cfg("notion.database_id"))
     st.set_defaults(func=cmd_status)
 
     args = parser.parse_args(argv)

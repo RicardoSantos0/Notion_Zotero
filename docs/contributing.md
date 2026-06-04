@@ -22,11 +22,18 @@ python -m pytest
 
 ```bash
 python -m pytest
+python -m pytest tests --ignore=tests/integration -q -o addopts=''
+python -m pytest tests/test_sync_drift_regressions.py tests/test_sync_planner.py -q -o addopts=''
 ```
 
-Tests require an editable install. Unit tests do not hit live Notion or Zotero
-APIs. Keep integration tests marked with `pytest.mark.integration` and run them
-separately when credentials or pre-populated pull data are available.
+Tests require an editable install. `python -m pytest` is the authoritative
+coverage gate from `pyproject.toml`; use `-o addopts=''` for focused local test
+slices that should not invoke coverage. Unit tests do not hit live Notion or
+Zotero APIs. Keep integration tests marked with `pytest.mark.integration` and
+run them separately when credentials or pre-populated pull data are available.
+
+The GitHub Actions workflow runs the same standards in separate jobs: unit
+tests, local integration tests, sync-drift regressions, and full coverage.
 
 ## Adding a new domain pack
 

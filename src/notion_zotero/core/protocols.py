@@ -28,11 +28,13 @@ class ZoteroClientProtocol(Protocol):
 class NotionPagesProtocol(Protocol):
     """Contract for the ``client.pages`` sub-object used by NotionWriter.
 
-    NotionWriter calls exactly one method on the sub-object:
+    NotionWriter and sync-plan apply paths call methods on the sub-object:
         client.pages.update(page_id: str, *, properties: dict[str, Any]) -> Any
+        client.pages.create(*, parent: dict[str, Any], properties: dict[str, Any]) -> Any
     """
 
     def update(self, page_id: str, **kwargs: Any) -> Any: ...
+    def create(self, **kwargs: Any) -> Any: ...
 
 
 class NotionClientProtocol(Protocol):

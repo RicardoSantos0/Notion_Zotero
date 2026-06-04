@@ -26,6 +26,63 @@ DEFAULT_NOTION_PROPERTY_SCHEMA: dict[str, dict[str, str]] = {
     "assignment_source": {"name": "assignment_source", "type": "select"},
 }
 
+CANONICAL_NOTION_PROPERTY_ALIASES: dict[str, str] = {
+    "title": "title",
+    "name": "title",
+    "paper title": "title",
+    "author": "authors",
+    "authors": "authors",
+    "year": "year",
+    "publication year": "year",
+    "journal": "journal",
+    "publication": "journal",
+    "doi": "doi",
+    "url": "url",
+    "link": "url",
+    "zotero_key": "zotero_key",
+    "zotero key": "zotero_key",
+    "abstract": "abstract",
+    "type": "item_type",
+    "item_type": "item_type",
+    "tags": "tags",
+    "keywords": "tags",
+    "search strategy": "search_terms",
+    "search terms": "search_terms",
+    "search_terms": "search_terms",
+    "date of retrieval": "search_date",
+    "search date": "search_date",
+    "search_date": "search_date",
+    "database": "database",
+    "source database": "database",
+    "search database": "database",
+    "platform": "database",
+    "quartile": "journal_quartile",
+    "journal quartile": "journal_quartile",
+    "sjr quartile": "journal_quartile",
+    "journal_quartile": "journal_quartile",
+    "article type": "journal_quartile",
+}
+
+
+def build_property_schema_from_notion_schema(
+    notion_schema: Mapping[str, str | Mapping[str, Any]] | None,
+) -> dict[str, dict[str, str]]:
+    """Convert a Notion database schema into canonical-field property schema."""
+    property_schema: dict[str, dict[str, str]] = {}
+    for property_name, raw in (notion_schema or {}).items():
+        canonical_field = CANONICAL_NOTION_PROPERTY_ALIASES.get(str(property_name).strip().casefold())
+        if not canonical_field or canonical_field in property_schema:
+            continue
+        if isinstance(raw, Mapping):
+            prop_type = str(raw.get("type") or "rich_text")
+        else:
+            prop_type = str(raw or "rich_text")
+        property_schema[canonical_field] = {
+            "name": str(property_name),
+            "type": prop_type,
+        }
+    return property_schema
+
 
 def _schema_entry(
     field_name: str,
@@ -105,7 +162,9 @@ def serialize_notion_properties(
 
 
 __all__ = [
+    "CANONICAL_NOTION_PROPERTY_ALIASES",
     "DEFAULT_NOTION_PROPERTY_SCHEMA",
+    "build_property_schema_from_notion_schema",
     "serialize_notion_property",
     "serialize_notion_properties",
 ]

@@ -58,6 +58,23 @@ class _NotionPagesAdapter:
         resp.raise_for_status()
         return resp.json()
 
+    @retry(
+        retry=retry_if_exception_type(requests.HTTPError),
+        wait=_notion_retry_wait,
+        stop=stop_after_attempt(4),
+        reraise=True,
+    )
+    def create(self, *, parent: dict[str, Any], properties: dict[str, Any]) -> dict:
+        url = f"{_NOTION_BASE}/pages"
+        resp = requests.post(
+            url,
+            headers=self._headers,
+            json={"parent": parent, "properties": properties},
+            timeout=30,
+        )
+        resp.raise_for_status()
+        return resp.json()
+
 
 class NotionClientAdapter:
     """Thin requests adapter for the Notion API satisfying NotionClientProtocol."""

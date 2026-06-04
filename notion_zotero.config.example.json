@@ -1,0 +1,31 @@
+{
+  "domain_pack": "education_learning_analytics",
+  "paths": {
+    "raw_notion_dir": "data/raw/notion",
+    "notion_pull_root": "data/pulled/notion",
+    "notion_review_dir": "data/pulled/notion/learning_analytics_review",
+    "zotero_dir": "data/pulled/zotero",
+    "canonical_merged": "data/pulled/notion/canonical_merged.json",
+    "canonical_deduped": "data/pulled/notion/canonical_merged.dedup.json",
+    "sync_plan": "data/sync_plans/sync_plan.json",
+    "sync_plan_review": "data/sync_plans/sync_plan_review.md",
+    "rollback_plan": "data/sync_plans/rollback_plan.json",
+    "paper_summary_workbook": "data/analysis_outputs/paper_task_summary_tables.xlsx",
+    "sync_baseline": "data/sync_baseline",
+    "write_log_dir": "logs/write_logs"
+  },
+  "notion": {
+    "database_id": "",
+    "pull_name": "learning_analytics_review"
+  },
+  "zotero": {
+    "limit": 100,
+    "status_limit": 500
+  },
+  "sync": {
+    "include_reviewed_creates": false
+  },
+  "reports": {
+    "max_rows": 25
+  }
+}

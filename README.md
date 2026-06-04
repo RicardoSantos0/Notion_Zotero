@@ -78,6 +78,16 @@ To inspect executable plan operations without writing to Notion:
 notion-zotero apply-plan
 ```
 
+For a human-readable review file:
+
+```bash
+notion-zotero review-plan
+```
+
+This writes `data/sync_plans/sync_plan_review.md` with summary counts,
+executable operations, ambiguous matches, source-only records, and review
+actions.
+
 After reviewing the JSON plan, apply the executable Notion metadata updates with:
 
 ```bash
@@ -86,7 +96,44 @@ notion-zotero apply-plan --apply
 
 Apply mode requires `NOTION_API_KEY` and writes an append-only session log under
 `logs/write_logs/`. Notion page creation for Zotero-only records is intentionally
-left as a review action in the plan, not an automatic write.
+left as a review action in the plan, not an automatic write. `review-plan` and
+`apply-plan` validate `sync_plan.json` before rendering or applying it, so
+unsupported plan versions and malformed operations fail with a clear error.
+When `--notion-database-id` or `NOTION_DATABASE_ID` is available, apply mode
+fetches the live Notion database schema and writes to the database's actual
+property names/types instead of relying on default canonical names.
+
+To create Notion pages for selected Zotero-only records, review
+`sync_plan.json`, change only the intended
+`create_notion_page_from_zotero_record` actions from `needs_review` to
+`approved`, then run:
+
+```bash
+notion-zotero apply-plan --apply --include-reviewed-creates --notion-database-id <id>
+```
+
+Approved creates are checked against current Notion titles before writing and
+are logged with the same append-only write-log mechanism.
+
+To produce a review-only rollback plan from applied Notion write-log entries:
+
+```bash
+notion-zotero rollback-plan
+```
+
+This writes `data/sync_plans/rollback_plan.json` with reversed field updates for
+applied Notion reference writes. It does not call live APIs.
+
+After reviewing that rollback plan, preview or apply it with current-value
+checks:
+
+```bash
+notion-zotero apply-rollback-plan
+notion-zotero apply-rollback-plan --apply --notion-database-id <id>
+```
+
+Apply mode fetches each affected Notion page first and only writes when the
+current value still matches `expected_current_value` in the rollback plan.
 
 ---
 
@@ -219,7 +266,9 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 | `pull-zotero` | → `data/pulled/zotero/` | Pull live Zotero library items |
 | `status` | reads `data/pulled/` | Show sync status between Notion and Zotero data |
 | `plan-sync` | `data/pulled/notion/learning_analytics_review` + `data/pulled/zotero` → `data/sync_plans/sync_plan.json` | Build a read-only review plan before synchronization |
+| `review-plan` | `data/sync_plans/sync_plan.json` → `data/sync_plans/sync_plan_review.md` | Write a Markdown review report for a sync plan |
 | `apply-plan` | `data/sync_plans/sync_plan.json` | Dry-run or apply reviewed sync-plan operations |
+| `rollback-plan` | `logs/write_logs` → `data/sync_plans/rollback_plan.json` | Build a review-only rollback plan from applied Notion write logs |
 | `report-by-year` | `data/pulled/notion/learning_analytics_review` | Reference counts by publication year |
 | `report-by-journal` | `data/pulled/notion/learning_analytics_review` | Reference counts by journal/venue |
 | `report-doi-coverage` | `data/pulled/notion/learning_analytics_review` | DOI coverage rate across bundles |
@@ -253,6 +302,8 @@ data/
     notion/                         ← raw Notion page exports for offline parsing (gitignored)
   sync_plans/
     sync_plan.json                  ← generated review plan from plan-sync (gitignored)
+    sync_plan_review.md             ← Markdown review report from review-plan (gitignored)
+    rollback_plan.json              ← review-only rollback plan from write logs (gitignored)
 logs/
   write_logs/                       ← append-only NDJSON logs for apply mode (gitignored)
 tests/
@@ -277,6 +328,7 @@ analysis/
   table_normalization.py ← task/value normalization helpers driven by domain packs
 core/
   models.py           ← canonical Reference + WorkflowState + ReferenceTask
+  sync_plan_models.py ← typed sync-plan validation models
   text_utils.py       ← reusable text cleanup, typo fixes, search-string normalization
   exceptions.py       ← ConfigurationError, NotionZoteroError
 schemas/
@@ -308,6 +360,8 @@ The package uses a review-first sync workflow:
 3. `apply-plan` previews executable operations without network writes.
 4. `apply-plan --apply` applies reviewed Notion metadata updates and writes an
    append-only NDJSON write log.
+5. `rollback-plan` can turn applied Notion write-log entries into a review-only
+   compensating JSON plan.
 
 Current executable plan operations update Notion bibliographic metadata from
 Zotero-owned fields. Zotero-only records are surfaced as `needs_review` actions
@@ -321,25 +375,31 @@ ambiguous for review.
 
 ---
 
+## Project config
+
+You can keep project defaults in a JSON config file instead of repeating long
+path arguments:
+
+```bash
+notion-zotero --config notion_zotero.config.json plan-sync
+notion-zotero --config notion_zotero.config.json apply-plan
+```
+
+Copy `notion_zotero.config.example.json` to `notion_zotero.config.json` and
+adjust paths, `notion.database_id`, `domain_pack`, write-log directory, and sync
+policy. Local config filenames are gitignored; CLI flags still override config
+values.
+
+---
+
 ## Suggested next improvements
 
 The package is now in a solid review-first state. The highest-value next steps are:
 
-- **Schema-driven Notion mapping:** fetch the active Notion database schema and
-  use it to configure property names/types instead of relying on default field
-  names.
-- **Reviewed page creation:** add an explicit `create-page` operation for
-  Zotero-only records, with duplicate checks and a required review marker.
-- **Typed sync-plan models:** represent plans and operations with Pydantic models
-  so malformed or old plan versions fail early with clear messages.
-- **Plan review reports:** generate a Markdown or Excel review report from
-  `sync_plan.json` for easier inspection before apply mode.
-- **Restore/rollback helper:** read write logs and produce a human-reviewable
-  rollback plan for recently applied Notion updates.
-- **Configuration file:** add a project config file for default paths, domain
-  pack, Notion property schema, and sync policy.
-- **CI polish:** run focused sync-plan tests separately from the full suite and
-  add fixture-based regression plans for common Notion/Zotero drift cases.
+- **Write-log replay:** add a broader replay command for `planned` and `failed`
+  write-log entries, extending the rollback tooling beyond inverse operations.
+- **Plan migration checks:** add explicit compatibility tests for older
+  `sync_plan.json` files as the typed sync-plan schema evolves.
 
 ---
 
@@ -348,9 +408,13 @@ The package is now in a solid review-first state. The highest-value next steps a
 ```bash
 python -m pytest                          # full suite with coverage
 python -m pytest tests --ignore=tests/integration -o addopts=''  # local unit-only pass
+python -m pytest tests/test_sync_drift_regressions.py tests/test_sync_planner.py -q -o addopts=''
 ```
 
 Integration tests (marked `pytest.mark.integration`) require live API credentials or pre-populated `data/pulled/` directories. Run unit tests only with `python -m pytest tests --ignore=tests/integration -o addopts=''`.
+
+GitHub Actions mirrors the local workflow with four jobs: unit tests, local
+integration tests, focused sync-drift regressions, and the full coverage gate.
 
 On this OneDrive path, if the project `.venv` or `uv run` hangs, use an
 external throwaway environment outside the repository:
@@ -362,7 +426,7 @@ $env:PYTHONPATH='src'
 C:\Users\ricar\Documents\codex-test-env-notion-zotero\Scripts\python.exe -m pytest tests -q
 ```
 
-Latest external-env suite result: **395 passed, 84.02% coverage**.
+Latest verified suite result: **438 passed, 84.13% coverage**.
 
 ---
 
