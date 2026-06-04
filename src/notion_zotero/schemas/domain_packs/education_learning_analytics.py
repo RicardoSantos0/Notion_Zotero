@@ -893,13 +893,19 @@ PREDICTION_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
 }
 
 # ---------------------------------------------------------------------------
-# Prediction horizon: short-term vs long-term outcome scope
+# Prediction horizon: course-level vs program-level outcome scope
 # Applied to: "Student Performance Definition" + "Target" columns in PRED table
+# Short-term is course-level prediction. Long-term is program-level prediction.
+# Generic dropout is not sufficient for long-term unless the row also signals a
+# program, degree, institution, retention, persistence, enrollment, transfer, or
+# graduation outcome.
 # ---------------------------------------------------------------------------
 PREDICTION_HORIZON_ALIAS_PATTERNS: dict[str, list[str]] = {
     "Short-term": [
+        r"course",
         r"assignment",
         r"quiz",
+        r"week",
         r"weekly",
         r"module",
         r"exercise",
@@ -911,19 +917,26 @@ PREDICTION_HORIZON_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"next.*question",
         r"question.*correct",
         r"course.*completion",
+        r"end\s*of\s*(the\s*)?course",
+        r"course.*success",
         r"pass or fail",
         r"pass/fail",
+        r"pass\s*\(?\d?\)?\s*vs\s*fail",
+        r"fail\s*\(?\d?\)?\s*vs\s*pass",
         r"final.*grade",
         r"final.*mark",
         r"final.*score",
         r"course.*grade",
+        r"course.*performance",
         r"exam.*score",
+        r"exam.*performance",
         r"gpa",
+        r"at.?risk.*course",
+        r"course.*drop.?out",
+        r"drop.?out.*course",
     ],
     "Long-term": [
-        r"dropout",
-        r"drop out",
-        r"drop-out",
+        r"program",
         r"retention",
         r"graduation",
         r"graduate",
@@ -933,7 +946,15 @@ PREDICTION_HORIZON_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"multi.?year",
         r"transfer",
         r"enroll",
+        r"admission",
+        r"first.?year",
+        r"academic.?year",
+        r"institution",
+        r"university",
+        r"college",
         r"at.?risk.*program",
+        r"(graduat|program|degree|university|college|institution|retention|persist|enroll|transfer).*drop.?out",
+        r"drop.?out.*(graduat|program|degree|university|college|institution|retention|persist|enroll|transfer)",
     ],
     "Both": [
         r"short.*long",
