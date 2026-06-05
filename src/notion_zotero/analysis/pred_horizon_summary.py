@@ -34,6 +34,8 @@ EARLY_ACTIONABLE_PATTERNS: list[str] = [
     r"early",
     r"week",
     r"month",
+    r"semester",
+    r"\byear\b",
     r"mid",
     r"half",
     r"during",
@@ -67,6 +69,80 @@ DEPLOYED_IMPLEMENTED_PATTERNS: list[str] = [
     r"used\s*in\s*(production|practice)",
 ]
 
+# Conservative Long-term patterns applied to supplementary fields (Courses, Students).
+# These fields often mention 'university' or 'college' just as an institution name, so
+# only unambiguously program-level vocabulary is matched here.
+SUPPLEMENTARY_LONG_TERM_PATTERNS: list[str] = [
+    r"\bprogram(me)?\b",      # program / programme
+    r"\bdegree\b",
+    r"\bbachelor",
+    r"\bmaster",
+    r"\bdoctoral",
+    r"\bphd\b",
+    r"\bmsc\b",
+    r"\bbsc\b",
+    r"\bmajor\b",             # college major
+    r"graduat",
+    r"persist",
+    r"retention",
+    r"first.?year\s*(student|cohort|engineering)",
+    r"multi.?year",
+    r"academic.?year",
+    r"\d+\s*(cohort|academic\s*year)",  # e.g. "3 Cohorts of a Software Engineering Program"
+]
+
+# Moment of Prediction patterns that imply program-level scope (Long-term only).
+# 'Before the course starts' is deliberately excluded — that is still Short-term
+# (predicting a course outcome before the course). Only program/enrollment timing qualifies.
+# Patterns are derived from actual values in the canonical data.
+PROGRAM_MOMENT_LONG_TERM_PATTERNS: list[str] = [
+    # Explicit program/degree framing
+    r"(before|start|beginning)\s*(of\s*)?(the\s*)?program(me)?",
+    r"end\s*of\s*(the\s*)?program(me)?",
+    r"every\s*quarter\s*in\s*the\s*program(me)?",
+    # Year-level milestones (multi-year = program-level)
+    r"start\s*of\s*(the\s*)?first\s*year",          # 'Start of First Year'
+    r"end\s*of\s*(the\s*)?first\s*year",            # 'End of First Year' (n=3)
+    r"end\s*of\s*(second|2nd|third|3rd)\s*year",   # 'End of 2nd Year' (n=2)
+    r"end\s*of\s*year\s*\d",                        # 'End of Year 2 (out of 4)'
+    r"year\s*\d+\s*(of|out\s*of)\s*\d+",           # 'Year 2 (out of 4)'
+    r"start\s*of\s*(new\s*)?academic\s*year",       # 'Start of New Academic Year' (n=3)
+    r"end\s*of\s*(previous|prior)\s*semester",      # 'End of Previous Semester'
+    r"before\s*start\s*of\s*next\s*semester",       # 'Before Start of Next Semester'
+    # Admission / registration into a program
+    r"time\s*of\s*admission",                       # 'Time of Admission at the MSc' (n=2)
+    r"moment\s*of\s*(registration|admission)",      # 'Moment of Registration' (n=1)
+    r"admission\s*of\s*student",                    # 'Admission of Student' (n=1)
+    r"at\s*(enrollment|admission)\s*(into|to)?\s*(the\s*)?(program(me)?|degree|msc|bsc|university|college)",
+    r"entering\s*(the\s*)?(program(me)?|degree|university|college)",
+    r"first\s*(semester|year)\s*of\s*(the\s*)?(program(me)?|degree|study)",
+]
+
+# Context values that unambiguously imply item/session-level (Short-term) prediction.
+# ITS platforms predict question correctness or session-level outcomes — never graduation.
+CONTEXT_SHORT_TERM_PATTERNS: list[str] = [
+    r"intelligent\s*tutoring",
+    r"\bits\b",
+    r"\bitss?\b",
+]
+
+# When these signals appear alongside Short-term matches, the row is Long-term only.
+# Prevents incidental course-level vocabulary (e.g. the word "course") from
+# overriding an explicitly program/graduation-level outcome.
+STRONG_LONG_TERM_OVERRIDE_PATTERNS: list[str] = [
+    r"graduat",
+    r"\bdegree\b",
+    r"persist",
+    r"retention",
+    r"\buniversity\b",
+    r"\bcollege\b",
+    r"\binstitution\b",
+    r"academic.?year",
+    r"multi.?year",
+    r"transfer",
+    r"first.?year",
+]
+
 REVIEWED_HORIZON_TITLE_PATTERNS: dict[str, list[str]] = {
     "Long-term": [
         r"multi-model heterogeneous ensemble",
@@ -76,6 +152,8 @@ REVIEWED_HORIZON_TITLE_PATTERNS: dict[str, list[str]] = {
         r"university student retention",
         r"university student dropout.*preference",
         r"mooc learner behavior prediction",
+        r"master of data science program using admissions data",
+        r"student achievement prediction using deep neural network from multi-source campus data",
     ],
     "Short-term": [
         r"academic performance of students with machine learning",
@@ -100,49 +178,46 @@ REVIEWED_HORIZON_TITLE_PATTERNS: dict[str, list[str]] = {
     ],
 }
 
+REVIEWED_TARGET_OVERRIDE_RULES: list[tuple[str, list[str]]] = [
+    ("Course Grade", [r"grade range.*a,\s*b,\s*c\s*and\s*f"]),
+    ("AP Score", [r"\bap score\b"]),
+    ("Graduation", [r"complete degree", r"graduates or drops out", r"graduation or dropout", r"graduation in expected time"]),
+    ("Assessment", [r"upcoming assessment", r"next assessment"]),
+    ("Delivery past the Deadline", [r"delay in submission", r"days of delay"]),
+    ("GPA", [r"top\s*20%\s*gpa", r"bottom\s*20%\s*gpa", r"end of program mark", r"grade point average", r"to\s*x%\s*gpa"]),
+    ("Exam Score", [r"performance groups.*low,\s*medium,\s*high"]),
+    ("Course Grade", [r"being at risk of failing in a course", r"grades\s*\(weekly or final\)"]),
+    ("Course Grade (High-Performing)", [r"high-performing student in a course"]),
+    ("GPA trend", [r"trend of gpa"]),
+    ("Dropout", [r"^dropout\b"]),
+    ("Exam Grade", [r"summative assessment results"]),
+    ("Course Grade", [r"academic performance.*grade"]),
+    ("Assessment Grade", [r"post-test scores"]),
+]
+
 PRED_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
-    "Dropout / retention": [
+    "Dropout": [
         r"dropout",
         r"drop out",
         r"drop-out",
         r"withdraw",
         r"retention",
         r"persist",
+        r"continue\s*\(1\)\s*vs",
+        r"not\s*continue",
+        r"\bcontinue\b.*\bnot\b",
     ],
-    "Pass/fail": [
-        r"pass\s*(\(\d\))?\s*(vs|/|or)\s*fail",
-        r"fail\s*(\(\d\))?\s*(vs|/|or)\s*pass",
-        r"\bpass\b.*\bfail\b",
-        r"\bfail\b.*\bpass\b",
+    "GPA": [r"\bgpa\b", r"\bcgpa\b", r"grade point average"],
+    "Graduation": [
+        r"graduat",
+        r"\bdegree\b",
     ],
-    "Grade / score / performance": [
-        r"grade",
-        r"mark",
-        r"score",
-        r"exam",
-        r"gpa",
-        r"performance",
-        r"achievement",
-    ],
-    "At-risk status": [
-        r"at.?risk",
-        r"risk of fail",
-        r"risk of dropping",
-    ],
-    "Certification / completion": [
+    "Course Completion": [
         r"certificat",
         r"completion",
         r"complete",
     ],
-    "Assessment / assignment outcome": [
-        r"assessment",
-        r"assignment",
-        r"quiz",
-        r"submission",
-        r"summative",
-        r"formative",
-    ],
-    "Next interaction / question outcome": [
+    "Next Interaction / Question Outcome": [
         r"next.*interaction",
         r"quality of next interaction",
         r"next.*question",
@@ -150,6 +225,97 @@ PRED_TARGET_ALIAS_PATTERNS: dict[str, list[str]] = {
         r"correctness",
     ],
 }
+
+AT_RISK_FRAMING_PATTERNS: list[str] = [
+    r"at.?risk",
+    r"risk of fail",
+    r"risk of dropping",
+    r"risk of dropout",
+    r"low.perform",
+    r"poor perform",
+]
+
+PASS_FAIL_PATTERNS: list[str] = [
+    r"pass\s*(\(\d\))?\s*(vs|/|or)\s*fail",
+    r"fail\s*(\(\d\))?\s*(vs|/|or)\s*pass",
+    r"\bpass\b.*\bfail\b",
+    r"\bfail\b.*\bpass\b",
+    r"passed\s*\(?\d?\)?\s*(vs|/|or)\s*failed",
+    r"success\s*\(?\d?\)?\s*(vs|/|or)\s*failure",
+    r"succeeding\s*\(?\d?\)?\s*(vs|/|or)\s*failing",
+    r"close\s*(to|of)\s*(fail|pass|passing|failing)",
+    r"(near|almost|nearly)\s*(fail|pass)",
+    r"delay.*vs.*timely|timely.*vs.*delay|late.*vs.*on.?time",
+]
+
+EXAM_PATTERNS: list[str] = [r"exam", r"cmbse"]
+ASSESSMENT_PATTERNS: list[str] = [
+    r"assessment",
+    r"assignment",
+    r"quiz",
+    r"lab",
+    r"submission",
+    r"summative",
+    r"formative",
+]
+COURSE_GRADE_PATTERNS: list[str] = [
+    r"course.*grade",
+    r"grade.*course",
+    r"final.*grade",
+    r"final.*mark",
+    r"course.*score",
+    r"course.*performance",
+    r"end of course",
+    r"student grade",
+    r"grade letter",
+    r"grade category",
+    r"grade\s*\([a-f]",
+    r"grade\s*(above|below)",
+]
+GENERIC_GRADE_SCORE_PATTERNS: list[str] = [
+    r"grade",
+    r"mark",
+    r"score",
+    r"performance",
+    r"achievement",
+]
+
+AT_RISK_TIER_PATTERNS: list[str] = [
+    r"at.?risk",
+    r"\btop\s*\d+\s*%",
+    r"\bbottom\s*\d+\s*%",
+    r"(above|below)\s*(the\s*)?(median|mean|average)",
+    r"performance\s*(tier|level|group|categor)",
+    r"(low|high)\s*(perform|achiev)",
+    r"sufficient\s*,\s*(average|good)",
+    r"(exceptional|excellent|distinction)\s*,\s*(pass|fail)",
+]
+
+EMPTYISH_TEXT_PATTERNS: list[str] = [
+    r"",
+    r"n/?a",
+    r"none",
+    r"not\s*(reported|specified|stated|available)",
+    r"unknown",
+    r"-+",
+]
+
+LEARNING_OUTCOME_PATTERNS: list[str] = [
+    r"cognitive",
+    r"\bskill",
+    r"learning.*(gain|outcome|result)",
+    r"knowledge.*(gain|acqui)",
+    r"recall\s*(rate|score)",
+    r"competenc",
+    r"academic\s*success",
+]
+
+TIME_TO_COMPLETION_PATTERNS: list[str] = [
+    r"time.?(to|until|of).?(degree|graduat|complet|finish)",
+    r"(years?|months?).?(to|until).?(degree|graduat|complet)",
+    r"time.?to.?degree",
+    r"years.?to.?degree",
+]
 
 
 def _require_pandas():
@@ -185,6 +351,11 @@ def _first_text(value: Any) -> str:
     if isinstance(value, list):
         return "; ".join(str(item) for item in value)
     return str(value or "")
+
+
+def _has_informative_text(value: Any) -> bool:
+    text = _first_text(value).strip().lower()
+    return bool(text) and not any(re.fullmatch(pattern, text) for pattern in EMPTYISH_TEXT_PATTERNS)
 
 
 def classify_supervised_ml_task(value: Any) -> str | None:
@@ -231,6 +402,59 @@ def classify_horizons_with_source(row: Mapping[str, Any]) -> list[tuple[str, str
         labels.append(("Short-term", "course-level alias"))
     if _has_any(text, PREDICTION_HORIZON_ALIAS_PATTERNS["Long-term"]):
         labels.append(("Long-term", "program-level alias"))
+
+    # Supplementary Long-term signal from Courses / Students fields.
+    # Scanned only against conservative program-level patterns to avoid false positives
+    # from incidental institution names (e.g. "at University of X" in a course-grade study).
+    supplementary_text = _as_text(row.get("Courses"), row.get("Students"))
+    if supplementary_text.strip() and _has_any(supplementary_text, SUPPLEMENTARY_LONG_TERM_PATTERNS):
+        if not any(h == "Long-term" for h, _ in labels):
+            labels.append(("Long-term", "program-level context (Courses/Students)"))
+
+    # Supplementary Long-term signal from Moment of Prediction.
+    # Only specific program-level timing patterns qualify (e.g. "start of the program",
+    # "at enrollment into the program"). Generic pre-course timing is excluded because
+    # predicting a course outcome before the course starts is still Short-term.
+    moment_text = _as_text(row.get("Moment of Prediction"))
+    if moment_text.strip() and _has_any(moment_text, PROGRAM_MOMENT_LONG_TERM_PATTERNS):
+        if not any(h == "Long-term" for h, _ in labels):
+            labels.append(("Long-term", "program-level timing (Moment of Prediction)"))
+
+    # ITS context overrides: Intelligent Tutoring Systems never predict program-level
+    # outcomes. If an ITS context is present, demote any spurious Long-term label that
+    # came only from supplementary fields (not from the primary target/definition text).
+    context_text = _as_text(row.get("Context"))
+    if context_text.strip() and _has_any(context_text, CONTEXT_SHORT_TERM_PATTERNS):
+        # Remove Long-term labels sourced only from supplementary fields
+        labels = [
+            (h, src) for h, src in labels
+            if h != "Long-term" or src == "program-level alias"
+        ]
+        # Add Short-term if still missing
+        if not any(h == "Short-term" for h, _ in labels):
+            labels.append(("Short-term", "ITS context (item/session-level)"))
+
+    # Suppress incidental Short-term matches when strong Long-term signals dominate.
+    # e.g. "graduation" or "degree" with an accidental "course" mention should be
+    # Long-term only, not Both.
+    if len(labels) > 1:
+        horizons_found = {h for h, _ in labels}
+        if "Long-term" in horizons_found and "Short-term" in horizons_found:
+            if _has_any(text, STRONG_LONG_TERM_OVERRIDE_PATTERNS):
+                labels = [(h, src) for h, src in labels if h != "Short-term"]
+
+    # Final fallback: if no horizon found yet because Target / Student Performance
+    # Definition are both empty, infer from the Courses field. If the field is
+    # populated and lacks program-level vocabulary, treat it as course-level context.
+    if not labels and not text.strip():
+        courses_value = row.get("Courses")
+        courses_text = _as_text(courses_value)
+        if (
+            _has_informative_text(courses_value)
+            and not _has_any(courses_text, SUPPLEMENTARY_LONG_TERM_PATTERNS)
+        ):
+            labels.append(("Short-term", "course-level context (Courses field; empty primary fields)"))
+
     return labels
 
 
@@ -250,13 +474,74 @@ def classify_target_variables(row: Mapping[str, Any]) -> list[str]:
     if not target_text:
         target_text = _first_text(row.get("Student Performance Definition")).strip()
     text = _as_text(target_text)
+    context_text = _as_text(row.get("Student Performance Definition"), target_text)
     targets: list[str] = []
-    for target, patterns in PRED_TARGET_ALIAS_PATTERNS.items():
-        if _has_any(text, patterns):
+
+    for target, patterns in REVIEWED_TARGET_OVERRIDE_RULES:
+        if _has_any(context_text, patterns):
             targets.append(target)
-    if "Dropout / retention" in targets:
-        targets = [target for target in targets if target != "Certification / completion"]
-    return targets or ["Other / ambiguous"]
+
+    if _has_any(text, TIME_TO_COMPLETION_PATTERNS):
+        targets.append("Time to completion")
+
+    for target, patterns in PRED_TARGET_ALIAS_PATTERNS.items():
+        if _has_any(context_text, patterns):
+            targets.append(target)
+
+    if _has_any(context_text, PASS_FAIL_PATTERNS):
+        if _has_any(context_text, EXAM_PATTERNS):
+            targets.append("Exam Grade")
+        elif _has_any(context_text, ASSESSMENT_PATTERNS):
+            targets.append("Assessment")
+        else:
+            targets.append("Course Grade")
+
+    if _has_any(context_text, EXAM_PATTERNS) and _has_any(context_text, GENERIC_GRADE_SCORE_PATTERNS):
+        if re.search(r"score", context_text):
+            targets.append("Exam Score")
+        else:
+            targets.append("Exam Grade")
+    elif _has_any(context_text, ASSESSMENT_PATTERNS) and _has_any(context_text, GENERIC_GRADE_SCORE_PATTERNS):
+        targets.append("Assessment")
+    elif _has_any(context_text, COURSE_GRADE_PATTERNS):
+        targets.append("Course Grade")
+
+    if "Time to completion" in targets:
+        targets = [
+            target
+            for target in targets
+            if target not in {"Graduation", "Course Completion"}
+        ]
+    if "Graduation" in targets:
+        targets = [
+            target
+            for target in targets
+            if target not in {"Dropout", "Course Completion"}
+        ]
+    elif "Dropout" in targets:
+        targets = [target for target in targets if target != "Course Completion"]
+    if any(target in {"Course Grade", "Exam Grade", "Exam Score", "Assessment"} for target in targets):
+        targets = [
+            target
+            for target in targets
+            if target
+            not in {
+                "GPA",
+            }
+        ]
+    if not targets:
+        if _has_any(text, LEARNING_OUTCOME_PATTERNS):
+            targets.append("Learning outcome / skill")
+    deduped = list(dict.fromkeys(targets))
+    return deduped or ["Other / ambiguous"]
+
+
+def has_at_risk_framing(row: Mapping[str, Any]) -> bool:
+    """Return True when a target is framed as risk/performance-tier grouping."""
+    return _has_any(
+        _as_text(row.get("Student Performance Definition"), row.get("Target")),
+        AT_RISK_FRAMING_PATTERNS + AT_RISK_TIER_PATTERNS,
+    )
 
 
 def raw_target_evidence(row: Mapping[str, Any]) -> str:
@@ -275,7 +560,7 @@ def is_early_actionable_prediction(row: Mapping[str, Any]) -> bool:
         return False
     early = _has_any(text, EARLY_ACTIONABLE_PATTERNS)
     only_post_course = _has_any(text, POST_COURSE_PATTERNS) and not _has_any(
-        text, [r"week", r"early", r"during", r"every", r"half"]
+        text, [r"week", r"early", r"during", r"every", r"half", r"semester", r"\byear\b"]
     )
     return early and not only_post_course
 
@@ -333,6 +618,7 @@ def build_pred_horizon_task_detail(dfs: Mapping[str, Any]):
                         "Supervised ML Task": task,
                         "Target Variable": target,
                         "Raw target evidence": raw_target_evidence(row),
+                        "At-risk / tier framing": has_at_risk_framing(row),
                         "Early/actionable prediction": is_early_actionable_prediction(row),
                         "Implemented intervention or deployment": implemented,
                     }
@@ -348,11 +634,106 @@ def build_pred_horizon_task_detail(dfs: Mapping[str, Any]):
                 "Supervised ML Task",
                 "Target Variable",
                 "Raw target evidence",
+                "At-risk / tier framing",
                 "Early/actionable prediction",
                 "Implemented intervention or deployment",
             ]
         )
     return pd.DataFrame(output_rows).drop_duplicates()
+
+
+def find_unclassified_pred_horizon_rows(dfs: Mapping[str, Any]):
+    """Return supervised PRED rows that still lack a horizon classification."""
+    pd = _require_pandas()
+    pred_rows = _rows(dfs.get("PRED"))
+    reading_rows = _rows(dfs.get("Reading List"))
+
+    reading_by_id: dict[str, dict[str, Any]] = {}
+    for row in reading_rows:
+        paper_id = next(
+            (str(row.get(col) or "") for col in ("page_id", "source_page_id", "id") if row.get(col)),
+            "",
+        )
+        if paper_id:
+            reading_by_id[paper_id] = row
+
+    output_rows: list[dict[str, Any]] = []
+    for row in pred_rows:
+        task = classify_supervised_ml_task(row.get("Task"))
+        if task is None:
+            continue
+
+        paper_id = str(row.get("source_page_id") or "")
+        if not paper_id:
+            continue
+
+        reference = reading_by_id.get(paper_id, {})
+        title = _first_text(reference.get("title") or row.get("source_title"))
+        horizon_input = {**reference, **row, "Paper title": title}
+        if classify_horizons_with_source(horizon_input):
+            continue
+
+        output_rows.append(
+            {
+                "paper_id": paper_id,
+                "Paper title": title,
+                "Supervised ML Task": task,
+                "Student Performance Definition": row.get("Student Performance Definition", ""),
+                "Target": row.get("Target", ""),
+                "Context": row.get("Context", ""),
+                "Courses": row.get("Courses", ""),
+                "Moment of Prediction": row.get("Moment of Prediction", ""),
+            }
+        )
+
+    columns = [
+        "paper_id",
+        "Paper title",
+        "Supervised ML Task",
+        "Student Performance Definition",
+        "Target",
+        "Context",
+        "Courses",
+        "Moment of Prediction",
+    ]
+    if not output_rows:
+        return pd.DataFrame(columns=columns)
+    return pd.DataFrame(output_rows).drop_duplicates().reset_index(drop=True)
+
+
+def _cleaned_summary_dataframes_from_canonical(
+    canonical_dir: str | Path,
+    *,
+    accepted_only: bool,
+) -> tuple[dict[str, Any], dict[str, dict[str, Any]]]:
+    bundles = load_canonical_records(canonical_dir)
+    if accepted_only:
+        bundles = [bundle for bundle in bundles if is_accepted(bundle)]
+
+    raw_dfs = build_summary_dataframes(bundles, task_label_fn=task_label_fn)
+    cleaned_dfs: dict[str, Any] = {}
+    clean_logs: dict[str, dict[str, Any]] = {}
+    for name, df in raw_dfs.items():
+        cleaned_dfs[name], clean_logs[name] = clean_table(
+            df,
+            typo_fixes=TYPO_FIXES,
+            value_map=GENERIC_VALUE_MAP,
+            search_strategy_columns=SEARCH_STRATEGY_COLUMNS,
+        )
+    return cleaned_dfs, clean_logs
+
+
+def find_unclassified_pred_horizon_rows_from_canonical(
+    canonical_dir: str | Path,
+    *,
+    accepted_only: bool = True,
+):
+    """Load canonical bundles and return supervised PRED rows lacking horizons."""
+    cleaned_dfs, _logs = _cleaned_summary_dataframes_from_canonical(
+        canonical_dir,
+        accepted_only=accepted_only,
+    )
+    return find_unclassified_pred_horizon_rows(cleaned_dfs)
 
 
 def build_pred_horizon_task_summary(dfs: Mapping[str, Any]):
@@ -393,6 +774,9 @@ def build_pred_horizon_task_summary(dfs: Mapping[str, Any]):
                         "Papers with implemented intervention or deployment": bucket.loc[
                             bucket["Implemented intervention or deployment"], "paper_id"
                         ].nunique(),
+                        "Papers with at-risk / tier framing": bucket.loc[
+                            bucket["At-risk / tier framing"], "paper_id"
+                        ].nunique(),
                         "Raw target evidence": raw_target_evidence,
                     }
                 )
@@ -406,20 +790,10 @@ def build_pred_horizon_task_summary_from_canonical(
     accepted_only: bool = True,
 ):
     """Load canonical bundles, clean analysis tables, and build the PRED summary."""
-    bundles = load_canonical_records(canonical_dir)
-    if accepted_only:
-        bundles = [bundle for bundle in bundles if is_accepted(bundle)]
-
-    raw_dfs = build_summary_dataframes(bundles, task_label_fn=task_label_fn)
-    cleaned_dfs: dict[str, Any] = {}
-    clean_logs: dict[str, dict[str, Any]] = {}
-    for name, df in raw_dfs.items():
-        cleaned_dfs[name], clean_logs[name] = clean_table(
-            df,
-            typo_fixes=TYPO_FIXES,
-            value_map=GENERIC_VALUE_MAP,
-            search_strategy_columns=SEARCH_STRATEGY_COLUMNS,
-        )
+    cleaned_dfs, clean_logs = _cleaned_summary_dataframes_from_canonical(
+        canonical_dir,
+        accepted_only=accepted_only,
+    )
 
     summary_df, detail_df = build_pred_horizon_task_summary(cleaned_dfs)
     return summary_df, detail_df, clean_logs
@@ -454,6 +828,9 @@ __all__ = [
     "classify_supervised_ml_task",
     "classify_target_variable",
     "classify_target_variables",
+    "find_unclassified_pred_horizon_rows",
+    "find_unclassified_pred_horizon_rows_from_canonical",
+    "has_at_risk_framing",
     "has_implemented_intervention_or_deployment",
     "is_early_actionable_prediction",
     "raw_target_evidence",
