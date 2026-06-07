@@ -2,7 +2,7 @@
 from __future__ import annotations
 
 import re
-from typing import Any, Iterable, List
+from typing import Any, Iterable
 
 
 _WS_RE = re.compile(r"\s+")

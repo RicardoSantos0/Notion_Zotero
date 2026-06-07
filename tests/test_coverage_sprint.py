@@ -214,7 +214,12 @@ class TestEducationLearningAnalyticsDomainPack:
 
     def test_domain_pack_version(self):
         from notion_zotero.schemas.domain_packs.education_learning_analytics import DOMAIN_PACK_VERSION
-        assert DOMAIN_PACK_VERSION == "1.0"
+        from packaging.version import Version  # type: ignore[import]
+        # WP1 T2.2 bumped the domain pack version from 1.0 to 1.1.
+        # Use >= comparison per CHANGELOG migration note.
+        assert Version(DOMAIN_PACK_VERSION) >= Version("1.1"), (
+            f"DOMAIN_PACK_VERSION is {DOMAIN_PACK_VERSION!r}; expected >= '1.1' after WP1"
+        )
 
 
 # ===========================================================================

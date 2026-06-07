@@ -1,7 +1,6 @@
 """Lightweight citation formatting helpers for canonical references."""
 from __future__ import annotations
 
-from typing import List
 from .models import Reference
 
 

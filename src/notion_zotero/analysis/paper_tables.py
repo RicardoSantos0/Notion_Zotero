@@ -1159,8 +1159,698 @@ def write_paper_summary_workbook(
     return path
 
 
+# ---------------------------------------------------------------------------
+# generate_table2 — data sources by LA task (R-006)
+# ---------------------------------------------------------------------------
+
+#: Mapping from canonical task_id in bundle to display column label
+_TASK_ID_TO_LABEL: dict[str, str] = {
+    "performance_prediction": "PRED",
+    "descriptive_modelling": "DESC",
+    "knowledge_tracing": "KT",
+    "recommender_systems": "ERS",
+}
+
+#: Ordered display columns for Table 2
+_TABLE2_TASK_ORDER: list[str] = ["PRED", "DESC", "KT", "ERS"]
+
+#: Missing-value sentinels for the Data sources field
+_DS_MISSING = {
+    "",
+    "none",
+    "n/a",
+    "na",
+    "not applicable",
+    "none specified",
+    "not specified",
+    "-",
+}
+
+#: Caption text for the Markdown output
+_TABLE2_MD_CAPTION = (
+    "**Table II** – Data sources identified in the reviewed studies by analytical task. "
+    "Counts represent the number of papers using each data source."
+)
+
+
+def _load_canonical_bundles(canonical_dir: "Path") -> "list[dict]":
+    """Load all *.canonical.json bundles from *canonical_dir*."""
+    import json
+
+    bundles = []
+    for path in sorted(canonical_dir.glob("*.canonical.json")):
+        try:
+            bundles.append(json.loads(path.read_text(encoding="utf-8")))
+        except Exception:
+            continue
+    return bundles
+
+
+def _bundle_task_label(bundle: dict) -> "str | None":
+    """Return the display-label (PRED/DESC/KT/ERS) for the bundle's primary task."""
+    tasks = bundle.get("tasks") or []
+    for task in tasks:
+        task_id = (task.get("id") or "").strip()
+        label = _TASK_ID_TO_LABEL.get(task_id)
+        if label is not None:
+            return label
+    return None
+
+
+def _collect_data_source_terms(
+    bundle: dict,
+) -> "list[dict]":
+    """Extract canonical data-source terms from all task_extractions in *bundle*.
+
+    Returns a list of dicts with keys: raw_token, value, matched.
+    Duplicates within the same bundle are kept so the caller can inspect
+    per-extraction occurrences; deduplication to paper level is done upstream.
+    """
+    terms: list[dict] = []
+    for te in bundle.get("task_extractions") or []:
+        for row in te.get("extracted") or []:
+            raw_ds = row.get("Data sources")
+            if raw_ds is None:
+                continue
+            raw_str = str(raw_ds).strip()
+            if normalize_token_key(raw_str) in _DS_MISSING:
+                continue
+            row_terms = extract_canonical_terms(
+                raw_ds,
+                alias_patterns=ela.DATA_SOURCE_ALIAS_PATTERNS,
+                keep_unmatched=True,
+                missing_values=ela.DATA_SOURCE_MISSING_VALUES,
+            )
+            terms.extend(row_terms)
+    return terms
+
+
+def generate_table2(
+    canonical_dir: "str | Path",
+    output_dir: "str | Path | None" = None,
+    audit_dir: "str | Path | None" = None,
+) -> "Any":
+    """Generate Table 2 — data sources by LA task (R-006).
+
+    Reads all ``*.canonical.json`` bundles from *canonical_dir*, counts unique
+    papers per (task, data-source category), and returns a cross-tab DataFrame.
+
+    Count semantics
+    ---------------
+    A paper using a data source across multiple extraction rows counts **once**
+    per task per data-source category (dedup on paper_id within task).
+
+    Output files (written to *output_dir* and *audit_dir*)
+    -------------------------------------------------------
+    - ``data_source_by_task.xlsx``
+    - ``data_source_by_task.csv``
+    - ``data_source_by_task.md`` — includes Table II caption
+    - ``../audits/table2_unmatched_audit.md`` — unmatched tokens with examples
+
+    Args:
+        canonical_dir:
+            Directory containing ``*.canonical.json`` bundle files.
+        output_dir:
+            Directory for table outputs.  Defaults to
+            ``<repo_root>/data/analysis_outputs/la_review/tables/``.
+        audit_dir:
+            Directory for audit outputs.  Defaults to
+            ``<repo_root>/data/analysis_outputs/la_review/audits/``.
+
+    Returns:
+        ``pandas.DataFrame`` with columns:
+        ``Data source | PRED | DESC | KT | ERS | Total``
+    """
+    try:
+        import pandas as pd
+    except ImportError as exc:
+        raise ImportError(
+            "pandas is required for generate_table2. "
+            "Install the analysis extras: pip install -e .[analysis]"
+        ) from exc
+
+    canonical_dir = Path(canonical_dir)
+
+    # Resolve output directories
+    _repo_root = Path(__file__).resolve().parents[3]
+    _la_review_root = _repo_root / "data" / "analysis_outputs" / "la_review"
+
+    if output_dir is None:
+        output_dir = _la_review_root / "tables"
+    if audit_dir is None:
+        audit_dir = _la_review_root / "audits"
+
+    output_dir = Path(output_dir)
+    audit_dir = Path(audit_dir)
+
+    bundles = _load_canonical_bundles(canonical_dir)
+
+    # -----------------------------------------------------------------------
+    # Build long table: one record per (paper_id, task_label, category)
+    # We also collect unmatched tokens for audit output.
+    # -----------------------------------------------------------------------
+
+    # For counting: set of paper_ids per (task_label, category)
+    paper_sets: dict[tuple[str, str], set[str]] = {}
+
+    # For audit: unmatched raw tokens with paper_id examples
+    # Structure: {raw_token: {"count": int, "papers": set}}
+    unmatched_index: dict[str, dict] = {}
+
+    for bundle in bundles:
+        task_label = _bundle_task_label(bundle)
+        if task_label is None:
+            # Not one of the four primary tasks — skip
+            continue
+
+        paper_id = (bundle.get("provenance") or {}).get("source_id", "")
+        if not paper_id:
+            refs = bundle.get("references") or []
+            paper_id = (refs[0].get("id") or "") if refs else ""
+        if not paper_id:
+            continue
+
+        # Collect per-paper categories (dedup within paper x task x category)
+        seen_categories_this_paper: set[str] = set()
+
+        terms = _collect_data_source_terms(bundle)
+        for term in terms:
+            if term["matched"]:
+                category = term["value"]
+                key = (task_label, category)
+                if key not in paper_sets:
+                    paper_sets[key] = set()
+                if category not in seen_categories_this_paper:
+                    paper_sets[key].add(paper_id)
+                    seen_categories_this_paper.add(category)
+            else:
+                # Unmatched token — collect for audit
+                raw_token = str(term["raw_token"]).strip()
+                if raw_token not in unmatched_index:
+                    unmatched_index[raw_token] = {"count": 0, "papers": set()}
+                unmatched_index[raw_token]["count"] += 1
+                unmatched_index[raw_token]["papers"].add(paper_id)
+
+    # -----------------------------------------------------------------------
+    # Pivot into a DataFrame
+    # -----------------------------------------------------------------------
+
+    # Collect all categories (rows) from matched terms
+    all_categories: set[str] = {cat for (_task, cat) in paper_sets}
+
+    # Sort categories by descending Total count, then alphabetically
+    def _category_total(cat: str) -> int:
+        return sum(
+            len(paper_sets.get((t, cat), set()))
+            for t in _TABLE2_TASK_ORDER
+        )
+
+    sorted_categories = sorted(
+        all_categories,
+        key=lambda c: (-_category_total(c), c),
+    )
+
+    output_rows: list[dict] = []
+    for cat in sorted_categories:
+        row: dict = {"Data source": cat}
+        total = 0
+        for task in _TABLE2_TASK_ORDER:
+            n = len(paper_sets.get((task, cat), set()))
+            row[task] = n
+            total += n
+        row["Total"] = total
+        output_rows.append(row)
+
+    col_order = ["Data source", *_TABLE2_TASK_ORDER, "Total"]
+    df = pd.DataFrame(output_rows, columns=col_order)
+
+    # -----------------------------------------------------------------------
+    # Write output files
+    # -----------------------------------------------------------------------
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    audit_dir.mkdir(parents=True, exist_ok=True)
+
+    # CSV
+    csv_path = output_dir / "data_source_by_task.csv"
+    df.to_csv(csv_path, index=False)
+
+    # Markdown (with caption)
+    md_path = output_dir / "data_source_by_task.md"
+    md_lines: list[str] = [
+        _TABLE2_MD_CAPTION,
+        "",
+        "| " + " | ".join(col_order) + " |",
+        "| " + " | ".join("---" for _ in col_order) + " |",
+    ]
+    for _, row in df.iterrows():
+        md_lines.append("| " + " | ".join(str(row[c]) for c in col_order) + " |")
+    md_path.write_text("\n".join(md_lines) + "\n", encoding="utf-8")
+
+    # Excel
+    xlsx_path = output_dir / "data_source_by_task.xlsx"
+    try:
+        with pd.ExcelWriter(xlsx_path, engine="openpyxl") as writer:
+            df.to_excel(writer, sheet_name="Table2_DataSource", index=False)
+    except ImportError:
+        pass  # Excel write is best-effort; CSV is the authoritative output
+
+    # Audit report: unmatched tokens
+    audit_path = audit_dir / "table2_unmatched_audit.md"
+    audit_lines: list[str] = [
+        "# Table 2 Unmatched Data-Source Token Audit",
+        "",
+        f"Generated from `{canonical_dir}`.",
+        "",
+        f"**Total distinct unmatched tokens:** {len(unmatched_index)}",
+        "",
+        "| Token | Occurrence count | Example paper IDs |",
+        "| --- | --- | --- |",
+    ]
+    # Sort by occurrence count descending
+    for token, info in sorted(
+        unmatched_index.items(), key=lambda x: -x[1]["count"]
+    ):
+        example_papers = "; ".join(sorted(info["papers"])[:3])
+        audit_lines.append(
+            f"| {token} | {info['count']} | {example_papers} |"
+        )
+    audit_path.write_text("\n".join(audit_lines) + "\n", encoding="utf-8")
+
+    return df
+
+
+# ---------------------------------------------------------------------------
+# generate_table4 — task synthesis matrix (R-007)
+# generate_table5 — evaluation maturity by task (R-008)
+#
+# Both read the same canonical bundles as generate_table2/3 and aggregate to
+# the task level.  Table 4 is a qualitative synthesis (one row per task); Table
+# 5 is a quantitative maturity cross-tab (one row per task per maturity level).
+# ---------------------------------------------------------------------------
+
+#: One-line purpose statement per LA task (domain definition — not derived data).
+_TASK_PURPOSE: dict[str, str] = {
+    "PRED": "Predict future student outcomes (grades, pass/fail, dropout, retention) "
+    "to enable early, targeted intervention.",
+    "DESC": "Describe and segment learner behaviour and profiles through clustering "
+    "and exploratory modelling.",
+    "KT": "Model the evolving knowledge state of a student over time to estimate "
+    "mastery and guide practice.",
+    "ERS": "Recommend learning resources, activities, peers, or paths tailored to "
+    "the individual learner.",
+}
+
+#: Actionability-gap synthesis per task (review interpretation, not a count).
+_TASK_ACTIONABILITY_GAP: dict[str, str] = {
+    "PRED": "Few studies move beyond retrospective backtesting to deployed "
+    "early-warning systems with evaluated interventions.",
+    "DESC": "Descriptive clusters are rarely linked to actionable interventions or "
+    "validated prospectively.",
+    "KT": "Knowledge-tracing gains are mostly benchmarked offline; classroom "
+    "deployment and learning-impact evidence is sparse.",
+    "ERS": "Recommenders are seldom evaluated with real learners over time; "
+    "long-term learning-outcome effects are largely untested.",
+}
+
+#: Ordered evaluation-maturity scale (R-008), lowest to highest.
+_MATURITY_LEVELS: list[str] = [
+    "public benchmark only",
+    "backtested",
+    "tested with new students",
+    "deployed",
+    "deployed with intervention evaluation",
+]
+
+#: Crosswalk: PRED actionability_status (WP2 classifier) -> maturity level.
+_ACTIONABILITY_TO_MATURITY: dict[str, str] = {
+    "deployed_with_intervention_evaluation": "deployed with intervention evaluation",
+    "deployed_or_deployable": "deployed",
+    "early_backtest_only": "backtested",
+    "retrospective_only": "backtested",
+    "unclear": "backtested",
+}
+
+#: Crosswalk: DEPLOYED_STATUS canonical value (non-PRED tasks) -> maturity level.
+_DEPLOYED_STATUS_TO_MATURITY: dict[str, str] = {
+    "Deployed by Instructor": "deployed",
+    "Prototype": "tested with new students",
+    "Not Ready": "backtested",
+    "Out of Scope": "backtested",
+}
+
+_TABLE4_COLUMNS: list[str] = [
+    "Task",
+    "Purpose",
+    "Data sources",
+    "Representations",
+    "Models",
+    "Metrics",
+    "Actionability gaps",
+]
+
+
+def _bundle_paper_id(bundle: dict) -> str:
+    """Return the stable paper id for a canonical *bundle* (provenance first)."""
+    paper_id = (bundle.get("provenance") or {}).get("source_id", "") or ""
+    if not paper_id:
+        refs = bundle.get("references") or []
+        paper_id = (refs[0].get("id") or "") if refs else ""
+    return str(paper_id)
+
+
+def _bundle_extracted_rows(bundle: dict) -> list[dict]:
+    """Flatten all task_extractions[*].extracted rows of a *bundle*."""
+    rows: list[dict] = []
+    for te in bundle.get("task_extractions") or []:
+        rows.extend(te.get("extracted") or [])
+    return rows
+
+
+def _group_bundles_by_task(
+    bundles: list[dict],
+) -> dict[str, list[tuple[str, list[dict]]]]:
+    """Group bundles into ``{task_label: [(paper_id, extracted_rows), ...]}``."""
+    grouped: dict[str, list[tuple[str, list[dict]]]] = {
+        t: [] for t in _TABLE2_TASK_ORDER
+    }
+    for bundle in bundles:
+        label = _bundle_task_label(bundle)
+        if label is None:
+            continue
+        paper_id = _bundle_paper_id(bundle)
+        if not paper_id:
+            continue
+        grouped[label].append((paper_id, _bundle_extracted_rows(bundle)))
+    return grouped
+
+
+def _unique_paper_counts(
+    items: Sequence[tuple[str, list[dict]]],
+    collector,
+) -> dict[str, int]:
+    """Count distinct papers contributing each canonical term.
+
+    *collector* maps a paper's extracted rows to a list of canonical terms.
+    A term is counted once per paper even if it appears in several rows.
+    """
+    paper_sets: dict[str, set[str]] = {}
+    for paper_id, rows in items:
+        for term in set(collector(rows)):
+            paper_sets.setdefault(term, set()).add(paper_id)
+    return {term: len(papers) for term, papers in paper_sets.items()}
+
+
+def _top_terms(counts: dict[str, int], limit: int = 5) -> str:
+    """Render the *limit* most frequent terms as ``term (n); …`` (desc, then name)."""
+    ordered = sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))[:limit]
+    return "; ".join(f"{term} ({n})" for term, n in ordered)
+
+
+def _collect_data_sources(rows: Sequence[Mapping[str, Any]], task: str) -> list[str]:
+    return _collect_alias_values(
+        rows,
+        ela.DATA_SOURCE_COLUMN_CANDIDATES,
+        ela.DATA_SOURCE_ALIAS_PATTERNS,
+        [],
+        task,
+        "",
+        "Data sources",
+        keep_unmatched=False,
+    )
+
+
+def _collect_models(rows: Sequence[Mapping[str, Any]], task: str) -> list[str]:
+    if task == "ERS":
+        return _collect_alias_values_from_all_candidates(
+            rows,
+            ("Recommender System Type", "Models", "Model", "Algorithm", "Algorithms"),
+            ela.RECOMMENDER_ALGORITHM_ALIAS_PATTERNS,
+            [],
+            task,
+            "",
+            "Models",
+            keep_unmatched=False,
+        )
+    return _collect_alias_values(
+        rows,
+        ("Models", "Model", "Algorithm", "Algorithms"),
+        ela.ALGORITHM_ALIAS_PATTERNS,
+        [],
+        task,
+        "",
+        "Models",
+        keep_unmatched=False,
+    )
+
+
+def _collect_representations(rows: Sequence[Mapping[str, Any]], task: str) -> list[str]:
+    return _collect_alias_values(
+        rows,
+        ["Features"],
+        ela.FEATURE_CATEGORY_ALIAS_PATTERNS,
+        [],
+        task,
+        "",
+        "Features",
+        keep_unmatched=False,
+    )
+
+
+def _collect_metrics(rows: Sequence[Mapping[str, Any]]) -> list[str]:
+    """Detect canonical evaluation-metric names mentioned anywhere in a paper's rows."""
+    text = " ; ".join(
+        str(v) for row in rows for v in row.values() if v is not None
+    ).lower()
+    labels: list[str] = []
+    for key, label in ela.RESULT_METRIC_LABELS.items():
+        if re.search(r"(?<![a-z0-9])" + re.escape(key) + r"(?![a-z0-9])", text):
+            labels.append(label)
+    return labels
+
+
+def generate_table4(
+    canonical_dir: "str | Path",
+    output_dir: "str | Path | None" = None,
+) -> "Any":
+    """Generate Table 4 — task synthesis matrix (R-007).
+
+    One row per LA task (PRED, DESC, KT, ERS) summarising, across that task's
+    papers: purpose, the most common data sources, learner representations,
+    models, and evaluation metrics (each as ``term (unique_papers)``), plus a
+    one-line actionability-gap synthesis.
+
+    Writes ``task_synthesis_matrix.{xlsx,csv,md}`` to *output_dir* (defaults to
+    ``<repo_root>/data/analysis_outputs/la_review/tables/``).
+    """
+    try:
+        import pandas as pd
+    except ImportError as exc:
+        raise ImportError(
+            "pandas is required for generate_table4. "
+            "Install the analysis extras: pip install -e .[analysis]"
+        ) from exc
+
+    canonical_dir = Path(canonical_dir)
+    _repo_root = Path(__file__).resolve().parents[3]
+    if output_dir is None:
+        output_dir = _repo_root / "data" / "analysis_outputs" / "la_review" / "tables"
+    output_dir = Path(output_dir)
+
+    grouped = _group_bundles_by_task(_load_canonical_bundles(canonical_dir))
+
+    out_rows: list[dict] = []
+    for task in _TABLE2_TASK_ORDER:
+        items = grouped.get(task, [])
+        data = _top_terms(
+            _unique_paper_counts(items, lambda r, t=task: _collect_data_sources(r, t))
+        )
+        reps = _top_terms(
+            _unique_paper_counts(items, lambda r, t=task: _collect_representations(r, t))
+        )
+        models = _top_terms(
+            _unique_paper_counts(items, lambda r, t=task: _collect_models(r, t))
+        )
+        metrics = _top_terms(
+            _unique_paper_counts(items, lambda r: _collect_metrics(r))
+        )
+        out_rows.append(
+            {
+                "Task": task,
+                "Purpose": _TASK_PURPOSE[task],
+                "Data sources": data or "not reported",
+                "Representations": reps
+                or "engineered/tabular features (not separately coded)",
+                "Models": models or "not reported",
+                "Metrics": metrics or "not consistently reported",
+                "Actionability gaps": _TASK_ACTIONABILITY_GAP[task],
+            }
+        )
+
+    df = pd.DataFrame(out_rows, columns=_TABLE4_COLUMNS)
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_dir / "task_synthesis_matrix.csv", index=False)
+
+    md_lines = [
+        "**Table IV** – Task-level synthesis matrix across the four learning-analytics "
+        "tasks. Cell entries show the most frequent canonical terms with the number of "
+        "distinct papers in parentheses.",
+        "",
+        "| " + " | ".join(_TABLE4_COLUMNS) + " |",
+        "| " + " | ".join("---" for _ in _TABLE4_COLUMNS) + " |",
+    ]
+    for _, row in df.iterrows():
+        md_lines.append("| " + " | ".join(str(row[c]) for c in _TABLE4_COLUMNS) + " |")
+    (output_dir / "task_synthesis_matrix.md").write_text(
+        "\n".join(md_lines) + "\n", encoding="utf-8"
+    )
+
+    try:
+        with pd.ExcelWriter(
+            output_dir / "task_synthesis_matrix.xlsx", engine="openpyxl"
+        ) as writer:
+            df.to_excel(writer, sheet_name="Table4_TaskSynthesis", index=False)
+    except ImportError:
+        pass
+
+    return df
+
+
+def _pred_paper_maturity(canonical_dir: "Path") -> dict[str, str]:
+    """Map each PRED paper to its highest maturity via the WP2 classifier."""
+    from notion_zotero.analysis.contribution_rows import (
+        build_contribution_rows,
+        deduplicate_contribution_rows,
+    )
+    from notion_zotero.analysis.predictive_problem_table import _classify_rows
+
+    classified = _classify_rows(
+        deduplicate_contribution_rows(build_contribution_rows(canonical_dir))
+    )
+    level_idx = {lvl: i for i, lvl in enumerate(_MATURITY_LEVELS)}
+    out: dict[str, str] = {}
+    for row in classified:
+        paper_id = str(row.get("paper_id", ""))
+        if not paper_id:
+            continue
+        status = str(row.get("actionability_status", "unclear"))
+        maturity = _ACTIONABILITY_TO_MATURITY.get(status, "backtested")
+        if paper_id not in out or level_idx[maturity] > level_idx[out[paper_id]]:
+            out[paper_id] = maturity
+    return out
+
+
+def _maturity_from_deployed_status(rows: Sequence[Mapping[str, Any]]) -> str:
+    """Derive a maturity level for non-PRED papers from deployment-status signals.
+
+    Defaults to ``"backtested"`` (retrospective evaluation) when no explicit
+    deployment signal is present — the baseline maturity for LA studies.
+    """
+    values = _collect_alias_values_from_all_candidates(
+        rows,
+        ("Deployed/ Deployable", "Deployed / Deployable", "Work Nature", "Deployment"),
+        ela.DEPLOYED_STATUS_ALIAS_PATTERNS,
+        [],
+        "",
+        "",
+        "Deployed status",
+        keep_unmatched=False,
+    )
+    level_idx = {lvl: i for i, lvl in enumerate(_MATURITY_LEVELS)}
+    best = "backtested"
+    for value in values:
+        mapped = _DEPLOYED_STATUS_TO_MATURITY.get(value)
+        if mapped and level_idx[mapped] > level_idx[best]:
+            best = mapped
+    return best
+
+
+def generate_table5(
+    canonical_dir: "str | Path",
+    output_dir: "str | Path | None" = None,
+) -> "Any":
+    """Generate Table 5 — evaluation maturity by task (R-008).
+
+    One row per (task, maturity level) with the count of distinct papers.  PRED
+    maturity is taken from the WP2 actionability classifier; the other tasks use
+    deployment-status signals (defaulting to ``backtested``).  A paper is placed
+    in its single highest maturity level.
+
+    Writes ``evaluation_maturity.{xlsx,csv,md}`` to *output_dir* (defaults to
+    ``<repo_root>/data/analysis_outputs/la_review/tables/``).
+    """
+    try:
+        import pandas as pd
+    except ImportError as exc:
+        raise ImportError(
+            "pandas is required for generate_table5. "
+            "Install the analysis extras: pip install -e .[analysis]"
+        ) from exc
+
+    canonical_dir = Path(canonical_dir)
+    _repo_root = Path(__file__).resolve().parents[3]
+    if output_dir is None:
+        output_dir = _repo_root / "data" / "analysis_outputs" / "la_review" / "tables"
+    output_dir = Path(output_dir)
+
+    grouped = _group_bundles_by_task(_load_canonical_bundles(canonical_dir))
+    pred_maturity = _pred_paper_maturity(canonical_dir)
+
+    counts: dict[tuple[str, str], set[str]] = {}
+    for task in _TABLE2_TASK_ORDER:
+        for paper_id, rows in grouped.get(task, []):
+            if task == "PRED" and paper_id in pred_maturity:
+                maturity = pred_maturity[paper_id]
+            else:
+                maturity = _maturity_from_deployed_status(rows)
+            counts.setdefault((task, maturity), set()).add(paper_id)
+
+    out_rows = [
+        {
+            "Task": task,
+            "Maturity level": level,
+            "Unique papers": len(counts.get((task, level), set())),
+        }
+        for task in _TABLE2_TASK_ORDER
+        for level in _MATURITY_LEVELS
+    ]
+    df = pd.DataFrame(out_rows, columns=["Task", "Maturity level", "Unique papers"])
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+    df.to_csv(output_dir / "evaluation_maturity.csv", index=False)
+
+    md_lines = [
+        "**Table V** – Evaluation maturity by learning-analytics task. Counts are "
+        "distinct papers at each maturity level (a paper is shown at its highest level).",
+        "",
+        "| Task | Maturity level | Unique papers |",
+        "| --- | --- | --- |",
+    ]
+    for _, row in df.iterrows():
+        md_lines.append(
+            f"| {row['Task']} | {row['Maturity level']} | {row['Unique papers']} |"
+        )
+    (output_dir / "evaluation_maturity.md").write_text(
+        "\n".join(md_lines) + "\n", encoding="utf-8"
+    )
+
+    try:
+        with pd.ExcelWriter(
+            output_dir / "evaluation_maturity.xlsx", engine="openpyxl"
+        ) as writer:
+            df.to_excel(writer, sheet_name="Table5_Maturity", index=False)
+    except ImportError:
+        pass
+
+    return df
+
+
 __all__ = [
     "build_paper_summary_tables",
     "build_paper_summary_dataframes",
     "write_paper_summary_workbook",
+    "generate_table2",
+    "generate_table4",
+    "generate_table5",
 ]

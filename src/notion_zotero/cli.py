@@ -310,7 +310,7 @@ def cmd_pull_zotero(args):
         os.environ["ZOTERO_LIBRARY_ID"] = user_id
 
     try:
-        from notion_zotero.connectors.zotero.reader import ZoteroReader, ConfigurationError
+        from notion_zotero.connectors.zotero.reader import ZoteroReader, ConfigurationError  # noqa: F401
     except ImportError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)
@@ -469,7 +469,7 @@ def cmd_pull_notion(args):
     _load_dotenv_for_cli()
 
     try:
-        from notion_zotero.connectors.notion.reader import NotionReader, ConfigurationError
+        from notion_zotero.connectors.notion.reader import NotionReader, ConfigurationError  # noqa: F401
     except ImportError as exc:
         print(f"Error: {exc}", file=sys.stderr)
         sys.exit(1)
@@ -907,7 +907,7 @@ def cmd_sync(args):
     from notion_zotero.core.models import Reference
 
     notion_dir = getattr(args, "notion_dir", None) or "data/pulled/notion"
-    zotero_dir = getattr(args, "zotero_dir", None) or "data/pulled/zotero"
+    zotero_dir = getattr(args, "zotero_dir", None) or "data/pulled/zotero"  # noqa: F841
     baseline_dir = getattr(args, "baseline_dir", None) or "data/sync_baseline"
     apply = getattr(args, "apply", False)
 

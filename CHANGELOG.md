@@ -4,6 +4,62 @@ All notable changes to notion_zotero are documented here.
 
 ---
 
+## [2026-06-07] — Golden fixture refresh (d-036)
+
+Refreshed `tests/fixtures/la_table_3_counts.csv` under Master decision d-036
+(classifier accuracy improvement; prior fixture locked at T3.5/d-035).
+New counts: `target_construct=unclear` 29→1; `early_actionable_papers` total 71→96.
+Regenerated from source via `generate_table3(canonical_dir)` — no hand-editing.
+
+---
+
+## [2026-06-07] v1.1 — Learning Analytics taxonomy YAML + WP1 override layer
+
+### Migration: v1.0 -> v1.1 (WP1 T2.1/T2.2)
+
+The learning analytics domain pack has been upgraded from v1.0 to v1.1.
+All taxonomy vocabulary previously hardcoded in `education_learning_analytics.py`
+now lives in a versioned YAML file.  Hard-coded paper-specific title overrides
+previously in `pred_horizon_summary.py` have been extracted to the review-specific
+config layer.
+
+**Files added:**
+- `src/notion_zotero/schemas/domain_packs/learning_analytics_taxonomy.yaml` —
+  10-dimension taxonomy (supervised_ml_task, outcome_scope, unit_of_analysis,
+  target_construct, prediction_timing, actionability_status, risk_framing,
+  evidence_quality, cv_design, context_type) with vocabularies, definitions,
+  disambiguation guidance, and examples/non-examples for ambiguous terms.
+- `configs/reviews/la_student_success_review/manual_overrides.yaml` —
+  structured override registry (contribution_id, field, value, rationale, reviewer,
+  date); carries `taxonomy_version_stamp` header matching taxonomy v1.1.
+- `configs/reviews/la_student_success_review/title_overrides.yaml` —
+  paper-level prediction-horizon overrides extracted from the previously
+  hard-coded `REVIEWED_HORIZON_TITLE_PATTERNS` dict; each entry carries a
+  `rationale` field.
+- `configs/reviews/la_student_success_review/taxonomy_notes.md` —
+  human-reviewer commentary on systematic ambiguity patterns (dropout,
+  GPA, at-risk framing, prediction timing anchoring).
+
+**Files modified:**
+- `src/notion_zotero/schemas/domain_packs/education_learning_analytics.py` —
+  `DOMAIN_PACK_VERSION` bumped to `"1.1"`; added `TAXONOMY_SOURCE` constant
+  (path to YAML); added `get_taxonomy()` loader function with caching and
+  PyYAML error handling.
+- `src/notion_zotero/analysis/pred_horizon_summary.py` —
+  added `apply_overrides()` function for post-classification manual override
+  application with audit traceability.
+
+**Breaking change (v1.0 users):**
+  `DOMAIN_PACK_VERSION` is now `"1.1"`.  Code that does `== "1.0"` comparisons
+  must be updated.  The `packaging.version.Version` comparison `>= Version("1.1")`
+  is the recommended check.
+
+**Decisions:**
+  d-011 (cv_design + context_type additions), d-012 (extend existing modules),
+  d-013 (taxonomy version stamp on overrides).
+
+---
+
 ## [2026-05-02] Paper-ready summary tables, display policy, and reusable visualization
 
 ### New features

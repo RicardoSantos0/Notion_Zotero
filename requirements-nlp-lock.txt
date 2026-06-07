@@ -1,0 +1,35 @@
+# requirements-nlp-lock.txt
+# NLP dependencies actually imported by classify_contribution() and
+# run_taxonomy_classification_pipeline() in
+#   src/notion_zotero/analysis/pred_horizon_summary.py
+#
+# STEP 2 implementation (d-032) uses the deterministic-rules path only.
+# All classification logic uses Python stdlib: re, json, datetime, pathlib.
+# No external NLP packages are imported (guardrail 7: pin only deps actually used).
+#
+# Optional Layer 2 (zero-shot NLI / sentence-transformers) is NOT shipped in this
+# deliverable.  If added in a future sprint, the following would be pinned here:
+#   torch>=2.2.0,<3.0.0
+#   transformers>=4.40.0,<5.0.0
+#   sentence-transformers>=3.0.0,<4.0.0
+#
+# Required transitive deps already in the project's main dependency tree
+# (pinned in uv.lock — reproduced here for NLP-audit traceability):
+#   pandas>=2.0.0        (required by run_taxonomy_classification_pipeline)
+#   pyyaml>=6.0          (optional; used for manual_overrides.yaml loading if available)
+#
+# Method actually used per dimension:
+#   supervised_ml_task   : stdlib re (exact match on raw_task)
+#   outcome_scope        : stdlib re (rules + MOOC-dropout disambiguation)
+#   unit_of_analysis     : deterministic inference from outcome_scope
+#   target_construct     : stdlib re (gazetteer + conflict detection)
+#   prediction_timing    : stdlib re (feature-extraction cutoff anchoring, d-011)
+#   actionability_status : stdlib re (assessment strategy rules)
+#   risk_framing         : stdlib re (at-risk gazetteer)
+#   evidence_quality     : stdlib re + numeric parsing (heuristic scoring)
+#   cv_design            : stdlib re (assessment strategy rules)
+#   context_type         : stdlib re (context gazetteer)
+#
+# No model_card.yaml is required: no model was trained or fitted.
+# The classifier is entirely rule-based (pretrained-model-free).
+# Human review gate (R-017) serves as the canonical validation mechanism.

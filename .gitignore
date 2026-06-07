@@ -9,6 +9,11 @@ notion-zotero.json
 data/
 data/pulled/
 logs/
+# Excel outputs are regenerable binaries — keep local, never upload (CSV/MD are the tracked forms)
+*.xlsx
+# Frozen baseline snapshot is a local reference — do not upload its binary assets
+baseline_manual/*.xlsx
+baseline_manual/*.docx
 .idea/
 .vscode/
 # ignore fixtures directory (keep local only)
@@ -22,3 +27,5 @@ migration_audit/migration_report.json
 dist/
 .coverage
 .claude/settings.local.json
+.claude/settings.json
+tests/fixtures/la_table_3_counts.csv

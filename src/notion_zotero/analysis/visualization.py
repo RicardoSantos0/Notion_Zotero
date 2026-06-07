@@ -331,7 +331,6 @@ def plot_multivalue_facets(
     legend_title: str = "Values",
 ) -> Any:  # pragma: no cover
     """Plot yearly multi-value trends faceted by any caller-provided group."""
-    import matplotlib.pyplot as plt
     import matplotlib as mpl
     import seaborn as sns
 

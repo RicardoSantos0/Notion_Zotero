@@ -43,23 +43,29 @@ from notion_zotero.analysis.paper_tables import (
     build_paper_summary_dataframes,
     write_paper_summary_workbook,
 )
-from notion_zotero.analysis.pred_horizon_summary import (
-    build_pred_horizon_task_detail,
-    build_pred_horizon_task_summary,
-    build_pred_horizon_task_summary_from_canonical,
-    classify_horizons,
-    classify_horizons_with_source,
-    classify_supervised_ml_task,
-    classify_target_variable,
-    classify_target_variables,
-    find_unclassified_pred_horizon_rows,
-    find_unclassified_pred_horizon_rows_from_canonical,
-    has_at_risk_framing,
-    has_implemented_intervention_or_deployment,
-    is_early_actionable_prediction,
-    raw_target_evidence,
-    write_pred_horizon_task_summary_workbook,
-)
+try:
+    from notion_zotero.analysis.pred_horizon_summary import (
+        build_pred_horizon_task_detail,
+        build_pred_horizon_task_summary,
+        build_pred_horizon_task_summary_from_canonical,
+        classify_horizons,
+        classify_horizons_with_source,
+        classify_supervised_ml_task,
+        classify_target_variable,
+        classify_target_variables,
+        find_unclassified_pred_horizon_rows,
+        find_unclassified_pred_horizon_rows_from_canonical,
+        has_at_risk_framing,
+        has_implemented_intervention_or_deployment,
+        is_early_actionable_prediction,
+        raw_target_evidence,
+        write_pred_horizon_task_summary_workbook,
+    )
+    from notion_zotero.analysis.overrides import apply_overrides  # noqa: F401
+except ImportError:
+    # pandas not installed — analysis features requiring pandas are unavailable.
+    # Core analysis (summarizer, cleaner, table_normalization) still works.
+    pass
 from notion_zotero.analysis.visualization import (
     parse_list_like_cell,
     map_value_to_group,
@@ -164,6 +170,7 @@ __all__ = [
     "is_early_actionable_prediction",
     "raw_target_evidence",
     "write_pred_horizon_task_summary_workbook",
+    "apply_overrides",
     "parse_list_like_cell",
     "map_value_to_group",
     "build_multivalue_trend",

@@ -64,3 +64,4 @@ fail_under = 80
 export-reading-list = "notion_zotero.scripts.export_reading_list:main"
 import-reading-list = "notion_zotero.services.reading_list_importer:main"
 notion-zotero = "notion_zotero.cli:main"
+pred-problem-table = "notion_zotero.analysis.predictive_problem_table:main"

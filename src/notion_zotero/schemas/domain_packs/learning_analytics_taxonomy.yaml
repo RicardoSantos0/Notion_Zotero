@@ -1,0 +1,368 @@
+# Learning Analytics Taxonomy — v1.1
+# Governs the multidimensional classification of predictive-modelling contributions
+# in the student-success literature review.
+#
+# History:
+#   v1.0  — hardcoded Python dicts in education_learning_analytics.py
+#   v1.1  — migrated to this YAML; added cv_design and context_type (d-011);
+#            anchored prediction_timing to feature-extraction cutoff (d-011);
+#            documented ambiguous-term disambiguation (brief §5.1)
+#
+# Usage:
+#   from notion_zotero.schemas.domain_packs.education_learning_analytics import get_taxonomy
+#   taxonomy = get_taxonomy()
+#   vocab = taxonomy["supervised_ml_task"]["vocabulary"]
+
+version: "1.1"
+
+# ---------------------------------------------------------------------------
+# Ambiguous-term disambiguation table (brief §5.1)
+#
+# Each term below can signal multiple constructs. The disambiguating dimension
+# is the one that resolves the ambiguity FIRST; secondary dimensions further
+# refine the classification.
+#
+# Term              | Disambiguating dimension(s)          | Decision rule
+# ------------------|--------------------------------------|------------------------------
+# dropout           | outcome_scope + context_type         | MOOC dropout = course_or_module;
+#                   |                                      | HEI dropout without course context = program_or_degree
+# completion        | outcome_scope                        | course completion = course_or_module;
+#                   |                                      | program completion = program_or_degree
+# GPA               | outcome_scope                        | end-of-semester GPA = term_or_semester;
+#                   |                                      | GPA at graduation = program_or_degree
+# enrollment        | outcome_scope                        | course enrollment = course_or_module;
+#                   |                                      | program enrollment = program_or_degree
+# performance       | target_construct + outcome_scope     | must inspect what "performance" refers to;
+#                   |                                      | often resolves to grade_or_score or pass_fail_or_success_failure
+# at-risk           | risk_framing                         | almost always a risk_framing=yes signal,
+#                   |                                      | NOT the primary target_construct
+# success           | outcome_scope + target_construct     | course success = pass_fail_or_success_failure;
+#                   |                                      | academic success (program level) = retention_or_persistence
+# final grade       | outcome_scope                        | course final grade = grade_or_score + course_or_module;
+#                   |                                      | cumulative GPA = gpa_or_cumulative_performance
+# ---------------------------------------------------------------------------
+
+dimensions:
+
+  # -------------------------------------------------------------------------
+  supervised_ml_task:
+    definition: >
+      The primary supervised machine-learning task type used in the contribution.
+      This refers to the MODEL TASK, not the outcome type.  A dropout prediction
+      study that trains a logistic-regression model is "classification" even though
+      dropout is a binary outcome.
+    vocabulary:
+      - classification
+      - regression
+      - survival
+      - ranking
+      - sequence_forecast
+      - other
+    notes: >
+      Use "survival" when the model explicitly uses survival analysis or
+      time-to-event formulation (e.g., Cox regression, Kaplan-Meier).
+      "sequence_forecast" covers next-interaction or knowledge-tracing models.
+      "other" covers multi-task, generative, or unlabelled contributions.
+    examples:
+      - term: "classification"
+        example: "Logistic regression to predict dropout (binary)"
+        non_example: "Random forest to predict final GPA (continuous)"
+      - term: "regression"
+        example: "Random forest to predict final GPA (continuous)"
+        non_example: "SVM to classify pass/fail"
+
+  # -------------------------------------------------------------------------
+  outcome_scope:
+    definition: >
+      The temporal/organizational LEVEL at which the predicted outcome exists.
+      Not to be confused with prediction_timing (when features are extracted).
+      A paper predicting graduation from week-1 features has outcome_scope=program_or_degree
+      and prediction_timing=before_program_or_at_admission (if features are pre-enrollment)
+      or early_course (if features are from first weeks).
+    vocabulary:
+      - interaction_or_item
+      - assessment
+      - course_or_module
+      - term_or_semester
+      - program_or_degree
+      - institution_or_system
+      - mixed_or_multiple
+      - unclear
+    disambiguation:
+      dropout: >
+        Inspect context_type: MOOC dropout = course_or_module (MOOC courses have
+        discrete enrollment/completion cycles); HEI dropout without explicit course
+        context = program_or_degree (dropping out of the institution/program).
+      completion: >
+        Inspect whether "completion" refers to a course certificate (course_or_module)
+        or a degree/program (program_or_degree).  MOOC completion defaults to
+        course_or_module unless the paper states degree completion.
+      GPA: >
+        End-of-semester GPA = term_or_semester; cumulative GPA or GPA at graduation
+        = program_or_degree.
+    examples:
+      - term: "course_or_module"
+        example: "Pass/fail in a single MOOC course"
+        non_example: "Four-year degree completion"
+      - term: "program_or_degree"
+        example: "Graduation within expected time at a university"
+        non_example: "Final exam grade in one course"
+
+  # -------------------------------------------------------------------------
+  unit_of_analysis:
+    definition: >
+      The entity whose prediction-outcome pair forms one row in the study's dataset.
+      Distinguishes learner-item interactions (knowledge tracing) from learner-course
+      predictions (PRED typical case) from cohort-level analyses.
+    vocabulary:
+      - learner_item_interaction
+      - learner_assessment
+      - learner_course
+      - learner_term
+      - learner_program
+      - learner_institution
+      - cohort_or_group
+      - unclear
+    notes: >
+      Most PRED papers use learner_course or learner_program.
+      Knowledge-tracing papers typically use learner_item_interaction.
+      Use cohort_or_group when the prediction is at the group/class level, not individual.
+
+  # -------------------------------------------------------------------------
+  target_construct:
+    definition: >
+      What is being predicted, described as the specific construct or outcome
+      variable in the data.  A single paper may have multiple target constructs
+      if it contains multiple prediction tasks (=> multiple contribution rows).
+    vocabulary:
+      - grade_or_score
+      - pass_fail_or_success_failure
+      - at_risk_or_performance_tier
+      - dropout_or_withdrawal
+      - retention_or_persistence
+      - completion_or_certification
+      - graduation_or_degree_completion
+      - gpa_or_cumulative_performance
+      - next_interaction_correctness
+      - submission_timing_or_delay
+      - learning_gain_or_skill_mastery
+      - enrolment_or_course_selection
+      - time_to_completion
+      - other_or_unclear
+    disambiguation:
+      at_risk: >
+        "At-risk" is almost always a FRAMING (risk_framing=yes) applied to one of the
+        primary constructs above, NOT itself the target_construct.  E.g. "predicting
+        at-risk students" means risk_framing=yes AND target_construct=pass_fail_or_success_failure
+        (or grade_or_score, depending on the threshold).
+      performance: >
+        "Performance" is polysemous.  Inspect the outcome variable: if it is a
+        continuous score => grade_or_score; if it is a categorical pass/fail =>
+        pass_fail_or_success_failure; if it is an at-risk label => at_risk_or_performance_tier.
+      success: >
+        "Student success" at course level = pass_fail_or_success_failure;
+        at program level (retention, persistence) = retention_or_persistence.
+      dropout_vs_completion: >
+        dropout_or_withdrawal and completion_or_certification are OPPOSITES of the same
+        outcome.  A paper that predicts "who will complete" is completion_or_certification;
+        "who will drop out" is dropout_or_withdrawal.  Flag as CONFLICT if both appear
+        without a clear distinction.
+    examples:
+      - term: "grade_or_score"
+        example: "Predicting final exam score (0-100)"
+        non_example: "Predicting whether a student passes or fails"
+      - term: "pass_fail_or_success_failure"
+        example: "Binary classification: pass (1) vs fail (0) in a course"
+        non_example: "Predicting GPA on a 0-4 scale"
+
+  # -------------------------------------------------------------------------
+  prediction_timing:
+    definition: >
+      WHEN the features used to make the prediction are extracted, i.e., the
+      feature-extraction CUTOFF relative to the predicted outcome.  This is NOT
+      the paper's self-reported label (papers often misname their timing).
+      Anchoring rule (d-011): always anchor to the ACTUAL feature cutoff, not
+      the paper's framing.  A paper calling itself "early prediction" that uses
+      features from 80% of the course = late_course, NOT early_course.
+    vocabulary:
+      - before_course_or_at_course_enrolment
+      - early_course
+      - mid_course
+      - late_course
+      - end_of_course_or_post_course
+      - before_program_or_at_admission
+      - program_milestone
+      - continuous_or_repeated
+      - unclear
+    notes: >
+      "before_program_or_at_admission" = features are pre-enrollment (demographics,
+      prior academic records, admission test scores).
+      "program_milestone" = features are extracted at defined multi-year milestone
+      (end of year 1, beginning of year 2, etc.).
+      "continuous_or_repeated" = prediction is made at every time step or repeatedly
+      throughout the course/program.
+
+  # -------------------------------------------------------------------------
+  actionability_status:
+    definition: >
+      How far along the pipeline from model training to real-world deployment
+      the contribution has progressed.  Governs whether the model CAN be used
+      to intervene before the outcome is finalized.
+    vocabulary:
+      - retrospective_only
+      - early_backtest_only
+      - tested_on_new_students
+      - deployed_or_deployable
+      - deployed_with_intervention_evaluation
+      - unclear
+    notes: >
+      "retrospective_only" = model trained and evaluated on historical data only,
+      no temporal validation.
+      "early_backtest_only" = temporal or prospective validation but no real deployment.
+      "tested_on_new_students" = validated prospectively on a student cohort different
+      from training, but not operationally deployed.
+      "deployed_or_deployable" = system integrated into LMS or instructor workflow
+      in practice.
+      "deployed_with_intervention_evaluation" = deployed AND the downstream intervention
+      effect was measured.
+
+  # -------------------------------------------------------------------------
+  risk_framing:
+    definition: >
+      Whether the paper frames the prediction as an at-risk identification task,
+      i.e., whether the outcome is presented as a risk label or a performance tier
+      (e.g. "at-risk of failing", "bottom quartile") rather than a raw score or
+      binary pass/fail.  This is independent of the target_construct.
+    vocabulary:
+      - "yes"
+      - "no"
+      - unclear
+    notes: >
+      risk_framing=yes does NOT imply target_construct=at_risk_or_performance_tier.
+      E.g. "identify students at risk of low GPA" has risk_framing=yes and
+      target_construct=grade_or_score (or gpa_or_cumulative_performance).
+
+  # -------------------------------------------------------------------------
+  evidence_quality:
+    definition: >
+      Overall methodological rigor of the contribution, considering sample size,
+      validation design, replication, and data quality.  Not a judgment on the
+      paper's contribution value.
+    vocabulary:
+      - high
+      - medium
+      - low
+    notes: >
+      high: large validated sample (>1000 students), proper temporal or prospective
+      validation, public dataset or replication, clearly reported metrics with CIs
+      or significance.
+      medium: moderate sample, some validation gaps, no full replication.
+      low: small sample (<100 students), retrospective holdout only, cherry-picked
+      metrics, or unclear data provenance.
+
+  # -------------------------------------------------------------------------
+  # d-011 additions
+  # -------------------------------------------------------------------------
+
+  cv_design:
+    definition: >
+      The cross-validation or train/test split design used to evaluate the model.
+      Requires evidence from the FULL TEXT (methods section), not title or abstract.
+      A "k-fold CV" without temporal ordering is random_fold even if the data
+      span multiple semesters.
+    vocabulary:
+      - random_fold
+      - temporal_or_prospective
+      - unclear
+    notes: >
+      random_fold: samples are split randomly (k-fold, stratified k-fold, holdout
+      with random shuffle) — susceptible to data leakage across cohorts.
+      temporal_or_prospective: split is ordered by time or cohort (train on earlier
+      cohort, test on later cohort); prospective = truly new student cohort.
+      unclear: insufficient methodological detail to determine split design.
+    examples:
+      - term: "random_fold"
+        example: "10-fold cross-validation with random shuffle"
+        non_example: "Training on 2019 cohort, testing on 2020 cohort"
+      - term: "temporal_or_prospective"
+        example: "Leave-last-semester-out validation"
+        non_example: "Stratified k-fold cross-validation"
+
+  # -------------------------------------------------------------------------
+  context_type:
+    definition: >
+      The educational context or platform type where the data were collected.
+      Requires evidence from the FULL TEXT.  Determines whether dropout is
+      course-level (MOOC/ITS) or program-level (HEI).  A paper can span multiple
+      context types (use mixed in that case).
+    vocabulary:
+      - HEI
+      - MOOC
+      - ITS
+      - mixed
+      - unclear
+    notes: >
+      HEI (Higher Education Institution): traditional university or college setting,
+      degree-granting programs, enrolled students.
+      MOOC (Massive Open Online Course): platform such as Coursera, edX, Udemy,
+      open enrollment, typically no formal degree.
+      ITS (Intelligent Tutoring System): adaptive exercise system such as ASSISTments,
+      Khan Academy, Duolingo; typically item-level interactions.
+      mixed: study explicitly draws on data from more than one context type.
+      unclear: context cannot be determined from available text.
+    disambiguation:
+      dropout_context_rule: >
+        If context_type=MOOC, dropout is ALWAYS course_or_module scope (MOOC learners
+        are enrolled per course, not per degree program).
+        If context_type=HEI and outcome is dropout/withdrawal, default to
+        program_or_degree unless the paper explicitly studies course-withdrawal.
+        If context_type=ITS, outcome_scope is almost always interaction_or_item.
+    examples:
+      - term: "HEI"
+        example: "Data from the University of X, bachelor's degree program"
+        non_example: "Coursera MOOC on data science"
+      - term: "MOOC"
+        example: "edX platform, open enrollment, certificate upon completion"
+        non_example: "University LMS for a registered course-for-credit"
+      - term: "ITS"
+        example: "ASSISTments problem-solving system"
+        non_example: "Moodle-based course at a university"
+
+  # -------------------------------------------------------------------------
+  # T6.2 placeholders (d-027: degrade to best-effort / discussion-only;
+  # 0% structured fairness fields in canonical data as of Phase-0 audit)
+  # These fields are populated from free-text fairness_notes extraction
+  # when data is available; otherwise they carry "unclear".
+  # -------------------------------------------------------------------------
+
+  fairness_addressed:
+    definition: >
+      Whether the paper explicitly addresses algorithmic fairness, bias, or
+      equity concerns in its methodology or discussion (T6.2 field).
+      Note (d-027): canonical data has 0% structured fairness fields; this
+      dimension defaults to "unclear" for most papers pending full-text review.
+    vocabulary:
+      - "yes"
+      - "no"
+      - unclear
+    notes: >
+      yes: paper includes fairness analysis, bias testing, or equity discussion
+      as part of the core contribution (not just a one-sentence future-work note).
+      no: paper explicitly states fairness is out of scope OR makes no mention.
+      unclear: no evidence available from abstract/title; full-text review required.
+
+  ethics_discussion:
+    definition: >
+      Whether the paper includes a substantive discussion of ethical implications
+      of the predictive model or LA system (T6.2 field).
+      Note (d-027): canonical data has 0% structured ethics fields; this
+      dimension defaults to "unclear" for most papers pending full-text review.
+    vocabulary:
+      - "yes"
+      - "no"
+      - unclear
+    notes: >
+      yes: paper includes a section or substantial paragraph on ethical implications
+      (data privacy, consent, algorithmic accountability, unintended harms, etc.).
+      no: ethics are explicitly stated as out of scope or not mentioned.
+      unclear: insufficient information from available text.

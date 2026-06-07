@@ -1,0 +1,185 @@
+# Manual Overrides — LA Student Success Review
+#
+# Schema version: 1.1
+# taxonomy_version_stamp must match the `version` field in learning_analytics_taxonomy.yaml.
+# All entries require a `rationale` field documenting the human reviewer's reasoning.
+#
+# Header fields (required):
+#   taxonomy_version_stamp  — must match taxonomy YAML version (d-013 constraint)
+#   review_id               — identifier of the systematic review this file governs
+#   maintainer              — reviewer responsible for this file
+#   last_updated            — ISO 8601 date of last change
+#
+# Override entry schema:
+#   contribution_id   : str   — stable identifier (from pred_contribution_rows.csv)
+#   paper_id          : str   — Notion page_id of the parent paper
+#   field             : str   — taxonomy dimension being overridden
+#   value             : str   — corrected vocabulary label (must be in taxonomy vocabulary)
+#   rationale         : str   — required; human reviewer explanation
+#   reviewer          : str   — reviewer name or initials
+#   date              : str   — ISO 8601 date of override decision
+#   supersedes        : str?  — optional; automated-classifier label being replaced
+#
+# Workflow:
+#   1. Run the automated classifier to produce taxonomy_audit.csv
+#   2. Review low-confidence and conflict rows in taxonomy_audit.csv
+#   3. Add adjudicated corrections here with full rationale
+#   4. Re-run the pipeline; apply_overrides() applies these after classification
+#   5. Override application is logged in the audit output (see overrides_applied column)
+#
+# See also:
+#   title_overrides.yaml  — paper-level prediction horizon / title-fragment overrides
+#   taxonomy_notes.md     — human-readable commentary on edge cases
+#   src/notion_zotero/analysis/pred_horizon_summary.py::apply_overrides()
+
+taxonomy_version_stamp: "1.1"
+review_id: la_student_success_review
+maintainer: Ricardo Santos
+last_updated: "2026-06-07"
+
+overrides:
+  # Example entry (illustrative; not a real paper):
+  - contribution_id: "c-example-001"
+    paper_id: "page-example-001"
+    field: target_construct
+    value: dropout_or_withdrawal
+    rationale: >
+      Paper title mentions "course completion" but the actual outcome variable
+      is non-completion (dropout), confirmed by reading the methods section.
+      The automated classifier assigned completion_or_certification; override
+      to dropout_or_withdrawal.
+    reviewer: "RS"
+    date: "2026-06-07"
+    supersedes: "completion_or_certification"
+
+  # ---- PROPOSED overrides (T3.3 WP2 audit recovery — R-017 human gate required) ----
+  # These entries were generated automatically by the NLP Taxonomy Specialist (T3.3)
+  # after reviewing the 81-row audit backlog. Each entry represents a genuinely
+  # ambiguous or absent moment-of-prediction that could not be resolved by the
+  # classifier alone. Human ratification is required before promoting to canonical.
+  # Status: PROPOSED / PENDING RATIFICATION.
+
+  # 1. target_construct conflict: "Degree Completion" (SPD) / "Dropout vs Promoted" (target)
+  #    Classifier correctly flags a conflict because SPD implies completion_or_certification
+  #    while raw_target "Dropout vs Promoted" implies dropout_or_withdrawal.
+  #    Human reviewer should read the methods section to determine which frame the
+  #    authors use: is the positive outcome "promoted" (completion frame) or is
+  #    "dropout" the primary outcome variable (withdrawal frame)?
+  #    PROPOSED: completion_or_certification if the study frames program progression
+  #    (Dropout=0 / Promoted=1 is the positive class), else dropout_or_withdrawal.
+  #    NOT self-promoted — requires human adjudication.
+  # - contribution_id: "645f28c54a961c62"
+  #   paper_id: "f4265890-7231-4ae2-9521-76858277c49f"
+  #   field: target_construct
+  #   value: completion_or_certification
+  #   rationale: >
+  #     PROPOSED (pending ratification): SPD is "Degree Completion"; target is
+  #     "Dropout vs Promoted". If "Promoted" is the positive class (student
+  #     completes / advances), this maps to completion_or_certification.
+  #     If "Dropout" is the primary target, override to dropout_or_withdrawal.
+  #     Reviewer must read the paper's outcome definition.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 2. prediction_timing: "First half of course, predicting following-year GPA"
+  #    The moment is "first half of course" (= mid_course by percentage),
+  #    but the outcome is following-year GPA (program-scope).
+  #    Timing refers to feature-extraction cutoff (d-011) = mid_course.
+  # - contribution_id: "03f42abca0b0eb45"
+  #   paper_id: "6a683d55-58fa-45c4-bf37-6758b22969e4"
+  #   field: prediction_timing
+  #   value: mid_course
+  #   rationale: >
+  #     PROPOSED (pending ratification): "First half of course" unambiguously
+  #     anchors the feature-extraction cutoff (d-011) to mid_course. The target
+  #     is following-year GPA (program_or_degree scope), but timing anchors to
+  #     when features are extracted, not when the outcome is observed. This
+  #     matches the d-011 specification.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 3. prediction_timing: "Previous Academic Performance"
+  #    This field describes the FEATURE TYPE used (prior grades), not a timing
+  #    moment. The actual prediction moment cannot be inferred from this phrase
+  #    alone — it could be start-of-term, at-admission, or another point.
+  #    Genuinely unclear; full-text review required.
+  # - contribution_id: "1489056920597c96"
+  #   paper_id: "83242ebd-f552-4708-967f-42d88411cd7f"
+  #   field: prediction_timing
+  #   value: unclear
+  #   rationale: >
+  #     PROPOSED (pending ratification): "Previous Academic Performance" describes
+  #     a feature type (prior GPA/grades), not a temporal prediction moment.
+  #     The actual feature-extraction cutoff cannot be determined without reading
+  #     the full methods section. Retaining unclear pending human full-text review.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 4. prediction_timing: nan (missing)
+  #    No moment of prediction reported. Genuinely unclear; full-text review needed.
+  # - contribution_id: "64399c1d0ebd51be"
+  #   paper_id: "b8980cd6-4334-49c2-9bc7-ed045cb2c055"
+  #   field: prediction_timing
+  #   value: unclear
+  #   rationale: >
+  #     PROPOSED (pending ratification): raw_moment_of_prediction is absent
+  #     (NaN). Cannot infer timing without reading the full paper. Retaining
+  #     unclear pending human full-text review.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 5. prediction_timing: "After 5 LWA"
+  #    "LWA" is an unexplained acronym (possibly "Learning Week Activity" or similar).
+  #    Cannot safely map to a timing label without domain knowledge of the acronym.
+  #    Likely early_course if LWA = weekly activity (5 weeks), but this is uncertain.
+  # - contribution_id: "c1d32b79cef0c552"
+  #   paper_id: "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
+  #   field: prediction_timing
+  #   value: early_course
+  #   rationale: >
+  #     PROPOSED (pending ratification): "After 5 LWA" — acronym "LWA" is not
+  #     defined in the extracted field. If LWA = weekly learning activity (most
+  #     plausible interpretation), then 5 LWA ~ 5 weeks = early_course. Requires
+  #     human verification of the acronym from the full paper.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 6. prediction_timing: "Period before marked assessment (unspecified)"
+  #    Explicitly flagged as unspecified by the data extractor. Cannot map to
+  #    a specific timing label. continuous_or_repeated is a possible mapping
+  #    if multiple assessments are involved, but "period before" implies a
+  #    single assessment — more likely early_course or mid_course.
+  # - contribution_id: "12b8a77ea06747a0"
+  #   paper_id: "ece953f5-d0e1-489d-9f71-0f4067699481"
+  #   field: prediction_timing
+  #   value: unclear
+  #   rationale: >
+  #     PROPOSED (pending ratification): "Period before marked assessment
+  #     (unspecified)" — explicitly flagged as unspecified. Cannot determine
+  #     when in the course timeline this falls without reading the full paper.
+  #     Retaining unclear pending human full-text review.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"
+
+  # 7. prediction_timing: "Not Applicable"
+  #    The data extractor marked this as N/A, suggesting the paper does not
+  #    report a specific prediction moment (e.g. a post-hoc analysis or
+  #    retrospective study where timing is not defined). Genuinely unclear.
+  # - contribution_id: "5e00fe53ac9ed148"
+  #   paper_id: "f37ad3f7-c989-49e9-b32e-445b72ce4460"
+  #   field: prediction_timing
+  #   value: unclear
+  #   rationale: >
+  #     PROPOSED (pending ratification): "Not Applicable" — paper apparently
+  #     does not define a specific feature-extraction cutoff. Could be a
+  #     retrospective analysis. Retaining unclear; human reviewer should check
+  #     if the paper defines any temporal scope for prediction.
+  #   reviewer: "PROPOSED-T3.3"
+  #   date: "2026-06-07"
+  #   supersedes: "unclear"

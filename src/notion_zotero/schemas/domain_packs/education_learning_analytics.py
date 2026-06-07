@@ -7,14 +7,78 @@ bibliographic canonical set.
 Compliance: no imports from notion_zotero.core — this module is intentionally
 kept free of core-model dependencies so it can be loaded before core models
 are fully initialised.
+
+Changelog:
+  v1.0 — initial hardcoded Python dicts
+  v1.1 — taxonomy vocabulary migrated to learning_analytics_taxonomy.yaml;
+          added TAXONOMY_SOURCE constant and get_taxonomy() loader;
+          added cv_design and context_type dimensions (d-011);
+          prediction_timing anchored to feature-extraction cutoff (d-011)
 """
 from __future__ import annotations
 
-from typing import Dict, Any, Optional
+import pathlib
+from typing import Any, Dict, Optional
 
 # Module-level constants for external reference without loading the full dict.
 DOMAIN_PACK_ID: str = "education_learning_analytics"
-DOMAIN_PACK_VERSION: str = "1.0"
+DOMAIN_PACK_VERSION: str = "1.1"
+
+# Path to the taxonomy YAML file shipped alongside this module.
+# TAXONOMY_SOURCE is an absolute path so callers can verify file existence.
+TAXONOMY_SOURCE: pathlib.Path = (
+    pathlib.Path(__file__).resolve().parent / "learning_analytics_taxonomy.yaml"
+)
+
+_taxonomy_cache: dict[str, Any] | None = None
+
+
+def get_taxonomy() -> dict[str, Any]:
+    """Load and return the learning analytics taxonomy from YAML.
+
+    Returns a dict keyed by dimension name.  Each value is a dict with at
+    minimum a ``vocabulary`` list plus optional ``definition``, ``notes``,
+    ``disambiguation``, and ``examples`` keys.
+
+    The result is cached after the first load; call with no arguments.
+
+    Raises:
+        FileNotFoundError: if learning_analytics_taxonomy.yaml is not found.
+        ImportError: if PyYAML is not installed.
+    """
+    global _taxonomy_cache
+    if _taxonomy_cache is not None:
+        return _taxonomy_cache
+
+    try:
+        import yaml  # type: ignore[import]
+    except ImportError as exc:
+        raise ImportError(
+            "PyYAML is required to load the taxonomy. "
+            "Install it with: pip install pyyaml"
+        ) from exc
+
+    if not TAXONOMY_SOURCE.exists():
+        raise FileNotFoundError(
+            f"Taxonomy YAML not found at {TAXONOMY_SOURCE}. "
+            "Run WP1 T2.2 to create the file."
+        )
+
+    with TAXONOMY_SOURCE.open(encoding="utf-8") as fh:
+        raw = yaml.safe_load(fh)
+
+    if not isinstance(raw, dict):
+        raise ValueError(f"Taxonomy YAML at {TAXONOMY_SOURCE} must be a mapping at the root.")
+
+    # Extract the dimensions sub-dict; top-level keys are metadata (version, etc.)
+    dimensions: dict[str, Any] = raw.get("dimensions", {})
+    if not dimensions:
+        raise ValueError(
+            f"Taxonomy YAML at {TAXONOMY_SOURCE} has no 'dimensions' key or it is empty."
+        )
+
+    _taxonomy_cache = dimensions
+    return dimensions
 
 # Short label map used by task_label_fn — exported for notebook / analysis use.
 _TASK_LABEL_MAP: dict[str, str] = {
@@ -1216,6 +1280,8 @@ def match_heading_to_task(heading: str | None) -> Optional[str]:
 __all__ = [
     "DOMAIN_PACK_ID",
     "DOMAIN_PACK_VERSION",
+    "TAXONOMY_SOURCE",
+    "get_taxonomy",
     "DOMAIN_NOTION_PROPERTIES",
     "domain_pack",
     "task_label_fn",

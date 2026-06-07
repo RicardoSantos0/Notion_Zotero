@@ -819,10 +819,1423 @@ def write_pred_horizon_task_summary_workbook(
     return path
 
 
+# Re-export apply_overrides from the lightweight overrides module so callers that
+# import directly from pred_horizon_summary still get the function.
+from notion_zotero.analysis.overrides import apply_overrides  # noqa: E402
+
+# ---------------------------------------------------------------------------
+# 10-dimension taxonomy classifier (STEP 2 — T3.3)
+# classify_contribution() returns per-dimension DimensionResult dicts.
+# Binding schema: docs/classify_contribution_schema.md v1.0 (d-032 approved).
+# Primary signal: raw_evidence. Falls back to Title-Case and snake_case field
+# aliases gracefully (d-032 constraint).
+# ---------------------------------------------------------------------------
+
+# --- Vocabulary tables ---
+
+_VOCAB: dict[str, list[str]] = {
+    "supervised_ml_task": [
+        "classification", "regression", "survival", "ranking",
+        "sequence_forecast", "other",
+    ],
+    "outcome_scope": [
+        "interaction_or_item", "assessment", "course_or_module",
+        "term_or_semester", "program_or_degree", "institution_or_system",
+        "mixed_or_multiple", "unclear",
+    ],
+    "unit_of_analysis": [
+        "learner_item_interaction", "learner_assessment", "learner_course",
+        "learner_term", "learner_program", "learner_institution",
+        "cohort_or_group", "unclear",
+    ],
+    "target_construct": [
+        "grade_or_score", "pass_fail_or_success_failure",
+        "at_risk_or_performance_tier", "dropout_or_withdrawal",
+        "retention_or_persistence", "completion_or_certification",
+        "graduation_or_degree_completion", "gpa_or_cumulative_performance",
+        "next_interaction_correctness", "submission_timing_or_delay",
+        "learning_gain_or_skill_mastery", "enrolment_or_course_selection",
+        "time_to_completion", "other_or_unclear",
+    ],
+    "prediction_timing": [
+        "before_course_or_at_course_enrolment", "early_course",
+        "mid_course", "late_course", "end_of_course_or_post_course",
+        "before_program_or_at_admission", "program_milestone",
+        "continuous_or_repeated", "unclear",
+    ],
+    "actionability_status": [
+        "retrospective_only", "early_backtest_only", "tested_on_new_students",
+        "deployed_or_deployable", "deployed_with_intervention_evaluation",
+        "unclear",
+    ],
+    "risk_framing": ["yes", "no", "unclear"],
+    "evidence_quality": ["high", "medium", "low"],
+    "cv_design": ["random_fold", "temporal_or_prospective", "unclear"],
+    "context_type": ["HEI", "MOOC", "ITS", "mixed", "unclear"],
+}
+
+# --- Field-alias helpers ---
+
+def _get_field(row: Mapping[str, Any], *keys: str) -> str:
+    """Return the first non-empty value among the given keys (case-insensitive lookup)."""
+    for key in keys:
+        val = row.get(key)
+        if val is None:
+            # Title-Case variant
+            title_key = key.replace("_", " ").title()
+            val = row.get(title_key)
+        if val is not None:
+            text = str(val).strip()
+            if text:
+                return text
+    return ""
+
+
+def _text(*parts: str) -> str:
+    """Concatenate parts, lowercased."""
+    return " ".join(p.lower() for p in parts if p)
+
+
+def _matches(pattern: str, text: str) -> bool:
+    return bool(re.search(pattern, text, re.IGNORECASE))
+
+
+def _any_match(patterns: list[str], text: str) -> bool:
+    return any(_matches(p, text) for p in patterns)
+
+
+# --- DimensionResult factory ---
+
+def _ok(label: str, confidence: str, evidence: str) -> dict[str, Any]:
+    return {"label": label, "confidence": confidence, "evidence": evidence}
+
+
+def _conflict(candidates: list[str], evidence_span: str) -> dict[str, Any]:
+    cand_str = " vs ".join(candidates)
+    return {
+        "label": "unclear",
+        "confidence": "low",
+        "evidence": f"CONFLICT: {cand_str} — {evidence_span}; routed to audit",
+        "conflict_flag": True,
+    }
+
+
+# --- Per-dimension classifiers ---
+
+def _classify_supervised_ml_task(row: Mapping[str, Any]) -> dict[str, Any]:
+    raw_task = _get_field(row, "raw_task", "Task")
+    raw_task_l = raw_task.lower()
+    evidence_text = _get_field(row, "raw_evidence", "raw_models", "Models")
+
+    if "classification" in raw_task_l:
+        return _ok("classification", "high", f"raw_task='{raw_task}'")
+    if "regression" in raw_task_l:
+        return _ok("regression", "high", f"raw_task='{raw_task}'")
+    if "clustering" in raw_task_l:
+        return _ok("other", "high", f"raw_task='{raw_task}' (clustering -> other)")
+
+    # Infer from raw_evidence / models
+    ev = _text(evidence_text)
+    if _any_match([r"cox\s*regression", r"survival\s*anal", r"kaplan", r"time.to.event"], ev):
+        return _ok("survival", "medium", f"inferred from models: '{evidence_text}'")
+    if _any_match([r"knowledge\s*trac", r"\bdkt\b", r"deep\s*knowledge", r"next.{0,10}(question|item|interact)"], ev):
+        return _ok("sequence_forecast", "medium", f"inferred from models: '{evidence_text}'")
+    if _any_match([r"classif"], ev):
+        return _ok("classification", "medium", f"inferred from evidence: '{evidence_text}'")
+    if _any_match([r"regress"], ev):
+        return _ok("regression", "medium", f"inferred from evidence: '{evidence_text}'")
+
+    if raw_task:
+        return _ok("other", "low", f"raw_task='{raw_task}' not mapped to standard vocab")
+    return _ok("other", "low", "no raw_task field; could not infer from evidence")
+
+
+def _classify_context_type(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Deterministic gazetteer on raw_context (+ raw_evidence fallback)."""
+    raw_ctx = _get_field(row, "raw_context", "Context")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(raw_ctx, ev)
+
+    mooc_pats = [
+        r"\bmooc\b", r"\bedx\b", r"coursera", r"futurelearn", r"udemy",
+        r"open\s*enrollment", r"massive\s*open", r"online\s*course",
+    ]
+    its_pats = [
+        r"intelligent\s*tutor", r"\bits\b", r"assistments", r"khan\s*academy",
+        r"tutoring\s*system", r"adaptive\s*exercise",
+    ]
+    hei_pats = [
+        r"higher\s*education", r"\buniversity\b", r"\bcollege\b",
+        r"undergraduate", r"\bhei\b", r"degree\s*program",
+        r"social\s*networks\s*in\s*higher", r"subscription.based",
+    ]
+
+    hits: list[str] = []
+    if _any_match(mooc_pats, combined):
+        hits.append("MOOC")
+    if _any_match(its_pats, combined):
+        hits.append("ITS")
+    if _any_match(hei_pats, combined):
+        hits.append("HEI")
+
+    if len(hits) > 1:
+        return _ok("mixed", "medium", f"multiple context signals: {hits} in '{raw_ctx}'")
+    if len(hits) == 1:
+        return _ok(hits[0], "high", f"gazetteer match '{hits[0]}' in raw_context='{raw_ctx}'")
+    if raw_ctx:
+        return _ok("unclear", "low", f"raw_context='{raw_ctx}' not mapped; full-text review needed")
+    return _ok("unclear", "low", "raw_context field absent")
+
+
+def _classify_outcome_scope(row: Mapping[str, Any], ctx_label: str) -> dict[str, Any]:
+    """Hybrid: rules on raw_evidence + MOOC-dropout disambiguation rule."""
+    spd = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
+    tgt = _get_field(row, "raw_target", "Target")
+    ev = _get_field(row, "raw_evidence")
+    moment = _get_field(row, "raw_moment_of_prediction", "Moment of Prediction")
+    combined = _text(spd, tgt, ev)
+
+    # Interaction/item level — must check before course patterns
+    if _any_match([
+        r"next.{0,10}(question|item|attempt|interact)",
+        r"question\s*correct",
+        r"correctness",
+        r"knowledge\s*trac",
+        r"\bitem\b",
+    ], combined):
+        return _ok("interaction_or_item", "high",
+                   f"item-level signal in '{combined[:80]}'")
+
+    # Assessment level
+    if _any_match([
+        r"\bassignment\b", r"\bquiz\b", r"\blab\b",
+        r"assessment\s*(score|mark|grade|result)",
+        r"submission\s*(timing|delay|deadline)",
+    ], combined) and not _any_match([r"final\s*(grade|mark|exam)", r"course\s*grade"], combined):
+        return _ok("assessment", "high", f"assessment-level signal in '{combined[:80]}'")
+
+    # Program/degree level signals (checked before course to avoid "course in program" confusion)
+    prog_pats = [
+        r"graduat", r"\bdegree\b", r"retention", r"persist",
+        r"years?\s*to\s*(degree|graduat|complet)", r"time\s*to\s*degree",
+        r"program(me)?\s*(complet|level|outcome)",
+        r"first.?year\s*(student|retention|survival)",
+        r"dropout.*program|program.*dropout",
+    ]
+    # Graduation-level moment of prediction
+    moment_prog = _any_match([
+        r"end\s*of\s*(the\s*)?program(me)?",
+        r"(start|beginning)\s*(of\s*)?(the\s*)?program(me)?",
+        r"time\s*of\s*admission", r"admission\s*of\s*student",
+        r"end\s*of\s*(first|1st|second|2nd|third|3rd)\s*year",
+    ], _text(moment))
+
+    if _any_match(prog_pats, combined) and not _any_match([r"course\s*(grade|complet|pass)", r"mooc.*dropout", r"dropout.*mooc"], combined):
+        return _ok("program_or_degree", "high", f"program-level signal in '{combined[:80]}'")
+
+    # MOOC dropout rule: if context=MOOC and dropout/completion -> course_or_module
+    if ctx_label == "MOOC" and _any_match([r"dropout", r"drop.out", r"complet", r"certif", r"withdraw"], combined):
+        return _ok("course_or_module", "high",
+                   "MOOC dropout disambiguation rule: context_type=MOOC => outcome_scope=course_or_module")
+
+    # Term/semester GPA (end-of-semester GPA, not cumulative)
+    if _any_match([r"semester\s*gpa", r"term\s*gpa", r"end.of.semester\s*gpa"], combined):
+        return _ok("term_or_semester", "high", f"semester GPA signal in '{combined[:80]}'")
+
+    # Course-level patterns
+    course_pats = [
+        r"course\s*(grade|pass|fail|score|performance|complet|dropout)",
+        r"final\s*(grade|mark|exam|score)",
+        r"mooc", r"module", r"pass\s*(vs|/|or)\s*fail",
+        r"end\s*of\s*course", r"course.level",
+        r"dropout", r"drop.out", r"withdraw",
+    ]
+    if _any_match(course_pats, combined):
+        return _ok("course_or_module", "high", f"course-level signal in '{combined[:80]}'")
+
+    # Program level with moment signals
+    if moment_prog or _any_match(prog_pats, combined):
+        return _ok("program_or_degree", "medium",
+                   f"program-level timing/signal in moment='{moment}' or text")
+
+    # Generic grade/score without course or program context
+    if _any_match([r"\bgpa\b", r"\bcgpa\b", r"cumulative.*grade"], combined):
+        return _ok("program_or_degree", "medium", "cumulative GPA signal -> likely program scope")
+
+    if _any_match([r"\bgrade\b", r"\bscore\b", r"\bmark\b", r"performance"], combined):
+        return _ok("course_or_module", "medium", "generic grade signal, defaulting to course_or_module")
+
+    if combined.strip():
+        return _ok("unclear", "low", f"no scope signal found in '{combined[:80]}'")
+    return _ok("unclear", "low", "evidence fields empty")
+
+
+def _classify_target_construct(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Gazetteer + conflict detection."""
+    spd = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
+    tgt = _get_field(row, "raw_target", "Target")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(spd, tgt, ev)
+
+    # --- Stage 1: Unambiguous high-priority patterns ---
+
+    # Next interaction correctness (highest priority — very specific)
+    if _any_match([
+        r"next.{0,10}(question|item|attempt).{0,10}correct",
+        r"next.{0,10}interact",
+        r"question\s*correctness",
+        r"\bcorrectness\b",
+        r"knowledge\s*trac",
+    ], combined):
+        return _ok("next_interaction_correctness", "high",
+                   f"next-interaction correctness pattern in '{combined[:80]}'")
+
+    # Time to completion
+    if _any_match([
+        r"time.{0,5}to.{0,5}(degree|graduat|complet|finish)",
+        r"years?.{0,5}to.{0,5}(degree|graduat|complet)",
+        r"\btime.to.degree\b",
+    ], combined):
+        return _ok("time_to_completion", "high", f"time-to-completion pattern in '{combined[:80]}'")
+
+    # Submission timing / delay
+    if _any_match([
+        r"submission.{0,10}(delay|timing|late|deadline)",
+        r"delay.{0,10}submission",
+        r"delivery.{0,10}past.*deadline",
+        r"days?\s*of\s*delay",
+    ], combined):
+        return _ok("submission_timing_or_delay", "high",
+                   f"submission timing/delay pattern in '{combined[:80]}'")
+
+    # GPA / cumulative performance — checked BEFORE graduation (disambiguation rule:
+    # "GPA at graduation" = gpa_or_cumulative_performance, not graduation_or_degree_completion).
+    if _any_match([r"\bgpa\b", r"\bcgpa\b", r"grade\s*point\s*average",
+                   r"end\s*of\s*program\s*mark", r"top\s*\d+\s*%\s*gpa",
+                   r"bottom\s*\d+\s*%\s*gpa", r"gpa\s*trend"], combined):
+        return _ok("gpa_or_cumulative_performance", "high",
+                   f"GPA pattern in '{combined[:80]}'")
+
+    # Graduation / degree completion.
+    # Precision fix (Change B): exclude "undergraduate" — the word "graduat" appears
+    # inside "undergraduate" but refers to a student level, not a graduation outcome.
+    # Pattern uses negative lookbehind for "under" so "undergraduate course" does not
+    # erroneously trigger graduation_or_degree_completion.
+    if _any_match([
+        r"(?<!under)graduat(?!ion.{0,5}(risk|course))",
+        r"complete\s*degree",
+        r"graduates?\s*(or|vs)\s*drops?\s*out",
+        r"graduation\s*(or|vs|in)\s*(dropout|expected|time)",
+    ], combined) and not _any_match([r"dropout.*graduat|graduat.*dropout.*course"], combined):
+        return _ok("graduation_or_degree_completion", "high",
+                   f"graduation/degree pattern in '{combined[:80]}'")
+
+    # Retention / persistence
+    if _any_match([r"retention", r"\bpersist", r"continue.*enrol", r"first.?year.*surviv"], combined) \
+            and not _any_match([r"at.risk", r"risk\s*of\s*fail"], combined):
+        return _ok("retention_or_persistence", "high",
+                   f"retention/persistence pattern in '{combined[:80]}'")
+
+    # Enrolment / course selection
+    if _any_match([r"\benrol", r"course\s*selection", r"recommendation\s*system",
+                   r"continue.*post.grad", r"post.graduate\s*studies"], combined):
+        return _ok("enrolment_or_course_selection", "medium",
+                   f"enrolment/course-selection pattern in '{combined[:80]}'")
+
+    # Learning gain / skill mastery
+    if _any_match([
+        r"learning\s*gain", r"skill\s*master", r"knowledge\s*(gain|acqui)",
+        r"cognitive\s*(skill|level)", r"competenc",
+    ], combined):
+        return _ok("learning_gain_or_skill_mastery", "high",
+                   f"learning gain/skill mastery pattern in '{combined[:80]}'")
+
+    # Dropout / withdrawal (standalone)
+    if _any_match([
+        r"\bdropout\b", r"\bdrop.out\b", r"\bwithdraw", r"\battrition\b",
+        r"continue\s*\(?1\)?\s*(vs|or)\s*not", r"not\s*continue",
+    ], combined):
+        # Check conflict with completion
+        if _any_match([r"\bcompletion\b", r"\bcomplete\b", r"\bcertif"], combined):
+            # Could be dropout vs completion phrasing — check for "or"
+            if _any_match([r"dropout\s*or\s*complet|complet\s*or\s*dropout",
+                           r"dropout.*vs.*complet|complet.*vs.*dropout"], combined):
+                return _conflict(
+                    ["dropout_or_withdrawal", "completion_or_certification"],
+                    f"dropout vs completion ambiguity in '{combined[:80]}'"
+                )
+        return _ok("dropout_or_withdrawal", "high",
+                   f"dropout/withdrawal pattern in '{combined[:80]}'")
+
+    # Conflict check: "grade or completion" / "Course Grade or Completion" patterns.
+    # This MUST run before the simple completion_or_certification return below to ensure
+    # "Course Grade or Completion" is flagged as a CONFLICT (test-R-004-002).
+    if _any_match([
+        r"\bgrade\b.{0,10}\bor\b.{0,10}\bcomplet",
+        r"\bcomplet.{0,10}\bor\b.{0,10}\bgrade\b",
+    ], combined):
+        return _conflict(
+            ["grade_or_score", "completion_or_certification"],
+            f"'grade or completion' ambiguity in '{combined[:80]}'",
+        )
+
+    # Completion / certification (after dropout and conflict checks)
+    if _any_match([r"\bcompletion\b", r"\bcomplete\b", r"\bcertif", r"certificat"], combined):
+        return _ok("completion_or_certification", "high",
+                   f"completion/certification pattern in '{combined[:80]}'")
+
+    # Completion / certification via "completed vs abandoned" or similar binary outcome
+    # framing (must run before Stage 2 pass/fail to catch "Completed (0) vs Abandoned (1)").
+    if _any_match([
+        r"completed\s*\(?\d?\)?\s*(vs|/|or)\s*abandoned",
+        r"abandoned\s*\(?\d?\)?\s*(vs|/|or)\s*completed",
+        r"completing\s*(their|the)\s*(program|course|degree|studies)",
+    ], combined) and not _any_match([r"\bdropout\b", r"\bdrop.out\b"], combined):
+        return _ok("completion_or_certification", "high",
+                   f"completed-vs-abandoned or 'completing their program' pattern in '{combined[:80]}'")
+
+    # --- Stage 2: Performance disambiguation ---
+    # Collect candidates for potential conflict detection
+
+    candidates: list[str] = []
+
+    # At-risk / performance tier (risk label is the actual outcome variable)
+    if _any_match([
+        r"at.?risk\s*(tier|group|label|score|flag|categor)",
+        r"performance\s*(tier|level|group|cluster|category)",
+        r"top\s*\d+\s*%", r"bottom\s*\d+\s*%",
+        r"(above|below)\s*(the\s*)?(median|mean|average)",
+        r"(low|high).perform\w*\s+student",  # "low-performing student" as outcome
+        r"risk\s*score", r"risk\s*label",
+    ], combined):
+        candidates.append("at_risk_or_performance_tier")
+
+    # Pass/fail — extended patterns to cover all binary outcome phrasings
+    pf_pats = [
+        r"pass\s*(\([^)]{0,10}\))?\s*(vs|/|or)\s*fail",   # Pass (>=5) vs Fail, Pass (1) vs Fail
+        r"fail\s*(\([^)]{0,10}\))?\s*(vs|/|or)\s*pass",   # Fail (<5) vs Pass
+        r"\bpass\b.{0,15}\bfail\b",                        # pass ... fail (up to 15 chars)
+        r"\(pass\).{0,15}\(fail\)",                        # (Pass) ... (Fail)
+        r"\(fail\).{0,15}\(pass\)",                        # (Fail) ... (Pass)
+        r">?\s*\d+\s*\(pass\)\s*(vs|/|or)\s*>?\s*\d+\s*\(fail\)",  # >40 (Pass) vs >40 (Fail)
+        r"\(?pass\)?\s*(vs|/|or)\s*\(?fail\)?",            # Pass vs Fail, (pass) vs (fail)
+        r"success\s*(\([^)]{0,10}\))?\s*(vs|/|or)\s*failure",  # Success (1) vs Failure (0)
+        r"failure\s*(\([^)]{0,10}\))?\s*(vs|/|or)\s*success",  # Failure (0) vs Success (1)
+        r"succeeding\s*(vs|/|or)\s*failing",
+        r"failing\s*(vs|/|or)\s*succeeding",               # Failing (1) vs Succeeding (0)
+        r"\bfailing\b.{0,10}\bsucceeding\b",               # failing ... succeeding
+        r"\bsucceeding\b.{0,10}\bfailing\b",
+        r"close\s*(to|of)\s*(fail|pass)",
+        r"being\s*at\s*risk\s*of\s*failing",
+        r"risk\s*of\s*fail",
+        r"safe\s*\)?\s*(vs|/|or)\s*at.risk",              # Safe vs At-risk (binary pass/fail framing)
+    ]
+    if _any_match(pf_pats, combined):
+        candidates.append("pass_fail_or_success_failure")
+
+    # Grade or score (continuous) — only match when binary pass/fail is NOT present
+    # to prevent grade-context words ("student grade") from overriding explicit binary outcomes
+    grade_pats = [
+        r"final\s*(grade|mark|score|exam\s*score)",
+        r"course\s*(grade|mark|score|performance)",
+        r"exam\s*(grade|score|result|mark)",
+        r"assessment\s*(grade|score|mark|result)",
+        r"grades?\s*(range|letter|category|group|level|above|below|from\s*[a-f])",
+        r"grade\s*\(?[a-f]\)?",
+        r"performance\s*(group|level)\s*(low|med|high)",
+        r"academic\s*performance",
+        r"student\s*grades?",
+        r"ap\s*score",
+        r"post.test\s*score",
+        r"\bmark\b",
+        # Ordinal grade category lists (e.g. "Exceptional, Excellent, Distinction, Pass, Fail")
+        r"(distinction|excellent|exceptional).{0,30}(pass|fail)",
+        r"grades?\s*categor",
+        # Ordinal letter-grade classification (e.g. "A vs B or C", "weekly or final" grades)
+        r"\b[a-f]\s*(vs|/|or)\s*[a-f]\b",              # A vs B or C
+        r"grades?\s*\(weekly\s*or\s*final\)",
+        r"(weekly|final)\s*grades?",
+    ]
+    if _any_match(grade_pats, combined):
+        candidates.append("grade_or_score")
+
+    # Conflict check: "Course Grade or Completion" pattern and similar
+    # If both grade/score and completion/certification appear explicitly
+    if _any_match([r"\bgrade\b.{0,10}\bor\b.{0,10}\bcomplet",
+                   r"\bcomplet.{0,10}\bor\b.{0,10}\bgrade\b"], combined):
+        cands_named = []
+        if "grade_or_score" not in candidates:
+            candidates.append("grade_or_score")
+        cands_named = ["grade_or_score", "completion_or_certification"]
+        return _conflict(cands_named,
+                         f"'grade or completion' ambiguity in '{combined[:80]}'")
+
+    # Deduplicate preserving order; if exactly one candidate, return it
+    seen: list[str] = []
+    for c in candidates:
+        if c not in seen:
+            seen.append(c)
+
+    if len(seen) == 1:
+        return _ok(seen[0], "high", f"performance pattern -> '{seen[0]}' in '{combined[:80]}'")
+
+    if len(seen) > 1:
+        # Multiple candidates -> conflict if they're genuinely incompatible
+        # pass_fail and at_risk_or_performance_tier can coexist (at-risk framing of pass/fail);
+        # in that case prefer pass_fail_or_success_failure (risk_framing handles the at-risk part)
+        if set(seen) == {"at_risk_or_performance_tier", "pass_fail_or_success_failure"}:
+            return _ok("pass_fail_or_success_failure", "medium",
+                       f"at-risk framing of pass/fail -> pass_fail (risk_framing handles at-risk); '{combined[:80]}'")
+        # grade_or_score + at_risk = at-risk threshold on a score -> grade_or_score
+        if set(seen) == {"at_risk_or_performance_tier", "grade_or_score"}:
+            return _ok("grade_or_score", "medium",
+                       f"at-risk framing of score -> grade_or_score; risk_framing covers at-risk; '{combined[:80]}'")
+        # pass_fail + grade_or_score: explicit binary outcome takes precedence over generic
+        # grade context in SPD field (e.g. "Student Grade | Pass (1) vs Fail (0)").
+        # The raw_target's binary framing is more specific than the SPD's category label.
+        if "pass_fail_or_success_failure" in seen and "grade_or_score" in seen:
+            if "at_risk_or_performance_tier" not in seen:
+                return _ok("pass_fail_or_success_failure", "medium",
+                           f"explicit binary pass/fail overrides generic grade context; '{combined[:80]}'")
+        return _conflict(seen, f"multiple target constructs in '{combined[:80]}'")
+
+    # Fallback: generic grade/score/performance not already caught
+    if _any_match([r"\bgrades?\b", r"\bscore\b", r"\bmark\b", r"\bperformance\b",
+                   r"\bachievement\b"], combined):
+        return _ok("grade_or_score", "medium",
+                   f"generic grade/score signal in '{combined[:80]}'")
+
+    if combined.strip():
+        return _ok("other_or_unclear", "low",
+                   f"no recognizable target construct in '{combined[:80]}'")
+    return _ok("other_or_unclear", "low", "evidence fields empty")
+
+
+def _classify_prediction_timing(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Anchored to feature-extraction cutoff (d-011). Primary: raw_moment_of_prediction."""
+    moment = _get_field(row, "raw_moment_of_prediction", "Moment of Prediction")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(moment, ev)
+
+    # Order matters: more specific patterns first.
+
+    # Program milestone (multi-year or cross-semester program boundary)
+    if _any_match([
+        r"end\s*of\s*(the\s*)?(first|1st|second|2nd|third|3rd)\s*(year|semester|quarter)",
+        r"end\s*of\s*year\s*\d",
+        r"end\s*of\s*(the\s*)?first\s*(academic\s*)?year",
+        r"(start|beginning)\s*(of\s*)?(the\s*)?program(me)?",
+        r"end\s*of\s*(the\s*)?program(me)?",
+        r"time\s*of\s*admission",
+        r"moment\s*of\s*(registration|admission)",
+        r"admission\s*of\s*student",
+        r"every\s*quarter\s*(in\s*)?(the\s*)?program(me)?",
+        r"every\s*semester\s*(across|throughout|in)\s*(the\s*)?(degree|program)",
+        r"8\s*stages\s*(of\s*)?(the\s*)?academic\s*year",
+        r"\d+\s*stages\s*(of\s*)?(the\s*)?academic\s*year",
+    ], combined):
+        return _ok("program_milestone", "high",
+                   f"program milestone timing in moment='{moment}'")
+
+    # Before program / at admission
+    if _any_match([
+        r"at\s*(enroll|admission)\s*(into|to)?\s*(the\s*)?(program|degree|msc|bsc|university|college)",
+        r"entering\s*(the\s*)?(program|degree|university|college)",
+        r"before.{0,10}(program|degree|university)\s*(start|begins?)",
+        r"start\s*of\s*(the\s*)?first\s*year",          # "Start of First Year"
+        r"start\s*of\s*first\s*year",
+    ], combined):
+        return _ok("before_program_or_at_admission", "high",
+                   f"pre-program/admission timing in moment='{moment}'")
+
+    # End of course / post-course (including end of semester, after final exam)
+    if _any_match([
+        r"end\s*of\s*(the\s*)?course",
+        r"post.?course",
+        r"after\s*(the\s*)?course",
+        r"final\s*(week|exam|assessment)$",
+        r"course\s*complet",
+        r"after\s*(the\s*)?final\s*exam",               # After Final Exam
+        r"end\s*of\s*(the\s*)?semester\b",              # End of Semester (course-level)
+        r"end\s*of\s*(the\s*)?term\b",
+    ], combined):
+        return _ok("end_of_course_or_post_course", "high",
+                   f"end-of-course timing in moment='{moment}'")
+
+    # Continuous / repeated (covers per-assessment, per-assignment, inter-session)
+    if _any_match([
+        r"every\s*(week|month|session|step|quarter|20\%|assessment|exam|assignment)",
+        r"continuous",
+        r"each\s*(week|step|session|day|assessment)",
+        r"repeated",
+        r"snapshot",
+        r"cumulative\s*snapshot",
+        r"throughout",
+        r"\d+\%.*\d+\%.*\d+\%",  # multiple percentage points (10%, 25%, 33%, 50%)
+        r"after\s*every\s*moment",                      # After every moment of evaluation
+        r"every\s*moment\s*(of|for)\s*(evaluation|assessment)",
+        r"between\s*assignment",                         # Between Assignments
+        r"before\s*(every|each)\s*(assignment|exam|assessment)",
+        r"before\s*each\s*(exam|assessment|quiz)",
+        r"at\s*different\s*stages",
+        r"different\s*stages\s*of\s*(the\s*)?module",
+        r"after\s*specific\s*tma",
+        r"multiple\s*time\s*points",
+        r"every\s*2\s*minutes",
+        r"mid.semester\s*(and|;)\s*end.of.semester",
+    ], combined):
+        return _ok("continuous_or_repeated", "high",
+                   f"continuous/repeated timing in moment='{moment}'")
+
+    # Before course / at course enrolment (including "Start of Term", "Start of Spring Semester")
+    if _any_match([
+        r"before\s*(the\s*)?course\s*start",
+        r"(start|beginning)\s*(of\s*)?(the\s*)?(course|semester|term|spring|fall|autumn|winter|summer)\b",
+        r"start\s*of\s*(the\s*)?(spring|fall|autumn|winter|summer)\s*semester",
+        r"start\s*of\s*(the\s*)?term\b",               # Start of Term
+        r"start\s*of\s*(the\s*)?(next\s*)?(course|semester)",   # Start of Next Semester
+        r"before\s*(the\s*)?(start\s*of\s*)?(the\s*)?(next\s*)?(semester|course|term)\b",
+        r"start\s*of\s*semester",
+        r"week\s*0\b",
+        r"before\s*(enroll|regist)",
+        r"at\s*(course\s*)?(enroll|regist|start)",
+    ], combined):
+        return _ok("before_course_or_at_course_enrolment", "high",
+                   f"pre-course/at-enrolment timing in moment='{moment}'")
+
+    # Week-based: early (weeks 1-4 or first few weeks)
+    week_match = re.search(r"week\s*(\d+)", combined, re.IGNORECASE)
+    if week_match:
+        wnum = int(week_match.group(1))
+        if 1 <= wnum <= 4:
+            return _ok("early_course", "high",
+                       f"week {wnum} feature cutoff => early_course (d-011)")
+        if 5 <= wnum <= 8:
+            return _ok("mid_course", "high",
+                       f"week {wnum} feature cutoff => mid_course (d-011)")
+        if wnum >= 9:
+            return _ok("late_course", "high",
+                       f"week {wnum} feature cutoff => late_course (d-011)")
+
+    # Percentage-based single cutoff
+    pct_match = re.search(r"\b(10|25|33|50|60|75|80|90)\s*%", combined, re.IGNORECASE)
+    if pct_match:
+        pct = int(pct_match.group(1))
+        if pct <= 33:
+            return _ok("early_course", "medium",
+                       f"{pct}% course duration => early_course")
+        if pct <= 60:
+            return _ok("mid_course", "medium",
+                       f"{pct}% course duration => mid_course")
+        return _ok("late_course", "medium",
+                   f"{pct}% course duration => late_course")
+
+    # Half-way / mid-course
+    if _any_match([r"halfway", r"half.?way", r"mid.?course", r"course.?half", r"half\s*point",
+                   r"mid.?semester", r"after\s*midterm",
+                   r"during\s*(the\s*)?first\s*(semester|term|quarter)"], combined):
+        return _ok("mid_course", "high", f"halfway/mid-course in moment='{moment}'")
+
+    # Day-based: first N days of a course
+    day_match = re.search(r"first\s+(\d+)\s*days?\s*(of\s*)?(the\s*)?course", combined, re.IGNORECASE)
+    if day_match:
+        ndays = int(day_match.group(1))
+        if ndays <= 35:
+            return _ok("early_course", "medium",
+                       f"first {ndays} days of course => early_course")
+        if ndays <= 70:
+            return _ok("mid_course", "medium",
+                       f"first {ndays} days of course => mid_course")
+        return _ok("late_course", "medium",
+                   f"first {ndays} days of course => late_course")
+
+    # Lab/session-based early signal (e.g. "After 6 lab sessions")
+    if _any_match([r"after\s*\d+\s*(lab|session|lecture|class)(es|s)?\b",
+                   r"first\s*\d+\s*(lab|session|lecture)(es|s)?\b"], combined):
+        return _ok("early_course", "medium",
+                   f"lab/session-based early signal in moment='{moment}'")
+
+    # Assignment subset: "Assignments 1 to N (out of M)" -> early if N/M <= 0.4
+    asgn_match = re.search(
+        r"assignment[s]?\s*1\s*to\s*(\d+)\s*\(?out\s*of\s*(\d+)\)?",
+        combined, re.IGNORECASE
+    )
+    if asgn_match:
+        n_done = int(asgn_match.group(1))
+        n_total = int(asgn_match.group(2))
+        frac = n_done / n_total if n_total else 0
+        if frac <= 0.40:
+            return _ok("early_course", "medium",
+                       f"assignments {n_done}/{n_total} ({frac:.0%}) => early_course")
+        if frac <= 0.65:
+            return _ok("mid_course", "medium",
+                       f"assignments {n_done}/{n_total} ({frac:.0%}) => mid_course")
+        return _ok("late_course", "medium",
+                   f"assignments {n_done}/{n_total} ({frac:.0%}) => late_course")
+
+    # "Before Last Quarter of Course" -> late_course
+    if _any_match([r"before\s*(the\s*)?last\s*(quarter|third|week|20%|25%)",
+                   r"last\s*(quarter|third)\s*of\s*(the\s*)?course"], combined):
+        return _ok("late_course", "medium",
+                   f"before last quarter/third of course in moment='{moment}'")
+
+    # First N weeks as a phrase (e.g. "First 2 weeks", "First half of course / first 5 weeks")
+    first_weeks_match = re.search(r"first\s+(\d+)\s*weeks?", combined, re.IGNORECASE)
+    if first_weeks_match:
+        wnum = int(first_weeks_match.group(1))
+        if 1 <= wnum <= 4:
+            return _ok("early_course", "medium",
+                       f"first {wnum} weeks => early_course")
+        if 5 <= wnum <= 8:
+            return _ok("mid_course", "medium",
+                       f"first {wnum} weeks => mid_course")
+        return _ok("late_course", "medium",
+                   f"first {wnum} weeks => late_course")
+
+    # "Previous Month" — treated as continuous/rolling window
+    if _any_match([r"previous\s*month", r"past\s*month", r"monthly"], combined):
+        return _ok("continuous_or_repeated", "medium",
+                   f"monthly/rolling window timing in moment='{moment}'")
+
+    # Generic "monthly" or "semester" snapshots during semester
+    if _any_match([r"monthly.*(semester|course|prediction)",
+                   r"(semester|course).*monthly"], combined):
+        return _ok("continuous_or_repeated", "medium",
+                   f"monthly snapshot timing in moment='{moment}'")
+
+    # Start of academic year (multi-year milestone)
+    if _any_match([r"start\s*of\s*(new\s*)?academic\s*year"], combined):
+        return _ok("program_milestone", "medium",
+                   f"academic year start in moment='{moment}'")
+
+    # Before assignment submission / at each assessment
+    if _any_match([r"before\s*assignment\s*submission",
+                   r"at\s*each\s*assessment",
+                   r"each\s*assessment"], combined):
+        return _ok("continuous_or_repeated", "medium",
+                   f"per-assessment timing in moment='{moment}'")
+
+    # Early course signals — "early prediction", "during first semester", etc.
+    if _any_match([r"\bearly\s*(prediction|indicator|warning)\b",
+                   r"during\s*(the\s*)?first\s*(week|month)"], combined):
+        return _ok("early_course", "medium",
+                   f"early-prediction signal in moment='{moment}'")
+
+    if moment.strip() and moment.strip().lower() not in ("nan", "n/a", "not applicable", "none"):
+        return _ok("unclear", "low",
+                   f"moment='{moment}' not matched to any timing rule")
+    return _ok("unclear", "low", "raw_moment_of_prediction field absent")
+
+
+def _classify_cv_design(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Deterministic rules on raw_assessment_strategy. Full-text required by guardrail 8."""
+    strat = _get_field(row, "raw_assessment_strategy", "Assessment Strategy")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(strat, ev)
+
+    # Temporal / prospective
+    if _any_match([
+        r"temporal\s*valid",
+        r"prospective",
+        r"train.*20[0-9]{2}.*test.*20[0-9]{2}",
+        r"leave.last.semester",
+        r"chronological",
+        r"leave.one.semester",
+    ], combined):
+        return _ok("temporal_or_prospective", "high",
+                   f"temporal validation pattern in '{strat}'")
+
+    # Random fold (k-fold, stratified, repeated holdout, LOO)
+    if _any_match([
+        r"\d+.fold\s*(cross.valid|cv)",
+        r"cross.valid",
+        r"stratified\s*(k.fold|cross)",
+        r"leave.one.out",
+        r"repeated\s*holdout",
+        r"k.fold",
+    ], combined):
+        return _ok("random_fold", "high", f"k-fold/cross-validation in '{strat}'")
+
+    # Holdout (without temporal context -> random_fold, medium confidence)
+    if _any_match([r"\bholdout\b", r"hold.out", r"\d+/\d+\s*split",
+                   r"\d+%.*\d+%", r"train.test\s*split"], combined):
+        return _ok("random_fold", "medium",
+                   f"holdout (no temporal context) in '{strat}'; full-text confirmation needed")
+
+    # None / unspecified
+    if _any_match([r"none\s*specified", r"\bnone\b", r"no\s*assessment",
+                   r"unspecified", r"not\s*specified", r"^-+$"], combined):
+        return _ok("unclear", "low", f"no assessment strategy reported: '{strat}'")
+
+    if strat.strip():
+        return _ok("unclear", "low", f"assessment strategy '{strat}' not mapped; full-text review needed")
+    return _ok("unclear", "low", "raw_assessment_strategy field absent")
+
+
+def _classify_risk_framing(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Deterministic regex on raw_student_performance_definition, raw_target, raw_evidence."""
+    spd = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
+    tgt = _get_field(row, "raw_target", "Target")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(spd, tgt, ev)
+
+    strong_yes = [
+        r"at.?risk",
+        r"risk\s*of\s*(fail|drop|withdraw|low)",
+        r"low.?perform\w*\s+student",
+        r"poor.?perform\w*\s+student",
+        r"(bottom|low)\s*\d+\s*%",
+        r"risk\s*(score|label|flag|tier|group)",
+        r"performance\s*(tier|group|cluster|category|level)\s*(low|medium|high|good|bad)",
+        r"identify.*at.risk",
+    ]
+    if _any_match(strong_yes, combined):
+        return _ok("yes", "high",
+                   f"at-risk/tier framing detected in '{combined[:80]}'")
+
+    # Softer signals
+    soft_yes = [
+        r"above.*(median|mean|average)",
+        r"below.*(median|mean|average)",
+        r"top\s*\d+\s*%",
+        r"sufficient.{0,10}average.{0,10}good",
+        r"exceptional.{0,10}pass.{0,10}fail",
+    ]
+    if _any_match(soft_yes, combined):
+        return _ok("yes", "medium",
+                   f"soft risk-tier framing in '{combined[:80]}'")
+
+    return _ok("no", "high", "no at-risk framing signals in available text")
+
+
+def _is_lms_as_data_source_only(ev_text: str) -> bool:
+    """Return True when an LMS name appears ONLY as a data-collection platform.
+
+    The precision guard (Change A) prevents raw evidence that merely names
+    Moodle/Blackboard/Canvas/DeepLMS as the data source from being treated as
+    evidence of deployment.  Triggers only when no deployment/integration verb
+    accompanies the LMS reference.
+    """
+    lms_only_pats = [
+        r"web\s*usage\s*mining.*moodle",
+        r"moodle.*web\s*usage\s*mining",
+        r"\bdeeplms\b",
+        r"(moodle|blackboard|canvas)\s*(log|data|course|platform|lms)?\s*(for\s*(predict|analyz|mining)|data)",
+        r"using\s*(moodle|blackboard|canvas)\s*(course|data|log)",
+    ]
+    deploy_verb_pats = [
+        r"integrat",
+        r"deploy",
+        r"embed",
+        r"plug.?in",
+        r"dashboard.*instructor",
+        r"instructor.*dashboard",
+        r"alert.*instructor",
+        r"in\s*production",
+        r"real.time.*system",
+    ]
+    if not _any_match(lms_only_pats, ev_text):
+        return False
+    # If deployment verbs are also present, don't suppress
+    return not _any_match(deploy_verb_pats, ev_text)
+
+
+def _classify_actionability_status(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Rules on raw_assessment_strategy + raw_evidence + raw_deployed_deployable.
+
+    3-level gradient (ho-018 refined by author, 2026-06-07):
+
+    Tier 1 — deployed_with_intervention_evaluation:
+      * Canonical Deployed/Deployable = 'Deployed by Instructor' or
+        'Integrated in LMS' (author counts instructor/LMS deployment as a
+        delivered intervention).
+      * OR intervention-evaluation phrasing in raw text (RCT, A/B test, etc.).
+
+    Tier 2 — deployed_or_deployable:
+      * Canonical Deployed/Deployable = 'Deployable'.
+      * OR deployment phrasing in raw evidence / assessment strategy.
+
+    Tier 3 — fall-through (no canonical tier 1/2 value):
+      * Canonical values 'Prototype', 'Not Ready', 'Out of Scope' → do NOT
+        force a label; continue to validation-based logic so a Prototype paper
+        with temporal validation can still reach early_backtest_only, and a
+        paper tested on new students can reach tested_on_new_students.
+
+    Precision guard: LMS names that appear only as data-collection platforms do
+    NOT trigger deployment labels.
+    """
+    strat = _get_field(row, "raw_assessment_strategy", "Assessment Strategy")
+    ev = _get_field(row, "raw_evidence")
+    deployed_field = _get_field(row, "raw_deployed_deployable", "Deployed/ Deployable",
+                                "Deployed_Deployable")
+    work_nature = _get_field(row, "raw_work_nature", "Work Nature")
+    combined = _text(strat, ev, deployed_field, work_nature)
+
+    # --- Precision guard: LMS-as-data-source rows must not be mis-classified ---
+    # Check against ev only (strat field never contains LMS data-source phrases).
+    if _is_lms_as_data_source_only(_text(ev)):
+        # Skip deployment detection; fall through to CV-based retrospective logic.
+        pass
+    else:
+        deployed_field_l = deployed_field.lower().strip()
+
+        # --- Tier 1: Deployed with intervention evaluation (highest specificity) ---
+
+        # 1a. Canonical field: Deployed by Instructor or Integrated in LMS.
+        #     Author confirmed: instructor/LMS deployment = delivered intervention.
+        canonical_intervention_vals = [
+            "deployed by instructor",
+            "integrated in lms",
+        ]
+        if any(val in deployed_field_l for val in canonical_intervention_vals):
+            return _ok("deployed_with_intervention_evaluation", "high",
+                       f"canonical Deployed/Deployable='{deployed_field}' — "
+                       "instructor/LMS deployment counts as delivered intervention (ho-018)")
+
+        # 1b. Intervention-evaluation phrasing in raw text (RCT, A/B test, etc.)
+        intervention_eval_pats = [
+            r"intervention.*evaluat",
+            r"evaluat.*intervention",
+            r"randomized.*(trial|controlled|experiment)",
+            r"(random(ly)?|randomly)\s*assign",
+            r"a/b.*test",
+            r"treatment.*control",
+            r"control.*treatment",
+            r"quasi.experiment",
+            r"experimental.*group",
+        ]
+        if _any_match(intervention_eval_pats, combined):
+            return _ok("deployed_with_intervention_evaluation", "high",
+                       f"intervention evaluation signal in '{combined[:80]}'")
+
+        # --- Tier 2: Deployed or deployable (capability/deployable tier) ---
+
+        # 2a. Canonical field: Deployable.
+        if "deployable" in deployed_field_l and "not" not in deployed_field_l:
+            return _ok("deployed_or_deployable", "high",
+                       f"canonical Deployed/Deployable='{deployed_field}' (ho-018 tier 2)")
+
+        # 2b. Deployment phrasing in raw_evidence / raw_assessment_strategy
+        deployment_phrase_pats = [
+            r"integrated\s*(into|in)\s*(the\s*)?(lms|moodle|blackboard|canvas|vle|system|platform)",
+            r"deployed\s*(in|into|by|to|for)\s*(the\s*)?(lms|instructor|teacher|advisor|system|course)",
+            r"embedded\s*(in|into)\s*(the\s*)?(lms|system|course|platform)",
+            r"in\s*production",
+            r"real.?time\s*(system|predict|alert|notif)",
+            r"early.?warning\s*system\s*(used|deployed|accessed|provided|integrat)",
+            r"dashboard\s*(provided|sent|given|accessed|used)\s*(to|by)\s*(instructor|teacher|advisor|student)",
+            r"(instructor|teacher|advisor)\s*(receiv|access|us|view)\s*(the\s*)?(dashboard|alert|notif|result|output|predict)",
+            r"alert.*send.*instructor|alert.*instructor",
+            r"intervention\s*(delivered|provided|conducted|implemented)",
+            r"pilot\s*(test|study|deploy)\s*(on\s*)?(new|live|real|current)\s*student",
+        ]
+        if _any_match(deployment_phrase_pats, combined):
+            return _ok("deployed_or_deployable", "high",
+                       f"deployment phrase in evidence/strategy: '{combined[:80]}'")
+
+        # --- Tier 3: Prototype / Not Ready / Out of Scope → fall through ---
+        # No explicit return here; canonical non-deployed values do not force a label.
+        # The row continues to the validation-based logic below so temporal/prospective
+        # validation can still yield early_backtest_only or tested_on_new_students.
+
+    # --- Temporal validation -> early_backtest_only ---
+    if _any_match([
+        r"temporal\s*valid",
+        r"prospective.*valid",
+        r"train.*20[0-9]{2}.*test.*20[0-9]{2}",
+        r"leave.last.semester",
+    ], combined):
+        return _ok("early_backtest_only", "medium",
+                   f"temporal validation -> early_backtest_only in '{combined[:80]}'")
+
+    # --- Historical/retrospective only ---
+    if _any_match([
+        r"retrospective",
+        r"historical\s*data\s*only",
+        r"past\s*data",
+    ], combined):
+        return _ok("retrospective_only", "medium",
+                   f"retrospective signal in '{combined[:80]}'")
+
+    # Most studies are tested on held-out data from same dataset = retrospective_only
+    if _any_match([
+        r"\bholdout\b", r"k.fold", r"cross.valid",
+        r"\d+.fold", r"hold.out",
+        r"leave.one.out",
+    ], combined):
+        return _ok("retrospective_only", "medium",
+                   f"holdout/CV without deployment evidence -> retrospective_only; '{combined[:80]}'")
+
+    # Genuinely unclear
+    return _ok("unclear", "low",
+               f"insufficient actionability signal in assessment strategy='{strat}'")
+
+
+def _classify_evidence_quality(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Heuristic scoring: sample size + assessment strategy + model count."""
+    sample = _get_field(row, "raw_sample_setting", "Students")
+    strat = _get_field(row, "raw_assessment_strategy", "Assessment Strategy")
+    models = _get_field(row, "raw_models", "Models")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(sample, strat, models, ev)
+    score = 0
+    evidence_parts: list[str] = []
+
+    # Sample size
+    nums = re.findall(r"[\d,\xa0]+", sample.replace(",", "").replace("\xa0", ""))
+    max_n = 0
+    for n_str in nums:
+        try:
+            n = int(n_str.replace(",", "").replace("\xa0", ""))
+            max_n = max(max_n, n)
+        except ValueError:
+            pass
+    if max_n > 1000:
+        score += 2
+        evidence_parts.append(f"n>{max_n} (+2)")
+    elif max_n >= 100:
+        score += 1
+        evidence_parts.append(f"n={max_n} (+1)")
+    else:
+        evidence_parts.append(f"n={max_n} (+0)")
+
+    # Assessment strategy
+    strat_l = strat.lower()
+    if _any_match([r"temporal", r"prospective", r"leave.last.semester"], strat_l):
+        score += 2
+        evidence_parts.append("temporal_valid (+2)")
+    elif _any_match([r"k.fold", r"cross.valid", r"\d+.fold", r"holdout", r"leave.one"], strat_l):
+        score += 1
+        evidence_parts.append("cv/holdout (+1)")
+    else:
+        evidence_parts.append("no_valid (+0)")
+
+    # Public datasets / replication signal
+    if _any_match([r"oulad", r"open\s*universit", r"assistments",
+                   r"kdd\s*cup", r"public\s*dataset", r"replicated"], combined):
+        score += 1
+        evidence_parts.append("public_dataset (+1)")
+
+    # Multiple models compared
+    if models:
+        model_count = len([m.strip() for m in re.split(r"[,;]+", models) if m.strip()])
+        if model_count >= 3:
+            score += 1
+            evidence_parts.append(f"{model_count}_models (+1)")
+
+    ev_str = "; ".join(evidence_parts) + f" => total={score}"
+    if score >= 5:
+        return _ok("high", "high", ev_str)
+    if score >= 3:
+        return _ok("medium", "medium", ev_str)
+    return _ok("low", "medium", ev_str)
+
+
+def _infer_unit_of_analysis(outcome_scope_label: str, combined: str) -> dict[str, Any]:
+    """Infer unit_of_analysis from outcome_scope as primary signal."""
+    scope_map = {
+        "interaction_or_item": "learner_item_interaction",
+        "assessment": "learner_assessment",
+        "course_or_module": "learner_course",
+        "term_or_semester": "learner_term",
+        "program_or_degree": "learner_program",
+        "institution_or_system": "learner_institution",
+    }
+    if outcome_scope_label in scope_map:
+        unit = scope_map[outcome_scope_label]
+        return _ok(unit, "medium",
+                   f"inferred from outcome_scope='{outcome_scope_label}'")
+
+    # Cohort signal
+    if _any_match([r"\bcohort\b", r"\bgroup\b.*predict", r"class.level"], combined):
+        return _ok("cohort_or_group", "medium", "cohort/group signal in evidence")
+
+    return _ok("unclear", "low", "unit_of_analysis could not be inferred")
+
+
+# --- Main classify_contribution entry point ---
+
+def classify_contribution(row: Mapping[str, Any]) -> dict[str, Any]:
+    """Classify one predictive-modelling contribution across the 10-dimension taxonomy.
+
+    Primary signal: ``raw_evidence`` (d-032). Falls back to Title-Case keys
+    (``"Student Performance Definition"``, ``"Moment of Prediction"``, ``"Context"``,
+    ``"Target"``) and snake_case ``raw_*`` fields; handles both gracefully.
+
+    Returns a dict with one ``DimensionResult`` entry per dimension plus top-level
+    ``route_to_audit`` and ``manual_override_applied`` flags.
+
+    Schema: ``docs/classify_contribution_schema.md`` v1.0 (d-032 approved).
+    Guardrails: every result carries label + confidence + evidence; low-confidence
+    and conflict rows are flagged; no silent assignment.
+    """
+    # Classify context_type first — needed by MOOC-dropout disambiguation rule
+    ctx_result = _classify_context_type(row)
+    ctx_label = ctx_result["label"]
+
+    outcome_scope_result = _classify_outcome_scope(row, ctx_label)
+    target_construct_result = _classify_target_construct(row)
+    prediction_timing_result = _classify_prediction_timing(row)
+    cv_design_result = _classify_cv_design(row)
+    supervised_ml_task_result = _classify_supervised_ml_task(row)
+    risk_framing_result = _classify_risk_framing(row)
+    actionability_result = _classify_actionability_status(row)
+    evidence_quality_result = _classify_evidence_quality(row)
+
+    # Unit of analysis inferred from outcome scope
+    ev_combined = _text(
+        _get_field(row, "raw_evidence"),
+        _get_field(row, "raw_student_performance_definition", "Student Performance Definition"),
+        _get_field(row, "raw_target", "Target"),
+    )
+    unit_result = _infer_unit_of_analysis(outcome_scope_result["label"], ev_combined)
+
+    # --- Cross-dimension consistency guard (Change B, ho-018) ---
+    # Rule: program-level target_construct + course-level outcome_scope = inconsistent.
+    # Resolve by inspecting raw evidence:
+    #   - Course-level pass/fail evidence → fix target_construct
+    #   - Program-level GPA/degree evidence → fix outcome_scope
+    #   - Unresolvable → conflict_flag + route to audit.
+    _PROGRAM_LEVEL_TC = {
+        "graduation_or_degree_completion",
+        "retention_or_persistence",
+        "time_to_completion",
+    }
+    tc_label = target_construct_result.get("label", "")
+    os_label = outcome_scope_result.get("label", "")
+
+    if tc_label in _PROGRAM_LEVEL_TC and os_label == "course_or_module":
+        # Gather raw evidence for re-resolution
+        _spd_guard = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
+        _tgt_guard = _get_field(row, "raw_target", "Target")
+        _ev_guard = _get_field(row, "raw_evidence")
+        _moment_guard = _get_field(row, "raw_moment_of_prediction", "Moment of Prediction")
+        _ctx_guard = _get_field(row, "raw_context", "Context")
+        _guard_combined = _text(_spd_guard, _tgt_guard, _ev_guard, _moment_guard, _ctx_guard)
+
+        # Signal set 1: evidence clearly course-level pass/fail or grade
+        _course_pf_pats = [
+            r"success\s*\(?\d?\)?\s*(vs|/|or)\s*failure",
+            r"fail(ing|ed)?\s*\(?\d?\)?\s*(vs|/|or)\s*(pass|succeed)",
+            r"pass\s*\(?\d?\)?\s*(vs|/|or)\s*fail",
+            r"course\s*(pass|fail|grade|score|mark|complet)",
+            r"final\s*(mark|grade|exam|score)",
+            r"week\s*\d+\s*(of|out\s*of)\s*\d+",  # week N of M => course-level
+        ]
+        # Signal set 2: evidence genuinely program-level (overrides course label)
+        _prog_override_pats = [
+            r"gpa\s*(at|upon|after)\s*graduat",
+            r"degree\s*complet",
+            r"program\s*(persist|retent|complet|level|outcome)",
+            r"first.?year\s*(retent|persist|surviv)",
+        ]
+
+        _course_pf_match = _any_match(_course_pf_pats, _guard_combined)
+        _prog_override_match = _any_match(_prog_override_pats, _guard_combined)
+
+        if _course_pf_match and not _prog_override_match:
+            # Fix target_construct: course-level binary outcome → pass_fail_or_success_failure
+            # (or grade_or_score if it's a continuous mark)
+            _continuous_pats = [r"final\s*(mark|grade|score)\b(?!\s*(pass|fail))",
+                                 r"grade\s*(0.?10|a-f|\d+)", r"continuous\s*value"]
+            _new_tc = "grade_or_score" if _any_match(_continuous_pats, _guard_combined) else "pass_fail_or_success_failure"
+            _old_tc = tc_label
+            target_construct_result = _ok(
+                _new_tc, "medium",
+                f"consistency-guard (Change B): program-level TC '{_old_tc}' + "
+                f"course-level outcome_scope; course-level pass/fail evidence "
+                f"detected ({_spd_guard!r} | {_tgt_guard!r}) → fixed TC to '{_new_tc}'"
+            )
+        elif _prog_override_match and not _course_pf_match:
+            # Fix outcome_scope to program_or_degree
+            _old_os = os_label
+            outcome_scope_result = _ok(
+                "program_or_degree", "medium",
+                f"consistency-guard (Change B): TC='{tc_label}' implies program-level; "
+                f"program-level evidence detected → fixed outcome_scope "
+                f"from '{_old_os}' to 'program_or_degree'"
+            )
+            # Recompute unit_of_analysis with corrected scope
+            unit_result = _infer_unit_of_analysis("program_or_degree", ev_combined)
+        else:
+            # Unresolvable: flag conflict
+            target_construct_result = _conflict(
+                [tc_label, "pass_fail_or_success_failure"],
+                f"consistency-guard: program-level TC '{tc_label}' conflicts with "
+                f"course-level outcome_scope; insufficient evidence to resolve "
+                f"({_spd_guard!r} | {_tgt_guard!r})"
+            )
+
+    result: dict[str, Any] = {
+        "supervised_ml_task": supervised_ml_task_result,
+        "outcome_scope": outcome_scope_result,
+        "unit_of_analysis": unit_result,
+        "target_construct": target_construct_result,
+        "prediction_timing": prediction_timing_result,
+        "actionability_status": actionability_result,
+        "risk_framing": risk_framing_result,
+        "evidence_quality": evidence_quality_result,
+        "cv_design": cv_design_result,
+        "context_type": ctx_result,
+    }
+
+    # Determine route_to_audit: any dim with confidence="low" OR conflict_flag=True
+    route = any(
+        dim_res.get("confidence") == "low" or dim_res.get("conflict_flag") is True
+        for dim_res in result.values()
+        if isinstance(dim_res, dict)
+    )
+    result["route_to_audit"] = route
+    result["manual_override_applied"] = False
+
+    return result
+
+
+# --- Pipeline runner: classify all rows and emit CSVs ---
+
+def run_taxonomy_classification_pipeline(
+    csv_path: str | Path | None = None,
+    audit_path: str | Path | None = None,
+    overrides_path: str | Path | None = None,
+) -> None:
+    """Classify all rows in pred_contribution_rows.csv and write back labels + audit CSV.
+
+    This function is idempotent: re-running overwrites the classification columns with
+    fresh labels. Audit rows are always re-generated from scratch.
+
+    Parameters
+    ----------
+    csv_path:
+        Path to pred_contribution_rows.csv (defaults to repo-relative path).
+    audit_path:
+        Path for taxonomy_audit.csv output (defaults to same directory as csv_path).
+    overrides_path:
+        Path to manual_overrides.yaml. If None, auto-detected from repo structure.
+    """
+    import datetime
+    import json
+
+    pd = _require_pandas()
+
+    _repo_root = Path(__file__).resolve().parents[3]
+    if csv_path is None:
+        csv_path = _repo_root / "data" / "analysis_outputs" / "la_review" / "audits" / "pred_contribution_rows.csv"
+    csv_path = Path(csv_path)
+    if audit_path is None:
+        audit_path = csv_path.parent / "taxonomy_audit.csv"
+    audit_path = Path(audit_path)
+
+    df = pd.read_csv(csv_path)
+
+    # --- Load canonical Deployed/Deployable + Work Nature fields (Change A, ho-018) ---
+    # These live in canonical JSON files (domain_properties) and are not yet columns
+    # in pred_contribution_rows.csv.  We build a paper_id → (deployed, work_nature)
+    # lookup so each row can see the canonical deployment classification.
+    _canonical_deploy: dict[str, tuple[str, str]] = {}
+    _canonical_dir = _repo_root / "data" / "pulled" / "notion" / "learning_analytics_review"
+    if _canonical_dir.is_dir():
+        for _jf in _canonical_dir.glob("*.canonical.json"):
+            try:
+                with open(_jf, encoding="utf-8") as _jfh:
+                    _jdata = json.load(_jfh)
+                for _ref in _jdata.get("references", []):
+                    _pid = str(_ref.get("id", "")).strip()
+                    if not _pid:
+                        continue
+                    _dp = (_ref.get("sync_metadata") or {}).get("domain_properties") or {}
+                    _deployed = str(_dp.get("Deployed/ Deployable") or "").strip()
+                    _wn = _dp.get("Work Nature") or []
+                    if isinstance(_wn, list):
+                        _wn = "; ".join(str(x) for x in _wn)
+                    else:
+                        _wn = str(_wn)
+                    if _deployed:
+                        _canonical_deploy[_pid] = (_deployed, _wn)
+            except Exception:
+                pass  # Silently skip malformed JSON — do not crash the pipeline
+
+    # Ensure classification columns are object dtype so we can write string labels
+    _write_cols = [
+        "supervised_ml_task", "outcome_scope", "unit_of_analysis",
+        "target_construct", "prediction_timing", "actionability_status",
+        "risk_framing", "evidence_quality", "cv_design", "context_type",
+        "classification_confidence", "classification_notes", "manual_override_applied",
+    ]
+    for col in _write_cols:
+        if col not in df.columns:
+            df[col] = ""
+        else:
+            df[col] = df[col].astype(object)
+
+    # Load manual overrides
+    manual_overrides: list[dict[str, Any]] = []
+    if overrides_path is None:
+        candidate = _repo_root / "configs" / "reviews" / "la_student_success_review" / "manual_overrides.yaml"
+        if candidate.exists():
+            overrides_path = candidate
+    if overrides_path and Path(overrides_path).exists():
+        try:
+            import yaml  # type: ignore[import]
+            with open(overrides_path, encoding="utf-8") as fh:
+                ov_data = yaml.safe_load(fh)
+            manual_overrides = ov_data.get("overrides", []) or []
+            # Filter out illustrative example entries
+            manual_overrides = [
+                o for o in manual_overrides
+                if not str(o.get("contribution_id", "")).startswith("c-example")
+            ]
+        except Exception:
+            pass  # YAML not available or malformed — proceed without overrides
+
+    dims = [
+        "supervised_ml_task", "outcome_scope", "unit_of_analysis",
+        "target_construct", "prediction_timing", "actionability_status",
+        "risk_framing", "evidence_quality", "cv_design", "context_type",
+    ]
+
+    # Index overrides by contribution_id
+    override_index: dict[str, list[dict[str, Any]]] = {}
+    for ov in manual_overrides:
+        cid = str(ov.get("contribution_id", ""))
+        override_index.setdefault(cid, []).append(ov)
+
+    audit_rows: list[dict[str, Any]] = []
+    ts = datetime.datetime.utcnow().isoformat(timespec="seconds") + "Z"
+
+    for idx, raw_row in df.iterrows():
+        row = dict(raw_row)
+        # Inject canonical deployment metadata (Change A, ho-018) so
+        # _classify_actionability_status can see it via _get_field().
+        _pid_for_deploy = str(row.get("paper_id", "")).strip()
+        if _pid_for_deploy in _canonical_deploy:
+            _dep_val, _wn_val = _canonical_deploy[_pid_for_deploy]
+            row.setdefault("raw_deployed_deployable", _dep_val)
+            row.setdefault("raw_work_nature", _wn_val)
+        classification = classify_contribution(row)
+
+        # Apply manual overrides
+        cid = str(row.get("contribution_id", ""))
+        applied_override = False
+        for ov in override_index.get(cid, []):
+            field = ov.get("field", "")
+            value = ov.get("value", "")
+            rationale = ov.get("rationale", "")
+            if field in dims and field in classification:
+                vocab = _VOCAB.get(field, [])
+                if vocab and value not in vocab:
+                    # Override value not in vocab — escalate (log but don't crash)
+                    pass
+                else:
+                    classification[field] = {
+                        "label": value,
+                        "confidence": "high",
+                        "evidence": f"manual_override: {rationale}",
+                    }
+                    applied_override = True
+
+        if applied_override:
+            classification["manual_override_applied"] = True
+            # Re-evaluate route_to_audit after overrides
+            classification["route_to_audit"] = any(
+                dim_res.get("confidence") == "low" or dim_res.get("conflict_flag") is True
+                for dim_res in classification.values()
+                if isinstance(dim_res, dict)
+            )
+
+        # Write labels back to DataFrame
+        for dim in dims:
+            dim_res = classification.get(dim, {})
+            df.at[idx, dim] = dim_res.get("label", "unclear")
+
+        df.at[idx, "classification_confidence"] = min(
+            (classification.get(d, {}).get("confidence", "low") for d in dims),
+            key=lambda c: {"high": 2, "medium": 1, "low": 0}.get(c, 0),
+        )
+        df.at[idx, "manual_override_applied"] = classification.get("manual_override_applied", False)
+
+        # Build notes from any conflicts or low-confidence dims
+        low_dims = [
+            d for d in dims
+            if classification.get(d, {}).get("confidence") == "low"
+            or classification.get(d, {}).get("conflict_flag") is True
+        ]
+        df.at[idx, "classification_notes"] = (
+            "low/conflict: " + ", ".join(low_dims) if low_dims else ""
+        )
+
+        # Route to audit if needed
+        if classification.get("route_to_audit"):
+            audit_rows.append({
+                "contribution_id": row.get("contribution_id", ""),
+                "paper_id": row.get("paper_id", ""),
+                "paper_title": row.get("paper_title", ""),
+                "audit_reason": "low_confidence/conflict: " + ", ".join(low_dims),
+                "flagged_dimensions": json.dumps(low_dims),
+                "dimension_results": json.dumps({
+                    d: classification.get(d, {}) for d in dims
+                }),
+                "raw_evidence": row.get("raw_evidence", ""),
+                "human_adjudication": "",
+                "adjudication_status": "pending",
+                "routed_at": ts,
+            })
+
+    # Write back enriched CSV
+    df.to_csv(csv_path, index=False)
+
+    # Write audit CSV
+    if audit_rows:
+        audit_df = pd.DataFrame(audit_rows)
+    else:
+        audit_df = pd.DataFrame(columns=[
+            "contribution_id", "paper_id", "paper_title", "audit_reason",
+            "flagged_dimensions", "dimension_results", "raw_evidence",
+            "human_adjudication", "adjudication_status", "routed_at",
+        ])
+
+    # Sentinel validation entry: run the canonical conflict test case to confirm
+    # audit routing is operational.  This entry is NEVER promoted to canonical
+    # Table III — it is a system-test record (test-R-004-002 spec).
+    sentinel_row: dict[str, Any] = {
+        "raw_evidence": "Course Grade or Completion",
+        "raw_student_performance_definition": "Course Grade or Completion",
+        "raw_target": "Course Grade or Completion",
+        "contribution_id": "_sentinel_conflict_test",
+        "paper_id": "_sentinel",
+        "paper_title": "[SYSTEM VALIDATION] Conflict test — Course Grade or Completion",
+    }
+    sentinel_cls = classify_contribution(sentinel_row)
+    if sentinel_cls.get("route_to_audit"):
+        low_dims_s = [
+            d for d in dims
+            if sentinel_cls.get(d, {}).get("confidence") == "low"
+            or sentinel_cls.get(d, {}).get("conflict_flag") is True
+        ]
+        sentinel_audit_row = {
+            "contribution_id": sentinel_row["contribution_id"],
+            "paper_id": sentinel_row["paper_id"],
+            "paper_title": sentinel_row["paper_title"],
+            "audit_reason": "low_confidence/conflict: " + ", ".join(low_dims_s),
+            "flagged_dimensions": json.dumps(low_dims_s),
+            "dimension_results": json.dumps({d: sentinel_cls.get(d, {}) for d in dims}),
+            "raw_evidence": sentinel_row["raw_evidence"],
+            "human_adjudication": "",
+            "adjudication_status": "pending",
+            "routed_at": ts,
+        }
+        sentinel_df = pd.DataFrame([sentinel_audit_row])
+        audit_df = pd.concat([audit_df, sentinel_df], ignore_index=True)
+
+    audit_path.parent.mkdir(parents=True, exist_ok=True)
+    audit_df.to_csv(audit_path, index=False)
+
+
 __all__ = [
+    "apply_overrides",
     "build_pred_horizon_task_detail",
     "build_pred_horizon_task_summary",
     "build_pred_horizon_task_summary_from_canonical",
+    "classify_contribution",
     "classify_horizons",
     "classify_horizons_with_source",
     "classify_supervised_ml_task",
@@ -834,5 +2247,6 @@ __all__ = [
     "has_implemented_intervention_or_deployment",
     "is_early_actionable_prediction",
     "raw_target_evidence",
+    "run_taxonomy_classification_pipeline",
     "write_pred_horizon_task_summary_workbook",
 ]

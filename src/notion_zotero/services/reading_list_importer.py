@@ -18,7 +18,6 @@ from notion_zotero.core.models import Reference, Task, ReferenceTask, TaskExtrac
 from notion_zotero.core.enums import ValidationStatus
 from notion_zotero.schemas import task_registry
 from notion_zotero.schemas.status_mapping import map_status
-from notion_zotero.core.normalize import normalize_title
 
 # reuse deterministic id helper from the package-local schemas
 from notion_zotero.schemas.idgen import deterministic_short_id
