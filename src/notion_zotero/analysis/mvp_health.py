@@ -100,6 +100,7 @@ def build_health_report(
     sync_plan: Optional[dict] = None,
     existing_notion_titles: Optional[set] = None,
     existing_notion_keys: Optional[set] = None,
+    review_report_path: Optional[str] = None,
 ) -> dict:
     """Build the MVP health report dict (AC-002 sections)."""
     bundles = list(bundles or [])
@@ -127,6 +128,17 @@ def build_health_report(
             existing_notion_titles=existing_notion_titles,
             existing_notion_keys=existing_notion_keys,
         )
+        review_actions = sync_plan.get("review_actions") or []
+        report["unresolved_actions"] = {
+            "ambiguous": len(sync_plan.get("ambiguous") or []),
+            "creates_needing_review": sum(
+                1 for a in review_actions
+                if a.get("operation") == "create_notion_page_from_zotero_record"
+                and a.get("status") == "needs_review"
+            ),
+        }
+    if review_report_path is not None:
+        report["review_report"] = review_report_path
     return report
 
 
@@ -140,6 +152,12 @@ def render_markdown(report: dict) -> str:
     age = report.get("stale_snapshot_age_days")
     lines.append(f"- Snapshot age (days): **{age if age is not None else 'n/a'}**")
     lines.append(f"- Rollback available: **{report.get('rollback_available', False)}**")
+    if report.get("review_report"):
+        lines.append(f"- Review report: `{report['review_report']}`")
+    ua = report.get("unresolved_actions")
+    if ua:
+        lines.append(f"- Unresolved actions: **{ua.get('ambiguous', 0)}** ambiguous, "
+                     f"**{ua.get('creates_needing_review', 0)}** creates needing review")
     lines.append("")
     lines.append("## Metadata completeness")
     lines.append("")

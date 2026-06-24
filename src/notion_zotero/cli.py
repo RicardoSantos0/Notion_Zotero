@@ -1060,12 +1060,15 @@ def cmd_mvp_health(args):
             sync_plan = json.loads(plan_path.read_text(encoding="utf-8"))
         except Exception:
             sync_plan = None
+    review_report = getattr(args, "review_report", None) or "data/sync_plans/sync_plan_review.md"
+    review_report_path = review_report if Path(review_report).exists() else None
     report = mvp_health.build_health_report(
         bundles,
         snapshot_age_days=_snapshot_age_days(in_dir),
         write_log_entries=entries,
         rollback_available=rollback_available,
         sync_plan=sync_plan,
+        review_report_path=review_report_path,
     )
     out_json = args.out_json or "data/sync_plans/mvp_health.json"
     out_md = args.out_md or "data/sync_plans/mvp_health.md"
@@ -1198,6 +1201,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     mh.add_argument("--out-md", dest="out_md", default="data/sync_plans/mvp_health.md")
     mh.add_argument("--plan", default="data/sync_plans/sync_plan.json",
                     help="Sync plan to summarize reviewed-create outcomes from (if present)")
+    mh.add_argument("--review-report", dest="review_report", default="data/sync_plans/sync_plan_review.md",
+                    help="Review report to reference in the health report (if present)")
     mh.set_defaults(func=cmd_mvp_health)
 
     rl = sub.add_parser("replay-log", help="Replay planned/failed write-log entries (dry-run default; --apply guards with the sync lock)")

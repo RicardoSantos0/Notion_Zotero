@@ -48,6 +48,33 @@ def _summary_rows(summary: Mapping[str, Any]) -> list[list[Any]]:
     return [[key.replace("_", " "), summary.get(key, 0)] for key in keys]
 
 
+def _action_summary_rows(plan: Mapping[str, Any]) -> list[list[Any]]:
+    """Group the plan by the action a human must take, in clear language."""
+    review_actions = list(plan.get("review_actions") or [])
+    approved_creates = sum(
+        1 for a in review_actions
+        if a.get("operation") == "create_notion_page_from_zotero_record"
+        and a.get("status") == "approved"
+    )
+    creates_needing_review = sum(
+        1 for a in review_actions
+        if a.get("operation") == "create_notion_page_from_zotero_record"
+        and a.get("status") == "needs_review"
+    )
+    return [
+        ["Update Notion field", len(plan.get("operations") or []),
+         "Apply zotero-owned field changes to matched Notion pages"],
+        ["Create Notion page (approved)", approved_creates,
+         "Create pages for approved Zotero-only records"],
+        ["Needs review", creates_needing_review,
+         "Approve or reject proposed Zotero-only page creates"],
+        ["Resolve ambiguous match", len(plan.get("ambiguous") or []),
+         "Pick the correct Notion record for each ambiguous Zotero item"],
+        ["No action (matched)", len(plan.get("matches") or []),
+         "Already aligned; informational only"],
+    ]
+
+
 def render_sync_plan_markdown(plan: Mapping[str, Any], max_rows: int = 25) -> str:
     """Render a sync plan as a human-reviewable Markdown report."""
     summary = plan.get("summary") or {}
@@ -60,6 +87,10 @@ def render_sync_plan_markdown(plan: Mapping[str, Any], max_rows: int = 25) -> st
         f"- Notion input: {_display(inputs.get('notion_dir'), max_chars=180)}",
         f"- Zotero input: {_display(inputs.get('zotero_dir'), max_chars=180)}",
         "",
+        "## Action Summary",
+        "",
+        *_markdown_table(["Action", "Count", "What to do"], _action_summary_rows(plan)),
+        "",
         "## Summary",
         "",
         *_markdown_table(["Metric", "Count"], _summary_rows(summary)),
@@ -71,6 +102,7 @@ def render_sync_plan_markdown(plan: Mapping[str, Any], max_rows: int = 25) -> st
     operations = list(plan.get("operations") or [])
     operation_rows = [
         [
+            "Update Notion field",
             op.get("operation_id"),
             op.get("field"),
             op.get("notion_reference_id"),
@@ -79,7 +111,7 @@ def render_sync_plan_markdown(plan: Mapping[str, Any], max_rows: int = 25) -> st
         ]
         for op in operations[:max_rows]
     ]
-    lines.extend(_markdown_table(["Operation ID", "Field", "Notion page", "Old", "New"], operation_rows))
+    lines.extend(_markdown_table(["Action", "Operation ID", "Field", "Notion page", "Old", "New"], operation_rows))
     if len(operations) > max_rows:
         lines.append(f"_Showing {max_rows} of {len(operations)} operations._")
 
