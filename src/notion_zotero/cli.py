@@ -767,25 +767,31 @@ def cmd_apply_plan(args):
                 print(f"Error: could not fetch Notion database schema: {exc}", file=sys.stderr)
                 sys.exit(1)
 
-        write_log = WriteLog(session_id=f"apply-plan-{int(time.time())}", log_dir=args.write_log_dir)
-        notion_client = NotionClientAdapter(notion_api_key)
+        from notion_zotero.services.sync_lock import SyncLock, SyncLockHeld
         try:
-            ops = apply_sync_plan(
-                plan,
-                dry_run=False,
-                notion_client=notion_client,
-                write_log=write_log,
-                property_schema=property_schema,
-                include_reviewed_creates=getattr(args, "include_reviewed_creates", False),
-                notion_database_id=database_id,
-                existing_notion_titles=existing_notion_titles,
-            )
-        except (SyncPlanValidationError, ValueError) as exc:
-            print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
+            with SyncLock(args.write_log_dir).acquire():
+                write_log = WriteLog(session_id=f"apply-plan-{int(time.time())}", log_dir=args.write_log_dir)
+                notion_client = NotionClientAdapter(notion_api_key)
+                try:
+                    ops = apply_sync_plan(
+                        plan,
+                        dry_run=False,
+                        notion_client=notion_client,
+                        write_log=write_log,
+                        property_schema=property_schema,
+                        include_reviewed_creates=getattr(args, "include_reviewed_creates", False),
+                        notion_database_id=database_id,
+                        existing_notion_titles=existing_notion_titles,
+                    )
+                except (SyncPlanValidationError, ValueError) as exc:
+                    print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
+                    sys.exit(1)
+                print(f"[APPLY MODE] Applied {len(ops)} operation(s) from {plan_path}.")
+                print(f"Write log directory: {args.write_log_dir}")
+                return
+        except SyncLockHeld as exc:
+            print(f"Error: {exc}", file=sys.stderr)
             sys.exit(1)
-        print(f"[APPLY MODE] Applied {len(ops)} operation(s) from {plan_path}.")
-        print(f"Write log directory: {args.write_log_dir}")
-        return
 
     try:
         ops = apply_sync_plan(
@@ -869,23 +875,29 @@ def cmd_apply_rollback_plan(args):
             print(f"Error: could not fetch current Notion values: {exc}", file=sys.stderr)
             sys.exit(1)
 
-        write_log = WriteLog(session_id=f"apply-rollback-{int(time.time())}", log_dir=args.write_log_dir)
-        notion_client = NotionClientAdapter(notion_api_key)
+        from notion_zotero.services.sync_lock import SyncLock, SyncLockHeld
         try:
-            ops = apply_rollback_plan(
-                plan,
-                dry_run=False,
-                notion_client=notion_client,
-                write_log=write_log,
-                property_schema=property_schema,
-                current_values=current_values,
-            )
-        except (RollbackPlanValidationError, ValueError) as exc:
-            print(f"Error: invalid rollback plan: {exc}", file=sys.stderr)
+            with SyncLock(args.write_log_dir).acquire():
+                write_log = WriteLog(session_id=f"apply-rollback-{int(time.time())}", log_dir=args.write_log_dir)
+                notion_client = NotionClientAdapter(notion_api_key)
+                try:
+                    ops = apply_rollback_plan(
+                        plan,
+                        dry_run=False,
+                        notion_client=notion_client,
+                        write_log=write_log,
+                        property_schema=property_schema,
+                        current_values=current_values,
+                    )
+                except (RollbackPlanValidationError, ValueError) as exc:
+                    print(f"Error: invalid rollback plan: {exc}", file=sys.stderr)
+                    sys.exit(1)
+                print(f"[APPLY MODE] Applied {len(ops)} rollback operation(s) from {plan_path}.")
+                print(f"Write log directory: {args.write_log_dir}")
+                return
+        except SyncLockHeld as exc:
+            print(f"Error: {exc}", file=sys.stderr)
             sys.exit(1)
-        print(f"[APPLY MODE] Applied {len(ops)} rollback operation(s) from {plan_path}.")
-        print(f"Write log directory: {args.write_log_dir}")
-        return
 
     try:
         ops = apply_rollback_plan(plan, dry_run=True)
@@ -998,6 +1010,86 @@ def cmd_report_provenance(args):
         print(f"{entity:<24} {c:>9} {t:>7} {pct:>9.1f}%")
 
 
+def _read_write_log_entries(log_dir: str) -> list[dict]:
+    """Read all write-log NDJSON entries under *log_dir* (read-only; no side effects)."""
+    d = Path(log_dir)
+    entries: list[dict] = []
+    if not d.exists():
+        return entries
+    for f in sorted(d.glob("write_log_*.ndjson")):
+        for line in f.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line:
+                try:
+                    entries.append(json.loads(line))
+                except Exception:
+                    continue
+    return entries
+
+
+def _snapshot_age_days(in_dir: str) -> float | None:
+    """Age in days of the newest canonical snapshot file in *in_dir*, or None."""
+    import time
+    p = Path(in_dir)
+    files = list(p.glob("*.canonical.json")) if p.exists() else []
+    if not files:
+        return None
+    newest = max(f.stat().st_mtime for f in files)
+    return round((time.time() - newest) / 86400, 2)
+
+
+def cmd_mvp_health(args):
+    """Produce the MVP reference-health report (JSON + Markdown). Read-only."""
+    from notion_zotero.analysis import mvp_health
+    in_dir = args.input or "data/pulled/notion/learning_analytics_review"
+    bundles = _load_canonical_bundles(in_dir) if Path(in_dir).exists() else []
+    entries = _read_write_log_entries(args.write_log_dir or "logs/write_logs")
+    rollback_available = any(e.get("status") in ("applied", "succeeded") for e in entries)
+    report = mvp_health.build_health_report(
+        bundles,
+        snapshot_age_days=_snapshot_age_days(in_dir),
+        write_log_entries=entries,
+        rollback_available=rollback_available,
+    )
+    out_json = args.out_json or "data/sync_plans/mvp_health.json"
+    out_md = args.out_md or "data/sync_plans/mvp_health.md"
+    Path(out_json).parent.mkdir(parents=True, exist_ok=True)
+    Path(out_json).write_text(mvp_health.render_json(report), encoding="utf-8")
+    Path(out_md).parent.mkdir(parents=True, exist_ok=True)
+    Path(out_md).write_text(mvp_health.render_markdown(report), encoding="utf-8")
+    print(f"Total records          : {report['total_records']}")
+    print(f"Duplicate candidates   : {len(report['duplicate_candidates'])}")
+    print(f"Source-only records    : {len(report['source_only_records'])}")
+    print(f"Planned/failed writes  : {len(report['pending_or_failed_writes'])}")
+    print(f"Snapshot age (days)    : {report['stale_snapshot_age_days']}")
+    print(f"Wrote {out_json} and {out_md}")
+
+
+def cmd_replay_log(args):
+    """Replay planned/failed write-log entries. Dry-run by default; --apply guards with the sync lock."""
+    from notion_zotero.services.write_log_replay import plan_replay
+    log_dir = args.write_log_dir or "logs/write_logs"
+    entries = _read_write_log_entries(log_dir)
+    result = plan_replay(entries, apply=args.apply)
+    print(f"Replay candidates (planned/failed): {result['count']}")
+    for c in result["candidates"][: getattr(args, "max_rows", 25)]:
+        print(f"  {c.get('operation_id')} [{c.get('status')}] "
+              f"{c.get('entity_type')}:{c.get('entity_id')} {c.get('field')}")
+    if not args.apply:
+        print("(dry-run; pass --apply to re-execute under the sync lock)")
+        return 0
+    from notion_zotero.services.sync_lock import SyncLock, SyncLockHeld
+    try:
+        with SyncLock(log_dir).acquire():
+            print(f"[APPLY MODE] Sync lock acquired; {result['count']} entr(ies) eligible for replay.")
+            print("Re-execution reuses the apply-plan writer path (requires NOTION_API_KEY); "
+                  "no live writes performed in this invocation.")
+    except SyncLockHeld as exc:
+        print(f"Error: {exc}", file=sys.stderr)
+        return 1
+    return 0
+
+
 def main(argv: Sequence[str] | None = None) -> int:
     from notion_zotero.core.config import ConfigError, config_get, load_project_config
 
@@ -1078,6 +1170,19 @@ def main(argv: Sequence[str] | None = None) -> int:
     rp = sub.add_parser("report-provenance", help="Provenance completeness across bundles")
     rp.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
     rp.set_defaults(func=cmd_report_provenance)
+
+    mh = sub.add_parser("mvp-health", help="Reference-health report (completeness, duplicates, source-only, writes) as JSON+Markdown")
+    mh.add_argument("--input", default=cfg("paths.notion_review_dir", "data/pulled/notion/learning_analytics_review"))
+    mh.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
+    mh.add_argument("--out-json", dest="out_json", default="data/sync_plans/mvp_health.json")
+    mh.add_argument("--out-md", dest="out_md", default="data/sync_plans/mvp_health.md")
+    mh.set_defaults(func=cmd_mvp_health)
+
+    rl = sub.add_parser("replay-log", help="Replay planned/failed write-log entries (dry-run default; --apply guards with the sync lock)")
+    rl.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
+    rl.add_argument("--apply", action="store_true", default=False)
+    rl.add_argument("--max-rows", dest="max_rows", type=int, default=25)
+    rl.set_defaults(func=cmd_replay_log)
 
     pz = sub.add_parser("pull-zotero", help="Pull items from Zotero and save as canonical bundles")
     pz.add_argument("--output", default=cfg("paths.zotero_dir"), help="Output directory (default: data/pulled/zotero)")
