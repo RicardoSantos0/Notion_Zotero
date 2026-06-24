@@ -812,8 +812,11 @@ def cmd_apply_plan(args):
         print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
         sys.exit(1)
     print(f"[DRY-RUN] Planned {len(ops)} executable operation(s) from {plan_path}.")
+    enc = sys.stdout.encoding or "utf-8"
     for op in ops:
-        print(op)
+        # Operation labels can contain non-cp1252 chars (e.g. ligatures from titles);
+        # stay printable on a legacy Windows console instead of crashing.
+        print(op.encode(enc, errors="backslashreplace").decode(enc))
 
 
 def cmd_rollback_plan(args):
