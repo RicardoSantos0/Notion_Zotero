@@ -750,8 +750,10 @@ def cmd_apply_plan(args):
         property_schema = None
         database_id = getattr(args, "notion_database_id", None) or os.environ.get("NOTION_DATABASE_ID")
         existing_notion_titles: set[str] = set()
+        existing_notion_keys: set[str] = set()
         if database_id:
             try:
+                from notion_zotero.core.normalize import normalize_doi
                 notion_reader = NotionReader(api_key=notion_api_key)
                 notion_schema = notion_reader.get_database_schema(database_id)
                 property_schema = build_property_schema_from_notion_schema(notion_schema)
@@ -761,6 +763,11 @@ def cmd_apply_plan(args):
                             ref = notion_reader.to_reference(page, schema=notion_schema)
                             if ref.title:
                                 existing_notion_titles.add(ref.title)
+                            if getattr(ref, "zotero_key", None):
+                                existing_notion_keys.add(ref.zotero_key)
+                            normalized_doi = normalize_doi(getattr(ref, "doi", None))
+                            if normalized_doi:
+                                existing_notion_keys.add(normalized_doi)
                         except Exception:
                             continue
             except Exception as exc:
@@ -782,6 +789,7 @@ def cmd_apply_plan(args):
                         include_reviewed_creates=getattr(args, "include_reviewed_creates", False),
                         notion_database_id=database_id,
                         existing_notion_titles=existing_notion_titles,
+                        existing_notion_keys=existing_notion_keys,
                     )
                 except (SyncPlanValidationError, ValueError) as exc:
                     print(f"Error: invalid sync plan: {exc}", file=sys.stderr)
@@ -1045,11 +1053,19 @@ def cmd_mvp_health(args):
     bundles = _load_canonical_bundles(in_dir) if Path(in_dir).exists() else []
     entries = _read_write_log_entries(args.write_log_dir or "logs/write_logs")
     rollback_available = any(e.get("status") in ("applied", "succeeded") for e in entries)
+    plan_path = Path(getattr(args, "plan", None) or "data/sync_plans/sync_plan.json")
+    sync_plan = None
+    if plan_path.exists():
+        try:
+            sync_plan = json.loads(plan_path.read_text(encoding="utf-8"))
+        except Exception:
+            sync_plan = None
     report = mvp_health.build_health_report(
         bundles,
         snapshot_age_days=_snapshot_age_days(in_dir),
         write_log_entries=entries,
         rollback_available=rollback_available,
+        sync_plan=sync_plan,
     )
     out_json = args.out_json or "data/sync_plans/mvp_health.json"
     out_md = args.out_md or "data/sync_plans/mvp_health.md"
@@ -1062,6 +1078,10 @@ def cmd_mvp_health(args):
     print(f"Source-only records    : {len(report['source_only_records'])}")
     print(f"Planned/failed writes  : {len(report['pending_or_failed_writes'])}")
     print(f"Snapshot age (days)    : {report['stale_snapshot_age_days']}")
+    co = report.get("create_outcomes")
+    if co:
+        print(f"Create outcomes        : approved={co['approved']} applied={co['applied']} "
+              f"failed={co['failed']} duplicate-blocked={co['duplicate_blocked']}")
     print(f"Wrote {out_json} and {out_md}")
 
 
@@ -1176,6 +1196,8 @@ def main(argv: Sequence[str] | None = None) -> int:
     mh.add_argument("--write-log-dir", dest="write_log_dir", default=cfg("paths.write_log_dir", "logs/write_logs"))
     mh.add_argument("--out-json", dest="out_json", default="data/sync_plans/mvp_health.json")
     mh.add_argument("--out-md", dest="out_md", default="data/sync_plans/mvp_health.md")
+    mh.add_argument("--plan", default="data/sync_plans/sync_plan.json",
+                    help="Sync plan to summarize reviewed-create outcomes from (if present)")
     mh.set_defaults(func=cmd_mvp_health)
 
     rl = sub.add_parser("replay-log", help="Replay planned/failed write-log entries (dry-run default; --apply guards with the sync lock)")

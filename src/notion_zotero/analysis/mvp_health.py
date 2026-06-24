@@ -97,9 +97,13 @@ def build_health_report(
     source_only_records: Optional[list] = None,
     write_log_entries: Optional[Iterable[dict]] = None,
     rollback_available: Optional[bool] = None,
+    sync_plan: Optional[dict] = None,
+    existing_notion_titles: Optional[set] = None,
+    existing_notion_keys: Optional[set] = None,
 ) -> dict:
     """Build the MVP health report dict (AC-002 sections)."""
     bundles = list(bundles or [])
+    write_log_entries = list(write_log_entries or [])
     report: dict[str, Any] = {
         "total_records": len(bundles),
         "metadata_completeness": _completeness(bundles),
@@ -110,10 +114,19 @@ def build_health_report(
                                 else _source_only(bundles)),
         "stale_snapshot_age_days": snapshot_age_days,
     }
-    pending = [e for e in (write_log_entries or [])
+    pending = [e for e in write_log_entries
                if isinstance(e, dict) and e.get("status") in ("planned", "failed")]
     report["pending_or_failed_writes"] = pending
     report["rollback_available"] = bool(rollback_available)
+    if sync_plan is not None:
+        from notion_zotero.services.sync_plan_applier import summarize_create_outcomes
+
+        report["create_outcomes"] = summarize_create_outcomes(
+            sync_plan,
+            write_log_entries=write_log_entries,
+            existing_notion_titles=existing_notion_titles,
+            existing_notion_keys=existing_notion_keys,
+        )
     return report
 
 
@@ -144,6 +157,17 @@ def render_markdown(report: dict) -> str:
     lines.append(f"## Source-only records ({len(report.get('source_only_records', []))})")
     pend = report.get("pending_or_failed_writes", [])
     lines.append(f"## Planned / failed writes ({len(pend)})")
+    co = report.get("create_outcomes")
+    if co:
+        lines.append("")
+        lines.append("## Reviewed create outcomes")
+        lines.append("")
+        lines.append(f"- Approved: **{co.get('approved', 0)}**")
+        lines.append(f"- Applied: **{co.get('applied', 0)}**")
+        lines.append(f"- Failed: **{co.get('failed', 0)}**")
+        lines.append(f"- Duplicate-blocked: **{co.get('duplicate_blocked', 0)}**")
+        for rec in co.get("duplicate_blocked_records", []):
+            lines.append(f"  - blocked: {rec.get('title')} (zotero_key={rec.get('zotero_key')})")
     return "\n".join(lines) + "\n"
 
 
