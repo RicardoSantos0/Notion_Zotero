@@ -10,9 +10,9 @@ generate_table3(canonical_dir) -> pandas.DataFrame
     aggregate into Table III counts (R-005 schema).
 
 main(argv=None)
-    Argparse CLI entry point.  Writes three artefacts to ``--output-dir``:
-      * table_3_counts.xlsx   (5 sheets)
-      * table_3_detail.csv    (per-contribution classified rows)
+    Argparse CLI entry point.  Writes two artefacts to ``--output-dir`` (d-041):
+      * table_3_counts.xlsx   (5 sheets; per-contribution detail is the
+                               table_3_detail sheet)
       * table_3_preview.md    (Markdown render of counts table)
 
 Output sheet manifest
@@ -62,7 +62,7 @@ def _require_pandas():
 # Helpers – loading overrides and taxonomy vocab
 # ---------------------------------------------------------------------------
 
-_REPO_ROOT = Path(__file__).resolve().parents[4]  # …/Notion_Zotero
+_REPO_ROOT = Path(__file__).resolve().parents[3]  # …/Notion_Zotero (analysis/notion_zotero/src/Notion_Zotero)
 
 
 def _load_manual_overrides(overrides_path: Path | None = None) -> list[dict[str, Any]]:
@@ -140,6 +140,8 @@ _TAXONOMY_DIMS = [
     "outcome_scope",
     "unit_of_analysis",
     "target_construct",
+    "outcome_horizon",
+    "outcome_basis",
     "prediction_timing",
     "actionability_status",
     "risk_framing",
@@ -148,10 +150,41 @@ _TAXONOMY_DIMS = [
     "context_type",
 ]
 
+# outcome_scope -> outcome_horizon (semester boundary, d-043). Mirrors
+# pred_horizon_summary._HORIZON_BY_SCOPE so the counts column is consistent with
+# the per-row classifier label.
+_HORIZON_BY_SCOPE = {
+    "interaction_or_item": "short_term",
+    "assessment": "short_term",
+    "course_or_module": "short_term",
+    "term_or_semester": "short_term",
+    "program_or_degree": "long_term",
+    "institution_or_system": "long_term",
+    "mixed_or_multiple": "mixed",
+    "unclear": "unclear",
+}
 
-def _classify_rows(contribution_rows: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Run classify_contribution() on each row and flatten labels into the dict."""
-    from notion_zotero.analysis.pred_horizon_summary import classify_contribution
+
+def _classify_rows(
+    contribution_rows: list[dict[str, Any]],
+    overrides_path: Path | None = None,
+) -> list[dict[str, Any]]:
+    """Run classify_contribution() on each row and flatten labels into the dict.
+
+    Human-ratified ``manual_overrides`` (R-017 gate) are applied AFTER classification
+    so they move both the detail sheet and the Table III counts. Each override sets
+    the dimension label at high confidence with a ``manual_override:`` evidence note;
+    values outside the taxonomy vocabulary are ignored (the audit gate would flag
+    orphan labels otherwise).
+    """
+    from notion_zotero.analysis.pred_horizon_summary import classify_contribution, _VOCAB
+
+    # Index human overrides by contribution_id (illustrative examples filtered out).
+    override_index: dict[str, list[dict[str, Any]]] = {}
+    for ov in _load_manual_overrides(overrides_path):
+        cid = str(ov.get("contribution_id", ""))
+        if cid:
+            override_index.setdefault(cid, []).append(ov)
 
     classified: list[dict[str, Any]] = []
     for row in contribution_rows:
@@ -168,6 +201,17 @@ def _classify_rows(contribution_rows: list[dict[str, Any]]) -> list[dict[str, An
                 enriched[f"{dim}_confidence"] = "low"
                 enriched[f"{dim}_evidence"] = ""
 
+        # Apply human-ratified overrides (R-017) on top of the classifier labels.
+        applied_override = False
+        for ov in override_index.get(str(row.get("contribution_id", "")), []):
+            field = str(ov.get("field", ""))
+            value = str(ov.get("value", ""))
+            if field in _TAXONOMY_DIMS and value in _VOCAB.get(field, []):
+                enriched[field] = value
+                enriched[f"{field}_confidence"] = "high"
+                enriched[f"{field}_evidence"] = f"manual_override: {ov.get('rationale', '')}"
+                applied_override = True
+
         # Derive classification_confidence = minimum confidence across all dims
         confidences = [
             enriched.get(f"{dim}_confidence", "low") for dim in _TAXONOMY_DIMS
@@ -179,7 +223,7 @@ def _classify_rows(contribution_rows: list[dict[str, Any]]) -> list[dict[str, An
         # route_to_audit flag
         enriched["route_to_audit"] = bool(result.get("route_to_audit", False))
         enriched["manual_override_applied"] = bool(
-            result.get("manual_override_applied", False)
+            result.get("manual_override_applied", False) or applied_override
         )
         classified.append(enriched)
     return classified
@@ -324,6 +368,7 @@ def aggregate_table3(classified_rows: list[dict[str, Any]]) -> "Any":
     if not paper_sets:
         return pd.DataFrame(
             columns=[
+                "outcome_horizon",
                 "outcome_scope",
                 "supervised_ml_task",
                 "target_construct",
@@ -367,6 +412,9 @@ def aggregate_table3(classified_rows: list[dict[str, Any]]) -> "Any":
         )
         output_rows.append(
             {
+                # outcome_horizon (d-043): semester-boundary coarsening of
+                # outcome_scope; leads the table as a grouping column.
+                "outcome_horizon": _HORIZON_BY_SCOPE.get(outcome_scope, "unclear"),
                 "outcome_scope": outcome_scope,
                 "supervised_ml_task": supervised_ml_task,
                 # R-005 column is named target_construct; value is the display group
@@ -602,9 +650,9 @@ def main(argv: list[str] | None = None) -> None:
             --canonical-dir data/pulled/notion/learning_analytics_review \\
             --output-dir    data/analysis_outputs/la_review/tables
 
-    Writes three artefacts to ``--output-dir``:
-      * ``table_3_counts.xlsx``   — 5-sheet workbook
-      * ``table_3_detail.csv``    — per-contribution classified rows
+    Writes two artefacts to ``--output-dir`` (d-041):
+      * ``table_3_counts.xlsx``   — 5-sheet workbook (detail is the
+                                    ``table_3_detail`` sheet)
       * ``table_3_preview.md``    — Markdown render of the counts table
     """
     parser = argparse.ArgumentParser(
@@ -660,18 +708,15 @@ def main(argv: list[str] | None = None) -> None:
     overrides_rows = _load_manual_overrides(overrides_path)
     term_dict_rows = _load_term_dictionary()
 
-    # --- Write artefacts ---
+    # --- Write artefacts (d-041: single workbook + markdown; detail lives in the
+    # table_3_detail sheet, so the redundant standalone CSV is no longer written) ---
     xlsx_path = output_dir / "table_3_counts.xlsx"
-    csv_path = output_dir / "table_3_detail.csv"
     md_path = output_dir / "table_3_preview.md"
 
     _write_workbook(
         xlsx_path, counts_df, detail_df, audit_df, overrides_rows, term_dict_rows
     )
     print(f"  Wrote workbook: {xlsx_path}", file=sys.stderr)
-
-    detail_df.to_csv(csv_path, index=False)
-    print(f"  Wrote detail CSV: {csv_path}", file=sys.stderr)
 
     md_text = _render_markdown(counts_df)
     md_path.write_text(md_text, encoding="utf-8")

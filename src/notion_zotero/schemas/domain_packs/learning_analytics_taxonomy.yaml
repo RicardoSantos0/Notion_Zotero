@@ -159,6 +159,9 @@ dimensions:
         "Performance" is polysemous.  Inspect the outcome variable: if it is a
         continuous score => grade_or_score; if it is a categorical pass/fail =>
         pass_fail_or_success_failure; if it is an at-risk label => at_risk_or_performance_tier.
+        Also set the orthogonal `outcome_horizon` (short_term/long_term by the
+        semester boundary) and `outcome_basis` (the per-level outcome definition)
+        dimensions to record WHEN the outcome materialises and WHAT it is.
       success: >
         "Student success" at course level = pass_fail_or_success_failure;
         at program level (retention, persistence) = retention_or_persistence.
@@ -174,6 +177,101 @@ dimensions:
       - term: "pass_fail_or_success_failure"
         example: "Binary classification: pass (1) vs fail (0) in a course"
         non_example: "Predicting GPA on a 0-4 scale"
+
+  # -------------------------------------------------------------------------
+  # outcome_horizon — short- vs long-term axis added 2026-06-24 (d-043).
+  #   Coarse horizon at which the predicted OUTCOME materialises, by the SEMESTER
+  #   boundary: short_term = within the current semester; long_term = anything that
+  #   spans beyond one semester.  Deterministic coarsening of outcome_scope.  Used
+  #   as a Table III COUNTS GROUPING COLUMN (restores the old manuscript Horizon
+  #   axis cleanly, distinct from prediction_timing = feature-extraction cutoff).
+  outcome_horizon:
+    definition: >
+      Short- vs long-term horizon of the predicted OUTCOME, by the semester
+      boundary (NOT the feature cutoff — that is prediction_timing).  short_term =
+      the outcome is realised within the current semester (a single assessment, a
+      course/module, or the term/semester itself).  long_term = the outcome spans
+      beyond one semester (program/degree progression, graduation, multi-year
+      retention, institution-level outcomes).
+    vocabulary:
+      - short_term   # within the current semester: assessment, course_or_module, term_or_semester, interaction_or_item
+      - long_term    # beyond one semester: program_or_degree, institution_or_system
+      - mixed        # genuinely spans both horizons (outcome_scope=mixed_or_multiple)
+      - unclear
+    notes: >
+      Anchored to outcome_scope (d-043): interaction_or_item / assessment /
+      course_or_module / term_or_semester => short_term; program_or_degree /
+      institution_or_system => long_term; mixed_or_multiple => mixed; unclear =>
+      unclear.  By design never routes a row to audit (deterministic from scope).
+
+  # -------------------------------------------------------------------------
+  # outcome_basis — unified outcome-definition dimension added 2026-06-24 (d-043).
+  #   The concrete DEFINITION of the predicted outcome, with level-appropriate
+  #   classes at the assessment, course, and program levels.  Supersedes the
+  #   grade-only score_basis: every level gets its own definition classes.
+  #   Orthogonal DETAIL dimension (table_3_detail sheet), not a counts grouping
+  #   column; never routes a row to audit on its own.
+  outcome_basis:
+    definition: >
+      The concrete definition of the predicted outcome, refined per horizon level.
+      Assessment level: a single assessment's grade or pass/fail.  Course level:
+      the course final grade, course pass/fail, a binned performance tier (NOT a
+      real grade), or course completion/dropout.  Program level: graduation/degree
+      completion, program dropout/withdrawal, retention/persistence, time-to-degree,
+      or cumulative GPA.  not_applicable for constructs with no grade/completion
+      definition (e.g. next-interaction correctness, submission timing); unclear
+      when the definition cannot be determined.
+    vocabulary:
+      - assessment_grade               # grade/score of a single assessment (exam, quiz, test, assignment)
+      - assessment_pass_fail           # pass/fail of a single assessment
+      - course_final_grade             # aggregate end-of-course / module grade or final mark
+      - course_pass_fail               # pass/fail / success-failure at course level
+      - performance_tier               # binned categorical tier (high/medium/low, top/bottom %) — NOT a real grade
+      - course_completion_or_dropout   # completing vs dropping a course/module (incl. MOOC)
+      - graduation_or_degree_completion  # graduating / completing a degree or program
+      - program_dropout_or_withdrawal  # leaving the institution/program (long-term dropout)
+      - retention_or_persistence       # continuing enrolment / persisting across terms
+      - time_to_degree                 # time/years to degree or completion
+      - cumulative_gpa                 # cumulative / end-of-program GPA or standing
+      - program_milestone_exam         # national/licensing/board or qualifying exam embedded in a program (e.g. CMBSE)
+      - not_applicable                 # construct has no grade/completion definition
+      - unclear                        # outcome predicted but definition undeterminable
+    disambiguation:
+      assessment_vs_course: >
+        assessment_grade/assessment_pass_fail apply when outcome_scope=assessment
+        (a single assessment event).  course_final_grade/course_pass_fail apply at
+        course/module level.  performance_tier (binned tier) is NOT a real grade and
+        is distinct from at-risk framing (at-risk is a risk_framing).
+      completion_dropout_level: >
+        course_completion_or_dropout = completing/dropping a single course/module
+        (most MOOC dropout).  program_dropout_or_withdrawal /
+        graduation_or_degree_completion are the LONG-TERM (beyond-semester)
+        counterparts at program/degree level.  Anchor to outcome_scope + horizon.
+      program_milestone_exam: >
+        A national/licensing/board or qualifying examination that gates progression
+        within a program (e.g. CMBSE national clinical board exam, a comprehensive
+        or qualifying exam) is program_milestone_exam — it is NOT a course grade
+        (course_final_grade) nor an institutional pass/fail; it is a program-level
+        milestone assessment. Use when scope is program_or_degree and the outcome is
+        such an exam.
+      not_applicable: >
+        Use not_applicable for constructs with no grade/completion definition:
+        next_interaction_correctness, submission_timing_or_delay,
+        learning_gain_or_skill_mastery, enrolment_or_course_selection.
+    examples:
+      - term: "assessment_grade"
+        example: "Predicting a single final exam score (0-100)"
+        non_example: "Predicting the aggregate course final grade"
+      - term: "course_final_grade"
+        example: "Predicting the end-of-course grade (A-F / 0-20)"
+        non_example: "Predicting graduation within expected time"
+      - term: "program_dropout_or_withdrawal"
+        example: "Predicting institutional dropout across the degree program"
+        non_example: "Predicting dropout from a single MOOC course"
+    notes: >
+      Supersedes score_basis (d-043).  Orthogonal detail dimension; does NOT alter
+      count totals and is NOT a counts grouping column (outcome_horizon is).  By
+      design never routes a row to audit on its own.
 
   # -------------------------------------------------------------------------
   prediction_timing:

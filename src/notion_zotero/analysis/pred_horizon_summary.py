@@ -872,6 +872,29 @@ _VOCAB: dict[str, list[str]] = {
     "evidence_quality": ["high", "medium", "low"],
     "cv_design": ["random_fold", "temporal_or_prospective", "unclear"],
     "context_type": ["HEI", "MOOC", "ITS", "mixed", "unclear"],
+    "outcome_horizon": ["short_term", "long_term", "mixed", "unclear"],
+    "outcome_basis": [
+        "assessment_grade", "assessment_pass_fail",
+        "course_final_grade", "course_pass_fail", "performance_tier",
+        "course_completion_or_dropout",
+        "graduation_or_degree_completion", "program_dropout_or_withdrawal",
+        "retention_or_persistence", "time_to_degree", "cumulative_gpa",
+        "program_milestone_exam",
+        "not_applicable", "unclear",
+    ],
+}
+
+# Mapping outcome_scope -> outcome_horizon by the semester boundary (d-043):
+# within current semester => short_term; beyond one semester => long_term.
+_HORIZON_BY_SCOPE = {
+    "interaction_or_item": "short_term",
+    "assessment": "short_term",
+    "course_or_module": "short_term",
+    "term_or_semester": "short_term",
+    "program_or_degree": "long_term",
+    "institution_or_system": "long_term",
+    "mixed_or_multiple": "mixed",
+    "unclear": "unclear",
 }
 
 # --- Field-alias helpers ---
@@ -967,7 +990,7 @@ def _classify_context_type(row: Mapping[str, Any]) -> dict[str, Any]:
     hei_pats = [
         r"higher\s*education", r"\buniversity\b", r"\bcollege\b",
         r"undergraduate", r"\bhei\b", r"degree\s*program",
-        r"social\s*networks\s*in\s*higher", r"subscription.based",
+        r"social\s*networks\s*in\s*higher",
     ]
 
     hits: list[str] = []
@@ -988,12 +1011,20 @@ def _classify_context_type(row: Mapping[str, Any]) -> dict[str, Any]:
 
 
 def _classify_outcome_scope(row: Mapping[str, Any], ctx_label: str) -> dict[str, Any]:
-    """Hybrid: rules on raw_evidence + MOOC-dropout disambiguation rule."""
+    """Hybrid: rules on raw_evidence + MOOC-dropout disambiguation rule.
+
+    Consults the exported "Learner Population" description (d-043 review) to
+    disambiguate institutional/program-level dropout from course-level dropout.
+    """
     spd = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
     tgt = _get_field(row, "raw_target", "Target")
     ev = _get_field(row, "raw_evidence")
     moment = _get_field(row, "raw_moment_of_prediction", "Moment of Prediction")
     combined = _text(spd, tgt, ev)
+    # Exported Notion descriptions — high-signal for HEI/program vs course scope.
+    lp = _get_field(row, "raw_learner_population", "Learner Population")
+    sample = _get_field(row, "raw_sample_setting")
+    desc = _text(lp, sample)
 
     # Interaction/item level — must check before course patterns
     if _any_match([
@@ -1019,6 +1050,7 @@ def _classify_outcome_scope(row: Mapping[str, Any], ctx_label: str) -> dict[str,
         r"graduat", r"\bdegree\b", r"retention", r"persist",
         r"years?\s*to\s*(degree|graduat|complet)", r"time\s*to\s*degree",
         r"program(me)?\s*(complet|level|outcome)",
+        r"end\s*of\s*program(me)?",
         r"first.?year\s*(student|retention|survival)",
         r"dropout.*program|program.*dropout",
     ]
@@ -1042,6 +1074,25 @@ def _classify_outcome_scope(row: Mapping[str, Any], ctx_label: str) -> dict[str,
     if _any_match([r"semester\s*gpa", r"term\s*gpa", r"end.of.semester\s*gpa"], combined):
         return _ok("term_or_semester", "high", f"semester GPA signal in '{combined[:80]}'")
 
+    # Program-level dropout/withdrawal disambiguation (d-043 review): institutional /
+    # degree dropout is LONG-TERM and must be caught BEFORE the bare-dropout course
+    # rule below (which would otherwise force course_or_module). Uses the exported
+    # "Learner Population" description + program-level moment signals. MOOC/course-
+    # explicit dropout is excluded and stays course_or_module.
+    if _any_match([r"dropout", r"drop.out", r"withdraw", r"attrition",
+                   r"not\s*(re)?registr", r"not\s*continu"], combined) \
+            and ctx_label != "MOOC" \
+            and not _any_match([r"course\s*dropout", r"\bmooc\b"], _text(combined, desc)):
+        _prog_signal = moment_prog or _any_match([
+            r"\bdegree\b", r"\bprogram(me)?\b", r"institution",
+            r"first.?year", r"second.?year", r"third.?year", r"\d(st|nd|rd|th)\s*year",
+            r"undergraduate", r"freshman", r"retention", r"persist",
+        ], _text(combined, desc, moment))
+        if _prog_signal:
+            return _ok("program_or_degree", "high",
+                       "institutional/program dropout (learner_population/moment) -> "
+                       f"program_or_degree; lp='{lp[:60]}' moment='{moment[:40]}'")
+
     # Course-level patterns
     course_pats = [
         r"course\s*(grade|pass|fail|score|performance|complet|dropout)",
@@ -1059,7 +1110,7 @@ def _classify_outcome_scope(row: Mapping[str, Any], ctx_label: str) -> dict[str,
                    f"program-level timing/signal in moment='{moment}' or text")
 
     # Generic grade/score without course or program context
-    if _any_match([r"\bgpa\b", r"\bcgpa\b", r"cumulative.*grade"], combined):
+    if _any_match([r"\bgpa\b", r"\bcgpa\b", r"grade\s*point\s*average", r"cumulative.*grade"], combined):
         return _ok("program_or_degree", "medium", "cumulative GPA signal -> likely program scope")
 
     if _any_match([r"\bgrade\b", r"\bscore\b", r"\bmark\b", r"performance"], combined):
@@ -1309,6 +1360,122 @@ def _classify_target_construct(row: Mapping[str, Any]) -> dict[str, Any]:
         return _ok("other_or_unclear", "low",
                    f"no recognizable target construct in '{combined[:80]}'")
     return _ok("other_or_unclear", "low", "evidence fields empty")
+
+
+def _classify_outcome_horizon(outcome_scope_label: str) -> dict[str, Any]:
+    """Short- vs long-term horizon of the predicted outcome, by the semester
+    boundary (d-043). Deterministic coarsening of outcome_scope: within the
+    current semester => short_term; beyond one semester => long_term.
+
+    Used as a Table III counts grouping column. Never routes to audit (it is a
+    deterministic function of outcome_scope).
+    """
+    label = _HORIZON_BY_SCOPE.get(outcome_scope_label, "unclear")
+    return _ok(label, "high",
+               f"semester-boundary horizon: outcome_scope='{outcome_scope_label}' -> {label}")
+
+
+def _classify_outcome_basis(
+    row: Mapping[str, Any],
+    target_construct_label: str,
+    outcome_scope_label: str,
+) -> dict[str, Any]:
+    """Unified outcome-definition dimension with level-appropriate classes (d-043).
+
+    Refines the predicted outcome into a concrete definition at the assessment,
+    course, or program level (supersedes the grade-only score_basis). ``unclear``
+    only for grade/completion-family rows whose definition cannot be determined;
+    ``not_applicable`` for constructs with no grade/completion definition.
+
+    By design NEVER returns ``confidence="low"`` and NEVER sets ``conflict_flag``
+    — an orthogonal detail annotation, so it does not change ``route_to_audit`` or
+    the Table III count totals (it surfaces in the table_3_detail sheet).
+    """
+    spd = _get_field(row, "raw_student_performance_definition", "Student Performance Definition")
+    tgt = _get_field(row, "raw_target", "Target")
+    ev = _get_field(row, "raw_evidence")
+    combined = _text(spd, tgt, ev)
+    is_assessment = outcome_scope_label == "assessment"
+    is_program = outcome_scope_label in ("program_or_degree", "institution_or_system")
+
+    tc = target_construct_label
+
+    # National/licensing/board or qualifying milestone exam embedded in a program
+    # (e.g. CMBSE) — a program-level milestone, not a course grade (d-046).
+    if _any_match([
+        r"\bcmbse\b", r"board\s*(skill\s*)?exam", r"licens(ing|ure)\s*exam",
+        r"national\s*\w{0,15}\s*exam", r"qualifying\s*exam", r"comprehensive\s*exam",
+        r"licensing\s*board",
+    ], combined):
+        return _ok("program_milestone_exam", "high",
+                   f"national/licensing/board milestone exam in '{combined[:80]}'")
+
+    # --- Grade/score family ---
+    if tc == "grade_or_score":
+        tier_pats = [
+            r"performance\s*(tier|level|group|cluster|category|band)",
+            r"(low|high|medium|mid).?perform\w*\s+student",
+            r"top\s*\d+\s*%", r"bottom\s*\d+\s*%",
+            r"(above|below)\s*(the\s*)?(median|mean|average)",
+            r"\btier\b", r"\bquartile\b", r"percentile\s*(rank|group)",
+            r"(high|medium|low)\s*/\s*(high|medium|low)",
+        ]
+        if _any_match(tier_pats, combined):
+            return _ok("performance_tier", "high",
+                       f"binned performance tier (not a real grade) in '{combined[:80]}'")
+        if is_assessment:
+            return _ok("assessment_grade", "high",
+                       f"assessment-level grade in '{combined[:80]}'")
+        return _ok("course_final_grade", "high",
+                   f"course-level grade in '{combined[:80]}'")
+
+    if tc == "at_risk_or_performance_tier":
+        return _ok("performance_tier", "high",
+                   f"performance tier (not a real grade) in '{combined[:80]}'")
+
+    # --- Pass/fail family ---
+    if tc == "pass_fail_or_success_failure":
+        if is_assessment:
+            return _ok("assessment_pass_fail", "high",
+                       f"assessment-level pass/fail in '{combined[:80]}'")
+        return _ok("course_pass_fail", "high",
+                   f"course-level pass/fail in '{combined[:80]}'")
+
+    # --- Completion / dropout (course vs program by horizon) ---
+    if tc == "dropout_or_withdrawal":
+        if is_program:
+            return _ok("program_dropout_or_withdrawal", "high",
+                       f"program/institution dropout in '{combined[:80]}'")
+        return _ok("course_completion_or_dropout", "high",
+                   f"course-level dropout in '{combined[:80]}'")
+    if tc == "completion_or_certification":
+        if is_program:
+            return _ok("graduation_or_degree_completion", "high",
+                       f"program completion/certification in '{combined[:80]}'")
+        return _ok("course_completion_or_dropout", "high",
+                   f"course completion/certification in '{combined[:80]}'")
+
+    # --- Program-level constructs (near 1:1 with target_construct) ---
+    if tc == "graduation_or_degree_completion":
+        return _ok("graduation_or_degree_completion", "high",
+                   f"graduation/degree completion in '{combined[:80]}'")
+    if tc == "retention_or_persistence":
+        return _ok("retention_or_persistence", "high",
+                   f"retention/persistence in '{combined[:80]}'")
+    if tc == "time_to_completion":
+        return _ok("time_to_degree", "high", f"time-to-degree in '{combined[:80]}'")
+    if tc == "gpa_or_cumulative_performance":
+        return _ok("cumulative_gpa", "high", f"cumulative GPA / standing in '{combined[:80]}'")
+
+    # --- Constructs with no grade/completion definition ---
+    if tc in ("next_interaction_correctness", "submission_timing_or_delay",
+              "learning_gain_or_skill_mastery", "enrolment_or_course_selection"):
+        return _ok("not_applicable", "high",
+                   f"target_construct='{tc}' has no grade/completion definition")
+
+    # --- Unclear / other target construct ---
+    return _ok("unclear", "medium",
+               f"outcome definition undeterminable for target_construct='{tc}'")
 
 
 def _classify_prediction_timing(row: Mapping[str, Any]) -> dict[str, Any]:
@@ -1966,11 +2133,25 @@ def classify_contribution(row: Mapping[str, Any]) -> dict[str, Any]:
                 f"({_spd_guard!r} | {_tgt_guard!r})"
             )
 
+    # outcome_horizon + outcome_basis (d-043): computed from the FINAL
+    # target_construct + outcome_scope labels (after the consistency guard above).
+    # outcome_horizon is a deterministic coarsening of outcome_scope (counts column);
+    # outcome_basis is an orthogonal detail annotation. Neither routes to audit, so
+    # neither perturbs Table III count totals.
+    outcome_horizon_result = _classify_outcome_horizon(outcome_scope_result.get("label", ""))
+    outcome_basis_result = _classify_outcome_basis(
+        row,
+        target_construct_result.get("label", ""),
+        outcome_scope_result.get("label", ""),
+    )
+
     result: dict[str, Any] = {
         "supervised_ml_task": supervised_ml_task_result,
         "outcome_scope": outcome_scope_result,
         "unit_of_analysis": unit_result,
         "target_construct": target_construct_result,
+        "outcome_horizon": outcome_horizon_result,
+        "outcome_basis": outcome_basis_result,
         "prediction_timing": prediction_timing_result,
         "actionability_status": actionability_result,
         "risk_framing": risk_framing_result,
@@ -2049,15 +2230,17 @@ def run_taxonomy_classification_pipeline(
                         _wn = "; ".join(str(x) for x in _wn)
                     else:
                         _wn = str(_wn)
-                    if _deployed:
-                        _canonical_deploy[_pid] = (_deployed, _wn)
+                    _lp = str(_dp.get("Learner Population") or "").strip()
+                    if _deployed or _lp:
+                        _canonical_deploy[_pid] = (_deployed, _wn, _lp)
             except Exception:
                 pass  # Silently skip malformed JSON — do not crash the pipeline
 
     # Ensure classification columns are object dtype so we can write string labels
     _write_cols = [
         "supervised_ml_task", "outcome_scope", "unit_of_analysis",
-        "target_construct", "prediction_timing", "actionability_status",
+        "target_construct", "outcome_horizon", "outcome_basis",
+        "prediction_timing", "actionability_status",
         "risk_framing", "evidence_quality", "cv_design", "context_type",
         "classification_confidence", "classification_notes", "manual_override_applied",
     ]
@@ -2089,7 +2272,8 @@ def run_taxonomy_classification_pipeline(
 
     dims = [
         "supervised_ml_task", "outcome_scope", "unit_of_analysis",
-        "target_construct", "prediction_timing", "actionability_status",
+        "target_construct", "outcome_horizon", "outcome_basis",
+        "prediction_timing", "actionability_status",
         "risk_framing", "evidence_quality", "cv_design", "context_type",
     ]
 
@@ -2108,9 +2292,11 @@ def run_taxonomy_classification_pipeline(
         # _classify_actionability_status can see it via _get_field().
         _pid_for_deploy = str(row.get("paper_id", "")).strip()
         if _pid_for_deploy in _canonical_deploy:
-            _dep_val, _wn_val = _canonical_deploy[_pid_for_deploy]
+            _dep_val, _wn_val, _lp_val = _canonical_deploy[_pid_for_deploy]
             row.setdefault("raw_deployed_deployable", _dep_val)
             row.setdefault("raw_work_nature", _wn_val)
+            if _lp_val:
+                row.setdefault("raw_learner_population", _lp_val)
         classification = classify_contribution(row)
 
         # Apply manual overrides

@@ -28,11 +28,13 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 def test_cli_produces_expected_outputs(tmp_path):
-    """pred-problem-table CLI must produce table_3_counts.xlsx, table_3_detail.csv,
-    and table_3_preview.md when run against fixture canonicals.
+    """pred-problem-table CLI must produce a single table_3_counts.xlsx workbook
+    (all relevant sheets, incl. per-contribution detail) and table_3_preview.md
+    when run against fixture canonicals.
 
     Spec: test-R-005-001
-    Requirement: R-005
+    Requirement: R-005 (consolidated outputs per d-041: one workbook + markdown;
+    the redundant standalone table_3_detail.csv is no longer written)
     Evidence command: pytest tests/test_predictive_problem_table.py::test_cli_produces_expected_outputs
 
     CLI framework: argparse (verified from pyproject.toml).
@@ -59,18 +61,22 @@ def test_cli_produces_expected_outputs(tmp_path):
         "--output-dir", str(output_dir),
     ])
 
-    # Assert expected outputs exist and are non-empty
+    # Assert expected outputs exist and are non-empty (d-041: workbook + markdown only)
     counts_xlsx = output_dir / "table_3_counts.xlsx"
-    detail_csv = output_dir / "table_3_detail.csv"
     preview_md = output_dir / "table_3_preview.md"
 
     assert counts_xlsx.exists(), f"table_3_counts.xlsx not produced at {counts_xlsx}"
-    assert detail_csv.exists(), f"table_3_detail.csv not produced at {detail_csv}"
     assert preview_md.exists(), f"table_3_preview.md not produced at {preview_md}"
+
+    # The redundant standalone detail CSV must NOT be written (consolidated into the
+    # table_3_detail workbook sheet — d-041).
+    assert not (output_dir / "table_3_detail.csv").exists(), (
+        "table_3_detail.csv should no longer be written; detail lives in the "
+        "table_3_detail workbook sheet (d-041)"
+    )
 
     # Non-empty checks
     assert counts_xlsx.stat().st_size > 0, "table_3_counts.xlsx is empty"
-    assert detail_csv.stat().st_size > 0, "table_3_detail.csv is empty"
     assert preview_md.stat().st_size > 0, "table_3_preview.md is empty"
 
     # Workbook must have 5 required sheets

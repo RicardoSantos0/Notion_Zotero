@@ -35,7 +35,7 @@
 taxonomy_version_stamp: "1.1"
 review_id: la_student_success_review
 maintainer: Ricardo Santos
-last_updated: "2026-06-07"
+last_updated: "2026-06-25"
 
 overrides:
   # Example entry (illustrative; not a real paper):
@@ -51,6 +51,197 @@ overrides:
     reviewer: "RS"
     date: "2026-06-07"
     supersedes: "completion_or_certification"
+
+  # ---- RATIFIED overrides (d-044/d-045 Table III match review — R-017 gate cleared) ----
+  # Description-grounded corrections from the nlp_taxonomy_specialist Table III match
+  # review (docs/la_review_table3_match_review.md), user-ratified 2026-06-25. The
+  # systematic A2 GPA-scope case was fixed in the classifier; these 10 remain as
+  # per-paper overrides (precise, no false-positive risk). Evidence cites the exported
+  # Notion fields (Learner Population / Courses / Students / Moment).
+
+  # A1 — "End of Program Passing Mark (A to E)" is a program letter grade, not a GPA.
+  - contribution_id: a0145cb84df3949c
+    paper_id: 29721fe7-4dd2-4c0f-91e7-125e0e906b16
+    field: target_construct
+    value: grade_or_score
+    rationale: "Target='End of Program Passing Mark (A to E)' — categorical letter grade for an IT degree program, not a GPA. The 'end of program mark'->GPA rule misfires on this A-E scale."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "gpa_or_cumulative_performance"
+  - contribution_id: a0145cb84df3949c
+    paper_id: 29721fe7-4dd2-4c0f-91e7-125e0e906b16
+    field: outcome_basis
+    value: graduation_or_degree_completion
+    rationale: "Program-level final mark (A-E) at end of a 4-year IT degree is the graduation outcome, not cumulative GPA. Courses='1 Information Technology Program'; Moment='End of Year 2 (out of 4)'."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "cumulative_gpa"
+
+  # B1 — "Failing in a Program"; Courses='Not Applicable'; 20k HEI undergraduates.
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_scope
+    value: program_or_degree
+    rationale: "SPD='Failing in a Program'; Courses='Not Applicable'; 20,000 HEI undergraduates of Xi'an Jiaotong University. No course context — program-level academic standing."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_horizon
+    value: long_term
+    rationale: "Derived from outcome_scope=program_or_degree (beyond one semester)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_basis
+    value: unclear
+    rationale: "Each-term pass/fail standing within a degree program maps to no single outcome_basis term; flagged for adjudication (closest is graduation_or_degree_completion but not identical)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
+
+  # D1/D2 — CMBSE national clinical board exam (not a course) within a medical degree.
+  - contribution_id: a53ebc9f8d40f38d
+    paper_id: 61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6
+    field: outcome_basis
+    value: program_milestone_exam
+    rationale: "CMBSE is a national board skill examination (pass/fail, end of Year 2 of a 6-year medical degree) — a program-level milestone exam (new term d-046), not a course pass/fail."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
+  - contribution_id: fd4991e33d043288
+    paper_id: 61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6
+    field: outcome_basis
+    value: program_milestone_exam
+    rationale: "CMBSE normalized score; same national-board rationale as D1 — a program milestone exam (d-046), not a course final grade."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_final_grade"
+
+  # E1 — OU Analyse: "at risk of failing at next assessment" -> assessment level.
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_scope
+    value: assessment
+    rationale: "SPD='Being at risk of failing at NEXT ASSESSMENT'; Courses='2 anonymized courses'. Each weekly checkpoint predicts risk at the next assessment event — assessment-level."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=assessment (within one semester)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_basis
+    value: assessment_pass_fail
+    rationale: "Target='Not at Risk (0) vs At Risk (1)' at assessment level = binary pass/fail of a single assessment."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
+
+  # E2/E3 — "in a Course" framing (course-agnostic early prediction); course level.
+  - contribution_id: be389a0e9065de1b
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Being at Risk of Failing IN A COURSE'; Moment='10%/25%/33%/50% course duration' — course-level outcome."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: be389a0e9065de1b
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 28cbeac0a70c3f51
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Being a High-Performing Student IN A COURSE' — explicit course framing (same paper as E2)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 28cbeac0a70c3f51
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+
+  # E4 — "passing the course in a specific week"; course level.
+  - contribution_id: da5cc80d6097306f
+    paper_id: 36ea3b09-b94e-4f7a-9111-88e5f537a16a
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='PASSING THE COURSE in a specific week'; Students='234 in Northern Taiwan'; Moment='Every week' — within-course monitoring."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: da5cc80d6097306f
+    paper_id: 36ea3b09-b94e-4f7a-9111-88e5f537a16a
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+
+  # E5 — "Grades (Weekly or Final)" within a single collaborative-learning course.
+  - contribution_id: 3a7822a4e1b6108f
+    paper_id: 733c47cf-06d8-4c42-a69e-307851501b00
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Grades (Weekly or Final)' for a 16-week collaborative learning course; 75 graduate students. Course-level grade."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 3a7822a4e1b6108f
+    paper_id: 733c47cf-06d8-4c42-a69e-307851501b00
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+
+  # E6 — "Post-Test Scores" after a game-based learning session = single assessment.
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_scope
+    value: assessment
+    rationale: "SPD='Post-Test Scores'; Moment='Before Post-Test' — a single assessment event after a game-based session, not a course aggregate."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=assessment."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_basis
+    value: assessment_grade
+    rationale: "Target='High (1) vs Low (0)' on post-test = binned assessment grade; course_final_grade is wrong (not a course aggregate)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_final_grade"
 
   # ---- PROPOSED overrides (T3.3 WP2 audit recovery — R-017 human gate required) ----
   # These entries were generated automatically by the NLP Taxonomy Specialist (T3.3)
