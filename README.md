@@ -31,6 +31,11 @@ ZOTERO_LIBRARY_ID=...           # your Zotero user ID (see zotero.org/settings/k
 
 ## Workflows
 
+> **Daily review-first MVP loop:** see [docs/mvp_reference_workflow.md](docs/mvp_reference_workflow.md)
+> for the end-to-end `pull → health → plan → review → apply → recover` workflow,
+> including the `mvp-health` and `replay-log` commands and the dry-run / sync-lock /
+> write-log safety model.
+
 ### 1 — Pull live data from Notion and Zotero
 
 Fetch all pages/items from the live APIs and save them as canonical bundles under `data/pulled/`.
@@ -268,7 +273,9 @@ Legacy scripts have been archived to `archive/Notion_Zotero-legacy/` — use `to
 | `plan-sync` | `data/pulled/notion/learning_analytics_review` + `data/pulled/zotero` → `data/sync_plans/sync_plan.json` | Build a read-only review plan before synchronization |
 | `review-plan` | `data/sync_plans/sync_plan.json` → `data/sync_plans/sync_plan_review.md` | Write a Markdown review report for a sync plan |
 | `apply-plan` | `data/sync_plans/sync_plan.json` | Dry-run or apply reviewed sync-plan operations |
+| `mvp-health` | `data/pulled/notion/learning_analytics_review` → `data/sync_plans/mvp_health.{json,md}` | Reference-health report: completeness, duplicates, source-only, create outcomes, unresolved actions |
 | `rollback-plan` | `logs/write_logs` → `data/sync_plans/rollback_plan.json` | Build a review-only rollback plan from applied Notion write logs |
+| `replay-log` | `logs/write_logs` | List (or, with `--apply`, re-drive under the sync lock) planned/failed write-log entries |
 | `report-by-year` | `data/pulled/notion/learning_analytics_review` | Reference counts by publication year |
 | `report-by-journal` | `data/pulled/notion/learning_analytics_review` | Reference counts by journal/venue |
 | `report-doi-coverage` | `data/pulled/notion/learning_analytics_review` | DOI coverage rate across bundles |
@@ -450,3 +457,4 @@ Set in `.env` (loaded automatically) or as shell environment variables. Use `--d
 - `tests/fixtures/` is tracked git — it holds curated test data, not live working data.
 - See [docs/cli.md](docs/cli.md) for full subcommand option reference.
 - See [docs/modes.md](docs/modes.md) for detailed workflow guidance.
+- See [docs/mvp_reference_workflow.md](docs/mvp_reference_workflow.md) for the daily review-first MVP loop.

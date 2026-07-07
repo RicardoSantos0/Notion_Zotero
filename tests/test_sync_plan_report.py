@@ -82,6 +82,30 @@ def test_render_sync_plan_markdown_contains_review_sections():
     assert "Only Notion" in markdown
 
 
+def test_render_groups_actions_by_what_human_must_do():
+    """M3/T3.1: an Action Summary groups the plan by required human action."""
+    from notion_zotero.services.sync_plan_report import render_sync_plan_markdown
+
+    plan = _plan()
+    plan["review_actions"].append(
+        {
+            "operation": "create_notion_page_from_zotero_record",
+            "status": "approved",
+            "zotero_key": "ZOT2",
+            "title": "Approved Create",
+            "reason": "zotero_record_missing_from_notion",
+        }
+    )
+    markdown = render_sync_plan_markdown(plan)
+
+    assert "## Action Summary" in markdown
+    # grouped, human-readable action language
+    assert "Update Notion field" in markdown
+    assert "Create Notion page (approved)" in markdown
+    assert "Needs review" in markdown
+    assert "Resolve ambiguous match" in markdown
+
+
 def test_write_sync_plan_report_from_file(tmp_path):
     from notion_zotero.services.sync_plan_report import write_sync_plan_report_from_file
 

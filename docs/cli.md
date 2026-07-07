@@ -11,6 +11,9 @@ On the Windows/OneDrive development path, prefer `python -m notion_zotero.cli`
 and `python -m pytest`; this avoids PATH shims that may point at a different
 Python environment.
 
+For the end-to-end daily loop (`pull → health → plan → review → apply → recover`)
+see [mvp_reference_workflow.md](mvp_reference_workflow.md).
+
 ## Project Config
 
 Most path and policy defaults can be supplied from a JSON config:
@@ -113,6 +116,35 @@ Zotero-only page creation is opt-in. Edit selected
 `needs_review` to `approved`, then pass `--include-reviewed-creates` with a
 database ID. Approved creates are duplicate-checked against current Notion page
 titles before writing.
+
+### `mvp-health`
+Produce a read-only reference-health report (JSON + Markdown) for the daily
+review-first loop.
+
+```bash
+notion-zotero mvp-health
+notion-zotero mvp-health --input data/pulled/notion/learning_analytics_review \
+  --plan data/sync_plans/sync_plan.json \
+  --review-report data/sync_plans/sync_plan_review.md
+```
+
+The report covers metadata completeness, duplicate candidates, source-only
+records, snapshot age, and planned/failed writes. When `--plan` is present it
+also summarizes reviewed-create outcomes (approved / applied / failed /
+duplicate-blocked) and references the latest review report plus major unresolved
+actions (ambiguous matches, creates needing review). Writes
+`data/sync_plans/mvp_health.json` and `.md`. No network access.
+
+### `replay-log`
+Re-drive write-log entries left `planned` or `failed`. Dry-run by default.
+
+```bash
+notion-zotero replay-log
+notion-zotero replay-log --apply
+```
+
+Dry-run lists the replay candidates. `--apply` acquires the sync lock before any
+write; re-execution reuses the apply-plan writer path (requires `NOTION_API_KEY`).
 
 ### `rollback-plan`
 Build a non-mutating rollback plan from applied Notion write-log entries.

@@ -214,6 +214,9 @@ def build_contribution_rows(
         dp = sm.get("domain_properties", {}) if isinstance(sm, dict) else {}
         raw_deployed_deployable = _str(dp.get("Deployed/ Deployable", ""))
         raw_work_nature = _str(dp.get("Work Nature", ""))
+        # Paper-level "Learner Population" description (exported from Notion) —
+        # high-signal for HEI/program-vs-course scope disambiguation (d-043 review).
+        raw_learner_population = _str(dp.get("Learner Population", ""))
 
         # Find prediction_modeling extraction blocks
         for te in bundle.get("task_extractions", []):
@@ -274,6 +277,8 @@ def build_contribution_rows(
                     # Paper-level domain properties (actionability classifier)
                     "raw_deployed_deployable": raw_deployed_deployable,
                     "raw_work_nature": raw_work_nature,
+                    # Paper-level learner population (scope disambiguation)
+                    "raw_learner_population": raw_learner_population,
                     # Synthesised for test-R-003-001
                     "raw_evidence": raw_evidence,
                     # T6.5 LLM overlay: primary-method LLM tag
@@ -335,6 +340,7 @@ CONTRIBUTION_ROW_COLUMNS: list[str] = [
     "raw_sample_setting",
     "raw_models",
     "raw_assessment_strategy",
+    "raw_learner_population",
     "raw_evidence",
     "llm_primary",
     *_TAXONOMY_PLACEHOLDER_COLS,

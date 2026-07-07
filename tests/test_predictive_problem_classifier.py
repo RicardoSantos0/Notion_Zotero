@@ -186,6 +186,96 @@ def test_additional_golden_input_classifications():
     )
 
 
+def test_outcome_horizon_semester_boundary():
+    """outcome_horizon (d-043): short_term = within current semester; long_term =
+    beyond one semester. Deterministic coarsening of outcome_scope.
+
+    Spec: test-R-005 (Table III horizon axis, reopen 2026-06-24)
+    Requirement: d-043
+    Evidence command: pytest tests/test_predictive_problem_classifier.py::test_outcome_horizon_semester_boundary
+    """
+    from notion_zotero.analysis.pred_horizon_summary import _classify_outcome_horizon
+
+    short = ["interaction_or_item", "assessment", "course_or_module", "term_or_semester"]
+    for scope in short:
+        assert _classify_outcome_horizon(scope)["label"] == "short_term", (
+            f"{scope!r} is within one semester -> expected short_term"
+        )
+    for scope in ("program_or_degree", "institution_or_system"):
+        assert _classify_outcome_horizon(scope)["label"] == "long_term", (
+            f"{scope!r} spans beyond one semester -> expected long_term"
+        )
+    assert _classify_outcome_horizon("mixed_or_multiple")["label"] == "mixed"
+    assert _classify_outcome_horizon("unclear")["label"] == "unclear"
+
+
+def test_outcome_basis_classification():
+    """outcome_basis (d-043): unified outcome-definition dimension with
+    level-appropriate classes (supersedes score_basis). Assessment, course, and
+    program levels each get their own definition classes.
+
+    Spec: test-R-005 (Table III granularity, reopen 2026-06-24)
+    Requirement: d-043
+    Evidence command: pytest tests/test_predictive_problem_classifier.py::test_outcome_basis_classification
+    """
+    from notion_zotero.analysis.pred_horizon_summary import _classify_outcome_basis
+
+    cases = [
+        # (target_construct, outcome_scope, evidence) -> expected outcome_basis
+        ("grade_or_score", "assessment", "final exam score", "assessment_grade"),
+        ("grade_or_score", "course_or_module", "final course grade", "course_final_grade"),
+        ("grade_or_score", "course_or_module",
+         "high/medium/low performance tier", "performance_tier"),
+        ("at_risk_or_performance_tier", "course_or_module", "risk tier", "performance_tier"),
+        ("pass_fail_or_success_failure", "assessment", "lab assessment success", "assessment_pass_fail"),
+        ("pass_fail_or_success_failure", "course_or_module", "pass vs fail", "course_pass_fail"),
+        ("dropout_or_withdrawal", "course_or_module", "MOOC dropout", "course_completion_or_dropout"),
+        ("dropout_or_withdrawal", "program_or_degree", "institutional dropout",
+         "program_dropout_or_withdrawal"),
+        ("completion_or_certification", "program_or_degree", "degree completion",
+         "graduation_or_degree_completion"),
+        ("graduation_or_degree_completion", "program_or_degree", "graduation",
+         "graduation_or_degree_completion"),
+        ("gpa_or_cumulative_performance", "program_or_degree", "cumulative GPA", "cumulative_gpa"),
+        ("pass_fail_or_success_failure", "program_or_degree",
+         "CMBSE national board skill examination", "program_milestone_exam"),
+        ("time_to_completion", "program_or_degree", "years to degree", "time_to_degree"),
+        ("retention_or_persistence", "program_or_degree", "persistence", "retention_or_persistence"),
+        ("submission_timing_or_delay", "course_or_module", "submission delay", "not_applicable"),
+        ("next_interaction_correctness", "interaction_or_item", "next item", "not_applicable"),
+    ]
+    for tc, scope, ev, expected in cases:
+        res = _classify_outcome_basis({"raw_evidence": ev}, tc, scope)
+        assert {"label", "confidence", "evidence"} <= set(res), "outcome_basis missing schema keys"
+        # Annotation: never low confidence, never conflict_flag.
+        assert res["confidence"] in ("high", "medium"), (
+            f"({tc},{scope}): confidence={res['confidence']!r}; annotation must never be 'low'"
+        )
+        assert res.get("conflict_flag") is not True, "outcome_basis must never set conflict_flag"
+        assert res["label"] == expected, (
+            f"({tc}, {scope}, {ev!r}): outcome_basis={res['label']!r}; expected {expected!r}"
+        )
+
+
+def test_outcome_dims_present_end_to_end():
+    """classify_contribution must emit outcome_horizon + outcome_basis for every row."""
+    try:
+        from notion_zotero.analysis.pred_horizon_summary import classify_contribution  # type: ignore[import]
+    except ImportError:
+        from notion_zotero.analysis.education_learning_analytics import classify_contribution  # type: ignore[import]
+
+    res = classify_contribution({
+        "raw_evidence": "dropout from a MOOC predicted at week 3",
+        "Student Performance Definition": "dropout from a MOOC",
+        "Context": "MOOC",
+    })
+    for dim in ("outcome_horizon", "outcome_basis"):
+        assert dim in res, f"{dim} missing from classifier output"
+        assert res[dim]["confidence"] in ("high", "medium"), f"{dim} must never be 'low'"
+    assert res["outcome_horizon"]["label"] == "short_term", "MOOC course dropout is within-semester"
+    assert res["outcome_basis"]["label"] == "course_completion_or_dropout"
+
+
 # ---------------------------------------------------------------------------
 # test-R-004-002
 # ---------------------------------------------------------------------------

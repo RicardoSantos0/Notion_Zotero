@@ -35,7 +35,7 @@
 taxonomy_version_stamp: "1.1"
 review_id: la_student_success_review
 maintainer: Ricardo Santos
-last_updated: "2026-06-07"
+last_updated: "2026-06-25"
 
 overrides:
   # Example entry (illustrative; not a real paper):
@@ -52,134 +52,259 @@ overrides:
     date: "2026-06-07"
     supersedes: "completion_or_certification"
 
-  # ---- PROPOSED overrides (T3.3 WP2 audit recovery — R-017 human gate required) ----
-  # These entries were generated automatically by the NLP Taxonomy Specialist (T3.3)
-  # after reviewing the 81-row audit backlog. Each entry represents a genuinely
-  # ambiguous or absent moment-of-prediction that could not be resolved by the
-  # classifier alone. Human ratification is required before promoting to canonical.
-  # Status: PROPOSED / PENDING RATIFICATION.
+  # ---- RATIFIED overrides (d-044/d-045 Table III match review — R-017 gate cleared) ----
+  # Description-grounded corrections from the nlp_taxonomy_specialist Table III match
+  # review (docs/la_review_table3_match_review.md), user-ratified 2026-06-25. The
+  # systematic A2 GPA-scope case was fixed in the classifier; these 10 remain as
+  # per-paper overrides (precise, no false-positive risk). Evidence cites the exported
+  # Notion fields (Learner Population / Courses / Students / Moment).
 
-  # 1. target_construct conflict: "Degree Completion" (SPD) / "Dropout vs Promoted" (target)
-  #    Classifier correctly flags a conflict because SPD implies completion_or_certification
-  #    while raw_target "Dropout vs Promoted" implies dropout_or_withdrawal.
-  #    Human reviewer should read the methods section to determine which frame the
-  #    authors use: is the positive outcome "promoted" (completion frame) or is
-  #    "dropout" the primary outcome variable (withdrawal frame)?
-  #    PROPOSED: completion_or_certification if the study frames program progression
-  #    (Dropout=0 / Promoted=1 is the positive class), else dropout_or_withdrawal.
-  #    NOT self-promoted — requires human adjudication.
-  # - contribution_id: "645f28c54a961c62"
-  #   paper_id: "f4265890-7231-4ae2-9521-76858277c49f"
-  #   field: target_construct
-  #   value: completion_or_certification
-  #   rationale: >
-  #     PROPOSED (pending ratification): SPD is "Degree Completion"; target is
-  #     "Dropout vs Promoted". If "Promoted" is the positive class (student
-  #     completes / advances), this maps to completion_or_certification.
-  #     If "Dropout" is the primary target, override to dropout_or_withdrawal.
-  #     Reviewer must read the paper's outcome definition.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # A1 — "End of Program Passing Mark (A to E)" is a program letter grade, not a GPA.
+  - contribution_id: a0145cb84df3949c
+    paper_id: 29721fe7-4dd2-4c0f-91e7-125e0e906b16
+    field: target_construct
+    value: grade_or_score
+    rationale: "Target='End of Program Passing Mark (A to E)' — categorical letter grade for an IT degree program, not a GPA. The 'end of program mark'->GPA rule misfires on this A-E scale."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "gpa_or_cumulative_performance"
+  - contribution_id: a0145cb84df3949c
+    paper_id: 29721fe7-4dd2-4c0f-91e7-125e0e906b16
+    field: outcome_basis
+    value: graduation_or_degree_completion
+    rationale: "Program-level final mark (A-E) at end of a 4-year IT degree is the graduation outcome, not cumulative GPA. Courses='1 Information Technology Program'; Moment='End of Year 2 (out of 4)'."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "cumulative_gpa"
 
-  # 2. prediction_timing: "First half of course, predicting following-year GPA"
-  #    The moment is "first half of course" (= mid_course by percentage),
-  #    but the outcome is following-year GPA (program-scope).
-  #    Timing refers to feature-extraction cutoff (d-011) = mid_course.
-  # - contribution_id: "03f42abca0b0eb45"
-  #   paper_id: "6a683d55-58fa-45c4-bf37-6758b22969e4"
-  #   field: prediction_timing
-  #   value: mid_course
-  #   rationale: >
-  #     PROPOSED (pending ratification): "First half of course" unambiguously
-  #     anchors the feature-extraction cutoff (d-011) to mid_course. The target
-  #     is following-year GPA (program_or_degree scope), but timing anchors to
-  #     when features are extracted, not when the outcome is observed. This
-  #     matches the d-011 specification.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # B1 — "Failing in a Program"; Courses='Not Applicable'; 20k HEI undergraduates.
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_scope
+    value: program_or_degree
+    rationale: "SPD='Failing in a Program'; Courses='Not Applicable'; 20,000 HEI undergraduates of Xi'an Jiaotong University. No course context — program-level academic standing."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_horizon
+    value: long_term
+    rationale: "Derived from outcome_scope=program_or_degree (beyond one semester)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: d015627268c94ff9
+    paper_id: 5879579d-3795-42d7-885b-acaa80c0053a
+    field: outcome_basis
+    value: unclear
+    rationale: "Each-term pass/fail standing within a degree program maps to no single outcome_basis term; flagged for adjudication (closest is graduation_or_degree_completion but not identical)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
 
-  # 3. prediction_timing: "Previous Academic Performance"
-  #    This field describes the FEATURE TYPE used (prior grades), not a timing
-  #    moment. The actual prediction moment cannot be inferred from this phrase
-  #    alone — it could be start-of-term, at-admission, or another point.
-  #    Genuinely unclear; full-text review required.
-  # - contribution_id: "1489056920597c96"
-  #   paper_id: "83242ebd-f552-4708-967f-42d88411cd7f"
-  #   field: prediction_timing
-  #   value: unclear
-  #   rationale: >
-  #     PROPOSED (pending ratification): "Previous Academic Performance" describes
-  #     a feature type (prior GPA/grades), not a temporal prediction moment.
-  #     The actual feature-extraction cutoff cannot be determined without reading
-  #     the full methods section. Retaining unclear pending human full-text review.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # D1/D2 — CMBSE national clinical board exam (not a course) within a medical degree.
+  - contribution_id: a53ebc9f8d40f38d
+    paper_id: 61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6
+    field: outcome_basis
+    value: program_milestone_exam
+    rationale: "CMBSE is a national board skill examination (pass/fail, end of Year 2 of a 6-year medical degree) — a program-level milestone exam (new term d-046), not a course pass/fail."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
+  - contribution_id: fd4991e33d043288
+    paper_id: 61e06a72-fe56-4fd2-8ad2-e4e0cc6e5ad6
+    field: outcome_basis
+    value: program_milestone_exam
+    rationale: "CMBSE normalized score; same national-board rationale as D1 — a program milestone exam (d-046), not a course final grade."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_final_grade"
 
-  # 4. prediction_timing: nan (missing)
-  #    No moment of prediction reported. Genuinely unclear; full-text review needed.
-  # - contribution_id: "64399c1d0ebd51be"
-  #   paper_id: "b8980cd6-4334-49c2-9bc7-ed045cb2c055"
-  #   field: prediction_timing
-  #   value: unclear
-  #   rationale: >
-  #     PROPOSED (pending ratification): raw_moment_of_prediction is absent
-  #     (NaN). Cannot infer timing without reading the full paper. Retaining
-  #     unclear pending human full-text review.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # E1 — OU Analyse: "at risk of failing at next assessment" -> assessment level.
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_scope
+    value: assessment
+    rationale: "SPD='Being at risk of failing at NEXT ASSESSMENT'; Courses='2 anonymized courses'. Each weekly checkpoint predicts risk at the next assessment event — assessment-level."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=assessment (within one semester)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 8f8f0bc89f1f2f17
+    paper_id: 25f7dd82-2cea-4305-b8b9-6800598148aa
+    field: outcome_basis
+    value: assessment_pass_fail
+    rationale: "Target='Not at Risk (0) vs At Risk (1)' at assessment level = binary pass/fail of a single assessment."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_pass_fail"
 
-  # 5. prediction_timing: "After 5 LWA"
-  #    "LWA" is an unexplained acronym (possibly "Learning Week Activity" or similar).
-  #    Cannot safely map to a timing label without domain knowledge of the acronym.
-  #    Likely early_course if LWA = weekly activity (5 weeks), but this is uncertain.
-  # - contribution_id: "c1d32b79cef0c552"
-  #   paper_id: "c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54"
-  #   field: prediction_timing
-  #   value: early_course
-  #   rationale: >
-  #     PROPOSED (pending ratification): "After 5 LWA" — acronym "LWA" is not
-  #     defined in the extracted field. If LWA = weekly learning activity (most
-  #     plausible interpretation), then 5 LWA ~ 5 weeks = early_course. Requires
-  #     human verification of the acronym from the full paper.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # E2/E3 — "in a Course" framing (course-agnostic early prediction); course level.
+  - contribution_id: be389a0e9065de1b
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Being at Risk of Failing IN A COURSE'; Moment='10%/25%/33%/50% course duration' — course-level outcome."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: be389a0e9065de1b
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 28cbeac0a70c3f51
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Being a High-Performing Student IN A COURSE' — explicit course framing (same paper as E2)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 28cbeac0a70c3f51
+    paper_id: 533e5390-4458-4575-95f6-5d8eb5621a56
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
 
-  # 6. prediction_timing: "Period before marked assessment (unspecified)"
-  #    Explicitly flagged as unspecified by the data extractor. Cannot map to
-  #    a specific timing label. continuous_or_repeated is a possible mapping
-  #    if multiple assessments are involved, but "period before" implies a
-  #    single assessment — more likely early_course or mid_course.
-  # - contribution_id: "12b8a77ea06747a0"
-  #   paper_id: "ece953f5-d0e1-489d-9f71-0f4067699481"
-  #   field: prediction_timing
-  #   value: unclear
-  #   rationale: >
-  #     PROPOSED (pending ratification): "Period before marked assessment
-  #     (unspecified)" — explicitly flagged as unspecified. Cannot determine
-  #     when in the course timeline this falls without reading the full paper.
-  #     Retaining unclear pending human full-text review.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # E4 — "passing the course in a specific week"; course level.
+  - contribution_id: da5cc80d6097306f
+    paper_id: 36ea3b09-b94e-4f7a-9111-88e5f537a16a
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='PASSING THE COURSE in a specific week'; Students='234 in Northern Taiwan'; Moment='Every week' — within-course monitoring."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: da5cc80d6097306f
+    paper_id: 36ea3b09-b94e-4f7a-9111-88e5f537a16a
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
 
-  # 7. prediction_timing: "Not Applicable"
-  #    The data extractor marked this as N/A, suggesting the paper does not
-  #    report a specific prediction moment (e.g. a post-hoc analysis or
-  #    retrospective study where timing is not defined). Genuinely unclear.
-  # - contribution_id: "5e00fe53ac9ed148"
-  #   paper_id: "f37ad3f7-c989-49e9-b32e-445b72ce4460"
-  #   field: prediction_timing
-  #   value: unclear
-  #   rationale: >
-  #     PROPOSED (pending ratification): "Not Applicable" — paper apparently
-  #     does not define a specific feature-extraction cutoff. Could be a
-  #     retrospective analysis. Retaining unclear; human reviewer should check
-  #     if the paper defines any temporal scope for prediction.
-  #   reviewer: "PROPOSED-T3.3"
-  #   date: "2026-06-07"
-  #   supersedes: "unclear"
+  # E5 — "Grades (Weekly or Final)" within a single collaborative-learning course.
+  - contribution_id: 3a7822a4e1b6108f
+    paper_id: 733c47cf-06d8-4c42-a69e-307851501b00
+    field: outcome_scope
+    value: course_or_module
+    rationale: "SPD='Grades (Weekly or Final)' for a 16-week collaborative learning course; 75 graduate students. Course-level grade."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: 3a7822a4e1b6108f
+    paper_id: 733c47cf-06d8-4c42-a69e-307851501b00
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=course_or_module."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+
+  # E6 — "Post-Test Scores" after a game-based learning session = single assessment.
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_scope
+    value: assessment
+    rationale: "SPD='Post-Test Scores'; Moment='Before Post-Test' — a single assessment event after a game-based session, not a course aggregate."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_horizon
+    value: short_term
+    rationale: "Derived from outcome_scope=assessment."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "unclear"
+  - contribution_id: eb47a64ec3f00623
+    paper_id: f65a3a00-aed2-4175-87f3-48b65eced061
+    field: outcome_basis
+    value: assessment_grade
+    rationale: "Target='High (1) vs Low (0)' on post-test = binned assessment grade; course_final_grade is wrong (not a course aggregate)."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-25"
+    supersedes: "course_final_grade"
+
+  # ---- RATIFIED overrides (2026-06-26 — Notion-grounded timing/target adjudication) ----
+  # The 7 audit-recovery proposals (formerly PROPOSED/PENDING) were adjudicated against
+  # the Notion source pages (PRED summary tables + abstracts) on 2026-06-26. Five are
+  # resolved with evidence below; two (1489056920597c96, 5e00fe53ac9ed148) are confirmed
+  # to remain `unclear` (documented at the end of this block). These affect only
+  # prediction_timing (early/actionable) and one target label.
+
+  # A-T1. Butt et al. 2023 — "Dropout vs Promoted"; the paper's RQ1 is dropout prediction.
+  - contribution_id: 645f28c54a961c62
+    paper_id: f4265890-7231-4ae2-9521-76858277c49f
+    field: target_construct
+    value: dropout_or_withdrawal
+    rationale: "Notion PRED/abstract: RQ1='student at risk identification'; extraction note 'first being the prediction of dropout'; preprocessing selects departments with highest dropout rates. Classes 'Dropout vs Promoted' — dropout is the predicted outcome. Resolves the SPD('Degree Completion')/target conflict that left target_construct=unclear."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-26"
+    supersedes: "other_or_unclear"
+
+  # A-T2. Towards Accurate & Fair Prediction of College Success — features from first half of course.
+  - contribution_id: 03f42abca0b0eb45
+    paper_id: 6a683d55-58fa-45c4-bf37-6758b22969e4
+    field: prediction_timing
+    value: mid_course
+    rationale: "Notion Moment='First half of course, predicting following-year GPA'. Feature-extraction cutoff (d-011) is the first half of the course = mid_course."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-26"
+    supersedes: "unclear"
+
+  # A-T3. DeepLMS (Dias et al. 2020) — LSTM forecasts next-day QoI continuously.
+  - contribution_id: 64399c1d0ebd51be
+    paper_id: b8980cd6-4334-49c2-9bc7-ed045cb2c055
+    field: prediction_timing
+    value: continuous_or_repeated
+    rationale: "Notion methods: LSTM trained on each user's historical QoI predicts 'next day's score', alerting before engagement drops — a repeated daily forecast. Empty Moment field resolved to continuous_or_repeated."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-26"
+    supersedes: "unclear"
+
+  # A-T4. Gupta et al. 2022 (HMM) — LWA = Lightweight Assessment; abstract says first/second quarter.
+  - contribution_id: c1d32b79cef0c552
+    paper_id: c1065dd1-6f9b-4c60-ab59-d6ada7ca4e54
+    field: prediction_timing
+    value: early_course
+    rationale: "Notion: LWA='Lightweight Assessment'; abstract 'optimal moment for early prediction is the first or second quarter of a course'; title 'Early Prediction'. 'After 5 LWA' is early in the course."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-26"
+    supersedes: "unclear"
+
+  # A-T5. Wolff et al. 2013 (OU) — performance drop in next graded activity, before each marked assessment.
+  - contribution_id: 12b8a77ea06747a0
+    paper_id: ece953f5-d0e1-489d-9f71-0f4067699481
+    field: prediction_timing
+    value: continuous_or_repeated
+    rationale: "Notion PRED row 1: target=grade drop in 'next graded activity'; features='VLE clicks in time-window k'; prediction made in the period before each marked assessment (window=3) across the course = repeated. Deployable EWS."
+    reviewer: "nlp_taxonomy_specialist; ratified RS"
+    date: "2026-06-26"
+    supersedes: "unclear"
+
+  # RETAINED as unclear (adjudicated 2026-06-26 against Notion; no override applied):
+  #  - 1489056920597c96 (Arroyo-Barriguete 2021, Portability): features mix prior-year
+  #    grades with within-course EARLY and LATE assessments; back-tested portability study
+  #    with no single feature-extraction cutoff. "Moment=Previous Academic Performance"
+  #    names feature provenance, not a course phase. -> prediction_timing stays unclear.
+  #  - 5e00fe53ac9ed148 (Semi-supervised Campus Social Network 2017): target 'Ranking of
+  #    GPA' (quartiles); Notion Moment='Not Applicable'; retrospective prediction with no
+  #    temporal cutoff. -> prediction_timing stays unclear.
